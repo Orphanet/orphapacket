@@ -1,0 +1,110 @@
+ORPHApacket:
+- ORPHApacketID: '851'
+
+- Name:
+  - label: Paris-Trousseau thrombocytopenia
+    lang: en
+
+- ORPHA: '851'
+
+- PURL: http://www.orpha.net/ORDO/Orphanet_851
+
+- DisorderType:
+  - Name:
+    - label: Disease
+      lang: en
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+
+- TextSection:
+  - Contents: Paris-Trousseau thrombocytopenia (TCPT) is a contiguous gene syndrome
+      characterized by mild bleeding tendency, variable thrombocytopenia (THC), dysmorphic
+      facies, abnormal giant alpha-granules in platelets and dysmegakaryopoiesis.
+    Name:
+    - label: Disease definition
+      lang: en
+
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Infancy
+        lang: en
+    - Name:
+      - label: Neonatal
+        lang: en
+
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '617443'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '188025'
+      Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Role in the phenotype of
+          lang: en
+        OrphaNumber: '317349'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '3749'
+            Source: HGNC
+          - Reference: '193067'
+            Source: OMIM
+        Name:
+        - label: Fli-1 proto-oncogene, ETS transcription factor
+          lang: en
+        Symbol: FLI1
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Partial deletion of the long arm of chromosome 11
+        lang: en
+      ORPHA: '262092'
+      PURL: http://www.orpha.net/ORDO/Orphanet_262092
+    - Name:
+      - label: Alpha granule disease
+        lang: en
+      ORPHA: '98455'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98455
+
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+      PURL: http://purl.obolibrary.org/obo/HP_0001249
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001626
+      HPOTerm: Abnormality of the cardiovascular system
+      PURL: http://purl.obolibrary.org/obo/HP_0001626
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
+- copyright: Orphanet (c) 2018
+
+- date: '2018-07-05 03:38:35'
+
+- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

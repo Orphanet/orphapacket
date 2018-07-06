@@ -1,0 +1,103 @@
+ORPHApacket:
+- ORPHApacketID: '88635'
+
+- Name:
+  - label: Myopathy due to calsequestrin and SERCA1 protein overload
+    lang: en
+
+- ORPHA: '88635'
+
+- PURL: http://www.orpha.net/ORDO/Orphanet_88635
+
+- DisorderType:
+  - Name:
+    - label: Disease
+      lang: en
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+
+- TextSection:
+  - Contents: Myopathy due to calsequestrin and SERCA1 protein overload is characterised
+      by mild myopathy or elevated levels of creatine kinase in the blood without
+      associated symptoms.
+    Name:
+    - label: Disease definition
+      lang: en
+
+- TypeOfInheritanceList:
+  - TypeOfInheritance:
+    - Name:
+      - label: Autosomal dominant
+        lang: en
+    - Name:
+      - label: Unknown
+        lang: en
+
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '616231'
+      Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '1512'
+            Source: HGNC
+          - Reference: '114250'
+            Source: OMIM
+        Name:
+        - label: calsequestrin 1
+          lang: en
+        Symbol: CASQ1
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Qualitative or quantitative defects of protein SERCA1
+        lang: en
+      ORPHA: '209199'
+      PURL: http://www.orpha.net/ORDO/Orphanet_209199
+    - Name:
+      - label: Genetic skeletal muscle disease
+        lang: en
+      ORPHA: '206634'
+      PURL: http://www.orpha.net/ORDO/Orphanet_206634
+
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0003198
+      HPOTerm: Myopathy
+      PURL: http://purl.obolibrary.org/obo/HP_0003198
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0003236
+      HPOTerm: Elevated serum creatine phosphokinase
+      PURL: http://purl.obolibrary.org/obo/HP_0003236
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
+- copyright: Orphanet (c) 2018
+
+- date: '2018-07-04 19:17:42'
+
+- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
