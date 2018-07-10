@@ -1,0 +1,169 @@
+ORPHApacket:
+- ORPHApacketID: '790'
+
+- Name:
+  - label: Retinoblastoma
+    lang: en
+
+- ORPHA: '790'
+
+- PURL: http://www.orpha.net/ORDO/Orphanet_790
+
+- DisorderType:
+  - Name:
+    - label: Disease
+      lang: en
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+
+- TextSection:
+  - Contents: Retinoblastoma (RB) is the most common intraocular malignancy in children.
+      It is a life threatening neoplasia but is potentially curable. RB can be hereditary
+      or non hereditary, unilateral or bilateral.
+    Name:
+    - label: Disease definition
+      lang: en
+
+- TypeOfInheritanceList:
+  - TypeOfInheritance:
+    - Name:
+      - label: Autosomal dominant
+        lang: en
+    - Name:
+      - label: Not applicable
+        lang: en
+
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Antenatal
+        lang: en
+    - Name:
+      - label: Childhood
+        lang: en
+    - Name:
+      - label: Infancy
+        lang: en
+
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '180200'
+      Source: OMIM
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Genetic vitreous-retinal disease
+        lang: en
+      ORPHA: '98657'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98657
+    - Name:
+      - label: Rare eye tumor
+        lang: en
+      ORPHA: '101950'
+      PURL: http://www.orpha.net/ORDO/Orphanet_101950
+
+- HasSubtypeList:
+  - Subtype:
+    - Disorder:
+      - DisorderGeneAssociation:
+        - DisorderGeneAssociationType:
+          - Name:
+            - label: Disease-causing germline mutation(s) (loss of function) in
+              lang: en
+            ORPHA: '410295'
+          Gene:
+          - ExternalReferenceList:
+            - ExternalReference:
+              - Reference: '9884'
+                Source: HGNC
+              - Reference: '614041'
+                Source: OMIM
+            Name:
+            - label: RB transcriptional corepressor 1
+              lang: en
+            Symbol: RB1
+        - DisorderGeneAssociationType:
+          - Name:
+            - label: Candidate gene tested in
+              lang: en
+            ORPHA: '327767'
+          Gene:
+          - ExternalReferenceList:
+            - ExternalReference:
+              - Reference: '164840'
+                Source: OMIM
+              - Reference: '7559'
+                Source: HGNC
+            Name:
+            - label: MYCN proto-oncogene, bHLH transcription factor
+              lang: en
+            Symbol: MYCN
+        Name:
+        - label: Hereditary retinoblastoma
+          lang: en
+        ORPHA: '357027'
+        PURL: http://www.orpha.net/ORDO/Orphanet_357027
+    - Disorder:
+      - DisorderGeneAssociation:
+        - DisorderGeneAssociationType:
+          - Name:
+            - label: Disease-causing somatic mutation(s) in
+              lang: en
+            ORPHA: '317344'
+          Gene:
+          - ExternalReferenceList:
+            - ExternalReference:
+              - Reference: '9884'
+                Source: HGNC
+              - Reference: '614041'
+                Source: OMIM
+            Name:
+            - label: RB transcriptional corepressor 1
+              lang: en
+            Symbol: RB1
+        - DisorderGeneAssociationType:
+          - Name:
+            - label: Candidate gene tested in
+              lang: en
+            ORPHA: '327767'
+          Gene:
+          - ExternalReferenceList:
+            - ExternalReference:
+              - Reference: '164840'
+                Source: OMIM
+              - Reference: '7559'
+                Source: HGNC
+            Name:
+            - label: MYCN proto-oncogene, bHLH transcription factor
+              lang: en
+            Symbol: MYCN
+        Name:
+        - label: Non-hereditary retinoblastoma
+          lang: en
+        ORPHA: '357034'
+        PURL: http://www.orpha.net/ORDO/Orphanet_357034
+
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0009919
+      HPOTerm: Retinoblastoma
+      PURL: http://purl.obolibrary.org/obo/HP_0009919
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
+- copyright: Orphanet (c) 2018
+
+- date: '2018-07-09 15:59:13'
+
+- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

@@ -1,0 +1,59 @@
+ORPHApacket:
+- ORPHApacketID: '200421'
+
+- Name:
+  - label: Immunodeficiency with factor H anomaly
+    lang: en
+
+- ORPHA: '200421'
+
+- PURL: http://www.orpha.net/ORDO/Orphanet_200421
+
+- DisorderType:
+  - Name:
+    - label: Disease
+      lang: en
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: NTBT (narrower term maps to a broader term)
+          lang: en
+        id: '21534'
+      Reference: '609814'
+      Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '4883'
+            Source: HGNC
+          - Reference: '134370'
+            Source: OMIM
+        Name:
+        - label: complement factor H
+          lang: en
+        Symbol: CFH
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Immunodeficiency due to a complement regulatory deficiency
+        lang: en
+      ORPHA: '459348'
+      PURL: http://www.orpha.net/ORDO/Orphanet_459348
+
+- copyright: Orphanet (c) 2018
+
+- date: '2018-07-09 18:49:43'
+
+- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

@@ -1,0 +1,121 @@
+ORPHApacket:
+- ORPHApacketID: '183707'
+
+- Name:
+  - label: Neutrophil immunodeficiency syndrome
+    lang: en
+
+- ORPHA: '183707'
+
+- PURL: http://www.orpha.net/ORDO/Orphanet_183707
+
+- DisorderType:
+  - Name:
+    - label: Disease
+      lang: en
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+
+- TextSection:
+  - Contents: Neutrophil immunodeficiency syndrome is a primary immunodeficiency characterized
+      by neutrophilia with severe neutrophil dysfunction, leukocytosis, a predisposition
+      to bacterial infections and poor wound healing, including an absence of pus
+      in infected areas.
+    Name:
+    - label: Disease definition
+      lang: en
+
+- TypeOfInheritanceList:
+  - TypeOfInheritance:
+    - Name:
+      - label: Unknown
+        lang: en
+
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Infancy
+        lang: en
+    - Name:
+      - label: Neonatal
+        lang: en
+
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '608203'
+      Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '9802'
+            Source: HGNC
+          - Reference: '602049'
+            Source: OMIM
+        Name:
+        - label: Rac family small GTPase 2
+          lang: en
+        Symbol: RAC2
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Functional neutrophil defect
+        lang: en
+      ORPHA: '183681'
+      PURL: http://www.orpha.net/ORDO/Orphanet_183681
+
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001058
+      HPOTerm: Poor wound healing
+      PURL: http://purl.obolibrary.org/obo/HP_0001058
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001974
+      HPOTerm: Leukocytosis
+      PURL: http://purl.obolibrary.org/obo/HP_0001974
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0002721
+      HPOTerm: Immunodeficiency
+      PURL: http://purl.obolibrary.org/obo/HP_0002721
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0011990
+      HPOTerm: Abnormality of neutrophil physiology
+      PURL: http://purl.obolibrary.org/obo/HP_0011990
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
+- copyright: Orphanet (c) 2018
+
+- date: '2018-07-09 18:45:47'
+
+- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

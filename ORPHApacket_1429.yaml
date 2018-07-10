@@ -1,0 +1,131 @@
+ORPHApacket:
+- ORPHApacketID: '1429'
+
+- Name:
+  - label: Benign hereditary chorea
+    lang: en
+
+- ORPHA: '1429'
+
+- PURL: http://www.orpha.net/ORDO/Orphanet_1429
+
+- DisorderType:
+  - Name:
+    - label: Disease
+      lang: en
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+
+- SynonymList:
+  - Synonym:
+    - label: BHC
+      lang: en
+    - label: Benign familial chorea
+      lang: en
+
+- TypeOfInheritanceList:
+  - TypeOfInheritance:
+    - Name:
+      - label: Autosomal dominant
+        lang: en
+
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Childhood
+        lang: en
+    - Name:
+      - label: Infancy
+        lang: en
+
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '118700'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '215450'
+      Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '11825'
+            Source: HGNC
+          - Reference: '600635'
+            Source: OMIM
+        Name:
+        - label: NK2 homeobox 1
+          lang: en
+        Symbol: NKX2-1
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '236'
+            Source: HGNC
+          - Reference: '600293'
+            Source: OMIM
+        Name:
+        - label: adenylate cyclase 5
+          lang: en
+        Symbol: ADCY5
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Neurodegenerative disease with chorea
+        lang: en
+      ORPHA: '306719'
+      PURL: http://www.orpha.net/ORDO/Orphanet_306719
+    - Name:
+      - label: Huntington disease-like syndrome
+        lang: en
+      ORPHA: '158266'
+      PURL: http://www.orpha.net/ORDO/Orphanet_158266
+
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001288
+      HPOTerm: Gait disturbance
+      PURL: http://purl.obolibrary.org/obo/HP_0001288
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0100022
+      HPOTerm: Abnormality of movement
+      PURL: http://purl.obolibrary.org/obo/HP_0100022
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
+- copyright: Orphanet (c) 2018
+
+- date: '2018-07-09 17:48:20'
+
+- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

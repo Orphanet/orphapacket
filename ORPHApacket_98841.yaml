@@ -1,0 +1,91 @@
+ORPHApacket:
+- ORPHApacketID: '98841'
+
+- Name:
+  - label: Anaplastic large cell lymphoma
+    lang: en
+
+- ORPHA: '98841'
+
+- PURL: http://www.orpha.net/ORDO/Orphanet_98841
+
+- DisorderType:
+  - Name:
+    - label: Disease
+      lang: en
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+
+- SynonymList:
+  - Synonym:
+    - label: ALCL
+      lang: en
+    - label: CD30 positive anaplastic large cell lymphoma
+      lang: en
+    - label: Ki-1 positive anaplastic large cell lymphoma
+      lang: en
+    - label: Primary systemic ALCL
+      lang: en
+    - label: sACL
+      lang: en
+
+- TextSection:
+  - Contents: 'Anaplastic large cell lymphoma (ALCL) is a rare and aggressive peripheral
+      T-cell non-Hodgkin lymphoma, belonging to the group of CD30-positive lymphoproliferative
+      disorders, which affects lymph nodes and extranodal sites. It is comprised of
+      two sub-types, based on the expression of a protein called anaplastic lymphoma
+      kinase (ALK): ALK positive and ALK negative ALCL (see these terms).'
+    Name:
+    - label: Disease definition
+      lang: en
+
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: All ages
+        lang: en
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: T-cell non-Hodgkin lymphoma
+        lang: en
+      ORPHA: '171918'
+      PURL: http://www.orpha.net/ORDO/Orphanet_171918
+
+- HasSubtypeList:
+  - Subtype:
+    - Disorder:
+      - DisorderGeneAssociation:
+        - DisorderGeneAssociationType:
+          - Name:
+            - label: Disease-causing somatic mutation(s) in
+              lang: en
+            ORPHA: '317344'
+          Gene:
+          - ExternalReferenceList:
+            - ExternalReference:
+              - Reference: '427'
+                Source: HGNC
+              - Reference: '105590'
+                Source: OMIM
+            Name:
+            - label: ALK receptor tyrosine kinase
+              lang: en
+            Symbol: ALK
+        Name:
+        - label: ALK-positive anaplastic large cell lymphoma
+          lang: en
+        ORPHA: '300895'
+        PURL: http://www.orpha.net/ORDO/Orphanet_300895
+    - Disorder:
+      - Name:
+        - label: ALK-negative anaplastic large cell lymphoma
+          lang: en
+        ORPHA: '300903'
+        PURL: http://www.orpha.net/ORDO/Orphanet_300903
+
+- copyright: Orphanet (c) 2018
+
+- date: '2018-07-09 16:48:01'
+
+- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
