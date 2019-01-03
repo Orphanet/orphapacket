@@ -19,13 +19,11 @@ ORPHApacket:
   - Synonym:
     - label: GPA
       lang: en
-    - label: Wegener granulomatosis
-      lang: en
 
 - TextSection:
-  - Contents: Wegener granulomatosis is a small-vessel necrotizing vasculitis characterised
-      by the association of inflammation of the vessel wall and peri- and extravascular
-      granulomatosis.
+  - Contents: Granulomatosis with polyangiitis is a small-vessel necrotizing vasculitis
+      characterised by the association of inflammation of the vessel wall and peri-
+      and extravascular granulomatosis.
     Name:
     - label: Disease definition
       lang: en
@@ -54,6 +52,20 @@ ORPHApacket:
 
 - DisorderGeneAssociationList:
   - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Major susceptibility factor in
+          lang: en
+        OrphaNumber: '317345'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '4938'
+            Source: HGNC
+        Name:
+        - label: major histocompatibility complex, class II, DP alpha 1
+          lang: en
+        Symbol: HLA-DPA1
     - DisorderGeneAssociationType:
       - Name:
         - label: Major susceptibility factor in
@@ -682,8 +694,8 @@ ORPHApacket:
 - HPODisorderSetStatus:
   - ValidationStatus: y
 
-- copyright: Orphanet (c) 2018
+- copyright: Orphanet (c) 2019
 
-- date: '2018-07-10 00:39:22'
+- date: '2019-01-03 03:51:39'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

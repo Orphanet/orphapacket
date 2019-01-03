@@ -50,6 +50,13 @@ ORPHApacket:
   - ExternalReference:
     - DisorderMappingRelation:
       - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618135'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
         - label: NTBT (narrower term maps to a broader term)
           lang: en
         id: '21534'
@@ -372,6 +379,11 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
+      - label: Congenital disorder of glycosylation with developmental anomaly
+        lang: en
+      ORPHA: '371235'
+      PURL: http://www.orpha.net/ORDO/Orphanet_371235
+    - Name:
       - label: Congenital disorder of glycosylation with epilepsy as a major feature
         lang: en
       ORPHA: '371071'
@@ -382,21 +394,26 @@ ORPHApacket:
       ORPHA: '207122'
       PURL: http://www.orpha.net/ORDO/Orphanet_207122
     - Name:
-      - label: Congenital vitreoretinal dysplasia
-        lang: en
-      ORPHA: '98669'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98669
-    - Name:
       - label: Non-X-linked congenital disorder of glycosylation with intellectual
           disability as a major feature
         lang: en
       ORPHA: '371064'
       PURL: http://www.orpha.net/ORDO/Orphanet_371064
     - Name:
+      - label: Congenital muscular dystrophy due to glycosyltransferase anomaly
+        lang: en
+      ORPHA: '98469'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98469
+    - Name:
       - label: Qualitative or quantitative defects of protein O-mannose beta1,2N-acetylglucosaminyltransferase
         lang: en
       ORPHA: '209024'
       PURL: http://www.orpha.net/ORDO/Orphanet_209024
+    - Name:
+      - label: Syndromic vitreoretinopathy
+        lang: en
+      ORPHA: '519327'
+      PURL: http://www.orpha.net/ORDO/Orphanet_519327
     - Name:
       - label: Qualitative or quantitative defects of protein O-mannosyltransferase
           2
@@ -414,16 +431,6 @@ ORPHApacket:
         lang: en
       ORPHA: '352687'
       PURL: http://www.orpha.net/ORDO/Orphanet_352687
-    - Name:
-      - label: Congenital muscular dystrophy due to glycosyltransferase anomaly
-        lang: en
-      ORPHA: '98469'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98469
-    - Name:
-      - label: Congenital disorder of glycosylation with developmental anomaly
-        lang: en
-      ORPHA: '371235'
-      PURL: http://www.orpha.net/ORDO/Orphanet_371235
     - Name:
       - label: Qualitative or quantitative defects of FKRP
         lang: en
@@ -849,8 +856,8 @@ ORPHApacket:
 - HPODisorderSetStatus:
   - ValidationStatus: y
 
-- copyright: Orphanet (c) 2018
+- copyright: Orphanet (c) 2019
 
-- date: '2018-07-10 00:59:45'
+- date: '2019-01-03 04:12:05'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

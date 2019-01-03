@@ -20,47 +20,108 @@ ORPHApacket:
     - label: SPG68
       lang: en
 
-- TypeOfInheritanceList:
-  - TypeOfInheritance:
-    - Name:
-      - label: Autosomal recessive
-        lang: en
+- SubClassOfList: ''
 
-- AverageAgeOfOnsetList:
-  - AverageAgeOfOnset:
-    - Name:
-      - label: Childhood
-        lang: en
-
-- DisorderGeneAssociationList:
-  - DisorderGeneAssociation:
-    - DisorderGeneAssociationType:
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
       - Name:
-        - label: Disease-causing germline mutation(s) in
+        - label: Frequent (79-30%)
           lang: en
-        OrphaNumber: '317343'
-      Gene:
-      - ExternalReferenceList:
-        - ExternalReference:
-          - Reference: '3760'
-            Source: HGNC
-          - Reference: '604806'
-            Source: OMIM
-        Name:
-        - label: fibronectin leucine rich transmembrane protein 1
+        ORPHA: '453312'
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+      PURL: http://purl.obolibrary.org/obo/HP_0001263
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
           lang: en
-        Symbol: FLRT1
+        ORPHA: '453312'
+      HPOId: HP:0001274
+      HPOTerm: Agenesis of corpus callosum
+      PURL: http://purl.obolibrary.org/obo/HP_0001274
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001347
+      HPOTerm: Hyperreflexia
+      PURL: http://purl.obolibrary.org/obo/HP_0001347
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002061
+      HPOTerm: Lower limb spasticity
+      PURL: http://purl.obolibrary.org/obo/HP_0002061
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002064
+      HPOTerm: Spastic gait
+      PURL: http://purl.obolibrary.org/obo/HP_0002064
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002120
+      HPOTerm: Cerebral cortical atrophy
+      PURL: http://purl.obolibrary.org/obo/HP_0002120
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0006817
+      HPOTerm: Aplasia/Hypoplasia of the cerebellar vermis
+      PURL: http://purl.obolibrary.org/obo/HP_0006817
+    - DiagnosticCriteria:
+      - Name:
+        - label: Diagnostic criterion
+          lang: en
+      HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0007020
+      HPOTerm: Progressive spastic paraplegia
+      PURL: http://purl.obolibrary.org/obo/HP_0007020
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0012447
+      HPOTerm: Abnormal myelination
+      PURL: http://purl.obolibrary.org/obo/HP_0012447
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0100022
+      HPOTerm: Abnormality of movement
+      PURL: http://purl.obolibrary.org/obo/HP_0100022
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0200085
+      HPOTerm: Limb tremor
+      PURL: http://purl.obolibrary.org/obo/HP_0200085
 
-- SubClassOfList:
-  - Disorder:
-    - Name:
-      - label: Autosomal recessive complex spastic paraplegia
-        lang: en
-      ORPHA: '100981'
-      PURL: http://www.orpha.net/ORDO/Orphanet_100981
+- HPODisorderSetStatus:
+  - ValidationStatus: y
 
-- copyright: Orphanet (c) 2018
+- copyright: Orphanet (c) 2019
 
-- date: '2018-07-09 21:53:48'
+- date: '2019-01-03 00:58:49'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

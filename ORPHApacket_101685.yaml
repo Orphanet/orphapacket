@@ -537,22 +537,6 @@ ORPHApacket:
           Gene:
           - ExternalReferenceList:
             - ExternalReference:
-              - Reference: '13429'
-                Source: HGNC
-              - Reference: '300379'
-                Source: OMIM
-            Name:
-            - label: ring finger protein, LIM domain interacting
-              lang: en
-            Symbol: RLIM
-        - DisorderGeneAssociationType:
-          - Name:
-            - label: Disease-causing germline mutation(s) in
-              lang: en
-            ORPHA: '317343'
-          Gene:
-          - ExternalReferenceList:
-            - ExternalReference:
               - Reference: '13486'
                 Source: HGNC
               - Reference: '300975'
@@ -1273,6 +1257,22 @@ ORPHApacket:
           Gene:
           - ExternalReferenceList:
             - ExternalReference:
+              - Reference: '10760'
+                Source: HGNC
+              - Reference: '600960'
+                Source: OMIM
+            Name:
+            - label: SET nuclear proto-oncogene
+              lang: en
+            Symbol: SET
+        - DisorderGeneAssociationType:
+          - Name:
+            - label: Disease-causing germline mutation(s) in
+              lang: en
+            ORPHA: '317343'
+          Gene:
+          - ExternalReferenceList:
+            - ExternalReference:
               - Reference: '9760'
                 Source: HGNC
               - Reference: '605570'
@@ -1313,6 +1313,22 @@ ORPHApacket:
             - label: potassium voltage-gated channel subfamily Q member 5
               lang: en
             Symbol: KCNQ5
+        - DisorderGeneAssociationType:
+          - Name:
+            - label: Disease-causing germline mutation(s) in
+              lang: en
+            ORPHA: '317343'
+          Gene:
+          - ExternalReferenceList:
+            - ExternalReference:
+              - Reference: '16966'
+                Source: HGNC
+              - Reference: '608668'
+                Source: OMIM
+            Name:
+            - label: zinc finger MYND-type containing 11
+              lang: en
+            Symbol: ZMYND11
         - DisorderGeneAssociationType:
           - Name:
             - label: Disease-causing germline mutation(s) in
@@ -1623,8 +1639,22 @@ ORPHApacket:
         ORPHA: '178469'
         PURL: http://www.orpha.net/ORDO/Orphanet_178469
 
-- copyright: Orphanet (c) 2018
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+      PURL: http://purl.obolibrary.org/obo/HP_0001249
 
-- date: '2018-07-09 17:39:00'
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
+- copyright: Orphanet (c) 2019
+
+- date: '2019-01-02 20:44:27'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

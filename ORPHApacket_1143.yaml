@@ -30,6 +30,12 @@ ORPHApacket:
       - label: Autosomal recessive
         lang: en
 
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Neonatal
+        lang: en
+
 - ExternalReferenceList:
   - ExternalReference:
     - DisorderMappingRelation:
@@ -39,6 +45,25 @@ ORPHApacket:
         id: '21527'
       Reference: '208100'
       Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '29205'
+            Source: HGNC
+          - Reference: '617946'
+            Source: OMIM
+        Name:
+        - label: endoplasmic reticulum-golgi intermediate compartment 1
+          lang: en
+        Symbol: ERGIC1
 
 - SubClassOfList:
   - Disorder:
@@ -238,8 +263,8 @@ ORPHApacket:
 - HPODisorderSetStatus:
   - ValidationStatus: y
 
-- copyright: Orphanet (c) 2018
+- copyright: Orphanet (c) 2019
 
-- date: '2018-07-10 00:16:17'
+- date: '2019-01-03 03:28:31'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

@@ -63,6 +63,13 @@ ORPHApacket:
       Source: OMIM
     - DisorderMappingRelation:
       - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618031'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
         - label: E (exact mapping (the terms and the concepts are equivalent))
           lang: en
         id: '21527'
@@ -135,22 +142,44 @@ ORPHApacket:
         - label: ovo like zinc finger 2
           lang: en
         Symbol: OVOL2
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '2799'
+            Source: HGNC
+          - Reference: '608576'
+            Source: OMIM
+        Name:
+        - label: grainyhead like transcription factor 2
+          lang: en
+        Symbol: GRHL2
 
 - SubClassOfList:
   - Disorder:
     - Name:
-      - label: Secondary glaucoma due to a proliferation and differentiation anomaly
+      - label: Genetic congenital malformation of the eye with glaucoma as a major
+          feature
         lang: en
-      ORPHA: '98637'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98637
+      ORPHA: '525677'
+      PURL: http://www.orpha.net/ORDO/Orphanet_525677
+    - Name:
+      - label: Congenital malformation of the eye with glaucoma as a major feature
+        lang: en
+      ORPHA: '98631'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98631
     - Name:
       - label: Posterior corneal dystrophy
         lang: en
       ORPHA: '98627'
       PURL: http://www.orpha.net/ORDO/Orphanet_98627
 
-- copyright: Orphanet (c) 2018
+- copyright: Orphanet (c) 2019
 
-- date: '2018-07-09 16:56:39'
+- date: '2019-01-02 20:02:26'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

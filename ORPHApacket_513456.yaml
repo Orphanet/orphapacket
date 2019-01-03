@@ -20,10 +20,61 @@ ORPHApacket:
     - label: Skraban-Deardorff syndrome
       lang: en
 
-- SubClassOfList: ''
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Infancy
+        lang: en
 
-- copyright: Orphanet (c) 2018
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '617616'
+      Source: OMIM
 
-- date: '2018-07-09 23:21:23'
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) (loss of function) in
+          lang: en
+        OrphaNumber: '410295'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '21208'
+            Source: HGNC
+          - Reference: '617424'
+            Source: OMIM
+        Name:
+        - label: WD repeat domain 26
+          lang: en
+        Symbol: WDR26
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Rare genetic syndromic intellectual disability
+        lang: en
+      ORPHA: '183763'
+      PURL: http://www.orpha.net/ORDO/Orphanet_183763
+    - Name:
+      - label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+        lang: en
+      ORPHA: '102283'
+      PURL: http://www.orpha.net/ORDO/Orphanet_102283
+    - Name:
+      - label: Rare syndromic intellectual disability
+        lang: en
+      ORPHA: '102369'
+      PURL: http://www.orpha.net/ORDO/Orphanet_102369
+
+- copyright: Orphanet (c) 2019
+
+- date: '2019-01-03 02:26:10'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

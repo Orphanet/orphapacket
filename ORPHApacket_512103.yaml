@@ -20,6 +20,25 @@ ORPHApacket:
     - label: AREI
       lang: en
 
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '6413'
+            Source: HGNC
+          - Reference: '148080'
+            Source: OMIM
+        Name:
+        - label: keratin 10
+          lang: en
+        Symbol: KRT10
+
 - SubClassOfList:
   - Disorder:
     - Name:
@@ -28,8 +47,8 @@ ORPHApacket:
       ORPHA: '281103'
       PURL: http://www.orpha.net/ORDO/Orphanet_281103
 
-- copyright: Orphanet (c) 2018
+- copyright: Orphanet (c) 2019
 
-- date: '2018-07-09 23:20:29'
+- date: '2019-01-03 02:25:16'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

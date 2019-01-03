@@ -21,7 +21,14 @@ ORPHApacket:
       lang: en
     - label: Hecht-Scott syndrome
       lang: en
-    - label: Limb transversal defect-cardiac anomaly syndrome
+
+- TextSection:
+  - Contents: A rare, genetic, congenital limb malformation syndrome characterized
+      by unilateral or bilateral fibular aplasia/hypoplasia, tibial campomelia, and
+      lower limb oligosyndactyly involving the lateral rays. Upper limb oligosyndactyly
+      and cleft lip/palate may also be associated.
+    Name:
+    - label: Disease definition
       lang: en
 
 - AverageAgeOfOnsetList:
@@ -33,7 +40,23 @@ ORPHApacket:
       - label: Neonatal
         lang: en
 
-- SubClassOfList: ''
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Syndrome with limb reduction defects
+        lang: en
+      ORPHA: '294955'
+      PURL: http://www.orpha.net/ORDO/Orphanet_294955
+    - Name:
+      - label: Genetic syndrome with limb reduction defects
+        lang: en
+      ORPHA: '404574'
+      PURL: http://www.orpha.net/ORDO/Orphanet_404574
+    - Name:
+      - label: Syndrome with limb duplication, polydactyly, syndactyly, and/or hyperphalangy
+        lang: en
+      ORPHA: '294959'
+      PURL: http://www.orpha.net/ORDO/Orphanet_294959
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -121,8 +144,8 @@ ORPHApacket:
 - HPODisorderSetStatus:
   - ValidationStatus: y
 
-- copyright: Orphanet (c) 2018
+- copyright: Orphanet (c) 2019
 
-- date: '2018-07-09 22:02:49'
+- date: '2019-01-03 01:07:53'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

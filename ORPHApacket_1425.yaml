@@ -11,9 +11,9 @@ ORPHApacket:
 
 - DisorderType:
   - Name:
-    - label: Disease
+    - label: Malformation syndrome
       lang: en
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
 
 - SynonymList:
   - Synonym:
@@ -74,41 +74,6 @@ ORPHApacket:
       Reference: '615777'
       Source: OMIM
 
-- DisorderGeneAssociationList:
-  - DisorderGeneAssociation:
-    - DisorderGeneAssociationType:
-      - Name:
-        - label: Disease-causing germline mutation(s) (loss of function) in
-          lang: en
-        OrphaNumber: '410295'
-      Gene:
-      - ExternalReferenceList:
-        - ExternalReference:
-          - Reference: '19721'
-            Source: HGNC
-          - Reference: '613165'
-            Source: OMIM
-        Name:
-        - label: calcium activated nucleotidase 1
-          lang: en
-        Symbol: CANT1
-    - DisorderGeneAssociationType:
-      - Name:
-        - label: Disease-causing germline mutation(s) (loss of function) in
-          lang: en
-        OrphaNumber: '410295'
-      Gene:
-      - ExternalReferenceList:
-        - ExternalReference:
-          - Reference: '15516'
-            Source: HGNC
-          - Reference: '608124'
-            Source: OMIM
-        Name:
-        - label: xylosyltransferase 1
-          lang: en
-        Symbol: XYLT1
-
 - SubClassOfList:
   - Disorder:
     - Name:
@@ -121,6 +86,11 @@ ORPHApacket:
         lang: en
       ORPHA: '93441'
       PURL: http://www.orpha.net/ORDO/Orphanet_93441
+    - Name:
+      - label: Rare disease with glaucoma as a major feature
+        lang: en
+      ORPHA: '98638'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98638
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -360,8 +330,8 @@ ORPHApacket:
 - HPODisorderSetStatus:
   - ValidationStatus: y
 
-- copyright: Orphanet (c) 2018
+- copyright: Orphanet (c) 2019
 
-- date: '2018-07-09 17:48:04'
+- date: '2019-01-02 20:53:16'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

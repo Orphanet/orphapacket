@@ -2,7 +2,7 @@ ORPHApacket:
 - ORPHApacketID: '384'
 
 - Name:
-  - label: Palmoplantar keratoderma-sclerodactyly syndrome
+  - label: Huriez syndrome
     lang: en
 
 - ORPHA: '384'
@@ -17,9 +17,9 @@ ORPHApacket:
 
 - SynonymList:
   - Synonym:
-    - label: Huriez syndrome
-      lang: en
     - label: Palmoplantar hyperkeratosis-sclerodactyly syndrome
+      lang: en
+    - label: Palmoplantar keratoderma-sclerodactyly syndrome
       lang: en
     - label: Scleroatrophic syndrome
       lang: en
@@ -50,6 +50,26 @@ ORPHApacket:
         id: '21527'
       Reference: '181600'
       Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '18398'
+            Source: HGNC
+          - Reference: '612761'
+            Source: OMIM
+        Name:
+        - label: SWI/SNF-related, matrix-associated actin-dependent regulator of chromatin,
+            subfamily a, containing DEAD/H box 1
+          lang: en
+        Symbol: SMARCAD1
 
 - SubClassOfList:
   - Disorder:
@@ -122,8 +142,8 @@ ORPHApacket:
 - HPODisorderSetStatus:
   - ValidationStatus: y
 
-- copyright: Orphanet (c) 2018
+- copyright: Orphanet (c) 2019
 
-- date: '2018-07-10 00:53:50'
+- date: '2019-01-03 04:06:09'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

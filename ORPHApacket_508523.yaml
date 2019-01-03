@@ -20,10 +20,67 @@ ORPHApacket:
     - label: Non-phenylketonuric non-BH4-deficiency hyperphenylalaninemia
       lang: en
 
-- SubClassOfList: ''
+- TypeOfInheritanceList:
+  - TypeOfInheritance:
+    - Name:
+      - label: Autosomal recessive
+        lang: en
 
-- copyright: Orphanet (c) 2018
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Infancy
+        lang: en
 
-- date: '2018-07-09 23:17:53'
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '617384'
+      Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '28908'
+            Source: HGNC
+          - Reference: '606060'
+            Source: OMIM
+        Name:
+        - label: DnaJ heat shock protein family (Hsp40) member C12
+          lang: en
+        Symbol: DNAJC12
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Persistent combined dystonia
+        lang: en
+      ORPHA: '391711'
+      PURL: http://www.orpha.net/ORDO/Orphanet_391711
+    - Name:
+      - label: Neurometabolic disease
+        lang: en
+      ORPHA: '68385'
+      PURL: http://www.orpha.net/ORDO/Orphanet_68385
+    - Name:
+      - label: Disorder of pterin metabolism
+        lang: en
+      ORPHA: '309819'
+      PURL: http://www.orpha.net/ORDO/Orphanet_309819
+
+- copyright: Orphanet (c) 2019
+
+- date: '2019-01-03 02:22:40'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

@@ -20,6 +20,16 @@ ORPHApacket:
     - label: SPG59
       lang: en
 
+- TextSection:
+  - Contents: Autosomal recessive spastic paraplegia type 59 is a very rare, complex
+      hereditary spastic paraplegia characterized by an early onset of progressive
+      lower limb spasticity, tip-toe walking, scissor gait, hyperreflexia and clonus
+      that may be associated with borderline intellectual disability. Nystagmus and
+      pes equinovarus have also been reported.
+    Name:
+    - label: Disease definition
+      lang: en
+
 - TypeOfInheritanceList:
   - TypeOfInheritance:
     - Name:
@@ -59,8 +69,102 @@ ORPHApacket:
       ORPHA: '100981'
       PURL: http://www.orpha.net/ORDO/Orphanet_100981
 
-- copyright: Orphanet (c) 2018
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001258
+      HPOTerm: Spastic paraplegia
+      PURL: http://purl.obolibrary.org/obo/HP_0001258
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+      PURL: http://purl.obolibrary.org/obo/HP_0000639
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001762
+      HPOTerm: Talipes equinovarus
+      PURL: http://purl.obolibrary.org/obo/HP_0001762
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002061
+      HPOTerm: Lower limb spasticity
+      PURL: http://purl.obolibrary.org/obo/HP_0002061
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002064
+      HPOTerm: Spastic gait
+      PURL: http://purl.obolibrary.org/obo/HP_0002064
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002169
+      HPOTerm: Clonus
+      PURL: http://purl.obolibrary.org/obo/HP_0002169
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002395
+      HPOTerm: Lower limb hyperreflexia
+      PURL: http://purl.obolibrary.org/obo/HP_0002395
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002509
+      HPOTerm: Limb hypertonia
+      PURL: http://purl.obolibrary.org/obo/HP_0002509
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+      PURL: http://purl.obolibrary.org/obo/HP_0001249
+    - HPOFrequency:
+      - Name:
+        - label: Excluded (0%)
+          lang: en
+        ORPHA: '453315'
+      HPOId: HP:0001317
+      HPOTerm: Abnormality of the cerebellum
+      PURL: http://purl.obolibrary.org/obo/HP_0001317
+    - HPOFrequency:
+      - Name:
+        - label: Excluded (0%)
+          lang: en
+        ORPHA: '453315'
+      HPOId: HP:0002500
+      HPOTerm: Abnormality of the cerebral white matter
+      PURL: http://purl.obolibrary.org/obo/HP_0002500
 
-- date: '2018-07-09 21:53:16'
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
+- copyright: Orphanet (c) 2019
+
+- date: '2019-01-03 00:58:17'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

@@ -11,9 +11,9 @@ ORPHApacket:
 
 - DisorderType:
   - Name:
-    - label: Disease
+    - label: Group of phenomes
       lang: en
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
 
 - SynonymList:
   - Synonym:
@@ -77,78 +77,6 @@ ORPHApacket:
         lang: en
       ORPHA: '658'
       PURL: http://www.orpha.net/ORDO/Orphanet_658
-
-- HasSubtypeList:
-  - Subtype:
-    - Disorder:
-      - DisorderGeneAssociation:
-        - DisorderGeneAssociationType:
-          - Name:
-            - label: Disease-causing germline mutation(s) in
-              lang: en
-            ORPHA: '317343'
-          Gene:
-          - ExternalReferenceList:
-            - ExternalReference:
-              - Reference: '1228'
-                Source: HGNC
-              - Reference: '606860'
-                Source: OMIM
-            Name:
-            - label: serpin family G member 1
-              lang: en
-            Symbol: SERPING1
-        Name:
-        - label: Hereditary angioedema type 1
-          lang: en
-        ORPHA: '100050'
-        PURL: http://www.orpha.net/ORDO/Orphanet_100050
-    - Disorder:
-      - DisorderGeneAssociation:
-        - DisorderGeneAssociationType:
-          - Name:
-            - label: Disease-causing germline mutation(s) in
-              lang: en
-            ORPHA: '317343'
-          Gene:
-          - ExternalReferenceList:
-            - ExternalReference:
-              - Reference: '1228'
-                Source: HGNC
-              - Reference: '606860'
-                Source: OMIM
-            Name:
-            - label: serpin family G member 1
-              lang: en
-            Symbol: SERPING1
-        Name:
-        - label: Hereditary angioedema type 2
-          lang: en
-        ORPHA: '100051'
-        PURL: http://www.orpha.net/ORDO/Orphanet_100051
-    - Disorder:
-      - DisorderGeneAssociation:
-        - DisorderGeneAssociationType:
-          - Name:
-            - label: Disease-causing germline mutation(s) (gain of function) in
-              lang: en
-            ORPHA: '410296'
-          Gene:
-          - ExternalReferenceList:
-            - ExternalReference:
-              - Reference: '3530'
-                Source: HGNC
-              - Reference: '610619'
-                Source: OMIM
-            Name:
-            - label: coagulation factor XII
-              lang: en
-            Symbol: F12
-        Name:
-        - label: Hereditary angioedema type 3
-          lang: en
-        ORPHA: '100054'
-        PURL: http://www.orpha.net/ORDO/Orphanet_100054
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -220,8 +148,8 @@ ORPHApacket:
 - HPODisorderSetStatus:
   - ValidationStatus: y
 
-- copyright: Orphanet (c) 2018
+- copyright: Orphanet (c) 2019
 
-- date: '2018-07-09 15:54:33'
+- date: '2019-01-03 04:42:04'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

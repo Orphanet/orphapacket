@@ -15,6 +15,14 @@ ORPHApacket:
       lang: en
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
+- TextSection:
+  - Contents: Primary dystonia, DYT17 type is a rare, genetic, isolated dystonia initially
+      presenting as torticollis, and later progressing to segmental or generalized
+      dystonia. Dysphonia and dysarthria also occur later in the disease course.
+    Name:
+    - label: Disease definition
+      lang: en
+
 - AverageAgeOfOnsetList:
   - AverageAgeOfOnset:
     - Name:
@@ -59,8 +67,70 @@ ORPHApacket:
       ORPHA: '1866'
       PURL: http://www.orpha.net/ORDO/Orphanet_1866
 
-- copyright: Orphanet (c) 2018
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001260
+      HPOTerm: Dysarthria
+      PURL: http://purl.obolibrary.org/obo/HP_0001260
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001618
+      HPOTerm: Dysphonia
+      PURL: http://purl.obolibrary.org/obo/HP_0001618
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0007325
+      HPOTerm: Generalized dystonia
+      PURL: http://purl.obolibrary.org/obo/HP_0007325
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000473
+      HPOTerm: Torticollis
+      PURL: http://purl.obolibrary.org/obo/HP_0000473
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0012179
+      HPOTerm: Craniofacial dystonia
+      PURL: http://purl.obolibrary.org/obo/HP_0012179
+    - HPOFrequency:
+      - Name:
+        - label: Excluded (0%)
+          lang: en
+        ORPHA: '453315'
+      HPOId: HP:0001300
+      HPOTerm: Parkinsonism
+      PURL: http://purl.obolibrary.org/obo/HP_0001300
+    - HPOFrequency:
+      - Name:
+        - label: Excluded (0%)
+          lang: en
+        ORPHA: '453315'
+      HPOId: HP:0002120
+      HPOTerm: Cerebral cortical atrophy
+      PURL: http://purl.obolibrary.org/obo/HP_0002120
 
-- date: '2018-07-09 21:39:55'
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
+- copyright: Orphanet (c) 2019
+
+- date: '2019-01-03 00:44:59'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

@@ -44,13 +44,67 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
-      - label: Sleep disorder
+      - label: Rare sleep disorder
         lang: en
       ORPHA: '68354'
       PURL: http://www.orpha.net/ORDO/Orphanet_68354
 
-- copyright: Orphanet (c) 2018
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000618
+      HPOTerm: Blindness
+      PURL: http://purl.obolibrary.org/obo/HP_0000618
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000716
+      HPOTerm: Depressivity
+      PURL: http://purl.obolibrary.org/obo/HP_0000716
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001262
+      HPOTerm: Excessive daytime somnolence
+      PURL: http://purl.obolibrary.org/obo/HP_0001262
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002189
+      HPOTerm: Excessive daytime sleepiness
+      PURL: http://purl.obolibrary.org/obo/HP_0002189
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0012689
+      HPOTerm: Abnormal pineal melatonin secretion
+      PURL: http://purl.obolibrary.org/obo/HP_0012689
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0025406
+      HPOTerm: Asthenia
+      PURL: http://purl.obolibrary.org/obo/HP_0025406
 
-- date: '2018-07-09 14:53:50'
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
+- copyright: Orphanet (c) 2019
+
+- date: '2019-01-02 17:59:40'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

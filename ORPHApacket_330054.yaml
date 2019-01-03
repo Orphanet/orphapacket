@@ -22,6 +22,17 @@ ORPHApacket:
         delay syndrome
       lang: en
 
+- TextSection:
+  - Contents: Congenital cataract-progressive muscular hypotonia-hearing loss-developmental
+      delay syndrome is a rare, genetic, mitochondrial myopathy disorder characterized
+      by congenital cataract, progressive muscular hypotonia that particularly affects
+      the lower limbs, reduced deep tendon reflexes, sensorineural hearing loss, global
+      development delay and lactic acidosis. Muscle biopsy reveals reduced complex
+      I, II and IV respiratory chain activity.
+    Name:
+    - label: Disease definition
+      lang: en
+
 - TypeOfInheritanceList:
   - TypeOfInheritance:
     - Name:
@@ -69,6 +80,11 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
+      - label: Syndromic genetic cataract
+        lang: en
+      ORPHA: '522548'
+      PURL: http://www.orpha.net/ORDO/Orphanet_522548
+    - Name:
       - label: Mitochondrial oxidative phosphorylation disorder due to nuclear DNA
           anomalies
         lang: en
@@ -90,8 +106,118 @@ ORPHApacket:
       ORPHA: '98641'
       PURL: http://www.orpha.net/ORDO/Orphanet_98641
 
-- copyright: Orphanet (c) 2018
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000408
+      HPOTerm: Progressive sensorineural hearing impairment
+      PURL: http://purl.obolibrary.org/obo/HP_0000408
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000508
+      HPOTerm: Ptosis
+      PURL: http://purl.obolibrary.org/obo/HP_0000508
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000519
+      HPOTerm: Congenital cataract
+      PURL: http://purl.obolibrary.org/obo/HP_0000519
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001252
+      HPOTerm: Muscular hypotonia
+      PURL: http://purl.obolibrary.org/obo/HP_0001252
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+      PURL: http://purl.obolibrary.org/obo/HP_0001263
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001315
+      HPOTerm: Reduced tendon reflexes
+      PURL: http://purl.obolibrary.org/obo/HP_0001315
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001583
+      HPOTerm: Rotary nystagmus
+      PURL: http://purl.obolibrary.org/obo/HP_0001583
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002079
+      HPOTerm: Hypoplasia of the corpus callosum
+      PURL: http://purl.obolibrary.org/obo/HP_0002079
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0003128
+      HPOTerm: Lactic acidosis
+      PURL: http://purl.obolibrary.org/obo/HP_0003128
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0009062
+      HPOTerm: Infantile axial hypotonia
+      PURL: http://purl.obolibrary.org/obo/HP_0009062
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0012343
+      HPOTerm: Decreased serum ferritin
+      PURL: http://purl.obolibrary.org/obo/HP_0012343
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0030089
+      HPOTerm: Abnormal muscle fiber protein expression
+      PURL: http://purl.obolibrary.org/obo/HP_0030089
+    - HPOFrequency:
+      - Name:
+        - label: Excluded (0%)
+          lang: en
+        ORPHA: '453315'
+      HPOId: HP:0001324
+      HPOTerm: Muscle weakness
+      PURL: http://purl.obolibrary.org/obo/HP_0001324
 
-- date: '2018-07-09 21:20:31'
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
+- copyright: Orphanet (c) 2019
+
+- date: '2019-01-03 00:25:31'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

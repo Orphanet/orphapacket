@@ -16,10 +16,57 @@ ORPHApacket:
       lang: en
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
-- SubClassOfList: ''
+- TypeOfInheritanceList:
+  - TypeOfInheritance:
+    - Name:
+      - label: Autosomal dominant
+        lang: en
 
-- copyright: Orphanet (c) 2018
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Neonatal
+        lang: en
 
-- date: '2018-07-09 23:17:58'
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '617294'
+      Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '25947'
+            Source: HGNC
+          - Reference: '611295'
+            Source: OMIM
+        Name:
+        - label: kelch like family member 24
+          lang: en
+        Symbol: KLHL24
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Basal epidermolysis bullosa simplex
+        lang: en
+      ORPHA: '158665'
+      PURL: http://www.orpha.net/ORDO/Orphanet_158665
+
+- copyright: Orphanet (c) 2019
+
+- date: '2019-01-03 02:22:45'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
