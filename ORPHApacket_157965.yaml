@@ -2,7 +2,7 @@ ORPHApacket:
 - ORPHApacketID: '157965'
 
 - Name:
-  - label: Ehlers-Danlos syndrome, spondylocheirodysplastic type
+  - label: SLC39A13-related spondylodysplastic Ehlers-Danlos syndrome
     lang: en
 
 - ORPHA: '157965'
@@ -11,13 +11,21 @@ ORPHApacket:
 
 - DisorderType:
   - Name:
-    - label: Disease
+    - label: Clinical subtype
       lang: en
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
 
 - SynonymList:
   - Synonym:
-    - label: EDS, spondylocheirodysplastic type
+    - label: SCD-EDS
+      lang: en
+    - label: SLC39A13-related spEDS
+      lang: en
+    - label: SLC39A13-related spondylodysplastic EDS
+      lang: en
+    - label: Spondylocheirodysplastic Ehlers-Danlos syndrome
+      lang: en
+    - label: spEDS-SLC39A13
       lang: en
 
 - TextSection:
@@ -53,25 +61,6 @@ ORPHApacket:
       Reference: '612350'
       Source: OMIM
 
-- DisorderGeneAssociationList:
-  - DisorderGeneAssociation:
-    - DisorderGeneAssociationType:
-      - Name:
-        - label: Disease-causing germline mutation(s) in
-          lang: en
-        OrphaNumber: '317343'
-      Gene:
-      - ExternalReferenceList:
-        - ExternalReference:
-          - Reference: '20859'
-            Source: HGNC
-          - Reference: '608735'
-            Source: OMIM
-        Name:
-        - label: solute carrier family 39 member 13
-          lang: en
-        Symbol: SLC39A13
-
 - SubClassOfList:
   - Disorder:
     - Name:
@@ -85,10 +74,10 @@ ORPHApacket:
       ORPHA: '253'
       PURL: http://www.orpha.net/ORDO/Orphanet_253
     - Name:
-      - label: Ehlers-Danlos syndrome
+      - label: Spondylodysplastic Ehlers-Danlos syndrome
         lang: en
-      ORPHA: '98249'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98249
+      ORPHA: '536471'
+      PURL: http://www.orpha.net/ORDO/Orphanet_536471
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -258,6 +247,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 21:15:46'
+- date: '2019-07-18 22:29:05'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

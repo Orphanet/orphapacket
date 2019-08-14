@@ -2,7 +2,7 @@ ORPHApacket:
 - ORPHApacketID: '285'
 
 - Name:
-  - label: Ehlers-Danlos syndrome, hypermobility type
+  - label: Hypermobile Ehlers-Danlos syndrome
     lang: en
 
 - ORPHA: '285'
@@ -17,17 +17,15 @@ ORPHApacket:
 
 - SynonymList:
   - Synonym:
-    - label: BJHS
-      lang: en
-    - label: Benign joint hypermobility syndrome
-      lang: en
     - label: EDS III
+      lang: en
+    - label: EDS-HT
+      lang: en
+    - label: Ehlers-Danlos syndrome hypermobility type
       lang: en
     - label: Ehlers-Danlos syndrome type 3
       lang: en
-    - label: Ehlers-Danlos syndrome, hypermobile type
-      lang: en
-    - label: HT-EDS
+    - label: hEDS
       lang: en
 
 - TextSection:
@@ -63,25 +61,6 @@ ORPHApacket:
         id: '21527'
       Reference: '130020'
       Source: OMIM
-
-- DisorderGeneAssociationList:
-  - DisorderGeneAssociation:
-    - DisorderGeneAssociationType:
-      - Name:
-        - label: Disease-causing germline mutation(s) in
-          lang: en
-        OrphaNumber: '317343'
-      Gene:
-      - ExternalReferenceList:
-        - ExternalReference:
-          - Reference: '11976'
-            Source: HGNC
-          - Reference: '600985'
-            Source: OMIM
-        Name:
-        - label: tenascin XB
-          lang: en
-        Symbol: TNXB
 
 - SubClassOfList:
   - Disorder:
@@ -139,7 +118,7 @@ ORPHApacket:
           lang: en
         ORPHA: '453313'
       HPOId: HP:0000174
-      HPOTerm: Abnormality of the palate
+      HPOTerm: Abnormal palate morphology
       PURL: http://purl.obolibrary.org/obo/HP_0000174
     - HPOFrequency:
       - Name:
@@ -547,6 +526,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 03:26:27'
+- date: '2019-07-19 04:45:21'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

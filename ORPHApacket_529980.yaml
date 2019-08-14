@@ -2,7 +2,7 @@ ORPHApacket:
 - ORPHApacketID: '529980'
 
 - Name:
-  - label: NFAT5 deficiency
+  - label: Inflammatory bowel disease-recurrent sinopulmonary infections syndrome
     lang: en
 
 - ORPHA: '529980'
@@ -11,21 +11,50 @@ ORPHApacket:
 
 - DisorderType:
   - Name:
-    - label: No type
+    - label: Disease
       lang: en
-    PURL: http://www.orpha.net/ORDO/Orphanet_377798
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
 - SynonymList:
   - Synonym:
     - label: NFAT5 haploinsufficiency
       lang: en
-    - label: inflammatory bowel disease recurrent-sinopulmonary infections syndrome
-      lang: en
 
-- SubClassOfList: ''
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Infancy
+        lang: en
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Candidate gene tested in
+          lang: en
+        OrphaNumber: '327767'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '7774'
+            Source: HGNC
+          - Reference: '604708'
+            Source: OMIM
+        Name:
+        - label: nuclear factor of activated T cells 5
+          lang: en
+        Symbol: NFAT5
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Immune dysregulation with inflammatory bowel disease
+        lang: en
+      ORPHA: '529974'
+      PURL: http://www.orpha.net/ORDO/Orphanet_529974
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 02:34:20'
+- date: '2019-07-19 03:49:08'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

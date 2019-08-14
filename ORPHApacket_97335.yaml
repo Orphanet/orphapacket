@@ -33,6 +33,15 @@ ORPHApacket:
     - label: Disease definition
       lang: en
 
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Adolescent
+        lang: en
+    - Name:
+      - label: Childhood
+        lang: en
+
 - SubClassOfList:
   - Disorder:
     - Name:
@@ -41,8 +50,78 @@ ORPHApacket:
       ORPHA: '399319'
       PURL: http://www.orpha.net/ORDO/Orphanet_399319
 
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0030839
+      HPOTerm: Knee pain
+      PURL: http://purl.obolibrary.org/obo/HP_0030839
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002355
+      HPOTerm: Difficulty walking
+      PURL: http://purl.obolibrary.org/obo/HP_0002355
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0003045
+      HPOTerm: Abnormality of the patella
+      PURL: http://purl.obolibrary.org/obo/HP_0003045
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0003066
+      HPOTerm: Limited knee extension
+      PURL: http://purl.obolibrary.org/obo/HP_0003066
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0006456
+      HPOTerm: Irregular proximal tibial epiphyses
+      PURL: http://purl.obolibrary.org/obo/HP_0006456
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0009046
+      HPOTerm: Difficulty running
+      PURL: http://purl.obolibrary.org/obo/HP_0009046
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002362
+      HPOTerm: Shuffling gait
+      PURL: http://purl.obolibrary.org/obo/HP_0002362
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0030866
+      HPOTerm: Large knee
+      PURL: http://purl.obolibrary.org/obo/HP_0030866
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 19:39:53'
+- date: '2019-07-18 20:53:22'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

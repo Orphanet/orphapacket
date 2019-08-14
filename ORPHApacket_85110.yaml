@@ -29,7 +29,13 @@ ORPHApacket:
 - AverageAgeOfOnsetList:
   - AverageAgeOfOnset:
     - Name:
+      - label: Adolescent
+        lang: en
+    - Name:
       - label: Adult
+        lang: en
+    - Name:
+      - label: Childhood
         lang: en
 
 - ExternalReferenceList:
@@ -41,25 +47,6 @@ ORPHApacket:
         id: '21527'
       Reference: '604218'
       Source: OMIM
-
-- DisorderGeneAssociationList:
-  - DisorderGeneAssociation:
-    - DisorderGeneAssociationType:
-      - Name:
-        - label: Disease-causing germline mutation(s) in
-          lang: en
-        OrphaNumber: '317343'
-      Gene:
-      - ExternalReferenceList:
-        - ExternalReference:
-          - Reference: '8943'
-            Source: HGNC
-          - Reference: '602445'
-            Source: OMIM
-        Name:
-        - label: serpin family I member 1
-          lang: en
-        Symbol: SERPINI1
 
 - SubClassOfList:
   - Disorder:
@@ -74,8 +61,23 @@ ORPHApacket:
       ORPHA: '250808'
       PURL: http://www.orpha.net/ORDO/Orphanet_250808
 
+- HasSubtypeList:
+  - Subtype:
+    - Disorder:
+      - Name:
+        - label: Progressive dementia with neuroserpin inclusion bodies
+          lang: en
+        ORPHA: '530303'
+        PURL: http://www.orpha.net/ORDO/Orphanet_530303
+    - Disorder:
+      - Name:
+        - label: Progressive myoclonic epilepsy with neuroserpin inclusion bodies
+          lang: en
+        ORPHA: '530298'
+        PURL: http://www.orpha.net/ORDO/Orphanet_530298
+
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 18:28:10'
+- date: '2019-07-18 19:41:35'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

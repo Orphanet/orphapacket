@@ -23,6 +23,19 @@ ORPHApacket:
     - label: Spondyloepimetaphyseal dysplasia, Sponastrime type
       lang: en
 
+- TextSection:
+  - Contents: A rare, genetic, spondyloepimetaphyseal dysplasia disease characterized
+      by short-limbed short stature (more pronounced in lower limbs) associated with
+      characterisitic facial dysmorphism (i.e. relative macrocephaly, frontal bossing,
+      midface hypoplasia, depressed nasal root, small upturned nose, prognathism)
+      and abnormal radiological findings, which include abnormal vertebral bodies
+      (particularly in the lumbar region), striated metaphyses, generalized mild osteoporosis,
+      and delayed ossification of the carpal bones. Progressive coxa vara, short dental
+      roots, hypogammaglobulinemia and cataracts may be occasionally associated.
+    Name:
+    - label: Disease definition
+      lang: en
+
 - TypeOfInheritanceList:
   - TypeOfInheritance:
     - Name:
@@ -47,6 +60,25 @@ ORPHApacket:
         id: '21527'
       Reference: '271510'
       Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) (loss of function) in
+          lang: en
+        OrphaNumber: '410295'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '7801'
+            Source: HGNC
+          - Reference: '604546'
+            Source: OMIM
+        Name:
+        - label: tonsoku like, DNA repair protein
+          lang: en
+        Symbol: TONSL
 
 - SubClassOfList:
   - Disorder:
@@ -272,6 +304,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 19:10:35'
+- date: '2019-07-18 20:24:08'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

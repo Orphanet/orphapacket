@@ -16,10 +16,10 @@ ORPHApacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
 
 - TextSection:
-  - Contents: Aplasia cutis congenita (ACC) is a rare skin disorder characterized
-      by localized absence of skin that is usually located on the scalp but can occur
-      anywhere on the body including the face, trunk and extremities. ACC may occasionally
-      be associated with other anomalies.
+  - Contents: A rare skin disorder characterized by localized absence of skin that
+      is usually located on the scalp but can occur anywhere on the body including
+      the face, trunk and extremities. ACC may occasionally be associated with other
+      anomalies.
     Name:
     - label: Disease definition
       lang: en
@@ -28,6 +28,9 @@ ORPHApacket:
   - TypeOfInheritance:
     - Name:
       - label: Autosomal dominant
+        lang: en
+    - Name:
+      - label: Autosomal recessive
         lang: en
     - Name:
       - label: Not applicable
@@ -44,6 +47,13 @@ ORPHApacket:
 
 - ExternalReferenceList:
   - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '600360'
+      Source: OMIM
     - DisorderMappingRelation:
       - Name:
         - label: E (exact mapping (the terms and the concepts are equivalent))
@@ -82,22 +92,6 @@ ORPHApacket:
       PURL: http://purl.obolibrary.org/obo/HP_0001362
     - HPOFrequency:
       - Name:
-        - label: Occasional (29-5%)
-          lang: en
-        ORPHA: '453313'
-      HPOId: HP:0003010
-      HPOTerm: Prolonged bleeding time
-      PURL: http://purl.obolibrary.org/obo/HP_0003010
-    - HPOFrequency:
-      - Name:
-        - label: Occasional (29-5%)
-          lang: en
-        ORPHA: '453313'
-      HPOId: HP:0004348
-      HPOTerm: Abnormality of bone mineral density
-      PURL: http://purl.obolibrary.org/obo/HP_0004348
-    - HPOFrequency:
-      - Name:
         - label: Very frequent (99-80%)
           lang: en
         ORPHA: '453311'
@@ -122,26 +116,58 @@ ORPHApacket:
       PURL: http://purl.obolibrary.org/obo/HP_0010301
     - HPOFrequency:
       - Name:
-        - label: Occasional (29-5%)
-          lang: en
-        ORPHA: '453313'
-      HPOId: HP:0010628
-      HPOTerm: Facial palsy
-      PURL: http://purl.obolibrary.org/obo/HP_0010628
-    - HPOFrequency:
-      - Name:
         - label: Frequent (79-30%)
           lang: en
         ORPHA: '453312'
       HPOId: HP:0200042
       HPOTerm: Skin ulcer
       PURL: http://purl.obolibrary.org/obo/HP_0200042
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001770
+      HPOTerm: Toe syndactyly
+      PURL: http://purl.obolibrary.org/obo/HP_0001770
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0003010
+      HPOTerm: Prolonged bleeding time
+      PURL: http://purl.obolibrary.org/obo/HP_0003010
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0004348
+      HPOTerm: Abnormality of bone mineral density
+      PURL: http://purl.obolibrary.org/obo/HP_0004348
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0006101
+      HPOTerm: Finger syndactyly
+      PURL: http://purl.obolibrary.org/obo/HP_0006101
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0010628
+      HPOTerm: Facial palsy
+      PURL: http://purl.obolibrary.org/obo/HP_0010628
 
 - HPODisorderSetStatus:
   - ValidationStatus: y
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 02:58:04'
+- date: '2019-07-19 04:19:01'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

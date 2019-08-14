@@ -16,8 +16,11 @@ ORPHApacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
 - TextSection:
-  - Contents: Cone rod dystrophies (CRDs) are inherited retinal dystrophies that belong
-      to the group of pigmentary retinopathies.
+  - Contents: A rare genetic isolated inherited retinal disorder characterized by
+      primary cone degeneration with significant secondary rod involvement, with a
+      variable fundus appearance. Typical presentation includes decreased visual acuity,
+      central scotoma, photophobia, color vision alteration, followed by night blindness
+      and loss of peripheral visual field.
     Name:
     - label: Disease definition
       lang: en
@@ -36,6 +39,12 @@ ORPHApacket:
 
 - AverageAgeOfOnsetList:
   - AverageAgeOfOnset:
+    - Name:
+      - label: Adolescent
+        lang: en
+    - Name:
+      - label: Adult
+        lang: en
     - Name:
       - label: Childhood
         lang: en
@@ -259,6 +268,22 @@ ORPHApacket:
         - label: peripherin 2
           lang: en
         Symbol: PRPH2
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '1260'
+            Source: HGNC
+          - Reference: '603191'
+            Source: OMIM
+        Name:
+        - label: cilia and flagella associated protein 410
+          lang: en
+        Symbol: CFAP410
     - DisorderGeneAssociationType:
       - Name:
         - label: Disease-causing germline mutation(s) in
@@ -679,15 +704,15 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
-      - label: Retinal ciliopathy due to mutation in the RPGRIP gene
-        lang: en
-      ORPHA: '156174'
-      PURL: http://www.orpha.net/ORDO/Orphanet_156174
-    - Name:
       - label: Isolated progressive inherited retinal disorder
         lang: en
       ORPHA: '519306'
       PURL: http://www.orpha.net/ORDO/Orphanet_519306
+    - Name:
+      - label: Retinal ciliopathy due to mutation in the RPGRIP gene
+        lang: en
+      ORPHA: '156174'
+      PURL: http://www.orpha.net/ORDO/Orphanet_156174
     - Name:
       - label: Retinal ciliopathy due to mutation in the RPGR gene
         lang: en
@@ -742,6 +767,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 21:54:39'
+- date: '2019-07-18 23:08:05'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

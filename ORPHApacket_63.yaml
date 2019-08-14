@@ -21,10 +21,10 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: Alport syndrome (AS) is an inherited disease characterised by glomerular
-      nephropathy with hematuria, progressing to end-stage renal disease, associated
-      with sensorineural deafness. It involves a structural defect of type IV collagen,
-      which is a normal component of the glomeral basal membrane.
+  - Contents: An inherited disease characterised by glomerular nephropathy with hematuria,
+      progressing to end-stage renal disease, associated with sensorineural deafness.
+      It involves a structural defect of type IV collagen, which is a normal component
+      of the glomeral basal membrane.
     Name:
     - label: Disease definition
       lang: en
@@ -197,6 +197,45 @@ ORPHApacket:
           lang: en
         ORPHA: '88919'
         PURL: http://www.orpha.net/ORDO/Orphanet_88919
+    - Disorder:
+      - DisorderGeneAssociation:
+        - DisorderGeneAssociationType:
+          - Name:
+            - label: Role in the phenotype of
+              lang: en
+            ORPHA: '317349'
+          Gene:
+          - ExternalReferenceList:
+            - ExternalReference:
+              - Reference: '2208'
+                Source: HGNC
+              - Reference: '303631'
+                Source: OMIM
+            Name:
+            - label: collagen type IV alpha 6 chain
+              lang: en
+            Symbol: COL4A6
+        - DisorderGeneAssociationType:
+          - Name:
+            - label: Role in the phenotype of
+              lang: en
+            ORPHA: '317349'
+          Gene:
+          - ExternalReferenceList:
+            - ExternalReference:
+              - Reference: '2207'
+                Source: HGNC
+              - Reference: '303630'
+                Source: OMIM
+            Name:
+            - label: collagen type IV alpha 5 chain
+              lang: en
+            Symbol: COL4A5
+        Name:
+        - label: X-linked Alport syndrome-diffuse leiomyomatosis
+          lang: en
+        ORPHA: '1018'
+        PURL: http://www.orpha.net/ORDO/Orphanet_1018
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -470,6 +509,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 03:43:31'
+- date: '2019-07-19 05:02:25'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

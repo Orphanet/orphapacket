@@ -16,8 +16,8 @@ ORPHApacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
 - TextSection:
-  - Contents: Nephronophthisis is a chronic tubulointerstitial nephropathy that progresses
-      to end-stage renal failure.
+  - Contents: A chronic tubulointerstitial nephropathy that progresses to end-stage
+      renal failure.
     Name:
     - label: Disease definition
       lang: en
@@ -129,12 +129,17 @@ ORPHApacket:
       ORPHA: '93603'
       PURL: http://www.orpha.net/ORDO/Orphanet_93603
     - Name:
+      - label: Retinal ciliopathy due to mutation in nephronophthisis gene
+        lang: en
+      ORPHA: '156180'
+      PURL: http://www.orpha.net/ORDO/Orphanet_156180
+    - Name:
       - label: Genetic renal tubular disease
         lang: en
       ORPHA: '183592'
       PURL: http://www.orpha.net/ORDO/Orphanet_183592
     - Name:
-      - label: Rare disorder indicated for kidney transplant
+      - label: Rare disorder potentially indicated for kidney transplant
         lang: en
       ORPHA: '506213'
       PURL: http://www.orpha.net/ORDO/Orphanet_506213
@@ -418,6 +423,22 @@ ORPHApacket:
             - label: mitogen-activated protein kinase binding protein 1
               lang: en
             Symbol: MAPKBP1
+        - DisorderGeneAssociationType:
+          - Name:
+            - label: Disease-causing germline mutation(s) in
+              lang: en
+            ORPHA: '317343'
+          Gene:
+          - ExternalReferenceList:
+            - ExternalReference:
+              - Reference: '13202'
+                Source: HGNC
+              - Reference: '605421'
+                Source: OMIM
+            Name:
+            - label: ADAM metallopeptidase with thrombospondin type 1 motif 9
+              lang: en
+            Symbol: ADAMTS9
         Name:
         - label: Juvenile nephronophthisis
           lang: en
@@ -456,6 +477,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 03:17:20'
+- date: '2019-07-19 04:36:08'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

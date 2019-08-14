@@ -46,6 +46,13 @@ ORPHApacket:
   - ExternalReference:
     - DisorderMappingRelation:
       - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618188'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
         - label: E (exact mapping (the terms and the concepts are equivalent))
           lang: en
         id: '21527'
@@ -54,6 +61,17 @@ ORPHApacket:
 
 - DisorderGeneAssociationList:
   - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        Name:
+        - label: transient receptor potential cation channel subfamily V member 6
+          lang: en
+        Symbol: TRPV6
     - DisorderGeneAssociationType:
       - Name:
         - label: Disease-causing germline mutation(s) (loss of function) in
@@ -177,6 +195,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 03:34:24'
+- date: '2019-07-19 04:53:19'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

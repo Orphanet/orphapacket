@@ -2,7 +2,7 @@ ORPHApacket:
 - ORPHApacketID: '287'
 
 - Name:
-  - label: Ehlers-Danlos syndrome, classic type
+  - label: Classical Ehlers-Danlos syndrome
     lang: en
 
 - ORPHA: '287'
@@ -17,7 +17,9 @@ ORPHApacket:
 
 - SynonymList:
   - Synonym:
-    - label: EDS, classic type
+    - label: Classical EDS
+      lang: en
+    - label: cEDS
       lang: en
 
 - TextSection:
@@ -53,8 +55,66 @@ ORPHApacket:
         - label: E (exact mapping (the terms and the concepts are equivalent))
           lang: en
         id: '21527'
+      Reference: '130010'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
       Reference: '130000'
       Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '2210'
+            Source: HGNC
+          - Reference: '120190'
+            Source: OMIM
+        Name:
+        - label: collagen type V alpha 2 chain
+          lang: en
+        Symbol: COL5A2
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '2209'
+            Source: HGNC
+          - Reference: '120215'
+            Source: OMIM
+        Name:
+        - label: collagen type V alpha 1 chain
+          lang: en
+        Symbol: COL5A1
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '2197'
+            Source: HGNC
+          - Reference: '120150'
+            Source: OMIM
+        Name:
+        - label: collagen type I alpha 1 chain
+          lang: en
+        Symbol: COL1A1
 
 - SubClassOfList:
   - Disorder:
@@ -69,133 +129,20 @@ ORPHApacket:
       ORPHA: '108979'
       PURL: http://www.orpha.net/ORDO/Orphanet_108979
     - Name:
-      - label: Rare systemic disease
+      - label: Rare disease with dentinogenesis imperfecta
         lang: en
-      ORPHA: '182222'
-      PURL: http://www.orpha.net/ORDO/Orphanet_182222
+      ORPHA: '167762'
+      PURL: http://www.orpha.net/ORDO/Orphanet_167762
     - Name:
       - label: Syndromic diaphragmatic or thoracic malformation
         lang: en
       ORPHA: '180779'
       PURL: http://www.orpha.net/ORDO/Orphanet_180779
     - Name:
-      - label: Rare disease with dentinogenesis imperfecta
+      - label: Rare systemic disease
         lang: en
-      ORPHA: '167762'
-      PURL: http://www.orpha.net/ORDO/Orphanet_167762
-
-- HasSubtypeList:
-  - Subtype:
-    - Disorder:
-      - DisorderGeneAssociation:
-        - DisorderGeneAssociationType:
-          - Name:
-            - label: Disease-causing germline mutation(s) in
-              lang: en
-            ORPHA: '317343'
-          Gene:
-          - ExternalReferenceList:
-            - ExternalReference:
-              - Reference: '2210'
-                Source: HGNC
-              - Reference: '120190'
-                Source: OMIM
-            Name:
-            - label: collagen type V alpha 2 chain
-              lang: en
-            Symbol: COL5A2
-        - DisorderGeneAssociationType:
-          - Name:
-            - label: Disease-causing germline mutation(s) in
-              lang: en
-            ORPHA: '317343'
-          Gene:
-          - ExternalReferenceList:
-            - ExternalReference:
-              - Reference: '2197'
-                Source: HGNC
-              - Reference: '120150'
-                Source: OMIM
-            Name:
-            - label: collagen type I alpha 1 chain
-              lang: en
-            Symbol: COL1A1
-        - DisorderGeneAssociationType:
-          - Name:
-            - label: Disease-causing germline mutation(s) in
-              lang: en
-            ORPHA: '317343'
-          Gene:
-          - ExternalReferenceList:
-            - ExternalReference:
-              - Reference: '2209'
-                Source: HGNC
-              - Reference: '120215'
-                Source: OMIM
-            Name:
-            - label: collagen type V alpha 1 chain
-              lang: en
-            Symbol: COL5A1
-        Name:
-        - label: Ehlers-Danlos syndrome type 1
-          lang: en
-        ORPHA: '90309'
-        PURL: http://www.orpha.net/ORDO/Orphanet_90309
-    - Disorder:
-      - DisorderGeneAssociation:
-        - DisorderGeneAssociationType:
-          - Name:
-            - label: Disease-causing germline mutation(s) in
-              lang: en
-            ORPHA: '317343'
-          Gene:
-          - ExternalReferenceList:
-            - ExternalReference:
-              - Reference: '2209'
-                Source: HGNC
-              - Reference: '120215'
-                Source: OMIM
-            Name:
-            - label: collagen type V alpha 1 chain
-              lang: en
-            Symbol: COL5A1
-        - DisorderGeneAssociationType:
-          - Name:
-            - label: Disease-causing germline mutation(s) in
-              lang: en
-            ORPHA: '317343'
-          Gene:
-          - ExternalReferenceList:
-            - ExternalReference:
-              - Reference: '2210'
-                Source: HGNC
-              - Reference: '120190'
-                Source: OMIM
-            Name:
-            - label: collagen type V alpha 2 chain
-              lang: en
-            Symbol: COL5A2
-        - DisorderGeneAssociationType:
-          - Name:
-            - label: Disease-causing germline mutation(s) in
-              lang: en
-            ORPHA: '317343'
-          Gene:
-          - ExternalReferenceList:
-            - ExternalReference:
-              - Reference: '2197'
-                Source: HGNC
-              - Reference: '120150'
-                Source: OMIM
-            Name:
-            - label: collagen type I alpha 1 chain
-              lang: en
-            Symbol: COL1A1
-        Name:
-        - label: Ehlers-Danlos syndrome type 2
-          lang: en
-        ORPHA: '90318'
-        PURL: http://www.orpha.net/ORDO/Orphanet_90318
+      ORPHA: '182222'
+      PURL: http://www.orpha.net/ORDO/Orphanet_182222
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -797,6 +744,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 03:43:09'
+- date: '2019-07-19 05:02:03'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

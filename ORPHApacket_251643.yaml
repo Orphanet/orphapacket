@@ -11,9 +11,9 @@ ORPHApacket:
 
 - DisorderType:
   - Name:
-    - label: Histopathological subtype
+    - label: Disease
       lang: en
-    PURL: http://www.orpha.net/ORDO/Orphanet_377797
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
 - TextSection:
   - Contents: Myxopapillary ependymoma (MEPN) describes a slow growing ependymoma
@@ -43,16 +43,116 @@ ORPHApacket:
       - label: Childhood
         lang: en
 
-- SubClassOfList:
-  - Disorder:
-    - Name:
-      - label: Low grade ependymoma
-        lang: en
-      ORPHA: '251633'
-      PURL: http://www.orpha.net/ORDO/Orphanet_251633
+- SubClassOfList: ''
+
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0100006
+      HPOTerm: Neoplasm of the central nervous system
+      PURL: http://purl.obolibrary.org/obo/HP_0100006
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0005107
+      HPOTerm: Abnormal sacrum morphology
+      PURL: http://purl.obolibrary.org/obo/HP_0005107
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0008069
+      HPOTerm: Neoplasm of the skin
+      PURL: http://purl.obolibrary.org/obo/HP_0008069
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000372
+      HPOTerm: Abnormality of the auditory canal
+      PURL: http://purl.obolibrary.org/obo/HP_0000372
+    - DiagnosticCriteria:
+      - Name:
+        - label: Diagnostic criterion
+          lang: en
+      HPOFrequency:
+      - Name:
+        - label: Obligate (100%)
+          lang: en
+        ORPHA: '453310'
+      HPOId: HP:0002888
+      HPOTerm: Ependymoma
+      PURL: http://purl.obolibrary.org/obo/HP_0002888
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0031938
+      HPOTerm: Abnormal conus terminalis morphology
+      PURL: http://purl.obolibrary.org/obo/HP_0031938
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002013
+      HPOTerm: Vomiting
+      PURL: http://purl.obolibrary.org/obo/HP_0002013
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002315
+      HPOTerm: Headache
+      PURL: http://purl.obolibrary.org/obo/HP_0002315
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002317
+      HPOTerm: Unsteady gait
+      PURL: http://purl.obolibrary.org/obo/HP_0002317
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0005341
+      HPOTerm: Autonomic bladder dysfunction
+      PURL: http://purl.obolibrary.org/obo/HP_0005341
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0012700
+      HPOTerm: Abnormal large intestine physiology
+      PURL: http://purl.obolibrary.org/obo/HP_0012700
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0030833
+      HPOTerm: Neck pain
+      PURL: http://purl.obolibrary.org/obo/HP_0030833
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 22:46:19'
+- date: '2019-07-18 23:59:34'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

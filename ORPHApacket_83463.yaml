@@ -16,14 +16,14 @@ ORPHApacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
 
 - TextSection:
-  - Contents: Microtia is a congenital malformation of the external ear, seen more
-      frequently in males, that occurs sporadically or is inherited, that is characterized
-      by unilateral (79-93% of cases, 60% of which involve the right ear) or bilateral
+  - Contents: A congenital malformation of the external ear, seen more frequently
+      in males, that occurs sporadically or is inherited, that is characterized by
+      unilateral (79-93% of cases, 60% of which involve the right ear) or bilateral
       small and abnormally shaped auricles and that is often associated with atresia
       or stenosis of the ear canal, attention deficit disorders and delayed language
       development. The variation in auricle size ranges from grade I, where the auricle
-      is simply smaller than normal, to grade IV, also known as anotia (see this term),
-      where there is a complete absence of the external ear and of the auditory canal.
+      is simply smaller than normal, to grade IV, also known as anotia, where there
+      is a complete absence of the external ear and of the auditory canal.
     Name:
     - label: Disease definition
       lang: en
@@ -74,8 +74,82 @@ ORPHApacket:
       ORPHA: '156243'
       PURL: http://www.orpha.net/ORDO/Orphanet_156243
 
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - DiagnosticCriteria:
+      - Name:
+        - label: Diagnostic criterion
+          lang: en
+      HPOFrequency:
+      - Name:
+        - label: Obligate (100%)
+          lang: en
+        ORPHA: '453310'
+      HPOId: HP:0008551
+      HPOTerm: Microtia
+      PURL: http://purl.obolibrary.org/obo/HP_0008551
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000377
+      HPOTerm: Abnormality of the pinna
+      PURL: http://purl.obolibrary.org/obo/HP_0000377
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000413
+      HPOTerm: Atresia of the external auditory canal
+      PURL: http://purl.obolibrary.org/obo/HP_0000413
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000750
+      HPOTerm: Delayed speech and language development
+      PURL: http://purl.obolibrary.org/obo/HP_0000750
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0008589
+      HPOTerm: Hypoplastic helices
+      PURL: http://purl.obolibrary.org/obo/HP_0008589
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0009892
+      HPOTerm: Anotia
+      PURL: http://purl.obolibrary.org/obo/HP_0009892
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001360
+      HPOTerm: Holoprosencephaly
+      PURL: http://purl.obolibrary.org/obo/HP_0001360
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0007018
+      HPOTerm: Attention deficit hyperactivity disorder
+      PURL: http://purl.obolibrary.org/obo/HP_0007018
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 18:24:35'
+- date: '2019-07-18 19:38:00'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

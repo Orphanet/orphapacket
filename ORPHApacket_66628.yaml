@@ -11,9 +11,9 @@ ORPHApacket:
 
 - DisorderType:
   - Name:
-    - label: Disease
+    - label: Etiological subtype
       lang: en
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    PURL: http://www.orpha.net/ORDO/Orphanet_377795
 
 - TextSection:
   - Contents: Congenital leptin deficiency is a form of monogenic obesity characterised
@@ -43,25 +43,6 @@ ORPHApacket:
         id: '21527'
       Reference: '614962'
       Source: OMIM
-
-- DisorderGeneAssociationList:
-  - DisorderGeneAssociation:
-    - DisorderGeneAssociationType:
-      - Name:
-        - label: Disease-causing germline mutation(s) in
-          lang: en
-        OrphaNumber: '317343'
-      Gene:
-      - ExternalReferenceList:
-        - ExternalReference:
-          - Reference: '6553'
-            Source: HGNC
-          - Reference: '164160'
-            Source: OMIM
-        Name:
-        - label: leptin
-          lang: en
-        Symbol: LEP
 
 - SubClassOfList:
   - Disorder:
@@ -140,7 +121,7 @@ ORPHApacket:
           lang: en
         ORPHA: '453311'
       HPOId: HP:0005407
-      HPOTerm: Decreased number of CD4+ T cells
+      HPOTerm: Decreased proportion of CD4-positive T cells
       PURL: http://purl.obolibrary.org/obo/HP_0005407
     - HPOFrequency:
       - Name:
@@ -244,6 +225,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 17:50:37'
+- date: '2019-07-18 19:04:16'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

@@ -66,20 +66,15 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
-      - label: Qualitative or quantitative defects of merosin
-        lang: en
-      ORPHA: '207094'
-      PURL: http://www.orpha.net/ORDO/Orphanet_207094
-    - Name:
-      - label: Congenital muscular dystrophy due to extracellular matrix protein anomaly
-        lang: en
-      ORPHA: '98468'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98468
-    - Name:
       - label: Congenital muscular dystrophy
         lang: en
       ORPHA: '97242'
       PURL: http://www.orpha.net/ORDO/Orphanet_97242
+    - Name:
+      - label: Qualitative or quantitative defects of merosin
+        lang: en
+      ORPHA: '207094'
+      PURL: http://www.orpha.net/ORDO/Orphanet_207094
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -248,14 +243,6 @@ ORPHApacket:
         - label: Frequent (79-30%)
           lang: en
         ORPHA: '453312'
-      HPOId: HP:0002093
-      HPOTerm: Respiratory insufficiency
-      PURL: http://purl.obolibrary.org/obo/HP_0002093
-    - HPOFrequency:
-      - Name:
-        - label: Frequent (79-30%)
-          lang: en
-        ORPHA: '453312'
       HPOId: HP:0002181
       HPOTerm: Cerebral edema
       PURL: http://purl.obolibrary.org/obo/HP_0002181
@@ -288,8 +275,16 @@ ORPHApacket:
         - label: Frequent (79-30%)
           lang: en
         ORPHA: '453312'
+      HPOId: HP:0003457
+      HPOTerm: EMG abnormality
+      PURL: http://purl.obolibrary.org/obo/HP_0003457
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
       HPOId: HP:0005216
-      HPOTerm: Chewing difficulties
+      HPOTerm: Impaired mastication
       PURL: http://purl.obolibrary.org/obo/HP_0005216
     - HPOFrequency:
       - Name:
@@ -344,6 +339,14 @@ ORPHApacket:
         - label: Occasional (29-5%)
           lang: en
         ORPHA: '453313'
+      HPOId: HP:0001315
+      HPOTerm: Reduced tendon reflexes
+      PURL: http://purl.obolibrary.org/obo/HP_0001315
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
       HPOId: HP:0001319
       HPOTerm: Neonatal hypotonia
       PURL: http://purl.obolibrary.org/obo/HP_0001319
@@ -385,7 +388,7 @@ ORPHApacket:
           lang: en
         ORPHA: '453313'
       HPOId: HP:0002121
-      HPOTerm: Absence seizures
+      HPOTerm: Absence seizure
       PURL: http://purl.obolibrary.org/obo/HP_0002121
     - HPOFrequency:
       - Name:
@@ -449,7 +452,7 @@ ORPHApacket:
           lang: en
         ORPHA: '453313'
       HPOId: HP:0007359
-      HPOTerm: Focal seizures
+      HPOTerm: Focal-onset seizure
       PURL: http://purl.obolibrary.org/obo/HP_0007359
     - HPOFrequency:
       - Name:
@@ -499,12 +502,20 @@ ORPHApacket:
       HPOId: HP:0002092
       HPOTerm: Pulmonary arterial hypertension
       PURL: http://purl.obolibrary.org/obo/HP_0002092
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0002093
+      HPOTerm: Respiratory insufficiency
+      PURL: http://purl.obolibrary.org/obo/HP_0002093
 
 - HPODisorderSetStatus:
   - ValidationStatus: y
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 02:39:06'
+- date: '2019-07-19 04:00:06'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

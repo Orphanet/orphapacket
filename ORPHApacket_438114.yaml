@@ -15,6 +15,15 @@ ORPHApacket:
       lang: en
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
+- TextSection:
+  - Contents: A rare, genetic leukodystrophy characterized by developmental delay,
+      increased muscle tone leading later to spasticity, mild ataxia, nystagmus, dysarthria,
+      intentional tremor, and mild intellectual disability. Brain imaging reveals
+      supratentorial and infratentorial hypomyelination.
+    Name:
+    - label: Disease definition
+      lang: en
+
 - TypeOfInheritanceList:
   - TypeOfInheritance:
     - Name:
@@ -79,14 +88,6 @@ ORPHApacket:
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
-    - HPOFrequency:
-      - Name:
-        - label: Frequent (79-30%)
-          lang: en
-        ORPHA: '453312'
-      HPOId: HP:0000639
-      HPOTerm: Nystagmus
-      PURL: http://purl.obolibrary.org/obo/HP_0000639
     - HPOFrequency:
       - Name:
         - label: Frequent (79-30%)
@@ -287,12 +288,28 @@ ORPHApacket:
       HPOId: HP:0007179
       HPOTerm: Absent smooth pursuit
       PURL: http://purl.obolibrary.org/obo/HP_0007179
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0007359
+      HPOTerm: Focal-onset seizure
+      PURL: http://purl.obolibrary.org/obo/HP_0007359
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+      PURL: http://purl.obolibrary.org/obo/HP_0000639
 
 - HPODisorderSetStatus:
   - ValidationStatus: y
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 01:20:25'
+- date: '2019-07-19 02:33:12'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

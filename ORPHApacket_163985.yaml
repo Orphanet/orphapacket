@@ -15,10 +15,27 @@ ORPHApacket:
       lang: en
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
+- TextSection:
+  - Contents: A rare, X-linked, syndromic intellectual disability disease characterized
+      by neonatal hypertonia which evolves to hypotonia and an exaggerated startle
+      response (to sudden visual, auditory or tactile stimuli), followed by the development
+      of early-onset, frequently refractory, tonic or myoclonic seizures. Progressive
+      epileptic encephalopathy, intellectual disability, and psychomotor development
+      arrest, with subsecuent decline, may be additionally associated.
+    Name:
+    - label: Disease definition
+      lang: en
+
 - TypeOfInheritanceList:
   - TypeOfInheritance:
     - Name:
       - label: X-linked recessive
+        lang: en
+
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Neonatal
         lang: en
 
 - ExternalReferenceList:
@@ -73,8 +90,86 @@ ORPHApacket:
       ORPHA: '183521'
       PURL: http://www.orpha.net/ORDO/Orphanet_183521
 
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001276
+      HPOTerm: Hypertonia
+      PURL: http://purl.obolibrary.org/obo/HP_0001276
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002267
+      HPOTerm: Exaggerated startle response
+      PURL: http://purl.obolibrary.org/obo/HP_0002267
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002376
+      HPOTerm: Developmental regression
+      PURL: http://purl.obolibrary.org/obo/HP_0002376
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002384
+      HPOTerm: Focal impaired awareness seizure
+      PURL: http://purl.obolibrary.org/obo/HP_0002384
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0007333
+      HPOTerm: Hypoplasia of the frontal lobes
+      PURL: http://purl.obolibrary.org/obo/HP_0007333
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0010818
+      HPOTerm: Generalized tonic seizures
+      PURL: http://purl.obolibrary.org/obo/HP_0010818
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0012018
+      HPOTerm: EEG with temporal focal spikes
+      PURL: http://purl.obolibrary.org/obo/HP_0012018
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0200134
+      HPOTerm: Epileptic encephalopathy
+      PURL: http://purl.obolibrary.org/obo/HP_0200134
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000243
+      HPOTerm: Trigonocephaly
+      PURL: http://purl.obolibrary.org/obo/HP_0000243
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 21:24:28'
+- date: '2019-07-18 22:37:54'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

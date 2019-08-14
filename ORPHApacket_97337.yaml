@@ -30,6 +30,15 @@ ORPHApacket:
     - label: Disease definition
       lang: en
 
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Adolescent
+        lang: en
+    - Name:
+      - label: Childhood
+        lang: en
+
 - SubClassOfList:
   - Disorder:
     - Name:
@@ -38,8 +47,54 @@ ORPHApacket:
       ORPHA: '399319'
       PURL: http://www.orpha.net/ORDO/Orphanet_399319
 
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0030839
+      HPOTerm: Knee pain
+      PURL: http://purl.obolibrary.org/obo/HP_0030839
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001386
+      HPOTerm: Joint swelling
+      PURL: http://purl.obolibrary.org/obo/HP_0001386
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0010501
+      HPOTerm: Limitation of knee mobility
+      PURL: http://purl.obolibrary.org/obo/HP_0010501
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0040188
+      HPOTerm: Osteochondrosis
+      PURL: http://purl.obolibrary.org/obo/HP_0040188
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002661
+      HPOTerm: Painless fractures due to injury
+      PURL: http://purl.obolibrary.org/obo/HP_0002661
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 19:40:03'
+- date: '2019-07-18 20:53:33'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

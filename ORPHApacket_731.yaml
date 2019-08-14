@@ -21,9 +21,12 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: Autosomal recessive polycystic kidney disease (ARPKD) is an inherited
-      disorder characterised by the development of cysts affecting the collecting
-      ducts. It is frequently associated with hepatic involvement.
+  - Contents: A rare, genetic hepatorenal fibrocystic syndrome characterized by cystic
+      dilatation and ectasia of renal collecting tubules, and a ductal plate malformation
+      of the liver resulting in congenital hepatic fibrosis. Clinical presentation,
+      whilst typically in utero or at birth, is variable and in the most severe cases
+      includes Potter-sequence, oligohydramnios, pulmonary hypoplasia, and massively
+      enlarged echogenic kidneys.
     Name:
     - label: Disease definition
       lang: en
@@ -37,7 +40,7 @@ ORPHApacket:
 - AverageAgeOfOnsetList:
   - AverageAgeOfOnset:
     - Name:
-      - label: Childhood
+      - label: All ages
         lang: en
 
 - ExternalReferenceList:
@@ -88,12 +91,17 @@ ORPHApacket:
           - Reference: '9016'
             Source: HGNC
         Name:
-        - label: PKHD1, fibrocystin/polyductin
+        - label: PKHD1 ciliary IPT domain containing fibrocystin/polyductin
           lang: en
         Symbol: PKHD1
 
 - SubClassOfList:
   - Disorder:
+    - Name:
+      - label: Genetic parenchymatous liver disease
+        lang: en
+      ORPHA: '156604'
+      PURL: http://www.orpha.net/ORDO/Orphanet_156604
     - Name:
       - label: Rare genetic disorder with obstructive azoospermia
         lang: en
@@ -105,15 +113,20 @@ ORPHApacket:
       ORPHA: '399824'
       PURL: http://www.orpha.net/ORDO/Orphanet_399824
     - Name:
-      - label: Rare disorder indicated for kidney transplant
-        lang: en
-      ORPHA: '506213'
-      PURL: http://www.orpha.net/ORDO/Orphanet_506213
-    - Name:
       - label: Familial cystic renal disease
         lang: en
       ORPHA: '93587'
       PURL: http://www.orpha.net/ORDO/Orphanet_93587
+    - Name:
+      - label: Rare disorder potentially indicated for kidney transplant
+        lang: en
+      ORPHA: '506213'
+      PURL: http://www.orpha.net/ORDO/Orphanet_506213
+    - Name:
+      - label: Rare parenchymal liver disease
+        lang: en
+      ORPHA: '101939'
+      PURL: http://www.orpha.net/ORDO/Orphanet_101939
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -227,6 +240,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 04:21:10'
+- date: '2019-07-19 05:40:05'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

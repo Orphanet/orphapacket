@@ -11,13 +11,13 @@ ORPHApacket:
 
 - DisorderType:
   - Name:
-    - label: Clinical subtype
+    - label: Disease
       lang: en
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
 - SynonymList:
   - Synonym:
-    - label: KS
+    - label: Congenital bullous poikiloderma
       lang: en
     - label: Poikiloderma of Kindler
       lang: en
@@ -46,13 +46,37 @@ ORPHApacket:
       - label: Neonatal
         lang: en
 
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) (loss of function) in
+          lang: en
+        OrphaNumber: '410295'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '15889'
+            Source: HGNC
+          - Reference: '607900'
+            Source: OMIM
+        Name:
+        - label: fermitin family member 1
+          lang: en
+        Symbol: FERMT1
+
 - SubClassOfList:
   - Disorder:
     - Name:
-      - label: Hereditary acrokeratotic poikiloderma of Kindler-Weary
+      - label: Rare photodermatosis
         lang: en
-      ORPHA: '306539'
-      PURL: http://www.orpha.net/ORDO/Orphanet_306539
+      ORPHA: '79390'
+      PURL: http://www.orpha.net/ORDO/Orphanet_79390
+    - Name:
+      - label: Genetic photodermatosis
+        lang: en
+      ORPHA: '183490'
+      PURL: http://www.orpha.net/ORDO/Orphanet_183490
     - Name:
       - label: Inherited epidermolysis bullosa
         lang: en
@@ -395,6 +419,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 04:05:04'
+- date: '2019-07-19 05:23:59'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

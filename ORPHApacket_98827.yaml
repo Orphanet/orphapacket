@@ -22,6 +22,12 @@ ORPHApacket:
     - label: Disease definition
       lang: en
 
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: All ages
+        lang: en
+
 - SubClassOfList:
   - Disorder:
     - Name:
@@ -30,8 +36,94 @@ ORPHApacket:
       ORPHA: '86836'
       PURL: http://www.orpha.net/ORDO/Orphanet_86836
 
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0002863
+      HPOTerm: Myelodysplasia
+      PURL: http://purl.obolibrary.org/obo/HP_0002863
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001871
+      HPOTerm: Abnormality of blood and blood-forming tissues
+      PURL: http://purl.obolibrary.org/obo/HP_0001871
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0012148
+      HPOTerm: Multiple lineage myelodysplasia
+      PURL: http://purl.obolibrary.org/obo/HP_0012148
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+      PURL: http://purl.obolibrary.org/obo/HP_0012378
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0045040
+      HPOTerm: Abnormal lactate dehydrogenase activity
+      PURL: http://purl.obolibrary.org/obo/HP_0045040
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001974
+      HPOTerm: Leukocytosis
+      PURL: http://purl.obolibrary.org/obo/HP_0001974
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002960
+      HPOTerm: Autoimmunity
+      PURL: http://purl.obolibrary.org/obo/HP_0002960
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0005528
+      HPOTerm: Bone marrow hypocellularity
+      PURL: http://purl.obolibrary.org/obo/HP_0005528
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0030166
+      HPOTerm: Night sweats
+      PURL: http://purl.obolibrary.org/obo/HP_0030166
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0004808
+      HPOTerm: Acute myeloid leukemia
+      PURL: http://purl.obolibrary.org/obo/HP_0004808
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 19:52:42'
+- date: '2019-07-18 21:06:18'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

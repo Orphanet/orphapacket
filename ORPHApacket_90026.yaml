@@ -37,7 +37,7 @@ ORPHApacket:
 - AverageAgeOfOnsetList:
   - AverageAgeOfOnset:
     - Name:
-      - label: Childhood
+      - label: All ages
         lang: en
 
 - ExternalReferenceList:
@@ -109,8 +109,78 @@ ORPHApacket:
       ORPHA: '140474'
       PURL: http://www.orpha.net/ORDO/Orphanet_140474
 
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0009830
+      HPOTerm: Peripheral neuropathy
+      PURL: http://purl.obolibrary.org/obo/HP_0009830
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0010783
+      HPOTerm: Erythema
+      PURL: http://purl.obolibrary.org/obo/HP_0010783
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000989
+      HPOTerm: Pruritus
+      PURL: http://purl.obolibrary.org/obo/HP_0000989
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001872
+      HPOTerm: Abnormality of thrombocytes
+      PURL: http://purl.obolibrary.org/obo/HP_0001872
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001909
+      HPOTerm: Leukemia
+      PURL: http://purl.obolibrary.org/obo/HP_0001909
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002045
+      HPOTerm: Hypothermia
+      PURL: http://purl.obolibrary.org/obo/HP_0002045
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002205
+      HPOTerm: Recurrent respiratory infections
+      PURL: http://purl.obolibrary.org/obo/HP_0002205
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002633
+      HPOTerm: Vasculitis
+      PURL: http://purl.obolibrary.org/obo/HP_0002633
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 18:47:41'
+- date: '2019-07-18 20:01:20'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

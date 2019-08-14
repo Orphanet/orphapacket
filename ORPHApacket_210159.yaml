@@ -11,9 +11,9 @@ ORPHApacket:
 
 - DisorderType:
   - Name:
-    - label: Clinical subtype
+    - label: Disease
       lang: en
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
 - SynonymList:
   - Synonym:
@@ -21,11 +21,11 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: Adult hepatocellular carcinoma is the most common primary liver cancer
-      of adulthood. Derived from well-differentiated hepatocytes, it often develops
-      from chronic liver cirrhosis which is most often due to hepatitis B and C virus
-      or alcohol abuse. Symptoms are hepatic mass, abdominal pain and, in advanced
-      stages, jaundice, cachexia and liver failure.
+  - Contents: A rare neoplastic disease and the most common primary liver cancer of
+      adulthood, characterized by hepatic mass, abdominal pain and, in advanced stages,
+      jaundice, cachexia and liver failure. Derived from well-differentiated hepatocytes,
+      it often develops from chronic liver cirrhosis which is most often due to hepatitis
+      B and C virus or alcohol abuse.
     Name:
     - label: Disease definition
       lang: en
@@ -35,6 +35,154 @@ ORPHApacket:
     - Name:
       - label: Not applicable
         lang: en
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing somatic mutation(s) in
+          lang: en
+        OrphaNumber: '317344'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '603816'
+            Source: OMIM
+          - Reference: '903'
+            Source: HGNC
+        Name:
+        - label: axin 1
+          lang: en
+        Symbol: AXIN1
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing somatic mutation(s) in
+          lang: en
+        OrphaNumber: '317344'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '8975'
+            Source: HGNC
+          - Reference: '171834'
+            Source: OMIM
+        Name:
+        - label: phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit
+            alpha
+          lang: en
+        Symbol: PIK3CA
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing somatic mutation(s) in
+          lang: en
+        OrphaNumber: '317344'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '1509'
+            Source: HGNC
+          - Reference: '601763'
+            Source: OMIM
+        Name:
+        - label: caspase 8
+          lang: en
+        Symbol: CASP8
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Candidate gene tested in
+          lang: en
+        OrphaNumber: '327767'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '11998'
+            Source: HGNC
+          - Reference: '191170'
+            Source: OMIM
+        Name:
+        - label: tumor protein p53
+          lang: en
+        Symbol: TP53
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Candidate gene tested in
+          lang: en
+        OrphaNumber: '327767'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '604584'
+            Source: OMIM
+          - Reference: '8805'
+            Source: HGNC
+        Name:
+        - label: platelet derived growth factor receptor like
+          lang: en
+        Symbol: PDGFRL
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Candidate gene tested in
+          lang: en
+        OrphaNumber: '327767'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '2514'
+            Source: HGNC
+          - Reference: '116806'
+            Source: OMIM
+        Name:
+        - label: catenin beta 1
+          lang: en
+        Symbol: CTNNB1
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Candidate gene tested in
+          lang: en
+        OrphaNumber: '327767'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '191092'
+            Source: OMIM
+          - Reference: '12363'
+            Source: HGNC
+        Name:
+        - label: TSC complex subunit 2
+          lang: en
+        Symbol: TSC2
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Candidate gene tested in
+          lang: en
+        OrphaNumber: '327767'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '12362'
+            Source: HGNC
+          - Reference: '605284'
+            Source: OMIM
+        Name:
+        - label: TSC complex subunit 1
+          lang: en
+        Symbol: TSC1
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Major susceptibility factor in
+          lang: en
+        OrphaNumber: '317345'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '3229'
+            Source: HGNC
+          - Reference: '131530'
+            Source: OMIM
+        Name:
+        - label: epidermal growth factor
+          lang: en
+        Symbol: EGF
 
 - SubClassOfList:
   - Disorder:
@@ -46,6 +194,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 22:01:43'
+- date: '2019-07-18 23:15:11'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

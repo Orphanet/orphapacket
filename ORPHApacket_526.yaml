@@ -56,6 +56,13 @@ ORPHApacket:
         - label: E (exact mapping (the terms and the concepts are equivalent))
           lang: en
         id: '21527'
+      Reference: '618126'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
       Reference: '177200'
       Source: OMIM
 
@@ -93,6 +100,22 @@ ORPHApacket:
         - label: sodium channel epithelial 1 gamma subunit
           lang: en
         Symbol: SCNN1G
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) (gain of function) in
+          lang: en
+        OrphaNumber: '410296'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '10599'
+            Source: HGNC
+          - Reference: '600228'
+            Source: OMIM
+        Name:
+        - label: sodium channel epithelial 1 alpha subunit
+          lang: en
+        Symbol: SCNN1A
 
 - SubClassOfList:
   - Disorder:
@@ -101,11 +124,6 @@ ORPHApacket:
         lang: en
       ORPHA: '156629'
       PURL: http://www.orpha.net/ORDO/Orphanet_156629
-    - Name:
-      - label: Channelopathy due to an epithelial sodium channel defect
-        lang: en
-      ORPHA: '98110'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98110
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -187,6 +205,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 04:18:34'
+- date: '2019-07-19 05:37:29'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

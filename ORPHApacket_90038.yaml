@@ -2,7 +2,7 @@ ORPHApacket:
 - ORPHApacketID: '90038'
 
 - Name:
-  - label: Typical hemolytic-uremic syndrome
+  - label: Shiga toxin-associated hemolytic uremic syndrome
     lang: en
 
 - ORPHA: '90038'
@@ -11,21 +11,30 @@ ORPHApacket:
 
 - DisorderType:
   - Name:
-    - label: Disease
+    - label: Clinical subtype
       lang: en
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
 
 - SynonymList:
   - Synonym:
-    - label: D+HUS
+    - label: D+ HUS
       lang: en
-    - label: Hemolytic-uremic syndrome with diarrhea
+    - label: EHEC-HUS
+      lang: en
+    - label: Hemolytic uremic syndrome associated with Shiga toxin-producing Escherichia
+        coli
+      lang: en
+    - label: Hemolytic uremic syndrome with diarrhea
+      lang: en
+    - label: STEC-HUS
       lang: en
     - label: Shiga-like toxin-associated HUS
       lang: en
-    - label: Sxt-HUS
+    - label: Stx-HUS
       lang: en
     - label: Typical HUS
+      lang: en
+    - label: Typical hemolytic uremic syndrome
       lang: en
 
 - TextSection:
@@ -67,7 +76,7 @@ ORPHApacket:
       ORPHA: '182047'
       PURL: http://www.orpha.net/ORDO/Orphanet_182047
     - Name:
-      - label: Rare disorder indicated for kidney transplant
+      - label: Rare disorder potentially indicated for kidney transplant
         lang: en
       ORPHA: '506213'
       PURL: http://www.orpha.net/ORDO/Orphanet_506213
@@ -77,8 +86,278 @@ ORPHApacket:
       ORPHA: '93573'
       PURL: http://www.orpha.net/ORDO/Orphanet_93573
 
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001873
+      HPOTerm: Thrombocytopenia
+      PURL: http://purl.obolibrary.org/obo/HP_0001873
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001919
+      HPOTerm: Acute kidney injury
+      PURL: http://purl.obolibrary.org/obo/HP_0001919
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001937
+      HPOTerm: Microangiopathic hemolytic anemia
+      PURL: http://purl.obolibrary.org/obo/HP_0001937
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002013
+      HPOTerm: Vomiting
+      PURL: http://purl.obolibrary.org/obo/HP_0002013
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002014
+      HPOTerm: Diarrhea
+      PURL: http://purl.obolibrary.org/obo/HP_0002014
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002027
+      HPOTerm: Abdominal pain
+      PURL: http://purl.obolibrary.org/obo/HP_0002027
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0003259
+      HPOTerm: Elevated serum creatinine
+      PURL: http://purl.obolibrary.org/obo/HP_0003259
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0005423
+      HPOTerm: Dysfunctional alternative complement pathway
+      PURL: http://purl.obolibrary.org/obo/HP_0005423
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0008282
+      HPOTerm: Unconjugated hyperbilirubinemia
+      PURL: http://purl.obolibrary.org/obo/HP_0008282
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0100519
+      HPOTerm: Anuria
+      PURL: http://purl.obolibrary.org/obo/HP_0100519
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000707
+      HPOTerm: Abnormality of the nervous system
+      PURL: http://purl.obolibrary.org/obo/HP_0000707
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000737
+      HPOTerm: Irritability
+      PURL: http://purl.obolibrary.org/obo/HP_0000737
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000822
+      HPOTerm: Hypertension
+      PURL: http://purl.obolibrary.org/obo/HP_0000822
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+      PURL: http://purl.obolibrary.org/obo/HP_0001250
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001262
+      HPOTerm: Excessive daytime somnolence
+      PURL: http://purl.obolibrary.org/obo/HP_0001262
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001923
+      HPOTerm: Reticulocytosis
+      PURL: http://purl.obolibrary.org/obo/HP_0001923
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001944
+      HPOTerm: Dehydration
+      PURL: http://purl.obolibrary.org/obo/HP_0001944
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001974
+      HPOTerm: Leukocytosis
+      PURL: http://purl.obolibrary.org/obo/HP_0001974
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001981
+      HPOTerm: Schistocytosis
+      PURL: http://purl.obolibrary.org/obo/HP_0001981
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002900
+      HPOTerm: Hypokalemia
+      PURL: http://purl.obolibrary.org/obo/HP_0002900
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002902
+      HPOTerm: Hyponatremia
+      PURL: http://purl.obolibrary.org/obo/HP_0002902
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0003641
+      HPOTerm: Hemoglobinuria
+      PURL: http://purl.obolibrary.org/obo/HP_0003641
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0025085
+      HPOTerm: Bloody diarrhea
+      PURL: http://purl.obolibrary.org/obo/HP_0025085
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0025435
+      HPOTerm: Increased lactate dehydrogenase activity
+      PURL: http://purl.obolibrary.org/obo/HP_0025435
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0031368
+      HPOTerm: Intestinal perforation
+      PURL: http://purl.obolibrary.org/obo/HP_0031368
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0100282
+      HPOTerm: Acute colitis
+      PURL: http://purl.obolibrary.org/obo/HP_0100282
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001259
+      HPOTerm: Coma
+      PURL: http://purl.obolibrary.org/obo/HP_0001259
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001658
+      HPOTerm: Myocardial infarction
+      PURL: http://purl.obolibrary.org/obo/HP_0001658
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001733
+      HPOTerm: Pancreatitis
+      PURL: http://purl.obolibrary.org/obo/HP_0001733
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0002035
+      HPOTerm: Rectal prolapse
+      PURL: http://purl.obolibrary.org/obo/HP_0002035
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0002576
+      HPOTerm: Intussusception
+      PURL: http://purl.obolibrary.org/obo/HP_0002576
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0002586
+      HPOTerm: Peritonitis
+      PURL: http://purl.obolibrary.org/obo/HP_0002586
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0012851
+      HPOTerm: Colonic stenosis
+      PURL: http://purl.obolibrary.org/obo/HP_0012851
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 18:48:24'
+- date: '2019-07-18 20:02:03'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

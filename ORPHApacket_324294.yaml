@@ -21,11 +21,10 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: T-cell immunodeficiency with epidermodysplasia verruciformis is a rare
-      primary immunodeficiency characterized by increased susceptibility to infection
-      by human papillomavirus, presenting in childhood with disseminated flat wart-like
-      cutaneous lesions. Burkitt lymphoma has also been reported. Whilst total T-cell
-      T-cell lymphopenia with memory T-cells displaying an exhaustion phenotype.
+  - Contents: A rare primary immunodeficiency characterized by increased susceptibility
+      to infection by human papillomavirus, presenting in childhood with disseminated
+      flat wart-like cutaneous lesions. Burkitt lymphoma has also been reported. Whilst
+      naive T-cell lymphopenia with memory T-cells displaying an exhaustion phenotype.
     Name:
     - label: Disease definition
       lang: en
@@ -41,6 +40,16 @@ ORPHApacket:
     - Name:
       - label: Childhood
         lang: en
+
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '618307'
+      Source: OMIM
 
 - DisorderGeneAssociationList:
   - DisorderGeneAssociation:
@@ -69,13 +78,13 @@ ORPHApacket:
       ORPHA: '331193'
       PURL: http://www.orpha.net/ORDO/Orphanet_331193
     - Name:
-      - label: Rare disorder indicated for hematopoietic stem cell transplant
+      - label: Rare disorder potentially indicated for hematopoietic stem cell transplant
         lang: en
       ORPHA: '506219'
       PURL: http://www.orpha.net/ORDO/Orphanet_506219
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 00:15:27'
+- date: '2019-07-19 01:28:11'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

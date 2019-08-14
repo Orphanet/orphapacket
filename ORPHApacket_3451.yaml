@@ -23,10 +23,10 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: West syndrome (or infantile spasms) is characterised by the association
-      of clusters of axial spasms, psychomotor retardation and an hypsarrhythmic interictal
-      EEG pattern. It is the most frequent type of epileptic encephalopathy. It may
-      occur in otherwise healthy infants and in those with abnormal cognitive development.
+  - Contents: A rare disorder characterized by the association of clusters of axial
+      spasms, psychomotor retardation and an hypsarrhythmic interictal EEG pattern.
+      It is the most frequent type of epileptic encephalopathy. It may occur in otherwise
+      healthy infants and in those with abnormal cognitive development.
     Name:
     - label: Disease definition
       lang: en
@@ -57,6 +57,13 @@ ORPHApacket:
 
 - ExternalReferenceList:
   - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618298'
+      Source: OMIM
     - DisorderMappingRelation:
       - Name:
         - label: BTNT (broader term maps to a narrower term)
@@ -129,15 +136,21 @@ ORPHApacket:
       ORPHA: '98258'
       PURL: http://www.orpha.net/ORDO/Orphanet_98258
     - Name:
-      - label: Rare genetic syndromic intellectual disability
+      - label: Neurological channelopathy of the central nervous system due to a genetic
+          sodium channel defect
         lang: en
-      ORPHA: '183763'
-      PURL: http://www.orpha.net/ORDO/Orphanet_183763
+      ORPHA: '98744'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98744
     - Name:
       - label: ARX-related epileptic encephalopathy
         lang: en
       ORPHA: '182079'
       PURL: http://www.orpha.net/ORDO/Orphanet_182079
+    - Name:
+      - label: Rare genetic syndromic intellectual disability
+        lang: en
+      ORPHA: '183763'
+      PURL: http://www.orpha.net/ORDO/Orphanet_183763
     - Name:
       - label: Rare syndromic intellectual disability
         lang: en
@@ -200,6 +213,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 04:16:51'
+- date: '2019-07-19 05:35:46'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

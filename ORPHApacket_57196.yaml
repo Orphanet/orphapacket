@@ -20,6 +20,18 @@ ORPHApacket:
     - label: Osteitis condensans of the clavicle
       lang: en
 
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Adolescent
+        lang: en
+    - Name:
+      - label: Adult
+        lang: en
+    - Name:
+      - label: Childhood
+        lang: en
+
 - SubClassOfList:
   - Disorder:
     - Name:
@@ -28,8 +40,54 @@ ORPHApacket:
       ORPHA: '399319'
       PURL: http://www.orpha.net/ORDO/Orphanet_399319
 
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000889
+      HPOTerm: Abnormality of the clavicle
+      PURL: http://purl.obolibrary.org/obo/HP_0000889
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0010657
+      HPOTerm: Patchy reduction of bone mineral density
+      PURL: http://purl.obolibrary.org/obo/HP_0010657
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0030834
+      HPOTerm: Shoulder pain
+      PURL: http://purl.obolibrary.org/obo/HP_0030834
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0006467
+      HPOTerm: Limited shoulder movement
+      PURL: http://purl.obolibrary.org/obo/HP_0006467
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0011227
+      HPOTerm: Elevated C-reactive protein level
+      PURL: http://purl.obolibrary.org/obo/HP_0011227
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 17:43:05'
+- date: '2019-07-18 18:56:42'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

@@ -2,7 +2,7 @@ ORPHApacket:
 - ORPHApacketID: '75496'
 
 - Name:
-  - label: Ehlers-Danlos syndrome, progeroid type
+  - label: B4GALT7-related spondylodysplastic Ehlers-Danlos syndrome
     lang: en
 
 - ORPHA: '75496'
@@ -11,25 +11,19 @@ ORPHApacket:
 
 - DisorderType:
   - Name:
-    - label: Disease
+    - label: Clinical subtype
       lang: en
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
 
 - SynonymList:
   - Synonym:
-    - label: B4GALT7-CDG
+    - label: B4GALT7-related spondylodysplastic EDS
       lang: en
-    - label: Defective biosynthesis of proteodermatan sulfate
+    - label: EDS progeroid type 1
       lang: en
-    - label: EDS, progeroid type
+    - label: EDS with short stature and limb anomalies
       lang: en
-    - label: Galactosyltransferase I deficiency
-      lang: en
-    - label: PDS
-      lang: en
-    - label: XGPT deficiency
-      lang: en
-    - label: Xylosylprotein 4-beta-galactosyltransferase deficiency
+    - label: spEDS-B4GALT7
       lang: en
 
 - TextSection:
@@ -50,10 +44,10 @@ ORPHApacket:
 - AverageAgeOfOnsetList:
   - AverageAgeOfOnset:
     - Name:
-      - label: Childhood
+      - label: Infancy
         lang: en
     - Name:
-      - label: Infancy
+      - label: Neonatal
         lang: en
 
 - ExternalReferenceList:
@@ -73,63 +67,33 @@ ORPHApacket:
       Reference: '130070'
       Source: OMIM
 
-- DisorderGeneAssociationList:
-  - DisorderGeneAssociation:
-    - DisorderGeneAssociationType:
-      - Name:
-        - label: Disease-causing germline mutation(s) in
-          lang: en
-        OrphaNumber: '317343'
-      Gene:
-      - ExternalReferenceList:
-        - ExternalReference:
-          - Reference: '930'
-            Source: HGNC
-          - Reference: '604327'
-            Source: OMIM
-        Name:
-        - label: beta-1,4-galactosyltransferase 7
-          lang: en
-        Symbol: B4GALT7
-    - DisorderGeneAssociationType:
-      - Name:
-        - label: Disease-causing germline mutation(s) (loss of function) in
-          lang: en
-        OrphaNumber: '410295'
-      Gene:
-      - ExternalReferenceList:
-        - ExternalReference:
-          - Reference: '17978'
-            Source: HGNC
-          - Reference: '615291'
-            Source: OMIM
-        Name:
-        - label: beta-1,3-galactosyltransferase 6
-          lang: en
-        Symbol: B3GALT6
-
 - SubClassOfList:
   - Disorder:
+    - Name:
+      - label: Spondylodysplastic Ehlers-Danlos syndrome
+        lang: en
+      ORPHA: '536471'
+      PURL: http://www.orpha.net/ORDO/Orphanet_536471
+    - Name:
+      - label: Rare genetic syndromic intellectual disability
+        lang: en
+      ORPHA: '183763'
+      PURL: http://www.orpha.net/ORDO/Orphanet_183763
+    - Name:
+      - label: Rare syndromic intellectual disability
+        lang: en
+      ORPHA: '102369'
+      PURL: http://www.orpha.net/ORDO/Orphanet_102369
     - Name:
       - label: Congenital disorder of glycosylation-related bone disorder
         lang: en
       ORPHA: '371195'
       PURL: http://www.orpha.net/ORDO/Orphanet_371195
     - Name:
-      - label: Ehlers-Danlos syndrome
+      - label: Syndrome with synostosis or other joint formation defect
         lang: en
-      ORPHA: '98249'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98249
-    - Name:
-      - label: Congenital disorder of glycosylation with skin involvement
-        lang: en
-      ORPHA: '371200'
-      PURL: http://www.orpha.net/ORDO/Orphanet_371200
-    - Name:
-      - label: Primary bone dysplasia with decreased bone density
-        lang: en
-      ORPHA: '93446'
-      PURL: http://www.orpha.net/ORDO/Orphanet_93446
+      ORPHA: '93459'
+      PURL: http://www.orpha.net/ORDO/Orphanet_93459
     - Name:
       - label: Disorder of O-xylosylglycan synthesis
         lang: en
@@ -440,6 +404,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 18:01:38'
+- date: '2019-07-18 19:15:13'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

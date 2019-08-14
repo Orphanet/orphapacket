@@ -28,6 +28,15 @@ ORPHApacket:
     - label: Isolated congenital mirror movements
       lang: en
 
+- TextSection:
+  - Contents: A rare, genetic, movement disorder characterized by involuntary movements
+      on one side of the body that mirror intentional movements on the opposite side
+      of the body, which are present in various first-degree members of a family,
+      persist beyond the first decade of life, and have no associated comorbidities.
+    Name:
+    - label: Disease definition
+      lang: en
+
 - TypeOfInheritanceList:
   - TypeOfInheritance:
     - Name:
@@ -48,6 +57,13 @@ ORPHApacket:
 
 - ExternalReferenceList:
   - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618264'
+      Source: OMIM
     - DisorderMappingRelation:
       - Name:
         - label: BTNT (broader term maps to a narrower term)
@@ -270,6 +286,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 22:30:53'
+- date: '2019-07-18 23:44:13'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

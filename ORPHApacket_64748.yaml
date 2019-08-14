@@ -29,12 +29,11 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: Dejerine-Sottas syndrome is a clinical entity that represents a severe
-      phenotype of Charcot-Marie-Tooth disease (see this term) characterized by onset
-      occurring in infancy, severe motor weakness, delayed motor development, extremely
-      slow nerve conduction (< 10-12 m/s), areflexia and foot deformity. Mutations
-      in the genes <i>PMP22</i> (17p12), <i>MPZ</i> (1q22), <i>EGR2</i> (10q21.1)
-      and <i>PRX</i> (19q13.2) have been implicated.
+  - Contents: A clinical entity that represents a severe phenotype of Charcot-Marie-Tooth
+      disease characterized by onset occurring in infancy, severe motor weakness,
+      delayed motor development, extremely slow nerve conduction (< 10-12 m/s), areflexia
+      and foot deformity. Mutations in the genes <i>PMP22</i> (17p12), <i>MPZ</i>
+      (1q22), <i>EGR2</i> (10q21.1) and <i>PRX</i> (19q13.2) have been implicated.
     Name:
     - label: Disease definition
       lang: en
@@ -59,6 +58,13 @@ ORPHApacket:
 
 - ExternalReferenceList:
   - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: NTBT (narrower term maps to a broader term)
+          lang: en
+        id: '21534'
+      Reference: '618184'
+      Source: OMIM
     - DisorderMappingRelation:
       - Name:
         - label: E (exact mapping (the terms and the concepts are equivalent))
@@ -149,6 +155,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 17:48:00'
+- date: '2019-07-18 19:01:38'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

@@ -45,6 +45,13 @@ ORPHApacket:
   - ExternalReference:
     - DisorderMappingRelation:
       - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618395'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
         - label: E (exact mapping (the terms and the concepts are equivalent))
           lang: en
         id: '21527'
@@ -53,6 +60,22 @@ ORPHApacket:
 
 - DisorderGeneAssociationList:
   - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '17085'
+            Source: HGNC
+          - Reference: '607880'
+            Source: OMIM
+        Name:
+        - label: exocyst complex component 6B
+          lang: en
+        Symbol: EXOC6B
     - DisorderGeneAssociationType:
       - Name:
         - label: Disease-causing germline mutation(s) (loss of function) in
@@ -367,6 +390,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 19:10:45'
+- date: '2019-07-18 20:24:19'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

@@ -40,6 +40,35 @@ ORPHApacket:
       - label: Neonatal
         lang: en
 
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '618150'
+      Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '606976'
+            Source: OMIM
+          - Reference: '18620'
+            Source: HGNC
+        Name:
+        - label: component of oligomeric golgi complex 4
+          lang: en
+        Symbol: COG4
+
 - SubClassOfList:
   - Disorder:
     - Name:
@@ -199,6 +228,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 18:29:30'
+- date: '2019-07-18 19:42:56'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

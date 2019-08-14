@@ -25,9 +25,9 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disease characterized
-      by progressive muscular paralysis reflecting degeneration of motor neurons in
-      the primary motor cortex, corticospinal tracts, brainstem and spinal cord.
+  - Contents: A neurodegenerative disease characterized by progressive muscular paralysis
+      reflecting degeneration of motor neurons in the primary motor cortex, corticospinal
+      tracts, brainstem and spinal cord.
     Name:
     - label: Disease definition
       lang: en
@@ -52,6 +52,13 @@ ORPHApacket:
 
 - ExternalReferenceList:
   - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '617892'
+      Source: OMIM
     - DisorderMappingRelation:
       - Name:
         - label: BTNT (broader term maps to a narrower term)
@@ -272,9 +279,9 @@ ORPHApacket:
           - Reference: '603191'
             Source: OMIM
         Name:
-        - label: chromosome 21 open reading frame 2
+        - label: cilia and flagella associated protein 410
           lang: en
-        Symbol: C21ORF2
+        Symbol: CFAP410
     - DisorderGeneAssociationType:
       - Name:
         - label: Disease-causing germline mutation(s) in
@@ -288,7 +295,7 @@ ORPHApacket:
           - Reference: '603371'
             Source: OMIM
         Name:
-        - label: GLE1, RNA export mediator
+        - label: GLE1 RNA export mediator
           lang: en
         Symbol: GLE1
     - DisorderGeneAssociationType:
@@ -307,6 +314,22 @@ ORPHApacket:
         - label: NIMA related kinase 1
           lang: en
         Symbol: NEK1
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Major susceptibility factor in
+          lang: en
+        OrphaNumber: '317345'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '24870'
+            Source: HGNC
+          - Reference: '618399'
+            Source: OMIM
+        Name:
+        - label: glycosyltransferase 8 domain containing 1
+          lang: en
+        Symbol: GLT8D1
     - DisorderGeneAssociationType:
       - Name:
         - label: Disease-causing germline mutation(s) in
@@ -672,7 +695,7 @@ ORPHApacket:
           - Reference: '614260'
             Source: OMIM
         Name:
-        - label: chromosome 9 open reading frame 72
+        - label: C9orf72-SMCR8 complex subunit
           lang: en
         Symbol: C9ORF72
     - DisorderGeneAssociationType:
@@ -982,6 +1005,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 17:32:46'
+- date: '2019-07-18 18:46:22'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

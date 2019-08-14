@@ -15,6 +15,12 @@ ORPHApacket:
       lang: en
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Childhood
+        lang: en
+
 - SubClassOfList:
   - Disorder:
     - Name:
@@ -23,8 +29,38 @@ ORPHApacket:
       ORPHA: '181405'
       PURL: http://www.orpha.net/ORDO/Orphanet_181405
 
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0000828
+      HPOTerm: Abnormality of the parathyroid gland
+      PURL: http://purl.obolibrary.org/obo/HP_0000828
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000867
+      HPOTerm: Secondary hyperparathyroidism
+      PURL: http://purl.obolibrary.org/obo/HP_0000867
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0040077
+      HPOTerm: Abnormal concentration of calcium in blood
+      PURL: http://purl.obolibrary.org/obo/HP_0040077
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 21:05:13'
+- date: '2019-07-18 22:18:24'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

@@ -27,6 +27,8 @@ ORPHApacket:
       lang: en
     - label: Congenital pure red cell aplasia
       lang: en
+    - label: Diamond-Blackfan anemia
+      lang: en
 
 - TextSection:
   - Contents: Blackfan-Diamond anemia (DBA) is a congenital aregenerative and often
@@ -165,6 +167,27 @@ ORPHApacket:
         - label: BTNT (broader term maps to a narrower term)
           lang: en
         id: '21541'
+      Reference: '618313'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618312'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618310'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
       Reference: '617409'
       Source: OMIM
     - DisorderMappingRelation:
@@ -233,12 +256,28 @@ ORPHApacket:
       Gene:
       - ExternalReferenceList:
         - ExternalReference:
+          - Reference: '10389'
+            Source: HGNC
+          - Reference: '603674'
+            Source: OMIM
+        Name:
+        - label: ribosomal protein S15a
+          lang: en
+        Symbol: RPS15A
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) (loss of function) in
+          lang: en
+        OrphaNumber: '410295'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
           - Reference: '25455'
             Source: HGNC
           - Reference: '300945'
             Source: OMIM
         Name:
-        - label: TSR2, ribosome maturation factor
+        - label: TSR2 ribosome maturation factor
           lang: en
         Symbol: TSR2
     - DisorderGeneAssociationType:
@@ -255,6 +294,22 @@ ORPHApacket:
         - label: ribosomal protein L35
           lang: en
         Symbol: RPL35
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '1839'
+            Source: HGNC
+          - Reference: '607575'
+            Source: OMIM
+        Name:
+        - label: adenosine deaminase 2
+          lang: en
+        Symbol: ADA2
     - DisorderGeneAssociationType:
       - Name:
         - label: Disease-causing germline mutation(s) in
@@ -656,6 +711,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 03:28:53'
+- date: '2019-07-19 04:47:46'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

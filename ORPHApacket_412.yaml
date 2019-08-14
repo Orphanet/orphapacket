@@ -2,7 +2,7 @@ ORPHApacket:
 - ORPHApacketID: '412'
 
 - Name:
-  - label: Hyperlipoproteinemia type 3
+  - label: Dysbetalipoproteinemia
     lang: en
 
 - ORPHA: '412'
@@ -17,26 +17,23 @@ ORPHApacket:
 
 - SynonymList:
   - Synonym:
-    - label: Broad-betalipoproteinemia
+    - label: Broad-beta disease
       lang: en
-    - label: Dyslipidemia type 3
-      lang: en
-    - label: Familial dysbetalipoproteinemia
-      lang: en
-    - label: Familial hyperlipoproteinemia type 3
+    - label: Familial dyslipidemia type 3
       lang: en
     - label: HLP type 3
       lang: en
     - label: Hyperlipidemia type 3
       lang: en
-    - label: Remnant disease
+    - label: Hyperlipoproteinemia type 3
+      lang: en
+    - label: Remnant hyperlipoproteinemia
       lang: en
 
 - TextSection:
-  - Contents: Hyperlipoproteinemia (HLP) type 3 is a rare combined hyperlipidemia
-      characterized by high levels of cholesterol and triglycerides, transported by
-      intermediate density lipoproteins (IDLs), and a high risk of premature atherosclerosis
-      and cardiovascular disease.
+  - Contents: A rare combined hyperlipidemia characterized by high levels of cholesterol
+      and triglycerides, transported by intermediate density lipoproteins (IDLs),
+      and a high risk of premature atherosclerosis and cardiovascular disease.
     Name:
     - label: Disease definition
       lang: en
@@ -53,7 +50,16 @@ ORPHApacket:
 - AverageAgeOfOnsetList:
   - AverageAgeOfOnset:
     - Name:
-      - label: All ages
+      - label: Adolescent
+        lang: en
+    - Name:
+      - label: Adult
+        lang: en
+    - Name:
+      - label: Childhood
+        lang: en
+    - Name:
+      - label: Elderly
         lang: en
 
 - ExternalReferenceList:
@@ -88,10 +94,10 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
-      - label: Combined hyperlipidemia
+      - label: Rare hyperlipidemia
         lang: en
-      ORPHA: '79211'
-      PURL: http://www.orpha.net/ORDO/Orphanet_79211
+      ORPHA: '181422'
+      PURL: http://www.orpha.net/ORDO/Orphanet_181422
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -221,7 +227,7 @@ ORPHApacket:
           lang: en
         ORPHA: '453311'
       HPOId: HP:0003141
-      HPOTerm: Increased circulating low-density lipoprotein levels
+      HPOTerm: Increased LDL cholesterol concentration
       PURL: http://purl.obolibrary.org/obo/HP_0003141
     - HPOFrequency:
       - Name:
@@ -229,7 +235,7 @@ ORPHApacket:
           lang: en
         ORPHA: '453311'
       HPOId: HP:0003233
-      HPOTerm: Hypoalphalipoproteinemia
+      HPOTerm: Decreased HDL cholesterol concentration
       PURL: http://purl.obolibrary.org/obo/HP_0003233
     - HPOFrequency:
       - Name:
@@ -285,6 +291,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 03:03:11'
+- date: '2019-07-19 04:22:00'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

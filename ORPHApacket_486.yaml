@@ -16,10 +16,10 @@ ORPHApacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
 - TextSection:
-  - Contents: Autosomal dominant severe congenital neutropenia is a rare primary immunodeficiency
-      disorder characterized by autosomal dominant inheritance, absolute neutrophil
-      over a six month period), granulopoiesis maturation arrest at the promyelocyte/myelocyte
-      stage and early-onset, severe, recurrent bacterial infections.
+  - Contents: A rare primary immunodeficiency disorder characterized by autosomal
+      blood (on three separate occasions over a six month period), granulopoiesis
+      maturation arrest at the promyelocyte/myelocyte stage and early-onset, severe,
+      recurrent bacterial infections.
     Name:
     - label: Disease definition
       lang: en
@@ -113,6 +113,22 @@ ORPHApacket:
         - label: growth factor independent 1 transcriptional repressor
           lang: en
         Symbol: GFI1
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '11301'
+            Source: HGNC
+          - Reference: '604857'
+            Source: OMIM
+        Name:
+        - label: signal recognition particle 54
+          lang: en
+        Symbol: SRP54
 
 - SubClassOfList:
   - Disorder:
@@ -122,8 +138,262 @@ ORPHApacket:
       ORPHA: '42738'
       PURL: http://www.orpha.net/ORDO/Orphanet_42738
 
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Obligate (100%)
+          lang: en
+        ORPHA: '453310'
+      HPOId: HP:0001875
+      HPOTerm: Neutropenia
+      PURL: http://purl.obolibrary.org/obo/HP_0001875
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0002718
+      HPOTerm: Recurrent bacterial infections
+      PURL: http://purl.obolibrary.org/obo/HP_0002718
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0004429
+      HPOTerm: Recurrent viral infections
+      PURL: http://purl.obolibrary.org/obo/HP_0004429
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000155
+      HPOTerm: Oral ulcer
+      PURL: http://purl.obolibrary.org/obo/HP_0000155
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000230
+      HPOTerm: Gingivitis
+      PURL: http://purl.obolibrary.org/obo/HP_0000230
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000704
+      HPOTerm: Periodontitis
+      PURL: http://purl.obolibrary.org/obo/HP_0000704
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001581
+      HPOTerm: Recurrent skin infections
+      PURL: http://purl.obolibrary.org/obo/HP_0001581
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001888
+      HPOTerm: Lymphopenia
+      PURL: http://purl.obolibrary.org/obo/HP_0001888
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001945
+      HPOTerm: Fever
+      PURL: http://purl.obolibrary.org/obo/HP_0001945
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002014
+      HPOTerm: Diarrhea
+      PURL: http://purl.obolibrary.org/obo/HP_0002014
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002027
+      HPOTerm: Abdominal pain
+      PURL: http://purl.obolibrary.org/obo/HP_0002027
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002090
+      HPOTerm: Pneumonia
+      PURL: http://purl.obolibrary.org/obo/HP_0002090
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0004798
+      HPOTerm: Recurrent infection of the gastrointestinal tract
+      PURL: http://purl.obolibrary.org/obo/HP_0004798
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0005425
+      HPOTerm: Recurrent sinopulmonary infections
+      PURL: http://purl.obolibrary.org/obo/HP_0005425
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0011107
+      HPOTerm: Recurrent aphthous stomatitis
+      PURL: http://purl.obolibrary.org/obo/HP_0011107
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0012311
+      HPOTerm: Monocytosis
+      PURL: http://purl.obolibrary.org/obo/HP_0012311
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0012384
+      HPOTerm: Rhinitis
+      PURL: http://purl.obolibrary.org/obo/HP_0012384
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0025439
+      HPOTerm: Pharyngitis
+      PURL: http://purl.obolibrary.org/obo/HP_0025439
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0410018
+      HPOTerm: Recurrent ear infections
+      PURL: http://purl.obolibrary.org/obo/HP_0410018
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000938
+      HPOTerm: Osteopenia
+      PURL: http://purl.obolibrary.org/obo/HP_0000938
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001028
+      HPOTerm: Hemangioma
+      PURL: http://purl.obolibrary.org/obo/HP_0001028
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001880
+      HPOTerm: Eosinophilia
+      PURL: http://purl.obolibrary.org/obo/HP_0001880
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001909
+      HPOTerm: Leukemia
+      PURL: http://purl.obolibrary.org/obo/HP_0001909
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001915
+      HPOTerm: Aplastic anemia
+      PURL: http://purl.obolibrary.org/obo/HP_0001915
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002863
+      HPOTerm: Myelodysplasia
+      PURL: http://purl.obolibrary.org/obo/HP_0002863
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0003453
+      HPOTerm: Antineutrophil antibody positivity
+      PURL: http://purl.obolibrary.org/obo/HP_0003453
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0004808
+      HPOTerm: Acute myeloid leukemia
+      PURL: http://purl.obolibrary.org/obo/HP_0004808
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0006480
+      HPOTerm: Premature loss of teeth
+      PURL: http://purl.obolibrary.org/obo/HP_0006480
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0006721
+      HPOTerm: Acute lymphoblastic leukemia
+      PURL: http://purl.obolibrary.org/obo/HP_0006721
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0025452
+      HPOTerm: Pyoderma gangrenosum
+      PURL: http://purl.obolibrary.org/obo/HP_0025452
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0100658
+      HPOTerm: Cellulitis
+      PURL: http://purl.obolibrary.org/obo/HP_0100658
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 03:56:10'
+- date: '2019-07-19 05:15:04'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

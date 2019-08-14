@@ -27,12 +27,12 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: Myelofibrosis with myeloid metaplasia is a myeloproliferative disease
-      with annual incidence of approximately 1 case per 100,000 individuals and age
-      at diagnosis around 60 (an increased prevalence is noted in Ashkenazi Jews).
-      Clinical manifestations depend on the type of blood cell affected and may include
-      anemia, pallor, splenomegaly, hypermetabolic state, petechiae, ecchymosis, bleeding,
-      lymphadenopathy, hepatomegaly, portal hypertension.
+  - Contents: A rare myeloproliferative neoplasm characterized by stem-cell derived
+      clonal over proliferation of mature myeloid lineages, such as erythrocytes,
+      leukocytes, and megakaryocytes, with variable degrees of megakaryocyte atypia,
+      associated with reticulin and/or collagen bone marrow fibrosis, osteosclerosis,
+      ineffective erythropoiesis, angiogenesis, extramedullary hematopoiesis, and
+      abnormal cytokine expression.
     Name:
     - label: Disease definition
       lang: en
@@ -133,8 +133,306 @@ ORPHApacket:
       ORPHA: '164823'
       PURL: http://www.orpha.net/ORDO/Orphanet_164823
 
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0005561
+      HPOTerm: Abnormality of bone marrow cell morphology
+      PURL: http://purl.obolibrary.org/obo/HP_0005561
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000980
+      HPOTerm: Pallor
+      PURL: http://purl.obolibrary.org/obo/HP_0000980
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001433
+      HPOTerm: Hepatosplenomegaly
+      PURL: http://purl.obolibrary.org/obo/HP_0001433
+    - DiagnosticCriteria:
+      - Name:
+        - label: Diagnostic criterion
+          lang: en
+      HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001744
+      HPOTerm: Splenomegaly
+      PURL: http://purl.obolibrary.org/obo/HP_0001744
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001871
+      HPOTerm: Abnormality of blood and blood-forming tissues
+      PURL: http://purl.obolibrary.org/obo/HP_0001871
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001873
+      HPOTerm: Thrombocytopenia
+      PURL: http://purl.obolibrary.org/obo/HP_0001873
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001903
+      HPOTerm: Anemia
+      PURL: http://purl.obolibrary.org/obo/HP_0001903
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002240
+      HPOTerm: Hepatomegaly
+      PURL: http://purl.obolibrary.org/obo/HP_0002240
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0012143
+      HPOTerm: Abnormal megakaryocyte morphology
+      PURL: http://purl.obolibrary.org/obo/HP_0012143
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+      PURL: http://purl.obolibrary.org/obo/HP_0012378
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0025142
+      HPOTerm: Constitutional symptom
+      PURL: http://purl.obolibrary.org/obo/HP_0025142
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000967
+      HPOTerm: Petechiae
+      PURL: http://purl.obolibrary.org/obo/HP_0000967
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000979
+      HPOTerm: Purpura
+      PURL: http://purl.obolibrary.org/obo/HP_0000979
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001409
+      HPOTerm: Portal hypertension
+      PURL: http://purl.obolibrary.org/obo/HP_0001409
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001876
+      HPOTerm: Pancytopenia
+      PURL: http://purl.obolibrary.org/obo/HP_0001876
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001892
+      HPOTerm: Abnormal bleeding
+      PURL: http://purl.obolibrary.org/obo/HP_0001892
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001894
+      HPOTerm: Thrombocytosis
+      PURL: http://purl.obolibrary.org/obo/HP_0001894
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001945
+      HPOTerm: Fever
+      PURL: http://purl.obolibrary.org/obo/HP_0001945
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001974
+      HPOTerm: Leukocytosis
+      PURL: http://purl.obolibrary.org/obo/HP_0001974
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001977
+      HPOTerm: Abnormal thrombosis
+      PURL: http://purl.obolibrary.org/obo/HP_0001977
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001978
+      HPOTerm: Extramedullary hematopoiesis
+      PURL: http://purl.obolibrary.org/obo/HP_0001978
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002039
+      HPOTerm: Anorexia
+      PURL: http://purl.obolibrary.org/obo/HP_0002039
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002716
+      HPOTerm: Lymphadenopathy
+      PURL: http://purl.obolibrary.org/obo/HP_0002716
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0003388
+      HPOTerm: Easy fatigability
+      PURL: http://purl.obolibrary.org/obo/HP_0003388
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0004420
+      HPOTerm: Arterial thrombosis
+      PURL: http://purl.obolibrary.org/obo/HP_0004420
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0004447
+      HPOTerm: Poikilocytosis
+      PURL: http://purl.obolibrary.org/obo/HP_0004447
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0004936
+      HPOTerm: Venous thrombosis
+      PURL: http://purl.obolibrary.org/obo/HP_0004936
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0011134
+      HPOTerm: Low-grade fever
+      PURL: http://purl.obolibrary.org/obo/HP_0011134
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0030157
+      HPOTerm: Flank pain
+      PURL: http://purl.obolibrary.org/obo/HP_0030157
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0031020
+      HPOTerm: Bone marrow hypercellularity
+      PURL: http://purl.obolibrary.org/obo/HP_0031020
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0031364
+      HPOTerm: Ecchymosis
+      PURL: http://purl.obolibrary.org/obo/HP_0031364
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001028
+      HPOTerm: Hemangioma
+      PURL: http://purl.obolibrary.org/obo/HP_0001028
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0004326
+      HPOTerm: Cachexia
+      PURL: http://purl.obolibrary.org/obo/HP_0004326
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0004377
+      HPOTerm: Hematological neoplasm
+      PURL: http://purl.obolibrary.org/obo/HP_0004377
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0025435
+      HPOTerm: Increased lactate dehydrogenase activity
+      PURL: http://purl.obolibrary.org/obo/HP_0025435
+    - HPOFrequency:
+      - Name:
+        - label: Excluded (0%)
+          lang: en
+        ORPHA: '453315'
+      HPOId: HP:0030057
+      HPOTerm: Autoimmune antibody positivity
+      PURL: http://purl.obolibrary.org/obo/HP_0030057
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 04:13:31'
+- date: '2019-07-19 05:32:26'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

@@ -2,7 +2,7 @@ ORPHApacket:
 - ORPHApacketID: '1899'
 
 - Name:
-  - label: Ehlers-Danlos syndrome, arthrochalasis type
+  - label: Arthrochalasia Ehlers-Danlos syndrome
     lang: en
 
 - ORPHA: '1899'
@@ -17,11 +17,15 @@ ORPHApacket:
 
 - SynonymList:
   - Synonym:
+    - label: Arthrochalasis multiplex congenita
+      lang: en
     - label: EDS VII
       lang: en
     - label: Ehlers-Danlos syndrome type 7
       lang: en
     - label: Ehlers-Danlos syndrome, arthrochalasia type
+      lang: en
+    - label: aEDS
       lang: en
 
 - TextSection:
@@ -64,6 +68,41 @@ ORPHApacket:
       Reference: '617821'
       Source: OMIM
 
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '120160'
+            Source: OMIM
+          - Reference: '2198'
+            Source: HGNC
+        Name:
+        - label: collagen type I alpha 2 chain
+          lang: en
+        Symbol: COL1A2
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '2197'
+            Source: HGNC
+          - Reference: '120150'
+            Source: OMIM
+        Name:
+        - label: collagen type I alpha 1 chain
+          lang: en
+        Symbol: COL1A1
+
 - SubClassOfList:
   - Disorder:
     - Name:
@@ -71,55 +110,6 @@ ORPHApacket:
         lang: en
       ORPHA: '98249'
       PURL: http://www.orpha.net/ORDO/Orphanet_98249
-
-- HasSubtypeList:
-  - Subtype:
-    - Disorder:
-      - DisorderGeneAssociation:
-        - DisorderGeneAssociationType:
-          - Name:
-            - label: Disease-causing germline mutation(s) in
-              lang: en
-            ORPHA: '317343'
-          Gene:
-          - ExternalReferenceList:
-            - ExternalReference:
-              - Reference: '2197'
-                Source: HGNC
-              - Reference: '120150'
-                Source: OMIM
-            Name:
-            - label: collagen type I alpha 1 chain
-              lang: en
-            Symbol: COL1A1
-        Name:
-        - label: Ehlers-Danlos syndrome type 7A
-          lang: en
-        ORPHA: '99875'
-        PURL: http://www.orpha.net/ORDO/Orphanet_99875
-    - Disorder:
-      - DisorderGeneAssociation:
-        - DisorderGeneAssociationType:
-          - Name:
-            - label: Disease-causing germline mutation(s) in
-              lang: en
-            ORPHA: '317343'
-          Gene:
-          - ExternalReferenceList:
-            - ExternalReference:
-              - Reference: '120160'
-                Source: OMIM
-              - Reference: '2198'
-                Source: HGNC
-            Name:
-            - label: collagen type I alpha 2 chain
-              lang: en
-            Symbol: COL1A2
-        Name:
-        - label: Ehlers-Danlos syndrome type 7B
-          lang: en
-        ORPHA: '99876'
-        PURL: http://www.orpha.net/ORDO/Orphanet_99876
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -345,6 +335,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 03:26:43'
+- date: '2019-07-19 04:45:37'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

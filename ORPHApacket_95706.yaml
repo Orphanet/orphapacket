@@ -32,6 +32,55 @@ ORPHApacket:
     - label: Disease definition
       lang: en
 
+- TypeOfInheritanceList:
+  - TypeOfInheritance:
+    - Name:
+      - label: Autosomal dominant
+        lang: en
+    - Name:
+      - label: Autosomal recessive
+        lang: en
+    - Name:
+      - label: X-linked recessive
+        lang: en
+
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Neonatal
+        lang: en
+
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '300633'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '300758'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '300856'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '146450'
+      Source: OMIM
+
 - SubClassOfList:
   - Disorder:
     - Name:
@@ -42,6 +91,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 19:28:03'
+- date: '2019-07-18 20:41:32'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

@@ -59,6 +59,27 @@ ORPHApacket:
         id: '21541'
       Reference: '305350'
       Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618309'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '618231'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618267'
+      Source: OMIM
 
 - DisorderGeneAssociationList:
   - DisorderGeneAssociation:
@@ -94,6 +115,38 @@ ORPHApacket:
         - label: transmembrane channel like 8
           lang: en
         Symbol: TMC8
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '6023'
+            Source: HGNC
+          - Reference: '146660'
+            Source: OMIM
+        Name:
+        - label: interleukin 7
+          lang: en
+        Symbol: IL7
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '16920'
+            Source: HGNC
+          - Reference: '602293'
+            Source: OMIM
+        Name:
+        - label: calcium and integrin binding 1
+          lang: en
+        Symbol: CIB1
 
 - SubClassOfList:
   - Disorder:
@@ -209,6 +262,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 03:58:26'
+- date: '2019-07-19 05:17:20'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

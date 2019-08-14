@@ -23,14 +23,13 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: Acute myelomonocytic leukemia (AML-M4) is a form of acute myeloid leukemia
-      (AML; see this term) that usually presents with fever, pallor, dyspnoea, fatigue,
-      loss of weight and bleeding disorders. Leukemia cutis and gingival infiltration
-      can also be seen. AML-M4 may in some cases be associated with abnormal bone
-      marrow eosinophilia (AML-M4Eo) and/or with inv (16) which is associated with
-      a high response rate to chemotherapy and favorable clinical outcome compared
-      to other types of AML. Intracranial masses can occur, usually in the setting
-      of AML-M4Eo with inv (16).
+  - Contents: A form of acute myeloid leukemia (AML) that usually presents with fever,
+      pallor, dyspnoea, fatigue, loss of weight and bleeding disorders. Leukemia cutis
+      and gingival infiltration can also be seen. In some cases, the disease may be
+      associated with abnormal bone marrow eosinophilia (AML-M4Eo) and/or with inv
+      (16) which is associated with a high response rate to chemotherapy and favorable
+      clinical outcome compared to other types of AML. Intracranial masses can occur,
+      usually in the setting of AML-M4Eo with inv (16).
     Name:
     - label: Disease definition
       lang: en
@@ -55,8 +54,86 @@ ORPHApacket:
       ORPHA: '167714'
       PURL: http://www.orpha.net/ORDO/Orphanet_167714
 
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001873
+      HPOTerm: Thrombocytopenia
+      PURL: http://purl.obolibrary.org/obo/HP_0001873
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001903
+      HPOTerm: Anemia
+      PURL: http://purl.obolibrary.org/obo/HP_0001903
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001974
+      HPOTerm: Leukocytosis
+      PURL: http://purl.obolibrary.org/obo/HP_0001974
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000980
+      HPOTerm: Pallor
+      PURL: http://purl.obolibrary.org/obo/HP_0000980
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001824
+      HPOTerm: Weight loss
+      PURL: http://purl.obolibrary.org/obo/HP_0001824
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001892
+      HPOTerm: Abnormal bleeding
+      PURL: http://purl.obolibrary.org/obo/HP_0001892
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002094
+      HPOTerm: Dyspnea
+      PURL: http://purl.obolibrary.org/obo/HP_0002094
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000168
+      HPOTerm: Abnormality of the gingiva
+      PURL: http://purl.obolibrary.org/obo/HP_0000168
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001880
+      HPOTerm: Eosinophilia
+      PURL: http://purl.obolibrary.org/obo/HP_0001880
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 04:00:24'
+- date: '2019-07-19 05:19:18'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

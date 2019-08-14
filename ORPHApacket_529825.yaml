@@ -15,10 +15,26 @@ ORPHApacket:
       lang: en
     PURL: http://www.orpha.net/ORDO/Orphanet_377793
 
-- SubClassOfList: ''
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '120080'
+      Source: OMIM
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Disease associated with a genetic susceptibility or tested for a biomarker
+        lang: en
+      ORPHA: '231957'
+      PURL: http://www.orpha.net/ORDO/Orphanet_231957
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 02:33:32'
+- date: '2019-07-19 03:48:20'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

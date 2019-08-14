@@ -27,14 +27,10 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: Rapid-onset childhood obesity-hypothalamic dysfunction-hypoventilation-autonomic
-      dysregulation syndrome is a rare, potentially life-threatening, genetic endocrine
-      disease characterized by childhood-onset hyperphagia and obesity, alveolar hypoventilation,
-      dysautonomia (e.g. impaired gastrointestinal motility, abnormal cardiac rhythm,
-      thermal dysregulation), hypothalamic dysfunction and neurobehavioral disorders.
-      Central hypothyroidism, endocrine anomalies (e.g. glucocorticoid deficiency,
-      puberty dysregulation), electrolyte imbalances (e.g. hypo/hypernatremia, hypochloremia),
-      respiratory failure and late-onset neuroendocrine tumors may also be associated.
+  - Contents: A rare syndromic endocrine disease characterized by childhood-onset
+      hyperphagia and obesity, alveolar hypoventilation, dysautonomia, hypothalamic
+      dysfunction and neurobehavioral disorders. Central hypothyroidism, endocrine
+      anomalies, electrolyte imbalances and respiratory failure may also be associated.
     Name:
     - label: Disease definition
       lang: en
@@ -42,7 +38,7 @@ ORPHApacket:
 - TypeOfInheritanceList:
   - TypeOfInheritance:
     - Name:
-      - label: Multigenic/multifactorial
+      - label: Unknown
         lang: en
 
 - AverageAgeOfOnsetList:
@@ -50,14 +46,27 @@ ORPHApacket:
     - Name:
       - label: Childhood
         lang: en
+    - Name:
+      - label: Infancy
+        lang: en
 
 - SubClassOfList:
   - Disorder:
+    - Name:
+      - label: Rare genetic respiratory disease
+        lang: en
+      ORPHA: '156610'
+      PURL: http://www.orpha.net/ORDO/Orphanet_156610
     - Name:
       - label: Syndromic obesity
         lang: en
       ORPHA: '240371'
       PURL: http://www.orpha.net/ORDO/Orphanet_240371
+    - Name:
+      - label: Rare pulmonary disease
+        lang: en
+      ORPHA: '101944'
+      PURL: http://www.orpha.net/ORDO/Orphanet_101944
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -443,7 +452,7 @@ ORPHApacket:
           lang: en
         ORPHA: '453311'
       HPOId: HP:0002910
-      HPOTerm: Elevated hepatic transaminases
+      HPOTerm: Elevated hepatic transaminase
       PURL: http://purl.obolibrary.org/obo/HP_0002910
     - HPOFrequency:
       - Name:
@@ -603,6 +612,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 23:38:39'
+- date: '2019-07-19 00:51:47'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

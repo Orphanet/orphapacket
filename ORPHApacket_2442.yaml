@@ -11,9 +11,9 @@ ORPHApacket:
 
 - DisorderType:
   - Name:
-    - label: Disease
+    - label: Group of phenomes
       lang: en
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
 
 - SynonymList:
   - Synonym:
@@ -41,7 +41,16 @@ ORPHApacket:
 - AverageAgeOfOnsetList:
   - AverageAgeOfOnset:
     - Name:
+      - label: Adolescent
+        lang: en
+    - Name:
+      - label: Adult
+        lang: en
+    - Name:
       - label: Childhood
+        lang: en
+    - Name:
+      - label: Infancy
         lang: en
 
 - ExternalReferenceList:
@@ -55,46 +64,11 @@ ORPHApacket:
       Source: OMIM
     - DisorderMappingRelation:
       - Name:
-        - label: E (exact mapping (the terms and the concepts are equivalent))
+        - label: BTNT (broader term maps to a narrower term)
           lang: en
-        id: '21527'
+        id: '21541'
       Reference: '308240'
       Source: OMIM
-
-- DisorderGeneAssociationList:
-  - DisorderGeneAssociation:
-    - DisorderGeneAssociationType:
-      - Name:
-        - label: Disease-causing germline mutation(s) in
-          lang: en
-        OrphaNumber: '317343'
-      Gene:
-      - ExternalReferenceList:
-        - ExternalReference:
-          - Reference: '10820'
-            Source: HGNC
-          - Reference: '300490'
-            Source: OMIM
-        Name:
-        - label: SH2 domain containing 1A
-          lang: en
-        Symbol: SH2D1A
-    - DisorderGeneAssociationType:
-      - Name:
-        - label: Disease-causing germline mutation(s) in
-          lang: en
-        OrphaNumber: '317343'
-      Gene:
-      - ExternalReferenceList:
-        - ExternalReference:
-          - Reference: '592'
-            Source: HGNC
-          - Reference: '300079'
-            Source: OMIM
-        Name:
-        - label: X-linked inhibitor of apoptosis
-          lang: en
-        Symbol: XIAP
 
 - SubClassOfList:
   - Disorder:
@@ -173,6 +147,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 02:32:27'
+- date: '2019-07-19 09:12:06'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

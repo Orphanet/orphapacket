@@ -16,11 +16,10 @@ ORPHApacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
 - TextSection:
-  - Contents: The association of leukoencephalopathy and metaphyseal chondrodysplasia
-      has been reported in four men from a three-generation family. Onset manifests
-      by spastic paraplegia at the age of 2, followed by tremor, ataxia, optic atrophy,
-      and spastic tetraparesis. Transmission is X-linked and the gene responsible
-      of the disease may be located at Xq25-q27.
+  - Contents: A disorder that has been reported in four men from a three-generation
+      family. Onset manifests by spastic paraplegia at the age of 2, followed by tremor,
+      ataxia, optic atrophy, and spastic tetraparesis. Transmission is X-linked and
+      the gene responsible of the disease may be located at Xq25-q27.
     Name:
     - label: Disease definition
       lang: en
@@ -36,6 +35,9 @@ ORPHApacket:
     - Name:
       - label: Childhood
         lang: en
+    - Name:
+      - label: Infancy
+        lang: en
 
 - ExternalReferenceList:
   - ExternalReference:
@@ -44,8 +46,34 @@ ORPHApacket:
         - label: E (exact mapping (the terms and the concepts are equivalent))
           lang: en
         id: '21527'
+      Reference: '300232'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
       Reference: '300660'
       Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '300169'
+            Source: OMIM
+          - Reference: '8768'
+            Source: HGNC
+        Name:
+        - label: apoptosis inducing factor mitochondria associated 1
+          lang: en
+        Symbol: AIFM1
 
 - SubClassOfList:
   - Disorder:
@@ -252,6 +280,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 18:26:54'
+- date: '2019-07-18 19:40:20'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

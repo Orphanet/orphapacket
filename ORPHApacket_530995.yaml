@@ -1,0 +1,80 @@
+ORPHApacket:
+- ORPHApacketID: '530995'
+
+- Name:
+  - label: Mixed phenotype acute leukemia
+    lang: en
+
+- ORPHA: '530995'
+
+- PURL: http://www.orpha.net/ORDO/Orphanet_530995
+
+- DisorderType:
+  - Name:
+    - label: Disease
+      lang: en
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+
+- SynonymList:
+  - Synonym:
+    - label: MPAL
+      lang: en
+
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: NTBT (narrower term maps to a broader term)
+          lang: en
+        id: '21534'
+      Reference: '601626'
+      Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing somatic mutation(s) in
+          lang: en
+        OrphaNumber: '317344'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '3765'
+            Source: HGNC
+          - Reference: '136351'
+            Source: OMIM
+        Name:
+        - label: fms related tyrosine kinase 3
+          lang: en
+        Symbol: FLT3
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Part of a fusion gene in
+          lang: en
+        OrphaNumber: '317348'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '7132'
+            Source: HGNC
+          - Reference: '159555'
+            Source: OMIM
+        Name:
+        - label: lysine methyltransferase 2A
+          lang: en
+        Symbol: KMT2A
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Acute leukemia of ambiguous lineage
+        lang: en
+      ORPHA: '86851'
+      PURL: http://www.orpha.net/ORDO/Orphanet_86851
+
+- copyright: Orphanet (c) 2019
+
+- date: '2019-07-19 03:50:13'
+
+- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

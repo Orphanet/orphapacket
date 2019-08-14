@@ -21,10 +21,9 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: Spastic tetraplegia-retinitis pigmentosa-intellectual disability syndrome
-      is characterized by nonprogressive spastic paraplegia, retinitis pigmentosa,
-      and intellectual deficit. It has been described in two brothers born to consanguineous
-      parents.
+  - Contents: A rare disorder characterized by nonprogressive spastic paraplegia,
+      retinitis pigmentosa, and intellectual deficit. It has been described in two
+      brothers born to consanguineous parents.
     Name:
     - label: Disease definition
       lang: en
@@ -69,8 +68,54 @@ ORPHApacket:
       ORPHA: '102369'
       PURL: http://www.orpha.net/ORDO/Orphanet_102369
 
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000510
+      HPOTerm: Rod-cone dystrophy
+      PURL: http://purl.obolibrary.org/obo/HP_0000510
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001141
+      HPOTerm: Severely reduced visual acuity
+      PURL: http://purl.obolibrary.org/obo/HP_0001141
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002187
+      HPOTerm: Intellectual disability, profound
+      PURL: http://purl.obolibrary.org/obo/HP_0002187
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002376
+      HPOTerm: Developmental regression
+      PURL: http://purl.obolibrary.org/obo/HP_0002376
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0008610
+      HPOTerm: Infantile sensorineural hearing impairment
+      PURL: http://purl.obolibrary.org/obo/HP_0008610
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 02:26:26'
+- date: '2019-07-19 03:41:19'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

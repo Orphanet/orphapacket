@@ -21,9 +21,9 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: Vein of Galen aneurysmal malformation (VGAM) is a congenital vascular
-      malformation characterized by dilation of the embryonic precursor of the vein
-      of Galen. It is a sporadic lesion that occurs during embryogenesis.
+  - Contents: A congenital vascular malformation characterized by dilation of the
+      embryonic precursor of the vein of Galen. It is a sporadic lesion that occurs
+      during embryogenesis.
     Name:
     - label: Disease definition
       lang: en
@@ -45,6 +45,16 @@ ORPHApacket:
     - Name:
       - label: Neonatal
         lang: en
+
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618196'
+      Source: OMIM
 
 - SubClassOfList:
   - Disorder:
@@ -91,6 +101,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 19:46:36'
+- date: '2019-07-18 21:00:11'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

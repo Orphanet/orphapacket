@@ -16,10 +16,10 @@ ORPHApacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
 - TextSection:
-  - Contents: Brain calcification, Rajab type is an inherited disorder characterized
-      by widespread calcifications of basal ganglia and cortex, developmental delay,
-      small stature, retinopathy and microcephaly. The absence of progressive deterioration
-      of the neurological functions is characteristic of the disease.
+  - Contents: A rare, inherited disorder characterized by widespread calcifications
+      of basal ganglia and cortex, developmental delay, small stature, retinopathy
+      and microcephaly. The absence of progressive deterioration of the neurological
+      functions is characteristic of the disease.
     Name:
     - label: Disease definition
       lang: en
@@ -40,6 +40,25 @@ ORPHApacket:
       Reference: '613658'
       Source: OMIM
 
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '17800'
+            Source: HGNC
+          - Reference: '609690'
+            Source: OMIM
+        Name:
+        - label: phenylalanyl-tRNA synthetase subunit beta
+          lang: en
+        Symbol: FARSB
+
 - SubClassOfList:
   - Disorder:
     - Name:
@@ -55,6 +74,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 21:45:25'
+- date: '2019-07-18 22:58:44'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

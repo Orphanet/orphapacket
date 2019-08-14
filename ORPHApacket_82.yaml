@@ -32,6 +32,15 @@ ORPHApacket:
     - label: Disease definition
       lang: en
 
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Adolescent
+        lang: en
+    - Name:
+      - label: Adult
+        lang: en
+
 - ExternalReferenceList:
   - ExternalReference:
     - DisorderMappingRelation:
@@ -74,8 +83,134 @@ ORPHApacket:
       ORPHA: '250811'
       PURL: http://www.orpha.net/ORDO/Orphanet_250811
 
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001976
+      HPOTerm: Reduced antithrombin III activity
+      PURL: http://purl.obolibrary.org/obo/HP_0001976
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0040246
+      HPOTerm: Reduced antithrombin antigen
+      PURL: http://purl.obolibrary.org/obo/HP_0040246
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002204
+      HPOTerm: Pulmonary embolism
+      PURL: http://purl.obolibrary.org/obo/HP_0002204
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002625
+      HPOTerm: Deep venous thrombosis
+      PURL: http://purl.obolibrary.org/obo/HP_0002625
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002638
+      HPOTerm: Superficial thrombophlebitis
+      PURL: http://purl.obolibrary.org/obo/HP_0002638
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0004831
+      HPOTerm: Recurrent thromboembolism
+      PURL: http://purl.obolibrary.org/obo/HP_0004831
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0031437
+      HPOTerm: Pregnancy exposure
+      PURL: http://purl.obolibrary.org/obo/HP_0031437
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0004420
+      HPOTerm: Arterial thrombosis
+      PURL: http://purl.obolibrary.org/obo/HP_0004420
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0005268
+      HPOTerm: Spontaneous abortion
+      PURL: http://purl.obolibrary.org/obo/HP_0005268
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0012636
+      HPOTerm: Retinal vein occlusion
+      PURL: http://purl.obolibrary.org/obo/HP_0012636
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0030242
+      HPOTerm: Portal vein thrombosis
+      PURL: http://purl.obolibrary.org/obo/HP_0030242
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0030243
+      HPOTerm: Hepatic vein thrombosis
+      PURL: http://purl.obolibrary.org/obo/HP_0030243
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0030248
+      HPOTerm: Mesenteric venous thrombosis
+      PURL: http://purl.obolibrary.org/obo/HP_0030248
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0200067
+      HPOTerm: Recurrent spontaneous abortion
+      PURL: http://purl.obolibrary.org/obo/HP_0200067
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0005305
+      HPOTerm: Cerebral venous thrombosis
+      PURL: http://purl.obolibrary.org/obo/HP_0005305
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
+
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-03 03:19:04'
+- date: '2019-07-19 04:37:51'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)

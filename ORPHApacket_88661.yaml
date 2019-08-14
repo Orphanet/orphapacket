@@ -16,10 +16,11 @@ ORPHApacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
 - TextSection:
-  - Contents: Amelogenesis imperfecta (AI) represents a group of developmental conditions
-      affecting the structure and clinical appearance of the enamel of all or nearly
-      all the teeth in a more or less equal manner, and which may be associated with
-      morphologic or biochemical changes elsewhere in the body.
+  - Contents: A rare genetic odontal or periodontal disorder that represents a group
+      of developmental conditions affecting the structure and clinical appearance
+      of the enamel of all or nearly all the teeth in a more or less equal manner,
+      and which may be associated with morphologic or biochemical changes elsewhere
+      in the body.
     Name:
     - label: Disease definition
       lang: en
@@ -186,6 +187,22 @@ ORPHApacket:
             - label: acid phosphatase 4
               lang: en
             Symbol: ACP4
+        - DisorderGeneAssociationType:
+          - Name:
+            - label: Disease-causing germline mutation(s) (loss of function) in
+              lang: en
+            ORPHA: '410295'
+          Gene:
+          - ExternalReferenceList:
+            - ExternalReference:
+              - Reference: '13764'
+                Source: HGNC
+              - Reference: '611211'
+                Source: OMIM
+            Name:
+            - label: RELT TNF receptor
+              lang: en
+            Symbol: RELT
         - DisorderGeneAssociationType:
           - Name:
             - label: Disease-causing germline mutation(s) in
@@ -471,6 +488,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-01-02 18:44:43'
+- date: '2019-07-18 19:58:28'
 
 - version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
