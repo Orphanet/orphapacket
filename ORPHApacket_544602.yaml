@@ -26,10 +26,60 @@ ORPHApacket:
     - label: Congenital myopathy with type II fiber atrophy
       lang: en
 
-- SubClassOfList: ''
+- TypeOfInheritanceList:
+  - TypeOfInheritance:
+    - Name:
+      - label: Autosomal recessive
+        lang: en
+
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Antenatal
+        lang: en
+    - Name:
+      - label: Neonatal
+        lang: en
+
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '618414'
+      Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) (loss of function) in
+          lang: en
+        OrphaNumber: '410295'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '7582'
+            Source: HGNC
+          - Reference: '160780'
+            Source: OMIM
+        Name:
+        - label: myosin light chain 1
+          lang: en
+        Symbol: MYL1
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Congenital myopathy
+        lang: en
+      ORPHA: '97245'
+      PURL: http://www.orpha.net/ORDO/Orphanet_97245
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 03:57:02'
+- date: '2019-12-06 06:43:55'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

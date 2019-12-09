@@ -11,18 +11,17 @@ ORPHApacket:
 
 - DisorderType:
   - Name:
-    - label: Clinical subtype
+    - label: Disease
       lang: en
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
 - TextSection:
-  - Contents: Smouldering systemic mastocytosis is a type of systemic mastocytosis
-      (SM; see this term). This clonal hematologic disease, with a slow progression,
-      results in an accumulation of neoplastic mast cells in the visceral organs over
-      time and patients present with splenomegaly, hypercellular marrow and, in some
-      cases, urticaria pigmentosa-like skin lesions.
+  - Contents: A rare, slowly progressive form of systemic mastocytosis (SM) characterized
+      by gradual accumulation of neoplastic mast cells in the visceral organs. Patients
+      typically present with splenomegaly, hypercellular marrow and, in most cases,
+      urticaria pigmentosa-like skin lesions.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - AverageAgeOfOnsetList:
@@ -30,17 +29,39 @@ ORPHApacket:
     - Name:
       - label: Adult
         lang: en
+    - Name:
+      - label: Elderly
+        lang: en
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing somatic mutation(s) in
+          lang: en
+        OrphaNumber: '317344'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '6342'
+            Source: HGNC
+          - Reference: '164920'
+            Source: OMIM
+        Name:
+        - label: KIT proto-oncogene, receptor tyrosine kinase
+          lang: en
+        Symbol: KIT
 
 - SubClassOfList:
   - Disorder:
     - Name:
-      - label: Indolent systemic mastocytosis
+      - label: Systemic mastocytosis
         lang: en
-      ORPHA: '98848'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98848
+      ORPHA: '2467'
+      PURL: http://www.orpha.net/ORDO/Orphanet_2467
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-18 22:31:53'
+- date: '2019-12-05 22:56:09'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

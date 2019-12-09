@@ -25,7 +25,7 @@ ORPHApacket:
       disease characterized by early-onset cognitive impairment as a sole disability.
       The disease may be associated with autism, epilepsy and neuromuscular deficits.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -55,6 +55,11 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
+      - label: Rare intellectual disability
+        lang: en
+      ORPHA: '87277'
+      PURL: http://www.orpha.net/ORDO/Orphanet_87277
+    - Name:
       - label: Monogenic disease with epilepsy
         lang: en
       ORPHA: '166472'
@@ -64,11 +69,6 @@ ORPHApacket:
         lang: en
       ORPHA: '183757'
       PURL: http://www.orpha.net/ORDO/Orphanet_183757
-    - Name:
-      - label: Rare intellectual disability
-        lang: en
-      ORPHA: '87277'
-      PURL: http://www.orpha.net/ORDO/Orphanet_87277
 
 - HasSubtypeList:
   - Subtype:
@@ -1227,6 +1227,22 @@ ORPHApacket:
       - DisorderGeneAssociation:
         - DisorderGeneAssociationType:
           - Name:
+            - label: Disease-causing germline mutation(s) (loss of function) in
+              lang: en
+            ORPHA: '410295'
+          Gene:
+          - ExternalReferenceList:
+            - ExternalReference:
+              - Reference: '11405'
+                Source: HGNC
+              - Reference: '609236'
+                Source: OMIM
+            Name:
+            - label: BR serine/threonine kinase 2
+              lang: en
+            Symbol: BRSK2
+        - DisorderGeneAssociationType:
+          - Name:
             - label: Disease-causing germline mutation(s) in
               lang: en
             ORPHA: '317343'
@@ -1896,6 +1912,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-18 21:57:30'
+- date: '2019-12-05 21:57:20'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

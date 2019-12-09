@@ -29,12 +29,12 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: A severe congenital enteropathy manifesting as intractable diarrhea
+  - Contents: A rare gastroenterologic disease manifesting as intractable diarrhea
       in the first month of life with failure to thrive and associated with facial
       dysmorphism, hair abnormalities, and, in some cases, immune disorders and intrauterine
       growth restriction.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -45,6 +45,9 @@ ORPHApacket:
 
 - AverageAgeOfOnsetList:
   - AverageAgeOfOnset:
+    - Name:
+      - label: Antenatal
+        lang: en
     - Name:
       - label: Infancy
         lang: en
@@ -112,6 +115,11 @@ ORPHApacket:
       ORPHA: '73014'
       PURL: http://www.orpha.net/ORDO/Orphanet_73014
     - Name:
+      - label: Rare parenchymal liver disease
+        lang: en
+      ORPHA: '101939'
+      PURL: http://www.orpha.net/ORDO/Orphanet_101939
+    - Name:
       - label: Genetic parenchymatous liver disease
         lang: en
       ORPHA: '156604'
@@ -122,28 +130,445 @@ ORPHApacket:
       ORPHA: '477647'
       PURL: http://www.orpha.net/ORDO/Orphanet_477647
     - Name:
-      - label: Type 1 interferonopathy of childhood
+      - label: Immune dysregulation disease with immunodeficiency
         lang: en
-      ORPHA: '481671'
-      PURL: http://www.orpha.net/ORDO/Orphanet_481671
+      ORPHA: '169361'
+      PURL: http://www.orpha.net/ORDO/Orphanet_169361
     - Name:
       - label: Genetic intractable diarrhea of infancy
         lang: en
       ORPHA: '363300'
       PURL: http://www.orpha.net/ORDO/Orphanet_363300
     - Name:
-      - label: Immune dysregulation disease with immunodeficiency
+      - label: Type 1 interferonopathy of childhood
         lang: en
-      ORPHA: '169361'
-      PURL: http://www.orpha.net/ORDO/Orphanet_169361
-    - Name:
-      - label: Rare parenchymal liver disease
-        lang: en
-      ORPHA: '101939'
-      PURL: http://www.orpha.net/ORDO/Orphanet_101939
+      ORPHA: '481671'
+      PURL: http://www.orpha.net/ORDO/Orphanet_481671
+
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001999
+      HPOTerm: Abnormal facial shape
+      PURL: http://purl.obolibrary.org/obo/HP_0001999
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0002041
+      HPOTerm: Intractable diarrhea
+      PURL: http://purl.obolibrary.org/obo/HP_0002041
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0002224
+      HPOTerm: Woolly hair
+      PURL: http://purl.obolibrary.org/obo/HP_0002224
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0002721
+      HPOTerm: Immunodeficiency
+      PURL: http://purl.obolibrary.org/obo/HP_0002721
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000316
+      HPOTerm: Hypertelorism
+      PURL: http://purl.obolibrary.org/obo/HP_0000316
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000337
+      HPOTerm: Broad forehead
+      PURL: http://purl.obolibrary.org/obo/HP_0000337
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000431
+      HPOTerm: Wide nasal bridge
+      PURL: http://purl.obolibrary.org/obo/HP_0000431
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001256
+      HPOTerm: Intellectual disability, mild
+      PURL: http://purl.obolibrary.org/obo/HP_0001256
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+      PURL: http://purl.obolibrary.org/obo/HP_0001263
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001392
+      HPOTerm: Abnormality of the liver
+      PURL: http://purl.obolibrary.org/obo/HP_0001392
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001394
+      HPOTerm: Cirrhosis
+      PURL: http://purl.obolibrary.org/obo/HP_0001394
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001395
+      HPOTerm: Hepatic fibrosis
+      PURL: http://purl.obolibrary.org/obo/HP_0001395
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001511
+      HPOTerm: Intrauterine growth retardation
+      PURL: http://purl.obolibrary.org/obo/HP_0001511
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001518
+      HPOTerm: Small for gestational age
+      PURL: http://purl.obolibrary.org/obo/HP_0001518
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002240
+      HPOTerm: Hepatomegaly
+      PURL: http://purl.obolibrary.org/obo/HP_0002240
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002299
+      HPOTerm: Brittle hair
+      PURL: http://purl.obolibrary.org/obo/HP_0002299
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0003139
+      HPOTerm: Panhypogammaglobulinemia
+      PURL: http://purl.obolibrary.org/obo/HP_0003139
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+      PURL: http://purl.obolibrary.org/obo/HP_0004322
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0005599
+      HPOTerm: Hypopigmentation of hair
+      PURL: http://purl.obolibrary.org/obo/HP_0005599
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0009886
+      HPOTerm: Trichorrhexis nodosa
+      PURL: http://purl.obolibrary.org/obo/HP_0009886
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0011121
+      HPOTerm: Abnormality of skin morphology
+      PURL: http://purl.obolibrary.org/obo/HP_0011121
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0011220
+      HPOTerm: Prominent forehead
+      PURL: http://purl.obolibrary.org/obo/HP_0011220
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0011473
+      HPOTerm: Villous atrophy
+      PURL: http://purl.obolibrary.org/obo/HP_0011473
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0025156
+      HPOTerm: Dependency on intravenous nutrition
+      PURL: http://purl.obolibrary.org/obo/HP_0025156
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0030056
+      HPOTerm: Uncombable hair
+      PURL: http://purl.obolibrary.org/obo/HP_0030056
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000957
+      HPOTerm: Cafe-au-lait spot
+      PURL: http://purl.obolibrary.org/obo/HP_0000957
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000958
+      HPOTerm: Dry skin
+      PURL: http://purl.obolibrary.org/obo/HP_0000958
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001627
+      HPOTerm: Abnormal heart morphology
+      PURL: http://purl.obolibrary.org/obo/HP_0001627
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001888
+      HPOTerm: Lymphopenia
+      PURL: http://purl.obolibrary.org/obo/HP_0001888
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001894
+      HPOTerm: Thrombocytosis
+      PURL: http://purl.obolibrary.org/obo/HP_0001894
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002583
+      HPOTerm: Colitis
+      PURL: http://purl.obolibrary.org/obo/HP_0002583
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002719
+      HPOTerm: Recurrent infections
+      PURL: http://purl.obolibrary.org/obo/HP_0002719
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0005263
+      HPOTerm: Gastritis
+      PURL: http://purl.obolibrary.org/obo/HP_0005263
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0011031
+      HPOTerm: Abnormality of iron homeostasis
+      PURL: http://purl.obolibrary.org/obo/HP_0011031
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0011877
+      HPOTerm: Increased mean platelet volume
+      PURL: http://purl.obolibrary.org/obo/HP_0011877
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000023
+      HPOTerm: Inguinal hernia
+      PURL: http://purl.obolibrary.org/obo/HP_0000023
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000089
+      HPOTerm: Renal hypoplasia
+      PURL: http://purl.obolibrary.org/obo/HP_0000089
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000113
+      HPOTerm: Polycystic kidney dysplasia
+      PURL: http://purl.obolibrary.org/obo/HP_0000113
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000501
+      HPOTerm: Glaucoma
+      PURL: http://purl.obolibrary.org/obo/HP_0000501
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000778
+      HPOTerm: Hypoplasia of the thymus
+      PURL: http://purl.obolibrary.org/obo/HP_0000778
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000821
+      HPOTerm: Hypothyroidism
+      PURL: http://purl.obolibrary.org/obo/HP_0000821
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001629
+      HPOTerm: Ventricular septal defect
+      PURL: http://purl.obolibrary.org/obo/HP_0001629
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001631
+      HPOTerm: Atrial septal defect
+      PURL: http://purl.obolibrary.org/obo/HP_0001631
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001636
+      HPOTerm: Tetralogy of Fallot
+      PURL: http://purl.obolibrary.org/obo/HP_0001636
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001643
+      HPOTerm: Patent ductus arteriosus
+      PURL: http://purl.obolibrary.org/obo/HP_0001643
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001647
+      HPOTerm: Bicuspid aortic valve
+      PURL: http://purl.obolibrary.org/obo/HP_0001647
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001659
+      HPOTerm: Aortic regurgitation
+      PURL: http://purl.obolibrary.org/obo/HP_0001659
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001744
+      HPOTerm: Splenomegaly
+      PURL: http://purl.obolibrary.org/obo/HP_0001744
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0002884
+      HPOTerm: Hepatoblastoma
+      PURL: http://purl.obolibrary.org/obo/HP_0002884
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0004969
+      HPOTerm: Peripheral pulmonary artery stenosis
+      PURL: http://purl.obolibrary.org/obo/HP_0004969
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0007513
+      HPOTerm: Generalized hypopigmentation
+      PURL: http://purl.obolibrary.org/obo/HP_0007513
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0025085
+      HPOTerm: Bloody diarrhea
+      PURL: http://purl.obolibrary.org/obo/HP_0025085
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-18 19:40:42'
+- date: '2019-12-05 18:54:17'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

@@ -34,7 +34,7 @@ ORPHApacket:
       in stool, and intestinal obstruction. GISTs can also be seen in familial syndromes
       such as Carney triad and neurofibromatosis type 1.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -60,6 +60,13 @@ ORPHApacket:
 
 - ExternalReferenceList:
   - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '175510'
+      Source: OMIM
     - DisorderMappingRelation:
       - Name:
         - label: E (exact mapping (the terms and the concepts are equivalent))
@@ -170,15 +177,15 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
-      - label: Genetic digestive tract tumor
-        lang: en
-      ORPHA: '271835'
-      PURL: http://www.orpha.net/ORDO/Orphanet_271835
-    - Name:
       - label: Mesenchymal tumor of small intestine
         lang: en
       ORPHA: '423798'
       PURL: http://www.orpha.net/ORDO/Orphanet_423798
+    - Name:
+      - label: Genetic digestive tract tumor
+        lang: en
+      ORPHA: '271835'
+      PURL: http://www.orpha.net/ORDO/Orphanet_271835
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -332,6 +339,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-18 18:45:18'
+- date: '2019-12-05 17:44:35'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

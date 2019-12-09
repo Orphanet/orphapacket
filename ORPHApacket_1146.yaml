@@ -31,7 +31,7 @@ ORPHApacket:
       additional anomalies. It is the most common type of distal arthrogryposis (see
       this term).
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -54,6 +54,13 @@ ORPHApacket:
           lang: en
         id: '21541'
       Reference: '616266'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618435'
       Source: OMIM
     - DisorderMappingRelation:
       - Name:
@@ -86,16 +93,22 @@ ORPHApacket:
       ORPHA: '102285'
       PURL: http://www.orpha.net/ORDO/Orphanet_102285
     - Name:
+      - label: Distal arthrogryposis
+        lang: en
+      ORPHA: '97120'
+      PURL: http://www.orpha.net/ORDO/Orphanet_97120
+    - Name:
+      - label: Neurological muscular channelopathy due to a genetic sodium channel
+          defect
+        lang: en
+      ORPHA: '98738'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98738
+    - Name:
       - label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
           disability
         lang: en
       ORPHA: '330206'
       PURL: http://www.orpha.net/ORDO/Orphanet_330206
-    - Name:
-      - label: Distal arthrogryposis
-        lang: en
-      ORPHA: '97120'
-      PURL: http://www.orpha.net/ORDO/Orphanet_97120
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -177,6 +190,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 04:47:30'
+- date: '2019-12-06 07:44:03'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

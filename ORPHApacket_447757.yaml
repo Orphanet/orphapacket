@@ -11,9 +11,9 @@ ORPHApacket:
 
 - DisorderType:
   - Name:
-    - label: Clinical subtype
+    - label: Disease
       lang: en
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
 - SynonymList:
   - Synonym:
@@ -37,6 +37,25 @@ ORPHApacket:
     - Name:
       - label: Infancy
         lang: en
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) (loss of function) in
+          lang: en
+        OrphaNumber: '410295'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '9722'
+            Source: HGNC
+          - Reference: '138250'
+            Source: OMIM
+        Name:
+        - label: aldehyde dehydrogenase 18 family member A1
+          lang: en
+        Symbol: ALDH18A1
 
 - SubClassOfList:
   - Disorder:
@@ -150,7 +169,7 @@ ORPHApacket:
           lang: en
         ORPHA: '453313'
       HPOId: HP:0000519
-      HPOTerm: Congenital cataract
+      HPOTerm: Developmental cataract
       PURL: http://purl.obolibrary.org/obo/HP_0000519
     - HPOFrequency:
       - Name:
@@ -222,6 +241,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 02:42:06'
+- date: '2019-12-06 05:11:42'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

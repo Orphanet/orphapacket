@@ -33,8 +33,23 @@ ORPHApacket:
       a major cause of disability and death, beginning with nocturnal hypoventilation
       with oxygen desaturation and progressing to daytime respiratory failure.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
+
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Adolescent
+        lang: en
+    - Name:
+      - label: Adult
+        lang: en
+    - Name:
+      - label: Childhood
+        lang: en
+    - Name:
+      - label: Infancy
+        lang: en
 
 - ExternalReferenceList:
   - ExternalReference:
@@ -78,15 +93,15 @@ ORPHApacket:
       ORPHA: '206650'
       PURL: http://www.orpha.net/ORDO/Orphanet_206650
     - Name:
+      - label: Inclusion myopathy
+        lang: en
+      ORPHA: '206662'
+      PURL: http://www.orpha.net/ORDO/Orphanet_206662
+    - Name:
       - label: Qualitative or quantitative defects of desmin
         lang: en
       ORPHA: '209041'
       PURL: http://www.orpha.net/ORDO/Orphanet_209041
-    - Name:
-      - label: Syndrome associated with hypertrophic cardiomyopathy
-        lang: en
-      ORPHA: '217595'
-      PURL: http://www.orpha.net/ORDO/Orphanet_217595
     - Name:
       - label: Neuromuscular disease with dilated cardiomyopathy
         lang: en
@@ -98,10 +113,10 @@ ORPHApacket:
       ORPHA: '217635'
       PURL: http://www.orpha.net/ORDO/Orphanet_217635
     - Name:
-      - label: Inclusion myopathy
+      - label: Syndrome associated with hypertrophic cardiomyopathy
         lang: en
-      ORPHA: '206662'
-      PURL: http://www.orpha.net/ORDO/Orphanet_206662
+      ORPHA: '217595'
+      PURL: http://www.orpha.net/ORDO/Orphanet_217595
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -255,6 +270,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-18 21:11:57'
+- date: '2019-12-05 21:08:36'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

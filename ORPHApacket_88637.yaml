@@ -25,7 +25,7 @@ ORPHApacket:
       characterised by the association of demyelinating leukodystrophy with progressive
       cerebellar ataxia, hypogonadotropic hypogonadism and hypodontia.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -38,6 +38,9 @@ ORPHApacket:
   - AverageAgeOfOnset:
     - Name:
       - label: Adolescent
+        lang: en
+    - Name:
+      - label: Adult
         lang: en
     - Name:
       - label: Childhood
@@ -124,16 +127,16 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
+      - label: Rare disorder with hypogonadotropic hypogonadism
+        lang: en
+      ORPHA: '181387'
+      PURL: http://www.orpha.net/ORDO/Orphanet_181387
+    - Name:
       - label: Hypomyelinating leukodystrophy with or without oligondontia and/or
           hypogonadism
         lang: en
       ORPHA: '289494'
       PURL: http://www.orpha.net/ORDO/Orphanet_289494
-    - Name:
-      - label: Rare disorder with hypogonadotropic hypogonadism
-        lang: en
-      ORPHA: '181387'
-      PURL: http://www.orpha.net/ORDO/Orphanet_181387
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -175,6 +178,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-18 19:57:50'
+- date: '2019-12-05 19:12:37'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

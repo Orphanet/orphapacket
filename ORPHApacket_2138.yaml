@@ -21,15 +21,17 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: 46,XX ovotesticular disorder of sex development (46,XX ovotesticular
-      DSD) is characterized by histologically confirmed testicular and ovarian tissue
-      in an individual with a 46,XX karyotype.
+  - Contents: A rare disorder of sex development (DSD) characterized by histologically
+      confirmed testicular and ovarian tissue in an individual with a 46,XX karyotype.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
   - TypeOfInheritance:
+    - Name:
+      - label: Autosomal dominant
+        lang: en
     - Name:
       - label: Autosomal recessive
         lang: en
@@ -37,7 +39,10 @@ ORPHApacket:
 - AverageAgeOfOnsetList:
   - AverageAgeOfOnset:
     - Name:
-      - label: Infancy
+      - label: Adolescent
+        lang: en
+    - Name:
+      - label: Antenatal
         lang: en
     - Name:
       - label: Neonatal
@@ -56,6 +61,11 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
+      - label: Gonadal dysgenesis of gynecological interest
+        lang: en
+      ORPHA: '98074'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98074
+    - Name:
       - label: 46,XX disorder of gonadal development
         lang: en
       ORPHA: '325055'
@@ -65,11 +75,6 @@ ORPHApacket:
         lang: en
       ORPHA: '399877'
       PURL: http://www.orpha.net/ORDO/Orphanet_399877
-    - Name:
-      - label: Gonadal dysgenesis of gynecological interest
-        lang: en
-      ORPHA: '98074'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98074
     - Name:
       - label: Rare disorder potentially indicated for kidney transplant
         lang: en
@@ -196,6 +201,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 00:28:52'
+- date: '2019-12-06 02:10:17'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

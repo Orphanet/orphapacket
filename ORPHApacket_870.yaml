@@ -21,13 +21,13 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: Down syndrome is a chromosomal abnormality caused by the presence of
-      a third (partial or total) copy of chromosome 21 and that is characterized by
-      variable intellectual disability, muscular hypotonia, and joint laxity, often
-      associated with a characteristic facial dysmorphism and various anomalies such
-      as cardiac, gastrointestinal, or endocrine defects.
+  - Contents: A total autosomal trisomy that is caused by the presence of a third
+      (partial or total) copy of chromosome 21 and that is characterized by variable
+      intellectual disability, muscular hypotonia, and joint laxity, often associated
+      with a characteristic facial dysmorphism and various anomalies such as cardiac,
+      gastrointestinal, neurosensorial or endocrine defects.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -58,6 +58,26 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
+      - label: Sucking/swallowing disorder associated to a chromosomal anomaly
+        lang: en
+      ORPHA: '138076'
+      PURL: http://www.orpha.net/ORDO/Orphanet_138076
+    - Name:
+      - label: Total autosomal trisomy
+        lang: en
+      ORPHA: '98131'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98131
+    - Name:
+      - label: Rare genetic syndromic intellectual disability
+        lang: en
+      ORPHA: '183763'
+      PURL: http://www.orpha.net/ORDO/Orphanet_183763
+    - Name:
+      - label: Rare disorder with a moyamoya angiopathy
+        lang: en
+      ORPHA: '477771'
+      PURL: http://www.orpha.net/ORDO/Orphanet_477771
+    - Name:
       - label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
         lang: en
       ORPHA: '102283'
@@ -68,35 +88,40 @@ ORPHApacket:
       ORPHA: '98574'
       PURL: http://www.orpha.net/ORDO/Orphanet_98574
     - Name:
+      - label: Syndromic outer canthal malposition
+        lang: en
+      ORPHA: '98576'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98576
+    - Name:
+      - label: Syndromic genetic keratoconus
+        lang: en
+      ORPHA: '522564'
+      PURL: http://www.orpha.net/ORDO/Orphanet_522564
+    - Name:
+      - label: Secondary ectropion
+        lang: en
+      ORPHA: '98571'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98571
+    - Name:
+      - label: Chromosomal anomaly with cataract
+        lang: en
+      ORPHA: '98642'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98642
+    - Name:
+      - label: Syndromic anorectal malformation
+        lang: en
+      ORPHA: '117573'
+      PURL: http://www.orpha.net/ORDO/Orphanet_117573
+    - Name:
       - label: Rare syndrome with cardiac malformations
         lang: en
       ORPHA: '156532'
       PURL: http://www.orpha.net/ORDO/Orphanet_156532
     - Name:
-      - label: Rare genetic syndromic intellectual disability
-        lang: en
-      ORPHA: '183763'
-      PURL: http://www.orpha.net/ORDO/Orphanet_183763
-    - Name:
       - label: Syndromic keratoconus
         lang: en
       ORPHA: '98623'
       PURL: http://www.orpha.net/ORDO/Orphanet_98623
-    - Name:
-      - label: Sucking/swallowing disorder associated to a chromosomal anomaly
-        lang: en
-      ORPHA: '138076'
-      PURL: http://www.orpha.net/ORDO/Orphanet_138076
-    - Name:
-      - label: Rare disorder with a moyamoya angiopathy
-        lang: en
-      ORPHA: '477771'
-      PURL: http://www.orpha.net/ORDO/Orphanet_477771
-    - Name:
-      - label: Total autosomal trisomy
-        lang: en
-      ORPHA: '98131'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98131
     - Name:
       - label: Anomaly of chromosome 21
         lang: en
@@ -107,26 +132,6 @@ ORPHApacket:
         lang: en
       ORPHA: '102369'
       PURL: http://www.orpha.net/ORDO/Orphanet_102369
-    - Name:
-      - label: Chromosomal anomaly with cataract
-        lang: en
-      ORPHA: '98642'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98642
-    - Name:
-      - label: Syndromic outer canthal malposition
-        lang: en
-      ORPHA: '98576'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98576
-    - Name:
-      - label: Secondary ectropion
-        lang: en
-      ORPHA: '98571'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98571
-    - Name:
-      - label: Syndromic genetic keratoconus
-        lang: en
-      ORPHA: '522564'
-      PURL: http://www.orpha.net/ORDO/Orphanet_522564
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -520,6 +525,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-18 19:40:09'
+- date: '2019-12-05 18:53:45'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

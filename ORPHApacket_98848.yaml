@@ -16,11 +16,12 @@ ORPHApacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
 - TextSection:
-  - Contents: Indolent systemic mastocytosis (ISM) is a benign form of systemic mastocytosis
-      (SM; see this term) characterized by an abnormal proliferation of mast cells
-      either only in bone marrow or in numerous tissues.
+  - Contents: A rare, usually benign, chronic, form of systemic mastocytosis (SM)
+      characterized by an abnormal accumulation of neoplastic mast cells (MCs) mainly
+      in the bone marrow (BM) but also in other organs or tissues such as preferably
+      the skin.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -45,55 +46,6 @@ ORPHApacket:
         lang: en
       ORPHA: '2467'
       PURL: http://www.orpha.net/ORDO/Orphanet_2467
-
-- HasSubtypeList:
-  - Subtype:
-    - Disorder:
-      - DisorderGeneAssociation:
-        - DisorderGeneAssociationType:
-          - Name:
-            - label: Disease-causing somatic mutation(s) in
-              lang: en
-            ORPHA: '317344'
-          Gene:
-          - ExternalReferenceList:
-            - ExternalReference:
-              - Reference: '6342'
-                Source: HGNC
-              - Reference: '164920'
-                Source: OMIM
-            Name:
-            - label: KIT proto-oncogene, receptor tyrosine kinase
-              lang: en
-            Symbol: KIT
-        Name:
-        - label: Smoldering systemic mastocytosis
-          lang: en
-        ORPHA: '158775'
-        PURL: http://www.orpha.net/ORDO/Orphanet_158775
-    - Disorder:
-      - DisorderGeneAssociation:
-        - DisorderGeneAssociationType:
-          - Name:
-            - label: Disease-causing somatic mutation(s) in
-              lang: en
-            ORPHA: '317344'
-          Gene:
-          - ExternalReferenceList:
-            - ExternalReference:
-              - Reference: '6342'
-                Source: HGNC
-              - Reference: '164920'
-                Source: OMIM
-            Name:
-            - label: KIT proto-oncogene, receptor tyrosine kinase
-              lang: en
-            Symbol: KIT
-        Name:
-        - label: Isolated bone marrow mastocytosis
-          lang: en
-        ORPHA: '158778'
-        PURL: http://www.orpha.net/ORDO/Orphanet_158778
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -207,6 +159,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-18 21:07:54'
+- date: '2019-12-05 21:04:20'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

@@ -30,7 +30,7 @@ ORPHApacket:
       or lateralized, independent of the sleep cycle, and that can occur hundreds
       of times per day, leading to psychomotor impairment and death.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -159,34 +159,464 @@ ORPHApacket:
   - Disorder:
     - Name:
       - label: Neurological channelopathy of the central nervous system due to a genetic
+          sodium channel defect
+        lang: en
+      ORPHA: '98744'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98744
+    - Name:
+      - label: Neurological channelopathy of the central nervous system due to a genetic
           potassium channel defect
         lang: en
       ORPHA: '98746'
       PURL: http://www.orpha.net/ORDO/Orphanet_98746
     - Name:
-      - label: Channelopathy with epilepsy
+      - label: Neonatal epilepsy syndrome
         lang: en
-      ORPHA: '182083'
-      PURL: http://www.orpha.net/ORDO/Orphanet_182083
-    - Name:
-      - label: Neurological channelopathy of the central nervous system due to a genetic
-          sodium channel defect
-        lang: en
-      ORPHA: '98744'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98744
+      ORPHA: '98257'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98257
     - Name:
       - label: ARX-related epileptic encephalopathy
         lang: en
       ORPHA: '182079'
       PURL: http://www.orpha.net/ORDO/Orphanet_182079
     - Name:
-      - label: Neonatal epilepsy syndrome
+      - label: Channelopathy with epilepsy
         lang: en
-      ORPHA: '98257'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98257
+      ORPHA: '182083'
+      PURL: http://www.orpha.net/ORDO/Orphanet_182083
+
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Obligate (100%)
+          lang: en
+        ORPHA: '453310'
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+      PURL: http://purl.obolibrary.org/obo/HP_0001250
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+      PURL: http://purl.obolibrary.org/obo/HP_0001249
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+      PURL: http://purl.obolibrary.org/obo/HP_0001263
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002353
+      HPOTerm: EEG abnormality
+      PURL: http://purl.obolibrary.org/obo/HP_0002353
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002360
+      HPOTerm: Sleep disturbance
+      PURL: http://purl.obolibrary.org/obo/HP_0002360
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002421
+      HPOTerm: Poor head control
+      PURL: http://purl.obolibrary.org/obo/HP_0002421
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002521
+      HPOTerm: Hypsarrhythmia
+      PURL: http://purl.obolibrary.org/obo/HP_0002521
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0008947
+      HPOTerm: Infantile muscular hypotonia
+      PURL: http://purl.obolibrary.org/obo/HP_0008947
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0010851
+      HPOTerm: EEG with burst suppression
+      PURL: http://purl.obolibrary.org/obo/HP_0010851
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000729
+      HPOTerm: Autistic behavior
+      PURL: http://purl.obolibrary.org/obo/HP_0000729
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000752
+      HPOTerm: Hyperactivity
+      PURL: http://purl.obolibrary.org/obo/HP_0000752
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001257
+      HPOTerm: Spasticity
+      PURL: http://purl.obolibrary.org/obo/HP_0001257
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001266
+      HPOTerm: Choreoathetosis
+      PURL: http://purl.obolibrary.org/obo/HP_0001266
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001272
+      HPOTerm: Cerebellar atrophy
+      PURL: http://purl.obolibrary.org/obo/HP_0001272
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001302
+      HPOTerm: Pachygyria
+      PURL: http://purl.obolibrary.org/obo/HP_0001302
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001336
+      HPOTerm: Myoclonus
+      PURL: http://purl.obolibrary.org/obo/HP_0001336
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001337
+      HPOTerm: Tremor
+      PURL: http://purl.obolibrary.org/obo/HP_0001337
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002069
+      HPOTerm: Generalized tonic-clonic seizures
+      PURL: http://purl.obolibrary.org/obo/HP_0002069
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002079
+      HPOTerm: Hypoplasia of the corpus callosum
+      PURL: http://purl.obolibrary.org/obo/HP_0002079
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002121
+      HPOTerm: Absence seizure
+      PURL: http://purl.obolibrary.org/obo/HP_0002121
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002131
+      HPOTerm: Episodic ataxia
+      PURL: http://purl.obolibrary.org/obo/HP_0002131
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002373
+      HPOTerm: Febrile seizures
+      PURL: http://purl.obolibrary.org/obo/HP_0002373
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002376
+      HPOTerm: Developmental regression
+      PURL: http://purl.obolibrary.org/obo/HP_0002376
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002506
+      HPOTerm: Diffuse cerebral atrophy
+      PURL: http://purl.obolibrary.org/obo/HP_0002506
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0007204
+      HPOTerm: Diffuse white matter abnormalities
+      PURL: http://purl.obolibrary.org/obo/HP_0007204
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0010818
+      HPOTerm: Generalized tonic seizures
+      PURL: http://purl.obolibrary.org/obo/HP_0010818
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0010819
+      HPOTerm: Atonic seizures
+      PURL: http://purl.obolibrary.org/obo/HP_0010819
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0010850
+      HPOTerm: EEG with spike-wave complexes
+      PURL: http://purl.obolibrary.org/obo/HP_0010850
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0011169
+      HPOTerm: Generalized clonic seizures
+      PURL: http://purl.obolibrary.org/obo/HP_0011169
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0011190
+      HPOTerm: Uni- and bilateral multifocal epileptiform discharges
+      PURL: http://purl.obolibrary.org/obo/HP_0011190
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0012448
+      HPOTerm: Delayed myelination
+      PURL: http://purl.obolibrary.org/obo/HP_0012448
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0012469
+      HPOTerm: Infantile spasms
+      PURL: http://purl.obolibrary.org/obo/HP_0012469
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0040168
+      HPOTerm: Focal seizures, afebril
+      PURL: http://purl.obolibrary.org/obo/HP_0040168
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0100660
+      HPOTerm: Dyskinesia
+      PURL: http://purl.obolibrary.org/obo/HP_0100660
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0100716
+      HPOTerm: Self-injurious behavior
+      PURL: http://purl.obolibrary.org/obo/HP_0100716
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000054
+      HPOTerm: Micropenis
+      PURL: http://purl.obolibrary.org/obo/HP_0000054
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000070
+      HPOTerm: Ureterocele
+      PURL: http://purl.obolibrary.org/obo/HP_0000070
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000110
+      HPOTerm: Renal dysplasia
+      PURL: http://purl.obolibrary.org/obo/HP_0000110
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000175
+      HPOTerm: Cleft palate
+      PURL: http://purl.obolibrary.org/obo/HP_0000175
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000252
+      HPOTerm: Microcephaly
+      PURL: http://purl.obolibrary.org/obo/HP_0000252
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000340
+      HPOTerm: Sloping forehead
+      PURL: http://purl.obolibrary.org/obo/HP_0000340
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000463
+      HPOTerm: Anteverted nares
+      PURL: http://purl.obolibrary.org/obo/HP_0000463
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000486
+      HPOTerm: Strabismus
+      PURL: http://purl.obolibrary.org/obo/HP_0000486
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000826
+      HPOTerm: Precocious puberty
+      PURL: http://purl.obolibrary.org/obo/HP_0000826
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001332
+      HPOTerm: Dystonia
+      PURL: http://purl.obolibrary.org/obo/HP_0001332
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001500
+      HPOTerm: Broad finger
+      PURL: http://purl.obolibrary.org/obo/HP_0001500
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+      PURL: http://purl.obolibrary.org/obo/HP_0001508
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001537
+      HPOTerm: Umbilical hernia
+      PURL: http://purl.obolibrary.org/obo/HP_0001537
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001629
+      HPOTerm: Ventricular septal defect
+      PURL: http://purl.obolibrary.org/obo/HP_0001629
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0005280
+      HPOTerm: Depressed nasal bridge
+      PURL: http://purl.obolibrary.org/obo/HP_0005280
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0009381
+      HPOTerm: Short finger
+      PURL: http://purl.obolibrary.org/obo/HP_0009381
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0010174
+      HPOTerm: Broad phalanx of the toes
+      PURL: http://purl.obolibrary.org/obo/HP_0010174
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0012554
+      HPOTerm: Absent thumbnail
+      PURL: http://purl.obolibrary.org/obo/HP_0012554
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 05:35:24'
+- date: '2019-12-06 08:37:58'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

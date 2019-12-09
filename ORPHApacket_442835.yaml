@@ -177,6 +177,13 @@ ORPHApacket:
         - label: BTNT (broader term maps to a narrower term)
           lang: en
         id: '21541'
+      Reference: '618468'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
       Reference: '617938'
       Source: OMIM
     - DisorderMappingRelation:
@@ -185,6 +192,13 @@ ORPHApacket:
           lang: en
         id: '21541'
       Reference: '617831'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618396'
       Source: OMIM
     - DisorderMappingRelation:
       - Name:
@@ -206,6 +220,13 @@ ORPHApacket:
           lang: en
         id: '21541'
       Reference: '617162'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618437'
       Source: OMIM
     - DisorderMappingRelation:
       - Name:
@@ -238,6 +259,38 @@ ORPHApacket:
 
 - DisorderGeneAssociationList:
   - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '160'
+            Source: HGNC
+          - Reference: '612458'
+            Source: OMIM
+        Name:
+        - label: actin like 6B
+          lang: en
+        Symbol: ACTL6B
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '4087'
+            Source: HGNC
+          - Reference: '137164'
+            Source: OMIM
+        Name:
+        - label: gamma-aminobutyric acid type A receptor gamma2 subunit
+          lang: en
+        Symbol: GABRG2
     - DisorderGeneAssociationType:
       - Name:
         - label: Disease-causing germline mutation(s) in
@@ -760,6 +813,38 @@ ORPHApacket:
       Gene:
       - ExternalReferenceList:
         - ExternalReference:
+          - Reference: '30563'
+            Source: HGNC
+          - Reference: '612036'
+            Source: OMIM
+        Name:
+        - label: prolyl-tRNA synthetase 2, mitochondrial
+          lang: en
+        Symbol: PARS2
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) (loss of function) in
+          lang: en
+        OrphaNumber: '410295'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '601012'
+            Source: OMIM
+          - Reference: '1389'
+            Source: HGNC
+        Name:
+        - label: calcium voltage-gated channel subunit alpha1 B
+          lang: en
+        Symbol: CACNA1B
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
           - Reference: '1388'
             Source: HGNC
           - Reference: '601011'
@@ -788,22 +873,11 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
-      - label: Infantile epilepsy syndrome
-        lang: en
-      ORPHA: '98258'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98258
-    - Name:
       - label: Neurological channelopathy of the central nervous system due to a genetic
-          GABA receptor defect
+          sodium channel defect
         lang: en
-      ORPHA: '98749'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98749
-    - Name:
-      - label: Neurological channelopathy of the central nervous system due to a genetic
-          potassium channel defect
-        lang: en
-      ORPHA: '98746'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98746
+      ORPHA: '98744'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98744
     - Name:
       - label: Neurological channelopathy of the central nervous system due to a genetic
           calcium channel defect
@@ -812,15 +886,26 @@ ORPHApacket:
       PURL: http://www.orpha.net/ORDO/Orphanet_98745
     - Name:
       - label: Neurological channelopathy of the central nervous system due to a genetic
-          sodium channel defect
+          potassium channel defect
         lang: en
-      ORPHA: '98744'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98744
+      ORPHA: '98746'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98746
+    - Name:
+      - label: Neurological channelopathy of the central nervous system due to a genetic
+          GABA receptor defect
+        lang: en
+      ORPHA: '98749'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98749
     - Name:
       - label: Neonatal epilepsy syndrome
         lang: en
       ORPHA: '98257'
       PURL: http://www.orpha.net/ORDO/Orphanet_98257
+    - Name:
+      - label: Infantile epilepsy syndrome
+        lang: en
+      ORPHA: '98258'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98258
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -1214,6 +1299,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 02:37:36'
+- date: '2019-12-06 05:06:22'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

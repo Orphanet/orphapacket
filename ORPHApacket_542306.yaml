@@ -2,7 +2,7 @@ ORPHApacket:
 - ORPHApacketID: '542306'
 
 - Name:
-  - label: Intellectual disability-cardiac arrhythmia syndrome due to GNB5 deficiency
+  - label: GNB5-related intellectual disability-cardiac arrhythmia syndrome
     lang: en
 
 - ORPHA: '542306'
@@ -15,10 +15,70 @@ ORPHApacket:
       lang: en
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
 
-- SubClassOfList: ''
+- TypeOfInheritanceList:
+  - TypeOfInheritance:
+    - Name:
+      - label: Autosomal recessive
+        lang: en
+
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Childhood
+        lang: en
+    - Name:
+      - label: Infancy
+        lang: en
+
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '617173'
+      Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '4401'
+            Source: HGNC
+          - Reference: '604447'
+            Source: OMIM
+        Name:
+        - label: G protein subunit beta 5
+          lang: en
+        Symbol: GNB5
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Rare syndromic intellectual disability
+        lang: en
+      ORPHA: '102369'
+      PURL: http://www.orpha.net/ORDO/Orphanet_102369
+    - Name:
+      - label: Genetic cardiac rhythm disease
+        lang: en
+      ORPHA: '101934'
+      PURL: http://www.orpha.net/ORDO/Orphanet_101934
+    - Name:
+      - label: Rare genetic syndromic intellectual disability
+        lang: en
+      ORPHA: '183763'
+      PURL: http://www.orpha.net/ORDO/Orphanet_183763
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 03:55:04'
+- date: '2019-12-06 06:41:35'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

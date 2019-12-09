@@ -20,7 +20,7 @@ ORPHApacket:
       (AP), which is defined as an acute inflammatory process of the pancreas with
       variable involvement of other regional tissues or remote organ systems.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -34,6 +34,73 @@ ORPHApacket:
     - Name:
       - label: All ages
         lang: en
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '1884'
+            Source: HGNC
+          - Reference: '602421'
+            Source: OMIM
+        Name:
+        - label: cystic fibrosis transmembrane conductance regulator
+          lang: en
+        Symbol: CFTR
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Modifying germline mutation in
+          lang: en
+        OrphaNumber: '317346'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '2523'
+            Source: HGNC
+          - Reference: '601405'
+            Source: OMIM
+        Name:
+        - label: chymotrypsin C
+          lang: en
+        Symbol: CTRC
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Modifying germline mutation in
+          lang: en
+        OrphaNumber: '317346'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '11244'
+            Source: HGNC
+          - Reference: '167790'
+            Source: OMIM
+        Name:
+        - label: serine peptidase inhibitor, Kazal type 1
+          lang: en
+        Symbol: SPINK1
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '9475'
+            Source: HGNC
+          - Reference: '276000'
+            Source: OMIM
+        Name:
+        - label: serine protease 1
+          lang: en
+        Symbol: PRSS1
 
 - SubClassOfList:
   - Disorder:
@@ -267,6 +334,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-18 19:01:00'
+- date: '2019-12-05 18:01:52'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

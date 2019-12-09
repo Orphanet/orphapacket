@@ -21,12 +21,12 @@ ORPHApacket:
       lang: en
 
 - TextSection:
-  - Contents: Primary ciliary dyskinesia (PCD) is a rare, genetically heterogeneous,
-      primarily respiratory disorder characterized by chronic upper and lower respiratory
-      tract disease. Approximately half of PCD patients have an organ laterality defect
-      (situs inversus totalis or situs ambiguus/heterotaxy; see these terms).
+  - Contents: A rare, genetically heterogeneous, primarily respiratory disorder characterized
+      by chronic upper and lower respiratory tract disease. Approximately half of
+      the patients have an organ laterality defect (situs inversus totalis or situs
+      ambiguus/heterotaxy).
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -336,6 +336,13 @@ ORPHApacket:
         id: '21541'
       Reference: '617577'
       Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618449'
+      Source: OMIM
 
 - DisorderGeneAssociationList:
   - DisorderGeneAssociation:
@@ -371,6 +378,36 @@ ORPHApacket:
         - label: PIH1 domain containing 3
           lang: en
         Symbol: PIH1D3
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '33720'
+            Source: HGNC
+        Name:
+        - label: cilia and flagella associated protein 221
+          lang: en
+        Symbol: CFAP221
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '26293'
+            Source: HGNC
+          - Reference: '610172'
+            Source: OMIM
+        Name:
+        - label: sperm flagellar 2
+          lang: en
+        Symbol: SPEF2
     - DisorderGeneAssociationType:
       - Name:
         - label: Disease-causing germline mutation(s) (loss of function) in
@@ -966,6 +1003,38 @@ ORPHApacket:
         Symbol: STK36
     - DisorderGeneAssociationType:
       - Name:
+        - label: Disease-causing germline mutation(s) (loss of function) in
+          lang: en
+        OrphaNumber: '410295'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '3816'
+            Source: HGNC
+          - Reference: '602291'
+            Source: OMIM
+        Name:
+        - label: forkhead box J1
+          lang: en
+        Symbol: FOXJ1
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) (loss of function) in
+          lang: en
+        OrphaNumber: '410295'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '2953'
+            Source: HGNC
+          - Reference: '603330'
+            Source: OMIM
+        Name:
+        - label: dynein axonemal heavy chain 9
+          lang: en
+        Symbol: DNAH9
+    - DisorderGeneAssociationType:
+      - Name:
         - label: Disease-causing germline mutation(s) in
           lang: en
         OrphaNumber: '317343'
@@ -998,25 +1067,25 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
+      - label: Rare pulmonary disease
+        lang: en
+      ORPHA: '101944'
+      PURL: http://www.orpha.net/ORDO/Orphanet_101944
+    - Name:
       - label: Retinal ciliopathy due to mutation in the RPGR gene
         lang: en
       ORPHA: '156171'
       PURL: http://www.orpha.net/ORDO/Orphanet_156171
-    - Name:
-      - label: Male infertility due to sperm motility disorder
-        lang: en
-      ORPHA: '399813'
-      PURL: http://www.orpha.net/ORDO/Orphanet_399813
     - Name:
       - label: Rare genetic respiratory disease
         lang: en
       ORPHA: '156610'
       PURL: http://www.orpha.net/ORDO/Orphanet_156610
     - Name:
-      - label: Rare pulmonary disease
+      - label: Male infertility due to sperm motility disorder
         lang: en
-      ORPHA: '101944'
-      PURL: http://www.orpha.net/ORDO/Orphanet_101944
+      ORPHA: '399813'
+      PURL: http://www.orpha.net/ORDO/Orphanet_399813
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -1310,6 +1379,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 05:04:42'
+- date: '2019-12-06 08:03:58'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

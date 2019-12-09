@@ -2,7 +2,7 @@ ORPHApacket:
 - ORPHApacketID: '98784'
 
 - Name:
-  - label: Autosomal dominant sleep-related hypermotor epilepsy
+  - label: Autosomal dominant nocturnal frontal lobe epilepsy
     lang: en
 
 - ORPHA: '98784'
@@ -19,7 +19,7 @@ ORPHApacket:
   - Synonym:
     - label: ADNFLE
       lang: en
-    - label: Autosomal dominant nocturnal frontal lobe epilepsy
+    - label: Autosomal dominant sleep-related hypermotor epilepsy
       lang: en
 
 - TextSection:
@@ -27,7 +27,7 @@ ORPHApacket:
       choreoathetoid movements that occur during sleep. The clusters of nocturnal
       motor seizures are often stereotyped and brief.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -40,6 +40,9 @@ ORPHApacket:
   - AverageAgeOfOnset:
     - Name:
       - label: Adolescent
+        lang: en
+    - Name:
+      - label: Adult
         lang: en
     - Name:
       - label: Childhood
@@ -181,6 +184,22 @@ ORPHApacket:
         - label: corticotropin releasing hormone
           lang: en
         Symbol: CRH
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '1386'
+            Source: HGNC
+          - Reference: '608965'
+            Source: OMIM
+        Name:
+        - label: calcium binding protein 4
+          lang: en
+        Symbol: CABP4
 
 - SubClassOfList:
   - Disorder:
@@ -191,19 +210,19 @@ ORPHApacket:
       PURL: http://www.orpha.net/ORDO/Orphanet_309
     - Name:
       - label: Neurological channelopathy of the central nervous system due to a genetic
-          acetylcholine receptor defect
-        lang: en
-      ORPHA: '98748'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98748
-    - Name:
-      - label: Neurological channelopathy of the central nervous system due to a genetic
           potassium channel defect
         lang: en
       ORPHA: '98746'
       PURL: http://www.orpha.net/ORDO/Orphanet_98746
+    - Name:
+      - label: Neurological channelopathy of the central nervous system due to a genetic
+          acetylcholine receptor defect
+        lang: en
+      ORPHA: '98748'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98748
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-18 21:03:58'
+- date: '2019-12-05 21:00:22'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

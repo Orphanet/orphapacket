@@ -22,10 +22,66 @@ ORPHApacket:
     - label: Labrune syndrome
       lang: en
 
-- SubClassOfList: ''
+- TypeOfInheritanceList:
+  - TypeOfInheritance:
+    - Name:
+      - label: Autosomal recessive
+        lang: en
+
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Adolescent
+        lang: en
+    - Name:
+      - label: Adult
+        lang: en
+    - Name:
+      - label: Childhood
+        lang: en
+    - Name:
+      - label: Infancy
+        lang: en
+
+- ExternalReferenceList:
+  - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: E (exact mapping (the terms and the concepts are equivalent))
+          lang: en
+        id: '21527'
+      Reference: '614561'
+      Source: OMIM
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '32952'
+            Source: HGNC
+          - Reference: '616663'
+            Source: OMIM
+        Name:
+        - label: small nucleolar RNA, C/D box 118
+          lang: en
+        Symbol: SNORD118
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Genetic cerebral small vessel disease
+        lang: en
+      ORPHA: '477754'
+      PURL: http://www.orpha.net/ORDO/Orphanet_477754
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 03:55:09'
+- date: '2019-12-06 06:41:40'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

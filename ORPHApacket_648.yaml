@@ -19,7 +19,7 @@ ORPHApacket:
   - Contents: Noonan Syndrome (NS) is characterised by short stature, typical facial
       dysmorphism and congenital heart defects.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -42,6 +42,13 @@ ORPHApacket:
 
 - ExternalReferenceList:
   - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618499'
+      Source: OMIM
     - DisorderMappingRelation:
       - Name:
         - label: E (exact mapping (the terms and the concepts are equivalent))
@@ -116,26 +123,41 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
+      - label: Sucking/swallowing disorder associated with an identified syndrome
+        lang: en
+      ORPHA: '138072'
+      PURL: http://www.orpha.net/ORDO/Orphanet_138072
+    - Name:
       - label: Multiple congenital anomalies/dysmorphic syndrome-variable intellectual
           disability syndrome
         lang: en
       ORPHA: '102284'
       PURL: http://www.orpha.net/ORDO/Orphanet_102284
     - Name:
-      - label: Primary lymphedema with associated anomalies
+      - label: Noonan syndrome and Noonan-related syndrome
         lang: en
-      ORPHA: '458841'
-      PURL: http://www.orpha.net/ORDO/Orphanet_458841
+      ORPHA: '98733'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98733
+    - Name:
+      - label: Syndromic outer canthal malposition
+        lang: en
+      ORPHA: '98576'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98576
     - Name:
       - label: Rare disorder with ptosis
         lang: en
       ORPHA: '98578'
       PURL: http://www.orpha.net/ORDO/Orphanet_98578
     - Name:
-      - label: Syndromic lymphedema
+      - label: Syndromic renal or urinary tract malformation
         lang: en
-      ORPHA: '89832'
-      PURL: http://www.orpha.net/ORDO/Orphanet_89832
+      ORPHA: '93547'
+      PURL: http://www.orpha.net/ORDO/Orphanet_93547
+    - Name:
+      - label: Primary lymphedema with associated anomalies
+        lang: en
+      ORPHA: '458841'
+      PURL: http://www.orpha.net/ORDO/Orphanet_458841
     - Name:
       - label: Polymalformative genetic syndrome with increased risk of developing
           cancer
@@ -143,25 +165,20 @@ ORPHApacket:
       ORPHA: '183422'
       PURL: http://www.orpha.net/ORDO/Orphanet_183422
     - Name:
-      - label: Sucking/swallowing disorder associated with an identified syndrome
+      - label: Rare disorder with hypergonadotropic hypogonadism
         lang: en
-      ORPHA: '138072'
-      PURL: http://www.orpha.net/ORDO/Orphanet_138072
-    - Name:
-      - label: Syndromic outer canthal malposition
-        lang: en
-      ORPHA: '98576'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98576
-    - Name:
-      - label: Rare disorder with a moyamoya angiopathy
-        lang: en
-      ORPHA: '477771'
-      PURL: http://www.orpha.net/ORDO/Orphanet_477771
+      ORPHA: '181441'
+      PURL: http://www.orpha.net/ORDO/Orphanet_181441
     - Name:
       - label: Syndrome associated with hypertrophic cardiomyopathy
         lang: en
       ORPHA: '217595'
       PURL: http://www.orpha.net/ORDO/Orphanet_217595
+    - Name:
+      - label: Rare disorder with a moyamoya angiopathy
+        lang: en
+      ORPHA: '477771'
+      PURL: http://www.orpha.net/ORDO/Orphanet_477771
     - Name:
       - label: Genetic multiple congenital anomalies/dysmorphic syndrome-variable
           intellectual disability syndrome
@@ -169,20 +186,10 @@ ORPHApacket:
       ORPHA: '330197'
       PURL: http://www.orpha.net/ORDO/Orphanet_330197
     - Name:
-      - label: Syndromic renal or urinary tract malformation
+      - label: Syndromic lymphedema
         lang: en
-      ORPHA: '93547'
-      PURL: http://www.orpha.net/ORDO/Orphanet_93547
-    - Name:
-      - label: Noonan syndrome and Noonan-related syndrome
-        lang: en
-      ORPHA: '98733'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98733
-    - Name:
-      - label: Rare disorder with hypergonadotropic hypogonadism
-        lang: en
-      ORPHA: '181441'
-      PURL: http://www.orpha.net/ORDO/Orphanet_181441
+      ORPHA: '89832'
+      PURL: http://www.orpha.net/ORDO/Orphanet_89832
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -632,6 +639,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 00:41:00'
+- date: '2019-12-06 02:25:19'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

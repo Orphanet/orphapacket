@@ -20,10 +20,54 @@ ORPHApacket:
     - label: SYNGAP1-related DEE
       lang: en
 
-- SubClassOfList: ''
+- AverageAgeOfOnsetList:
+  - AverageAgeOfOnset:
+    - Name:
+      - label: Childhood
+        lang: en
+    - Name:
+      - label: Infancy
+        lang: en
+
+- DisorderGeneAssociationList:
+  - DisorderGeneAssociation:
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '11497'
+            Source: HGNC
+          - Reference: '603384'
+            Source: OMIM
+        Name:
+        - label: synaptic Ras GTPase activating protein 1
+          lang: en
+        Symbol: SYNGAP1
+
+- SubClassOfList:
+  - Disorder:
+    - Name:
+      - label: Infantile epilepsy syndrome
+        lang: en
+      ORPHA: '98258'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98258
+    - Name:
+      - label: Rare syndromic intellectual disability
+        lang: en
+      ORPHA: '102369'
+      PURL: http://www.orpha.net/ORDO/Orphanet_102369
+    - Name:
+      - label: Rare genetic syndromic intellectual disability
+        lang: en
+      ORPHA: '183763'
+      PURL: http://www.orpha.net/ORDO/Orphanet_183763
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 03:56:09'
+- date: '2019-12-06 06:42:45'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

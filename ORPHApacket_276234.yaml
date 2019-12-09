@@ -28,7 +28,7 @@ ORPHApacket:
       oligospermia and an increased number of abnormally structured spermatozoa is
       often present.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -45,6 +45,20 @@ ORPHApacket:
 
 - ExternalReferenceList:
   - ExternalReference:
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618433'
+      Source: OMIM
+    - DisorderMappingRelation:
+      - Name:
+        - label: BTNT (broader term maps to a narrower term)
+          lang: en
+        id: '21541'
+      Reference: '618429'
+      Source: OMIM
     - DisorderMappingRelation:
       - Name:
         - label: BTNT (broader term maps to a narrower term)
@@ -157,6 +171,38 @@ ORPHApacket:
         - label: cilia and flagella associated protein 44
           lang: en
         Symbol: CFAP44
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '23045'
+            Source: HGNC
+          - Reference: '618424'
+            Source: OMIM
+        Name:
+        - label: armadillo repeat containing 2
+          lang: en
+        Symbol: ARMC2
+    - DisorderGeneAssociationType:
+      - Name:
+        - label: Disease-causing germline mutation(s) in
+          lang: en
+        OrphaNumber: '317343'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '30761'
+            Source: HGNC
+          - Reference: '611430'
+            Source: OMIM
+        Name:
+        - label: tetratricopeptide repeat domain 21A
+          lang: en
+        Symbol: TTC21A
     - DisorderGeneAssociationType:
       - Name:
         - label: Disease-causing germline mutation(s) in
@@ -296,6 +342,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 00:28:25'
+- date: '2019-12-06 02:09:49'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

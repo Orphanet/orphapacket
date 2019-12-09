@@ -2,7 +2,7 @@ ORPHApacket:
 - ORPHApacketID: '300373'
 
 - Name:
-  - label: Familial infantile gigantism
+  - label: X-linked acrogigantism
     lang: en
 
 - ORPHA: '300373'
@@ -17,26 +17,27 @@ ORPHApacket:
 
 - SynonymList:
   - Synonym:
+    - label: Familial infantile gigantism
+      lang: en
     - label: Hereditary infantile gigantism
       lang: en
     - label: Hereditary pituitary hyperplasia
       lang: en
     - label: Infantile gigantism due to pituitary hyperplasia
       lang: en
-    - label: X-LAG (X-linked acrogigantism)
+    - label: X-LAG
       lang: en
 
 - TextSection:
-  - Contents: Familial infantile gigantism is a rare, genetic, endocrine disease characterized
-      by early-onset (before the age of five years old) excessive acceleration of
-      linear growth and body size (height Z-score >4.5 SD) due to pituitary mixed
-      growth hormone- and prolactin-secreting adenomas and/or mixed-cell pituitary
-      hyperplasia. Patients present gigantism and may associate acromegalic features
-      (e.g. coarse facial features, frontal bossing, prognathism, increased interdental
-      space) as well as marked enlargement of hands and feet, soft tissue swelling,
-      appetite increase and acanthosis nigricans.
+  - Contents: A rare genetic endocrine disease characterized by early-onset (from
+      <12 months to 3 years), rapid and excessive acceleration of linear growth and
+      body size due to pituitary mixed growth hormone- and prolactin-secreting adenomas
+      and/or mixed-cell pituitary hyperplasia. Patients present with gigantism and
+      may have associated acromegalic features (e.g. coarse facial features, frontal
+      bossing, prognathism, increased interdental space) as well as marked enlargement
+      of hands and feet, soft tissue swelling, increased appetite and acanthosis nigricans.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -47,6 +48,9 @@ ORPHApacket:
 
 - AverageAgeOfOnsetList:
   - AverageAgeOfOnset:
+    - Name:
+      - label: Childhood
+        lang: en
     - Name:
       - label: Infancy
         lang: en
@@ -67,47 +71,15 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
-      - label: Rare genetic hypothalamic or pituitary disease
-        lang: en
-      ORPHA: '183628'
-      PURL: http://www.orpha.net/ORDO/Orphanet_183628
-    - Name:
       - label: Rare hypothalamic or pituitary disease
         lang: en
       ORPHA: '181384'
       PURL: http://www.orpha.net/ORDO/Orphanet_181384
-
-- HasSubtypeList:
-  - Subtype:
-    - Disorder:
-      - Name:
-        - label: X-linked acrogigantism due to a point mutation
-          lang: en
-        ORPHA: '448348'
-        PURL: http://www.orpha.net/ORDO/Orphanet_448348
-    - Disorder:
-      - DisorderGeneAssociation:
-        - DisorderGeneAssociationType:
-          - Name:
-            - label: Role in the phenotype of
-              lang: en
-            ORPHA: '317349'
-          Gene:
-          - ExternalReferenceList:
-            - ExternalReference:
-              - Reference: '14963'
-                Source: HGNC
-              - Reference: '300393'
-                Source: OMIM
-            Name:
-            - label: G protein-coupled receptor 101
-              lang: en
-            Symbol: GPR101
-        Name:
-        - label: X-linked acrogigantism due to Xq26 microduplication
-          lang: en
-        ORPHA: '448372'
-        PURL: http://www.orpha.net/ORDO/Orphanet_448372
+    - Name:
+      - label: Rare genetic hypothalamic or pituitary disease
+        lang: en
+      ORPHA: '183628'
+      PURL: http://www.orpha.net/ORDO/Orphanet_183628
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -277,6 +249,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 01:00:07'
+- date: '2019-12-06 02:49:25'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

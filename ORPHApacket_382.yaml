@@ -26,7 +26,7 @@ ORPHApacket:
       (DD/ID), prominent speech delay, autistic/hyperactive behavioral disorders,
       seizures, and various types of pyramidal and/or extra-pyramidal manifestations.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -76,6 +76,11 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
+      - label: Creatine deficiency syndrome
+        lang: en
+      ORPHA: '79172'
+      PURL: http://www.orpha.net/ORDO/Orphanet_79172
+    - Name:
       - label: Syndromic neurometabolic disease with non-X-linked intellectual disability
         lang: en
       ORPHA: '182073'
@@ -85,14 +90,191 @@ ORPHApacket:
         lang: en
       ORPHA: '68385'
       PURL: http://www.orpha.net/ORDO/Orphanet_68385
-    - Name:
-      - label: Creatine deficiency syndrome
-        lang: en
-      ORPHA: '79172'
-      PURL: http://www.orpha.net/ORDO/Orphanet_79172
+
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+      PURL: http://purl.obolibrary.org/obo/HP_0001250
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000708
+      HPOTerm: Behavioral abnormality
+      PURL: http://purl.obolibrary.org/obo/HP_0000708
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002071
+      HPOTerm: Abnormality of extrapyramidal motor function
+      PURL: http://purl.obolibrary.org/obo/HP_0002071
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0002465
+      HPOTerm: Poor speech
+      PURL: http://purl.obolibrary.org/obo/HP_0002465
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0007153
+      HPOTerm: Progressive extrapyramidal movement disorder
+      PURL: http://purl.obolibrary.org/obo/HP_0007153
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0010864
+      HPOTerm: Intellectual disability, severe
+      PURL: http://purl.obolibrary.org/obo/HP_0010864
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0011344
+      HPOTerm: Severe global developmental delay
+      PURL: http://purl.obolibrary.org/obo/HP_0011344
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0100022
+      HPOTerm: Abnormality of movement
+      PURL: http://purl.obolibrary.org/obo/HP_0100022
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000717
+      HPOTerm: Autism
+      PURL: http://purl.obolibrary.org/obo/HP_0000717
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000718
+      HPOTerm: Aggressive behavior
+      PURL: http://purl.obolibrary.org/obo/HP_0000718
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000752
+      HPOTerm: Hyperactivity
+      PURL: http://purl.obolibrary.org/obo/HP_0000752
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001251
+      HPOTerm: Ataxia
+      PURL: http://purl.obolibrary.org/obo/HP_0001251
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0001332
+      HPOTerm: Dystonia
+      PURL: http://purl.obolibrary.org/obo/HP_0001332
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002069
+      HPOTerm: Generalized tonic-clonic seizures
+      PURL: http://purl.obolibrary.org/obo/HP_0002069
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002072
+      HPOTerm: Chorea
+      PURL: http://purl.obolibrary.org/obo/HP_0002072
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002123
+      HPOTerm: Generalized myoclonic seizures
+      PURL: http://purl.obolibrary.org/obo/HP_0002123
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002305
+      HPOTerm: Athetosis
+      PURL: http://purl.obolibrary.org/obo/HP_0002305
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002384
+      HPOTerm: Focal impaired awareness seizure
+      PURL: http://purl.obolibrary.org/obo/HP_0002384
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002457
+      HPOTerm: Abnormal head movements
+      PURL: http://purl.obolibrary.org/obo/HP_0002457
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0010819
+      HPOTerm: Atonic seizures
+      PURL: http://purl.obolibrary.org/obo/HP_0010819
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0100716
+      HPOTerm: Self-injurious behavior
+      PURL: http://purl.obolibrary.org/obo/HP_0100716
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001252
+      HPOTerm: Muscular hypotonia
+      PURL: http://purl.obolibrary.org/obo/HP_0001252
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-18 22:32:25'
+- date: '2019-12-05 22:56:42'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

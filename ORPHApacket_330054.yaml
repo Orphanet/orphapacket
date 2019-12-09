@@ -30,7 +30,7 @@ ORPHApacket:
       development delay and lactic acidosis. Muscle biopsy reveals reduced complex
       I, II and IV respiratory chain activity.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -80,10 +80,20 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
-      - label: Syndromic genetic cataract
+      - label: Syndromic cataract
         lang: en
-      ORPHA: '522548'
-      PURL: http://www.orpha.net/ORDO/Orphanet_522548
+      ORPHA: '98641'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98641
+    - Name:
+      - label: Syndromic genetic deafness
+        lang: en
+      ORPHA: '90642'
+      PURL: http://www.orpha.net/ORDO/Orphanet_90642
+    - Name:
+      - label: Mitochondrial myopathy
+        lang: en
+      ORPHA: '206966'
+      PURL: http://www.orpha.net/ORDO/Orphanet_206966
     - Name:
       - label: Mitochondrial oxidative phosphorylation disorder due to nuclear DNA
           anomalies
@@ -91,20 +101,10 @@ ORPHApacket:
       ORPHA: '2443'
       PURL: http://www.orpha.net/ORDO/Orphanet_2443
     - Name:
-      - label: Mitochondrial myopathy
+      - label: Syndromic genetic cataract
         lang: en
-      ORPHA: '206966'
-      PURL: http://www.orpha.net/ORDO/Orphanet_206966
-    - Name:
-      - label: Syndromic genetic deafness
-        lang: en
-      ORPHA: '90642'
-      PURL: http://www.orpha.net/ORDO/Orphanet_90642
-    - Name:
-      - label: Syndromic cataract
-        lang: en
-      ORPHA: '98641'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98641
+      ORPHA: '522548'
+      PURL: http://www.orpha.net/ORDO/Orphanet_522548
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -130,7 +130,7 @@ ORPHApacket:
           lang: en
         ORPHA: '453312'
       HPOId: HP:0000519
-      HPOTerm: Congenital cataract
+      HPOTerm: Developmental cataract
       PURL: http://purl.obolibrary.org/obo/HP_0000519
     - HPOFrequency:
       - Name:
@@ -218,6 +218,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 01:38:14'
+- date: '2019-12-06 03:46:31'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

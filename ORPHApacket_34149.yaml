@@ -29,7 +29,7 @@ ORPHApacket:
       nephronophthisis (NPH), to a heterogeneous group of inherited tubulo-interstitial
       nephritis, termed NPH-MCKD complex.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -41,7 +41,16 @@ ORPHApacket:
 - AverageAgeOfOnsetList:
   - AverageAgeOfOnset:
     - Name:
+      - label: Adolescent
+        lang: en
+    - Name:
       - label: Adult
+        lang: en
+    - Name:
+      - label: Childhood
+        lang: en
+    - Name:
+      - label: Infancy
         lang: en
 
 - ExternalReferenceList:
@@ -76,15 +85,15 @@ ORPHApacket:
       ORPHA: '93603'
       PURL: http://www.orpha.net/ORDO/Orphanet_93603
     - Name:
-      - label: Genetic renal tubular disease
-        lang: en
-      ORPHA: '183592'
-      PURL: http://www.orpha.net/ORDO/Orphanet_183592
-    - Name:
       - label: Rare disorder potentially indicated for kidney transplant
         lang: en
       ORPHA: '506213'
       PURL: http://www.orpha.net/ORDO/Orphanet_506213
+    - Name:
+      - label: Genetic renal tubular disease
+        lang: en
+      ORPHA: '183592'
+      PURL: http://www.orpha.net/ORDO/Orphanet_183592
 
 - HasSubtypeList:
   - Subtype:
@@ -144,6 +153,45 @@ ORPHApacket:
           Gene:
           - ExternalReferenceList:
             - ExternalReference:
+              - Reference: '5024'
+                Source: HGNC
+              - Reference: '600281'
+                Source: OMIM
+            Name:
+            - label: hepatocyte nuclear factor 4 alpha
+              lang: en
+            Symbol: HNF4A
+        - DisorderGeneAssociationType:
+          - Name:
+            - label: Disease-causing germline mutation(s) in
+              lang: en
+            ORPHA: '317343'
+          Gene:
+          - ExternalReferenceList:
+            - ExternalReference:
+              - Reference: '11630'
+                Source: HGNC
+              - Reference: '189907'
+                Source: OMIM
+            Name:
+            - label: HNF1 homeobox B
+              lang: en
+            Symbol: HNF1B
+        Name:
+        - label: HNF1B-related autosomal dominant tubulointerstitial kidney disease
+          lang: en
+        ORPHA: '93111'
+        PURL: http://www.orpha.net/ORDO/Orphanet_93111
+    - Disorder:
+      - DisorderGeneAssociation:
+        - DisorderGeneAssociationType:
+          - Name:
+            - label: Disease-causing germline mutation(s) in
+              lang: en
+            ORPHA: '317343'
+          Gene:
+          - ExternalReferenceList:
+            - ExternalReference:
               - Reference: '9958'
                 Source: HGNC
               - Reference: '179820'
@@ -160,6 +208,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-18 18:36:46'
+- date: '2019-12-05 17:30:11'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

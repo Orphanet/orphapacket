@@ -20,7 +20,7 @@ ORPHApacket:
       to progressive loss of the photoreceptors and retinal pigment epithelium and
       resulting in blindness usually after several decades.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -1905,6 +1905,22 @@ ORPHApacket:
         Symbol: AHR
     - DisorderGeneAssociationType:
       - Name:
+        - label: Candidate gene tested in
+          lang: en
+        OrphaNumber: '327767'
+      Gene:
+      - ExternalReferenceList:
+        - ExternalReference:
+          - Reference: '5384'
+            Source: HGNC
+          - Reference: '601149'
+            Source: OMIM
+        Name:
+        - label: isocitrate dehydrogenase (NAD(+)) 3 alpha
+          lang: en
+        Symbol: IDH3A
+    - DisorderGeneAssociationType:
+      - Name:
         - label: Disease-causing germline mutation(s) in
           lang: en
         OrphaNumber: '317343'
@@ -1956,20 +1972,20 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
-      - label: Isolated progressive inherited retinal disorder
+      - label: Retinal ciliopathy due to mutation in the RPGR gene
         lang: en
-      ORPHA: '519306'
-      PURL: http://www.orpha.net/ORDO/Orphanet_519306
+      ORPHA: '156171'
+      PURL: http://www.orpha.net/ORDO/Orphanet_156171
     - Name:
       - label: Retinal ciliopathy due to mutation in the retinitis pigmentosa-1 gene
         lang: en
       ORPHA: '156168'
       PURL: http://www.orpha.net/ORDO/Orphanet_156168
     - Name:
-      - label: Retinal ciliopathy due to mutation in the RPGR gene
+      - label: Isolated progressive inherited retinal disorder
         lang: en
-      ORPHA: '156171'
-      PURL: http://www.orpha.net/ORDO/Orphanet_156171
+      ORPHA: '519306'
+      PURL: http://www.orpha.net/ORDO/Orphanet_519306
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -2187,6 +2203,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 05:04:15'
+- date: '2019-12-06 08:03:25'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

@@ -28,7 +28,7 @@ ORPHApacket:
       involvement of the brainstem, associated with an organomegaly and generally
       leading to death before the age of 2.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -56,20 +56,30 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
+      - label: Syndromic disorder with strabismus
+        lang: en
+      ORPHA: '98683'
+      PURL: http://www.orpha.net/ORDO/Orphanet_98683
+    - Name:
       - label: Cerebral lipidosis with dementia
         lang: en
       ORPHA: '98544'
       PURL: http://www.orpha.net/ORDO/Orphanet_98544
+    - Name:
+      - label: Neurometabolic disease
+        lang: en
+      ORPHA: '68385'
+      PURL: http://www.orpha.net/ORDO/Orphanet_68385
     - Name:
       - label: Sphingolipidosis with epilepsy
         lang: en
       ORPHA: '371442'
       PURL: http://www.orpha.net/ORDO/Orphanet_371442
     - Name:
-      - label: Syndromic disorder with strabismus
+      - label: Gaucher disease
         lang: en
-      ORPHA: '98683'
-      PURL: http://www.orpha.net/ORDO/Orphanet_98683
+      ORPHA: '355'
+      PURL: http://www.orpha.net/ORDO/Orphanet_355
     - Name:
       - label: Syndromic genetic disorder with strabismus
         lang: en
@@ -81,16 +91,6 @@ ORPHApacket:
         lang: en
       ORPHA: '264719'
       PURL: http://www.orpha.net/ORDO/Orphanet_264719
-    - Name:
-      - label: Gaucher disease
-        lang: en
-      ORPHA: '355'
-      PURL: http://www.orpha.net/ORDO/Orphanet_355
-    - Name:
-      - label: Neurometabolic disease
-        lang: en
-      ORPHA: '68385'
-      PURL: http://www.orpha.net/ORDO/Orphanet_68385
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -220,6 +220,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-18 19:16:39'
+- date: '2019-12-05 18:20:06'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

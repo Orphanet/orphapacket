@@ -25,7 +25,7 @@ ORPHApacket:
       bone abnormalities (e.g. small hands and feet, dolichospondyly, slender long
       bones and craniofacial disproportion).
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -59,6 +59,11 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
+      - label: Rare syndromic intellectual disability
+        lang: en
+      ORPHA: '102369'
+      PURL: http://www.orpha.net/ORDO/Orphanet_102369
+    - Name:
       - label: Rare genetic syndromic intellectual disability
         lang: en
       ORPHA: '183763'
@@ -68,14 +73,239 @@ ORPHApacket:
         lang: en
       ORPHA: '240371'
       PURL: http://www.orpha.net/ORDO/Orphanet_240371
-    - Name:
-      - label: Rare syndromic intellectual disability
-        lang: en
-      ORPHA: '102369'
-      PURL: http://www.orpha.net/ORDO/Orphanet_102369
+
+- HPODisorderAssociationList:
+  - HPODisorderAssociation:
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0000826
+      HPOTerm: Precocious puberty
+      PURL: http://purl.obolibrary.org/obo/HP_0000826
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001270
+      HPOTerm: Motor delay
+      PURL: http://purl.obolibrary.org/obo/HP_0001270
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001518
+      HPOTerm: Small for gestational age
+      PURL: http://purl.obolibrary.org/obo/HP_0001518
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0001773
+      HPOTerm: Short foot
+      PURL: http://purl.obolibrary.org/obo/HP_0001773
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0008897
+      HPOTerm: Postnatal growth retardation
+      PURL: http://purl.obolibrary.org/obo/HP_0008897
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0008947
+      HPOTerm: Infantile muscular hypotonia
+      PURL: http://purl.obolibrary.org/obo/HP_0008947
+    - HPOFrequency:
+      - Name:
+        - label: Very frequent (99-80%)
+          lang: en
+        ORPHA: '453311'
+      HPOId: HP:0200055
+      HPOTerm: Small hand
+      PURL: http://purl.obolibrary.org/obo/HP_0200055
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0000750
+      HPOTerm: Delayed speech and language development
+      PURL: http://purl.obolibrary.org/obo/HP_0000750
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001256
+      HPOTerm: Intellectual disability, mild
+      PURL: http://purl.obolibrary.org/obo/HP_0001256
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001513
+      HPOTerm: Obesity
+      PURL: http://purl.obolibrary.org/obo/HP_0001513
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0001622
+      HPOTerm: Premature birth
+      PURL: http://purl.obolibrary.org/obo/HP_0001622
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+      PURL: http://purl.obolibrary.org/obo/HP_0004322
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0004482
+      HPOTerm: Relative macrocephaly
+      PURL: http://purl.obolibrary.org/obo/HP_0004482
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0008872
+      HPOTerm: Feeding difficulties in infancy
+      PURL: http://purl.obolibrary.org/obo/HP_0008872
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0011968
+      HPOTerm: Feeding difficulties
+      PURL: http://purl.obolibrary.org/obo/HP_0011968
+    - HPOFrequency:
+      - Name:
+        - label: Frequent (79-30%)
+          lang: en
+        ORPHA: '453312'
+      HPOId: HP:0040288
+      HPOTerm: Nasogastric tube feeding
+      PURL: http://purl.obolibrary.org/obo/HP_0040288
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0000028
+      HPOTerm: Cryptorchidism
+      PURL: http://purl.obolibrary.org/obo/HP_0000028
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002591
+      HPOTerm: Polyphagia
+      PURL: http://purl.obolibrary.org/obo/HP_0002591
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
+      PURL: http://purl.obolibrary.org/obo/HP_0002650
+    - HPOFrequency:
+      - Name:
+        - label: Occasional (29-5%)
+          lang: en
+        ORPHA: '453313'
+      HPOId: HP:0005978
+      HPOTerm: Type II diabetes mellitus
+      PURL: http://purl.obolibrary.org/obo/HP_0005978
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000193
+      HPOTerm: Bifid uvula
+      PURL: http://purl.obolibrary.org/obo/HP_0000193
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000238
+      HPOTerm: Hydrocephalus
+      PURL: http://purl.obolibrary.org/obo/HP_0000238
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000307
+      HPOTerm: Pointed chin
+      PURL: http://purl.obolibrary.org/obo/HP_0000307
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0000824
+      HPOTerm: Growth hormone deficiency
+      PURL: http://purl.obolibrary.org/obo/HP_0000824
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0001988
+      HPOTerm: Recurrent hypoglycemia
+      PURL: http://purl.obolibrary.org/obo/HP_0001988
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0002007
+      HPOTerm: Frontal bossing
+      PURL: http://purl.obolibrary.org/obo/HP_0002007
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0004209
+      HPOTerm: Clinodactyly of the 5th finger
+      PURL: http://purl.obolibrary.org/obo/HP_0004209
+    - HPOFrequency:
+      - Name:
+        - label: Very rare (<4-1%)
+          lang: en
+        ORPHA: '453314'
+      HPOId: HP:0007429
+      HPOTerm: Few cafe-au-lait spots
+      PURL: http://purl.obolibrary.org/obo/HP_0007429
+
+- HPODisorderSetStatus:
+  - ValidationStatus: y
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 00:05:45'
+- date: '2019-12-06 01:22:17'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)

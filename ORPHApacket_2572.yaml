@@ -32,7 +32,7 @@ ORPHApacket:
       development. There have been no further descriptions in the literature since
       1986.
     Name:
-    - label: Disease definition
+    - label: Definition
       lang: en
 
 - TypeOfInheritanceList:
@@ -60,6 +60,16 @@ ORPHApacket:
 - SubClassOfList:
   - Disorder:
     - Name:
+      - label: Rare syndromic intellectual disability
+        lang: en
+      ORPHA: '102369'
+      PURL: http://www.orpha.net/ORDO/Orphanet_102369
+    - Name:
+      - label: Autosomal recessive spastic ataxia
+        lang: en
+      ORPHA: '316240'
+      PURL: http://www.orpha.net/ORDO/Orphanet_316240
+    - Name:
       - label: Syndromic corneal dystrophy
         lang: en
       ORPHA: '98628'
@@ -70,20 +80,10 @@ ORPHApacket:
       ORPHA: '522548'
       PURL: http://www.orpha.net/ORDO/Orphanet_522548
     - Name:
-      - label: Autosomal recessive spastic ataxia
-        lang: en
-      ORPHA: '316240'
-      PURL: http://www.orpha.net/ORDO/Orphanet_316240
-    - Name:
       - label: Syndromic cataract
         lang: en
       ORPHA: '98641'
       PURL: http://www.orpha.net/ORDO/Orphanet_98641
-    - Name:
-      - label: Rare syndromic intellectual disability
-        lang: en
-      ORPHA: '102369'
-      PURL: http://www.orpha.net/ORDO/Orphanet_102369
 
 - HPODisorderAssociationList:
   - HPODisorderAssociation:
@@ -93,7 +93,7 @@ ORPHApacket:
           lang: en
         ORPHA: '453311'
       HPOId: HP:0000519
-      HPOTerm: Congenital cataract
+      HPOTerm: Developmental cataract
       PURL: http://purl.obolibrary.org/obo/HP_0000519
     - HPOFrequency:
       - Name:
@@ -189,6 +189,6 @@ ORPHApacket:
 
 - copyright: Orphanet (c) 2019
 
-- date: '2019-07-19 02:51:04'
+- date: '2019-12-06 05:21:19'
 
-- version: 1.2.11 / 4.1.6 [2018-04-12] (orientdb version)
+- version: 1.3.1 / 4.1.7 [2019-11-24] (orientdb version)
