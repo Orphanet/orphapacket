@@ -1,0 +1,78 @@
+Orphapacket:
+  ORPHApacketId: '79401'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '79401'
+  Label: Epidermolysis bullosa simplex, Ogna type
+  PURL: http://www.orpha.net/ORDO/Orphanet_79401
+  DisorderType:
+    value: Disease
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  Synonyms:
+  - Synonym: EBS-O
+  ExternalReferences:
+  - Source: OMIM
+    Reference: '131950'
+    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  TextSection:
+    TextSectionType: Definition
+    Contents: Epidermolysis bullosa simplex Ogna type (EBS-O) is a basal subtype of
+      epidermolysis bullosa simplex (EBS see this term) characterized by sometimes
+      widespread primarily acral blistering.
+  Genes:
+  - Gene:
+      Symbol: PLEC
+      Name: plectin
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '9069'
+      - Source: OMIM
+        Reference: '601282'
+  Parents:
+  - Parent:
+    - ORPHAcode: '158665'
+      Label: Basal epidermolysis bullosa simplex
+  Phenotypes:
+  - Phenotype:
+      HPOId: HP:0000978
+      HPOTerm: Bruising susceptibility
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0001805
+      HPOTerm: Onychogryposis
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0008066
+      HPOTerm: Abnormal blistering of the skin
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0200041
+      HPOTerm: Skin erosion
+      HPOFrequency: Very frequent (99-80%)
+  Prevalences:
+  - Prevalence:
+      Source: 22854623[PMID]_23774525[PMID]
+      PrevalenceType: Cases/families
+      PrevalenceQualification: Family
+      PrevalenceClass: no data
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  - Prevalence:
+      Source: ORPHANET
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Class only
+      PrevalenceClass: <1 / 1 000 000
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal dominant

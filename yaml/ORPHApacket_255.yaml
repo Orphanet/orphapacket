@@ -1,0 +1,106 @@
+Orphapacket:
+  ORPHApacketId: '255'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '255'
+  Label: Dopa-responsive dystonia
+  PURL: http://www.orpha.net/ORDO/Orphanet_255
+  DisorderType:
+    value: Clinical group
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+  Synonyms:
+  - Synonym: HPD with diurnal fluctuation
+  - Synonym: Hereditary progressive dystonia with diurnal fluctuation
+  TextSection:
+    TextSectionType: Definition
+    Contents: Dopa-responsive dystonia (DRD) describes a group of neurometabolic disorders
+      characterized by dystonia that typically shows diurnal fluctuations that responds
+      excellently to levodopa (L-dopa) and that is comprised of autosomal dominant
+      dopa-responsive dystonia (DYT5a) autosomal recessive dopa-responsive dystonia
+      (DYT5b) and dopa responsive dystonia due to sepiapterin reductase (SR) deficiency.
+  Parents:
+  - Parent:
+    - ORPHAcode: '68385'
+      Label: Neurometabolic disease
+  - Parent:
+    - ORPHAcode: '309819'
+      Label: Disorder of pterin metabolism
+  - Parent:
+    - ORPHAcode: '391711'
+      Label: Persistent combined dystonia
+  Childs:
+  - Child:
+      Label: Autosomal recessive dopa-responsive dystonia
+      ORPHAcode: '101150'
+      Genes:
+      - Gene:
+          Label: tyrosine hydroxylase
+          Symbol: TH
+          ExternalReferences:
+          - Source: OMIM
+            Reference: '191290'
+          - Source: HGNC
+            Reference: '11782'
+  - Child:
+      Label: Dopa-responsive dystonia due to sepiapterin reductase deficiency
+      ORPHAcode: '70594'
+      Genes:
+      - Gene:
+          Label: sepiapterin reductase
+          Symbol: SPR
+          ExternalReferences:
+          - Source: HGNC
+            Reference: '11257'
+          - Source: OMIM
+            Reference: '182125'
+  - Child:
+      Label: Autosomal dominant dopa-responsive dystonia
+      ORPHAcode: '98808'
+      Genes:
+      - Gene:
+          Label: GTP cyclohydrolase 1
+          Symbol: GCH1
+          ExternalReferences:
+          - Source: HGNC
+            Reference: '4193'
+          - Source: OMIM
+            Reference: '600225'
+  Phenotypes:
+  - Phenotype:
+      HPOId: HP:0001257
+      HPOTerm: Spasticity
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0001288
+      HPOTerm: Gait disturbance
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0100022
+      HPOTerm: Abnormality of movement
+      HPOFrequency: Very frequent (99-80%)
+  Prevalences:
+  - Prevalence:
+      Source: ORPHANET
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Value and class
+      PrevalenceClass: 1-9 / 1 000 000
+      ValMoy: no data
+      PrevalenceGeographic: Europe
+  - Prevalence:
+      Source: 8420194[PMID]_19533203[PMID]
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Value and class
+      PrevalenceClass: 1-9 / 1 000 000
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
+  TypeOfInheritances:
+  - TypeOfInheritance:
+      value: Autosomal dominant
+  - TypeOfInheritance:
+      value: Autosomal recessive
+  - TypeOfInheritance:
+      value: Not applicable

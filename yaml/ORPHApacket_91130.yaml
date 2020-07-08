@@ -1,0 +1,111 @@
+Orphapacket:
+  ORPHApacketId: '91130'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '91130'
+  Label: Cardiomyopathy-hypotonia-lactic acidosis syndrome
+  PURL: http://www.orpha.net/ORDO/Orphanet_91130
+  DisorderType:
+    value: Disease
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  ExternalReferences:
+  - Source: OMIM
+    Reference: '610773'
+    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  TextSection:
+    TextSectionType: Definition
+    Contents: Cardiomyopathy-hypotonia-lactic acidosis syndrome is characterised by
+      hypertrophic cardiomyopathy muscular hypotonia and the presence of lactic acidosis
+      at birth. It has been described in two sisters (both of whom died within the
+      first year of life) from a nonconsanguineous Turkish family. The syndrome is
+      caused by a homozygous point mutation in the exon 3A of the <i>SLC25A3</i> gene
+      encoding a mitochondrial membrane transporter.
+  Genes:
+  - Gene:
+      Symbol: SLC25A3
+      Name: solute carrier family 25 member 3
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '10989'
+      - Source: OMIM
+        Reference: '600370'
+  Parents:
+  - Parent:
+    - ORPHAcode: '217595'
+      Label: Syndrome associated with hypertrophic cardiomyopathy
+  - Parent:
+    - ORPHAcode: '254830'
+      Label: Mitochondrial substrate carrier disorder
+  - Parent:
+    - ORPHAcode: '68380'
+      Label: Mitochondrial disease
+  Phenotypes:
+  - Phenotype:
+      HPOId: HP:0001252
+      HPOTerm: Muscular hypotonia
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0001639
+      HPOTerm: Hypertrophic cardiomyopathy
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0001942
+      HPOTerm: Metabolic acidosis
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0002151
+      HPOTerm: Increased serum lactate
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0003128
+      HPOTerm: Lactic acidosis
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0012103
+      HPOTerm: Abnormality of the mitochondrion
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0000961
+      HPOTerm: Cyanosis
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0003198
+      HPOTerm: Myopathy
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0009805
+      HPOTerm: Low-output congestive heart failure
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0002098
+      HPOTerm: Respiratory distress
+      HPOFrequency: Occasional (29-5%)
+  Prevalences:
+  - Prevalence:
+      Source: 17273968[PMID]
+      PrevalenceType: Cases/families
+      PrevalenceQualification: Case
+      PrevalenceClass: no data
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  - Prevalence:
+      Source: ORPHANET_17273968[PMID]
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Class only
+      PrevalenceClass: <1 / 1 000 000
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: infantile
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive

@@ -1,0 +1,83 @@
+Orphapacket:
+  ORPHApacketId: '98881'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '98881'
+  Label: Familial dysfibrinogenemia
+  PURL: http://www.orpha.net/ORDO/Orphanet_98881
+  DisorderType:
+    value: Clinical subtype
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+  ExternalReferences:
+  - Source: OMIM
+    Reference: '616004'
+    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  TextSection:
+    TextSectionType: Definition
+    Contents: Familial dysfibrinogenemia is a coagulation disorder characterized by
+      a bleeding tendency due to a functional anomaly of circulating fibrinogen.
+  Genes:
+  - Gene:
+      Symbol: FGA
+      Name: fibrinogen alpha chain
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '3661'
+      - Source: OMIM
+        Reference: '134820'
+  - Gene:
+      Symbol: FGB
+      Name: fibrinogen beta chain
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '3662'
+      - Source: OMIM
+        Reference: '134830'
+  - Gene:
+      Symbol: FGG
+      Name: fibrinogen gamma chain
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '3694'
+      - Source: OMIM
+        Reference: '134850'
+  Parents:
+  - Parent:
+    - ORPHAcode: '335'
+      Label: Congenital fibrinogen deficiency
+  Phenotypes:
+  - Phenotype:
+      HPOId: HP:0000225
+      HPOTerm: Gingival bleeding
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0000421
+      HPOTerm: Epistaxis
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0001892
+      HPOTerm: Abnormal bleeding
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0002239
+      HPOTerm: Gastrointestinal hemorrhage
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0004936
+      HPOTerm: Venous thrombosis
+      HPOFrequency: Frequent (79-30%)
+  Prevalences:
+    Prevalence:
+    - Source: ORPHANET
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Class only
+      PrevalenceClass: Unknown
+      ValMoy: '0.0'
+      PrevalenceGeographic: Worldwide
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal dominant

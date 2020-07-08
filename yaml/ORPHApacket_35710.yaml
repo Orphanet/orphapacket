@@ -1,0 +1,62 @@
+Orphapacket:
+  ORPHApacketId: '35710'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '35710'
+  Label: Glucose-galactose malabsorption
+  PURL: http://www.orpha.net/ORDO/Orphanet_35710
+  DisorderType:
+    value: Disease
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  Synonyms:
+  - Synonym: SGLT1 deficiency
+  ExternalReferences:
+  - Source: OMIM
+    Reference: '606824'
+    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  TextSection:
+    TextSectionType: Definition
+    Contents: Glucose-galactose malabsorption (GGM) is a very rare potentially lethal
+      genetic metabolic disease characterized by impaired glucose-galactose absorption
+      resulting in severe watery diarrhea and dehydration with onset inthe neonatal
+      period.
+  Genes:
+  - Gene:
+      Symbol: SLC5A1
+      Name: solute carrier family 5 member 1
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '11036'
+      - Source: OMIM
+        Reference: '182380'
+  Parents:
+  - Parent:
+    - ORPHAcode: '79178'
+      Label: Glucose transport disorder
+  - Parent:
+    - ORPHAcode: '104003'
+      Label: Congenital intestinal transport defect
+  Prevalences:
+  - Prevalence:
+      Source: ORPHANET_22843301[PMID]
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Class only
+      PrevalenceClass: Unknown
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  - Prevalence:
+      Source: 23107089[PMID]
+      PrevalenceType: Prevalence at birth
+      PrevalenceQualification: Value and class
+      PrevalenceClass: 1-9 / 1 000 000
+      ValMoy: no data
+      PrevalenceGeographic: France
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive

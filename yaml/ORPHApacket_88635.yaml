@@ -1,0 +1,67 @@
+Orphapacket:
+  ORPHApacketId: '88635'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '88635'
+  Label: Vacuolar myopathy with sarcoplasmic reticulum protein aggregates
+  PURL: http://www.orpha.net/ORDO/Orphanet_88635
+  DisorderType:
+    value: Disease
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  Synonyms:
+  - Synonym: Myopathy due to calsequestrin and SERCA1 protein overload
+  - Synonym: Vacuolar aggregate myopathy
+  ExternalReferences:
+  - Source: OMIM
+    Reference: '616231'
+    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  TextSection:
+    TextSectionType: Definition
+    Contents: A rare genetic vaculolar myopathy characterised by mild myopathy or
+      elevated levels of creatine kinase in the blood without associated symptoms.
+  Genes:
+  - Gene:
+      Symbol: CASQ1
+      Name: calsequestrin 1
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '1512'
+      - Source: OMIM
+        Reference: '114250'
+  Parents:
+  - Parent:
+    - ORPHAcode: '206634'
+      Label: Genetic skeletal muscle disease
+  - Parent:
+    - ORPHAcode: '209199'
+      Label: Qualitative or quantitative defects of protein SERCA1
+  Phenotypes:
+  - Phenotype:
+      HPOId: HP:0003198
+      HPOTerm: Myopathy
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0003236
+      HPOTerm: Elevated serum creatine kinase
+      HPOFrequency: Very frequent (99-80%)
+  Prevalences:
+  - Prevalence:
+      Source: 16714317[PMID]
+      PrevalenceType: Cases/families
+      PrevalenceQualification: Case
+      PrevalenceClass: no data
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  - Prevalence:
+      Source: ORPHANET_16714317[PMID]
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Class only
+      PrevalenceClass: <1 / 1 000 000
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  TypeOfInheritances:
+  - TypeOfInheritance:
+      value: Autosomal dominant
+  - TypeOfInheritance:
+      value: Unknown

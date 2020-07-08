@@ -1,0 +1,107 @@
+Orphapacket:
+  ORPHApacketId: '2442'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '2442'
+  Label: X-linked lymphoproliferative disease
+  PURL: http://www.orpha.net/ORDO/Orphanet_2442
+  DisorderType:
+    value: Clinical group
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+  Synonyms:
+  - Synonym: Duncan disease
+  - Synonym: Purtilo syndrome
+  - Synonym: XLP
+  ExternalReferences:
+  - ExternalReference:
+      Source: OMIM
+      Reference: '300635'
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+  - ExternalReference:
+      Source: OMIM
+      Reference: '308240'
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+  Parents:
+  - Parent:
+    - ORPHAcode: '158038'
+      Label: Primary hemophagocytic lymphohistiocytosis
+  - Parent:
+    - ORPHAcode: '238510'
+      Label: Lymphoproliferative syndrome
+  Childs:
+  - Child:
+      Label: X-linked lymphoproliferative disease due to SH2D1A deficiency
+      ORPHAcode: '538931'
+      Genes:
+      - Gene:
+          Label: SH2 domain containing 1A
+          Symbol: SH2D1A
+          ExternalReferences:
+          - Source: HGNC
+            Reference: '10820'
+          - Source: OMIM
+            Reference: '300490'
+  - Child:
+      Label: X-linked lymphoproliferative disease due to XIAP deficiency
+      ORPHAcode: '538934'
+      Genes:
+      - Gene:
+          Label: X-linked inhibitor of apoptosis
+          Symbol: XIAP
+          ExternalReferences:
+          - Source: HGNC
+            Reference: '592'
+          - Source: OMIM
+            Reference: '300079'
+  Phenotypes:
+  - Phenotype:
+      HPOId: HP:0001744
+      HPOTerm: Splenomegaly
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0001903
+      HPOTerm: Anemia
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0002240
+      HPOTerm: Hepatomegaly
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0002665
+      HPOTerm: Lymphoma
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0002716
+      HPOTerm: Lymphadenopathy
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0004313
+      HPOTerm: Decreased antibody level in blood
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0005374
+      HPOTerm: Cellular immunodeficiency
+      HPOFrequency: Very frequent (99-80%)
+  Prevalences:
+    Prevalence:
+    - Source: 20301580[PMID]_[EXPERT]
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Value and class
+      PrevalenceClass: <1 / 1 000 000
+      ValMoy: '0.05'
+      PrevalenceGeographic: Europe
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: X-linked recessive

@@ -1,0 +1,76 @@
+Orphapacket:
+  ORPHApacketId: '98434'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '98434'
+  Label: Hereditary combined deficiency of vitamin K-dependent clotting factors
+  PURL: http://www.orpha.net/ORDO/Orphanet_98434
+  DisorderType:
+    value: Disease
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  Synonyms:
+  - Synonym: Hereditary combined deficiency of factors II, VII, IX and X
+  ExternalReferences:
+  - ExternalReference:
+      Source: OMIM
+      Reference: '277450'
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  - ExternalReference:
+      Source: OMIM
+      Reference: '607473'
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+  TextSection:
+    TextSectionType: Definition
+    Contents: Combined vitamin K-dependent clotting factors deficiency (VKCFD) is
+      a congenital bleeding disorder resulting from variably decreased levels of coagulation
+      factors II VII IX and X as well as natural anticoagulants protein C protein
+      S and protein Z.
+  Genes:
+  - Gene:
+      Symbol: GGCX
+      Name: gamma-glutamyl carboxylase
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '4247'
+      - Source: OMIM
+        Reference: '137167'
+  - Gene:
+      Symbol: VKORC1
+      Name: vitamin K epoxide reductase complex subunit 1
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '23663'
+      - Source: OMIM
+        Reference: '608547'
+  Parents:
+  - Parent:
+    - ORPHAcode: '169826'
+      Label: Congenital vitamin K-dependent coagulation factors deficiency
+  - Parent:
+    - ORPHAcode: '309833'
+      Label: Disorder of other vitamins and cofactors metabolism and transport
+  Prevalences:
+  - Prevalence:
+      Source: 20630065[PMID]
+      PrevalenceType: Cases/families
+      PrevalenceQualification: Family
+      PrevalenceClass: no data
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  - Prevalence:
+      Source: ORPHANET_20630065[PMID]
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Class only
+      PrevalenceClass: <1 / 1 000 000
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive

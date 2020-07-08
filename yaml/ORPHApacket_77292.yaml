@@ -1,0 +1,69 @@
+Orphapacket:
+  ORPHApacketId: '77292'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '77292'
+  Label: Niemann-Pick disease type A
+  PURL: http://www.orpha.net/ORDO/Orphanet_77292
+  DisorderType:
+    value: Disease
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  ExternalReferences:
+  - Source: OMIM
+    Reference: '257200'
+    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  TextSection:
+    TextSectionType: Definition
+    Contents: Niemann-Pick disease type A is a very severe subtype of Niemann-Pick
+      disease an autosomal recessive lysosomal disease and is characterized clinically
+      by onset in infancy or early childhood with failure to thrive hepatosplenomegaly
+      and rapidly progressive neurodegenerative disorders.
+  Genes:
+  - Gene:
+      Symbol: SMPD1
+      Name: sphingomyelin phosphodiesterase 1
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '11120'
+      - Source: OMIM
+        Reference: '607608'
+  Parents:
+  - Parent:
+    - ORPHAcode: '79225'
+      Label: Sphingolipidosis
+  - Parent:
+    - ORPHAcode: '68385'
+      Label: Neurometabolic disease
+  - Parent:
+    - ORPHAcode: '519325'
+      Label: Syndromic inherited retinal disorder
+  - Parent:
+    - ORPHAcode: '371442'
+      Label: Sphingolipidosis with epilepsy
+  Prevalences:
+  - Prevalence:
+      Source: ORPHANET
+      PrevalenceType: Prevalence at birth
+      PrevalenceQualification: Value and class
+      PrevalenceClass: 1-9 / 1 000 000
+      ValMoy: no data
+      PrevalenceGeographic: Europe
+  - Prevalence:
+      Source: ORPHANET
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Class only
+      PrevalenceClass: <1 / 1 000 000
+      ValMoy: no data
+      PrevalenceGeographic: Europe
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: early childhood
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive

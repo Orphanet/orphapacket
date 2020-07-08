@@ -1,0 +1,77 @@
+Orphapacket:
+  ORPHApacketId: '183707'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '183707'
+  Label: Neutrophil immunodeficiency syndrome
+  PURL: http://www.orpha.net/ORDO/Orphanet_183707
+  DisorderType:
+    value: Disease
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  ExternalReferences:
+  - Source: OMIM
+    Reference: '608203'
+    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  TextSection:
+    TextSectionType: Definition
+    Contents: Neutrophil immunodeficiency syndrome is a primary immunodeficiency characterized
+      by neutrophilia with severe neutrophil dysfunction leukocytosis a predisposition
+      to bacterial infections and poor wound healing including an absence of pus in
+      infected areas.
+  Genes:
+  - Gene:
+      Symbol: RAC2
+      Name: Rac family small GTPase 2
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '9802'
+      - Source: OMIM
+        Reference: '602049'
+  Parents:
+  - Parent:
+    - ORPHAcode: '183681'
+      Label: Functional neutrophil defect
+  Phenotypes:
+  - Phenotype:
+      HPOId: HP:0001058
+      HPOTerm: Poor wound healing
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0001974
+      HPOTerm: Leukocytosis
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0002721
+      HPOTerm: Immunodeficiency
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0011990
+      HPOTerm: Abnormality of neutrophil physiology
+      HPOFrequency: Very frequent (99-80%)
+  Prevalences:
+  - Prevalence:
+      Source: 10758162[PMID]
+      PrevalenceType: Cases/families
+      PrevalenceQualification: Case
+      PrevalenceClass: no data
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  - Prevalence:
+      Source: ORPHANET_10758162[PMID]
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Class only
+      PrevalenceClass: <1 / 1 000 000
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: early childhood
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Unknown

@@ -1,0 +1,80 @@
+Orphapacket:
+  ORPHApacketId: '91132'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '91132'
+  Label: Ichthyosis-hypotrichosis syndrome
+  PURL: http://www.orpha.net/ORDO/Orphanet_91132
+  DisorderType:
+    value: Disease
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  Synonyms:
+  - Synonym: Hypotrichosis-congenital ichthyosis syndrome
+  - Synonym: IFAH syndrome
+  - Synonym: IHS
+  - Synonym: Ichthyosis-follicular atrophoderma-hypotrichosis syndrome
+  - Synonym: Ichthyosis-follicular atrophoderma-hypotrichosis-hypohidrosis syndrome
+  ExternalReferences:
+  - Source: OMIM
+    Reference: '602400'
+    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  TextSection:
+    TextSectionType: Definition
+    Contents: Ichthyosis-hypotrichosis syndrome is characterised by congenital ichthyosis
+      and hypotrichosis. It has been described in three members of a consanguineous
+      Arab Israeli family. The syndrome is transmitted as an autosomal recessive trait
+      and is caused by a missense mutation in the <i>ST14</i> gene encoding the recently
+      identified protease matriptase. Analysis of skin samples from the patients suggests
+      that this enzyme plays a role in epidermal desquamation.
+  Genes:
+  - Gene:
+      Symbol: ST14
+      Name: suppression of tumorigenicity 14
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '11344'
+      - Source: OMIM
+        Reference: '606797'
+  Parents:
+  - Parent:
+    - ORPHAcode: '79364'
+      Label: Alopecia
+  - Parent:
+    - ORPHAcode: '281222'
+      Label: Autosomal ichthyosis syndrome with prominent hair abnormalities
+  - Parent:
+    - ORPHAcode: '481771'
+      Label: Genetic alopecia
+  Phenotypes:
+  - Phenotype:
+      HPOId: HP:0001006
+      HPOTerm: Hypotrichosis
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0008064
+      HPOTerm: Ichthyosis
+      HPOFrequency: Very frequent (99-80%)
+  Prevalences:
+  - Prevalence:
+      Source: 26596219[PMID]
+      PrevalenceType: Cases/families
+      PrevalenceQualification: Case
+      PrevalenceClass: no data
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  - Prevalence:
+      Source: ORPHANET_26596219[PMID]
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Class only
+      PrevalenceClass: <1 / 1 000 000
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive

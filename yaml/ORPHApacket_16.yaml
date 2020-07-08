@@ -1,0 +1,101 @@
+Orphapacket:
+  ORPHApacketId: '16'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '16'
+  Label: Blue cone monochromatism
+  PURL: http://www.orpha.net/ORDO/Orphanet_16
+  DisorderType:
+    value: Disease
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  Synonyms:
+  - Synonym: Atypical X-linked achromatopsia
+  - Synonym: Blue cone monochromacy
+  - Synonym: Color blindness, blue monocone monochromatic type
+  - Synonym: S cone monochromacy
+  - Synonym: S cone monochromatism
+  - Synonym: X-linked incomplete achromatopsia
+  ExternalReferences:
+  - Source: OMIM
+    Reference: '303700'
+    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  TextSection:
+    TextSectionType: Definition
+    Contents: Blue cone monochromatism (BCM) is a recessive X-linked disease characterized
+      by severely impaired color discrimination low visual acuity nystagmus and photophobia
+      due to dysfunction of the red (L) and green (M) cone photoreceptors. BCM is
+      as an incomplete form of achromatopsia (see this term).
+  Genes:
+  - Gene:
+      Symbol: OPN1MW
+      Name: opsin 1, medium wave sensitive
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '4206'
+      - Source: OMIM
+        Reference: '300821'
+  - Gene:
+      Symbol: OPN1LW
+      Name: opsin 1, long wave sensitive
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '9936'
+      - Source: OMIM
+        Reference: '300822'
+  Parents:
+  - Parent:
+    - ORPHAcode: '98658'
+      Label: Color-vision disease
+  - Parent:
+    - ORPHAcode: '519319'
+      Label: Isolated stationary inherited retinal disorder
+  Phenotypes:
+  - Phenotype:
+      HPOId: HP:0000505
+      HPOTerm: Visual impairment
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0000512
+      HPOTerm: Abnormal electroretinogram
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0000613
+      HPOTerm: Photophobia
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0001131
+      HPOTerm: Corneal dystrophy
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0007703
+      HPOTerm: Abnormality of retinal pigmentation
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0007939
+      HPOTerm: Blue cone monochromacy
+      HPOFrequency: Very frequent (99-80%)
+  Prevalences:
+  - Prevalence:
+      Source: ISBN:9780521004398[OTHER]_[EXPERT]
+      PrevalenceType: Prevalence at birth
+      PrevalenceQualification: Value and class
+      PrevalenceClass: 1-9 / 100 000
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  - Prevalence:
+      Source: ISBN:9780521004398[OTHER]_[EXPERT]
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Value and class
+      PrevalenceClass: 1-9 / 100 000
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Infancy
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: X-linked recessive

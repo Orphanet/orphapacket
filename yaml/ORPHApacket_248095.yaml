@@ -1,0 +1,77 @@
+Orphapacket:
+  ORPHApacketId: '248095'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '248095'
+  Label: Primary hypertrophic osteoarthropathy
+  PURL: http://www.orpha.net/ORDO/Orphanet_248095
+  DisorderType:
+    value: Clinical group
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+  Synonyms:
+  - Synonym: Idiopathic hypertrophic osteoarthropathy
+  - Synonym: PHO
+  TextSection:
+    TextSectionType: Definition
+    Contents: 'Primary hypertrophic osteoarthropathy (PHO) is a genetically and clinically
+      heterogeneous inherited disorder characterized by digital clubbing and osteoarthropathy
+      with variable features of pachydermia delayed closure of the fontanels and congenital
+      heart disease. There are two types of PHO: pachydermoperiostosis and cranio-osteoarthropathy
+      (see these terms).'
+  Parents:
+  - Parent:
+    - ORPHAcode: '93444'
+      Label: Primary bone dysplasia with increased bone density
+  Childs:
+  - Child:
+      Label: Cranio-osteoarthropathy
+      ORPHAcode: '1525'
+      Genes:
+      - Gene:
+          Label: 15-hydroxyprostaglandin dehydrogenase
+          Symbol: HPGD
+          ExternalReferences:
+          - Source: OMIM
+            Reference: '601688'
+          - Source: HGNC
+            Reference: '5154'
+  - Child:
+      Label: Pachydermoperiostosis
+      ORPHAcode: '2796'
+      Genes:
+      - Gene:
+          Label: solute carrier organic anion transporter family member 2A1
+          Symbol: SLCO2A1
+          ExternalReferences:
+          - Source: HGNC
+            Reference: '10955'
+          - Source: OMIM
+            Reference: '601460'
+      - Gene:
+          Label: 15-hydroxyprostaglandin dehydrogenase
+          Symbol: HPGD
+          ExternalReferences:
+          - Source: OMIM
+            Reference: '601688'
+          - Source: HGNC
+            Reference: '5154'
+  Prevalences:
+    Prevalence:
+    - Source: ORPHANET
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Class only
+      PrevalenceClass: Unknown
+      ValMoy: '0.0'
+      PrevalenceGeographic: Worldwide
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive

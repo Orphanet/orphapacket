@@ -1,0 +1,61 @@
+Orphapacket:
+  ORPHApacketId: '391320'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '391320'
+  Label: East Texas bleeding disorder
+  PURL: http://www.orpha.net/ORDO/Orphanet_391320
+  DisorderType:
+    value: Disease
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  ExternalReferences:
+  - Source: OMIM
+    Reference: '605913'
+    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  TextSection:
+    TextSectionType: Definition
+    Contents: East Texas bleeding disorder is a rare genetic coagulation disorder
+      characterized by easy bruising (without hemarthrosis or spontaneous hematomas)
+      epistaxis menorrhagia and excessive bleeding after minor trauma and surgical
+      procedures. Patients present a prolonged prothrombin time and/or activated partial
+      thromboplastin time normal levels of all coagulation factors and normal protein
+      C activity.
+  Genes:
+  - Gene:
+      Symbol: F5
+      Name: coagulation factor V
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '3542'
+      - Source: OMIM
+        Reference: '612309'
+  Parents:
+  - Parent:
+    - ORPHAcode: '68334'
+      Label: Rare hemorrhagic disorder due to a constitutional coagulation factors
+        defect
+  Prevalences:
+  - Prevalence:
+      Source: 23979162[PMID]_25634741[PMID]
+      PrevalenceType: Cases/families
+      PrevalenceQualification: Case
+      PrevalenceClass: no data
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  - Prevalence:
+      Source: ORPHANET_25634741[PMID]
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Class only
+      PrevalenceClass: <1 / 1 000 000
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal dominant

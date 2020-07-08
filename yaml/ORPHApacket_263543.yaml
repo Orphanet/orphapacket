@@ -1,0 +1,90 @@
+Orphapacket:
+  ORPHApacketId: '263543'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '263543'
+  Label: Generalized peeling skin syndrome
+  PURL: http://www.orpha.net/ORDO/Orphanet_263543
+  DisorderType:
+    value: Disease
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  Synonyms:
+  - Synonym: Generalized PSS
+  - Synonym: Generalized deciduous skin
+  ExternalReferences:
+  - ExternalReference:
+      Source: OMIM
+      Reference: '616265'
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+  - ExternalReference:
+      Source: OMIM
+      Reference: '270300'
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  TextSection:
+    TextSectionType: Definition
+    Contents: 'Generalized peeling skin syndrome (PSS) is a form of PSS (see this
+      term) presenting with a generalized distribution. It comprises two sub-types:
+      the non-inflammatory (PSS type A) and the inflammatory (PSS type B) form (see
+      these terms). PSS type A is characterized by generalized white scaling with
+      superficial peeling of the skin while PSS type B is characterized by superficial
+      patchy peeling of the entire skin with underlying erythroderma associated with
+      pruritus and atopy.'
+  Parents:
+  - Parent:
+    - ORPHAcode: '817'
+      Label: Peeling skin syndrome
+  Childs:
+  - Child:
+      Label: Peeling skin syndrome type B
+      ORPHAcode: '263553'
+      Genes:
+      - Gene:
+          Label: corneodesmosin
+          Symbol: CDSN
+          ExternalReferences:
+          - Source: HGNC
+            Reference: '1802'
+          - Source: OMIM
+            Reference: '602593'
+  - Child:
+      Label: Peeling skin syndrome type C
+      ORPHAcode: '263558'
+      Genes: no data
+  - Child:
+      Label: Peeling skin syndrome type A
+      ORPHAcode: '263548'
+      Genes:
+      - Gene:
+          Label: filaggrin family member 2
+          Symbol: FLG2
+          ExternalReferences:
+          - Source: HGNC
+            Reference: '33276'
+          - Source: OMIM
+            Reference: '616284'
+      - Gene:
+          Label: carbohydrate sulfotransferase 8
+          Symbol: CHST8
+          ExternalReferences:
+          - Source: OMIM
+            Reference: '610190'
+          - Source: HGNC
+            Reference: '15993'
+  Prevalences:
+    Prevalence:
+    - Source: ORPHANET
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Class only
+      PrevalenceClass: <1 / 1 000 000
+      ValMoy: '0.0'
+      PrevalenceGeographic: Europe
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive

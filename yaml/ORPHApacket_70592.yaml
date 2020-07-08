@@ -1,0 +1,80 @@
+Orphapacket:
+  ORPHApacketId: '70592'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '70592'
+  Label: Immunodeficiency due to interleukin-1 receptor-associated kinase-4 deficiency
+  PURL: http://www.orpha.net/ORDO/Orphanet_70592
+  DisorderType:
+    value: Disease
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  Synonyms:
+  - Synonym: IRAK4 deficiency
+  ExternalReferences:
+  - Source: OMIM
+    Reference: '607676'
+    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  TextSection:
+    TextSectionType: Definition
+    Contents: Interleukin-1 receptor-associated kinase-4 (IRAK-4) deficiency is an
+      immunodeficiency associated with increased susceptibility to invasive infections
+      caused by pyogenic bacteria.
+  Genes:
+  - Gene:
+      Symbol: IRAK4
+      Name: interleukin 1 receptor associated kinase 4
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '17967'
+      - Source: OMIM
+        Reference: '606883'
+  Parents:
+  - Parent:
+    - ORPHAcode: '183710'
+      Label: Genetic susceptibility to infections due to particular pathogens
+  Phenotypes:
+  - Phenotype:
+      HPOId: HP:0001875
+      HPOTerm: Neutropenia
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0002718
+      HPOTerm: Recurrent bacterial infections
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0002721
+      HPOTerm: Immunodeficiency
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0005366
+      HPOTerm: Recurrent streptococcus pneumoniae infections
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0007499
+      HPOTerm: Recurrent staphylococcal infections
+      HPOFrequency: Very frequent (99-80%)
+  Prevalences:
+  - Prevalence:
+      Source: 21734245[PMID]
+      PrevalenceType: Cases/families
+      PrevalenceQualification: Case
+      PrevalenceClass: no data
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  - Prevalence:
+      Source: ORPHANET_21734245[PMID]
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Class only
+      PrevalenceClass: <1 / 1 000 000
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive

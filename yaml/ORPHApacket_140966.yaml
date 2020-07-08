@@ -1,0 +1,70 @@
+Orphapacket:
+  ORPHApacketId: '140966'
+  creationDate: '2020-06-27 22:10:58'
+  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
+  copyright: Orphanet (c) 2020
+  ORPHAcode: '140966'
+  Label: Palmoplantar keratoderma, Nagashima type
+  PURL: http://www.orpha.net/ORDO/Orphanet_140966
+  DisorderType:
+    value: Disease
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  Synonyms:
+  - Synonym: PPK, Nagashima type
+  - Synonym: Palmoplantar hyperkeratosis, Nagashima type
+  ExternalReferences:
+  - Source: OMIM
+    Reference: '615598'
+    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  TextSection:
+    TextSectionType: Definition
+    Contents: Keratosis Nagashima-type is a transgressive and nonprogressive palmoplantar
+      keratoderma resembling a mild form of mal de Meleda (see this term).
+  Genes:
+  - Gene:
+      Symbol: SERPINB7
+      Name: serpin family B member 7
+      ExternalReferences:
+      - Source: HGNC
+        Reference: '13902'
+      - Source: OMIM
+        Reference: '603357'
+  Parents:
+  - Parent:
+    - ORPHAcode: '98356'
+      Label: Autosomal recessive isolated diffuse palmoplantar keratoderma
+  - Parent:
+    - ORPHAcode: '250811'
+      Label: Serpinopathy with loss of serpin function
+  Phenotypes:
+  - Phenotype:
+      HPOId: HP:0000975
+      HPOTerm: Hyperhidrosis
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0000982
+      HPOTerm: Palmoplantar keratoderma
+      HPOFrequency: Very frequent (99-80%)
+  Prevalences:
+  - Prevalence:
+      Source: 27666198[PMID]
+      PrevalenceType: Cases/families
+      PrevalenceQualification: Case
+      PrevalenceClass: no data
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  - Prevalence:
+      Source: ORPHANET_27666198[PMID]
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Class only
+      PrevalenceClass: <1 / 1 000 000
+      ValMoy: no data
+      PrevalenceGeographic: Worldwide
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive
