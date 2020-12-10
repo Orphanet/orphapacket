@@ -1,6 +1,6 @@
 Orphapacket:
   ORPHApacketId: '93591'
-  creationDate: '2020-06-27 22:10:58'
+  creationDate: '2020-12-03 15:53:15'
   version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
   copyright: Orphanet (c) 2020
   ORPHAcode: '93591'
@@ -23,67 +23,62 @@ Orphapacket:
       Reference: '602088'
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
+  TextSection:
+    TextSectionType: Definition
+    Contents: A rare clinical variant of hereditary nephronophthisis characterized
+      by reduced renal concentrating ability chronic tubulointerstitial nephritis
+      cystic renal disease and progression to end-stage renal disease (ESRD) before
+      3 years of age.
   Genes:
   - Gene:
       Symbol: NPHP3
       Name: nephrocystin 3
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '7907'
-      - Source: OMIM
-        Reference: '608002'
+      ExternalReferences: []
   - Gene:
       Symbol: INVS
       Name: inversin
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '17870'
-      - Source: OMIM
-        Reference: '243305'
+      ExternalReferences: []
   - Gene:
       Symbol: NEK8
       Name: NIMA related kinase 8
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '13387'
-      - Source: OMIM
-        Reference: '609799'
+      ExternalReferences: []
   - Gene:
       Symbol: TTC21B
       Name: tetratricopeptide repeat domain 21B
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '25660'
-      - Source: OMIM
-        Reference: '612014'
+      ExternalReferences: []
   - Gene:
       Symbol: ANKS6
       Name: ankyrin repeat and sterile alpha motif domain containing 6
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '26724'
-      - Source: OMIM
-        Reference: '615370'
+      ExternalReferences: []
   - Gene:
       Symbol: CEP83
       Name: centrosomal protein 83
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '17966'
-      - Source: OMIM
-        Reference: '615847'
+      ExternalReferences: []
   - Gene:
       Symbol: ZNF423
       Name: zinc finger protein 423
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '16762'
-      - Source: OMIM
-        Reference: '604557'
+      ExternalReferences: []
   Parents:
   - Parent:
     - ORPHAcode: '655'
       Label: Nephronophthisis
+  Prevalences:
+    Prevalence:
+    - Source: European Rare Kidney Diseases Reference Network[EXPERT]
+      PrevalenceType: Point prevalence
+      PrevalenceQualification: Class only
+      PrevalenceClass: Unknown
+      ValMoy: '0.0'
+      PrevalenceGeographic: Europe
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive

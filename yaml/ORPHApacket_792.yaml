@@ -1,6 +1,6 @@
 Orphapacket:
   ORPHApacketId: '792'
-  creationDate: '2020-06-27 22:10:58'
+  creationDate: '2020-12-03 15:53:15'
   version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
   copyright: Orphanet (c) 2020
   ORPHAcode: '792'
@@ -18,17 +18,15 @@ Orphapacket:
     DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
     TextSectionType: Definition
-    Contents: X-linked retinoschisis (XLRS) is a genetic ocular disease that is characterized
-      by reduced visual acuity in males due to juvenile macular degeneration.
+    Contents: A rare disorder involving multiple structure of the eye characterized
+      by reduced visual acuity in males due to juvenile macular degeneration. Clinical
+      features such as vitreous hemorrhage retinal detachment and neovascular glaucoma
+      can be observed in advanced stages.
   Genes:
   - Gene:
       Symbol: RS1
       Name: retinoschisin 1
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '10457'
-      - Source: OMIM
-        Reference: '300839'
+      ExternalReferences: []
   Parents:
   - Parent:
     - ORPHAcode: '98631'
@@ -108,8 +106,14 @@ Orphapacket:
       ValMoy: no data
       PrevalenceGeographic: Europe
   AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: normal life expectancy

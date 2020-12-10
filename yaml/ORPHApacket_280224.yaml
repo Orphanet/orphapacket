@@ -1,6 +1,6 @@
 Orphapacket:
   ORPHApacketId: '280224'
-  creationDate: '2020-06-27 22:10:58'
+  creationDate: '2020-12-03 15:53:15'
   version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
   copyright: Orphanet (c) 2020
   ORPHAcode: '280224'
@@ -19,15 +19,32 @@ Orphapacket:
   - Gene:
       Symbol: PLP1
       Name: proteolipid protein 1
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '9086'
-      - Source: OMIM
-        Reference: '300401'
+      ExternalReferences: []
   Parents:
   - Parent:
     - ORPHAcode: '702'
       Label: Pelizaeus-Merzbacher disease
+  Phenotypes:
+  - Phenotype:
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0003429
+      HPOTerm: CNS hypomyelination
+      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOId: HP:0001285
+      HPOTerm: Spastic tetraparesis
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0002342
+      HPOTerm: Intellectual disability, moderate
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0010864
+      HPOTerm: Intellectual disability, severe
+      HPOFrequency: Frequent (79-30%)
   Prevalences:
     Prevalence:
     - Source: '[EXPERT]'

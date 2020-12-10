@@ -1,6 +1,6 @@
 Orphapacket:
   ORPHApacketId: '300373'
-  creationDate: '2020-06-27 22:10:58'
+  creationDate: '2020-12-03 15:53:15'
   version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
   copyright: Orphanet (c) 2020
   ORPHAcode: '300373'
@@ -21,13 +21,13 @@ Orphapacket:
     DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
   TextSection:
     TextSectionType: Definition
-    Contents: A rare genetic endocrine disease characterized by early-onset (from
-      <12 months to 3 years) rapid and excessive acceleration of linear growth and
-      body size due to pituitary mixed growth hormone- and prolactin-secreting adenomas
-      and/or mixed-cell pituitary hyperplasia. Patients present with gigantism and
-      may have associated acromegalic features (e.g. coarse facial features frontal
-      bossing prognathism increased interdental space) as well as marked enlargement
-      of hands and feet soft tissue swelling increased appetite and acanthosis nigricans.
+    Contents: A rare genetic pituitary disease characterized by infantile-onset rapid
+      and excessive acceleration of linear growth and body size due to mixed growth
+      hormone (GH)- and prolactin-secreting adenomas and/or pituitary hyperplasia.
+      Patients present with gigantism and may have associated acromegalic features
+      (e.g. coarse facial features frontal bossing prognathism increased interdental
+      space) as well as marked enlargement of hands and feet soft tissue swelling
+      increased appetite and acanthosis nigricans.
   Parents:
   - Parent:
     - ORPHAcode: '181384'
@@ -41,18 +41,6 @@ Orphapacket:
       HPOTerm: Tall stature
       HPOFrequency: Very frequent (99-80%)
   - Phenotype:
-      HPOId: HP:0000141
-      HPOTerm: Amenorrhea
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000280
-      HPOTerm: Coarse facial features
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000303
-      HPOTerm: Mandibular prognathia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
       HPOId: HP:0000845
       HPOTerm: Growth hormone excess
       HPOFrequency: Very frequent (99-80%)
@@ -61,61 +49,137 @@ Orphapacket:
       HPOTerm: Increased circulating prolactin concentration
       HPOFrequency: Very frequent (99-80%)
   - Phenotype:
-      HPOId: HP:0000975
-      HPOTerm: Hyperhidrosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001176
-      HPOTerm: Large hands
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001639
-      HPOTerm: Hypertrophic cardiomyopathy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001712
-      HPOTerm: Left ventricular hypertrophy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001833
-      HPOTerm: Long foot
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001953
-      HPOTerm: Diabetic ketoacidosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002007
-      HPOTerm: Frontal bossing
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0005616
-      HPOTerm: Accelerated skeletal maturation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0005978
-      HPOTerm: Type II diabetes mellitus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0011407
-      HPOTerm: Proportionate tall stature
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0011760
-      HPOTerm: Pituitary growth hormone cell adenoma
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0012411
-      HPOTerm: Premature pubarche
+      HPOId: HP:0012503
+      HPOTerm: Abnormality of the pituitary gland
       HPOFrequency: Very frequent (99-80%)
   - Phenotype:
       HPOId: HP:0030269
-      HPOTerm: Increased serum Insulin-like growth factor 1
+      HPOTerm: Increased serum insulin-like growth factor 1
       HPOFrequency: Very frequent (99-80%)
   - Phenotype:
-      HPOId: HP:0100829
-      HPOTerm: Galactorrhea
+      HPOId: HP:0000280
+      HPOTerm: Coarse facial features
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0000975
+      HPOTerm: Hyperhidrosis
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0001072
+      HPOTerm: Thickened skin
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0002591
+      HPOTerm: Polyphagia
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0002893
+      HPOTerm: Pituitary adenoma
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0004924
+      HPOTerm: Abnormal oral glucose tolerance
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0008283
+      HPOTerm: Fasting hyperinsulinemia
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0010535
+      HPOTerm: Sleep apnea
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0025163
+      HPOTerm: Abnormality of optic chiasm morphology
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0025267
+      HPOTerm: Snoring
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0031098
+      HPOTerm: Decreased thyroid-stimulating hormone level
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0031418
+      HPOTerm: Increased body mass index
+      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOId: HP:0000135
+      HPOTerm: Hypogonadism
       HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0000699
+      HPOTerm: Diastema
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0000823
+      HPOTerm: Delayed puberty
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0000873
+      HPOTerm: Diabetes insipidus
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0000924
+      HPOTerm: Abnormality of the skeletal system
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0000956
+      HPOTerm: Acanthosis nigricans
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0001123
+      HPOTerm: Visual field defect
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0001176
+      HPOTerm: Large hands
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0001251
+      HPOTerm: Ataxia
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0001626
+      HPOTerm: Abnormality of the cardiovascular system
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0001833
+      HPOTerm: Long foot
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0002315
+      HPOTerm: Headache
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0003270
+      HPOTerm: Abdominal distention
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0011748
+      HPOTerm: Adrenocorticotropic hormone deficiency
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0012505
+      HPOTerm: Enlarged pituitary gland
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0040075
+      HPOTerm: Hypopituitarism
+      HPOFrequency: Occasional (29-5%)
+  - Phenotype:
+      HPOId: HP:0000707
+      HPOTerm: Abnormality of the nervous system
+      HPOFrequency: Very rare (<4-1%)
+  - Phenotype:
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+      HPOFrequency: Very rare (<4-1%)
   Prevalences:
   - Prevalence:
       Source: 29389097[PMID]

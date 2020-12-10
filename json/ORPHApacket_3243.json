@@ -1,7 +1,7 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "3243",
-        "creationDate": "2020-06-27 22:10:58",
+        "creationDate": "2020-12-03 15:53:15",
         "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
         "copyright": "Orphanet (c) 2020",
         "ORPHAcode": "3243",
@@ -25,8 +25,17 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Sweet's syndrome (the eponym for acute febrile neutrophilic dermatosis) is characterized by a constellation of clinical symptoms physical features and pathologic findings which include fever neutrophilia tender erythematous skin lesions (papules nodules and plaques) and a diffuse infiltrate consisting predominantly of mature neutrophils that are typically located in the upper dermis."
+            "Contents": "A rare inflammatory disease characterized by abrupt appearance of painful edematous and erythematous papules plaques and nodules on the skin and frequently accompanied by fever and neutrophilia with a dense infiltration of mature neutrophils that are typically located in the upper dermis. The disease is classically associated with inflammatory disease pregnancy infection (mostly of the upper respiratory tract) or vaccination but may be idiopathic associated with a hematological or visceral malignancy or drug-induced."
         },
+        "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "MEFV",
+                    "Name": "MEFV innate immuity regulator, pyrin",
+                    "ExternalReferences": []
+                }
+            }
+        ],
         "Parents": [
             {
                 "Parent": [
@@ -53,28 +62,18 @@
                 ]
             }
         ],
-        "Prevalences": [
-            {
-                "Prevalence": {
-                    "Source": "ORPHANET",
-                    "PrevalenceType": "Cases/families",
-                    "PrevalenceQualification": "Case",
-                    "PrevalenceClass": "no data",
-                    "ValMoy": "no data",
-                    "PrevalenceGeographic": "Worldwide"
-                }
-            },
-            {
-                "Prevalence": {
+        "Prevalences": {
+            "Prevalence": [
+                {
                     "Source": "ORPHANET_17655751[PMID]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "Unknown",
-                    "ValMoy": "no data",
+                    "ValMoy": "0.0",
                     "PrevalenceGeographic": "Worldwide"
                 }
-            }
-        ],
+            ]
+        },
         "AverageAgeOfOnsets": {
             "AverageAgeOfOnset": [
                 {
@@ -85,7 +84,7 @@
         "TypeOfInheritances": {
             "TypeOfInheritance": [
                 {
-                    "value": "Unknown"
+                    "value": "Multigenic/multifactorial"
                 }
             ]
         }

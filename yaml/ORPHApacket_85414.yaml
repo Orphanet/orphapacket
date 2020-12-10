@@ -1,6 +1,6 @@
 Orphapacket:
   ORPHApacketId: '85414'
-  creationDate: '2020-06-27 22:10:58'
+  creationDate: '2020-12-03 15:53:15'
   version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
   copyright: Orphanet (c) 2020
   ORPHAcode: '85414'
@@ -11,50 +11,40 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
   Synonyms:
   - Synonym: Still disease
-  - Synonym: Systemic polyarthritis
   - Synonym: Systemic-onset JIA
   ExternalReferences:
-  - Source: OMIM
-    Reference: '604302'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  - ExternalReference:
+      Source: OMIM
+      Reference: '618795'
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+  - ExternalReference:
+      Source: OMIM
+      Reference: '604302'
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
     TextSectionType: Definition
-    Contents: Systemic-onset juvenile idiopathic arthritis is marked by the severity
-      of the extra-articular manifestations (fever cutaneous eruptions) and by an
-      equal sex ratio.
+    Contents: A rare pediatric rheumatological disease characterized by the variable
+      occurrence of chronic arthritis intermittently high spiking fever maculopapular
+      rash during fever episodes hepatomegaly and/or splenomegaly lymphadenopathy
+      and serositis.
   Genes:
   - Gene:
       Symbol: HLA-DRB1
       Name: major histocompatibility complex, class II, DR beta 1
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '4948'
-      - Source: OMIM
-        Reference: '142857'
+      ExternalReferences: []
   - Gene:
       Symbol: MIF
       Name: macrophage migration inhibitory factor
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '7097'
-      - Source: OMIM
-        Reference: '153620'
+      ExternalReferences: []
   - Gene:
       Symbol: IL6
       Name: interleukin 6
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '6018'
-      - Source: OMIM
-        Reference: '147620'
+      ExternalReferences: []
   - Gene:
       Symbol: LACC1
       Name: laccase domain containing 1
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '26789'
-      - Source: OMIM
-        Reference: '613409'
+      ExternalReferences: []
   Parents:
   - Parent:
     - ORPHAcode: '92'

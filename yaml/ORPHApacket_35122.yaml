@@ -1,6 +1,6 @@
 Orphapacket:
   ORPHApacketId: '35122'
-  creationDate: '2020-06-27 22:10:58'
+  creationDate: '2020-12-03 15:53:15'
   version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
   copyright: Orphanet (c) 2020
   ORPHAcode: '35122'
@@ -11,7 +11,6 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
   Synonyms:
   - Synonym: CSID
-  - Synonym: Congenital sucrase-isomaltose malabsorption
   - Synonym: Congenital sucrose intolerance
   - Synonym: Disaccharide intolerance
   ExternalReferences:
@@ -20,87 +19,22 @@ Orphapacket:
     DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
     TextSectionType: Definition
-    Contents: Congenital sucrase-isomaltase deficiency (CSID) is a carbohydrate intolerance
-      disorder characterised by malabsorption of oligosaccharides and disaccharides.
+    Contents: A rare genetic congenital carbohydrate intolerance disorder characterized
+      by lack of endogenous sucrase activity marked reduction in isomaltase activity
+      and moderate decrease in maltase activity and clinically manifesting with diarrhea
+      abdominal pain and bloating failure to thrive.
+  Genes:
+  - Gene:
+      Symbol: SI
+      Name: sucrase-isomaltase
+      ExternalReferences: []
   Parents:
-  - Parent:
-    - ORPHAcode: '309001'
-      Label: Disorder of carbohydrate absorption and transport
   - Parent:
     - ORPHAcode: '104006'
       Label: Congenital intestinal disease due to an enzymatic defect
   - Parent:
-    - ORPHAcode: '506216'
-      Label: Rare disorder potentially indicated for bowel transplant
-  Childs:
-  - Child:
-      Label: Congenital sucrase-isomaltase deficiency with starch intolerance
-      ORPHAcode: '306436'
-      Genes:
-      - Gene:
-          Label: sucrase-isomaltase
-          Symbol: SI
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10856'
-          - Source: OMIM
-            Reference: '609845'
-  - Child:
-      Label: Congenital sucrase-isomaltase deficiency with minimal starch tolerance
-      ORPHAcode: '306446'
-      Genes:
-      - Gene:
-          Label: sucrase-isomaltase
-          Symbol: SI
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10856'
-          - Source: OMIM
-            Reference: '609845'
-  - Child:
-      Label: Congenital sucrase-isomaltase deficiency without starch intolerance
-      ORPHAcode: '306462'
-      Genes:
-      - Gene:
-          Label: sucrase-isomaltase
-          Symbol: SI
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10856'
-          - Source: OMIM
-            Reference: '609845'
-  - Child:
-      Label: Congenital sucrase-isomaltase deficiency with starch and lactose intolerance
-      ORPHAcode: '306474'
-      Genes:
-      - Gene:
-          Label: sucrase-isomaltase
-          Symbol: SI
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10856'
-          - Source: OMIM
-            Reference: '609845'
-      - Gene:
-          Label: minichromosome maintenance complex component 6
-          Symbol: MCM6
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6949'
-          - Source: OMIM
-            Reference: '601806'
-  - Child:
-      Label: Congenital sucrase-isomaltase deficiency without sucrose intolerance
-      ORPHAcode: '306486'
-      Genes:
-      - Gene:
-          Label: sucrase-isomaltase
-          Symbol: SI
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10856'
-          - Source: OMIM
-            Reference: '609845'
+    - ORPHAcode: '309001'
+      Label: Disorder of carbohydrate absorption and transport
   Phenotypes:
   - Phenotype:
       HPOId: HP:0002014
@@ -127,8 +61,14 @@ Orphapacket:
       ValMoy: '20.0'
       PrevalenceGeographic: Europe
   AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive

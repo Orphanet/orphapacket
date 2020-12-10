@@ -1,6 +1,6 @@
 Orphapacket:
   ORPHApacketId: '681'
-  creationDate: '2020-06-27 22:10:58'
+  creationDate: '2020-12-03 15:53:15'
   version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
   copyright: Orphanet (c) 2020
   ORPHAcode: '681'
@@ -23,33 +23,22 @@ Orphapacket:
         Term)
   TextSection:
     TextSectionType: Definition
-    Contents: A rare disorder characterised by episodes of muscle paralysis lasting
-      from a few to 24-48 hours and associated with a fall in blood potassium levels.
+    Contents: A rare genetic muscle channelopathy characterized by recurrent episodic
+      attacks of generalized muscle weakness associated with a decrease in blood potassium
+      levels.
   Genes:
   - Gene:
       Symbol: SCN4A
       Name: sodium voltage-gated channel alpha subunit 4
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '10591'
-      - Source: OMIM
-        Reference: '603967'
+      ExternalReferences: []
   - Gene:
       Symbol: CACNA1S
       Name: calcium voltage-gated channel subunit alpha1 S
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '1397'
-      - Source: OMIM
-        Reference: '114208'
+      ExternalReferences: []
   - Gene:
       Symbol: KCNE3
       Name: potassium voltage-gated channel subfamily E regulatory subunit 3
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '6243'
-      - Source: OMIM
-        Reference: '604433'
+      ExternalReferences: []
   Parents:
   - Parent:
     - ORPHAcode: '98738'
@@ -160,8 +149,10 @@ Orphapacket:
       ValMoy: no data
       PrevalenceGeographic: Netherlands
   AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Childhood
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: normal life expectancy

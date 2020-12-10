@@ -1,7 +1,7 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "93108",
-        "creationDate": "2020-06-27 22:10:58",
+        "creationDate": "2020-12-03 15:53:15",
         "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
         "copyright": "Orphanet (c) 2020",
         "ORPHAcode": "93108",
@@ -11,9 +11,14 @@
             "value": "Morphological anomaly",
             "PURL": "http://www.orpha.net/ORDO/Orphanet_377791"
         },
+        "Synonyms": [
+            {
+                "Synonym": "Kidney dysplasia"
+            }
+        ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Renal dysplasia is a form of renal malformation in which the kidney(s) are present but their development is abnormal and incomplete. Renal dysplasia can be unilateral or bilateral (see these terms) segmental and of variable severity with renal aplasia corresponding to extreme dysplasia."
+            "Contents": "A rare renal malformation in which the kidney(s) are present but their development is abnormal leading to malformation of histologic architecture of the kidney and presence of embryological tissue such as mesenchymal collarettes or other forms of undifferentiated and metaplastic tissues. Renal dysplasia can be unilateral or bilateral segmental and of variable severity."
         },
         "Parents": [
             {
@@ -38,14 +43,48 @@
                 "Child": {
                     "Label": "Renal dysplasia, unilateral",
                     "ORPHAcode": "93172",
-                    "Genes": "no data"
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "HNF1 homeobox B",
+                                "Symbol": "HNF1B",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "11630"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "189907"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             },
             {
                 "Child": {
                     "Label": "Renal dysplasia, bilateral",
                     "ORPHAcode": "93173",
-                    "Genes": "no data"
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "HNF1 homeobox B",
+                                "Symbol": "HNF1B",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "11630"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "189907"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             }
         ],
@@ -90,12 +129,17 @@
                 }
             ]
         },
-        "TypeOfInheritances": {
-            "TypeOfInheritance": [
-                {
+        "TypeOfInheritances": [
+            {
+                "TypeOfInheritance": {
+                    "value": "Autosomal dominant"
+                }
+            },
+            {
+                "TypeOfInheritance": {
                     "value": "Not applicable"
                 }
-            ]
-        }
+            }
+        ]
     }
 }

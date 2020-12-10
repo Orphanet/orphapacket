@@ -1,7 +1,7 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "606",
-        "creationDate": "2020-06-27 22:10:58",
+        "creationDate": "2020-12-03 15:53:15",
         "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
         "copyright": "Orphanet (c) 2020",
         "ORPHAcode": "606",
@@ -34,23 +34,14 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "A rare genetic multi-system disorder of late childhood or adult-onset characterized by mild myotonia muscle weakness and rarely cardiac conduction disorders."
+            "Contents": "A rare myotonic dystrophy of juvenile or adult-onset characterized by mild and fluctuating myotonia muscle weakness and rarely cardiac conduction disorders."
         },
         "Genes": [
             {
                 "Gene": {
                     "Symbol": "CNBP",
                     "Name": "CCHC-type zinc finger nucleic acid binding protein",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "13164"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "116955"
-                        }
-                    ]
+                    "ExternalReferences": []
                 }
             }
         ],
@@ -154,20 +145,40 @@
                 }
             }
         ],
-        "AverageAgeOfOnsets": {
-            "AverageAgeOfOnset": [
-                {
+        "AverageAgeOfOnsets": [
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Adolescent"
+                }
+            },
+            {
+                "AverageAgeOfOnset": {
                     "value": "Adult"
                 }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "elderly"
+            },
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Elderly"
                 }
-            ]
-        },
+            }
+        ],
+        "AverageAgeOfDeaths": [
+            {
+                "AverageAgeOfDeath": {
+                    "value": "Adolescent"
+                }
+            },
+            {
+                "AverageAgeOfDeath": {
+                    "value": "Adult"
+                }
+            },
+            {
+                "AverageAgeOfDeath": {
+                    "value": "Elderly"
+                }
+            }
+        ],
         "TypeOfInheritances": {
             "TypeOfInheritance": [
                 {

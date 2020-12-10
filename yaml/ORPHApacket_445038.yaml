@@ -1,6 +1,6 @@
 Orphapacket:
   ORPHApacketId: '445038'
-  creationDate: '2020-06-27 22:10:58'
+  creationDate: '2020-12-03 15:53:15'
   version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
   copyright: Orphanet (c) 2020
   ORPHAcode: '445038'
@@ -17,19 +17,28 @@ Orphapacket:
   - Source: OMIM
     Reference: '616271'
     DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  TextSection:
+    TextSectionType: Definition
+    Contents: A rare organic aciduria characterized by increased urinary excretion
+      of 3-methylglutaconic acid variably associated with neutropenia (sometimes causing
+      recurrent severe infections and potentially resulting in leukemia) and progressive
+      neurologic manifestations such as global developmental delay intellectual disability
+      hypotonia movement disorder and seizures. Microcephaly cataract facial dysmorphism
+      growth retardation endocrine abnormalities and cardiomyopathy have also been
+      reported. Brain imaging may show cerebral or cerebellar atrophy or abnormalities
+      of the basal ganglia.
   Genes:
   - Gene:
       Symbol: CLPB
       Name: ClpB homolog, mitochondrial AAA ATPase chaperonin
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '30664'
-      - Source: OMIM
-        Reference: '616254'
+      ExternalReferences: []
   Parents:
   - Parent:
     - ORPHAcode: '98644'
       Label: Metabolic disease with cataract
+  - Parent:
+    - ORPHAcode: '182073'
+      Label: Syndromic neurometabolic disease with non-X-linked intellectual disability
   - Parent:
     - ORPHAcode: '183763'
       Label: Rare genetic syndromic intellectual disability
@@ -39,9 +48,6 @@ Orphapacket:
   - Parent:
     - ORPHAcode: '289902'
       Label: 3-methylglutaconic aciduria
-  - Parent:
-    - ORPHAcode: '182073'
-      Label: Syndromic neurometabolic disease with non-X-linked intellectual disability
   Phenotypes:
   - Phenotype:
       HPOId: HP:0000107

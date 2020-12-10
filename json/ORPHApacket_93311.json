@@ -1,7 +1,7 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "93311",
-        "creationDate": "2020-06-27 22:10:58",
+        "creationDate": "2020-12-03 15:53:15",
         "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
         "copyright": "Orphanet (c) 2020",
         "ORPHAcode": "93311",
@@ -44,16 +44,7 @@
                 "Gene": {
                     "Symbol": "MATN3",
                     "Name": "matrilin 3",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "6909"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "602109"
-                        }
-                    ]
+                    "ExternalReferences": []
                 }
             }
         ],
@@ -70,6 +61,20 @@
         "Phenotypes": [
             {
                 "Phenotype": {
+                    "HPOId": "HP:0001385",
+                    "HPOTerm": "Hip dysplasia",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008828",
+                    "HPOTerm": "Delayed proximal femoral epiphyseal ossification",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0001288",
                     "HPOTerm": "Gait disturbance",
                     "HPOFrequency": "Frequent (79-30%)"
@@ -77,43 +82,8 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001376",
-                    "HPOTerm": "Limitation of joint mobility",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001385",
-                    "HPOTerm": "Hip dysplasia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001387",
-                    "HPOTerm": "Joint stiffness",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002656",
-                    "HPOTerm": "Epiphyseal dysplasia",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002758",
-                    "HPOTerm": "Osteoarthritis",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002829",
-                    "HPOTerm": "Arthralgia",
+                    "HPOId": "HP:0001384",
+                    "HPOTerm": "Abnormality of the hip joint",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -121,14 +91,133 @@
                 "Phenotype": {
                     "HPOId": "HP:0002857",
                     "HPOTerm": "Genu valgum",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
                     "HPOId": "HP:0002970",
                     "HPOTerm": "Genu varum",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003088",
+                    "HPOTerm": "Premature osteoarthritis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003502",
+                    "HPOTerm": "Mild short stature",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003839",
+                    "HPOTerm": "Abnormality of upper limb epiphysis morphology",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010631",
+                    "HPOTerm": "Abnormality of the epiphyses of the feet",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0030839",
+                    "HPOTerm": "Knee pain",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001387",
+                    "HPOTerm": "Joint stiffness",
                     "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002355",
+                    "HPOTerm": "Difficulty walking",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003170",
+                    "HPOTerm": "Abnormality of the acetabulum",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003184",
+                    "HPOTerm": "Decreased hip abduction",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003365",
+                    "HPOTerm": "Arthralgia of the hip",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004268",
+                    "HPOTerm": "Osteoarthritis of the small joints of the hand",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005743",
+                    "HPOTerm": "Avascular necrosis of the capital femoral epiphysis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005877",
+                    "HPOTerm": "Multiple small vertebral fractures",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008419",
+                    "HPOTerm": "Intervertebral disc degeneration",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008800",
+                    "HPOTerm": "Limited hip movement",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0030840",
+                    "HPOTerm": "Ankle pain",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003418",
+                    "HPOTerm": "Back pain",
+                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             }
         ],

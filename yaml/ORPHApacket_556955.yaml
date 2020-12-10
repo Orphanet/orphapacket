@@ -1,6 +1,6 @@
 Orphapacket:
   ORPHApacketId: '556955'
-  creationDate: '2020-06-27 22:10:58'
+  creationDate: '2020-12-03 15:53:15'
   version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
   copyright: Orphanet (c) 2020
   ORPHAcode: '556955'
@@ -9,15 +9,23 @@ Orphapacket:
   DisorderType:
     value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  ExternalReferences:
+  - Source: OMIM
+    Reference: '618500'
+    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+  TextSection:
+    TextSectionType: Definition
+    Contents: A rare genetic multiple congenital anomalies/dysmorphic syndrome characterized
+      by the association of pancreatic agenesis and lobar/semilobar holoprosencephaly.
+      Insulin-dependent diabetes mellitus and pancreatic exocrine deficiency manifest
+      early after birth. Additional reported manifestations include intrauterine growth
+      retardation muscle weakness seizures mild intellectual disability and dysmorphic
+      craniofacial features and agenesis of the gallbladder.
   Genes:
   - Gene:
       Symbol: CNOT1
       Name: CCR4-NOT transcription complex subunit 1
-      ExternalReferences:
-      - Source: HGNC
-        Reference: '7877'
-      - Source: OMIM
-        Reference: '604917'
+      ExternalReferences: []
   Parents:
   - Parent:
     - ORPHAcode: '269564'
