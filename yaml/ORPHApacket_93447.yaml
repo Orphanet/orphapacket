@@ -1,119 +1,124 @@
 Orphapacket:
-  ORPHApacketId: '93447'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '93447'
-  Label: Primary bone dysplasia with defective bone mineralization
-  PURL: http://www.orpha.net/ORDO/Orphanet_93447
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Primary osteodysplasia with defective bone mineralization
-  - Synonym: Primary skeletal dysplasia with defective bone mineralization
-  Parents:
-  - Parent:
-    - ORPHAcode: '364526'
-      Label: Primary bone dysplasia
   Childs:
   - Child:
-      Label: Familial calcium pyrophosphate deposition
-      ORPHAcode: '1416'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11909'
+            Source: HGNC
+          - Reference: '602643'
+            Source: OMIM
           Label: TNF receptor superfamily member 11b
           Symbol: TNFRSF11B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11909'
-          - Source: OMIM
-            Reference: '602643'
       - Gene:
+          ExternalReferences:
+          - Reference: '15492'
+            Source: HGNC
+          - Reference: '605145'
+            Source: OMIM
           Label: ANKH inorganic pyrophosphate transport regulator
           Symbol: ANKH
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '15492'
-          - Source: OMIM
-            Reference: '605145'
+      Label: Familial calcium pyrophosphate deposition
+      ORPHAcode: '1416'
   - Child:
-      Label: Oculocerebrodental syndrome
-      ORPHAcode: '557003'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '8971'
+            Source: HGNC
+          - Reference: '603601'
+            Source: OMIM
           Label: phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type
             2 alpha
           Symbol: PIK3C2A
-          ExternalReferences:
-          - ExternalReference:
-              Source: HGNC
-              Reference: '8971'
+      Label: Oculocerebrodental syndrome
+      ORPHAcode: '557003'
   - Child:
+      Genes: no data
       Label: Hypophosphatasia
       ORPHAcode: '436'
-      Genes: no data
   - Child:
-      Label: Neonatal severe primary hyperparathyroidism
-      ORPHAcode: '417'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '14006'
+            Source: HGNC
+          - Reference: '606680'
+            Source: OMIM
           Label: transient receptor potential cation channel subfamily V member 6
           Symbol: TRPV6
-          ExternalReferences: []
       - Gene:
+          ExternalReferences:
+          - Reference: '1514'
+            Source: HGNC
+          - Reference: '601199'
+            Source: OMIM
           Label: calcium sensing receptor
           Symbol: CASR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1514'
-          - Source: OMIM
-            Reference: '601199'
+      Label: Neonatal severe primary hyperparathyroidism
+      ORPHAcode: '417'
   - Child:
+      Genes: no data
       Label: Familial hypocalciuric hypercalcemia
       ORPHAcode: '405'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Lipodystrophy-intellectual disability-deafness syndrome
       ORPHAcode: '50811'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Ossification anomalies-psychomotor developmental delay syndrome
       ORPHAcode: '73230'
-      Genes: no data
   - Child:
-      Label: Eiken syndrome
-      ORPHAcode: '79106'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '9608'
+            Source: HGNC
+          - Reference: '168468'
+            Source: OMIM
           Label: parathyroid hormone 1 receptor
           Symbol: PTH1R
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9608'
-          - Source: OMIM
-            Reference: '168468'
+      Label: Eiken syndrome
+      ORPHAcode: '79106'
   - Child:
-      Label: Dominant hypophosphatemia with nephrolithiasis or osteoporosis
-      ORPHAcode: '244305'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11019'
+            Source: HGNC
+          - Reference: '182309'
+            Source: OMIM
           Label: solute carrier family 34 member 1
           Symbol: SLC34A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11019'
-          - Source: OMIM
-            Reference: '182309'
       - Gene:
+          ExternalReferences:
+          - Reference: '11075'
+            Source: HGNC
+          - Reference: '604990'
+            Source: OMIM
           Label: SLC9A3 regulator 1
           Symbol: SLC9A3R1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11075'
-          - Source: OMIM
-            Reference: '604990'
+      Label: Dominant hypophosphatemia with nephrolithiasis or osteoporosis
+      ORPHAcode: '244305'
   - Child:
+      Genes: no data
       Label: Disorders of vitamin D metabolism
       ORPHAcode: '289098'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Primary bone dysplasia with defective bone mineralization
+  ORPHAcode: '93447'
+  ORPHApacketId: '93447'
+  PURL: http://www.orpha.net/ORDO/Orphanet_93447
+  Parents:
+  - Parent:
+    - Label: Primary bone dysplasia
+      ORPHAcode: '364526'
+  Synonyms:
+  - Synonym: Primary osteodysplasia with defective bone mineralization
+  - Synonym: Primary skeletal dysplasia with defective bone mineralization
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

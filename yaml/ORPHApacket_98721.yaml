@@ -1,56 +1,56 @@
 Orphapacket:
-  ORPHApacketId: '98721'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98721'
-  Label: Congenital tricuspid malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_98721
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '98720'
-      Label: Atrioventricular valve anomaly
   Childs:
   - Child:
+      Genes: no data
       Label: Congenital tricuspid stenosis
       ORPHAcode: '95459'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Straddling or overriding tricuspid valve
       ORPHAcode: '95461'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Accessory tricuspid valve tissue
       ORPHAcode: '95462'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Anomaly of the tricuspid subvalvular apparatus
       ORPHAcode: '95463'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Congenital tricuspid valve dysplasia
       ORPHAcode: '555874'
-      Genes: no data
   - Child:
-      Label: Ebstein malformation
-      ORPHAcode: '1880'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '160760'
+            Source: OMIM
+          - Reference: '7577'
+            Source: HGNC
           Label: myosin heavy chain 7
           Symbol: MYH7
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '160760'
-          - Source: HGNC
-            Reference: '7577'
+      Label: Ebstein malformation of the tricuspid valve
+      ORPHAcode: '1880'
   - Child:
+      Genes: no data
       Label: Tricuspid atresia
       ORPHAcode: '1209'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Tricuspid valve agenesis
       ORPHAcode: '95457'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Congenital tricuspid malformation
+  ORPHAcode: '98721'
+  ORPHApacketId: '98721'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98721
+  Parents:
+  - Parent:
+    - Label: Atrioventricular valve anomaly
+      ORPHAcode: '98720'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

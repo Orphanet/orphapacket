@@ -1,96 +1,96 @@
 Orphapacket:
-  ORPHApacketId: '498'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '498'
-  Label: Keratosis pilaris atrophicans
-  PURL: http://www.orpha.net/ORDO/Orphanet_498
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '79359'
-      Label: Other epidermal disorder
-  - Parent:
-    - ORPHAcode: '79360'
-      Label: Other genetic epidermal disease
   Childs:
   - Child:
-      Label: Keratosis follicularis spinulosa decalvans
-      ORPHAcode: '2340'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '15455'
+            Source: HGNC
+          - Reference: '300294'
+            Source: OMIM
           Label: membrane bound transcription factor peptidase, site 2
           Symbol: MBTPS2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '15455'
-          - Source: OMIM
-            Reference: '300294'
       - Gene:
+          ExternalReferences:
+          - Reference: '10540'
+            Source: HGNC
+          - Reference: '313020'
+            Source: OMIM
           Label: spermidine/spermine N1-acetyltransferase 1
           Symbol: SAT1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10540'
-          - Source: OMIM
-            Reference: '313020'
       - Gene:
+          ExternalReferences:
+          - Reference: '6692'
+            Source: HGNC
+          - Reference: '107770'
+            Source: OMIM
           Label: LDL receptor related protein 1
           Symbol: LRP1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6692'
-          - Source: OMIM
-            Reference: '107770'
+      Label: Keratosis follicularis spinulosa decalvans
+      ORPHAcode: '2340'
   - Child:
+      Genes: no data
       Label: Ulerythema ophryogenesis
       ORPHAcode: '3406'
-      Genes: no data
   - Child:
-      Label: Atrophoderma vermiculata
-      ORPHAcode: '79100'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6692'
+            Source: HGNC
+          - Reference: '107770'
+            Source: OMIM
           Label: LDL receptor related protein 1
           Symbol: LRP1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6692'
-          - Source: OMIM
-            Reference: '107770'
+      Label: Atrophoderma vermiculata
+      ORPHAcode: '79100'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Keratosis pilaris atrophicans
+  ORPHAcode: '498'
+  ORPHApacketId: '498'
+  PURL: http://www.orpha.net/ORDO/Orphanet_498
+  Parents:
+  - Parent:
+    - Label: Other epidermal disorder
+      ORPHAcode: '79359'
+  - Parent:
+    - Label: Other genetic epidermal disease
+      ORPHAcode: '79360'
   Phenotypes:
   - Phenotype:
-      HPOId: HP:0000958
-      HPOTerm: Dry skin
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000962
       HPOTerm: Hyperkeratosis
+  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000989
-      HPOTerm: Pruritus
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002099
-      HPOTerm: Asthma
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
       HPOId: HP:0007502
       HPOTerm: Follicular hyperkeratosis
-      HPOFrequency: Very frequent (99-80%)
   - Phenotype:
-      HPOId: HP:0008064
-      HPOTerm: Ichthyosis
-      HPOFrequency: Occasional (29-5%)
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000958
+      HPOTerm: Dry skin
   - Phenotype:
-      HPOId: HP:0011123
-      HPOTerm: Inflammatory abnormality of the skin
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0100326
       HPOTerm: Immunologic hypersensitivity
-      HPOFrequency: Frequent (79-30%)
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000989
+      HPOTerm: Pruritus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002099
+      HPOTerm: Asthma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008064
+      HPOTerm: Ichthyosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011123
+      HPOTerm: Inflammatory abnormality of the skin
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

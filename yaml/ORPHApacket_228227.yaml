@@ -1,19 +1,37 @@
 Orphapacket:
-  ORPHApacketId: '228227'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '228227'
-  Label: Late-onset focal dermal elastosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_228227
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Late-onset focal dermal elastosis
+  ORPHAcode: '228227'
+  ORPHApacketId: '228227'
+  PURL: http://www.orpha.net/ORDO/Orphanet_228227
+  Parents:
+  - Parent:
+    - Label: Acquired dermis elastic tissue disorder with increased elastic tissue
+      ORPHAcode: '228224'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 15670180[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_15670180[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: PXE-like late-onset focal dermal elastosis
   - Synonym: Pseudoxanthoma-like late-onset focal dermal elastosis
   TextSection:
-    TextSectionType: Definition
     Contents: Late-onset focal dermal elastosis is a rare acquired dermis elastic
       tissue disorder characterized by a pseudoxanthoma elasticum-like papular eruption
       consisting of multiple slowly progressive asymptomatic 2-5 mm white to yellowish
@@ -21,28 +39,10 @@ Orphapacket:
       distributed over the neck axillae and flexural areas with no systemic involvement.
       Skin biopsy reveals a focal increase of normal-appearing elastic tissue in the
       reticular dermis with no calcium deposits.
-  Parents:
-  - Parent:
-    - ORPHAcode: '228224'
-      Label: Acquired dermis elastic tissue disorder with increased elastic tissue
-  Prevalences:
-  - Prevalence:
-      Source: 15670180[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_15670180[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

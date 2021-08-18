@@ -1,47 +1,47 @@
 Orphapacket:
-  ORPHApacketId: '79480'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79480'
-  Label: Pemphigus erythematosus
-  PURL: http://www.orpha.net/ORDO/Orphanet_79480
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Pemphigus erythematosus
+  ORPHAcode: '79480'
+  ORPHApacketId: '79480'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79480
+  Parents:
+  - Parent:
+    - Label: Superficial pemphigus
+      ORPHAcode: '46485'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000989
+      HPOTerm: Pruritus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007473
+      HPOTerm: Crusting erythematous dermatitis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008066
+      HPOTerm: Abnormal blistering of the skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100792
+      HPOTerm: Acantholysis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0200037
+      HPOTerm: Skin vesicle
   Synonyms:
   - Synonym: Seborrheic pemphigus
   - Synonym: Senear-Usher syndrome
   TextSection:
-    TextSectionType: Definition
     Contents: A rare superficial pemphigus disease characterized clinically by well-demarcated
       localized erythematous scaly hyperkeratotic crusted plaques with frequent butterfly
       distribution over the malar area of the face (but also commonly involving trunk
       and scalp and less frequently the extremities with a photoexposed distribution).
       Histologically granular deposits along the dermal-epidermal junction in addition
       to intercellular deposition in the upper epidermis are observed.
-  Parents:
-  - Parent:
-    - ORPHAcode: '46485'
-      Label: Superficial pemphigus
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000989
-      HPOTerm: Pruritus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007473
-      HPOTerm: Crusting erythematous dermatitis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008066
-      HPOTerm: Abnormal blistering of the skin
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100792
-      HPOTerm: Acantholysis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0200037
-      HPOTerm: Skin vesicle
-      HPOFrequency: Very frequent (99-80%)
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

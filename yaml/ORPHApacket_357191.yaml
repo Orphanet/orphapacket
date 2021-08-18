@@ -1,66 +1,52 @@
 Orphapacket:
-  ORPHApacketId: '357191'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '357191'
-  Label: Selection of therapeutic option in non-small cell lung carcinoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_357191
   DisorderType:
-    value: Particular clinical situation in a disease or syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377793
+    value: Particular clinical situation in a disease or syndrome
   Genes:
   - Gene:
-      Symbol: EGFR
+      ExternalReferences: []
       Name: epidermal growth factor receptor
-      ExternalReferences: []
+      Symbol: EGFR
   - Gene:
-      Symbol: BRAF
+      ExternalReferences: []
       Name: B-Raf proto-oncogene, serine/threonine kinase
-      ExternalReferences: []
+      Symbol: BRAF
   - Gene:
-      Symbol: PIK3CA
+      ExternalReferences: []
       Name: phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
-      ExternalReferences: []
+      Symbol: PIK3CA
   - Gene:
-      Symbol: MET
+      ExternalReferences: []
       Name: MET proto-oncogene, receptor tyrosine kinase
-      ExternalReferences: []
+      Symbol: MET
   - Gene:
-      Symbol: RET
+      ExternalReferences: []
       Name: ret proto-oncogene
-      ExternalReferences: []
+      Symbol: RET
   - Gene:
-      Symbol: ROS1
+      ExternalReferences: []
       Name: ROS proto-oncogene 1, receptor tyrosine kinase
-      ExternalReferences: []
+      Symbol: ROS1
   - Gene:
-      Symbol: KRAS
+      ExternalReferences: []
       Name: KRAS proto-oncogene, GTPase
-      ExternalReferences: []
+      Symbol: KRAS
   - Gene:
-      Symbol: ALK
+      ExternalReferences: []
       Name: ALK receptor tyrosine kinase
-      ExternalReferences: []
+      Symbol: ALK
   - Gene:
-      Symbol: EML4
-      Name: EMAP like 4
       ExternalReferences: []
+      Name: EMAP like 4
+      Symbol: EML4
+  Label: Selection of therapeutic option in non-small cell lung carcinoma
+  ORPHAcode: '357191'
+  ORPHApacketId: '357191'
+  PURL: http://www.orpha.net/ORDO/Orphanet_357191
   Parents:
     Parent:
-    - ORPHAcode: '231957'
-      Label: Disease associated with a genetic susceptibility or tested for a biomarker
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    - Label: Disease associated with a genetic susceptibility or tested for a biomarker
+      ORPHAcode: '231957'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

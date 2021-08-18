@@ -1,44 +1,44 @@
 Orphapacket:
-  ORPHApacketId: '79362'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79362'
-  Label: Epidermal appendage anomaly
-  PURL: http://www.orpha.net/ORDO/Orphanet_79362
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '89826'
-      Label: Rare skin disease
   Childs:
   - Child:
+      Genes: no data
       Label: Hair anomaly
       ORPHAcode: '79363'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Nail anomaly
       ORPHAcode: '79368'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Sebaceous gland anomaly
       ORPHAcode: '79372'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Ectodermal dysplasia syndrome
       ORPHAcode: '79373'
-      Genes: no data
   - Child:
-      Label: Isolated hyperchlorhidrosis
-      ORPHAcode: '542657'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1371'
+            Source: HGNC
+          - Reference: '603263'
+            Source: OMIM
           Label: carbonic anhydrase 12
           Symbol: CA12
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1371'
-          - Source: OMIM
-            Reference: '603263'
+      Label: Isolated hyperchlorhidrosis
+      ORPHAcode: '542657'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Epidermal appendage anomaly
+  ORPHAcode: '79362'
+  ORPHApacketId: '79362'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79362
+  Parents:
+  - Parent:
+    - Label: Rare skin disease
+      ORPHAcode: '89826'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

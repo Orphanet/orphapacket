@@ -1,27 +1,42 @@
 Orphapacket:
-  ORPHApacketId: '169142'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '169142'
-  Label: Recurrent infection due to specific granule deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_169142
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Neutrophil-specific granule deficiency
+    value: Disease
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
       Reference: '617475'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
       Source: OMIM
-      Reference: '245480'
+  - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '245480'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: CCAAT enhancer binding protein epsilon
+      Symbol: CEBPE
+  - Gene:
+      ExternalReferences: []
+      Name: SWI/SNF related, matrix associated, actin dependent regulator of chromatin,
+        subfamily d, member 2
+      Symbol: SMARCD2
+  Label: Recurrent infection due to specific granule deficiency
+  ORPHAcode: '169142'
+  ORPHApacketId: '169142'
+  PURL: http://www.orpha.net/ORDO/Orphanet_169142
+  Parents:
+  - Parent:
+    - Label: Functional neutrophil defect
+      ORPHAcode: '183681'
+  Synonyms:
+  - Synonym: Neutrophil-specific granule deficiency
   TextSection:
-    TextSectionType: Definition
     Contents: A rare functional neutrophil defect characterized by infantile onset
       of increased susceptibility to pyogenic infections especially of the skin ears
       lung and lymph nodes with neutrophils lacking specific granules and exhibiting
@@ -30,25 +45,10 @@ Orphapacket:
       manifestations may include mild to moderate developmental delay mild facial
       dysmorphic features (such as dysplastic ears) and anomalies of bones teeth and
       nails.
-  Genes:
-  - Gene:
-      Symbol: CEBPE
-      Name: CCAAT enhancer binding protein epsilon
-      ExternalReferences: []
-  - Gene:
-      Symbol: SMARCD2
-      Name: SWI/SNF related, matrix associated, actin dependent regulator of chromatin,
-        subfamily d, member 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '183681'
-      Label: Functional neutrophil defect
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

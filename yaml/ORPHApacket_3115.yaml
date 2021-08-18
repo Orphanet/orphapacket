@@ -1,78 +1,150 @@
 Orphapacket:
-  ORPHApacketId: '3115'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3115'
-  Label: Roussy-Lévy syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_3115
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Hereditary areflexic dystasia, Roussy-Lévy type
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '180800'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare demyelinating hereditary motor and sensory neuropathy characterized
-      by prominent gait ataxia pes cavus tendon areflexia distal limb weakness tremor
-      in the upper limbs distal sensory loss kyphoscoliosis and progressive muscle
-      atrophy. The disease becomes symptomatic in infancy or childhood mode of inheritance
-      is autosomal dominant.
-  Genes:
-  - Gene:
-      Symbol: PMP22
-      Name: peripheral myelin protein 22
-      ExternalReferences: []
-  - Gene:
-      Symbol: MPZ
-      Name: myelin protein zero
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '140453'
-      Label: Autosomal dominant hereditary demyelinating motor and sensory neuropathy
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001265
-      HPOTerm: Hyporeflexia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001284
-      HPOTerm: Areflexia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001288
-      HPOTerm: Gait disturbance
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003380
-      HPOTerm: Decreased number of peripheral myelinated nerve fibers
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003382
-      HPOTerm: Hypertrophic nerve changes
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003431
-      HPOTerm: Decreased motor nerve conduction velocity
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003693
-      HPOTerm: Distal amyotrophy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100022
-      HPOTerm: Abnormality of movement
-      HPOFrequency: Very frequent (99-80%)
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
   - AverageAgeOfOnset:
       value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '180800'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: peripheral myelin protein 22
+      Symbol: PMP22
+  - Gene:
+      ExternalReferences: []
+      Name: myelin protein zero
+      Symbol: MPZ
+  Label: "Roussy-L\xE9vy syndrome"
+  ORPHAcode: '3115'
+  ORPHApacketId: '3115'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3115
+  Parents:
+  - Parent:
+    - Label: Autosomal dominant hereditary demyelinating motor and sensory neuropathy
+      ORPHAcode: '140453'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001284
+      HPOTerm: Areflexia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001761
+      HPOTerm: Pes cavus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001762
+      HPOTerm: Talipes equinovarus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002066
+      HPOTerm: Gait ataxia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002070
+      HPOTerm: Limb ataxia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002174
+      HPOTerm: Postural tremor
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002312
+      HPOTerm: Clumsiness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002317
+      HPOTerm: Unsteady gait
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002355
+      HPOTerm: Difficulty walking
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002495
+      HPOTerm: Impaired vibratory sensation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002751
+      HPOTerm: Kyphoscoliosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003431
+      HPOTerm: Decreased motor nerve conduction velocity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003474
+      HPOTerm: Sensory impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003693
+      HPOTerm: Distal amyotrophy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007131
+      HPOTerm: Acute demyelinating polyneuropathy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007141
+      HPOTerm: Sensorimotor neuropathy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007328
+      HPOTerm: Impaired pain sensation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007340
+      HPOTerm: Lower limb muscle weakness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002359
+      HPOTerm: Frequent falls
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002839
+      HPOTerm: Urinary bladder sphincter dysfunction
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002857
+      HPOTerm: Genu valgum
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003202
+      HPOTerm: Skeletal muscle atrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003487
+      HPOTerm: Babinski sign
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008954
+      HPOTerm: Intrinsic hand muscle atrophy
+  Synonyms:
+  - Synonym: "Hereditary areflexic dystasia, Roussy-L\xE9vy type"
+  TextSection:
+    Contents: A rare demyelinating hereditary motor and sensory neuropathy characterized
+      by prominent gait ataxia pes cavus tendon areflexia distal limb weakness tremor
+      in the upper limbs distal sensory loss kyphoscoliosis and progressive muscle
+      atrophy. The disease becomes symptomatic in infancy or childhood mode of inheritance
+      is autosomal dominant.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,102 +1,102 @@
 Orphapacket:
-  ORPHApacketId: '352312'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '352312'
-  Label: Disorder of phospholipids, sphingolipids and fatty acids biosynthesis with
-    skeletal muscle predominant involvement
-  PURL: http://www.orpha.net/ORDO/Orphanet_352312
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '352301'
-      Label: Disorder of phospholipids, sphingolipids and fatty acids biosynthesis
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '24552'
+            Source: HGNC
+          - Reference: '615844'
+            Source: OMIM
+          Label: triokinase and FMN cyclase
+          Symbol: TKFC
+      - Gene:
+          ExternalReferences:
+          - Reference: '10990'
+            Source: HGNC
+          - Reference: '103220'
+            Source: OMIM
+          Label: solute carrier family 25 member 4
+          Symbol: SLC25A4
+      - Gene:
+          ExternalReferences:
+          - Reference: '21869'
+            Source: HGNC
+          - Reference: '610345'
+            Source: OMIM
+          Label: acylglycerol kinase
+          Symbol: AGK
       Label: Congenital cataract-hypertrophic cardiomyopathy-mitochondrial myopathy
         syndrome
       ORPHAcode: '1369'
+  - Child:
       Genes:
       - Gene:
-          Label: triokinase and FMN cyclase
-          Symbol: TKFC
           ExternalReferences:
-          - Source: HGNC
-            Reference: '24552'
-          - Source: OMIM
-            Reference: '615844'
-      - Gene:
-          Label: solute carrier family 25 member 4
-          Symbol: SLC25A4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10990'
-          - Source: OMIM
-            Reference: '103220'
-      - Gene:
-          Label: acylglycerol kinase
-          Symbol: AGK
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '21869'
-          - Source: OMIM
-            Reference: '610345'
-  - Child:
+          - Reference: '11577'
+            Source: HGNC
+          - Reference: '300394'
+            Source: OMIM
+          Label: tafazzin, phospholipid-lysophospholipid transacylase
+          Symbol: TAFAZZIN
       Label: Barth syndrome
       ORPHAcode: '111'
-      Genes:
-      - Gene:
-          Label: tafazzin
-          Symbol: TAZ
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11577'
-          - Source: OMIM
-            Reference: '300394'
   - Child:
+      Genes: no data
       Label: Neutral lipid storage disease
       ORPHAcode: '165'
-      Genes: no data
   - Child:
-      Label: Genetic recurrent myoglobinuria
-      ORPHAcode: '99845'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '7419'
+            Source: HGNC
+          - Reference: '516030'
+            Source: OMIM
           Label: mitochondrially encoded cytochrome c oxidase I
           Symbol: MT-CO1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7419'
-          - Source: OMIM
-            Reference: '516030'
       - Gene:
+          ExternalReferences:
+          - Reference: '7422'
+            Source: HGNC
+          - Reference: '516050'
+            Source: OMIM
           Label: mitochondrially encoded cytochrome c oxidase III
           Symbol: MT-CO3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7422'
-          - Source: OMIM
-            Reference: '516050'
       - Gene:
+          ExternalReferences:
+          - Reference: '13345'
+            Source: HGNC
+          - Reference: '605518'
+            Source: OMIM
           Label: lipin 1
           Symbol: LPIN1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '13345'
-          - Source: OMIM
-            Reference: '605518'
+      Label: Genetic recurrent myoglobinuria
+      ORPHAcode: '99845'
   - Child:
-      Label: Megaconial congenital muscular dystrophy
-      ORPHAcode: '280671'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1938'
+            Source: HGNC
+          - Reference: '612395'
+            Source: OMIM
           Label: choline kinase beta
           Symbol: CHKB
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1938'
-          - Source: OMIM
-            Reference: '612395'
+      Label: Megaconial congenital muscular dystrophy
+      ORPHAcode: '280671'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Disorder of phospholipids, sphingolipids and fatty acids biosynthesis with
+    skeletal muscle predominant involvement
+  ORPHAcode: '352312'
+  ORPHApacketId: '352312'
+  PURL: http://www.orpha.net/ORDO/Orphanet_352312
+  Parents:
+  - Parent:
+    - Label: Disorder of phospholipids, sphingolipids and fatty acids biosynthesis
+      ORPHAcode: '352301'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

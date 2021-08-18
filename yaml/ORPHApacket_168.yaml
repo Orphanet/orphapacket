@@ -1,63 +1,63 @@
 Orphapacket:
-  ORPHApacketId: '168'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '168'
-  Label: Loose anagen syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_168
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '600628'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Loose anagen syndrome
+  ORPHAcode: '168'
+  ORPHApacketId: '168'
+  PURL: http://www.orpha.net/ORDO/Orphanet_168
+  Parents:
+  - Parent:
+    - Label: Alopecia
+      ORPHAcode: '79364'
+  - Parent:
+    - Label: Scalp disease
+      ORPHAcode: '68348'
+  - Parent:
+    - Label: Genetic alopecia
+      ORPHAcode: '481771'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000612
+      HPOTerm: Iris coloboma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001595
+      HPOTerm: Abnormality of the hair
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010721
+      HPOTerm: Abnormal hair whorl
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   TextSection:
-    TextSectionType: Definition
     Contents: Loose anagen syndrome is a rare benign hair disorder affecting predominantly
       blond females in childhood and characterized by the presence of hair that can
       be easily and painlessly pulled out. Most of the hair is in the anagen phase
       and lacks an external epithelial sheath. Hair grows back quickly and the condition
       improves spontaneously with aging. Loose anagen hair can be associated with
       other anomalies such as coloboma.
-  Parents:
-  - Parent:
-    - ORPHAcode: '79364'
-      Label: Alopecia
-  - Parent:
-    - ORPHAcode: '68348'
-      Label: Scalp disease
-  - Parent:
-    - ORPHAcode: '481771'
-      Label: Genetic alopecia
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000612
-      HPOTerm: Iris coloboma
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001595
-      HPOTerm: Abnormality of the hair
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0010721
-      HPOTerm: Abnormal hair whorl
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

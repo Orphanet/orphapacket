@@ -1,22 +1,58 @@
 Orphapacket:
-  ORPHApacketId: '46724'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '46724'
-  Label: Cerebral arteriovenous malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_46724
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '108010'
+    Source: OMIM
+  Label: Cerebral arteriovenous malformation
+  ORPHAcode: '46724'
+  ORPHApacketId: '46724'
+  PURL: http://www.orpha.net/ORDO/Orphanet_46724
+  Parents:
+  - Parent:
+    - Label: Neurovascular malformation
+      ORPHAcode: '102006'
+  - Parent:
+    - Label: Rare arteriovenous malformation
+      ORPHAcode: '211266'
+  - Parent:
+    - Label: Genetic vascular anomaly
+      ORPHAcode: '211240'
+  - Parent:
+    - Label: Genetic neurovascular malformation
+      ORPHAcode: '371436'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100659
+      HPOTerm: Abnormality of the cerebral vasculature
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100761
+      HPOTerm: Visceral angiomatosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100784
+      HPOTerm: Peripheral arteriovenous fistula
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '6.0'
   Synonyms:
   - Synonym: Intracranial arteriovenous malformation
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '108010'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Cerebral arteriovenous malformation (AVM) is a congenital malformative
       communication between the veins and the arteries in the brain in the form of
       a nidus an anatomical structure composed of dilated and tangled supplying arterioles
@@ -25,46 +61,10 @@ Orphapacket:
       severity generalized or focal seizures focalneurological defects (weakness numbness
       speech difficulties vision loss) or potentially fatal intracranial hemorrhage
       in case the AVM ruptures.
-  Parents:
-  - Parent:
-    - ORPHAcode: '102006'
-      Label: Neurovascular malformation
-  - Parent:
-    - ORPHAcode: '211266'
-      Label: Rare arteriovenous malformation
-  - Parent:
-    - ORPHAcode: '211240'
-      Label: Genetic vascular anomaly
-  - Parent:
-    - ORPHAcode: '371436'
-      Label: Genetic neurovascular malformation
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0100659
-      HPOTerm: Abnormality of the cerebral vasculature
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100761
-      HPOTerm: Visceral angiomatosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100784
-      HPOTerm: Peripheral arteriovenous fistula
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '6.0'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: No data available
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

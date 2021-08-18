@@ -1,24 +1,59 @@
 Orphapacket:
-  ORPHApacketId: '363649'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '363649'
-  Label: Mandibular hypoplasia-deafness-progeroid features-lipodystrophy syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_363649
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '615381'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: DNA polymerase delta 1, catalytic subunit
+      Symbol: POLD1
+  Label: Mandibular hypoplasia-deafness-progeroid features-lipodystrophy syndrome
+  ORPHAcode: '363649'
+  ORPHApacketId: '363649'
+  PURL: http://www.orpha.net/ORDO/Orphanet_363649
+  Parents:
+  - Parent:
+    - Label: Syndromic genetic deafness
+      ORPHAcode: '90642'
+  - Parent:
+    - Label: Progeroid syndrome
+      ORPHAcode: '139033'
+  - Parent:
+    - Label: Premature aging
+      ORPHAcode: '79389'
+  - Parent:
+    - Label: Genetic lipodystrophy
+      ORPHAcode: '98305'
+  - Parent:
+    - Label: Genetic progeroid syndrome
+      ORPHAcode: '363245'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 28521875[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_28521875[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: MDP syndrome
   - Synonym: MDPL syndrome
   - Synonym: Mandibular hypoplasia-hearing loss-progeroid syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '615381'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Mandibular hypoplasia-deafness-progeroid syndrome is a rare genetic
       premature aging disease characterized by sensorineural deafness generalized
       lack of subcutaneous fatty tissue (although with increased truncal deposition)
@@ -27,45 +62,10 @@ Orphapacket:
       associated features include growth delay joint contractures telangiectasia hypogonadism
       (with lack of breast development in females) cryptorchidism skeletal muscle
       atrophy hypertriglycemia and diabetes mellitus/insulin resistance.
-  Genes:
-  - Gene:
-      Symbol: POLD1
-      Name: DNA polymerase delta 1, catalytic subunit
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '90642'
-      Label: Syndromic genetic deafness
-  - Parent:
-    - ORPHAcode: '139033'
-      Label: Progeroid syndrome
-  - Parent:
-    - ORPHAcode: '79389'
-      Label: Premature aging
-  - Parent:
-    - ORPHAcode: '98305'
-      Label: Genetic lipodystrophy
-  - Parent:
-    - ORPHAcode: '363245'
-      Label: Genetic progeroid syndrome
-  Prevalences:
-  - Prevalence:
-      Source: 28521875[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_28521875[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

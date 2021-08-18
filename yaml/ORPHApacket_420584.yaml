@@ -1,22 +1,53 @@
 Orphapacket:
-  ORPHApacketId: '420584'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '420584'
-  Label: Postaxial polydactyly-anterior pituitary anomalies-facial dysmorphism syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_420584
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: infantile
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '615849'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: GLI family zinc finger 2
+      Symbol: GLI2
+  Label: Postaxial polydactyly-anterior pituitary anomalies-facial dysmorphism syndrome
+  ORPHAcode: '420584'
+  ORPHApacketId: '420584'
+  PURL: http://www.orpha.net/ORDO/Orphanet_420584
+  Parents:
+  - Parent:
+    - Label: Syndrome with limb duplication, polydactyly, syndactyly, and/or hyperphalangy
+      ORPHAcode: '294959'
+  - Parent:
+    - Label: Disease associated with non-acquired combined pituitary hormone deficiency
+      ORPHAcode: '95495'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 24744436[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_24744436[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Culler-Jones syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '615849'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Postaxial polydactyly-anterior pituitary anomalies-facial dysmorphism
       syndrome is a rare genetic developmental defect during embryogenesis disorder
       characterized primarily by congenital hypopituitarism and/or postaxial polydactyly.
@@ -24,41 +55,10 @@ Orphapacket:
       and/or midline facial defects (e.g. hypotelorism mild midface hypoplasia flat
       nasal bridge and cleft lip and/or palate). Hypoplastic anterior pituitary and
       ectopic posterior pituitary lobe are frequent findings on MRI examination.
-  Genes:
-  - Gene:
-      Symbol: GLI2
-      Name: GLI family zinc finger 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '294959'
-      Label: Syndrome with limb duplication, polydactyly, syndactyly, and/or hyperphalangy
-  - Parent:
-    - ORPHAcode: '95495'
-      Label: Disease associated with non-acquired combined pituitary hormone deficiency
-  Prevalences:
-  - Prevalence:
-      Source: 24744436[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_24744436[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Antenatal
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: infantile
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

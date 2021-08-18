@@ -1,14 +1,114 @@
 Orphapacket:
-  ORPHApacketId: '403'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '403'
-  Label: Familial hyperaldosteronism type I
-  PURL: http://www.orpha.net/ORDO/Orphanet_403
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '103900'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: cytochrome P450 family 11 subfamily B member 1
+      Symbol: CYP11B1
+  - Gene:
+      ExternalReferences: []
+      Name: cytochrome P450 family 11 subfamily B member 2
+      Symbol: CYP11B2
+  Label: Familial hyperaldosteronism type I
+  ORPHAcode: '403'
+  ORPHApacketId: '403'
+  PURL: http://www.orpha.net/ORDO/Orphanet_403
+  Parents:
+  - Parent:
+    - Label: Familial hyperaldosteronism
+      ORPHAcode: '235936'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0000822
+      HPOTerm: Hypertension
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0011739
+      HPOTerm: Dexamethasone-suppresible primary hyperaldosteronism
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008221
+      HPOTerm: Adrenal hyperplasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0040084
+      HPOTerm: Abnormal circulating renin
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000360
+      HPOTerm: Tinnitus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000421
+      HPOTerm: Epistaxis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001324
+      HPOTerm: Muscle weakness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001959
+      HPOTerm: Polydipsia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002018
+      HPOTerm: Nausea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002170
+      HPOTerm: Intracranial hemorrhage
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002315
+      HPOTerm: Headache
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002900
+      HPOTerm: Hypokalemia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011410
+      HPOTerm: Caesarian section
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011746
+      HPOTerm: Secretory adrenocortical adenoma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100602
+      HPOTerm: Preeclampsia
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: 23610123[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: Dexamethasone-sensitive hypertension
   - Synonym: FH-I
@@ -17,115 +117,15 @@ Orphapacket:
   - Synonym: GRA
   - Synonym: Glucocorticoid-remediable aldosteronism
   - Synonym: Glucocorticoid-sensitive hypertension
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '103900'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Familial hyperaldosteronism type I (FH-I) is a rare heritable glucocorticoid
       remediable form of primary aldosteronism (PA) characterized by early-onset hypertension
       hyperaldosteronism variable hypokalemia low plasma renin activity (PRA) and
       abnormal production of 18-oxocortisol and 18-hydroxycortisol.
-  Genes:
-  - Gene:
-      Symbol: CYP11B1
-      Name: cytochrome P450 family 11 subfamily B member 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: CYP11B2
-      Name: cytochrome P450 family 11 subfamily B member 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '235936'
-      Label: Familial hyperaldosteronism
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000822
-      HPOTerm: Hypertension
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0011739
-      HPOTerm: Dexamethasone-suppresible primary hyperaldosteronism
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0008221
-      HPOTerm: Adrenal hyperplasia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0040084
-      HPOTerm: Abnormal circulating renin
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000360
-      HPOTerm: Tinnitus
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000421
-      HPOTerm: Epistaxis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001324
-      HPOTerm: Muscle weakness
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001959
-      HPOTerm: Polydipsia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002018
-      HPOTerm: Nausea
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002170
-      HPOTerm: Intracranial hemorrhage
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002315
-      HPOTerm: Headache
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002900
-      HPOTerm: Hypokalemia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0011410
-      HPOTerm: Caesarian section
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0011746
-      HPOTerm: Secretory adrenocortical adenoma
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0100602
-      HPOTerm: Preeclampsia
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-  - Prevalence:
-      Source: 23610123[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adolescent
-  - AverageAgeOfOnset:
-      value: Adult
-  - AverageAgeOfOnset:
-      value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

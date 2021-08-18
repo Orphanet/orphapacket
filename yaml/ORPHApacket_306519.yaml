@@ -1,36 +1,36 @@
 Orphapacket:
-  ORPHApacketId: '306519'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '306519'
-  Label: Genetic primary hypomagnesemia with hypocalciuria
-  PURL: http://www.orpha.net/ORDO/Orphanet_306519
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '34526'
-      Label: Genetic primary hypomagnesemia
   Childs:
   - Child:
-      Label: Autosomal dominant primary hypomagnesemia with hypocalciuria
-      ORPHAcode: '34528'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4026'
+            Source: HGNC
+          - Reference: '601814'
+            Source: OMIM
           Label: FXYD domain containing ion transport regulator 2
           Symbol: FXYD2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4026'
-          - Source: OMIM
-            Reference: '601814'
       - Gene:
+          ExternalReferences:
+          - Reference: '11630'
+            Source: HGNC
+          - Reference: '189907'
+            Source: OMIM
           Label: HNF1 homeobox B
           Symbol: HNF1B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11630'
-          - Source: OMIM
-            Reference: '189907'
+      Label: Autosomal dominant primary hypomagnesemia with hypocalciuria
+      ORPHAcode: '34528'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Genetic primary hypomagnesemia with hypocalciuria
+  ORPHAcode: '306519'
+  ORPHApacketId: '306519'
+  PURL: http://www.orpha.net/ORDO/Orphanet_306519
+  Parents:
+  - Parent:
+    - Label: Genetic primary hypomagnesemia
+      ORPHAcode: '34526'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

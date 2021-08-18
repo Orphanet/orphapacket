@@ -1,60 +1,60 @@
 Orphapacket:
-  ORPHApacketId: '307766'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '307766'
-  Label: Curly hair-acral keratoderma-caries syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_307766
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '607656'
+    Source: OMIM
+  Label: Curly hair-acral keratoderma-caries syndrome
+  ORPHAcode: '307766'
+  ORPHApacketId: '307766'
+  PURL: http://www.orpha.net/ORDO/Orphanet_307766
+  Parents:
+  - Parent:
+    - Label: Autosomal dominant disease with diffuse palmoplantar keratoderma as a
+        major feature
+      ORPHAcode: '98352'
+  - Parent:
+    - Label: Ectodermal dysplasia syndrome
+      ORPHAcode: '79373'
+  - Parent:
+    - Label: Malformation syndrome with odontal and/or periodontal component
+      ORPHAcode: '139042'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 11453928[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_11453928[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: CHAC syndrome
   - Synonym: CHACS
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '607656'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Curly hair-acral keratoderma-caries syndrome is an extremely rare ectodermal
       dysplasia syndrome characterized by premature loss of curly brittle dry hair
       premature loss of teeth due to caries nail dystrophy with thickening of the
       finger- and toe-nails acral keratoderma and hypohidrosis. Additionally sparse
       eyebrows and eyelashes receding frontal hairline and flattened malar region
       are associated. The severity of features appears to increase with age.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98352'
-      Label: Autosomal dominant disease with diffuse palmoplantar keratoderma as a
-        major feature
-  - Parent:
-    - ORPHAcode: '79373'
-      Label: Ectodermal dysplasia syndrome
-  - Parent:
-    - ORPHAcode: '139042'
-      Label: Malformation syndrome with odontal and/or periodontal component
-  Prevalences:
-  - Prevalence:
-      Source: 11453928[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_11453928[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adolescent
-  - AverageAgeOfOnset:
-      value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

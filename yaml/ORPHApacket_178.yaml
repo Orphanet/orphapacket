@@ -1,61 +1,61 @@
 Orphapacket:
-  ORPHApacketId: '178'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '178'
-  Label: Chordoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_178
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Notochordal sarcoma
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '215400'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Chordomas are rare malignant tumors arising from embryonic remnants
-      of the notochord in axial skeleton.
-  Genes:
-  - Gene:
-      Symbol: TBXT
-      Name: T-box transcription factor T
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '68411'
-      Label: Rare bone tumor
-  - Parent:
-    - ORPHAcode: '100101'
-      Label: Neuroendocrine tumor with other location
-  - Parent:
-    - ORPHAcode: '183527'
-      Label: Genetic bone tumor
-  - Parent:
-    - ORPHAcode: '271847'
-      Label: Genetic neuroendocrine tumor
-  - Parent:
-    - ORPHAcode: '95503'
-      Label: Pituitary hormone deficiency of tumoral origin
-  Prevalences:
-    Prevalence:
-    - Source: 22300861[PMID]_ ORPHANET_[EXPERT]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.06'
-      PrevalenceGeographic: United States
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '215400'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: T-box transcription factor T
+      Symbol: TBXT
+  Label: Chordoma
+  ORPHAcode: '178'
+  ORPHApacketId: '178'
+  PURL: http://www.orpha.net/ORDO/Orphanet_178
+  Parents:
+  - Parent:
+    - Label: Rare bone tumor
+      ORPHAcode: '68411'
+  - Parent:
+    - Label: Neuroendocrine tumor with other location
+      ORPHAcode: '100101'
+  - Parent:
+    - Label: Genetic bone tumor
+      ORPHAcode: '183527'
+  - Parent:
+    - Label: Genetic neuroendocrine tumor
+      ORPHAcode: '271847'
+  - Parent:
+    - Label: Pituitary hormone deficiency of tumoral origin
+      ORPHAcode: '95503'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 22300861[PMID]_ ORPHANET_[EXPERT]
+      ValMoy: '0.06'
+  Synonyms:
+  - Synonym: Notochordal sarcoma
+  TextSection:
+    Contents: Chordomas are rare malignant tumors arising from embryonic remnants
+      of the notochord in axial skeleton.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,80 +1,80 @@
 Orphapacket:
-  ORPHApacketId: '264719'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '264719'
-  Label: Secondary interstitial lung disease specific to childhood associated with
-    a metabolic disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_264719
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Secondary ILD specific to childhood associated with a metabolic disease
-  Parents:
-  - Parent:
-    - ORPHAcode: '264699'
-      Label: Secondary interstitial lung disease specific to childhood associated
-        with a systemic disease
   Childs:
   - Child:
-      Label: Hermansky-Pudlak syndrome with pulmonary fibrosis
-      ORPHAcode: '231500'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '5163'
+            Source: HGNC
+          - Reference: '604982'
+            Source: OMIM
           Label: HPS1 biogenesis of lysosomal organelles complex 3 subunit 1
           Symbol: HPS1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5163'
-          - Source: OMIM
-            Reference: '604982'
       - Gene:
+          ExternalReferences:
+          - Reference: '15844'
+            Source: HGNC
+          - Reference: '606682'
+            Source: OMIM
           Label: HPS4 biogenesis of lysosomal organelles complex 3 subunit 2
           Symbol: HPS4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '15844'
-          - Source: OMIM
-            Reference: '606682'
+      Label: Hermansky-Pudlak syndrome with pulmonary fibrosis
+      ORPHAcode: '231500'
   - Child:
-      Label: Niemann-Pick disease type B
-      ORPHAcode: '77293'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11120'
+            Source: HGNC
+          - Reference: '607608'
+            Source: OMIM
           Label: sphingomyelin phosphodiesterase 1
           Symbol: SMPD1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11120'
-          - Source: OMIM
-            Reference: '607608'
+      Label: Niemann-Pick disease type B
+      ORPHAcode: '77293'
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '4177'
+            Source: HGNC
+          - Reference: '606463'
+            Source: OMIM
+          Label: glucosylceramidase beta
+          Symbol: GBA
       Label: Gaucher disease type 2
       ORPHAcode: '77260'
+  - Child:
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4177'
+            Source: HGNC
+          - Reference: '606463'
+            Source: OMIM
           Label: glucosylceramidase beta
           Symbol: GBA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4177'
-          - Source: OMIM
-            Reference: '606463'
-  - Child:
       Label: Gaucher disease type 3
       ORPHAcode: '77261'
-      Genes:
-      - Gene:
-          Label: glucosylceramidase beta
-          Symbol: GBA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4177'
-          - Source: OMIM
-            Reference: '606463'
   - Child:
+      Genes: no data
       Label: Familial hypocalciuric hypercalcemia
       ORPHAcode: '405'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Secondary interstitial lung disease specific to childhood associated with
+    a metabolic disease
+  ORPHAcode: '264719'
+  ORPHApacketId: '264719'
+  PURL: http://www.orpha.net/ORDO/Orphanet_264719
+  Parents:
+  - Parent:
+    - Label: Secondary interstitial lung disease specific to childhood associated
+        with a systemic disease
+      ORPHAcode: '264699'
+  Synonyms:
+  - Synonym: Secondary ILD specific to childhood associated with a metabolic disease
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

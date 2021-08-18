@@ -1,53 +1,53 @@
 Orphapacket:
-  ORPHApacketId: '180766'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '180766'
-  Label: Malformative syndrome with dentinogenesis imperfecta
-  PURL: http://www.orpha.net/ORDO/Orphanet_180766
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '77830'
-      Label: Rare genetic odontologic disease
-  - Parent:
-    - ORPHAcode: '139042'
-      Label: Malformation syndrome with odontal and/or periodontal component
   Childs:
   - Child:
-      Label: Schimke immuno-osseous dysplasia
-      ORPHAcode: '1830'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11102'
+            Source: HGNC
+          - Reference: '606622'
+            Source: OMIM
           Label: SWI/SNF related, matrix associated, actin dependent regulator of
             chromatin, subfamily a like 1
           Symbol: SMARCAL1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11102'
-          - Source: OMIM
-            Reference: '606622'
+      Label: Schimke immuno-osseous dysplasia
+      ORPHAcode: '1830'
   - Child:
+      Genes: no data
       Label: Dentinogenesis imperfecta-short stature-hearing loss-intellectual disability
         syndrome
       ORPHAcode: '71267'
-      Genes: no data
   - Child:
-      Label: Odontochondrodysplasia
-      ORPHAcode: '166272'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '604505'
+            Source: OMIM
+          - Reference: '12305'
+            Source: HGNC
           Label: thyroid hormone receptor interactor 11
           Symbol: TRIP11
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '604505'
-          - Source: HGNC
-            Reference: '12305'
+      Label: Odontochondrodysplasia
+      ORPHAcode: '166272'
   - Child:
+      Genes: no data
       Label: Wormian bone-multiple fractures-dentinogenesis imperfecta-skeletal dysplasia
       ORPHAcode: '166277'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Malformative syndrome with dentinogenesis imperfecta
+  ORPHAcode: '180766'
+  ORPHApacketId: '180766'
+  PURL: http://www.orpha.net/ORDO/Orphanet_180766
+  Parents:
+  - Parent:
+    - Label: Rare genetic odontologic disease
+      ORPHAcode: '77830'
+  - Parent:
+    - Label: Malformation syndrome with odontal and/or periodontal component
+      ORPHAcode: '139042'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

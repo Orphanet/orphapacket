@@ -1,86 +1,86 @@
 Orphapacket:
-  ORPHApacketId: '363314'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '363314'
-  Label: Genetic intestinal polyposis
-  PURL: http://www.orpha.net/ORDO/Orphanet_363314
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Familial intestinal polyposis
-  Parents:
-  - Parent:
-    - ORPHAcode: '165655'
-      Label: Genetic intestinal disease
   Childs:
   - Child:
+      Genes: no data
       Label: Familial adenomatous polyposis
       ORPHAcode: '733'
-      Genes: no data
   - Child:
-      Label: Peutz-Jeghers syndrome
-      ORPHAcode: '2869'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11389'
+            Source: HGNC
+          - Reference: '602216'
+            Source: OMIM
           Label: serine/threonine kinase 11
           Symbol: STK11
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11389'
-          - Source: OMIM
-            Reference: '602216'
+      Label: Peutz-Jeghers syndrome
+      ORPHAcode: '2869'
   - Child:
+      Genes: no data
       Label: Juvenile polyposis syndrome
       ORPHAcode: '2929'
-      Genes: no data
   - Child:
-      Label: Hereditary mixed polyposis syndrome
-      ORPHAcode: '157794'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1076'
+            Source: HGNC
+          - Reference: '601299'
+            Source: OMIM
           Label: bone morphogenetic protein receptor type 1A
           Symbol: BMPR1A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1076'
-          - Source: OMIM
-            Reference: '601299'
       - Gene:
+          ExternalReferences:
+          - Reference: '2001'
+            Source: HGNC
+          - Reference: '603054'
+            Source: OMIM
           Label: gremlin 1, DAN family BMP antagonist
           Symbol: GREM1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2001'
-          - Source: OMIM
-            Reference: '603054'
+      Label: Hereditary mixed polyposis syndrome
+      ORPHAcode: '157794'
   - Child:
-      Label: Serrated polyposis syndrome
-      ORPHAcode: '157798'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '18505'
+            Source: HGNC
+          - Reference: '612482'
+            Source: OMIM
           Label: ring finger protein 43
           Symbol: RNF43
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18505'
-          - Source: OMIM
-            Reference: '612482'
+      Label: Serrated polyposis syndrome
+      ORPHAcode: '157798'
   - Child:
+      Genes: no data
       Label: Attenuated familial adenomatous polyposis
       ORPHAcode: '220460'
-      Genes: no data
   - Child:
-      Label: Bannayan-Riley-Ruvalcaba syndrome
-      ORPHAcode: '109'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '9588'
+            Source: HGNC
+          - Reference: '601728'
+            Source: OMIM
           Label: phosphatase and tensin homolog
           Symbol: PTEN
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9588'
-          - Source: OMIM
-            Reference: '601728'
+      Label: Bannayan-Riley-Ruvalcaba syndrome
+      ORPHAcode: '109'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Genetic intestinal polyposis
+  ORPHAcode: '363314'
+  ORPHApacketId: '363314'
+  PURL: http://www.orpha.net/ORDO/Orphanet_363314
+  Parents:
+  - Parent:
+    - Label: Genetic intestinal disease
+      ORPHAcode: '165655'
+  Synonyms:
+  - Synonym: Familial intestinal polyposis
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

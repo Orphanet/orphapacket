@@ -1,53 +1,57 @@
 Orphapacket:
-  ORPHApacketId: '314022'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '314022'
-  Label: Gastric adenocarcinoma and proximal polyposis of the stomach
-  PURL: http://www.orpha.net/ORDO/Orphanet_314022
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: adult
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '619182'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: APC regulator of WNT signaling pathway
+      Symbol: APC
+  Label: Gastric adenocarcinoma and proximal polyposis of the stomach
+  ORPHAcode: '314022'
+  ORPHApacketId: '314022'
+  PURL: http://www.orpha.net/ORDO/Orphanet_314022
+  Parents:
+  - Parent:
+    - Label: Hereditary gastric cancer
+      ORPHAcode: '423776'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 21813476[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: Familial fundic gland polyposis with gastric cancer
   - Synonym: GAPPS
   TextSection:
-    TextSectionType: Definition
     Contents: Gastric adenocarcinoma and proximal polyposis of the stomach (GAPPS)
       is a rare hereditary gastric cancer characterized by proximal gastric polyposis
       and increased risk of early-onset intestinal-type adenocarcinoma of the gastric
       body with no duodenal or colorectal polyposis.
-  Genes:
-  - Gene:
-      Symbol: APC
-      Name: APC regulator of WNT signaling pathway
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '423776'
-      Label: Hereditary gastric cancer
-  Prevalences:
-  - Prevalence:
-      Source: 21813476[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

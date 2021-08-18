@@ -1,61 +1,197 @@
 Orphapacket:
-  ORPHApacketId: '95159'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '95159'
-  Label: Hepatoerythropoietic porphyria
-  PURL: http://www.orpha.net/ORDO/Orphanet_95159
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: HEP
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
     Reference: '176100'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Hepatoerythropioetic porphyria (HEP) is a very rare form of chronic
-      hepatic porphyria (see this term) characterized by bullous photodermatitis.
+    Source: OMIM
   Genes:
   - Gene:
-      Symbol: UROD
-      Name: uroporphyrinogen decarboxylase
       ExternalReferences: []
+      Name: uroporphyrinogen decarboxylase
+      Symbol: UROD
+  Label: Hepatoerythropoietic porphyria
+  ORPHAcode: '95159'
+  ORPHApacketId: '95159'
+  PURL: http://www.orpha.net/ORDO/Orphanet_95159
   Parents:
   - Parent:
-    - ORPHAcode: '95161'
-      Label: Chronic hepatic porphyria
+    - Label: Chronic hepatic porphyria
+      ORPHAcode: '95161'
   Phenotypes:
   - Phenotype:
-      HPOId: HP:0000992
-      HPOTerm: Cutaneous photosensitivity
-      HPOFrequency: Very frequent (99-80%)
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0040318
+      HPOTerm: Red urine
   - Phenotype:
-      HPOId: HP:0000963
-      HPOTerm: Thin skin
-      HPOFrequency: Very frequent (99-80%)
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010472
+      HPOTerm: Abnormal circulating porphyrin concentration
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0032999
+      HPOTerm: Increased fecal porphyrin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012379
+      HPOTerm: Abnormal enzyme/coenzyme activity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007537
+      HPOTerm: Severe photosensitivity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008066
+      HPOTerm: Abnormal blistering of the skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001030
+      HPOTerm: Fragile skin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0040320
+      HPOTerm: Red-brown urine
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001878
       HPOTerm: Hemolytic anemia
-      HPOFrequency: Very frequent (99-80%)
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012804
+      HPOTerm: Corneal ulceration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100699
+      HPOTerm: Scarring
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030756
+      HPOTerm: Erythrodontia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001790
+      HPOTerm: Nonimmune hydrops fetalis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001072
+      HPOTerm: Thickened skin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000953
+      HPOTerm: Hyperpigmentation of the skin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001010
+      HPOTerm: Hypopigmentation of the skin
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002219
+      HPOTerm: Facial hypertrichosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0003401
+      HPOTerm: Paresthesia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000989
+      HPOTerm: Pruritus
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000969
+      HPOTerm: Edema
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001744
+      HPOTerm: Splenomegaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001892
+      HPOTerm: Abnormal bleeding
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000618
+      HPOTerm: Blindness
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0100532
+      HPOTerm: Scleritis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0500046
+      HPOTerm: Seborrhoeic blepharitis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001096
+      HPOTerm: Keratoconjunctivitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000656
+      HPOTerm: Ectropion
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000938
+      HPOTerm: Osteopenia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001560
+      HPOTerm: Abnormality of the amniotic fluid
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0040322
+      HPOTerm: Purple urine
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0200041
+      HPOTerm: Skin erosion
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005406
+      HPOTerm: Recurrent bacterial skin infections
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011457
+      HPOTerm: Loss of eyelashes
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004552
+      HPOTerm: Scarring alopecia of scalp
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002797
+      HPOTerm: Osteolysis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000939
+      HPOTerm: Osteoporosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012132
+      HPOTerm: Erythroid hyperplasia
   Prevalences:
   - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
       PrevalenceClass: no data
-      ValMoy: no data
       PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: '[EXPERT]'
+      ValMoy: no data
   - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
       PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
       PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: HEP
+  TextSection:
+    Contents: Hepatoerythropioetic porphyria (HEP) is a very rare form of chronic
+      hepatic porphyria (see this term) characterized by bullous photodermatitis.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

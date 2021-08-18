@@ -1,29 +1,67 @@
 Orphapacket:
-  ORPHApacketId: '34592'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '34592'
-  Label: Immunodeficiency by defective expression of MHC class I
-  PURL: http://www.orpha.net/ORDO/Orphanet_34592
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '604571'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '241600'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: transporter 2, ATP binding cassette subfamily B member
+      Symbol: TAP2
+  - Gene:
+      ExternalReferences: []
+      Name: transporter 1, ATP binding cassette subfamily B member
+      Symbol: TAP1
+  - Gene:
+      ExternalReferences: []
+      Name: TAP binding protein
+      Symbol: TAPBP
+  - Gene:
+      ExternalReferences: []
+      Name: beta-2-microglobulin
+      Symbol: B2M
+  Label: Immunodeficiency by defective expression of MHC class I
+  ORPHAcode: '34592'
+  ORPHApacketId: '34592'
+  PURL: http://www.orpha.net/ORDO/Orphanet_34592
+  Parents:
+  - Parent:
+    - Label: Non-severe combined immunodeficiency
+      ORPHAcode: '480549'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 25001848[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_25001848[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Bare lymphocyte syndrome type 1
   - Synonym: MHC class I deficiency
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '604571'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '241600'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
   TextSection:
-    TextSectionType: Definition
     Contents: A rare autosomal recessive primary immunodeficiency characterized by
       severe reduction in the cell surface expression of HLA class I molecules typically
       resulting in childhood-onset of chronic bacterial infections of the respiratory
@@ -32,48 +70,10 @@ Orphapacket:
       the mid-face may be observed in some patients. Severe viral infections do not
       occur as part of the condition. Atypical variants without respiratory or cutaneous
       manifestations as well as asymptomatic individuals have been reported.
-  Genes:
-  - Gene:
-      Symbol: TAP2
-      Name: transporter 2, ATP binding cassette subfamily B member
-      ExternalReferences: []
-  - Gene:
-      Symbol: TAP1
-      Name: transporter 1, ATP binding cassette subfamily B member
-      ExternalReferences: []
-  - Gene:
-      Symbol: TAPBP
-      Name: TAP binding protein
-      ExternalReferences: []
-  - Gene:
-      Symbol: B2M
-      Name: beta-2-microglobulin
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '480549'
-      Label: Non-severe combined immunodeficiency
-  Prevalences:
-  - Prevalence:
-      Source: 25001848[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_25001848[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

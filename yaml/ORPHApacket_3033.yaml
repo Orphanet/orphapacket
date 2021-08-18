@@ -1,137 +1,147 @@
 Orphapacket:
-  ORPHApacketId: '3033'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3033'
-  Label: Renal tubular dysgenesis
-  PURL: http://www.orpha.net/ORDO/Orphanet_3033
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: Primitive renal tubule syndrome
-  - Synonym: Renotubular dysgenesis
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '267430'
-    DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Renal tubular dysgenesis is a rare disorder of the fetus characterized
-      by absent or poorly developed proximal tubules of the kidneys persistent oligohydramnios
-      leading to Potter sequence (facial dysmorphism with large and flat low-set ears
-      lung hypoplasia arthrogryposis and limb positioning defects) and skull ossification
-      defects. It can be acquired during fetal development due to drugs taken by the
-      mother or certain disorders (twin-twin transfusion syndrome TTTS) or inherited
-      in an autosomal recessive manner.
-  Parents:
-  - Parent:
-    - ORPHAcode: '93546'
-      Label: Non-syndromic renal or urinary tract malformation
-  Childs:
-  - Child:
-      Label: Renal tubular dysgenesis due to twin-twin transfusion
-      ORPHAcode: '97367'
-      Genes: no data
-  - Child:
-      Label: Drug-related renal tubular dysgenesis
-      ORPHAcode: '97368'
-      Genes: no data
-  - Child:
-      Label: Renal tubular dysgenesis of genetic origin
-      ORPHAcode: '97369'
-      Genes:
-      - Gene:
-          Label: angiotensin I converting enzyme
-          Symbol: ACE
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2707'
-          - Source: OMIM
-            Reference: '106180'
-      - Gene:
-          Label: angiotensinogen
-          Symbol: AGT
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '333'
-          - Source: OMIM
-            Reference: '106150'
-      - Gene:
-          Label: renin
-          Symbol: REN
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9958'
-          - Source: OMIM
-            Reference: '179820'
-      - Gene:
-          Label: angiotensin II receptor type 1
-          Symbol: AGTR1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '336'
-          - Source: OMIM
-            Reference: '106165'
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000112
-      HPOTerm: Nephropathy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000114
-      HPOTerm: Proximal tubulopathy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000252
-      HPOTerm: Microcephaly
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000316
-      HPOTerm: Hypertelorism
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001561
-      HPOTerm: Polyhydramnios
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001562
-      HPOTerm: Oligohydramnios
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001622
-      HPOTerm: Premature birth
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001636
-      HPOTerm: Tetralogy of Fallot
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002089
-      HPOTerm: Pulmonary hypoplasia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0005562
-      HPOTerm: Multiple renal cysts
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0005692
-      HPOTerm: Joint hyperflexibility
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007598
-      HPOTerm: Bilateral single transverse palmar creases
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0008660
-      HPOTerm: Renotubular dysgenesis
-      HPOFrequency: Very frequent (99-80%)
+  AverageAgeOfDeaths:
+  - AverageAgeOfDeath:
+      value: no data
+  - AverageAgeOfDeath:
+      value: no data
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Antenatal
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Renal tubular dysgenesis due to twin-twin transfusion
+      ORPHAcode: '97367'
+  - Child:
+      Genes: no data
+      Label: Drug-related renal tubular dysgenesis
+      ORPHAcode: '97368'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '2707'
+            Source: HGNC
+          - Reference: '106180'
+            Source: OMIM
+          Label: angiotensin I converting enzyme
+          Symbol: ACE
+      - Gene:
+          ExternalReferences:
+          - Reference: '333'
+            Source: HGNC
+          - Reference: '106150'
+            Source: OMIM
+          Label: angiotensinogen
+          Symbol: AGT
+      - Gene:
+          ExternalReferences:
+          - Reference: '9958'
+            Source: HGNC
+          - Reference: '179820'
+            Source: OMIM
+          Label: renin
+          Symbol: REN
+      - Gene:
+          ExternalReferences:
+          - Reference: '336'
+            Source: HGNC
+          - Reference: '106165'
+            Source: OMIM
+          Label: angiotensin II receptor type 1
+          Symbol: AGTR1
+      Label: Renal tubular dysgenesis of genetic origin
+      ORPHAcode: '97369'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
+    Reference: '267430'
+    Source: OMIM
+  Label: Renal tubular dysgenesis
+  ORPHAcode: '3033'
+  ORPHApacketId: '3033'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3033
+  Parents:
+  - Parent:
+    - Label: Non-syndromic renal or urinary tract malformation
+      ORPHAcode: '93546'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000112
+      HPOTerm: Nephropathy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000114
+      HPOTerm: Proximal tubulopathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000252
+      HPOTerm: Microcephaly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000316
+      HPOTerm: Hypertelorism
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001561
+      HPOTerm: Polyhydramnios
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001562
+      HPOTerm: Oligohydramnios
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001622
+      HPOTerm: Premature birth
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001636
+      HPOTerm: Tetralogy of Fallot
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002089
+      HPOTerm: Pulmonary hypoplasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005562
+      HPOTerm: Multiple renal cysts
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005692
+      HPOTerm: Joint hyperflexibility
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007598
+      HPOTerm: Bilateral single transverse palmar creases
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008660
+      HPOTerm: Renotubular dysgenesis
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Prevalence at birth
+      Source: 'PMID: 16790508; 19344005; 33163725'
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: Primitive renal tubule syndrome
+  - Synonym: Renotubular dysgenesis
+  TextSection:
+    Contents: A rare disorder of the fetus characterized by absent or poorly developed
+      proximal tubules of the kidneys persistent oligohydramnios leading to Potter
+      sequence (facial dysmorphism with large and flat low-set ears lung hypoplasia
+      arthrogryposis and limb positioning defects) and skull ossification defects.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

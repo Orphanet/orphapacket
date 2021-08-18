@@ -1,71 +1,79 @@
 Orphapacket:
-  ORPHApacketId: '444069'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '444069'
-  Label: Lethal fetal brain malformation-duodenal atresia-bilateral renal hypoplasia
-    syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_444069
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '243605'
-      DisorderMappingRelation: ND (not yet decided/unable to decide)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '616369'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: CENPF
-      Name: centromere protein F
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '93547'
-      Label: Syndromic renal or urinary tract malformation
-  - Parent:
-    - ORPHAcode: '269531'
-      Label: Other syndrome with a central nervous system malformation as a major
-        feature
-  - Parent:
-    - ORPHAcode: '459787'
-      Label: Lethal multiple congenital anomalies/dysmorphic syndrome
-  - Parent:
-    - ORPHAcode: '156162'
-      Label: Nephropathy-associated ciliopathy
-  - Parent:
-    - ORPHAcode: '269564'
-      Label: Genetic syndrome with a central nervous system malformation as a major
-        feature
-  - Parent:
-    - ORPHAcode: '471383'
-      Label: Genetic lethal multiple congenital anomalies/dysmorphic syndrome
-  Prevalences:
-  - Prevalence:
-      Source: 25564561[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_25564561[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Antenatal
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: embryofetal
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Antenatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: ND (not yet decided/unable to decide)
+      Reference: '243605'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '616369'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: centromere protein F
+      Symbol: CENPF
+  Label: Lethal fetal brain malformation-duodenal atresia-bilateral renal hypoplasia
+    syndrome
+  ORPHAcode: '444069'
+  ORPHApacketId: '444069'
+  PURL: http://www.orpha.net/ORDO/Orphanet_444069
+  Parents:
+  - Parent:
+    - Label: Syndromic renal or urinary tract malformation
+      ORPHAcode: '93547'
+  - Parent:
+    - Label: Other syndrome with a central nervous system malformation as a major
+        feature
+      ORPHAcode: '269531'
+  - Parent:
+    - Label: Lethal multiple congenital anomalies/dysmorphic syndrome
+      ORPHAcode: '459787'
+  - Parent:
+    - Label: Nephropathy-associated ciliopathy
+      ORPHAcode: '156162'
+  - Parent:
+    - Label: Genetic syndrome with a central nervous system malformation as a major
+        feature
+      ORPHAcode: '269564'
+  - Parent:
+    - Label: Genetic lethal multiple congenital anomalies/dysmorphic syndrome
+      ORPHAcode: '471383'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 25564561[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_25564561[PMID]
+      ValMoy: no data
+  TextSection:
+    Contents: A rare genetic lethal multiple congenital anomalies/dysmorphic syndrome
+      characterized by mid-gestation lethality and features of a ciliopathy. Clinical
+      manifestations include hydrocephalus cerebellar vermis hypoplasia corpus callosum
+      agenesis duodenal atresia gastrointestinal malrotation bilateral renal hypoplasia
+      and dysmorphic craniofacial features (such as microcephaly hypertelorism low-set
+      ears prominent nose short columella cleft palate micrognathia and wide mouth).
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

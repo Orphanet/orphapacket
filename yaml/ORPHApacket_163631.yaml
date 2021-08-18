@@ -1,75 +1,75 @@
 Orphapacket:
-  ORPHApacketId: '163631'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '163631'
-  Label: Bile acid synthesis defect with cholestasis and malabsorption
-  PURL: http://www.orpha.net/ORDO/Orphanet_163631
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '79168'
-      Label: Disorder of bile acid synthesis
-  - Parent:
-    - ORPHAcode: '284385'
-      Label: Familial intrahepatic cholestasis
   Childs:
   - Child:
+      Genes: no data
       Label: Congenital bile acid synthesis defect
       ORPHAcode: '485631'
-      Genes: no data
   - Child:
-      Label: Cerebrotendinous xanthomatosis
-      ORPHAcode: '909'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2605'
+            Source: HGNC
+          - Reference: '606530'
+            Source: OMIM
           Label: cytochrome P450 family 27 subfamily A member 1
           Symbol: CYP27A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2605'
-          - Source: OMIM
-            Reference: '606530'
+      Label: Cerebrotendinous xanthomatosis
+      ORPHAcode: '909'
   - Child:
-      Label: Familial hypercholanemia
-      ORPHAcode: '238475'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '3401'
+            Source: HGNC
+          - Reference: '132810'
+            Source: OMIM
           Label: epoxide hydrolase 1
           Symbol: EPHX1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3401'
-          - Source: OMIM
-            Reference: '132810'
       - Gene:
+          ExternalReferences:
+          - Reference: '11828'
+            Source: HGNC
+          - Reference: '607709'
+            Source: OMIM
           Label: tight junction protein 2
           Symbol: TJP2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11828'
-          - Source: OMIM
-            Reference: '607709'
       - Gene:
+          ExternalReferences:
+          - Reference: '932'
+            Source: HGNC
+          - Reference: '602938'
+            Source: OMIM
           Label: bile acid-CoA:amino acid N-acyltransferase
           Symbol: BAAT
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '932'
-          - Source: OMIM
-            Reference: '602938'
+      Label: Familial hypercholanemia
+      ORPHAcode: '238475'
   - Child:
-      Label: Bile acid CoA ligase deficiency and defective amidation
-      ORPHAcode: '276066'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '603314'
+            Source: OMIM
+          - Reference: '10999'
+            Source: HGNC
           Label: solute carrier family 27 member 5
           Symbol: SLC27A5
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '603314'
-          - Source: HGNC
-            Reference: '10999'
+      Label: Bile acid CoA ligase deficiency and defective amidation
+      ORPHAcode: '276066'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Bile acid synthesis defect with cholestasis and malabsorption
+  ORPHAcode: '163631'
+  ORPHApacketId: '163631'
+  PURL: http://www.orpha.net/ORDO/Orphanet_163631
+  Parents:
+  - Parent:
+    - Label: Disorder of bile acid synthesis
+      ORPHAcode: '79168'
+  - Parent:
+    - Label: Familial intrahepatic cholestasis
+      ORPHAcode: '284385'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

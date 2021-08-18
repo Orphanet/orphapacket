@@ -1,14 +1,133 @@
 Orphapacket:
-  ORPHApacketId: '1997'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '1997'
-  Label: Blepharo-cheilo-odontic syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_1997
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '617681'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '119580'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: catenin delta 1
+      Symbol: CTNND1
+  - Gene:
+      ExternalReferences: []
+      Name: cadherin 1
+      Symbol: CDH1
+  Label: Blepharo-cheilo-odontic syndrome
+  ORPHAcode: '1997'
+  ORPHApacketId: '1997'
+  PURL: http://www.orpha.net/ORDO/Orphanet_1997
+  Parents:
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '102285'
+  - Parent:
+    - Label: Congenital ectropion
+      ORPHAcode: '98570'
+  - Parent:
+    - Label: Orofacial clefting syndrome
+      ORPHAcode: '139039'
+  - Parent:
+    - Label: Malformation syndrome with odontal and/or periodontal component
+      ORPHAcode: '139042'
+  - Parent:
+    - Label: Ectodermal dysplasia syndrome
+      ORPHAcode: '79373'
+  - Parent:
+    - Label: Genetic malformation syndrome with odontal and/or periodontal component
+      ORPHAcode: '183580'
+  - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '330206'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000316
+      HPOTerm: Hypertelorism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000405
+      HPOTerm: Conductive hearing impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000478
+      HPOTerm: Abnormality of the eye
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000492
+      HPOTerm: Abnormal eyelid morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000504
+      HPOTerm: Abnormality of vision
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000670
+      HPOTerm: Carious teeth
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000698
+      HPOTerm: Conical tooth
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002023
+      HPOTerm: Anal atresia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002744
+      HPOTerm: Bilateral cleft lip and palate
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006101
+      HPOTerm: Finger syndactyly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007651
+      HPOTerm: Ectropion of lower eyelids
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009743
+      HPOTerm: Distichiasis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011362
+      HPOTerm: Abnormal hair quantity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012905
+      HPOTerm: Euryblepharon
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0200040
+      HPOTerm: Epidermoid cyst
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: EXPERT
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: BCD syndrome
   - Synonym: Blepharocheilodontic syndrome
@@ -16,132 +135,14 @@ Orphapacket:
   - Synonym: Ectropion inferior-cleft lip and/or palate syndrome
   - Synonym: Elschnig syndrome
   - Synonym: Lagophthalmia-cleft lip and palate syndrome
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '617681'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '119580'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
+    Contents: A rare ectodermal dysplasia syndrome characterized by the association
+      of lower eyelid ectropion upper eyelid distichiasis euryblepharon bilateral
+      cleft lip and palate and conical teeth.
     TextSectionType: Definition
-    Contents: Blepharo-cheilo-odontic syndrome is an ectodermal dysplasia syndrome
-      characterized by the association of abnormalities of the eyelids lips and teeth.
-  Genes:
-  - Gene:
-      Symbol: CTNND1
-      Name: catenin delta 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: CDH1
-      Name: cadherin 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '102285'
-      Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-  - Parent:
-    - ORPHAcode: '98570'
-      Label: Congenital ectropion
-  - Parent:
-    - ORPHAcode: '139039'
-      Label: Orofacial clefting syndrome
-  - Parent:
-    - ORPHAcode: '139042'
-      Label: Malformation syndrome with odontal and/or periodontal component
-  - Parent:
-    - ORPHAcode: '79373'
-      Label: Ectodermal dysplasia syndrome
-  - Parent:
-    - ORPHAcode: '183580'
-      Label: Genetic malformation syndrome with odontal and/or periodontal component
-  - Parent:
-    - ORPHAcode: '330206'
-      Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000316
-      HPOTerm: Hypertelorism
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000405
-      HPOTerm: Conductive hearing impairment
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000478
-      HPOTerm: Abnormality of the eye
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000492
-      HPOTerm: Abnormality of the eyelid
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000504
-      HPOTerm: Abnormality of vision
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000670
-      HPOTerm: Carious teeth
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000698
-      HPOTerm: Conical tooth
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002023
-      HPOTerm: Anal atresia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002744
-      HPOTerm: Bilateral cleft lip and palate
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006101
-      HPOTerm: Finger syndactyly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0007651
-      HPOTerm: Ectropion of lower eyelids
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0009743
-      HPOTerm: Distichiasis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0011362
-      HPOTerm: Abnormal hair quantity
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0012905
-      HPOTerm: Euryblepharon
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0200040
-      HPOTerm: Epidermoid cyst
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

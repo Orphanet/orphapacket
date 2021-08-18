@@ -1,55 +1,55 @@
 Orphapacket:
-  ORPHApacketId: '99002'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99002'
-  Label: Reticular dystrophy of the retinal pigment epithelium
-  PURL: http://www.orpha.net/ORDO/Orphanet_99002
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
       Reference: '267800'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
-  - ExternalReference:
-      Source: OMIM
       Reference: '617175'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
       Source: OMIM
-      Reference: '179840'
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
+      Reference: '179840'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: RCC1 and BTB domain containing protein 1
+      Symbol: RCBTB1
+  Label: Reticular dystrophy of the retinal pigment epithelium
+  ORPHAcode: '99002'
+  ORPHApacketId: '99002'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99002
+  Parents:
+  - Parent:
+    - Label: Pattern dystrophy
+      ORPHAcode: '63454'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare patterned dystrophy of the retinal pigment epithelium of progressive
       course characterized by the presence of a bilateral hyperpigmented reticular
       pattern resembling a fishnet with knots resulting in a slowly progressive loss
       of vision that often only becomes apparent in old age. This disorder is sometimes
       associated with scleral staphyloma choroidal neovascularization convergent strabismus
       spherophakia with myopia and luxated lenses and partial atrophy of the iris.
-  Genes:
-  - Gene:
-      Symbol: RCBTB1
-      Name: RCC1 and BTB domain containing protein 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '63454'
-      Label: Pattern dystrophy
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: Unknown
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

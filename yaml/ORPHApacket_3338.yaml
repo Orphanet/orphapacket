@@ -1,69 +1,69 @@
 Orphapacket:
-  ORPHApacketId: '3338'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3338'
-  Label: Toriello-Carey syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_3338
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: Corpus callosum agenesis-blepharophimosis-Robin sequence syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '217980'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Toriello Carey syndrome is a multiple congenital anomaly syndrome characterized
-      by craniofacial dysmorphic features cerebral anomalies swallowing difficulties
-      cardiac defects and hypotonia.
-  Genes:
-  - Gene:
-      Symbol: DDX3X
-      Name: DEAD-box helicase 3 X-linked
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '102284'
-      Label: Multiple congenital anomalies/dysmorphic syndrome-variable intellectual
-        disability syndrome
-  - Parent:
-    - ORPHAcode: '199639'
-      Label: Syndrome with corpus callosum agenesis/dysgenesis as a major feature
-  - Parent:
-    - ORPHAcode: '139039'
-      Label: Orofacial clefting syndrome
-  - Parent:
-    - ORPHAcode: '269573'
-      Label: Genetic syndrome with corpus callosum agenesis/dysgenesis as a major
-        feature
-  - Parent:
-    - ORPHAcode: '330197'
-      Label: Genetic multiple congenital anomalies/dysmorphic syndrome-variable intellectual
-        disability syndrome
-  Prevalences:
-  - Prevalence:
-      Source: 27510950[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_27510950[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '217980'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: DEAD-box helicase 3 X-linked
+      Symbol: DDX3X
+  Label: Toriello-Carey syndrome
+  ORPHAcode: '3338'
+  ORPHApacketId: '3338'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3338
+  Parents:
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-variable intellectual
+        disability syndrome
+      ORPHAcode: '102284'
+  - Parent:
+    - Label: Syndrome with corpus callosum agenesis/dysgenesis as a major feature
+      ORPHAcode: '199639'
+  - Parent:
+    - Label: Orofacial clefting syndrome
+      ORPHAcode: '139039'
+  - Parent:
+    - Label: Genetic syndrome with corpus callosum agenesis/dysgenesis as a major
+        feature
+      ORPHAcode: '269573'
+  - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-variable intellectual
+        disability syndrome
+      ORPHAcode: '330197'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 27510950[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_27510950[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Corpus callosum agenesis-blepharophimosis-Robin sequence syndrome
+  TextSection:
+    Contents: Toriello Carey syndrome is a multiple congenital anomaly syndrome characterized
+      by craniofacial dysmorphic features cerebral anomalies swallowing difficulties
+      cardiac defects and hypotonia.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

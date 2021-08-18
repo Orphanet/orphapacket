@@ -1,28 +1,4 @@
 Orphapacket:
-  ORPHApacketId: '213802'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '213802'
-  Label: Rhabdomyosarcoma of the cervix uteri
-  PURL: http://www.orpha.net/ORDO/Orphanet_213802
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Cervical rhabdomyosarcoma
-  TextSection:
-    TextSectionType: Definition
-    Contents: Rhabdomyosarcoma of the cervix uteri is a rare highly malignant soft
-      tissue sarcoma located in the uterine cervix and arising from primitive mesenchymal
-      cells displaying skeletal muscle differentiation. It most often presents with
-      abnormal vaginal discharge or dysfunctional uterine bleeding abdominal pain
-      and/or a cervical mass protruding into the vagina. Association with DICER1 syndrome
-      has been reported.
-  Parents:
-  - Parent:
-    - ORPHAcode: '213797'
-      Label: Sarcoma of cervix uteri
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -30,3 +6,30 @@ Orphapacket:
       value: Adult
   - AverageAgeOfOnset:
       value: Childhood
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Rhabdomyosarcoma of the cervix uteri
+  ORPHAcode: '213802'
+  ORPHApacketId: '213802'
+  PURL: http://www.orpha.net/ORDO/Orphanet_213802
+  Parents:
+  - Parent:
+    - Label: Sarcoma of cervix uteri
+      ORPHAcode: '213797'
+  - Parent:
+    - Label: Pediatric gynecological cancer
+      ORPHAcode: '602697'
+  Synonyms:
+  - Synonym: Cervical rhabdomyosarcoma
+  TextSection:
+    Contents: Rhabdomyosarcoma of the cervix uteri is a rare highly malignant soft
+      tissue sarcoma located in the uterine cervix and arising from primitive mesenchymal
+      cells displaying skeletal muscle differentiation. It most often presents with
+      abnormal vaginal discharge or dysfunctional uterine bleeding abdominal pain
+      and/or a cervical mass protruding into the vagina. Association with DICER1 syndrome
+      has been reported.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

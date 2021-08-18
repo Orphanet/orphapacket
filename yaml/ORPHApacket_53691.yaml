@@ -1,27 +1,49 @@
 Orphapacket:
-  ORPHApacketId: '53691'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '53691'
-  Label: Congenital cornea plana
-  PURL: http://www.orpha.net/ORDO/Orphanet_53691
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
       Reference: '121400'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
       Source: OMIM
-      Reference: '217300'
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
+      Reference: '217300'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: keratocan
+      Symbol: KERA
+  Label: Congenital cornea plana
+  ORPHAcode: '53691'
+  ORPHApacketId: '53691'
+  PURL: http://www.orpha.net/ORDO/Orphanet_53691
+  Parents:
+  - Parent:
+    - Label: Developmental defect of the eye
+      ORPHAcode: '98553'
+  - Parent:
+    - Label: Rare genetic corneal disorder
+      ORPHAcode: '522556'
+  - Parent:
+    - Label: Rare hyperopia and astigmatism
+      ORPHAcode: '98621'
+  - Parent:
+    - Label: Genetic developmental defect of the eye
+      ORPHAcode: '183557'
+  - Parent:
+    - Label: Rare corneal disorder
+      ORPHAcode: '519282'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare developmental defect of the eye characterized by usually bilateral
       absence of the normal protrusion of the cornea from the sclera the corneal curvature
       being the same as that of the adjacent sclera. Most patients develop hyperopia
@@ -29,34 +51,12 @@ Orphapacket:
       as an autosomal dominant or an autosomal recessive form with the latter showing
       more severe signs and symptoms (such as a round and opaque thickening located
       centrally in the cornea) and more frequent association with other ocular anomalies.
-  Genes:
-  - Gene:
-      Symbol: KERA
-      Name: keratocan
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98553'
-      Label: Developmental defect of the eye
-  - Parent:
-    - ORPHAcode: '522556'
-      Label: Rare genetic corneal disorder
-  - Parent:
-    - ORPHAcode: '98621'
-      Label: Rare hyperopia and astigmatism
-  - Parent:
-    - ORPHAcode: '183557'
-      Label: Genetic developmental defect of the eye
-  - Parent:
-    - ORPHAcode: '519282'
-      Label: Rare corneal disorder
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,54 +1,62 @@
 Orphapacket:
-  ORPHApacketId: '98356'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98356'
-  Label: Autosomal recessive isolated diffuse palmoplantar keratoderma
-  PURL: http://www.orpha.net/ORDO/Orphanet_98356
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Autosomal recessive isolated diffuse palmoplantar hyperkeratosis
-  Parents:
-  - Parent:
-    - ORPHAcode: '307148'
-      Label: Isolated diffuse palmoplantar keratoderma
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '18746'
+            Source: HGNC
+          - Reference: '606119'
+            Source: OMIM
+          Label: secreted LY6/PLAUR domain containing 1
+          Symbol: SLURP1
+      - Gene:
+          ExternalReferences:
+          - Reference: '617471'
+            Source: OMIM
+          - Reference: '18359'
+            Source: HGNC
+          Label: serpin family A member 12
+          Symbol: SERPINA12
       Label: Hereditary palmoplantar keratoderma, Gamborg-Nielsen type
       ORPHAcode: '86923'
+  - Child:
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '18746'
+            Source: HGNC
+          - Reference: '606119'
+            Source: OMIM
           Label: secreted LY6/PLAUR domain containing 1
           Symbol: SLURP1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18746'
-          - Source: OMIM
-            Reference: '606119'
-  - Child:
       Label: Mal de Meleda
       ORPHAcode: '87503'
-      Genes:
-      - Gene:
-          Label: secreted LY6/PLAUR domain containing 1
-          Symbol: SLURP1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18746'
-          - Source: OMIM
-            Reference: '606119'
   - Child:
-      Label: Palmoplantar keratoderma, Nagashima type
-      ORPHAcode: '140966'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '13902'
+            Source: HGNC
+          - Reference: '603357'
+            Source: OMIM
           Label: serpin family B member 7
           Symbol: SERPINB7
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '13902'
-          - Source: OMIM
-            Reference: '603357'
+      Label: Palmoplantar keratoderma, Nagashima type
+      ORPHAcode: '140966'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Autosomal recessive isolated diffuse palmoplantar keratoderma
+  ORPHAcode: '98356'
+  ORPHApacketId: '98356'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98356
+  Parents:
+  - Parent:
+    - Label: Isolated diffuse palmoplantar keratoderma
+      ORPHAcode: '307148'
+  Synonyms:
+  - Synonym: Autosomal recessive isolated diffuse palmoplantar hyperkeratosis
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

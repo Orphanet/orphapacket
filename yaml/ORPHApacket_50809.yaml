@@ -1,78 +1,78 @@
 Orphapacket:
-  ORPHApacketId: '50809'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '50809'
-  Label: Talo-patello-scaphoid osteolysis
-  PURL: http://www.orpha.net/ORDO/Orphanet_50809
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '609655'
+    Source: OMIM
+  Label: Talo-patello-scaphoid osteolysis
+  ORPHAcode: '50809'
+  ORPHApacketId: '50809'
+  PURL: http://www.orpha.net/ORDO/Orphanet_50809
+  Parents:
+  - Parent:
+    - Label: Primary osteolysis
+      ORPHAcode: '93449'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003037
+      HPOTerm: Enlarged joints
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006202
+      HPOTerm: Osteolysis of scaphoids
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006378
+      HPOTerm: Osteolysis of patellae
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008095
+      HPOTerm: Osteolysis of talus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010044
+      HPOTerm: Short 4th metacarpal
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100769
+      HPOTerm: Synovitis
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 12910489[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_12910489[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Singh-Williams-McAlister syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '609655'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Talo-patello-scaphoid osteolysis is an extremely rare form of primary
       osteolysis (see this term) described in two sisters to date characterized by
       bilateral osteolysis of the tali scaphoids and patellae (accompanied by periarticular
       swelling and pain) and short fourth metacarpals (brachydactyly type E; see this
       term) in the absence of renal disease. Autosomal recessive inheritance has been
       suggested.
-  Parents:
-  - Parent:
-    - ORPHAcode: '93449'
-      Label: Primary osteolysis
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0003037
-      HPOTerm: Enlarged joints
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006202
-      HPOTerm: Osteolysis of scaphoids
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006378
-      HPOTerm: Osteolysis of patellae
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008095
-      HPOTerm: Osteolysis of talus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0010044
-      HPOTerm: Short 4th metacarpal
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100769
-      HPOTerm: Synovitis
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 12910489[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_12910489[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

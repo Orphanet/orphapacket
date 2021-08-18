@@ -1,67 +1,67 @@
 Orphapacket:
-  ORPHApacketId: '519337'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '519337'
-  Label: Disorder with optic nerve compression
-  PURL: http://www.orpha.net/ORDO/Orphanet_519337
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '522512'
-      Label: Rare genetic optic nerve disorder
-  - Parent:
-    - ORPHAcode: '519351'
-      Label: Rare optic nerve disorder
   Childs:
   - Child:
-      Label: Autosomal recessive malignant osteopetrosis
-      ORPHAcode: '667'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '602727'
+            Source: OMIM
+          - Reference: '2025'
+            Source: HGNC
           Label: chloride voltage-gated channel 7
           Symbol: CLCN7
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '602727'
-          - Source: HGNC
-            Reference: '2025'
       - Gene:
+          ExternalReferences:
+          - Reference: '11647'
+            Source: HGNC
+          - Reference: '604592'
+            Source: OMIM
           Label: T cell immune regulator 1, ATPase H+ transporting V0 subunit a3
           Symbol: TCIRG1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11647'
-          - Source: OMIM
-            Reference: '604592'
       - Gene:
+          ExternalReferences:
+          - Reference: '11926'
+            Source: HGNC
+          - Reference: '602642'
+            Source: OMIM
           Label: TNF superfamily member 11
           Symbol: TNFSF11
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11926'
-          - Source: OMIM
-            Reference: '602642'
       - Gene:
+          ExternalReferences:
+          - Reference: '14974'
+            Source: HGNC
+          - Reference: '614780'
+            Source: OMIM
           Label: sorting nexin 10
           Symbol: SNX10
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '14974'
-          - Source: OMIM
-            Reference: '614780'
+      Label: Autosomal recessive malignant osteopetrosis
+      ORPHAcode: '667'
   - Child:
-      Label: Albers-Schönberg osteopetrosis
-      ORPHAcode: '53'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '602727'
+            Source: OMIM
+          - Reference: '2025'
+            Source: HGNC
           Label: chloride voltage-gated channel 7
           Symbol: CLCN7
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '602727'
-          - Source: HGNC
-            Reference: '2025'
+      Label: "Albers-Sch\xF6nberg osteopetrosis"
+      ORPHAcode: '53'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Disorder with optic nerve compression
+  ORPHAcode: '519337'
+  ORPHApacketId: '519337'
+  PURL: http://www.orpha.net/ORDO/Orphanet_519337
+  Parents:
+  - Parent:
+    - Label: Rare genetic optic nerve disorder
+      ORPHAcode: '522512'
+  - Parent:
+    - Label: Rare optic nerve disorder
+      ORPHAcode: '519351'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

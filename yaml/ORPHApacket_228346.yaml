@@ -1,33 +1,33 @@
 Orphapacket:
-  ORPHApacketId: '228346'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '228346'
-  Label: CLN3 disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_228346
-  DisorderType:
-    value: Etiological subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377795
-  Synonyms:
-  - Synonym: Classic juvenile NCL
-  - Synonym: Classic juvenile neuronal ceroid lipofuscinosis
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '204200'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: CLN3
-      Name: CLN3 lysosomal/endosomal transmembrane protein, battenin
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79264'
-      Label: Juvenile neuronal ceroid lipofuscinosis
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Childhood
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377795
+    value: Etiological subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '204200'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: CLN3 lysosomal/endosomal transmembrane protein, battenin
+      Symbol: CLN3
+  Label: CLN3 disease
+  ORPHAcode: '228346'
+  ORPHApacketId: '228346'
+  PURL: http://www.orpha.net/ORDO/Orphanet_228346
+  Parents:
+  - Parent:
+    - Label: Juvenile neuronal ceroid lipofuscinosis
+      ORPHAcode: '79264'
+  Synonyms:
+  - Synonym: Classic juvenile NCL
+  - Synonym: Classic juvenile neuronal ceroid lipofuscinosis
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

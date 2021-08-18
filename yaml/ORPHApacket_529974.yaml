@@ -1,87 +1,88 @@
 Orphapacket:
-  ORPHApacketId: '529974'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '529974'
-  Label: Immune dysregulation with inflammatory bowel disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_529974
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '169361'
-      Label: Immune dysregulation disease with immunodeficiency
-  - Parent:
-    - ORPHAcode: '165655'
-      Label: Genetic intestinal disease
-  - Parent:
-    - ORPHAcode: '104012'
-      Label: Rare inflammatory bowel disease
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '5962'
+            Source: HGNC
+          - Reference: '124092'
+            Source: OMIM
+          Label: interleukin 10
+          Symbol: IL10
+      - Gene:
+          ExternalReferences:
+          - Reference: '5964'
+            Source: HGNC
+          - Reference: '146933'
+            Source: OMIM
+          Label: interleukin 10 receptor subunit alpha
+          Symbol: IL10RA
+      - Gene:
+          ExternalReferences:
+          - Reference: '5965'
+            Source: HGNC
+          - Reference: '123889'
+            Source: OMIM
+          Label: interleukin 10 receptor subunit beta
+          Symbol: IL10RB
       Label: Immune dysregulation-inflammatory bowel disease-arthritis-recurrent infections
         syndrome
       ORPHAcode: '238569'
+  - Child:
       Genes:
       - Gene:
-          Label: interleukin 10
-          Symbol: IL10
           ExternalReferences:
-          - Source: HGNC
-            Reference: '5962'
-          - Source: OMIM
-            Reference: '124092'
-      - Gene:
-          Label: interleukin 10 receptor subunit alpha
-          Symbol: IL10RA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5964'
-          - Source: OMIM
-            Reference: '146933'
-      - Gene:
-          Label: interleukin 10 receptor subunit beta
-          Symbol: IL10RB
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5965'
-          - Source: OMIM
-            Reference: '123889'
-  - Child:
+          - Reference: '10019'
+            Source: HGNC
+          - Reference: '603453'
+            Source: OMIM
+          Label: receptor interacting serine/threonine kinase 1
+          Symbol: RIPK1
       Label: Immune dysregulation-inflammatory bowel disease-arthritis-recurrent infections-lymphopenia
         syndrome
       ORPHAcode: '529977'
-      Genes:
-      - Gene:
-          Label: receptor interacting serine/threonine kinase 1
-          Symbol: RIPK1
-          ExternalReferences:
-          - ExternalReference:
-              Source: HGNC
-              Reference: '10019'
   - Child:
-      Label: Inflammatory bowel disease-recurrent sinopulmonary infections syndrome
-      ORPHAcode: '529980'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '7774'
+            Source: HGNC
+          - Reference: '604708'
+            Source: OMIM
           Label: nuclear factor of activated T cells 5
           Symbol: NFAT5
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7774'
-          - Source: OMIM
-            Reference: '604708'
+      Label: Inflammatory bowel disease-recurrent sinopulmonary infections syndrome
+      ORPHAcode: '529980'
   - Child:
-      Label: Infantile inflammatory bowel disease with neurological involvement
-      ORPHAcode: '565788'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11766'
+            Source: HGNC
+          - Reference: '190180'
+            Source: OMIM
           Label: transforming growth factor beta 1
           Symbol: TGFB1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11766'
-          - Source: OMIM
-            Reference: '190180'
+      Label: Infantile inflammatory bowel disease with neurological involvement
+      ORPHAcode: '565788'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Immune dysregulation with inflammatory bowel disease
+  ORPHAcode: '529974'
+  ORPHApacketId: '529974'
+  PURL: http://www.orpha.net/ORDO/Orphanet_529974
+  Parents:
+  - Parent:
+    - Label: Immune dysregulation disease with immunodeficiency
+      ORPHAcode: '169361'
+  - Parent:
+    - Label: Genetic intestinal disease
+      ORPHAcode: '165655'
+  - Parent:
+    - Label: Rare inflammatory bowel disease
+      ORPHAcode: '104012'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

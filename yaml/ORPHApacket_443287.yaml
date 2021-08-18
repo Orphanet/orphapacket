@@ -1,29 +1,29 @@
 Orphapacket:
-  ORPHApacketId: '443287'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '443287'
-  Label: ACTH-independent Cushing syndrome due to rare cortisol-producing adrenal
-    tumor
-  PURL: http://www.orpha.net/ORDO/Orphanet_443287
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '99893'
-      Label: ACTH-independent Cushing syndrome
   Childs:
   - Child:
-      Label: Adrenocortical carcinoma
-      ORPHAcode: '1501'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11998'
+            Source: HGNC
+          - Reference: '191170'
+            Source: OMIM
           Label: tumor protein p53
           Symbol: TP53
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11998'
-          - Source: OMIM
-            Reference: '191170'
+      Label: Adrenocortical carcinoma
+      ORPHAcode: '1501'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: ACTH-independent Cushing syndrome due to rare cortisol-producing adrenal
+    tumor
+  ORPHAcode: '443287'
+  ORPHApacketId: '443287'
+  PURL: http://www.orpha.net/ORDO/Orphanet_443287
+  Parents:
+  - Parent:
+    - Label: ACTH-independent Cushing syndrome
+      ORPHAcode: '99893'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

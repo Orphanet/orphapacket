@@ -1,67 +1,67 @@
 Orphapacket:
-  ORPHApacketId: '217638'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '217638'
-  Label: Lysosomal disease with restrictive cardiomyopathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_217638
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '217635'
-      Label: Familial restrictive cardiomyopathy
-  - Parent:
-    - ORPHAcode: '506225'
-      Label: Rare disorder potentially indicated for heart transplant
   Childs:
   - Child:
+      Genes: no data
       Label: Glycogen storage disease due to acid maltase deficiency
       ORPHAcode: '365'
-      Genes: no data
   - Child:
-      Label: Fabry disease
-      ORPHAcode: '324'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4296'
+            Source: HGNC
+          - Reference: '300644'
+            Source: OMIM
           Label: galactosidase alpha
           Symbol: GLA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4296'
-          - Source: OMIM
-            Reference: '300644'
+      Label: Fabry disease
+      ORPHAcode: '324'
   - Child:
-      Label: Gaucher disease type 1
-      ORPHAcode: '77259'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4177'
+            Source: HGNC
+          - Reference: '606463'
+            Source: OMIM
           Label: glucosylceramidase beta
           Symbol: GBA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4177'
-          - Source: OMIM
-            Reference: '606463'
       - Gene:
+          ExternalReferences:
+          - Reference: '1665'
+            Source: HGNC
+          - Reference: '602257'
+            Source: OMIM
           Label: scavenger receptor class B member 2
           Symbol: SCARB2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1665'
-          - Source: OMIM
-            Reference: '602257'
+      Label: Gaucher disease type 1
+      ORPHAcode: '77259'
   - Child:
-      Label: Hurler syndrome
-      ORPHAcode: '93473'
       Genes:
       - Gene:
-          Label: iduronidase alpha-L-
-          Symbol: IDUA
           ExternalReferences:
-          - Source: HGNC
-            Reference: '5391'
-          - Source: OMIM
-            Reference: '252800'
+          - Reference: '5391'
+            Source: HGNC
+          - Reference: '252800'
+            Source: OMIM
+          Label: alpha-L-iduronidase
+          Symbol: IDUA
+      Label: Hurler syndrome
+      ORPHAcode: '93473'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Lysosomal disease with restrictive cardiomyopathy
+  ORPHAcode: '217638'
+  ORPHApacketId: '217638'
+  PURL: http://www.orpha.net/ORDO/Orphanet_217638
+  Parents:
+  - Parent:
+    - Label: Familial restrictive cardiomyopathy
+      ORPHAcode: '217635'
+  - Parent:
+    - Label: Rare disorder potentially indicated for heart transplant
+      ORPHAcode: '506225'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

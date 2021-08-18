@@ -1,32 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '206710'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '206710'
-  Label: Generalized bulbospinal muscular atrophy
-  PURL: http://www.orpha.net/ORDO/Orphanet_206710
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '206701'
-      Label: Bulbospinal muscular atrophy
   Childs:
   - Child:
+      Genes: no data
       Label: Spinal atrophy-ophthalmoplegia-pyramidal syndrome
       ORPHAcode: '1217'
-      Genes: no data
   - Child:
-      Label: Autosomal recessive lower motor neuron disease with childhood onset
-      ORPHAcode: '206580'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '29105'
+            Source: HGNC
+          - Reference: '611101'
+            Source: OMIM
           Label: pleckstrin homology and RhoGEF domain containing G5
           Symbol: PLEKHG5
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '29105'
-          - Source: OMIM
-            Reference: '611101'
+      Label: Autosomal recessive lower motor neuron disease with childhood onset
+      ORPHAcode: '206580'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Generalized bulbospinal muscular atrophy
+  ORPHAcode: '206710'
+  ORPHApacketId: '206710'
+  PURL: http://www.orpha.net/ORDO/Orphanet_206710
+  Parents:
+  - Parent:
+    - Label: Bulbospinal muscular atrophy
+      ORPHAcode: '206701'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

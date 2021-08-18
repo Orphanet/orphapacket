@@ -1,54 +1,50 @@
 Orphapacket:
-  ORPHApacketId: '2373'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2373'
-  Label: Congenital laryngomalacia
-  PURL: http://www.orpha.net/ORDO/Orphanet_2373
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '150280'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare larynx anomaly characterized by an inward collapse of supraglottic
-      airway during inspiration which manifests with an inspiratory stridor and might
-      be associated with feeding difficulties swallowing dysfunction failure to thrive
-      and respiratory distress.
-  Parents:
-  - Parent:
-    - ORPHAcode: '138084'
-      Label: Sucking/swallowing disorder associated to cervicofacial or esophageal
-        malformation
-  - Parent:
-    - ORPHAcode: '156249'
-      Label: Larynx anomaly
-  - Parent:
-    - ORPHAcode: '435609'
-      Label: Genetic larynx anomaly
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000175
-      HPOTerm: Cleft palate
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001601
-      HPOTerm: Laryngomalacia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001608
-      HPOTerm: Abnormality of the voice
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100335
-      HPOTerm: Non-midline cleft lip
-      HPOFrequency: Frequent (79-30%)
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '150280'
+    Source: OMIM
+  Label: Congenital laryngomalacia
+  ORPHAcode: '2373'
+  ORPHApacketId: '2373'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2373
+  Parents:
+  - Parent:
+    - Label: Larynx anomaly
+      ORPHAcode: '156249'
+  - Parent:
+    - Label: Genetic larynx anomaly
+      ORPHAcode: '435609'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000175
+      HPOTerm: Cleft palate
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001601
+      HPOTerm: Laryngomalacia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001608
+      HPOTerm: Abnormality of the voice
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100335
+      HPOTerm: Non-midline cleft lip
+  TextSection:
+    Contents: A rare larynx anomaly characterized by an inward collapse of supraglottic
+      airway during inspiration which manifests with an inspiratory stridor and might
+      be associated with feeding difficulties swallowing dysfunction failure to thrive
+      and respiratory distress.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

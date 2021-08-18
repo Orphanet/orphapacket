@@ -1,18 +1,82 @@
 Orphapacket:
-  ORPHApacketId: '90283'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '90283'
-  Label: Lupus erythematosus tumidus
-  PURL: http://www.orpha.net/ORDO/Orphanet_90283
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Lupus erythematosus tumidus
+  ORPHAcode: '90283'
+  ORPHApacketId: '90283'
+  PURL: http://www.orpha.net/ORDO/Orphanet_90283
+  Parents:
+  - Parent:
+    - Label: Chronic cutaneous lupus erythematosus
+      ORPHAcode: '163531'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000992
+      HPOTerm: Cutaneous photosensitivity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0025474
+      HPOTerm: Erythematous plaque
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0031191
+      HPOTerm: Deep dermal perivascular inflammatory infiltrate
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003493
+      HPOTerm: Antinuclear antibody positivity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025528
+      HPOTerm: Annular cutaneous lesion
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030057
+      HPOTerm: Autoimmune antibody positivity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030351
+      HPOTerm: Urticarial plaque
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0032235
+      HPOTerm: Anti-La/SSA antibody positivity
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0020151
+      HPOTerm: Anti-DNA antibody positivity
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0007483
+      HPOTerm: Depigmentation/hyperpigmentation of skin
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0040189
+      HPOTerm: Scaling skin
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0100699
+      HPOTerm: Scarring
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 21798482[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_21798482[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Intermittent cutaneous lupus
   TextSection:
-    TextSectionType: Definition
     Contents: A rare form of chronic cutaneous lupus erythematosus characterized by
       extreme photosensitivity with intermittent formation of erythematous edematous
       urticarial-like smooth plaques on sun-exposed skin areas. The lesions heal without
@@ -21,22 +85,7 @@ Orphapacket:
       Skin biopsy shows a perivascular and periadnexal lymphocytic infiltrate and
       increased dermal mucin deposition without involvement of the dermoepidermal
       junction.
-  Parents:
-  - Parent:
-    - ORPHAcode: '163531'
-      Label: Chronic cutaneous lupus erythematosus
-  Prevalences:
-  - Prevalence:
-      Source: 21798482[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_21798482[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,40 +1,40 @@
 Orphapacket:
-  ORPHApacketId: '309830'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '309830'
-  Label: Disorder of catecholamine synthesis
-  PURL: http://www.orpha.net/ORDO/Orphanet_309830
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '79169'
-      Label: Disorder of neurotransmitter metabolism and transport
   Childs:
   - Child:
-      Label: Dopamine beta-hydroxylase deficiency
-      ORPHAcode: '230'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2689'
+            Source: HGNC
+          - Reference: '609312'
+            Source: OMIM
           Label: dopamine beta-hydroxylase
           Symbol: DBH
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2689'
-          - Source: OMIM
-            Reference: '609312'
+      Label: Dopamine beta-hydroxylase deficiency
+      ORPHAcode: '230'
   - Child:
-      Label: Aromatic L-amino acid decarboxylase deficiency
-      ORPHAcode: '35708'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2719'
+            Source: HGNC
+          - Reference: '107930'
+            Source: OMIM
           Label: dopa decarboxylase
           Symbol: DDC
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2719'
-          - Source: OMIM
-            Reference: '107930'
+      Label: Aromatic L-amino acid decarboxylase deficiency
+      ORPHAcode: '35708'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Disorder of catecholamine synthesis
+  ORPHAcode: '309830'
+  ORPHApacketId: '309830'
+  PURL: http://www.orpha.net/ORDO/Orphanet_309830
+  Parents:
+  - Parent:
+    - Label: Disorder of neurotransmitter metabolism and transport
+      ORPHAcode: '79169'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

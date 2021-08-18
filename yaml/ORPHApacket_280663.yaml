@@ -1,52 +1,52 @@
 Orphapacket:
-  ORPHApacketId: '280663'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '280663'
-  Label: Hermansky-Pudlak syndrome type 9
-  PURL: http://www.orpha.net/ORDO/Orphanet_280663
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: HPS9
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614171'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: BLOC1S6
-      Name: biogenesis of lysosomal organelles complex 1 subunit 6
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79430'
-      Label: Hermansky-Pudlak syndrome
-  - Parent:
-    - ORPHAcode: '331249'
-      Label: Immunodeficiency syndrome with hypopigmentation
-  Prevalences:
-  - Prevalence:
-      Source: 21665000[PMID]_22461475[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '614171'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: biogenesis of lysosomal organelles complex 1 subunit 6
+      Symbol: BLOC1S6
+  Label: Hermansky-Pudlak syndrome type 9
+  ORPHAcode: '280663'
+  ORPHApacketId: '280663'
+  PURL: http://www.orpha.net/ORDO/Orphanet_280663
+  Parents:
+  - Parent:
+    - Label: Hermansky-Pudlak syndrome
+      ORPHAcode: '79430'
+  - Parent:
+    - Label: Immunodeficiency syndrome with hypopigmentation
+      ORPHAcode: '331249'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 21665000[PMID]_22461475[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: HPS9
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

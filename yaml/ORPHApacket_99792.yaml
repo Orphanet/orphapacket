@@ -1,50 +1,50 @@
 Orphapacket:
-  ORPHApacketId: '99792'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99792'
-  Label: Dentin dysplasia-sclerotic bones syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_99792
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Infancy
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '125440'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Dentin dysplasia-sclerotic bones syndrome
+  ORPHAcode: '99792'
+  ORPHApacketId: '99792'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99792
+  Parents:
+  - Parent:
+    - Label: Rare genetic odontologic disease
+      ORPHAcode: '77830'
+  - Parent:
+    - Label: Rare disease with odontological manifestation
+      ORPHAcode: '98027'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 264650[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_264650[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Dentin dysplasia-sclerotic bones syndrome is a rare genetic odontologic
       disease characterized by the clinical radiographic and histologic features of
       dentine dysplasia and osteosclerosis of all long bones with heavy cortical bone
       and narrowed or occluded marrow spaces. There have been no further descriptions
       in the literature since 1977.
-  Parents:
-  - Parent:
-    - ORPHAcode: '77830'
-      Label: Rare genetic odontologic disease
-  - Parent:
-    - ORPHAcode: '98027'
-      Label: Rare disease with odontological manifestation
-  Prevalences:
-  - Prevalence:
-      Source: 264650[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_264650[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,18 +1,45 @@
 Orphapacket:
-  ORPHApacketId: '244283'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '244283'
-  Label: Biliary atresia with splenic malformation syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_244283
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: cripto, FRL-1, cryptic family 1
+      Symbol: CFC1
+  Label: Biliary atresia with splenic malformation syndrome
+  ORPHAcode: '244283'
+  ORPHApacketId: '244283'
+  PURL: http://www.orpha.net/ORDO/Orphanet_244283
+  Parents:
+  - Parent:
+    - Label: Syndromic visceral malformation
+      ORPHAcode: '108973'
+  - Parent:
+    - Label: Disease associated with a genetic susceptibility or tested for a biomarker
+      ORPHAcode: '231957'
+  - Parent:
+    - Label: Rare disorder potentially indicated for liver transplant
+      ORPHAcode: '506210'
+  - Parent:
+    - Label: Syndromic biliary atresia
+      ORPHAcode: '498350'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: BASM syndrome
   TextSection:
-    TextSectionType: Definition
     Contents: Biliary atresia with splenic malformation syndrome (BASM) designates
       the association of biliary atresia (see this term) and splenic abnormalities
       (mainly polysplenia and less frequently asplenia double spleen). Cardiac defect
@@ -20,37 +47,10 @@ Orphapacket:
       the embryonal or syndromic form of biliary atresia. It affects newborns or infants
       and is characterized by jaundice pale stools dark urine failure to thrive hepatomegaly
       coagulopathy anemia and often palpable spleen.
-  Genes:
-  - Gene:
-      Symbol: CFC1
-      Name: cripto, FRL-1, cryptic family 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '108973'
-      Label: Syndromic visceral malformation
-  - Parent:
-    - ORPHAcode: '231957'
-      Label: Disease associated with a genetic susceptibility or tested for a biomarker
-  - Parent:
-    - ORPHAcode: '506210'
-      Label: Rare disorder potentially indicated for liver transplant
-  - Parent:
-    - ORPHAcode: '498350'
-      Label: Syndromic biliary atresia
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Multigenic/multifactorial
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

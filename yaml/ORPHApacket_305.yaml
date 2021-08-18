@@ -1,226 +1,302 @@
 Orphapacket:
-  ORPHApacketId: '305'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '305'
-  Label: Junctional epidermolysis bullosa
-  PURL: http://www.orpha.net/ORDO/Orphanet_305
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Synonyms:
-  - Synonym: EBJ
-  - Synonym: Epidermolysis bullosa atrophicans
-  - Synonym: JEB
-  TextSection:
-    TextSectionType: Definition
-    Contents: Junctional epidermolysis bullosa (JEB) is a form of inherited epidermolysis
-      bullosa (see this term) characterized by involvement of the skin and mucous
-      membranes and is defined by the formation of blistering lesions between the
-      epidermis and the dermis at the lamina lucida level of the cutaneous basement
-      membrane zone and by healing of lesions with atrophy and/or exuberant granulation
-      tissue formation.
-  Parents:
-  - Parent:
-    - ORPHAcode: '79361'
-      Label: Inherited epidermolysis bullosa
-  - Parent:
-    - ORPHAcode: '139027'
-      Label: Rare developmental defect with skin/mucosae involvement
-  - Parent:
-    - ORPHAcode: '98027'
-      Label: Rare disease with odontological manifestation
+  AverageAgeOfDeaths:
+  - AverageAgeOfDeath:
+      value: Adolescent
+  - AverageAgeOfDeath:
+      value: Antenatal
+  - AverageAgeOfDeath:
+      value: Infancy
+  - AverageAgeOfDeath:
+      value: Neonatal
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   Childs:
   - Child:
-      Label: LOC syndrome
-      ORPHAcode: '2407'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6483'
+            Source: HGNC
+          - Reference: '600805'
+            Source: OMIM
           Label: laminin subunit alpha 3
           Symbol: LAMA3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6483'
-          - Source: OMIM
-            Reference: '600805'
+      Label: Laryngo-onycho-cutaneous syndrome
+      ORPHAcode: '2407'
   - Child:
-      Label: Junctional epidermolysis bullosa-pyloric atresia syndrome
-      ORPHAcode: '79403'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6142'
+            Source: HGNC
+          - Reference: '147556'
+            Source: OMIM
           Label: integrin subunit alpha 6
           Symbol: ITGA6
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6142'
-          - Source: OMIM
-            Reference: '147556'
       - Gene:
+          ExternalReferences:
+          - Reference: '6158'
+            Source: HGNC
+          - Reference: '147557'
+            Source: OMIM
           Label: integrin subunit beta 4
           Symbol: ITGB4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6158'
-          - Source: OMIM
-            Reference: '147557'
+      Label: Junctional epidermolysis bullosa with pyloric atresia
+      ORPHAcode: '79403'
   - Child:
-      Label: Junctional epidermolysis bullosa, generalized severe
-      ORPHAcode: '79404'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6490'
+            Source: HGNC
+          - Reference: '150310'
+            Source: OMIM
           Label: laminin subunit beta 3
           Symbol: LAMB3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6490'
-          - Source: OMIM
-            Reference: '150310'
       - Gene:
+          ExternalReferences:
+          - Reference: '6493'
+            Source: HGNC
+          - Reference: '150292'
+            Source: OMIM
           Label: laminin subunit gamma 2
           Symbol: LAMC2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6493'
-          - Source: OMIM
-            Reference: '150292'
       - Gene:
+          ExternalReferences:
+          - Reference: '6483'
+            Source: HGNC
+          - Reference: '600805'
+            Source: OMIM
           Label: laminin subunit alpha 3
           Symbol: LAMA3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6483'
-          - Source: OMIM
-            Reference: '600805'
+      Label: Severe generalized junctional epidermolysis bullosa
+      ORPHAcode: '79404'
   - Child:
+      Genes: no data
       Label: Junctional epidermolysis bullosa inversa
       ORPHAcode: '79405'
-      Genes:
-      - Gene:
-          Label: laminin subunit gamma 2
-          Symbol: LAMC2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6493'
-          - Source: OMIM
-            Reference: '150292'
   - Child:
-      Label: Late-onset junctional epidermolysis bullosa
-      ORPHAcode: '79406'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2194'
+            Source: HGNC
+          - Reference: '113811'
+            Source: OMIM
           Label: collagen type XVII alpha 1 chain
           Symbol: COL17A1
+      Label: Late-onset junctional epidermolysis bullosa
+      ORPHAcode: '79406'
+  - Child:
+      Genes:
+      - Gene:
           ExternalReferences:
-          - Source: HGNC
-            Reference: '2194'
-          - Source: OMIM
-            Reference: '113811'
+          - Reference: '2194'
+            Source: HGNC
+          - Reference: '113811'
+            Source: OMIM
+          Label: collagen type XVII alpha 1 chain
+          Symbol: COL17A1
+      - Gene:
+          ExternalReferences:
+          - Reference: '6158'
+            Source: HGNC
+          - Reference: '147557'
+            Source: OMIM
+          Label: integrin subunit beta 4
+          Symbol: ITGB4
+      Label: Localized junctional epidermolysis bullosa
+      ORPHAcode: '251393'
   - Child:
-      Label: Junctional epidermolysis bullosa, non-Herlitz type
-      ORPHAcode: '89840'
       Genes: no data
-  - Child:
       Label: Late-onset localized junctional epidermolysis bullosa-intellectual disability
         syndrome
       ORPHAcode: '231556'
-      Genes: no data
   - Child:
-      Label: Junctional epidermolysis bullosa with respiratory and renal involvement
-      ORPHAcode: '306504'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2194'
+            Source: HGNC
+          - Reference: '113811'
+            Source: OMIM
+          Label: collagen type XVII alpha 1 chain
+          Symbol: COL17A1
+      - Gene:
+          ExternalReferences:
+          - Reference: '6158'
+            Source: HGNC
+          - Reference: '147557'
+            Source: OMIM
+          Label: integrin subunit beta 4
+          Symbol: ITGB4
+      - Gene:
+          ExternalReferences:
+          - Reference: '6483'
+            Source: HGNC
+          - Reference: '600805'
+            Source: OMIM
+          Label: laminin subunit alpha 3
+          Symbol: LAMA3
+      - Gene:
+          ExternalReferences:
+          - Reference: '6490'
+            Source: HGNC
+          - Reference: '150310'
+            Source: OMIM
+          Label: laminin subunit beta 3
+          Symbol: LAMB3
+      - Gene:
+          ExternalReferences:
+          - Reference: '6493'
+            Source: HGNC
+          - Reference: '150292'
+            Source: OMIM
+          Label: laminin subunit gamma 2
+          Symbol: LAMC2
+      Label: Intermediate generalized junctional epidermolysis bullosa
+      ORPHAcode: '79402'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '6139'
+            Source: HGNC
+          - Reference: '605025'
+            Source: OMIM
           Label: integrin subunit alpha 3
           Symbol: ITGA3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6139'
-          - Source: OMIM
-            Reference: '605025'
+      Label: Interstitial lung disease-nephrotic syndrome-epidermolysis bullosa syndrome
+      ORPHAcode: '306504'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Junctional epidermolysis bullosa
+  ORPHAcode: '305'
+  ORPHApacketId: '305'
+  PURL: http://www.orpha.net/ORDO/Orphanet_305
+  Parents:
+  - Parent:
+    - Label: Inherited epidermolysis bullosa
+      ORPHAcode: '79361'
+  - Parent:
+    - Label: Rare developmental defect with skin/mucosae involvement
+      ORPHAcode: '139027'
+  - Parent:
+    - Label: Rare disease with odontological manifestation
+      ORPHAcode: '98027'
   Prevalences:
   - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
       PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
       PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
       PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
       ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
       PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: ISBN:443048517[OTHER]
+      PrevalenceQualification: Class only
       PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
+      Source: ORPHANET
       ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
       PrevalenceGeographic: Sweden
-  - Prevalence:
-      Source: 1419751[PMID]
-      PrevalenceType: Point prevalence
       PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
+      PrevalenceType: Point prevalence
+      Source: ISBN:443048517[OTHER]
       ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
       PrevalenceGeographic: Ireland
-  - Prevalence:
-      Source: 6203284[PMID]
-      PrevalenceType: Point prevalence
       PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
+      PrevalenceType: Point prevalence
+      Source: 1419751[PMID]
       ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
       PrevalenceGeographic: Finland
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Prevalence at birth
       PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceType: Point prevalence
+      Source: 6203284[PMID]
       ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
       PrevalenceGeographic: Italy
-  - Prevalence:
-      Source: 20566927[PMID]
-      PrevalenceType: Point prevalence
       PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Australia
-  - Prevalence:
-      Source: 2601109[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Japan
-  - Prevalence:
-      Source: ISBN:801860245[OTHER]
       PrevalenceType: Prevalence at birth
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Australia
       PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 20566927[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Japan
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 2601109[PMID]
+      ValMoy: no data
+  - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
       PrevalenceGeographic: United States
-  - Prevalence:
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
       Source: ISBN:801860245[OTHER]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
       ValMoy: no data
-      PrevalenceGeographic: United States
   - Prevalence:
-      Source: ISBN:951563203[OTHER]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
       PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: ISBN:801860245[OTHER]
       ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
       PrevalenceGeographic: South Africa
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: early childhood
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: ISBN:951563203[OTHER]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Netherlands
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 'PMID: 33095945'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Netherlands
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 'PMID: 33095945'
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Epidermolysis bullosa atrophicans
+  - Synonym: JEB
+  TextSection:
+    Contents: A group of inherited epidermolysis bullosa characterized by involvement
+      of the skin and mucous membranes and is defined by the formation of blistering
+      lesions between the epidermis and the dermis at the lamina lucida level of the
+      cutaneous basement membrane zone and by healing of lesions with atrophy and/or
+      exuberant granulation tissue formation.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

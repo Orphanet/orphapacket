@@ -1,67 +1,201 @@
 Orphapacket:
-  ORPHApacketId: '47159'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '47159'
-  Label: Proximal renal tubular acidosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_47159
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Renal tubular acidosis type 2
-  - Synonym: pRTA
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '179830'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '604278'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Proximal renal tubular acidosis (pRTA) is a tubular kidney disease characterized
-      by impaired ability of the proximal tubule to reabsorb bicarbonate from the
-      glomerular filtrate leading to hyperchloremic metabolic acidosis.
-  Parents:
-  - Parent:
-    - ORPHAcode: '314822'
-      Label: Primary renal tubular acidosis
-  Childs:
-  - Child:
-      Label: Autosomal recessive proximal renal tubular acidosis
-      ORPHAcode: '93607'
-      Genes:
-      - Gene:
-          Label: solute carrier family 4 member 4
-          Symbol: SLC4A4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11030'
-          - Source: OMIM
-            Reference: '603345'
-  - Child:
-      Label: Autosomal dominant proximal renal tubular acidosis
-      ORPHAcode: '314889'
-      Genes: no data
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11030'
+            Source: HGNC
+          - Reference: '603345'
+            Source: OMIM
+          Label: solute carrier family 4 member 4
+          Symbol: SLC4A4
+      Label: Autosomal recessive proximal renal tubular acidosis
+      ORPHAcode: '93607'
+  - Child:
+      Genes: no data
+      Label: Autosomal dominant proximal renal tubular acidosis
+      ORPHAcode: '314889'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '179830'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '604278'
+      Source: OMIM
+  Label: Proximal renal tubular acidosis
+  ORPHAcode: '47159'
+  ORPHApacketId: '47159'
+  PURL: http://www.orpha.net/ORDO/Orphanet_47159
+  Parents:
+  - Parent:
+    - Label: Primary renal tubular acidosis
+      ORPHAcode: '314822'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004910
+      HPOTerm: Bicarbonate-wasting renal tubular acidosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004918
+      HPOTerm: Hyperchloremic metabolic acidosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001510
+      HPOTerm: Growth delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002013
+      HPOTerm: Vomiting
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002900
+      HPOTerm: Hypokalemia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003646
+      HPOTerm: Bicarbonaturia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000478
+      HPOTerm: Abnormality of the eye
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000501
+      HPOTerm: Glaucoma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000518
+      HPOTerm: Cataract
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000585
+      HPOTerm: Band keratopathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000787
+      HPOTerm: Nephrolithiasis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000924
+      HPOTerm: Abnormality of the skeletal system
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001530
+      HPOTerm: Mild postnatal growth retardation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001944
+      HPOTerm: Dehydration
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001959
+      HPOTerm: Polydipsia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002014
+      HPOTerm: Diarrhea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002024
+      HPOTerm: Malabsorption
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002150
+      HPOTerm: Hypercalciuria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003076
+      HPOTerm: Glycosuria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003109
+      HPOTerm: Hyperphosphaturia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003126
+      HPOTerm: Low-molecular-weight proteinuria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003149
+      HPOTerm: Hyperuricosuria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003355
+      HPOTerm: Aminoaciduria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004349
+      HPOTerm: Reduced bone mineral density
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006285
+      HPOTerm: Hypomineralization of enamel
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011106
+      HPOTerm: Hypovolemia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012573
+      HPOTerm: Global proximal tubulopathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012605
+      HPOTerm: Hypernatriuria
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000121
+      HPOTerm: Nephrocalcinosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000589
+      HPOTerm: Coloboma
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001682
+      HPOTerm: Subvalvular aortic stenosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: Renal tubular acidosis type 2
+  - Synonym: pRTA
+  TextSection:
+    Contents: Proximal renal tubular acidosis (pRTA) is a tubular kidney disease characterized
+      by impaired ability of the proximal tubule to reabsorb bicarbonate from the
+      glomerular filtrate leading to hyperchloremic metabolic acidosis.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
@@ -69,3 +203,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,26 +1,58 @@
 Orphapacket:
-  ORPHApacketId: '436166'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '436166'
-  Label: Periodic fever-infantile enterocolitis-autoinflammatory syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_436166
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: infantile
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '616050'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: NLR family CARD domain containing 4
+      Symbol: NLRC4
+  Label: Periodic fever-infantile enterocolitis-autoinflammatory syndrome
+  ORPHAcode: '436166'
+  ORPHApacketId: '436166'
+  PURL: http://www.orpha.net/ORDO/Orphanet_436166
+  Parents:
+  - Parent:
+    - Label: Rare intestinal disease
+      ORPHAcode: '117569'
+  - Parent:
+    - Label: Hereditary periodic fever syndrome
+      ORPHAcode: '324924'
+  - Parent:
+    - Label: Autoinflammatory syndrome with skin involvement
+      ORPHAcode: '290842'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 25217959[PMID]_25217960[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_25217959[PMID]_25217960[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: NLRC4-related MAS
   - Synonym: NLRC4-related autoinflammatory syndrome with MAS
   - Synonym: NLRC4-related autoinflammatory syndrome with macrophage activation syndrome
   - Synonym: NLRC4-related infantile enterocolitis-autoinflammatory syndrome
   - Synonym: NLRC4-related macrophage activation syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '616050'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic systemic or rheumatologic disease characterized by neonatal
       or infantile onset of enterocolitis (which resolves with age) periodic fever
       and episodes of severe systemic inflammation which may be precipitated by infections
@@ -28,42 +60,10 @@ Orphapacket:
       arthralgia and myalgia. Associated laboratory findings are elevated inflammatory
       markers (such as ferritin C-reactive protein) pancytopenia and elevated transaminases.
       If left untreated flares can progress to coagulopathy organ failure and death.
-  Genes:
-  - Gene:
-      Symbol: NLRC4
-      Name: NLR family CARD domain containing 4
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '117569'
-      Label: Rare intestinal disease
-  - Parent:
-    - ORPHAcode: '324924'
-      Label: Hereditary periodic fever syndrome
-  - Parent:
-    - ORPHAcode: '290842'
-      Label: Autoinflammatory syndrome with skin involvement
-  Prevalences:
-  - Prevalence:
-      Source: 25217959[PMID]_25217960[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_25217959[PMID]_25217960[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: infantile
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

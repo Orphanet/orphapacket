@@ -1,96 +1,96 @@
 Orphapacket:
-  ORPHApacketId: '225707'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '225707'
-  Label: Metabolic neurotransmission anomaly with epilepsy
-  PURL: http://www.orpha.net/ORDO/Orphanet_225707
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '166481'
-      Label: Metabolic diseases with epilepsy
   Childs:
   - Child:
-      Label: Succinic semialdehyde dehydrogenase deficiency
-      ORPHAcode: '22'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '408'
+            Source: HGNC
+          - Reference: '610045'
+            Source: OMIM
           Label: aldehyde dehydrogenase 5 family member A1
           Symbol: ALDH5A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '408'
-          - Source: OMIM
-            Reference: '610045'
+      Label: Succinic semialdehyde dehydrogenase deficiency
+      ORPHAcode: '22'
   - Child:
-      Label: Pyridoxine-dependent epilepsy
-      ORPHAcode: '3006'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '877'
+            Source: HGNC
+          - Reference: '107323'
+            Source: OMIM
           Label: aldehyde dehydrogenase 7 family member A1
           Symbol: ALDH7A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '877'
-          - Source: OMIM
-            Reference: '107323'
       - Gene:
+          ExternalReferences:
+          - Reference: '23089'
+            Source: HGNC
+          - Reference: '608305'
+            Source: OMIM
           Label: solute carrier family 13 member 5
           Symbol: SLC13A5
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '23089'
-          - Source: OMIM
-            Reference: '608305'
       - Gene:
+          ExternalReferences:
+          - Reference: '604436'
+            Source: OMIM
+          - Reference: '9457'
+            Source: HGNC
           Label: pyridoxal phosphate binding protein
           Symbol: PLPBP
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '604436'
-          - Source: HGNC
-            Reference: '9457'
+      Label: Pyridoxine-dependent epilepsy
+      ORPHAcode: '3006'
   - Child:
-      Label: Gamma-aminobutyric acid transaminase deficiency
-      ORPHAcode: '2066'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '23'
+            Source: HGNC
+          - Reference: '137150'
+            Source: OMIM
           Label: 4-aminobutyrate aminotransferase
           Symbol: ABAT
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '23'
-          - Source: OMIM
-            Reference: '137150'
+      Label: Gamma-aminobutyric acid transaminase deficiency
+      ORPHAcode: '2066'
   - Child:
-      Label: Beta-ureidopropionase deficiency
-      ORPHAcode: '65287'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '16297'
+            Source: HGNC
+          - Reference: '606673'
+            Source: OMIM
           Label: beta-ureidopropionase 1
           Symbol: UPB1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '16297'
-          - Source: OMIM
-            Reference: '606673'
+      Label: Beta-ureidopropionase deficiency
+      ORPHAcode: '65287'
   - Child:
-      Label: Pyridoxal phosphate-responsive seizures
-      ORPHAcode: '79096'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '30260'
+            Source: HGNC
+          - Reference: '603287'
+            Source: OMIM
           Label: pyridoxamine 5'-phosphate oxidase
           Symbol: PNPO
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '30260'
-          - Source: OMIM
-            Reference: '603287'
+      Label: Pyridoxal phosphate-responsive seizures
+      ORPHAcode: '79096'
   - Child:
+      Genes: no data
       Label: Metabolic disease involving other neurotransmitter deficiency
       ORPHAcode: '79219'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Metabolic neurotransmission anomaly with epilepsy
+  ORPHAcode: '225707'
+  ORPHApacketId: '225707'
+  PURL: http://www.orpha.net/ORDO/Orphanet_225707
+  Parents:
+  - Parent:
+    - Label: Metabolic diseases with epilepsy
+      ORPHAcode: '166481'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,97 +1,101 @@
 Orphapacket:
-  ORPHApacketId: '438274'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '438274'
-  Label: GCGR-related hyperglucagonemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_438274
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '619290'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: glucagon receptor
+      Symbol: GCGR
+  Label: GCGR-related hyperglucagonemia
+  ORPHAcode: '438274'
+  ORPHApacketId: '438274'
+  PURL: http://www.orpha.net/ORDO/Orphanet_438274
+  Parents:
+  - Parent:
+    - Label: Rare tumor of pancreas
+      ORPHAcode: '180824'
+  - Parent:
+    - Label: Rare abdominal surgical disease
+      ORPHAcode: '165711'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0030688
+      HPOTerm: Increased glucagon level
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001081
+      HPOTerm: Cholelithiasis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002027
+      HPOTerm: Abdominal pain
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002894
+      HPOTerm: Neoplasm of the pancreas
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012440
+      HPOTerm: Abnormal biliary tract morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030404
+      HPOTerm: Glucagonoma
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0000819
+      HPOTerm: Diabetes mellitus
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0002044
+      HPOTerm: Zollinger-Ellison syndrome
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0010280
+      HPOTerm: Stomatitis
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0031181
+      HPOTerm: Necrolytic migratory erythema
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 25914784[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_25914784[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Mahvash disease
   TextSection:
-    TextSectionType: Definition
     Contents: A rare tumor of pancreas caused by mutations in the <i>GCGR</i> gene
       characterized by pancreatic alpha cell hyperplasia pancreatic neuroendocrine
       tumors and markedly increased serum glucagon levels in the absence of a glucagonoma
       syndrome. Clinical manifestations may include abdominal pain pancreatitis fatigue
       diarrhea and diabetes mellitus.
-  Genes:
-  - Gene:
-      Symbol: GCGR
-      Name: glucagon receptor
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '180824'
-      Label: Rare tumor of pancreas
-  - Parent:
-    - ORPHAcode: '165711'
-      Label: Rare abdominal surgical disease
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0030688
-      HPOTerm: Increased glucagon level
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0001081
-      HPOTerm: Cholelithiasis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002027
-      HPOTerm: Abdominal pain
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002894
-      HPOTerm: Neoplasm of the pancreas
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012440
-      HPOTerm: Abnormal biliary tract morphology
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0030404
-      HPOTerm: Glucagonoma
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000819
-      HPOTerm: Diabetes mellitus
-      HPOFrequency: Excluded (0%)
-  - Phenotype:
-      HPOId: HP:0002044
-      HPOTerm: Zollinger-Ellison syndrome
-      HPOFrequency: Excluded (0%)
-  - Phenotype:
-      HPOId: HP:0010280
-      HPOTerm: Stomatitis
-      HPOFrequency: Excluded (0%)
-  - Phenotype:
-      HPOId: HP:0031181
-      HPOTerm: Necrolytic migratory erythema
-      HPOFrequency: Excluded (0%)
-  Prevalences:
-  - Prevalence:
-      Source: 25914784[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_25914784[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

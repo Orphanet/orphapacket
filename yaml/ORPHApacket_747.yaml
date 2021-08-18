@@ -1,167 +1,156 @@
 Orphapacket:
-  ORPHApacketId: '747'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '747'
-  Label: Autoimmune pulmonary alveolar proteinosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_747
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Autoimmune PAP
-  - Synonym: Idiopathic PAP
-  - Synonym: Idiopathic pulmonary alveolar proteinosis
-  - Synonym: aPAP
-  - Synonym: iPAP
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '610910'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Pulmonary alveolar proteinosis (PAP) is a rare lung disease characterized
-      by the accumulation of a lipoproteinaceous substance in the distal air spaces
-      which positively stains with periodic acid-Schiff (PAS).
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: major histocompatibility complex, class II, DR beta 1
+      Symbol: HLA-DRB1
+  Label: Autoimmune pulmonary alveolar proteinosis
+  ORPHAcode: '747'
+  ORPHApacketId: '747'
+  PURL: http://www.orpha.net/ORDO/Orphanet_747
   Parents:
   - Parent:
-    - ORPHAcode: '264740'
-      Label: Primary interstitial lung disease specific to adulthood
+    - Label: Primary interstitial lung disease specific to adulthood
+      ORPHAcode: '264740'
   Phenotypes:
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0006517
       HPOTerm: Alveolar proteinosis
-      HPOFrequency: Very frequent (99-80%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000961
       HPOTerm: Cyanosis
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001217
       HPOTerm: Clubbing
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002087
       HPOTerm: Abnormality of the upper respiratory tract
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002094
       HPOTerm: Dyspnea
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002111
       HPOTerm: Restrictive deficit on pulmonary function testing
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0003651
       HPOTerm: Foam cells
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0010876
       HPOTerm: Abnormality of circulating protein level
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0012418
       HPOTerm: Hypoxemia
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0025435
-      HPOTerm: Increased lactate dehydrogenase activity
-      HPOFrequency: Frequent (79-30%)
+      HPOTerm: Increased lactate dehydrogenase level
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0030057
       HPOTerm: Autoimmune antibody positivity
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0045051
       HPOTerm: Decreased DLCO
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0012735
       HPOTerm: Cough
-      HPOFrequency: Occasional (29-5%)
   - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0025391
       HPOTerm: Crazy paving pattern on pulmonary HRCT
-      HPOFrequency: Occasional (29-5%)
   - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0030830
       HPOTerm: Crackles
-      HPOFrequency: Occasional (29-5%)
   - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0001824
       HPOTerm: Weight loss
-      HPOFrequency: Very rare (<4-1%)
   - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0001945
       HPOTerm: Fever
-      HPOFrequency: Very rare (<4-1%)
   - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0002105
       HPOTerm: Hemoptysis
-      HPOFrequency: Very rare (<4-1%)
   - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0012378
       HPOTerm: Fatigue
-      HPOFrequency: Very rare (<4-1%)
   - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0100749
       HPOTerm: Chest pain
-      HPOFrequency: Very rare (<4-1%)
   Prevalences:
   - Prevalence:
-      Source: 18202348[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
+      PrevalenceClass: 1-9 / 1 000 000
       PrevalenceGeographic: Japan
-  - Prevalence:
-      Source: 18202348[PMID]
-      PrevalenceType: Point prevalence
       PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Japan
-  - Prevalence:
-      Source: 10731299[PMID]
       PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
+      Source: 'PMID: 30895185'
       ValMoy: no data
-      PrevalenceGeographic: Israel
   - Prevalence:
-      Source: 10731299[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
       PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Japan
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 'PMID: 30895185'
       ValMoy: no data
-      PrevalenceGeographic: Israel
   - Prevalence:
-      Source: 18202348[PMID]_10731299[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
       PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
       PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ISBN:721638902[OTHER]_18202348[PMID]
-      PrevalenceType: Point prevalence
       PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceType: Point prevalence
+      Source: 'PMID: 30895185 & 30064481'
       ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
       PrevalenceGeographic: United States
-  - Prevalence:
-      Source: 18202348[PMID]_10731299[PMID]
-      PrevalenceType: Annual incidence
       PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
+      PrevalenceType: Point prevalence
+      Source: 'PMID: 30064481'
       ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+  Synonyms:
+  - Synonym: Autoimmune PAP
+  - Synonym: aPAP
+  TextSection:
+    Contents: A rare primary interstitial lung disease characterized by the accumulation
+      of lipids and proteins related to surfactant in the alveoli in association with
+      the presence of antibodies against granulocyte-macrophage colony-stimulating
+      factor (GM-CSF). The disease leads to a progressive impairment of gas exchange
+      and respiratory insufficiency.
+    TextSectionType: Definition
   TypeOfInheritances:
-    TypeOfInheritance:
-    - value: Not applicable
+  - TypeOfInheritance:
+      value: Multigenic/multifactorial
+  - TypeOfInheritance:
+      value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

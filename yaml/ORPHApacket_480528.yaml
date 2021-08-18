@@ -1,65 +1,65 @@
 Orphapacket:
-  ORPHApacketId: '480528'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '480528'
-  Label: Lethal hydranencephaly-diaphragmatic hernia syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_480528
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: infantile
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: plasminogen activator, tissue type
+      Symbol: PLAT
+  Label: Lethal hydranencephaly-diaphragmatic hernia syndrome
+  ORPHAcode: '480528'
+  ORPHApacketId: '480528'
+  PURL: http://www.orpha.net/ORDO/Orphanet_480528
+  Parents:
+  - Parent:
+    - Label: Syndromic diaphragmatic or abdominal wall malformation
+      ORPHAcode: '108979'
+  - Parent:
+    - Label: Other syndrome with a central nervous system malformation as a major
+        feature
+      ORPHAcode: '269531'
+  - Parent:
+    - Label: Lethal multiple congenital anomalies/dysmorphic syndrome
+      ORPHAcode: '459787'
+  - Parent:
+    - Label: Syndromic diaphragmatic or thoracic malformation
+      ORPHAcode: '180779'
+  - Parent:
+    - Label: Genetic syndrome with a central nervous system malformation as a major
+        feature
+      ORPHAcode: '269564'
+  - Parent:
+    - Label: Genetic lethal multiple congenital anomalies/dysmorphic syndrome
+      ORPHAcode: '471383'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_27417437[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 27417437[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Lethal hydranencephaly-diaphragmatic hernia syndrome is a rare genetic
       lethal multiple congenital anomalies syndrome characterized by hydranencephaly
       and diaphragmatic hernia as well as macrocephaly a widely open anterior fontanel
       scaphoid abdomen and hypotonia. Additionally congenital heart defects polyhydramnios
       and pulmonary hypertension have also been associated.
-  Genes:
-  - Gene:
-      Symbol: PLAT
-      Name: plasminogen activator, tissue type
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '108979'
-      Label: Syndromic diaphragmatic or abdominal wall malformation
-  - Parent:
-    - ORPHAcode: '269531'
-      Label: Other syndrome with a central nervous system malformation as a major
-        feature
-  - Parent:
-    - ORPHAcode: '459787'
-      Label: Lethal multiple congenital anomalies/dysmorphic syndrome
-  - Parent:
-    - ORPHAcode: '180779'
-      Label: Syndromic diaphragmatic or thoracic malformation
-  - Parent:
-    - ORPHAcode: '269564'
-      Label: Genetic syndrome with a central nervous system malformation as a major
-        feature
-  - Parent:
-    - ORPHAcode: '471383'
-      Label: Genetic lethal multiple congenital anomalies/dysmorphic syndrome
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET_27417437[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: 27417437[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: infantile
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

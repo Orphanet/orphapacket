@@ -1,29 +1,29 @@
 Orphapacket:
-  ORPHApacketId: '280315'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '280315'
-  Label: Autoimmune pancreatitis type 2
-  PURL: http://www.orpha.net/ORDO/Orphanet_280315
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Autoimmune pancreatitis type 2
+  ORPHAcode: '280315'
+  ORPHApacketId: '280315'
+  PURL: http://www.orpha.net/ORDO/Orphanet_280315
+  Parents:
+  - Parent:
+    - Label: Autoimmune pancreatitis
+      ORPHAcode: '103919'
   Synonyms:
   - Synonym: AIP type 2
   - Synonym: Duct-centric pancreatitis
   TextSection:
-    TextSectionType: Definition
     Contents: Type 2 autoimmune pancreatitis is a form of autoimmune pancreatitis
       (see this term) affecting both sexes and having a younger age of onset (<60
       years) and presenting with abdominal pain steatorrhea and obstructive jaundice.
-  Parents:
-  - Parent:
-    - ORPHAcode: '103919'
-      Label: Autoimmune pancreatitis
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

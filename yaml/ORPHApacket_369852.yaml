@@ -1,23 +1,57 @@
 Orphapacket:
-  ORPHApacketId: '369852'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '369852'
-  Label: Congenital neutropenia-myelofibrosis-nephromegaly syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_369852
+  AverageAgeOfDeaths:
+  - AverageAgeOfDeath:
+      value: Infancy
+  - AverageAgeOfDeath:
+      value: Neonatal
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '615285'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: vacuolar protein sorting 45 homolog
+      Symbol: VPS45
+  - Gene:
+      ExternalReferences: []
+      Name: rabenosyn, RAB effector
+      Symbol: RBSN
+  Label: Congenital neutropenia-myelofibrosis-nephromegaly syndrome
+  ORPHAcode: '369852'
+  ORPHApacketId: '369852'
+  PURL: http://www.orpha.net/ORDO/Orphanet_369852
+  Parents:
+  - Parent:
+    - Label: Constitutional neutropenia with extra-hematopoietic manifestations
+      ORPHAcode: '331184'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 26358756[PMID]_28453180[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_26358756[PMID]_28453180[PMID]]
+      ValMoy: no data
   Synonyms:
   - Synonym: Congenital neutropenia-bone marrow fibrosis-nephromegaly syndrome
   - Synonym: VPS45 deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '615285'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Congenital neutropenia-myelofibrosis-nephromegaly syndrome is rare genetic
       primary immunodeficiency disorder characterized by severe congenital neutropenia
       bone marrow fibrosis and neutrophil dysfunction which is refractory to granulocyte
@@ -26,44 +60,10 @@ Orphapacket:
       anemia with reticulocytosis and nephromegaly. Other reported features include
       osteosclerosis and neurological abnormalities (e.g. developmental delay cortical
       blindness hearing loss thin corpus callosum or dysrhythima on EEG).
-  Genes:
-  - Gene:
-      Symbol: VPS45
-      Name: vacuolar protein sorting 45 homolog
-      ExternalReferences: []
-  - Gene:
-      Symbol: RBSN
-      Name: rabenosyn, RAB effector
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '331184'
-      Label: Constitutional neutropenia with extra-hematopoietic manifestations
-  Prevalences:
-  - Prevalence:
-      Source: 26358756[PMID]_28453180[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_26358756[PMID]_28453180[PMID]]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Infancy
-  - AverageAgeOfDeath:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

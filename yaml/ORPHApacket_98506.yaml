@@ -1,50 +1,54 @@
 Orphapacket:
-  ORPHApacketId: '98506'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98506'
-  Label: Acquired motor neuron disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_98506
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Acquired anterior horn cell disease
-  Parents:
-  - Parent:
-    - ORPHAcode: '98503'
-      Label: Motor neuron disease
   Childs:
   - Child:
+      Genes: no data
       Label: Poliomyelitis
       ORPHAcode: '2912'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Postpoliomyelitis syndrome
       ORPHAcode: '2942'
-      Genes: no data
   - Child:
-      Label: Monomelic amyotrophy
-      ORPHAcode: '65684'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '25801'
+            Source: HGNC
+          - Reference: '614571'
+            Source: OMIM
           Label: ciliogenesis and planar polarity effector 1
           Symbol: CPLANE1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '25801'
-          - Source: OMIM
-            Reference: '614571'
       - Gene:
+          ExternalReferences:
+          - Reference: '29264'
+            Source: HGNC
+          - Reference: '614634'
+            Source: OMIM
           Label: centrosomal protein 126
           Symbol: CEP126
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '29264'
-          - Source: OMIM
-            Reference: '614634'
+      Label: Monomelic amyotrophy
+      ORPHAcode: '65684'
   - Child:
+      Genes: no data
       Label: Mills syndrome
       ORPHAcode: '94091'
+  - Child:
       Genes: no data
+      Label: O'Sullivan-McLeod syndrome
+      ORPHAcode: '99965'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Acquired motor neuron disease
+  ORPHAcode: '98506'
+  ORPHApacketId: '98506'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98506
+  Parents:
+  - Parent:
+    - Label: Motor neuron disease
+      ORPHAcode: '98503'
+  Synonyms:
+  - Synonym: Acquired anterior horn cell disease
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

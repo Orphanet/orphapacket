@@ -1,20 +1,90 @@
 Orphapacket:
-  ORPHApacketId: '3267'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3267'
-  Label: Familial lambdoid synostosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_3267
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
     Reference: '600775'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ETS2 repressor factor
+      Symbol: ERF
+  Label: Familial lambdoid synostosis
+  ORPHAcode: '3267'
+  ORPHApacketId: '3267'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3267
+  Parents:
+  - Parent:
+    - Label: Isolated craniosynostosis
+      ORPHAcode: '139390'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000238
+      HPOTerm: Hydrocephalus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000324
+      HPOTerm: Facial asymmetry
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000411
+      HPOTerm: Protruding ear
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000506
+      HPOTerm: Telecanthus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000581
+      HPOTerm: Blepharophimosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001252
+      HPOTerm: Muscular hypotonia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001276
+      HPOTerm: Hypertonia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001357
+      HPOTerm: Plagiocephaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002714
+      HPOTerm: Downturned corners of mouth
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004446
+      HPOTerm: Stomatocytosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005469
+      HPOTerm: Flat occiput
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008572
+      HPOTerm: External ear malformation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010751
+      HPOTerm: Chin dimple
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011220
+      HPOTerm: Prominent forehead
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100830
+      HPOTerm: Round ear
   TextSection:
-    TextSectionType: Definition
     Contents: Familial lambdoid synostosis is a rare genetic cranial malformation
       characterized by unilateral or bilateral synostosis of the lambdoid suture in
       multiple members of a single family. Unilateral cases typically present ipsilateral
@@ -23,77 +93,7 @@ Orphapacket:
       of cervical spine while bilateral cases usually manifest with flat and widened
       occiput displacement of both ears and frequent occurrence of raised intracranial
       pressure.
-  Genes:
-  - Gene:
-      Symbol: ERF
-      Name: ETS2 repressor factor
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '139390'
-      Label: Isolated craniosynostosis
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000238
-      HPOTerm: Hydrocephalus
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000324
-      HPOTerm: Facial asymmetry
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000411
-      HPOTerm: Protruding ear
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000506
-      HPOTerm: Telecanthus
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000581
-      HPOTerm: Blepharophimosis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001252
-      HPOTerm: Muscular hypotonia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001276
-      HPOTerm: Hypertonia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001357
-      HPOTerm: Plagiocephaly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002714
-      HPOTerm: Downturned corners of mouth
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0004446
-      HPOTerm: Stomatocytosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0005469
-      HPOTerm: Flat occiput
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008572
-      HPOTerm: External ear malformation
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0010751
-      HPOTerm: Chin dimple
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0011220
-      HPOTerm: Prominent forehead
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0100830
-      HPOTerm: Round ear
-      HPOFrequency: Occasional (29-5%)
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

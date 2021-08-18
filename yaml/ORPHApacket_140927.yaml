@@ -1,23 +1,64 @@
 Orphapacket:
-  ORPHApacketId: '140927'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '140927'
-  Label: Benign familial neonatal-infantile seizures
-  PURL: http://www.orpha.net/ORDO/Orphanet_140927
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '607745'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: sodium voltage-gated channel alpha subunit 2
+      Symbol: SCN2A
+  - Gene:
+      ExternalReferences: []
+      Name: potassium voltage-gated channel subfamily Q member 2
+      Symbol: KCNQ2
+  Label: Benign familial neonatal-infantile seizures
+  ORPHAcode: '140927'
+  ORPHApacketId: '140927'
+  PURL: http://www.orpha.net/ORDO/Orphanet_140927
+  Parents:
+  - Parent:
+    - Label: Neurological channelopathy of the central nervous system due to a genetic
+        sodium channel defect
+      ORPHAcode: '98744'
+  - Parent:
+    - Label: Neurological channelopathy of the central nervous system due to a genetic
+        potassium channel defect
+      ORPHAcode: '98746'
+  - Parent:
+    - Label: Benign partial infantile seizures
+      ORPHAcode: '166311'
+  - Parent:
+    - Label: Idiopathic or cryptogenic familial epilepsy syndrome with identified
+        loci/genes
+      ORPHAcode: '166475'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 15048894[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_15048894[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: BFNIS
   - Synonym: Benign neonatal-infantile epilepsy
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '607745'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
   TextSection:
-    TextSectionType: Definition
     Contents: Benign familial neonatal-infantile seizures (BFNIS) is a benign familial
       epilepsy syndrome with an intermediate phenotype between benign familial neonatal
       seizures (BFNS) and benign familial infantile seizures (BFIS; see these terms).
@@ -28,51 +69,10 @@ Orphapacket:
       seizure onset. BFNIS is caused by mutations in the <i>SCN2A</i> gene (2q24.3)
       encoding the voltage-gated sodium channel alpha-subunit Na(V)1.2. Transmission
       is autosomal dominant.
-  Genes:
-  - Gene:
-      Symbol: SCN2A
-      Name: sodium voltage-gated channel alpha subunit 2
-      ExternalReferences: []
-  - Gene:
-      Symbol: KCNQ2
-      Name: potassium voltage-gated channel subfamily Q member 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98744'
-      Label: Neurological channelopathy of the central nervous system due to a genetic
-        sodium channel defect
-  - Parent:
-    - ORPHAcode: '98746'
-      Label: Neurological channelopathy of the central nervous system due to a genetic
-        potassium channel defect
-  - Parent:
-    - ORPHAcode: '166311'
-      Label: Benign partial infantile seizures
-  - Parent:
-    - ORPHAcode: '166475'
-      Label: Idiopathic or cryptogenic familial epilepsy syndrome with identified
-        loci/genes
-  Prevalences:
-  - Prevalence:
-      Source: 15048894[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_15048894[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

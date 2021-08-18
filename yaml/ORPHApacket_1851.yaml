@@ -1,19 +1,58 @@
 Orphapacket:
-  ORPHApacketId: '1851'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '1851'
-  Label: Multicystic dysplastic kidney
-  PURL: http://www.orpha.net/ORDO/Orphanet_1851
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11630'
+            Source: HGNC
+          - Reference: '189907'
+            Source: OMIM
+          Label: HNF1 homeobox B
+          Symbol: HNF1B
+      Label: Unilateral multicystic dysplastic kidney
+      ORPHAcode: '97363'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11630'
+            Source: HGNC
+          - Reference: '189907'
+            Source: OMIM
+          Label: HNF1 homeobox B
+          Symbol: HNF1B
+      Label: Bilateral multicystic dysplastic kidney
+      ORPHAcode: '97364'
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  Label: Multicystic dysplastic kidney
+  ORPHAcode: '1851'
+  ORPHApacketId: '1851'
+  PURL: http://www.orpha.net/ORDO/Orphanet_1851
+  Parents:
+  - Parent:
+    - Label: Non-syndromic renal or urinary tract malformation
+      ORPHAcode: '93546'
+  - Parent:
+    - Label: Genetic non-syndromic renal or urinary tract malformation
+      ORPHAcode: '357506'
+  - Parent:
+    - Label: Disease associated with a genetic susceptibility or tested for a biomarker
+      ORPHAcode: '231957'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 19171687[PMID]
+      ValMoy: '23.26'
   Synonyms:
   - Synonym: MCDK
   - Synonym: Multicystic renal dysplasia
   TextSection:
-    TextSectionType: Definition
     Contents: A rare congenital anomaly of the kidney and urinary tract (CAKUT) in
       which one or both kidneys (unilateral or bilateral MCDK respectively) are large
       distended by multiple cysts and non-functional. Unilateral MCDK is typically
@@ -22,46 +61,7 @@ Orphapacket:
       MCDK is considered a lethal entity and neonates present with features of the
       Potter sequence severe pulmonary hypoplasia and severe renal failure and generally
       die shortly after birth.
-  Parents:
-  - Parent:
-    - ORPHAcode: '93546'
-      Label: Non-syndromic renal or urinary tract malformation
-  - Parent:
-    - ORPHAcode: '357506'
-      Label: Genetic non-syndromic renal or urinary tract malformation
-  - Parent:
-    - ORPHAcode: '231957'
-      Label: Disease associated with a genetic susceptibility or tested for a biomarker
-  Childs:
-  - Child:
-      Label: Unilateral multicystic dysplastic kidney
-      ORPHAcode: '97363'
-      Genes:
-      - Gene:
-          Label: HNF1 homeobox B
-          Symbol: HNF1B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11630'
-          - Source: OMIM
-            Reference: '189907'
-  - Child:
-      Label: Bilateral multicystic dysplastic kidney
-      ORPHAcode: '97364'
-      Genes:
-      - Gene:
-          Label: HNF1 homeobox B
-          Symbol: HNF1B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11630'
-          - Source: OMIM
-            Reference: '189907'
-  Prevalences:
-    Prevalence:
-    - Source: 19171687[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: '23.26'
-      PrevalenceGeographic: Worldwide
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

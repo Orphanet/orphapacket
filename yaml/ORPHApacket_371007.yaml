@@ -1,18 +1,39 @@
 Orphapacket:
-  ORPHApacketId: '371007'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '371007'
-  Label: Congenital muscular dystrophy with hyperlaxity
-  PURL: http://www.orpha.net/ORDO/Orphanet_371007
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Congenital muscular dystrophy with hyperlaxity
+  ORPHAcode: '371007'
+  ORPHApacketId: '371007'
+  PURL: http://www.orpha.net/ORDO/Orphanet_371007
+  Parents:
+  - Parent:
+    - Label: Congenital muscular dystrophy
+      ORPHAcode: '97242'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 16760198[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_16760198[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: CMDH
   TextSection:
-    TextSectionType: Definition
     Contents: Congenital muscular dystrophy with hyperlaxity is a rare genetic neuromuscular
       disease characterized by congenital hypotonia generalized slowly progressive
       muscular weakness and proximal joint contractures with distal joint hypermobility
@@ -20,28 +41,7 @@ Orphapacket:
       are also frequently reported. Other manifestations include a long myopathic
       face and in rare cases respiratory failure mild to moderate intellectual deficiency
       and short stature. Ambulation may be impaired with time.
-  Parents:
-  - Parent:
-    - ORPHAcode: '97242'
-      Label: Congenital muscular dystrophy
-  Prevalences:
-  - Prevalence:
-      Source: 16760198[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_16760198[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

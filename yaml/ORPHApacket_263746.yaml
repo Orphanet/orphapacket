@@ -1,43 +1,40 @@
 Orphapacket:
-  ORPHApacketId: '263746'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '263746'
-  Label: Y chromosome number anomaly
-  PURL: http://www.orpha.net/ORDO/Orphanet_263746
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '98156'
-      Label: Sex-chromosome number anomaly
-  - Parent:
-    - ORPHAcode: '263798'
-      Label: Y chromosomal anomaly
   Childs:
   - Child:
+      Genes: no data
       Label: 47,XYY syndrome
       ORPHAcode: '8'
-      Genes: no data
   - Child:
-      Label: 45,X/46,XY mixed gonadal dysgenesis
-      ORPHAcode: '1772'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11311'
+            Source: HGNC
+          - Reference: '480000'
+            Source: OMIM
           Label: sex determining region Y
           Symbol: SRY
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11311'
-          - Source: OMIM
-            Reference: '480000'
+      Label: 45,X/46,XY mixed gonadal dysgenesis
+      ORPHAcode: '1772'
   - Child:
+      Genes: no data
       Label: 48,XYYY syndrome
       ORPHAcode: '99329'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: 49,XYYYY syndrome
       ORPHAcode: '99330'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Y chromosome number anomaly
+  ORPHAcode: '263746'
+  ORPHApacketId: '263746'
+  PURL: http://www.orpha.net/ORDO/Orphanet_263746
+  Parents:
+  - Parent:
+    - Label: Sex-chromosome number anomaly
+      ORPHAcode: '98156'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

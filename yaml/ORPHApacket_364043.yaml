@@ -1,36 +1,39 @@
 Orphapacket:
-  ORPHApacketId: '364043'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '364043'
-  Label: ALK-positive large B-cell lymphoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_364043
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ALK receptor tyrosine kinase
+      Symbol: ALK
+  Label: ALK-positive large B-cell lymphoma
+  ORPHAcode: '364043'
+  ORPHApacketId: '364043'
+  PURL: http://www.orpha.net/ORDO/Orphanet_364043
+  Parents:
+  - Parent:
+    - Label: Diffuse large B-cell lymphoma
+      ORPHAcode: '544'
+  - Parent:
+    - Label: Pediatric B-cell non-Hodgkin lymphoma
+      ORPHAcode: '602673'
   Synonyms:
   - Synonym: ALK+ LBCL
   - Synonym: ALK+ large B-cell lymphoma
   TextSection:
-    TextSectionType: Definition
     Contents: A very rare variant of diffuse large B-cell lymphoma (DLBCL) mainly
       affecting middle-aged immunocompetent men and characterized by a consistent
       primary involvement of lymph nodes (mainly in the cervical and mediastinum lymph
       nodes) and with infrequent extra nodal involvement of the bone marrow and other
       extra-nodal sites (head and neck region liver spleen and gastrointestinal tract).
       It has an aggressive disease course and is associated with a poor prognosis.
-  Genes:
-  - Gene:
-      Symbol: ALK
-      Name: ALK receptor tyrosine kinase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '544'
-      Label: Diffuse large B-cell lymphoma
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Multigenic/multifactorial
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

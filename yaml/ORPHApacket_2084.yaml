@@ -1,22 +1,67 @@
 Orphapacket:
-  ORPHApacketId: '2084'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2084'
-  Label: Glaucoma-ectopia lentis-microspherophakia-stiff joints-short stature syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_2084
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '608328'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: fibrillin 1
+      Symbol: FBN1
+  Label: Glaucoma-ectopia lentis-microspherophakia-stiff joints-short stature syndrome
+  ORPHAcode: '2084'
+  ORPHApacketId: '2084'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2084
+  Parents:
+  - Parent:
+    - Label: Syndromic ectopia lentis
+      ORPHAcode: '519292'
+  - Parent:
+    - Label: Syndromic microspherophakia
+      ORPHAcode: '519294'
+  - Parent:
+    - Label: Syndromic genetic ectopia lentis
+      ORPHAcode: '522554'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000501
+      HPOTerm: Glaucoma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001083
+      HPOTerm: Ectopia lentis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 1519650[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_1519650[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: GEMSS syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '608328'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Glaucoma-ectopia-microspherophakia-stiff joints-short stature syndrome
       is characterized by progressive joint stiffness glaucoma short stature and lens
       dislocation. It has been described in three members of a family (the grandfather
@@ -24,55 +69,10 @@ Orphapacket:
       trait. The acronym GEMSS (Glaucoma Ectopia Microspherophakia Stiff joints Short
       stature) was proposed as a name for the syndrome. This syndrome shows similarities
       to Moore-Federman syndrome (see this term).
-  Genes:
-  - Gene:
-      Symbol: FBN1
-      Name: fibrillin 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '519292'
-      Label: Syndromic ectopia lentis
-  - Parent:
-    - ORPHAcode: '519294'
-      Label: Syndromic microspherophakia
-  - Parent:
-    - ORPHAcode: '522554'
-      Label: Syndromic genetic ectopia lentis
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000501
-      HPOTerm: Glaucoma
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001083
-      HPOTerm: Ectopia lentis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0004322
-      HPOTerm: Short stature
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 1519650[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_1519650[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

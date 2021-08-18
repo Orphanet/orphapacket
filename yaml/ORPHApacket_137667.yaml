@@ -1,65 +1,186 @@
 Orphapacket:
-  ORPHApacketId: '137667'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '137667'
-  Label: Capillary malformation-arteriovenous malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_137667
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: CM-AVM
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '608354'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: This syndrome is characterised by the association of multiple capillary
-      malformations (CM) with an arteriovenous malformation (AVM) and arteriovenous
-      fistulas.
-  Genes:
-  - Gene:
-      Symbol: RASA1
-      Name: RAS p21 protein activator 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '211240'
-      Label: Genetic vascular anomaly
-  - Parent:
-    - ORPHAcode: '536391'
-      Label: RASopathy
-  - Parent:
-    - ORPHAcode: '211247'
-      Label: Rare capillary malformation
-  - Parent:
-    - ORPHAcode: '506222'
-      Label: Rare disorder potentially indicated for lung transplant
-  Prevalences:
-  - Prevalence:
-      Source: 24038909[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '608354'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: RAS p21 protein activator 1
+      Symbol: RASA1
+  - Gene:
+      ExternalReferences: []
+      Name: EPH receptor B4
+      Symbol: EPHB4
+  Label: Capillary malformation-arteriovenous malformation
+  ORPHAcode: '137667'
+  ORPHApacketId: '137667'
+  PURL: http://www.orpha.net/ORDO/Orphanet_137667
+  Parents:
+  - Parent:
+    - Label: Genetic vascular anomaly
+      ORPHAcode: '211240'
+  - Parent:
+    - Label: RASopathy
+      ORPHAcode: '536391'
+  - Parent:
+    - Label: Rare capillary malformation
+      ORPHAcode: '211247'
+  - Parent:
+    - Label: Rare disorder potentially indicated for lung transplant
+      ORPHAcode: '506222'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0025104
+      HPOTerm: Capillary malformation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011276
+      HPOTerm: Vascular skin abnormality
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000421
+      HPOTerm: Epistaxis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001004
+      HPOTerm: Lymphedema
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001009
+      HPOTerm: Telangiectasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001722
+      HPOTerm: High-output congestive heart failure
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001892
+      HPOTerm: Abnormal bleeding
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002408
+      HPOTerm: Cerebral arteriovenous malformation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002637
+      HPOTerm: Cerebral ischemia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004947
+      HPOTerm: Arteriovenous fistula
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009127
+      HPOTerm: Abnormality of the musculature of the limbs
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012733
+      HPOTerm: Macule
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030713
+      HPOTerm: Vein of Galen aneurysmal malformation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100026
+      HPOTerm: Arteriovenous malformation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100763
+      HPOTerm: Abnormality of the lymphatic system
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100784
+      HPOTerm: Peripheral arteriovenous fistula
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000011
+      HPOTerm: Neurogenic bladder
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000238
+      HPOTerm: Hydrocephalus
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000996
+      HPOTerm: Facial capillary hemangioma
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001028
+      HPOTerm: Hemangioma
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001627
+      HPOTerm: Abnormal heart morphology
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001635
+      HPOTerm: Congestive heart failure
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001790
+      HPOTerm: Nonimmune hydrops fetalis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002076
+      HPOTerm: Migraine
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002315
+      HPOTerm: Headache
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0004302
+      HPOTerm: Functional motor deficit
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0010310
+      HPOTerm: Chylothorax
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0020073
+      HPOTerm: Hypopigmented macule
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 24038909[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: CM-AVM
+  TextSection:
+    Contents: This syndrome is characterised by the association of multiple capillary
+      malformations (CM) with an arteriovenous malformation (AVM) and arteriovenous
+      fistulas.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

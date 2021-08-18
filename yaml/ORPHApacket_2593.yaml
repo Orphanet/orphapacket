@@ -1,26 +1,83 @@
 Orphapacket:
-  ORPHApacketId: '2593'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2593'
-  Label: Tubular aggregate myopathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_2593
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
-      Reference: '160565'
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
+      Reference: '160565'
       Source: OMIM
-      Reference: '615883'
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
+      Reference: '615883'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ORAI calcium release-activated calcium modulator 1
+      Symbol: ORAI1
+  - Gene:
+      ExternalReferences: []
+      Name: stromal interaction molecule 1
+      Symbol: STIM1
+  - Gene:
+      ExternalReferences: []
+      Name: calsequestrin 1
+      Symbol: CASQ1
+  Label: Tubular aggregate myopathy
+  ORPHAcode: '2593'
+  ORPHApacketId: '2593'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2593
+  Parents:
+  - Parent:
+    - Label: Congenital myopathy
+      ORPHAcode: '97245'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003326
+      HPOTerm: Myalgia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003394
+      HPOTerm: Muscle spasm
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003458
+      HPOTerm: 'EMG: myopathic abnormalities'
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003473
+      HPOTerm: Fatigable weakness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0030200
+      HPOTerm: Fatiguable weakness of proximal limb muscles
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100301
+      HPOTerm: Muscle fiber tubular inclusions
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003557
+      HPOTerm: Increased variability in muscle fiber diameter
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003687
+      HPOTerm: Centrally nucleated skeletal muscle fibers
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003554
+      HPOTerm: Type 2 muscle fiber atrophy
   TextSection:
-    TextSectionType: Definition
     Contents: A rare congenital myopathy characterized ultrastructurally by the presence
       of tubular aggregates in the subsarcolemmal region of the muscle fiber. It most
       commonly presents with slowly progressive proximal muscle weakness predominantly
@@ -29,67 +86,10 @@ Orphapacket:
       associated. The intensity of the symptoms is variable cases with normal muscle
       strength but myalgia or fatigue as well as clinically asymptomatic cases have
       been described.
-  Genes:
-  - Gene:
-      Symbol: ORAI1
-      Name: ORAI calcium release-activated calcium modulator 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: STIM1
-      Name: stromal interaction molecule 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: CASQ1
-      Name: calsequestrin 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '97245'
-      Label: Congenital myopathy
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0003326
-      HPOTerm: Myalgia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003394
-      HPOTerm: Muscle spasm
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003458
-      HPOTerm: 'EMG: myopathic abnormalities'
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003473
-      HPOTerm: Fatigable weakness
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0030200
-      HPOTerm: Fatiguable weakness of proximal limb muscles
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100301
-      HPOTerm: Muscle fiber tubular inclusions
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003557
-      HPOTerm: Increased variability in muscle fiber diameter
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003687
-      HPOTerm: Centrally nucleated skeletal muscle fibers
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003554
-      HPOTerm: Type 2 muscle fiber atrophy
-      HPOFrequency: Occasional (29-5%)
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adolescent
-  - AverageAgeOfOnset:
-      value: Adult
-  - AverageAgeOfOnset:
-      value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

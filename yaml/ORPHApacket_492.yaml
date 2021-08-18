@@ -1,38 +1,38 @@
 Orphapacket:
-  ORPHApacketId: '492'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '492'
-  Label: Proliferating trichilemmal cyst
-  PURL: http://www.orpha.net/ORDO/Orphanet_492
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Proliferating trichilemmal cyst
+  ORPHAcode: '492'
+  ORPHApacketId: '492'
+  PURL: http://www.orpha.net/ORDO/Orphanet_492
+  Parents:
+  - Parent:
+    - Label: Rare skin tumor or hamartoma
+      ORPHAcode: '79386'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002209
+      HPOTerm: Sparse scalp hair
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0200040
+      HPOTerm: Epidermoid cyst
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0200042
+      HPOTerm: Skin ulcer
   TextSection:
-    TextSectionType: Definition
     Contents: A rare large multinodular usually benign tumor that is generally located
       in the posterior part of the scalp in aged women (over 50 years). It first appears
       as a painless nodule that later grows into a solid or partially cystic tumor
       that is mobile over the underlying subcutaneous tissues. It can present ulceration
       inflammation or even bleeding and can cause necrosis of the adjacent tissues.
-  Parents:
-  - Parent:
-    - ORPHAcode: '79386'
-      Label: Rare skin tumor or hamartoma
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0002209
-      HPOTerm: Sparse scalp hair
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0200040
-      HPOTerm: Epidermoid cyst
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0200042
-      HPOTerm: Skin ulcer
-      HPOFrequency: Very frequent (99-80%)
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

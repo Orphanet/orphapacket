@@ -1,53 +1,4 @@
 Orphapacket:
-  ORPHApacketId: '139515'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '139515'
-  Label: Charcot-Marie-Tooth disease type 4J
-  PURL: http://www.orpha.net/ORDO/Orphanet_139515
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: CMT4J
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '611228'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Charcot-Marie-Tooth disease type 4J is a subtype of Charcot-Marie-Tooth
-      disease type 4 characterized by childhood- to adulthood-onset of variably severe
-      rapidly progressive axonal and demyelinating sensorimotor neuropathy typically
-      manifesting with delayed motor development proximal and distal asymmetric muscle
-      weakness and atrophy of the lower and upper extremities severe motor dysfunction
-      with mildly reduced sensory impairment and areflexia. Nerve conduction velocities
-      range from very mildly to severely reduced.
-  Genes:
-  - Gene:
-      Symbol: FIG4
-      Name: FIG4 phosphoinositide 5-phosphatase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '64749'
-      Label: Charcot-Marie-Tooth disease type 4
-  Prevalences:
-  - Prevalence:
-      Source: 21705420[PMID]_23489662[PMID]_24878229[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_21705420[PMID]_23489662[PMID]_24878229[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adult
@@ -55,6 +6,55 @@ Orphapacket:
       value: Childhood
   - AverageAgeOfOnset:
       value: Infancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '611228'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: FIG4 phosphoinositide 5-phosphatase
+      Symbol: FIG4
+  Label: Charcot-Marie-Tooth disease type 4J
+  ORPHAcode: '139515'
+  ORPHApacketId: '139515'
+  PURL: http://www.orpha.net/ORDO/Orphanet_139515
+  Parents:
+  - Parent:
+    - Label: Charcot-Marie-Tooth disease type 4
+      ORPHAcode: '64749'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 21705420[PMID]_23489662[PMID]_24878229[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_21705420[PMID]_23489662[PMID]_24878229[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: CMT4J
+  TextSection:
+    Contents: Charcot-Marie-Tooth disease type 4J is a subtype of Charcot-Marie-Tooth
+      disease type 4 characterized by childhood- to adulthood-onset of variably severe
+      rapidly progressive axonal and demyelinating sensorimotor neuropathy typically
+      manifesting with delayed motor development proximal and distal asymmetric muscle
+      weakness and atrophy of the lower and upper extremities severe motor dysfunction
+      with mildly reduced sensory impairment and areflexia. Nerve conduction velocities
+      range from very mildly to severely reduced.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

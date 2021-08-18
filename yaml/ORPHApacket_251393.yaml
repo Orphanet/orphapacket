@@ -1,138 +1,144 @@
 Orphapacket:
-  ORPHApacketId: '251393'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '251393'
-  Label: Localized junctional epidermolysis bullosa, non-Herlitz type
-  PURL: http://www.orpha.net/ORDO/Orphanet_251393
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: JEB-nH loc
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '226650'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Junctional epidermolysis bullosa localized non-Herlitz-type is a form
-      of non-Herlitz junctional epidermolysis bullosa (JEB-nH see this term) characterized
-      by localized blistering and dystrophic or absent nails.
-  Genes:
-  - Gene:
-      Symbol: COL17A1
-      Name: collagen type XVII alpha 1 chain
-      ExternalReferences: []
-  - Gene:
-      Symbol: ITGB4
-      Name: integrin subunit beta 4
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '89840'
-      Label: Junctional epidermolysis bullosa, non-Herlitz type
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001030
-      HPOTerm: Fragile skin
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008066
-      HPOTerm: Abnormal blistering of the skin
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002215
-      HPOTerm: Sparse axillary hair
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002225
-      HPOTerm: Sparse pubic hair
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0004529
-      HPOTerm: Atrophic, patchy alopecia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0006297
-      HPOTerm: Hypoplasia of dental enamel
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0008404
-      HPOTerm: Nail dystrophy
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0009722
-      HPOTerm: Dental enamel pits
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0011073
-      HPOTerm: Abnormality of dental color
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0031045
-      HPOTerm: Acral blistering
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0032156
-      HPOTerm: Skin detachment
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001057
-      HPOTerm: Aplasia cutis congenita
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001810
-      HPOTerm: Dystrophic toenail
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0004552
-      HPOTerm: Scarring alopecia of scalp
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0008391
-      HPOTerm: Dystrophic fingernails
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000987
-      HPOTerm: Atypical scarring of skin
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0001056
-      HPOTerm: Milia
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0003121
-      HPOTerm: Limb joint contracture
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0004057
-      HPOTerm: Mitten deformity
-      HPOFrequency: Very rare (<4-1%)
-  Prevalences:
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '226650'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: collagen type XVII alpha 1 chain
+      Symbol: COL17A1
+  - Gene:
+      ExternalReferences: []
+      Name: integrin subunit beta 4
+      Symbol: ITGB4
+  Label: Localized junctional epidermolysis bullosa
+  ORPHAcode: '251393'
+  ORPHApacketId: '251393'
+  PURL: http://www.orpha.net/ORDO/Orphanet_251393
+  Parents:
+  - Parent:
+    - Label: Junctional epidermolysis bullosa
+      ORPHAcode: '305'
+  - Parent:
+    - Label: Rare disease with odontological manifestation
+      ORPHAcode: '98027'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001030
+      HPOTerm: Fragile skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008066
+      HPOTerm: Abnormal blistering of the skin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002215
+      HPOTerm: Sparse axillary hair
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002225
+      HPOTerm: Sparse pubic hair
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004529
+      HPOTerm: Atrophic, patchy alopecia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006297
+      HPOTerm: Hypoplasia of dental enamel
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008404
+      HPOTerm: Nail dystrophy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009722
+      HPOTerm: Dental enamel pits
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011073
+      HPOTerm: Abnormality of dental color
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0031045
+      HPOTerm: Acral blistering
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0032156
+      HPOTerm: Skin detachment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001057
+      HPOTerm: Aplasia cutis congenita
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001810
+      HPOTerm: Dystrophic toenail
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004552
+      HPOTerm: Scarring alopecia of scalp
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008391
+      HPOTerm: Dystrophic fingernails
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000987
+      HPOTerm: Atypical scarring of skin
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001056
+      HPOTerm: Milia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0003121
+      HPOTerm: Limb joint contracture
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0004057
+      HPOTerm: Mitten deformity
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: JEB-nH loc
+  - Synonym: Junctional epidermolysis bullosa, non-Herlitz localized type
+  - Synonym: Localized JEB
+  TextSection:
+    Contents: A form of junctional epidermolysis bullosa characterized by neonatal
+      onset of localized blistering and dystrophic or absent nails. Skin blistering
+      is mainly confined to hands feet lower legs and face. Additional findings may
+      include dental enamel hypoplasia and an increased incidence of caries.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

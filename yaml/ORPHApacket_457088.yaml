@@ -1,37 +1,37 @@
 Orphapacket:
-  ORPHApacketId: '457088'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '457088'
-  Label: Predisposition to invasive fungal disease due to CARD9 deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_457088
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '212050'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: caspase recruitment domain family member 9
+      Symbol: CARD9
+  Label: Predisposition to invasive fungal disease due to CARD9 deficiency
+  ORPHAcode: '457088'
+  ORPHApacketId: '457088'
+  PURL: http://www.orpha.net/ORDO/Orphanet_457088
+  Parents:
+  - Parent:
+    - Label: Genetic susceptibility to infections due to particular pathogens
+      ORPHAcode: '183710'
   Synonyms:
   - Synonym: Invasive candidiasis-deep dermatophytosis syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '212050'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic primary immunodeficiency characterized by increased susceptibility
       to fungal infections typically manifesting as recurrent chronic mucocutaneous
       candidiasis systemic candidiasis with meningoencephalitis and deep dermatophystosis
       with dermatophytes invading skin hair nails lymph nodes and brain resulting
       in erythematosquamous lesions nodular subcutaneous or ulcerative infiltrations
       severe onychomycosis and lymphadenopathy.
-  Genes:
-  - Gene:
-      Symbol: CARD9
-      Name: caspase recruitment domain family member 9
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '183710'
-      Label: Genetic susceptibility to infections due to particular pathogens
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

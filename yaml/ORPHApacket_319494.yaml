@@ -1,56 +1,56 @@
 Orphapacket:
-  ORPHApacketId: '319494'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '319494'
-  Label: Familial nonmedullary thyroid carcinoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_319494
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Familial papillary thyroid carcinoma with renal papillary neoplasia
+      ORPHAcode: '97290'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '7102'
+            Source: HGNC
+          - Reference: '605391'
+            Source: OMIM
+          Label: multiple inositol-polyphosphate phosphatase 1
+          Symbol: MINPP1
+      - Gene:
+          ExternalReferences:
+          - Reference: '3806'
+            Source: HGNC
+          - Reference: '602617'
+            Source: OMIM
+          Label: forkhead box E1
+          Symbol: FOXE1
+      - Gene:
+          ExternalReferences:
+          - Reference: '4798'
+            Source: HGNC
+          - Reference: '603924'
+            Source: OMIM
+          Label: hyaluronan binding protein 2
+          Symbol: HABP2
+      Label: Familial papillary or follicular thyroid carcinoma
+      ORPHAcode: '319487'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Familial nonmedullary thyroid carcinoma
+  ORPHAcode: '319494'
+  ORPHApacketId: '319494'
+  PURL: http://www.orpha.net/ORDO/Orphanet_319494
+  Parents:
+  - Parent:
+    - Label: Thyroid carcinoma
+      ORPHAcode: '100088'
+  - Parent:
+    - Label: Genetic neuroendocrine tumor
+      ORPHAcode: '271847'
   TextSection:
-    TextSectionType: Definition
     Contents: Familial nonmedullary thyroid carcinoma (fNMTC) is a rare non-syndromic
       form of thyroid cancer characterized by occurrence of thyroid carcinoma (TC)
       as the primary feature in a familial setting.
-  Parents:
-  - Parent:
-    - ORPHAcode: '100088'
-      Label: Thyroid carcinoma
-  - Parent:
-    - ORPHAcode: '271847'
-      Label: Genetic neuroendocrine tumor
-  Childs:
-  - Child:
-      Label: Familial papillary thyroid carcinoma with renal papillary neoplasia
-      ORPHAcode: '97290'
-      Genes: no data
-  - Child:
-      Label: Familial papillary or follicular thyroid carcinoma
-      ORPHAcode: '319487'
-      Genes:
-      - Gene:
-          Label: multiple inositol-polyphosphate phosphatase 1
-          Symbol: MINPP1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7102'
-          - Source: OMIM
-            Reference: '605391'
-      - Gene:
-          Label: forkhead box E1
-          Symbol: FOXE1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3806'
-          - Source: OMIM
-            Reference: '602617'
-      - Gene:
-          Label: hyaluronan binding protein 2
-          Symbol: HABP2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4798'
-          - Source: OMIM
-            Reference: '603924'
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

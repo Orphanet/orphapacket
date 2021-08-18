@@ -1,16 +1,24 @@
 Orphapacket:
-  ORPHApacketId: '319192'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '319192'
-  Label: Diencephalic-mesencephalic junction dysplasia
-  PURL: http://www.orpha.net/ORDO/Orphanet_319192
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: protocadherin 12
+      Symbol: PCDH12
+  Label: Diencephalic-mesencephalic junction dysplasia
+  ORPHAcode: '319192'
+  ORPHApacketId: '319192'
+  PURL: http://www.orpha.net/ORDO/Orphanet_319192
+  Parents:
+  - Parent:
+    - Label: Non-syndromic cerebral malformation
+      ORPHAcode: '199633'
+  - Parent:
+    - Label: Genetic cerebral malformation
+      ORPHAcode: '269553'
   TextSection:
-    TextSectionType: Definition
     Contents: Diencephalic-mesencephalic junction dysplasia is a rare genetic non-syndromic
       cerebral malformation characterized by severe intellectual disability progressive
       postnatal microcephaly axial hypotonia spastic quadriparesis seizures and facial
@@ -21,18 +29,10 @@ Orphapacket:
       sign' is characterisitcally observed and cortical calcifications agenesis of
       the corpus callosum ventriculomegaly brainstem dysplasia and cerebellar vermis
       hypoplasia have also been described.
-  Genes:
-  - Gene:
-      Symbol: PCDH12
-      Name: protocadherin 12
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '199633'
-      Label: Non-syndromic cerebral malformation
-  - Parent:
-    - ORPHAcode: '269553'
-      Label: Genetic cerebral malformation
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

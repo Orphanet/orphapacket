@@ -1,51 +1,51 @@
 Orphapacket:
-  ORPHApacketId: '77295'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '77295'
-  Label: Odontoleukodystrophy
-  PURL: http://www.orpha.net/ORDO/Orphanet_77295
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: Dentoleukoencephalopathy
-  - Synonym: Leukodystrophy with oligodontia
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '607694'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  Genes:
-  - Gene:
-      Symbol: POLR3A
-      Name: RNA polymerase III subunit A
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '289494'
-      Label: 4H leukodystrophy
-  Prevalences:
-  - Prevalence:
-      Source: 12605447[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_12605447[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Infancy
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Infancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '607694'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: RNA polymerase III subunit A
+      Symbol: POLR3A
+  Label: Odontoleukodystrophy
+  ORPHAcode: '77295'
+  ORPHApacketId: '77295'
+  PURL: http://www.orpha.net/ORDO/Orphanet_77295
+  Parents:
+  - Parent:
+    - Label: 4H leukodystrophy
+      ORPHAcode: '289494'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 12605447[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_12605447[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Dentoleukoencephalopathy
+  - Synonym: Leukodystrophy with oligodontia
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

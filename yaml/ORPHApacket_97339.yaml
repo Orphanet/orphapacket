@@ -1,19 +1,40 @@
 Orphapacket:
-  ORPHApacketId: '97339'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '97339'
-  Label: Dural sinus malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_97339
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: infantile
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  Label: Dural sinus malformation
+  ORPHAcode: '97339'
+  ORPHApacketId: '97339'
+  PURL: http://www.orpha.net/ORDO/Orphanet_97339
+  Parents:
+  - Parent:
+    - Label: Neurovascular malformation
+      ORPHAcode: '102006'
+  - Parent:
+    - Label: Rare arteriovenous malformation
+      ORPHAcode: '211266'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Cranial dural arteriovenous fistula
   - Synonym: Cranial dural arteriovenous malformations
   TextSection:
-    TextSectionType: Definition
     Contents: A rare neurovascular malformation characterized by massive dilation
       of one or more dural sinuses typically associated with arteriovenous shunts.
       Anatomic types are the lateral type involving the jugular bulb which presents
@@ -22,28 +43,7 @@ Orphapacket:
       include sinus thrombosis venous infarction and cerebral hemorrhage as well as
       cardiac failure macrocrania and hydrocephalus. Spontaneous regression of the
       malformation may occur.
-  Parents:
-  - Parent:
-    - ORPHAcode: '102006'
-      Label: Neurovascular malformation
-  - Parent:
-    - ORPHAcode: '211266'
-      Label: Rare arteriovenous malformation
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Antenatal
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: infantile
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

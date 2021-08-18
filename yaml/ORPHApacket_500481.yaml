@@ -1,32 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '500481'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '500481'
-  Label: Squamous cell carcinoma of salivary glands
-  PURL: http://www.orpha.net/ORDO/Orphanet_500481
   DisorderType:
-    value: Histopathological subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377797
+    value: Histopathological subtype
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
     Reference: '275355'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Source: OMIM
   Genes:
   - Gene:
-      Symbol: TNFRSF10B
+      ExternalReferences: []
       Name: TNF receptor superfamily member 10b
-      ExternalReferences: []
+      Symbol: TNFRSF10B
   - Gene:
-      Symbol: PTEN
+      ExternalReferences: []
       Name: phosphatase and tensin homolog
-      ExternalReferences: []
+      Symbol: PTEN
   - Gene:
-      Symbol: ING1
-      Name: inhibitor of growth family member 1
       ExternalReferences: []
+      Name: inhibitor of growth family member 1
+      Symbol: ING1
+  Label: Squamous cell carcinoma of salivary glands
+  ORPHAcode: '500481'
+  ORPHApacketId: '500481'
+  PURL: http://www.orpha.net/ORDO/Orphanet_500481
   Parents:
   - Parent:
-    - ORPHAcode: '276145'
-      Label: Malignant epithelial tumor of salivary glands
+    - Label: Malignant epithelial tumor of salivary glands
+      ORPHAcode: '276145'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

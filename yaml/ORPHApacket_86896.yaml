@@ -1,16 +1,27 @@
 Orphapacket:
-  ORPHApacketId: '86896'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '86896'
-  Label: Histiocytic sarcoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_86896
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Histiocytic sarcoma
+  ORPHAcode: '86896'
+  ORPHApacketId: '86896'
+  PURL: http://www.orpha.net/ORDO/Orphanet_86896
+  Parents:
+  - Parent:
+    - Label: Macrophage or histiocytic tumor
+      ORPHAcode: '98288'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: '0.0'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare histiocytic tumor characterized by a malignant proliferation
       of cells showing morphological and immunophenotypic features of mature tissue
       histiocytes. Most cases occur in extranodal sites most commonly the intestinal
@@ -18,18 +29,7 @@ Orphapacket:
       a skin rash or numerous tumors on the trunk and extremities lytic bone lesions
       hepatosplenomegaly with pancytopenia intestinal obstruction and/or systemic
       symptoms. The neoplasm is aggressive with typically poor therapy response.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98288'
-      Label: Macrophage or histiocytic tumor
-  Prevalences:
-    Prevalence:
-    - Source: RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,18 +1,35 @@
 Orphapacket:
-  ORPHApacketId: '497188'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '497188'
-  Label: Diffuse intrinsic pontine glioma
-  PURL: http://www.orpha.net/ORDO/Orphanet_497188
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Diffuse intrinsic pontine glioma
+  ORPHAcode: '497188'
+  ORPHApacketId: '497188'
+  PURL: http://www.orpha.net/ORDO/Orphanet_497188
+  Parents:
+  - Parent:
+    - Label: High-grade astrocytoma
+      ORPHAcode: '251561'
+  - Parent:
+    - Label: Pediatric cancer of neuroepithelial tissue
+      ORPHAcode: '602695'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Netherlands
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 25435089[PMID]
+      ValMoy: '0.056'
   Synonyms:
   - Synonym: DIPG
   TextSection:
-    TextSectionType: Definition
     Contents: A rare glial tumor characterized by a highly aggressive diffusely infiltrative
       pontine lesion generally occurring in children affecting local nerve fiber tracts
       and spreading contiguously to involve adjacent structures but also metastasizing
@@ -21,21 +38,7 @@ Orphapacket:
       long tract signs and ataxia. Signs and symptoms of increased intracranial pressure
       may present due to obstructive hydrocephalus. Prognosis is poor and not related
       to histological grade.
-  Parents:
-  - Parent:
-    - ORPHAcode: '251561'
-      Label: High-grade astrocytoma
-  Prevalences:
-    Prevalence:
-    - Source: 25435089[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.056'
-      PrevalenceGeographic: Netherlands
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

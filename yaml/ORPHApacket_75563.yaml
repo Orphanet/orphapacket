@@ -1,97 +1,97 @@
 Orphapacket:
-  ORPHApacketId: '75563'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '75563'
-  Label: X-linked sideroblastic anemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_75563
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '300751'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: 5'-aminolevulinate synthase 2
+      Symbol: ALAS2
+  Label: X-linked sideroblastic anemia
+  ORPHAcode: '75563'
+  ORPHApacketId: '75563'
+  PURL: http://www.orpha.net/ORDO/Orphanet_75563
+  Parents:
+  - Parent:
+    - Label: Constitutional sideroblastic anemia
+      ORPHAcode: '98362'
+  - Parent:
+    - Label: Disorder of porphyrin and heme metabolism
+      ORPHAcode: '309813'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000833
+      HPOTerm: Glucose intolerance
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000953
+      HPOTerm: Hyperpigmentation of the skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000980
+      HPOTerm: Pallor
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001324
+      HPOTerm: Muscle weakness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001744
+      HPOTerm: Splenomegaly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001903
+      HPOTerm: Anemia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002094
+      HPOTerm: Dyspnea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002910
+      HPOTerm: Elevated hepatic transaminase
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011031
+      HPOTerm: Abnormality of iron homeostasis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: XLSA
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '300751'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: X-linked sideroblastic anemia is a constitutional microcytic hypochromic
       anemia of varying severity that is clinically characterized by manifestations
       of anemia and iron overload and that may respond to treatment with pyridoxine
       and folic acid.
-  Genes:
-  - Gene:
-      Symbol: ALAS2
-      Name: 5'-aminolevulinate synthase 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98362'
-      Label: Constitutional sideroblastic anemia
-  - Parent:
-    - ORPHAcode: '309813'
-      Label: Disorder of porphyrin and heme metabolism
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000833
-      HPOTerm: Glucose intolerance
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000953
-      HPOTerm: Hyperpigmentation of the skin
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000980
-      HPOTerm: Pallor
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001324
-      HPOTerm: Muscle weakness
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001744
-      HPOTerm: Splenomegaly
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001903
-      HPOTerm: Anemia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002094
-      HPOTerm: Dyspnea
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002910
-      HPOTerm: Elevated hepatic transaminase
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0011031
-      HPOTerm: Abnormality of iron homeostasis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0012378
-      HPOTerm: Fatigue
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

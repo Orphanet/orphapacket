@@ -1,67 +1,67 @@
 Orphapacket:
-  ORPHApacketId: '181412'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '181412'
-  Label: Adrenogenital syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_181412
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '101954'
-      Label: Rare adrenal disease
-  - Parent:
-    - ORPHAcode: '183637'
-      Label: Rare genetic adrenal disease
   Childs:
   - Child:
+      Genes: no data
       Label: Congenital adrenal hyperplasia
       ORPHAcode: '418'
-      Genes: no data
   - Child:
-      Label: Generalized glucocorticoid resistance syndrome
-      ORPHAcode: '786'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '7978'
+            Source: HGNC
+          - Reference: '138040'
+            Source: OMIM
           Label: nuclear receptor subfamily 3 group C member 1
           Symbol: NR3C1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7978'
-          - Source: OMIM
-            Reference: '138040'
+      Label: Generalized glucocorticoid resistance syndrome
+      ORPHAcode: '786'
   - Child:
-      Label: Hyperandrogenism due to cortisone reductase deficiency
-      ORPHAcode: '168588'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4795'
+            Source: HGNC
+          - Reference: '138090'
+            Source: OMIM
           Label: hexose-6-phosphate dehydrogenase/glucose 1-dehydrogenase
           Symbol: H6PD
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4795'
-          - Source: OMIM
-            Reference: '138090'
       - Gene:
+          ExternalReferences:
+          - Reference: '5208'
+            Source: HGNC
+          - Reference: '600713'
+            Source: OMIM
           Label: hydroxysteroid 11-beta dehydrogenase 1
           Symbol: HSD11B1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5208'
-          - Source: OMIM
-            Reference: '600713'
+      Label: Hyperandrogenism due to cortisone reductase deficiency
+      ORPHAcode: '168588'
   - Child:
-      Label: MIRAGE syndrome
-      ORPHAcode: '494433'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1348'
+            Source: HGNC
+          - Reference: '610456'
+            Source: OMIM
           Label: sterile alpha motif domain containing 9
           Symbol: SAMD9
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1348'
-          - Source: OMIM
-            Reference: '610456'
+      Label: MIRAGE syndrome
+      ORPHAcode: '494433'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Adrenogenital syndrome
+  ORPHAcode: '181412'
+  ORPHApacketId: '181412'
+  PURL: http://www.orpha.net/ORDO/Orphanet_181412
+  Parents:
+  - Parent:
+    - Label: Rare adrenal disease
+      ORPHAcode: '101954'
+  - Parent:
+    - Label: Rare genetic adrenal disease
+      ORPHAcode: '183637'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

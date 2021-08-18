@@ -1,22 +1,49 @@
 Orphapacket:
-  ORPHApacketId: '157808'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '157808'
-  Label: Congenital pseudoarthrosis of the limbs
-  PURL: http://www.orpha.net/ORDO/Orphanet_157808
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Congenital pseudoarthrosis of the tibia
+      ORPHAcode: '295018'
+  - Child:
+      Genes: no data
+      Label: Congenital pseudoarthrosis of the femur
+      ORPHAcode: '295020'
+  - Child:
+      Genes: no data
+      Label: Congenital pseudoarthrosis of the fibula
+      ORPHAcode: '295022'
+  - Child:
+      Genes: no data
+      Label: Congenital pseudoarthrosis of the radius
+      ORPHAcode: '295024'
+  - Child:
+      Genes: no data
+      Label: Congenital pseudoarthrosis of the ulna
+      ORPHAcode: '295026'
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  ExternalReferences:
+  - DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
+    Reference: '609143'
+    Source: OMIM
+  Label: Congenital pseudoarthrosis of the limbs
+  ORPHAcode: '157808'
+  ORPHApacketId: '157808'
+  PURL: http://www.orpha.net/ORDO/Orphanet_157808
+  Parents:
+  - Parent:
+    - Label: Non-syndromic limb malformation
+      ORPHAcode: '109011'
+  - Parent:
+    - Label: Dysostosis with limb anomaly as a major feature
+      ORPHAcode: '364568'
+  - Parent:
+    - Label: Dysostosis of genetic origin with limb anomaly as a major feature
+      ORPHAcode: '404571'
   Synonyms:
   - Synonym: Congenital pseudarthrosis of the limbs
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '609143'
-    DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
   TextSection:
-    TextSectionType: Definition
     Contents: Congenital pseudoarthrosis of the limbs is a rare genetic non-syndromic
       limb malformation characterized by delayed union or non-union of a long bone
       resulting in formation of a false joint with abnormal mobility and angulation
@@ -25,34 +52,7 @@ Orphapacket:
       findings include fibromatosis-like proliferation in the soft tissues with cystic
       or dysplastic lesions. Neurofibromatosis and osteofibrous dysplasia are frequently
       associated.
-  Parents:
-  - Parent:
-    - ORPHAcode: '109011'
-      Label: Non-syndromic limb malformation
-  - Parent:
-    - ORPHAcode: '364568'
-      Label: Dysostosis with limb anomaly as a major feature
-  - Parent:
-    - ORPHAcode: '404571'
-      Label: Dysostosis of genetic origin with limb anomaly as a major feature
-  Childs:
-  - Child:
-      Label: Congenital pseudoarthrosis of the tibia
-      ORPHAcode: '295018'
-      Genes: no data
-  - Child:
-      Label: Congenital pseudoarthrosis of the femur
-      ORPHAcode: '295020'
-      Genes: no data
-  - Child:
-      Label: Congenital pseudoarthrosis of the fibula
-      ORPHAcode: '295022'
-      Genes: no data
-  - Child:
-      Label: Congenital pseudoarthrosis of the radius
-      ORPHAcode: '295024'
-      Genes: no data
-  - Child:
-      Label: Congenital pseudoarthrosis of the ulna
-      ORPHAcode: '295026'
-      Genes: no data
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

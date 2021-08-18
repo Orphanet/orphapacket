@@ -1,59 +1,60 @@
 Orphapacket:
-  ORPHApacketId: '168454'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '168454'
-  Label: Spondyloepimetaphyseal dysplasia, Geneviève type
-  PURL: http://www.orpha.net/ORDO/Orphanet_168454
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: SEMD, Geneviève type
-  - Synonym: SEMDG
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '610442'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Spondyloepimetaphyseal dysplasia Geneviève type is a rare primary bone
-      dysplasia characterized by severe developmental delay and skeletal dysplasia
-      (including short stature premature carpal ossification platyspondyly longitudinal
-      metaphyseal striations and small epiphyses) as well as moderate to severe intellectual
-      disability and facial dysmorphism including prominent forehead mild synophrys
-      depressed nasal bridge prominent bulbous nasal tip and full lips.
-  Genes:
-  - Gene:
-      Symbol: NANS
-      Name: N-acetylneuraminate synthase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '253'
-      Label: Spondyloepiphyseal dysplasia and spondyloepimetaphyseal dysplasia
-  Prevalences:
-  - Prevalence:
-      Source: 27213289[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_27213289[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Infancy
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Infancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '610442'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: N-acetylneuraminate synthase
+      Symbol: NANS
+  Label: "Spondyloepimetaphyseal dysplasia, Genevi\xE8ve type"
+  ORPHAcode: '168454'
+  ORPHApacketId: '168454'
+  PURL: http://www.orpha.net/ORDO/Orphanet_168454
+  Parents:
+  - Parent:
+    - Label: Spondyloepiphyseal dysplasia and spondyloepimetaphyseal dysplasia
+      ORPHAcode: '253'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 27213289[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_27213289[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: "SEMD, Genevi\xE8ve type"
+  - Synonym: SEMDG
+  TextSection:
+    Contents: "Spondyloepimetaphyseal dysplasia Genevi\xE8ve type is a rare primary\
+      \ bone dysplasia characterized by severe developmental delay and skeletal dysplasia\
+      \ (including short stature premature carpal ossification platyspondyly longitudinal\
+      \ metaphyseal striations and small epiphyses) as well as moderate to severe\
+      \ intellectual disability and facial dysmorphism including prominent forehead\
+      \ mild synophrys depressed nasal bridge prominent bulbous nasal tip and full\
+      \ lips."
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

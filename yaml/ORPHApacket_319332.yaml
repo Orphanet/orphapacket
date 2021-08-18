@@ -1,24 +1,53 @@
 Orphapacket:
-  ORPHApacketId: '319332'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '319332'
-  Label: Autosomal recessive myogenic arthrogryposis multiplex congenita
-  PURL: http://www.orpha.net/ORDO/Orphanet_319332
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '618484'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: spectrin repeat containing nuclear envelope protein 1
+      Symbol: SYNE1
+  Label: Autosomal recessive myogenic arthrogryposis multiplex congenita
+  ORPHAcode: '319332'
+  ORPHApacketId: '319332'
+  PURL: http://www.orpha.net/ORDO/Orphanet_319332
+  Parents:
+  - Parent:
+    - Label: Arthrogryposis multiplex congenita
+      ORPHAcode: '1037'
+  - Parent:
+    - Label: Congenital muscular dystrophy
+      ORPHAcode: '97242'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 19542096[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_19542096[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Autosomal recessive myogenic AMC
   - Synonym: SYNE1-related AMC
   - Synonym: SYNE1-related arthrogryposis multiplex congenita
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '618484'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Autosomal recessive myogenic arthrogryposis multiplex congenita is a
       rare inherited neuromuscular disease characterized by prenatal presentation
       (usually in the second trimester) of reduced fetal movements and abnormal positioning
@@ -28,39 +57,10 @@ Orphapacket:
       tendon reflexes normal motor and sensory nerve conduction velocities no cerebellar
       or pyramidal involvement and progressive disease course with loss of ambulation
       after the first decade of life.
-  Genes:
-  - Gene:
-      Symbol: SYNE1
-      Name: spectrin repeat containing nuclear envelope protein 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '1037'
-      Label: Arthrogryposis multiplex congenita
-  - Parent:
-    - ORPHAcode: '97242'
-      Label: Congenital muscular dystrophy
-  Prevalences:
-  - Prevalence:
-      Source: 19542096[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_19542096[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

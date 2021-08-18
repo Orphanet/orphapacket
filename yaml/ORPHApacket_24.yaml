@@ -1,71 +1,68 @@
 Orphapacket:
-  ORPHApacketId: '24'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '24'
-  Label: Fumaric aciduria
-  PURL: http://www.orpha.net/ORDO/Orphanet_24
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Fumarase deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '606812'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: 'Fumaric aciduria (FA) an autosomal recessive metabolic disorder is
-      most often characterized by early onset but non-specific clinical signs: hypotonia
-      severe psychomotor impairment convulsions respiratory distress feeding difficulties
-      and frequent cerebral malformations along with a distinctive facies. Some patients
-      present with only moderate intellectual impairment.'
-  Genes:
-  - Gene:
-      Symbol: FH
-      Name: fumarate hydratase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '225700'
-      Label: Mitochondrial disease with epilepsy
-  - Parent:
-    - ORPHAcode: '225703'
-      Label: Mitochondrial disease with peripheral neuropathy
-  - Parent:
-    - ORPHAcode: '68385'
-      Label: Neurometabolic disease
-  - Parent:
-    - ORPHAcode: '254749'
-      Label: Tricarboxylic acid cycle disorder
-  - Parent:
-    - ORPHAcode: '68380'
-      Label: Mitochondrial disease
-  Prevalences:
-  - Prevalence:
-      Source: 22069215[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_22069215[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: early childhood
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: early childhood
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '606812'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: fumarate hydratase
+      Symbol: FH
+  Label: Fumaric aciduria
+  ORPHAcode: '24'
+  ORPHApacketId: '24'
+  PURL: http://www.orpha.net/ORDO/Orphanet_24
+  Parents:
+  - Parent:
+    - Label: Mitochondrial disease with epilepsy
+      ORPHAcode: '225700'
+  - Parent:
+    - Label: Mitochondrial disease with peripheral neuropathy
+      ORPHAcode: '225703'
+  - Parent:
+    - Label: Neurometabolic disease
+      ORPHAcode: '68385'
+  - Parent:
+    - Label: Tricarboxylic acid cycle disorder
+      ORPHAcode: '254749'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 22069215[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_22069215[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Fumarase deficiency
+  TextSection:
+    Contents: 'Fumaric aciduria (FA) an autosomal recessive metabolic disorder is
+      most often characterized by early onset but non-specific clinical signs: hypotonia
+      severe psychomotor impairment convulsions respiratory distress feeding difficulties
+      and frequent cerebral malformations along with a distinctive facies. Some patients
+      present with only moderate intellectual impairment.'
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

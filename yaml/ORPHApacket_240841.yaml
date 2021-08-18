@@ -1,34 +1,20 @@
 Orphapacket:
-  ORPHApacketId: '240841'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '240841'
-  Label: Abacavir toxicity
-  PURL: http://www.orpha.net/ORDO/Orphanet_240841
   DisorderType:
-    value: Particular clinical situation in a disease or syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377793
+    value: Particular clinical situation in a disease or syndrome
   Genes:
   - Gene:
-      Symbol: HLA-B
-      Name: major histocompatibility complex, class I, B
       ExternalReferences: []
+      Name: major histocompatibility complex, class I, B
+      Symbol: HLA-B
+  Label: Abacavir toxicity
+  ORPHAcode: '240841'
+  ORPHApacketId: '240841'
+  PURL: http://www.orpha.net/ORDO/Orphanet_240841
   Parents:
     Parent:
-    - ORPHAcode: '231957'
-      Label: Disease associated with a genetic susceptibility or tested for a biomarker
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    - Label: Disease associated with a genetic susceptibility or tested for a biomarker
+      ORPHAcode: '231957'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,14 +1,29 @@
 Orphapacket:
-  ORPHApacketId: '86879'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '86879'
-  Label: Extranodal nasal NK/T cell lymphoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_86879
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Extranodal nasal NK/T cell lymphoma
+  ORPHAcode: '86879'
+  ORPHApacketId: '86879'
+  PURL: http://www.orpha.net/ORDO/Orphanet_86879
+  Parents:
+  - Parent:
+    - Label: Aggressive primary cutaneous T-cell lymphoma
+      ORPHAcode: '178551'
+  - Parent:
+    - Label: Epstein-Barr virus-associated malignant lymphoproliferative disorder
+      ORPHAcode: '289644'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: France
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: Institut National du Cancer 2013[INST]
+      ValMoy: '2.25'
   Synonyms:
   - Synonym: Angiocentric T-cell lymphoma
   - Synonym: Lethal midline granuloma
@@ -16,7 +31,6 @@ Orphapacket:
   - Synonym: NKTCL
   - Synonym: Nasal T/natural killer-cell lymphoma
   TextSection:
-    TextSectionType: Definition
     Contents: Extranodal nasal NK/T cell lymphoma (NKTCL) is a rare malignant neoplasm
       mainly affecting men in the fifth decade of life that usually arises in the
       nose paranasal sinuses orbits or upper airway and that can present with a nasal
@@ -25,26 +39,12 @@ Orphapacket:
       In advanced disease stages which are associated with a poor prognosis NKTCL
       may disseminate to other organs. A few cases of NKTCL presenting primarily in
       the lymph nodes have also been described.
-  Parents:
-  - Parent:
-    - ORPHAcode: '178551'
-      Label: Aggressive primary cutaneous T-cell lymphoma
-  - Parent:
-    - ORPHAcode: '289644'
-      Label: Epstein-Barr virus-associated malignant lymphoproliferative disorder
-  Prevalences:
-    Prevalence:
-    - Source: Institut National du Cancer 2013[INST]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '2.25'
-      PrevalenceGeographic: France
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Multigenic/multifactorial
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

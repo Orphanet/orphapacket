@@ -1,20 +1,28 @@
 Orphapacket:
-  ORPHApacketId: '1717'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '1717'
-  Label: Distal trisomy 19q
-  PURL: http://www.orpha.net/ORDO/Orphanet_1717
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Label: Distal trisomy 19q
+  ORPHAcode: '1717'
+  ORPHApacketId: '1717'
+  PURL: http://www.orpha.net/ORDO/Orphanet_1717
+  Parents:
+  - Parent:
+    - Label: Partial duplication of the long arm of chromosome 19
+      ORPHAcode: '262986'
   Synonyms:
   - Synonym: Distal duplication 19q
   - Synonym: Telomeric duplication 19q
   - Synonym: Trisomy 19qter
   TextSection:
-    TextSectionType: Definition
     Contents: Distal trisomy 19q is a rare chromosomal anomaly syndrome characterized
       by low birth weight developmental delay intellectual disability short stature
       craniofacial dysmorphism (incl. microcephaly midface hypoplasia hypertelorism
@@ -22,15 +30,7 @@ Orphapacket:
       micrognathia) and a short neck with redundant skin folds. Additional features
       may include hypotonia skeletal anomalies (e.g. clino/camptodactyly) seizures
       and congenital cardiac urogenital and gastrointestinal malformations.
-  Parents:
-  - Parent:
-    - ORPHAcode: '262986'
-      Label: Partial duplication of the long arm of chromosome 19
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

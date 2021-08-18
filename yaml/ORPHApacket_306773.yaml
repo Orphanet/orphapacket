@@ -1,76 +1,76 @@
 Orphapacket:
-  ORPHApacketId: '306773'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '306773'
-  Label: Hyperekplexia
-  PURL: http://www.orpha.net/ORDO/Orphanet_306773
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '102003'
-      Label: Rare movement disorder
   Childs:
   - Child:
-      Label: Hereditary hyperekplexia
-      ORPHAcode: '3197'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '25903'
+            Source: HGNC
+          - Reference: '614452'
+            Source: OMIM
           Label: ATPase family AAA domain containing 1
           Symbol: ATAD1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '25903'
-          - Source: OMIM
-            Reference: '614452'
       - Gene:
+          ExternalReferences:
+          - Reference: '4326'
+            Source: HGNC
+          - Reference: '138491'
+            Source: OMIM
           Label: glycine receptor alpha 1
           Symbol: GLRA1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4326'
-          - Source: OMIM
-            Reference: '138491'
       - Gene:
+          ExternalReferences:
+          - Reference: '138492'
+            Source: OMIM
+          - Reference: '4329'
+            Source: HGNC
           Label: glycine receptor beta
           Symbol: GLRB
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '138492'
-          - Source: HGNC
-            Reference: '4329'
       - Gene:
+          ExternalReferences:
+          - Reference: '603930'
+            Source: OMIM
+          - Reference: '15465'
+            Source: HGNC
           Label: gephyrin
           Symbol: GPHN
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '603930'
-          - Source: HGNC
-            Reference: '15465'
       - Gene:
+          ExternalReferences:
+          - Reference: '11051'
+            Source: HGNC
+          - Reference: '604159'
+            Source: OMIM
           Label: solute carrier family 6 member 5
           Symbol: SLC6A5
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11051'
-          - Source: OMIM
-            Reference: '604159'
+      Label: Hereditary hyperekplexia
+      ORPHAcode: '3197'
   - Child:
-      Label: Hyperekplexia-epilepsy syndrome
-      ORPHAcode: '163985'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '14561'
+            Source: HGNC
+          - Reference: '300429'
+            Source: OMIM
           Label: Cdc42 guanine nucleotide exchange factor 9
           Symbol: ARHGEF9
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '14561'
-          - Source: OMIM
-            Reference: '300429'
+      Label: Hyperekplexia-epilepsy syndrome
+      ORPHAcode: '163985'
   - Child:
+      Genes: no data
       Label: Sporadic hyperekplexia
       ORPHAcode: '306776'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Hyperekplexia
+  ORPHAcode: '306773'
+  ORPHApacketId: '306773'
+  PURL: http://www.orpha.net/ORDO/Orphanet_306773
+  Parents:
+  - Parent:
+    - Label: Rare movement disorder
+      ORPHAcode: '102003'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

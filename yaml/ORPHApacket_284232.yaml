@@ -1,48 +1,48 @@
 Orphapacket:
-  ORPHApacketId: '284232'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '284232'
-  Label: Autosomal dominant Charcot-Marie-Tooth disease type 2O
-  PURL: http://www.orpha.net/ORDO/Orphanet_284232
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '614228'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: dynein cytoplasmic 1 heavy chain 1
+      Symbol: DYNC1H1
+  Label: Autosomal dominant Charcot-Marie-Tooth disease type 2O
+  ORPHAcode: '284232'
+  ORPHApacketId: '284232'
+  PURL: http://www.orpha.net/ORDO/Orphanet_284232
+  Parents:
+  - Parent:
+    - Label: Autosomal dominant Charcot-Marie-Tooth disease type 2
+      ORPHAcode: '64746'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: CMT2O
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614228'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic subtype of autosomal dominant Charcot-Marie-Tooth disease
       type 2 characterized by early childhood-onset of slowly progressive predominantly
       distal lower limb muscle weakness and atrophy delayed motor development variable
       sensory loss and pes cavus in the presence of normal or near-normal nerve conduction
       velocities. Additional variable features may include proximal muscle weakness
       abnormal gait arthrogryposis scoliosis cognitive impairment and spasticity.
-  Genes:
-  - Gene:
-      Symbol: DYNC1H1
-      Name: dynein cytoplasmic 1 heavy chain 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '64746'
-      Label: Autosomal dominant Charcot-Marie-Tooth disease type 2
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

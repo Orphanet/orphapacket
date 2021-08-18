@@ -1,16 +1,99 @@
 Orphapacket:
-  ORPHApacketId: '251612'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '251612'
-  Label: Pilocytic astrocytoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_251612
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '1097'
+            Source: HGNC
+          - Reference: '164757'
+            Source: OMIM
+          Label: B-Raf proto-oncogene, serine/threonine kinase
+          Symbol: BRAF
+      - Gene:
+          ExternalReferences:
+          - Reference: '1097'
+            Source: HGNC
+          - Reference: '164757'
+            Source: OMIM
+          Label: B-Raf proto-oncogene, serine/threonine kinase
+          Symbol: BRAF
+      - Gene:
+          ExternalReferences:
+          - Reference: '6407'
+            Source: HGNC
+          - Reference: '190070'
+            Source: OMIM
+          Label: KRAS proto-oncogene, GTPase
+          Symbol: KRAS
+      - Gene:
+          ExternalReferences:
+          - Reference: '9829'
+            Source: HGNC
+          - Reference: '164760'
+            Source: OMIM
+          Label: Raf-1 proto-oncogene, serine/threonine kinase
+          Symbol: RAF1
+      - Gene:
+          ExternalReferences:
+          - Reference: '3688'
+            Source: HGNC
+          - Reference: '136350'
+            Source: OMIM
+          Label: fibroblast growth factor receptor 1
+          Symbol: FGFR1
+      - Gene:
+          ExternalReferences:
+          - Reference: '19744'
+            Source: HGNC
+          - Reference: '606525'
+            Source: OMIM
+          Label: SLIT-ROBO Rho GTPase activating protein 3
+          Symbol: SRGAP3
+      - Gene:
+          ExternalReferences:
+          - Reference: '8032'
+            Source: HGNC
+          - Reference: '600456'
+            Source: OMIM
+          Label: neurotrophic receptor tyrosine kinase 2
+          Symbol: NTRK2
+      - Gene:
+          ExternalReferences:
+          - Reference: '22219'
+            Source: HGNC
+          - Reference: '613344'
+            Source: OMIM
+          Label: KIAA1549
+          Symbol: KIAA1549
+      Label: Pilomyxoid astrocytoma
+      ORPHAcode: '251615'
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Pilocytic astrocytoma
+  ORPHAcode: '251612'
+  ORPHApacketId: '251612'
+  PURL: http://www.orpha.net/ORDO/Orphanet_251612
+  Parents:
+  - Parent:
+    - Label: Low-grade astrocytoma
+      ORPHAcode: '251592'
+  - Parent:
+    - Label: Pediatric cancer of neuroepithelial tissue
+      ORPHAcode: '602695'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: Central Brain Tumor registry of the United States 2010-2014[REG]_29117289[PMID]
+      ValMoy: '0.36'
   TextSection:
-    TextSectionType: Definition
     Contents: Pilocytic astrocytoma is a rare subtype of low-grade glioma of the central
       nervous system characterized by a well circumscribed often cystic brain tumor
       with a discrete mural nodule and long hair-like projections that extend from
@@ -20,90 +103,10 @@ Orphapacket:
       and/or nystagmus among others. It is most commonly located in the cerebellum
       but ocurrence in the hypothalamus brain stem optic chiasma and hemispheres has
       also been reported.
-  Parents:
-  - Parent:
-    - ORPHAcode: '251592'
-      Label: Low-grade astrocytoma
-  Childs:
-  - Child:
-      Label: Pilomyxoid astrocytoma
-      ORPHAcode: '251615'
-      Genes:
-      - Gene:
-          Label: B-Raf proto-oncogene, serine/threonine kinase
-          Symbol: BRAF
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1097'
-          - Source: OMIM
-            Reference: '164757'
-      - Gene:
-          Label: B-Raf proto-oncogene, serine/threonine kinase
-          Symbol: BRAF
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1097'
-          - Source: OMIM
-            Reference: '164757'
-      - Gene:
-          Label: KRAS proto-oncogene, GTPase
-          Symbol: KRAS
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6407'
-          - Source: OMIM
-            Reference: '190070'
-      - Gene:
-          Label: Raf-1 proto-oncogene, serine/threonine kinase
-          Symbol: RAF1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9829'
-          - Source: OMIM
-            Reference: '164760'
-      - Gene:
-          Label: fibroblast growth factor receptor 1
-          Symbol: FGFR1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3688'
-          - Source: OMIM
-            Reference: '136350'
-      - Gene:
-          Label: SLIT-ROBO Rho GTPase activating protein 3
-          Symbol: SRGAP3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '19744'
-          - Source: OMIM
-            Reference: '606525'
-      - Gene:
-          Label: neurotrophic receptor tyrosine kinase 2
-          Symbol: NTRK2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8032'
-          - Source: OMIM
-            Reference: '600456'
-      - Gene:
-          Label: KIAA1549
-          Symbol: KIAA1549
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '22219'
-          - Source: OMIM
-            Reference: '613344'
-  Prevalences:
-    Prevalence:
-    - Source: Central Brain Tumor registry of the United States 2010-2014[REG]_29117289[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.36'
-      PrevalenceGeographic: United States
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

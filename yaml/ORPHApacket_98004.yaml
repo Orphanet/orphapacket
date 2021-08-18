@@ -1,52 +1,52 @@
 Orphapacket:
-  ORPHApacketId: '98004'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98004'
-  Label: Rare immune disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_98004
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '320716'
-      Label: Rare disorders
   Childs:
   - Child:
+      Genes: no data
       Label: Anti-HLA hyperimmunization
       ORPHAcode: '2194'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Graft versus host disease
       ORPHAcode: '39812'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Twin to twin transfusion syndrome
       ORPHAcode: '95431'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Primary immunodeficiency
       ORPHAcode: '101997'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Hemophagocytic syndrome
       ORPHAcode: '158032'
-      Genes: no data
   - Child:
-      Label: Hereditary neutrophilia
-      ORPHAcode: '279943'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2439'
+            Source: HGNC
+          - Reference: '138971'
+            Source: OMIM
           Label: colony stimulating factor 3 receptor
           Symbol: CSF3R
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2439'
-          - Source: OMIM
-            Reference: '138971'
+      Label: Hereditary neutrophilia
+      ORPHAcode: '279943'
   - Child:
+      Genes: no data
       Label: Acquired immunodeficiency
       ORPHAcode: '310050'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare immune disease
+  ORPHAcode: '98004'
+  ORPHApacketId: '98004'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98004
+  Parents:
+  - Parent:
+    - Label: Rare disorders
+      ORPHAcode: '320716'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

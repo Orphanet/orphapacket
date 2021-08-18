@@ -1,22 +1,26 @@
 Orphapacket:
-  ORPHApacketId: '99135'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99135'
-  Label: 6-phosphogluconate dehydrogenase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_99135
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '619199'
+    Source: OMIM
+  Label: 6-phosphogluconate dehydrogenase deficiency
+  ORPHAcode: '99135'
+  ORPHApacketId: '99135'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99135
+  Parents:
+  - Parent:
+    - Label: Hemolytic anemia due to hexose monophosphate shunt and glutathione metabolism
+        anomalies
+      ORPHAcode: '98370'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare constitutional hemolytic anemia characterized by a low 6-phosphogluconate
       dehydrogenase activity in the erythrocytes which clinically manifests with a
       well-compensated chronic nonspherocytic hemolytic anemia and transient hemolytic
       periods with jaundice.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98370'
-      Label: Hemolytic anemia due to hexose monophosphate shunt and glutathione metabolism
-        anomalies
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,46 +1,46 @@
 Orphapacket:
-  ORPHApacketId: '95485'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '95485'
-  Label: Arterial duct anomaly
-  PURL: http://www.orpha.net/ORDO/Orphanet_95485
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Patent ductus arteriosus anomalies
-  Parents:
-  - Parent:
-    - ORPHAcode: '98724'
-      Label: Congenital anomaly of the great arteries
   Childs:
   - Child:
-      Label: Familial patent arterial duct
-      ORPHAcode: '466729'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11743'
+            Source: HGNC
+          - Reference: '601601'
+            Source: OMIM
           Label: transcription factor AP-2 beta
           Symbol: TFAP2B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11743'
-          - Source: OMIM
-            Reference: '601601'
       - Gene:
+          ExternalReferences:
+          - Reference: '9350'
+            Source: HGNC
+          - Reference: '616982'
+            Source: OMIM
           Label: PR/SET domain 6
           Symbol: PRDM6
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9350'
-          - Source: OMIM
-            Reference: '616982'
+      Label: Familial patent arterial duct
+      ORPHAcode: '466729'
   - Child:
+      Genes: no data
       Label: Premature closure of the arterial duct
       ORPHAcode: '95486'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Congenital patent ductus arteriosus aneurysm
       ORPHAcode: '99072'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Arterial duct anomaly
+  ORPHAcode: '95485'
+  ORPHApacketId: '95485'
+  PURL: http://www.orpha.net/ORDO/Orphanet_95485
+  Parents:
+  - Parent:
+    - Label: Congenital anomaly of the great arteries
+      ORPHAcode: '98724'
+  Synonyms:
+  - Synonym: Patent ductus arteriosus anomalies
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

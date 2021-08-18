@@ -1,24 +1,141 @@
 Orphapacket:
-  ORPHApacketId: '452'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '452'
-  Label: X-linked lissencephaly with abnormal genitalia
-  PURL: http://www.orpha.net/ORDO/Orphanet_452
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: early childhood
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '300215'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: aristaless related homeobox
+      Symbol: ARX
+  Label: X-linked lissencephaly with abnormal genitalia
+  ORPHAcode: '452'
+  ORPHApacketId: '452'
+  PURL: http://www.orpha.net/ORDO/Orphanet_452
+  Parents:
+  - Parent:
+    - Label: Syndrome with 46,XY disorder of sex development
+      ORPHAcode: '98087'
+  - Parent:
+    - Label: ARX-related encephalopathy-brain malformation spectrum
+      ORPHAcode: '423655'
+  - Parent:
+    - Label: Other syndrome with lissencephaly as a major feature
+      ORPHAcode: '102010'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000028
+      HPOTerm: Cryptorchidism
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000062
+      HPOTerm: Ambiguous genitalia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000252
+      HPOTerm: Microcephaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000347
+      HPOTerm: Micrognathia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000966
+      HPOTerm: Hypohidrosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001252
+      HPOTerm: Muscular hypotonia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001257
+      HPOTerm: Spasticity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001274
+      HPOTerm: Agenesis of corpus callosum
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001302
+      HPOTerm: Pachygyria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001522
+      HPOTerm: Death in infancy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001629
+      HPOTerm: Ventricular septal defect
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001643
+      HPOTerm: Patent ductus arteriosus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001738
+      HPOTerm: Exocrine pancreatic insufficiency
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002024
+      HPOTerm: Malabsorption
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002119
+      HPOTerm: Ventriculomegaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002251
+      HPOTerm: Aganglionic megacolon
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008736
+      HPOTerm: Hypoplasia of penis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011220
+      HPOTerm: Prominent forehead
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 17480217[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_17480217[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: X-linked lissencephaly with ambiguous genitalia
   - Synonym: X-linked lissencephaly-corpus callosum agenesis-genital anomalies syndrome
   - Synonym: XLAG (X-linked lissencephaly with abnormal genitalia) syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '300215'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: X-linked lissencephaly with abnormal genitalia (XLAG) is a rare genetic
       central nervous system malformation disorder characterized in males by lissencephaly
       (with posterior predominance and moderately thickened cortex) complete absence
@@ -26,127 +143,10 @@ Orphapacket:
       microcephaly severe hypotonia poor responsiveness and hypogonadism (micropenis
       hypospadias cryptorchidism small scrotal sac). Defective temperature regulation
       and chronic diarrhea may be additionally observed.
-  Genes:
-  - Gene:
-      Symbol: ARX
-      Name: aristaless related homeobox
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98087'
-      Label: Syndrome with 46,XY disorder of sex development
-  - Parent:
-    - ORPHAcode: '423655'
-      Label: ARX-related encephalopathy-brain malformation spectrum
-  - Parent:
-    - ORPHAcode: '102010'
-      Label: Other syndrome with lissencephaly as a major feature
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000028
-      HPOTerm: Cryptorchidism
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000062
-      HPOTerm: Ambiguous genitalia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000252
-      HPOTerm: Microcephaly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000347
-      HPOTerm: Micrognathia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000966
-      HPOTerm: Hypohidrosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001250
-      HPOTerm: Seizures
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001252
-      HPOTerm: Muscular hypotonia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001257
-      HPOTerm: Spasticity
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001263
-      HPOTerm: Global developmental delay
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001274
-      HPOTerm: Agenesis of corpus callosum
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001302
-      HPOTerm: Pachygyria
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001522
-      HPOTerm: Death in infancy
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001629
-      HPOTerm: Ventricular septal defect
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001643
-      HPOTerm: Patent ductus arteriosus
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001738
-      HPOTerm: Exocrine pancreatic insufficiency
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002024
-      HPOTerm: Malabsorption
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002119
-      HPOTerm: Ventriculomegaly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002251
-      HPOTerm: Aganglionic megacolon
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0008736
-      HPOTerm: Hypoplasia of penis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0011220
-      HPOTerm: Prominent forehead
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-  - Prevalence:
-      Source: 17480217[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_17480217[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: early childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

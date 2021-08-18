@@ -1,92 +1,95 @@
 Orphapacket:
-  ORPHApacketId: '86884'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '86884'
-  Label: Subcutaneous panniculitis-like T-cell lymphoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_86884
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '618398'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: hepatitis A virus cellular receptor 2
+      Symbol: HAVCR2
+  Label: Subcutaneous panniculitis-like T-cell lymphoma
+  ORPHAcode: '86884'
+  ORPHApacketId: '86884'
+  PURL: http://www.orpha.net/ORDO/Orphanet_86884
+  Parents:
+  - Parent:
+    - Label: Indolent primary cutaneous T-cell lymphoma
+      ORPHAcode: '178548'
+  - Parent:
+    - Label: Pediatric T-cell non-Hodgkin lymphoma
+      ORPHAcode: '602675'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012490
+      HPOTerm: Panniculitis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0030350
+      HPOTerm: Erythematous papule
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001433
+      HPOTerm: Hepatosplenomegaly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001824
+      HPOTerm: Weight loss
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001945
+      HPOTerm: Fever
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003256
+      HPOTerm: Abnormality of the coagulation cascade
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012156
+      HPOTerm: Hemophagocytosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0025143
+      HPOTerm: Chills
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0025474
+      HPOTerm: Erythematous plaque
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0200042
+      HPOTerm: Skin ulcer
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: SPTCL
   - Synonym: Subcutaneous panniculitic T-cell lymphoma
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '618398'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Subcutaneous panniculitis-like T-cell lymphoma (SPTCL) is a rare cytotoxic
       cutaneous lymphoma that has been recognized as a distinct subset of peripheral
       T-cell lymphomas originating and presenting primarily in the subcutaneous fat
       tissue.
-  Genes:
-  - Gene:
-      Symbol: HAVCR2
-      Name: hepatitis A virus cellular receptor 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '178548'
-      Label: Indolent primary cutaneous T-cell lymphoma
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0012490
-      HPOTerm: Panniculitis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0030350
-      HPOTerm: Erythematous papule
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001433
-      HPOTerm: Hepatosplenomegaly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001824
-      HPOTerm: Weight loss
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001945
-      HPOTerm: Fever
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003256
-      HPOTerm: Abnormality of the coagulation cascade
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012156
-      HPOTerm: Hemophagocytosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012378
-      HPOTerm: Fatigue
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0025143
-      HPOTerm: Chills
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0025474
-      HPOTerm: Erythematous plaque
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0200042
-      HPOTerm: Skin ulcer
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

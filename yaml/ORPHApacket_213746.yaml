@@ -1,36 +1,36 @@
 Orphapacket:
-  ORPHApacketId: '213746'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '213746'
-  Label: Transitional cell carcinoma of the corpus uteri
-  PURL: http://www.orpha.net/ORDO/Orphanet_213746
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Transitional cell carcinoma of the corpus uteri
+  ORPHAcode: '213746'
+  ORPHApacketId: '213746'
+  PURL: http://www.orpha.net/ORDO/Orphanet_213746
+  Parents:
+  - Parent:
+    - Label: Rare cancer of corpus uteri
+      ORPHAcode: '213569'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Endometrial transitional cell carcinoma
   TextSection:
-    TextSectionType: Definition
     Contents: A rare uterine cancer characterized by a usually intracavitary friable
       relatively well-circumscribed tumor located in the corpus uteri with possible
       infiltration of the myometrium composed microscopically of cells resembling
       urothelial transition cells with a papillary or polypoid growth pattern typically
       admixed with another type of carcinoma (frequently endometrial adenocarcinoma)
       generally manifesting with postmenopausal vaginal bleeding.
-  Parents:
-  - Parent:
-    - ORPHAcode: '213569'
-      Label: Rare cancer of corpus uteri
-  Prevalences:
-    Prevalence:
-    - Source: RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,19 +1,70 @@
 Orphapacket:
-  ORPHApacketId: '26137'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '26137'
-  Label: Juvenile temporal arteritis
-  PURL: http://www.orpha.net/ORDO/Orphanet_26137
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Juvenile temporal arteritis
+  ORPHAcode: '26137'
+  ORPHApacketId: '26137'
+  PURL: http://www.orpha.net/ORDO/Orphanet_26137
+  Parents:
+  - Parent:
+    - Label: Predominantly large-vessel vasculitis
+      ORPHAcode: '156140'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001974
+      HPOTerm: Leukocytosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002315
+      HPOTerm: Headache
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0200036
+      HPOTerm: Skin nodule
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000509
+      HPOTerm: Conjunctivitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001880
+      HPOTerm: Eosinophilia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003193
+      HPOTerm: Allergic rhinitis
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0002633
+      HPOTerm: Vasculitis
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0002637
+      HPOTerm: Cerebral ischemia
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: JTA
   - Synonym: Non-giant cell granulomatous temporal arteritis with eosinophilia
   TextSection:
-    TextSectionType: Definition
     Contents: Juvenile temporal arteritis (JTA) is an extremely uncommon vasculitis
       of unknown etiology. Eleven documented cases have been reported in the literature
       affecting older children and young adults. In contrast to the classic form of
@@ -26,61 +77,10 @@ Orphapacket:
       the temporal arteries with eosinophilic infiltration intimal proliferation and
       microaneurysmal disruption of the media. JTA has a benign clinical course is
       treated by surgical excision and does not recur.
-  Parents:
-  - Parent:
-    - ORPHAcode: '156140'
-      Label: Predominantly large-vessel vasculitis
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001974
-      HPOTerm: Leukocytosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002315
-      HPOTerm: Headache
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0200036
-      HPOTerm: Skin nodule
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000509
-      HPOTerm: Conjunctivitis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001880
-      HPOTerm: Eosinophilia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003193
-      HPOTerm: Allergic rhinitis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002633
-      HPOTerm: Vasculitis
-      HPOFrequency: Excluded (0%)
-  - Phenotype:
-      HPOId: HP:0002637
-      HPOTerm: Cerebral ischemia
-      HPOFrequency: Excluded (0%)
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Unknown
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,47 +1,47 @@
 Orphapacket:
-  ORPHApacketId: '141269'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '141269'
-  Label: Lateral facial cleft
-  PURL: http://www.orpha.net/ORDO/Orphanet_141269
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '141229'
-      Label: Facial cleft
-  - Parent:
-    - ORPHAcode: '414726'
-      Label: Genetic facial cleft
-  Childs:
-  - Child:
-      Label: Tessier number 7 facial cleft
-      ORPHAcode: '141276'
-      Genes:
-      - Gene:
-          Label: patched 2
-          Symbol: PTCH2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9586'
-          - Source: OMIM
-            Reference: '603673'
-      - Gene:
-          Label: sperm antigen with calponin homology and coiled-coil domains 1 like
-          Symbol: SPECC1L
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '29022'
-          - Source: OMIM
-            Reference: '614140'
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '9586'
+            Source: HGNC
+          - Reference: '603673'
+            Source: OMIM
+          Label: patched 2
+          Symbol: PTCH2
+      - Gene:
+          ExternalReferences:
+          - Reference: '29022'
+            Source: HGNC
+          - Reference: '614140'
+            Source: OMIM
+          Label: sperm antigen with calponin homology and coiled-coil domains 1 like
+          Symbol: SPECC1L
+      Label: Tessier number 7 facial cleft
+      ORPHAcode: '141276'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Lateral facial cleft
+  ORPHAcode: '141269'
+  ORPHApacketId: '141269'
+  PURL: http://www.orpha.net/ORDO/Orphanet_141269
+  Parents:
+  - Parent:
+    - Label: Facial cleft
+      ORPHAcode: '141229'
+  - Parent:
+    - Label: Genetic facial cleft
+      ORPHAcode: '414726'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

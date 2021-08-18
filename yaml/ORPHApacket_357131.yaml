@@ -1,14 +1,15 @@
 Orphapacket:
-  ORPHApacketId: '357131'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '357131'
-  Label: Venous thoracic outlet syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_357131
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  Label: Venous thoracic outlet syndrome
+  ORPHAcode: '357131'
+  ORPHApacketId: '357131'
+  PURL: http://www.orpha.net/ORDO/Orphanet_357131
+  Parents:
+  - Parent:
+    - Label: Thoracic outlet syndrome
+      ORPHAcode: '97330'
   Synonyms:
   - Synonym: Effort subclavian vein thrombosis
   - Synonym: Paget-Schrotter disease
@@ -20,11 +21,10 @@ Orphapacket:
   - Synonym: Venous scalenus anticus syndrome
   - Synonym: Venous thoracic outlet compression syndrome
   TextSection:
-    TextSectionType: Definition
     Contents: Venous thoracic outlet syndrome (VTOS) is a form of thoracic outlet
       syndrome (TOS; see this term) that manifests as unilateral (rarely bilateral)
       arm pain and cyanosis.
-  Parents:
-  - Parent:
-    - ORPHAcode: '97330'
-      Label: Thoracic outlet syndrome
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

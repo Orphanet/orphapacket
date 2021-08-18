@@ -1,61 +1,64 @@
 Orphapacket:
-  ORPHApacketId: '2292'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2292'
-  Label: Congenital bowing of long bones
-  PURL: http://www.orpha.net/ORDO/Orphanet_2292
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '211355'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '264050'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Long bone bowing is a congenital condition described by the presence
-      of symmetric or asymmetric angular deformity and shortening of the long bones
-      particularly the femurs tibiae and ulnae.
-  Parents:
-  - Parent:
-    - ORPHAcode: '93439'
-      Label: Campomelic dysplasia and related disorders
-  - Parent:
-    - ORPHAcode: '294944'
-      Label: Congenital deformities of limbs
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0003307
-      HPOTerm: Hyperlordosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006487
-      HPOTerm: Bowing of the long bones
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '211355'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '264050'
+      Source: OMIM
+  Label: Congenital bowing of long bones
+  ORPHAcode: '2292'
+  ORPHApacketId: '2292'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2292
+  Parents:
+  - Parent:
+    - Label: Campomelic dysplasia and related disorders
+      ORPHAcode: '93439'
+  - Parent:
+    - Label: Congenital deformities of limbs
+      ORPHAcode: '294944'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003307
+      HPOTerm: Hyperlordosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006487
+      HPOTerm: Bowing of the long bones
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  TextSection:
+    Contents: A rare primary bone dysplasia characterized by congenital symmetric
+      or asymmetric shortness and bowing of long bones resulting in shortness of limbs
+      and limited extension at the knees and elbows. Additional reported features
+      are ''beaten metal'' appearance of the skull dolichomacrocephaly ocular hypertelorism
+      and anterior beaking and bone-within-bone appearance of vertebrae. There have
+      been no further descriptions in the literature since 1993.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

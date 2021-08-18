@@ -1,92 +1,92 @@
 Orphapacket:
-  ORPHApacketId: '329'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '329'
-  Label: Congenital factor XI deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_329
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '612416'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: coagulation factor XI
+      Symbol: F11
+  Label: Congenital factor XI deficiency
+  ORPHAcode: '329'
+  ORPHApacketId: '329'
+  PURL: http://www.orpha.net/ORDO/Orphanet_329
+  Parents:
+  - Parent:
+    - Label: Rare hemorrhagic disorder due to a constitutional coagulation factors
+        defect
+      ORPHAcode: '68334'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001892
+      HPOTerm: Abnormal bleeding
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001929
+      HPOTerm: Reduced factor XI activity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003645
+      HPOTerm: Prolonged partial thromboplastin time
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006298
+      HPOTerm: Prolonged bleeding after dental extraction
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010989
+      HPOTerm: Abnormality of the intrinsic pathway
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000132
+      HPOTerm: Menorrhagia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000421
+      HPOTerm: Epistaxis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002239
+      HPOTerm: Gastrointestinal hemorrhage
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0005261
+      HPOTerm: Joint hemorrhage
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.1'
   Synonyms:
   - Synonym: Hemophilia C
   - Synonym: PTA deficiency
   - Synonym: Plasma thromboplastin antecedent deficiency
   - Synonym: Rosenthal factor deficiency
   - Synonym: Rosenthal syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '612416'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare inherited bleeding disorder characterized by reduced levels and/or
       activity of factor XI (FXI) resulting in moderate bleeding symptoms usually
       occurring after trauma or surgery.
-  Genes:
-  - Gene:
-      Symbol: F11
-      Name: coagulation factor XI
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '68334'
-      Label: Rare hemorrhagic disorder due to a constitutional coagulation factors
-        defect
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001892
-      HPOTerm: Abnormal bleeding
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001929
-      HPOTerm: Reduced factor XI activity
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003645
-      HPOTerm: Prolonged partial thromboplastin time
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006298
-      HPOTerm: Prolonged bleeding after dental extraction
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0010989
-      HPOTerm: Abnormality of the intrinsic pathway
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000132
-      HPOTerm: Menorrhagia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000421
-      HPOTerm: Epistaxis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002239
-      HPOTerm: Gastrointestinal hemorrhage
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0005261
-      HPOTerm: Joint hemorrhage
-      HPOFrequency: Very rare (<4-1%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.1'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

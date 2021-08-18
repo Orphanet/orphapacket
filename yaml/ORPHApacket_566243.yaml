@@ -1,61 +1,69 @@
 Orphapacket:
-  ORPHApacketId: '566243'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '566243'
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '145650'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
+        Term)
+      Reference: '188570'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
+        Term)
+      Reference: '274300'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: thyroid hormone receptor beta
+      Symbol: THRB
   Label: Resistance to thyroid hormone due to a mutation in thyroid hormone receptor
     beta
+  ORPHAcode: '566243'
+  ORPHApacketId: '566243'
   PURL: http://www.orpha.net/ORDO/Orphanet_566243
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  Parents:
+  - Parent:
+    - Label: Syndrome of reduced sensitivity to thyroid hormone
+      ORPHAcode: '596426'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 14517508[PMID]_31149222[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Japan
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: ORPHANET_19542904[PMID]_31149222[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: RTHb
   - Synonym: Resistance to thyroid hormone beta
   - Synonym: Resistance to thyroid hormone due to a mutation in TRb
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '145650'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '188570'
-      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '274300'
-      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
-        Term)
-  Genes:
-  - Gene:
-      Symbol: THRB
-      Name: thyroid hormone receptor beta
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '181399'
-      Label: Rare hyperthyroidism
-  Prevalences:
-  - Prevalence:
-      Source: 14517508[PMID]_31149222[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: United States
-  - Prevalence:
-      Source: ORPHANET_19542904[PMID]_31149222[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Japan
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+  TextSection:
+    Contents: A rare genetic hyperthyroidism characterized by elevated levels of circulating
+      free thyroid hormones normal or elevated thyroid-stimulating hormone decreased
+      peripheral tissue responses to iodothyronine action and a highly variable clinical
+      phenotype which most commonly includes goiter resting tachycardia osteoporosis
+      short stature and attention deficit disorder. Some patients may be entirely
+      asymptomatic.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,22 +1,49 @@
 Orphapacket:
-  ORPHApacketId: '3273'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3273'
-  Label: Synovial sarcoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_3273
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '300813'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: SS18 subunit of BAF chromatin remodeling complex
+      Symbol: SS18
+  - Gene:
+      ExternalReferences: []
+      Name: SSX family member 1
+      Symbol: SSX1
+  - Gene:
+      ExternalReferences: []
+      Name: SSX family member 2
+      Symbol: SSX2
+  Label: Synovial sarcoma
+  ORPHAcode: '3273'
+  ORPHApacketId: '3273'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3273
+  Parents:
+  - Parent:
+    - Label: Soft tissue sarcoma
+      ORPHAcode: '3394'
+  - Parent:
+    - Label: Pediatric soft tissue sarcoma
+      ORPHAcode: '602681'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Synovialosarcoma
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '300813'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Synovial sarcoma is an aggressive soft tissue sarcoma (see this term)
       occurring most commonly in adolescents and young adults (15 to 40 years) usually
       localized near the large joints of the extremities but also in the head and
@@ -25,34 +52,10 @@ Orphapacket:
       is characterized by its local invasiveness and a propensity to metastasize.
       The origin of synovial sarcoma is likely from multipotent mesenchymal cells
       and not synovium (contrary to its name).
-  Genes:
-  - Gene:
-      Symbol: SS18
-      Name: SS18 subunit of BAF chromatin remodeling complex
-      ExternalReferences: []
-  - Gene:
-      Symbol: SSX1
-      Name: SSX family member 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: SSX2
-      Name: SSX family member 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '3394'
-      Label: Soft tissue sarcoma
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,71 +1,71 @@
 Orphapacket:
-  ORPHApacketId: '168588'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '168588'
-  Label: Hyperandrogenism due to cortisone reductase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_168588
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: 11-beta-hydroxysteroid dehydrogenase deficiency type 1
+    value: Malformation syndrome
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
       Reference: '604931'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
       Source: OMIM
-      Reference: '614662'
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
+      Reference: '614662'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: hexose-6-phosphate dehydrogenase/glucose 1-dehydrogenase
+      Symbol: H6PD
+  - Gene:
+      ExternalReferences: []
+      Name: hydroxysteroid 11-beta dehydrogenase 1
+      Symbol: HSD11B1
+  Label: Hyperandrogenism due to cortisone reductase deficiency
+  ORPHAcode: '168588'
+  ORPHApacketId: '168588'
+  PURL: http://www.orpha.net/ORDO/Orphanet_168588
+  Parents:
+  - Parent:
+    - Label: Anomaly of puberty or/and menstrual cycle
+      ORPHAcode: '180208'
+  - Parent:
+    - Label: Adrenogenital syndrome
+      ORPHAcode: '181412'
+  - Parent:
+    - Label: Anomaly of puberty or/and menstrual cycle of genetic origin
+      ORPHAcode: '202940'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: 11-beta-hydroxysteroid dehydrogenase deficiency type 1
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic endocrine disease characterized by defect in conversion
       of cortisone to active cortisol resulting in ACTH-mediated excessive androgen
       release from adrenal glands. Premature adrenarche is typical with precocious
       pseudopuberty proportionate tall stature and accelerated bone maturation in
       males and hirsutism oligoamenorrhea central obesity and infertility in females.
       Imaging studies may indicate adrenal hyperplasia.
-  Genes:
-  - Gene:
-      Symbol: H6PD
-      Name: hexose-6-phosphate dehydrogenase/glucose 1-dehydrogenase
-      ExternalReferences: []
-  - Gene:
-      Symbol: HSD11B1
-      Name: hydroxysteroid 11-beta dehydrogenase 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '180208'
-      Label: Anomaly of puberty or/and menstrual cycle
-  - Parent:
-    - ORPHAcode: '181412'
-      Label: Adrenogenital syndrome
-  - Parent:
-    - ORPHAcode: '202940'
-      Label: Anomaly of puberty or/and menstrual cycle of genetic origin
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

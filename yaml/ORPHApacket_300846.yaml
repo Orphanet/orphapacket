@@ -1,108 +1,113 @@
 Orphapacket:
-  ORPHApacketId: '300846'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '300846'
-  Label: Aggressive B-cell non-Hodgkin lymphoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_300846
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Aggressive B-cell NHL
-  Parents:
-  - Parent:
-    - ORPHAcode: '171915'
-      Label: B-cell non-Hodgkin lymphoma
-  Childs:
-  - Child:
-      Label: Burkitt lymphoma
-      ORPHAcode: '543'
-      Genes:
-      - Gene:
-          Label: MYC proto-oncogene, bHLH transcription factor
-          Symbol: MYC
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7553'
-          - Source: OMIM
-            Reference: '190080'
-  - Child:
-      Label: Diffuse large B-cell lymphoma
-      ORPHAcode: '544'
-      Genes: no data
-  - Child:
-      Label: Primary effusion lymphoma
-      ORPHAcode: '48686'
-      Genes: no data
-  - Child:
-      Label: Mantle cell lymphoma
-      ORPHAcode: '52416'
-      Genes:
-      - Gene:
-          Label: cyclin D1
-          Symbol: CCND1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1582'
-          - Source: OMIM
-            Reference: '168461'
-      - Gene:
-          Label: ATM serine/threonine kinase
-          Symbol: ATM
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '795'
-          - Source: OMIM
-            Reference: '607585'
-      - Gene:
-          Label: immunoglobulin heavy locus
-          Symbol: IGH
-          ExternalReferences:
-          - ExternalReference:
-              Source: HGNC
-              Reference: '5477'
-  - Child:
-      Label: B-cell prolymphocytic leukemia
-      ORPHAcode: '86852'
-      Genes: no data
-  - Child:
-      Label: Aggressive primary cutaneous B-cell lymphoma
-      ORPHAcode: '178554'
-      Genes: no data
-  - Child:
-      Label: Plasmablastic lymphoma
-      ORPHAcode: '289666'
-      Genes: no data
-  - Child:
-      Label: High grade B-cell lymphoma with MYC and/ or BCL2 and/or BCL6 rearrangement
-      ORPHAcode: '480541'
-      Genes:
-      - Gene:
-          Label: MYC proto-oncogene, bHLH transcription factor
-          Symbol: MYC
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7553'
-          - Source: OMIM
-            Reference: '190080'
-      - Gene:
-          Label: BCL2 apoptosis regulator
-          Symbol: BCL2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '990'
-          - Source: OMIM
-            Reference: '151430'
-      - Gene:
-          Label: BCL6 transcription repressor
-          Symbol: BCL6
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1001'
-          - Source: OMIM
-            Reference: '109565'
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Adult
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '7553'
+            Source: HGNC
+          - Reference: '190080'
+            Source: OMIM
+          Label: MYC proto-oncogene, bHLH transcription factor
+          Symbol: MYC
+      Label: Burkitt lymphoma
+      ORPHAcode: '543'
+  - Child:
+      Genes: no data
+      Label: Diffuse large B-cell lymphoma
+      ORPHAcode: '544'
+  - Child:
+      Genes: no data
+      Label: Primary effusion lymphoma
+      ORPHAcode: '48686'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '1582'
+            Source: HGNC
+          - Reference: '168461'
+            Source: OMIM
+          Label: cyclin D1
+          Symbol: CCND1
+      - Gene:
+          ExternalReferences:
+          - Reference: '795'
+            Source: HGNC
+          - Reference: '607585'
+            Source: OMIM
+          Label: ATM serine/threonine kinase
+          Symbol: ATM
+      - Gene:
+          ExternalReferences:
+          - Reference: '146910'
+            Source: OMIM
+          - Reference: '147010'
+            Source: OMIM
+          - Reference: '147070'
+            Source: OMIM
+          - Reference: '5477'
+            Source: HGNC
+          Label: immunoglobulin heavy locus
+          Symbol: IGH
+      Label: Mantle cell lymphoma
+      ORPHAcode: '52416'
+  - Child:
+      Genes: no data
+      Label: B-cell prolymphocytic leukemia
+      ORPHAcode: '86852'
+  - Child:
+      Genes: no data
+      Label: Aggressive primary cutaneous B-cell lymphoma
+      ORPHAcode: '178554'
+  - Child:
+      Genes: no data
+      Label: Plasmablastic lymphoma
+      ORPHAcode: '289666'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '7553'
+            Source: HGNC
+          - Reference: '190080'
+            Source: OMIM
+          Label: MYC proto-oncogene, bHLH transcription factor
+          Symbol: MYC
+      - Gene:
+          ExternalReferences:
+          - Reference: '990'
+            Source: HGNC
+          - Reference: '151430'
+            Source: OMIM
+          Label: BCL2 apoptosis regulator
+          Symbol: BCL2
+      - Gene:
+          ExternalReferences:
+          - Reference: '1001'
+            Source: HGNC
+          - Reference: '109565'
+            Source: OMIM
+          Label: BCL6 transcription repressor
+          Symbol: BCL6
+      Label: High grade B-cell lymphoma with MYC and/ or BCL2 and/or BCL6 rearrangement
+      ORPHAcode: '480541'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Aggressive B-cell non-Hodgkin lymphoma
+  ORPHAcode: '300846'
+  ORPHApacketId: '300846'
+  PURL: http://www.orpha.net/ORDO/Orphanet_300846
+  Parents:
+  - Parent:
+    - Label: B-cell non-Hodgkin lymphoma
+      ORPHAcode: '171915'
+  Synonyms:
+  - Synonym: Aggressive B-cell NHL
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

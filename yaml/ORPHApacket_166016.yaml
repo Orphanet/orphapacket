@@ -1,22 +1,124 @@
 Orphapacket:
-  ORPHApacketId: '166016'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '166016'
-  Label: Multiple epiphyseal dysplasia, Lowry type
-  PURL: http://www.orpha.net/ORDO/Orphanet_166016
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '601560'
+    Source: OMIM
+  Label: Multiple epiphyseal dysplasia, Lowry type
+  ORPHAcode: '166016'
+  ORPHApacketId: '166016'
+  PURL: http://www.orpha.net/ORDO/Orphanet_166016
+  Parents:
+  - Parent:
+    - Label: Multiple epiphyseal dysplasia
+      ORPHAcode: '251'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000316
+      HPOTerm: Hypertelorism
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000347
+      HPOTerm: Micrognathia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000455
+      HPOTerm: Broad nasal tip
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000582
+      HPOTerm: Upslanted palpebral fissure
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000766
+      HPOTerm: Abnormality of the sternum
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001156
+      HPOTerm: Brachydactyly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002656
+      HPOTerm: Epiphyseal dysplasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002663
+      HPOTerm: Delayed epiphyseal ossification
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002857
+      HPOTerm: Genu valgum
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003038
+      HPOTerm: Fibular hypoplasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003071
+      HPOTerm: Flattened epiphysis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003083
+      HPOTerm: Dislocated radial head
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008905
+      HPOTerm: Rhizomelia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010585
+      HPOTerm: Small epiphyses
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100168
+      HPOTerm: Fragmented epiphyses
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0410005
+      HPOTerm: Cleft hard palate
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006380
+      HPOTerm: Knee flexion contracture
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006471
+      HPOTerm: Fixed elbow flexion
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 8723087[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_8723087[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Multiple epiphyseal dysplasia with Robin phenotype
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '601560'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Multiple epiphyseal dysplasia Lowry type is a rare primary bone dysplasia
       characterized by small flat epiphyses (esp. the capital femoral epiphyses) rhizomelic
       shortening of limbs cleft of secondary palate micrognathia mild joint contractures
@@ -24,77 +126,7 @@ Orphapacket:
       broad nasal tip). Additionally reported features include scoliosis genu valgum
       mild pectus excavatum platyspondyly dislocated radial heads brachydactyly hypoplastic
       fibulae and talipes equinovarus.
-  Parents:
-  - Parent:
-    - ORPHAcode: '251'
-      Label: Multiple epiphyseal dysplasia
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000175
-      HPOTerm: Cleft palate
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000316
-      HPOTerm: Hypertelorism
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000347
-      HPOTerm: Micrognathia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000455
-      HPOTerm: Broad nasal tip
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000582
-      HPOTerm: Upslanted palpebral fissure
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002650
-      HPOTerm: Scoliosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002656
-      HPOTerm: Epiphyseal dysplasia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002857
-      HPOTerm: Genu valgum
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003042
-      HPOTerm: Elbow dislocation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003071
-      HPOTerm: Flattened epiphysis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008905
-      HPOTerm: Rhizomelia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0011849
-      HPOTerm: Abnormal bone ossification
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 8723087[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_8723087[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

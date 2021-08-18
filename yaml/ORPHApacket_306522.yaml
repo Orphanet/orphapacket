@@ -1,16 +1,61 @@
 Orphapacket:
-  ORPHApacketId: '306522'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '306522'
-  Label: Genetic primary hypomagnesemia with normocalciuria
-  PURL: http://www.orpha.net/ORDO/Orphanet_306522
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '17995'
+            Source: HGNC
+          - Reference: '607009'
+            Source: OMIM
+          Label: transient receptor potential cation channel subfamily M member 6
+          Symbol: TRPM6
+      Label: Primary hypomagnesemia with secondary hypocalcemia
+      ORPHAcode: '30924'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '3229'
+            Source: HGNC
+          - Reference: '131530'
+            Source: OMIM
+          Label: epidermal growth factor
+          Symbol: EGF
+      - Gene:
+          ExternalReferences:
+          - Reference: '103'
+            Source: HGNC
+          - Reference: '607803'
+            Source: OMIM
+          Label: cyclin and CBS domain divalent metal cation transport mediator 2
+          Symbol: CNNM2
+      Label: Familial primary hypomagnesemia with normocalciuria and normocalcemia
+      ORPHAcode: '34527'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '6218'
+            Source: HGNC
+          - Reference: '176260'
+            Source: OMIM
+          Label: potassium voltage-gated channel subfamily A member 1
+          Symbol: KCNA1
+      Label: Isolated autosomal dominant hypomagnesemia, Glaudemans type
+      ORPHAcode: '199326'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Genetic primary hypomagnesemia with normocalciuria
+  ORPHAcode: '306522'
+  ORPHApacketId: '306522'
+  PURL: http://www.orpha.net/ORDO/Orphanet_306522
+  Parents:
+  - Parent:
+    - Label: Genetic primary hypomagnesemia
+      ORPHAcode: '34526'
   TextSection:
-    TextSectionType: Definition
     Contents: 'Familial primary hypomagnesemia with normocalcuria (FPHN) is a form
       of familial primary hypomagnesemia (FPH; see this term) which is characterized
       by low magnesium values but normal calcium values in the serum. The disorder
@@ -18,52 +63,7 @@ Orphapacket:
       with normocalcuria and hypocalcemia (ARPHN) familial primary hypomagnesemia
       with normocalcuria and normocalcemia (FPHNN) and isolated autosomal dominant
       hypomagnesemia Glaudemans type (see these terms).'
-  Parents:
-  - Parent:
-    - ORPHAcode: '34526'
-      Label: Genetic primary hypomagnesemia
-  Childs:
-  - Child:
-      Label: Primary hypomagnesemia with secondary hypocalcemia
-      ORPHAcode: '30924'
-      Genes:
-      - Gene:
-          Label: transient receptor potential cation channel subfamily M member 6
-          Symbol: TRPM6
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '17995'
-          - Source: OMIM
-            Reference: '607009'
-  - Child:
-      Label: Familial primary hypomagnesemia with normocalciuria and normocalcemia
-      ORPHAcode: '34527'
-      Genes:
-      - Gene:
-          Label: epidermal growth factor
-          Symbol: EGF
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3229'
-          - Source: OMIM
-            Reference: '131530'
-      - Gene:
-          Label: cyclin and CBS domain divalent metal cation transport mediator 2
-          Symbol: CNNM2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '103'
-          - Source: OMIM
-            Reference: '607803'
-  - Child:
-      Label: Isolated autosomal dominant hypomagnesemia, Glaudemans type
-      ORPHAcode: '199326'
-      Genes:
-      - Gene:
-          Label: potassium voltage-gated channel subfamily A member 1
-          Symbol: KCNA1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6218'
-          - Source: OMIM
-            Reference: '176260'
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,18 +1,135 @@
 Orphapacket:
-  ORPHApacketId: '284454'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '284454'
-  Label: Acute zonal occult outer retinopathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_284454
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Acute zonal occult outer retinopathy
+  ORPHAcode: '284454'
+  ORPHApacketId: '284454'
+  PURL: http://www.orpha.net/ORDO/Orphanet_284454
+  Parents:
+  - Parent:
+    - Label: Rare retinal disorder
+      ORPHAcode: '519315'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000539
+      HPOTerm: Abnormality of refraction
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000545
+      HPOTerm: Myopia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000575
+      HPOTerm: Scotoma
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000622
+      HPOTerm: Blurred vision
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001123
+      HPOTerm: Visual field defect
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001133
+      HPOTerm: Constriction of peripheral visual field
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030604
+      HPOTerm: Abnormal fundus fluorescein angiography
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030644
+      HPOTerm: Blind-spot enlargment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030786
+      HPOTerm: Photopsia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0200057
+      HPOTerm: Marcus Gunn pupil
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000510
+      HPOTerm: Rod-cone dystrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000512
+      HPOTerm: Abnormal electroretinogram
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000580
+      HPOTerm: Pigmentary retinopathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000603
+      HPOTerm: Central scotoma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007663
+      HPOTerm: Reduced visual acuity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007722
+      HPOTerm: Retinal pigment epithelial atrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007814
+      HPOTerm: Retinal pigment epithelial mottling
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011531
+      HPOTerm: Vitritis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012377
+      HPOTerm: Hemianopia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030662
+      HPOTerm: Vitreous inflammatory cells
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000572
+      HPOTerm: Visual loss
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000610
+      HPOTerm: Abnormal choroid morphology
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0008046
+      HPOTerm: Abnormal retinal vascular morphology
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0030499
+      HPOTerm: Macular drusen
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 21056448[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: AZOOR
   TextSection:
-    TextSectionType: Definition
     Contents: A rare acquired retinal disorder characterised by sequential focal degeneration
       of photoreceptors retinal pigment epithelium and choroid with the majority of
       patients experiencing sudden onset photopsia and acute scotomas. Although patients
@@ -20,30 +137,10 @@ Orphapacket:
       epithelial disturbances tend to develop over time. Individuals also often complain
       of distortion of central vision photophobia and difficulty with night vision
       with more advanced cases reporting loss of peripheral vision.
-  Parents:
-  - Parent:
-    - ORPHAcode: '519315'
-      Label: Rare retinal disorder
-  Prevalences:
-  - Prevalence:
-      Source: 21056448[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adolescent
-  - AverageAgeOfOnset:
-      value: Adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

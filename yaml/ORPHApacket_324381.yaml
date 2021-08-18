@@ -1,46 +1,46 @@
 Orphapacket:
-  ORPHApacketId: '324381'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '324381'
-  Label: Hereditary inclusion body myopathy type 4
-  PURL: http://www.orpha.net/ORDO/Orphanet_324381
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Hereditary inclusion body myopathy type 4
+  ORPHAcode: '324381'
+  ORPHApacketId: '324381'
+  PURL: http://www.orpha.net/ORDO/Orphanet_324381
+  Parents:
+  - Parent:
+    - Label: Inclusion myopathy
+      ORPHAcode: '206662'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 22723986[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: HIBM4
   TextSection:
-    TextSectionType: Definition
     Contents: Hereditary inclusion body myopathy type 4 is a rare non-dystrophic myopathy
       characterized by slowly progressive muscular weakness and atrophy initially
       involving proximal lower limbs and hip girdle and later on shoulder girdle proximal
       upper limbs and axial muscles. Ambulation is usually preserved. Congophilic
       inclusions with cytoplasmic inclusions of 15-21 nm filaments on electron microscopy
       are revealed in muscle biopsy.
-  Parents:
-  - Parent:
-    - ORPHAcode: '206662'
-      Label: Inclusion myopathy
-  Prevalences:
-  - Prevalence:
-      Source: 22723986[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

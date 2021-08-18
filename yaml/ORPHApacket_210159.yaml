@@ -1,22 +1,59 @@
 Orphapacket:
-  ORPHApacketId: '210159'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '210159'
-  Label: Adult hepatocellular carcinoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_210159
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '114550'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: axin 1
+      Symbol: AXIN1
+  - Gene:
+      ExternalReferences: []
+      Name: phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+      Symbol: PIK3CA
+  - Gene:
+      ExternalReferences: []
+      Name: caspase 8
+      Symbol: CASP8
+  - Gene:
+      ExternalReferences: []
+      Name: tumor protein p53
+      Symbol: TP53
+  - Gene:
+      ExternalReferences: []
+      Name: platelet derived growth factor receptor like
+      Symbol: PDGFRL
+  - Gene:
+      ExternalReferences: []
+      Name: catenin beta 1
+      Symbol: CTNNB1
+  - Gene:
+      ExternalReferences: []
+      Name: TSC complex subunit 2
+      Symbol: TSC2
+  - Gene:
+      ExternalReferences: []
+      Name: TSC complex subunit 1
+      Symbol: TSC1
+  - Gene:
+      ExternalReferences: []
+      Name: epidermal growth factor
+      Symbol: EGF
+  Label: Adult hepatocellular carcinoma
+  ORPHAcode: '210159'
+  ORPHApacketId: '210159'
+  PURL: http://www.orpha.net/ORDO/Orphanet_210159
+  Parents:
+  - Parent:
+    - Label: Hepatocellular carcinoma
+      ORPHAcode: '88673'
   Synonyms:
   - Synonym: Adult HCC
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '114550'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
   TextSection:
-    TextSectionType: Definition
     Contents: A rare carcinoma of the liver characterized by one to several or many
       nodules occurring anywhere within the liver composed of neoplastic epithelial
       cells with hepatocellular differentiation. The vast majority of tumors are associated
@@ -25,47 +62,10 @@ Orphapacket:
       symptoms related to the tumor as well as to the underlying condition. Common
       manifestations include right upper quadrant abdominal pain weight loss hepatosplenomegaly
       jaundice and ascites. Symptomatic tumors generally have poor prognosis.
-  Genes:
-  - Gene:
-      Symbol: AXIN1
-      Name: axin 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: PIK3CA
-      Name: phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
-      ExternalReferences: []
-  - Gene:
-      Symbol: CASP8
-      Name: caspase 8
-      ExternalReferences: []
-  - Gene:
-      Symbol: TP53
-      Name: tumor protein p53
-      ExternalReferences: []
-  - Gene:
-      Symbol: PDGFRL
-      Name: platelet derived growth factor receptor like
-      ExternalReferences: []
-  - Gene:
-      Symbol: CTNNB1
-      Name: catenin beta 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: TSC2
-      Name: TSC complex subunit 2
-      ExternalReferences: []
-  - Gene:
-      Symbol: TSC1
-      Name: TSC complex subunit 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: EGF
-      Name: epidermal growth factor
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '88673'
-      Label: Hepatocellular carcinoma
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

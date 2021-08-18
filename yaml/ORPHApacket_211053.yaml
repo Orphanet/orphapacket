@@ -1,34 +1,34 @@
 Orphapacket:
-  ORPHApacketId: '211053'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '211053'
-  Label: Specific language disorder
-  PURL: http://www.orpha.net/ORDO/Orphanet_211053
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Synonyms:
-  - Synonym: Dysphasia
-  Parents:
-  - Parent:
-    - ORPHAcode: '211047'
-      Label: Specific learning disability
   Childs:
   - Child:
+      Genes: no data
       Label: Familial developmental dysphasia
       ORPHAcode: '1799'
-      Genes: no data
   - Child:
-      Label: Childhood apraxia of speech
-      ORPHAcode: '209908'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '13875'
+            Source: HGNC
+          - Reference: '605317'
+            Source: OMIM
           Label: forkhead box P2
           Symbol: FOXP2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '13875'
-          - Source: OMIM
-            Reference: '605317'
+      Label: Childhood apraxia of speech
+      ORPHAcode: '209908'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Specific language disorder
+  ORPHAcode: '211053'
+  ORPHApacketId: '211053'
+  PURL: http://www.orpha.net/ORDO/Orphanet_211053
+  Parents:
+  - Parent:
+    - Label: Specific learning disability
+      ORPHAcode: '211047'
+  Synonyms:
+  - Synonym: Dysphasia
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,48 +1,48 @@
 Orphapacket:
-  ORPHApacketId: '169793'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '169793'
-  Label: Severe hemophilia B
-  PURL: http://www.orpha.net/ORDO/Orphanet_169793
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: Severe factor IX deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '306900'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Severe hemophilia B is a form of hemophilia B (see this term) characterized
-      by a large deficiency of factor IX leading to frequent spontaneous hemorrhage
-      and abnormal bleeding as a result of minor injuries or following surgery or
-      tooth extraction.
-  Genes:
-  - Gene:
-      Symbol: F9
-      Name: coagulation factor IX
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98879'
-      Label: Hemophilia B
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.8'
-      PrevalenceGeographic: Europe
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '306900'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: coagulation factor IX
+      Symbol: F9
+  Label: Severe hemophilia B
+  ORPHAcode: '169793'
+  ORPHApacketId: '169793'
+  PURL: http://www.orpha.net/ORDO/Orphanet_169793
+  Parents:
+  - Parent:
+    - Label: Hemophilia B
+      ORPHAcode: '98879'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.8'
+  Synonyms:
+  - Synonym: Severe factor IX deficiency
+  TextSection:
+    Contents: Severe hemophilia B is a form of hemophilia B (see this term) characterized
+      by a large deficiency of factor IX leading to frequent spontaneous hemorrhage
+      and abnormal bleeding as a result of minor injuries or following surgery or
+      tooth extraction.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

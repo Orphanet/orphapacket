@@ -1,68 +1,68 @@
 Orphapacket:
-  ORPHApacketId: '79157'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79157'
-  Label: 2-methylbutyryl-CoA dehydrogenase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_79157
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: 2-methylbutyric aciduria
-  - Synonym: Developmental delay due to 2-methylbutyryl-CoA dehydrogenase deficiency
-  - Synonym: SBCAD deficiency
-  - Synonym: Short/branched-chain acyl-coA dehydrogenase deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '610006'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare organic aciduria characterized by impaired isoleucine degradation
-      with increased plasma or whole blood C5 acylcarnitine levels (typically observed
-      in newborn screening) and increased urinary excretion of N-methylbutyrylglycine.
-      The condition is usually clinically asymptomatic although patients with muscular
-      hypotonia developmental delay and seizures (among others) have been reported.
-  Genes:
-  - Gene:
-      Symbol: ACADSB
-      Name: acyl-CoA dehydrogenase short/branched chain
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79163'
-      Label: Classic organic aciduria
-  - Parent:
-    - ORPHAcode: '68385'
-      Label: Neurometabolic disease
-  - Parent:
-    - ORPHAcode: '225689'
-      Label: Amino acid or protein metabolism disease with epilepsy
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '610006'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: acyl-CoA dehydrogenase short/branched chain
+      Symbol: ACADSB
+  Label: 2-methylbutyryl-CoA dehydrogenase deficiency
+  ORPHAcode: '79157'
+  ORPHApacketId: '79157'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79157
+  Parents:
+  - Parent:
+    - Label: Classic organic aciduria
+      ORPHAcode: '79163'
+  - Parent:
+    - Label: Neurometabolic disease
+      ORPHAcode: '68385'
+  - Parent:
+    - Label: Amino acid or protein metabolism disease with epilepsy
+      ORPHAcode: '225689'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: 2-methylbutyric aciduria
+  - Synonym: Developmental delay due to 2-methylbutyryl-CoA dehydrogenase deficiency
+  - Synonym: SBCAD deficiency
+  - Synonym: Short/branched-chain acyl-coA dehydrogenase deficiency
+  TextSection:
+    Contents: A rare organic aciduria characterized by impaired isoleucine degradation
+      with increased plasma or whole blood C5 acylcarnitine levels (typically observed
+      in newborn screening) and increased urinary excretion of N-methylbutyrylglycine.
+      The condition is usually clinically asymptomatic although patients with muscular
+      hypotonia developmental delay and seizures (among others) have been reported.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

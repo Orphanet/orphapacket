@@ -1,25 +1,4 @@
 Orphapacket:
-  ORPHApacketId: '439175'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '439175'
-  Label: Pediatric arterial ischemic stroke
-  PURL: http://www.orpha.net/ORDO/Orphanet_439175
-  DisorderType:
-    value: Clinical syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377792
-  Synonyms:
-  - Synonym: Childhood AIS
-  - Synonym: Childhood arterial ischemic stroke
-  - Synonym: Pediatric AIS
-  Parents:
-  - Parent:
-    - ORPHAcode: '71281'
-      Label: Rare central nervous system and retinal vascular disease
-  - Parent:
-    - ORPHAcode: '496924'
-      Label: Non-inflammatory vasculopathy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -29,6 +8,39 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377792
+    value: Clinical syndrome
+  Label: Pediatric arterial ischemic stroke
+  ORPHAcode: '439175'
+  ORPHApacketId: '439175'
+  PURL: http://www.orpha.net/ORDO/Orphanet_439175
+  Parents:
+  - Parent:
+    - Label: Rare central nervous system and retinal vascular disease
+      ORPHAcode: '71281'
+  - Parent:
+    - Label: Non-inflammatory vasculopathy
+      ORPHAcode: '496924'
+  Synonyms:
+  - Synonym: Childhood AIS
+  - Synonym: Childhood arterial ischemic stroke
+  - Synonym: Pediatric AIS
+  TextSection:
+    Contents: A rare neurologic condition characterized by focal cerebral ischemia
+      and infarction due to blockage of a brain artery with subsequent impairment
+      of blood supply and oxygenation of brain tissue. Most children present with
+      hemiparesis with or without facial palsy at stroke onset. In addition compared
+      to adults children more often suffer strokes in the posterior circulation leading
+      to ataxia or oculomotor disturbance. Likewise aphasia is more frequent in pediatric
+      patients. Other signs and symptoms include seizures headache vomiting and alterations
+      in the level of consciousness. Children under one year of age are more likely
+      to present with seizures and altered level of consciousness while older children
+      more often show focal neurological deficits.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,77 +1,85 @@
 Orphapacket:
-  ORPHApacketId: '207028'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '207028'
-  Label: Cerebellar ataxia with peripheral neuropathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_207028
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '207025'
-      Label: Rare hereditary neurologic disease with peripheral neuropathy
   Childs:
   - Child:
-      Label: Friedreich ataxia
-      ORPHAcode: '95'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '3951'
+            Source: HGNC
+          - Reference: '606829'
+            Source: OMIM
           Label: frataxin
           Symbol: FXN
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3951'
-          - Source: OMIM
-            Reference: '606829'
+      Label: Friedreich ataxia
+      ORPHAcode: '95'
   - Child:
-      Label: Marinesco-Sjögren syndrome
-      ORPHAcode: '559'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '24624'
+            Source: HGNC
+          - Reference: '608005'
+            Source: OMIM
           Label: SIL1 nucleotide exchange factor
           Symbol: SIL1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '24624'
-          - Source: OMIM
-            Reference: '608005'
       - Gene:
+          ExternalReferences:
+          - Reference: '33882'
+            Source: HGNC
+          - Reference: '607875'
+            Source: OMIM
           Label: inositol polyphosphate-5-phosphatase K
           Symbol: INPP5K
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '33882'
-          - Source: OMIM
-            Reference: '607875'
+      Label: "Marinesco-Sj\xF6gren syndrome"
+      ORPHAcode: '559'
   - Child:
-      Label: Congenital cataracts-facial dysmorphism-neuropathy syndrome
-      ORPHAcode: '48431'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2498'
+            Source: HGNC
+          - Reference: '604927'
+            Source: OMIM
           Label: CTD phosphatase subunit 1
           Symbol: CTDP1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2498'
-          - Source: OMIM
-            Reference: '604927'
+      Label: Congenital cataracts-facial dysmorphism-neuropathy syndrome
+      ORPHAcode: '48431'
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '9969'
+            Source: HGNC
+          - Reference: '102579'
+            Source: OMIM
+          Label: replication factor C subunit 1
+          Symbol: RFC1
       Label: Cerebellar ataxia with neuropathy and bilateral vestibular areflexia
         syndrome
       ORPHAcode: '504476'
+  - Child:
       Genes:
       - Gene:
-          Label: replication factor C subunit 1
-          Symbol: RFC1
           ExternalReferences:
-          - Source: HGNC
-            Reference: '9969'
-          - Source: OMIM
-            Reference: '102579'
-  - Child:
+          - Reference: '17158'
+            Source: HGNC
+          - Reference: '615698'
+            Source: OMIM
+          Label: phospholipase D family member 3
+          Symbol: PLD3
       Label: Spinocerebellar ataxia type 46
       ORPHAcode: '589522'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Cerebellar ataxia with peripheral neuropathy
+  ORPHAcode: '207028'
+  ORPHApacketId: '207028'
+  PURL: http://www.orpha.net/ORDO/Orphanet_207028
+  Parents:
+  - Parent:
+    - Label: Rare hereditary neurologic disease with peripheral neuropathy
+      ORPHAcode: '207025'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

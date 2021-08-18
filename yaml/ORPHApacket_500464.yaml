@@ -1,47 +1,57 @@
 Orphapacket:
-  ORPHApacketId: '500464'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '500464'
-  Label: Squamous cell carcinoma of the nasal cavity and paranasal sinuses
-  PURL: http://www.orpha.net/ORDO/Orphanet_500464
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Squamous cell carcinoma of the nasal cavity and sinuses
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '275355'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  Genes:
-  - Gene:
-      Symbol: TNFRSF10B
-      Name: TNF receptor superfamily member 10b
-      ExternalReferences: []
-  - Gene:
-      Symbol: PTEN
-      Name: phosphatase and tensin homolog
-      ExternalReferences: []
-  - Gene:
-      Symbol: ING1
-      Name: inhibitor of growth family member 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98061'
-      Label: Rare otorhinolaryngologic tumor
-  Prevalences:
-    Prevalence:
-    - Source: RARECARE surveillance of rare cancers in Europe[REG]_28687376[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.35'
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adult
   - AverageAgeOfOnset:
       value: Elderly
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '275355'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: TNF receptor superfamily member 10b
+      Symbol: TNFRSF10B
+  - Gene:
+      ExternalReferences: []
+      Name: phosphatase and tensin homolog
+      Symbol: PTEN
+  - Gene:
+      ExternalReferences: []
+      Name: inhibitor of growth family member 1
+      Symbol: ING1
+  Label: Squamous cell carcinoma of the nasal cavity and paranasal sinuses
+  ORPHAcode: '500464'
+  ORPHApacketId: '500464'
+  PURL: http://www.orpha.net/ORDO/Orphanet_500464
+  Parents:
+  - Parent:
+    - Label: Rare otorhinolaryngologic tumor
+      ORPHAcode: '98061'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]_28687376[PMID]
+      ValMoy: '0.35'
+  Synonyms:
+  - Synonym: Squamous cell carcinoma of the nasal cavity and sinuses
+  TextSection:
+    Contents: A rare head and neck tumor characterized by a malignant epithelial neoplasm
+      most commonly arising in the maxillary sinus or nasal cavity occurring as a
+      keratinizing a non-keratinizing or a spindle cell (sarcomatoid) type. Patients
+      may present with nasal obstruction epistaxis rhinorrhea swelling or (at more
+      advances stages) with facial pain and/or paralysis diplopia and proptosis. Patients
+      with paranasal sinus tumors present later and at a higher stage than patients
+      with nasal cavity carcinomas. Risk factors are smoking and industrial exposures.
+      High-risk HPV is most frequently associated with the non-keratinizing type.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

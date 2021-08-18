@@ -1,54 +1,54 @@
 Orphapacket:
-  ORPHApacketId: '280654'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '280654'
-  Label: Autosomal recessive nail dysplasia
-  PURL: http://www.orpha.net/ORDO/Orphanet_280654
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
-      Reference: '161050'
       DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
         Term)
-  - ExternalReference:
+      Reference: '161050'
       Source: OMIM
-      Reference: '614157'
+  - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '614157'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: frizzled class receptor 6
+      Symbol: FZD6
+  Label: Autosomal recessive nail dysplasia
+  ORPHAcode: '280654'
+  ORPHApacketId: '280654'
+  PURL: http://www.orpha.net/ORDO/Orphanet_280654
+  Parents:
+  - Parent:
+    - Label: Isolated nail anomaly
+      ORPHAcode: '79369'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 21665003[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Autosomal recessive nail dysplasia is a rare isolated nail anomaly characterized
       by claw-shaped thick hyperplastic hard and hyperpigmented nails subungual hyperkeratosis
       onycholysis and slow nail growth. Variable degree of disease severity has been
       reported.
-  Genes:
-  - Gene:
-      Symbol: FZD6
-      Name: frizzled class receptor 6
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79369'
-      Label: Isolated nail anomaly
-  Prevalences:
-  - Prevalence:
-      Source: 21665003[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

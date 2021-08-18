@@ -1,63 +1,60 @@
 Orphapacket:
-  ORPHApacketId: '99141'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99141'
-  Label: Lymphedema-posterior choanal atresia syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_99141
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '613611'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: protein tyrosine phosphatase non-receptor type 14
+      Symbol: PTPN14
+  Label: Lymphedema-posterior choanal atresia syndrome
+  ORPHAcode: '99141'
+  ORPHApacketId: '99141'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99141
+  Parents:
+  - Parent:
+    - Label: Rare lymphatic malformation
+      ORPHAcode: '2415'
+  - Parent:
+    - Label: Late-onset primary lymphedema without systemic or visceral involvement
+      ORPHAcode: '289825'
+  - Parent:
+    - Label: Nose and cavum anomaly
+      ORPHAcode: '156246'
+  - Parent:
+    - Label: Genetic nose and cavum anomaly
+      ORPHAcode: '435606'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 20826270[PMID] _DOI:10.1016/j.mgene.2017.07.006[OTHER]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_20826270[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic disease characterized by choanal atresia and early onset
       of lymphedema of the lower extremities. Additional reported features include
       facial dysmorphism (hypertelorism broad forehead smooth philtrum unilateral
       low-set ear and high-arched palate) hypoplastic nipples and pectus excavatum.
-  Genes:
-  - Gene:
-      Symbol: PTPN14
-      Name: protein tyrosine phosphatase non-receptor type 14
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '2415'
-      Label: Rare lymphatic malformation
-  - Parent:
-    - ORPHAcode: '289825'
-      Label: Late-onset primary lymphedema without systemic or visceral involvement
-  - Parent:
-    - ORPHAcode: '156246'
-      Label: Nose and cavum anomaly
-  - Parent:
-    - ORPHAcode: '211240'
-      Label: Genetic vascular anomaly
-  - Parent:
-    - ORPHAcode: '435606'
-      Label: Genetic nose and cavum anomaly
-  Prevalences:
-  - Prevalence:
-      Source: 20826270[PMID] _DOI:10.1016/j.mgene.2017.07.006[OTHER]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_20826270[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

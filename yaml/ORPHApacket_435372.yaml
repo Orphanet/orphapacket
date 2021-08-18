@@ -1,28 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '435372'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '435372'
-  Label: Anterior urethral valve
-  PURL: http://www.orpha.net/ORDO/Orphanet_435372
-  DisorderType:
-    value: Morphological anomaly
-    PURL: http://www.orpha.net/ORDO/Orphanet_377791
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare congenital fetal lower urinary tract obstruction (LUTO) anomaly
-      occurring in males and characterized by a posteriorly directed semilunar fold
-      arising from the floor of the anterior urethra and causing urethral obstruction
-      during micturition. The valves may be located anywhere distal to the membranous
-      urethra. Clinical presentation is highly variable depending on age and degree
-      of urinary obstruction and includes urinary incontinence urinary retention weak
-      urinary stream post-micturitional dribbling bulging on the ventral penis urinary
-      tract infection and urosepsis.
-  Parents:
-  - Parent:
-    - ORPHAcode: '435365'
-      Label: Fetal lower urinary tract obstruction
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -34,9 +13,30 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  Label: Anterior urethral valve
+  ORPHAcode: '435372'
+  ORPHApacketId: '435372'
+  PURL: http://www.orpha.net/ORDO/Orphanet_435372
+  Parents:
+  - Parent:
+    - Label: Fetal lower urinary tract obstruction
+      ORPHAcode: '435365'
+  TextSection:
+    Contents: A rare congenital fetal lower urinary tract obstruction (LUTO) anomaly
+      occurring in males and characterized by a posteriorly directed semilunar fold
+      arising from the floor of the anterior urethra and causing urethral obstruction
+      during micturition. The valves may be located anywhere distal to the membranous
+      urethra. Clinical presentation is highly variable depending on age and degree
+      of urinary obstruction and includes urinary incontinence urinary retention weak
+      urinary stream post-micturitional dribbling bulging on the ventral penis urinary
+      tract infection and urosepsis.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

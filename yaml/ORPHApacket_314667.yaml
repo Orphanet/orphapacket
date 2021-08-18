@@ -1,14 +1,59 @@
 Orphapacket:
-  ORPHApacketId: '314667'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '314667'
-  Label: TMEM165-CDG
-  PURL: http://www.orpha.net/ORDO/Orphanet_314667
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '614727'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: transmembrane protein 165
+      Symbol: TMEM165
+  Label: TMEM165-CDG
+  ORPHAcode: '314667'
+  ORPHApacketId: '314667'
+  PURL: http://www.orpha.net/ORDO/Orphanet_314667
+  Parents:
+  - Parent:
+    - Label: Congenital disorder of glycosylation with hepatic involvement
+      ORPHAcode: '371157'
+  - Parent:
+    - Label: Congenital disorder of glycosylation-related bone disorder
+      ORPHAcode: '371195'
+  - Parent:
+    - Label: Congenital disorder of glycosylation with neurological involvement
+      ORPHAcode: '371047'
+  - Parent:
+    - Label: Primary bone dysplasia with decreased bone density
+      ORPHAcode: '93446'
+  - Parent:
+    - Label: Disorder of protein N-glycosylation
+      ORPHAcode: '309347'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 22683087[PMID]_26238249[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_22683087[PMID]_26238249[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: CDG syndrome type IIk
   - Synonym: CDG-IIk
@@ -16,12 +61,7 @@ Orphapacket:
   - Synonym: Carbohydrate deficient glycoprotein syndrome type IIk
   - Synonym: Congenital disorder of glycosylation type 2k
   - Synonym: Congenital disorder of glycosylation type IIk
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614727'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: TMEM165-CDG is a form of congenital disorders of N-linked glycosylation
       characterized by a psychomotor delay-dysmorphism (pectus carinatum dorsolumbar
       kyphosis and severe sinistroconvex scoliosis short distal phalanges genua vara
@@ -31,50 +71,10 @@ Orphapacket:
       moderately high arched palate small teeth) nephrotic syndrome cardiac defects
       and feeding problems. The disease is caused by mutations in the gene <i>TMEM165</i>
       (4q12).
-  Genes:
-  - Gene:
-      Symbol: TMEM165
-      Name: transmembrane protein 165
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '371157'
-      Label: Congenital disorder of glycosylation with hepatic involvement
-  - Parent:
-    - ORPHAcode: '371195'
-      Label: Congenital disorder of glycosylation-related bone disorder
-  - Parent:
-    - ORPHAcode: '371047'
-      Label: Congenital disorder of glycosylation with neurological involvement
-  - Parent:
-    - ORPHAcode: '93446'
-      Label: Primary bone dysplasia with decreased bone density
-  - Parent:
-    - ORPHAcode: '309347'
-      Label: Disorder of protein N-glycosylation
-  Prevalences:
-  - Prevalence:
-      Source: 22683087[PMID]_26238249[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_22683087[PMID]_26238249[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

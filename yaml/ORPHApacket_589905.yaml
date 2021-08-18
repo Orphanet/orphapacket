@@ -1,30 +1,48 @@
 Orphapacket:
-  ORPHApacketId: '589905'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '589905'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: pleckstrin homology domain interacting protein
+      Symbol: PHIP
   Label: PHIP-related behavioral problems-intellectual disability-obesity-dysmorphic
     features syndrome
+  ORPHAcode: '589905'
+  ORPHApacketId: '589905'
   PURL: http://www.orpha.net/ORDO/Orphanet_589905
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Chung-Jansen syndrome
   Parents:
   - Parent:
-    - ORPHAcode: '240371'
-      Label: Syndromic obesity
+    - Label: Syndromic obesity
+      ORPHAcode: '240371'
   - Parent:
-    - ORPHAcode: '102283'
-      Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
   - Parent:
-    - ORPHAcode: '183763'
-      Label: Rare genetic syndromic intellectual disability
+    - Label: Rare genetic syndromic intellectual disability
+      ORPHAcode: '183763'
   - Parent:
-    - ORPHAcode: '102369'
-      Label: Rare syndromic intellectual disability
+    - Label: Rare syndromic intellectual disability
+      ORPHAcode: '102369'
   - Parent:
-    - ORPHAcode: '98033'
-      Label: Rare neurologic disease with psychiatric involvement
+    - Label: Rare neurologic disease with psychiatric involvement
+      ORPHAcode: '98033'
+  Synonyms:
+  - Synonym: Chung-Jansen syndrome
+  TextSection:
+    Contents: A rare genetic multiple congenital anomalies/dysmorphic syndrome characterized
+      by variable developmental delay and intellectual disability overweight or obesity
+      behavioral abnormalities (including hyperactivity aggressive behavior anxiety
+      mood disorder or autistic features) and facial dysmorphism (such as high forehead
+      full eyebrows and/or synophrys upturned nose and fleshy ears among others).
+      Additional reported manifestations are hypotonia ocular anomalies anomalies
+      of the fingers and toes joint hypermobility or abnormal pigmentation. Brain
+      imaging may show mild nonspecific abnormalities.
+    TextSectionType: Definition
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

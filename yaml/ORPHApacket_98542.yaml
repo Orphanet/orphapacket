@@ -1,64 +1,64 @@
 Orphapacket:
-  ORPHApacketId: '98542'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98542'
-  Label: Infectious disease with dementia
-  PURL: http://www.orpha.net/ORDO/Orphanet_98542
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '89043'
-      Label: Rare dementia
   Childs:
   - Child:
-      Label: Herpes simplex virus encephalitis
-      ORPHAcode: '1930'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '13481'
+            Source: HGNC
+          - Reference: '608204'
+            Source: OMIM
           Label: unc-93 homolog B1, TLR signaling regulator
           Symbol: UNC93B1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '13481'
-          - Source: OMIM
-            Reference: '608204'
       - Gene:
+          ExternalReferences:
+          - Reference: '11849'
+            Source: HGNC
+          - Reference: '603029'
+            Source: OMIM
           Label: toll like receptor 3
           Symbol: TLR3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11849'
-          - Source: OMIM
-            Reference: '603029'
       - Gene:
+          ExternalReferences:
+          - Reference: '18348'
+            Source: HGNC
+          - Reference: '607601'
+            Source: OMIM
           Label: toll like receptor adaptor molecule 1
           Symbol: TICAM1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18348'
-          - Source: OMIM
-            Reference: '607601'
       - Gene:
+          ExternalReferences:
+          - Reference: '12033'
+            Source: HGNC
+          - Reference: '601896'
+            Source: OMIM
           Label: TNF receptor associated factor 3
           Symbol: TRAF3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12033'
-          - Source: OMIM
-            Reference: '601896'
       - Gene:
+          ExternalReferences:
+          - Reference: '11584'
+            Source: HGNC
+          - Reference: '604834'
+            Source: OMIM
           Label: TANK binding kinase 1
           Symbol: TBK1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11584'
-          - Source: OMIM
-            Reference: '604834'
+      Label: Herpes simplex virus encephalitis
+      ORPHAcode: '1930'
   - Child:
+      Genes: no data
       Label: Postencephalitic parkinsonism
       ORPHAcode: '97349'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Infectious disease with dementia
+  ORPHAcode: '98542'
+  ORPHApacketId: '98542'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98542
+  Parents:
+  - Parent:
+    - Label: Rare dementia
+      ORPHAcode: '89043'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

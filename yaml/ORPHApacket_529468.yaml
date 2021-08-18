@@ -1,18 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '529468'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '529468'
-  Label: Monoclonal mast cell activation syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_529468
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Monoclonal mast cell activation syndrome
+  ORPHAcode: '529468'
+  ORPHApacketId: '529468'
+  PURL: http://www.orpha.net/ORDO/Orphanet_529468
+  Parents:
+  - Parent:
+    - Label: Tumor of hematopoietic and lymphoid tissues
+      ORPHAcode: '68347'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_24745674[PMID]
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Monoclonal MCAD
   TextSection:
-    TextSectionType: Definition
     Contents: A rare hematologic disease characterized by symptoms of mast cell activation
       in the absence of cutaneous findings as well as absence of diagnostic criteria
       of systemic mastocytosis with tryptase levels of less than 20 ng/ml and normal
@@ -21,21 +35,7 @@ Orphapacket:
       present with recurrent episodes of flushing headache hypotension abdominal cramping
       nausea diarrhea cardiac arrhythmias bronchoconstriction and bleeding diathesis
       among others.
-  Parents:
-  - Parent:
-    - ORPHAcode: '68347'
-      Label: Tumor of hematopoietic and lymphoid tissues
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET_24745674[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

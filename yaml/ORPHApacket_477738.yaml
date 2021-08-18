@@ -1,16 +1,33 @@
 Orphapacket:
-  ORPHApacketId: '477738'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '477738'
-  Label: Pediatric multiple sclerosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_477738
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: major histocompatibility complex, class II, DQ beta 1
+      Symbol: HLA-DQB1
+  - Gene:
+      ExternalReferences: []
+      Name: major histocompatibility complex, class II, DR beta 1
+      Symbol: HLA-DRB1
+  Label: Pediatric multiple sclerosis
+  ORPHAcode: '477738'
+  ORPHApacketId: '477738'
+  PURL: http://www.orpha.net/ORDO/Orphanet_477738
+  Parents:
+  - Parent:
+    - Label: Multiple sclerosis variant
+      ORPHAcode: '228145'
+  - Parent:
+    - Label: Disease associated with a genetic susceptibility or tested for a biomarker
+      ORPHAcode: '231957'
   TextSection:
-    TextSectionType: Definition
     Contents: Pediatric multiple sclerosis (MS) is a rare multiple sclerosis variant
       characterized by the onset of multiple sclerosis (i.e. one or multiple episodes
       of clinical CNS symptoms consistent with acquired CNS demyelination with radiologically
@@ -21,24 +38,7 @@ Orphapacket:
       monofocal or polyfocal neurological deficits. A high burden of T2-hyperintense
       lesions on intial MRI primarily of the supratentorial region and/or of the cervical
       spinal cord has been reported.
-  Genes:
-  - Gene:
-      Symbol: HLA-DQB1
-      Name: major histocompatibility complex, class II, DQ beta 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: HLA-DRB1
-      Name: major histocompatibility complex, class II, DR beta 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '228145'
-      Label: Multiple sclerosis variant
-  - Parent:
-    - ORPHAcode: '231957'
-      Label: Disease associated with a genetic susceptibility or tested for a biomarker
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adolescent
-  - AverageAgeOfOnset:
-      value: Childhood
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

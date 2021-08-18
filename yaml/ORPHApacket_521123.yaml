@@ -1,16 +1,19 @@
 Orphapacket:
-  ORPHApacketId: '521123'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '521123'
-  Label: Radiation-induced plexopathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_521123
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Radiation-induced plexopathy
+  ORPHAcode: '521123'
+  ORPHApacketId: '521123'
+  PURL: http://www.orpha.net/ORDO/Orphanet_521123
+  Parents:
+  - Parent:
+    - Label: Radiation-induced disorder
+      ORPHAcode: '521132'
+  - Parent:
+    - Label: Acquired peripheral neuropathy
+      ORPHAcode: '182086'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare radiation-induced disorder characterized by impairment of the
       peripheral nervous system at the level of the brachial or lumbosacral plexus
       following radiation therapy. Onset of symptoms can occur between several months
@@ -19,10 +22,7 @@ Orphapacket:
       followed by weakness atrophy and pain. Symptoms in radiation-induced lumbosacral
       plexopathy include more variable combinations of numbness paresthesia pain and
       weakness and are more often bilateral.
-  Parents:
-  - Parent:
-    - ORPHAcode: '521132'
-      Label: Radiation-induced disorder
-  - Parent:
-    - ORPHAcode: '182086'
-      Label: Acquired peripheral neuropathy
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

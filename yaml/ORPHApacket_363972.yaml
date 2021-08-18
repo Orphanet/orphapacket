@@ -1,23 +1,42 @@
 Orphapacket:
-  ORPHApacketId: '363972'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '363972'
-  Label: Noonan syndrome-like disorder with juvenile myelomonocytic leukemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_363972
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '613563'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: Cbl proto-oncogene
+      Symbol: CBL
+  Label: Noonan syndrome-like disorder with juvenile myelomonocytic leukemia
+  ORPHAcode: '363972'
+  ORPHApacketId: '363972'
+  PURL: http://www.orpha.net/ORDO/Orphanet_363972
+  Parents:
+  - Parent:
+    - Label: Noonan syndrome and Noonan-related syndrome
+      ORPHAcode: '98733'
+  - Parent:
+    - Label: Polymalformative genetic syndrome with increased risk of developing cancer
+      ORPHAcode: '183422'
+  - Parent:
+    - Label: Rare disorder with a moyamoya angiopathy
+      ORPHAcode: '477771'
+  - Parent:
+    - Label: Syndrome associated with hypertrophic cardiomyopathy
+      ORPHAcode: '217595'
   Synonyms:
   - Synonym: CBL syndrome
   - Synonym: Noonan syndrome-like disorder with JMML
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '613563'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic polymalformative syndrome characterized by a Noonan-like
       phenotype associated with increased risk of developing juvenile myelomonocytic
       leukemia (JMML). The Noonan-like (NS) phenotype includes dysmorphic facial features
@@ -28,29 +47,10 @@ Orphapacket:
       NS phenotype is subtle or even inapparent in a large proportion of subjects
       but may occasionally be severe. Leukemia can be the only clinical manifestation
       of the syndrome.
-  Genes:
-  - Gene:
-      Symbol: CBL
-      Name: Cbl proto-oncogene
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98733'
-      Label: Noonan syndrome and Noonan-related syndrome
-  - Parent:
-    - ORPHAcode: '183422'
-      Label: Polymalformative genetic syndrome with increased risk of developing cancer
-  - Parent:
-    - ORPHAcode: '477771'
-      Label: Rare disorder with a moyamoya angiopathy
-  - Parent:
-    - ORPHAcode: '217595'
-      Label: Syndrome associated with hypertrophic cardiomyopathy
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

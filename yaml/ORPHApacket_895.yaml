@@ -1,135 +1,146 @@
 Orphapacket:
-  ORPHApacketId: '895'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '895'
-  Label: Waardenburg syndrome type 2
-  PURL: http://www.orpha.net/ORDO/Orphanet_895
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: WS2
-  - Synonym: Waardenburg syndrome type II
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '193510'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '600193'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '606662'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '608890'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '611584'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: An autosomal dominant subtype of Waardenburg syndrome (WS) characterized
-      by varying degrees of deafness and pigmentation anomalies of eyes hair and skin
-      but without dystopia canthorum.
-  Genes:
-  - Gene:
-      Symbol: KITLG
-      Name: KIT ligand
-      ExternalReferences: []
-  - Gene:
-      Symbol: SNAI2
-      Name: snail family transcriptional repressor 2
-      ExternalReferences: []
-  - Gene:
-      Symbol: SOX10
-      Name: SRY-box 10
-      ExternalReferences: []
-  - Gene:
-      Symbol: MITF
-      Name: melanocyte inducing transcription factor
-      ExternalReferences: []
-  - Gene:
-      Symbol: EDNRB
-      Name: endothelin receptor type B
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '3440'
-      Label: Waardenburg syndrome
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000365
-      HPOTerm: Hearing impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002216
-      HPOTerm: Premature graying of hair
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0005599
-      HPOTerm: Hypopigmentation of hair
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000407
-      HPOTerm: Sensorineural hearing impairment
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001053
-      HPOTerm: Hypopigmented skin patches
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001100
-      HPOTerm: Heterochromia iridis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002211
-      HPOTerm: White forelock
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000077
-      HPOTerm: Abnormality of the kidney
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000506
-      HPOTerm: Telecanthus
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000508
-      HPOTerm: Ptosis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002251
-      HPOTerm: Aganglionic megacolon
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0004414
-      HPOTerm: Abnormality of the pulmonary artery
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET_Dr Véronique PINGAULT[EXPERT]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '193510'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '600193'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '606662'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '608890'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '611584'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: KIT ligand
+      Symbol: KITLG
+  - Gene:
+      ExternalReferences: []
+      Name: tyrosinase
+      Symbol: TYR
+  - Gene:
+      ExternalReferences: []
+      Name: snail family transcriptional repressor 2
+      Symbol: SNAI2
+  - Gene:
+      ExternalReferences: []
+      Name: SRY-box transcription factor 10
+      Symbol: SOX10
+  - Gene:
+      ExternalReferences: []
+      Name: melanocyte inducing transcription factor
+      Symbol: MITF
+  - Gene:
+      ExternalReferences: []
+      Name: endothelin receptor type B
+      Symbol: EDNRB
+  Label: Waardenburg syndrome type 2
+  ORPHAcode: '895'
+  ORPHApacketId: '895'
+  PURL: http://www.orpha.net/ORDO/Orphanet_895
+  Parents:
+  - Parent:
+    - Label: Waardenburg syndrome
+      ORPHAcode: '3440'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000365
+      HPOTerm: Hearing impairment
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002216
+      HPOTerm: Premature graying of hair
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005599
+      HPOTerm: Hypopigmentation of hair
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000407
+      HPOTerm: Sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001053
+      HPOTerm: Hypopigmented skin patches
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001100
+      HPOTerm: Heterochromia iridis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002211
+      HPOTerm: White forelock
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000077
+      HPOTerm: Abnormality of the kidney
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000506
+      HPOTerm: Telecanthus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000508
+      HPOTerm: Ptosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002251
+      HPOTerm: Aganglionic megacolon
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004414
+      HPOTerm: Abnormality of the pulmonary artery
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 'PMID: 9158138 & 19938076'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: 'PMID: 9158138 & 19938076'
+      ValMoy: no data
+  Synonyms:
+  - Synonym: WS2
+  - Synonym: Waardenburg syndrome type II
+  TextSection:
+    Contents: An autosomal dominant subtype of Waardenburg syndrome (WS) characterized
+      by varying degrees of deafness and pigmentation anomalies of eyes hair and skin
+      but without dystopia canthorum.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

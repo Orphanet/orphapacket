@@ -1,138 +1,135 @@
 Orphapacket:
-  ORPHApacketId: '178029'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '178029'
-  Label: Central diabetes insipidus
-  PURL: http://www.orpha.net/ORDO/Orphanet_178029
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '894'
+            Source: HGNC
+          - Reference: '192340'
+            Source: OMIM
+          Label: arginine vasopressin
+          Symbol: AVP
+      Label: Hereditary central diabetes insipidus
+      ORPHAcode: '30925'
+  - Child:
+      Genes: no data
+      Label: Acquired central diabetes insipidus
+      ORPHAcode: '95626'
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '125700'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '304900'
+      Source: OMIM
+  Label: Central diabetes insipidus
+  ORPHAcode: '178029'
+  ORPHApacketId: '178029'
+  PURL: http://www.orpha.net/ORDO/Orphanet_178029
+  Parents:
+  - Parent:
+    - Label: Pituitary deficiency
+      ORPHAcode: '101957'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000017
+      HPOTerm: Nocturia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000716
+      HPOTerm: Depressivity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000739
+      HPOTerm: Anxiety
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000873
+      HPOTerm: Diabetes insipidus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001254
+      HPOTerm: Lethargy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001262
+      HPOTerm: Excessive daytime somnolence
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001824
+      HPOTerm: Weight loss
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001944
+      HPOTerm: Dehydration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001945
+      HPOTerm: Fever
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001959
+      HPOTerm: Polydipsia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002014
+      HPOTerm: Diarrhea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002017
+      HPOTerm: Nausea and vomiting
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002039
+      HPOTerm: Anorexia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002315
+      HPOTerm: Headache
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002902
+      HPOTerm: Hyponatremia
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]'
+      ValMoy: '4.0'
   Synonyms:
   - Synonym: CDI
   - Synonym: Neurogenic diabetes insipidus
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '125700'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '304900'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
   TextSection:
-    TextSectionType: Definition
     Contents: Central diabetes insipidus (CDI) is a hypothalamus-pituitary disease
       characterized by polyuria and polydipsia due to a vasopressin (AVP) deficiency.
       It can be inherited or acquired (hereditary CDI and acquired CDI; see these
       terms).
-  Parents:
-  - Parent:
-    - ORPHAcode: '101957'
-      Label: Pituitary deficiency
-  Childs:
-  - Child:
-      Label: Hereditary central diabetes insipidus
-      ORPHAcode: '30925'
-      Genes:
-      - Gene:
-          Label: arginine vasopressin
-          Symbol: AVP
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '894'
-          - Source: OMIM
-            Reference: '192340'
-  - Child:
-      Label: Acquired central diabetes insipidus
-      ORPHAcode: '95626'
-      Genes: no data
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000017
-      HPOTerm: Nocturia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000716
-      HPOTerm: Depressivity
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000739
-      HPOTerm: Anxiety
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000873
-      HPOTerm: Diabetes insipidus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001250
-      HPOTerm: Seizures
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001254
-      HPOTerm: Lethargy
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001262
-      HPOTerm: Excessive daytime somnolence
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001508
-      HPOTerm: Failure to thrive
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001824
-      HPOTerm: Weight loss
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001944
-      HPOTerm: Dehydration
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001945
-      HPOTerm: Fever
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001959
-      HPOTerm: Polydipsia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002014
-      HPOTerm: Diarrhea
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002017
-      HPOTerm: Nausea and vomiting
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002039
-      HPOTerm: Anorexia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002315
-      HPOTerm: Headache
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002902
-      HPOTerm: Hyponatremia
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-    Prevalence:
-    - Source: '[EXPERT]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '4.0'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
@@ -140,3 +137,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

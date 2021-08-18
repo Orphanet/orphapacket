@@ -1,134 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '827'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '827'
-  Label: Stargardt disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_827
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Fundus flavimaculatus
-  - Synonym: Stargardt 1
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '248200'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '600110'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '603786'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare ophthalmic disorder that is usually characterized by a progressive
-      loss of central vision associated with irregular macular and perimacular yellow-white
-      fundus flecks and a so-called ''beaten bronze'' atrophic central macular lesion.
-  Genes:
-  - Gene:
-      Symbol: CNGB3
-      Name: cyclic nucleotide gated channel beta 3
-      ExternalReferences: []
-  - Gene:
-      Symbol: PRPH2
-      Name: peripherin 2
-      ExternalReferences: []
-  - Gene:
-      Symbol: ABCA4
-      Name: ATP binding cassette subfamily A member 4
-      ExternalReferences: []
-  - Gene:
-      Symbol: ELOVL4
-      Name: ELOVL fatty acid elongase 4
-      ExternalReferences: []
-  - Gene:
-      Symbol: PROM1
-      Name: prominin 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '519302'
-      Label: Isolated macular dystrophy
-  - Parent:
-    - ORPHAcode: '519319'
-      Label: Isolated stationary inherited retinal disorder
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0007663
-      HPOTerm: Reduced visual acuity
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0000493
-      HPOTerm: Abnormal foveal morphology
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000551
-      HPOTerm: Color vision defect
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000603
-      HPOTerm: Central scotoma
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000608
-      HPOTerm: Macular degeneration
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000610
-      HPOTerm: Abnormal choroid morphology
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000649
-      HPOTerm: Abnormality of visual evoked potentials
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000662
-      HPOTerm: Nyctalopia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007704
-      HPOTerm: Paroxysmal involuntary eye movements
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007722
-      HPOTerm: Retinal pigment epithelial atrophy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007814
-      HPOTerm: Retinal pigment epithelial mottling
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008002
-      HPOTerm: Abnormality of macular pigmentation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0030329
-      HPOTerm: Retinal thinning
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008059
-      HPOTerm: Aplasia/Hypoplasia of the macula
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0030500
-      HPOTerm: Yellow/white lesions of the macula
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-    Prevalence:
-    - Source: European Medicines Agency 2018[INST]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: '13.0'
-      PrevalenceGeographic: Europe
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -138,11 +11,138 @@ Orphapacket:
       value: Childhood
   - AverageAgeOfOnset:
       value: Elderly
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '248200'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '600110'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '603786'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: cyclic nucleotide gated channel subunit beta 3
+      Symbol: CNGB3
+  - Gene:
+      ExternalReferences: []
+      Name: peripherin 2
+      Symbol: PRPH2
+  - Gene:
+      ExternalReferences: []
+      Name: ATP binding cassette subfamily A member 4
+      Symbol: ABCA4
+  - Gene:
+      ExternalReferences: []
+      Name: ELOVL fatty acid elongase 4
+      Symbol: ELOVL4
+  - Gene:
+      ExternalReferences: []
+      Name: prominin 1
+      Symbol: PROM1
+  Label: Stargardt disease
+  ORPHAcode: '827'
+  ORPHApacketId: '827'
+  PURL: http://www.orpha.net/ORDO/Orphanet_827
+  Parents:
+  - Parent:
+    - Label: Isolated macular dystrophy
+      ORPHAcode: '519302'
+  - Parent:
+    - Label: Isolated stationary inherited retinal disorder
+      ORPHAcode: '519319'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0007663
+      HPOTerm: Reduced visual acuity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000493
+      HPOTerm: Abnormal foveal morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000551
+      HPOTerm: Color vision defect
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000603
+      HPOTerm: Central scotoma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000608
+      HPOTerm: Macular degeneration
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000610
+      HPOTerm: Abnormal choroid morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000649
+      HPOTerm: Abnormality of visual evoked potentials
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000662
+      HPOTerm: Nyctalopia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007704
+      HPOTerm: Paroxysmal involuntary eye movements
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007722
+      HPOTerm: Retinal pigment epithelial atrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007814
+      HPOTerm: Retinal pigment epithelial mottling
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008002
+      HPOTerm: Abnormality of macular pigmentation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0030329
+      HPOTerm: Retinal thinning
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008059
+      HPOTerm: Aplasia/Hypoplasia of the macula
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030500
+      HPOTerm: Yellow/white lesions of the macula
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: European Medicines Agency 2018[INST]
+      ValMoy: '13.0'
+  Synonyms:
+  - Synonym: Fundus flavimaculatus
+  - Synonym: Stargardt 1
+  TextSection:
+    Contents: A rare ophthalmic disorder that is usually characterized by a progressive
+      loss of central vision associated with irregular macular and perimacular yellow-white
+      fundus flecks and a so-called ''beaten bronze'' atrophic central macular lesion.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

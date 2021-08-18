@@ -1,38 +1,38 @@
 Orphapacket:
-  ORPHApacketId: '137893'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '137893'
-  Label: Male infertility due to large-headed multiflagellar polyploid spermatozoa
-  PURL: http://www.orpha.net/ORDO/Orphanet_137893
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '243060'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: aurora kinase C
+      Symbol: AURKC
+  Label: Male infertility due to large-headed multiflagellar polyploid spermatozoa
+  ORPHAcode: '137893'
+  ORPHApacketId: '137893'
+  PURL: http://www.orpha.net/ORDO/Orphanet_137893
+  Parents:
+  - Parent:
+    - Label: Male infertility with teratozoospermia due to single gene mutation
+      ORPHAcode: '399808'
   Synonyms:
   - Synonym: Macrocephalic sperm head syndrome
   - Synonym: Male infertility due to macrozoospermia
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '243060'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Male infertility due to large-headed multiflagellar polypoid spermatozoa
       is a male infertility due to sperm disorder characterized by the presence in
       sperm of a very high percentage of spermatozoa with enlarged head irregular
       head shape multiple flagella and abnormal midpiece and acrosome. It is generally
       associated with severe oligoasthenozoospermia and a high rate of sperm chromosomal
       abnormalities (polyploidy aneuploidy).
-  Genes:
-  - Gene:
-      Symbol: AURKC
-      Name: aurora kinase C
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '399808'
-      Label: Male infertility with teratozoospermia due to single gene mutation
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

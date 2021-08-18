@@ -1,14 +1,140 @@
 Orphapacket:
-  ORPHApacketId: '300179'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '300179'
-  Label: Kyphoscoliotic Ehlers-Danlos syndrome due to FKBP22 deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_300179
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '614557'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: FKBP prolyl isomerase 14
+      Symbol: FKBP14
+  Label: Kyphoscoliotic Ehlers-Danlos syndrome due to FKBP22 deficiency
+  ORPHAcode: '300179'
+  ORPHApacketId: '300179'
+  PURL: http://www.orpha.net/ORDO/Orphanet_300179
+  Parents:
+  - Parent:
+    - Label: Kyphoscoliotic Ehlers-Danlos syndrome
+      ORPHAcode: '536545'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000407
+      HPOTerm: Sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000974
+      HPOTerm: Hyperextensible skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001270
+      HPOTerm: Motor delay
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001382
+      HPOTerm: Joint hypermobility
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001763
+      HPOTerm: Pes planus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002421
+      HPOTerm: Poor head control
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002751
+      HPOTerm: Kyphoscoliosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003198
+      HPOTerm: Myopathy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003202
+      HPOTerm: Skeletal muscle atrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006829
+      HPOTerm: Severe muscular hypotonia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007502
+      HPOTerm: Follicular hyperkeratosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000545
+      HPOTerm: Myopia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000938
+      HPOTerm: Osteopenia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000978
+      HPOTerm: Bruising susceptibility
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001075
+      HPOTerm: Atrophic scars
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001324
+      HPOTerm: Muscle weakness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003236
+      HPOTerm: Elevated serum creatine kinase
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003388
+      HPOTerm: Easy fatigability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100790
+      HPOTerm: Hernia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012374
+      HPOTerm: Abnormality of the globe
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025019
+      HPOTerm: Arterial rupture
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000482
+      HPOTerm: Microcornea
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001519
+      HPOTerm: Disproportionate tall stature
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 27149304[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_27149304[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Ehlers-Danlos syndrome with kyphoscoliosis, myopathy, and deafness
   - Synonym: Ehlers-Danlos syndrome with kyphoscoliosis, myopathy, and hearing loss
@@ -16,12 +142,7 @@ Orphapacket:
   - Synonym: FKBP22-deficient EDS
   - Synonym: Kyphoscoliotic EDS due to FKBP22 deficiency
   - Synonym: kEDS-FKBP14
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614557'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare subtype of kyphoscoliotic Ehlers-Danlos syndrome characterized
       by congenital muscle hypotonia congenital or early-onset kyphoscoliosis (progressive
       or non-progressive) and generalized joint hypermobility with dislocations/subluxations
@@ -32,131 +153,10 @@ Orphapacket:
       errors. Subtype-specific manifestations include congenital hearing impairment
       (sensorineural conductive or mixed) follicular hyperkeratosis muscle atrophy
       and bladder diverticula. Molecular testing is obligatory to confirm the diagnosis.
-  Genes:
-  - Gene:
-      Symbol: FKBP14
-      Name: FKBP prolyl isomerase 14
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '536545'
-      Label: Kyphoscoliotic Ehlers-Danlos syndrome
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000407
-      HPOTerm: Sensorineural hearing impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000974
-      HPOTerm: Hyperextensible skin
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001270
-      HPOTerm: Motor delay
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001382
-      HPOTerm: Joint hypermobility
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001763
-      HPOTerm: Pes planus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002421
-      HPOTerm: Poor head control
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002751
-      HPOTerm: Kyphoscoliosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003198
-      HPOTerm: Myopathy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003202
-      HPOTerm: Skeletal muscle atrophy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006829
-      HPOTerm: Severe muscular hypotonia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007502
-      HPOTerm: Follicular hyperkeratosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000545
-      HPOTerm: Myopia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000938
-      HPOTerm: Osteopenia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000978
-      HPOTerm: Bruising susceptibility
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001075
-      HPOTerm: Atrophic scars
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001324
-      HPOTerm: Muscle weakness
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003236
-      HPOTerm: Elevated serum creatine kinase
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003388
-      HPOTerm: Easy fatigability
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0100790
-      HPOTerm: Hernia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012374
-      HPOTerm: Abnormality of the globe
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0025019
-      HPOTerm: Arterial rupture
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000482
-      HPOTerm: Microcornea
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0001519
-      HPOTerm: Disproportionate tall stature
-      HPOFrequency: Very rare (<4-1%)
-  Prevalences:
-  - Prevalence:
-      Source: 27149304[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_27149304[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

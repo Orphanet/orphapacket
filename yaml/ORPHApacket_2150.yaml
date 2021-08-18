@@ -1,81 +1,81 @@
 Orphapacket:
-  ORPHApacketId: '2150'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2150'
-  Label: Hirschsprung disease-type D brachydactyly syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_2150
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '306980'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Hirschsprung disease-type D brachydactyly syndrome
+  ORPHAcode: '2150'
+  ORPHApacketId: '2150'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2150
+  Parents:
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '102285'
+  - Parent:
+    - Label: Rare disorder with Hirschsprung disease as a major feature
+      ORPHAcode: '557866'
+  - Parent:
+    - Label: Rare disease involving intestinal motility
+      ORPHAcode: '104009'
+  - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '330206'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002251
+      HPOTerm: Aganglionic megacolon
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010624
+      HPOTerm: Aplastic/hypoplastic toenail
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001156
+      HPOTerm: Brachydactyly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001804
+      HPOTerm: Hypoplastic fingernail
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009650
+      HPOTerm: Short distal phalanx of the thumb
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010111
+      HPOTerm: Short phalanx of hallux
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 6823428[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_6823428[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Hirschsprung disease-type D brachydactyly syndrome is characterized
       by Hirschsprung disease and absence or hypoplasia of the nails and distal phalanges
       of the thumbs and great toes (type D brachydactyly). It has been described in
       four males from one family (two brothers and two maternal uncles). Transmission
       appears to be X-linked recessive but autosomal dominant inheritance with incomplete
       penetrance in females can not be ruled out.
-  Parents:
-  - Parent:
-    - ORPHAcode: '102285'
-      Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-  - Parent:
-    - ORPHAcode: '557866'
-      Label: Rare disorder with Hirschsprung disease as a major feature
-  - Parent:
-    - ORPHAcode: '104009'
-      Label: Rare disease involving intestinal motility
-  - Parent:
-    - ORPHAcode: '330206'
-      Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0002251
-      HPOTerm: Aganglionic megacolon
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0010624
-      HPOTerm: Aplastic/hypoplastic toenail
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001156
-      HPOTerm: Brachydactyly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001804
-      HPOTerm: Hypoplastic fingernail
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0009650
-      HPOTerm: Short distal phalanx of the thumb
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0010111
-      HPOTerm: Short phalanx of hallux
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 6823428[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_6823428[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

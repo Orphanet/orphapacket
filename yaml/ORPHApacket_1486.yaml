@@ -1,24 +1,137 @@
 Orphapacket:
-  ORPHApacketId: '1486'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '1486'
-  Label: Lethal congenital contracture syndrome type 1
-  PURL: http://www.orpha.net/ORDO/Orphanet_1486
+  AverageAgeOfDeaths:
+  - AverageAgeOfDeath:
+      value: Antenatal
+  - AverageAgeOfDeath:
+      value: Neonatal
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '253310'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: GLE1 RNA export mediator
+      Symbol: GLE1
+  Label: Lethal congenital contracture syndrome type 1
+  ORPHAcode: '1486'
+  ORPHApacketId: '1486'
+  PURL: http://www.orpha.net/ORDO/Orphanet_1486
+  Parents:
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '102285'
+  - Parent:
+    - Label: Lethal congenital contracture syndrome
+      ORPHAcode: '294965'
+  - Parent:
+    - Label: Syndromic respiratory or mediastinal malformation
+      ORPHAcode: '108995'
+  - Parent:
+    - Label: Non-syndromic respiratory or mediastinal malformation
+      ORPHAcode: '108993'
+  - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '330206'
+  - Parent:
+    - Label: Thoracic malformation
+      ORPHAcode: '182108'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000316
+      HPOTerm: Hypertelorism
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000347
+      HPOTerm: Micrognathia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000368
+      HPOTerm: Low-set, posteriorly rotated ears
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000465
+      HPOTerm: Webbed neck
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000470
+      HPOTerm: Short neck
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000772
+      HPOTerm: Abnormality of the ribs
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001376
+      HPOTerm: Limitation of joint mobility
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001561
+      HPOTerm: Polyhydramnios
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002089
+      HPOTerm: Pulmonary hypoplasia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002757
+      HPOTerm: Recurrent fractures
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003100
+      HPOTerm: Slender long bone
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003103
+      HPOTerm: Abnormal cortical bone morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003202
+      HPOTerm: Skeletal muscle atrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003272
+      HPOTerm: Abnormality of the hip bone
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003312
+      HPOTerm: Abnormal form of the vertebral bodies
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009775
+      HPOTerm: Amniotic constriction ring
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009811
+      HPOTerm: Abnormality of the elbow
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Finland
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 16892327[PMID]
+      ValMoy: '3.96'
   Synonyms:
   - Synonym: Herva disease
   - Synonym: LCCS1
   - Synonym: Multiple contracture syndrome, Finnish type
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '253310'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Lethal congenital contracture syndrome type 1 is a rare genetic arthrogryposis
       syndrome characterized by total fetal akinesia (detectable since the 13th week
       of gestation) accompanied by hydrops micrognathia pulmonary hypoplasia pterygia
@@ -27,123 +140,10 @@ Orphapacket:
       of gestation. Lack of anterior horn motoneurons severe atrophy of the ventral
       spinal cord and severe skeletal muscle hypoplasia are characteristic neuropathological
       findings with no evidence of other organ structural anomalies.
-  Genes:
-  - Gene:
-      Symbol: GLE1
-      Name: GLE1 RNA export mediator
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '102285'
-      Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-  - Parent:
-    - ORPHAcode: '294965'
-      Label: Lethal congenital contracture syndrome
-  - Parent:
-    - ORPHAcode: '108995'
-      Label: Syndromic respiratory or mediastinal malformation
-  - Parent:
-    - ORPHAcode: '108993'
-      Label: Non-syndromic respiratory or mediastinal malformation
-  - Parent:
-    - ORPHAcode: '330206'
-      Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-  - Parent:
-    - ORPHAcode: '182108'
-      Label: Thoracic malformation
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000316
-      HPOTerm: Hypertelorism
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000347
-      HPOTerm: Micrognathia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000368
-      HPOTerm: Low-set, posteriorly rotated ears
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000465
-      HPOTerm: Webbed neck
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000470
-      HPOTerm: Short neck
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000772
-      HPOTerm: Abnormality of the ribs
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001376
-      HPOTerm: Limitation of joint mobility
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001561
-      HPOTerm: Polyhydramnios
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002089
-      HPOTerm: Pulmonary hypoplasia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002757
-      HPOTerm: Recurrent fractures
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003100
-      HPOTerm: Slender long bone
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003103
-      HPOTerm: Abnormal cortical bone morphology
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003202
-      HPOTerm: Skeletal muscle atrophy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003272
-      HPOTerm: Abnormality of the hip bone
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003312
-      HPOTerm: Abnormal form of the vertebral bodies
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0004322
-      HPOTerm: Short stature
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0009775
-      HPOTerm: Amniotic constriction ring
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0009811
-      HPOTerm: Abnormality of the elbow
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-    Prevalence:
-    - Source: 16892327[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '3.96'
-      PrevalenceGeographic: Finland
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Antenatal
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Antenatal
-  - AverageAgeOfDeath:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,21 +1,16 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "158687",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "158687",
-        "Label": "Lethal acantholytic epidermolysis bullosa",
+        "Label": "Lethal acantholytic erosive disorder",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_158687",
         "DisorderType": {
             "value": "Disease",
             "PURL": "http://www.orpha.net/ORDO/Orphanet_377788"
         },
-        "Synonyms": [
-            {
-                "Synonym": "LAEB"
-            }
-        ],
         "ExternalReferences": [
             {
                 "Source": "OMIM",
@@ -47,8 +42,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "158661",
-                        "Label": "Suprabasal epidermolysis bullosa simplex"
+                        "ORPHAcode": "79359",
+                        "Label": "Other epidermal disorder"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "79360",
+                        "Label": "Other genetic epidermal disease"
                     }
                 ]
             }
@@ -56,16 +59,128 @@
         "Phenotypes": [
             {
                 "Phenotype": {
+                    "HPOId": "HP:0000561",
+                    "HPOTerm": "Absent eyelashes",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0000695",
                     "HPOTerm": "Natal tooth",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001030",
+                    "HPOTerm": "Fragile skin",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001802",
+                    "HPOTerm": "Absent toenail",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001817",
+                    "HPOTerm": "Absent fingernail",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002223",
+                    "HPOTerm": "Absent eyebrow",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002298",
+                    "HPOTerm": "Absent hair",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002878",
+                    "HPOTerm": "Respiratory failure",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005597",
+                    "HPOTerm": "Congenital alopecia totalis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0031274",
+                    "HPOTerm": "Hypovolemic shock",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0031538",
+                    "HPOTerm": "Abnormal dermoepidermal junction morphology",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0032449",
+                    "HPOTerm": "Abnormal dermoepidermal hemidesmosome morphology",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100792",
+                    "HPOTerm": "Acantholysis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000175",
+                    "HPOTerm": "Cleft palate",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001596",
-                    "HPOTerm": "Alopecia",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0000924",
+                    "HPOTerm": "Abnormality of the skeletal system",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001233",
+                    "HPOTerm": "2-3 finger syndactyly",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001511",
+                    "HPOTerm": "Intrauterine growth retardation",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001562",
+                    "HPOTerm": "Oligohydramnios",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -77,30 +192,58 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001798",
-                    "HPOTerm": "Anonychia",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004791",
-                    "HPOTerm": "Esophageal ulceration",
+                    "HPOId": "HP:0001640",
+                    "HPOTerm": "Cardiomegaly",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0200041",
-                    "HPOTerm": "Skin erosion",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0001836",
+                    "HPOTerm": "Camptodactyly of toe",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0200097",
-                    "HPOTerm": "Oral mucosal blisters",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0004209",
+                    "HPOTerm": "Clinodactyly of the 5th finger",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0006097",
+                    "HPOTerm": "3-4 finger syndactyly",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0006670",
+                    "HPOTerm": "Impaired myocardial contractility",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010705",
+                    "HPOTerm": "4-5 finger syndactyly",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011039",
+                    "HPOTerm": "Abnormality of the helix",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0040111",
+                    "HPOTerm": "Bilateral external ear deformity",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             }
         ],

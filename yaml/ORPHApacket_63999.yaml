@@ -1,33 +1,33 @@
 Orphapacket:
-  ORPHApacketId: '63999'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '63999'
-  Label: IgG4-related mediastinitis
-  PURL: http://www.orpha.net/ORDO/Orphanet_63999
   DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  Label: IgG4-related mediastinitis
+  ORPHAcode: '63999'
+  ORPHApacketId: '63999'
+  PURL: http://www.orpha.net/ORDO/Orphanet_63999
+  Parents:
+  - Parent:
+    - Label: Rare respiratory disease
+      ORPHAcode: '97955'
+  - Parent:
+    - Label: IgG4-related systemic disease
+      ORPHAcode: '596448'
   Synonyms:
   - Synonym: Fibrosing mediastinitis
   - Synonym: Mediastinal fibrosis
   - Synonym: Sclerosing mediastinitis
   TextSection:
-    TextSectionType: Definition
     Contents: A rare systemic autoimmune disease characterized by an aggressive fibroinflammatory
       process with infiltration of IgG4-positive plasma cells in the mediastinum potentially
       resulting in compression and functional impairment of vital mediastinal structures
       and associated with elevated serum IgG4. Clinical symptoms are unspecific and
       include pain or symptoms due to mass effect. The condition may occur together
       with IgG4-related disease in other parts of the body.
-  Parents:
-  - Parent:
-    - ORPHAcode: '97955'
-      Label: Rare respiratory disease
-  - Parent:
-    - ORPHAcode: '284264'
-      Label: IgG4-related disease
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

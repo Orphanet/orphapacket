@@ -1,31 +1,31 @@
 Orphapacket:
-  ORPHApacketId: '98843'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98843'
-  Label: Classic Hodgkin lymphoma, nodular sclerosis type
-  PURL: http://www.orpha.net/ORDO/Orphanet_98843
-  DisorderType:
-    value: Histopathological subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377797
-  Genes:
-  - Gene:
-      Symbol: KLHDC8B
-      Name: kelch domain containing 8B
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '391'
-      Label: Classic Hodgkin lymphoma
-  Prevalences:
-    Prevalence:
-    - Source: RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '1.28'
-      PrevalenceGeographic: Europe
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Adult
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377797
+    value: Histopathological subtype
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: kelch domain containing 8B
+      Symbol: KLHDC8B
+  Label: Classic Hodgkin lymphoma, nodular sclerosis type
+  ORPHAcode: '98843'
+  ORPHApacketId: '98843'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98843
+  Parents:
+  - Parent:
+    - Label: Classic Hodgkin lymphoma
+      ORPHAcode: '391'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: '1.28'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

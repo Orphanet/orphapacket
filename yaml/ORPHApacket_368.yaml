@@ -1,14 +1,140 @@
 Orphapacket:
-  ORPHApacketId: '368'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '368'
-  Label: Glycogen storage disease due to muscle glycogen phosphorylase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_368
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '232600'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: glycogen phosphorylase, muscle associated
+      Symbol: PYGM
+  Label: Glycogen storage disease due to muscle glycogen phosphorylase deficiency
+  ORPHAcode: '368'
+  ORPHApacketId: '368'
+  PURL: http://www.orpha.net/ORDO/Orphanet_368
+  Parents:
+  - Parent:
+    - Label: Glycogen storage disease
+      ORPHAcode: '79201'
+  - Parent:
+    - Label: Muscular glycogenosis
+      ORPHAcode: '206959'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003236
+      HPOTerm: Elevated serum creatine kinase
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003546
+      HPOTerm: Exercise intolerance
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009051
+      HPOTerm: Increased muscle glycogen content
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0030231
+      HPOTerm: Glycogen accumulation in muscle fiber lysosomes
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0030234
+      HPOTerm: Highly elevated creatine phosphokinase
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003201
+      HPOTerm: Rhabdomyolysis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003652
+      HPOTerm: Recurrent myoglobinuria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003710
+      HPOTerm: Exercise-induced muscle cramps
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008305
+      HPOTerm: Exercise-induced myoglobinuria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0040319
+      HPOTerm: Dark urine
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001324
+      HPOTerm: Muscle weakness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001639
+      HPOTerm: Hypertrophic cardiomyopathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001649
+      HPOTerm: Tachycardia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001919
+      HPOTerm: Acute kidney injury
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002875
+      HPOTerm: Exertional dyspnea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003202
+      HPOTerm: Skeletal muscle atrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003738
+      HPOTerm: Exercise-induced myalgia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008967
+      HPOTerm: Exercise-induced muscle stiffness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009073
+      HPOTerm: Progressive proximal muscle weakness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030973
+      HPOTerm: Postexertional malaise
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002015
+      HPOTerm: Dysphagia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0005216
+      HPOTerm: Impaired mastication
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0012622
+      HPOTerm: Chronic kidney disease
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: GSD due to muscle glycogen phosphorylase deficiency
   - Synonym: GSD type 5
@@ -20,140 +146,14 @@ Orphapacket:
   - Synonym: Glycogenosis type V
   - Synonym: McArdle disease
   - Synonym: Myophosphorylase deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '232600'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Myophosphorylase deficiency (McArdle's disease) or glycogen storage
       disease type 5 (GSD5)  is a severe form of glycogen storage disease characterized
       by exercise intolerance.
-  Genes:
-  - Gene:
-      Symbol: PYGM
-      Name: glycogen phosphorylase, muscle associated
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79201'
-      Label: Glycogen storage disease
-  - Parent:
-    - ORPHAcode: '206959'
-      Label: Muscular glycogenosis
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0003236
-      HPOTerm: Elevated serum creatine kinase
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003546
-      HPOTerm: Exercise intolerance
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0009051
-      HPOTerm: Increased muscle glycogen content
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0030231
-      HPOTerm: Glycogen accumulation in muscle fiber lysosomes
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0030234
-      HPOTerm: Highly elevated creatine phosphokinase
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003201
-      HPOTerm: Rhabdomyolysis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003652
-      HPOTerm: Recurrent myoglobinuria
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003710
-      HPOTerm: Exercise-induced muscle cramps
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0008305
-      HPOTerm: Exercise-induced myoglobinuria
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0040319
-      HPOTerm: Dark urine
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001324
-      HPOTerm: Muscle weakness
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001639
-      HPOTerm: Hypertrophic cardiomyopathy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001649
-      HPOTerm: Tachycardia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001919
-      HPOTerm: Acute kidney injury
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002875
-      HPOTerm: Exertional dyspnea
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003202
-      HPOTerm: Skeletal muscle atrophy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003738
-      HPOTerm: Exercise-induced myalgia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0008967
-      HPOTerm: Exercise-induced muscle stiffness
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0009073
-      HPOTerm: Progressive proximal muscle weakness
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0012378
-      HPOTerm: Fatigue
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0030973
-      HPOTerm: Postexertional malaise
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002015
-      HPOTerm: Dysphagia
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0005216
-      HPOTerm: Impaired mastication
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0012622
-      HPOTerm: Chronic kidney disease
-      HPOFrequency: Very rare (<4-1%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Childhood
-  - AverageAgeOfOnset:
-      value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

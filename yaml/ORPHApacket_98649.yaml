@@ -1,71 +1,71 @@
 Orphapacket:
-  ORPHApacketId: '98649'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98649'
-  Label: Dentocutaneous disease with cataract
-  PURL: http://www.orpha.net/ORDO/Orphanet_98649
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '522548'
-      Label: Syndromic genetic cataract
-  - Parent:
-    - ORPHAcode: '98641'
-      Label: Syndromic cataract
   Childs:
   - Child:
-      Label: COFS syndrome
-      ORPHAcode: '1466'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '3434'
+            Source: HGNC
+          - Reference: '126340'
+            Source: OMIM
           Label: ERCC excision repair 2, TFIIH core complex helicase subunit
           Symbol: ERCC2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3434'
-          - Source: OMIM
-            Reference: '126340'
       - Gene:
+          ExternalReferences:
+          - Reference: '3438'
+            Source: HGNC
+          - Reference: '609413'
+            Source: OMIM
           Label: ERCC excision repair 6, chromatin remodeling factor
           Symbol: ERCC6
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3438'
-          - Source: OMIM
-            Reference: '609413'
       - Gene:
+          ExternalReferences:
+          - Reference: '3437'
+            Source: HGNC
+          - Reference: '133530'
+            Source: OMIM
           Label: ERCC excision repair 5, endonuclease
           Symbol: ERCC5
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3437'
-          - Source: OMIM
-            Reference: '133530'
       - Gene:
+          ExternalReferences:
+          - Reference: '3433'
+            Source: HGNC
+          - Reference: '126380'
+            Source: OMIM
           Label: ERCC excision repair 1, endonuclease non-catalytic subunit
           Symbol: ERCC1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3433'
-          - Source: OMIM
-            Reference: '126380'
+      Label: COFS syndrome
+      ORPHAcode: '1466'
   - Child:
-      Label: Nance-Horan syndrome
-      ORPHAcode: '627'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '7820'
+            Source: HGNC
+          - Reference: '300457'
+            Source: OMIM
           Label: NHS actin remodeling regulator
           Symbol: NHS
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7820'
-          - Source: OMIM
-            Reference: '300457'
+      Label: Nance-Horan syndrome
+      ORPHAcode: '627'
   - Child:
+      Genes: no data
       Label: Rothmund-Thomson syndrome
       ORPHAcode: '2909'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Dentocutaneous disease with cataract
+  ORPHAcode: '98649'
+  ORPHApacketId: '98649'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98649
+  Parents:
+  - Parent:
+    - Label: Syndromic genetic cataract
+      ORPHAcode: '522548'
+  - Parent:
+    - Label: Syndromic cataract
+      ORPHAcode: '98641'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

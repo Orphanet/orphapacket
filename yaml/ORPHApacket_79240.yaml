@@ -1,14 +1,44 @@
 Orphapacket:
-  ORPHApacketId: '79240'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79240'
-  Label: Glycogen storage disease due to liver and muscle phosphorylase kinase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_79240
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '261750'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: phosphorylase kinase regulatory subunit beta
+      Symbol: PHKB
+  Label: Glycogen storage disease due to liver and muscle phosphorylase kinase deficiency
+  ORPHAcode: '79240'
+  ORPHApacketId: '79240'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79240
+  Parents:
+  - Parent:
+    - Label: Glycogen storage disease due to phosphorylase kinase deficiency
+      ORPHAcode: '370'
+  - Parent:
+    - Label: Rare metabolic liver disease
+      ORPHAcode: '101940'
+  - Parent:
+    - Label: Muscular glycogenosis
+      ORPHAcode: '206959'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: GSD due to liver and muscle phosphorylase kinase deficiency
   - Synonym: GSD type 9B
@@ -18,43 +48,13 @@ Orphapacket:
   - Synonym: Glycogenosis due to liver and muscle phosphorylase kinase deficiency
   - Synonym: Glycogenosis type 9B
   - Synonym: Glycogenosis type IXb
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '261750'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A benign inborn error of glycogen metabolism. It is the mildest form
       of GSD due to PhK deficiency.
-  Genes:
-  - Gene:
-      Symbol: PHKB
-      Name: phosphorylase kinase regulatory subunit beta
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '370'
-      Label: Glycogen storage disease due to phosphorylase kinase deficiency
-  - Parent:
-    - ORPHAcode: '101940'
-      Label: Rare metabolic liver disease
-  - Parent:
-    - ORPHAcode: '206959'
-      Label: Muscular glycogenosis
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

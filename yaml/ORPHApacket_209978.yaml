@@ -1,59 +1,59 @@
 Orphapacket:
-  ORPHApacketId: '209978'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '209978'
-  Label: Alternating hemiplegia
-  PURL: http://www.orpha.net/ORDO/Orphanet_209978
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '71859'
-      Label: Rare genetic neurological disorder
-  - Parent:
-    - ORPHAcode: '98006'
-      Label: Rare neurologic disease
   Childs:
   - Child:
-      Label: Alternating hemiplegia of childhood
-      ORPHAcode: '2131'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1388'
+            Source: HGNC
+          - Reference: '601011'
+            Source: OMIM
           Label: calcium voltage-gated channel subunit alpha1 A
           Symbol: CACNA1A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1388'
-          - Source: OMIM
-            Reference: '601011'
       - Gene:
+          ExternalReferences:
+          - Reference: '800'
+            Source: HGNC
+          - Reference: '182340'
+            Source: OMIM
           Label: ATPase Na+/K+ transporting subunit alpha 2
           Symbol: ATP1A2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '800'
-          - Source: OMIM
-            Reference: '182340'
       - Gene:
+          ExternalReferences:
+          - Reference: '801'
+            Source: HGNC
+          - Reference: '182350'
+            Source: OMIM
           Label: ATPase Na+/K+ transporting subunit alpha 3
           Symbol: ATP1A3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '801'
-          - Source: OMIM
-            Reference: '182350'
       - Gene:
+          ExternalReferences:
+          - Reference: '10941'
+            Source: HGNC
+          - Reference: '600111'
+            Source: OMIM
           Label: solute carrier family 1 member 3
           Symbol: SLC1A3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10941'
-          - Source: OMIM
-            Reference: '600111'
+      Label: Alternating hemiplegia of childhood
+      ORPHAcode: '2131'
   - Child:
+      Genes: no data
       Label: Benign nocturnal alternating hemiplegia of childhood
       ORPHAcode: '209973'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Alternating hemiplegia
+  ORPHAcode: '209978'
+  ORPHApacketId: '209978'
+  PURL: http://www.orpha.net/ORDO/Orphanet_209978
+  Parents:
+  - Parent:
+    - Label: Rare genetic neurological disorder
+      ORPHAcode: '71859'
+  - Parent:
+    - Label: Rare neurologic disease
+      ORPHAcode: '98006'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

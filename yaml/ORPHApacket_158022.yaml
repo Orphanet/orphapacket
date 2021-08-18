@@ -1,16 +1,33 @@
 Orphapacket:
-  ORPHApacketId: '158022'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '158022'
-  Label: Progressive nodular histiocytosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_158022
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Progressive nodular histiocytosis
+  ORPHAcode: '158022'
+  ORPHApacketId: '158022'
+  PURL: http://www.orpha.net/ORDO/Orphanet_158022
+  Parents:
+  - Parent:
+    - Label: Non-Langerhans cell histiocytosis
+      ORPHAcode: '157987'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001482
+      HPOTerm: Subcutaneous nodule
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001945
+      HPOTerm: Fever
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004326
+      HPOTerm: Cachexia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0200034
+      HPOTerm: Papule
   TextSection:
-    TextSectionType: Definition
     Contents: Progressive nodular histiocytosis is a rare normolipemic non-Langerhans
       cell histiocytosis characterized by progressive growth of multiple to disseminated
       asymptomatic skin lesions that range in appearance from yellow plaques to coalescence-prone
@@ -19,27 +36,10 @@ Orphapacket:
       membranes). Characteristic microscopic findings include a storiform spindle
       cell infiltrate in the deep dermis with xanthomatized macrophages and some Touton
       cells in the upper dermis. It is usually not associated with systemic disease.
-  Parents:
-  - Parent:
-    - ORPHAcode: '157987'
-      Label: Non-Langerhans cell histiocytosis
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001482
-      HPOTerm: Subcutaneous nodule
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001945
-      HPOTerm: Fever
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0004326
-      HPOTerm: Cachexia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0200034
-      HPOTerm: Papule
-      HPOFrequency: Very frequent (99-80%)
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

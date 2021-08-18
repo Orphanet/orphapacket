@@ -1,60 +1,47 @@
 Orphapacket:
-  ORPHApacketId: '181399'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '181399'
-  Label: Rare hyperthyroidism
-  PURL: http://www.orpha.net/ORDO/Orphanet_181399
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '101955'
-      Label: Rare thyroid disease
-  - Parent:
-    - ORPHAcode: '183631'
-      Label: Rare genetic thyroid disease
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '12373'
+            Source: HGNC
+          - Reference: '603372'
+            Source: OMIM
+          Label: thyroid stimulating hormone receptor
+          Symbol: TSHR
       Label: Familial hyperthyroidism due to mutations in TSH receptor
       ORPHAcode: '424'
+  - Child:
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '12373'
+            Source: HGNC
+          - Reference: '603372'
+            Source: OMIM
           Label: thyroid stimulating hormone receptor
           Symbol: TSHR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12373'
-          - Source: OMIM
-            Reference: '603372'
-  - Child:
       Label: Familial gestational hyperthyroidism
       ORPHAcode: '99819'
-      Genes:
-      - Gene:
-          Label: thyroid stimulating hormone receptor
-          Symbol: TSHR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12373'
-          - Source: OMIM
-            Reference: '603372'
   - Child:
+      Genes: no data
       Label: Pediatric-onset Graves disease
       ORPHAcode: '525731'
-      Genes: no data
-  - Child:
-      Label: Resistance to thyroid hormone due to a mutation in thyroid hormone receptor
-        beta
-      ORPHAcode: '566243'
-      Genes:
-      - Gene:
-          Label: thyroid hormone receptor beta
-          Symbol: THRB
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11799'
-          - Source: OMIM
-            Reference: '190160'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare hyperthyroidism
+  ORPHAcode: '181399'
+  ORPHApacketId: '181399'
+  PURL: http://www.orpha.net/ORDO/Orphanet_181399
+  Parents:
+  - Parent:
+    - Label: Rare thyroid disease
+      ORPHAcode: '101955'
+  - Parent:
+    - Label: Rare genetic thyroid disease
+      ORPHAcode: '183631'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

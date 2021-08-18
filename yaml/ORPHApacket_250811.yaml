@@ -1,100 +1,100 @@
 Orphapacket:
-  ORPHApacketId: '250811'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '250811'
-  Label: Serpinopathy with loss of serpin function
-  PURL: http://www.orpha.net/ORDO/Orphanet_250811
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '250805'
-      Label: Serpinopathy
   Childs:
   - Child:
-      Label: Hereditary thrombophilia due to congenital antithrombin deficiency
-      ORPHAcode: '82'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '775'
+            Source: HGNC
+          - Reference: '107300'
+            Source: OMIM
           Label: serpin family C member 1
           Symbol: SERPINC1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '775'
-          - Source: OMIM
-            Reference: '107300'
+      Label: Hereditary thrombophilia due to congenital antithrombin deficiency
+      ORPHAcode: '82'
   - Child:
-      Label: C1 inhibitor deficiency
-      ORPHAcode: '459353'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1228'
+            Source: HGNC
+          - Reference: '606860'
+            Source: OMIM
           Label: serpin family G member 1
           Symbol: SERPING1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1228'
-          - Source: OMIM
-            Reference: '606860'
+      Label: C1 inhibitor deficiency
+      ORPHAcode: '459353'
   - Child:
+      Genes: no data
       Label: Hereditary angioedema with C1Inh deficiency
       ORPHAcode: '528623'
-      Genes: no data
   - Child:
-      Label: Congenital alpha2-antiplasmin deficiency
-      ORPHAcode: '79'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '9075'
+            Source: HGNC
+          - Reference: '613168'
+            Source: OMIM
           Label: serpin family F member 2
           Symbol: SERPINF2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9075'
-          - Source: OMIM
-            Reference: '613168'
+      Label: Congenital alpha2-antiplasmin deficiency
+      ORPHAcode: '79'
   - Child:
-      Label: Corticosteroid-binding globulin deficiency
-      ORPHAcode: '199247'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1540'
+            Source: HGNC
+          - Reference: '122500'
+            Source: OMIM
           Label: serpin family A member 6
           Symbol: SERPINA6
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1540'
-          - Source: OMIM
-            Reference: '122500'
+      Label: Corticosteroid-binding globulin deficiency
+      ORPHAcode: '199247'
   - Child:
-      Label: Exfoliative ichthyosis
-      ORPHAcode: '289586'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '601697'
+            Source: OMIM
+          - Reference: '8952'
+            Source: HGNC
           Label: serpin family B member 8
           Symbol: SERPINB8
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '601697'
-          - Source: HGNC
-            Reference: '8952'
       - Gene:
+          ExternalReferences:
+          - Reference: '2481'
+            Source: HGNC
+          - Reference: '184600'
+            Source: OMIM
           Label: cystatin A
           Symbol: CSTA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2481'
-          - Source: OMIM
-            Reference: '184600'
+      Label: Exfoliative ichthyosis
+      ORPHAcode: '289586'
   - Child:
-      Label: Palmoplantar keratoderma, Nagashima type
-      ORPHAcode: '140966'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '13902'
+            Source: HGNC
+          - Reference: '603357'
+            Source: OMIM
           Label: serpin family B member 7
           Symbol: SERPINB7
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '13902'
-          - Source: OMIM
-            Reference: '603357'
+      Label: Palmoplantar keratoderma, Nagashima type
+      ORPHAcode: '140966'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Serpinopathy with loss of serpin function
+  ORPHAcode: '250811'
+  ORPHApacketId: '250811'
+  PURL: http://www.orpha.net/ORDO/Orphanet_250811
+  Parents:
+  - Parent:
+    - Label: Serpinopathy
+      ORPHAcode: '250805'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

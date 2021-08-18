@@ -1,82 +1,82 @@
 Orphapacket:
-  ORPHApacketId: '75373'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '75373'
-  Label: Progressive bifocal chorioretinal atrophy
-  PURL: http://www.orpha.net/ORDO/Orphanet_75373
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: CRAPB
-  - Synonym: PBCRA
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '600790'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Progressive bifocal chorioretinal atrophy (PBCRA) is an early-onset
-      chorioretinal dystrophy characterized by large atrophic macular and nasal retinal
-      lesions nystagmus myopia poor vision and slow disease progression.
-  Parents:
-  - Parent:
-    - ORPHAcode: '519300'
-      Label: Isolated chorioretinal dystrophy
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000505
-      HPOTerm: Visual impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000545
-      HPOTerm: Myopia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000565
-      HPOTerm: Esotropia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000580
-      HPOTerm: Pigmentary retinopathy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000639
-      HPOTerm: Nystagmus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001135
-      HPOTerm: Chorioretinal dystrophy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007401
-      HPOTerm: Macular atrophy
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 5686965[PMID]_8541856[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_5686965[PMID]_8541856[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '600790'
+    Source: OMIM
+  Label: Progressive bifocal chorioretinal atrophy
+  ORPHAcode: '75373'
+  ORPHApacketId: '75373'
+  PURL: http://www.orpha.net/ORDO/Orphanet_75373
+  Parents:
+  - Parent:
+    - Label: Isolated chorioretinal dystrophy
+      ORPHAcode: '519300'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000505
+      HPOTerm: Visual impairment
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000545
+      HPOTerm: Myopia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000565
+      HPOTerm: Esotropia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000580
+      HPOTerm: Pigmentary retinopathy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001135
+      HPOTerm: Chorioretinal dystrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007401
+      HPOTerm: Macular atrophy
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 5686965[PMID]_8541856[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_5686965[PMID]_8541856[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: CRAPB
+  - Synonym: PBCRA
+  TextSection:
+    Contents: Progressive bifocal chorioretinal atrophy (PBCRA) is an early-onset
+      chorioretinal dystrophy characterized by large atrophic macular and nasal retinal
+      lesions nystagmus myopia poor vision and slow disease progression.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

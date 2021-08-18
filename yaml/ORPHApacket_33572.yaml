@@ -1,47 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '33572'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '33572'
-  Label: 5-oxoprolinase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_33572
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Oxoprolinuria due to oxoprolinase deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '260005'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A very heterogeneous condition characterized by 5-oxoprolinuria.
-  Genes:
-  - Gene:
-      Symbol: OPLAH
-      Name: 5-oxoprolinase, ATP-hydrolysing
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79196'
-      Label: Disorder of the gamma-glutamyl cycle
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
@@ -49,9 +9,49 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '260005'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: 5-oxoprolinase, ATP-hydrolysing
+      Symbol: OPLAH
+  Label: 5-oxoprolinase deficiency
+  ORPHAcode: '33572'
+  ORPHApacketId: '33572'
+  PURL: http://www.orpha.net/ORDO/Orphanet_33572
+  Parents:
+  - Parent:
+    - Label: Disorder of the gamma-glutamyl cycle
+      ORPHAcode: '79196'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Oxoprolinuria due to oxoprolinase deficiency
+  TextSection:
+    Contents: A very heterogeneous condition characterized by 5-oxoprolinuria.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

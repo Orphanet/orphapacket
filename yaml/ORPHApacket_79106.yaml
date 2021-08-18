@@ -1,20 +1,141 @@
 Orphapacket:
-  ORPHApacketId: '79106'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79106'
-  Label: Eiken syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_79106
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '600002'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: parathyroid hormone 1 receptor
+      Symbol: PTH1R
+  Label: Eiken syndrome
+  ORPHAcode: '79106'
+  ORPHApacketId: '79106'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79106
+  Parents:
+  - Parent:
+    - Label: Multiple metaphyseal dysplasia
+      ORPHAcode: '93430'
+  - Parent:
+    - Label: Primary bone dysplasia with defective bone mineralization
+      ORPHAcode: '93447'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002656
+      HPOTerm: Epiphyseal dysplasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002829
+      HPOTerm: Arthralgia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006376
+      HPOTerm: Limited elbow flexion
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001169
+      HPOTerm: Broad palm
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001211
+      HPOTerm: Abnormal fingertip morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001769
+      HPOTerm: Broad foot
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001773
+      HPOTerm: Short foot
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001831
+      HPOTerm: Short toe
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002663
+      HPOTerm: Delayed epiphyseal ossification
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002753
+      HPOTerm: Thin bony cortex
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002967
+      HPOTerm: Cubitus valgus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003025
+      HPOTerm: Metaphyseal irregularity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003038
+      HPOTerm: Fibular hypoplasia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003170
+      HPOTerm: Abnormality of the acetabulum
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003275
+      HPOTerm: Narrow pelvis bone
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004279
+      HPOTerm: Short palm
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008800
+      HPOTerm: Limited hip movement
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008808
+      HPOTerm: High iliac wings
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009803
+      HPOTerm: Short phalanx of finger
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010305
+      HPOTerm: Absence of the sacrum
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011849
+      HPOTerm: Abnormal bone ossification
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100671
+      HPOTerm: Abnormal trabecular bone morphology
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 15525660[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_15525660[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic primary bone dysplasia syndrome characterized by multiple
       epiphyseal dysplasia severely delayed ossification (mainly of the epiphyses
       pubic symphysis hands and feet) abnormal modeling of the bones in hands and
@@ -22,131 +143,10 @@ Orphapacket:
       phosphate and vitamin D serum levels are typically within normal range while
       parathyroid hormone serum levels are normal to slighly elevated. Oligodontia
       has been rarely associated.
-  Genes:
-  - Gene:
-      Symbol: PTH1R
-      Name: parathyroid hormone 1 receptor
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '93430'
-      Label: Multiple metaphyseal dysplasia
-  - Parent:
-    - ORPHAcode: '93447'
-      Label: Primary bone dysplasia with defective bone mineralization
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0002656
-      HPOTerm: Epiphyseal dysplasia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002829
-      HPOTerm: Arthralgia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006376
-      HPOTerm: Limited elbow flexion
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001169
-      HPOTerm: Broad palm
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001211
-      HPOTerm: Abnormal fingertip morphology
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001769
-      HPOTerm: Broad foot
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001773
-      HPOTerm: Short foot
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001831
-      HPOTerm: Short toe
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002663
-      HPOTerm: Delayed epiphyseal ossification
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002753
-      HPOTerm: Thin bony cortex
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002967
-      HPOTerm: Cubitus valgus
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003025
-      HPOTerm: Metaphyseal irregularity
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003038
-      HPOTerm: Fibular hypoplasia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003170
-      HPOTerm: Abnormality of the acetabulum
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003275
-      HPOTerm: Narrow pelvis bone
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0004279
-      HPOTerm: Short palm
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0004322
-      HPOTerm: Short stature
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0008800
-      HPOTerm: Limited hip movement
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0008808
-      HPOTerm: High iliac wings
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0009803
-      HPOTerm: Short phalanx of finger
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0010305
-      HPOTerm: Absence of the sacrum
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0011849
-      HPOTerm: Abnormal bone ossification
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0100671
-      HPOTerm: Abnormal trabecular bone morphology
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 15525660[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_15525660[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,41 +1,41 @@
 Orphapacket:
-  ORPHApacketId: '364063'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '364063'
-  Label: Infantile epileptic-dyskinetic encephalopathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_364063
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '308350'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: A monogenic disease with epilepsy characterized by developmental delay
-      and infantile spasms in the first months of life followed by chorea and generalized
-      dystonia and progressing to quadriplegic dyskinesia recurrent status dystonicus
-      intractable focal epilepsy and severe intellectual disability.
-  Genes:
-  - Gene:
-      Symbol: ARX
-      Name: aristaless related homeobox
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '182079'
-      Label: ARX-related epileptic encephalopathy
-  - Parent:
-    - ORPHAcode: '391711'
-      Label: Persistent combined dystonia
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '308350'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: aristaless related homeobox
+      Symbol: ARX
+  Label: Infantile epileptic-dyskinetic encephalopathy
+  ORPHAcode: '364063'
+  ORPHApacketId: '364063'
+  PURL: http://www.orpha.net/ORDO/Orphanet_364063
+  Parents:
+  - Parent:
+    - Label: ARX-related epileptic encephalopathy
+      ORPHAcode: '182079'
+  - Parent:
+    - Label: Persistent combined dystonia
+      ORPHAcode: '391711'
+  TextSection:
+    Contents: A monogenic disease with epilepsy characterized by developmental delay
+      and infantile spasms in the first months of life followed by chorea and generalized
+      dystonia and progressing to quadriplegic dyskinesia recurrent status dystonicus
+      intractable focal epilepsy and severe intellectual disability.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

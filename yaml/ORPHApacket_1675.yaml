@@ -1,40 +1,271 @@
 Orphapacket:
-  ORPHApacketId: '1675'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '1675'
-  Label: Dihydropyrimidine dehydrogenase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_1675
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Familial pyrimidinemia
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '274270'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: DPYD
-      Name: dihydropyrimidine dehydrogenase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79193'
-      Label: Disorder of pyrimidine metabolism
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '274270'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: dihydropyrimidine dehydrogenase
+      Symbol: DPYD
+  Label: Dihydropyrimidine dehydrogenase deficiency
+  ORPHAcode: '1675'
+  ORPHApacketId: '1675'
+  PURL: http://www.orpha.net/ORDO/Orphanet_1675
+  Parents:
+  - Parent:
+    - Label: Disorder of pyrimidine metabolism
+      ORPHAcode: '79193'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003654
+      HPOTerm: Reduced dihydropyrimidine dehydrogenase activity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012127
+      HPOTerm: Uraciluria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001328
+      HPOTerm: Specific learning disability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002353
+      HPOTerm: EEG abnormality
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008947
+      HPOTerm: Infantile muscular hypotonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010841
+      HPOTerm: Multifocal epileptiform discharges
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000194
+      HPOTerm: Open mouth
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000218
+      HPOTerm: High palate
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000252
+      HPOTerm: Microcephaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000256
+      HPOTerm: Macrocephaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000278
+      HPOTerm: Retrognathia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000316
+      HPOTerm: Hypertelorism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000463
+      HPOTerm: Anteverted nares
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000470
+      HPOTerm: Short neck
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000478
+      HPOTerm: Abnormality of the eye
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000482
+      HPOTerm: Microcornea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000483
+      HPOTerm: Astigmatism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000486
+      HPOTerm: Strabismus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000494
+      HPOTerm: Downslanted palpebral fissures
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000527
+      HPOTerm: Long eyelashes
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000545
+      HPOTerm: Myopia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000684
+      HPOTerm: Delayed eruption of teeth
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000729
+      HPOTerm: Autistic behavior
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000737
+      HPOTerm: Irritability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001104
+      HPOTerm: Macular hypoplasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001276
+      HPOTerm: Hypertonia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001284
+      HPOTerm: Areflexia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001344
+      HPOTerm: Absent speech
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001347
+      HPOTerm: Hyperreflexia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001799
+      HPOTerm: Short nail
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002002
+      HPOTerm: Deep philtrum
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002033
+      HPOTerm: Poor suck
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002059
+      HPOTerm: Cerebral atrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002187
+      HPOTerm: Intellectual disability, profound
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002373
+      HPOTerm: Febrile seizures
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002540
+      HPOTerm: Inability to walk
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002656
+      HPOTerm: Epiphyseal dysplasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002983
+      HPOTerm: Micromelia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004887
+      HPOTerm: Respiratory failure requiring assisted ventilation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005274
+      HPOTerm: Prominent nasal tip
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005280
+      HPOTerm: Depressed nasal bridge
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006191
+      HPOTerm: Deep palmar crease
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006863
+      HPOTerm: Severe expressive language delay
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006919
+      HPOTerm: Abnormal aggressive, impulsive or violent behavior
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008872
+      HPOTerm: Feeding difficulties in infancy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009748
+      HPOTerm: Large earlobe
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011153
+      HPOTerm: Focal motor seizure
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011220
+      HPOTerm: Prominent forehead
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011344
+      HPOTerm: Severe global developmental delay
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012433
+      HPOTerm: Abnormal social behavior
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030890
+      HPOTerm: Hyperintensity of cerebral white matter on MRI
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030939
+      HPOTerm: Palpebral thickening
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: Familial pyrimidinemia
+  TextSection:
+    Contents: A rare disorder of pyrimidine metabolism characterized by a variable
+      phenotype ranging from absence of symptoms to severe neurological involvement
+      with developmental delay intellectual disability and seizures. Additional signs
+      and symptoms may include hypotonia microcephaly ocular abnormalities (such as
+      microphthalmia nystagmus and strabismus) and autistic behavior among others.
+      Analysis of urine typically shows high levels of uracil and thymine. Patients
+      are at risk of suffering from severe toxicity after the administration of the
+      anti-neoplastic agent 5-fluorouracil.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

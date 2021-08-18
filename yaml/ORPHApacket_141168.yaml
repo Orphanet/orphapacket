@@ -1,16 +1,19 @@
 Orphapacket:
-  ORPHApacketId: '141168'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '141168'
-  Label: Frontonasal arteriovenous malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_141168
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Label: Frontonasal arteriovenous malformation
+  ORPHAcode: '141168'
+  ORPHApacketId: '141168'
+  PURL: http://www.orpha.net/ORDO/Orphanet_141168
+  Parents:
+  - Parent:
+    - Label: Facial arteriovenous malformation
+      ORPHAcode: '156230'
   TextSection:
-    TextSectionType: Definition
     Contents: Frontonasal arteriovenous malformation is a rare vascular anomaly characterized
       by abnormal communication between arteries and veins bypassing the capillary
       bed located in the frontonasal area. It may present with intermittent nasal
@@ -18,10 +21,7 @@ Orphapacket:
       may be of normal appearance or may manifest a red pulsatile mass with local
       rise of temperature. Other features may include pain ulceration excessive growth
       and/or congestive heart failure.
-  Parents:
-  - Parent:
-    - ORPHAcode: '156230'
-      Label: Facial arteriovenous malformation
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

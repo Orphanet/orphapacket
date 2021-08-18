@@ -1,49 +1,49 @@
 Orphapacket:
-  ORPHApacketId: '98370'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98370'
-  Label: Hemolytic anemia due to hexose monophosphate shunt and glutathione metabolism
-    anomalies
-  PURL: http://www.orpha.net/ORDO/Orphanet_98370
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '98369'
-      Label: Rare constitutional hemolytic anemia due to an enzyme disorder
   Childs:
   - Child:
+      Genes: no data
       Label: Glutathione synthetase deficiency
       ORPHAcode: '32'
-      Genes: no data
   - Child:
-      Label: Glutamate-cysteine ligase deficiency
-      ORPHAcode: '33574'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4311'
+            Source: HGNC
+          - Reference: '606857'
+            Source: OMIM
           Label: glutamate-cysteine ligase catalytic subunit
           Symbol: GCLC
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4311'
-          - Source: OMIM
-            Reference: '606857'
+      Label: Glutamate-cysteine ligase deficiency
+      ORPHAcode: '33574'
   - Child:
-      Label: Hemolytic anemia due to glutathione reductase deficiency
-      ORPHAcode: '90030'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4623'
+            Source: HGNC
+          - Reference: '138300'
+            Source: OMIM
           Label: glutathione-disulfide reductase
           Symbol: GSR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4623'
-          - Source: OMIM
-            Reference: '138300'
+      Label: Hemolytic anemia due to glutathione reductase deficiency
+      ORPHAcode: '90030'
   - Child:
+      Genes: no data
       Label: 6-phosphogluconate dehydrogenase deficiency
       ORPHAcode: '99135'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Hemolytic anemia due to hexose monophosphate shunt and glutathione metabolism
+    anomalies
+  ORPHAcode: '98370'
+  ORPHApacketId: '98370'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98370
+  Parents:
+  - Parent:
+    - Label: Rare constitutional hemolytic anemia due to an enzyme disorder
+      ORPHAcode: '98369'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

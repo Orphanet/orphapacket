@@ -1,44 +1,44 @@
 Orphapacket:
-  ORPHApacketId: '261920'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '261920'
-  Label: Partial deletion of the short arm of chromosome 8
-  PURL: http://www.orpha.net/ORDO/Orphanet_261920
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '492'
+            Source: HGNC
+          - Reference: '612641'
+            Source: OMIM
+          Label: ankyrin 1
+          Symbol: ANK1
+      Label: 8p11.2 deletion syndrome
+      ORPHAcode: '251066'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '4173'
+            Source: HGNC
+          - Reference: '600576'
+            Source: OMIM
+          Label: GATA binding protein 4
+          Symbol: GATA4
+      Label: 8p23.1 microdeletion syndrome
+      ORPHAcode: '251071'
   DisorderType:
-    value: Category
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Partial deletion of the short arm of chromosome 8
+  ORPHAcode: '261920'
+  ORPHApacketId: '261920'
+  PURL: http://www.orpha.net/ORDO/Orphanet_261920
+  Parents:
+  - Parent:
+    - Label: Partial deletion of chromosome 8
+      ORPHAcode: '261801'
   Synonyms:
   - Synonym: Partial deletion of chromosome 8p
   - Synonym: Partial monosomy of chromosome 8p
   - Synonym: Partial monosomy of the short arm of chromosome 8
-  Parents:
-  - Parent:
-    - ORPHAcode: '261801'
-      Label: Partial deletion of chromosome 8
-  Childs:
-  - Child:
-      Label: 8p11.2 deletion syndrome
-      ORPHAcode: '251066'
-      Genes:
-      - Gene:
-          Label: ankyrin 1
-          Symbol: ANK1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '492'
-          - Source: OMIM
-            Reference: '612641'
-  - Child:
-      Label: 8p23.1 microdeletion syndrome
-      ORPHAcode: '251071'
-      Genes:
-      - Gene:
-          Label: GATA binding protein 4
-          Symbol: GATA4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4173'
-          - Source: OMIM
-            Reference: '600576'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

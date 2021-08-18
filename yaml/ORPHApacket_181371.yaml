@@ -1,70 +1,70 @@
 Orphapacket:
-  ORPHApacketId: '181371'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '181371'
-  Label: Rare diabetes mellitus type 1
-  PURL: http://www.orpha.net/ORDO/Orphanet_181371
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Rare insulin-dependent diabetes mellitus
-  Parents:
-  - Parent:
-    - ORPHAcode: '101952'
-      Label: Rare diabetes mellitus
   Childs:
   - Child:
+      Genes: no data
       Label: Intellectual disability-dysmorphism-hypogonadism-diabetes mellitus syndrome
       ORPHAcode: '3044'
-      Genes: no data
   - Child:
-      Label: Wolfram syndrome
-      ORPHAcode: '3463'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '12762'
+            Source: HGNC
+          - Reference: '606201'
+            Source: OMIM
           Label: wolframin ER transmembrane glycoprotein
           Symbol: WFS1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12762'
-          - Source: OMIM
-            Reference: '606201'
       - Gene:
+          ExternalReferences:
+          - Reference: '24212'
+            Source: HGNC
+          - Reference: '611507'
+            Source: OMIM
           Label: CDGSH iron sulfur domain 2
           Symbol: CISD2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '24212'
-          - Source: OMIM
-            Reference: '611507'
+      Label: Wolfram syndrome
+      ORPHAcode: '3463'
   - Child:
+      Genes: no data
       Label: Autoimmune polyendocrinopathy type 3
       ORPHAcode: '227982'
-      Genes: no data
   - Child:
-      Label: Wolfram-like syndrome
-      ORPHAcode: '411590'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '12762'
+            Source: HGNC
+          - Reference: '606201'
+            Source: OMIM
           Label: wolframin ER transmembrane glycoprotein
           Symbol: WFS1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12762'
-          - Source: OMIM
-            Reference: '606201'
+      Label: Wolfram-like syndrome
+      ORPHAcode: '411590'
   - Child:
-      Label: H syndrome
-      ORPHAcode: '168569'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '23096'
+            Source: HGNC
+          - Reference: '612373'
+            Source: OMIM
           Label: solute carrier family 29 member 3
           Symbol: SLC29A3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '23096'
-          - Source: OMIM
-            Reference: '612373'
+      Label: H syndrome
+      ORPHAcode: '168569'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare diabetes mellitus type 1
+  ORPHAcode: '181371'
+  ORPHApacketId: '181371'
+  PURL: http://www.orpha.net/ORDO/Orphanet_181371
+  Parents:
+  - Parent:
+    - Label: Rare diabetes mellitus
+      ORPHAcode: '101952'
+  Synonyms:
+  - Synonym: Rare insulin-dependent diabetes mellitus
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

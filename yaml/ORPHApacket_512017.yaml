@@ -1,14 +1,20 @@
 Orphapacket:
-  ORPHApacketId: '512017'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '512017'
-  Label: Chronic lymphoproliferative disorder of natural killer cells
-  PURL: http://www.orpha.net/ORDO/Orphanet_512017
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: signal transducer and activator of transcription 3
+      Symbol: STAT3
+  Label: Chronic lymphoproliferative disorder of natural killer cells
+  ORPHAcode: '512017'
+  ORPHApacketId: '512017'
+  PURL: http://www.orpha.net/ORDO/Orphanet_512017
+  Parents:
+  - Parent:
+    - Label: Large granular lymphocyte leukemia
+      ORPHAcode: '512034'
   Synonyms:
   - Synonym: CLPD-NK
   - Synonym: CNKL
@@ -17,19 +23,13 @@ Orphapacket:
   - Synonym: Chronic lymphoproliferative disorder of NK-cells
   - Synonym: NK-cell lineage granular lymphocyte proliferative disorder
   TextSection:
-    TextSectionType: Definition
     Contents: A rare large granular lymphocyte leukemia characterized by persistent
       (> 6 months) natural killer cell lymphocytosis in the absence of clinical diagnosis
       of leukemia/lymphoma autoimmune disease or chronic viral infections. The clinical
       course is variable but generally indolent. Patients often remain asymptomatic
       or may present with clinical manifestations including vasculitic skin lesions
       neutropenic infections musculoskeletal symptoms peripheral neuropathy or splenomegaly.
-  Genes:
-  - Gene:
-      Symbol: STAT3
-      Name: signal transducer and activator of transcription 3
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '512034'
-      Label: Large granular lymphocyte leukemia
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

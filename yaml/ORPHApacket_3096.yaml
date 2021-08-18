@@ -1,27 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '3096'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3096'
-  Label: Reye syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_3096
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare systemic disease characterized by persistent vomiting with confusion
-      lethargy disorientation hyperreflexia hyperventilation and tachycardia with
-      rapid progression to seizures non-inflammatory encephalopathy coma and death.
-      It typically develops between 12 hours and 3 weeks after recovery from a viral
-      illness such as upper respiratory tract infection or gastroenteritis. Hepatomegaly
-      acute hepatic steatosis fatty liver degeneration and multiple laboratory abnormalities
-      are associated.
-  Parents:
-  - Parent:
-    - ORPHAcode: '182222'
-      Label: Rare systemic disease
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -31,6 +11,26 @@ Orphapacket:
       value: Childhood
   - AverageAgeOfOnset:
       value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Reye syndrome
+  ORPHAcode: '3096'
+  ORPHApacketId: '3096'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3096
+  Parents:
+  - Parent:
+    - Label: Rare systemic disease
+      ORPHAcode: '182222'
+  TextSection:
+    Contents: A rare systemic disease characterized by persistent vomiting with confusion
+      lethargy disorientation hyperreflexia hyperventilation and tachycardia with
+      rapid progression to seizures non-inflammatory encephalopathy coma and death.
+      It typically develops between 12 hours and 3 weeks after recovery from a viral
+      illness such as upper respiratory tract infection or gastroenteritis. Hepatomegaly
+      acute hepatic steatosis fatty liver degeneration and multiple laboratory abnormalities
+      are associated.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

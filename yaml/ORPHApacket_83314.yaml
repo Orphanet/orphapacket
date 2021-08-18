@@ -1,48 +1,48 @@
 Orphapacket:
-  ORPHApacketId: '83314'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '83314'
-  Label: Epidemic typhus
-  PURL: http://www.orpha.net/ORDO/Orphanet_83314
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Brill-Zinsser disease
+      ORPHAcode: '99990'
+  - Child:
+      Genes: no data
+      Label: Relapsing epidemic typhus
+      ORPHAcode: '99991'
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Epidemic typhus
+  ORPHAcode: '83314'
+  ORPHApacketId: '83314'
+  PURL: http://www.orpha.net/ORDO/Orphanet_83314
+  Parents:
+  - Parent:
+    - Label: Typhus-group rickettsiosis
+      ORPHAcode: '102023'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   TextSection:
-    TextSectionType: Definition
     Contents: A Rickettsial disease characterized by malaise and vague symptoms before
       the onset of high fever headache severe myalgias and less commonly petechial
       rash on the trunk and limbs nausea vomiting coughing and pneumonia. Most patients
       also have some central nervous system disturbances such as meningeal irritation
       confusion drowsiness seizures coma and hearing loss.
-  Parents:
-  - Parent:
-    - ORPHAcode: '102023'
-      Label: Typhus-group rickettsiosis
-  Childs:
-  - Child:
-      Label: Brill-Zinsser disease
-      ORPHAcode: '99990'
-      Genes: no data
-  - Child:
-      Label: Relapsing epidemic typhus
-      ORPHAcode: '99991'
-      Genes: no data
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

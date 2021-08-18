@@ -1,78 +1,78 @@
 Orphapacket:
-  ORPHApacketId: '226'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '226'
-  Label: Dihydropteridine reductase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_226
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: Hyperphenylalaninemia due to dihydropteridine reductase deficiency
-  - Synonym: PKU type 2
-  - Synonym: Phenylketonuria type 2
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '261630'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Dihydropteridine reductase (DHPR) deficiency is a severe form of hyperphenylalaninemia
-      (HPA) due to impaired regeneration of tetrahydrobiopterin (BH4) (see this term)
-      leading to decreased levels of neurotransmitters (dopamine serotonin) and folate
-      in cerebrospinal fluid and causing neurological symptoms such as psychomotor
-      delay hypotonia seizures abnormal movements hypersalivation and swallowing difficulties.
-  Genes:
-  - Gene:
-      Symbol: QDPR
-      Name: quinoid dihydropteridine reductase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '238583'
-      Label: Hyperphenylalaninemia due to tetrahydrobiopterin deficiency
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000252
-      HPOTerm: Microcephaly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001263
-      HPOTerm: Global developmental delay
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002015
-      HPOTerm: Dysphagia
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 14705166[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '261630'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: quinoid dihydropteridine reductase
+      Symbol: QDPR
+  Label: Dihydropteridine reductase deficiency
+  ORPHAcode: '226'
+  ORPHApacketId: '226'
+  PURL: http://www.orpha.net/ORDO/Orphanet_226
+  Parents:
+  - Parent:
+    - Label: Hyperphenylalaninemia due to tetrahydrobiopterin deficiency
+      ORPHAcode: '238583'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000252
+      HPOTerm: Microcephaly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002015
+      HPOTerm: Dysphagia
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 14705166[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Hyperphenylalaninemia due to dihydropteridine reductase deficiency
+  - Synonym: PKU type 2
+  - Synonym: Phenylketonuria type 2
+  TextSection:
+    Contents: Dihydropteridine reductase (DHPR) deficiency is a severe form of hyperphenylalaninemia
+      (HPA) due to impaired regeneration of tetrahydrobiopterin (BH4) (see this term)
+      leading to decreased levels of neurotransmitters (dopamine serotonin) and folate
+      in cerebrospinal fluid and causing neurological symptoms such as psychomotor
+      delay hypotonia seizures abnormal movements hypersalivation and swallowing difficulties.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

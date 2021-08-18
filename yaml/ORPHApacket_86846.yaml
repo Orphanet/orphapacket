@@ -1,49 +1,49 @@
 Orphapacket:
-  ORPHApacketId: '86846'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '86846'
-  Label: Therapy related acute myeloid leukemia and myelodysplastic syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_86846
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Acute myeloid leukemia and myelodysplastic syndromes related to alkylating
+        agent
+      ORPHAcode: '102379'
+  - Child:
+      Genes: no data
+      Label: Acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase
+        type 2 inhibitor
+      ORPHAcode: '102381'
+  - Child:
+      Genes: no data
+      Label: Acute myeloid leukemia and myelodysplastic syndromes related to radiation
+      ORPHAcode: '164726'
   DisorderType:
-    value: Category
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '601626'
+    Source: OMIM
+  Label: Therapy related acute myeloid leukemia and myelodysplastic syndrome
+  ORPHAcode: '86846'
+  ORPHApacketId: '86846'
+  PURL: http://www.orpha.net/ORDO/Orphanet_86846
+  Parents:
+  - Parent:
+    - Label: Acute myeloid leukemia
+      ORPHAcode: '519'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Secondary AML
   - Synonym: Secondary acute myeloid leukemia
   - Synonym: Therapy-related AML and myelodysplastic syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '601626'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  Parents:
-  - Parent:
-    - ORPHAcode: '519'
-      Label: Acute myeloid leukemia
-  Childs:
-  - Child:
-      Label: Acute myeloid leukemia and myelodysplastic syndromes related to alkylating
-        agent
-      ORPHAcode: '102379'
-      Genes: no data
-  - Child:
-      Label: Acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase
-        type 2 inhibitor
-      ORPHAcode: '102381'
-      Genes: no data
-  - Child:
-      Label: Acute myeloid leukemia and myelodysplastic syndromes related to radiation
-      ORPHAcode: '164726'
-      Genes: no data
-  Prevalences:
-    Prevalence:
-    - Source: RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

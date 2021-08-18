@@ -1,20 +1,95 @@
 Orphapacket:
-  ORPHApacketId: '324290'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '324290'
-  Label: Early-onset Lafora body disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_324290
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: Not yet documented
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '616640'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: PR/SET domain 8
+      Symbol: PRDM8
+  Label: Early-onset Lafora body disease
+  ORPHAcode: '324290'
+  ORPHApacketId: '324290'
+  PURL: http://www.orpha.net/ORDO/Orphanet_324290
+  Parents:
+  - Parent:
+    - Label: Progressive myoclonic epilepsy
+      ORPHAcode: '98261'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001336
+      HPOTerm: Myoclonus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100318
+      HPOTerm: Lafora bodies
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000708
+      HPOTerm: Behavioral abnormality
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001260
+      HPOTerm: Dysarthria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001347
+      HPOTerm: Hyperreflexia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001251
+      HPOTerm: Ataxia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001268
+      HPOTerm: Mental deterioration
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001285
+      HPOTerm: Spastic tetraparesis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001289
+      HPOTerm: Confusion
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002300
+      HPOTerm: Mutism
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0011999
+      HPOTerm: Paranoia
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 22961547[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_22961547[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic progressive myoclonic epilepsy characterized by childhood
       onset of progressive dysarthria myoclonus ataxia seizures and cognitive decline.
       The disease takes a protracted course with patients surviving into adulthood
@@ -22,85 +97,10 @@ Orphapacket:
       and screaming spasticity and hyperreflexia confusion mutism and incontinence.
       There are no visual disturbances. Muscle biopsy shows numerous periodic acid-Schiff-positive
       inclusions so-called Lafora bodies.
-  Genes:
-  - Gene:
-      Symbol: PRDM8
-      Name: PR/SET domain 8
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98261'
-      Label: Progressive myoclonic epilepsy
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001336
-      HPOTerm: Myoclonus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100318
-      HPOTerm: Lafora bodies
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000708
-      HPOTerm: Behavioral abnormality
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001260
-      HPOTerm: Dysarthria
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001347
-      HPOTerm: Hyperreflexia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001250
-      HPOTerm: Seizures
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001251
-      HPOTerm: Ataxia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001268
-      HPOTerm: Mental deterioration
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001285
-      HPOTerm: Spastic tetraparesis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001289
-      HPOTerm: Confusion
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002300
-      HPOTerm: Mutism
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0011999
-      HPOTerm: Paranoia
-      HPOFrequency: Very rare (<4-1%)
-  Prevalences:
-  - Prevalence:
-      Source: 22961547[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_22961547[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: Not yet documented
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

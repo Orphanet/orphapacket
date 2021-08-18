@@ -1,32 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '440701'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '440701'
-  Label: Disorders of pentose/polyol metabolism
-  PURL: http://www.orpha.net/ORDO/Orphanet_440701
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '79161'
-      Label: Disorder of carbohydrate metabolism
   Childs:
   - Child:
-      Label: Pentosuria
-      ORPHAcode: '2843'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '18985'
+            Source: HGNC
+          - Reference: '608347'
+            Source: OMIM
           Label: dicarbonyl and L-xylulose reductase
           Symbol: DCXR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18985'
-          - Source: OMIM
-            Reference: '608347'
+      Label: Pentosuria
+      ORPHAcode: '2843'
   - Child:
+      Genes: no data
       Label: Disorder of pentose phosphate metabolism
       ORPHAcode: '79186'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Disorders of pentose/polyol metabolism
+  ORPHAcode: '440701'
+  ORPHApacketId: '440701'
+  PURL: http://www.orpha.net/ORDO/Orphanet_440701
+  Parents:
+  - Parent:
+    - Label: Disorder of carbohydrate metabolism
+      ORPHAcode: '79161'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,22 +1,118 @@
 Orphapacket:
-  ORPHApacketId: '1839'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '1839'
-  Label: Hereditary mucoepithelial dysplasia
-  PURL: http://www.orpha.net/ORDO/Orphanet_1839
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '158310'
+    Source: OMIM
+  Label: Hereditary mucoepithelial dysplasia
+  ORPHAcode: '1839'
+  ORPHApacketId: '1839'
+  PURL: http://www.orpha.net/ORDO/Orphanet_1839
+  Parents:
+  - Parent:
+    - Label: Immune deficiency with skin involvement
+      ORPHAcode: '79391'
+  - Parent:
+    - Label: Syndromic cataract
+      ORPHAcode: '98641'
+  - Parent:
+    - Label: Genetic immune deficiency with skin involvement
+      ORPHAcode: '183494'
+  - Parent:
+    - Label: Syndromic genetic cataract
+      ORPHAcode: '522548'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000008
+      HPOTerm: Abnormal morphology of female internal genitalia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000014
+      HPOTerm: Abnormality of the bladder
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000119
+      HPOTerm: Abnormality of the genitourinary system
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000212
+      HPOTerm: Gingival overgrowth
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000221
+      HPOTerm: Furrowed tongue
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000518
+      HPOTerm: Cataract
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000613
+      HPOTerm: Photophobia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000790
+      HPOTerm: Hematuria
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000962
+      HPOTerm: Hyperkeratosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001131
+      HPOTerm: Corneal dystrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001596
+      HPOTerm: Alopecia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002205
+      HPOTerm: Recurrent respiratory infections
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002206
+      HPOTerm: Pulmonary fibrosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002213
+      HPOTerm: Fine hair
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002575
+      HPOTerm: Tracheoesophageal fistula
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008070
+      HPOTerm: Sparse hair
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012732
+      HPOTerm: Anorectal anomaly
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Urban-Schosser-Spohn syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '158310'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic immune deficiency with skin involvement characterized
       by clinical triad of non-scarring alopecia affecting mainly the scalp well-demarcated
       mucosal erythema and psoriasiform erythematous intertriginous plaques. Follicular
@@ -24,106 +120,10 @@ Orphapacket:
       recurrent infections are additional clinical features. Histopathology of mucosal
       lesions show characteristic findings of dyskeratotic keratinocytes vacuolated
       basal cells lack of epithelial maturation and decreased number of desmosomes.
-  Parents:
-  - Parent:
-    - ORPHAcode: '79391'
-      Label: Immune deficiency with skin involvement
-  - Parent:
-    - ORPHAcode: '98641'
-      Label: Syndromic cataract
-  - Parent:
-    - ORPHAcode: '183494'
-      Label: Genetic immune deficiency with skin involvement
-  - Parent:
-    - ORPHAcode: '522548'
-      Label: Syndromic genetic cataract
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000008
-      HPOTerm: Abnormality of female internal genitalia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000014
-      HPOTerm: Abnormality of the bladder
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000119
-      HPOTerm: Abnormality of the genitourinary system
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000212
-      HPOTerm: Gingival overgrowth
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000221
-      HPOTerm: Furrowed tongue
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000518
-      HPOTerm: Cataract
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000613
-      HPOTerm: Photophobia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000639
-      HPOTerm: Nystagmus
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000790
-      HPOTerm: Hematuria
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000962
-      HPOTerm: Hyperkeratosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001131
-      HPOTerm: Corneal dystrophy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001596
-      HPOTerm: Alopecia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002205
-      HPOTerm: Recurrent respiratory infections
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002206
-      HPOTerm: Pulmonary fibrosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002213
-      HPOTerm: Fine hair
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002575
-      HPOTerm: Tracheoesophageal fistula
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008070
-      HPOTerm: Sparse hair
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0012732
-      HPOTerm: Anorectal anomaly
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

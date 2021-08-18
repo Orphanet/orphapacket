@@ -1,96 +1,96 @@
 Orphapacket:
-  ORPHApacketId: '2076'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2076'
-  Label: X-linked intellectual disability-epilepsy syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_2076
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '300088'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '300423'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '300607'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  Parents:
-  - Parent:
-    - ORPHAcode: '98464'
-      Label: X-linked syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '166472'
-      Label: Monogenic disease with epilepsy
-  Childs:
-  - Child:
-      Label: X-linked intellectual disability, Hedera type
-      ORPHAcode: '93952'
-      Genes:
-      - Gene:
-          Label: ATPase H+ transporting accessory protein 2
-          Symbol: ATP6AP2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18305'
-          - Source: OMIM
-            Reference: '300556'
-  - Child:
-      Label: Female restricted epilepsy with intellectual disability
-      ORPHAcode: '101039'
-      Genes:
-      - Gene:
-          Label: protocadherin 19
-          Symbol: PCDH19
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '14270'
-          - Source: OMIM
-            Reference: '300460'
-  - Child:
-      Label: Hyperekplexia-epilepsy syndrome
-      ORPHAcode: '163985'
-      Genes:
-      - Gene:
-          Label: Cdc42 guanine nucleotide exchange factor 9
-          Symbol: ARHGEF9
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '14561'
-          - Source: OMIM
-            Reference: '300429'
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001250
-      HPOTerm: Seizures
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Childhood
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '18305'
+            Source: HGNC
+          - Reference: '300556'
+            Source: OMIM
+          Label: ATPase H+ transporting accessory protein 2
+          Symbol: ATP6AP2
+      Label: X-linked intellectual disability, Hedera type
+      ORPHAcode: '93952'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '14270'
+            Source: HGNC
+          - Reference: '300460'
+            Source: OMIM
+          Label: protocadherin 19
+          Symbol: PCDH19
+      Label: Female restricted epilepsy with intellectual disability
+      ORPHAcode: '101039'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '14561'
+            Source: HGNC
+          - Reference: '300429'
+            Source: OMIM
+          Label: Cdc42 guanine nucleotide exchange factor 9
+          Symbol: ARHGEF9
+      Label: Hyperekplexia-epilepsy syndrome
+      ORPHAcode: '163985'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '300088'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '300423'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '300607'
+      Source: OMIM
+  Label: X-linked intellectual disability-epilepsy syndrome
+  ORPHAcode: '2076'
+  ORPHApacketId: '2076'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2076
+  Parents:
+  - Parent:
+    - Label: X-linked syndromic intellectual disability
+      ORPHAcode: '98464'
+  - Parent:
+    - Label: Monogenic disease with epilepsy
+      ORPHAcode: '166472'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   TypeOfInheritances:
   - TypeOfInheritance:
       value: X-linked dominant
   - TypeOfInheritance:
       value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,20 +1,120 @@
 Orphapacket:
-  ORPHApacketId: '85172'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '85172'
-  Label: Microcephalic osteodysplastic dysplasia, Saul-Wilson type
-  PURL: http://www.orpha.net/ORDO/Orphanet_85172
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '618150'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: component of oligomeric golgi complex 4
+      Symbol: COG4
+  Label: Microcephalic osteodysplastic dysplasia, Saul-Wilson type
+  ORPHAcode: '85172'
+  ORPHApacketId: '85172'
+  PURL: http://www.orpha.net/ORDO/Orphanet_85172
+  Parents:
+  - Parent:
+    - Label: Syndromic cataract
+      ORPHAcode: '98641'
+  - Parent:
+    - Label: Syndromic genetic cataract
+      ORPHAcode: '522548'
+  - Parent:
+    - Label: Microcephalic primordial dwarfism
+      ORPHAcode: '324761'
+  - Parent:
+    - Label: Slender bone dysplasia
+      ORPHAcode: '93440'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000252
+      HPOTerm: Microcephaly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000272
+      HPOTerm: Malar flattening
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000444
+      HPOTerm: Convex nasal ridge
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000446
+      HPOTerm: Narrow nasal bridge
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000518
+      HPOTerm: Cataract
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000520
+      HPOTerm: Proptosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000926
+      HPOTerm: Platyspondyly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001762
+      HPOTerm: Talipes equinovarus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002007
+      HPOTerm: Frontal bossing
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003311
+      HPOTerm: Hypoplasia of the odontoid process
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004279
+      HPOTerm: Short palm
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004582
+      HPOTerm: Irregularity of vertebral bodies
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010230
+      HPOTerm: Cone-shaped epiphyses of the phalanges of the hand
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011833
+      HPOTerm: Overhanging nasal tip
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0200055
+      HPOTerm: Small hand
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 8074143[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_8074143[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Microcephalic osteodysplastic dysplasia Saul-Wilson type is a skeletal
       dysplasia characterized by a distinct facial phenotype short stature brachydactyly
       clubfoot deformities cataracts and microcephaly. It has been described in four
@@ -23,110 +123,10 @@ Orphapacket:
       with prominent eyes. Characteristic radiographic findings are observed (irregularities
       of the vertebral bodies hypoplasia of the odontoid process short phalanges coning
       several epiphyses <i>etc.</i>).
-  Genes:
-  - Gene:
-      Symbol: COG4
-      Name: component of oligomeric golgi complex 4
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98641'
-      Label: Syndromic cataract
-  - Parent:
-    - ORPHAcode: '522548'
-      Label: Syndromic genetic cataract
-  - Parent:
-    - ORPHAcode: '324761'
-      Label: Microcephalic primordial dwarfism
-  - Parent:
-    - ORPHAcode: '93440'
-      Label: Slender bone dysplasia
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000252
-      HPOTerm: Microcephaly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000272
-      HPOTerm: Malar flattening
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000444
-      HPOTerm: Convex nasal ridge
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000446
-      HPOTerm: Narrow nasal bridge
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000518
-      HPOTerm: Cataract
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000520
-      HPOTerm: Proptosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000926
-      HPOTerm: Platyspondyly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001762
-      HPOTerm: Talipes equinovarus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002007
-      HPOTerm: Frontal bossing
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003311
-      HPOTerm: Hypoplasia of the odontoid process
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0004279
-      HPOTerm: Short palm
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0004322
-      HPOTerm: Short stature
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0004582
-      HPOTerm: Irregularity of vertebral bodies
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0010230
-      HPOTerm: Cone-shaped epiphyses of the phalanges of the hand
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0011833
-      HPOTerm: Overhanging nasal tip
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0200055
-      HPOTerm: Small hand
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 8074143[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_8074143[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

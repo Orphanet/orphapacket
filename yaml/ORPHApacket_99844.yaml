@@ -1,60 +1,60 @@
 Orphapacket:
-  ORPHApacketId: '99844'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99844'
-  Label: Leukocyte adhesion deficiency type III
-  PURL: http://www.orpha.net/ORDO/Orphanet_99844
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: early childhood
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '612840'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: FERM domain containing kindlin 3
+      Symbol: FERMT3
+  Label: Leukocyte adhesion deficiency type III
+  ORPHAcode: '99844'
+  ORPHApacketId: '99844'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99844
+  Parents:
+  - Parent:
+    - Label: Osteopetrosis and related disorders
+      ORPHAcode: '2781'
+  - Parent:
+    - Label: Leukocyte adhesion deficiency
+      ORPHAcode: '2968'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 28827066[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_28827066[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: LAD-1 variant
   - Synonym: LAD-III
   - Synonym: Leukocyte adhesion deficiency-1 variant
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '612840'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Leukocyte adhesion deficiency type III (LAD-III) is a form of LAD (see
       this term) characterized by both severe bacterial infections and a severe bleeding
       disorder.
-  Genes:
-  - Gene:
-      Symbol: FERMT3
-      Name: fermitin family member 3
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '2781'
-      Label: Osteopetrosis and related disorders
-  - Parent:
-    - ORPHAcode: '2968'
-      Label: Leukocyte adhesion deficiency
-  Prevalences:
-  - Prevalence:
-      Source: 28827066[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_28827066[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: early childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

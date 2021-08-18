@@ -1,110 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '792'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '792'
-  Label: X-linked retinoschisis
-  PURL: http://www.orpha.net/ORDO/Orphanet_792
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: X-linked juvenile retinoschisis
-  - Synonym: XLRS
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '312700'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare disorder involving multiple structure of the eye characterized
-      by reduced visual acuity in males due to juvenile macular degeneration. Clinical
-      features such as vitreous hemorrhage retinal detachment and neovascular glaucoma
-      can be observed in advanced stages.
-  Genes:
-  - Gene:
-      Symbol: RS1
-      Name: retinoschisin 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98631'
-      Label: Congenital malformation of the eye with glaucoma as a major feature
-  - Parent:
-    - ORPHAcode: '98641'
-      Label: Syndromic cataract
-  - Parent:
-    - ORPHAcode: '522548'
-      Label: Syndromic genetic cataract
-  - Parent:
-    - ORPHAcode: '525677'
-      Label: Genetic congenital malformation of the eye with glaucoma as a major feature
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000478
-      HPOTerm: Abnormality of the eye
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000496
-      HPOTerm: Abnormality of eye movement
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000501
-      HPOTerm: Glaucoma
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000504
-      HPOTerm: Abnormality of vision
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000512
-      HPOTerm: Abnormal electroretinogram
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000518
-      HPOTerm: Cataract
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0030502
-      HPOTerm: Retinoschisis
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 17172462[PMID]_ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Denmark
-  - Prevalence:
-      Source: 17172462[PMID]_ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Netherlands
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: 1918822[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: France
-  - Prevalence:
-      Source: 17172462[PMID]_1918822[PMID]_ ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -114,9 +11,112 @@ Orphapacket:
       value: Childhood
   - AverageAgeOfOnset:
       value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '312700'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: retinoschisin 1
+      Symbol: RS1
+  Label: X-linked retinoschisis
+  ORPHAcode: '792'
+  ORPHApacketId: '792'
+  PURL: http://www.orpha.net/ORDO/Orphanet_792
+  Parents:
+  - Parent:
+    - Label: Congenital malformation of the eye with glaucoma as a major feature
+      ORPHAcode: '98631'
+  - Parent:
+    - Label: Syndromic cataract
+      ORPHAcode: '98641'
+  - Parent:
+    - Label: Syndromic genetic cataract
+      ORPHAcode: '522548'
+  - Parent:
+    - Label: Genetic congenital malformation of the eye with glaucoma as a major feature
+      ORPHAcode: '525677'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000478
+      HPOTerm: Abnormality of the eye
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000496
+      HPOTerm: Abnormality of eye movement
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000501
+      HPOTerm: Glaucoma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000504
+      HPOTerm: Abnormality of vision
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000512
+      HPOTerm: Abnormal electroretinogram
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000518
+      HPOTerm: Cataract
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0030502
+      HPOTerm: Retinoschisis
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Denmark
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 17172462[PMID]_ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Netherlands
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 17172462[PMID]_ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: France
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 1918822[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 17172462[PMID]_1918822[PMID]_ ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: X-linked juvenile retinoschisis
+  - Synonym: XLRS
+  TextSection:
+    Contents: A rare disorder involving multiple structure of the eye characterized
+      by reduced visual acuity in males due to juvenile macular degeneration. Clinical
+      features such as vitreous hemorrhage retinal detachment and neovascular glaucoma
+      can be observed in advanced stages.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

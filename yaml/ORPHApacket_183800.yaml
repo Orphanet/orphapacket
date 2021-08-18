@@ -1,40 +1,40 @@
 Orphapacket:
-  ORPHApacketId: '183800'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '183800'
-  Label: Non-rare immune disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_183800
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-    Parent:
-    - ORPHAcode: '183862'
-      Label: Non-rare disease
   Childs:
   - Child:
-      Label: 'NON RARE IN EUROPE: Glucose-6-phosphate-dehydrogenase deficiency'
-      ORPHAcode: '362'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4057'
+            Source: HGNC
+          - Reference: '305900'
+            Source: OMIM
           Label: glucose-6-phosphate dehydrogenase
           Symbol: G6PD
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4057'
-          - Source: OMIM
-            Reference: '305900'
+      Label: 'NON RARE IN EUROPE: Glucose-6-phosphate-dehydrogenase deficiency'
+      ORPHAcode: '362'
   - Child:
-      Label: 'NON RARE IN EUROPE: Immunoglobulin A deficiency'
-      ORPHAcode: '69127'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '18153'
+            Source: HGNC
+          - Reference: '604907'
+            Source: OMIM
           Label: TNF receptor superfamily member 13B
           Symbol: TNFRSF13B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18153'
-          - Source: OMIM
-            Reference: '604907'
+      Label: 'NON RARE IN EUROPE: Immunoglobulin A deficiency'
+      ORPHAcode: '69127'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Non-rare immune disease
+  ORPHAcode: '183800'
+  ORPHApacketId: '183800'
+  PURL: http://www.orpha.net/ORDO/Orphanet_183800
+  Parents:
+    Parent:
+    - Label: Non-rare disease
+      ORPHAcode: '183862'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

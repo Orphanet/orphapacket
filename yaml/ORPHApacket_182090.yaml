@@ -1,18 +1,194 @@
 Orphapacket:
-  ORPHApacketId: '182090'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '182090'
-  Label: Pulmonary arterial hypertension
-  PURL: http://www.orpha.net/ORDO/Orphanet_182090
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Idiopathic/heritable pulmonary arterial hypertension
+      ORPHAcode: '422'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '1078'
+            Source: HGNC
+          - Reference: '600799'
+            Source: OMIM
+          Label: bone morphogenetic protein receptor type 2
+          Symbol: BMPR2
+      Label: Drug- or toxin-induced pulmonary arterial hypertension
+      ORPHAcode: '275786'
+  - Child:
+      Genes: no data
+      Label: Pulmonary arterial hypertension associated with another disease
+      ORPHAcode: '275791'
   DisorderType:
-    value: Category
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Pulmonary arterial hypertension
+  ORPHAcode: '182090'
+  ORPHApacketId: '182090'
+  PURL: http://www.orpha.net/ORDO/Orphanet_182090
+  Parents:
+  - Parent:
+    - Label: Rare pulmonary hypertension
+      ORPHAcode: '71198'
+  - Parent:
+    - Label: Rare disorder potentially indicated for lung transplant
+      ORPHAcode: '506222'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002094
+      HPOTerm: Dyspnea
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100749
+      HPOTerm: Chest pain
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001962
+      HPOTerm: Palpitations
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002240
+      HPOTerm: Hepatomegaly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002321
+      HPOTerm: Vertigo
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010741
+      HPOTerm: Pedal edema
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001063
+      HPOTerm: Acrocyanosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001541
+      HPOTerm: Ascites
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001635
+      HPOTerm: Congestive heart failure
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001645
+      HPOTerm: Sudden cardiac death
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001702
+      HPOTerm: Abnormal tricuspid valve morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002105
+      HPOTerm: Hemoptysis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002205
+      HPOTerm: Recurrent respiratory infections
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005306
+      HPOTerm: Capillary hemangioma
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: European Medicines Agency 2018[INST]_16456139[PMID]_17360728[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Spain
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 22362843[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Spain
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 22362843[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: France
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 16456139[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: France
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 16456139[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 21793646[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Czech Republic
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 24629043[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Czech Republic
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 24629043[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Switzerland
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 18587690[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Switzerland
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 18587690[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: United Kingdom
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 21885399[PMID]_17360728[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: United Kingdom
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 17360728[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: PAH
   TextSection:
-    TextSectionType: Definition
     Contents: Pulmonary arterial hypertension (PAH) is a group of diseases characterized
       by elevated pulmonary arterial resistance leading to right heart failure. PAH
       is progressive and potentially fatal. PAH may be idiopathic and/ or familial
@@ -20,188 +196,12 @@ Orphapacket:
       with other diseases like congenital heart disease connective tissue disease
       HIV schistosomiasis portal hypertension (PAH associated with other disease see
       this term).
-  Parents:
-  - Parent:
-    - ORPHAcode: '71198'
-      Label: Rare pulmonary hypertension
-  - Parent:
-    - ORPHAcode: '506222'
-      Label: Rare disorder potentially indicated for lung transplant
-  Childs:
-  - Child:
-      Label: Idiopathic/heritable pulmonary arterial hypertension
-      ORPHAcode: '422'
-      Genes: no data
-  - Child:
-      Label: Drug- or toxin-induced pulmonary arterial hypertension
-      ORPHAcode: '275786'
-      Genes:
-      - Gene:
-          Label: bone morphogenetic protein receptor type 2
-          Symbol: BMPR2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1078'
-          - Source: OMIM
-            Reference: '600799'
-  - Child:
-      Label: Pulmonary arterial hypertension associated with another disease
-      ORPHAcode: '275791'
-      Genes: no data
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001063
-      HPOTerm: Acrocyanosis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001541
-      HPOTerm: Ascites
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001635
-      HPOTerm: Congestive heart failure
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001645
-      HPOTerm: Sudden cardiac death
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001702
-      HPOTerm: Abnormal tricuspid valve morphology
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001962
-      HPOTerm: Palpitations
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002094
-      HPOTerm: Dyspnea
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002105
-      HPOTerm: Hemoptysis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002205
-      HPOTerm: Recurrent respiratory infections
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002240
-      HPOTerm: Hepatomegaly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002321
-      HPOTerm: Vertigo
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0005306
-      HPOTerm: Capillary hemangioma
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0010741
-      HPOTerm: Pedal edema
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012378
-      HPOTerm: Fatigue
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0100749
-      HPOTerm: Chest pain
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: European Medicines Agency 2018[INST]_16456139[PMID]_17360728[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 22362843[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Spain
-  - Prevalence:
-      Source: 22362843[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Spain
-  - Prevalence:
-      Source: 16456139[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: France
-  - Prevalence:
-      Source: 16456139[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: France
-  - Prevalence:
-      Source: 21793646[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: United States
-  - Prevalence:
-      Source: 24629043[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Czech Republic
-  - Prevalence:
-      Source: 24629043[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Czech Republic
-  - Prevalence:
-      Source: 18587690[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Switzerland
-  - Prevalence:
-      Source: 18587690[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Switzerland
-  - Prevalence:
-      Source: 21885399[PMID]_17360728[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: United Kingdom
-  - Prevalence:
-      Source: 17360728[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: United Kingdom
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

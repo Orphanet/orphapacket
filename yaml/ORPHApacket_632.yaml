@@ -1,39 +1,39 @@
 Orphapacket:
-  ORPHApacketId: '632'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '632'
-  Label: Short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_632
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '307200'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: BTK
-      Name: Bruton tyrosine kinase
-      ExternalReferences: []
-  - Gene:
-      Symbol: ELF4
-      Name: E74 like ETS transcription factor 4
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '229720'
-      Label: Syndromic agammaglobulinemia
-  - Parent:
-    - ORPHAcode: '231692'
-      Label: Isolated growth hormone deficiency type III
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '307200'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: Bruton tyrosine kinase
+      Symbol: BTK
+  - Gene:
+      ExternalReferences: []
+      Name: E74 like ETS transcription factor 4
+      Symbol: ELF4
+  Label: Short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia
+  ORPHAcode: '632'
+  ORPHApacketId: '632'
+  PURL: http://www.orpha.net/ORDO/Orphanet_632
+  Parents:
+  - Parent:
+    - Label: Syndromic agammaglobulinemia
+      ORPHAcode: '229720'
+  - Parent:
+    - Label: Isolated growth hormone deficiency type III
+      ORPHAcode: '231692'
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

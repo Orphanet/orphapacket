@@ -1,20 +1,116 @@
 Orphapacket:
-  ORPHApacketId: '301'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '301'
-  Label: Ependymal tumor
-  PURL: http://www.orpha.net/ORDO/Orphanet_301
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '9955'
+            Source: HGNC
+          - Reference: '164014'
+            Source: OMIM
+          Label: RELA proto-oncogene, NF-kB subunit
+          Symbol: RELA
+      - Gene:
+          ExternalReferences:
+          - Reference: '28449'
+            Source: HGNC
+          - Reference: '615699'
+            Source: OMIM
+          Label: zinc finger translocation associated
+          Symbol: ZFTA
+      Label: Ependymoma
+      ORPHAcode: '251636'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '28449'
+            Source: HGNC
+          - Reference: '615699'
+            Source: OMIM
+          Label: zinc finger translocation associated
+          Symbol: ZFTA
+      - Gene:
+          ExternalReferences:
+          - Reference: '9955'
+            Source: HGNC
+          - Reference: '164014'
+            Source: OMIM
+          Label: RELA proto-oncogene, NF-kB subunit
+          Symbol: RELA
+      Label: RELA fusion-positive ependymoma
+      ORPHAcode: '530792'
+  - Child:
+      Genes: no data
+      Label: Anaplastic ependymoma
+      ORPHAcode: '251646'
+  - Child:
+      Genes: no data
+      Label: Subependymoma
+      ORPHAcode: '251639'
+  - Child:
+      Genes: no data
+      Label: Myxopapillary ependymoma
+      ORPHAcode: '251643'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
     Reference: '137800'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Source: OMIM
+  Label: Ependymal tumor
+  ORPHAcode: '301'
+  ORPHApacketId: '301'
+  PURL: http://www.orpha.net/ORDO/Orphanet_301
+  Parents:
+  - Parent:
+    - Label: Glial tumor
+      ORPHAcode: '182067'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 22227039[PMID]_22033323[PMID]_RARECARE surveillance of rare cancers
+        in Europe[REG]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: 22033323[PMID]_RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Lifetime Prevalence
+      Source: 22033323[PMID]_RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: United Kingdom
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 22227039[PMID]_RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: Central Brain Tumor registry of the United States 2010-2014[REG]_29117289[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: A tumor of neurectodermal origin arising from ependymal cells that line
       the ventricles and central canal of the spinal cord that can occur in both children
       and adults and that is characterized by wide a range of clinical manifestations
@@ -23,103 +119,7 @@ Orphapacket:
       signs for supratentorial tumors and dysesthesia for tumors of the spinal cord.
       They can be classified as myxopapillary ependymoma subependymoma ependymoma
       (low grade tumors) or anaplastic ependymoma (grade III tumors).
-  Parents:
-  - Parent:
-    - ORPHAcode: '182067'
-      Label: Glial tumor
-  Childs:
-  - Child:
-      Label: Ependymoma
-      ORPHAcode: '251636'
-      Genes:
-      - Gene:
-          Label: RELA proto-oncogene, NF-kB subunit
-          Symbol: RELA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9955'
-          - Source: OMIM
-            Reference: '164014'
-      - Gene:
-          Label: chromosome 11 open reading frame 95
-          Symbol: C11ORF95
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '28449'
-          - Source: OMIM
-            Reference: '615699'
-  - Child:
-      Label: RELA fusion-positive ependymoma
-      ORPHAcode: '530792'
-      Genes:
-      - Gene:
-          Label: chromosome 11 open reading frame 95
-          Symbol: C11ORF95
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '28449'
-          - Source: OMIM
-            Reference: '615699'
-      - Gene:
-          Label: RELA proto-oncogene, NF-kB subunit
-          Symbol: RELA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9955'
-          - Source: OMIM
-            Reference: '164014'
-  - Child:
-      Label: Anaplastic ependymoma
-      ORPHAcode: '251646'
-      Genes: no data
-  - Child:
-      Label: Subependymoma
-      ORPHAcode: '251639'
-      Genes: no data
-  - Child:
-      Label: Myxopapillary ependymoma
-      ORPHAcode: '251643'
-      Genes: no data
-  Prevalences:
-  - Prevalence:
-      Source: 22227039[PMID]_22033323[PMID]_RARECARE surveillance of rare cancers
-        in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 22033323[PMID]_RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 22033323[PMID]_RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Lifetime Prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 22227039[PMID]_RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: United Kingdom
-  - Prevalence:
-      Source: Central Brain Tumor registry of the United States 2010-2014[REG]_29117289[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: United States
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

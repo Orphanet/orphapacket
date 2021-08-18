@@ -1,22 +1,42 @@
 Orphapacket:
-  ORPHApacketId: '370933'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '370933'
-  Label: GM3 synthase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_370933
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '609056'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ST3 beta-galactoside alpha-2,3-sialyltransferase 5
+      Symbol: ST3GAL5
+  Label: GM3 synthase deficiency
+  ORPHAcode: '370933'
+  ORPHApacketId: '370933'
+  PURL: http://www.orpha.net/ORDO/Orphanet_370933
+  Parents:
+  - Parent:
+    - Label: Congenital disorder of glycosylation with epilepsy as a major feature
+      ORPHAcode: '371071'
+  - Parent:
+    - Label: Non-X-linked congenital disorder of glycosylation with intellectual disability
+        as a major feature
+      ORPHAcode: '371064'
+  - Parent:
+    - Label: Disorder of glycosphingolipid and glycosylphosphatidylinositol anchor
+        glycosylation
+      ORPHAcode: '309515'
+  - Parent:
+    - Label: Disorder of phospholipids, sphingolipids and fatty acids biosynthesis
+        with central nervous system predominant involvement
+      ORPHAcode: '352306'
+  - Parent:
+    - Label: Congenital disorder of glycosylation with skin involvement
+      ORPHAcode: '371200'
   Synonyms:
   - Synonym: ST3GAL5-CDG
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '609056'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: GM3 synthase deficiency is a rare congenital disorder of glycosylation
       due to impaired synthesis of complex ganglioside species initially characterized
       by irritability poor feeding failure to thrive and early-onset refractory epilepsy
@@ -26,27 +46,7 @@ Orphapacket:
       impairment due to cortical atrophy (visible on magnetic resonance imaging) choreoathetosis
       and hypotonic tetraparesis usually appear gradually. Dysmorphic facial features
       may be associated.
-  Genes:
-  - Gene:
-      Symbol: ST3GAL5
-      Name: ST3 beta-galactoside alpha-2,3-sialyltransferase 5
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '371071'
-      Label: Congenital disorder of glycosylation with epilepsy as a major feature
-  - Parent:
-    - ORPHAcode: '371064'
-      Label: Non-X-linked congenital disorder of glycosylation with intellectual disability
-        as a major feature
-  - Parent:
-    - ORPHAcode: '309515'
-      Label: Disorder of glycosphingolipid and glycosylphosphatidylinositol anchor
-        glycosylation
-  - Parent:
-    - ORPHAcode: '352306'
-      Label: Disorder of phospholipids, sphingolipids and fatty acids biosynthesis
-        with central nervous system predominant involvement
-  - Parent:
-    - ORPHAcode: '371200'
-      Label: Congenital disorder of glycosylation with skin involvement
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

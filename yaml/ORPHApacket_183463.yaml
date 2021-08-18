@@ -1,53 +1,53 @@
 Orphapacket:
-  ORPHApacketId: '183463'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '183463'
-  Label: Genetic pigmentation anomaly of the skin
-  PURL: http://www.orpha.net/ORDO/Orphanet_183463
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '68346'
-      Label: Rare genetic skin disease
   Childs:
   - Child:
+      Genes: no data
       Label: Hypo- and hypermelanotic cutaneous macules-retarded growth-intellectual
         disability syndrome
       ORPHAcode: '2435'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Genetic hyperpigmentation of the skin
       ORPHAcode: '183466'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Genetic hypopigmentation of the skin
       ORPHAcode: '183469'
-      Genes: no data
   - Child:
-      Label: Familial progressive hyper- and hypopigmentation
-      ORPHAcode: '280628'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6343'
+            Source: HGNC
+          - Reference: '184745'
+            Source: OMIM
           Label: KIT ligand
           Symbol: KITLG
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6343'
-          - Source: OMIM
-            Reference: '184745'
+      Label: Familial progressive hyper- and hypopigmentation
+      ORPHAcode: '280628'
   - Child:
-      Label: Pigmentation defects-palmoplantar keratoderma-skin carcinoma syndrome
-      ORPHAcode: '447961'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '19182'
+            Source: HGNC
+          - Reference: '607955'
+            Source: OMIM
           Label: SAM and SH3 domain containing 1
           Symbol: SASH1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '19182'
-          - Source: OMIM
-            Reference: '607955'
+      Label: Pigmentation defects-palmoplantar keratoderma-skin carcinoma syndrome
+      ORPHAcode: '447961'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Genetic pigmentation anomaly of the skin
+  ORPHAcode: '183463'
+  ORPHApacketId: '183463'
+  PURL: http://www.orpha.net/ORDO/Orphanet_183463
+  Parents:
+  - Parent:
+    - Label: Rare genetic skin disease
+      ORPHAcode: '68346'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

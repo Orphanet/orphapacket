@@ -1,50 +1,109 @@
 Orphapacket:
-  ORPHApacketId: '67038'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '67038'
-  Label: B-cell chronic lymphocytic leukemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_67038
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '109543'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '151400'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '609630'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '612557'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '612558'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '612559'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: purinergic receptor P2X 7
+      Symbol: P2RX7
+  - Gene:
+      ExternalReferences: []
+      Name: immunoglobulin heavy variable 3-21
+      Symbol: IGHV3-21
+  - Gene:
+      ExternalReferences: []
+      Name: ATM serine/threonine kinase
+      Symbol: ATM
+  - Gene:
+      ExternalReferences: []
+      Name: cyclin D1
+      Symbol: CCND1
+  - Gene:
+      ExternalReferences: []
+      Name: tumor protein p53
+      Symbol: TP53
+  - Gene:
+      ExternalReferences: []
+      Name: ADP ribosylation factor like GTPase 11
+      Symbol: ARL11
+  - Gene:
+      ExternalReferences: []
+      Name: immunoglobulin heavy constant gamma 1 (G1m marker)
+      Symbol: IGHG1
+  - Gene:
+      ExternalReferences: []
+      Name: protection of telomeres 1
+      Symbol: POT1
+  - Gene:
+      ExternalReferences: []
+      Name: ribosomal protein S15
+      Symbol: RPS15
+  - Gene:
+      ExternalReferences: []
+      Name: IKAROS family zinc finger 3
+      Symbol: IKZF3
+  Label: B-cell chronic lymphocytic leukemia
+  ORPHAcode: '67038'
+  ORPHApacketId: '67038'
+  PURL: http://www.orpha.net/ORDO/Orphanet_67038
+  Parents:
+  - Parent:
+    - Label: Indolent B-cell non-Hodgkin lymphoma
+      ORPHAcode: '300842'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: European Medicines Agency 2015[INST]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: France
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: Institut National du Cancer 2013[INST]
+      ValMoy: no data
   Synonyms:
   - Synonym: B-CLL
   - Synonym: B-cell chronic lymphoid leukemia
   - Synonym: Small lymphocytic lymphoma
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '109543'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '151400'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '609630'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '612557'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '612558'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '612559'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
   TextSection:
-    TextSectionType: Definition
     Contents: B-cell chronic lymphocytic leukemia (B-CLL) is a type of B-cell non-Hodgkin
       lymphoma (see this term) and the most common form of leukemia in Western countries
       affecting elderly adults (mean age of 67 and 72 years) with a slight male predominance
@@ -55,71 +114,12 @@ Orphapacket:
       patients can also develop autoimmune complications such as autoimmune hemolytic
       anemia or immune thrombocytopenia (see these terms). The clinical course is
       extremely heterogeneous with survival ranging from a few months to several decades.
-  Genes:
-  - Gene:
-      Symbol: P2RX7
-      Name: purinergic receptor P2X 7
-      ExternalReferences: []
-  - Gene:
-      Symbol: IGHV3-21
-      Name: immunoglobulin heavy variable 3-21
-      ExternalReferences: []
-  - Gene:
-      Symbol: ATM
-      Name: ATM serine/threonine kinase
-      ExternalReferences: []
-  - Gene:
-      Symbol: CCND1
-      Name: cyclin D1
-      ExternalReferences: []
-  - Gene:
-      Symbol: TP53
-      Name: tumor protein p53
-      ExternalReferences: []
-  - Gene:
-      Symbol: ARL11
-      Name: ADP ribosylation factor like GTPase 11
-      ExternalReferences: []
-  - Gene:
-      Symbol: IGHG1
-      Name: immunoglobulin heavy constant gamma 1 (G1m marker)
-      ExternalReferences: []
-  - Gene:
-      Symbol: POT1
-      Name: protection of telomeres 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: RPS15
-      Name: ribosomal protein S15
-      ExternalReferences: []
-  - Gene:
-      Symbol: IKZF3
-      Name: IKAROS family zinc finger 3
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '300842'
-      Label: Indolent B-cell non-Hodgkin lymphoma
-  Prevalences:
-  - Prevalence:
-      Source: European Medicines Agency 2015[INST]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: Institut National du Cancer 2013[INST]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: France
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Multigenic/multifactorial
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,56 +1,56 @@
 Orphapacket:
-  ORPHApacketId: '79192'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79192'
-  Label: Disorder of pyridoxine metabolism
-  PURL: http://www.orpha.net/ORDO/Orphanet_79192
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '79214'
-      Label: Disorder of biogenic amine metabolism and transport
   Childs:
   - Child:
-      Label: Pyridoxine-dependent epilepsy
-      ORPHAcode: '3006'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '877'
+            Source: HGNC
+          - Reference: '107323'
+            Source: OMIM
           Label: aldehyde dehydrogenase 7 family member A1
           Symbol: ALDH7A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '877'
-          - Source: OMIM
-            Reference: '107323'
       - Gene:
+          ExternalReferences:
+          - Reference: '23089'
+            Source: HGNC
+          - Reference: '608305'
+            Source: OMIM
           Label: solute carrier family 13 member 5
           Symbol: SLC13A5
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '23089'
-          - Source: OMIM
-            Reference: '608305'
       - Gene:
+          ExternalReferences:
+          - Reference: '604436'
+            Source: OMIM
+          - Reference: '9457'
+            Source: HGNC
           Label: pyridoxal phosphate binding protein
           Symbol: PLPBP
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '604436'
-          - Source: HGNC
-            Reference: '9457'
+      Label: Pyridoxine-dependent epilepsy
+      ORPHAcode: '3006'
   - Child:
-      Label: Pyridoxal phosphate-responsive seizures
-      ORPHAcode: '79096'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '30260'
+            Source: HGNC
+          - Reference: '603287'
+            Source: OMIM
           Label: pyridoxamine 5'-phosphate oxidase
           Symbol: PNPO
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '30260'
-          - Source: OMIM
-            Reference: '603287'
+      Label: Pyridoxal phosphate-responsive seizures
+      ORPHAcode: '79096'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Disorder of pyridoxine metabolism
+  ORPHAcode: '79192'
+  ORPHApacketId: '79192'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79192
+  Parents:
+  - Parent:
+    - Label: Disorder of biogenic amine metabolism and transport
+      ORPHAcode: '79214'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

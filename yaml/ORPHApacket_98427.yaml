@@ -1,72 +1,72 @@
 Orphapacket:
-  ORPHApacketId: '98427'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98427'
-  Label: Polycythemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_98427
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-    Parent:
-    - ORPHAcode: '97992'
-      Label: Rare hematologic disease
   Childs:
   - Child:
-      Label: Polycythemia vera
-      ORPHAcode: '729'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6192'
+            Source: HGNC
+          - Reference: '147796'
+            Source: OMIM
           Label: Janus kinase 2
           Symbol: JAK2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6192'
-          - Source: OMIM
-            Reference: '147796'
       - Gene:
+          ExternalReferences:
+          - Reference: '7217'
+            Source: HGNC
+          - Reference: '159530'
+            Source: OMIM
           Label: MPL proto-oncogene, thrombopoietin receptor
           Symbol: MPL
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7217'
-          - Source: OMIM
-            Reference: '159530'
       - Gene:
+          ExternalReferences:
+          - Reference: '25941'
+            Source: HGNC
+          - Reference: '612839'
+            Source: OMIM
           Label: tet methylcytosine dioxygenase 2
           Symbol: TET2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '25941'
-          - Source: OMIM
-            Reference: '612839'
+      Label: Polycythemia vera
+      ORPHAcode: '729'
   - Child:
-      Label: Primary familial polycythemia
-      ORPHAcode: '90042'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '3416'
+            Source: HGNC
+          - Reference: '133171'
+            Source: OMIM
           Label: erythropoietin receptor
           Symbol: EPOR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3416'
-          - Source: OMIM
-            Reference: '133171'
+      Label: Primary familial polycythemia
+      ORPHAcode: '90042'
   - Child:
+      Genes: no data
       Label: Secondary polycythemia
       ORPHAcode: '98428'
-      Genes: no data
   - Child:
-      Label: Multiple paragangliomas associated with polycythemia
-      ORPHAcode: '324299'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '603349'
+            Source: OMIM
+          - Reference: '3374'
+            Source: HGNC
           Label: endothelial PAS domain protein 1
           Symbol: EPAS1
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '603349'
-          - Source: HGNC
-            Reference: '3374'
+      Label: Multiple paragangliomas associated with polycythemia
+      ORPHAcode: '324299'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Polycythemia
+  ORPHAcode: '98427'
+  ORPHApacketId: '98427'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98427
+  Parents:
+    Parent:
+    - Label: Rare hematologic disease
+      ORPHAcode: '97992'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

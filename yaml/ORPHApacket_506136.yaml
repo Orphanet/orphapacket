@@ -1,20 +1,23 @@
 Orphapacket:
-  ORPHApacketId: '506136'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '506136'
-  Label: Neuroendocrine neoplasm of esophagus
-  PURL: http://www.orpha.net/ORDO/Orphanet_506136
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Neuroendocrine neoplasm of esophagus
+  ORPHAcode: '506136'
+  ORPHApacketId: '506136'
+  PURL: http://www.orpha.net/ORDO/Orphanet_506136
+  Parents:
+  - Parent:
+    - Label: Rare gastroesophageal tumor
+      ORPHAcode: '180821'
+  - Parent:
+    - Label: Gastroenteric neuroendocrine neoplasm
+      ORPHAcode: '481508'
   Synonyms:
   - Synonym: Esophageal NEN
   - Synonym: Esophageal neuroendocrine neoplasm
   - Synonym: NEN of esophagus
   TextSection:
-    TextSectionType: Definition
     Contents: A group of esophageal epithelial neoplasms characterized by neuroendocrine
       differentiation comprising well-differentiated neuroendocrine tumors (NETs)
       poorly differentiated neuroendocrine carcinomas (NECs) and mixed neuroendocrine-non-neuroendocrine
@@ -25,10 +28,7 @@ Orphapacket:
       are large infiltrative and ulcerated. Patients most commonly present with dysphagia
       pain weight loss and sometimes melena. Metastatic NETs may be associated with
       carcinoid syndrome.
-  Parents:
-  - Parent:
-    - ORPHAcode: '180821'
-      Label: Rare gastroesophageal tumor
-  - Parent:
-    - ORPHAcode: '481508'
-      Label: Gastroenteric neuroendocrine neoplasm
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

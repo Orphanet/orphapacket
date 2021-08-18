@@ -1,139 +1,138 @@
 Orphapacket:
-  ORPHApacketId: '205'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '205'
-  Label: Crigler-Najjar syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_205
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Bilirubin uridinediphosphate glucuronosyltransferase deficiency
-  - Synonym: Bilirubin-UGT deficiency
-  - Synonym: Hereditary unconjugated hyperbilirubinemia
-  - Synonym: UGT deficiency
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '218800'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '606785'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Crigler-Najjar syndrome (CNS) is a hereditary disorder of bilirubin
-      metabolism characterized by unconjugated hyperbilirubinemia due to a hepatic
-      deficit of bilirubin glucuronosyltransferase (GT) activity. Two types have been
-      described CNS types 1 and 2 (see these terms). CNS1 is characterized by a complete
-      deficit of the enzyme and is unaffected by phenobarbital induction therapy whereas
-      the enzymatic deficit is partial and responds to phenobarbital in CNS2.
-  Parents:
-  - Parent:
-    - ORPHAcode: '309816'
-      Label: Disorder of bilirubin metabolism and excretion
-  - Parent:
-    - ORPHAcode: '101940'
-      Label: Rare metabolic liver disease
-  - Parent:
-    - ORPHAcode: '506210'
-      Label: Rare disorder potentially indicated for liver transplant
-  Childs:
-  - Child:
-      Label: Crigler-Najjar syndrome type 1
-      ORPHAcode: '79234'
-      Genes:
-      - Gene:
-          Label: UDP glucuronosyltransferase family 1 member A1
-          Symbol: UGT1A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12530'
-          - Source: OMIM
-            Reference: '191740'
-  - Child:
-      Label: Crigler-Najjar syndrome type 2
-      ORPHAcode: '79235'
-      Genes:
-      - Gene:
-          Label: UDP glucuronosyltransferase family 1 member A1
-          Symbol: UGT1A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12530'
-          - Source: OMIM
-            Reference: '191740'
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000365
-      HPOTerm: Hearing impairment
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000597
-      HPOTerm: Ophthalmoparesis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000952
-      HPOTerm: Jaundice
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001250
-      HPOTerm: Seizures
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001252
-      HPOTerm: Muscular hypotonia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001254
-      HPOTerm: Lethargy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001392
-      HPOTerm: Abnormality of the liver
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002321
-      HPOTerm: Vertigo
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002354
-      HPOTerm: Memory impairment
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002383
-      HPOTerm: Encephalitis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0100543
-      HPOTerm: Cognitive impairment
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: European Medicines Agency 2014[INST]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: normal life expectancy
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '12530'
+            Source: HGNC
+          - Reference: '191740'
+            Source: OMIM
+          Label: UDP glucuronosyltransferase family 1 member A1
+          Symbol: UGT1A1
+      Label: Crigler-Najjar syndrome type 1
+      ORPHAcode: '79234'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '12530'
+            Source: HGNC
+          - Reference: '191740'
+            Source: OMIM
+          Label: UDP glucuronosyltransferase family 1 member A1
+          Symbol: UGT1A1
+      Label: Crigler-Najjar syndrome type 2
+      ORPHAcode: '79235'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '218800'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '606785'
+      Source: OMIM
+  Label: Crigler-Najjar syndrome
+  ORPHAcode: '205'
+  ORPHApacketId: '205'
+  PURL: http://www.orpha.net/ORDO/Orphanet_205
+  Parents:
+  - Parent:
+    - Label: Disorder of bilirubin metabolism and excretion
+      ORPHAcode: '309816'
+  - Parent:
+    - Label: Rare metabolic liver disease
+      ORPHAcode: '101940'
+  - Parent:
+    - Label: Rare disorder potentially indicated for liver transplant
+      ORPHAcode: '506210'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000365
+      HPOTerm: Hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000597
+      HPOTerm: Ophthalmoparesis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000952
+      HPOTerm: Jaundice
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001252
+      HPOTerm: Muscular hypotonia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001254
+      HPOTerm: Lethargy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001392
+      HPOTerm: Abnormality of the liver
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002321
+      HPOTerm: Vertigo
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002354
+      HPOTerm: Memory impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002383
+      HPOTerm: Encephalitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100543
+      HPOTerm: Cognitive impairment
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: European Medicines Agency 2014[INST]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Bilirubin uridinediphosphate glucuronosyltransferase deficiency
+  - Synonym: Bilirubin-UGT deficiency
+  TextSection:
+    Contents: A rare hereditary disorder of bilirubin metabolism characterized by
+      unconjugated hyperbilirubinemia due to a either a complete (type 1) or partial
+      and inducible (type 2) hepatic deficit of UDP-glucuronosyltransferase 1A1 activity.
+      The disorder manifests with neonatal jaundice with a risk of developing bilirubin
+      encephalopathy.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

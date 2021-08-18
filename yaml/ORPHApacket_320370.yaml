@@ -1,22 +1,119 @@
 Orphapacket:
-  ORPHApacketId: '320370'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '320370'
-  Label: Autosomal recessive spastic paraplegia type 43
-  PURL: http://www.orpha.net/ORDO/Orphanet_320370
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '615043'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: chromosome 19 open reading frame 12
+      Symbol: C19ORF12
+  Label: Autosomal recessive spastic paraplegia type 43
+  ORPHAcode: '320370'
+  ORPHApacketId: '320370'
+  PURL: http://www.orpha.net/ORDO/Orphanet_320370
+  Parents:
+  - Parent:
+    - Label: Autosomal recessive complex spastic paraplegia
+      ORPHAcode: '100981'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002064
+      HPOTerm: Spastic gait
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002313
+      HPOTerm: Spastic paraparesis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002355
+      HPOTerm: Difficulty walking
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002460
+      HPOTerm: Distal muscle weakness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003487
+      HPOTerm: Babinski sign
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003693
+      HPOTerm: Distal amyotrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007010
+      HPOTerm: Poor fine motor coordination
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001257
+      HPOTerm: Spasticity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001290
+      HPOTerm: Generalized hypotonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001348
+      HPOTerm: Brisk reflexes
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001761
+      HPOTerm: Pes cavus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002495
+      HPOTerm: Impaired vibratory sensation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003438
+      HPOTerm: Absent Achilles reflex
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006380
+      HPOTerm: Knee flexion contracture
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006466
+      HPOTerm: Ankle flexion contracture
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007083
+      HPOTerm: Hyperactive patellar reflex
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012785
+      HPOTerm: Flexion contracture of finger
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 20039086[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_20039086[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: SPG43
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '615043'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Autosomal recessive spastic paraplegia type 43 is a rare complex hereditary
       spastic paraplegia characterized by a childhood to adolescent onset of progressive
       lower limb spasticity associated with mild to severe gait disturbances extensor
@@ -25,107 +122,10 @@ Orphapacket:
       sensory loss and brisk or absent deep tendon reflexes. Other signs such as depression
       memory loss optic atrophy (with vision loss) and brain iron deposition (revealed
       by brain imagery) have also been reported.
-  Genes:
-  - Gene:
-      Symbol: C19ORF12
-      Name: chromosome 19 open reading frame 12
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '100981'
-      Label: Autosomal recessive complex spastic paraplegia
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0002064
-      HPOTerm: Spastic gait
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002313
-      HPOTerm: Spastic paraparesis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002355
-      HPOTerm: Difficulty walking
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002460
-      HPOTerm: Distal muscle weakness
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003487
-      HPOTerm: Babinski sign
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003693
-      HPOTerm: Distal amyotrophy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007010
-      HPOTerm: Poor fine motor coordination
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001257
-      HPOTerm: Spasticity
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001290
-      HPOTerm: Generalized hypotonia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001348
-      HPOTerm: Brisk reflexes
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001761
-      HPOTerm: Pes cavus
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002495
-      HPOTerm: Impaired vibratory sensation
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003438
-      HPOTerm: Absent Achilles reflex
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0006380
-      HPOTerm: Knee flexion contracture
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0006466
-      HPOTerm: Ankle flexion contracture
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0007083
-      HPOTerm: Hyperactive patellar reflex
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012785
-      HPOTerm: Flexion contracture of finger
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 20039086[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_20039086[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adolescent
-  - AverageAgeOfOnset:
-      value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

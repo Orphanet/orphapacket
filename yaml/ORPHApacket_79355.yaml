@@ -1,80 +1,80 @@
 Orphapacket:
-  ORPHApacketId: '79355'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79355'
-  Label: Erythrokeratoderma
-  PURL: http://www.orpha.net/ORDO/Orphanet_79355
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '79353'
-      Label: Epidermal disease
   Childs:
   - Child:
-      Label: Pityriasis rubra pilaris
-      ORPHAcode: '2897'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '16446'
+            Source: HGNC
+          - Reference: '607211'
+            Source: OMIM
           Label: caspase recruitment domain family member 14
           Symbol: CARD14
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '16446'
-          - Source: OMIM
-            Reference: '607211'
+      Label: Pityriasis rubra pilaris
+      ORPHAcode: '2897'
   - Child:
-      Label: Spinocerebellar ataxia type 34
-      ORPHAcode: '1955'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '14415'
+            Source: HGNC
+          - Reference: '605512'
+            Source: OMIM
           Label: ELOVL fatty acid elongase 4
           Symbol: ELOVL4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '14415'
-          - Source: OMIM
-            Reference: '605512'
+      Label: Spinocerebellar ataxia type 34
+      ORPHAcode: '1955'
   - Child:
+      Genes: no data
       Label: Erythrokeratoderma ''en cocardes''
       ORPHAcode: '315'
-      Genes: no data
   - Child:
-      Label: MEDNIK syndrome
-      ORPHAcode: '171851'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '554'
+            Source: HGNC
+          - Reference: '600157'
+            Source: OMIM
           Label: adaptor related protein complex 1 subunit beta 1
           Symbol: AP1B1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '554'
-          - Source: OMIM
-            Reference: '600157'
       - Gene:
+          ExternalReferences:
+          - Reference: '559'
+            Source: HGNC
+          - Reference: '603531'
+            Source: OMIM
           Label: adaptor related protein complex 1 subunit sigma 1
           Symbol: AP1S1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '559'
-          - Source: OMIM
-            Reference: '603531'
+      Label: MEDNIK syndrome
+      ORPHAcode: '171851'
   - Child:
+      Genes: no data
       Label: Erythrokeratoderma variabilis progressiva
       ORPHAcode: '308166'
-      Genes: no data
   - Child:
-      Label: Erythrokeratodermia-cardiomyopathy syndrome
-      ORPHAcode: '476096'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '3052'
+            Source: HGNC
+          - Reference: '125647'
+            Source: OMIM
           Label: desmoplakin
           Symbol: DSP
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3052'
-          - Source: OMIM
-            Reference: '125647'
+      Label: Erythrokeratodermia-cardiomyopathy syndrome
+      ORPHAcode: '476096'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Erythrokeratoderma
+  ORPHAcode: '79355'
+  ORPHApacketId: '79355'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79355
+  Parents:
+  - Parent:
+    - Label: Epidermal disease
+      ORPHAcode: '79353'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

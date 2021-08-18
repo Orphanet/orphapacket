@@ -1,57 +1,66 @@
 Orphapacket:
-  ORPHApacketId: '443197'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '443197'
-  Label: X-linked erythropoietic protoporphyria
-  PURL: http://www.orpha.net/ORDO/Orphanet_443197
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '300752'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: 5'-aminolevulinate synthase 2
+      Symbol: ALAS2
+  Label: X-linked erythropoietic protoporphyria
+  ORPHAcode: '443197'
+  ORPHApacketId: '443197'
+  PURL: http://www.orpha.net/ORDO/Orphanet_443197
+  Parents:
+  - Parent:
+    - Label: Rare metabolic liver disease
+      ORPHAcode: '101940'
+  - Parent:
+    - Label: Porphyria
+      ORPHAcode: '738'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 24131146[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_24131146[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: X-linked dominant erythropoietic protoporphyria
   - Synonym: X-linked dominant protoporphyria
   - Synonym: XLDPP
   - Synonym: XLP
   - Synonym: XLPP
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '300752'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: ALAS2
-      Name: 5'-aminolevulinate synthase 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '101940'
-      Label: Rare metabolic liver disease
-  - Parent:
-    - ORPHAcode: '738'
-      Label: Porphyria
-  Prevalences:
-  - Prevalence:
-      Source: 24131146[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_24131146[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  TextSection:
+    Contents: A rare disorder of porphyrin and heme metabolism characterized by infantile
+      or childhood onset of severe cutaneous photosensitivity in affected males presenting
+      as tingling burning and itching within minutes of light exposure often accompanied
+      by swelling and redness of the skin. Pain may persist for hours or days after
+      the initial reaction. Some patients show hepatic involvement and gallstone formation.
+      Laboratory examination reveals increased levels of zinc- and metal-free protoporphyrin.
+      The phenotype in heterozygous females ranges from asymptomatic to severe.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

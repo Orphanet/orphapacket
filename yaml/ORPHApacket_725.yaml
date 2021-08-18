@@ -1,58 +1,179 @@
 Orphapacket:
-  ORPHApacketId: '725'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '725'
-  Label: Continuous spikes and waves during sleep
-  PURL: http://www.orpha.net/ORDO/Orphanet_725
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '245570'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: glutamate ionotropic receptor NMDA type subunit 2A
+      Symbol: GRIN2A
+  - Gene:
+      ExternalReferences: []
+      Name: ferric chelate reductase 1 like
+      Symbol: FRRS1L
+  Label: Continuous spikes and waves during sleep
+  ORPHAcode: '725'
+  ORPHApacketId: '725'
+  PURL: http://www.orpha.net/ORDO/Orphanet_725
+  Parents:
+  - Parent:
+    - Label: Childhood-onset epilepsy syndrome
+      ORPHAcode: '98259'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011182
+      HPOTerm: Interictal epileptiform activity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0031491
+      HPOTerm: Continuous spike and waves during slow sleep
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002069
+      HPOTerm: Generalized tonic-clonic seizures
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002349
+      HPOTerm: Focal aware seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002376
+      HPOTerm: Developmental regression
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002384
+      HPOTerm: Focal impaired awareness seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006813
+      HPOTerm: Hemiclonic seizures
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007270
+      HPOTerm: Atypical absence seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007359
+      HPOTerm: Focal-onset seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011153
+      HPOTerm: Focal motor seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012010
+      HPOTerm: EEG with frontal focal spike waves
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012557
+      HPOTerm: EEG with centrotemporal focal spike waves
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100543
+      HPOTerm: Cognitive impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000718
+      HPOTerm: Aggressive behavior
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000729
+      HPOTerm: Autistic behavior
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001332
+      HPOTerm: Dystonia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001345
+      HPOTerm: Psychotic mentation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002266
+      HPOTerm: Focal clonic seizure
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002312
+      HPOTerm: Clumsiness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002333
+      HPOTerm: Motor deterioration
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002381
+      HPOTerm: Aphasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002487
+      HPOTerm: Hyperkinetic movements
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009088
+      HPOTerm: Speech articulation difficulties
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010819
+      HPOTerm: Atonic seizure
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011098
+      HPOTerm: Speech apraxia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011147
+      HPOTerm: Typical absence seizure
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011150
+      HPOTerm: Myoclonic absence
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012001
+      HPOTerm: EEG with generalized polyspikes
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: CSWS
   - Synonym: CSWSS syndrome
   - Synonym: Continuous spikes and waves during slow-wave sleep
   - Synonym: Epileptic encephalopathy with continuous spike-and-wave during slow sleep
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '245570'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
   TextSection:
-    TextSectionType: Definition
     Contents: Continuous spikes and waves during sleep (CSWS) is a rare epileptic
       encephalopathy of childhood characterized by seizures an electroencephalographic
       (EEG) pattern of electrical status epilepticus in sleep (ESES) and neurocognitive
       regression in at least 2 domains of development.
-  Genes:
-  - Gene:
-      Symbol: GRIN2A
-      Name: glutamate ionotropic receptor NMDA type subunit 2A
-      ExternalReferences: []
-  - Gene:
-      Symbol: FRRS1L
-      Name: ferric chelate reductase 1 like
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98259'
-      Label: Childhood-onset epilepsy syndrome
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

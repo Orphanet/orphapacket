@@ -1,40 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '477650'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '477650'
-  Label: Fibroblastic rheumatism
-  PURL: http://www.orpha.net/ORDO/Orphanet_477650
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare rheumatologic disease characterized by sudden onset of symmetric
-      inflammatory distal polyarthritis and multiple firm cutaneous nodules with predilection
-      for the upper and lower extremities. Patients often develop sclerodactyly and
-      joint contractures. Skin biopsy shows fibroblastic proliferation in a matrix
-      of thickened collagen fibers with loss of elastic fibers and no mucin deposition.
-  Parents:
-  - Parent:
-    - ORPHAcode: '182231'
-      Label: Rare rheumatologic disease
-  Prevalences:
-  - Prevalence:
-      Source: 25545215[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_25545215[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -42,6 +9,39 @@ Orphapacket:
       value: Adult
   - AverageAgeOfOnset:
       value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Fibroblastic rheumatism
+  ORPHAcode: '477650'
+  ORPHApacketId: '477650'
+  PURL: http://www.orpha.net/ORDO/Orphanet_477650
+  Parents:
+  - Parent:
+    - Label: Rare rheumatologic disease
+      ORPHAcode: '182231'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 25545215[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_25545215[PMID]
+      ValMoy: no data
+  TextSection:
+    Contents: A rare rheumatologic disease characterized by sudden onset of symmetric
+      inflammatory distal polyarthritis and multiple firm cutaneous nodules with predilection
+      for the upper and lower extremities. Patients often develop sclerodactyly and
+      joint contractures. Skin biopsy shows fibroblastic proliferation in a matrix
+      of thickened collagen fibers with loss of elastic fibers and no mucin deposition.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

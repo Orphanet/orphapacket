@@ -1,32 +1,47 @@
 Orphapacket:
-  ORPHApacketId: '466729'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '466729'
-  Label: Familial patent arterial duct
-  PURL: http://www.orpha.net/ORDO/Orphanet_466729
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
       Reference: '607411'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
-  - ExternalReference:
-      Source: OMIM
       Reference: '617035'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
       Source: OMIM
-      Reference: '617039'
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
+      Reference: '617039'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: transcription factor AP-2 beta
+      Symbol: TFAP2B
+  - Gene:
+      ExternalReferences: []
+      Name: PR/SET domain 6
+      Symbol: PRDM6
+  Label: Familial patent arterial duct
+  ORPHAcode: '466729'
+  ORPHApacketId: '466729'
+  PURL: http://www.orpha.net/ORDO/Orphanet_466729
+  Parents:
+  - Parent:
+    - Label: Genetic cardiac anomaly
+      ORPHAcode: '271853'
+  - Parent:
+    - Label: Genetic vascular anomaly
+      ORPHAcode: '211240'
+  - Parent:
+    - Label: Arterial duct anomaly
+      ORPHAcode: '95485'
   TextSection:
-    TextSectionType: Definition
     Contents: Familial patent arterial duct is a rare genetic non-syndromic congenital
       anomaly of the great arteries characterized by the presence of an isolated patent
       arterial duct (PDA) (i.e. failure of closure of ductus arteriosis after birth)
@@ -34,25 +49,10 @@ Orphapacket:
       sporadic form and may range from neonatal-onset tachypnea diaphoresis and failure
       to thrive to adult-onset atrial arrhythmia signs and symptoms of heart failure
       and cyanosis limited to the lower extremities.
-  Genes:
-  - Gene:
-      Symbol: TFAP2B
-      Name: transcription factor AP-2 beta
-      ExternalReferences: []
-  - Gene:
-      Symbol: PRDM6
-      Name: PR/SET domain 6
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '271853'
-      Label: Genetic cardiac anomaly
-  - Parent:
-    - ORPHAcode: '211240'
-      Label: Genetic vascular anomaly
-  - Parent:
-    - ORPHAcode: '95485'
-      Label: Arterial duct anomaly
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

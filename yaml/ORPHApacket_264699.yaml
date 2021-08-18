@@ -1,51 +1,51 @@
 Orphapacket:
-  ORPHApacketId: '264699'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '264699'
-  Label: Secondary interstitial lung disease specific to childhood associated with
-    a systemic disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_264699
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Secondary  ILD specific to childhood associated with a systemic disease
-  Parents:
-  - Parent:
-    - ORPHAcode: '264656'
-      Label: Interstitial lung disease specific to childhood
   Childs:
   - Child:
+      Genes: no data
       Label: Secondary interstitial lung disease specific to childhood associated
         with a granulomatous disease
       ORPHAcode: '264714'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Secondary interstitial lung disease specific to childhood associated
         with a metabolic disease
       ORPHAcode: '264719'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Secondary interstitial lung disease specific to childhood associated
         with a connective tissue disease
       ORPHAcode: '264704'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Secondary interstitial lung disease specific to childhood associated
         with a systemic vasculitis
       ORPHAcode: '264709'
-      Genes: no data
   - Child:
-      Label: Autoimmune interstitial lung disease-arthritis syndrome
-      ORPHAcode: '444092'
       Genes:
       - Gene:
-          Label: coatomer protein complex subunit alpha
-          Symbol: COPA
           ExternalReferences:
-          - Source: HGNC
-            Reference: '2230'
-          - Source: OMIM
-            Reference: '601924'
+          - Reference: '2230'
+            Source: HGNC
+          - Reference: '601924'
+            Source: OMIM
+          Label: COPI coat complex subunit alpha
+          Symbol: COPA
+      Label: Autoimmune interstitial lung disease-arthritis syndrome
+      ORPHAcode: '444092'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Secondary interstitial lung disease specific to childhood associated with
+    a systemic disease
+  ORPHAcode: '264699'
+  ORPHApacketId: '264699'
+  PURL: http://www.orpha.net/ORDO/Orphanet_264699
+  Parents:
+  - Parent:
+    - Label: Interstitial lung disease specific to childhood
+      ORPHAcode: '264656'
+  Synonyms:
+  - Synonym: Secondary  ILD specific to childhood associated with a systemic disease
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,59 +1,59 @@
 Orphapacket:
-  ORPHApacketId: '324561'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '324561'
-  Label: Hypopigmentation-punctate palmoplantar keratoderma syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_324561
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Cole disease
-  - Synonym: Guttate hypopigmentation and punctate palmoplantar keratoderma
-  - Synonym: Hypopigmentation and punctate keratosis of the palms and soles
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '615522'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare genetic epidermal disease characterized by punctate keratoderma
-      on palms and soles associated with irregularly shaped hypopigmented macules
-      (typically localized on the extremities). Ectopic calcification (e.g. early-onset
-      calcific tendinopathy calcinosis cutis) and pachyonychia may be occasionally
-      associated.
-  Genes:
-  - Gene:
-      Symbol: ENPP1
-      Name: ectonucleotide pyrophosphatase/phosphodiesterase 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '308031'
-      Label: Autosomal dominant disease associated with punctate palmoplantar keratoderma
-        as a major feature
-  Prevalences:
-  - Prevalence:
-      Source: 24075184[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '615522'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ectonucleotide pyrophosphatase/phosphodiesterase 1
+      Symbol: ENPP1
+  Label: Hypopigmentation-punctate palmoplantar keratoderma syndrome
+  ORPHAcode: '324561'
+  ORPHApacketId: '324561'
+  PURL: http://www.orpha.net/ORDO/Orphanet_324561
+  Parents:
+  - Parent:
+    - Label: Autosomal dominant disease associated with punctate palmoplantar keratoderma
+        as a major feature
+      ORPHAcode: '308031'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 24075184[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Cole disease
+  - Synonym: Guttate hypopigmentation and punctate palmoplantar keratoderma
+  - Synonym: Hypopigmentation and punctate keratosis of the palms and soles
+  TextSection:
+    Contents: A rare genetic epidermal disease characterized by punctate keratoderma
+      on palms and soles associated with irregularly shaped hypopigmented macules
+      (typically localized on the extremities). Ectopic calcification (e.g. early-onset
+      calcific tendinopathy calcinosis cutis) and pachyonychia may be occasionally
+      associated.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

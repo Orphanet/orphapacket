@@ -1,93 +1,93 @@
 Orphapacket:
-  ORPHApacketId: '79299'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79299'
-  Label: Hyperinsulinism due to glucokinase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_79299
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '602485'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: glucokinase
+      Symbol: GCK
+  Label: Hyperinsulinism due to glucokinase deficiency
+  ORPHAcode: '79299'
+  ORPHApacketId: '79299'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79299
+  Parents:
+  - Parent:
+    - Label: Diazoxide-sensitive diffuse hyperinsulinism
+      ORPHAcode: '165985'
+  - Parent:
+    - Label: Disorder of glycolysis
+      ORPHAcode: '308459'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000825
+      HPOTerm: Hyperinsulinemic hypoglycemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001985
+      HPOTerm: Hypoketotic hypoglycemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001988
+      HPOTerm: Recurrent hypoglycemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008283
+      HPOTerm: Fasting hyperinsulinemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0030794
+      HPOTerm: Abnormal C-peptide level
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001324
+      HPOTerm: Muscle weakness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002378
+      HPOTerm: Hand tremor
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001259
+      HPOTerm: Coma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005978
+      HPOTerm: Type II diabetes mellitus
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002270
+      HPOTerm: Abnormality of the autonomic nervous system
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0012638
+      HPOTerm: Abnormality of nervous system physiology
   Synonyms:
   - Synonym: Hyperinsulinemic hypoglycemia due to glucokinase deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '602485'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Hyperinsulism due to glucokinase deficiency (HIGCK) is a form of diazoxide-sensitive
       diffuse hyperinsulinism (see this term) caused by a lowered threshold for insulin
       release characterized by an excessive/ uncontrolled insulin secretion (inappropriate
       for the level of glycemia) and recurrent episodes of profound hypoglycemia induced
       by fasting and protein rich meals requiring rapid and intensive treatment to
       prevent neurological sequelae.
-  Genes:
-  - Gene:
-      Symbol: GCK
-      Name: glucokinase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '165985'
-      Label: Diazoxide-sensitive diffuse hyperinsulinism
-  - Parent:
-    - ORPHAcode: '308459'
-      Label: Disorder of glycolysis
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000825
-      HPOTerm: Hyperinsulinemic hypoglycemia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001985
-      HPOTerm: Hypoketotic hypoglycemia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001988
-      HPOTerm: Recurrent hypoglycemia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008283
-      HPOTerm: Fasting hyperinsulinemia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0030794
-      HPOTerm: Abnormal C-peptide level
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001250
-      HPOTerm: Seizures
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001324
-      HPOTerm: Muscle weakness
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002378
-      HPOTerm: Hand tremor
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012378
-      HPOTerm: Fatigue
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001259
-      HPOTerm: Coma
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0005978
-      HPOTerm: Type II diabetes mellitus
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002270
-      HPOTerm: Abnormality of the autonomic nervous system
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0012638
-      HPOTerm: Abnormality of nervous system physiology
-      HPOFrequency: Very rare (<4-1%)
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

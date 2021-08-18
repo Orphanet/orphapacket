@@ -1,73 +1,73 @@
 Orphapacket:
-  ORPHApacketId: '499'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '499'
-  Label: Kerion celsi
-  PURL: http://www.orpha.net/ORDO/Orphanet_499
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Kerion celsi
+  ORPHAcode: '499'
+  ORPHApacketId: '499'
+  PURL: http://www.orpha.net/ORDO/Orphanet_499
+  Parents:
+  - Parent:
+    - Label: Other acquired skin disease
+      ORPHAcode: '90077'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001581
+      HPOTerm: Recurrent skin infections
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001596
+      HPOTerm: Alopecia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001945
+      HPOTerm: Fever
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002076
+      HPOTerm: Migraine
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002716
+      HPOTerm: Lymphadenopathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003326
+      HPOTerm: Myalgia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011123
+      HPOTerm: Inflammatory abnormality of the skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100838
+      HPOTerm: Recurrent cutaneous abscess formation
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare inflammatory and suppurating type of tinea capitis a skin infection
       caused by <i>Trichophyton</i> or <i>Microsporum</i> fungi that predominantly
       affects the scalp and that is characterized by the development of painful crusty
       lesions covered with follicular pustules and surrounded by erythematous alopecic
       areas that can later evolve into abscesses and leave permanent cicatricial alopecia.
       Lesions can be associated with regional lymphadenopathy.
-  Parents:
-  - Parent:
-    - ORPHAcode: '90077'
-      Label: Other acquired skin disease
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001581
-      HPOTerm: Recurrent skin infections
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001596
-      HPOTerm: Alopecia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001945
-      HPOTerm: Fever
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002076
-      HPOTerm: Migraine
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002716
-      HPOTerm: Lymphadenopathy
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003326
-      HPOTerm: Myalgia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0011123
-      HPOTerm: Inflammatory abnormality of the skin
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100838
-      HPOTerm: Recurrent cutaneous abscess formation
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

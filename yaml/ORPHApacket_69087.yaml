@@ -1,89 +1,89 @@
 Orphapacket:
-  ORPHApacketId: '69087'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '69087'
-  Label: Naegeli-Franceschetti-Jadassohn syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_69087
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: NFJ syndrome
-  - Synonym: Naegeli syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '161000'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Naegeli-Franceschetti-Jadassohn (NFJ) syndrome is a rare ectodermal
-      dysplasia that affects the skin sweat glands nails and teeth.
-  Genes:
-  - Gene:
-      Symbol: KRT14
-      Name: keratin 14
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98352'
-      Label: Autosomal dominant disease with diffuse palmoplantar keratoderma as a
-        major feature
-  - Parent:
-    - ORPHAcode: '79373'
-      Label: Ectodermal dysplasia syndrome
-  - Parent:
-    - ORPHAcode: '79375'
-      Label: Hyperpigmentation of the skin
-  - Parent:
-    - ORPHAcode: '183466'
-      Label: Genetic hyperpigmentation of the skin
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000682
-      HPOTerm: Abnormality of dental enamel
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000968
-      HPOTerm: Ectodermal dysplasia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001810
-      HPOTerm: Dystrophic toenail
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007435
-      HPOTerm: Diffuse palmoplantar keratoderma
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007455
-      HPOTerm: Adermatoglyphia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007588
-      HPOTerm: Reticular hyperpigmentation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008391
-      HPOTerm: Dystrophic fingernails
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.035'
-      PrevalenceGeographic: Europe
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '161000'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: keratin 14
+      Symbol: KRT14
+  Label: Naegeli-Franceschetti-Jadassohn syndrome
+  ORPHAcode: '69087'
+  ORPHApacketId: '69087'
+  PURL: http://www.orpha.net/ORDO/Orphanet_69087
+  Parents:
+  - Parent:
+    - Label: Autosomal dominant disease with diffuse palmoplantar keratoderma as a
+        major feature
+      ORPHAcode: '98352'
+  - Parent:
+    - Label: Ectodermal dysplasia syndrome
+      ORPHAcode: '79373'
+  - Parent:
+    - Label: Hyperpigmentation of the skin
+      ORPHAcode: '79375'
+  - Parent:
+    - Label: Genetic hyperpigmentation of the skin
+      ORPHAcode: '183466'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000682
+      HPOTerm: Abnormality of dental enamel
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000968
+      HPOTerm: Ectodermal dysplasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001810
+      HPOTerm: Dystrophic toenail
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007435
+      HPOTerm: Diffuse palmoplantar keratoderma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007455
+      HPOTerm: Adermatoglyphia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007588
+      HPOTerm: Reticular hyperpigmentation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008391
+      HPOTerm: Dystrophic fingernails
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.035'
+  Synonyms:
+  - Synonym: NFJ syndrome
+  - Synonym: Naegeli syndrome
+  TextSection:
+    Contents: Naegeli-Franceschetti-Jadassohn (NFJ) syndrome is a rare ectodermal
+      dysplasia that affects the skin sweat glands nails and teeth.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

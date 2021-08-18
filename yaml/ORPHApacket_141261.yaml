@@ -1,16 +1,24 @@
 Orphapacket:
-  ORPHApacketId: '141261'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '141261'
-  Label: Tessier number 5 facial cleft
-  PURL: http://www.orpha.net/ORDO/Orphanet_141261
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  Label: Tessier number 5 facial cleft
+  ORPHAcode: '141261'
+  ORPHApacketId: '141261'
+  PURL: http://www.orpha.net/ORDO/Orphanet_141261
+  Parents:
+  - Parent:
+    - Label: Oblique facial cleft
+      ORPHAcode: '141253'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare oblique facial cleft characterized by a congenital unilateral
       or bilateral defect beginning in the upper lip medial to the oral commissure
       and extending across the cheek as a groove ending between the middle and lateral
@@ -19,15 +27,7 @@ Orphapacket:
       to the infraorbital nerve and up to the infraorbital rim and orbital floor.
       The malformation may be associated with Tessier number 3 and number 4 clefts
       macrostomia or anophthalmos.
-  Parents:
-  - Parent:
-    - ORPHAcode: '141253'
-      Label: Oblique facial cleft
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Antenatal
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

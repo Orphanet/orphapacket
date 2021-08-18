@@ -1,68 +1,68 @@
 Orphapacket:
-  ORPHApacketId: '206982'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '206982'
-  Label: Muscular tumor
-  PURL: http://www.orpha.net/ORDO/Orphanet_206982
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '206638'
-      Label: Acquired skeletal muscle disease
   Childs:
   - Child:
+      Genes: no data
       Label: Rhabdomyosarcoma
       ORPHAcode: '780'
-      Genes: no data
   - Child:
-      Label: Infantile myofibromatosis
-      ORPHAcode: '2591'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '7883'
+            Source: HGNC
+          - Reference: '600276'
+            Source: OMIM
           Label: notch receptor 3
           Symbol: NOTCH3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7883'
-          - Source: OMIM
-            Reference: '600276'
       - Gene:
+          ExternalReferences:
+          - Reference: '8804'
+            Source: HGNC
+          - Reference: '173410'
+            Source: OMIM
           Label: platelet derived growth factor receptor beta
           Symbol: PDGFRB
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8804'
-          - Source: OMIM
-            Reference: '173410'
+      Label: Infantile myofibromatosis
+      ORPHAcode: '2591'
   - Child:
-      Label: Myxofibrosarcoma
-      ORPHAcode: '79105'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4010'
+            Source: HGNC
+          - Reference: '137070'
+            Source: OMIM
           Label: FUS RNA binding protein
           Symbol: FUS
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4010'
-          - Source: OMIM
-            Reference: '137070'
       - Gene:
+          ExternalReferences:
+          - Reference: '23720'
+            Source: HGNC
+          - Reference: '608834'
+            Source: OMIM
           Label: cAMP responsive element binding protein 3 like 2
           Symbol: CREB3L2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '23720'
-          - Source: OMIM
-            Reference: '608834'
       - Gene:
+          ExternalReferences:
+          - Reference: '18856'
+            Source: HGNC
+          - Reference: '616215'
+            Source: OMIM
           Label: cAMP responsive element binding protein 3 like 1
           Symbol: CREB3L1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18856'
-          - Source: OMIM
-            Reference: '616215'
+      Label: Myxofibrosarcoma
+      ORPHAcode: '79105'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Muscular tumor
+  ORPHAcode: '206982'
+  ORPHApacketId: '206982'
+  PURL: http://www.orpha.net/ORDO/Orphanet_206982
+  Parents:
+  - Parent:
+    - Label: Acquired skeletal muscle disease
+      ORPHAcode: '206638'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

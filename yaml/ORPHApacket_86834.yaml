@@ -1,23 +1,64 @@
 Orphapacket:
-  ORPHApacketId: '86834'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '86834'
-  Label: Juvenile myelomonocytic leukemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_86834
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '607785'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: RAS related
+      Symbol: RRAS
+  - Gene:
+      ExternalReferences: []
+      Name: protein tyrosine phosphatase non-receptor type 11
+      Symbol: PTPN11
+  - Gene:
+      ExternalReferences: []
+      Name: KRAS proto-oncogene, GTPase
+      Symbol: KRAS
+  - Gene:
+      ExternalReferences: []
+      Name: neurofibromin 1
+      Symbol: NF1
+  - Gene:
+      ExternalReferences: []
+      Name: NRAS proto-oncogene, GTPase
+      Symbol: NRAS
+  - Gene:
+      ExternalReferences: []
+      Name: Cbl proto-oncogene
+      Symbol: CBL
+  Label: Juvenile myelomonocytic leukemia
+  ORPHAcode: '86834'
+  ORPHApacketId: '86834'
+  PURL: http://www.orpha.net/ORDO/Orphanet_86834
+  Parents:
+  - Parent:
+    - Label: Myelodysplastic/myeloproliferative disease
+      ORPHAcode: '98275'
+  - Parent:
+    - Label: Pediatric myeloid cancer
+      ORPHAcode: '602665'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: European Medicines Agency[INST]
+      ValMoy: '0.1'
   Synonyms:
   - Synonym: JMML
   - Synonym: Juvenile chronic myelomonocytic leukemia
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '607785'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare myelodysplastic/myeloproliferative neoplasm characterized by
       a proliferation primarily of granulocytic and monocytic lineages with infiltration
       of the liver and spleen among other organs. Blasts and promonocytes account
@@ -28,48 +69,10 @@ Orphapacket:
       type 1 or Noonan syndrome-like disorder. Children of less than three years are
       predominantly affected with a clear male preponderance. Most patients present
       with constitutional symptoms signs of infection and hepatosplenomegaly.
-  Genes:
-  - Gene:
-      Symbol: RRAS
-      Name: RAS related
-      ExternalReferences: []
-  - Gene:
-      Symbol: PTPN11
-      Name: protein tyrosine phosphatase non-receptor type 11
-      ExternalReferences: []
-  - Gene:
-      Symbol: KRAS
-      Name: KRAS proto-oncogene, GTPase
-      ExternalReferences: []
-  - Gene:
-      Symbol: NF1
-      Name: neurofibromin 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: NRAS
-      Name: NRAS proto-oncogene, GTPase
-      ExternalReferences: []
-  - Gene:
-      Symbol: CBL
-      Name: Cbl proto-oncogene
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98275'
-      Label: Myelodysplastic/myeloproliferative disease
-  Prevalences:
-    Prevalence:
-    - Source: European Medicines Agency[INST]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.1'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Childhood
-  - AverageAgeOfOnset:
-      value: Infancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

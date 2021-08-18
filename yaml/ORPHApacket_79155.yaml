@@ -1,23 +1,123 @@
 Orphapacket:
-  ORPHApacketId: '79155'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79155'
-  Label: Hydroxykynureninuria
-  PURL: http://www.orpha.net/ORDO/Orphanet_79155
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '236800'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: kynureninase
+      Symbol: KYNU
+  Label: Hydroxykynureninuria
+  ORPHAcode: '79155'
+  ORPHApacketId: '79155'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79155
+  Parents:
+  - Parent:
+    - Label: Neurometabolic disease
+      ORPHAcode: '68385'
+  - Parent:
+    - Label: Disorder of tryptophan metabolism
+      ORPHAcode: '289829'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0001298
+      HPOTerm: Encephalopathy
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0004365
+      HPOTerm: Abnormality of tryptophan metabolism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000733
+      HPOTerm: Stereotypy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000958
+      HPOTerm: Dry skin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001276
+      HPOTerm: Hypertonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001649
+      HPOTerm: Tachycardia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001942
+      HPOTerm: Metabolic acidosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001947
+      HPOTerm: Renal tubular acidosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002315
+      HPOTerm: Headache
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002615
+      HPOTerm: Hypotension
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005957
+      HPOTerm: Breathing dysregulation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008527
+      HPOTerm: Congenital sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010280
+      HPOTerm: Stomatitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001259
+      HPOTerm: Coma
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0002448
+      HPOTerm: Progressive encephalopathy
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: Kynureninase deficiency
   - Synonym: Xanthurenic aciduria
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '236800'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic disorder of tryptophan metabolism characterized by massive
       urinary excretion of xanthurenic acid (XA) 3-hydroxykynurenine and kynurenine
       and increased XA concentration in plasma. The clinical phenotype is highly variable
@@ -26,110 +126,10 @@ Orphapacket:
       which include intellectual disability cerebellar ataxia pellagra progressive
       encephalopathy with muscular hypotonia global developmental delay stereotyped
       gestures and/or congenital deafness.
-  Genes:
-  - Gene:
-      Symbol: KYNU
-      Name: kynureninase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '68385'
-      Label: Neurometabolic disease
-  - Parent:
-    - ORPHAcode: '289829'
-      Label: Disorder of tryptophan metabolism
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001298
-      HPOTerm: Encephalopathy
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0004365
-      HPOTerm: Abnormality of tryptophan metabolism
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0000733
-      HPOTerm: Stereotypy
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000958
-      HPOTerm: Dry skin
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001263
-      HPOTerm: Global developmental delay
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001276
-      HPOTerm: Hypertonia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001649
-      HPOTerm: Tachycardia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001942
-      HPOTerm: Metabolic acidosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001947
-      HPOTerm: Renal tubular acidosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002315
-      HPOTerm: Headache
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002615
-      HPOTerm: Hypotension
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0005957
-      HPOTerm: Breathing dysregulation
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0008527
-      HPOTerm: Congenital sensorineural hearing impairment
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0010280
-      HPOTerm: Stomatitis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001259
-      HPOTerm: Coma
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002448
-      HPOTerm: Progressive encephalopathy
-      HPOFrequency: Excluded (0%)
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

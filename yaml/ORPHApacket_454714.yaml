@@ -1,18 +1,36 @@
 Orphapacket:
-  ORPHApacketId: '454714'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '454714'
-  Label: Plasma cell leukemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_454714
+  AverageAgeOfDeaths:
+  - AverageAgeOfDeath:
+      value: Adult
+  - AverageAgeOfDeath:
+      value: Elderly
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Elderly
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Plasma cell leukemia
+  ORPHAcode: '454714'
+  ORPHApacketId: '454714'
+  PURL: http://www.orpha.net/ORDO/Orphanet_454714
+  Parents:
+  - Parent:
+    - Label: Plasma cell tumor
+      ORPHAcode: '98282'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 20664057[PMID]
+      ValMoy: '0.04'
   Synonyms:
   - Synonym: PCL
   TextSection:
-    TextSectionType: Definition
     Contents: A rare plasma cell neoplasm characterized by peripheral plasmacytosis
       usually with extensive and diffuse infiltration of the bone marrow and monoclonal
       paraproteinemia. Neoplastic plasma cells may also be found in extramedullary
@@ -23,28 +41,10 @@ Orphapacket:
       renal failure bone marrow failure and peripheral neuropathies. High serum levels
       of lactate dehydrogenase and beta2-microglobulin as well as hypercalcemia (potentially
       leading to hypercalcemic crisis) are typically observed.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98282'
-      Label: Plasma cell tumor
-  Prevalences:
-    Prevalence:
-    - Source: 20664057[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.04'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adult
-  - AverageAgeOfOnset:
-      value: Elderly
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Adult
-  - AverageAgeOfDeath:
-      value: Elderly
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

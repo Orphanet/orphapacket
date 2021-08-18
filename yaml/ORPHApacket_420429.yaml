@@ -1,14 +1,33 @@
 Orphapacket:
-  ORPHApacketId: '420429'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '420429'
-  Label: Glycogen storage disease due to acid maltase deficiency, late-onset
-  PURL: http://www.orpha.net/ORDO/Orphanet_420429
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: alpha glucosidase
+      Symbol: GAA
+  Label: Glycogen storage disease due to acid maltase deficiency, late-onset
+  ORPHAcode: '420429'
+  ORPHApacketId: '420429'
+  PURL: http://www.orpha.net/ORDO/Orphanet_420429
+  Parents:
+  - Parent:
+    - Label: Glycogen storage disease due to acid maltase deficiency
+      ORPHAcode: '365'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 6789760[PMID]
+      ValMoy: '1.75'
   Synonyms:
   - Synonym: Alpha-1,4-glucosidase acid deficiency, late-onset
   - Synonym: GSD due to acid maltase deficiency, late-onset
@@ -20,33 +39,14 @@ Orphapacket:
   - Synonym: Glycogenosis type II, late-onset
   - Synonym: Pompe disease, late-onset
   TextSection:
-    TextSectionType: Definition
     Contents: Glycogen storage disease due to acid maltase deficiency late onset (AMDL)
       a form of Glycogen storage disease due to acid maltase deficiency (AMD) a degenerative
       metabolic myopathy particularly affecting respiratory and skeletal muscles is
       characterized by an accumulation of glycogen in lysosomes.
-  Genes:
-  - Gene:
-      Symbol: GAA
-      Name: glucosidase alpha, acid
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '365'
-      Label: Glycogen storage disease due to acid maltase deficiency
-  Prevalences:
-    Prevalence:
-    - Source: 6789760[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '1.75'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adolescent
-  - AverageAgeOfOnset:
-      value: Adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

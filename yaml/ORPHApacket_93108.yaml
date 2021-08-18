@@ -1,80 +1,80 @@
 Orphapacket:
-  ORPHApacketId: '93108'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '93108'
-  Label: Renal dysplasia
-  PURL: http://www.orpha.net/ORDO/Orphanet_93108
-  DisorderType:
-    value: Morphological anomaly
-    PURL: http://www.orpha.net/ORDO/Orphanet_377791
-  Synonyms:
-  - Synonym: Kidney dysplasia
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare renal malformation in which the kidney(s) are present but their
-      development is abnormal leading to malformation of histologic architecture of
-      the kidney and presence of embryological tissue such as mesenchymal collarettes
-      or other forms of undifferentiated and metaplastic tissues. Renal dysplasia
-      can be unilateral or bilateral segmental and of variable severity.
-  Parents:
-  - Parent:
-    - ORPHAcode: '93546'
-      Label: Non-syndromic renal or urinary tract malformation
-  - Parent:
-    - ORPHAcode: '357506'
-      Label: Genetic non-syndromic renal or urinary tract malformation
-  Childs:
-  - Child:
-      Label: Renal dysplasia, unilateral
-      ORPHAcode: '93172'
-      Genes:
-      - Gene:
-          Label: HNF1 homeobox B
-          Symbol: HNF1B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11630'
-          - Source: OMIM
-            Reference: '189907'
-  - Child:
-      Label: Renal dysplasia, bilateral
-      ORPHAcode: '93173'
-      Genes:
-      - Gene:
-          Label: HNF1 homeobox B
-          Symbol: HNF1B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11630'
-          - Source: OMIM
-            Reference: '189907'
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: EUROCAT European surveillance of congenital anomalies[REG]_21381187[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: All ages
   - AverageAgeOfOnset:
       value: Antenatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11630'
+            Source: HGNC
+          - Reference: '189907'
+            Source: OMIM
+          Label: HNF1 homeobox B
+          Symbol: HNF1B
+      Label: Renal dysplasia, unilateral
+      ORPHAcode: '93172'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11630'
+            Source: HGNC
+          - Reference: '189907'
+            Source: OMIM
+          Label: HNF1 homeobox B
+          Symbol: HNF1B
+      Label: Renal dysplasia, bilateral
+      ORPHAcode: '93173'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  Label: Renal dysplasia
+  ORPHAcode: '93108'
+  ORPHApacketId: '93108'
+  PURL: http://www.orpha.net/ORDO/Orphanet_93108
+  Parents:
+  - Parent:
+    - Label: Non-syndromic renal or urinary tract malformation
+      ORPHAcode: '93546'
+  - Parent:
+    - Label: Genetic non-syndromic renal or urinary tract malformation
+      ORPHAcode: '357506'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: EUROCAT European surveillance of congenital anomalies[REG]_21381187[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Kidney dysplasia
+  TextSection:
+    Contents: A rare renal malformation in which the kidney(s) are present but their
+      development is abnormal leading to malformation of histologic architecture of
+      the kidney and presence of embryological tissue such as mesenchymal collarettes
+      or other forms of undifferentiated and metaplastic tissues. Renal dysplasia
+      can be unilateral or bilateral segmental and of variable severity.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

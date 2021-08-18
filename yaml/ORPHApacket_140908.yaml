@@ -1,78 +1,78 @@
 Orphapacket:
-  ORPHApacketId: '140908'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '140908'
-  Label: Brachydactyly type B2
-  PURL: http://www.orpha.net/ORDO/Orphanet_140908
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '611377'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: noggin
+      Symbol: NOG
+  Label: Brachydactyly type B2
+  ORPHAcode: '140908'
+  ORPHApacketId: '140908'
+  PURL: http://www.orpha.net/ORDO/Orphanet_140908
+  Parents:
+  - Parent:
+    - Label: Brachydactyly type B
+      ORPHAcode: '93383'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001773
+      HPOTerm: Short foot
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001817
+      HPOTerm: Absent fingernail
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001831
+      HPOTerm: Short toe
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001857
+      HPOTerm: Short distal phalanx of toe
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005048
+      HPOTerm: Synostosis of carpal bones
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005831
+      HPOTerm: Type B brachydactyly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006101
+      HPOTerm: Finger syndactyly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009773
+      HPOTerm: Symphalangism affecting the phalanges of the hand
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009882
+      HPOTerm: Short distal phalanx of finger
   TextSection:
-    TextSectionType: Definition
     Contents: A clinical subtype of brachydactyly type B characterized by hypoplasia/aplasia
       of distal and/or middle phalanges in fingers and toes II-V (frequently severe
       in fingers/toes IV-V milder in fingers/toes II-III) in association with proximal
       and occasionally distal symphalangism fusion of carpal/tarsal bones and partial
       cutaneous syndactyly. Additional reported features include proximal placement
       of thumbs sensorineural hearing loss and farsightedness.
-  Genes:
-  - Gene:
-      Symbol: NOG
-      Name: noggin
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '93383'
-      Label: Brachydactyly type B
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001773
-      HPOTerm: Short foot
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001817
-      HPOTerm: Absent fingernail
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001831
-      HPOTerm: Short toe
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001857
-      HPOTerm: Short distal phalanx of toe
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0005048
-      HPOTerm: Synostosis of carpal bones
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0005831
-      HPOTerm: Type B brachydactyly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006101
-      HPOTerm: Finger syndactyly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0009773
-      HPOTerm: Symphalangism affecting the phalanges of the hand
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0009882
-      HPOTerm: Short distal phalanx of finger
-      HPOFrequency: Very frequent (99-80%)
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,31 +1,31 @@
 Orphapacket:
-  ORPHApacketId: '576349'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '576349'
-  Label: NLRC4-related familial cold autoinflammatory syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_576349
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '616115'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: NLR family CARD domain containing 4
+      Symbol: NLRC4
+  Label: NLRC4-related familial cold autoinflammatory syndrome
+  ORPHAcode: '576349'
+  ORPHApacketId: '576349'
+  PURL: http://www.orpha.net/ORDO/Orphanet_576349
+  Parents:
+  - Parent:
+    - Label: Hereditary periodic fever syndrome
+      ORPHAcode: '324924'
+  - Parent:
+    - Label: Autoinflammatory syndrome with skin involvement
+      ORPHAcode: '290842'
   Synonyms:
   - Synonym: FCAS4
   - Synonym: Familial cold autoinflammatory syndrome 4
   - Synonym: NLRC4-related familial cold urticaria
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '616115'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: NLRC4
-      Name: NLR family CARD domain containing 4
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '324924'
-      Label: Hereditary periodic fever syndrome
-  - Parent:
-    - ORPHAcode: '290842'
-      Label: Autoinflammatory syndrome with skin involvement
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

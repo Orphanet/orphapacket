@@ -1,80 +1,80 @@
 Orphapacket:
-  ORPHApacketId: '459548'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '459548'
-  Label: Rare genetic venous malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_459548
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '211240'
-      Label: Genetic vascular anomaly
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11724'
+            Source: HGNC
+          - Reference: '600221'
+            Source: OMIM
+          Label: TEK receptor tyrosine kinase
+          Symbol: TEK
       Label: Blue rubber bleb nevus
       ORPHAcode: '1059'
+  - Child:
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11724'
+            Source: HGNC
+          - Reference: '600221'
+            Source: OMIM
           Label: TEK receptor tyrosine kinase
           Symbol: TEK
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11724'
-          - Source: OMIM
-            Reference: '600221'
-  - Child:
       Label: Mucocutaneous venous malformations
       ORPHAcode: '2451'
-      Genes:
-      - Gene:
-          Label: TEK receptor tyrosine kinase
-          Symbol: TEK
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11724'
-          - Source: OMIM
-            Reference: '600221'
   - Child:
-      Label: Glomuvenous malformation
-      ORPHAcode: '83454'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '14373'
+            Source: HGNC
+          - Reference: '601749'
+            Source: OMIM
           Label: glomulin, FKBP associated protein
           Symbol: GLMN
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '14373'
-          - Source: OMIM
-            Reference: '601749'
+      Label: Glomuvenous malformation
+      ORPHAcode: '83454'
   - Child:
-      Label: Familial cerebral cavernous malformation
-      ORPHAcode: '221061'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '21708'
+            Source: HGNC
+          - Reference: '607929'
+            Source: OMIM
           Label: CCM2 scaffold protein
           Symbol: CCM2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '21708'
-          - Source: OMIM
-            Reference: '607929'
       - Gene:
+          ExternalReferences:
+          - Reference: '1573'
+            Source: HGNC
+          - Reference: '604214'
+            Source: OMIM
           Label: KRIT1 ankyrin repeat containing
           Symbol: KRIT1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1573'
-          - Source: OMIM
-            Reference: '604214'
       - Gene:
+          ExternalReferences:
+          - Reference: '8761'
+            Source: HGNC
+          - Reference: '609118'
+            Source: OMIM
           Label: programmed cell death 10
           Symbol: PDCD10
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8761'
-          - Source: OMIM
-            Reference: '609118'
+      Label: Familial cerebral cavernous malformation
+      ORPHAcode: '221061'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare genetic venous malformation
+  ORPHAcode: '459548'
+  ORPHApacketId: '459548'
+  PURL: http://www.orpha.net/ORDO/Orphanet_459548
+  Parents:
+  - Parent:
+    - Label: Genetic vascular anomaly
+      ORPHAcode: '211240'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

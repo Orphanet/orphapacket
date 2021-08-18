@@ -1,32 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '521236'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '521236'
-  Label: Primary orthostatic disorder
-  PURL: http://www.orpha.net/ORDO/Orphanet_521236
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '98006'
-      Label: Rare neurologic disease
   Childs:
   - Child:
+      Genes: no data
       Label: Primary orthostatic hypotension
       ORPHAcode: '182058'
-      Genes: no data
   - Child:
-      Label: Postural orthostatic tachycardia syndrome due to NET deficiency
-      ORPHAcode: '443236'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11048'
+            Source: HGNC
+          - Reference: '163970'
+            Source: OMIM
           Label: solute carrier family 6 member 2
           Symbol: SLC6A2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11048'
-          - Source: OMIM
-            Reference: '163970'
+      Label: Postural orthostatic tachycardia syndrome due to NET deficiency
+      ORPHAcode: '443236'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Primary orthostatic disorder
+  ORPHAcode: '521236'
+  ORPHApacketId: '521236'
+  PURL: http://www.orpha.net/ORDO/Orphanet_521236
+  Parents:
+  - Parent:
+    - Label: Rare neurologic disease
+      ORPHAcode: '98006'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

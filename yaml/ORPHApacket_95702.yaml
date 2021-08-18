@@ -1,52 +1,65 @@
 Orphapacket:
-  ORPHApacketId: '95702'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '95702'
-  Label: Cytomegalic congenital adrenal hypoplasia
-  PURL: http://www.orpha.net/ORDO/Orphanet_95702
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: X-linked congenital adrenal hypoplasia
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '202155'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '300200'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: NR0B1
-      Name: nuclear receptor subfamily 0 group B member 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '101960'
-      Label: Genetic chronic primary adrenal insufficiency
-  - Parent:
-    - ORPHAcode: '181390'
-      Label: Endocrinopathy with congenital hypogonadotropic hypogonadism as a major
-        feature
-  Prevalences:
-    Prevalence:
-    - Source: 20301604[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '8.0'
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
   - AverageAgeOfOnset:
       value: Infancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '202155'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '300200'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: nuclear receptor subfamily 0 group B member 1
+      Symbol: NR0B1
+  Label: X-linked adrenal hypoplasia congenita
+  ORPHAcode: '95702'
+  ORPHApacketId: '95702'
+  PURL: http://www.orpha.net/ORDO/Orphanet_95702
+  Parents:
+  - Parent:
+    - Label: Endocrinopathy with congenital hypogonadotropic hypogonadism as a major
+        feature
+      ORPHAcode: '181390'
+  - Parent:
+    - Label: Adrenal hypoplasia congenita
+      ORPHAcode: '595337'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 20301604[PMID]
+      ValMoy: '8.0'
+  Synonyms:
+  - Synonym: X-linked AHC
+  - Synonym: X-linked congenital adrenal hypoplasia
+  TextSection:
+    Contents: A rare genetic adrenal disease characterized by primary adrenal insufficiency
+      (AI) and/or hypogonadotropic hypogonadism (HH). Male patients typically present
+      with AI with acute onset in infancy or insidious onset in childhood. Clinical
+      features of AI include hyperpigmentation vomiting poor feeding failure to thrive
+      seizures vascular collapse and sometimes sudden death. HH manifests later as
+      delayed or arrested puberty. In rare cases patients become symptomatic in early
+      adulthood with delayed-onset AI partial HH and/or infertility. Histologically
+      the adrenal glands lack the permanent adult cortical zone. The remaining cells
+      are larger than fetal adrenal cells (''cytomegalic'') and contain characteristic
+      nuclear inclusions.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

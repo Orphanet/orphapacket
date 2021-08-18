@@ -1,38 +1,38 @@
 Orphapacket:
-  ORPHApacketId: '217467'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '217467'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '613116'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: histidine rich glycoprotein
+      Symbol: HRG
   Label: Hereditary thrombophilia due to congenital histidine-rich (poly-L) glycoprotein
     deficiency
+  ORPHAcode: '217467'
+  ORPHApacketId: '217467'
   PURL: http://www.orpha.net/ORDO/Orphanet_217467
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  Parents:
+  - Parent:
+    - Label: Rare hereditary thrombophilia
+      ORPHAcode: '217454'
   Synonyms:
   - Synonym: Hereditary thrombophilia due to congenital HRG deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '613116'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Hereditary thrombophilia due to congenital histidine-rich (poly-L) glycoprotein
       deficiency is a rare genetic coagulation disorder characterized by a tendency
       to develop thrombosis resulting from decreased histidine-rich glycoprotein (HRG)
       plasma levels. Manifestations are variable depending on location of thrombosis
       but may include headaches diplopia progressive pain limb swelling itching or
       ulceration and brownish skin discoloration among others.
-  Genes:
-  - Gene:
-      Symbol: HRG
-      Name: histidine rich glycoprotein
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '217454'
-      Label: Rare hereditary thrombophilia
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

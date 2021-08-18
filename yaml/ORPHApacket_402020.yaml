@@ -1,18 +1,27 @@
 Orphapacket:
-  ORPHApacketId: '402020'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '402020'
-  Label: Acute myeloid leukemia with inv(3)(q21q26.2) or t(3;3)(q21;q26.2)
-  PURL: http://www.orpha.net/ORDO/Orphanet_402020
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: MDS1 and EVI1 complex locus
+      Symbol: MECOM
+  - Gene:
+      ExternalReferences: []
+      Name: ribophorin I
+      Symbol: RPN1
+  Label: Acute myeloid leukemia with inv(3)(q21q26.2) or t(3;3)(q21;q26.2)
+  ORPHAcode: '402020'
+  ORPHApacketId: '402020'
+  PURL: http://www.orpha.net/ORDO/Orphanet_402020
+  Parents:
+  - Parent:
+    - Label: Acute myeloid leukemia with recurrent genetic anomaly
+      ORPHAcode: '98277'
   Synonyms:
   - Synonym: AML with inv(3)(q21q26.2) or t(3;3)(q21;q26.2)
   TextSection:
-    TextSectionType: Definition
     Contents: A subtype of acute myeloid leukemia with recurrent genetic abnormalities
       characterized by clonal proliferation of myeloid blasts in the bone marrow blood
       and rarely other tissues. Bone marrow typically shows small hypolobated megakaryocytes
@@ -21,16 +30,7 @@ Orphapacket:
       hematopoesis (fatigue bleeding bruising recurrent infections bone pain) and/or
       extramedullary site involvement (gingivitis splenomegaly). High resistance to
       conventional chemotherapy is reported.
-  Genes:
-  - Gene:
-      Symbol: MECOM
-      Name: MDS1 and EVI1 complex locus
-      ExternalReferences: []
-  - Gene:
-      Symbol: RPN1
-      Name: ribophorin I
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98277'
-      Label: Acute myeloid leukemia with recurrent genetic anomaly
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

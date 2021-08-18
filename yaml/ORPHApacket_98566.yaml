@@ -1,102 +1,110 @@
 Orphapacket:
-  ORPHApacketId: '98566'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98566'
-  Label: Syndromic eyelid coloboma
-  PURL: http://www.orpha.net/ORDO/Orphanet_98566
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Syndromic palpebral coloboma
-  Parents:
-  - Parent:
-    - ORPHAcode: '98564'
-      Label: Eyelid border anomaly
   Childs:
   - Child:
-      Label: Bartsocas-Papas syndrome
-      ORPHAcode: '1234'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '496'
+            Source: HGNC
+          - Reference: '605706'
+            Source: OMIM
           Label: receptor interacting serine/threonine kinase 4
           Symbol: RIPK4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '496'
-          - Source: OMIM
-            Reference: '605706'
+      Label: Bartsocas-Papas syndrome
+      ORPHAcode: '1234'
   - Child:
-      Label: Oculotrichoanal syndrome
-      ORPHAcode: '2717'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '23399'
+            Source: HGNC
+          - Reference: '608944'
+            Source: OMIM
           Label: FRAS1 related extracellular matrix 1
           Symbol: FREM1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '23399'
-          - Source: OMIM
-            Reference: '608944'
+      Label: Oculotrichoanal syndrome
+      ORPHAcode: '2717'
   - Child:
-      Label: Treacher-Collins syndrome
-      ORPHAcode: '861'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '20454'
+            Source: HGNC
+          - Reference: '602000'
+            Source: OMIM
+          Label: RNA polymerase I subunit B
+          Symbol: POLR1B
+      - Gene:
+          ExternalReferences:
+          - Reference: '11654'
+            Source: HGNC
+          - Reference: '606847'
+            Source: OMIM
           Label: treacle ribosome biogenesis factor 1
           Symbol: TCOF1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11654'
-          - Source: OMIM
-            Reference: '606847'
       - Gene:
+          ExternalReferences:
+          - Reference: '20422'
+            Source: HGNC
+          - Reference: '613715'
+            Source: OMIM
           Label: RNA polymerase I and III subunit D
           Symbol: POLR1D
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '20422'
-          - Source: OMIM
-            Reference: '613715'
       - Gene:
+          ExternalReferences:
+          - Reference: '20194'
+            Source: HGNC
+          - Reference: '610060'
+            Source: OMIM
           Label: RNA polymerase I and III subunit C
           Symbol: POLR1C
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '20194'
-          - Source: OMIM
-            Reference: '610060'
+      Label: Treacher-Collins syndrome
+      ORPHAcode: '861'
   - Child:
-      Label: Nager syndrome
-      ORPHAcode: '245'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '10771'
+            Source: HGNC
+          - Reference: '605593'
+            Source: OMIM
           Label: splicing factor 3b subunit 4
           Symbol: SF3B4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10771'
-          - Source: OMIM
-            Reference: '605593'
+      Label: Nager syndrome
+      ORPHAcode: '245'
   - Child:
-      Label: Postaxial acrofacial dysostosis
-      ORPHAcode: '246'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2867'
+            Source: HGNC
+          - Reference: '126064'
+            Source: OMIM
           Label: dihydroorotate dehydrogenase (quinone)
           Symbol: DHODH
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2867'
-          - Source: OMIM
-            Reference: '126064'
+      Label: Postaxial acrofacial dysostosis
+      ORPHAcode: '246'
   - Child:
+      Genes: no data
       Label: Frontofacionasal dysplasia
       ORPHAcode: '1791'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Nasopalpebral lipoma-coloboma syndrome
       ORPHAcode: '2399'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Syndromic eyelid coloboma
+  ORPHAcode: '98566'
+  ORPHApacketId: '98566'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98566
+  Parents:
+  - Parent:
+    - Label: Eyelid border anomaly
+      ORPHAcode: '98564'
+  Synonyms:
+  - Synonym: Syndromic palpebral coloboma
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,82 +1,78 @@
 Orphapacket:
-  ORPHApacketId: '3465'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3465'
-  Label: Worster-Drought syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_3465
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: Congenital suprabulbar paresis
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '185480'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Worster-Drought syndrome (WDS) is a form of cerebral palsy characterized
-      by congenital pseudobulbar (suprabulbar) paresis manifesting as selective weakness
-      of the lips tongue and soft palate dysphagia dysphonia drooling and jaw jerking.
-  Parents:
-  - Parent:
-    - ORPHAcode: '138084'
-      Label: Sucking/swallowing disorder associated to cervicofacial or esophageal
-        malformation
-  - Parent:
-    - ORPHAcode: '98006'
-      Label: Rare neurologic disease
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000252
-      HPOTerm: Microcephaly
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000407
-      HPOTerm: Sensorineural hearing impairment
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001250
-      HPOTerm: Seizures
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001291
-      HPOTerm: Abnormal cranial nerve morphology
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001347
-      HPOTerm: Hyperreflexia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002167
-      HPOTerm: Neurological speech impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002445
-      HPOTerm: Tetraplegia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0100543
-      HPOTerm: Cognitive impairment
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '3.7'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '185480'
+    Source: OMIM
+  Label: Worster-Drought syndrome
+  ORPHAcode: '3465'
+  ORPHApacketId: '3465'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3465
+  Parents:
+  - Parent:
+    - Label: Rare neurologic disease
+      ORPHAcode: '98006'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000252
+      HPOTerm: Microcephaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000407
+      HPOTerm: Sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001291
+      HPOTerm: Abnormal cranial nerve morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001347
+      HPOTerm: Hyperreflexia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002167
+      HPOTerm: Neurological speech impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002445
+      HPOTerm: Tetraplegia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100543
+      HPOTerm: Cognitive impairment
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '3.7'
+  Synonyms:
+  - Synonym: Congenital suprabulbar paresis
+  TextSection:
+    Contents: Worster-Drought syndrome (WDS) is a form of cerebral palsy characterized
+      by congenital pseudobulbar (suprabulbar) paresis manifesting as selective weakness
+      of the lips tongue and soft palate dysphagia dysphonia drooling and jaw jerking.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,84 +1,84 @@
 Orphapacket:
-  ORPHApacketId: '169150'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '169150'
-  Label: Immunodeficiency due to a late component of complement deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_169150
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '610102'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '612446'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '613789'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '613790'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '613825'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '609536'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: complement C5
+      Symbol: C5
+  - Gene:
+      ExternalReferences: []
+      Name: complement C6
+      Symbol: C6
+  - Gene:
+      ExternalReferences: []
+      Name: complement C7
+      Symbol: C7
+  - Gene:
+      ExternalReferences: []
+      Name: complement C8 alpha chain
+      Symbol: C8A
+  - Gene:
+      ExternalReferences: []
+      Name: complement C8 beta chain
+      Symbol: C8B
+  - Gene:
+      ExternalReferences: []
+      Name: complement C8 gamma chain
+      Symbol: C8G
+  - Gene:
+      ExternalReferences: []
+      Name: complement C9
+      Symbol: C9
+  Label: Immunodeficiency due to a late component of complement deficiency
+  ORPHAcode: '169150'
+  ORPHApacketId: '169150'
+  PURL: http://www.orpha.net/ORDO/Orphanet_169150
+  Parents:
+  - Parent:
+    - Label: Immunodeficiency due to a complement cascade component deficiency
+      ORPHAcode: '459345'
   Synonyms:
   - Synonym: Immunodeficiency due to C5 to C9 component complement deficiency
   - Synonym: Terminal complement pathway deficiency
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '610102'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '612446'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '613789'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '613790'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '613825'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '609536'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
   TextSection:
-    TextSectionType: Definition
     Contents: Immunodeficiency due to a late component of complement deficiency is
       a primary immunodeficiency due to an anomaly in either complement components
       C5 C6 C7 C8 or C9 and is typically characterized by meningitis due to often
       recurrent meningococcal infections. The prognosis is generally favorable.
-  Genes:
-  - Gene:
-      Symbol: C5
-      Name: complement C5
-      ExternalReferences: []
-  - Gene:
-      Symbol: C6
-      Name: complement C6
-      ExternalReferences: []
-  - Gene:
-      Symbol: C7
-      Name: complement C7
-      ExternalReferences: []
-  - Gene:
-      Symbol: C8A
-      Name: complement C8 alpha chain
-      ExternalReferences: []
-  - Gene:
-      Symbol: C8B
-      Name: complement C8 beta chain
-      ExternalReferences: []
-  - Gene:
-      Symbol: C8G
-      Name: complement C8 gamma chain
-      ExternalReferences: []
-  - Gene:
-      Symbol: C9
-      Name: complement C9
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '459345'
-      Label: Immunodeficiency due to a complement cascade component deficiency
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

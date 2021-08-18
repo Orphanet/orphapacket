@@ -1,54 +1,55 @@
 Orphapacket:
-  ORPHApacketId: '276598'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '276598'
-  Label: Diazoxide-resistant focal hyperinsulinism due to SUR1 deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_276598
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Hyperinsulinemic hypoglycemia due to SUR1 deficiency, diazoxide-resistant
-      focal form
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '256450'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare congenital isolated hyperinsulinism disorder characterized by
-      diazoxide unresponsive recurrent episodes of hyperinsulinemic hypoglycemia resulting
-      from an excessive insulin secretion by the pancreatic bêta-cells due to SUR1
-      deficiency. Hypoglycemia may lead to variable clinical manifestations ranging
-      from asymptomatic hypoglycemia revealed by routine blood glucose monitoring
-      to macrosomia at birth mild to moderate hepatomegaly and life-threatening hypoglycemic
-      coma or status epilepticus further leading to poor neurological outcome.
-  Genes:
-  - Gene:
-      Symbol: ABCC8
-      Name: ATP binding cassette subfamily C member 8
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79298'
-      Label: Diazoxide-resistant focal hyperinsulinism
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '256450'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ATP binding cassette subfamily C member 8
+      Symbol: ABCC8
+  Label: Diazoxide-resistant focal hyperinsulinism due to SUR1 deficiency
+  ORPHAcode: '276598'
+  ORPHApacketId: '276598'
+  PURL: http://www.orpha.net/ORDO/Orphanet_276598
+  Parents:
+  - Parent:
+    - Label: Diazoxide-resistant focal hyperinsulinism
+      ORPHAcode: '79298'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: Hyperinsulinemic hypoglycemia due to SUR1 deficiency, diazoxide-resistant
+      focal form
+  TextSection:
+    Contents: "A rare congenital isolated hyperinsulinism disorder characterized by\
+      \ diazoxide unresponsive recurrent episodes of hyperinsulinemic hypoglycemia\
+      \ resulting from an excessive insulin secretion by the pancreatic b\xEAta-cells\
+      \ due to SUR1 deficiency. Hypoglycemia may lead to variable clinical manifestations\
+      \ ranging from asymptomatic hypoglycemia revealed by routine blood glucose monitoring\
+      \ to macrosomia at birth mild to moderate hepatomegaly and life-threatening\
+      \ hypoglycemic coma or status epilepticus further leading to poor neurological\
+      \ outcome."
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

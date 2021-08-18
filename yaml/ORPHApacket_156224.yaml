@@ -1,58 +1,58 @@
 Orphapacket:
-  ORPHApacketId: '156224'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '156224'
-  Label: Paralytic facial malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_156224
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '68329'
-      Label: Rare maxillo-facial surgical disease
-  - Parent:
-    - ORPHAcode: '155832'
-      Label: Rare head and neck malformation
-  - Parent:
-    - ORPHAcode: '183583'
-      Label: Genetic head and neck malformation
   Childs:
   - Child:
-      Label: Moebius syndrome
-      ORPHAcode: '570'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '9107'
+            Source: HGNC
+          - Reference: '604282'
+            Source: OMIM
           Label: plexin D1
           Symbol: PLXND1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9107'
-          - Source: OMIM
-            Reference: '604282'
       - Gene:
+          ExternalReferences:
+          - Reference: '9968'
+            Source: HGNC
+          - Reference: '602776'
+            Source: OMIM
           Label: REV3 like, DNA directed polymerase zeta catalytic subunit
           Symbol: REV3L
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9968'
-          - Source: OMIM
-            Reference: '602776'
+      Label: Moebius syndrome
+      ORPHAcode: '570'
   - Child:
+      Genes: no data
       Label: Isolated hereditary congenital facial paralysis
       ORPHAcode: '306527'
-      Genes: no data
   - Child:
-      Label: Congenital hereditary facial paralysis-variable hearing loss syndrome
-      ORPHAcode: '306530'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '5111'
+            Source: HGNC
+          - Reference: '142968'
+            Source: OMIM
           Label: homeobox B1
           Symbol: HOXB1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5111'
-          - Source: OMIM
-            Reference: '142968'
+      Label: Congenital hereditary facial paralysis-variable hearing loss syndrome
+      ORPHAcode: '306530'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Paralytic facial malformation
+  ORPHAcode: '156224'
+  ORPHApacketId: '156224'
+  PURL: http://www.orpha.net/ORDO/Orphanet_156224
+  Parents:
+  - Parent:
+    - Label: Rare maxillo-facial surgical disease
+      ORPHAcode: '68329'
+  - Parent:
+    - Label: Rare head and neck malformation
+      ORPHAcode: '155832'
+  - Parent:
+    - Label: Genetic head and neck malformation
+      ORPHAcode: '183583'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,52 +1,52 @@
 Orphapacket:
-  ORPHApacketId: '512034'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '512034'
-  Label: Large granular lymphocyte leukemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_512034
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '171918'
-      Label: T-cell non-Hodgkin lymphoma
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11364'
+            Source: HGNC
+          - Reference: '102582'
+            Source: OMIM
+          Label: signal transducer and activator of transcription 3
+          Symbol: STAT3
       Label: T-cell large granular lymphocyte leukemia
       ORPHAcode: '86872'
-      Genes:
-      - Gene:
-          Label: signal transducer and activator of transcription 3
-          Symbol: STAT3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11364'
-          - Source: OMIM
-            Reference: '102582'
   - Child:
+      Genes: no data
       Label: Aggressive NK-cell leukemia
       ORPHAcode: '86873'
-      Genes: no data
   - Child:
-      Label: Chronic lymphoproliferative disorder of natural killer cells
-      ORPHAcode: '512017'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11364'
+            Source: HGNC
+          - Reference: '102582'
+            Source: OMIM
           Label: signal transducer and activator of transcription 3
           Symbol: STAT3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11364'
-          - Source: OMIM
-            Reference: '102582'
+      Label: Chronic lymphoproliferative disorder of natural killer cells
+      ORPHAcode: '512017'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Large granular lymphocyte leukemia
+  ORPHAcode: '512034'
+  ORPHApacketId: '512034'
+  PURL: http://www.orpha.net/ORDO/Orphanet_512034
+  Parents:
+  - Parent:
+    - Label: T-cell non-Hodgkin lymphoma
+      ORPHAcode: '171918'
   Prevalences:
     Prevalence:
-    - Source: 27494824[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.02'
+    - PrevalenceClass: <1 / 1 000 000
       PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 27494824[PMID]
+      ValMoy: '0.02'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

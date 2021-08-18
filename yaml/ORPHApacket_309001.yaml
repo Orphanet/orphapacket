@@ -1,96 +1,96 @@
 Orphapacket:
-  ORPHApacketId: '309001'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '309001'
-  Label: Disorder of carbohydrate absorption and transport
-  PURL: http://www.orpha.net/ORDO/Orphanet_309001
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '79161'
-      Label: Disorder of carbohydrate metabolism
   Childs:
   - Child:
-      Label: Hereditary fructose intolerance
-      ORPHAcode: '469'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '417'
+            Source: HGNC
+          - Reference: '612724'
+            Source: OMIM
           Label: aldolase, fructose-bisphosphate B
           Symbol: ALDOB
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '417'
-          - Source: OMIM
-            Reference: '612724'
+      Label: Hereditary fructose intolerance
+      ORPHAcode: '469'
   - Child:
-      Label: Congenital sucrase-isomaltase deficiency
-      ORPHAcode: '35122'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '10856'
+            Source: HGNC
+          - Reference: '609845'
+            Source: OMIM
           Label: sucrase-isomaltase
           Symbol: SI
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10856'
-          - Source: OMIM
-            Reference: '609845'
+      Label: Congenital sucrase-isomaltase deficiency
+      ORPHAcode: '35122'
   - Child:
-      Label: Congenital lactase deficiency
-      ORPHAcode: '53690'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6530'
+            Source: HGNC
+          - Reference: '603202'
+            Source: OMIM
           Label: lactase
           Symbol: LCT
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6530'
-          - Source: OMIM
-            Reference: '603202'
+      Label: Congenital lactase deficiency
+      ORPHAcode: '53690'
   - Child:
+      Genes: no data
       Label: Glucose transport disorder
       ORPHAcode: '79178'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Chronic diarrhea due to glucoamylase deficiency
       ORPHAcode: '103907'
-      Genes: no data
   - Child:
-      Label: Trehalase deficiency
-      ORPHAcode: '103909'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '12266'
+            Source: HGNC
+          - Reference: '275360'
+            Source: OMIM
           Label: trehalase
           Symbol: TREH
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12266'
-          - Source: OMIM
-            Reference: '275360'
+      Label: Trehalase deficiency
+      ORPHAcode: '103909'
   - Child:
-      Label: Exercise-induced hyperinsulinism
-      ORPHAcode: '165991'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '10922'
+            Source: HGNC
+          - Reference: '600682'
+            Source: OMIM
           Label: solute carrier family 16 member 1
           Symbol: SLC16A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10922'
-          - Source: OMIM
-            Reference: '600682'
+      Label: Exercise-induced hyperinsulinism
+      ORPHAcode: '165991'
   - Child:
-      Label: Juvenile cataract-microcornea-renal glucosuria syndrome
-      ORPHAcode: '247794'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '23094'
+            Source: HGNC
+          - Reference: '611910'
+            Source: OMIM
           Label: solute carrier family 16 member 12
           Symbol: SLC16A12
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '23094'
-          - Source: OMIM
-            Reference: '611910'
+      Label: Juvenile cataract-microcornea-renal glucosuria syndrome
+      ORPHAcode: '247794'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Disorder of carbohydrate absorption and transport
+  ORPHAcode: '309001'
+  ORPHApacketId: '309001'
+  PURL: http://www.orpha.net/ORDO/Orphanet_309001
+  Parents:
+  - Parent:
+    - Label: Disorder of carbohydrate metabolism
+      ORPHAcode: '79161'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

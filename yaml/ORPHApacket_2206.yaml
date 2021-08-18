@@ -1,71 +1,71 @@
 Orphapacket:
-  ORPHApacketId: '2206'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2206'
-  Label: Ankylosing vertebral hyperostosis with tylosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_2206
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '106400'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Ankylosing vertebral hyperostosis with tylosis
+  ORPHAcode: '2206'
+  ORPHApacketId: '2206'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2206
+  Parents:
+  - Parent:
+    - Label: Dysostosis with predominant vertebral and costal involvement
+      ORPHAcode: '93454'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000925
+      HPOTerm: Abnormality of the vertebral column
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002758
+      HPOTerm: Osteoarthritis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0040163
+      HPOTerm: Abnormal pelvis bone morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000982
+      HPOTerm: Palmoplantar keratoderma
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001513
+      HPOTerm: Obesity
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 5346342[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_5346342[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: A rare dysostosis with predominant vertebral involvement characterized
       by paraspinal ligament ossification (most pronounced in the lower thoracic region)
       osteophytosis marginal sacroiliac joint sclerosis and punctate hyperkeratosis
       on the soles and palms. Patients may be asymptomatic or present mild to moderate
       back pain. There have been no further descriptions in the literature since 1969.
-  Parents:
-  - Parent:
-    - ORPHAcode: '93454'
-      Label: Dysostosis with predominant vertebral and costal involvement
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000925
-      HPOTerm: Abnormality of the vertebral column
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002758
-      HPOTerm: Osteoarthritis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0040163
-      HPOTerm: Abnormal pelvis bone morphology
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000982
-      HPOTerm: Palmoplantar keratoderma
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001513
-      HPOTerm: Obesity
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 5346342[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_5346342[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

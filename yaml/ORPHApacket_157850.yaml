@@ -1,215 +1,331 @@
 Orphapacket:
-  ORPHApacketId: '157850'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '157850'
-  Label: Pantothenate kinase-associated neurodegeneration
-  PURL: http://www.orpha.net/ORDO/Orphanet_157850
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '606157'
+            Source: OMIM
+          - Reference: '15894'
+            Source: HGNC
+          Label: pantothenate kinase 2
+          Symbol: PANK2
+      Label: Classic pantothenate kinase-associated neurodegeneration
+      ORPHAcode: '216866'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '606157'
+            Source: OMIM
+          - Reference: '15894'
+            Source: HGNC
+          Label: pantothenate kinase 2
+          Symbol: PANK2
+      Label: Atypical pantothenate kinase-associated neurodegeneration
+      ORPHAcode: '216873'
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '234200'
+    Source: OMIM
+  Label: Pantothenate kinase-associated neurodegeneration
+  ORPHAcode: '157850'
+  ORPHApacketId: '157850'
+  PURL: http://www.orpha.net/ORDO/Orphanet_157850
+  Parents:
+  - Parent:
+    - Label: Neurodegeneration with brain iron accumulation
+      ORPHAcode: '385'
+  - Parent:
+    - Label: Neuroacanthocytosis
+      ORPHAcode: '263440'
+  - Parent:
+    - Label: Disorder of phospholipids, sphingolipids and fatty acids biosynthesis
+        with central nervous system predominant involvement
+      ORPHAcode: '352306'
+  - Parent:
+    - Label: Syndromic inherited retinal disorder
+      ORPHAcode: '519325'
+  - Parent:
+    - Label: Disorder of other vitamins and cofactors metabolism and transport
+      ORPHAcode: '309833'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000505
+      HPOTerm: Visual impairment
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000546
+      HPOTerm: Retinal degeneration
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001257
+      HPOTerm: Spasticity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001266
+      HPOTerm: Choreoathetosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001288
+      HPOTerm: Gait disturbance
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001332
+      HPOTerm: Dystonia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002071
+      HPOTerm: Abnormality of extrapyramidal motor function
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002454
+      HPOTerm: Eye of the tiger anomaly of globus pallidus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006957
+      HPOTerm: Loss of ability to walk
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000496
+      HPOTerm: Abnormality of eye movement
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000510
+      HPOTerm: Rod-cone dystrophy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000580
+      HPOTerm: Pigmentary retinopathy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000662
+      HPOTerm: Nyctalopia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000708
+      HPOTerm: Behavioral abnormality
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000938
+      HPOTerm: Osteopenia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001260
+      HPOTerm: Dysarthria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001268
+      HPOTerm: Mental deterioration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001300
+      HPOTerm: Parkinsonism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001927
+      HPOTerm: Acanthocytosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002063
+      HPOTerm: Rigidity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002451
+      HPOTerm: Limb dystonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002483
+      HPOTerm: Bulbar signs
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007994
+      HPOTerm: Peripheral visual field loss
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008181
+      HPOTerm: Abetalipoproteinemia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009763
+      HPOTerm: Limb pain
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012045
+      HPOTerm: Retinal flecks
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012179
+      HPOTerm: Craniofacial dystonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012677
+      HPOTerm: Iron accumulation in globus pallidus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012678
+      HPOTerm: Iron accumulation in substantia nigra
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0031959
+      HPOTerm: Leg dystonia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000618
+      HPOTerm: Blindness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000619
+      HPOTerm: Impaired convergence
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000648
+      HPOTerm: Optic atrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000712
+      HPOTerm: Emotional lability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000716
+      HPOTerm: Depressivity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000722
+      HPOTerm: Obsessive-compulsive behavior
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000726
+      HPOTerm: Dementia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001123
+      HPOTerm: Visual field defect
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001152
+      HPOTerm: Saccadic smooth pursuit
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001270
+      HPOTerm: Motor delay
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001347
+      HPOTerm: Hyperreflexia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001350
+      HPOTerm: Slurred speech
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002167
+      HPOTerm: Neurological speech impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003084
+      HPOTerm: Fractures of the long bones
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007018
+      HPOTerm: Attention deficit hyperactivity disorder
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007132
+      HPOTerm: Pallidal degeneration
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009088
+      HPOTerm: Speech articulation difficulties
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011504
+      HPOTerm: Bull's eye maculopathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011916
+      HPOTerm: Toe extensor amyotrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025402
+      HPOTerm: Square-wave jerks
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0031814
+      HPOTerm: Palilalia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0031937
+      HPOTerm: Tachylalia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0032014
+      HPOTerm: Dysmetric vertical saccades
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0040083
+      HPOTerm: Toe walking
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100033
+      HPOTerm: Tics
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100710
+      HPOTerm: Impulsivity
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001345
+      HPOTerm: Psychotic mentation
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002080
+      HPOTerm: Intention tremor
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 22027213[PMID]_[EXPERT]_ ORPHANET
+      ValMoy: '0.15'
   Synonyms:
   - Synonym: Hallervorden-Spatz syndrome
   - Synonym: NBIA1
   - Synonym: Neurodegeneration with brain iron accumulation type 1
   - Synonym: PKAN
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '234200'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Pantothenate kinase-associated neurodegeneration (PKAN) is the most
       common type of neurodegeneration with brain iron accumulation (NBIA; see this
       term) a rare neurodegenerative disorder characterized by progressive extrapyramidal
       dysfunction (dystonia rigidity choreoathetosis) iron accumulation on the brain
       and axonal spheroids in the central nervous system.
-  Parents:
-  - Parent:
-    - ORPHAcode: '385'
-      Label: Neurodegeneration with brain iron accumulation
-  - Parent:
-    - ORPHAcode: '263440'
-      Label: Neuroacanthocytosis
-  - Parent:
-    - ORPHAcode: '352306'
-      Label: Disorder of phospholipids, sphingolipids and fatty acids biosynthesis
-        with central nervous system predominant involvement
-  - Parent:
-    - ORPHAcode: '519325'
-      Label: Syndromic inherited retinal disorder
-  - Parent:
-    - ORPHAcode: '309833'
-      Label: Disorder of other vitamins and cofactors metabolism and transport
-  Childs:
-  - Child:
-      Label: Classic pantothenate kinase-associated neurodegeneration
-      ORPHAcode: '216866'
-      Genes:
-      - Gene:
-          Label: pantothenate kinase 2
-          Symbol: PANK2
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '606157'
-          - Source: HGNC
-            Reference: '15894'
-  - Child:
-      Label: Atypical pantothenate kinase-associated neurodegeneration
-      ORPHAcode: '216873'
-      Genes:
-      - Gene:
-          Label: pantothenate kinase 2
-          Symbol: PANK2
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '606157'
-          - Source: HGNC
-            Reference: '15894'
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000505
-      HPOTerm: Visual impairment
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000716
-      HPOTerm: Depressivity
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000722
-      HPOTerm: Obsessive-compulsive behavior
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000726
-      HPOTerm: Dementia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001000
-      HPOTerm: Abnormality of skin pigmentation
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001250
-      HPOTerm: Seizures
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001257
-      HPOTerm: Spasticity
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001260
-      HPOTerm: Dysarthria
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001266
-      HPOTerm: Choreoathetosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001288
-      HPOTerm: Gait disturbance
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001291
-      HPOTerm: Abnormal cranial nerve morphology
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001337
-      HPOTerm: Tremor
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001347
-      HPOTerm: Hyperreflexia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001373
-      HPOTerm: Joint dislocation
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001508
-      HPOTerm: Failure to thrive
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001618
-      HPOTerm: Dysphonia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001760
-      HPOTerm: Abnormality of the foot
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001824
-      HPOTerm: Weight loss
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002015
-      HPOTerm: Dysphagia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002019
-      HPOTerm: Constipation
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002020
-      HPOTerm: Gastroesophageal reflux
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002063
-      HPOTerm: Rigidity
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002067
-      HPOTerm: Bradykinesia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002167
-      HPOTerm: Neurological speech impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002205
-      HPOTerm: Recurrent respiratory infections
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002304
-      HPOTerm: Akinesia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002376
-      HPOTerm: Developmental regression
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003011
-      HPOTerm: Abnormality of the musculature
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0004326
-      HPOTerm: Cachexia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0007730
-      HPOTerm: Iris hypopigmentation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008770
-      HPOTerm: Obsessive-compulsive trait
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0100022
-      HPOTerm: Abnormality of movement
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: 22027213[PMID]_[EXPERT]_ ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.15'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

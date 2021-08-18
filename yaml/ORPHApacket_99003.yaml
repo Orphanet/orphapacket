@@ -1,38 +1,38 @@
 Orphapacket:
-  ORPHApacketId: '99003'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99003'
-  Label: Multifocal pattern dystrophy simulating fundus flavimaculatus
-  PURL: http://www.orpha.net/ORDO/Orphanet_99003
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: peripherin 2
+      Symbol: PRPH2
+  Label: Multifocal pattern dystrophy simulating fundus flavimaculatus
+  ORPHAcode: '99003'
+  ORPHApacketId: '99003'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99003
+  Parents:
+  - Parent:
+    - Label: Pattern dystrophy
+      ORPHAcode: '63454'
   Synonyms:
   - Synonym: Multifocal pattern dystrophy simulating Stargardt disease
   TextSection:
-    TextSectionType: Definition
     Contents: A rare patterned dystrophy of the retinal pigment epithelium characterized
       by multiple yellowish irregular flecks scattered or interconnected around the
       macula simulating what is observed in Stargardt disease and usually asymptomatic
       until adulthood when patients present with a slowly progressive loss of vision
       that often only becomes apparent in old age.
-  Genes:
-  - Gene:
-      Symbol: PRPH2
-      Name: peripherin 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '63454'
-      Label: Pattern dystrophy
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

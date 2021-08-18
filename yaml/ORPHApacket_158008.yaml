@@ -1,16 +1,33 @@
 Orphapacket:
-  ORPHApacketId: '158008'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '158008'
-  Label: Papular xanthoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_158008
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Papular xanthoma
+  ORPHAcode: '158008'
+  ORPHApacketId: '158008'
+  PURL: http://www.orpha.net/ORDO/Orphanet_158008
+  Parents:
+  - Parent:
+    - Label: Non-Langerhans cell histiocytosis
+      ORPHAcode: '157987'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001013
+      HPOTerm: Eruptive xanthomas
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100727
+      HPOTerm: Histiocytosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0200035
+      HPOTerm: Skin plaque
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0003077
+      HPOTerm: Hyperlipidemia
   TextSection:
-    TextSectionType: Definition
     Contents: Papular xanthoma is a form of non-Langerhans cell histiocytosis characterized
       by cutaneous presentation of solitary or disseminated yellow to orange-brown
       papular or papulonodular noncoalescent asymptomatic skin lesions located predominantly
@@ -18,27 +35,10 @@ Orphapacket:
       of normolipidemia. Microscopically the lesions consist of monomorphous infiltrate
       of xanthomatized macrophages and numerous Touton giant cells with scant or absent
       inflammatory infiltrate. It is usually not associated with systemic disease.
-  Parents:
-  - Parent:
-    - ORPHAcode: '157987'
-      Label: Non-Langerhans cell histiocytosis
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001013
-      HPOTerm: Eruptive xanthomas
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100727
-      HPOTerm: Histiocytosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0200035
-      HPOTerm: Skin plaque
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003077
-      HPOTerm: Hyperlipidemia
-      HPOFrequency: Excluded (0%)
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

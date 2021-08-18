@@ -1,126 +1,272 @@
 Orphapacket:
-  ORPHApacketId: '93284'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '93284'
-  Label: Spondyloepiphyseal dysplasia tarda
-  PURL: http://www.orpha.net/ORDO/Orphanet_93284
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '184100'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '271600'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '313400'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Spondyloepiphyseal dysplasia tarda (SEDT) is characterized by disproportionate
-      short stature in adolescence or adulthood associated with a short trunk and
-      arms and barrel-shaped chest.
-  Genes:
-  - Gene:
-      Symbol: TRAPPC2
-      Name: trafficking protein particle complex 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '253'
-      Label: Spondyloepiphyseal dysplasia and spondyloepimetaphyseal dysplasia
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000470
-      HPOTerm: Short neck
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000926
-      HPOTerm: Platyspondyly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001552
-      HPOTerm: Barrel-shaped chest
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002650
-      HPOTerm: Scoliosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002655
-      HPOTerm: Spondyloepiphyseal dysplasia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002758
-      HPOTerm: Osteoarthritis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002812
-      HPOTerm: Coxa vara
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002829
-      HPOTerm: Arthralgia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002866
-      HPOTerm: Hypoplastic iliac wing
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002938
-      HPOTerm: Lumbar hyperlordosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002942
-      HPOTerm: Thoracic kyphosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003311
-      HPOTerm: Hypoplasia of the odontoid process
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003498
-      HPOTerm: Disproportionate short stature
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0005930
-      HPOTerm: Abnormality of epiphysis morphology
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008843
-      HPOTerm: Hip osteoarthritis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0009824
-      HPOTerm: Upper limb undergrowth
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0010306
-      HPOTerm: Short thorax
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
   - AverageAgeOfOnset:
       value: Adult
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '184100'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '271600'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '313400'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: trafficking protein particle complex subunit 2
+      Symbol: TRAPPC2
+  Label: Spondyloepiphyseal dysplasia tarda
+  ORPHAcode: '93284'
+  ORPHApacketId: '93284'
+  PURL: http://www.orpha.net/ORDO/Orphanet_93284
+  Parents:
+  - Parent:
+    - Label: Spondyloepiphyseal dysplasia and spondyloepimetaphyseal dysplasia
+      ORPHAcode: '253'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000926
+      HPOTerm: Platyspondyly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001552
+      HPOTerm: Barrel-shaped chest
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002654
+      HPOTerm: Multiple epiphyseal dysplasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003051
+      HPOTerm: Enlarged metaphyses
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003088
+      HPOTerm: Premature osteoarthritis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003521
+      HPOTerm: Disproportionate short-trunk short stature
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004594
+      HPOTerm: Hump-shaped mound of bone in central and posterior portions of vertebral
+        endplate
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005775
+      HPOTerm: Multiple skeletal anomalies
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012771
+      HPOTerm: Increased arm span
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000470
+      HPOTerm: Short neck
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001376
+      HPOTerm: Limitation of joint mobility
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001386
+      HPOTerm: Joint swelling
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002763
+      HPOTerm: Abnormal cartilage morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002829
+      HPOTerm: Arthralgia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002945
+      HPOTerm: Intervertebral space narrowing
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003043
+      HPOTerm: Abnormality of the shoulder
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003365
+      HPOTerm: Arthralgia of the hip
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003418
+      HPOTerm: Back pain
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003855
+      HPOTerm: Spurred metaphyses of the upper limbs
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005086
+      HPOTerm: Knee osteoarthritis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008843
+      HPOTerm: Hip osteoarthritis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010656
+      HPOTerm: Abnormal epiphyseal ossification
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011001
+      HPOTerm: Increased bone mineral density
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030839
+      HPOTerm: Knee pain
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100569
+      HPOTerm: Abnormally ossified vertebrae
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100712
+      HPOTerm: Abnormality of the lumbar spine
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002751
+      HPOTerm: Kyphoscoliosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002812
+      HPOTerm: Coxa vara
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002938
+      HPOTerm: Lumbar hyperlordosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002942
+      HPOTerm: Thoracic kyphosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002996
+      HPOTerm: Limited elbow movement
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003311
+      HPOTerm: Hypoplasia of the odontoid process
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003832
+      HPOTerm: Abnormality of the tibial plateaux
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004586
+      HPOTerm: Biconcave vertebral bodies
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004637
+      HPOTerm: Decreased cervical spine mobility
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006233
+      HPOTerm: Osteoarthritis of the distal interphalangeal joint
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006248
+      HPOTerm: Limited wrist movement
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006467
+      HPOTerm: Limited shoulder movement
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008812
+      HPOTerm: Flattened femoral head
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009763
+      HPOTerm: Limb pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010231
+      HPOTerm: Enlarged epiphyses of the phalanges of the hand
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010575
+      HPOTerm: Dysplasia of the femoral head
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025131
+      HPOTerm: Finger swelling
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025263
+      HPOTerm: Stiff knee
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0040161
+      HPOTerm: Localized osteoporosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100864
+      HPOTerm: Short femoral neck
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0003401
+      HPOTerm: Paresthesia
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0000175
+      HPOTerm: Cleft palate
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0000541
+      HPOTerm: Retinal detachment
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0002960
+      HPOTerm: Autoimmunity
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0012649
+      HPOTerm: Increased inflammatory response
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0100769
+      HPOTerm: Synovitis
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  TextSection:
+    Contents: Spondyloepiphyseal dysplasia tarda (SEDT) is characterized by disproportionate
+      short stature in adolescence or adulthood associated with a short trunk and
+      arms and barrel-shaped chest.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
@@ -128,3 +274,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

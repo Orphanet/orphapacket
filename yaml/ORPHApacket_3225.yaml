@@ -1,57 +1,57 @@
 Orphapacket:
-  ORPHApacketId: '3225'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3225'
-  Label: Hearing loss-familial salivary gland insensitivity to aldosterone syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_3225
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Infancy
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Label: Hearing loss-familial salivary gland insensitivity to aldosterone syndrome
+  ORPHAcode: '3225'
+  ORPHApacketId: '3225'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3225
+  Parents:
+  - Parent:
+    - Label: Syndromic genetic deafness
+      ORPHAcode: '90642'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000407
+      HPOTerm: Sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002902
+      HPOTerm: Hyponatremia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010286
+      HPOTerm: Abnormal salivary gland morphology
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 2280149[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_2280149[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Tungland-Bellman syndrome
   TextSection:
-    TextSectionType: Definition
     Contents: Hearing loss-familial salivary gland insensitivity to aldosterone syndrome
       is characterised by bilateral moderate-to-severe sensorineural hearing loss
       and salivary gland insensitivity to aldosterone resulting in hyponatremia. It
       has been described in two brothers. Transmission appeared to be autosomal recessive.
-  Parents:
-  - Parent:
-    - ORPHAcode: '90642'
-      Label: Syndromic genetic deafness
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000407
-      HPOTerm: Sensorineural hearing impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002902
-      HPOTerm: Hyponatremia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0010286
-      HPOTerm: Abnormality of the salivary glands
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 2280149[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_2280149[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

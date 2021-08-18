@@ -1,95 +1,95 @@
 Orphapacket:
-  ORPHApacketId: '211062'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '211062'
-  Label: Hereditary episodic ataxia
-  PURL: http://www.orpha.net/ORDO/Orphanet_211062
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '1388'
+            Source: HGNC
+          - Reference: '601011'
+            Source: OMIM
+          Label: calcium voltage-gated channel subunit alpha1 A
+          Symbol: CACNA1A
+      Label: Familial paroxysmal ataxia
+      ORPHAcode: '97'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '6218'
+            Source: HGNC
+          - Reference: '176260'
+            Source: OMIM
+          Label: potassium voltage-gated channel subfamily A member 1
+          Symbol: KCNA1
+      Label: Episodic ataxia type 1
+      ORPHAcode: '37612'
+  - Child:
+      Genes: no data
+      Label: Episodic ataxia type 3
+      ORPHAcode: '79135'
+  - Child:
+      Genes: no data
+      Label: Episodic ataxia type 4
+      ORPHAcode: '79136'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '10941'
+            Source: HGNC
+          - Reference: '600111'
+            Source: OMIM
+          Label: solute carrier family 1 member 3
+          Symbol: SLC1A3
+      Label: Episodic ataxia type 6
+      ORPHAcode: '209967'
+  - Child:
+      Genes: no data
+      Label: Episodic ataxia type 7
+      ORPHAcode: '209970'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '1404'
+            Source: HGNC
+          - Reference: '601949'
+            Source: OMIM
+          Label: calcium voltage-gated channel auxiliary subunit beta 4
+          Symbol: CACNB4
+      Label: Episodic ataxia type 5
+      ORPHAcode: '211067'
+  - Child:
+      Genes: no data
+      Label: Episodic ataxia with slurred speech
+      ORPHAcode: '401953'
   DisorderType:
-    value: Category
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Hereditary episodic ataxia
+  ORPHAcode: '211062'
+  ORPHApacketId: '211062'
+  PURL: http://www.orpha.net/ORDO/Orphanet_211062
+  Parents:
+  - Parent:
+    - Label: Rare hereditary ataxia
+      ORPHAcode: '183518'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   TextSection:
-    TextSectionType: Definition
     Contents: Hereditary episodic ataxia (EA) represents a group of neurological disorders
       characterized by recurrent episodes of ataxia and vertigo which may be progressive.
       Weakness dystonia and ataxia are sometimes present in the interictal period.
       Seven types of EA have been described to date (EA type 1 to EA type 7 see these
       terms) but most of the reported cases belong to EA1 and EA2.
-  Parents:
-  - Parent:
-    - ORPHAcode: '183518'
-      Label: Rare hereditary ataxia
-  Childs:
-  - Child:
-      Label: Familial paroxysmal ataxia
-      ORPHAcode: '97'
-      Genes:
-      - Gene:
-          Label: calcium voltage-gated channel subunit alpha1 A
-          Symbol: CACNA1A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1388'
-          - Source: OMIM
-            Reference: '601011'
-  - Child:
-      Label: Episodic ataxia type 1
-      ORPHAcode: '37612'
-      Genes:
-      - Gene:
-          Label: potassium voltage-gated channel subfamily A member 1
-          Symbol: KCNA1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6218'
-          - Source: OMIM
-            Reference: '176260'
-  - Child:
-      Label: Episodic ataxia type 3
-      ORPHAcode: '79135'
-      Genes: no data
-  - Child:
-      Label: Episodic ataxia type 4
-      ORPHAcode: '79136'
-      Genes: no data
-  - Child:
-      Label: Episodic ataxia type 6
-      ORPHAcode: '209967'
-      Genes:
-      - Gene:
-          Label: solute carrier family 1 member 3
-          Symbol: SLC1A3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10941'
-          - Source: OMIM
-            Reference: '600111'
-  - Child:
-      Label: Episodic ataxia type 7
-      ORPHAcode: '209970'
-      Genes: no data
-  - Child:
-      Label: Episodic ataxia type 5
-      ORPHAcode: '211067'
-      Genes:
-      - Gene:
-          Label: calcium voltage-gated channel auxiliary subunit beta 4
-          Symbol: CACNB4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1404'
-          - Source: OMIM
-            Reference: '601949'
-  - Child:
-      Label: Episodic ataxia with slurred speech
-      ORPHAcode: '401953'
-      Genes: no data
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,45 +1,45 @@
 Orphapacket:
-  ORPHApacketId: '439'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '439'
-  Label: Isolated right ventricular hypoplasia
-  PURL: http://www.orpha.net/ORDO/Orphanet_439
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '277200'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Isolated right ventricular hypoplasia
+  ORPHAcode: '439'
+  ORPHApacketId: '439'
+  PURL: http://www.orpha.net/ORDO/Orphanet_439
+  Parents:
+  - Parent:
+    - Label: Hypoplastic right heart syndrome
+      ORPHAcode: '98723'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   TextSection:
-    TextSectionType: Definition
     Contents: Isolated right ventricular hypoplasia (IRVH) is a rare congenital heart
       malformation (see this term) characterized by underdevelopment of the right
       ventricle associated with patent foramen ovale or interauricular communication
       (see these terms) and normally developed tricuspid and pulmonary valves. IRVH
       manifests with severe cyanosis congestive heart failure and in severe cases
       death in early infancy.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98723'
-      Label: Hypoplastic right heart syndrome
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

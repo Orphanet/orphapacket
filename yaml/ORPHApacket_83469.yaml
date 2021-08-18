@@ -1,138 +1,141 @@
 Orphapacket:
-  ORPHApacketId: '83469'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '83469'
-  Label: Desmoplastic small round cell tumor
-  PURL: http://www.orpha.net/ORDO/Orphanet_83469
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: DSRCT
-  TextSection:
-    TextSectionType: Definition
-    Contents: An aggressive soft tissue cancer that typically arises in serous lined
-      surfaces of the abdominal or pelvic peritoneum and spreads to the omentum lymph
-      nodes and hematogenously disseminates especially to the liver. Extraserous primary
-      location has been reported in exceptional cases.
-  Genes:
-  - Gene:
-      Symbol: WT1
-      Name: WT1 transcription factor
-      ExternalReferences: []
-  - Gene:
-      Symbol: EWSR1
-      Name: EWS RNA binding protein 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '3394'
-      Label: Soft tissue sarcoma
-  - Parent:
-    - ORPHAcode: '168807'
-      Label: Primary malignant peritoneal tumor
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001541
-      HPOTerm: Ascites
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001824
-      HPOTerm: Weight loss
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001903
-      HPOTerm: Anemia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002017
-      HPOTerm: Nausea and vomiting
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002027
-      HPOTerm: Abdominal pain
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002240
-      HPOTerm: Hepatomegaly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002585
-      HPOTerm: Abnormality of the peritoneum
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002595
-      HPOTerm: Ileus
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002716
-      HPOTerm: Lymphadenopathy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002894
-      HPOTerm: Neoplasm of the pancreas
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003270
-      HPOTerm: Abdominal distention
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0004326
-      HPOTerm: Cachexia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0010788
-      HPOTerm: Testicular neoplasm
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0100006
-      HPOTerm: Neoplasm of the central nervous system
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0100242
-      HPOTerm: Sarcoma
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100526
-      HPOTerm: Neoplasm of the lung
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0100615
-      HPOTerm: Ovarian neoplasm
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0100721
-      HPOTerm: Mediastinal lymphadenopathy
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 15557784[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
   - AverageAgeOfOnset:
       value: Adult
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: WT1 transcription factor
+      Symbol: WT1
+  - Gene:
+      ExternalReferences: []
+      Name: EWS RNA binding protein 1
+      Symbol: EWSR1
+  Label: Desmoplastic small round cell tumor
+  ORPHAcode: '83469'
+  ORPHApacketId: '83469'
+  PURL: http://www.orpha.net/ORDO/Orphanet_83469
+  Parents:
+  - Parent:
+    - Label: Soft tissue sarcoma
+      ORPHAcode: '3394'
+  - Parent:
+    - Label: Primary malignant peritoneal tumor
+      ORPHAcode: '168807'
+  - Parent:
+    - Label: Pediatric soft tissue sarcoma
+      ORPHAcode: '602681'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001541
+      HPOTerm: Ascites
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001824
+      HPOTerm: Weight loss
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001903
+      HPOTerm: Anemia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002017
+      HPOTerm: Nausea and vomiting
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002027
+      HPOTerm: Abdominal pain
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002240
+      HPOTerm: Hepatomegaly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002585
+      HPOTerm: Abnormality of the peritoneum
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002595
+      HPOTerm: Ileus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002716
+      HPOTerm: Lymphadenopathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002894
+      HPOTerm: Neoplasm of the pancreas
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003270
+      HPOTerm: Abdominal distention
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004326
+      HPOTerm: Cachexia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010788
+      HPOTerm: Testicular neoplasm
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100006
+      HPOTerm: Neoplasm of the central nervous system
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100242
+      HPOTerm: Sarcoma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100526
+      HPOTerm: Neoplasm of the lung
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100615
+      HPOTerm: Ovarian neoplasm
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100721
+      HPOTerm: Mediastinal lymphadenopathy
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 15557784[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: DSRCT
+  TextSection:
+    Contents: An aggressive soft tissue cancer that typically arises in serous lined
+      surfaces of the abdominal or pelvic peritoneum and spreads to the omentum lymph
+      nodes and hematogenously disseminates especially to the liver. Extraserous primary
+      location has been reported in exceptional cases.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

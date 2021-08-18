@@ -1,39 +1,4 @@
 Orphapacket:
-  ORPHApacketId: '300895'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '300895'
-  Label: ALK-positive anaplastic large cell lymphoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_300895
-  DisorderType:
-    value: Histopathological subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377797
-  Synonyms:
-  - Synonym: ALK+ ALCL
-  - Synonym: ALK+ anaplastic large cell lymphoma
-  TextSection:
-    TextSectionType: Definition
-    Contents: A type of ALCL a rare and aggressive peripheral T-cell non-Hodgkin lymphoma
-      affecting lymph nodes and extranodal sites which is characterized by the expression
-      of a protein called anaplastic lymphoma kinase (ALK).
-  Genes:
-  - Gene:
-      Symbol: ALK
-      Name: ALK receptor tyrosine kinase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98841'
-      Label: Anaplastic large cell lymphoma
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -41,6 +6,44 @@ Orphapacket:
       value: Adult
   - AverageAgeOfOnset:
       value: Childhood
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377797
+    value: Histopathological subtype
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ALK receptor tyrosine kinase
+      Symbol: ALK
+  Label: ALK-positive anaplastic large cell lymphoma
+  ORPHAcode: '300895'
+  ORPHApacketId: '300895'
+  PURL: http://www.orpha.net/ORDO/Orphanet_300895
+  Parents:
+  - Parent:
+    - Label: Anaplastic large cell lymphoma
+      ORPHAcode: '98841'
+  - Parent:
+    - Label: Pediatric T-cell non-Hodgkin lymphoma
+      ORPHAcode: '602675'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: ALK+ ALCL
+  - Synonym: ALK+ anaplastic large cell lymphoma
+  TextSection:
+    Contents: A type of ALCL a rare and aggressive peripheral T-cell non-Hodgkin lymphoma
+      affecting lymph nodes and extranodal sites which is characterized by the expression
+      of a protein called anaplastic lymphoma kinase (ALK).
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

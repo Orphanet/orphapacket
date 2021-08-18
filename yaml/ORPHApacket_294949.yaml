@@ -1,58 +1,66 @@
 Orphapacket:
-  ORPHApacketId: '294949'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '294949'
-  Label: Joint formation defects
-  PURL: http://www.orpha.net/ORDO/Orphanet_294949
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '109011'
-      Label: Non-syndromic limb malformation
-  - Parent:
-    - ORPHAcode: '364568'
-      Label: Dysostosis with limb anomaly as a major feature
-  - Parent:
-    - ORPHAcode: '404571'
-      Label: Dysostosis of genetic origin with limb anomaly as a major feature
   Childs:
   - Child:
+      Genes: no data
       Label: Distal symphalangism
       ORPHAcode: '3248'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Humero-radial synostosis
       ORPHAcode: '3265'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Humero-radio-ulnar synostosis
       ORPHAcode: '3266'
-      Genes: no data
   - Child:
-      Label: Congenital radioulnar synostosis
-      ORPHAcode: '3269'
-      Genes: no data
-  - Child:
-      Label: Humero-ulnar synostosis
-      ORPHAcode: '94056'
-      Genes: no data
-  - Child:
-      Label: Isolated congenital digital clubbing
-      ORPHAcode: '217059'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6772'
+            Source: HGNC
+          - Reference: '602931'
+            Source: OMIM
+          Label: SMAD family member 6
+          Symbol: SMAD6
+      Label: Congenital radioulnar synostosis
+      ORPHAcode: '3269'
+  - Child:
+      Genes: no data
+      Label: Humero-ulnar synostosis
+      ORPHAcode: '94056'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '601688'
+            Source: OMIM
+          - Reference: '5154'
+            Source: HGNC
           Label: 15-hydroxyprostaglandin dehydrogenase
           Symbol: HPGD
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '601688'
-          - Source: HGNC
-            Reference: '5154'
+      Label: Isolated congenital digital clubbing
+      ORPHAcode: '217059'
   - Child:
+      Genes: no data
       Label: Tibio-fibular synostosis
       ORPHAcode: '295028'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Joint formation defects
+  ORPHAcode: '294949'
+  ORPHApacketId: '294949'
+  PURL: http://www.orpha.net/ORDO/Orphanet_294949
+  Parents:
+  - Parent:
+    - Label: Non-syndromic limb malformation
+      ORPHAcode: '109011'
+  - Parent:
+    - Label: Dysostosis with limb anomaly as a major feature
+      ORPHAcode: '364568'
+  - Parent:
+    - Label: Dysostosis of genetic origin with limb anomaly as a major feature
+      ORPHAcode: '404571'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

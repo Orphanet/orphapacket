@@ -1,14 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '83595'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '83595'
-  Label: Colorado tick fever
-  PURL: http://www.orpha.net/ORDO/Orphanet_83595
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Colorado tick fever
+  ORPHAcode: '83595'
+  ORPHApacketId: '83595'
+  PURL: http://www.orpha.net/ORDO/Orphanet_83595
+  Parents:
+  - Parent:
+    - Label: Infectious encephalitis
+      ORPHAcode: '98252'
+  - Parent:
+    - Label: Infectious disease with epilepsy
+      ORPHAcode: '166490'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: American mountain fever
   - Synonym: Colorado tick encephalitis
@@ -16,33 +34,15 @@ Orphapacket:
   - Synonym: Mountain fever
   - Synonym: Mountain tick fever
   TextSection:
-    TextSectionType: Definition
     Contents: An acute arboviral infection caused by a <i>Coltivirus</i> transmitted
       by an infected tick and characterized by a biphasic fever with headache myalgias
       arthralgias and fatigue that can last 3 weeks or more. In some cases macular
       maculopapular or petechial rash and/or stiff neck nausea vomiting abdominal
       pain diarrhea and sore throat may also occur.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98252'
-      Label: Infectious encephalitis
-  - Parent:
-    - ORPHAcode: '166490'
-      Label: Infectious disease with epilepsy
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

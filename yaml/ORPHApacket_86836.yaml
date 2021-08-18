@@ -1,66 +1,66 @@
 Orphapacket:
-  ORPHApacketId: '86836'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '86836'
-  Label: Refractory cytopenia with multilineage dysplasia
-  PURL: http://www.orpha.net/ORDO/Orphanet_86836
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '25941'
+            Source: HGNC
+          - Reference: '612839'
+            Source: OMIM
+          Label: tet methylcytosine dioxygenase 2
+          Symbol: TET2
+      Label: Refractory anemia
+      ORPHAcode: '98826'
+  - Child:
+      Genes: no data
+      Label: Unclassified myelodysplastic syndrome
+      ORPHAcode: '98827'
+  - Child:
+      Genes: no data
+      Label: Aregenerative anemia
+      ORPHAcode: '101096'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '612176'
+            Source: OMIM
+          - Reference: '29401'
+            Source: HGNC
+          Label: Myb like, SWIRM and MPN domains 1
+          Symbol: MYSM1
+      Label: Congenital progressive bone marrow failure-B-cell immunodeficiency-skeletal
+        dysplasia syndrome
+      ORPHAcode: '508542'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Refractory cytopenia with multilineage dysplasia
+  ORPHAcode: '86836'
+  ORPHApacketId: '86836'
+  PURL: http://www.orpha.net/ORDO/Orphanet_86836
+  Parents:
+  - Parent:
+    - Label: Myelodysplastic syndrome
+      ORPHAcode: '52688'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: '0.0'
   TextSection:
-    TextSectionType: Definition
     Contents: Refractory cytopenias with multilineage dysplasia (RCMD) is a frequent
       subtype of myelodysplastic syndrome (MDS; see this term) characterized by 1
       or more cytopenias in the peripheral blood and dysplasia in 2 or more myeloid
       lineages.
-  Parents:
-  - Parent:
-    - ORPHAcode: '52688'
-      Label: Myelodysplastic syndrome
-  Childs:
-  - Child:
-      Label: Refractory anemia
-      ORPHAcode: '98826'
-      Genes:
-      - Gene:
-          Label: tet methylcytosine dioxygenase 2
-          Symbol: TET2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '25941'
-          - Source: OMIM
-            Reference: '612839'
-  - Child:
-      Label: Unclassified myelodysplastic syndrome
-      ORPHAcode: '98827'
-      Genes: no data
-  - Child:
-      Label: Aregenerative anemia
-      ORPHAcode: '101096'
-      Genes: no data
-  - Child:
-      Label: Congenital progressive bone marrow failure-B-cell immunodeficiency-skeletal
-        dysplasia syndrome
-      ORPHAcode: '508542'
-      Genes:
-      - Gene:
-          Label: Myb like, SWIRM and MPN domains 1
-          Symbol: MYSM1
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '612176'
-          - Source: HGNC
-            Reference: '29401'
-  Prevalences:
-    Prevalence:
-    - Source: RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

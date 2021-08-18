@@ -1,68 +1,69 @@
 Orphapacket:
-  ORPHApacketId: '313795'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '313795'
-  Label: Jawad syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_313795
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '251255'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Jawad syndrome is a rare genetic multiple congenital anomalies/dysmorphic
-      syndrome characterized by congenital microcephaly wih facial dysmorphism (sloping
-      forehead prominent nose mild retrognathia) moderate to severe non-progressive
-      intellectual disability and symmetrical digital malformations of variable degree
-      including brachydactyly of the fifth fingers with single flexion crease clinodactyly
-      syndactyly polydactyly and hallux valgus. Congenital anonychia and white café
-      au lait-like spots on the skin of hands and feet are also associated.
-  Genes:
-  - Gene:
-      Symbol: RBBP8
-      Name: RB binding protein 8, endonuclease
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '102283'
-      Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-  - Parent:
-    - ORPHAcode: '269528'
-      Label: Syndrome with microcephaly as a major feature
-  - Parent:
-    - ORPHAcode: '183763'
-      Label: Rare genetic syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '102369'
-      Label: Rare syndromic intellectual disability
-  Prevalences:
-  - Prevalence:
-      Source: 21998596[PMID]_8434622[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_21998596[PMID]_8434622[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '251255'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: RB binding protein 8, endonuclease
+      Symbol: RBBP8
+  Label: Jawad syndrome
+  ORPHAcode: '313795'
+  ORPHApacketId: '313795'
+  PURL: http://www.orpha.net/ORDO/Orphanet_313795
+  Parents:
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
+  - Parent:
+    - Label: Syndrome with microcephaly as a major feature
+      ORPHAcode: '269528'
+  - Parent:
+    - Label: Rare genetic syndromic intellectual disability
+      ORPHAcode: '183763'
+  - Parent:
+    - Label: Rare syndromic intellectual disability
+      ORPHAcode: '102369'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 21998596[PMID]_8434622[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_21998596[PMID]_8434622[PMID]
+      ValMoy: no data
+  TextSection:
+    Contents: "Jawad syndrome is a rare genetic multiple congenital anomalies/dysmorphic\
+      \ syndrome characterized by congenital microcephaly wih facial dysmorphism (sloping\
+      \ forehead prominent nose mild retrognathia) moderate to severe non-progressive\
+      \ intellectual disability and symmetrical digital malformations of variable\
+      \ degree including brachydactyly of the fifth fingers with single flexion crease\
+      \ clinodactyly syndactyly polydactyly and hallux valgus. Congenital anonychia\
+      \ and white caf\xE9 au lait-like spots on the skin of hands and feet are also\
+      \ associated."
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

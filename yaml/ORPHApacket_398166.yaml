@@ -1,39 +1,92 @@
 Orphapacket:
-  ORPHApacketId: '398166'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '398166'
-  Label: Focal facial dermal dysplasia
-  PURL: http://www.orpha.net/ORDO/Orphanet_398166
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '20670'
+            Source: HGNC
+          - Reference: '607556'
+            Source: OMIM
+          Label: twist family bHLH transcription factor 2
+          Symbol: TWIST2
+      Label: Focal facial dermal dysplasia type III
+      ORPHAcode: '1807'
+  - Child:
+      Genes: no data
+      Label: Focal facial dermal dysplasia type I
+      ORPHAcode: '79133'
+  - Child:
+      Genes: no data
+      Label: Focal facial dermal dysplasia type II
+      ORPHAcode: '398173'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '20577'
+            Source: HGNC
+          - Reference: '608428'
+            Source: OMIM
+          Label: cytochrome P450 family 26 subfamily C member 1
+          Symbol: CYP26C1
+      Label: Focal facial dermal dysplasia type IV
+      ORPHAcode: '398189'
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: FFDD
+    value: Malformation syndrome
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
       Reference: '136500'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
-  - ExternalReference:
-      Source: OMIM
       Reference: '227260'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
-  - ExternalReference:
-      Source: OMIM
       Reference: '614973'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
       Source: OMIM
-      Reference: '614974'
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
+      Reference: '614974'
+      Source: OMIM
+  Label: Focal facial dermal dysplasia
+  ORPHAcode: '398166'
+  ORPHApacketId: '398166'
+  PURL: http://www.orpha.net/ORDO/Orphanet_398166
+  Parents:
+  - Parent:
+    - Label: Ectodermal dysplasia syndrome
+      ORPHAcode: '79373'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_21931173[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 21931173[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: FFDD
   TextSection:
-    TextSectionType: Definition
     Contents: Focal facial dermal dysplasias (FFDD) are rare ectodermal dysplasias
       characterized by congenital bitemporal (resembling forceps marks) or preauricular
       scar-like lesions associated with additional facial and or systematic manifestations.
@@ -42,65 +95,12 @@ Orphapacket:
       lashes) or lacking eyelashes and upward slanting and thinned lateral eyebrows
       with a flattened nasal bridge and full upper lip. FFDD types I and IV are infrequently
       associated with extra-cutaneous anomalies.
-  Parents:
-  - Parent:
-    - ORPHAcode: '79373'
-      Label: Ectodermal dysplasia syndrome
-  Childs:
-  - Child:
-      Label: Focal facial dermal dysplasia type III
-      ORPHAcode: '1807'
-      Genes:
-      - Gene:
-          Label: twist family bHLH transcription factor 2
-          Symbol: TWIST2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '20670'
-          - Source: OMIM
-            Reference: '607556'
-  - Child:
-      Label: Focal facial dermal dysplasia type I
-      ORPHAcode: '79133'
-      Genes: no data
-  - Child:
-      Label: Focal facial dermal dysplasia type II
-      ORPHAcode: '398173'
-      Genes: no data
-  - Child:
-      Label: Focal facial dermal dysplasia type IV
-      ORPHAcode: '398189'
-      Genes:
-      - Gene:
-          Label: cytochrome P450 family 26 subfamily C member 1
-          Symbol: CYP26C1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '20577'
-          - Source: OMIM
-            Reference: '608428'
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET_21931173[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: 21931173[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Antenatal
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

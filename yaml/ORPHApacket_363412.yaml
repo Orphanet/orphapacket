@@ -1,53 +1,4 @@
 Orphapacket:
-  ORPHApacketId: '363412'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '363412'
-  Label: Hypomyelination with brain stem and spinal cord involvement and leg spasticity
-  PURL: http://www.orpha.net/ORDO/Orphanet_363412
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: HBSL
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '615281'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Hypomyelination with brain stem and spinal cord involvement and leg
-      spasticity is a rare genetic leukodystrophy disorder characterized by diffuse
-      hypomyelination in the supratentorial brain white matter brain stem and spinal
-      cord. Patients usually present nystagmus lower limb spasticity hypotonia and
-      motor developmental delay as well as MRI signal abnormalities involving the
-      corpus callosum anterior brainstem pyramidal tracts superior and inferior cerebellar
-      peduncles dorsal columns and/or lateral corticospinal tracts.
-  Genes:
-  - Gene:
-      Symbol: DARS
-      Name: aspartyl-tRNA synthetase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '68356'
-      Label: Leukodystrophy
-  Prevalences:
-  - Prevalence:
-      Source: 25527264[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_25527264[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -55,6 +6,55 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '615281'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: aspartyl-tRNA synthetase 1
+      Symbol: DARS1
+  Label: Hypomyelination with brain stem and spinal cord involvement and leg spasticity
+  ORPHAcode: '363412'
+  ORPHApacketId: '363412'
+  PURL: http://www.orpha.net/ORDO/Orphanet_363412
+  Parents:
+  - Parent:
+    - Label: Leukodystrophy
+      ORPHAcode: '68356'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 25527264[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_25527264[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: HBSL
+  TextSection:
+    Contents: Hypomyelination with brain stem and spinal cord involvement and leg
+      spasticity is a rare genetic leukodystrophy disorder characterized by diffuse
+      hypomyelination in the supratentorial brain white matter brain stem and spinal
+      cord. Patients usually present nystagmus lower limb spasticity hypotonia and
+      motor developmental delay as well as MRI signal abnormalities involving the
+      corpus callosum anterior brainstem pyramidal tracts superior and inferior cerebellar
+      peduncles dorsal columns and/or lateral corticospinal tracts.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

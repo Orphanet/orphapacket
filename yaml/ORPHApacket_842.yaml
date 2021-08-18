@@ -1,66 +1,66 @@
 Orphapacket:
-  ORPHApacketId: '842'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '842'
-  Label: Testicular seminomatous germ cell tumor
-  PURL: http://www.orpha.net/ORDO/Orphanet_842
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Seminoma of testis
-  - Synonym: Seminomatous germ cell tumor of testis
-  - Synonym: Testicular seminoma
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '273300'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Testicular seminomatous germ cell tumor is a rare testicular germ cell
-      tumor (see this term) most commonly presenting with a painless mass in the scrotum
-      with a very high cure rate if caught in the early stages.
-  Genes:
-  - Gene:
-      Symbol: KIT
-      Name: KIT proto-oncogene, receptor tyrosine kinase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '363504'
-      Label: Germ cell tumor of testis
-  Prevalences:
-  - Prevalence:
-      Source: 22033323[PMID]_RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 22033323[PMID]_RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Lifetime Prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
   AverageAgeOfDeaths:
   - AverageAgeOfDeath:
       value: no data
   - AverageAgeOfDeath:
       value: no data
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '273300'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: KIT proto-oncogene, receptor tyrosine kinase
+      Symbol: KIT
+  Label: Testicular seminomatous germ cell tumor
+  ORPHAcode: '842'
+  ORPHApacketId: '842'
+  PURL: http://www.orpha.net/ORDO/Orphanet_842
+  Parents:
+  - Parent:
+    - Label: Germ cell tumor of testis
+      ORPHAcode: '363504'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 22033323[PMID]_RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Lifetime Prevalence
+      Source: 22033323[PMID]_RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Seminoma of testis
+  - Synonym: Seminomatous germ cell tumor of testis
+  - Synonym: Testicular seminoma
+  TextSection:
+    Contents: Testicular seminomatous germ cell tumor is a rare testicular germ cell
+      tumor (see this term) most commonly presenting with a painless mass in the scrotum
+      with a very high cure rate if caught in the early stages.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,24 +1,111 @@
 Orphapacket:
-  ORPHApacketId: '2500'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2500'
-  Label: Acrogeria
-  PURL: http://www.orpha.net/ORDO/Orphanet_2500
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '201200'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: collagen type III alpha 1 chain
+      Symbol: COL3A1
+  Label: Acrogeria
+  ORPHAcode: '2500'
+  ORPHApacketId: '2500'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2500
+  Parents:
+  - Parent:
+    - Label: Premature aging
+      ORPHAcode: '79389'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000347
+      HPOTerm: Micrognathia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000444
+      HPOTerm: Convex nasal ridge
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000951
+      HPOTerm: Abnormality of the skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000963
+      HPOTerm: Thin skin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001773
+      HPOTerm: Short foot
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002213
+      HPOTerm: Fine hair
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002652
+      HPOTerm: Skeletal dysplasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005692
+      HPOTerm: Joint hyperflexibility
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007392
+      HPOTerm: Excessive wrinkled skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007400
+      HPOTerm: Irregular hyperpigmentation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007495
+      HPOTerm: Prematurely aged appearance
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008065
+      HPOTerm: Aplasia/Hypoplasia of the skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100578
+      HPOTerm: Lipoatrophy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100585
+      HPOTerm: Telangiectasia of the skin
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0200042
+      HPOTerm: Skin ulcer
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0200055
+      HPOTerm: Small hand
   Synonyms:
   - Synonym: Acrogeria, Gottron type
   - Synonym: Acrometageria
   - Synonym: Gottron syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '201200'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare premature aging syndrome characterized by atrophy of the skin
       and subcutaneous tissue involving predominantly the distal parts of the extremities
       resulting in prematurely aged appearance of the hand and feet. Another prominent
@@ -26,94 +113,7 @@ Orphapacket:
       eyes. Additional non-dermatological manifestations like bone anomalies have
       been described in some patients. Mode of inheritance has not been definitively
       established.
-  Genes:
-  - Gene:
-      Symbol: COL3A1
-      Name: collagen type III alpha 1 chain
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79389'
-      Label: Premature aging
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000347
-      HPOTerm: Micrognathia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000444
-      HPOTerm: Convex nasal ridge
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000951
-      HPOTerm: Abnormality of the skin
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000963
-      HPOTerm: Thin skin
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001773
-      HPOTerm: Short foot
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002213
-      HPOTerm: Fine hair
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002650
-      HPOTerm: Scoliosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002652
-      HPOTerm: Skeletal dysplasia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0004322
-      HPOTerm: Short stature
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0005692
-      HPOTerm: Joint hyperflexibility
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007392
-      HPOTerm: Excessive wrinkled skin
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0007400
-      HPOTerm: Irregular hyperpigmentation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007495
-      HPOTerm: Prematurely aged appearance
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008065
-      HPOTerm: Aplasia/Hypoplasia of the skin
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100578
-      HPOTerm: Lipoatrophy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100585
-      HPOTerm: Telangiectasia of the skin
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0200042
-      HPOTerm: Skin ulcer
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0200055
-      HPOTerm: Small hand
-      HPOFrequency: Frequent (79-30%)
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Childhood
-  - AverageAgeOfOnset:
-      value: Infancy
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

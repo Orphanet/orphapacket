@@ -1,147 +1,179 @@
 Orphapacket:
-  ORPHApacketId: '148'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '148'
-  Label: Multiple carboxylase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_148
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Synonyms:
-  - Synonym: MCD
-  TextSection:
-    TextSectionType: Definition
-    Contents: A group of inborn errors of biotin metabolism characterized by reduced
-      activities of biotin-dependent enzymes resulting in a wide spectrum of symptoms
-      including feeding difficulty breathing difficulties lethargy seizures skin rash
-      alopecia and developmental delay. This group includes biotinidase deficiency
-      and biotin holocarboxylase synthetase deficiency.
-  Parents:
-  - Parent:
-    - ORPHAcode: '79163'
-      Label: Classic organic aciduria
-  - Parent:
-    - ORPHAcode: '79387'
-      Label: Metabolic disease with skin involvement
-  - Parent:
-    - ORPHAcode: '79217'
-      Label: Other metabolic disease with skin involvement
-  Childs:
-  - Child:
-      Label: Biotinidase deficiency
-      ORPHAcode: '79241'
-      Genes:
-      - Gene:
-          Label: biotinidase
-          Symbol: BTD
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1122'
-          - Source: OMIM
-            Reference: '609019'
-  - Child:
-      Label: Holocarboxylase synthetase deficiency
-      ORPHAcode: '79242'
-      Genes:
-      - Gene:
-          Label: holocarboxylase synthetase
-          Symbol: HLCS
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4976'
-          - Source: OMIM
-            Reference: '609018'
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000364
-      HPOTerm: Hearing abnormality
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000365
-      HPOTerm: Hearing impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000478
-      HPOTerm: Abnormality of the eye
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000504
-      HPOTerm: Abnormality of vision
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000988
-      HPOTerm: Skin rash
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001250
-      HPOTerm: Seizures
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001252
-      HPOTerm: Muscular hypotonia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001254
-      HPOTerm: Lethargy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001263
-      HPOTerm: Global developmental delay
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001595
-      HPOTerm: Abnormality of the hair
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001596
-      HPOTerm: Alopecia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001824
-      HPOTerm: Weight loss
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002017
-      HPOTerm: Nausea and vomiting
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002715
-      HPOTerm: Abnormality of the immune system
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008066
-      HPOTerm: Abnormal blistering of the skin
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100533
-      HPOTerm: Inflammatory abnormality of the eye
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100543
-      HPOTerm: Cognitive impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0200037
-      HPOTerm: Skin vesicle
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '1122'
+            Source: HGNC
+          - Reference: '609019'
+            Source: OMIM
+          Label: biotinidase
+          Symbol: BTD
+      Label: Biotinidase deficiency
+      ORPHAcode: '79241'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '4976'
+            Source: HGNC
+          - Reference: '609018'
+            Source: OMIM
+          Label: holocarboxylase synthetase
+          Symbol: HLCS
+      Label: Holocarboxylase synthetase deficiency
+      ORPHAcode: '79242'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Multiple carboxylase deficiency
+  ORPHAcode: '148'
+  ORPHApacketId: '148'
+  PURL: http://www.orpha.net/ORDO/Orphanet_148
+  Parents:
+  - Parent:
+    - Label: Classic organic aciduria
+      ORPHAcode: '79163'
+  - Parent:
+    - Label: Metabolic disease with skin involvement
+      ORPHAcode: '79387'
+  - Parent:
+    - Label: Other metabolic disease with skin involvement
+      ORPHAcode: '79217'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000707
+      HPOTerm: Abnormality of the nervous system
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001987
+      HPOTerm: Hyperammonemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001992
+      HPOTerm: Organic aciduria
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005979
+      HPOTerm: Metabolic ketoacidosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012379
+      HPOTerm: Abnormal enzyme/coenzyme activity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000988
+      HPOTerm: Skin rash
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001252
+      HPOTerm: Muscular hypotonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011968
+      HPOTerm: Feeding difficulties
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0025356
+      HPOTerm: Psychomotor retardation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0410145
+      HPOTerm: Decreased biotinidase activity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000365
+      HPOTerm: Hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000478
+      HPOTerm: Abnormality of the eye
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000505
+      HPOTerm: Visual impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001251
+      HPOTerm: Ataxia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001254
+      HPOTerm: Lethargy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001259
+      HPOTerm: Coma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001596
+      HPOTerm: Alopecia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002098
+      HPOTerm: Respiratory distress
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002715
+      HPOTerm: Abnormality of the immune system
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002789
+      HPOTerm: Tachypnea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003690
+      HPOTerm: Limb muscle weakness
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000575
+      HPOTerm: Scotoma
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000648
+      HPOTerm: Optic atrophy
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002313
+      HPOTerm: Spastic paraparesis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0008311
+      HPOTerm: Spinal cord posterior columns myelin loss
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: MCD
+  TextSection:
+    Contents: A group of inborn errors of biotin metabolism characterized by reduced
+      activities of biotin-dependent enzymes resulting in a wide spectrum of symptoms
+      including feeding difficulty breathing difficulties lethargy seizures skin rash
+      alopecia and developmental delay. This group includes biotinidase deficiency
+      and biotin holocarboxylase synthetase deficiency.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

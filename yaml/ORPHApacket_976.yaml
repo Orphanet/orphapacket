@@ -1,143 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '976'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '976'
-  Label: Adenine phosphoribosyltransferase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_976
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: 2,8-dihydroxyadenine urolithiasis
-  - Synonym: APRT deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614723'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare genetic nephropathy secondary to a disorder of purine metabolism
-      characterized by the formation and hyperexcretion of 2,8-dihydroxyadenine (2,8-DHA)
-      in urine causing urolithiasis and crystalline nephropathy.
-  Genes:
-  - Gene:
-      Symbol: APRT
-      Name: adenine phosphoribosyltransferase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '93593'
-      Label: Nephropathy secondary to a storage or other metabolic disease
-  - Parent:
-    - ORPHAcode: '79191'
-      Label: Disorder of purine metabolism
-  - Parent:
-    - ORPHAcode: '506213'
-      Label: Rare disorder potentially indicated for kidney transplant
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0012379
-      HPOTerm: Abnormal enzyme/coenzyme activity
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000083
-      HPOTerm: Renal insufficiency
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000093
-      HPOTerm: Proteinuria
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000787
-      HPOTerm: Nephrolithiasis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000822
-      HPOTerm: Hypertension
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001919
-      HPOTerm: Acute kidney injury
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012622
-      HPOTerm: Chronic kidney disease
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0100518
-      HPOTerm: Dysuria
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000010
-      HPOTerm: Recurrent urinary tract infections
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000016
-      HPOTerm: Urinary retention
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000019
-      HPOTerm: Urinary hesitancy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000791
-      HPOTerm: Uric acid nephrolithiasis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003774
-      HPOTerm: Stage 5 chronic kidney disease
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0005110
-      HPOTerm: Atrial fibrillation
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0011848
-      HPOTerm: Abdominal colic
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0012587
-      HPOTerm: Macroscopic hematuria
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0030157
-      HPOTerm: Flank pain
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0100520
-      HPOTerm: Oliguria
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Specific population
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Japan
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Iceland
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -149,9 +13,145 @@ Orphapacket:
       value: Elderly
   - AverageAgeOfOnset:
       value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '614723'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: adenine phosphoribosyltransferase
+      Symbol: APRT
+  Label: Adenine phosphoribosyltransferase deficiency
+  ORPHAcode: '976'
+  ORPHApacketId: '976'
+  PURL: http://www.orpha.net/ORDO/Orphanet_976
+  Parents:
+  - Parent:
+    - Label: Nephropathy secondary to a storage or other metabolic disease
+      ORPHAcode: '93593'
+  - Parent:
+    - Label: Disorder of purine metabolism
+      ORPHAcode: '79191'
+  - Parent:
+    - Label: Rare disorder potentially indicated for kidney transplant
+      ORPHAcode: '506213'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012379
+      HPOTerm: Abnormal enzyme/coenzyme activity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000083
+      HPOTerm: Renal insufficiency
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000093
+      HPOTerm: Proteinuria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000787
+      HPOTerm: Nephrolithiasis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000822
+      HPOTerm: Hypertension
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001919
+      HPOTerm: Acute kidney injury
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012622
+      HPOTerm: Chronic kidney disease
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100518
+      HPOTerm: Dysuria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000010
+      HPOTerm: Recurrent urinary tract infections
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000016
+      HPOTerm: Urinary retention
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000019
+      HPOTerm: Urinary hesitancy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000791
+      HPOTerm: Uric acid nephrolithiasis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003774
+      HPOTerm: Stage 5 chronic kidney disease
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005110
+      HPOTerm: Atrial fibrillation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011848
+      HPOTerm: Abdominal colic
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012587
+      HPOTerm: Macroscopic hematuria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030157
+      HPOTerm: Flank pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100520
+      HPOTerm: Oliguria
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Specific population
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Japan
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Iceland
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: 2,8-dihydroxyadenine urolithiasis
+  - Synonym: APRT deficiency
+  TextSection:
+    Contents: A rare genetic nephropathy secondary to a disorder of purine metabolism
+      characterized by the formation and hyperexcretion of 2,8-dihydroxyadenine (2,8-DHA)
+      in urine causing urolithiasis and crystalline nephropathy.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

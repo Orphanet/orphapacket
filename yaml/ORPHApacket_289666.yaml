@@ -1,18 +1,21 @@
 Orphapacket:
-  ORPHApacketId: '289666'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '289666'
-  Label: Plasmablastic lymphoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_289666
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Plasmablastic lymphoma
+  ORPHAcode: '289666'
+  ORPHApacketId: '289666'
+  PURL: http://www.orpha.net/ORDO/Orphanet_289666
+  Parents:
+  - Parent:
+    - Label: Epstein-Barr virus-associated malignant lymphoproliferative disorder
+      ORPHAcode: '289644'
+  - Parent:
+    - Label: Aggressive B-cell non-Hodgkin lymphoma
+      ORPHAcode: '300846'
   Synonyms:
   - Synonym: PBL
   TextSection:
-    TextSectionType: Definition
     Contents: A rare aggressive B-cell non-Hodgkin lymphoma characterized by neoplastic
       cells resembling B immunoblasts or plasmablasts with a CD20-negative plasmacytic
       phenotype. The tumor may occur in the oral cavity the gastrointestinal tract
@@ -20,10 +23,7 @@ Orphapacket:
       or -suppression. The tumor cells are EBV-positive in most cases. Patients often
       present with disseminated bone involvement. Paraproteinemia may also be detected.
       Prognosis is generally poor.
-  Parents:
-  - Parent:
-    - ORPHAcode: '289644'
-      Label: Epstein-Barr virus-associated malignant lymphoproliferative disorder
-  - Parent:
-    - ORPHAcode: '300846'
-      Label: Aggressive B-cell non-Hodgkin lymphoma
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

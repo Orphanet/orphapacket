@@ -1,87 +1,87 @@
 Orphapacket:
-  ORPHApacketId: '79387'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79387'
-  Label: Metabolic disease with skin involvement
-  PURL: http://www.orpha.net/ORDO/Orphanet_79387
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '68346'
-      Label: Rare genetic skin disease
-  - Parent:
-    - ORPHAcode: '89826'
-      Label: Rare skin disease
   Childs:
   - Child:
-      Label: Hyperzincemia and hypercalprotectinemia
-      ORPHAcode: '251523'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '9580'
+            Source: HGNC
+          - Reference: '606347'
+            Source: OMIM
           Label: proline-serine-threonine phosphatase interacting protein 1
           Symbol: PSTPIP1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9580'
-          - Source: OMIM
-            Reference: '606347'
+      Label: Hyperzincemia and hypercalprotectinemia
+      ORPHAcode: '251523'
   - Child:
-      Label: Alkaptonuria
-      ORPHAcode: '56'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4892'
+            Source: HGNC
+          - Reference: '607474'
+            Source: OMIM
           Label: homogentisate 1,2-dioxygenase
           Symbol: HGD
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4892'
-          - Source: OMIM
-            Reference: '607474'
+      Label: Alkaptonuria
+      ORPHAcode: '56'
   - Child:
+      Genes: no data
       Label: Multiple carboxylase deficiency
       ORPHAcode: '148'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Porphyria
       ORPHAcode: '738'
-      Genes: no data
   - Child:
-      Label: Acrodermatitis enteropathica
-      ORPHAcode: '37'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '17129'
+            Source: HGNC
+          - Reference: '607059'
+            Source: OMIM
           Label: solute carrier family 39 member 4
           Symbol: SLC39A4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '17129'
-          - Source: OMIM
-            Reference: '607059'
+      Label: Acrodermatitis enteropathica
+      ORPHAcode: '37'
   - Child:
-      Label: Prolidase deficiency
-      ORPHAcode: '742'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '613230'
+            Source: OMIM
+          - Reference: '8840'
+            Source: HGNC
           Label: peptidase D
           Symbol: PEPD
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '613230'
-          - Source: HGNC
-            Reference: '8840'
+      Label: Prolidase deficiency
+      ORPHAcode: '742'
   - Child:
+      Genes: no data
       Label: Mucopolysaccharidosis with skin involvement
       ORPHAcode: '79388'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Congenital disorder of glycosylation with skin involvement
       ORPHAcode: '371200'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Other metabolic disease with skin involvement
       ORPHAcode: '79217'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Metabolic disease with skin involvement
+  ORPHAcode: '79387'
+  ORPHApacketId: '79387'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79387
+  Parents:
+  - Parent:
+    - Label: Rare genetic skin disease
+      ORPHAcode: '68346'
+  - Parent:
+    - Label: Rare skin disease
+      ORPHAcode: '89826'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

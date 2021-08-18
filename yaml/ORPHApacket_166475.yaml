@@ -1,87 +1,87 @@
 Orphapacket:
-  ORPHApacketId: '166475'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '166475'
-  Label: Idiopathic or cryptogenic familial epilepsy syndrome with identified loci/genes
-  PURL: http://www.orpha.net/ORDO/Orphanet_166475
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '101998'
-      Label: Rare epilepsy
-  - Parent:
-    - ORPHAcode: '183512'
-      Label: Rare genetic epilepsy
   Childs:
   - Child:
+      Genes: no data
       Label: Familial partial epilepsy
       ORPHAcode: '309'
-      Genes: no data
   - Child:
-      Label: Benign familial infantile epilepsy
-      ORPHAcode: '306'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '10596'
+            Source: HGNC
+          - Reference: '600702'
+            Source: OMIM
           Label: sodium voltage-gated channel alpha subunit 8
           Symbol: SCN8A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10596'
-          - Source: OMIM
-            Reference: '600702'
       - Gene:
+          ExternalReferences:
+          - Reference: '10588'
+            Source: HGNC
+          - Reference: '182390'
+            Source: OMIM
           Label: sodium voltage-gated channel alpha subunit 2
           Symbol: SCN2A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10588'
-          - Source: OMIM
-            Reference: '182390'
       - Gene:
+          ExternalReferences:
+          - Reference: '6296'
+            Source: HGNC
+          - Reference: '602235'
+            Source: OMIM
           Label: potassium voltage-gated channel subfamily Q member 2
           Symbol: KCNQ2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6296'
-          - Source: OMIM
-            Reference: '602235'
       - Gene:
+          ExternalReferences:
+          - Reference: '6297'
+            Source: HGNC
+          - Reference: '602232'
+            Source: OMIM
           Label: potassium voltage-gated channel subfamily Q member 3
           Symbol: KCNQ3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6297'
-          - Source: OMIM
-            Reference: '602232'
       - Gene:
+          ExternalReferences:
+          - Reference: '30500'
+            Source: HGNC
+          - Reference: '614386'
+            Source: OMIM
           Label: proline rich transmembrane protein 2
           Symbol: PRRT2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '30500'
-          - Source: OMIM
-            Reference: '614386'
+      Label: Benign familial infantile epilepsy
+      ORPHAcode: '306'
   - Child:
-      Label: Benign familial neonatal-infantile seizures
-      ORPHAcode: '140927'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '10588'
+            Source: HGNC
+          - Reference: '182390'
+            Source: OMIM
           Label: sodium voltage-gated channel alpha subunit 2
           Symbol: SCN2A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10588'
-          - Source: OMIM
-            Reference: '182390'
       - Gene:
+          ExternalReferences:
+          - Reference: '6296'
+            Source: HGNC
+          - Reference: '602235'
+            Source: OMIM
           Label: potassium voltage-gated channel subfamily Q member 2
           Symbol: KCNQ2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6296'
-          - Source: OMIM
-            Reference: '602235'
+      Label: Benign familial neonatal-infantile seizures
+      ORPHAcode: '140927'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Idiopathic or cryptogenic familial epilepsy syndrome with identified loci/genes
+  ORPHAcode: '166475'
+  ORPHApacketId: '166475'
+  PURL: http://www.orpha.net/ORDO/Orphanet_166475
+  Parents:
+  - Parent:
+    - Label: Rare epilepsy
+      ORPHAcode: '101998'
+  - Parent:
+    - Label: Rare genetic epilepsy
+      ORPHAcode: '183512'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

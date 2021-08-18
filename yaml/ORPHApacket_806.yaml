@@ -1,49 +1,49 @@
 Orphapacket:
-  ORPHApacketId: '806'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '806'
-  Label: Scott syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_806
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '262890'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Scott syndrome is an extremely rare congenital hemorrhagic disorder
-      characterized by hemorrhagic episodes due to impaired platelet coagulant activity.
-  Genes:
-  - Gene:
-      Symbol: ANO6
-      Name: anoctamin 6
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '275736'
-      Label: Rare hemorrhagic disorder due to a qualitative platelet defect
-  Prevalences:
-  - Prevalence:
-      Source: 8608230[PMID]_15790791[PMID]_19814742[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: All ages
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '262890'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: anoctamin 6
+      Symbol: ANO6
+  Label: Scott syndrome
+  ORPHAcode: '806'
+  ORPHApacketId: '806'
+  PURL: http://www.orpha.net/ORDO/Orphanet_806
+  Parents:
+  - Parent:
+    - Label: Rare hemorrhagic disorder due to a qualitative platelet defect
+      ORPHAcode: '275736'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 8608230[PMID]_15790791[PMID]_19814742[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  TextSection:
+    Contents: Scott syndrome is an extremely rare congenital hemorrhagic disorder
+      characterized by hemorrhagic episodes due to impaired platelet coagulant activity.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

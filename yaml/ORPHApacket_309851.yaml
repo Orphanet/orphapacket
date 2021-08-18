@@ -1,52 +1,52 @@
 Orphapacket:
-  ORPHApacketId: '309851'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '309851'
-  Label: Disorder of manganese transport
-  PURL: http://www.orpha.net/ORDO/Orphanet_309851
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '309836'
-      Label: Disorder of mineral absorption and transport
   Childs:
   - Child:
-      Label: Cirrhosis-dystonia-polycythemia-hypermanganesemia syndrome
-      ORPHAcode: '309854'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '25355'
+            Source: HGNC
+          - Reference: '611146'
+            Source: OMIM
           Label: solute carrier family 30 member 10
           Symbol: SLC30A10
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '25355'
-          - Source: OMIM
-            Reference: '611146'
+      Label: Cirrhosis-dystonia-polycythemia-hypermanganesemia syndrome
+      ORPHAcode: '309854'
   - Child:
-      Label: SLC39A8-CDG
-      ORPHAcode: '468699'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '20862'
+            Source: HGNC
+          - Reference: '608732'
+            Source: OMIM
           Label: solute carrier family 39 member 8
           Symbol: SLC39A8
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '20862'
-          - Source: OMIM
-            Reference: '608732'
+      Label: SLC39A8-CDG
+      ORPHAcode: '468699'
   - Child:
-      Label: Dystonia-parkinsonism-hypermanganesemia syndrome
-      ORPHAcode: '521406'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '20858'
+            Source: HGNC
+          - Reference: '608736'
+            Source: OMIM
           Label: solute carrier family 39 member 14
           Symbol: SLC39A14
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '20858'
-          - Source: OMIM
-            Reference: '608736'
+      Label: Dystonia-parkinsonism-hypermanganesemia syndrome
+      ORPHAcode: '521406'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Disorder of manganese transport
+  ORPHAcode: '309851'
+  ORPHApacketId: '309851'
+  PURL: http://www.orpha.net/ORDO/Orphanet_309851
+  Parents:
+  - Parent:
+    - Label: Disorder of mineral absorption and transport
+      ORPHAcode: '309836'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

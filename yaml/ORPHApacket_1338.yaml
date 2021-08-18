@@ -1,83 +1,83 @@
 Orphapacket:
-  ORPHApacketId: '1338'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '1338'
-  Label: Heart defect-tongue hamartoma-polysyndactyly syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_1338
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: early childhood
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '217085'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: WD repeat containing planar cell polarity effector
+      Symbol: WDPCP
+  Label: Heart defect-tongue hamartoma-polysyndactyly syndrome
+  ORPHAcode: '1338'
+  ORPHApacketId: '1338'
+  PURL: http://www.orpha.net/ORDO/Orphanet_1338
+  Parents:
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '102285'
+  - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '330206'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000028
+      HPOTerm: Cryptorchidism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001233
+      HPOTerm: 2-3 finger syndactyly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001643
+      HPOTerm: Patent ductus arteriosus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001682
+      HPOTerm: Subvalvular aortic stenosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011802
+      HPOTerm: Hamartoma of tongue
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100835
+      HPOTerm: Benign neoplasm of the central nervous system
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 25427950[PMID]_1516223[PMID]_8733055[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_25427950[PMID]_1516223[PMID]_8733055[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Ostravik-Lindemann-Solberg syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '217085'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic multiple congenital anomalies syndrome characterized
       by congenital heart defects (e.g. coarctation of the aorta with or without atrioventricular
       canal and subaortic stenosis) associated with tongue hamartomas postaxial hand
       polydactyly and toe syndactyly.
-  Genes:
-  - Gene:
-      Symbol: WDPCP
-      Name: WD repeat containing planar cell polarity effector
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '102285'
-      Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-  - Parent:
-    - ORPHAcode: '330206'
-      Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000028
-      HPOTerm: Cryptorchidism
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001233
-      HPOTerm: 2-3 finger syndactyly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001643
-      HPOTerm: Patent ductus arteriosus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001682
-      HPOTerm: Subaortic stenosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0011802
-      HPOTerm: Hamartoma of tongue
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100835
-      HPOTerm: Benign neoplasm of the central nervous system
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 25427950[PMID]_1516223[PMID]_8733055[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_25427950[PMID]_1516223[PMID]_8733055[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: early childhood
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

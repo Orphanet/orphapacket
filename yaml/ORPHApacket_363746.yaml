@@ -1,40 +1,40 @@
 Orphapacket:
-  ORPHApacketId: '363746'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '363746'
-  Label: Balint syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_363746
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Balint syndrome
+  ORPHAcode: '363746'
+  ORPHApacketId: '363746'
+  PURL: http://www.orpha.net/ORDO/Orphanet_363746
+  Parents:
+  - Parent:
+    - Label: Rare neurologic disease
+      ORPHAcode: '98006'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: 22999103[PMID]
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Balint-Holmes syndrome
   - Synonym: Optic ataxia-gaze apraxia-simultanagnosia syndrome
   TextSection:
-    TextSectionType: Definition
     Contents: Balint syndrome is a rare neurologic disease characterized by the triad
       of optic ataxia ocular apraxia and simultanagnosia due to posterior parietal
       lobe lesions. Patients report ophthalmologic difficulties in the absence of
       underlying ophthalomologic anomalies and present severe visual and spatial disabilities
       in locating and reaching objects initiating voluntary eye movements and perceiving
       more than one object at a time.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98006'
-      Label: Rare neurologic disease
-  Prevalences:
-    Prevalence:
-    - Source: 22999103[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,52 +1,52 @@
 Orphapacket:
-  ORPHApacketId: '97362'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '97362'
-  Label: Renal hypoplasia, bilateral
-  PURL: http://www.orpha.net/ORDO/Orphanet_97362
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: paired box 2
+      Symbol: PAX2
+  - Gene:
+      ExternalReferences: []
+      Name: PBX homeobox 1
+      Symbol: PBX1
+  Label: Renal hypoplasia, bilateral
+  ORPHAcode: '97362'
+  ORPHApacketId: '97362'
+  PURL: http://www.orpha.net/ORDO/Orphanet_97362
+  Parents:
+  - Parent:
+    - Label: Renal hypoplasia
+      ORPHAcode: '93101'
+  - Parent:
+    - Label: Disease associated with a genetic susceptibility or tested for a biomarker
+      ORPHAcode: '231957'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]'
+      ValMoy: '0.0'
   TextSection:
-    TextSectionType: Definition
     Contents: A form of renal hypoplasia characterized by bilateral small kidneys
       with a deficit in the number of nephrons present. The condition is typically
       asymptomatic but may be associated with hypertension and some excretory functional
       limitations as well as eventual chronic renal failure.
-  Genes:
-  - Gene:
-      Symbol: PAX2
-      Name: paired box 2
-      ExternalReferences: []
-  - Gene:
-      Symbol: PBX1
-      Name: PBX homeobox 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '93101'
-      Label: Renal hypoplasia
-  - Parent:
-    - ORPHAcode: '231957'
-      Label: Disease associated with a genetic susceptibility or tested for a biomarker
-  Prevalences:
-    Prevalence:
-    - Source: '[EXPERT]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

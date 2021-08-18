@@ -1,75 +1,75 @@
 Orphapacket:
-  ORPHApacketId: '157820'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '157820'
-  Label: Cold-induced sweating syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_157820
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: CISS
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '272430'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '610313'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '617055'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Cold-induced sweating syndrome (CISS) is characterized by profuse sweating
-      (involving the chest face arms and trunk) induced by cold ambient temperature.
-  Genes:
-  - Gene:
-      Symbol: KLHL7
-      Name: kelch like family member 7
-      ExternalReferences: []
-  - Gene:
-      Symbol: CRLF1
-      Name: cytokine receptor like factor 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: CLCF1
-      Name: cardiotrophin like cytokine factor 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '401993'
-      Label: Cold-induced sweating syndrome-hyperthermia spectrum
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adult
   - AverageAgeOfOnset:
       value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '272430'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '610313'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '617055'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: kelch like family member 7
+      Symbol: KLHL7
+  - Gene:
+      ExternalReferences: []
+      Name: cytokine receptor like factor 1
+      Symbol: CRLF1
+  - Gene:
+      ExternalReferences: []
+      Name: cardiotrophin like cytokine factor 1
+      Symbol: CLCF1
+  Label: Cold-induced sweating syndrome
+  ORPHAcode: '157820'
+  ORPHApacketId: '157820'
+  PURL: http://www.orpha.net/ORDO/Orphanet_157820
+  Parents:
+  - Parent:
+    - Label: Cold-induced sweating syndrome-hyperthermia spectrum
+      ORPHAcode: '401993'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: CISS
+  TextSection:
+    Contents: Cold-induced sweating syndrome (CISS) is characterized by profuse sweating
+      (involving the chest face arms and trunk) induced by cold ambient temperature.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

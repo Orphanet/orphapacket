@@ -1,48 +1,48 @@
 Orphapacket:
-  ORPHApacketId: '522566'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '522566'
-  Label: Rare genetic inflammatory/autoimmune corneal disorder
-  PURL: http://www.orpha.net/ORDO/Orphanet_522566
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '522558'
-      Label: Rare genetic disorder with corneal involvement as a major feature
   Childs:
   - Child:
-      Label: KID syndrome
-      ORPHAcode: '477'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4284'
+            Source: HGNC
+          - Reference: '121011'
+            Source: OMIM
           Label: gap junction protein beta 2
           Symbol: GJB2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4284'
-          - Source: OMIM
-            Reference: '121011'
       - Gene:
+          ExternalReferences:
+          - Reference: '4288'
+            Source: HGNC
+          - Reference: '604418'
+            Source: OMIM
           Label: gap junction protein beta 6
           Symbol: GJB6
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4288'
-          - Source: OMIM
-            Reference: '604418'
+      Label: KID syndrome
+      ORPHAcode: '477'
   - Child:
-      Label: Autosomal dominant keratitis
-      ORPHAcode: '2334'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '8620'
+            Source: HGNC
+          - Reference: '607108'
+            Source: OMIM
           Label: paired box 6
           Symbol: PAX6
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8620'
-          - Source: OMIM
-            Reference: '607108'
+      Label: Autosomal dominant keratitis
+      ORPHAcode: '2334'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare genetic inflammatory/autoimmune corneal disorder
+  ORPHAcode: '522566'
+  ORPHApacketId: '522566'
+  PURL: http://www.orpha.net/ORDO/Orphanet_522566
+  Parents:
+  - Parent:
+    - Label: Rare genetic disorder with corneal involvement as a major feature
+      ORPHAcode: '522558'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

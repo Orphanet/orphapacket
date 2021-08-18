@@ -1,37 +1,37 @@
 Orphapacket:
-  ORPHApacketId: '443090'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '443090'
-  Label: 46,XY disorder of sexual development due to dihydrotestosterone backdoor
-    pathway biosynthesis defect
-  PURL: http://www.orpha.net/ORDO/Orphanet_443090
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '325357'
-      Label: 46,XY disorder of sex development due to impaired androgen production
   Childs:
   - Child:
-      Label: 46,XY disorder of sex development due to testicular 17,20-desmolase deficiency
-      ORPHAcode: '443087'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '385'
+            Source: HGNC
+          - Reference: '600450'
+            Source: OMIM
           Label: aldo-keto reductase family 1 member C2
           Symbol: AKR1C2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '385'
-          - Source: OMIM
-            Reference: '600450'
       - Gene:
+          ExternalReferences:
+          - Reference: '387'
+            Source: HGNC
+          - Reference: '600451'
+            Source: OMIM
           Label: aldo-keto reductase family 1 member C4
           Symbol: AKR1C4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '387'
-          - Source: OMIM
-            Reference: '600451'
+      Label: 46,XY disorder of sex development due to testicular 17,20-desmolase deficiency
+      ORPHAcode: '443087'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: 46,XY disorder of sexual development due to dihydrotestosterone backdoor
+    pathway biosynthesis defect
+  ORPHAcode: '443090'
+  ORPHApacketId: '443090'
+  PURL: http://www.orpha.net/ORDO/Orphanet_443090
+  Parents:
+  - Parent:
+    - Label: 46,XY disorder of sex development due to impaired androgen production
+      ORPHAcode: '325357'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

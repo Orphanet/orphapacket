@@ -1,84 +1,84 @@
 Orphapacket:
-  ORPHApacketId: '98610'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98610'
-  Label: Rare disorder with conjunctival involvement as a major feature
-  PURL: http://www.orpha.net/ORDO/Orphanet_98610
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '519284'
-      Label: Rare disorder of the anterior segment of the eye
   Childs:
   - Child:
-      Label: Hypoplasminogenemia
-      ORPHAcode: '722'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '9071'
+            Source: HGNC
+          - Reference: '173350'
+            Source: OMIM
           Label: plasminogen
           Symbol: PLG
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9071'
-          - Source: OMIM
-            Reference: '173350'
+      Label: Hypoplasminogenemia
+      ORPHAcode: '722'
   - Child:
+      Genes: no data
       Label: Ocular cicatricial pemphigoid
       ORPHAcode: '99922'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Rare conjunctivitis
       ORPHAcode: '519280'
-      Genes: no data
   - Child:
-      Label: LOC syndrome
-      ORPHAcode: '2407'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6483'
+            Source: HGNC
+          - Reference: '600805'
+            Source: OMIM
           Label: laminin subunit alpha 3
           Symbol: LAMA3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6483'
-          - Source: OMIM
-            Reference: '600805'
+      Label: Laryngo-onycho-cutaneous syndrome
+      ORPHAcode: '2407'
   - Child:
-      Label: Hereditary hemorrhagic telangiectasia
-      ORPHAcode: '774'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '175'
+            Source: HGNC
+          - Reference: '601284'
+            Source: OMIM
           Label: activin A receptor like type 1
           Symbol: ACVRL1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '175'
-          - Source: OMIM
-            Reference: '601284'
       - Gene:
+          ExternalReferences:
+          - Reference: '6770'
+            Source: HGNC
+          - Reference: '600993'
+            Source: OMIM
           Label: SMAD family member 4
           Symbol: SMAD4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6770'
-          - Source: OMIM
-            Reference: '600993'
       - Gene:
+          ExternalReferences:
+          - Reference: '3349'
+            Source: HGNC
+          - Reference: '131195'
+            Source: OMIM
           Label: endoglin
           Symbol: ENG
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3349'
-          - Source: OMIM
-            Reference: '131195'
       - Gene:
+          ExternalReferences:
+          - Reference: '4217'
+            Source: HGNC
+          - Reference: '605120'
+            Source: OMIM
           Label: growth differentiation factor 2
           Symbol: GDF2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4217'
-          - Source: OMIM
-            Reference: '605120'
+      Label: Hereditary hemorrhagic telangiectasia
+      ORPHAcode: '774'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare disorder with conjunctival involvement as a major feature
+  ORPHAcode: '98610'
+  ORPHApacketId: '98610'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98610
+  Parents:
+  - Parent:
+    - Label: Rare disorder of the anterior segment of the eye
+      ORPHAcode: '519284'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

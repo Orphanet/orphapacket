@@ -1,54 +1,54 @@
 Orphapacket:
-  ORPHApacketId: '207078'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '207078'
-  Label: Qualitative or quantitative defects of caveolin-3
-  PURL: http://www.orpha.net/ORDO/Orphanet_207078
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Caveolinopathy
-  Parents:
-  - Parent:
-    - ORPHAcode: '207049'
-      Label: Qualitative or quantitative protein defects in neuromuscular diseases
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '1529'
+            Source: HGNC
+          - Reference: '601253'
+            Source: OMIM
+          Label: caveolin 3
+          Symbol: CAV3
       Label: Rippling muscle disease
       ORPHAcode: '97238'
+  - Child:
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1529'
+            Source: HGNC
+          - Reference: '601253'
+            Source: OMIM
           Label: caveolin 3
           Symbol: CAV3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1529'
-          - Source: OMIM
-            Reference: '601253'
-  - Child:
       Label: Isolated asymptomatic elevation of creatine phosphokinase
       ORPHAcode: '206599'
+  - Child:
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1529'
+            Source: HGNC
+          - Reference: '601253'
+            Source: OMIM
           Label: caveolin 3
           Symbol: CAV3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1529'
-          - Source: OMIM
-            Reference: '601253'
-  - Child:
       Label: Distal myopathy, Tateyama type
       ORPHAcode: '488650'
-      Genes:
-      - Gene:
-          Label: caveolin 3
-          Symbol: CAV3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1529'
-          - Source: OMIM
-            Reference: '601253'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Qualitative or quantitative defects of caveolin-3
+  ORPHAcode: '207078'
+  ORPHApacketId: '207078'
+  PURL: http://www.orpha.net/ORDO/Orphanet_207078
+  Parents:
+  - Parent:
+    - Label: Qualitative or quantitative protein defects in neuromuscular diseases
+      ORPHAcode: '207049'
+  Synonyms:
+  - Synonym: Caveolinopathy
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,63 +1,60 @@
 Orphapacket:
-  ORPHApacketId: '174590'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '174590'
-  Label: Congenital hypogonadotropic hypogonadism
-  PURL: http://www.orpha.net/ORDO/Orphanet_174590
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '95488'
-      Label: Non-acquired pituitary hormone deficiency
-  - Parent:
-    - ORPHAcode: '399572'
-      Label: Rare male infertility due to hypothalamic-pituitary-gonadal axis disorder
-  - Parent:
-    - ORPHAcode: '180208'
-      Label: Anomaly of puberty or/and menstrual cycle
-  - Parent:
-    - ORPHAcode: '202940'
-      Label: Anomaly of puberty or/and menstrual cycle of genetic origin
-  - Parent:
-    - ORPHAcode: '399983'
-      Label: Rare male infertility due to hypothalamic-pituitary-gonadal axis disorder
-        of genetic origin
-  Childs:
-  - Child:
-      Label: Isolated follicle stimulating hormone deficiency
-      ORPHAcode: '52901'
-      Genes:
-      - Gene:
-          Label: follicle stimulating hormone subunit beta
-          Symbol: FSHB
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3964'
-          - Source: OMIM
-            Reference: '136530'
-  - Child:
-      Label: Rare disorder with multisystemic involvement and congenital hypogonadotropic
-        hypogonadism
-      ORPHAcode: '181387'
-      Genes: no data
-  - Child:
-      Label: Endocrinopathy with congenital hypogonadotropic hypogonadism as a major
-        feature
-      ORPHAcode: '181390'
-      Genes: no data
-  - Child:
-      Label: Isolated congenital hypogonadotropic hypogonadism
-      ORPHAcode: '238666'
-      Genes: no data
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '3964'
+            Source: HGNC
+          - Reference: '136530'
+            Source: OMIM
+          Label: follicle stimulating hormone subunit beta
+          Symbol: FSHB
+      Label: Isolated follicle stimulating hormone deficiency
+      ORPHAcode: '52901'
+  - Child:
+      Genes: no data
+      Label: Rare disorder with multisystemic involvement and congenital hypogonadotropic
+        hypogonadism
+      ORPHAcode: '181387'
+  - Child:
+      Genes: no data
+      Label: Endocrinopathy with congenital hypogonadotropic hypogonadism as a major
+        feature
+      ORPHAcode: '181390'
+  - Child:
+      Genes: no data
+      Label: Isolated congenital hypogonadotropic hypogonadism
+      ORPHAcode: '238666'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Congenital hypogonadotropic hypogonadism
+  ORPHAcode: '174590'
+  ORPHApacketId: '174590'
+  PURL: http://www.orpha.net/ORDO/Orphanet_174590
+  Parents:
+  - Parent:
+    - Label: Non-acquired pituitary hormone deficiency
+      ORPHAcode: '95488'
+  - Parent:
+    - Label: Rare male infertility due to hypothalamic-pituitary-gonadal axis disorder
+      ORPHAcode: '399572'
+  - Parent:
+    - Label: Anomaly of puberty or/and menstrual cycle
+      ORPHAcode: '180208'
+  - Parent:
+    - Label: Anomaly of puberty or/and menstrual cycle of genetic origin
+      ORPHAcode: '202940'
+  - Parent:
+    - Label: Rare male infertility due to hypothalamic-pituitary-gonadal axis disorder
+        of genetic origin
+      ORPHAcode: '399983'
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
@@ -65,3 +62,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

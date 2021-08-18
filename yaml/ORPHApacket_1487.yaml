@@ -1,88 +1,88 @@
 Orphapacket:
-  ORPHApacketId: '1487'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '1487'
-  Label: Cooks syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_1487
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '106995'
+    Source: OMIM
+  Label: Cooks syndrome
+  ORPHAcode: '1487'
+  ORPHApacketId: '1487'
+  PURL: http://www.orpha.net/ORDO/Orphanet_1487
+  Parents:
+  - Parent:
+    - Label: Syndromic nail anomaly
+      ORPHAcode: '79370'
+  - Parent:
+    - Label: Dysostosis with brachydactyly without extraskeletal manifestations
+      ORPHAcode: '498451'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001156
+      HPOTerm: Brachydactyly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001171
+      HPOTerm: Split hand
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001199
+      HPOTerm: Triphalangeal thumb
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001810
+      HPOTerm: Dystrophic toenail
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008388
+      HPOTerm: Abnormal toenail morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008391
+      HPOTerm: Dystrophic fingernails
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010624
+      HPOTerm: Aplastic/hypoplastic toenail
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011304
+      HPOTerm: Broad thumb
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 22329539[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_22329539[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Anonychia-onychodystrophy with hypoplasia or absence of distal phalanges
       syndrome
   - Synonym: ODP
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '106995'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Cooks syndrome is a malformation syndrome affecting the apical structures
       of digits and presenting with hypo/aplasia of nails and distal phalanges. More
       than half of digits are usually involved and the thumbs may appear digitalized.
-  Parents:
-  - Parent:
-    - ORPHAcode: '79370'
-      Label: Syndromic nail anomaly
-  - Parent:
-    - ORPHAcode: '498451'
-      Label: Dysostosis with brachydactyly without extraskeletal manifestations
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001156
-      HPOTerm: Brachydactyly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001171
-      HPOTerm: Split hand
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001199
-      HPOTerm: Triphalangeal thumb
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001810
-      HPOTerm: Dystrophic toenail
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008388
-      HPOTerm: Abnormal toenail morphology
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0008391
-      HPOTerm: Dystrophic fingernails
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0010624
-      HPOTerm: Aplastic/hypoplastic toenail
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0011304
-      HPOTerm: Broad thumb
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 22329539[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_22329539[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "904",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "904",
         "Label": "Williams syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_904",
@@ -31,13 +31,118 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "A rare genetic multisystemic neurodevelopmental disorder characterized by a distinct facial appearance cardiac anomalies (most frequently supravalvular aortic stenosis) cognitive and developmental abnormalities and connective tissue abnormalities (such as joint laxity)."
+            "Contents": "A rare genetic multisystemic neurodevelopmental disorder characterized by a distinct facial appearance cardiac anomalies (most frequently supravalvular aortic stenosis) cognitive and developmental abnormalities and connective tissue abnormalities (e.g. joint laxity). Facial dysmorphism is characterized by a broad forehead bitemporal narrowing periorbital fullness stellate and/or lacy iris pattern short upturned nose with bulbous tip long philtrum wide mouth full lips and mild micrognathia."
         },
         "Genes": [
             {
                 "Gene": {
+                    "Symbol": "STX1A",
+                    "Name": "syntaxin 1A",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
                     "Symbol": "RFC2",
                     "Name": "replication factor C subunit 2",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "NCF1",
+                    "Name": "neutrophil cytosolic factor 1",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "FKBP6",
+                    "Name": "FKBP prolyl isomerase family member 6 (inactive)",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "MLXIPL",
+                    "Name": "MLX interacting protein like",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "VPS37D",
+                    "Name": "VPS37D subunit of ESCRT-I",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "DNAJC30",
+                    "Name": "DnaJ heat shock protein family (Hsp40) member C30",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "BCL7B",
+                    "Name": "BAF chromatin remodeling complex subunit BCL7B",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "ABHD11",
+                    "Name": "abhydrolase domain containing 11",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "CLDN3",
+                    "Name": "claudin 3",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "CLDN4",
+                    "Name": "claudin 4",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "EIF4H",
+                    "Name": "eukaryotic translation initiation factor 4H",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "LAT2",
+                    "Name": "linker for activation of T cells family member 2",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "BUD23",
+                    "Name": "BUD23 rRNA methyltransferase and ribosome maturation factor",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "METTL27",
+                    "Name": "methyltransferase like 27",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "TMEM270",
+                    "Name": "transmembrane protein 270",
                     "ExternalReferences": []
                 }
             },
@@ -89,17 +194,16 @@
                     "Name": "LIM domain kinase 1",
                     "ExternalReferences": []
                 }
+            },
+            {
+                "Gene": {
+                    "Symbol": "GTF2IRD2",
+                    "Name": "GTF2I repeat domain containing 2",
+                    "ExternalReferences": []
+                }
             }
         ],
         "Parents": [
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "138072",
-                        "Label": "Sucking/swallowing disorder associated with an identified syndrome"
-                    }
-                ]
-            },
             {
                 "Parent": [
                     {
@@ -1145,7 +1249,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0003119",
-                    "HPOTerm": "Abnormality of lipid metabolism",
+                    "HPOTerm": "Abnormal circulating lipid concentration",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -1564,17 +1668,12 @@
                 }
             }
         ],
-        "TypeOfInheritances": [
-            {
-                "TypeOfInheritance": {
-                    "value": "Not applicable"
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Autosomal dominant"
                 }
-            },
-            {
-                "TypeOfInheritance": {
-                    "value": "Unknown"
-                }
-            }
-        ]
+            ]
+        }
     }
 }

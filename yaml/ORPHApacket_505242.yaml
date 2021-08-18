@@ -1,72 +1,72 @@
 Orphapacket:
-  ORPHApacketId: '505242'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '505242'
-  Label: Psychomotor regression-oculomotor apraxia-movement disorder-nephropathy syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_505242
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Infancy
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '617595'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: solute carrier family 30 member 9
+      Symbol: SLC30A9
+  Label: Psychomotor regression-oculomotor apraxia-movement disorder-nephropathy syndrome
+  ORPHAcode: '505242'
+  ORPHApacketId: '505242'
+  PURL: http://www.orpha.net/ORDO/Orphanet_505242
+  Parents:
+  - Parent:
+    - Label: Oculomotor apraxia
+      ORPHAcode: '98688'
+  - Parent:
+    - Label: Genetic renal tubular disease
+      ORPHAcode: '183592'
+  - Parent:
+    - Label: Disorder of zinc metabolism and transport
+      ORPHAcode: '309845'
+  - Parent:
+    - Label: Genetic neurodegenerative disease
+      ORPHAcode: '183500'
+  - Parent:
+    - Label: Rare neurodegenerative disease
+      ORPHAcode: '182070'
+  - Parent:
+    - Label: Rare renal tubular disease
+      ORPHAcode: '93603'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 28334855[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_28334855[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Cerebrorenal syndrome, Perez type
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '617595'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic disease characterized by onset of neurological deterioration
       in the first two years of life progressing to severe intellectual disability
       profound ataxia mild dyskinesia axial hypotonia camptocormia and oculomotor
       apraxia. Some patients also develop nephropathy with features of tubulointerstitial
       nephritis hypertension and a tendency for hyperkalemia.
-  Genes:
-  - Gene:
-      Symbol: SLC30A9
-      Name: solute carrier family 30 member 9
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98688'
-      Label: Oculomotor apraxia
-  - Parent:
-    - ORPHAcode: '183592'
-      Label: Genetic renal tubular disease
-  - Parent:
-    - ORPHAcode: '309845'
-      Label: Disorder of zinc metabolism and transport
-  - Parent:
-    - ORPHAcode: '183500'
-      Label: Genetic neurodegenerative disease
-  - Parent:
-    - ORPHAcode: '182070'
-      Label: Rare neurodegenerative disease
-  - Parent:
-    - ORPHAcode: '93603'
-      Label: Rare renal tubular disease
-  Prevalences:
-  - Prevalence:
-      Source: 28334855[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_28334855[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

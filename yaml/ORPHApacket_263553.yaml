@@ -1,61 +1,61 @@
 Orphapacket:
-  ORPHApacketId: '263553'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '263553'
-  Label: Peeling skin syndrome type B
-  PURL: http://www.orpha.net/ORDO/Orphanet_263553
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: Generalized deciduous skin type B
-  - Synonym: Generalized peeling skin syndrome type B
-  - Synonym: Inflammatory peeling skin syndrome
-  - Synonym: PSS type B
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '270300'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Peeling skin syndrome (PSS) type B also known as peeling skin disease
-      (PSD) is a rare inflammatory form of ichthyosis (see this term) characterized
-      by superficial patchy peeling of the entire skin with underlying erythroderma
-      pruritus and atopy.
-  Genes:
-  - Gene:
-      Symbol: CDSN
-      Name: corneodesmosin
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '263543'
-      Label: Generalized peeling skin syndrome
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '270300'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: corneodesmosin
+      Symbol: CDSN
+  Label: Peeling skin syndrome type B
+  ORPHAcode: '263553'
+  ORPHApacketId: '263553'
+  PURL: http://www.orpha.net/ORDO/Orphanet_263553
+  Parents:
+  - Parent:
+    - Label: Generalized peeling skin syndrome
+      ORPHAcode: '263543'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Generalized deciduous skin type B
+  - Synonym: Generalized peeling skin syndrome type B
+  - Synonym: Inflammatory peeling skin syndrome
+  - Synonym: PSS type B
+  TextSection:
+    Contents: Peeling skin syndrome (PSS) type B also known as peeling skin disease
+      (PSD) is a rare inflammatory form of ichthyosis (see this term) characterized
+      by superficial patchy peeling of the entire skin with underlying erythroderma
+      pruritus and atopy.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

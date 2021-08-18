@@ -1,28 +1,28 @@
 Orphapacket:
-  ORPHApacketId: '308393'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '308393'
-  Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency type B
-  PURL: http://www.orpha.net/ORDO/Orphanet_308393
   DisorderType:
-    value: Etiological subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377795
+    value: Etiological subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '252160'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: molybdenum cofactor synthesis 2
+      Symbol: MOCS2
+  Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency type B
+  ORPHAcode: '308393'
+  ORPHApacketId: '308393'
+  PURL: http://www.orpha.net/ORDO/Orphanet_308393
+  Parents:
+  - Parent:
+    - Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency
+      ORPHAcode: '99732'
   Synonyms:
   - Synonym: Combined deficiency of sulfite oxidase, xanthine dehydrogenase and aldehyde
       oxidase type B
   - Synonym: MOCOD type B
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '252160'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: MOCS2
-      Name: molybdenum cofactor synthesis 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '99732'
-      Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

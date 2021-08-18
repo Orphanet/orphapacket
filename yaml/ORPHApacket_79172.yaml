@@ -1,83 +1,80 @@
 Orphapacket:
-  ORPHApacketId: '79172'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79172'
-  Label: Creatine deficiency syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_79172
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '4136'
+            Source: HGNC
+          - Reference: '601240'
+            Source: OMIM
+          Label: guanidinoacetate N-methyltransferase
+          Symbol: GAMT
+      Label: Guanidinoacetate methyltransferase deficiency
+      ORPHAcode: '382'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '4175'
+            Source: HGNC
+          - Reference: '602360'
+            Source: OMIM
+          Label: glycine amidinotransferase
+          Symbol: GATM
+      Label: L-Arginine:glycine amidinotransferase deficiency
+      ORPHAcode: '35704'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11055'
+            Source: HGNC
+          - Reference: '300036'
+            Source: OMIM
+          Label: solute carrier family 6 member 8
+          Symbol: SLC6A8
+      Label: X-linked creatine transporter deficiency
+      ORPHAcode: '52503'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Creatine deficiency syndrome
+  ORPHAcode: '79172'
+  ORPHApacketId: '79172'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79172
+  Parents:
+  - Parent:
+    - Label: Disorder of energy metabolism
+      ORPHAcode: '79200'
+  - Parent:
+    - Label: Energy metabolism disorder with epilepsy
+      ORPHAcode: '225696'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: CCDS
   - Synonym: CDS
   - Synonym: Cerebral creatine deficiency syndrome
   TextSection:
-    TextSectionType: Definition
     Contents: 'Creatine deficiency syndrome (CDS) comprises a group of inborn errors
       of creatine metabolism characterized by a global developmental delay intellectual
       disability and associated neurological (seizures movement disorders myopathy)
       and behavioral manifestions. CDS includes two creatine biosynthesis disorders;
       guanidinoacetate methyltransferase deficiency and L- Arginine: glycine amidinotransferase
       deficiency as well as X-linked creatine transporter deficiency.'
-  Parents:
-  - Parent:
-    - ORPHAcode: '79200'
-      Label: Disorder of energy metabolism
-  - Parent:
-    - ORPHAcode: '225696'
-      Label: Energy metabolism disorder with epilepsy
-  Childs:
-  - Child:
-      Label: Guanidinoacetate methyltransferase deficiency
-      ORPHAcode: '382'
-      Genes:
-      - Gene:
-          Label: guanidinoacetate N-methyltransferase
-          Symbol: GAMT
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4136'
-          - Source: OMIM
-            Reference: '601240'
-  - Child:
-      Label: L-Arginine:glycine amidinotransferase deficiency
-      ORPHAcode: '35704'
-      Genes:
-      - Gene:
-          Label: glycine amidinotransferase
-          Symbol: GATM
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4175'
-          - Source: OMIM
-            Reference: '602360'
-  - Child:
-      Label: X-linked creatine transporter deficiency
-      ORPHAcode: '52503'
-      Genes:
-      - Gene:
-          Label: solute carrier family 6 member 8
-          Symbol: SLC6A8
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11055'
-          - Source: OMIM
-            Reference: '300036'
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Childhood
-  - AverageAgeOfOnset:
-      value: Infancy
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal recessive
@@ -85,3 +82,6 @@ Orphapacket:
       value: Not applicable
   - TypeOfInheritance:
       value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

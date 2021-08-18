@@ -1,89 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '65282'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '65282'
-  Label: Carvajal syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_65282
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: KWWH type II
-  - Synonym: Keratoderma with woolly hair type II
-  - Synonym: Woolly hair-palmoplantar hyperkeratosis-dilated cardiomyopathy syndrome
-  - Synonym: Woolly hair-palmoplantar keratoderma-dilated cardiomyopathy syndrome
-  - Synonym: Wooly hair-palmoplantar hyperkeratosis-dilated cardiomyopathy syndrome
-  - Synonym: Wooly hair-palmoplantar keratoderma-dilated cardiomyopathy syndrome
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '605676'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '615821'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: A syndrome that is characterized by woolly hair palmoplantar keratoderma
-      and dilated cardiomyopathy principally affecting the left ventricle.
-  Genes:
-  - Gene:
-      Symbol: DSP
-      Name: desmoplakin
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98357'
-      Label: Autosomal recessive disease with focal palmoplantar keratoderma as a
-        major feature
-  - Parent:
-    - ORPHAcode: '79373'
-      Label: Ectodermal dysplasia syndrome
-  - Parent:
-    - ORPHAcode: '434809'
-      Label: Syndrome with woolly hair
-  - Parent:
-    - ORPHAcode: '217619'
-      Label: Syndrome associated with dilated cardiomyopathy
-  - Parent:
-    - ORPHAcode: '98027'
-      Label: Rare disease with odontological manifestation
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001635
-      HPOTerm: Congestive heart failure
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001644
-      HPOTerm: Dilated cardiomyopathy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002224
-      HPOTerm: Woolly hair
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0005588
-      HPOTerm: Patchy palmoplantar keratoderma
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 22795705[PMID]_20940358[PMID]_16628197[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_22795705[PMID]_20940358[PMID]_16628197[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
@@ -91,11 +9,93 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '605676'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '615821'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: desmoplakin
+      Symbol: DSP
+  Label: Carvajal syndrome
+  ORPHAcode: '65282'
+  ORPHApacketId: '65282'
+  PURL: http://www.orpha.net/ORDO/Orphanet_65282
+  Parents:
+  - Parent:
+    - Label: Autosomal recessive disease with focal palmoplantar keratoderma as a
+        major feature
+      ORPHAcode: '98357'
+  - Parent:
+    - Label: Ectodermal dysplasia syndrome
+      ORPHAcode: '79373'
+  - Parent:
+    - Label: Syndrome with woolly hair
+      ORPHAcode: '434809'
+  - Parent:
+    - Label: Syndrome associated with dilated cardiomyopathy
+      ORPHAcode: '217619'
+  - Parent:
+    - Label: Rare disease with odontological manifestation
+      ORPHAcode: '98027'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001635
+      HPOTerm: Congestive heart failure
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001644
+      HPOTerm: Dilated cardiomyopathy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002224
+      HPOTerm: Woolly hair
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005588
+      HPOTerm: Patchy palmoplantar keratoderma
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 22795705[PMID]_20940358[PMID]_16628197[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_22795705[PMID]_20940358[PMID]_16628197[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: KWWH type II
+  - Synonym: Keratoderma with woolly hair type II
+  - Synonym: Woolly hair-palmoplantar hyperkeratosis-dilated cardiomyopathy syndrome
+  - Synonym: Woolly hair-palmoplantar keratoderma-dilated cardiomyopathy syndrome
+  - Synonym: Wooly hair-palmoplantar hyperkeratosis-dilated cardiomyopathy syndrome
+  - Synonym: Wooly hair-palmoplantar keratoderma-dilated cardiomyopathy syndrome
+  TextSection:
+    Contents: A syndrome that is characterized by woolly hair palmoplantar keratoderma
+      and dilated cardiomyopathy principally affecting the left ventricle.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

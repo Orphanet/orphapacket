@@ -1,38 +1,38 @@
 Orphapacket:
-  ORPHApacketId: '2498'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2498'
-  Label: Syndactyly type 8
-  PURL: http://www.orpha.net/ORDO/Orphanet_2498
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '309630'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: fibroblast growth factor 16
+      Symbol: FGF16
+  Label: Syndactyly type 8
+  ORPHAcode: '2498'
+  ORPHApacketId: '2498'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2498
+  Parents:
+  - Parent:
+    - Label: Non-syndromic syndactyly
+      ORPHAcode: '90025'
   Synonyms:
   - Synonym: Fusion of metacarpals 4 and 5
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '309630'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare non-syndromic syndactyly characterized by unilateral or bilateral
       fusion of the 4th and 5th metacarpals with no other associated abnormalities.
       Patients present shortened 4th and 5th metacarpals with excessive separation
       between their distal ends resulting in marked ulnar deviation of the little
       finger and an inability to bring the 5th finger in parallel with the other fingers.
-  Genes:
-  - Gene:
-      Symbol: FGF16
-      Name: fibroblast growth factor 16
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '90025'
-      Label: Non-syndromic syndactyly
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

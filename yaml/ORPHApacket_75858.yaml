@@ -1,56 +1,57 @@
 Orphapacket:
-  ORPHApacketId: '75858'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '75858'
-  Label: MORM syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_75858
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '610156'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: inositol polyphosphate-5-phosphatase E
+      Symbol: INPP5E
+  Label: MORM syndrome
+  ORPHAcode: '75858'
+  ORPHApacketId: '75858'
+  PURL: http://www.orpha.net/ORDO/Orphanet_75858
+  Parents:
+  - Parent:
+    - Label: Syndromic obesity
+      ORPHAcode: '240371'
+  - Parent:
+    - Label: Syndromic inherited retinal disorder
+      ORPHAcode: '519325'
+  - Parent:
+    - Label: Retinal ciliopathy
+      ORPHAcode: '156165'
+  - Parent:
+    - Label: Rare genetic syndromic intellectual disability
+      ORPHAcode: '183763'
+  - Parent:
+    - Label: Rare syndromic intellectual disability
+      ORPHAcode: '102369'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Intellectual disability-truncal obesity-retinal dystrophy-micropenis
       syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '610156'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
+    Contents: A rare genetic syndromic intellectual disability characterized by language
+      delay and mild to moderate intellectual disability associated with truncal obesity
+      congenital nonprogressive retinal dystrophy with poor night vision and reduced
+      visual acuity and micropenis in males. Cataracts may occur in the second or
+      third decade of life.
     TextSectionType: Definition
-    Contents: MORM syndrome is characterised by the association of intellectual deficit
-      truncal obesity retinal dystrophy and micropenis. It has been described in 14
-      individuals from a consanguineous family. It is transmitted in an autosomal
-      recessive manner. The causative locus has been mapped to chromosome region 9q34.
-  Genes:
-  - Gene:
-      Symbol: INPP5E
-      Name: inositol polyphosphate-5-phosphatase E
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '240371'
-      Label: Syndromic obesity
-  - Parent:
-    - ORPHAcode: '519325'
-      Label: Syndromic inherited retinal disorder
-  - Parent:
-    - ORPHAcode: '156165'
-      Label: Retinal ciliopathy
-  - Parent:
-    - ORPHAcode: '183763'
-      Label: Rare genetic syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '102369'
-      Label: Rare syndromic intellectual disability
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

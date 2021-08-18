@@ -1,35 +1,35 @@
 Orphapacket:
-  ORPHApacketId: '483'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '483'
-  Label: Congenital high-molecular-weight kininogen deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_483
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '228960'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: kininogen 1
+      Symbol: KNG1
+  Label: Congenital high-molecular-weight kininogen deficiency
+  ORPHAcode: '483'
+  ORPHApacketId: '483'
+  PURL: http://www.orpha.net/ORDO/Orphanet_483
+  Parents:
+  - Parent:
+    - Label: Rare hemorrhagic disorder due to a constitutional coagulation factors
+        defect
+      ORPHAcode: '68334'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic hematologic disease characterized by abnormal surface-mediated
       activation of fibrinolysis due to the deficiency of high-molecular-weight kininogen
       in plasma. Activated partial thromboplastin time (aPTT) may be prolonged. Clinically
       patients are typically asymptomatic and do not show increased bleeding or thrombotic
       tendency.
-  Genes:
-  - Gene:
-      Symbol: KNG1
-      Name: kininogen 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '68334'
-      Label: Rare hemorrhagic disorder due to a constitutional coagulation factors
-        defect
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

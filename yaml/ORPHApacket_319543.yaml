@@ -1,88 +1,88 @@
 Orphapacket:
-  ORPHApacketId: '319543'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '319543'
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '5439'
+            Source: HGNC
+          - Reference: '107470'
+            Source: OMIM
+          Label: interferon gamma receptor 1
+          Symbol: IFNGR1
+      Label: Autosomal dominant mendelian susceptibility to mycobacterial diseases
+        due to partial IFNgammaR1 deficiency
+      ORPHAcode: '319581'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '5440'
+            Source: HGNC
+          - Reference: '147569'
+            Source: OMIM
+          Label: interferon gamma receptor 2
+          Symbol: IFNGR2
+      Label: Autosomal dominant mendelian susceptibility to mycobacterial diseases
+        due to partial IFNgammaR2 deficiency
+      ORPHAcode: '319589'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11362'
+            Source: HGNC
+          - Reference: '600555'
+            Source: OMIM
+          Label: signal transducer and activator of transcription 1
+          Symbol: STAT1
+      Label: Mendelian susceptibility to mycobacterial diseases due to partial STAT1
+        deficiency
+      ORPHAcode: '319595'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '5358'
+            Source: HGNC
+          - Reference: '601565'
+            Source: OMIM
+          Label: interferon regulatory factor 8
+          Symbol: IRF8
+      Label: Mendelian susceptibility to mycobacterial diseases due to partial IRF8
+        deficiency
+      ORPHAcode: '319600'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
   Label: Autosomal dominant mendelian susceptibility to mycobacterial diseases due
     to a partial deficiency
+  ORPHAcode: '319543'
+  ORPHApacketId: '319543'
   PURL: http://www.orpha.net/ORDO/Orphanet_319543
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+  Parents:
+  - Parent:
+    - Label: Mendelian susceptibility to mycobacterial diseases
+      ORPHAcode: '748'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Autosomal dominant MSMD due to a partial deficiency
   TextSection:
-    TextSectionType: Definition
     Contents: A group of variants of mendelian susceptibility to mycobacterial diseases
       (MSMD) due to dominantly inherited partial deficiencies in interferon gamma
       receptor 1 (IFN-gammaR1) IFN-gammaR2 signal transducer and activator of transcription
       1 (STAT1) or interferon regulator factor 8 (IRF8).
-  Parents:
-  - Parent:
-    - ORPHAcode: '748'
-      Label: Mendelian susceptibility to mycobacterial diseases
-  Childs:
-  - Child:
-      Label: Autosomal dominant mendelian susceptibility to mycobacterial diseases
-        due to partial IFNgammaR1 deficiency
-      ORPHAcode: '319581'
-      Genes:
-      - Gene:
-          Label: interferon gamma receptor 1
-          Symbol: IFNGR1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5439'
-          - Source: OMIM
-            Reference: '107470'
-  - Child:
-      Label: Autosomal dominant mendelian susceptibility to mycobacterial diseases
-        due to partial IFNgammaR2 deficiency
-      ORPHAcode: '319589'
-      Genes:
-      - Gene:
-          Label: interferon gamma receptor 2
-          Symbol: IFNGR2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5440'
-          - Source: OMIM
-            Reference: '147569'
-  - Child:
-      Label: Mendelian susceptibility to mycobacterial diseases due to partial STAT1
-        deficiency
-      ORPHAcode: '319595'
-      Genes:
-      - Gene:
-          Label: signal transducer and activator of transcription 1
-          Symbol: STAT1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11362'
-          - Source: OMIM
-            Reference: '600555'
-  - Child:
-      Label: Mendelian susceptibility to mycobacterial diseases due to partial IRF8
-        deficiency
-      ORPHAcode: '319600'
-      Genes:
-      - Gene:
-          Label: interferon regulatory factor 8
-          Symbol: IRF8
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5358'
-          - Source: OMIM
-            Reference: '601565'
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

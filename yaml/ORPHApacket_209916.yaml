@@ -1,20 +1,55 @@
 Orphapacket:
-  ORPHApacketId: '209916'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '209916'
-  Label: Extraskeletal myxoid chondrosarcoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_209916
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: adult
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '612237'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: trafficking from ER to golgi regulator
+      Symbol: TFG
+  - Gene:
+      ExternalReferences: []
+      Name: EWS RNA binding protein 1
+      Symbol: EWSR1
+  - Gene:
+      ExternalReferences: []
+      Name: transcription factor 12
+      Symbol: TCF12
+  - Gene:
+      ExternalReferences: []
+      Name: nuclear receptor subfamily 4 group A member 3
+      Symbol: NR4A3
+  - Gene:
+      ExternalReferences: []
+      Name: TATA-box binding protein associated factor 15
+      Symbol: TAF15
+  Label: Extraskeletal myxoid chondrosarcoma
+  ORPHAcode: '209916'
+  ORPHApacketId: '209916'
+  PURL: http://www.orpha.net/ORDO/Orphanet_209916
+  Parents:
+  - Parent:
+    - Label: Soft tissue sarcoma
+      ORPHAcode: '3394'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.2'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare soft tissue sarcoma characterized by a lesion in the deep soft
       tissues of the proximal extremities and limb girdles composed of malignant chondroblast-like
       cells arranged in cords clusters or networks and an abundant myxoid matrix.
@@ -23,45 +58,10 @@ Orphapacket:
       be painful and may ulcerate the skin or restrict range of motion if located
       next to joints. Despite prolonged survival local recurrence and metastasis are
       frequent.
-  Genes:
-  - Gene:
-      Symbol: TFG
-      Name: trafficking from ER to golgi regulator
-      ExternalReferences: []
-  - Gene:
-      Symbol: EWSR1
-      Name: EWS RNA binding protein 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: TCF12
-      Name: transcription factor 12
-      ExternalReferences: []
-  - Gene:
-      Symbol: NR4A3
-      Name: nuclear receptor subfamily 4 group A member 3
-      ExternalReferences: []
-  - Gene:
-      Symbol: TAF15
-      Name: TATA-box binding protein associated factor 15
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '3394'
-      Label: Soft tissue sarcoma
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.2'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

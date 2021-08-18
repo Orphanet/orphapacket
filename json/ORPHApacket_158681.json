@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "158681",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "158681",
         "Label": "Epidermolysis bullosa simplex with circinate migratory erythema",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_158681",
@@ -12,6 +12,9 @@
             "PURL": "http://www.orpha.net/ORDO/Orphanet_377788"
         },
         "Synonyms": [
+            {
+                "Synonym": "EBS with circinate migratory erythema"
+            },
             {
                 "Synonym": "EBS-migr"
             }
@@ -25,7 +28,7 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Epidermolysis bullosa simplex with circinate migratory erythema (EBS-migr) is a basal subtype of epidermolysis bullosa simplex (EBS see this term) characterized by belt-like areas of erythema with multiple vesicles and small blisters at the advancing edge of erythema."
+            "Contents": "A rare inherited epidermolysis bullosa simplex characterized by belt-like areas of erythema with multiple vesicles and small blisters at the advancing edge of erythema. The lesions occur on the limbs and trunk and heal with brown pigmentation but no scarring. Extracutaneous involvement is absent. Onset of the disease is usually at birth."
         },
         "Genes": [
             {
@@ -40,8 +43,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "158665",
-                        "Label": "Basal epidermolysis bullosa simplex"
+                        "ORPHAcode": "595346",
+                        "Label": "Epidermolysis bullosa simplex without extracutaneous involvement"
                     }
                 ]
             }
@@ -49,30 +52,135 @@
         "Phenotypes": [
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000988",
-                    "HPOTerm": "Skin rash",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0000953",
+                    "HPOTerm": "Hyperpigmentation of the skin",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001000",
-                    "HPOTerm": "Abnormality of skin pigmentation",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0000989",
+                    "HPOTerm": "Pruritus",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0010783",
-                    "HPOTerm": "Erythema",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0001036",
+                    "HPOTerm": "Parakeratosis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003341",
+                    "HPOTerm": "Junctional split",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005585",
+                    "HPOTerm": "Spotty hyperpigmentation",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007513",
+                    "HPOTerm": "Generalized hypopigmentation",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007585",
+                    "HPOTerm": "Skin fragility with non-scarring blistering",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008066",
+                    "HPOTerm": "Abnormal blistering of the skin",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0031045",
+                    "HPOTerm": "Acral blistering",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0031180",
+                    "HPOTerm": "Erythema migrans",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
                     "HPOId": "HP:0200037",
                     "HPOTerm": "Skin vesicle",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000464",
+                    "HPOTerm": "Abnormality of the neck",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002815",
+                    "HPOTerm": "Abnormality of the knee",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007599",
+                    "HPOTerm": "Generalized reticulate brown pigmentation",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012221",
+                    "HPOTerm": "Pretibial blistering",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000478",
+                    "HPOTerm": "Abnormality of the eye",
+                    "HPOFrequency": "Excluded (0%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000972",
+                    "HPOTerm": "Palmoplantar hyperkeratosis",
+                    "HPOFrequency": "Excluded (0%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008404",
+                    "HPOTerm": "Nail dystrophy",
+                    "HPOFrequency": "Excluded (0%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0200097",
+                    "HPOTerm": "Oral mucosal blisters",
+                    "HPOFrequency": "Excluded (0%)"
                 }
             }
         ],

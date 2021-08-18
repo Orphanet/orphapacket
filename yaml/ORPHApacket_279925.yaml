@@ -1,16 +1,19 @@
 Orphapacket:
-  ORPHApacketId: '279925'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '279925'
-  Label: Infectious panuveitis
-  PURL: http://www.orpha.net/ORDO/Orphanet_279925
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Infectious panuveitis
+  ORPHAcode: '279925'
+  ORPHApacketId: '279925'
+  PURL: http://www.orpha.net/ORDO/Orphanet_279925
+  Parents:
+  - Parent:
+    - Label: Panuveitis
+      ORPHAcode: '280898'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare ophthalmic disorder characterized by generalized inflammation
       of all parts of the uveal tract (iris ciliary body and choroid) simultaneously
       involving adjacent vitreous and retina without any predominant site of inflammation
@@ -20,10 +23,7 @@ Orphapacket:
       chamber hypopyon iris nodules and neovascularization posterior synechiae macular
       edema vitreous and retinal hemorrhage and retinal detachment among others. Complications
       may result in visual loss.
-  Parents:
-  - Parent:
-    - ORPHAcode: '280898'
-      Label: Panuveitis
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

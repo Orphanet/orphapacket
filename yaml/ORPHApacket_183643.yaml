@@ -1,93 +1,93 @@
 Orphapacket:
-  ORPHApacketId: '183643'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '183643'
-  Label: Genetic polyendocrinopathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_183643
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '156638'
-      Label: Rare genetic endocrine disease
   Childs:
   - Child:
+      Genes: no data
       Label: Bangstad syndrome
       ORPHAcode: '1227'
-      Genes: no data
   - Child:
-      Label: Autoimmune polyendocrinopathy type 1
-      ORPHAcode: '3453'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '360'
+            Source: HGNC
+          - Reference: '607358'
+            Source: OMIM
           Label: autoimmune regulator
           Symbol: AIRE
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '360'
-          - Source: OMIM
-            Reference: '607358'
+      Label: Autoimmune polyendocrinopathy type 1
+      ORPHAcode: '3453'
   - Child:
-      Label: Immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome
-      ORPHAcode: '37042'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6106'
+            Source: HGNC
+          - Reference: '300292'
+            Source: OMIM
           Label: forkhead box P3
           Symbol: FOXP3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6106'
-          - Source: OMIM
-            Reference: '300292'
+      Label: Immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome
+      ORPHAcode: '37042'
   - Child:
+      Genes: no data
       Label: Multiple polyglandular tumor
       ORPHAcode: '100094'
-      Genes: no data
   - Child:
-      Label: Acrodysostosis with multiple hormone resistance
-      ORPHAcode: '280651'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '9388'
+            Source: HGNC
+          - Reference: '188830'
+            Source: OMIM
           Label: protein kinase cAMP-dependent type I regulatory subunit alpha
           Symbol: PRKAR1A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9388'
-          - Source: OMIM
-            Reference: '188830'
       - Gene:
+          ExternalReferences:
+          - Reference: '8783'
+            Source: HGNC
+          - Reference: '600129'
+            Source: OMIM
           Label: phosphodiesterase 4D
           Symbol: PDE4D
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8783'
-          - Source: OMIM
-            Reference: '600129'
+      Label: Acrodysostosis with multiple hormone resistance
+      ORPHAcode: '280651'
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11362'
+            Source: HGNC
+          - Reference: '600555'
+            Source: OMIM
+          Label: signal transducer and activator of transcription 1
+          Symbol: STAT1
       Label: Autoimmune enteropathy and endocrinopathy-susceptibility to chronic infections
         syndrome
       ORPHAcode: '391487'
-      Genes:
-      - Gene:
-          Label: signal transducer and activator of transcription 1
-          Symbol: STAT1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11362'
-          - Source: OMIM
-            Reference: '600555'
   - Child:
-      Label: Combined immunodeficiency due to LRBA deficiency
-      ORPHAcode: '445018'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1742'
+            Source: HGNC
+          - Reference: '606453'
+            Source: OMIM
           Label: LPS responsive beige-like anchor protein
           Symbol: LRBA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1742'
-          - Source: OMIM
-            Reference: '606453'
+      Label: Combined immunodeficiency due to LRBA deficiency
+      ORPHAcode: '445018'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Genetic polyendocrinopathy
+  ORPHAcode: '183643'
+  ORPHApacketId: '183643'
+  PURL: http://www.orpha.net/ORDO/Orphanet_183643
+  Parents:
+  - Parent:
+    - Label: Rare genetic endocrine disease
+      ORPHAcode: '156638'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

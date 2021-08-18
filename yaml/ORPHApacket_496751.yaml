@@ -1,22 +1,59 @@
 Orphapacket:
-  ORPHApacketId: '496751'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '496751'
-  Label: EVEN-plus syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_496751
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Antenatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '616854'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: heat shock protein family A (Hsp70) member 9
+      Symbol: HSPA9
+  Label: EVEN-plus syndrome
+  ORPHAcode: '496751'
+  ORPHApacketId: '496751'
+  PURL: http://www.orpha.net/ORDO/Orphanet_496751
+  Parents:
+  - Parent:
+    - Label: Syndromic anorectal malformation
+      ORPHAcode: '117573'
+  - Parent:
+    - Label: Spondyloepiphyseal dysplasia and spondyloepimetaphyseal dysplasia
+      ORPHAcode: '253'
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '102285'
+  - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '330206'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 26598328[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_26598328[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Epiphysial-vertebral-ear dysplasia-nose-plus associated findings syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '616854'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic multiple congenital anomalies/dysmorphic syndrome characterized
       by epiphyseal and vertebral dysplasia and abnormalities of the external ears
       (severe microtia or anotia) and the nose (hypoplastic nose with bifid tip triangular
@@ -24,47 +61,10 @@ Orphapacket:
       localized aplasia cutis hypodontia synophrys agenesis of the corpus callosum
       and cardiac gastrointestinal and/or urogenital malformations among others. Psychomotor
       development may be delayed.
-  Genes:
-  - Gene:
-      Symbol: HSPA9
-      Name: heat shock protein family A (Hsp70) member 9
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '117573'
-      Label: Syndromic anorectal malformation
-  - Parent:
-    - ORPHAcode: '253'
-      Label: Spondyloepiphyseal dysplasia and spondyloepimetaphyseal dysplasia
-  - Parent:
-    - ORPHAcode: '102285'
-      Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-  - Parent:
-    - ORPHAcode: '330206'
-      Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-  Prevalences:
-  - Prevalence:
-      Source: 26598328[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_26598328[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Antenatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

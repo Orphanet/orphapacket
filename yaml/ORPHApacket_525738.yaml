@@ -1,16 +1,19 @@
 Orphapacket:
-  ORPHApacketId: '525738'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '525738'
-  Label: Prepubertal anorexia nervosa
-  PURL: http://www.orpha.net/ORDO/Orphanet_525738
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Prepubertal anorexia nervosa
+  ORPHAcode: '525738'
+  ORPHApacketId: '525738'
+  PURL: http://www.orpha.net/ORDO/Orphanet_525738
+  Parents:
+  - Parent:
+    - Label: Rare hypothalamic or pituitary disease
+      ORPHAcode: '181384'
+  - Parent:
+    - Label: Rare neurologic disease with psychiatric involvement
+      ORPHAcode: '98033'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare neurologic disease with psychiatric involvement characterized
       by significantly lower-than-expected body weight due to voluntary reduction
       of food intake intense fear of becoming overweight and a distorted body image
@@ -18,10 +21,7 @@ Orphapacket:
       and pubertal delay decreased bone density severe metabolic and endocrine dysfunction
       cognitive impairment depression deterioration of academic or athletic performance
       as well as difficulties in familial and peer relations among others.
-  Parents:
-  - Parent:
-    - ORPHAcode: '181384'
-      Label: Rare hypothalamic or pituitary disease
-  - Parent:
-    - ORPHAcode: '98033'
-      Label: Rare neurologic disease with psychiatric involvement
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

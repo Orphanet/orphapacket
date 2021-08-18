@@ -1,96 +1,96 @@
 Orphapacket:
-  ORPHApacketId: '178333'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '178333'
-  Label: Åland Islands eye disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_178333
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: AIED
-  - Synonym: Forsius-Eriksson syndrome
-  - Synonym: Forsius-Eriksson type ocular albinism
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '300600'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: An X-linked recessive retinal disease characterized by fundus hypopigmentation
-      decrased visual acuity nystagmus astigmatism progressive axial myopia defective
-      dark adaptation and protanopia.
-  Genes:
-  - Gene:
-      Symbol: CACNA1F
-      Name: calcium voltage-gated channel subunit alpha1 F
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '519306'
-      Label: Isolated progressive inherited retinal disorder
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000483
-      HPOTerm: Astigmatism
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000512
-      HPOTerm: Abnormal electroretinogram
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000545
-      HPOTerm: Myopia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000551
-      HPOTerm: Color vision defect
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000639
-      HPOTerm: Nystagmus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007663
-      HPOTerm: Reduced visual acuity
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007750
-      HPOTerm: Hypoplasia of the fovea
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007894
-      HPOTerm: Hypopigmentation of the fundus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0030513
-      HPOTerm: Difficulty adjusting from light to dark
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 17525176[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '300600'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: calcium voltage-gated channel subunit alpha1 F
+      Symbol: CACNA1F
+  Label: "\xC5land Islands eye disease"
+  ORPHAcode: '178333'
+  ORPHApacketId: '178333'
+  PURL: http://www.orpha.net/ORDO/Orphanet_178333
+  Parents:
+  - Parent:
+    - Label: Isolated progressive inherited retinal disorder
+      ORPHAcode: '519306'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000483
+      HPOTerm: Astigmatism
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000512
+      HPOTerm: Abnormal electroretinogram
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000545
+      HPOTerm: Myopia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000551
+      HPOTerm: Color vision defect
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007663
+      HPOTerm: Reduced visual acuity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007750
+      HPOTerm: Hypoplasia of the fovea
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007894
+      HPOTerm: Hypopigmentation of the fundus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0030513
+      HPOTerm: Difficulty adjusting from light to dark
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 17525176[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: AIED
+  - Synonym: Forsius-Eriksson syndrome
+  - Synonym: Forsius-Eriksson type ocular albinism
+  TextSection:
+    Contents: An X-linked recessive retinal disease characterized by fundus hypopigmentation
+      decrased visual acuity nystagmus astigmatism progressive axial myopia defective
+      dark adaptation and protanopia.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

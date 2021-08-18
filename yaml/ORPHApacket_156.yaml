@@ -1,14 +1,132 @@
 Orphapacket:
-  ORPHApacketId: '156'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '156'
-  Label: Carnitine palmitoyl transferase 1A deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_156
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '255120'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: carnitine palmitoyltransferase 1A
+      Symbol: CPT1A
+  Label: Carnitine palmitoyl transferase 1A deficiency
+  ORPHAcode: '156'
+  ORPHApacketId: '156'
+  PURL: http://www.orpha.net/ORDO/Orphanet_156
+  Parents:
+  - Parent:
+    - Label: Disorder of carnitine cycle and carnitine transport
+      ORPHAcode: '309130'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000708
+      HPOTerm: Behavioral abnormality
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001252
+      HPOTerm: Muscular hypotonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001254
+      HPOTerm: Lethargy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001259
+      HPOTerm: Coma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001315
+      HPOTerm: Reduced tendon reflexes
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001399
+      HPOTerm: Hepatic failure
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001639
+      HPOTerm: Hypertrophic cardiomyopathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001645
+      HPOTerm: Sudden cardiac death
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001939
+      HPOTerm: Abnormality of metabolism/homeostasis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001943
+      HPOTerm: Hypoglycemia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001947
+      HPOTerm: Renal tubular acidosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002167
+      HPOTerm: Neurological speech impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002240
+      HPOTerm: Hepatomegaly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002910
+      HPOTerm: Elevated hepatic transaminase
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003202
+      HPOTerm: Skeletal muscle atrophy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004374
+      HPOTerm: Hemiplegia/hemiparesis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007185
+      HPOTerm: Loss of consciousness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008279
+      HPOTerm: Transient hyperlipidemia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011675
+      HPOTerm: Arrhythmia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 20301700[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_20301700[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: CPT1A deficiency
   - Synonym: Carnitine palmitoyl transferase IA deficiency
@@ -16,133 +134,15 @@ Orphapacket:
   - Synonym: Hepatic carnitine palmitoyl transferase I deficiency
   - Synonym: L-CPT1 deficiency
   - Synonym: L-CPTI deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '255120'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Carnitine palmitoyltransferase 1A (CPT-1A) deficiency is an inborn error
       of metabolism that affects mitochondrial oxidation of long chain fatty acids
       (LCFA) in the liver and kidneys and is characterized by recurrent attacks of
       fasting-induced hypoketotic hypoglycemia and risk of liver failure.
-  Genes:
-  - Gene:
-      Symbol: CPT1A
-      Name: carnitine palmitoyltransferase 1A
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '309130'
-      Label: Disorder of carnitine cycle and carnitine transport
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000708
-      HPOTerm: Behavioral abnormality
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001250
-      HPOTerm: Seizures
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001252
-      HPOTerm: Muscular hypotonia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001254
-      HPOTerm: Lethargy
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001259
-      HPOTerm: Coma
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001315
-      HPOTerm: Reduced tendon reflexes
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001399
-      HPOTerm: Hepatic failure
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001639
-      HPOTerm: Hypertrophic cardiomyopathy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001645
-      HPOTerm: Sudden cardiac death
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001939
-      HPOTerm: Abnormality of metabolism/homeostasis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001943
-      HPOTerm: Hypoglycemia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001947
-      HPOTerm: Renal tubular acidosis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002167
-      HPOTerm: Neurological speech impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002240
-      HPOTerm: Hepatomegaly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002910
-      HPOTerm: Elevated hepatic transaminase
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003202
-      HPOTerm: Skeletal muscle atrophy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0004374
-      HPOTerm: Hemiplegia/hemiparesis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0007185
-      HPOTerm: Loss of consciousness
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0008279
-      HPOTerm: Transient hyperlipidemia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0011675
-      HPOTerm: Arrhythmia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0012378
-      HPOTerm: Fatigue
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 20301700[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_20301700[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

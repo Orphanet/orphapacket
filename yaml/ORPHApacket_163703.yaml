@@ -1,14 +1,78 @@
 Orphapacket:
-  ORPHApacketId: '163703'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '163703'
-  Label: Febrile infection-related epilepsy syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_163703
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Febrile infection-related epilepsy syndrome
+  ORPHAcode: '163703'
+  ORPHApacketId: '163703'
+  PURL: http://www.orpha.net/ORDO/Orphanet_163703
+  Parents:
+  - Parent:
+    - Label: Acute encephalopathy with inflammation-mediated status epilepticus
+      ORPHAcode: '363567'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000246
+      HPOTerm: Sinusitis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000708
+      HPOTerm: Behavioral abnormality
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001254
+      HPOTerm: Lethargy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001699
+      HPOTerm: Sudden death
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001945
+      HPOTerm: Fever
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002315
+      HPOTerm: Headache
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002353
+      HPOTerm: EEG abnormality
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002376
+      HPOTerm: Developmental regression
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002960
+      HPOTerm: Autoimmunity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003326
+      HPOTerm: Myalgia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007359
+      HPOTerm: Focal-onset seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012735
+      HPOTerm: Cough
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Germany
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 'PMID: 22911482'
+      ValMoy: '0.1'
   Synonyms:
   - Synonym: AERRPS
   - Synonym: Acute encephalitis with refractory repetitive partial seizures
@@ -20,85 +84,16 @@ Orphapacket:
   - Synonym: Idiopathic catastrophic epileptic encephalopathy
   - Synonym: Severe refractory status epilepticus owing to presumed encephalitis
   TextSection:
+    Contents: A rare potentially fatal  epileptic encephalopathy characterized by
+      explosive-onset of recurrent multifocal and bilateral tonic-clonic seizures
+      following an unspecific febrile illness. The syndrome develops without a clear
+      acute structural toxic or metabolic cause in a patient without previous epilepsy.
+      FIRES is a subgroup of new-onset refractory status epilepticus (NORSE) and requires
+      a preceding febrile infection as a mandatory feature.
     TextSectionType: Definition
-    Contents: Febrile infection-related epilepsy syndrome (FIRES) describes an explosive-onset
-      potentially fatal acute epileptic encephalopathy that develops in previously
-      healthy children and adolescents following the onset of a non-specific febrile
-      illness.
-  Parents:
-  - Parent:
-    - ORPHAcode: '363567'
-      Label: Acute encephalopathy with inflammation-mediated status epilepticus
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000246
-      HPOTerm: Sinusitis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000708
-      HPOTerm: Behavioral abnormality
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001254
-      HPOTerm: Lethargy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001699
-      HPOTerm: Sudden death
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001945
-      HPOTerm: Fever
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002315
-      HPOTerm: Headache
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002353
-      HPOTerm: EEG abnormality
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002376
-      HPOTerm: Developmental regression
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002960
-      HPOTerm: Autoimmunity
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003326
-      HPOTerm: Myalgia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0007359
-      HPOTerm: Focal-onset seizure
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0012735
-      HPOTerm: Cough
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 20345937[PMID]_[EXPERT]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Germany
-  - Prevalence:
-      Source: 20345937[PMID]_22911482[PMID]_ [EXPERT]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

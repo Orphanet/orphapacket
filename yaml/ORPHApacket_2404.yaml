@@ -1,16 +1,34 @@
 Orphapacket:
-  ORPHApacketId: '2404'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2404'
-  Label: Loiasis
-  PURL: http://www.orpha.net/ORDO/Orphanet_2404
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Loiasis
+  ORPHAcode: '2404'
+  ORPHApacketId: '2404'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2404
+  Parents:
+  - Parent:
+    - Label: Filariasis
+      ORPHAcode: '2034'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: 22784545[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: '>1 / 1000'
+      PrevalenceGeographic: Specific population
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Loiasis is a form of filariasis (see this term) caused by the parasitic
       worm <i>Loa loa</i> endemic to the forest and savannah regions of Central and
       Western Africa. Loiasis may either be asymptomatic or manifest as a large transient
@@ -21,28 +39,10 @@ Orphapacket:
       such as encephalopathy have been reported in highly infected individuals receiving
       ivermectin during mass drug administration programs for the control of onchocerciasis
       and lymphatic filariasis (see these terms).
-  Parents:
-  - Parent:
-    - ORPHAcode: '2034'
-      Label: Filariasis
-  Prevalences:
-  - Prevalence:
-      Source: 22784545[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: '>1 / 1000'
-      ValMoy: no data
-      PrevalenceGeographic: Specific population
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

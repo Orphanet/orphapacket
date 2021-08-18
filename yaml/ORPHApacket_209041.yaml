@@ -1,72 +1,72 @@
 Orphapacket:
-  ORPHApacketId: '209041'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '209041'
-  Label: Qualitative or quantitative defects of desmin
-  PURL: http://www.orpha.net/ORDO/Orphanet_209041
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '209038'
-      Label: Qualitative or quantitative defects of myofibrillar proteins
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '15999'
+            Source: HGNC
+          - Reference: '606210'
+            Source: OMIM
+          Label: selenoprotein N
+          Symbol: SELENON
       Label: Desmin-related myopathy with Mallory body-like inclusions
       ORPHAcode: '84132'
+  - Child:
       Genes:
       - Gene:
-          Label: selenoprotein N
-          Symbol: SELENON
           ExternalReferences:
-          - Source: HGNC
-            Reference: '15999'
-          - Source: OMIM
-            Reference: '606210'
-  - Child:
+          - Reference: '2770'
+            Source: HGNC
+          - Reference: '125660'
+            Source: OMIM
+          Label: desmin
+          Symbol: DES
       Label: Neurogenic scapuloperoneal syndrome, Kaeser type
       ORPHAcode: '85146'
-      Genes:
-      - Gene:
-          Label: desmin
-          Symbol: DES
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2770'
-          - Source: OMIM
-            Reference: '125660'
   - Child:
-      Label: Rigid spine syndrome
-      ORPHAcode: '97244'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '102610'
+            Source: OMIM
+          - Reference: '129'
+            Source: HGNC
           Label: actin alpha 1, skeletal muscle
           Symbol: ACTA1
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '102610'
-          - Source: HGNC
-            Reference: '129'
       - Gene:
+          ExternalReferences:
+          - Reference: '15999'
+            Source: HGNC
+          - Reference: '606210'
+            Source: OMIM
           Label: selenoprotein N
           Symbol: SELENON
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '15999'
-          - Source: OMIM
-            Reference: '606210'
+      Label: Rigid spine syndrome
+      ORPHAcode: '97244'
   - Child:
-      Label: Desminopathy
-      ORPHAcode: '98909'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2770'
+            Source: HGNC
+          - Reference: '125660'
+            Source: OMIM
           Label: desmin
           Symbol: DES
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2770'
-          - Source: OMIM
-            Reference: '125660'
+      Label: Desminopathy
+      ORPHAcode: '98909'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Qualitative or quantitative defects of desmin
+  ORPHAcode: '209041'
+  ORPHApacketId: '209041'
+  PURL: http://www.orpha.net/ORDO/Orphanet_209041
+  Parents:
+  - Parent:
+    - Label: Qualitative or quantitative defects of myofibrillar proteins
+      ORPHAcode: '209038'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

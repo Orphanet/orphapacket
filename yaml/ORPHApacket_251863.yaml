@@ -1,44 +1,44 @@
 Orphapacket:
-  ORPHApacketId: '251863'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '251863'
-  Label: Desmoplastic/nodular medulloblastoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_251863
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Histopathological subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377797
+    value: Histopathological subtype
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
     Reference: '155255'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: SUFU negative regulator of hedgehog signaling
+      Symbol: SUFU
+  Label: Desmoplastic/nodular medulloblastoma
+  ORPHAcode: '251863'
+  ORPHApacketId: '251863'
+  PURL: http://www.orpha.net/ORDO/Orphanet_251863
+  Parents:
+  - Parent:
+    - Label: Medulloblastoma
+      ORPHAcode: '616'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: '0.01'
   TextSection:
-    TextSectionType: Definition
     Contents: Desmoplastic/nodular medulloblastoma is a histological variant of medulloblastoma
       (see this term) an embryonic malignancy often located in one of the cerebellar
       hemispheres occurring most frequently in adults and manifesting with symptoms
       such as vomiting and headache.
-  Genes:
-  - Gene:
-      Symbol: SUFU
-      Name: SUFU negative regulator of hedgehog signaling
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '616'
-      Label: Medulloblastoma
-  Prevalences:
-    Prevalence:
-    - Source: RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.01'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

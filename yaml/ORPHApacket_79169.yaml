@@ -1,48 +1,48 @@
 Orphapacket:
-  ORPHApacketId: '79169'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79169'
-  Label: Disorder of neurotransmitter metabolism and transport
-  PURL: http://www.orpha.net/ORDO/Orphanet_79169
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '79214'
-      Label: Disorder of biogenic amine metabolism and transport
   Childs:
   - Child:
-      Label: Monoamine oxidase A deficiency
-      ORPHAcode: '3057'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6833'
+            Source: HGNC
+          - Reference: '309850'
+            Source: OMIM
           Label: monoamine oxidase A
           Symbol: MAOA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6833'
-          - Source: OMIM
-            Reference: '309850'
+      Label: Monoamine oxidase A deficiency
+      ORPHAcode: '3057'
   - Child:
+      Genes: no data
       Label: Disorder of pterin metabolism
       ORPHAcode: '309819'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Disorder of catecholamine synthesis
       ORPHAcode: '309830'
-      Genes: no data
   - Child:
-      Label: Brain dopamine-serotonin vesicular transport disease
-      ORPHAcode: '352649'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '10935'
+            Source: HGNC
+          - Reference: '193001'
+            Source: OMIM
           Label: solute carrier family 18 member A2
           Symbol: SLC18A2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10935'
-          - Source: OMIM
-            Reference: '193001'
+      Label: Brain dopamine-serotonin vesicular transport disease
+      ORPHAcode: '352649'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Disorder of neurotransmitter metabolism and transport
+  ORPHAcode: '79169'
+  ORPHApacketId: '79169'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79169
+  Parents:
+  - Parent:
+    - Label: Disorder of biogenic amine metabolism and transport
+      ORPHAcode: '79214'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

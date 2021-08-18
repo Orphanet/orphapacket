@@ -1,16 +1,41 @@
 Orphapacket:
-  ORPHApacketId: '435743'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '435743'
-  Label: Congenital urachal anomaly
-  PURL: http://www.orpha.net/ORDO/Orphanet_435743
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Urachal cyst
+      ORPHAcode: '488'
+  - Child:
+      Genes: no data
+      Label: Patent urachus
+      ORPHAcode: '431341'
+  - Child:
+      Genes: no data
+      Label: Urachal sinus
+      ORPHAcode: '431344'
+  - Child:
+      Genes: no data
+      Label: Urachal diverticulum
+      ORPHAcode: '431347'
   DisorderType:
-    value: Category
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Congenital urachal anomaly
+  ORPHAcode: '435743'
+  ORPHApacketId: '435743'
+  PURL: http://www.orpha.net/ORDO/Orphanet_435743
+  Parents:
+  - Parent:
+    - Label: Non-syndromic renal or urinary tract malformation
+      ORPHAcode: '93546'
+  - Parent:
+    - Label: Non-syndromic urogenital tract malformation of male and female
+      ORPHAcode: '182124'
   TextSection:
-    TextSectionType: Definition
     Contents: Congenital urachal anomaly (CUA) describes a group of urachal remnants
       found more frequently in males than females that result from incomplete closure
       of the urachus (an embryological remnant of the allantois) during prenatal development
@@ -19,32 +44,7 @@ Orphapacket:
       sinus) infraumblical mass and pain or with complications such as obstruction
       and infection. CUAs include patent urachus urachal sinus urachal cyst and urachal
       diverticulum (see these terms).
-  Parents:
-  - Parent:
-    - ORPHAcode: '93546'
-      Label: Non-syndromic renal or urinary tract malformation
-  - Parent:
-    - ORPHAcode: '182124'
-      Label: Non-syndromic urogenital tract malformation of male and female
-  Childs:
-  - Child:
-      Label: Urachal cyst
-      ORPHAcode: '488'
-      Genes: no data
-  - Child:
-      Label: Patent urachus
-      ORPHAcode: '431341'
-      Genes: no data
-  - Child:
-      Label: Urachal sinus
-      ORPHAcode: '431344'
-      Genes: no data
-  - Child:
-      Label: Urachal diverticulum
-      ORPHAcode: '431347'
-      Genes: no data
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Antenatal
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

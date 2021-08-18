@@ -1,72 +1,72 @@
 Orphapacket:
-  ORPHApacketId: '91396'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '91396'
-  Label: Isolated cryptophthalmia
-  PURL: http://www.orpha.net/ORDO/Orphanet_91396
-  DisorderType:
-    value: Morphological anomaly
-    PURL: http://www.orpha.net/ORDO/Orphanet_377791
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '123570'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Isolated cryptophtalmia is a congenital abnormality in which the eyelids
-      are absent and skin covers the ocular bulb which is often microphthalmic. Six
-      cases of complete bilateral crytophthalmia have been described. Transmission
-      is autosomal dominant.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98562'
-      Label: Cryptophthalmia
-  Childs:
-  - Child:
-      Label: Congenital symblepharon
-      ORPHAcode: '98948'
-      Genes: no data
-  - Child:
-      Label: Complete cryptophthalmia
-      ORPHAcode: '98949'
-      Genes:
-      - Gene:
-          Label: FRAS1 related extracellular matrix 2
-          Symbol: FREM2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '25396'
-          - Source: OMIM
-            Reference: '608945'
-  - Child:
-      Label: Partial cryptophthalmia
-      ORPHAcode: '98950'
-      Genes: no data
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET_16352480[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: 16352480[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Congenital symblepharon
+      ORPHAcode: '98948'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '25396'
+            Source: HGNC
+          - Reference: '608945'
+            Source: OMIM
+          Label: FRAS1 related extracellular matrix 2
+          Symbol: FREM2
+      Label: Complete cryptophthalmia
+      ORPHAcode: '98949'
+  - Child:
+      Genes: no data
+      Label: Partial cryptophthalmia
+      ORPHAcode: '98950'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '123570'
+    Source: OMIM
+  Label: Isolated cryptophthalmia
+  ORPHAcode: '91396'
+  ORPHApacketId: '91396'
+  PURL: http://www.orpha.net/ORDO/Orphanet_91396
+  Parents:
+  - Parent:
+    - Label: Cryptophthalmia
+      ORPHAcode: '98562'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_16352480[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 16352480[PMID]
+      ValMoy: no data
+  TextSection:
+    Contents: Isolated cryptophtalmia is a congenital abnormality in which the eyelids
+      are absent and skin covers the ocular bulb which is often microphthalmic. Six
+      cases of complete bilateral crytophthalmia have been described. Transmission
+      is autosomal dominant.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

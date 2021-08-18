@@ -1,69 +1,134 @@
 Orphapacket:
-  ORPHApacketId: '94088'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '94088'
-  Label: Hereditary renal hypouricemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_94088
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '220150'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '242050'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '307830'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '612076'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: A genetic renal tubular disorder characterized by urinary urate wasting
-      that typically leads to asymptomatic hypouricemia and predisposes to urolithiasis
-      and exercise-induced acute renal failure (EIARF).
-  Genes:
-  - Gene:
-      Symbol: SLC22A12
-      Name: solute carrier family 22 member 12
-      ExternalReferences: []
-  - Gene:
-      Symbol: SLC2A9
-      Name: solute carrier family 2 member 9
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '93603'
-      Label: Rare renal tubular disease
-  - Parent:
-    - ORPHAcode: '183592'
-      Label: Genetic renal tubular disease
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '220150'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '242050'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '307830'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '612076'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: solute carrier family 22 member 12
+      Symbol: SLC22A12
+  - Gene:
+      ExternalReferences: []
+      Name: solute carrier family 2 member 9
+      Symbol: SLC2A9
+  Label: Hereditary renal hypouricemia
+  ORPHAcode: '94088'
+  ORPHApacketId: '94088'
+  PURL: http://www.orpha.net/ORDO/Orphanet_94088
+  Parents:
+  - Parent:
+    - Label: Rare renal tubular disease
+      ORPHAcode: '93603'
+  - Parent:
+    - Label: Genetic renal tubular disease
+      ORPHAcode: '183592'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0003149
+      HPOTerm: Hyperuricosuria
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0003537
+      HPOTerm: Hypouricemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0030973
+      HPOTerm: Postexertional malaise
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000091
+      HPOTerm: Abnormal renal tubule morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001919
+      HPOTerm: Acute kidney injury
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008651
+      HPOTerm: Uric acid urolithiasis independent of gout
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012211
+      HPOTerm: Abnormal renal physiology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000790
+      HPOTerm: Hematuria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002013
+      HPOTerm: Vomiting
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002018
+      HPOTerm: Nausea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002150
+      HPOTerm: Hypercalciuria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003138
+      HPOTerm: Increased blood urea nitrogen
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003418
+      HPOTerm: Back pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012213
+      HPOTerm: Decreased glomerular filtration rate
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012595
+      HPOTerm: Mild proteinuria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012622
+      HPOTerm: Chronic kidney disease
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  TextSection:
+    Contents: A genetic renal tubular disorder characterized by urinary urate wasting
+      that typically leads to asymptomatic hypouricemia and predisposes to urolithiasis
+      and exercise-induced acute renal failure (EIARF).
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

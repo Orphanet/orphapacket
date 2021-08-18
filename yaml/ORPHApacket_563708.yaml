@@ -1,36 +1,43 @@
 Orphapacket:
-  ORPHApacketId: '563708'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '563708'
-  Label: Syndromic congenital sodium diarrhea
-  PURL: http://www.orpha.net/ORDO/Orphanet_563708
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Syndromic congenital tufting enteropathy
-  Genes:
-  - Gene:
-      Symbol: SPINT2
-      Name: serine peptidase inhibitor, Kunitz type 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '73014'
-      Label: Intractable diarrhea of infancy
-  - Parent:
-    - ORPHAcode: '104003'
-      Label: Congenital intestinal transport defect
-  - Parent:
-    - ORPHAcode: '363300'
-      Label: Genetic intractable diarrhea of infancy
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: serine peptidase inhibitor, Kunitz type 2
+      Symbol: SPINT2
+  Label: Syndromic congenital sodium diarrhea
+  ORPHAcode: '563708'
+  ORPHApacketId: '563708'
+  PURL: http://www.orpha.net/ORDO/Orphanet_563708
+  Parents:
+  - Parent:
+    - Label: Intractable diarrhea of infancy
+      ORPHAcode: '73014'
+  - Parent:
+    - Label: Congenital intestinal transport defect
+      ORPHAcode: '104003'
+  - Parent:
+    - Label: Genetic intractable diarrhea of infancy
+      ORPHAcode: '363300'
+  Synonyms:
+  - Synonym: Syndromic congenital tufting enteropathy
+  TextSection:
+    Contents: A rare genetic syndromic intestinal disorder characterized by congenital
+      onset of severe watery diarrhea containing high concentrations of sodium hyponatremia
+      and metabolic acidosis and generally uni- or bilateral chonal atresia and corneal
+      erosions. Additional congenital malformations may include intestinal atresia
+      and hexadactyly.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "87884",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "87884",
         "Label": "Non-syndromic genetic deafness",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_87884",
@@ -116,7 +116,7 @@
                         },
                         {
                             "Gene": {
-                                "Label": "carcinoembryonic antigen related cell adhesion molecule 16",
+                                "Label": "CEA cell adhesion molecule 16, tectorial membrane component",
                                 "Symbol": "CEACAM16",
                                 "ExternalReferences": [
                                     {
@@ -212,7 +212,7 @@
                         },
                         {
                             "Gene": {
-                                "Label": "barttin CLCNK type accessory beta subunit",
+                                "Label": "barttin CLCNK type accessory subunit beta",
                                 "Symbol": "BSND",
                                 "ExternalReferences": [
                                     {
@@ -740,7 +740,7 @@
                         },
                         {
                             "Gene": {
-                                "Label": "lipoxygenase homology domains 1",
+                                "Label": "lipoxygenase homology PLAT domains 1",
                                 "Symbol": "LOXHD1",
                                 "ExternalReferences": [
                                     {
@@ -884,8 +884,8 @@
                         },
                         {
                             "Gene": {
-                                "Label": "lysyl-tRNA synthetase",
-                                "Symbol": "KARS",
+                                "Label": "lysyl-tRNA synthetase 1",
+                                "Symbol": "KARS1",
                                 "ExternalReferences": [
                                     {
                                         "Source": "HGNC",
@@ -1276,7 +1276,7 @@
                         },
                         {
                             "Gene": {
-                                "Label": "tRNA 5-methylaminomethyl-2-thiouridylate methyltransferase",
+                                "Label": "tRNA mitochondrial 2-thiouridylase",
                                 "Symbol": "TRMU",
                                 "ExternalReferences": [
                                     {
@@ -1456,10 +1456,12 @@
                                 "Symbol": "TRRAP",
                                 "ExternalReferences": [
                                     {
-                                        "ExternalReference": {
-                                            "Source": "HGNC",
-                                            "Reference": "12347"
-                                        }
+                                        "Source": "HGNC",
+                                        "Reference": "12347"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "603015"
                                     }
                                 ]
                             }
@@ -1898,7 +1900,7 @@
                         },
                         {
                             "Gene": {
-                                "Label": "carcinoembryonic antigen related cell adhesion molecule 16",
+                                "Label": "CEA cell adhesion molecule 16, tectorial membrane component",
                                 "Symbol": "CEACAM16",
                                 "ExternalReferences": [
                                     {
@@ -2137,6 +2139,99 @@
                             }
                         }
                     ]
+                }
+            }
+        ],
+        "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000399",
+                    "HPOTerm": "Prelingual sensorineural hearing impairment",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000408",
+                    "HPOTerm": "Progressive sensorineural hearing impairment",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000750",
+                    "HPOTerm": "Delayed speech and language development",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001963",
+                    "HPOTerm": "Abnormal speech discrimination",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008596",
+                    "HPOTerm": "Postlingual sensorineural hearing impairment",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011476",
+                    "HPOTerm": "Profound sensorineural hearing impairment",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000405",
+                    "HPOTerm": "Conductive hearing impairment",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005101",
+                    "HPOTerm": "High-frequency hearing impairment",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007670",
+                    "HPOTerm": "Abnormal vestibulo-ocular reflex",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011474",
+                    "HPOTerm": "Childhood onset sensorineural hearing impairment",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012713",
+                    "HPOTerm": "Moderate hearing impairment",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012714",
+                    "HPOTerm": "Severe hearing impairment",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008573",
+                    "HPOTerm": "Low-frequency sensorineural hearing impairment",
+                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             }
         ],

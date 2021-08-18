@@ -1,65 +1,65 @@
 Orphapacket:
-  ORPHApacketId: '139441'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '139441'
-  Label: Hypomyelination with atrophy of basal ganglia and cerebellum
-  PURL: http://www.orpha.net/ORDO/Orphanet_139441
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: H-ABC
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '617899'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '612438'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare disorder characterized by slowly progressive spasticity extrapyramidal
-      movement disorders (dystonia choreoathetosis and rigidity) cerebellar ataxia
-      moderate to severe cognitive deficit and anarthria/dysarthria.
-  Genes:
-  - Gene:
-      Symbol: TUBB4A
-      Name: tubulin beta 4A class IVa
-      ExternalReferences: []
-  - Gene:
-      Symbol: UFM1
-      Name: ubiquitin fold modifier 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '68356'
-      Label: Leukodystrophy
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
   - AverageAgeOfOnset:
       value: Infancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '617899'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '612438'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: tubulin beta 4A class IVa
+      Symbol: TUBB4A
+  - Gene:
+      ExternalReferences: []
+      Name: ubiquitin fold modifier 1
+      Symbol: UFM1
+  Label: Hypomyelination with atrophy of basal ganglia and cerebellum
+  ORPHAcode: '139441'
+  ORPHApacketId: '139441'
+  PURL: http://www.orpha.net/ORDO/Orphanet_139441
+  Parents:
+  - Parent:
+    - Label: Leukodystrophy
+      ORPHAcode: '68356'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: H-ABC
+  TextSection:
+    Contents: A rare disorder characterized by slowly progressive spasticity extrapyramidal
+      movement disorders (dystonia choreoathetosis and rigidity) cerebellar ataxia
+      moderate to severe cognitive deficit and anarthria/dysarthria.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

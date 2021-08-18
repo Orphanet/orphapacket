@@ -1,32 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '207046'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '207046'
-  Label: Malignant lymphoma with peripheral neuropathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_207046
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-    Parent:
-    - ORPHAcode: '209016'
-      Label: Hematological disease associated with an acquired peripheral neuropathy
   Childs:
   - Child:
-      Label: Waldenström macroglobulinemia
-      ORPHAcode: '33226'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '7562'
+            Source: HGNC
+          - Reference: '602170'
+            Source: OMIM
           Label: MYD88 innate immune signal transduction adaptor
           Symbol: MYD88
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7562'
-          - Source: OMIM
-            Reference: '602170'
+      Label: "Waldenstr\xF6m macroglobulinemia"
+      ORPHAcode: '33226'
   - Child:
+      Genes: no data
       Label: Neurolymphomatosis
       ORPHAcode: '206586'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Malignant lymphoma with peripheral neuropathy
+  ORPHAcode: '207046'
+  ORPHApacketId: '207046'
+  PURL: http://www.orpha.net/ORDO/Orphanet_207046
+  Parents:
+    Parent:
+    - Label: Hematological disease associated with an acquired peripheral neuropathy
+      ORPHAcode: '209016'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

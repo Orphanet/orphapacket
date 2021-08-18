@@ -1,90 +1,90 @@
 Orphapacket:
-  ORPHApacketId: '79145'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79145'
-  Label: Dowling-Degos disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_79145
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Reticular pigment anomaly of flexures
+    value: Disease
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
-      Reference: '179850'
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
+      Reference: '179850'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
       Reference: '615327'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
-  - ExternalReference:
-      Source: OMIM
       Reference: '615674'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
       Source: OMIM
-      Reference: '615696'
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
+      Reference: '615696'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: presenilin enhancer, gamma-secretase subunit
+      Symbol: PSENEN
+  - Gene:
+      ExternalReferences: []
+      Name: keratin 5
+      Symbol: KRT5
+  - Gene:
+      ExternalReferences: []
+      Name: protein O-fucosyltransferase 1
+      Symbol: POFUT1
+  - Gene:
+      ExternalReferences: []
+      Name: protein O-glucosyltransferase 1
+      Symbol: POGLUT1
+  Label: Dowling-Degos disease
+  ORPHAcode: '79145'
+  ORPHApacketId: '79145'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79145
+  Parents:
+  - Parent:
+    - Label: Genetic hyperpigmentation of the skin
+      ORPHAcode: '183466'
+  - Parent:
+    - Label: Disorder of fucoglycosan synthesis
+      ORPHAcode: '309505'
+  - Parent:
+    - Label: Congenital disorder of glycosylation with skin involvement
+      ORPHAcode: '371200'
+  - Parent:
+    - Label: Hyperpigmentation of the skin
+      ORPHAcode: '79375'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: Reticular pigment anomaly of flexures
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic hyperpigmentation of the skin disease characterized by
       adulthood-onset of reticular reddish-brown to dark-brown macular and/or comedone-like
       hyperkeratotic papules with hypopigmented macules predominantly affecting flexural
       areas and on occasion progressing to involve trunk and acral regions. Histologically
       epidermal acanthosis thin branch-like rete ridges and a tendency for acantholysis
       and pigmentary incontinence is observed.
-  Genes:
-  - Gene:
-      Symbol: PSENEN
-      Name: presenilin enhancer, gamma-secretase subunit
-      ExternalReferences: []
-  - Gene:
-      Symbol: KRT5
-      Name: keratin 5
-      ExternalReferences: []
-  - Gene:
-      Symbol: POFUT1
-      Name: protein O-fucosyltransferase 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: POGLUT1
-      Name: protein O-glucosyltransferase 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '183466'
-      Label: Genetic hyperpigmentation of the skin
-  - Parent:
-    - ORPHAcode: '309505'
-      Label: Disorder of fucoglycosan synthesis
-  - Parent:
-    - ORPHAcode: '371200'
-      Label: Congenital disorder of glycosylation with skin involvement
-  - Parent:
-    - ORPHAcode: '79375'
-      Label: Hyperpigmentation of the skin
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adolescent
-  - AverageAgeOfOnset:
-      value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

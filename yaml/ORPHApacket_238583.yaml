@@ -1,40 +1,109 @@
 Orphapacket:
-  ORPHApacketId: '238583'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '238583'
-  Label: Hyperphenylalaninemia due to tetrahydrobiopterin deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_238583
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '9752'
+            Source: HGNC
+          - Reference: '612676'
+            Source: OMIM
+          Label: quinoid dihydropteridine reductase
+          Symbol: QDPR
+      Label: Dihydropteridine reductase deficiency
+      ORPHAcode: '226'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '9689'
+            Source: HGNC
+          - Reference: '612719'
+            Source: OMIM
+          Label: 6-pyruvoyltetrahydropterin synthase
+          Symbol: PTS
+      Label: 6-pyruvoyl-tetrahydropterin synthase deficiency
+      ORPHAcode: '13'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '4193'
+            Source: HGNC
+          - Reference: '600225'
+            Source: OMIM
+          Label: GTP cyclohydrolase 1
+          Symbol: GCH1
+      Label: GTP cyclohydrolase I deficiency
+      ORPHAcode: '2102'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '126090'
+            Source: OMIM
+          - Reference: '8646'
+            Source: HGNC
+          Label: pterin-4 alpha-carbinolamine dehydratase 1
+          Symbol: PCBD1
+      Label: Pterin-4 alpha-carbinolamine dehydratase deficiency
+      ORPHAcode: '1578'
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '264070'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '233910'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '261630'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '261640'
+      Source: OMIM
+  Label: Hyperphenylalaninemia due to tetrahydrobiopterin deficiency
+  ORPHAcode: '238583'
+  ORPHApacketId: '238583'
+  PURL: http://www.orpha.net/ORDO/Orphanet_238583
+  Parents:
+  - Parent:
+    - Label: Disorder of pterin metabolism
+      ORPHAcode: '309819'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Japan
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 6468444[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]'
+      ValMoy: no data
   Synonyms:
   - Synonym: Hyperphenylalaninemia due to BH4 deficiency
   - Synonym: Non-phenylketonuric hyperphenylalaninemia
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '264070'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '233910'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '261630'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '261640'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
   TextSection:
-    TextSectionType: Definition
     Contents: Hyperphenylalaninemia (HPA) due to tetrahydrobiopterin (BH4) deficiency
       also known as malignant HPA is an amino acid disorder with neonatal onset that
       is clinically characterized by the classic manifestations of phenylketonuria
@@ -42,79 +111,10 @@ Orphapacket:
       symptoms such as microcephaly intellectual disability central hypotonia delayed
       motor development peripheral spasticity and seizures that develop and persist
       despite an established metabolic control of plasma phenylalanine.
-  Parents:
-  - Parent:
-    - ORPHAcode: '309819'
-      Label: Disorder of pterin metabolism
-  Childs:
-  - Child:
-      Label: Dihydropteridine reductase deficiency
-      ORPHAcode: '226'
-      Genes:
-      - Gene:
-          Label: quinoid dihydropteridine reductase
-          Symbol: QDPR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9752'
-          - Source: OMIM
-            Reference: '612676'
-  - Child:
-      Label: 6-pyruvoyl-tetrahydropterin synthase deficiency
-      ORPHAcode: '13'
-      Genes:
-      - Gene:
-          Label: 6-pyruvoyltetrahydropterin synthase
-          Symbol: PTS
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9689'
-          - Source: OMIM
-            Reference: '612719'
-  - Child:
-      Label: GTP cyclohydrolase I deficiency
-      ORPHAcode: '2102'
-      Genes:
-      - Gene:
-          Label: GTP cyclohydrolase 1
-          Symbol: GCH1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4193'
-          - Source: OMIM
-            Reference: '600225'
-  - Child:
-      Label: Pterin-4 alpha-carbinolamine dehydratase deficiency
-      ORPHAcode: '1578'
-      Genes:
-      - Gene:
-          Label: pterin-4 alpha-carbinolamine dehydratase 1
-          Symbol: PCBD1
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '126090'
-          - Source: HGNC
-            Reference: '8646'
-  Prevalences:
-  - Prevalence:
-      Source: 6468444[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Japan
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

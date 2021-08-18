@@ -1,41 +1,41 @@
 Orphapacket:
-  ORPHApacketId: '353217'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '353217'
-  Label: Epileptic encephalopathy with global cerebral demyelination
-  PURL: http://www.orpha.net/ORDO/Orphanet_353217
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '612949'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: solute carrier family 25 member 12
+      Symbol: SLC25A12
+  Label: Epileptic encephalopathy with global cerebral demyelination
+  ORPHAcode: '353217'
+  ORPHApacketId: '353217'
+  PURL: http://www.orpha.net/ORDO/Orphanet_353217
+  Parents:
+  - Parent:
+    - Label: Neonatal epilepsy syndrome
+      ORPHAcode: '98257'
+  - Parent:
+    - Label: Mitochondrial substrate carrier disorder
+      ORPHAcode: '254830'
   Synonyms:
   - Synonym: AGC1 deficiency
   - Synonym: Mitochondrial aspartate-glutamate carrier 1 deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '612949'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Epileptic encephalopathy with global cerebral demyelination is a rare
       mitochondrial substrate carrier disorder characterized by severe muscular hypotonia
       seizures (with or without episodic apnea) beginning in the first year of life
       and arrested psychomotor development (affecting mainly motor skills). Severe
       spasticity with hyperreflexia has also been reported. Global cerebral hypomyelination
       is a characteristic imaging feature of this disease.
-  Genes:
-  - Gene:
-      Symbol: SLC25A12
-      Name: solute carrier family 25 member 12
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98257'
-      Label: Neonatal epilepsy syndrome
-  - Parent:
-    - ORPHAcode: '254830'
-      Label: Mitochondrial substrate carrier disorder
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

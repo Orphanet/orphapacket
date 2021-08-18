@@ -1,30 +1,30 @@
 Orphapacket:
-  ORPHApacketId: '459353'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '459353'
-  Label: C1 inhibitor deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_459353
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '120790'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
   Genes:
   - Gene:
-      Symbol: SERPING1
-      Name: serpin family G member 1
       ExternalReferences: []
+      Name: serpin family G member 1
+      Symbol: SERPING1
+  Label: C1 inhibitor deficiency
+  ORPHAcode: '459353'
+  ORPHApacketId: '459353'
+  PURL: http://www.orpha.net/ORDO/Orphanet_459353
   Parents:
   - Parent:
-    - ORPHAcode: '250811'
-      Label: Serpinopathy with loss of serpin function
+    - Label: Serpinopathy with loss of serpin function
+      ORPHAcode: '250811'
   - Parent:
-    - ORPHAcode: '459348'
-      Label: Immunodeficiency due to a complement regulatory deficiency
+    - Label: Immunodeficiency due to a complement regulatory deficiency
+      ORPHAcode: '459348'
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

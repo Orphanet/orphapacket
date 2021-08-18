@@ -1,40 +1,40 @@
 Orphapacket:
-  ORPHApacketId: '519282'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '519282'
-  Label: Rare corneal disorder
-  PURL: http://www.orpha.net/ORDO/Orphanet_519282
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '519284'
-      Label: Rare disorder of the anterior segment of the eye
   Childs:
   - Child:
-      Label: Congenital cornea plana
-      ORPHAcode: '53691'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6309'
+            Source: HGNC
+          - Reference: '603288'
+            Source: OMIM
           Label: keratocan
           Symbol: KERA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6309'
-          - Source: OMIM
-            Reference: '603288'
+      Label: Congenital cornea plana
+      ORPHAcode: '53691'
   - Child:
+      Genes: no data
       Label: Limbal stem cell deficiency
       ORPHAcode: '171673'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Corneodysgenesis
       ORPHAcode: '98635'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Rare disorder with corneal involvement as a major feature
       ORPHAcode: '519288'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare corneal disorder
+  ORPHAcode: '519282'
+  ORPHApacketId: '519282'
+  PURL: http://www.orpha.net/ORDO/Orphanet_519282
+  Parents:
+  - Parent:
+    - Label: Rare disorder of the anterior segment of the eye
+      ORPHAcode: '519284'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

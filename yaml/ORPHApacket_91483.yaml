@@ -1,56 +1,56 @@
 Orphapacket:
-  ORPHApacketId: '91483'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '91483'
-  Label: Rieger anomaly
-  PURL: http://www.orpha.net/ORDO/Orphanet_91483
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
-      Reference: '137600'
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
-  - ExternalReference:
+      Reference: '137600'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
+        Term)
       Reference: '601631'
-      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
-        Term)
-  - ExternalReference:
       Source: OMIM
-      Reference: '602482'
+  - ExternalReference:
       DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
         Term)
+      Reference: '602482'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: paired like homeodomain 2
+      Symbol: PITX2
+  - Gene:
+      ExternalReferences: []
+      Name: forkhead box C1
+      Symbol: FOXC1
+  Label: Rieger anomaly
+  ORPHAcode: '91483'
+  ORPHApacketId: '91483'
+  PURL: http://www.orpha.net/ORDO/Orphanet_91483
+  Parents:
+  - Parent:
+    - Label: Anterior segment developmental anomaly without extraocular manifestations
+      ORPHAcode: '98634'
   TextSection:
-    TextSectionType: Definition
     Contents: "Rieger's anomaly is a congenital ocular defect caused by anterior segment\
       \ dysgenesis and is characterized by severe anterior chamber deformity with\
       \ prominent strands and marked atrophy of the iris stroma with hole or pseudo-hole\
       \ formation and corectopia. The term covers the association of these iris and\
       \ pupil anomalies with the features of Axenfeld\x92s anomaly (see this term)."
-  Genes:
-  - Gene:
-      Symbol: PITX2
-      Name: paired like homeodomain 2
-      ExternalReferences: []
-  - Gene:
-      Symbol: FOXC1
-      Name: forkhead box C1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98634'
-      Label: Anterior segment developmental anomaly without extraocular manifestations
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

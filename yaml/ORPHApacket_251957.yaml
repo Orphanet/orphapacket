@@ -1,23 +1,26 @@
 Orphapacket:
-  ORPHApacketId: '251957'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '251957'
-  Label: Anaplastic ganglioglioma
-  PURL: http://www.orpha.net/ORDO/Orphanet_251957
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Anaplastic ganglioglioma
+  ORPHAcode: '251957'
+  ORPHApacketId: '251957'
+  PURL: http://www.orpha.net/ORDO/Orphanet_251957
+  Parents:
+  - Parent:
+    - Label: Mixed neuronal-glial tumor
+      ORPHAcode: '251934'
+  - Parent:
+    - Label: Pediatric cancer of neuroepithelial tissue
+      ORPHAcode: '602695'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare mixed neuronal-glial tumor characterized by a mostly supratentorial
       space-occupying lesion often involving the temporal lobe although it may occur
       anywhere in the central nervous system. The tumor shows anaplastic features
       in its glial component and is considered WHO grade III which may albeit inconsistently
       indicate more aggressive behavior and less favorable prognosis. Clinical symptoms
       vary according to the location the most common manifestation being seizures.
-  Parents:
-  - Parent:
-    - ORPHAcode: '251934'
-      Label: Mixed neuronal-glial tumor
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

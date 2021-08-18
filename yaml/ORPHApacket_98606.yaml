@@ -1,45 +1,45 @@
 Orphapacket:
-  ORPHApacketId: '98606'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98606'
-  Label: Syndromic orbital border hypoplasia
-  PURL: http://www.orpha.net/ORDO/Orphanet_98606
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '165600'
+    Source: OMIM
+  Label: Syndromic orbital border hypoplasia
+  ORPHAcode: '98606'
+  ORPHApacketId: '98606'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98606
+  Parents:
+  - Parent:
+    - Label: Syndromic lacrimal system disorder
+      ORPHAcode: '519274'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 14359373[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_14359373[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Urrets-Zavalia syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '165600'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Syndromic orbital border hypoplasia is a rare disorder observed in two
       families to date and characterized by agenesis of the orbital margin varying
       defects of the lacrimal passages hypoplasia of the palpebral skin and tarsal
       plates and atresia of the nasolacrimal duct.
-  Parents:
-  - Parent:
-    - ORPHAcode: '519274'
-      Label: Syndromic lacrimal system disorder
-  Prevalences:
-  - Prevalence:
-      Source: 14359373[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_14359373[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

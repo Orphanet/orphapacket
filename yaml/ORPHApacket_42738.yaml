@@ -1,131 +1,128 @@
 Orphapacket:
-  ORPHApacketId: '42738'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '42738'
-  Label: Severe congenital neutropenia
-  PURL: http://www.orpha.net/ORDO/Orphanet_42738
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  TextSection:
-    TextSectionType: Definition
-    Contents: Severe congenital neutropenia is an immunodeficiency characterized by
-      low levels of granulocytes (< 200/mm3) without an associated lymphocyte deficit.
-  Parents:
-  - Parent:
-    - ORPHAcode: '101987'
-      Label: Constitutional neutropenia
-  Childs:
-  - Child:
-      Label: Autosomal dominant severe congenital neutropenia
-      ORPHAcode: '486'
-      Genes:
-      - Gene:
-          Label: T cell immune regulator 1, ATPase H+ transporting V0 subunit a3
-          Symbol: TCIRG1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11647'
-          - Source: OMIM
-            Reference: '604592'
-      - Gene:
-          Label: elastase, neutrophil expressed
-          Symbol: ELANE
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3309'
-          - Source: OMIM
-            Reference: '130130'
-      - Gene:
-          Label: growth factor independent 1 transcriptional repressor
-          Symbol: GFI1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4237'
-          - Source: OMIM
-            Reference: '600871'
-      - Gene:
-          Label: signal recognition particle 54
-          Symbol: SRP54
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11301'
-          - Source: OMIM
-            Reference: '604857'
-  - Child:
-      Label: X-linked severe congenital neutropenia
-      ORPHAcode: '86788'
-      Genes:
-      - Gene:
-          Label: WASP actin nucleation promoting factor
-          Symbol: WAS
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12731'
-          - Source: OMIM
-            Reference: '300392'
-  - Child:
-      Label: Autosomal recessive severe congenital neutropenia
-      ORPHAcode: '439849'
-      Genes: no data
-  Prevalences:
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 12555210[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: 22624626[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Sweden
-  - Prevalence:
-      Source: 22624626[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Sweden
-  - Prevalence:
-      Source: 20399414[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: France
-  - Prevalence:
-      Source: 17024564[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Iran, Islamic Republic of
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11647'
+            Source: HGNC
+          - Reference: '604592'
+            Source: OMIM
+          Label: T cell immune regulator 1, ATPase H+ transporting V0 subunit a3
+          Symbol: TCIRG1
+      - Gene:
+          ExternalReferences:
+          - Reference: '3309'
+            Source: HGNC
+          - Reference: '130130'
+            Source: OMIM
+          Label: elastase, neutrophil expressed
+          Symbol: ELANE
+      - Gene:
+          ExternalReferences:
+          - Reference: '4237'
+            Source: HGNC
+          - Reference: '600871'
+            Source: OMIM
+          Label: growth factor independent 1 transcriptional repressor
+          Symbol: GFI1
+      - Gene:
+          ExternalReferences:
+          - Reference: '11301'
+            Source: HGNC
+          - Reference: '604857'
+            Source: OMIM
+          Label: signal recognition particle 54
+          Symbol: SRP54
+      Label: Autosomal dominant severe congenital neutropenia
+      ORPHAcode: '486'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '12731'
+            Source: HGNC
+          - Reference: '300392'
+            Source: OMIM
+          Label: WASP actin nucleation promoting factor
+          Symbol: WAS
+      Label: X-linked severe congenital neutropenia
+      ORPHAcode: '86788'
+  - Child:
+      Genes: no data
+      Label: Autosomal recessive severe congenital neutropenia
+      ORPHAcode: '439849'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Severe congenital neutropenia
+  ORPHAcode: '42738'
+  ORPHApacketId: '42738'
+  PURL: http://www.orpha.net/ORDO/Orphanet_42738
+  Parents:
+  - Parent:
+    - Label: Constitutional neutropenia
+      ORPHAcode: '101987'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 12555210[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Sweden
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 22624626[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Sweden
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: 22624626[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: France
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 20399414[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Iran, Islamic Republic of
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 17024564[PMID]
+      ValMoy: no data
+  TextSection:
+    Contents: Severe congenital neutropenia is an immunodeficiency characterized by
+      low levels of granulocytes (< 200/mm3) without an associated lymphocyte deficit.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
@@ -133,3 +130,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

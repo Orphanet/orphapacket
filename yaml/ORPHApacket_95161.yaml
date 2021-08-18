@@ -1,59 +1,59 @@
 Orphapacket:
-  ORPHApacketId: '95161'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '95161'
-  Label: Chronic hepatic porphyria
-  PURL: http://www.orpha.net/ORDO/Orphanet_95161
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Porphyria cutanea tarda
+      ORPHAcode: '101330'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '12591'
+            Source: HGNC
+          - Reference: '613521'
+            Source: OMIM
+          Label: uroporphyrinogen decarboxylase
+          Symbol: UROD
+      Label: Hepatoerythropoietic porphyria
+      ORPHAcode: '95159'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Chronic hepatic porphyria
+  ORPHAcode: '95161'
+  ORPHApacketId: '95161'
+  PURL: http://www.orpha.net/ORDO/Orphanet_95161
+  Parents:
+  - Parent:
+    - Label: Rare metabolic liver disease
+      ORPHAcode: '101940'
+  - Parent:
+    - Label: Porphyria
+      ORPHAcode: '738'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   TextSection:
-    TextSectionType: Definition
     Contents: 'Chronic hepatic porphyrias represent a sub-group of porphyrias (see
       this term). They are characterized by bullous photodermatitis caused by a deficiency
       of uroporphyrinogen decarboxylase (URO-D; the fifth enzyme in the heme biosynthesis
       pathway). Chronic hepatic porphyria encompasses two diseases: porphyria cutanea
       tarda and hepatoerythropoietic porphyria (extremely rare) (see these terms).'
-  Parents:
-  - Parent:
-    - ORPHAcode: '101940'
-      Label: Rare metabolic liver disease
-  - Parent:
-    - ORPHAcode: '738'
-      Label: Porphyria
-  Childs:
-  - Child:
-      Label: Porphyria cutanea tarda
-      ORPHAcode: '101330'
-      Genes: no data
-  - Child:
-      Label: Hepatoerythropoietic porphyria
-      ORPHAcode: '95159'
-      Genes:
-      - Gene:
-          Label: uroporphyrinogen decarboxylase
-          Symbol: UROD
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12591'
-          - Source: OMIM
-            Reference: '613521'
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

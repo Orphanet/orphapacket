@@ -1,16 +1,42 @@
 Orphapacket:
-  ORPHApacketId: '480556'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '480556'
-  Label: Isolated neonatal sclerosing cholangitis
-  PURL: http://www.orpha.net/ORDO/Orphanet_480556
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: doublecortin domain containing 2
+      Symbol: DCDC2
+  Label: Isolated neonatal sclerosing cholangitis
+  ORPHAcode: '480556'
+  ORPHApacketId: '480556'
+  PURL: http://www.orpha.net/ORDO/Orphanet_480556
+  Parents:
+  - Parent:
+    - Label: Sclerosing cholangitis
+      ORPHAcode: '447771'
+  - Parent:
+    - Label: Genetic biliary tract disease
+      ORPHAcode: '156607'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 27319779[PMID]_27469900[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_27319779[PMID]_27469900[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Isolated neonatal sclerosing cholangitis is a rare genetic biliary tract
       disease characterized by severe neonatal-onset cholangiopathy with patent bile
       ducts and absence of ichthyosiform skin lesions. Patients present with jaundice
@@ -18,36 +44,10 @@ Orphapacket:
       Liver histology shows portal fibrosis ductular proliferation hepatocellular
       metallothionein deposits and intralobular bile-pigment accumulations. Some patients
       may also have renal disease.
-  Genes:
-  - Gene:
-      Symbol: DCDC2
-      Name: doublecortin domain containing 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '447771'
-      Label: Sclerosing cholangitis
-  - Parent:
-    - ORPHAcode: '156607'
-      Label: Genetic biliary tract disease
-  Prevalences:
-  - Prevalence:
-      Source: 27319779[PMID]_27469900[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_27319779[PMID]_27469900[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

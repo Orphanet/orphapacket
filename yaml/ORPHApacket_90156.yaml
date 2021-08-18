@@ -1,18 +1,59 @@
 Orphapacket:
-  ORPHApacketId: '90156'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '90156'
-  Label: Centrifugal lipodystrophy
-  PURL: http://www.orpha.net/ORDO/Orphanet_90156
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Centrifugal lipodystrophy
+  ORPHAcode: '90156'
+  ORPHApacketId: '90156'
+  PURL: http://www.orpha.net/ORDO/Orphanet_90156
+  Parents:
+  - Parent:
+    - Label: Localized lipodystrophy
+      ORPHAcode: '79088'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0100578
+      HPOTerm: Lipoatrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003758
+      HPOTerm: Reduced subcutaneous adipose tissue
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007485
+      HPOTerm: Absence of subcutaneous fat
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000765
+      HPOTerm: Abnormal thorax morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002840
+      HPOTerm: Lymphadenitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010783
+      HPOTerm: Erythema
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011123
+      HPOTerm: Inflammatory abnormality of the skin
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0040189
+      HPOTerm: Scaling skin
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001596
+      HPOTerm: Alopecia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0005320
+      HPOTerm: Lack of facial subcutaneous fat
   Synonyms:
   - Synonym: Lipodystrophia centrifugalis abdominalis infantilis
   TextSection:
-    TextSectionType: Definition
     Contents: Centrifugal lipodystrophy is a rare acquired localized lipodistrophy
       characterized by single or occasionally multiple centrifugally progressive asymptomatic
       to sometimes mildly tender hypopigmented lipoatrophic skin depressions with
@@ -21,48 +62,7 @@ Orphapacket:
       groin and abdomen region) followed by upper trunk (axilla and neighboring regions)
       and rarely neck and head. It is usually not associated with systemic disease
       and is typically self-resolving.
-  Parents:
-  - Parent:
-    - ORPHAcode: '79088'
-      Label: Localized lipodystrophy
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0100578
-      HPOTerm: Lipoatrophy
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0003758
-      HPOTerm: Reduced subcutaneous adipose tissue
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007485
-      HPOTerm: Absence of subcutaneous fat
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000765
-      HPOTerm: Abnormality of the thorax
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002840
-      HPOTerm: Lymphadenitis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0010783
-      HPOTerm: Erythema
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0011123
-      HPOTerm: Inflammatory abnormality of the skin
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0040189
-      HPOTerm: Scaling skin
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001596
-      HPOTerm: Alopecia
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0005320
-      HPOTerm: Lack of facial subcutaneous fat
-      HPOFrequency: Very rare (<4-1%)
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

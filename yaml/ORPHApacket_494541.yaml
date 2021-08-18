@@ -1,87 +1,87 @@
 Orphapacket:
-  ORPHApacketId: '494541'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '494541'
-  Label: Childhood-onset benign chorea with striatal involvement
-  PURL: http://www.orpha.net/ORDO/Orphanet_494541
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '616922'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: phosphodiesterase 10A
+      Symbol: PDE10A
+  Label: Childhood-onset benign chorea with striatal involvement
+  ORPHAcode: '494541'
+  ORPHApacketId: '494541'
+  PURL: http://www.orpha.net/ORDO/Orphanet_494541
+  Parents:
+  - Parent:
+    - Label: Huntington disease-like syndrome
+      ORPHAcode: '158266'
+  - Parent:
+    - Label: Neurodegenerative disease with chorea
+      ORPHAcode: '306719'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002072
+      HPOTerm: Chorea
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010994
+      HPOTerm: Abnormal corpus striatum morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0031206
+      HPOTerm: Striatal T2 hyperintensity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000739
+      HPOTerm: Anxiety
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002548
+      HPOTerm: Parkinsonism with favorable response to dopaminergic medication
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0000726
+      HPOTerm: Dementia
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0002194
+      HPOTerm: Delayed gross motor development
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 27058447[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_27058447[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic hyperkinetic movement disorder characterized predominantly
       by chorea of variable severity associated with bilateral striatal abnormalities
       on cerebral MRI. The disease is scarcely progressive and cognitive performance
       is preserved in the majority of cases although mild cognitive delay has also
       been reported.
-  Genes:
-  - Gene:
-      Symbol: PDE10A
-      Name: phosphodiesterase 10A
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '158266'
-      Label: Huntington disease-like syndrome
-  - Parent:
-    - ORPHAcode: '306719'
-      Label: Neurodegenerative disease with chorea
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0002072
-      HPOTerm: Chorea
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0010994
-      HPOTerm: Abnormal corpus striatum morphology
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0031206
-      HPOTerm: Striatal T2 hyperintensity
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000739
-      HPOTerm: Anxiety
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002548
-      HPOTerm: Parkinsonism with favorable response to dopaminergic medication
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000726
-      HPOTerm: Dementia
-      HPOFrequency: Excluded (0%)
-  - Phenotype:
-      HPOId: HP:0002194
-      HPOTerm: Delayed gross motor development
-      HPOFrequency: Excluded (0%)
-  Prevalences:
-  - Prevalence:
-      Source: 27058447[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_27058447[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

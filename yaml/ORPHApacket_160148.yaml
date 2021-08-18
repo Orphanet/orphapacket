@@ -1,76 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '160148'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '160148'
-  Label: Cap polyposis
-  PURL: http://www.orpha.net/ORDO/Orphanet_160148
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Cap inflammatory polyposis
-  - Synonym: Eroded polypoid hyperplasia
-  - Synonym: Inflammatory myoglandular polyps
-  - Synonym: Polypoid prolapsing folds
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare colorectal disease characterized by multiple inflammatory polyps
-      that predominantly affect the rectosigmoid area and that manifests primarily
-      as rectal bleeding with abnormal transit constipation and diarrhea.
-  Parents:
-  - Parent:
-    - ORPHAcode: '104012'
-      Label: Rare inflammatory bowel disease
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0200063
-      HPOTerm: Colorectal polyposis
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0002019
-      HPOTerm: Constipation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002027
-      HPOTerm: Abdominal pain
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002573
-      HPOTerm: Hematochezia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002582
-      HPOTerm: Chronic atrophic gastritis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001824
-      HPOTerm: Weight loss
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002014
-      HPOTerm: Diarrhea
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003270
-      HPOTerm: Abdominal distention
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 24949613[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_24949613[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -80,9 +11,78 @@ Orphapacket:
       value: Childhood
   - AverageAgeOfOnset:
       value: Elderly
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Cap polyposis
+  ORPHAcode: '160148'
+  ORPHApacketId: '160148'
+  PURL: http://www.orpha.net/ORDO/Orphanet_160148
+  Parents:
+  - Parent:
+    - Label: Rare inflammatory bowel disease
+      ORPHAcode: '104012'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0200063
+      HPOTerm: Colorectal polyposis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002019
+      HPOTerm: Constipation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002027
+      HPOTerm: Abdominal pain
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002573
+      HPOTerm: Hematochezia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002582
+      HPOTerm: Chronic atrophic gastritis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001824
+      HPOTerm: Weight loss
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002014
+      HPOTerm: Diarrhea
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003270
+      HPOTerm: Abdominal distention
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 24949613[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_24949613[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Cap inflammatory polyposis
+  - Synonym: Eroded polypoid hyperplasia
+  - Synonym: Inflammatory myoglandular polyps
+  - Synonym: Polypoid prolapsing folds
+  TextSection:
+    Contents: A rare colorectal disease characterized by multiple inflammatory polyps
+      that predominantly affect the rectosigmoid area and that manifests primarily
+      as rectal bleeding with abnormal transit constipation and diarrhea.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

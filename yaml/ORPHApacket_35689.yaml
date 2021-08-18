@@ -1,132 +1,129 @@
 Orphapacket:
-  ORPHApacketId: '35689'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '35689'
-  Label: Primary lateral sclerosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_35689
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Adult-onset PLS
-  - Synonym: Adult-onset primary lateral sclerosis
-  - Synonym: PLS
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '611637'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Primary lateral sclerosis (PLS) is an idiopathic non-familial motor
-      neuron disease characterized by slowly progressive upper motor neuron dysfunction
-      leading to spasticity mild weakness in voluntary muscle movement hyperreflexia
-      and loss of motor speech production.
-  Genes:
-  - Gene:
-      Symbol: SPG7
-      Name: SPG7 matrix AAA peptidase subunit, paraplegin
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98503'
-      Label: Motor neuron disease
-  - Parent:
-    - ORPHAcode: '182070'
-      Label: Rare neurodegenerative disease
-  - Parent:
-    - ORPHAcode: '183500'
-      Label: Genetic neurodegenerative disease
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001257
-      HPOTerm: Spasticity
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002127
-      HPOTerm: Abnormal upper motor neuron morphology
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002493
-      HPOTerm: Upper motor neuron dysfunction
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003487
-      HPOTerm: Babinski sign
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007034
-      HPOTerm: Generalized hyperreflexia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002015
-      HPOTerm: Dysphagia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002064
-      HPOTerm: Spastic gait
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002200
-      HPOTerm: Pseudobulbar signs
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002371
-      HPOTerm: Loss of speech
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002464
-      HPOTerm: Spastic dysarthria
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003444
-      HPOTerm: 'EMG: chronic denervation signs'
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0007199
-      HPOTerm: Progressive spastic paraparesis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0010549
-      HPOTerm: Weakness due to upper motor neuron dysfunction
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0006827
-      HPOTerm: Atrophy of the spinal cord
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0007002
-      HPOTerm: Motor axonal neuropathy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0010873
-      HPOTerm: Cervical spinal cord atrophy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002366
-      HPOTerm: Abnormal lower motor neuron morphology
-      HPOFrequency: Excluded (0%)
-  - Phenotype:
-      HPOId: HP:0003474
-      HPOTerm: Sensory impairment
-      HPOFrequency: Excluded (0%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '1.5'
-      PrevalenceGeographic: Europe
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adult
   - AverageAgeOfOnset:
       value: Elderly
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '611637'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: SPG7 matrix AAA peptidase subunit, paraplegin
+      Symbol: SPG7
+  Label: Primary lateral sclerosis
+  ORPHAcode: '35689'
+  ORPHApacketId: '35689'
+  PURL: http://www.orpha.net/ORDO/Orphanet_35689
+  Parents:
+  - Parent:
+    - Label: Motor neuron disease
+      ORPHAcode: '98503'
+  - Parent:
+    - Label: Rare neurodegenerative disease
+      ORPHAcode: '182070'
+  - Parent:
+    - Label: Genetic neurodegenerative disease
+      ORPHAcode: '183500'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001257
+      HPOTerm: Spasticity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002127
+      HPOTerm: Abnormal upper motor neuron morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002493
+      HPOTerm: Upper motor neuron dysfunction
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003487
+      HPOTerm: Babinski sign
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007034
+      HPOTerm: Generalized hyperreflexia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002015
+      HPOTerm: Dysphagia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002064
+      HPOTerm: Spastic gait
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002200
+      HPOTerm: Pseudobulbar signs
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002371
+      HPOTerm: Loss of speech
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002464
+      HPOTerm: Spastic dysarthria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003444
+      HPOTerm: 'EMG: chronic denervation signs'
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007199
+      HPOTerm: Progressive spastic paraparesis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010549
+      HPOTerm: Weakness due to upper motor neuron dysfunction
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006827
+      HPOTerm: Atrophy of the spinal cord
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007002
+      HPOTerm: Motor axonal neuropathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010873
+      HPOTerm: Cervical spinal cord atrophy
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0002366
+      HPOTerm: Abnormal lower motor neuron morphology
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0003474
+      HPOTerm: Sensory impairment
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '1.5'
+  Synonyms:
+  - Synonym: Adult-onset PLS
+  - Synonym: Adult-onset primary lateral sclerosis
+  - Synonym: PLS
+  TextSection:
+    Contents: Primary lateral sclerosis (PLS) is an idiopathic non-familial motor
+      neuron disease characterized by slowly progressive upper motor neuron dysfunction
+      leading to spasticity mild weakness in voluntary muscle movement hyperreflexia
+      and loss of motor speech production.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
@@ -134,3 +131,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

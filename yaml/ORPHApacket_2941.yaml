@@ -1,22 +1,45 @@
 Orphapacket:
-  ORPHApacketId: '2941'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2941'
-  Label: Porencephaly-cerebellar hypoplasia-internal malformations syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_2941
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '601322'
+    Source: OMIM
+  Label: Porencephaly-cerebellar hypoplasia-internal malformations syndrome
+  ORPHAcode: '2941'
+  ORPHApacketId: '2941'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2941
+  Parents:
+  - Parent:
+    - Label: Syndrome with a cerebellar malformation as a major feature
+      ORPHAcode: '269523'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 8737647[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_8737647[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Bonnemann-Meinecke syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '601322'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Porencephaly-cerebellar hypoplasia-internal malformations syndrome is
       rare central nervous system malformation syndrome characterized by bilateral
       porencephaly absence of the septum pellucidum and cerebellar hypoplasia with
@@ -24,30 +47,7 @@ Orphapacket:
       folds high arched palate prominent metopic suture) macrocephaly corneal clouding
       situs inversus tetralogy of Fallot atrial septal defects and/or seizures have
       been observed.
-  Parents:
-  - Parent:
-    - ORPHAcode: '269523'
-      Label: Syndrome with a cerebellar malformation as a major feature
-  Prevalences:
-  - Prevalence:
-      Source: 8737647[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_8737647[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Antenatal
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,73 +1,73 @@
 Orphapacket:
-  ORPHApacketId: '2997'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2997'
-  Label: Ptosis-vocal cord paralysis syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_2997
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '193240'
+    Source: OMIM
+  Label: Ptosis-vocal cord paralysis syndrome
+  ORPHAcode: '2997'
+  ORPHApacketId: '2997'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2997
+  Parents:
+  - Parent:
+    - Label: Rare disorder with ptosis
+      ORPHAcode: '98578'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000508
+      HPOTerm: Ptosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001601
+      HPOTerm: Laryngomalacia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001611
+      HPOTerm: Nasal speech
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002301
+      HPOTerm: Hemiplegia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001622
+      HPOTerm: Premature birth
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003510
+      HPOTerm: Severe short stature
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 6633110[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_6633110[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Tucker syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '193240'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Ptosis-vocal cord paralysis syndrome is a rare hereditary disorder with
       ptosis characterized by the combination of congenital bilateral recurrent laryngeal
       nerve paralysis and congenital bilateral ptosis. There have been no further
       descriptions in the literature since 1983.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98578'
-      Label: Rare disorder with ptosis
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000508
-      HPOTerm: Ptosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001601
-      HPOTerm: Laryngomalacia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001611
-      HPOTerm: Nasal speech
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002301
-      HPOTerm: Hemiplegia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001622
-      HPOTerm: Premature birth
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003510
-      HPOTerm: Severe short stature
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 6633110[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_6633110[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

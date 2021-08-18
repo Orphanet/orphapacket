@@ -1,89 +1,90 @@
 Orphapacket:
-  ORPHApacketId: '166081'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '166081'
-  Label: Von Willebrand disease type 2
-  PURL: http://www.orpha.net/ORDO/Orphanet_166081
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '613554'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Type 2 von Willebrand disease (type 2 VWD) is a form of VWD (see this
-      term) characterized by a bleeding disorder associated with a qualitative deficiency
-      and functional anomalies of the Willebrand factor (von Willebrand factor; VWF).
-  Parents:
-  - Parent:
-    - ORPHAcode: '903'
-      Label: Von Willebrand disease
-  Childs:
-  - Child:
-      Label: Von Willebrand disease type 2A
-      ORPHAcode: '166084'
-      Genes:
-      - Gene:
-          Label: von Willebrand factor
-          Symbol: VWF
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12726'
-          - Source: OMIM
-            Reference: '613160'
-  - Child:
-      Label: Von Willebrand disease type 2B
-      ORPHAcode: '166087'
-      Genes:
-      - Gene:
-          Label: von Willebrand factor
-          Symbol: VWF
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12726'
-          - Source: OMIM
-            Reference: '613160'
-  - Child:
-      Label: Von Willebrand disease type 2M
-      ORPHAcode: '166090'
-      Genes:
-      - Gene:
-          Label: von Willebrand factor
-          Symbol: VWF
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12726'
-          - Source: OMIM
-            Reference: '613160'
-  - Child:
-      Label: Von Willebrand disease type 2N
-      ORPHAcode: '166093'
-      Genes:
-      - Gene:
-          Label: von Willebrand factor
-          Symbol: VWF
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12726'
-          - Source: OMIM
-            Reference: '613160'
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: All ages
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '12726'
+            Source: HGNC
+          - Reference: '613160'
+            Source: OMIM
+          Label: von Willebrand factor
+          Symbol: VWF
+      Label: Von Willebrand disease type 2A
+      ORPHAcode: '166084'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '12726'
+            Source: HGNC
+          - Reference: '613160'
+            Source: OMIM
+          Label: von Willebrand factor
+          Symbol: VWF
+      Label: Von Willebrand disease type 2B
+      ORPHAcode: '166087'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '12726'
+            Source: HGNC
+          - Reference: '613160'
+            Source: OMIM
+          Label: von Willebrand factor
+          Symbol: VWF
+      Label: Von Willebrand disease type 2M
+      ORPHAcode: '166090'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '12726'
+            Source: HGNC
+          - Reference: '613160'
+            Source: OMIM
+          Label: von Willebrand factor
+          Symbol: VWF
+      Label: Von Willebrand disease type 2N
+      ORPHAcode: '166093'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '613554'
+    Source: OMIM
+  Label: Von Willebrand disease type 2
+  ORPHAcode: '166081'
+  ORPHApacketId: '166081'
+  PURL: http://www.orpha.net/ORDO/Orphanet_166081
+  Parents:
+  - Parent:
+    - Label: Von Willebrand disease
+      ORPHAcode: '903'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  TextSection:
+    Contents: A form of von Willebrand disease (VWD) characterized by a bleeding disorder
+      associated with a qualitative deficiency and functional anomalies of the Willebrand
+      factor (VWF). Depending on the type of functional abnormalities this form is
+      classified as type 2A 2B 2M or 2N.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

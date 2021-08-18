@@ -1,55 +1,55 @@
 Orphapacket:
-  ORPHApacketId: '467'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '467'
-  Label: Non-acquired combined pituitary hormone deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_467
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Disease associated with non-acquired combined pituitary hormone deficiency
+      ORPHAcode: '95495'
+  - Child:
+      Genes: no data
+      Label: Non-acquired combined pituitary hormone deficiencies without extrapituitary
+        malformations
+      ORPHAcode: '178025'
   DisorderType:
-    value: Category
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Non-acquired combined pituitary hormone deficiency
+  ORPHAcode: '467'
+  ORPHApacketId: '467'
+  PURL: http://www.orpha.net/ORDO/Orphanet_467
+  Parents:
+  - Parent:
+    - Label: Non-acquired pituitary hormone deficiency
+      ORPHAcode: '95488'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]'
+      ValMoy: no data
   Synonyms:
   - Synonym: Congenital combined pituitary hormone deficiency
   - Synonym: Congenital hypopituitarism
   TextSection:
-    TextSectionType: Definition
     Contents: Congenital hypopituitarism is characterized by multiple pituitary hormone
       deficiency including somatotroph thyrotroph lactotroph corticotroph or gonadotroph
       deficiencies due to mutations of pituitary transcription factors involved in
       pituitary ontogenesis.
-  Parents:
-  - Parent:
-    - ORPHAcode: '95488'
-      Label: Non-acquired pituitary hormone deficiency
-  Childs:
-  - Child:
-      Label: Disease associated with non-acquired combined pituitary hormone deficiency
-      ORPHAcode: '95495'
-      Genes: no data
-  - Child:
-      Label: Non-acquired combined pituitary hormone deficiencies without extrapituitary
-        malformations
-      ORPHAcode: '178025'
-      Genes: no data
-  Prevalences:
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

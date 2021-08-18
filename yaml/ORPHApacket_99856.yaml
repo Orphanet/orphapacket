@@ -1,18 +1,30 @@
 Orphapacket:
-  ORPHApacketId: '99856'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99856'
-  Label: Primary syringomyelia
-  PURL: http://www.orpha.net/ORDO/Orphanet_99856
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Idiopathic syringomyelia
+      ORPHAcode: '99858'
+  - Child:
+      Genes: no data
+      Label: Familial syringomyelia
+      ORPHAcode: '370034'
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  Label: Primary syringomyelia
+  ORPHAcode: '99856'
+  ORPHApacketId: '99856'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99856
+  Parents:
+  - Parent:
+    - Label: Syringomyelia
+      ORPHAcode: '3280'
+  - Parent:
+    - Label: Malformation of the neurenteric canal, spinal cord and column
+      ORPHAcode: '268843'
   Synonyms:
   - Synonym: Congenital syringomyelia
   TextSection:
-    TextSectionType: Definition
     Contents: A rare central nervous system malformation characterized by a fluid-filled
       longitudinally oriented cavity (syrinx) within the spinal cord which may or
       may not communicate with the central canal does not have an ependymal lining
@@ -21,19 +33,7 @@ Orphapacket:
       disturbances. Typical presentations may be cape-like loss of pain and temperature
       sensation along the torso and arms or disproportionately greater motor impairment
       in upper compared to lower extremities.
-  Parents:
-  - Parent:
-    - ORPHAcode: '3280'
-      Label: Syringomyelia
-  - Parent:
-    - ORPHAcode: '268843'
-      Label: Malformation of the neurenteric canal, spinal cord and column
-  Childs:
-  - Child:
-      Label: Idiopathic syringomyelia
-      ORPHAcode: '99858'
-      Genes: no data
-  - Child:
-      Label: Familial syringomyelia
-      ORPHAcode: '370034'
-      Genes: no data
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

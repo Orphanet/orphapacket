@@ -1,56 +1,60 @@
 Orphapacket:
-  ORPHApacketId: '314485'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '314485'
-  Label: Young adult-onset distal hereditary motor neuropathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_314485
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '614881'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: DnaJ heat shock protein family (Hsp40) member B2
+      Symbol: DNAJB2
+  - Gene:
+      ExternalReferences: []
+      Name: von Willebrand factor A domain containing 1
+      Symbol: VWA1
+  Label: Young adult-onset distal hereditary motor neuropathy
+  ORPHAcode: '314485'
+  ORPHApacketId: '314485'
+  PURL: http://www.orpha.net/ORDO/Orphanet_314485
+  Parents:
+  - Parent:
+    - Label: Autosomal recessive distal hereditary motor neuropathy
+      ORPHAcode: '140468'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 22522442[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: Autosomal recessive distal spinal muscular atrophy type 5
   - Synonym: Young adult-onset dHMN
   - Synonym: dSMA5
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614881'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Young adult-onset distal hereditary motor neuropathy is a rare autosomal
       recessive distal hereditary motor neuropathy characterized by slowly progressive
       muscular weakness hypotonia and atrophy of the lower limbs more pronounced distally
       leading to paralysis and loss of tendon reflexes. Additional features may include
       pes cavus and mild dysphonia. The upper limbs are relatively spared.
-  Genes:
-  - Gene:
-      Symbol: DNAJB2
-      Name: DnaJ heat shock protein family (Hsp40) member B2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '140468'
-      Label: Autosomal recessive distal hereditary motor neuropathy
-  Prevalences:
-  - Prevalence:
-      Source: 22522442[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

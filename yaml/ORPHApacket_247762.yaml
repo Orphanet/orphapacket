@@ -1,37 +1,37 @@
 Orphapacket:
-  ORPHApacketId: '247762'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '247762'
-  Label: Lipoblastoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_247762
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Lipoblastoma
+  ORPHAcode: '247762'
+  ORPHApacketId: '247762'
+  PURL: http://www.orpha.net/ORDO/Orphanet_247762
+  Parents:
+  - Parent:
+    - Label: Rare soft tissue tumor
+      ORPHAcode: '71209'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare soft tissue tumor characterized by a lobulated localized (lipoblastoma)
       or diffuse (lipoblastomatosis) lesion resembling fetal adipose tissue composed
       of mature and immature adipocytes. It is most commonly found during the first
       years of life and presents as a slowly growing well circumscribed mass which
       may compress adjacent structures depending on the location. Malignant transformation
       or metastasis does not occur while recurrences are described especially in lipoblastomatosis.
-  Parents:
-  - Parent:
-    - ORPHAcode: '71209'
-      Label: Rare soft tissue tumor
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

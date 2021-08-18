@@ -1,67 +1,67 @@
 Orphapacket:
-  ORPHApacketId: '404481'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '404481'
-  Label: Autosomal recessive cerebellar ataxia-epilepsy-intellectual disability syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_404481
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '1172'
-      Label: Autosomal recessive cerebellar ataxia
-  - Parent:
-    - ORPHAcode: '102369'
-      Label: Rare syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '166472'
-      Label: Monogenic disease with epilepsy
-  - Parent:
-    - ORPHAcode: '183763'
-      Label: Rare genetic syndromic intellectual disability
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '12799'
+            Source: HGNC
+          - Reference: '605131'
+            Source: OMIM
+          Label: WW domain containing oxidoreductase
+          Symbol: WWOX
       Label: Autosomal recessive cerebellar ataxia-epilepsy-intellectual disability
         syndrome due to WWOX deficiency
       ORPHAcode: '284282'
+  - Child:
       Genes:
       - Gene:
-          Label: WW domain containing oxidoreductase
-          Symbol: WWOX
           ExternalReferences:
-          - Source: HGNC
-            Reference: '12799'
-          - Source: OMIM
-            Reference: '605131'
-  - Child:
+          - Reference: '17768'
+            Source: HGNC
+          - Reference: '605764'
+            Source: OMIM
+          Label: tyrosyl-DNA phosphodiesterase 2
+          Symbol: TDP2
       Label: Autosomal recessive cerebellar ataxia-epilepsy-intellectual disability
         syndrome due to TUD deficiency
       ORPHAcode: '404493'
+  - Child:
       Genes:
       - Gene:
-          Label: tyrosyl-DNA phosphodiesterase 2
-          Symbol: TDP2
           ExternalReferences:
-          - Source: HGNC
-            Reference: '17768'
-          - Source: OMIM
-            Reference: '605764'
-  - Child:
+          - Reference: '28991'
+            Source: HGNC
+          - Reference: '613516'
+            Source: OMIM
+          Label: rubicon autophagy regulator
+          Symbol: RUBCN
       Label: Autosomal recessive cerebellar ataxia-epilepsy-intellectual disability
         syndrome due to RUBCN deficiency
       ORPHAcode: '404499'
-      Genes:
-      - Gene:
-          Label: rubicon autophagy regulator
-          Symbol: RUBCN
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '28991'
-          - Source: OMIM
-            Reference: '613516'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Autosomal recessive cerebellar ataxia-epilepsy-intellectual disability syndrome
+  ORPHAcode: '404481'
+  ORPHApacketId: '404481'
+  PURL: http://www.orpha.net/ORDO/Orphanet_404481
+  Parents:
+  - Parent:
+    - Label: Autosomal recessive cerebellar ataxia
+      ORPHAcode: '1172'
+  - Parent:
+    - Label: Rare syndromic intellectual disability
+      ORPHAcode: '102369'
+  - Parent:
+    - Label: Monogenic disease with epilepsy
+      ORPHAcode: '166472'
+  - Parent:
+    - Label: Rare genetic syndromic intellectual disability
+      ORPHAcode: '183763'
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

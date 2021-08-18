@@ -1,120 +1,120 @@
 Orphapacket:
-  ORPHApacketId: '903'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '903'
-  Label: Von Willebrand disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_903
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '12726'
+            Source: HGNC
+          - Reference: '613160'
+            Source: OMIM
+          Label: von Willebrand factor
+          Symbol: VWF
+      Label: Von Willebrand disease type 1
+      ORPHAcode: '166078'
+  - Child:
+      Genes: no data
+      Label: Von Willebrand disease type 2
+      ORPHAcode: '166081'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '12726'
+            Source: HGNC
+          - Reference: '613160'
+            Source: OMIM
+          Label: von Willebrand factor
+          Symbol: VWF
+      Label: Von Willebrand disease type 3
+      ORPHAcode: '166096'
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Hereditary von Willebrand disease
+    value: Disease
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
       Reference: '193400'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
-  - ExternalReference:
-      Source: OMIM
       Reference: '277480'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
-  - ExternalReference:
-      Source: OMIM
       Reference: '314560'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
       Source: OMIM
-      Reference: '613554'
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
+      Reference: '613554'
+      Source: OMIM
+  Label: Von Willebrand disease
+  ORPHAcode: '903'
+  ORPHApacketId: '903'
+  PURL: http://www.orpha.net/ORDO/Orphanet_903
+  Parents:
+  - Parent:
+    - Label: Rare hemorrhagic disorder due to a constitutional coagulation factors
+        defect
+      ORPHAcode: '68334'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001633
+      HPOTerm: Abnormal mitral valve morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001872
+      HPOTerm: Abnormality of thrombocytes
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001928
+      HPOTerm: Abnormality of coagulation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004097
+      HPOTerm: Deviation of finger
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005293
+      HPOTerm: Venous insufficiency
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011869
+      HPOTerm: Abnormal platelet function
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]'
+      ValMoy: '12.5'
+  Synonyms:
+  - Synonym: Hereditary von Willebrand disease
   TextSection:
-    TextSectionType: Definition
     Contents: 'A rare inherited bleeding disorder characterized by defective platelet
       adhesion and secondary coagulation defect that manifests as abnormal bleeding
       of variable severity occurring either spontaneously or in association with an
       invasive procedure. Three main subtypes are defined based on the type of von
       Willebrand factor defect: partial (type 1) or total (type 3) deficiency and
       qualitative/functional anomalies (type 2).'
-  Parents:
-  - Parent:
-    - ORPHAcode: '68334'
-      Label: Rare hemorrhagic disorder due to a constitutional coagulation factors
-        defect
-  Childs:
-  - Child:
-      Label: Von Willebrand disease type 1
-      ORPHAcode: '166078'
-      Genes:
-      - Gene:
-          Label: von Willebrand factor
-          Symbol: VWF
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12726'
-          - Source: OMIM
-            Reference: '613160'
-  - Child:
-      Label: Von Willebrand disease type 2
-      ORPHAcode: '166081'
-      Genes: no data
-  - Child:
-      Label: Von Willebrand disease type 3
-      ORPHAcode: '166096'
-      Genes:
-      - Gene:
-          Label: von Willebrand factor
-          Symbol: VWF
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12726'
-          - Source: OMIM
-            Reference: '613160'
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001633
-      HPOTerm: Abnormal mitral valve morphology
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001872
-      HPOTerm: Abnormality of thrombocytes
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001928
-      HPOTerm: Abnormality of coagulation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0004097
-      HPOTerm: Deviation of finger
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0005293
-      HPOTerm: Venous insufficiency
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0011869
-      HPOTerm: Abnormal platelet function
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: '[EXPERT]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: '12.5'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

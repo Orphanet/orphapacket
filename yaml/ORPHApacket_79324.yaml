@@ -1,14 +1,67 @@
 Orphapacket:
-  ORPHApacketId: '79324'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79324'
-  Label: ALG12-CDG
-  PURL: http://www.orpha.net/ORDO/Orphanet_79324
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '607143'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ALG12 alpha-1,6-mannosyltransferase
+      Symbol: ALG12
+  Label: ALG12-CDG
+  ORPHAcode: '79324'
+  ORPHApacketId: '79324'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79324
+  Parents:
+  - Parent:
+    - Label: Congenital disorder of glycosylation with neurological involvement
+      ORPHAcode: '371047'
+  - Parent:
+    - Label: Disorder of protein N-glycosylation
+      ORPHAcode: '309347'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000078
+      HPOTerm: Abnormality of the genital system
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001252
+      HPOTerm: Muscular hypotonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010978
+      HPOTerm: Abnormality of immune system physiology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100543
+      HPOTerm: Cognitive impairment
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 22516080[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_22516080[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: CDG syndrome type Ig
   - Synonym: CDG-Ig
@@ -17,12 +70,7 @@ Orphapacket:
   - Synonym: Congenital disorder of glycosylation type 1g
   - Synonym: Congenital disorder of glycosylation type Ig
   - Synonym: Mannosyltransferase 8 deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '607143'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A form of congenital disorders of N-linked glycosylation characterized
       by facial dysmorphism (prominent forehead large ears thin upper lip) generalized
       hypotonia feeding difficulties moderate to severe developmental delay progressive
@@ -31,58 +79,10 @@ Orphapacket:
       features include hypogonadism with or without hypospadias in males skeletal
       anomalies seizures and cardiac anomalies in some cases. The disease is caused
       by loss of function mutations of the gene <i>ALG12</i> (22q13.33).
-  Genes:
-  - Gene:
-      Symbol: ALG12
-      Name: ALG12 alpha-1,6-mannosyltransferase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '371047'
-      Label: Congenital disorder of glycosylation with neurological involvement
-  - Parent:
-    - ORPHAcode: '309347'
-      Label: Disorder of protein N-glycosylation
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000078
-      HPOTerm: Abnormality of the genital system
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001252
-      HPOTerm: Muscular hypotonia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0010978
-      HPOTerm: Abnormality of immune system physiology
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0100543
-      HPOTerm: Cognitive impairment
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 22516080[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_22516080[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,14 +1,276 @@
 Orphapacket:
-  ORPHApacketId: '370'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '370'
-  Label: Glycogen storage disease due to phosphorylase kinase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_370
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '8925'
+            Source: HGNC
+          - Reference: '311870'
+            Source: OMIM
+          Label: phosphorylase kinase regulatory subunit alpha 1
+          Symbol: PHKA1
+      - Gene:
+          ExternalReferences:
+          - Reference: '172470'
+            Source: OMIM
+          - Reference: '8930'
+            Source: HGNC
+          Label: phosphorylase kinase catalytic subunit gamma 1
+          Symbol: PHKG1
+      Label: Glycogen storage disease due to muscle phosphorylase kinase deficiency
+      ORPHAcode: '715'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '8927'
+            Source: HGNC
+          - Reference: '172490'
+            Source: OMIM
+          Label: phosphorylase kinase regulatory subunit beta
+          Symbol: PHKB
+      Label: Glycogen storage disease due to liver and muscle phosphorylase kinase
+        deficiency
+      ORPHAcode: '79240'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '8926'
+            Source: HGNC
+          - Reference: '300798'
+            Source: OMIM
+          Label: phosphorylase kinase regulatory subunit alpha 2
+          Symbol: PHKA2
+      - Gene:
+          ExternalReferences:
+          - Reference: '8931'
+            Source: HGNC
+          - Reference: '172471'
+            Source: OMIM
+          Label: phosphorylase kinase catalytic subunit gamma 2
+          Symbol: PHKG2
+      Label: Glycogen storage disease due to liver phosphorylase kinase deficiency
+      ORPHAcode: '264580'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Glycogen storage disease due to phosphorylase kinase deficiency
+  ORPHAcode: '370'
+  ORPHApacketId: '370'
+  PURL: http://www.orpha.net/ORDO/Orphanet_370
+  Parents:
+  - Parent:
+    - Label: Glycogen storage disease
+      ORPHAcode: '79201'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012379
+      HPOTerm: Abnormal enzyme/coenzyme activity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0030272
+      HPOTerm: Abnormal erythrocyte enzyme activity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000707
+      HPOTerm: Abnormality of the nervous system
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001397
+      HPOTerm: Hepatic steatosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001510
+      HPOTerm: Growth delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001946
+      HPOTerm: Ketosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002013
+      HPOTerm: Vomiting
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002014
+      HPOTerm: Diarrhea
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002155
+      HPOTerm: Hypertriglyceridemia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002194
+      HPOTerm: Delayed gross motor development
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002240
+      HPOTerm: Hepatomegaly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002910
+      HPOTerm: Elevated hepatic transaminase
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003124
+      HPOTerm: Hypercholesterolemia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003162
+      HPOTerm: Fasting hypoglycemia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000147
+      HPOTerm: Polycystic ovaries
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000823
+      HPOTerm: Delayed puberty
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000858
+      HPOTerm: Irregular menstruation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000876
+      HPOTerm: Oligomenorrhea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001252
+      HPOTerm: Muscular hypotonia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001324
+      HPOTerm: Muscle weakness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001396
+      HPOTerm: Cholestasis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002360
+      HPOTerm: Sleep disturbance
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002913
+      HPOTerm: Myoglobinuria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003202
+      HPOTerm: Skeletal muscle atrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003236
+      HPOTerm: Elevated serum creatine kinase
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003323
+      HPOTerm: Progressive muscle weakness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003326
+      HPOTerm: Myalgia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003394
+      HPOTerm: Muscle spasm
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003546
+      HPOTerm: Exercise intolerance
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030232
+      HPOTerm: Increased sarcoplasmic glycogen
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100607
+      HPOTerm: Dysmenorrhea
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000750
+      HPOTerm: Delayed speech and language development
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001394
+      HPOTerm: Cirrhosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001395
+      HPOTerm: Hepatic fibrosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001402
+      HPOTerm: Hepatocellular carcinoma
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001627
+      HPOTerm: Abnormal heart morphology
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001638
+      HPOTerm: Cardiomyopathy
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001744
+      HPOTerm: Splenomegaly
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001947
+      HPOTerm: Renal tubular acidosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002040
+      HPOTerm: Esophageal varix
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0003201
+      HPOTerm: Rhabdomyolysis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0003325
+      HPOTerm: Limb-girdle muscle weakness
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0005144
+      HPOTerm: Ventricular septal hypertrophy
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0006580
+      HPOTerm: Portal fibrosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0012028
+      HPOTerm: Hepatocellular adenoma
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: GSD due to phosphorylase kinase deficiency
   - Synonym: GSD type 9
@@ -21,111 +283,17 @@ Orphapacket:
   - Synonym: Glycogenosis type IX
   - Synonym: Gycogenosis due to PhK deficiency
   TextSection:
-    TextSectionType: Definition
     Contents: Glycogen storage disease (GSD) due to phosphorylase kinase deficiency
       is a group of inborn errors of glycogen metabolism that is clinically and genetically
       heterogeneous. This group comprises GSD due to liver phosphorylase kinase (PhK)
       deficiency GSD due to muscle PhK deficiency and GSD due to liver and muscle
       PhK deficiency (see these terms).
-  Parents:
-  - Parent:
-    - ORPHAcode: '79201'
-      Label: Glycogen storage disease
-  Childs:
-  - Child:
-      Label: Glycogen storage disease due to muscle phosphorylase kinase deficiency
-      ORPHAcode: '715'
-      Genes:
-      - Gene:
-          Label: phosphorylase kinase regulatory subunit alpha 1
-          Symbol: PHKA1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8925'
-          - Source: OMIM
-            Reference: '311870'
-      - Gene:
-          Label: phosphorylase kinase catalytic subunit gamma 1
-          Symbol: PHKG1
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '172470'
-          - Source: HGNC
-            Reference: '8930'
-  - Child:
-      Label: Glycogen storage disease due to liver and muscle phosphorylase kinase
-        deficiency
-      ORPHAcode: '79240'
-      Genes:
-      - Gene:
-          Label: phosphorylase kinase regulatory subunit beta
-          Symbol: PHKB
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8927'
-          - Source: OMIM
-            Reference: '172490'
-  - Child:
-      Label: Glycogen storage disease due to liver phosphorylase kinase deficiency
-      ORPHAcode: '264580'
-      Genes:
-      - Gene:
-          Label: phosphorylase kinase regulatory subunit alpha 2
-          Symbol: PHKA2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8926'
-          - Source: OMIM
-            Reference: '300798'
-      - Gene:
-          Label: phosphorylase kinase catalytic subunit gamma 2
-          Symbol: PHKG2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8931'
-          - Source: OMIM
-            Reference: '172471'
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001510
-      HPOTerm: Growth delay
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001943
-      HPOTerm: Hypoglycemia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003119
-      HPOTerm: Abnormality of lipid metabolism
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0004322
-      HPOTerm: Short stature
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100543
-      HPOTerm: Cognitive impairment
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

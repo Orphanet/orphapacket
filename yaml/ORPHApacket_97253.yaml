@@ -1,14 +1,82 @@
 Orphapacket:
-  ORPHApacketId: '97253'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '97253'
-  Label: Neuroendocrine tumor of pancreas
-  PURL: http://www.orpha.net/ORDO/Orphanet_97253
+  AverageAgeOfDeaths:
+  - AverageAgeOfDeath:
+      value: no data
+  - AverageAgeOfDeath:
+      value: no data
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Functioning neuroendocrine tumor of pancreas
+      ORPHAcode: '506060'
+  - Child:
+      Genes: no data
+      Label: Non-functioning neuroendocrine tumor of pancreas
+      ORPHAcode: '506075'
   DisorderType:
-    value: Category
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Neuroendocrine tumor of pancreas
+  ORPHAcode: '97253'
+  ORPHApacketId: '97253'
+  PURL: http://www.orpha.net/ORDO/Orphanet_97253
+  Parents:
+  - Parent:
+    - Label: Neuroendocrine neoplasm of pancreas
+      ORPHAcode: '506052'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 18515795[PMID]_National Cancer Institute[INST]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Japan
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 24499825[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Japan
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 24499825[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: France
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 15016750[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 15016750[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 23237225[PMID]_[EXPERT]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: PNET
   - Synonym: Pancreatic NET
@@ -18,7 +86,6 @@ Orphapacket:
   - Synonym: Well-differentiated pancreatic NEN
   - Synonym: Well-differentiated pancreatic neuroendocrine neoplasm
   TextSection:
-    TextSectionType: Definition
     Contents: Pancreatic endocrine tumor also known as pancreatic neuroendocrine tumor
       (PNET) describes a group of endocrine tumors originating in the pancreas that
       are usually indolent and benign but may have the potential to be malignant.
@@ -27,79 +94,12 @@ Orphapacket:
       glucagonoma VIPoma somatostatinoma (SSoma) PPoma and Zollinger-Ellison syndrome
       (ZES or gastrinoma) and other ectopic hormone producing tumors (such as GRFoma)
       (see these terms).
-  Parents:
-  - Parent:
-    - ORPHAcode: '506052'
-      Label: Neuroendocrine neoplasm of pancreas
-  Childs:
-  - Child:
-      Label: Functioning neuroendocrine tumor of pancreas
-      ORPHAcode: '506060'
-      Genes: no data
-  - Child:
-      Label: Non-functioning neuroendocrine tumor of pancreas
-      ORPHAcode: '506075'
-      Genes: no data
-  Prevalences:
-  - Prevalence:
-      Source: 18515795[PMID]_National Cancer Institute[INST]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: United States
-  - Prevalence:
-      Source: 24499825[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Japan
-  - Prevalence:
-      Source: 24499825[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Japan
-  - Prevalence:
-      Source: 15016750[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: France
-  - Prevalence:
-      Source: 15016750[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 23237225[PMID]_[EXPERT]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: United States
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: no data
-  - AverageAgeOfDeath:
-      value: no data
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

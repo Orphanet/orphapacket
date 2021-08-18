@@ -1,57 +1,57 @@
 Orphapacket:
-  ORPHApacketId: '576278'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '576278'
-  Label: SATB2-associated syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_576278
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: SAS
-  Parents:
-  - Parent:
-    - ORPHAcode: '139042'
-      Label: Malformation syndrome with odontal and/or periodontal component
-  - Parent:
-    - ORPHAcode: '102283'
-      Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-  - Parent:
-    - ORPHAcode: '156237'
-      Label: Syndrome or malformation associated with head and neck malformations
-  - Parent:
-    - ORPHAcode: '102369'
-      Label: Rare syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '77830'
-      Label: Rare genetic odontologic disease
-  - Parent:
-    - ORPHAcode: '183763'
-      Label: Rare genetic syndromic intellectual disability
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '21637'
+            Source: HGNC
+          - Reference: '608148'
+            Source: OMIM
+          Label: SATB homeobox 2
+          Symbol: SATB2
       Label: SATB2-associated syndrome due to a chromosomal rearrangement
       ORPHAcode: '251028'
+  - Child:
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '21637'
+            Source: HGNC
+          - Reference: '608148'
+            Source: OMIM
           Label: SATB homeobox 2
           Symbol: SATB2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '21637'
-          - Source: OMIM
-            Reference: '608148'
-  - Child:
       Label: SATB2-associated syndrome due to a pathogenic variant
       ORPHAcode: '576283'
-      Genes:
-      - Gene:
-          Label: SATB homeobox 2
-          Symbol: SATB2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '21637'
-          - Source: OMIM
-            Reference: '608148'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Label: SATB2-associated syndrome
+  ORPHAcode: '576278'
+  ORPHApacketId: '576278'
+  PURL: http://www.orpha.net/ORDO/Orphanet_576278
+  Parents:
+  - Parent:
+    - Label: Malformation syndrome with odontal and/or periodontal component
+      ORPHAcode: '139042'
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
+  - Parent:
+    - Label: Syndrome or malformation associated with head and neck malformations
+      ORPHAcode: '156237'
+  - Parent:
+    - Label: Rare syndromic intellectual disability
+      ORPHAcode: '102369'
+  - Parent:
+    - Label: Rare genetic odontologic disease
+      ORPHAcode: '77830'
+  - Parent:
+    - Label: Rare genetic syndromic intellectual disability
+      ORPHAcode: '183763'
+  Synonyms:
+  - Synonym: SAS
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,14 +1,102 @@
 Orphapacket:
-  ORPHApacketId: '353253'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '353253'
-  Label: Burning mouth syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_353253
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Burning mouth syndrome
+  ORPHAcode: '353253'
+  ORPHApacketId: '353253'
+  PURL: http://www.orpha.net/ORDO/Orphanet_353253
+  Parents:
+  - Parent:
+    - Label: Rare headache
+      ORPHAcode: '98022'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012534
+      HPOTerm: Dysesthesia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0031249
+      HPOTerm: Parageusia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010829
+      HPOTerm: Impaired temperature sensation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010824
+      HPOTerm: Abnormal fifth cranial nerve morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007377
+      HPOTerm: Abnormality of somatosensory evoked potentials
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0032143
+      HPOTerm: Burning mouth
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000223
+      HPOTerm: Abnormality of taste sensation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000739
+      HPOTerm: Anxiety
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000716
+      HPOTerm: Depressivity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030811
+      HPOTerm: Tongue pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000168
+      HPOTerm: Abnormality of the gingiva
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000217
+      HPOTerm: Xerostomia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002315
+      HPOTerm: Headache
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002360
+      HPOTerm: Sleep disturbance
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000712
+      HPOTerm: Emotional lability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0031042
+      HPOTerm: Strawberry tongue
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010298
+      HPOTerm: Smooth tongue
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_10478959[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_10478959[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: BMS
   - Synonym: Oral dysesthesia
@@ -16,31 +104,12 @@ Orphapacket:
   - Synonym: Stomatodynia
   - Synonym: Stomatopyrosis
   TextSection:
-    TextSectionType: Definition
     Contents: A rare neurologic disease characterized by an unremitting bilateral
       symmetrical burning sensation of the oral mucosa without clinical evidence of
       causative lesions. It most frequently occurs in postmenopausal women and typically
       affects the tongue less often the palate lips or buccal mucosa. It is often
       associated with dysgeusia and xerostomia.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98022'
-      Label: Rare headache
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET_10478959[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_10478959[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,22 +1,139 @@
 Orphapacket:
-  ORPHApacketId: '497764'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '497764'
-  Label: Spinocerebellar ataxia type 43
-  PURL: http://www.orpha.net/ORDO/Orphanet_497764
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Elderly
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '617017'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: membrane metalloendopeptidase
+      Symbol: MME
+  Label: Spinocerebellar ataxia type 43
+  ORPHAcode: '497764'
+  ORPHApacketId: '497764'
+  PURL: http://www.orpha.net/ORDO/Orphanet_497764
+  Parents:
+  - Parent:
+    - Label: Autosomal dominant cerebellar ataxia type I
+      ORPHAcode: '94145'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003477
+      HPOTerm: Peripheral axonal neuropathy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008959
+      HPOTerm: Distal upper limb muscle weakness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009053
+      HPOTerm: Distal lower limb muscle weakness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000571
+      HPOTerm: Hypometric saccades
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000768
+      HPOTerm: Pectus carinatum
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001260
+      HPOTerm: Dysarthria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001265
+      HPOTerm: Hyporeflexia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001284
+      HPOTerm: Areflexia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001761
+      HPOTerm: Pes cavus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002066
+      HPOTerm: Gait ataxia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002070
+      HPOTerm: Limb ataxia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002317
+      HPOTerm: Unsteady gait
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002396
+      HPOTerm: Cogwheel rigidity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002936
+      HPOTerm: Distal sensory impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003387
+      HPOTerm: Decreased number of large peripheral myelinated nerve fibers
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003693
+      HPOTerm: Distal amyotrophy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007141
+      HPOTerm: Sensorimotor neuropathy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009027
+      HPOTerm: Foot dorsiflexor weakness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012531
+      HPOTerm: Pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002073
+      HPOTerm: Progressive cerebellar ataxia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006855
+      HPOTerm: Cerebellar vermis atrophy
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0000726
+      HPOTerm: Dementia
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 27583304[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_27583304[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: SCA43
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '617017'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
   TextSection:
-    TextSectionType: Definition
     Contents: Spinocerebellar ataxia type 43 is a rare autosomal dominant cerebellar
       ataxia type I disorder characterized by late adult-onset of slowly progressive
       cerebellar ataxia typically presenting with balance and gait disturbances in
@@ -24,127 +141,10 @@ Orphapacket:
       tendon reflexes and sensory impairment. Lower limb pain and amyotrophy may be
       present as well as various cerebellar signs including dysarthria nystagmus hypometric
       saccades and tremor.
-  Genes:
-  - Gene:
-      Symbol: MME
-      Name: membrane metalloendopeptidase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '94145'
-      Label: Autosomal dominant cerebellar ataxia type I
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0003477
-      HPOTerm: Peripheral axonal neuropathy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008959
-      HPOTerm: Distal upper limb muscle weakness
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0009053
-      HPOTerm: Distal lower limb muscle weakness
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000571
-      HPOTerm: Hypometric saccades
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000768
-      HPOTerm: Pectus carinatum
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001260
-      HPOTerm: Dysarthria
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001265
-      HPOTerm: Hyporeflexia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001284
-      HPOTerm: Areflexia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001761
-      HPOTerm: Pes cavus
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002066
-      HPOTerm: Gait ataxia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002070
-      HPOTerm: Limb ataxia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002317
-      HPOTerm: Unsteady gait
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002396
-      HPOTerm: Cogwheel rigidity
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002936
-      HPOTerm: Distal sensory impairment
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003387
-      HPOTerm: Decreased number of large peripheral myelinated nerve fibers
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003693
-      HPOTerm: Distal amyotrophy
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0007141
-      HPOTerm: Sensorimotor neuropathy
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0009027
-      HPOTerm: Foot dorsiflexor weakness
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012531
-      HPOTerm: Pain
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002073
-      HPOTerm: Progressive cerebellar ataxia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0006855
-      HPOTerm: Cerebellar vermis atrophy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000726
-      HPOTerm: Dementia
-      HPOFrequency: Excluded (0%)
-  Prevalences:
-  - Prevalence:
-      Source: 27583304[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_27583304[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adult
-  - AverageAgeOfOnset:
-      value: Elderly
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

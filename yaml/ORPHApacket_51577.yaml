@@ -1,18 +1,55 @@
 Orphapacket:
-  ORPHApacketId: '51577'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '51577'
-  Label: Cobblestone lissencephaly
-  PURL: http://www.orpha.net/ORDO/Orphanet_51577
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '6486'
+            Source: HGNC
+          - Reference: '150240'
+            Source: OMIM
+          Label: laminin subunit beta 1
+          Symbol: LAMB1
+      Label: Cobblestone lissencephaly without muscular or ocular involvement
+      ORPHAcode: '352682'
+  - Child:
+      Genes: no data
+      Label: Congenital muscular alpha-dystroglycanopathy with brain and eye anomalies
+      ORPHAcode: '352687'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Cobblestone lissencephaly
+  ORPHAcode: '51577'
+  ORPHApacketId: '51577'
+  PURL: http://www.orpha.net/ORDO/Orphanet_51577
+  Parents:
+  - Parent:
+    - Label: Lissencephaly
+      ORPHAcode: '48471'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: Lissencephaly type 2
   TextSection:
-    TextSectionType: Definition
     Contents: A rare central nervous system malformation which includes a group of
       diseases that are characterized by a bumpy (or pebbled) appearance of the cerebral
       cortex associated with a thickened cortex reduction in normal sulcation ventriculomegaly
@@ -20,47 +57,10 @@ Orphapacket:
       and corpus callosum agenesis. Patients generally present variable degrees of
       developmental delay hypotonia and ocular abnomalities however muscular and ocular
       involvement may be absent.
-  Parents:
-  - Parent:
-    - ORPHAcode: '48471'
-      Label: Lissencephaly
-  Childs:
-  - Child:
-      Label: Cobblestone lissencephaly without muscular or ocular involvement
-      ORPHAcode: '352682'
-      Genes:
-      - Gene:
-          Label: laminin subunit beta 1
-          Symbol: LAMB1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6486'
-          - Source: OMIM
-            Reference: '150240'
-  - Child:
-      Label: Congenital muscular alpha-dystroglycanopathy with brain and eye anomalies
-      ORPHAcode: '352687'
-      Genes: no data
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

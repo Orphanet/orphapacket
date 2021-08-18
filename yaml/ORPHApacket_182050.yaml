@@ -1,133 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '182050'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '182050'
-  Label: MYH9-related disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_182050
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: MYH9-RD
-  - Synonym: MYH9-related disorder
-  - Synonym: MYH9-related syndrome
-  - Synonym: MYH9-related syndromic thrombocytopenia
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '155100'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '600208'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: MYH9-related disease (MYH9-RD) is an inherited giant platelet disorder
-      with a complex phenotype characterized by congenital thrombocytopenia and possible
-      subsequent manifestations of sensorineural hearing loss presenile cataracts
-      elevation of liver enzymes and/or progressive nephropathy often leading to end-stage
-      renal disease (ESRD). Epstein syndrome Fechtner syndrome May-Hegglin anomaly
-      and Sebastian syndrome previously described as distinct disorders represent
-      some of the different clinical presentations of MYH9-RD.
-  Genes:
-  - Gene:
-      Symbol: MYH9
-      Name: myosin heavy chain 9
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '477794'
-      Label: Syndromic constitutional thrombocytopenia
-  - Parent:
-    - ORPHAcode: '90642'
-      Label: Syndromic genetic deafness
-  - Parent:
-    - ORPHAcode: '567562'
-      Label: Disorder with multisystemic involvement and glomerulopathy
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001905
-      HPOTerm: Congenital thrombocytopenia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000083
-      HPOTerm: Renal insufficiency
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000093
-      HPOTerm: Proteinuria
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000112
-      HPOTerm: Nephropathy
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000123
-      HPOTerm: Nephritis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000132
-      HPOTerm: Menorrhagia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000407
-      HPOTerm: Sensorineural hearing impairment
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000978
-      HPOTerm: Bruising susceptibility
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001902
-      HPOTerm: Giant platelets
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002910
-      HPOTerm: Elevated hepatic transaminase
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003010
-      HPOTerm: Prolonged bleeding time
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0004406
-      HPOTerm: Spontaneous, recurrent epistaxis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0007819
-      HPOTerm: Presenile cataracts
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0008264
-      HPOTerm: Neutrophil inclusion bodies
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0011877
-      HPOTerm: Increased mean platelet volume
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001658
-      HPOTerm: Myocardial infarction
-      HPOFrequency: Very rare (<4-1%)
-  Prevalences:
-  - Prevalence:
-      Source: 20301740[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Italy
-  - Prevalence:
-      Source: 20301740[PMID]_[EXPERT]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -139,9 +13,135 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '155100'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '600208'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: myosin heavy chain 9
+      Symbol: MYH9
+  Label: MYH9-related disease
+  ORPHAcode: '182050'
+  ORPHApacketId: '182050'
+  PURL: http://www.orpha.net/ORDO/Orphanet_182050
+  Parents:
+  - Parent:
+    - Label: Syndromic constitutional thrombocytopenia
+      ORPHAcode: '477794'
+  - Parent:
+    - Label: Syndromic genetic deafness
+      ORPHAcode: '90642'
+  - Parent:
+    - Label: Disorder with multisystemic involvement and glomerulopathy
+      ORPHAcode: '567562'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001905
+      HPOTerm: Congenital thrombocytopenia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000083
+      HPOTerm: Renal insufficiency
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000093
+      HPOTerm: Proteinuria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000112
+      HPOTerm: Nephropathy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000123
+      HPOTerm: Nephritis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000132
+      HPOTerm: Menorrhagia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000407
+      HPOTerm: Sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000978
+      HPOTerm: Bruising susceptibility
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001902
+      HPOTerm: Giant platelets
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002910
+      HPOTerm: Elevated hepatic transaminase
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003010
+      HPOTerm: Prolonged bleeding time
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004406
+      HPOTerm: Spontaneous, recurrent epistaxis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007819
+      HPOTerm: Presenile cataracts
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008264
+      HPOTerm: Neutrophil inclusion bodies
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011877
+      HPOTerm: Increased mean platelet volume
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001658
+      HPOTerm: Myocardial infarction
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Italy
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 20301740[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 20301740[PMID]_[EXPERT]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: MYH9-RD
+  - Synonym: MYH9-related disorder
+  - Synonym: MYH9-related syndrome
+  - Synonym: MYH9-related syndromic thrombocytopenia
+  TextSection:
+    Contents: MYH9-related disease (MYH9-RD) is an inherited giant platelet disorder
+      with a complex phenotype characterized by congenital thrombocytopenia and possible
+      subsequent manifestations of sensorineural hearing loss presenile cataracts
+      elevation of liver enzymes and/or progressive nephropathy often leading to end-stage
+      renal disease (ESRD). Epstein syndrome Fechtner syndrome May-Hegglin anomaly
+      and Sebastian syndrome previously described as distinct disorders represent
+      some of the different clinical presentations of MYH9-RD.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

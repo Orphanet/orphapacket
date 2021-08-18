@@ -1,50 +1,47 @@
 Orphapacket:
-  ORPHApacketId: '79212'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79212'
-  Label: Mucolipidosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_79212
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '139009'
-      Label: Developmental anomaly of metabolic origin
-  - Parent:
-    - ORPHAcode: '309279'
-      Label: Glycoproteinosis
-  - Parent:
-    - ORPHAcode: '68366'
-      Label: Lysosomal disease
   Childs:
   - Child:
-      Label: Mucolipidosis type II
-      ORPHAcode: '576'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '29670'
+            Source: HGNC
+          - Reference: '607840'
+            Source: OMIM
           Label: N-acetylglucosamine-1-phosphate transferase subunits alpha and beta
           Symbol: GNPTAB
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '29670'
-          - Source: OMIM
-            Reference: '607840'
+      Label: Mucolipidosis type II
+      ORPHAcode: '576'
   - Child:
+      Genes: no data
       Label: Mucolipidosis type III
       ORPHAcode: '577'
-      Genes: no data
   - Child:
-      Label: Mucolipidosis type IV
-      ORPHAcode: '578'
       Genes:
       - Gene:
-          Label: mucolipin 1
-          Symbol: MCOLN1
           ExternalReferences:
-          - Source: HGNC
-            Reference: '13356'
-          - Source: OMIM
-            Reference: '605248'
+          - Reference: '13356'
+            Source: HGNC
+          - Reference: '605248'
+            Source: OMIM
+          Label: mucolipin TRP cation channel 1
+          Symbol: MCOLN1
+      Label: Mucolipidosis type IV
+      ORPHAcode: '578'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Mucolipidosis
+  ORPHAcode: '79212'
+  ORPHApacketId: '79212'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79212
+  Parents:
+  - Parent:
+    - Label: Developmental anomaly of metabolic origin
+      ORPHAcode: '139009'
+  - Parent:
+    - Label: Glycoproteinosis
+      ORPHAcode: '309279'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

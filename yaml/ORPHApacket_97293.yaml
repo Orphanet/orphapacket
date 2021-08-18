@@ -1,52 +1,52 @@
 Orphapacket:
-  ORPHApacketId: '97293'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '97293'
-  Label: Rare benign ovarian tumor
-  PURL: http://www.orpha.net/ORDO/Orphanet_97293
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '180220'
-      Label: Rare uterine adnexal tumor
   Childs:
   - Child:
-      Label: Microcystic stromal tumor
-      ORPHAcode: '569248'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2514'
+            Source: HGNC
+          - Reference: '116806'
+            Source: OMIM
           Label: catenin beta 1
           Symbol: CTNNB1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2514'
-          - Source: OMIM
-            Reference: '116806'
+      Label: Microcystic stromal tumor
+      ORPHAcode: '569248'
   - Child:
+      Genes: no data
       Label: Cystadenoma of childhood
       ORPHAcode: '206470'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Meigs syndrome
       ORPHAcode: '314451'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Pseudo-Meigs syndrome
       ORPHAcode: '314459'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Atypical Meigs syndrome
       ORPHAcode: '314466'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Ovarian fibroma
       ORPHAcode: '314473'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Ovarian fibrothecoma
       ORPHAcode: '314478'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare benign ovarian tumor
+  ORPHAcode: '97293'
+  ORPHApacketId: '97293'
+  PURL: http://www.orpha.net/ORDO/Orphanet_97293
+  Parents:
+  - Parent:
+    - Label: Rare uterine adnexal tumor
+      ORPHAcode: '180220'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

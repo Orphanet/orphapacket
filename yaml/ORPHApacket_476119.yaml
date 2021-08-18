@@ -1,16 +1,45 @@
 Orphapacket:
-  ORPHApacketId: '476119'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '476119'
-  Label: Autosomal dominant preaxial polydactyly-upperback hypertrichosis syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_476119
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: sonic hedgehog signaling molecule
+      Symbol: SHH
+  Label: Autosomal dominant preaxial polydactyly-upperback hypertrichosis syndrome
+  ORPHAcode: '476119'
+  ORPHApacketId: '476119'
+  PURL: http://www.orpha.net/ORDO/Orphanet_476119
+  Parents:
+  - Parent:
+    - Label: Syndrome with limb duplication, polydactyly, syndactyly, and/or hyperphalangy
+      ORPHAcode: '294959'
+  - Parent:
+    - Label: Rare disorder with hypertrichosis
+      ORPHAcode: '79365'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 25782671[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_25782671[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic syndrome with limb malformations as a major feature characterized
       by preaxial polydactyly of the hands and feet with variable phenotypic expressivity
       in combination with hypertrichosis extending from the posterior hairline to
@@ -18,39 +47,10 @@ Orphapacket:
       duplicated thumbs preaxial extra ray and syndactyly between digits I and II
       in the hands and large or duplicated hallux and syndactyly between toes I and
       II in the feet.
-  Genes:
-  - Gene:
-      Symbol: SHH
-      Name: sonic hedgehog signaling molecule
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '294959'
-      Label: Syndrome with limb duplication, polydactyly, syndactyly, and/or hyperphalangy
-  - Parent:
-    - ORPHAcode: '79365'
-      Label: Rare disorder with hypertrichosis
-  Prevalences:
-  - Prevalence:
-      Source: 25782671[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_25782671[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

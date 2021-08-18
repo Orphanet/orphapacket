@@ -1,20 +1,68 @@
 Orphapacket:
-  ORPHApacketId: '1910'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '1910'
-  Label: Fetal iodine syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_1910
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '228355'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Fetal iodine syndrome
+  ORPHAcode: '1910'
+  ORPHApacketId: '1910'
+  PURL: http://www.orpha.net/ORDO/Orphanet_1910
+  Parents:
+  - Parent:
+    - Label: Teratogenic Pierre Robin syndrome
+      ORPHAcode: '138059'
+  - Parent:
+    - Label: Toxic or drug-related embryofetopathy
+      ORPHAcode: '251529'
+  - Parent:
+    - Label: Transient congenital hypothyroidism due to maternal factor
+      ORPHAcode: '238696'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000407
+      HPOTerm: Sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000486
+      HPOTerm: Strabismus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000821
+      HPOTerm: Hypothyroidism
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001264
+      HPOTerm: Spastic diplegia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004374
+      HPOTerm: Hemiplegia/hemiparesis
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   TextSection:
-    TextSectionType: Definition
     Contents: Fetal iodine syndrome refers to symptoms and signs that may be observed
       in a fetus or newborn when the mother was exposed during pregnancy to inappropriate
       (insufficient or excessive) amounts of iodine. Iodine deficiency is associated
@@ -25,58 +73,10 @@ Orphapacket:
       Excessive iodine ingestion during the third trimester of pregnancy can result
       in hypothyroidism and fetal goiter due to a prolonged inhibition of thyroid
       hormone synthesis an increase in thyrotropin (TSH).
-  Parents:
-  - Parent:
-    - ORPHAcode: '138059'
-      Label: Teratogenic Pierre Robin syndrome
-  - Parent:
-    - ORPHAcode: '251529'
-      Label: Toxic or drug-related embryofetopathy
-  - Parent:
-    - ORPHAcode: '238696'
-      Label: Transient congenital hypothyroidism due to maternal factor
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000407
-      HPOTerm: Sensorineural hearing impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000486
-      HPOTerm: Strabismus
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000639
-      HPOTerm: Nystagmus
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000821
-      HPOTerm: Hypothyroidism
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001264
-      HPOTerm: Spastic diplegia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0004374
-      HPOTerm: Hemiplegia/hemiparesis
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Antenatal
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

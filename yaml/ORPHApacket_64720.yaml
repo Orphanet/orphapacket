@@ -1,30 +1,4 @@
 Orphapacket:
-  ORPHApacketId: '64720'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '64720'
-  Label: Leiomyosarcoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_64720
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare soft tissue sarcoma characterized by a malignant space-occupying
-      lesion most commonly located in the retroperitoneum or the inferior vena cava
-      but also other soft tissues and composed of cells showing distinct features
-      of smooth muscle cells. The tumor presents with mass effect depending on the
-      location. It is capable of both local recurrence and distant metastasis while
-      lymph node metastasis is rare. Prognosis largely depends on tumor location and
-      size.
-  Parents:
-  - Parent:
-    - ORPHAcode: '3394'
-      Label: Soft tissue sarcoma
-  - Parent:
-    - ORPHAcode: '289656'
-      Label: Epstein-Barr Virus-associated mesenchymal tumor
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -34,3 +8,35 @@ Orphapacket:
       value: Childhood
   - AverageAgeOfOnset:
       value: Elderly
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Leiomyosarcoma
+  ORPHAcode: '64720'
+  ORPHApacketId: '64720'
+  PURL: http://www.orpha.net/ORDO/Orphanet_64720
+  Parents:
+  - Parent:
+    - Label: Soft tissue sarcoma
+      ORPHAcode: '3394'
+  - Parent:
+    - Label: Epstein-Barr Virus-associated mesenchymal tumor
+      ORPHAcode: '289656'
+  - Parent:
+    - Label: Pediatric soft tissue sarcoma
+      ORPHAcode: '602681'
+  - Parent:
+    - Label: Epstein-Barr Virus-related cancer
+      ORPHAcode: '602713'
+  TextSection:
+    Contents: A rare soft tissue sarcoma characterized by a malignant space-occupying
+      lesion most commonly located in the retroperitoneum or the inferior vena cava
+      but also other soft tissues and composed of cells showing distinct features
+      of smooth muscle cells. The tumor presents with mass effect depending on the
+      location. It is capable of both local recurrence and distant metastasis while
+      lymph node metastasis is rare. Prognosis largely depends on tumor location and
+      size.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

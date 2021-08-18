@@ -1,51 +1,51 @@
 Orphapacket:
-  ORPHApacketId: '98635'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98635'
-  Label: Corneodysgenesis
-  PURL: http://www.orpha.net/ORDO/Orphanet_98635
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Corneogoniodysgenesis
-  Parents:
-  - Parent:
-    - ORPHAcode: '98553'
-      Label: Developmental defect of the eye
-  - Parent:
-    - ORPHAcode: '522556'
-      Label: Rare genetic corneal disorder
-  - Parent:
-    - ORPHAcode: '183557'
-      Label: Genetic developmental defect of the eye
-  - Parent:
-    - ORPHAcode: '519282'
-      Label: Rare corneal disorder
   Childs:
   - Child:
-      Label: Isolated congenital megalocornea
-      ORPHAcode: '91489'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '29861'
+            Source: HGNC
+          - Reference: '300350'
+            Source: OMIM
           Label: chordin like 1
           Symbol: CHRDL1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '29861'
-          - Source: OMIM
-            Reference: '300350'
+      Label: Isolated congenital megalocornea
+      ORPHAcode: '91489'
   - Child:
-      Label: Isolated congenital sclerocornea
-      ORPHAcode: '91490'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4281'
+            Source: HGNC
+          - Reference: '600897'
+            Source: OMIM
           Label: gap junction protein alpha 8
           Symbol: GJA8
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4281'
-          - Source: OMIM
-            Reference: '600897'
+      Label: Isolated congenital sclerocornea
+      ORPHAcode: '91490'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Corneodysgenesis
+  ORPHAcode: '98635'
+  ORPHApacketId: '98635'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98635
+  Parents:
+  - Parent:
+    - Label: Developmental defect of the eye
+      ORPHAcode: '98553'
+  - Parent:
+    - Label: Rare genetic corneal disorder
+      ORPHAcode: '522556'
+  - Parent:
+    - Label: Genetic developmental defect of the eye
+      ORPHAcode: '183557'
+  - Parent:
+    - Label: Rare corneal disorder
+      ORPHAcode: '519282'
+  Synonyms:
+  - Synonym: Corneogoniodysgenesis
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

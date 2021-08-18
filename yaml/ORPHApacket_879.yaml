@@ -1,16 +1,30 @@
 Orphapacket:
-  ORPHApacketId: '879'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '879'
-  Label: Tungiasis
-  PURL: http://www.orpha.net/ORDO/Orphanet_879
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Tungiasis
+  ORPHAcode: '879'
+  ORPHApacketId: '879'
+  PURL: http://www.orpha.net/ORDO/Orphanet_879
+  Parents:
+  - Parent:
+    - Label: Rare parasitic disease
+      ORPHAcode: '163588'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: 22941398[PMID]
+      ValMoy: '0.0'
   TextSection:
-    TextSectionType: Definition
     Contents: Tungiasis is a parasitic skin disease caused by the female sand flea
       <i>Tunga penetrans</i>. The disease is characterized by acute (multiple white
       gray or yellowish papular or nodular lesions with brown-black-colored opening
@@ -19,24 +33,10 @@ Orphapacket:
       debilitating clinical pathology (deep ulcers gangrene lymphangitis and septicemia)
       leading to impaired physical fitness and mobility. Tungiasis also involves hyperkeratosis
       fissuration nail hypertrophy and loss of nails.
-  Parents:
-  - Parent:
-    - ORPHAcode: '163588'
-      Label: Rare parasitic disease
-  Prevalences:
-    Prevalence:
-    - Source: 22941398[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

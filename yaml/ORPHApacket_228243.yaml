@@ -1,16 +1,19 @@
 Orphapacket:
-  ORPHApacketId: '228243'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '228243'
-  Label: Elastofibroma dorsi
-  PURL: http://www.orpha.net/ORDO/Orphanet_228243
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Elastofibroma dorsi
+  ORPHAcode: '228243'
+  ORPHApacketId: '228243'
+  PURL: http://www.orpha.net/ORDO/Orphanet_228243
+  Parents:
+  - Parent:
+    - Label: Acquired dermis elastic tissue disorder with increased elastic tissue
+      ORPHAcode: '228224'
   TextSection:
-    TextSectionType: Definition
     Contents: Elastofibroma dorsi is a rare acquired dermis elastic tissue disorder
       characterized by a benign slowly progressive often bilateral non-encapsulated
       lesion usually presenting as an ill-defined mass under the inferior angle of
@@ -21,13 +24,10 @@ Orphapacket:
       scapula during retropulsion of the shoulder and becoming prominent when the
       shoulder is displaced toward the front is a frequent sign. Neuromuscular involvement
       of the upper limb may occur in rare cases.
-  Parents:
-  - Parent:
-    - ORPHAcode: '228224'
-      Label: Acquired dermis elastic tissue disorder with increased elastic tissue
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

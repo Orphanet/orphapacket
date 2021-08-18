@@ -1,14 +1,20 @@
 Orphapacket:
-  ORPHApacketId: '506075'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '506075'
-  Label: Non-functioning neuroendocrine tumor of pancreas
-  PURL: http://www.orpha.net/ORDO/Orphanet_506075
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Elderly
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Non-functioning neuroendocrine tumor of pancreas
+  ORPHAcode: '506075'
+  ORPHApacketId: '506075'
+  PURL: http://www.orpha.net/ORDO/Orphanet_506075
+  Parents:
+  - Parent:
+    - Label: Neuroendocrine tumor of pancreas
+      ORPHAcode: '97253'
   Synonyms:
   - Synonym: Non-functioning PNET
   - Synonym: Non-functioning pancreatic NET
@@ -18,7 +24,6 @@ Orphapacket:
   - Synonym: Non-functioning well-differentiated pancreatic NEN
   - Synonym: Non-functioning well-differentiated pancreatic neuroendocrine neoplasm
   TextSection:
-    TextSectionType: Definition
     Contents: A rare neuroendocrine tumor of pancreas characterized by a well-differentiated
       epithelial pancreatic neuroendocrine neoplasm measuring at least 0.5 cm without
       distinct hormonal syndrome. Tumors <0.5 cm are called microadenomas. Microadenomatosis
@@ -28,12 +33,7 @@ Orphapacket:
       may present with symptoms related to local or metastatic tumor spread. Microadenomas
       are considered benign while larger tumors may behave in a malignant manner with
       extrapancreatic spread metastasis or recurrence.
-  Parents:
-  - Parent:
-    - ORPHAcode: '97253'
-      Label: Neuroendocrine tumor of pancreas
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adult
-  - AverageAgeOfOnset:
-      value: Elderly
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,44 +1,26 @@
 Orphapacket:
-  ORPHApacketId: '284102'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '284102'
-  Label: Response to antiviral treatment in hepatitis C
-  PURL: http://www.orpha.net/ORDO/Orphanet_284102
   DisorderType:
-    value: Particular clinical situation in a disease or syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377793
-  Synonyms:
-  - Synonym: Response to PEG/IFN-ribavirin in HCV
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '609532'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    value: Particular clinical situation in a disease or syndrome
   Genes:
   - Gene:
-      Symbol: IFNL3
+      ExternalReferences: []
       Name: interferon lambda 3
-      ExternalReferences: []
+      Symbol: IFNL3
   - Gene:
-      Symbol: IFNL4
-      Name: interferon lambda 4 (gene/pseudogene)
       ExternalReferences: []
+      Name: interferon lambda 4 (gene/pseudogene)
+      Symbol: IFNL4
+  Label: Response to antiviral treatment in hepatitis C
+  ORPHAcode: '284102'
+  ORPHApacketId: '284102'
+  PURL: http://www.orpha.net/ORDO/Orphanet_284102
   Parents:
     Parent:
-    - ORPHAcode: '231957'
-      Label: Disease associated with a genetic susceptibility or tested for a biomarker
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    - Label: Disease associated with a genetic susceptibility or tested for a biomarker
+      ORPHAcode: '231957'
+  Synonyms:
+  - Synonym: Response to PEG/IFN-ribavirin in HCV
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

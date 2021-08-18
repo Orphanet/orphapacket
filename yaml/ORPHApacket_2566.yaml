@@ -1,39 +1,4 @@
 Orphapacket:
-  ORPHApacketId: '2566'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2566'
-  Label: Chronic Epstein-Barr virus infection syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_2566
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: CAEBV syndrome
-  - Synonym: Chronic EBV infection syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '226990'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Chronic Epstein-Barr virus infection syndrome is a rare infectious disease
-      characterized by familial primary chronic Epstein-Barr virus infection which
-      typically manifests with persistent mononucleosis-like signs and symptoms in
-      the absence of secondary immunodeficiency.
-  Parents:
-  - Parent:
-    - ORPHAcode: '163585'
-      Label: Rare viral disease
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET_21348109[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -41,6 +6,41 @@ Orphapacket:
       value: Adult
   - AverageAgeOfOnset:
       value: Childhood
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '226990'
+    Source: OMIM
+  Label: Chronic Epstein-Barr virus infection syndrome
+  ORPHAcode: '2566'
+  ORPHApacketId: '2566'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2566
+  Parents:
+  - Parent:
+    - Label: Rare viral disease
+      ORPHAcode: '163585'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_21348109[PMID]
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: CAEBV syndrome
+  - Synonym: Chronic EBV infection syndrome
+  TextSection:
+    Contents: Chronic Epstein-Barr virus infection syndrome is a rare infectious disease
+      characterized by familial primary chronic Epstein-Barr virus infection which
+      typically manifests with persistent mononucleosis-like signs and symptoms in
+      the absence of secondary immunodeficiency.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Unknown
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

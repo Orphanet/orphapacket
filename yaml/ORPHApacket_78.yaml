@@ -1,19 +1,30 @@
 Orphapacket:
-  ORPHApacketId: '78'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '78'
-  Label: Ankylostomiasis
-  PURL: http://www.orpha.net/ORDO/Orphanet_78
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Ankylostomiasis
+  ORPHAcode: '78'
+  ORPHApacketId: '78'
+  PURL: http://www.orpha.net/ORDO/Orphanet_78
+  Parents:
+  - Parent:
+    - Label: Rare parasitic disease
+      ORPHAcode: '163588'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Ancylostomiasis
   - Synonym: Hookworm infection
   TextSection:
-    TextSectionType: Definition
     Contents: A hookworm infection caused primarily by the species <i>Ancylostoma
       duodenale </i> or <i>Necator americanus</i> usually acquired through penetration
       of the skin (often asymptomatic but that can also manifest with an allergic
@@ -22,21 +33,10 @@ Orphapacket:
       and finally reaching and colonizing the small intestines where they cause blood
       extravasation leading to diarrhea abdominal pain and when untreated melena iron-deficiency
       anemia and protein malnutrition.
-  Parents:
-  - Parent:
-    - ORPHAcode: '163588'
-      Label: Rare parasitic disease
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,123 +1,124 @@
 Orphapacket:
-  ORPHApacketId: '91088'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '91088'
-  Label: Other metabolic disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_91088
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '68367'
-      Label: Rare inborn errors of metabolism
   Childs:
   - Child:
-      Label: NAD(P)HX dehydratase deficiency
-      ORPHAcode: '555402'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '25576'
+            Source: HGNC
+          - Reference: '615910'
+            Source: OMIM
           Label: NAD(P)HX dehydratase
           Symbol: NAXD
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '25576'
-          - Source: OMIM
-            Reference: '615910'
+      Label: NAD(P)HX dehydratase deficiency
+      ORPHAcode: '555402'
   - Child:
-      Label: Alpha-1-antitrypsin deficiency
-      ORPHAcode: '60'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '8941'
+            Source: HGNC
+          - Reference: '107400'
+            Source: OMIM
           Label: serpin family A member 1
           Symbol: SERPINA1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8941'
-          - Source: OMIM
-            Reference: '107400'
+      Label: Alpha-1-antitrypsin deficiency
+      ORPHAcode: '60'
   - Child:
-      Label: Hemolytic anemia due to diphosphoglycerate mutase deficiency
-      ORPHAcode: '714'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1093'
+            Source: HGNC
+          - Reference: '613896'
+            Source: OMIM
           Label: bisphosphoglycerate mutase
           Symbol: BPGM
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1093'
-          - Source: OMIM
-            Reference: '613896'
+      Label: Hemolytic anemia due to diphosphoglycerate mutase deficiency
+      ORPHAcode: '714'
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '719'
+            Source: HGNC
+          - Reference: '300180'
+            Source: OMIM
+          Label: arylsulfatase L
+          Symbol: ARSL
       Label: Brachytelephalangic chondrodysplasia punctata
       ORPHAcode: '79345'
-      Genes:
-      - Gene:
-          Label: arylsulfatase E
-          Symbol: ARSE
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '719'
-          - Source: OMIM
-            Reference: '300180'
   - Child:
+      Genes: no data
       Label: Hypotonia-failure to thrive-microcephaly syndrome
       ORPHAcode: '79507'
-      Genes: no data
   - Child:
-      Label: Genetic recurrent myoglobinuria
-      ORPHAcode: '99845'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '7419'
+            Source: HGNC
+          - Reference: '516030'
+            Source: OMIM
           Label: mitochondrially encoded cytochrome c oxidase I
           Symbol: MT-CO1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7419'
-          - Source: OMIM
-            Reference: '516030'
       - Gene:
+          ExternalReferences:
+          - Reference: '7422'
+            Source: HGNC
+          - Reference: '516050'
+            Source: OMIM
           Label: mitochondrially encoded cytochrome c oxidase III
           Symbol: MT-CO3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7422'
-          - Source: OMIM
-            Reference: '516050'
       - Gene:
+          ExternalReferences:
+          - Reference: '13345'
+            Source: HGNC
+          - Reference: '605518'
+            Source: OMIM
           Label: lipin 1
           Symbol: LPIN1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '13345'
-          - Source: OMIM
-            Reference: '605518'
+      Label: Genetic recurrent myoglobinuria
+      ORPHAcode: '99845'
   - Child:
+      Genes: no data
       Label: Autosomal dominant myoglobinuria
       ORPHAcode: '99846'
-      Genes: no data
   - Child:
-      Label: Alacrimia-choreoathetosis-liver dysfunction syndrome
-      ORPHAcode: '404454'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '17646'
+            Source: HGNC
+          - Reference: '610661'
+            Source: OMIM
           Label: N-glycanase 1
           Symbol: NGLY1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '17646'
-          - Source: OMIM
-            Reference: '610661'
+      Label: Alacrimia-choreoathetosis-liver dysfunction syndrome
+      ORPHAcode: '404454'
   - Child:
-      Label: NAD(P)HX epimerase deficiency
-      ORPHAcode: '555407'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '18453'
+            Source: HGNC
+          - Reference: '608862'
+            Source: OMIM
           Label: NAD(P)HX epimerase
           Symbol: NAXE
-          ExternalReferences:
-          - ExternalReference:
-              Source: HGNC
-              Reference: '18453'
+      Label: NAD(P)HX epimerase deficiency
+      ORPHAcode: '555407'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Other metabolic disease
+  ORPHAcode: '91088'
+  ORPHApacketId: '91088'
+  PURL: http://www.orpha.net/ORDO/Orphanet_91088
+  Parents:
+  - Parent:
+    - Label: Rare inborn errors of metabolism
+      ORPHAcode: '68367'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

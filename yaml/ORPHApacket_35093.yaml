@@ -1,84 +1,84 @@
 Orphapacket:
-  ORPHApacketId: '35093'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '35093'
-  Label: Isolated scaphocephaly
-  PURL: http://www.orpha.net/ORDO/Orphanet_35093
-  DisorderType:
-    value: Morphological anomaly
-    PURL: http://www.orpha.net/ORDO/Orphanet_377791
-  Synonyms:
-  - Synonym: Isolated dolichocephaly
-  - Synonym: Non-syndromic sagittal synostosis
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '600775'
-      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '615529'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '123100'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Isolated scaphocephaly is a form of nonsyndromic craniosynostosis characterized
-      by premature fusion of the sagittal suture.
-  Genes:
-  - Gene:
-      Symbol: ALX4
-      Name: ALX homeobox 4
-      ExternalReferences: []
-  - Gene:
-      Symbol: ERF
-      Name: ETS2 repressor factor
-      ExternalReferences: []
-  - Gene:
-      Symbol: TWIST1
-      Name: twist family bHLH transcription factor 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98684'
-      Label: Craniostenosis with strabismus
-  - Parent:
-    - ORPHAcode: '139390'
-      Label: Isolated craniosynostosis
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000268
-      HPOTerm: Dolichocephaly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000269
-      HPOTerm: Prominent occiput
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002007
-      HPOTerm: Frontal bossing
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002516
-      HPOTerm: Increased intracranial pressure
-      HPOFrequency: Occasional (29-5%)
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
+        Term)
+      Reference: '600775'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '615529'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '123100'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ALX homeobox 4
+      Symbol: ALX4
+  - Gene:
+      ExternalReferences: []
+      Name: ETS2 repressor factor
+      Symbol: ERF
+  - Gene:
+      ExternalReferences: []
+      Name: twist family bHLH transcription factor 1
+      Symbol: TWIST1
+  Label: Isolated scaphocephaly
+  ORPHAcode: '35093'
+  ORPHApacketId: '35093'
+  PURL: http://www.orpha.net/ORDO/Orphanet_35093
+  Parents:
+  - Parent:
+    - Label: Craniostenosis with strabismus
+      ORPHAcode: '98684'
+  - Parent:
+    - Label: Isolated craniosynostosis
+      ORPHAcode: '139390'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000268
+      HPOTerm: Dolichocephaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000269
+      HPOTerm: Prominent occiput
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002007
+      HPOTerm: Frontal bossing
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002516
+      HPOTerm: Increased intracranial pressure
+  Synonyms:
+  - Synonym: Isolated dolichocephaly
+  - Synonym: Non-syndromic sagittal synostosis
+  TextSection:
+    Contents: Isolated scaphocephaly is a form of nonsyndromic craniosynostosis characterized
+      by premature fusion of the sagittal suture.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

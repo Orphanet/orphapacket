@@ -1,14 +1,90 @@
 Orphapacket:
-  ORPHApacketId: '2157'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2157'
-  Label: Histidinemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_2157
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '235800'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: histidine ammonia-lyase
+      Symbol: HAL
+  Label: Histidinemia
+  ORPHAcode: '2157'
+  ORPHApacketId: '2157'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2157
+  Parents:
+  - Parent:
+    - Label: Disorder of histidine metabolism
+      ORPHAcode: '79181'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0002927
+      HPOTerm: Histidinuria
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0010906
+      HPOTerm: Hyperhistidinemia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000708
+      HPOTerm: Behavioral abnormality
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000752
+      HPOTerm: Hyperactivity
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001328
+      HPOTerm: Specific learning disability
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002167
+      HPOTerm: Neurological speech impairment
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0011343
+      HPOTerm: Moderate global developmental delay
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Sweden
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 8463510[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Japan
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 6468444[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: HAL deficiency
   - Synonym: HIS deficiency
@@ -16,90 +92,14 @@ Orphapacket:
   - Synonym: Histidine ammonia-lyase deficiency
   - Synonym: Histidinuria
   - Synonym: Hyperhistidinemia
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '235800'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Histidinemia is a rare metabolic disorder characterized by elevated
       histidine levels in blood urine and cerebrospinal fluid generally with no clinical
       repercussions.
-  Genes:
-  - Gene:
-      Symbol: HAL
-      Name: histidine ammonia-lyase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79181'
-      Label: Disorder of histidine metabolism
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0002927
-      HPOTerm: Histidinuria
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0010906
-      HPOTerm: Hyperhistidinemia
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0000708
-      HPOTerm: Behavioral abnormality
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0000752
-      HPOTerm: Hyperactivity
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0001328
-      HPOTerm: Specific learning disability
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0002167
-      HPOTerm: Neurological speech impairment
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0011343
-      HPOTerm: Moderate global developmental delay
-      HPOFrequency: Very rare (<4-1%)
-  Prevalences:
-  - Prevalence:
-      Source: 8463510[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Sweden
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: United States
-  - Prevalence:
-      Source: 6468444[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Japan
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

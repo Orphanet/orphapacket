@@ -1,72 +1,72 @@
 Orphapacket:
-  ORPHApacketId: '158300'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '158300'
-  Label: Rare genetic hematologic disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_158300
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '98053'
-      Label: Rare genetic disease
   Childs:
   - Child:
-      Label: Paroxysmal nocturnal hemoglobinuria
-      ORPHAcode: '447'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '8957'
+            Source: HGNC
+          - Reference: '311770'
+            Source: OMIM
           Label: phosphatidylinositol glycan anchor biosynthesis class A
           Symbol: PIGA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8957'
-          - Source: OMIM
-            Reference: '311770'
+      Label: Paroxysmal nocturnal hemoglobinuria
+      ORPHAcode: '447'
   - Child:
-      Label: Congenital analbuminemia
-      ORPHAcode: '86816'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '399'
+            Source: HGNC
+          - Reference: '103600'
+            Source: OMIM
           Label: albumin
           Symbol: ALB
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '399'
-          - Source: OMIM
-            Reference: '103600'
+      Label: Congenital analbuminemia
+      ORPHAcode: '86816'
   - Child:
+      Genes: no data
       Label: Rare constitutional anemia
       ORPHAcode: '183651'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Rare genetic coagulation disorder
       ORPHAcode: '183654'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Genetic polycythemia
       ORPHAcode: '250165'
-      Genes: no data
   - Child:
-      Label: L-ferritin deficiency
-      ORPHAcode: '440731'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '3999'
+            Source: HGNC
+          - Reference: '134790'
+            Source: OMIM
           Label: ferritin light chain
           Symbol: FTL
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3999'
-          - Source: OMIM
-            Reference: '134790'
       - Gene:
+          ExternalReferences:
+          - Reference: '3999'
+            Source: HGNC
+          - Reference: '134790'
+            Source: OMIM
           Label: ferritin light chain
           Symbol: FTL
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3999'
-          - Source: OMIM
-            Reference: '134790'
+      Label: L-ferritin deficiency
+      ORPHAcode: '440731'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare genetic hematologic disease
+  ORPHAcode: '158300'
+  ORPHApacketId: '158300'
+  PURL: http://www.orpha.net/ORDO/Orphanet_158300
+  Parents:
+  - Parent:
+    - Label: Rare genetic disease
+      ORPHAcode: '98053'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

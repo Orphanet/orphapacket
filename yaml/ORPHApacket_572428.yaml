@@ -1,50 +1,58 @@
 Orphapacket:
-  ORPHApacketId: '572428'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '572428'
-  Label: Infantile-onset pulmonary alveolar proteinosis-hypogammaglobulinemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_572428
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: OAS1 deficiency
-  - Synonym: OAS1-related infantile-onset pulmonary alveolar proteinosis-hypogammaglobulinemia
-  Genes:
-  - Gene:
-      Symbol: OAS1
-      Name: 2'-5'-oligoadenylate synthetase 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '290839'
-      Label: Autoinflammatory syndrome with immune deficiency
-  - Parent:
-    - ORPHAcode: '100049'
-      Label: Primary interstitial lung disease specific to childhood due to pulmonary
-        surfactant protein anomalies
-  Prevalences:
-  - Prevalence:
-      Source: 29455859[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_29455859[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Infancy
   AverageAgeOfDeaths:
   - AverageAgeOfDeath:
       value: no data
   - AverageAgeOfDeath:
       value: no data
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Infancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: 2'-5'-oligoadenylate synthetase 1
+      Symbol: OAS1
+  Label: Infantile-onset pulmonary alveolar proteinosis-hypogammaglobulinemia
+  ORPHAcode: '572428'
+  ORPHApacketId: '572428'
+  PURL: http://www.orpha.net/ORDO/Orphanet_572428
+  Parents:
+  - Parent:
+    - Label: Autoinflammatory syndrome with immune deficiency
+      ORPHAcode: '290839'
+  - Parent:
+    - Label: Primary interstitial lung disease specific to childhood due to pulmonary
+        surfactant protein anomalies
+      ORPHAcode: '100049'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 29455859[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_29455859[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: OAS1 deficiency
+  - Synonym: OAS1-related infantile-onset pulmonary alveolar proteinosis-hypogammaglobulinemia
+  TextSection:
+    Contents: A rare genetic respiratory disease characterized by infantile onset
+      of pulmonary alveolar proteinosis with hypogammaglobulinemia. Patients have
+      normal respiratory function at birth but subsequently develop recurrent mainly
+      viral infections and progressive respiratory failure often leading to death
+      in infancy or early childhood. Additional reported features include leukocytosis
+      and splenomegaly.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

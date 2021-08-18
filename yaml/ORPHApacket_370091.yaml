@@ -1,78 +1,79 @@
 Orphapacket:
-  ORPHApacketId: '370091'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '370091'
-  Label: Oculocutaneous albinism type 5
-  PURL: http://www.orpha.net/ORDO/Orphanet_370091
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: OCA5
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '615312'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A form of oculocutaneous albinism characterized by white skin golden
-      hair photophobia nystagmus foveal hypoplasia and impaired visual acuity that
-      affects males and females equally.
-  Parents:
-  - Parent:
-    - ORPHAcode: '55'
-      Label: Oculocutaneous albinism
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000218
-      HPOTerm: High palate
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0000613
-      HPOTerm: Photophobia
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0000639
-      HPOTerm: Nystagmus
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0001098
-      HPOTerm: Abnormal fundus morphology
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0001107
-      HPOTerm: Ocular albinism
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0007663
-      HPOTerm: Reduced visual acuity
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0007750
-      HPOTerm: Hypoplasia of the fovea
-      HPOFrequency: Obligate (100%)
-  Prevalences:
-  - Prevalence:
-      Source: 23050561[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '615312'
+    Source: OMIM
+  Label: Oculocutaneous albinism type 5
+  ORPHAcode: '370091'
+  ORPHApacketId: '370091'
+  PURL: http://www.orpha.net/ORDO/Orphanet_370091
+  Parents:
+  - Parent:
+    - Label: Oculocutaneous albinism
+      ORPHAcode: '55'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0000218
+      HPOTerm: High palate
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0000613
+      HPOTerm: Photophobia
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0001098
+      HPOTerm: Abnormal fundus morphology
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0001107
+      HPOTerm: Ocular albinism
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0007663
+      HPOTerm: Reduced visual acuity
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0007750
+      HPOTerm: Hypoplasia of the fovea
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 23050561[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: OCA5
+  TextSection:
+    Contents: A form of oculocutaneous albinism characterized by white skin golden
+      hair photophobia nystagmus foveal hypoplasia and impaired visual acuity that
+      affects males and females equally. Patients have been reported only in a consanguineous
+      Pakistani family. The responsible gene has not yet been detected.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

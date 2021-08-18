@@ -1,14 +1,104 @@
 Orphapacket:
-  ORPHApacketId: '312'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '312'
-  Label: Autosomal dominant epidermolytic ichthyosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_312
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '113800'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '607602'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: keratin 1
+      Symbol: KRT1
+  - Gene:
+      ExternalReferences: []
+      Name: keratin 10
+      Symbol: KRT10
+  Label: Autosomal dominant epidermolytic ichthyosis
+  ORPHAcode: '312'
+  ORPHApacketId: '312'
+  PURL: http://www.orpha.net/ORDO/Orphanet_312
+  Parents:
+  - Parent:
+    - Label: Keratinopathic ichthyosis
+      ORPHAcode: '281103'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000962
+      HPOTerm: Hyperkeratosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001019
+      HPOTerm: Erythroderma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001824
+      HPOTerm: Weight loss
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004396
+      HPOTerm: Poor appetite
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007475
+      HPOTerm: Congenital bullous ichthyosiform erythroderma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008064
+      HPOTerm: Ichthyosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008066
+      HPOTerm: Abnormal blistering of the skin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000992
+      HPOTerm: Cutaneous photosensitivity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000982
+      HPOTerm: Palmoplantar keratoderma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100780
+      HPOTerm: Conjunctival hamartoma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0200042
+      HPOTerm: Skin ulcer
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Denmark
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 22930352[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 8053700[PMID]_7692917[PMID]_ ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: BCIE
   - Synonym: Bullous congenital ichthyosiform erythroderma
@@ -18,104 +108,14 @@ Orphapacket:
   - Synonym: EI
   - Synonym: Epidermolytic hyperkeratosis
   - Synonym: Ichthyosis hystrix Brocq type
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '113800'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '607602'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
   TextSection:
-    TextSectionType: Definition
     Contents: Epidermolytic ichthyosis (EI) is a rare keratinopathic ichthyosis (KPI;
       see this term) that is characterized by a blistering phenotype at birth which
       progressively becomes hyperkeratotic.
-  Genes:
-  - Gene:
-      Symbol: KRT1
-      Name: keratin 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: KRT10
-      Name: keratin 10
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '281103'
-      Label: Keratinopathic ichthyosis
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000962
-      HPOTerm: Hyperkeratosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001019
-      HPOTerm: Erythroderma
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001824
-      HPOTerm: Weight loss
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0004396
-      HPOTerm: Poor appetite
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007475
-      HPOTerm: Congenital bullous ichthyosiform erythroderma
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008064
-      HPOTerm: Ichthyosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008066
-      HPOTerm: Abnormal blistering of the skin
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000992
-      HPOTerm: Cutaneous photosensitivity
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000982
-      HPOTerm: Palmoplantar keratoderma
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0100780
-      HPOTerm: Conjunctival hamartoma
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0200042
-      HPOTerm: Skin ulcer
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-  - Prevalence:
-      Source: 22930352[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Denmark
-  - Prevalence:
-      Source: 8053700[PMID]_7692917[PMID]_ ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: United States
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

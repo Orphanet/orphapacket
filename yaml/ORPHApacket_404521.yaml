@@ -1,57 +1,57 @@
 Orphapacket:
-  ORPHApacketId: '404521'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '404521'
-  Label: Spinal muscular atrophy with respiratory distress type 2
-  PURL: http://www.orpha.net/ORDO/Orphanet_404521
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: LAS1 like ribosome biogenesis factor
+      Symbol: LAS1L
+  Label: Spinal muscular atrophy with respiratory distress type 2
+  ORPHAcode: '404521'
+  ORPHApacketId: '404521'
+  PURL: http://www.orpha.net/ORDO/Orphanet_404521
+  Parents:
+  - Parent:
+    - Label: X-linked distal hereditary motor neuropathy
+      ORPHAcode: '404538'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 24647030[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_24647030[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Diaphragmatic spinal muscular atrophy type 2
   - Synonym: SMARD2
   - Synonym: Severe infantile axonal neuropathy with respiratory failure type 2
   - Synonym: X-linked spinal muscular atrophy with respiratory distress
   TextSection:
-    TextSectionType: Definition
     Contents: Spinal muscular atrophy with respiratory distress type 2 is a rare genetic
       motor neuron disease characterized by progressive early respiratory failure
       associated with diaphragm paralysis distal muscular weakness joint contractures
       and axial hypotonia with preserved antigravity limb movements. Phenotype overlaps
       considerably with SMARD type 1 but is differentiated by a mutation in a different
       gene.
-  Genes:
-  - Gene:
-      Symbol: LAS1L
-      Name: LAS1 like, ribosome biogenesis factor
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '404538'
-      Label: X-linked distal hereditary motor neuropathy
-  Prevalences:
-  - Prevalence:
-      Source: 24647030[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_24647030[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Unknown
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

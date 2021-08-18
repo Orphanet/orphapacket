@@ -1,55 +1,55 @@
 Orphapacket:
-  ORPHApacketId: '566175'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '566175'
-  Label: Complement hyperactivation-angiopathic thrombosis-protein-losing enteropathy
-    syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_566175
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: CD55 deficiency
-  - Synonym: CHAPLE syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '226300'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: CD55
-      Name: CD55 molecule (Cromer blood group)
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '36204'
-      Label: Intestinal lymphangiectasia
-  - Parent:
-    - ORPHAcode: '104012'
-      Label: Rare inflammatory bowel disease
-  - Parent:
-    - ORPHAcode: '165655'
-      Label: Genetic intestinal disease
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET_30565236[PMID]_28657829[PMID]_28657861[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Childhood
-  - AverageAgeOfOnset:
-      value: Infancy
   AverageAgeOfDeaths:
   - AverageAgeOfDeath:
       value: Childhood
   - AverageAgeOfDeath:
       value: Infancy
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '226300'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: CD55 molecule (Cromer blood group)
+      Symbol: CD55
+  Label: Complement hyperactivation-angiopathic thrombosis-protein-losing enteropathy
+    syndrome
+  ORPHAcode: '566175'
+  ORPHApacketId: '566175'
+  PURL: http://www.orpha.net/ORDO/Orphanet_566175
+  Parents:
+  - Parent:
+    - Label: Intestinal lymphangiectasia
+      ORPHAcode: '36204'
+  - Parent:
+    - Label: Rare inflammatory bowel disease
+      ORPHAcode: '104012'
+  - Parent:
+    - Label: Genetic intestinal disease
+      ORPHAcode: '165655'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_30565236[PMID]_28657829[PMID]_28657861[PMID]
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: CD55 deficiency
+  - Synonym: CHAPLE syndrome
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

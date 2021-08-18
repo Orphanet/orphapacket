@@ -1,23 +1,49 @@
 Orphapacket:
-  ORPHApacketId: '139552'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '139552'
-  Label: Distal hereditary motor neuropathy, Jerash type
-  PURL: http://www.orpha.net/ORDO/Orphanet_139552
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '605726'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: sigma non-opioid intracellular receptor 1
+      Symbol: SIGMAR1
+  Label: Distal hereditary motor neuropathy, Jerash type
+  ORPHAcode: '139552'
+  ORPHApacketId: '139552'
+  PURL: http://www.orpha.net/ORDO/Orphanet_139552
+  Parents:
+  - Parent:
+    - Label: Autosomal recessive distal hereditary motor neuropathy
+      ORPHAcode: '140468'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 11117544[PMID]_26078401[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_11117544[PMID]_26078401[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Autosomal recessive distal spinal muscular atrophy type 2
   - Synonym: dHMNJ
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '605726'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic neuromuscular disease characterized by progressive symmetrical
       moderate to severe distal muscle weakness and atrophy without sensory involvement
       first affecting the lower limbs (towards the end of the first decade) and then
@@ -26,36 +52,10 @@ Orphapacket:
       as brisk knee reflexes and positive Babinski sign) with absent ankle reflexes
       are initially associated but regress as disease stabilizes (~10 years after
       onset).
-  Genes:
-  - Gene:
-      Symbol: SIGMAR1
-      Name: sigma non-opioid intracellular receptor 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '140468'
-      Label: Autosomal recessive distal hereditary motor neuropathy
-  Prevalences:
-  - Prevalence:
-      Source: 11117544[PMID]_26078401[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_11117544[PMID]_26078401[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,23 +1,52 @@
 Orphapacket:
-  ORPHApacketId: '329332'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '329332'
-  Label: Microcephaly-cerebellar hypoplasia-cardiac conduction defect syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_329332
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '614407'
+    Source: OMIM
+  Label: Microcephaly-cerebellar hypoplasia-cardiac conduction defect syndrome
+  ORPHAcode: '329332'
+  ORPHApacketId: '329332'
+  PURL: http://www.orpha.net/ORDO/Orphanet_329332
+  Parents:
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
+  - Parent:
+    - Label: Syndrome with microcephaly as a major feature
+      ORPHAcode: '269528'
+  - Parent:
+    - Label: Rare genetic syndromic intellectual disability
+      ORPHAcode: '183763'
+  - Parent:
+    - Label: Rare syndromic intellectual disability
+      ORPHAcode: '102369'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 22002884[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: Microcephaly-cerebellar hypoplasia-congenital heart conduction defect
       syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614407'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Microcephaly-cerebellar hypoplasia-cardiac conduction defect syndrome
       is a rare genetic congenital anomalies/dysmorphic syndrome characterized by
       growth failure global developmental delay profound intellectual disability autistic
@@ -29,39 +58,10 @@ Orphapacket:
       lower lip. Neurological signs include hypotonia brisk reflexes dystonic-like
       movements and truncal ataxia and imaging shows cerebellar hypoplasia and simplified
       gyral pattern.
-  Parents:
-  - Parent:
-    - ORPHAcode: '102283'
-      Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-  - Parent:
-    - ORPHAcode: '269528'
-      Label: Syndrome with microcephaly as a major feature
-  - Parent:
-    - ORPHAcode: '183763'
-      Label: Rare genetic syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '102369'
-      Label: Rare syndromic intellectual disability
-  Prevalences:
-  - Prevalence:
-      Source: 22002884[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

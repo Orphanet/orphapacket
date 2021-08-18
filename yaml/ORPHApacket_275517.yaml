@@ -1,56 +1,56 @@
 Orphapacket:
-  ORPHApacketId: '275517'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '275517'
-  Label: Autoimmune lymphoproliferative syndrome with recurrent viral infections
-  PURL: http://www.orpha.net/ORDO/Orphanet_275517
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '607271'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: caspase 8
+      Symbol: CASP8
+  Label: Autoimmune lymphoproliferative syndrome with recurrent viral infections
+  ORPHAcode: '275517'
+  ORPHApacketId: '275517'
+  PURL: http://www.orpha.net/ORDO/Orphanet_275517
+  Parents:
+  - Parent:
+    - Label: Immunodeficiency syndrome with autoimmunity
+      ORPHAcode: '169355'
+  - Parent:
+    - Label: Lymphoproliferative syndrome
+      ORPHAcode: '238510'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_12353035[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 12353035[PMID]_Dr Koneti RAO[EXPERT]
+      ValMoy: no data
   Synonyms:
   - Synonym: ALPS with recurrent viral infections
   - Synonym: CEDS
   - Synonym: Caspase 8 deficiency syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '607271'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic disorder characterized by lymphadenopathy and/or splenomegaly
       and recurrent infections due to herpes viruses.
-  Genes:
-  - Gene:
-      Symbol: CASP8
-      Name: caspase 8
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '169355'
-      Label: Immunodeficiency syndrome with autoimmunity
-  - Parent:
-    - ORPHAcode: '238510'
-      Label: Lymphoproliferative syndrome
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET_12353035[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: 12353035[PMID]_Dr Koneti RAO[EXPERT]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,19 +1,24 @@
 Orphapacket:
-  ORPHApacketId: '96059'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '96059'
-  Label: Mosaic trisomy 4
-  PURL: http://www.orpha.net/ORDO/Orphanet_96059
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Label: Mosaic trisomy 4
+  ORPHAcode: '96059'
+  ORPHApacketId: '96059'
+  PURL: http://www.orpha.net/ORDO/Orphanet_96059
+  Parents:
+  - Parent:
+    - Label: Total autosomal trisomy
+      ORPHAcode: '98131'
   Synonyms:
   - Synonym: Mosaic trisomy chromosome 4
   - Synonym: Trisomy 4 mosaicism
   TextSection:
-    TextSectionType: Definition
     Contents: Mosaic Trisomy 4 is a rare autosomal anomaly due to the presence of
       an extra copy of chromosome 4 in a fraction of all cells with a variable phenotype
       characterized by intrauterine growth retardation low birth weight/length/OFC
@@ -22,15 +27,7 @@ Orphapacket:
       rotated dysplastic ears micro-/retrognathia) characteristic thumb abnormalities
       (aplasia hypoplasia) and skin abnormalities (hypo/hyperpigmentation). Delayed
       puberty may be associated.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98131'
-      Label: Total autosomal trisomy
-  - Parent:
-    - ORPHAcode: '261706'
-      Label: Anomaly of chromosome 4
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Antenatal
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

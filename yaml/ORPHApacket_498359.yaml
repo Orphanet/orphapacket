@@ -1,47 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '498359'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '498359'
-  Label: Aquagenic palmoplantar keratoderma
-  PURL: http://www.orpha.net/ORDO/Orphanet_498359
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Aquagenic keratoderma
-  - Synonym: Aquagenic syringeal acrokeratoderma
-  - Synonym: Aquagenic wrinkling of the palms
-  - Synonym: Transient reactive papulotranslucent acrokeratoderma
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare skin disease characterized by transient wrinkling of the skin
-      edema formation of whitish papules pruritus burning sensation or pain on the
-      palms and/or soles in response to contact with water. Duration of exposure and
-      water temperature affect the rate of development and intensity of the lesions.
-      The condition is more common in females than in males and frequently occurs
-      in patients with cystic fibrosis.
-  Genes:
-  - Gene:
-      Symbol: CFTR
-      Name: cystic fibrosis transmembrane conductance regulator
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79359'
-      Label: Other epidermal disorder
-  - Parent:
-    - ORPHAcode: '231957'
-      Label: Disease associated with a genetic susceptibility or tested for a biomarker
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET_24283504[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -51,6 +11,95 @@ Orphapacket:
       value: Childhood
   - AverageAgeOfOnset:
       value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: CF transmembrane conductance regulator
+      Symbol: CFTR
+  Label: Aquagenic palmoplantar keratoderma
+  ORPHAcode: '498359'
+  ORPHApacketId: '498359'
+  PURL: http://www.orpha.net/ORDO/Orphanet_498359
+  Parents:
+  - Parent:
+    - Label: Other epidermal disorder
+      ORPHAcode: '79359'
+  - Parent:
+    - Label: Disease associated with a genetic susceptibility or tested for a biomarker
+      ORPHAcode: '231957'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000982
+      HPOTerm: Palmoplantar keratoderma
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007407
+      HPOTerm: Excessive skin wrinkling on dorsum of hands and fingers
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007410
+      HPOTerm: Palmoplantar hyperhidrosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0025080
+      HPOTerm: Orthokeratotic hyperkeratosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0031248
+      HPOTerm: Palmar pruritus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0031289
+      HPOTerm: White papule
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000969
+      HPOTerm: Edema
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001047
+      HPOTerm: Atopic dermatitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002725
+      HPOTerm: Systemic lupus erythematosus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005425
+      HPOTerm: Recurrent sinopulmonary infections
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006261
+      HPOTerm: Abnormal phalangeal joint morphology of the hand
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0200035
+      HPOTerm: Skin plaque
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_24283504[PMID]
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: Aquagenic keratoderma
+  - Synonym: Aquagenic syringeal acrokeratoderma
+  - Synonym: Aquagenic wrinkling of the palms
+  - Synonym: Transient reactive papulotranslucent acrokeratoderma
+  TextSection:
+    Contents: A rare skin disease characterized by transient wrinkling of the skin
+      edema formation of whitish papules pruritus burning sensation or pain on the
+      palms and/or soles in response to contact with water. Duration of exposure and
+      water temperature affect the rate of development and intensity of the lesions.
+      The condition is more common in females than in males and frequently occurs
+      in patients with cystic fibrosis.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

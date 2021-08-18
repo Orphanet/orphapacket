@@ -1,14 +1,136 @@
 Orphapacket:
-  ORPHApacketId: '49042'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '49042'
-  Label: Dentinogenesis imperfecta
-  PURL: http://www.orpha.net/ORDO/Orphanet_49042
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '3054'
+            Source: HGNC
+          - Reference: '125485'
+            Source: OMIM
+          Label: dentin sialophosphoprotein
+          Symbol: DSPP
+      Label: Dentinogenesis imperfecta type 2
+      ORPHAcode: '166260'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '3054'
+            Source: HGNC
+          - Reference: '125485'
+            Source: OMIM
+          Label: dentin sialophosphoprotein
+          Symbol: DSPP
+      Label: Dentinogenesis imperfecta type 3
+      ORPHAcode: '166265'
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Dentinogenesis imperfecta
+  ORPHAcode: '49042'
+  ORPHApacketId: '49042'
+  PURL: http://www.orpha.net/ORDO/Orphanet_49042
+  Parents:
+  - Parent:
+    - Label: Hereditary dentin defect
+      ORPHAcode: '167759'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006350
+      HPOTerm: Obliteration of the pulp chamber
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006486
+      HPOTerm: Abnormality of the dental root
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000683
+      HPOTerm: Grayish enamel
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000694
+      HPOTerm: Shell teeth
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001382
+      HPOTerm: Joint hypermobility
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006282
+      HPOTerm: Generalized hypoplasia of dental enamel
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006286
+      HPOTerm: Yellow-brown discoloration of the teeth
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006479
+      HPOTerm: Abnormality of the dental pulp
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010299
+      HPOTerm: Abnormality of dentin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011084
+      HPOTerm: Hypocalcification of dental enamel
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0025124
+      HPOTerm: Fragile teeth
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000978
+      HPOTerm: Bruising susceptibility
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001592
+      HPOTerm: Selective tooth agenesis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006094
+      HPOTerm: Finger joint hypermobility
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006335
+      HPOTerm: Persistence of primary teeth
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006336
+      HPOTerm: Short dental roots
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010485
+      HPOTerm: Hyperextensibility at elbow
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0045086
+      HPOTerm: Knee joint hypermobility
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000365
+      HPOTerm: Hearing impairment
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000592
+      HPOTerm: Blue sclerae
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0003010
+      HPOTerm: Prolonged bleeding time
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]'
+      ValMoy: '14.5'
   Synonyms:
   - Synonym: DGI
   - Synonym: DGI without OI
@@ -19,135 +141,13 @@ Orphapacket:
   - Synonym: Opalescent teeth without OI
   - Synonym: Opalescent teeth without osteogenesis imperfecta
   TextSection:
-    TextSectionType: Definition
     Contents: Dentinogenesis imperfecta (DGI) is a hereditary dentin defect (see this
       term) characterized by abnormal dentin structure resulting in abnormal tooth
       development.
-  Parents:
-  - Parent:
-    - ORPHAcode: '167759'
-      Label: Hereditary dentin defect
-  Childs:
-  - Child:
-      Label: Dentinogenesis imperfecta type 2
-      ORPHAcode: '166260'
-      Genes:
-      - Gene:
-          Label: dentin sialophosphoprotein
-          Symbol: DSPP
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3054'
-          - Source: OMIM
-            Reference: '125485'
-  - Child:
-      Label: Dentinogenesis imperfecta type 3
-      ORPHAcode: '166265'
-      Genes:
-      - Gene:
-          Label: dentin sialophosphoprotein
-          Symbol: DSPP
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3054'
-          - Source: OMIM
-            Reference: '125485'
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0006350
-      HPOTerm: Obliteration of the pulp chamber
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006486
-      HPOTerm: Abnormality of the dental root
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000683
-      HPOTerm: Grayish enamel
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000694
-      HPOTerm: Shell teeth
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001382
-      HPOTerm: Joint hypermobility
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0006282
-      HPOTerm: Generalized hypoplasia of dental enamel
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0006286
-      HPOTerm: Yellow-brown discoloration of the teeth
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0006479
-      HPOTerm: Abnormality of the dental pulp
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0010299
-      HPOTerm: Abnormality of dentin
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0011084
-      HPOTerm: Hypocalcification of dental enamel
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0025124
-      HPOTerm: Fragile teeth
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000978
-      HPOTerm: Bruising susceptibility
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001592
-      HPOTerm: Selective tooth agenesis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0006094
-      HPOTerm: Finger joint hypermobility
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0006335
-      HPOTerm: Persistence of primary teeth
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0006336
-      HPOTerm: Short dental roots
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0010485
-      HPOTerm: Hyperextensibility at elbow
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0045086
-      HPOTerm: Knee joint hypermobility
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000365
-      HPOTerm: Hearing impairment
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0000592
-      HPOTerm: Blue sclerae
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0003010
-      HPOTerm: Prolonged bleeding time
-      HPOFrequency: Very rare (<4-1%)
-  Prevalences:
-    Prevalence:
-    - Source: '[EXPERT]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: '14.5'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

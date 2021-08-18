@@ -1,32 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '209013'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '209013'
-  Label: Acquired amyloid peripheral neuropathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_209013
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-    Parent:
-    - ORPHAcode: '182086'
-      Label: Acquired peripheral neuropathy
   Childs:
   - Child:
+      Genes: no data
       Label: AL amyloidosis
       ORPHAcode: '85443'
-      Genes: no data
   - Child:
-      Label: AA amyloidosis
-      ORPHAcode: '85445'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '10513'
+            Source: HGNC
+          - Reference: '104750'
+            Source: OMIM
           Label: serum amyloid A1
           Symbol: SAA1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10513'
-          - Source: OMIM
-            Reference: '104750'
+      Label: AA amyloidosis
+      ORPHAcode: '85445'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Acquired amyloid peripheral neuropathy
+  ORPHAcode: '209013'
+  ORPHApacketId: '209013'
+  PURL: http://www.orpha.net/ORDO/Orphanet_209013
+  Parents:
+    Parent:
+    - Label: Acquired peripheral neuropathy
+      ORPHAcode: '182086'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

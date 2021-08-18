@@ -1,30 +1,30 @@
 Orphapacket:
-  ORPHApacketId: '228366'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '228366'
-  Label: CLN7 disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_228366
-  DisorderType:
-    value: Etiological subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377795
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '610951'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: MFSD8
-      Name: major facilitator superfamily domain containing 8
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '168491'
-      Label: Late infantile neuronal ceroid lipofuscinosis
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Childhood
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377795
+    value: Etiological subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '610951'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: major facilitator superfamily domain containing 8
+      Symbol: MFSD8
+  Label: CLN7 disease
+  ORPHAcode: '228366'
+  ORPHApacketId: '228366'
+  PURL: http://www.orpha.net/ORDO/Orphanet_228366
+  Parents:
+  - Parent:
+    - Label: Late infantile neuronal ceroid lipofuscinosis
+      ORPHAcode: '168491'
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

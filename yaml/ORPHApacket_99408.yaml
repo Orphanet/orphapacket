@@ -1,50 +1,50 @@
 Orphapacket:
-  ORPHApacketId: '99408'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99408'
-  Label: Pituitary adenoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_99408
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '181384'
-      Label: Rare hypothalamic or pituitary disease
-  - Parent:
-    - ORPHAcode: '304055'
-      Label: Pituitary tumor
-  - Parent:
-    - ORPHAcode: '95503'
-      Label: Pituitary hormone deficiency of tumoral origin
   Childs:
   - Child:
+      Genes: no data
       Label: Non-functioning pituitary adenoma
       ORPHAcode: '91349'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Functioning pituitary adenoma
       ORPHAcode: '314753'
-      Genes: no data
   - Child:
-      Label: Familial isolated pituitary adenoma
-      ORPHAcode: '314777'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '13733'
+            Source: HGNC
+          - Reference: '605516'
+            Source: OMIM
           Label: cadherin related 23
           Symbol: CDH23
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '13733'
-          - Source: OMIM
-            Reference: '605516'
       - Gene:
+          ExternalReferences:
+          - Reference: '358'
+            Source: HGNC
+          - Reference: '605555'
+            Source: OMIM
           Label: aryl hydrocarbon receptor interacting protein
           Symbol: AIP
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '358'
-          - Source: OMIM
-            Reference: '605555'
+      Label: Familial isolated pituitary adenoma
+      ORPHAcode: '314777'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Pituitary adenoma
+  ORPHAcode: '99408'
+  ORPHApacketId: '99408'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99408
+  Parents:
+  - Parent:
+    - Label: Rare hypothalamic or pituitary disease
+      ORPHAcode: '181384'
+  - Parent:
+    - Label: Pituitary tumor
+      ORPHAcode: '304055'
+  - Parent:
+    - Label: Pituitary hormone deficiency of tumoral origin
+      ORPHAcode: '95503'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

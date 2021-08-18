@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "54370",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "54370",
         "Label": "Primary membranoproliferative glomerulonephritis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_54370",
@@ -51,7 +51,7 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Membranoproliferative glomerulonephritis (MPGN) is a chronic progressive kidney disorder characterized by glomerular capillary wall structural changes and mesangial cell proliferation leading to nephrotic syndrome hypocomplementemia hypertension proteinuria and end-stage kidney disease. MPGN can be due to either idiopathic (type 1 2 and 3 MPGN; see these terms) or secondary (associated with infectious and immune complex diseases) causes."
+            "Contents": "A rare glomerular disease characterized by a pattern of glomerular injury on kidney biopsy with characteristic light microscopic changes: mesangial hypercellularity endocapillary proliferation and thickening of the glomerular basement membrane (GBM). On the basis of immunofluorescence (IF) the disorder is divided into C3 glomerulopathy (C3G) or immunoglobulin-mediated membranoproliferative glomerulonephritis. Through electron microscopy C3G is further divided into Dense deposit disease with highly electrondense deposits in the glomerular basement membrane and C3 glomerulonephritis with mesangial intramembranous subendothelial and subepithelial deposits. Secondary causes (autoimmune infectious malignancies) are excluded."
         },
         "Parents": [
             {
@@ -116,7 +116,40 @@
                 "Child": {
                     "Label": "C3 glomerulopathy",
                     "ORPHAcode": "329918",
-                    "Genes": "no data"
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "complement factor H related 3",
+                                "Symbol": "CFHR3",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "16980"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "605336"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "complement factor H related 2",
+                                "Symbol": "CFHR2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "4890"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600889"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             }
         ],

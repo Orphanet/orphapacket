@@ -1,61 +1,61 @@
 Orphapacket:
-  ORPHApacketId: '444941'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '444941'
-  Label: Caudal regression-sirenomelia spectrum
-  PURL: http://www.orpha.net/ORDO/Orphanet_444941
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Sirenomelia
+      ORPHAcode: '3169'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '15512'
+            Source: HGNC
+          - Reference: '610132'
+            Source: OMIM
+          Label: VANGL planar cell polarity protein 1
+          Symbol: VANGL1
+      - Gene:
+          ExternalReferences:
+          - Reference: '26219'
+            Source: HGNC
+          - Reference: '610622'
+            Source: OMIM
+          Label: fuzzy planar cell polarity protein
+          Symbol: FUZ
+      Label: Caudal regression sequence
+      ORPHAcode: '3027'
+  - Child:
+      Genes: no data
+      Label: Familial caudal dysgenesis
+      ORPHAcode: '1768'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Caudal regression-sirenomelia spectrum
+  ORPHAcode: '444941'
+  ORPHApacketId: '444941'
+  PURL: http://www.orpha.net/ORDO/Orphanet_444941
+  Parents:
+  - Parent:
+    - Label: Syndrome with limb malformations as a major feature
+      ORPHAcode: '109009'
+  - Parent:
+    - Label: Syndromic urogenital tract malformation
+      ORPHAcode: '165707'
+  - Parent:
+    - Label: Syndromic anorectal malformation
+      ORPHAcode: '117573'
+  - Parent:
+    - Label: Genetic syndrome with limb malformations as a major feature
+      ORPHAcode: '404577'
   TextSection:
-    TextSectionType: Definition
     Contents: Caudal regression-sirenomelia spectrum is a group of rare genetic developmental
       defect during embryogenesis disorders characterized by varying degrees of caudal
       abdomen pelvic renal anorectal urogenital and/or lumbosacral spine malformations
       with or without lower limb fusion. Phenotype is highly variable ranging from
       minor forms with isolated coccygeal agenesis to severe forms presenting with
       a single rudimentary limb. Central nervous system anomalies have also been reported.
-  Parents:
-  - Parent:
-    - ORPHAcode: '109009'
-      Label: Syndrome with limb malformations as a major feature
-  - Parent:
-    - ORPHAcode: '165707'
-      Label: Syndromic urogenital tract malformation
-  - Parent:
-    - ORPHAcode: '117573'
-      Label: Syndromic anorectal malformation
-  - Parent:
-    - ORPHAcode: '404577'
-      Label: Genetic syndrome with limb malformations as a major feature
-  Childs:
-  - Child:
-      Label: Sirenomelia
-      ORPHAcode: '3169'
-      Genes: no data
-  - Child:
-      Label: Caudal regression sequence
-      ORPHAcode: '3027'
-      Genes:
-      - Gene:
-          Label: VANGL planar cell polarity protein 1
-          Symbol: VANGL1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '15512'
-          - Source: OMIM
-            Reference: '610132'
-      - Gene:
-          Label: fuzzy planar cell polarity protein
-          Symbol: FUZ
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '26219'
-          - Source: OMIM
-            Reference: '610622'
-  - Child:
-      Label: Familial caudal dysgenesis
-      ORPHAcode: '1768'
-      Genes: no data
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,19 +1,91 @@
 Orphapacket:
-  ORPHApacketId: '364541'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '364541'
-  Label: Otopalatodigital syndrome spectrum disorder
-  PURL: http://www.orpha.net/ORDO/Orphanet_364541
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '3754'
+            Source: HGNC
+          - Reference: '300017'
+            Source: OMIM
+          Label: filamin A
+          Symbol: FLNA
+      Label: Otopalatodigital syndrome type 2
+      ORPHAcode: '90652'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '6859'
+            Source: HGNC
+          - Reference: '602614'
+            Source: OMIM
+          Label: mitogen-activated protein kinase kinase kinase 7
+          Symbol: MAP3K7
+      - Gene:
+          ExternalReferences:
+          - Reference: '3754'
+            Source: HGNC
+          - Reference: '300017'
+            Source: OMIM
+          Label: filamin A
+          Symbol: FLNA
+      Label: Frontometaphyseal dysplasia
+      ORPHAcode: '1826'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '3754'
+            Source: HGNC
+          - Reference: '300017'
+            Source: OMIM
+          Label: filamin A
+          Symbol: FLNA
+      Label: Melnick-Needles syndrome
+      ORPHAcode: '2484'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '29242'
+            Source: HGNC
+          - Reference: '613293'
+            Source: OMIM
+          Label: SH3 and PX domains 2B
+          Symbol: SH3PXD2B
+      Label: Frank-Ter Haar syndrome
+      ORPHAcode: '137834'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '3754'
+            Source: HGNC
+          - Reference: '300017'
+            Source: OMIM
+          Label: filamin A
+          Symbol: FLNA
+      Label: Otopalatodigital syndrome type 1
+      ORPHAcode: '90650'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Otopalatodigital syndrome spectrum disorder
+  ORPHAcode: '364541'
+  ORPHApacketId: '364541'
+  PURL: http://www.orpha.net/ORDO/Orphanet_364541
+  Parents:
+  - Parent:
+    - Label: Filamin-related bone disorder
+      ORPHAcode: '93425'
+  - Parent:
+    - Label: Primary bone dysplasia
+      ORPHAcode: '364526'
   Synonyms:
   - Synonym: OPD spectrum disorder
   - Synonym: OPSD
   TextSection:
-    TextSectionType: Definition
     Contents: Otopalatodigital syndrome spectrum disorder is a primary bone dysplasia
       and encompasses a group of congenital anomalies that are characterized by skeletal
       dysplasia of varying clinical severity and an X linked dominant pattern of inheritance.
@@ -23,79 +95,7 @@ Orphapacket:
       (MNS) which displays skeletal deformities in females and embryonic or perinatal
       lethality in most males; frontometaphyseal dysplasia (FMD); and terminal osseous
       dysplasia - pigmentary defects.
-  Parents:
-  - Parent:
-    - ORPHAcode: '93425'
-      Label: Filamin-related bone disorder
-  - Parent:
-    - ORPHAcode: '364526'
-      Label: Primary bone dysplasia
-  Childs:
-  - Child:
-      Label: Otopalatodigital syndrome type 2
-      ORPHAcode: '90652'
-      Genes:
-      - Gene:
-          Label: filamin A
-          Symbol: FLNA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3754'
-          - Source: OMIM
-            Reference: '300017'
-  - Child:
-      Label: Frontometaphyseal dysplasia
-      ORPHAcode: '1826'
-      Genes:
-      - Gene:
-          Label: mitogen-activated protein kinase kinase kinase 7
-          Symbol: MAP3K7
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6859'
-          - Source: OMIM
-            Reference: '602614'
-      - Gene:
-          Label: filamin A
-          Symbol: FLNA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3754'
-          - Source: OMIM
-            Reference: '300017'
-  - Child:
-      Label: Melnick-Needles syndrome
-      ORPHAcode: '2484'
-      Genes:
-      - Gene:
-          Label: filamin A
-          Symbol: FLNA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3754'
-          - Source: OMIM
-            Reference: '300017'
-  - Child:
-      Label: Frank-Ter Haar syndrome
-      ORPHAcode: '137834'
-      Genes:
-      - Gene:
-          Label: SH3 and PX domains 2B
-          Symbol: SH3PXD2B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '29242'
-          - Source: OMIM
-            Reference: '613293'
-  - Child:
-      Label: Otopalatodigital syndrome type 1
-      ORPHAcode: '90650'
-      Genes:
-      - Gene:
-          Label: filamin A
-          Symbol: FLNA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3754'
-          - Source: OMIM
-            Reference: '300017'
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

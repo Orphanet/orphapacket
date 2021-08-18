@@ -1,62 +1,62 @@
 Orphapacket:
-  ORPHApacketId: '306661'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '306661'
-  Label: Familial hyperphosphatemic tumoral calcinosis/Hyperphosphatemic hyperostosis
-    syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_306661
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: Hypercalcemic tumoral calcinosis
+    value: Clinical subtype
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
-      Reference: '211900'
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
+      Reference: '211900'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
       Reference: '617993'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
       Source: OMIM
-      Reference: '617994'
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
+      Reference: '617994'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: fibroblast growth factor 23
+      Symbol: FGF23
+  - Gene:
+      ExternalReferences: []
+      Name: polypeptide N-acetylgalactosaminyltransferase 3
+      Symbol: GALNT3
+  - Gene:
+      ExternalReferences: []
+      Name: klotho
+      Symbol: KL
+  Label: Familial hyperphosphatemic tumoral calcinosis/Hyperphosphatemic hyperostosis
+    syndrome
+  ORPHAcode: '306661'
+  ORPHApacketId: '306661'
+  PURL: http://www.orpha.net/ORDO/Orphanet_306661
+  Parents:
+  - Parent:
+    - Label: Familial tumoral calcinosis
+      ORPHAcode: '53715'
+  - Parent:
+    - Label: Disorder of O-N-acetylgalactosaminylglycan synthesis
+      ORPHAcode: '309458'
+  - Parent:
+    - Label: Congenital disorder of glycosylation with skin involvement
+      ORPHAcode: '371200'
+  Synonyms:
+  - Synonym: Hypercalcemic tumoral calcinosis
   TextSection:
-    TextSectionType: Definition
     Contents: Familial tumoral calcinosis (FTC) refers to a rare autosomal recessive
       disorder characterized by the occurrence of cutaneous and subcutaneous calcified
       masses usually adjacent to large joints such as hips shoulders and elbows. FTC
       can occur in the setting of hyperphosphatemia or normophosphatemia depending
       on the type of gene mutation involved.
-  Genes:
-  - Gene:
-      Symbol: FGF23
-      Name: fibroblast growth factor 23
-      ExternalReferences: []
-  - Gene:
-      Symbol: GALNT3
-      Name: polypeptide N-acetylgalactosaminyltransferase 3
-      ExternalReferences: []
-  - Gene:
-      Symbol: KL
-      Name: klotho
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '53715'
-      Label: Familial tumoral calcinosis
-  - Parent:
-    - ORPHAcode: '309458'
-      Label: Disorder of O-N-acetylgalactosaminylglycan synthesis
-  - Parent:
-    - ORPHAcode: '371200'
-      Label: Congenital disorder of glycosylation with skin involvement
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

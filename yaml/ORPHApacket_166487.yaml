@@ -1,35 +1,35 @@
 Orphapacket:
-  ORPHApacketId: '166487'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '166487'
-  Label: Cerebral diseases of vascular origin with epilepsy
-  PURL: http://www.orpha.net/ORDO/Orphanet_166487
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '101998'
-      Label: Rare epilepsy
-  - Parent:
-    - ORPHAcode: '183512'
-      Label: Rare genetic epilepsy
   Childs:
   - Child:
-      Label: Sturge-Weber syndrome
-      ORPHAcode: '3205'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4390'
+            Source: HGNC
+          - Reference: '600998'
+            Source: OMIM
           Label: G protein subunit alpha q
           Symbol: GNAQ
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4390'
-          - Source: OMIM
-            Reference: '600998'
+      Label: Sturge-Weber syndrome
+      ORPHAcode: '3205'
   - Child:
+      Genes: no data
       Label: Hereditary neurocutaneous malformation
       ORPHAcode: '1062'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Cerebral diseases of vascular origin with epilepsy
+  ORPHAcode: '166487'
+  ORPHApacketId: '166487'
+  PURL: http://www.orpha.net/ORDO/Orphanet_166487
+  Parents:
+  - Parent:
+    - Label: Rare epilepsy
+      ORPHAcode: '101998'
+  - Parent:
+    - Label: Rare genetic epilepsy
+      ORPHAcode: '183512'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

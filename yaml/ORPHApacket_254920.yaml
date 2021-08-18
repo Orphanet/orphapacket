@@ -1,22 +1,48 @@
 Orphapacket:
-  ORPHApacketId: '254920'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '254920'
-  Label: Combined oxidative phosphorylation defect type 2
-  PURL: http://www.orpha.net/ORDO/Orphanet_254920
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: infantile
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '610498'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: mitochondrial ribosomal protein S16
+      Symbol: MRPS16
+  Label: Combined oxidative phosphorylation defect type 2
+  ORPHAcode: '254920'
+  ORPHApacketId: '254920'
+  PURL: http://www.orpha.net/ORDO/Orphanet_254920
+  Parents:
+  - Parent:
+    - Label: Mitochondrial disorder due to a defect in mitochondrial protein synthesis
+      ORPHAcode: '35696'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 15505824[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_15505824[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: COXPD2
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '610498'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Combined oxidative phosphorylation defect type 2 is a rare mitochondrial
       disorder due to a defect in mitochondrial protein synthesis characterized by
       severe intrauterine growth retardation neonatal limb edema and redundant skin
@@ -25,36 +51,10 @@ Orphapacket:
       severe intractable neonatal lactic acidosis with lethargy hypotonia absent spontaneous
       movements and fatal outcome. Markedly decreased activity of complex I II + III
       and IV in muscle and liver have been determined.
-  Genes:
-  - Gene:
-      Symbol: MRPS16
-      Name: mitochondrial ribosomal protein S16
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '35696'
-      Label: Mitochondrial disorder due to a defect in mitochondrial protein synthesis
-  Prevalences:
-  - Prevalence:
-      Source: 15505824[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_15505824[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: infantile
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

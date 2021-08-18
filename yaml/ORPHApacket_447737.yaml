@@ -1,20 +1,50 @@
 Orphapacket:
-  ORPHApacketId: '447737'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '447737'
-  Label: DOCK2 deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_447737
+  AverageAgeOfDeaths:
+  - AverageAgeOfDeath:
+      value: Infancy
+  - AverageAgeOfDeath:
+      value: Neonatal
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '616433'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: dedicator of cytokinesis 2
+      Symbol: DOCK2
+  Label: DOCK2 deficiency
+  ORPHAcode: '447737'
+  ORPHApacketId: '447737'
+  PURL: http://www.orpha.net/ORDO/Orphanet_447737
+  Parents:
+  - Parent:
+    - Label: Non-severe combined immunodeficiency
+      ORPHAcode: '480549'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 26083206[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_26083206[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: A rare primary combined T and B cell immunodeficiency characterized
       by early-onset of recurrent invasive viral and bacterial infections associated
       with T and B cell lymphopenia functional defects in T and B cells poor antibody
@@ -22,40 +52,10 @@ Orphapacket:
       clinical manifestations commonly include recurrent pneumonia bronchiolitis otitis
       media meningoencephalitis colitis and diarrhea leading to fatal multiorgan failure
       in severe cases.
-  Genes:
-  - Gene:
-      Symbol: DOCK2
-      Name: dedicator of cytokinesis 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '480549'
-      Label: Non-severe combined immunodeficiency
-  Prevalences:
-  - Prevalence:
-      Source: 26083206[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_26083206[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Infancy
-  - AverageAgeOfDeath:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

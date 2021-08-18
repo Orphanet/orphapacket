@@ -1,18 +1,21 @@
 Orphapacket:
-  ORPHApacketId: '141171'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '141171'
-  Label: Maxillary arteriovenous malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_141171
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Label: Maxillary arteriovenous malformation
+  ORPHAcode: '141171'
+  ORPHApacketId: '141171'
+  PURL: http://www.orpha.net/ORDO/Orphanet_141171
+  Parents:
+  - Parent:
+    - Label: Facial arteriovenous malformation
+      ORPHAcode: '156230'
   Synonyms:
   - Synonym: Arteriovenous malformation of maxilla
   TextSection:
-    TextSectionType: Definition
     Contents: Maxillary arteriovenous malformation is a rare vascular anomaly characterized
       by an abnormal connection of the arterial and venous vasculature without capillary
       connections in the maxillofacial area usually presenting with chronic intermittent
@@ -20,10 +23,7 @@ Orphapacket:
       pressure pulsation swelling facial asymmetry headache ocular pain tinnitus otalgia
       epistaxis toothache and/or teeth mobility and compressibility into their sockets
       is possible although it may also be asymptomatic.
-  Parents:
-  - Parent:
-    - ORPHAcode: '156230'
-      Label: Facial arteriovenous malformation
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

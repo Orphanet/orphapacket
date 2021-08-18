@@ -1,96 +1,96 @@
 Orphapacket:
-  ORPHApacketId: '230800'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '230800'
-  Label: Toxin-mediated infectious botulism
-  PURL: http://www.orpha.net/ORDO/Orphanet_230800
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Wound botulism
+      ORPHAcode: '178475'
+  - Child:
+      Genes: no data
+      Label: Intestinal botulism
+      ORPHAcode: '178481'
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  Label: Toxin-mediated infectious botulism
+  ORPHAcode: '230800'
+  ORPHApacketId: '230800'
+  PURL: http://www.orpha.net/ORDO/Orphanet_230800
+  Parents:
+  - Parent:
+    - Label: Botulism
+      ORPHAcode: '1267'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000508
+      HPOTerm: Ptosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000651
+      HPOTerm: Diplopia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001324
+      HPOTerm: Muscle weakness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002015
+      HPOTerm: Dysphagia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002019
+      HPOTerm: Constipation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002094
+      HPOTerm: Dyspnea
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002747
+      HPOTerm: Respiratory insufficiency due to muscle weakness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003470
+      HPOTerm: Paralysis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006597
+      HPOTerm: Diaphragmatic paralysis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006824
+      HPOTerm: Cranial nerve paralysis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011499
+      HPOTerm: Mydriasis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100021
+      HPOTerm: Cerebral palsy
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Toxin-mediated infective botulism
   TextSection:
-    TextSectionType: Definition
     Contents: Infectious botulism is a form of botulism (see this term) a rare acquired
       neuromuscular junction disease characterized by descending flaccid paralysis
       caused by botulinum neurotoxins (BoNTs) produced <i>in vivo</i> leading to toxin-mediated
       infection. Infectious botulism includes wound botulism and intestinal toxemia
       botulism (infant botulism and adult intestinal botulism; see these terms).
-  Parents:
-  - Parent:
-    - ORPHAcode: '1267'
-      Label: Botulism
-  Childs:
-  - Child:
-      Label: Wound botulism
-      ORPHAcode: '178475'
-      Genes: no data
-  - Child:
-      Label: Intestinal botulism
-      ORPHAcode: '178481'
-      Genes: no data
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000508
-      HPOTerm: Ptosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000651
-      HPOTerm: Diplopia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001324
-      HPOTerm: Muscle weakness
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002015
-      HPOTerm: Dysphagia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002019
-      HPOTerm: Constipation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002094
-      HPOTerm: Dyspnea
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002747
-      HPOTerm: Respiratory insufficiency due to muscle weakness
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003470
-      HPOTerm: Paralysis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006597
-      HPOTerm: Diaphragmatic paralysis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006824
-      HPOTerm: Cranial nerve paralysis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0011499
-      HPOTerm: Mydriasis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100021
-      HPOTerm: Cerebral palsy
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

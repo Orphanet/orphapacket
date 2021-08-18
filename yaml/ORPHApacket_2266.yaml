@@ -1,74 +1,74 @@
 Orphapacket:
-  ORPHApacketId: '2266'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2266'
-  Label: Hypotrichosis-intellectual disability, Lopes type
-  PURL: http://www.orpha.net/ORDO/Orphanet_2266
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: infantile
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Hypotrichosis-intellectual disability, Lopes type
+  ORPHAcode: '2266'
+  ORPHApacketId: '2266'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2266
+  Parents:
+  - Parent:
+    - Label: Rare syndromic intellectual disability
+      ORPHAcode: '102369'
+  - Parent:
+    - Label: Rare genetic syndromic intellectual disability
+      ORPHAcode: '183763'
+  - Parent:
+    - Label: Ectodermal dysplasia syndrome
+      ORPHAcode: '79373'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001006
+      HPOTerm: Hypotrichosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006088
+      HPOTerm: 1-5 finger complete cutaneous syndactyly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006288
+      HPOTerm: Advanced eruption of teeth
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 8652088[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_8652088[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Lopes-Marques de Faria syndrome
   TextSection:
-    TextSectionType: Definition
     Contents: A rare ectodermal dysplasia syndrome characterized by hypotrichosis
       of scalp and eyebrows finger syndactyly intellectual disability and early eruption
       of teeth. Facial dysmorphism (i.e. round face with prominent forehead cheeks
       and ears and upward-slanting palpebral fissures) hypoplasia of median and distal
       phalanges and kyphosis are additionally observed features. There have been no
       further descriptions in the literature since 1996.
-  Parents:
-  - Parent:
-    - ORPHAcode: '102369'
-      Label: Rare syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '183763'
-      Label: Rare genetic syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '79373'
-      Label: Ectodermal dysplasia syndrome
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001006
-      HPOTerm: Hypotrichosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0006088
-      HPOTerm: 1-5 finger complete cutaneous syndactyly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0006288
-      HPOTerm: Advanced eruption of teeth
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 8652088[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_8652088[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Childhood
-  - AverageAgeOfOnset:
-      value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: infantile
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

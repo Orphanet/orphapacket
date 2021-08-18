@@ -1,151 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '262'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '262'
-  Label: Duchenne and Becker muscular dystrophy
-  PURL: http://www.orpha.net/ORDO/Orphanet_262
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Synonyms:
-  - Synonym: Severe dystrophinopathy, Duchenne and Becker type
-  TextSection:
-    TextSectionType: Definition
-    Contents: A group of rare genetic progressive muscular dystrophies including Duchenne
-      muscular dystrophy (DMD) Becker muscular dystrophy (BMD) and a symptomatic form
-      in female carriers. The diseases represent a spectrum of severity ranging from
-      progressive skeletal and cardiac muscle wasting and weakness (DMD BMD) to less
-      severe muscle weakness or isolated cardiomyopathy affecting carrier females.
-  Parents:
-  - Parent:
-    - ORPHAcode: '206644'
-      Label: Progressive muscular dystrophy
-  - Parent:
-    - ORPHAcode: '217610'
-      Label: Neuromuscular disease with dilated cardiomyopathy
-  Childs:
-  - Child:
-      Label: Becker muscular dystrophy
-      ORPHAcode: '98895'
-      Genes:
-      - Gene:
-          Label: dystrophin
-          Symbol: DMD
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2928'
-          - Source: OMIM
-            Reference: '300377'
-  - Child:
-      Label: Duchenne muscular dystrophy
-      ORPHAcode: '98896'
-      Genes:
-      - Gene:
-          Label: dystrophin
-          Symbol: DMD
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2928'
-          - Source: OMIM
-            Reference: '300377'
-      - Gene:
-          Label: latent transforming growth factor beta binding protein 4
-          Symbol: LTBP4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6717'
-          - Source: OMIM
-            Reference: '604710'
-  - Child:
-      Label: Symptomatic form of muscular dystrophy of Duchenne and Becker in female
-        carriers
-      ORPHAcode: '206546'
-      Genes:
-      - Gene:
-          Label: dystrophin
-          Symbol: DMD
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2928'
-          - Source: OMIM
-            Reference: '300377'
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001256
-      HPOTerm: Intellectual disability, mild
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001288
-      HPOTerm: Gait disturbance
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001387
-      HPOTerm: Joint stiffness
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001639
-      HPOTerm: Hypertrophic cardiomyopathy
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002376
-      HPOTerm: Developmental regression
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002650
-      HPOTerm: Scoliosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003100
-      HPOTerm: Slender long bone
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003198
-      HPOTerm: Myopathy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003202
-      HPOTerm: Skeletal muscle atrophy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003236
-      HPOTerm: Elevated serum creatine kinase
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003307
-      HPOTerm: Hyperlordosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003457
-      HPOTerm: EMG abnormality
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0004349
-      HPOTerm: Reduced bone mineral density
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 19767415[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: United Kingdom
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 25687144[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: United States
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: young Adult
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -153,9 +9,153 @@ Orphapacket:
       value: Adult
   - AverageAgeOfOnset:
       value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: young Adult
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '2928'
+            Source: HGNC
+          - Reference: '300377'
+            Source: OMIM
+          Label: dystrophin
+          Symbol: DMD
+      Label: Becker muscular dystrophy
+      ORPHAcode: '98895'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '2928'
+            Source: HGNC
+          - Reference: '300377'
+            Source: OMIM
+          Label: dystrophin
+          Symbol: DMD
+      - Gene:
+          ExternalReferences:
+          - Reference: '6717'
+            Source: HGNC
+          - Reference: '604710'
+            Source: OMIM
+          Label: latent transforming growth factor beta binding protein 4
+          Symbol: LTBP4
+      Label: Duchenne muscular dystrophy
+      ORPHAcode: '98896'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '2928'
+            Source: HGNC
+          - Reference: '300377'
+            Source: OMIM
+          Label: dystrophin
+          Symbol: DMD
+      Label: Symptomatic form of muscular dystrophy of Duchenne and Becker in female
+        carriers
+      ORPHAcode: '206546'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Duchenne and Becker muscular dystrophy
+  ORPHAcode: '262'
+  ORPHApacketId: '262'
+  PURL: http://www.orpha.net/ORDO/Orphanet_262
+  Parents:
+  - Parent:
+    - Label: Progressive muscular dystrophy
+      ORPHAcode: '206644'
+  - Parent:
+    - Label: Neuromuscular disease with dilated cardiomyopathy
+      ORPHAcode: '217610'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001256
+      HPOTerm: Intellectual disability, mild
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001288
+      HPOTerm: Gait disturbance
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001387
+      HPOTerm: Joint stiffness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001639
+      HPOTerm: Hypertrophic cardiomyopathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002376
+      HPOTerm: Developmental regression
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003100
+      HPOTerm: Slender long bone
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003198
+      HPOTerm: Myopathy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003202
+      HPOTerm: Skeletal muscle atrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003236
+      HPOTerm: Elevated serum creatine kinase
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003307
+      HPOTerm: Hyperlordosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003457
+      HPOTerm: EMG abnormality
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004349
+      HPOTerm: Reduced bone mineral density
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: United Kingdom
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 19767415[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: 25687144[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Severe dystrophinopathy, Duchenne and Becker type
+  TextSection:
+    Contents: A group of rare genetic progressive muscular dystrophies including Duchenne
+      muscular dystrophy (DMD) Becker muscular dystrophy (BMD) and a symptomatic form
+      in female carriers. The diseases represent a spectrum of severity ranging from
+      progressive skeletal and cardiac muscle wasting and weakness (DMD BMD) to less
+      severe muscle weakness or isolated cardiomyopathy affecting carrier females.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

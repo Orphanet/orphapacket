@@ -1,14 +1,103 @@
 Orphapacket:
-  ORPHApacketId: '99000'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99000'
-  Label: Adult-onset foveomacular vitelliform dystrophy
-  PURL: http://www.orpha.net/ORDO/Orphanet_99000
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '153840'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '608161'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '616151'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '616152'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: peripherin 2
+      Symbol: PRPH2
+  - Gene:
+      ExternalReferences: []
+      Name: bestrophin 1
+      Symbol: BEST1
+  - Gene:
+      ExternalReferences: []
+      Name: interphotoreceptor matrix proteoglycan 2
+      Symbol: IMPG2
+  - Gene:
+      ExternalReferences: []
+      Name: interphotoreceptor matrix proteoglycan 1
+      Symbol: IMPG1
+  Label: Adult-onset foveomacular vitelliform dystrophy
+  ORPHAcode: '99000'
+  ORPHApacketId: '99000'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99000
+  Parents:
+  - Parent:
+    - Label: Pattern dystrophy
+      ORPHAcode: '63454'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000478
+      HPOTerm: Abnormality of the eye
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000504
+      HPOTerm: Abnormality of vision
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000505
+      HPOTerm: Visual impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000551
+      HPOTerm: Color vision defect
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001123
+      HPOTerm: Visual field defect
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001139
+      HPOTerm: Choroideremia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007677
+      HPOTerm: Vitelliform maculopathy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007730
+      HPOTerm: Iris hypopigmentation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007899
+      HPOTerm: Retinal nonattachment
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: AOFMD
   - Synonym: AVMD
@@ -18,105 +107,16 @@ Orphapacket:
   - Synonym: Gass disease
   - Synonym: Pseudo-Best disease
   - Synonym: Pseudo-vitelliform macular dystrophy
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '153840'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '608161'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '616151'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '616152'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic macular dystrophy characterized by blurred vision metamorphopsia
       and mild visual impairment secondary to a slightly elevated yellow egg yolk-like
       lesion located in the foveal or parafoveal region.
-  Genes:
-  - Gene:
-      Symbol: PRPH2
-      Name: peripherin 2
-      ExternalReferences: []
-  - Gene:
-      Symbol: BEST1
-      Name: bestrophin 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: IMPG2
-      Name: interphotoreceptor matrix proteoglycan 2
-      ExternalReferences: []
-  - Gene:
-      Symbol: IMPG1
-      Name: interphotoreceptor matrix proteoglycan 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '63454'
-      Label: Pattern dystrophy
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000478
-      HPOTerm: Abnormality of the eye
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000504
-      HPOTerm: Abnormality of vision
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000505
-      HPOTerm: Visual impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000551
-      HPOTerm: Color vision defect
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001123
-      HPOTerm: Visual field defect
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001139
-      HPOTerm: Choroideremia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0007677
-      HPOTerm: Vitelliform maculopathy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007730
-      HPOTerm: Iris hypopigmentation
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0007899
-      HPOTerm: Retinal nonattachment
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

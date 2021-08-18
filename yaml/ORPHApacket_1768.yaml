@@ -1,18 +1,49 @@
 Orphapacket:
-  ORPHApacketId: '1768'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '1768'
-  Label: Familial caudal dysgenesis
-  PURL: http://www.orpha.net/ORDO/Orphanet_1768
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Label: Familial caudal dysgenesis
+  ORPHAcode: '1768'
+  ORPHApacketId: '1768'
+  PURL: http://www.orpha.net/ORDO/Orphanet_1768
+  Parents:
+  - Parent:
+    - Label: Caudal regression-sirenomelia spectrum
+      ORPHAcode: '444941'
+  - Parent:
+    - Label: Genetic syndrome with a central nervous system malformation as a major
+        feature
+      ORPHAcode: '269564'
+  - Parent:
+    - Label: Other syndrome with a central nervous system malformation as a major
+        feature
+      ORPHAcode: '269531'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_2225526[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 2225526[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Rudd-Klimek syndrome
   TextSection:
-    TextSectionType: Definition
     Contents: Familial caudal dysgenesis is a rare genetic developmental defect during
       embryogenesis disorder characterized by varying degrees of caudal dysgenesis
       ranging from a single umbilical artery or imperforate anus to full sirenomelia
@@ -22,41 +53,10 @@ Orphapacket:
       folds depressed nasal bridge micrognathia). Additional features reported include
       cardiovascular (e.g. endocardial cushion defect hypoplasia of pulmonary artery)
       and skeletal (kyphosis hemipelvis) anomalies.
-  Parents:
-  - Parent:
-    - ORPHAcode: '444941'
-      Label: Caudal regression-sirenomelia spectrum
-  - Parent:
-    - ORPHAcode: '269564'
-      Label: Genetic syndrome with a central nervous system malformation as a major
-        feature
-  - Parent:
-    - ORPHAcode: '269531'
-      Label: Other syndrome with a central nervous system malformation as a major
-        feature
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET_2225526[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: 2225526[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

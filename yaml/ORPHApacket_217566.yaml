@@ -1,20 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '217566'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '217566'
-  Label: Chronic respiratory distress with surfactant metabolism deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_217566
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
     Reference: '610913'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: surfactant protein C
+      Symbol: SFTPC
+  Label: Chronic respiratory distress with surfactant metabolism deficiency
+  ORPHAcode: '217566'
+  ORPHApacketId: '217566'
+  PURL: http://www.orpha.net/ORDO/Orphanet_217566
+  Parents:
+  - Parent:
+    - Label: Primary interstitial lung disease in childhood and adulthood due to alveolar
+        structure disorder
+      ORPHAcode: '264930'
+  - Parent:
+    - Label: Genetic interstitial lung disease
+      ORPHAcode: '264992'
   TextSection:
-    TextSectionType: Definition
     Contents: Chronic respiratory distress with surfactant metabolism deficiency is
       a rare genetic primary interstitial lung disease with a highly variable clinical
       presentation ranging from neonatal respiratory distress syndrome to mild to
@@ -25,22 +37,10 @@ Orphapacket:
       abundant foamy alveolar macrophages and granular lipoproteic material in the
       alveolar lumen. Imaging shows cystic spaces and ground-glass opacities that
       are typically homogenously diffuse.
-  Genes:
-  - Gene:
-      Symbol: SFTPC
-      Name: surfactant protein C
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '264930'
-      Label: Primary interstitial lung disease in childhood and adulthood due to alveolar
-        structure disorder
-  - Parent:
-    - ORPHAcode: '264992'
-      Label: Genetic interstitial lung disease
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

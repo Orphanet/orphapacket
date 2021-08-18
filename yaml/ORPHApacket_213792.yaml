@@ -1,37 +1,4 @@
 Orphapacket:
-  ORPHApacketId: '213792'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '213792'
-  Label: Adenosarcoma of the cervix uteri
-  PURL: http://www.orpha.net/ORDO/Orphanet_213792
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Cervical adenosarcoma
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare subtype of malignant mixed epithelial and mesenchymal tumor composed
-      of benign or mildly atypical glandular elements and a surrounding low-grade
-      malignant stroma often containing heterologous elements such as areas of sex-cord-like
-      or smooth muscle differentiation. It usually presents with vaginal bleeding
-      or discharge lower abdominal pain and/or a cervical mass or polyp. The tumor
-      may arise from pre-existing endometriosis and patients may have a history of
-      recurrent cervical polyps.
-  Parents:
-  - Parent:
-    - ORPHAcode: '213782'
-      Label: Malignant mixed epithelial and mesenchymal tumor of cervix uteri
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET_19685064[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -39,3 +6,39 @@ Orphapacket:
       value: Adult
   - AverageAgeOfOnset:
       value: Elderly
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Adenosarcoma of the cervix uteri
+  ORPHAcode: '213792'
+  ORPHApacketId: '213792'
+  PURL: http://www.orpha.net/ORDO/Orphanet_213792
+  Parents:
+  - Parent:
+    - Label: Malignant mixed epithelial and mesenchymal tumor of cervix uteri
+      ORPHAcode: '213782'
+  - Parent:
+    - Label: Pediatric gynecological cancer
+      ORPHAcode: '602697'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Annual incidence
+      Source: ORPHANET_19685064[PMID]
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: Cervical adenosarcoma
+  TextSection:
+    Contents: A rare subtype of malignant mixed epithelial and mesenchymal tumor composed
+      of benign or mildly atypical glandular elements and a surrounding low-grade
+      malignant stroma often containing heterologous elements such as areas of sex-cord-like
+      or smooth muscle differentiation. It usually presents with vaginal bleeding
+      or discharge lower abdominal pain and/or a cervical mass or polyp. The tumor
+      may arise from pre-existing endometriosis and patients may have a history of
+      recurrent cervical polyps.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

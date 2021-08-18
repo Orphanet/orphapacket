@@ -1,18 +1,30 @@
 Orphapacket:
-  ORPHApacketId: '499096'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '499096'
-  Label: Isolated optic neuritis
-  PURL: http://www.orpha.net/ORDO/Orphanet_499096
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Isolated optic neuritis without anti-MOG antibodies
+      ORPHAcode: '592885'
+  - Child:
+      Genes: no data
+      Label: Isolated optic neuritis with anti-MOG antibodies
+      ORPHAcode: '592888'
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Isolated optic neuritis
+  ORPHAcode: '499096'
+  ORPHApacketId: '499096'
+  PURL: http://www.orpha.net/ORDO/Orphanet_499096
+  Parents:
+  - Parent:
+    - Label: Autoimmune/inflammatory optic neuropathy
+      ORPHAcode: '499047'
+  - Parent:
+    - Label: Rare neuroinflammatory or neuroimmunological disease
+      ORPHAcode: '182064'
   Synonyms:
   - Synonym: ION
   TextSection:
-    TextSectionType: Definition
     Contents: A rare inflammatory optic neuropathy characterized by isolated episodes
       (either single or recurrent) of optic neuritis not associated with other neurological
       or systemic disease. Patients typically present with subacute unilateral loss
@@ -22,7 +34,7 @@ Orphapacket:
       afferent pupillary defect. The optic disc appears swollen in many patients and
       uveitis may be associated and can be present for years before the onset of optic
       neuritis.
-  Parents:
-  - Parent:
-    - ORPHAcode: '499047'
-      Label: Autoimmune/inflammatory optic neuropathy
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

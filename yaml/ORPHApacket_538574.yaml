@@ -1,22 +1,60 @@
 Orphapacket:
-  ORPHApacketId: '538574'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '538574'
-  Label: Palmoplantar keratoderma-hereditary motor and sensory neuropathy syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_538574
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '148360'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: keratin 1
+      Symbol: KRT1
+  - Gene:
+      ExternalReferences: []
+      Name: myelin protein zero
+      Symbol: MPZ
+  Label: Palmoplantar keratoderma-hereditary motor and sensory neuropathy syndrome
+  ORPHAcode: '538574'
+  ORPHApacketId: '538574'
+  PURL: http://www.orpha.net/ORDO/Orphanet_538574
+  Parents:
+  - Parent:
+    - Label: Autosomal dominant disease with diffuse palmoplantar keratoderma as a
+        major feature
+      ORPHAcode: '98352'
+  - Parent:
+    - Label: Autosomal dominant hereditary axonal motor and sensory neuropathy
+      ORPHAcode: '140456'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 6446889[PMID]_2976839[PMID]_27639257[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_6446889[PMID]_2976839[PMID]_27639257[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Palmoplantar keratoderma-Charcot-Marie-Tooth syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '148360'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic autosomal dominant hereditary axonal motor and sensory
       neuropathy disorder characterized by childhood-onset palmoplantar keratoderma
       associated with motor and sensory polyneuropathy manifestating with late-onset
@@ -26,45 +64,7 @@ Orphapacket:
       nerve conduction velocities. Additional variable manifestations include impaired
       vibratory sensation reduced tendon reflexes paresthesia pain talipes equinovarus
       pes cavus and nail dystrophy.
-  Genes:
-  - Gene:
-      Symbol: KRT1
-      Name: keratin 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: MPZ
-      Name: myelin protein zero
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98352'
-      Label: Autosomal dominant disease with diffuse palmoplantar keratoderma as a
-        major feature
-  - Parent:
-    - ORPHAcode: '140456'
-      Label: Autosomal dominant hereditary axonal motor and sensory neuropathy
-  Prevalences:
-  - Prevalence:
-      Source: 6446889[PMID]_2976839[PMID]_27639257[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_6446889[PMID]_2976839[PMID]_27639257[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Childhood
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

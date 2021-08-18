@@ -1,41 +1,45 @@
 Orphapacket:
-  ORPHApacketId: '93270'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '93270'
-  Label: Short rib-polydactyly syndrome, Saldino-Noonan type
-  PURL: http://www.orpha.net/ORDO/Orphanet_93270
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: Short rib-polydactyly syndrome type 1
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '613091'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Short rib-polydactyly syndrome (SRPS) Saldino-Noonan type is an extremely
-      rare type of SRPS with neonatal onset characterized by polydactyly hydropic
-      appearance and small thorax with short horizontal ribs causing fatal cardiorespiratory
-      distress. Affected patients also have extreme micromelia pointed metaphyses
-      and a range of other ossification defects (vertebrae calvaria pelvis hand and
-      foot bones). Extraskeletal manifestations may include polycystic kidneys transposition
-      of the great vessels and atresia of the gastrointestinal and genitourinary systems.
-  Genes:
-  - Gene:
-      Symbol: DYNC2H1
-      Name: dynein cytoplasmic 2 heavy chain 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '1505'
-      Label: Short rib-polydactyly syndrome
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '613091'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: dynein cytoplasmic 2 heavy chain 1
+      Symbol: DYNC2H1
+  Label: Short rib-polydactyly syndrome, Saldino-Noonan type
+  ORPHAcode: '93270'
+  ORPHApacketId: '93270'
+  PURL: http://www.orpha.net/ORDO/Orphanet_93270
+  Parents:
+  - Parent:
+    - Label: Short rib-polydactyly syndrome
+      ORPHAcode: '1505'
+  - Parent:
+    - Label: Syndromic anorectal malformation
+      ORPHAcode: '117573'
+  Synonyms:
+  - Synonym: Short rib-polydactyly syndrome type 1
+  TextSection:
+    Contents: A rare ciliopathy with major skeletal involvement characterized by short
+      ribs with an extremely narrow thorax very short limbs absent or very small fibulae
+      severe metaphyseal dysplasia of tubular bones post-axial polydactyly and defective
+      ossification in the calvaria vertebrae pelvis and bones of the hands and feet.
+      Congenital anomalies of multiple other organs have also been described such
+      as polycystic kidneys transposition of the great vessels and atretic lesions
+      of the gastrointestinal and genitourinary tract. Hydrops fetalis may be observed
+      at an early gestational age.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

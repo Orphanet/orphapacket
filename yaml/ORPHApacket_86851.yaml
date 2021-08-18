@@ -1,59 +1,62 @@
 Orphapacket:
-  ORPHApacketId: '86851'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '86851'
-  Label: Acute leukemia of ambiguous lineage
-  PURL: http://www.orpha.net/ORDO/Orphanet_86851
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '3765'
+            Source: HGNC
+          - Reference: '136351'
+            Source: OMIM
+          Label: fms related receptor tyrosine kinase 3
+          Symbol: FLT3
+      - Gene:
+          ExternalReferences:
+          - Reference: '7132'
+            Source: HGNC
+          - Reference: '159555'
+            Source: OMIM
+          Label: lysine methyltransferase 2A
+          Symbol: KMT2A
+      Label: Mixed phenotype acute leukemia
+      ORPHAcode: '530995'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '7132'
+            Source: HGNC
+          - Reference: '159555'
+            Source: OMIM
+          Label: lysine methyltransferase 2A
+          Symbol: KMT2A
+      Label: Acute undifferentiated leukemia
+      ORPHAcode: '98835'
   DisorderType:
-    value: Category
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '601626'
+    Source: OMIM
+  Label: Acute leukemia of ambiguous lineage
+  ORPHAcode: '86851'
+  ORPHApacketId: '86851'
+  PURL: http://www.orpha.net/ORDO/Orphanet_86851
+  Parents:
+  - Parent:
+    - Label: Acute myeloid leukemia
+      ORPHAcode: '519'
+  - Parent:
+    - Label: Pediatric acute myeloid leukemia
+      ORPHAcode: '602667'
   Synonyms:
   - Synonym: Acute leukemia of indeterminate lineage
   - Synonym: Hybrid acute leukemia
   - Synonym: Mixed lineage acute leukemia
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '601626'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  Parents:
-  - Parent:
-    - ORPHAcode: '519'
-      Label: Acute myeloid leukemia
-  Childs:
-  - Child:
-      Label: Mixed phenotype acute leukemia
-      ORPHAcode: '530995'
-      Genes:
-      - Gene:
-          Label: fms related tyrosine kinase 3
-          Symbol: FLT3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3765'
-          - Source: OMIM
-            Reference: '136351'
-      - Gene:
-          Label: lysine methyltransferase 2A
-          Symbol: KMT2A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7132'
-          - Source: OMIM
-            Reference: '159555'
-  - Child:
-      Label: Acute undifferentiated leukemia
-      ORPHAcode: '98835'
-      Genes:
-      - Gene:
-          Label: lysine methyltransferase 2A
-          Symbol: KMT2A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7132'
-          - Source: OMIM
-            Reference: '159555'
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

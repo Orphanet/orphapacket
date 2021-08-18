@@ -1,55 +1,62 @@
 Orphapacket:
-  ORPHApacketId: '544602'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '544602'
-  Label: Congenital myopathy with reduced type 2 muscle fibers
-  PURL: http://www.orpha.net/ORDO/Orphanet_544602
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Congenital myopathy with fast-twitch fiber atrophy
-  - Synonym: Congenital myopathy with reduced type II muscle fibers
-  - Synonym: Congenital myopathy with type 2 muscle fiber atrophy
-  - Synonym: Congenital myopathy with type II fiber atrophy
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '618414'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: MYL1
-      Name: myosin light chain 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '97245'
-      Label: Congenital myopathy
-  Prevalences:
-  - Prevalence:
-      Source: 30215711[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_30215711[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: infantile
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: infantile
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '618414'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: myosin light chain 1
+      Symbol: MYL1
+  Label: Congenital myopathy with reduced type 2 muscle fibers
+  ORPHAcode: '544602'
+  ORPHApacketId: '544602'
+  PURL: http://www.orpha.net/ORDO/Orphanet_544602
+  Parents:
+  - Parent:
+    - Label: Congenital myopathy
+      ORPHAcode: '97245'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 30215711[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_30215711[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Congenital myopathy with fast-twitch fiber atrophy
+  - Synonym: Congenital myopathy with reduced type II muscle fibers
+  - Synonym: Congenital myopathy with type 2 muscle fiber atrophy
+  - Synonym: Congenital myopathy with type II fiber atrophy
+  TextSection:
+    Contents: A rare congenital myopathy characterized by neonatal onset of severe
+      muscle weakness with selective atrophy/hypotrophy or absence of type II myofibers.
+      Patients present at birth with hypotonia and respiratory failure as well as
+      mild facial and severe axial and proximal upper and lower limb weakness with
+      areflexia and mild contractures. Eye movements and cardiac function are normal.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

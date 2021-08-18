@@ -1,19 +1,19 @@
 Orphapacket:
-  ORPHApacketId: '447777'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '447777'
-  Label: Keratocystic odontogenic tumor
-  PURL: http://www.orpha.net/ORDO/Orphanet_447777
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Keratocystic odontogenic tumor
+  ORPHAcode: '447777'
+  ORPHApacketId: '447777'
+  PURL: http://www.orpha.net/ORDO/Orphanet_447777
+  Parents:
+  - Parent:
+    - Label: Rare odontogenic tumor
+      ORPHAcode: '314425'
   Synonyms:
   - Synonym: KTOC
   - Synonym: Odontogenic keratocystoma
   TextSection:
-    TextSectionType: Definition
     Contents: A rare odontogenic tumor characterized by an unilocular or multilocular
       cyst most commonly located in the posterior body and lower ramus of the mandible
       often surrounding the crown of the third molar. Histopathologically the lesion
@@ -23,10 +23,10 @@ Orphapacket:
       complete surgical removal. Some patients have multiple cysts (metachronous or
       synchronous) especially in the context of nevoid basal cell carcinoma syndrome
       (Gorlin syndrome).
-  Parents:
-  - Parent:
-    - ORPHAcode: '314425'
-      Label: Rare odontogenic tumor
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

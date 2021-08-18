@@ -1,71 +1,71 @@
 Orphapacket:
-  ORPHApacketId: '79506'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79506'
-  Label: Cholesterol-ester transfer protein deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_79506
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '143470'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '614028'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: apolipoprotein C3
+      Symbol: APOC3
+  - Gene:
+      ExternalReferences: []
+      Name: cholesteryl ester transfer protein
+      Symbol: CETP
+  Label: Cholesterol-ester transfer protein deficiency
+  ORPHAcode: '79506'
+  ORPHApacketId: '79506'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79506
+  Parents:
+  - Parent:
+    - Label: Hyperalphalipoproteinemia
+      ORPHAcode: '181428'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0003077
+      HPOTerm: Hyperlipidemia
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0003124
+      HPOTerm: Hypercholesterolemia
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0010980
+      HPOTerm: Hyperlipoproteinemia
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0012184
+      HPOTerm: Increased HDL cholesterol concentration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012153
+      HPOTerm: Hypotriglyceridemia
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0004416
+      HPOTerm: Precocious atherosclerosis
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0010874
+      HPOTerm: Tendon xanthomatosis
   Synonyms:
   - Synonym: CEPT deficiency
   - Synonym: Familial hyperalphalipoproteinemia
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '143470'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '614028'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  Genes:
-  - Gene:
-      Symbol: APOC3
-      Name: apolipoprotein C3
-      ExternalReferences: []
-  - Gene:
-      Symbol: CETP
-      Name: cholesteryl ester transfer protein
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '181428'
-      Label: Hyperalphalipoproteinemia
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0003077
-      HPOTerm: Hyperlipidemia
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0003124
-      HPOTerm: Hypercholesterolemia
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0010980
-      HPOTerm: Hyperlipoproteinemia
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0012184
-      HPOTerm: Increased HDL cholesterol concentration
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0012153
-      HPOTerm: Hypotriglyceridemia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0004416
-      HPOTerm: Precocious atherosclerosis
-      HPOFrequency: Excluded (0%)
-  - Phenotype:
-      HPOId: HP:0010874
-      HPOTerm: Tendon xanthomatosis
-      HPOFrequency: Excluded (0%)
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

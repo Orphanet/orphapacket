@@ -1,57 +1,58 @@
 Orphapacket:
-  ORPHApacketId: '252057'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '252057'
-  Label: Tumor of cranial and spinal nerves
-  PURL: http://www.orpha.net/ORDO/Orphanet_252057
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Rare tumor of cranial and spinal nerves
-  Parents:
-  - Parent:
-    - ORPHAcode: '98062'
-      Label: Rare nervous system tumor
   Childs:
   - Child:
+      Genes: no data
       Label: Optic pathway glioma
       ORPHAcode: '2086'
-      Genes: no data
   - Child:
-      Label: Malignant peripheral nerve sheath tumor
-      ORPHAcode: '3148'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '619455'
+            Source: OMIM
+          - Reference: '23664'
+            Source: HGNC
           Label: SH3 and PX domains 2A
           Symbol: SH3PXD2A
-          ExternalReferences:
-          - ExternalReference:
-              Source: HGNC
-              Reference: '23664'
       - Gene:
+          ExternalReferences:
+          - Reference: '9476'
+            Source: HGNC
+          - Reference: '602194'
+            Source: OMIM
           Label: HtrA serine peptidase 1
           Symbol: HTRA1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9476'
-          - Source: OMIM
-            Reference: '602194'
+      Label: Malignant peripheral nerve sheath tumor
+      ORPHAcode: '3148'
   - Child:
+      Genes: no data
       Label: Perineurioma
       ORPHAcode: '85102'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Benign peripheral nerve sheath tumor
       ORPHAcode: '252131'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Tumor of cranial and spinal nerves
+  ORPHAcode: '252057'
+  ORPHApacketId: '252057'
+  PURL: http://www.orpha.net/ORDO/Orphanet_252057
+  Parents:
+  - Parent:
+    - Label: Rare nervous system tumor
+      ORPHAcode: '98062'
   Prevalences:
     Prevalence:
-    - Source: Central Brain Tumor registry of the United States 2010-2014[REG]_29117289[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '1.89'
+    - PrevalenceClass: 1-9 / 100 000
       PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: Central Brain Tumor registry of the United States 2010-2014[REG]_29117289[PMID]
+      ValMoy: '1.89'
+  Synonyms:
+  - Synonym: Rare tumor of cranial and spinal nerves
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

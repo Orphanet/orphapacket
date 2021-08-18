@@ -1,62 +1,62 @@
 Orphapacket:
-  ORPHApacketId: '457223'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '457223'
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '617872'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: mitochondrial ribosomal protein S7
+      Symbol: MRPS7
   Label: Syndromic sensorineural deafness due to combined oxidative phosphorylation
     defect
+  ORPHAcode: '457223'
+  ORPHApacketId: '457223'
   PURL: http://www.orpha.net/ORDO/Orphanet_457223
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  Parents:
+  - Parent:
+    - Label: Syndromic genetic deafness
+      ORPHAcode: '90642'
+  - Parent:
+    - Label: Mitochondrial disorder due to a defect in mitochondrial protein synthesis
+      ORPHAcode: '35696'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 25556185[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_25556185[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Syndromic sensorineural deafness due to COXPD
   - Synonym: Syndromic sensorineural hearing loss due to COXPD
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '617872'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare mitochondrial disease characterized by a variable phenotype comprising
       congenital sensorineural deafness intermittent or persistent hypoglycemia and
       hepatic and renal dysfunction potentially progressing to organ failure. Serum
       lactate levels are variably increased deficiency of mitochondrial respiratory
       chain complexes I III and IV is observed in the liver and in fibroblasts.
-  Genes:
-  - Gene:
-      Symbol: MRPS7
-      Name: mitochondrial ribosomal protein S7
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '90642'
-      Label: Syndromic genetic deafness
-  - Parent:
-    - ORPHAcode: '35696'
-      Label: Mitochondrial disorder due to a defect in mitochondrial protein synthesis
-  Prevalences:
-  - Prevalence:
-      Source: 25556185[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_25556185[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

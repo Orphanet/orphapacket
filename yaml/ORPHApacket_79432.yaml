@@ -1,136 +1,179 @@
 Orphapacket:
-  ORPHApacketId: '79432'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79432'
-  Label: Oculocutaneous albinism type 2
-  PURL: http://www.orpha.net/ORDO/Orphanet_79432
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: OCA2
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '203200'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Oculocutaneous albinism type 2 (OCA2) is a type of OCA (see this term)
-      and the most common form of OCA seen in the African population characterized
-      by variable hypopigmentation of the skin and hair numerous characteristic ocular
-      changes and misrouting of the optic nerves at the chiasm.
-  Genes:
-  - Gene:
-      Symbol: OCA2
-      Name: OCA2 melanosomal transmembrane protein
-      ExternalReferences: []
-  - Gene:
-      Symbol: MC1R
-      Name: melanocortin 1 receptor
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '55'
-      Label: Oculocutaneous albinism
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000486
-      HPOTerm: Strabismus
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000505
-      HPOTerm: Visual impairment
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000587
-      HPOTerm: Abnormality of the optic nerve
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000613
-      HPOTerm: Photophobia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000639
-      HPOTerm: Nystagmus
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001010
-      HPOTerm: Hypopigmentation of the skin
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001022
-      HPOTerm: Albinism
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001480
-      HPOTerm: Freckling
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002671
-      HPOTerm: Basal cell carcinoma
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002861
-      HPOTerm: Melanoma
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0005599
-      HPOTerm: Hypopigmentation of hair
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0006739
-      HPOTerm: Squamous cell carcinoma of the skin
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0007730
-      HPOTerm: Iris hypopigmentation
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 12469324[PMID]_ORPHANET_[EXPERT]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 6-9 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Specific population
-  - Prevalence:
-      Source: '[EXPERT]_20301410[PMID]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: 3978567[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 6-9 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Tanzania, United Republic of
-  - Prevalence:
-      Source: 2667743[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: United States
-  - Prevalence:
-      Source: ORPHANET_7887411[PMID]_3978567[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Africa
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '203200'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: OCA2 melanosomal transmembrane protein
+      Symbol: OCA2
+  - Gene:
+      ExternalReferences: []
+      Name: melanocortin 1 receptor
+      Symbol: MC1R
+  Label: Oculocutaneous albinism type 2
+  ORPHAcode: '79432'
+  ORPHApacketId: '79432'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79432
+  Parents:
+  - Parent:
+    - Label: Oculocutaneous albinism
+      ORPHAcode: '55'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000539
+      HPOTerm: Abnormality of refraction
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000613
+      HPOTerm: Photophobia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000635
+      HPOTerm: Blue irides
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001010
+      HPOTerm: Hypopigmentation of the skin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001100
+      HPOTerm: Heterochromia iridis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001480
+      HPOTerm: Freckling
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002226
+      HPOTerm: White eyebrow
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005599
+      HPOTerm: Hypopigmentation of hair
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007663
+      HPOTerm: Reduced visual acuity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007703
+      HPOTerm: Abnormality of retinal pigmentation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007730
+      HPOTerm: Iris hypopigmentation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007750
+      HPOTerm: Hypoplasia of the fovea
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007988
+      HPOTerm: Macular hypopigmentation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011364
+      HPOTerm: White hair
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012805
+      HPOTerm: Iris transillumination defect
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0025551
+      HPOTerm: Optic nerve misrouting
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002227
+      HPOTerm: White eyelashes
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002671
+      HPOTerm: Basal cell carcinoma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006739
+      HPOTerm: Squamous cell carcinoma of the skin
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012056
+      HPOTerm: Cutaneous melanoma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030856
+      HPOTerm: Posterior staphyloma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0200098
+      HPOTerm: Absent skin pigmentation
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0007481
+      HPOTerm: Hyperpigmented nevi
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 6-9 / 10 000
+      PrevalenceGeographic: Specific population
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 12469324[PMID]_ORPHANET_[EXPERT]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]_20301410[PMID]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 6-9 / 10 000
+      PrevalenceGeographic: Tanzania, United Republic of
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 3978567[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 2667743[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Africa
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_7887411[PMID]_3978567[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: OCA2
+  TextSection:
+    Contents: A form of oculocutaneous albinism characterized by variable hypopigmentation
+      of the skin and hair numerous characteristic ocular changes and misrouting of
+      the optic nerves at the chiasm.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

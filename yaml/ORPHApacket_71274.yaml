@@ -1,52 +1,52 @@
 Orphapacket:
-  ORPHApacketId: '71274'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '71274'
-  Label: Disseminated peritoneal leiomyomatosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_71274
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Disseminated peritoneal leiomyomatosis
+  ORPHAcode: '71274'
+  ORPHApacketId: '71274'
+  PURL: http://www.orpha.net/ORDO/Orphanet_71274
+  Parents:
+  - Parent:
+    - Label: Primary peritoneal tumor
+      ORPHAcode: '168803'
+  - Parent:
+    - Label: Rare disorder potentially indicated for bowel transplant
+      ORPHAcode: '506216'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: DPL
   - Synonym: Diffuse peritoneal leiomyomatosis
   - Synonym: LPD
   - Synonym: Leiomyomatosis peritonealis disseminate
   TextSection:
-    TextSectionType: Definition
     Contents: Disseminated peritoneal leiomyomatosis (DPL) is characterized by the
       proliferation of multiple benign smooth muscle cell-containing nodules in the
       peritoneal cavity.
-  Parents:
-  - Parent:
-    - ORPHAcode: '168803'
-      Label: Primary peritoneal tumor
-  - Parent:
-    - ORPHAcode: '506216'
-      Label: Rare disorder potentially indicated for bowel transplant
-  Prevalences:
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Unknown
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

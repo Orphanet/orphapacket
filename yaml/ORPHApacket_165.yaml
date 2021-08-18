@@ -1,89 +1,89 @@
 Orphapacket:
-  ORPHApacketId: '165'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '165'
-  Label: Neutral lipid storage disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_165
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '30802'
+            Source: HGNC
+          - Reference: '609059'
+            Source: OMIM
+          Label: patatin like phospholipase domain containing 2
+          Symbol: PNPLA2
+      Label: Triglyceride deposit cardiomyovasculopathy
+      ORPHAcode: '565612'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '21396'
+            Source: HGNC
+          - Reference: '604780'
+            Source: OMIM
+          Label: abhydrolase domain containing 5, lysophosphatidic acid acyltransferase
+          Symbol: ABHD5
+      Label: Neutral lipid storage disease with ichthyosis
+      ORPHAcode: '98907'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '30802'
+            Source: HGNC
+          - Reference: '609059'
+            Source: OMIM
+          Label: patatin like phospholipase domain containing 2
+          Symbol: PNPLA2
+      Label: Neutral lipid storage myopathy
+      ORPHAcode: '98908'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Neutral lipid storage disease
+  ORPHAcode: '165'
+  ORPHApacketId: '165'
+  PURL: http://www.orpha.net/ORDO/Orphanet_165
+  Parents:
+  - Parent:
+    - Label: Muscular lipidosis
+      ORPHAcode: '206953'
+  - Parent:
+    - Label: Disorder of phospholipids, sphingolipids and fatty acids biosynthesis
+        with skeletal muscle predominant involvement
+      ORPHAcode: '352312'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: Lipidosis with triglyceride storage disease
   TextSection:
-    TextSectionType: Definition
     Contents: 'Neutral lipid storage disease (NLSD) refers to a group of diseases
       characterized by a deficit in the degradation of cytoplasmic triglycerides and
       their accumulation in cytoplasmic lipid vacuoles in most tissues of the body.
       The group is heterogeneous: currently cases of NLSD with icthyosis (NLSDI/Dorfman-Chanarin
       disease; see this term) and NLSD with myopathy (NLSDM/neutral lipid storage
       myopathy; see this term) can be distinguished.'
-  Parents:
-  - Parent:
-    - ORPHAcode: '206953'
-      Label: Muscular lipidosis
-  - Parent:
-    - ORPHAcode: '352312'
-      Label: Disorder of phospholipids, sphingolipids and fatty acids biosynthesis
-        with skeletal muscle predominant involvement
-  Childs:
-  - Child:
-      Label: Triglyceride deposit cardiomyovasculopathy
-      ORPHAcode: '565612'
-      Genes:
-      - Gene:
-          Label: patatin like phospholipase domain containing 2
-          Symbol: PNPLA2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '30802'
-          - Source: OMIM
-            Reference: '609059'
-  - Child:
-      Label: Neutral lipid storage disease with ichthyosis
-      ORPHAcode: '98907'
-      Genes:
-      - Gene:
-          Label: abhydrolase domain containing 5
-          Symbol: ABHD5
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '21396'
-          - Source: OMIM
-            Reference: '604780'
-  - Child:
-      Label: Neutral lipid storage myopathy
-      ORPHAcode: '98908'
-      Genes:
-      - Gene:
-          Label: patatin like phospholipase domain containing 2
-          Symbol: PNPLA2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '30802'
-          - Source: OMIM
-            Reference: '609059'
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

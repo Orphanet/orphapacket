@@ -1,81 +1,81 @@
 Orphapacket:
-  ORPHApacketId: '83461'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '83461'
-  Label: Congenital primary aphakia
-  PURL: http://www.orpha.net/ORDO/Orphanet_83461
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '610256'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare developmental defect during embryogenesis characterised by an
-      absence of the lens. CPAK can be associated with variable secondary ocular defects.
-  Genes:
-  - Gene:
-      Symbol: FOXE3
-      Name: forkhead box E3
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98553'
-      Label: Developmental defect of the eye
-  - Parent:
-    - ORPHAcode: '98639'
-      Label: Rare lens disease
-  - Parent:
-    - ORPHAcode: '183557'
-      Label: Genetic developmental defect of the eye
-  - Parent:
-    - ORPHAcode: '183607'
-      Label: Genetic lens and zonula anomaly
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000504
-      HPOTerm: Abnormality of vision
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000568
-      HPOTerm: Microphthalmia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000647
-      HPOTerm: Sclerocornea
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0007707
-      HPOTerm: Congenital aphakia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007973
-      HPOTerm: Retinal dysplasia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0008062
-      HPOTerm: Aplasia/Hypoplasia affecting the anterior segment of the eye
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '610256'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: forkhead box E3
+      Symbol: FOXE3
+  Label: Congenital primary aphakia
+  ORPHAcode: '83461'
+  ORPHApacketId: '83461'
+  PURL: http://www.orpha.net/ORDO/Orphanet_83461
+  Parents:
+  - Parent:
+    - Label: Developmental defect of the eye
+      ORPHAcode: '98553'
+  - Parent:
+    - Label: Rare lens disease
+      ORPHAcode: '98639'
+  - Parent:
+    - Label: Genetic developmental defect of the eye
+      ORPHAcode: '183557'
+  - Parent:
+    - Label: Genetic lens and zonula anomaly
+      ORPHAcode: '183607'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000504
+      HPOTerm: Abnormality of vision
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000568
+      HPOTerm: Microphthalmia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000647
+      HPOTerm: Sclerocornea
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007707
+      HPOTerm: Congenital aphakia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007973
+      HPOTerm: Retinal dysplasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008062
+      HPOTerm: Aplasia/Hypoplasia affecting the anterior segment of the eye
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  TextSection:
+    Contents: A rare developmental defect during embryogenesis characterised by an
+      absence of the lens. CPAK can be associated with variable secondary ocular defects.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,18 +1,27 @@
 Orphapacket:
-  ORPHApacketId: '541478'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '541478'
-  Label: Anomalous aortic origin of coronary artery
-  PURL: http://www.orpha.net/ORDO/Orphanet_541478
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Anomalous aortic origin of the left coronary artery
+      ORPHAcode: '541443'
+  - Child:
+      Genes: no data
+      Label: Anomalous aortic origin of the right coronary artery
+      ORPHAcode: '541454'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Anomalous aortic origin of coronary artery
+  ORPHAcode: '541478'
+  ORPHApacketId: '541478'
+  PURL: http://www.orpha.net/ORDO/Orphanet_541478
+  Parents:
+  - Parent:
+    - Label: Coronary artery congenital malformation
+      ORPHAcode: '1081'
   Synonyms:
   - Synonym: AAOCA
   TextSection:
-    TextSectionType: Definition
     Contents: 'A rare group of coronary artery congenital malformation disorders characterized
       by an anomalous origin and course of the left or right coronary artery which
       originates from the contralateral aortic sinus of Valsalva and has an anomalous
@@ -27,16 +36,7 @@ Orphapacket:
       may be associated. Sudden death due to compression/occlusion of the coronary
       artery and usually associated with or immediately following vigorous physical
       exercise may be occasionally observed.'
-  Parents:
-  - Parent:
-    - ORPHAcode: '1081'
-      Label: Coronary artery congenital malformation
-  Childs:
-  - Child:
-      Label: Anomalous aortic origin of the left coronary artery
-      ORPHAcode: '541443'
-      Genes: no data
-  - Child:
-      Label: Anomalous aortic origin of the right coronary artery
-      ORPHAcode: '541454'
-      Genes: no data
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

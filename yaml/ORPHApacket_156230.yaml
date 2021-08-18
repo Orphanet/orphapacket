@@ -1,16 +1,29 @@
 Orphapacket:
-  ORPHApacketId: '156230'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '156230'
-  Label: Facial arteriovenous malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_156230
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Frontonasal arteriovenous malformation
+      ORPHAcode: '141168'
+  - Child:
+      Genes: no data
+      Label: Maxillary arteriovenous malformation
+      ORPHAcode: '141171'
+  - Child:
+      Genes: no data
+      Label: Mandibular arteriovenous malformation
+      ORPHAcode: '141174'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Facial arteriovenous malformation
+  ORPHAcode: '156230'
+  ORPHApacketId: '156230'
+  PURL: http://www.orpha.net/ORDO/Orphanet_156230
+  Parents:
+  - Parent:
+    - Label: Rare arteriovenous malformation
+      ORPHAcode: '211266'
   TextSection:
-    TextSectionType: Definition
     Contents: Facial arteriovenous malformation is a rare vascular anomaly characterized
       by abnormal communication between arteries and veins bypassing the capillary
       bed located in the facial area. Lesions may be asymptomatic or may manifest
@@ -18,20 +31,7 @@ Orphapacket:
       hemorrhage blurred vision impaired hearing headache paresthesia enlargement
       of facial bones with intraosseous lesions intraosseous hemangiomas and speech
       breathing and swallowing difficulties as well as neuropathy.
-  Parents:
-  - Parent:
-    - ORPHAcode: '211266'
-      Label: Rare arteriovenous malformation
-  Childs:
-  - Child:
-      Label: Frontonasal arteriovenous malformation
-      ORPHAcode: '141168'
-      Genes: no data
-  - Child:
-      Label: Maxillary arteriovenous malformation
-      ORPHAcode: '141171'
-      Genes: no data
-  - Child:
-      Label: Mandibular arteriovenous malformation
-      ORPHAcode: '141174'
-      Genes: no data
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

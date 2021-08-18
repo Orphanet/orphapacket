@@ -1,32 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '3276'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3276'
-  Label: Disorder of plasmalogens biosynthesis
-  PURL: http://www.orpha.net/ORDO/Orphanet_3276
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '68373'
-      Label: Peroxisomal disease
   Childs:
   - Child:
+      Genes: no data
       Label: Rhizomelic chondrodysplasia punctata
       ORPHAcode: '177'
-      Genes: no data
   - Child:
-      Label: Fatty acyl-CoA reductase 1 deficiency
-      ORPHAcode: '438178'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '26222'
+            Source: HGNC
+          - Reference: '616107'
+            Source: OMIM
           Label: fatty acyl-CoA reductase 1
           Symbol: FAR1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '26222'
-          - Source: OMIM
-            Reference: '616107'
+      Label: Fatty acyl-CoA reductase 1 deficiency
+      ORPHAcode: '438178'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Disorder of plasmalogens biosynthesis
+  ORPHAcode: '3276'
+  ORPHApacketId: '3276'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3276
+  Parents:
+  - Parent:
+    - Label: Peroxisomal disease
+      ORPHAcode: '68373'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

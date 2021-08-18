@@ -1,54 +1,54 @@
 Orphapacket:
-  ORPHApacketId: '90787'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '90787'
-  Label: 46,XY disorder of sex development due to testicular steroidogenesis defect
-  PURL: http://www.orpha.net/ORDO/Orphanet_90787
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: 46,XY DSD due to testicular steroidogenesis defect
-  Parents:
-  - Parent:
-    - ORPHAcode: '90783'
-      Label: 46,XY disorder of sex development due to a testosterone synthesis defect
-  - Parent:
-    - ORPHAcode: '325632'
-      Label: 46,XY disorder of sex development of gynecological interest
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '5212'
+            Source: HGNC
+          - Reference: '605573'
+            Source: OMIM
+          Label: hydroxysteroid 17-beta dehydrogenase 3
+          Symbol: HSD17B3
       Label: 46,XY disorder of sex development due to 17-beta-hydroxysteroid dehydrogenase
         3 deficiency
       ORPHAcode: '752'
-      Genes:
-      - Gene:
-          Label: hydroxysteroid 17-beta dehydrogenase 3
-          Symbol: HSD17B3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5212'
-          - Source: OMIM
-            Reference: '605573'
   - Child:
-      Label: 46,XY disorder of sex development due to isolated 17,20-lyase deficiency
-      ORPHAcode: '90796'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2570'
+            Source: HGNC
+          - Reference: '613218'
+            Source: OMIM
           Label: cytochrome b5 type A
           Symbol: CYB5A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2570'
-          - Source: OMIM
-            Reference: '613218'
       - Gene:
+          ExternalReferences:
+          - Reference: '2593'
+            Source: HGNC
+          - Reference: '609300'
+            Source: OMIM
           Label: cytochrome P450 family 17 subfamily A member 1
           Symbol: CYP17A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2593'
-          - Source: OMIM
-            Reference: '609300'
+      Label: 46,XY disorder of sex development due to isolated 17,20-lyase deficiency
+      ORPHAcode: '90796'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: 46,XY disorder of sex development due to testicular steroidogenesis defect
+  ORPHAcode: '90787'
+  ORPHApacketId: '90787'
+  PURL: http://www.orpha.net/ORDO/Orphanet_90787
+  Parents:
+  - Parent:
+    - Label: 46,XY disorder of sex development due to a testosterone synthesis defect
+      ORPHAcode: '90783'
+  - Parent:
+    - Label: 46,XY disorder of sex development of gynecological interest
+      ORPHAcode: '325632'
+  Synonyms:
+  - Synonym: 46,XY DSD due to testicular steroidogenesis defect
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

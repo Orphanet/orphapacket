@@ -1,56 +1,125 @@
 Orphapacket:
-  ORPHApacketId: '98964'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98964'
-  Label: Lattice corneal dystrophy type I
-  PURL: http://www.orpha.net/ORDO/Orphanet_98964
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '122200'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '608471'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: transforming growth factor beta induced
+      Symbol: TGFBI
+  Label: Lattice corneal dystrophy type I
+  ORPHAcode: '98964'
+  ORPHApacketId: '98964'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98964
+  Parents:
+  - Parent:
+    - Label: Stromal corneal dystrophy
+      ORPHAcode: '98626'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000481
+      HPOTerm: Abnormal cornea morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000559
+      HPOTerm: Corneal scarring
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000572
+      HPOTerm: Visual loss
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001149
+      HPOTerm: Lattice corneal dystrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007957
+      HPOTerm: Corneal opacity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011493
+      HPOTerm: Central opacification of the cornea
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000483
+      HPOTerm: Astigmatism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000495
+      HPOTerm: Recurrent corneal erosions
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000613
+      HPOTerm: Photophobia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008039
+      HPOTerm: Subepithelial corneal opacities
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012040
+      HPOTerm: Corneal stromal edema
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0025337
+      HPOTerm: Red eye
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0200026
+      HPOTerm: Ocular pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007924
+      HPOTerm: Slow decrease in visual acuity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008511
+      HPOTerm: Central posterior corneal opacity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011003
+      HPOTerm: High myopia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012155
+      HPOTerm: Decreased corneal sensation
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Biber-Haab-Dimmer dystrophy
   - Synonym: Classic lattice corneal dystrophy
   - Synonym: LCD1
   - Synonym: LCDI
   - Synonym: Lattice corneal dystrophy type 1
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '122200'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '608471'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
   TextSection:
-    TextSectionType: Definition
     Contents: Type I lattice corneal dystrophy (LCDI) is a frequent form of stromal
       corneal dystrophy (see this term) characterized by a network of delicate interdigitating
       branching filamentous opacities within the cornea with progressive visual impairment
       and no systemic manifestations.
-  Genes:
-  - Gene:
-      Symbol: TGFBI
-      Name: transforming growth factor beta induced
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98626'
-      Label: Stromal corneal dystrophy
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

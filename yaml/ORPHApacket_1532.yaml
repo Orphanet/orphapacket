@@ -1,23 +1,136 @@
 Orphapacket:
-  ORPHApacketId: '1532'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '1532'
-  Label: Gómez-López-Hernández syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_1532
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '601853'
+    Source: OMIM
+  Label: "G\xF3mez-L\xF3pez-Hern\xE1ndez syndrome"
+  ORPHAcode: '1532'
+  ORPHApacketId: '1532'
+  PURL: http://www.orpha.net/ORDO/Orphanet_1532
+  Parents:
+  - Parent:
+    - Label: Rare syndromic intellectual disability
+      ORPHAcode: '102369'
+  - Parent:
+    - Label: Syndrome with a cerebellar malformation as a major feature
+      ORPHAcode: '269523'
+  - Parent:
+    - Label: Rare genetic syndromic intellectual disability
+      ORPHAcode: '183763'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000233
+      HPOTerm: Thin vermilion border
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000238
+      HPOTerm: Hydrocephalus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000248
+      HPOTerm: Brachycephaly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000262
+      HPOTerm: Turricephaly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000298
+      HPOTerm: Mask-like facies
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000316
+      HPOTerm: Hypertelorism
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000369
+      HPOTerm: Low-set ears
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000463
+      HPOTerm: Anteverted nares
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000505
+      HPOTerm: Visual impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000506
+      HPOTerm: Telecanthus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001251
+      HPOTerm: Ataxia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001317
+      HPOTerm: Abnormal cerebellum morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001320
+      HPOTerm: Cerebellar vermis hypoplasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002293
+      HPOTerm: Alopecia of scalp
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002342
+      HPOTerm: Intellectual disability, moderate
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002363
+      HPOTerm: Abnormality of brainstem morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007328
+      HPOTerm: Impaired pain sensation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007957
+      HPOTerm: Corneal opacity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011800
+      HPOTerm: Midface retrusion
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100543
+      HPOTerm: Cognitive impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100797
+      HPOTerm: Toenail dysplasia
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 28357184[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_28357184[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Cerebellotrigeminal-dermal dysplasia syndrome
   - Synonym: Craniosynostosis-alopecia-brain defect syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '601853'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Lopez-Hernandez syndrome which may be classified among the neurocutaneous
       syndromes associates abnormalities of the cerebellum (rhombencephalosynapsis)
       cranial nerves (trigeminal anesthesia) and scalp (alopecia). It has been reported
@@ -25,123 +138,10 @@ Orphapacket:
       midfacial hypoplasia bilateral corneal opacities low-set ears short stature
       moderate intellectual impairment and ataxia. Hyperactivity depression self-injurious
       behaviour and bipolar disorder have also been reported.
-  Parents:
-  - Parent:
-    - ORPHAcode: '102369'
-      Label: Rare syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '269523'
-      Label: Syndrome with a cerebellar malformation as a major feature
-  - Parent:
-    - ORPHAcode: '183763'
-      Label: Rare genetic syndromic intellectual disability
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000233
-      HPOTerm: Thin vermilion border
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000238
-      HPOTerm: Hydrocephalus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000248
-      HPOTerm: Brachycephaly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000262
-      HPOTerm: Turricephaly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000298
-      HPOTerm: Mask-like facies
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000316
-      HPOTerm: Hypertelorism
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000369
-      HPOTerm: Low-set ears
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000463
-      HPOTerm: Anteverted nares
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000505
-      HPOTerm: Visual impairment
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000506
-      HPOTerm: Telecanthus
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001251
-      HPOTerm: Ataxia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001317
-      HPOTerm: Abnormal cerebellum morphology
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001320
-      HPOTerm: Cerebellar vermis hypoplasia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002293
-      HPOTerm: Alopecia of scalp
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002342
-      HPOTerm: Intellectual disability, moderate
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002363
-      HPOTerm: Abnormality of brainstem morphology
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0004322
-      HPOTerm: Short stature
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007328
-      HPOTerm: Impaired pain sensation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007957
-      HPOTerm: Corneal opacity
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0011800
-      HPOTerm: Midface retrusion
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100543
-      HPOTerm: Cognitive impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100797
-      HPOTerm: Toenail dysplasia
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 28357184[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_28357184[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

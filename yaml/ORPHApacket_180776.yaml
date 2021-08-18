@@ -1,40 +1,40 @@
 Orphapacket:
-  ORPHApacketId: '180776'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '180776'
-  Label: Non-syndromic diaphragmatic or thoracic malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_180776
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '97962'
-      Label: Rare surgical thoracic disease
   Childs:
   - Child:
-      Label: Congenital diaphragmatic hernia
-      ORPHAcode: '2140'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '16700'
+            Source: HGNC
+          - Reference: '603693'
+            Source: OMIM
           Label: zinc finger protein, FOG family member 2
           Symbol: ZFPM2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '16700'
-          - Source: OMIM
-            Reference: '603693'
       - Gene:
+          ExternalReferences:
+          - Reference: '4174'
+            Source: HGNC
+          - Reference: '601656'
+            Source: OMIM
           Label: GATA binding protein 6
           Symbol: GATA6
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4174'
-          - Source: OMIM
-            Reference: '601656'
+      Label: Congenital diaphragmatic hernia
+      ORPHAcode: '2140'
   - Child:
+      Genes: no data
       Label: Sternal cleft
       ORPHAcode: '2017'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Non-syndromic diaphragmatic or thoracic malformation
+  ORPHAcode: '180776'
+  ORPHApacketId: '180776'
+  PURL: http://www.orpha.net/ORDO/Orphanet_180776
+  Parents:
+  - Parent:
+    - Label: Rare surgical thoracic disease
+      ORPHAcode: '97962'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

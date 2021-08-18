@@ -1,14 +1,35 @@
 Orphapacket:
-  ORPHApacketId: '238670'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '238670'
-  Label: Isolated thyrotropin-releasing hormone deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_238670
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '275120'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: thyrotropin releasing hormone
+      Symbol: TRH
+  Label: Isolated thyrotropin-releasing hormone deficiency
+  ORPHAcode: '238670'
+  ORPHApacketId: '238670'
+  PURL: http://www.orpha.net/ORDO/Orphanet_238670
+  Parents:
+  - Parent:
+    - Label: Central congenital hypothyroidism
+      ORPHAcode: '226298'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Isolated TRF deficiency
   - Synonym: Isolated TRH deficiency
@@ -17,30 +38,9 @@ Orphapacket:
   - Synonym: Isolated protirelin deficiency
   - Synonym: Isolated thyroliberin deficiency
   - Synonym: Isolated thyrotropin-releasing factor deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '275120'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: TRH
-      Name: thyrotropin releasing hormone
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '226298'
-      Label: Central congenital hypothyroidism
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Unknown
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

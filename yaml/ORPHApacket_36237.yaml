@@ -1,16 +1,66 @@
 Orphapacket:
-  ORPHApacketId: '36237'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '36237'
-  Label: Bullous impetigo
-  PURL: http://www.orpha.net/ORDO/Orphanet_36237
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Bullous impetigo
+  ORPHAcode: '36237'
+  ORPHApacketId: '36237'
+  PURL: http://www.orpha.net/ORDO/Orphanet_36237
+  Parents:
+  - Parent:
+    - Label: Other acquired skin disease
+      ORPHAcode: '90077'
+  - Parent:
+    - Label: Staphylococcal toxemia
+      ORPHAcode: '300579'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003095
+      HPOTerm: Septic arthritis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005406
+      HPOTerm: Recurrent bacterial skin infections
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008066
+      HPOTerm: Abnormal blistering of the skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010783
+      HPOTerm: Erythema
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100763
+      HPOTerm: Abnormality of the lymphatic system
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100806
+      HPOTerm: Sepsis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100820
+      HPOTerm: Glomerulopathy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0200039
+      HPOTerm: Pustule
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare acquired typically benign bacterial infectious disease caused
       by <i>Staphylococcus aureus</i> characterized by large fragile vesicles and
       flaccid bullae on an erythematous base which evolve into moistened erosions
@@ -18,60 +68,10 @@ Orphapacket:
       the trunk and extremities (armpits groins between the fingers or toes beneath
       the breasts). Although uncommon systemic symptoms such as fever diarrhea and
       weakness may be associated.
-  Parents:
-  - Parent:
-    - ORPHAcode: '90077'
-      Label: Other acquired skin disease
-  - Parent:
-    - ORPHAcode: '300579'
-      Label: Staphylococcal toxemia
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0003095
-      HPOTerm: Septic arthritis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0005406
-      HPOTerm: Recurrent bacterial skin infections
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008066
-      HPOTerm: Abnormal blistering of the skin
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0010783
-      HPOTerm: Erythema
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100763
-      HPOTerm: Abnormality of the lymphatic system
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0100806
-      HPOTerm: Sepsis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0100820
-      HPOTerm: Glomerulopathy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0200039
-      HPOTerm: Pustule
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

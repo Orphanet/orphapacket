@@ -1,21 +1,33 @@
 Orphapacket:
-  ORPHApacketId: '163927'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '163927'
-  Label: Pustulosis palmaris et plantaris
-  PURL: http://www.orpha.net/ORDO/Orphanet_163927
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: interleukin 36 receptor antagonist
+      Symbol: IL36RN
+  - Gene:
+      ExternalReferences: []
+      Name: adaptor related protein complex 1 subunit sigma 3
+      Symbol: AP1S3
+  Label: Pustulosis palmaris et plantaris
+  ORPHAcode: '163927'
+  ORPHApacketId: '163927'
+  PURL: http://www.orpha.net/ORDO/Orphanet_163927
+  Parents:
+  - Parent:
+    - Label: Other genetic epidermal disease
+      ORPHAcode: '79360'
+  - Parent:
+    - Label: Other epidermal disorder
+      ORPHAcode: '79359'
   Synonyms:
   - Synonym: LPP
   - Synonym: Localized pustular psoriasis
   - Synonym: PPP
   - Synonym: Palmoplantar pustulosis
   TextSection:
-    TextSectionType: Definition
     Contents: A rare skin disease characterized by chronic eruption of sterile pustules
       on an erythematous and desquamative background. The lesions are usually painful
       and affect the palms and soles sometimes also the lateral aspects of hands and
@@ -23,24 +35,12 @@ Orphapacket:
       nail dystrophy) are also observed. The condition takes a chronic and relapsing
       course. Typical associations are psoriatic arthritis thyroid gland dysfunction
       and smoking.
-  Genes:
-  - Gene:
-      Symbol: IL36RN
-      Name: interleukin 36 receptor antagonist
-      ExternalReferences: []
-  - Gene:
-      Symbol: AP1S3
-      Name: adaptor related protein complex 1 subunit sigma 3
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79359'
-      Label: Other epidermal disorder
-  - Parent:
-    - ORPHAcode: '79385'
-      Label: Unclassified genetic skin disorder
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

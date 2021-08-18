@@ -1,53 +1,53 @@
 Orphapacket:
-  ORPHApacketId: '168544'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '168544'
-  Label: Spondylometaphyseal dysplasia, Golden type
-  PURL: http://www.orpha.net/ORDO/Orphanet_168544
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: No data available
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '313420'
+    Source: OMIM
+  Label: Spondylometaphyseal dysplasia, Golden type
+  ORPHAcode: '168544'
+  ORPHApacketId: '168544'
+  PURL: http://www.orpha.net/ORDO/Orphanet_168544
+  Parents:
+  - Parent:
+    - Label: Spondylometaphyseal dysplasia
+      ORPHAcode: '254'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: Golden 1977[AUTHOR]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: X-linked spondylometaphyseal dysplasia
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '313420'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Spondylometaphyseal dysplasia Golden type is a rare primary bone dysplasia
       disorder characterized by severe short stature coarse facies thoracolumbar kyphoscoliosis
       and enlarged joints with contractures. Psychomotor delay and intellectual disability
       may also be associated. Radiographic features include flat vertebral bodies
       lacy ossification of the metaphyses of long bones and iliac crests and marked
       sclerosis of the skull base.
-  Parents:
-  - Parent:
-    - ORPHAcode: '254'
-      Label: Spondylometaphyseal dysplasia
-  Prevalences:
-  - Prevalence:
-      Source: Golden 1977[AUTHOR]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: No data available
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,41 +1,41 @@
 Orphapacket:
-  ORPHApacketId: '309127'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '309127'
-  Label: 3-hydroxyacyl-CoA dehydrogenase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_309127
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '309115'
-      Label: Disorder of fatty acid oxidation and ketogenesis
   Childs:
   - Child:
-      Label: Long chain 3-hydroxyacyl-CoA dehydrogenase deficiency
-      ORPHAcode: '5'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4801'
+            Source: HGNC
+          - Reference: '600890'
+            Source: OMIM
           Label: hydroxyacyl-CoA dehydrogenase trifunctional multienzyme complex subunit
             alpha
           Symbol: HADHA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4801'
-          - Source: OMIM
-            Reference: '600890'
+      Label: Long chain 3-hydroxyacyl-CoA dehydrogenase deficiency
+      ORPHAcode: '5'
   - Child:
-      Label: Hyperinsulinism due to short chain 3-hydroxylacyl-CoA dehydrogenase deficiency
-      ORPHAcode: '71212'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4799'
+            Source: HGNC
+          - Reference: '601609'
+            Source: OMIM
           Label: hydroxyacyl-CoA dehydrogenase
           Symbol: HADH
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4799'
-          - Source: OMIM
-            Reference: '601609'
+      Label: Hyperinsulinism due to short chain 3-hydroxylacyl-CoA dehydrogenase deficiency
+      ORPHAcode: '71212'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: 3-hydroxyacyl-CoA dehydrogenase deficiency
+  ORPHAcode: '309127'
+  ORPHApacketId: '309127'
+  PURL: http://www.orpha.net/ORDO/Orphanet_309127
+  Parents:
+  - Parent:
+    - Label: Disorder of fatty acid oxidation and ketogenesis
+      ORPHAcode: '309115'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

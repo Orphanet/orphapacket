@@ -1,48 +1,48 @@
 Orphapacket:
-  ORPHApacketId: '181405'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '181405'
-  Label: Rare hypoparathyroidism
-  PURL: http://www.orpha.net/ORDO/Orphanet_181405
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '68415'
-      Label: Rare parathyroid disease and phosphocalcic metabolism anomaly
   Childs:
   - Child:
+      Genes: no data
       Label: Familial isolated hypoparathyroidism
       ORPHAcode: '2238'
-      Genes: no data
   - Child:
-      Label: Autoimmune polyendocrinopathy type 1
-      ORPHAcode: '3453'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '360'
+            Source: HGNC
+          - Reference: '607358'
+            Source: OMIM
           Label: autoimmune regulator
           Symbol: AIRE
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '360'
-          - Source: OMIM
-            Reference: '607358'
+      Label: Autoimmune polyendocrinopathy type 1
+      ORPHAcode: '3453'
   - Child:
+      Genes: no data
       Label: Autoimmune hypoparathyroidism
       ORPHAcode: '36913'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Pseudohypoparathyroidism
       ORPHAcode: '97593'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Secondary hypoparathyroidism due to impaired parathormon secretion
       ORPHAcode: '140286'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Syndrome with hypoparathyroidism
       ORPHAcode: '181402'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare hypoparathyroidism
+  ORPHAcode: '181405'
+  ORPHApacketId: '181405'
+  PURL: http://www.orpha.net/ORDO/Orphanet_181405
+  Parents:
+  - Parent:
+    - Label: Rare parathyroid disease and phosphocalcic metabolism anomaly
+      ORPHAcode: '68415'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,31 +1,31 @@
 Orphapacket:
-  ORPHApacketId: '284414'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '284414'
-  Label: Glycerol kinase deficiency, adult form
-  PURL: http://www.orpha.net/ORDO/Orphanet_284414
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '307030'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare form of glycerol kinase deficiency (GKD) characterized by pseudohypertriglyceridemia
-      in otherwise healthy adults and diagnosed fortuitously.
-  Genes:
-  - Gene:
-      Symbol: GK
-      Name: glycerol kinase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '408'
-      Label: Isolated glycerol kinase deficiency
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Adult
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '307030'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: glycerol kinase
+      Symbol: GK
+  Label: Glycerol kinase deficiency, adult form
+  ORPHAcode: '284414'
+  ORPHApacketId: '284414'
+  PURL: http://www.orpha.net/ORDO/Orphanet_284414
+  Parents:
+  - Parent:
+    - Label: Isolated glycerol kinase deficiency
+      ORPHAcode: '408'
+  TextSection:
+    Contents: A rare form of glycerol kinase deficiency (GKD) characterized by pseudohypertriglyceridemia
+      in otherwise healthy adults and diagnosed fortuitously.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,56 +1,56 @@
 Orphapacket:
-  ORPHApacketId: '363727'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '363727'
-  Label: X-linked dyserythropoietic anemia with abnormal platelets and neutropenia
-  PURL: http://www.orpha.net/ORDO/Orphanet_363727
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '300835'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: GATA binding protein 1
+      Symbol: GATA1
+  Label: X-linked dyserythropoietic anemia with abnormal platelets and neutropenia
+  ORPHAcode: '363727'
+  ORPHApacketId: '363727'
+  PURL: http://www.orpha.net/ORDO/Orphanet_363727
+  Parents:
+  - Parent:
+    - Label: Congenital dyserythropoietic anemia
+      ORPHAcode: '85'
+  - Parent:
+    - Label: Isolated hereditary giant platelet disorder
+      ORPHAcode: '220452'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 16783379[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: X-linked dyserythropoietic anemia with abnormal platelets and neutropenia
       is a rare genetic constitutional dyserythropoietic anemia disorder characterized
       by moderate to severe anemia without thrombocytopenia variable degrees of neutropenia
       and bone marrow biopsy findings of trilineage dysplasia and hypocellularity
       of erythroid and granulocytic lineages. Peripheral blood findings include anisocytosis
       macrocytosis poikilocytosis elliptocytes and fragmented erythrocytes.
-  Genes:
-  - Gene:
-      Symbol: GATA1
-      Name: GATA binding protein 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '85'
-      Label: Congenital dyserythropoietic anemia
-  - Parent:
-    - ORPHAcode: '220452'
-      Label: Isolated hereditary giant platelet disorder
-  Prevalences:
-  - Prevalence:
-      Source: 16783379[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

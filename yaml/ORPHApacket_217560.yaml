@@ -1,39 +1,39 @@
 Orphapacket:
-  ORPHApacketId: '217560'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '217560'
-  Label: Neuroendocrine cell hyperplasia of infancy
-  PURL: http://www.orpha.net/ORDO/Orphanet_217560
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: NCHI
-  - Synonym: NEHI
-  TextSection:
-    TextSectionType: Definition
-    Contents: Neuroendocrine cell hyperplasia of infancy (NCHI) is a non-lethal pediatric
-      form of interstitial lung disease (ILD see this term) characterized by tachypnea
-      without respiratory failure.
-  Parents:
-  - Parent:
-    - ORPHAcode: '264694'
-      Label: Interstitial lung disease specific to infancy
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Neuroendocrine cell hyperplasia of infancy
+  ORPHAcode: '217560'
+  ORPHApacketId: '217560'
+  PURL: http://www.orpha.net/ORDO/Orphanet_217560
+  Parents:
+  - Parent:
+    - Label: Interstitial lung disease specific to infancy
+      ORPHAcode: '264694'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: NCHI
+  - Synonym: NEHI
+  TextSection:
+    Contents: Neuroendocrine cell hyperplasia of infancy (NCHI) is a non-lethal pediatric
+      form of interstitial lung disease (ILD see this term) characterized by tachypnea
+      without respiratory failure.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

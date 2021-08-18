@@ -1,32 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '220443'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '220443'
-  Label: Bleeding diathesis due to thromboxane synthesis deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_220443
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '614009'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: thromboxane A2 receptor
+      Symbol: TBXA2R
+  Label: Bleeding diathesis due to thromboxane synthesis deficiency
+  ORPHAcode: '220443'
+  ORPHApacketId: '220443'
+  PURL: http://www.orpha.net/ORDO/Orphanet_220443
+  Parents:
+  - Parent:
+    - Label: Isolated constitutional thrombocytopenia
+      ORPHAcode: '477797'
   TextSection:
-    TextSectionType: Definition
     Contents: Bleeding diathesis due to thromboxane synthesis deficiency is a rare
       genetic isolated constitutional thrombocytopenia disease characterized by impaired
       platelet aggregation resulting from a defect in thromboxane synthesis or signaling
       manifesting with mild to moderate mucocutaneous gastrointestinal or surgical
       bleeding (e.g. easy bruising prolonged epistaxis excessive bleeding after a
       tooth extraction).
-  Genes:
-  - Gene:
-      Symbol: TBXA2R
-      Name: thromboxane A2 receptor
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '477797'
-      Label: Isolated constitutional thrombocytopenia
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

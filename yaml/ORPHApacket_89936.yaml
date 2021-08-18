@@ -1,138 +1,230 @@
 Orphapacket:
-  ORPHApacketId: '89936'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '89936'
-  Label: X-linked hypophosphatemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_89936
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: X-linked hypophosphatemic rickets
-  - Synonym: XLH
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '307800'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: X-linked hypophosphatemia (XLH) is a hereditary renal phosphate-wasting
-      disorder characterized by hypophosphatemia rickets and/or osteomalacia and diminished
-      growth.
-  Genes:
-  - Gene:
-      Symbol: PHEX
-      Name: phosphate regulating endopeptidase homolog X-linked
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '437'
-      Label: Hypophosphatemic rickets
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000164
-      HPOTerm: Abnormality of the dentition
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000682
-      HPOTerm: Abnormality of dental enamel
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000897
-      HPOTerm: Rachitic rosary
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000944
-      HPOTerm: Abnormality of the metaphysis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001373
-      HPOTerm: Joint dislocation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002148
-      HPOTerm: Hypophosphatemia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002653
-      HPOTerm: Bone pain
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002748
-      HPOTerm: Rickets
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002749
-      HPOTerm: Osteomalacia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002970
-      HPOTerm: Genu varum
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002979
-      HPOTerm: Bowing of the legs
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0030757
-      HPOTerm: Tooth abscess
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001363
-      HPOTerm: Craniosynostosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002758
-      HPOTerm: Osteoarthritis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0004322
-      HPOTerm: Short stature
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0100686
-      HPOTerm: Enthesitis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000365
-      HPOTerm: Hearing impairment
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002757
-      HPOTerm: Recurrent fractures
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-  - Prevalence:
-      Source: European Medicines Agency 2014[INST]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 19095780[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Denmark
-  - Prevalence:
-      Source: 19095780[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Denmark
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
   - AverageAgeOfOnset:
       value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '307800'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: phosphate regulating endopeptidase homolog X-linked
+      Symbol: PHEX
+  Label: X-linked hypophosphatemia
+  ORPHAcode: '89936'
+  ORPHApacketId: '89936'
+  PURL: http://www.orpha.net/ORDO/Orphanet_89936
+  Parents:
+  - Parent:
+    - Label: Hypophosphatemic rickets
+      ORPHAcode: '437'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000117
+      HPOTerm: Renal phosphate wasting
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002148
+      HPOTerm: Hypophosphatemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002748
+      HPOTerm: Rickets
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003127
+      HPOTerm: Hypocalciuria
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003155
+      HPOTerm: Elevated alkaline phosphatase
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006490
+      HPOTerm: Abnormality of lower-limb metaphyses
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000694
+      HPOTerm: Shell teeth
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000897
+      HPOTerm: Rachitic rosary
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001510
+      HPOTerm: Growth delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002653
+      HPOTerm: Bone pain
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002829
+      HPOTerm: Arthralgia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002857
+      HPOTerm: Genu valgum
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002970
+      HPOTerm: Genu varum
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002979
+      HPOTerm: Bowing of the legs
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003498
+      HPOTerm: Disproportionate short stature
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003856
+      HPOTerm: Upper limb metaphyseal widening
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004349
+      HPOTerm: Reduced bone mineral density
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005930
+      HPOTerm: Abnormality of epiphysis morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006487
+      HPOTerm: Bowing of the long bones
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008117
+      HPOTerm: Shortening of the talar neck
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008144
+      HPOTerm: Flattening of the talar dome
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010299
+      HPOTerm: Abnormality of dentin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0025335
+      HPOTerm: Delayed ability to stand
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030757
+      HPOTerm: Tooth abscess
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0031936
+      HPOTerm: Delayed ability to walk
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000920
+      HPOTerm: Enlargement of the costochondral junction
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000923
+      HPOTerm: Beaded ribs
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001363
+      HPOTerm: Craniosynostosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001369
+      HPOTerm: Arthritis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001376
+      HPOTerm: Limitation of joint mobility
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002007
+      HPOTerm: Frontal bossing
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002869
+      HPOTerm: Flared iliac wings
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006432
+      HPOTerm: Trapezoidal distal femoral condyles
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008442
+      HPOTerm: Vertebral hyperostosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012449
+      HPOTerm: Sacroiliac joint synovitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025369
+      HPOTerm: Thick growth plates
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100686
+      HPOTerm: Enthesitis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000407
+      HPOTerm: Sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002308
+      HPOTerm: Arnold-Chiari malformation
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0005789
+      HPOTerm: Generalized osteosclerosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0100658
+      HPOTerm: Cellulitis
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: European Medicines Agency 2014[INST]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Denmark
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 19095780[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Denmark
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 19095780[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: X-linked hypophosphatemic rickets
+  - Synonym: XLH
+  TextSection:
+    Contents: X-linked hypophosphatemia (XLH) is a hereditary renal phosphate-wasting
+      disorder characterized by hypophosphatemia rickets and/or osteomalacia and diminished
+      growth.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

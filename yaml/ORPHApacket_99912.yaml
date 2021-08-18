@@ -1,19 +1,37 @@
 Orphapacket:
-  ORPHApacketId: '99912'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99912'
-  Label: Malignant dysgerminomatous germ cell tumor of the ovary
-  PURL: http://www.orpha.net/ORDO/Orphanet_99912
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adolescent
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Malignant dysgerminomatous germ cell tumor of the ovary
+  ORPHAcode: '99912'
+  ORPHApacketId: '99912'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99912
+  Parents:
+  - Parent:
+    - Label: Malignant germ cell tumor of ovary
+      ORPHAcode: '35807'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: no data
   Synonyms:
   - Synonym: Dysgerminomatous germ cell cancer of the ovary
   - Synonym: Malignant ovarian dysgerminoma
   TextSection:
-    TextSectionType: Definition
     Contents: Malignant dysgerminomatous germ cell tumor of ovary is the most common
       form of malignant germ cell tumor of ovary (see this term) arising from germ
       cells in the ovary usually presenting during adolescence with pelvic mass fever
@@ -23,28 +41,10 @@ Orphapacket:
       the presence of syncitiotrophoblasts). Malignant dysgerminomatous germ cell
       tumor of ovary responds well to chemotherapy potentially sparing patients from
       infertility and early mortality.
-  Parents:
-  - Parent:
-    - ORPHAcode: '35807'
-      Label: Malignant germ cell tumor of ovary
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adolescent
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Unknown
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,16 +1,19 @@
 Orphapacket:
-  ORPHApacketId: '480553'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '480553'
-  Label: Aneurysmal bone cyst
-  PURL: http://www.orpha.net/ORDO/Orphanet_480553
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Aneurysmal bone cyst
+  ORPHAcode: '480553'
+  ORPHApacketId: '480553'
+  PURL: http://www.orpha.net/ORDO/Orphanet_480553
+  Parents:
+  - Parent:
+    - Label: Rare disease in surgical orthopedic
+      ORPHAcode: '98067'
+  - Parent:
+    - Label: Rare bone tumor
+      ORPHAcode: '68411'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare bone tumor characterized by a benign cystic lesion consisting
       of blood-filled cavities divided by fibrous septa containing fibroblasts multinucleated
       osteoclast-type giant cells and reactive woven bone. The tumor may arise <i>de
@@ -19,10 +22,7 @@ Orphapacket:
       the epiphyses of long bones and posterior elements of vertebral bodies. Patients
       typically present with pain and swelling or neurological symptoms due to compression
       of nerve roots or the spinal cord by vertebral tumors.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98067'
-      Label: Rare disease in surgical orthopedic
-  - Parent:
-    - ORPHAcode: '68411'
-      Label: Rare bone tumor
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

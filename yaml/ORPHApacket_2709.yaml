@@ -1,61 +1,61 @@
 Orphapacket:
-  ORPHApacketId: '2709'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2709'
-  Label: Oculodental syndrome, Rutherfurd type
-  PURL: http://www.orpha.net/ORDO/Orphanet_2709
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: Gingival hypertrophy-corneal dystrophy
-  - Synonym: Rutherfurd syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '180900'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Oculodental syndrome Rutherfurd type is a rare genetic disorder that
-      is primarily characterized by the classical triad of gingival fibromatosis non-eruption
-      of tooth and corneal dystrophy (bilateral corneal vascularization and opacity).
-      Abnormally shaped teeth have also been reported. The syndrome is transmitted
-      as an autosomal dominant trait.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98628'
-      Label: Syndromic corneal dystrophy
-  - Parent:
-    - ORPHAcode: '183580'
-      Label: Genetic malformation syndrome with odontal and/or periodontal component
-  - Parent:
-    - ORPHAcode: '139042'
-      Label: Malformation syndrome with odontal and/or periodontal component
-  Prevalences:
-  - Prevalence:
-      Source: 25714557[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_25714557[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '180900'
+    Source: OMIM
+  Label: Oculodental syndrome, Rutherfurd type
+  ORPHAcode: '2709'
+  ORPHApacketId: '2709'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2709
+  Parents:
+  - Parent:
+    - Label: Syndromic corneal dystrophy
+      ORPHAcode: '98628'
+  - Parent:
+    - Label: Genetic malformation syndrome with odontal and/or periodontal component
+      ORPHAcode: '183580'
+  - Parent:
+    - Label: Malformation syndrome with odontal and/or periodontal component
+      ORPHAcode: '139042'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 25714557[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_25714557[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Gingival hypertrophy-corneal dystrophy
+  - Synonym: Rutherfurd syndrome
+  TextSection:
+    Contents: Oculodental syndrome Rutherfurd type is a rare genetic disorder that
+      is primarily characterized by the classical triad of gingival fibromatosis non-eruption
+      of tooth and corneal dystrophy (bilateral corneal vascularization and opacity).
+      Abnormally shaped teeth have also been reported. The syndrome is transmitted
+      as an autosomal dominant trait.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,44 +1,44 @@
 Orphapacket:
-  ORPHApacketId: '79181'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79181'
-  Label: Disorder of histidine metabolism
-  PURL: http://www.orpha.net/ORDO/Orphanet_79181
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '79062'
-      Label: Disorder of amino acid and other organic acid metabolism
   Childs:
   - Child:
-      Label: Histidinemia
-      ORPHAcode: '2157'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4806'
+            Source: HGNC
+          - Reference: '609457'
+            Source: OMIM
           Label: histidine ammonia-lyase
           Symbol: HAL
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4806'
-          - Source: OMIM
-            Reference: '609457'
+      Label: Histidinemia
+      ORPHAcode: '2157'
   - Child:
-      Label: Urocanic aciduria
-      ORPHAcode: '210128'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '26444'
+            Source: HGNC
+          - Reference: '613012'
+            Source: OMIM
           Label: urocanate hydratase 1
           Symbol: UROC1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '26444'
-          - Source: OMIM
-            Reference: '613012'
+      Label: Urocanic aciduria
+      ORPHAcode: '210128'
   - Child:
+      Genes: no data
       Label: Histidinuria-renal tubular defect syndrome
       ORPHAcode: '2158'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Disorder of histidine metabolism
+  ORPHAcode: '79181'
+  ORPHApacketId: '79181'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79181
+  Parents:
+  - Parent:
+    - Label: Disorder of amino acid and other organic acid metabolism
+      ORPHAcode: '79062'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

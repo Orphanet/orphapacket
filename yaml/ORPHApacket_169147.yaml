@@ -1,50 +1,83 @@
 Orphapacket:
-  ORPHApacketId: '169147'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '169147'
-  Label: Immunodeficiency due to a classical component pathway complement deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_169147
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '216950'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '217000'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '613652'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '613783'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '614379'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '614380'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: complement C2
+      Symbol: C2
+  - Gene:
+      ExternalReferences: []
+      Name: complement C4A (Rodgers blood group)
+      Symbol: C4A
+  - Gene:
+      ExternalReferences: []
+      Name: complement C4B (Chido blood group)
+      Symbol: C4B
+  - Gene:
+      ExternalReferences: []
+      Name: complement C1q A chain
+      Symbol: C1QA
+  - Gene:
+      ExternalReferences: []
+      Name: complement C1q B chain
+      Symbol: C1QB
+  - Gene:
+      ExternalReferences: []
+      Name: complement C1q C chain
+      Symbol: C1QC
+  - Gene:
+      ExternalReferences: []
+      Name: complement C1s
+      Symbol: C1S
+  - Gene:
+      ExternalReferences: []
+      Name: complement C1r
+      Symbol: C1R
+  Label: Immunodeficiency due to a classical component pathway complement deficiency
+  ORPHAcode: '169147'
+  ORPHApacketId: '169147'
+  PURL: http://www.orpha.net/ORDO/Orphanet_169147
+  Parents:
+  - Parent:
+    - Label: Immunodeficiency due to a complement cascade component deficiency
+      ORPHAcode: '459345'
   Synonyms:
   - Synonym: Immunodeficiency due to C1, C4, or C2 component complement deficiency
   - Synonym: Immunodeficiency due to an early component of complement deficiency
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '216950'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '217000'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '613652'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '613783'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '614379'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '614380'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
   TextSection:
-    TextSectionType: Definition
     Contents: Immunodeficiency due to a classical component pathway complement deficiency
       is a primary immunodeficiency due to a deficiency in either complement components
       C1q C1r C1s C2 or C4 characterized by increased susceptibility to bacterial
@@ -52,40 +85,7 @@ Orphapacket:
       disease. Most commonly these include systemic lupus erythematosus (SLE) SLE-like
       disease Henoch-Schonlein purpura polymyositis and arthralgia. Disease severity
       is variable and dependent on the complement affected.
-  Genes:
-  - Gene:
-      Symbol: C2
-      Name: complement C2
-      ExternalReferences: []
-  - Gene:
-      Symbol: C4A
-      Name: complement C4A (Rodgers blood group)
-      ExternalReferences: []
-  - Gene:
-      Symbol: C4B
-      Name: complement C4B (Chido blood group)
-      ExternalReferences: []
-  - Gene:
-      Symbol: C1QA
-      Name: complement C1q A chain
-      ExternalReferences: []
-  - Gene:
-      Symbol: C1QB
-      Name: complement C1q B chain
-      ExternalReferences: []
-  - Gene:
-      Symbol: C1QC
-      Name: complement C1q C chain
-      ExternalReferences: []
-  - Gene:
-      Symbol: C1S
-      Name: complement C1s
-      ExternalReferences: []
-  - Gene:
-      Symbol: C1R
-      Name: complement C1r
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '459345'
-      Label: Immunodeficiency due to a complement cascade component deficiency
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

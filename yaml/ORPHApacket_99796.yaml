@@ -1,56 +1,53 @@
 Orphapacket:
-  ORPHApacketId: '99796'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99796'
-  Label: Subcortical band heterotopia
-  PURL: http://www.orpha.net/ORDO/Orphanet_99796
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
-  Synonyms:
-  - Synonym: Subcortical laminar heterotopia
+    value: Morphological anomaly
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
-      Reference: '300067'
       DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
         Term)
-  - ExternalReference:
+      Reference: '300067'
       Source: OMIM
-      Reference: '600348'
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
-  - ExternalReference:
+      Reference: '600348'
       Source: OMIM
-      Reference: '607432'
+  - ExternalReference:
       DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
         Term)
+      Reference: '607432'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: doublecortin
+      Symbol: DCX
+  - Gene:
+      ExternalReferences: []
+      Name: platelet activating factor acetylhydrolase 1b regulatory subunit 1
+      Symbol: PAFAH1B1
+  - Gene:
+      ExternalReferences: []
+      Name: EMAP like 1
+      Symbol: EML1
+  Label: Subcortical band heterotopia
+  ORPHAcode: '99796'
+  ORPHApacketId: '99796'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99796
+  Parents:
+  - Parent:
+    - Label: Non-syndromic cerebral malformation due to abnormal neuronal migration
+      ORPHAcode: '163209'
+  Synonyms:
+  - Synonym: Subcortical laminar heterotopia
   TextSection:
-    TextSectionType: Definition
     Contents: A rare non-syndromic cerebral malformation due to abnormal neuronal
       migration characterized by variable clinical manifestation depending on the
       location size and thickness of subcortical bands. Clinical presentation ranges
       from mild cognitive deficit to developmental delay with severe intellectual
       disability seizures and behavioral problems.
-  Genes:
-  - Gene:
-      Symbol: DCX
-      Name: doublecortin
-      ExternalReferences: []
-  - Gene:
-      Symbol: PAFAH1B1
-      Name: platelet activating factor acetylhydrolase 1b regulatory subunit 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: EML1
-      Name: EMAP like 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '163209'
-      Label: Non-syndromic cerebral malformation due to abnormal neuronal migration
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal recessive
@@ -58,3 +55,6 @@ Orphapacket:
       value: Unknown
   - TypeOfInheritance:
       value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,145 +1,254 @@
 Orphapacket:
-  ORPHApacketId: '437'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '437'
-  Label: Hypophosphatemic rickets
-  PURL: http://www.orpha.net/ORDO/Orphanet_437
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  TextSection:
-    TextSectionType: Definition
-    Contents: Hypophosphatemic rickets is a group of genetic diseases characterized
-      by hypophosphatemia rickets and normal serum levels of calcium.
-  Parents:
-  - Parent:
-    - ORPHAcode: '93603'
-      Label: Rare renal tubular disease
-  - Parent:
-    - ORPHAcode: '289098'
-      Label: Disorders of vitamin D metabolism
-  - Parent:
-    - ORPHAcode: '183592'
-      Label: Genetic renal tubular disease
-  Childs:
-  - Child:
-      Label: Dent disease
-      ORPHAcode: '1652'
-      Genes: no data
-  - Child:
-      Label: X-linked hypophosphatemia
-      ORPHAcode: '89936'
-      Genes:
-      - Gene:
-          Label: phosphate regulating endopeptidase homolog X-linked
-          Symbol: PHEX
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8918'
-          - Source: OMIM
-            Reference: '300550'
-  - Child:
-      Label: Autosomal dominant hypophosphatemic rickets
-      ORPHAcode: '89937'
-      Genes:
-      - Gene:
-          Label: fibroblast growth factor 23
-          Symbol: FGF23
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3680'
-          - Source: OMIM
-            Reference: '605380'
-  - Child:
-      Label: Hereditary hypophosphatemic rickets with hypercalciuria
-      ORPHAcode: '157215'
-      Genes:
-      - Gene:
-          Label: solute carrier family 34 member 3
-          Symbol: SLC34A3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '20305'
-          - Source: OMIM
-            Reference: '609826'
-  - Child:
-      Label: Autosomal recessive hypophosphatemic rickets
-      ORPHAcode: '289176'
-      Genes:
-      - Gene:
-          Label: dentin matrix acidic phosphoprotein 1
-          Symbol: DMP1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2932'
-          - Source: OMIM
-            Reference: '600980'
-      - Gene:
-          Label: ectonucleotide pyrophosphatase/phosphodiesterase 1
-          Symbol: ENPP1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3356'
-          - Source: OMIM
-            Reference: '173335'
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000268
-      HPOTerm: Dolichocephaly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000682
-      HPOTerm: Abnormality of dental enamel
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000684
-      HPOTerm: Delayed eruption of teeth
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000767
-      HPOTerm: Pectus excavatum
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001363
-      HPOTerm: Craniosynostosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001387
-      HPOTerm: Joint stiffness
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002650
-      HPOTerm: Scoliosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0004322
-      HPOTerm: Short stature
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006487
-      HPOTerm: Bowing of the long bones
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100530
-      HPOTerm: Abnormality of calcium-phosphate metabolism
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100777
-      HPOTerm: Exostoses
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: All ages
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Dent disease
+      ORPHAcode: '1652'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '8918'
+            Source: HGNC
+          - Reference: '300550'
+            Source: OMIM
+          Label: phosphate regulating endopeptidase homolog X-linked
+          Symbol: PHEX
+      Label: X-linked hypophosphatemia
+      ORPHAcode: '89936'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '3680'
+            Source: HGNC
+          - Reference: '605380'
+            Source: OMIM
+          Label: fibroblast growth factor 23
+          Symbol: FGF23
+      Label: Autosomal dominant hypophosphatemic rickets
+      ORPHAcode: '89937'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '20305'
+            Source: HGNC
+          - Reference: '609826'
+            Source: OMIM
+          Label: solute carrier family 34 member 3
+          Symbol: SLC34A3
+      Label: Hereditary hypophosphatemic rickets with hypercalciuria
+      ORPHAcode: '157215'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '2932'
+            Source: HGNC
+          - Reference: '600980'
+            Source: OMIM
+          Label: dentin matrix acidic phosphoprotein 1
+          Symbol: DMP1
+      - Gene:
+          ExternalReferences:
+          - Reference: '3356'
+            Source: HGNC
+          - Reference: '173335'
+            Source: OMIM
+          Label: ectonucleotide pyrophosphatase/phosphodiesterase 1
+          Symbol: ENPP1
+      Label: Autosomal recessive hypophosphatemic rickets
+      ORPHAcode: '289176'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Hypophosphatemic rickets
+  ORPHAcode: '437'
+  ORPHApacketId: '437'
+  PURL: http://www.orpha.net/ORDO/Orphanet_437
+  Parents:
+  - Parent:
+    - Label: Rare renal tubular disease
+      ORPHAcode: '93603'
+  - Parent:
+    - Label: Disorders of vitamin D metabolism
+      ORPHAcode: '289098'
+  - Parent:
+    - Label: Genetic renal tubular disease
+      ORPHAcode: '183592'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002148
+      HPOTerm: Hypophosphatemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002653
+      HPOTerm: Bone pain
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002748
+      HPOTerm: Rickets
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001324
+      HPOTerm: Muscle weakness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002749
+      HPOTerm: Osteomalacia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003109
+      HPOTerm: Hyperphosphaturia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003155
+      HPOTerm: Elevated alkaline phosphatase
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003498
+      HPOTerm: Disproportionate short stature
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006487
+      HPOTerm: Bowing of the long bones
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0040069
+      HPOTerm: Abnormal lower limb bone morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000083
+      HPOTerm: Renal insufficiency
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000117
+      HPOTerm: Renal phosphate wasting
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000164
+      HPOTerm: Abnormality of the dentition
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000694
+      HPOTerm: Shell teeth
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001387
+      HPOTerm: Joint stiffness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002150
+      HPOTerm: Hypercalciuria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003127
+      HPOTerm: Hypocalciuria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004963
+      HPOTerm: Calcification of the aorta
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010766
+      HPOTerm: Ectopic calcification
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012052
+      HPOTerm: Low serum calcitriol
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0020110
+      HPOTerm: Bone fracture
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030757
+      HPOTerm: Tooth abscess
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030758
+      HPOTerm: Periapical tooth abscess
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100512
+      HPOTerm: Low levels of vitamin D
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100686
+      HPOTerm: Enthesitis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000121
+      HPOTerm: Nephrocalcinosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000826
+      HPOTerm: Precocious puberty
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000836
+      HPOTerm: Hyperthyroidism
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000843
+      HPOTerm: Hyperparathyroidism
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0003072
+      HPOTerm: Hypercalcemia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0003165
+      HPOTerm: Elevated circulating parathyroid hormone level
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0004484
+      HPOTerm: Craniofacial asymmetry
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0005464
+      HPOTerm: Craniofacial osteosclerosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0007565
+      HPOTerm: Multiple cafe-au-lait spots
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0008208
+      HPOTerm: Parathyroid hyperplasia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0010659
+      HPOTerm: Patchy variation in bone mineral density
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0010734
+      HPOTerm: Fibrous dysplasia of the bones
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0100774
+      HPOTerm: Hyperostosis
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  TextSection:
+    Contents: Hypophosphatemic rickets is a group of genetic diseases characterized
+      by hypophosphatemia rickets and normal serum levels of calcium.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
@@ -147,3 +256,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

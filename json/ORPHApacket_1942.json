@@ -1,11 +1,11 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1942",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "1942",
-        "Label": "Myoclonic-astastic epilepsy",
+        "Label": "Myoclonic-astatic epilepsy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_1942",
         "DisorderType": {
             "value": "Disease",
@@ -59,9 +59,37 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "A rare epilepsy syndrome of childhood characterized by the occurrence of multiple different seizure types including myoclonic-astatic generalized tonic-clonic and absence seizures usually in previously healthy children."
+            "Contents": "A rare childhood onset epilepsy syndrome characterized by multiple seizure types including myoclonic-atonic (MA) seizures that occur usually in previously healthy children."
         },
         "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "SLC2A1",
+                    "Name": "solute carrier family 2 member 1",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "SYNGAP1",
+                    "Name": "synaptic Ras GTPase activating protein 1",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "NEXMIF",
+                    "Name": "neurite extension and migration factor",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "SCN1A",
+                    "Name": "sodium voltage-gated channel alpha subunit 1",
+                    "ExternalReferences": []
+                }
+            },
             {
                 "Gene": {
                     "Symbol": "CHD2",
@@ -97,9 +125,79 @@
         "Phenotypes": [
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000718",
-                    "HPOTerm": "Aggressive behavior",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0011170",
+                    "HPOTerm": "Myoclonic atonic seizures",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011197",
+                    "HPOTerm": "EEG with focal spike waves",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000752",
+                    "HPOTerm": "Hyperactivity",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001249",
+                    "HPOTerm": "Intellectual disability",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002121",
+                    "HPOTerm": "Absence seizure",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002123",
+                    "HPOTerm": "Generalized myoclonic seizure",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002332",
+                    "HPOTerm": "Lack of peer relationships",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002392",
+                    "HPOTerm": "EEG with polyspike wave complexes",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007018",
+                    "HPOTerm": "Attention deficit hyperactivity disorder",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010819",
+                    "HPOTerm": "Atonic seizure",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0025190",
+                    "HPOTerm": "Generalized tonic-clonic seizures without focal onset",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -111,135 +209,226 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001251",
-                    "HPOTerm": "Ataxia",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0000735",
+                    "HPOTerm": "Impaired social interactions",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001260",
-                    "HPOTerm": "Dysarthria",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0001251",
+                    "HPOTerm": "Ataxia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001326",
+                    "HPOTerm": "EEG with irregular generalized spike and wave complexes",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001337",
+                    "HPOTerm": "Tremor",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010845",
+                    "HPOTerm": "EEG with generalized slow activity",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011171",
+                    "HPOTerm": "Simple febrile seizures",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011182",
+                    "HPOTerm": "Interictal epileptiform activity",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100851",
+                    "HPOTerm": "Abnormal emotion/affect behavior",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0410263",
+                    "HPOTerm": "Brain imaging abnormality",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000154",
+                    "HPOTerm": "Wide mouth",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000179",
+                    "HPOTerm": "Thick lower lip vermilion",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000219",
+                    "HPOTerm": "Thin upper lip vermilion",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000252",
+                    "HPOTerm": "Microcephaly",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000289",
+                    "HPOTerm": "Broad philtrum",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000343",
+                    "HPOTerm": "Long philtrum",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000431",
+                    "HPOTerm": "Wide nasal bridge",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000463",
+                    "HPOTerm": "Anteverted nares",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000568",
+                    "HPOTerm": "Microphthalmia",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000750",
+                    "HPOTerm": "Delayed speech and language development",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001159",
+                    "HPOTerm": "Syndactyly",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001252",
+                    "HPOTerm": "Muscular hypotonia",
+                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             },
             {
                 "Phenotype": {
                     "HPOId": "HP:0001263",
                     "HPOTerm": "Global developmental delay",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001268",
-                    "HPOTerm": "Mental deterioration",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0001999",
+                    "HPOTerm": "Abnormal facial shape",
+                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002069",
-                    "HPOTerm": "Generalized tonic-clonic seizures",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0002292",
+                    "HPOTerm": "Frontal balding",
+                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002121",
-                    "HPOTerm": "Absence seizure",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0002317",
+                    "HPOTerm": "Unsteady gait",
+                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002123",
-                    "HPOTerm": "Generalized myoclonic seizures",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0007256",
+                    "HPOTerm": "Abnormal pyramidal sign",
+                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002133",
-                    "HPOTerm": "Status epilepticus",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0007359",
+                    "HPOTerm": "Focal-onset seizure",
+                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002373",
-                    "HPOTerm": "Febrile seizures",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0009928",
+                    "HPOTerm": "Thick nasal alae",
+                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002376",
-                    "HPOTerm": "Developmental regression",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0011220",
+                    "HPOTerm": "Prominent forehead",
+                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0007087",
-                    "HPOTerm": "Involuntary jerking movements",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0007207",
-                    "HPOTerm": "Photosensitive tonic-clonic seizures",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0010849",
-                    "HPOTerm": "EEG with spike-wave complexes (>3.5 Hz)",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0010819",
-                    "HPOTerm": "Atonic seizure",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011170",
-                    "HPOTerm": "Myoclonic atonic seizures",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011203",
-                    "HPOTerm": "EEG with abnormally slow frequencies",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012658",
-                    "HPOTerm": "Abnormal brain FDG positron emission tomography",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0100710",
-                    "HPOTerm": "Impulsivity",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0100678",
+                    "HPOTerm": "Premature skin wrinkling",
+                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             },
             {
                 "Phenotype": {
                     "HPOId": "HP:0200134",
                     "HPOTerm": "Epileptic encephalopathy",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011097",
+                    "HPOTerm": "Epileptic spasms",
+                    "HPOFrequency": "Excluded (0%)"
                 }
             }
         ],

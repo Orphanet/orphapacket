@@ -1,25 +1,25 @@
 Orphapacket:
-  ORPHApacketId: '90021'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '90021'
-  Label: Radiation myelitis
-  PURL: http://www.orpha.net/ORDO/Orphanet_90021
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Radiation myelitis
+  ORPHAcode: '90021'
+  ORPHApacketId: '90021'
+  PURL: http://www.orpha.net/ORDO/Orphanet_90021
+  Parents:
+  - Parent:
+    - Label: Radiation-induced disorder
+      ORPHAcode: '521132'
+  - Parent:
+    - Label: Medullar disease
+      ORPHAcode: '102000'
   TextSection:
-    TextSectionType: Definition
     Contents: Radiation myelitis is a rare neurological disease characterized by the
       development of paresthesias as well as in severe cases progressive paresis and
       paralysis following irradiation of tumors in which the spinal cord is included
       within the radiation field. Symptoms may develop months or years after radiation
       therapy was administered.
-  Parents:
-  - Parent:
-    - ORPHAcode: '521132'
-      Label: Radiation-induced disorder
-  - Parent:
-    - ORPHAcode: '102000'
-      Label: Medullar disease
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

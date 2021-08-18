@@ -1,20 +1,23 @@
 Orphapacket:
-  ORPHApacketId: '199279'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '199279'
-  Label: Familial angiolipomatosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_199279
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '206550'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Familial angiolipomatosis
+  ORPHAcode: '199279'
+  ORPHApacketId: '199279'
+  PURL: http://www.orpha.net/ORDO/Orphanet_199279
+  Parents:
+  - Parent:
+    - Label: Genetic subcutaneous tissue disorder
+      ORPHAcode: '183484'
+  - Parent:
+    - Label: Subcutaneous tissue disease
+      ORPHAcode: '79382'
   TextSection:
-    TextSectionType: Definition
     Contents: Familial angiolipomatosis is a rare genetic subcutaneous tissue disorder
       characterized by the presence of benign usually multiple subcutaneous tumors
       composed of adipose tissue and blood vessels typically manifesting as yellow
@@ -22,10 +25,7 @@ Orphapacket:
       with deep extension of the lesions between muscles tendons and joint capsules
       (without infiltration of these structures) in several members of a single family.
       Tumors may be tender or mildly painful when palpated and do not regress spontaneously.
-  Parents:
-  - Parent:
-    - ORPHAcode: '183484'
-      Label: Genetic subcutaneous tissue disorder
-  - Parent:
-    - ORPHAcode: '79382'
-      Label: Subcutaneous tissue disease
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

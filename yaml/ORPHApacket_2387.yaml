@@ -1,69 +1,69 @@
 Orphapacket:
-  ORPHApacketId: '2387'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2387'
-  Label: Leukonychia totalis
-  PURL: http://www.orpha.net/ORDO/Orphanet_2387
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
     Reference: '151600'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: phospholipase C delta 1
+      Symbol: PLCD1
+  Label: Leukonychia totalis
+  ORPHAcode: '2387'
+  ORPHApacketId: '2387'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2387
+  Parents:
+  - Parent:
+    - Label: Isolated nail anomaly
+      ORPHAcode: '79369'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000498
+      HPOTerm: Blepharitis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000499
+      HPOTerm: Abnormality of the eyelashes
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000613
+      HPOTerm: Photophobia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000787
+      HPOTerm: Nephrolithiasis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001231
+      HPOTerm: Abnormal fingernail morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005978
+      HPOTerm: Type II diabetes mellitus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008388
+      HPOTerm: Abnormal toenail morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009720
+      HPOTerm: Adenoma sebaceum
   TextSection:
-    TextSectionType: Definition
     Contents: Leukonychia totalis is a rare nail anomaly disorder characterized by
       complete white discoloration of the nails. Patients typically present white
       chalky nails as an isolated finding although other cutaneous or systemic manifestations
       could also be present.
-  Genes:
-  - Gene:
-      Symbol: PLCD1
-      Name: phospholipase C delta 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79369'
-      Label: Isolated nail anomaly
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000498
-      HPOTerm: Blepharitis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000499
-      HPOTerm: Abnormality of the eyelashes
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000613
-      HPOTerm: Photophobia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000787
-      HPOTerm: Nephrolithiasis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001231
-      HPOTerm: Abnormal fingernail morphology
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0005978
-      HPOTerm: Type II diabetes mellitus
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0008388
-      HPOTerm: Abnormal toenail morphology
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0009720
-      HPOTerm: Adenoma sebaceum
-      HPOFrequency: Very frequent (99-80%)
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

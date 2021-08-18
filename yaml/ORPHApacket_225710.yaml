@@ -1,28 +1,28 @@
 Orphapacket:
-  ORPHApacketId: '225710'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '225710'
-  Label: Sterol metabolism disorder with epilepsy
-  PURL: http://www.orpha.net/ORDO/Orphanet_225710
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '166481'
-      Label: Metabolic diseases with epilepsy
   Childs:
   - Child:
-      Label: Cerebrotendinous xanthomatosis
-      ORPHAcode: '909'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2605'
+            Source: HGNC
+          - Reference: '606530'
+            Source: OMIM
           Label: cytochrome P450 family 27 subfamily A member 1
           Symbol: CYP27A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2605'
-          - Source: OMIM
-            Reference: '606530'
+      Label: Cerebrotendinous xanthomatosis
+      ORPHAcode: '909'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Sterol metabolism disorder with epilepsy
+  ORPHAcode: '225710'
+  ORPHApacketId: '225710'
+  PURL: http://www.orpha.net/ORDO/Orphanet_225710
+  Parents:
+  - Parent:
+    - Label: Metabolic diseases with epilepsy
+      ORPHAcode: '166481'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

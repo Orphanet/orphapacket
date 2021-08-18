@@ -1,15 +1,56 @@
 Orphapacket:
-  ORPHApacketId: '313808'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '313808'
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: adult
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '221820'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: alanyl-tRNA synthetase 2, mitochondrial
+      Symbol: AARS2
+  - Gene:
+      ExternalReferences: []
+      Name: colony stimulating factor 1 receptor
+      Symbol: CSF1R
   Label: Hereditary diffuse leukoencephalopathy with axonal spheroids and pigmented
     glia
+  ORPHAcode: '313808'
+  ORPHApacketId: '313808'
   PURL: http://www.orpha.net/ORDO/Orphanet_313808
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  Parents:
+  - Parent:
+    - Label: Leukodystrophy
+      ORPHAcode: '68356'
+  - Parent:
+    - Label: Neurodegenerative disease with dementia
+      ORPHAcode: '98534'
+  - Parent:
+    - Label: Genetic neurodegenerative disease with dementia
+      ORPHAcode: '276058'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 22197934[PMID]_10668715[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: ALSP
   - Synonym: Adult-onset leukoencephalopathy with axonal spheroids and pigmented glia
@@ -23,56 +64,15 @@ Orphapacket:
   - Synonym: POLD
   - Synonym: Pigmentary orthochromatic leukodystrophy
   - Synonym: Subcortical gliosis of Neumann
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '221820'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Hereditary diffuse leukoencephalopathy with axonal spheroids and pigmented
       glia is a rare autosomal dominant disease characterized by a complex phenotype
       including progressive dementia apraxia apathy impaired balance parkinsonism
       spasticity and epilepsy.
-  Genes:
-  - Gene:
-      Symbol: AARS2
-      Name: alanyl-tRNA synthetase 2, mitochondrial
-      ExternalReferences: []
-  - Gene:
-      Symbol: CSF1R
-      Name: colony stimulating factor 1 receptor
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '68356'
-      Label: Leukodystrophy
-  - Parent:
-    - ORPHAcode: '98534'
-      Label: Neurodegenerative disease with dementia
-  - Parent:
-    - ORPHAcode: '276058'
-      Label: Genetic neurodegenerative disease with dementia
-  Prevalences:
-  - Prevalence:
-      Source: 22197934[PMID]_10668715[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

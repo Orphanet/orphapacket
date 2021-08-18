@@ -1,23 +1,69 @@
 Orphapacket:
-  ORPHApacketId: '88621'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '88621'
-  Label: Ichthyosis-prematurity syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_88621
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '608649'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: solute carrier family 27 member 4
+      Symbol: SLC27A4
+  Label: Ichthyosis-prematurity syndrome
+  ORPHAcode: '88621'
+  ORPHApacketId: '88621'
+  PURL: http://www.orpha.net/ORDO/Orphanet_88621
+  Parents:
+  - Parent:
+    - Label: Autosomal ichthyosis syndrome with other associated signs
+      ORPHAcode: '281244'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001622
+      HPOTerm: Premature birth
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001880
+      HPOTerm: Eosinophilia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002643
+      HPOTerm: Neonatal respiratory distress
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007549
+      HPOTerm: Desquamation of skin soon after birth
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008064
+      HPOTerm: Ichthyosis
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: Congenital ichthyosis type 4
   - Synonym: IPS
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '608649'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Ichthyosis prematurity syndrome is a rare syndromic congenital ichthyosis
       characterized by premature birth (at gestational weeks 30-32 in general) in
       addition to thick caseous and desquamating epidermis neonatal respiratory asphyxia
@@ -25,56 +71,10 @@ Orphapacket:
       in the health of affected patients is observed and skin features (vernix caseosa-like
       scale) evolve into a mild presentation of flat follicular hyperkeratosis with
       atopy.
-  Genes:
-  - Gene:
-      Symbol: SLC27A4
-      Name: solute carrier family 27 member 4
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '281244'
-      Label: Autosomal ichthyosis syndrome with other associated signs
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001622
-      HPOTerm: Premature birth
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001880
-      HPOTerm: Eosinophilia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002643
-      HPOTerm: Neonatal respiratory distress
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007549
-      HPOTerm: Desquamation of skin soon after birth
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008064
-      HPOTerm: Ichthyosis
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

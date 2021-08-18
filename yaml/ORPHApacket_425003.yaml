@@ -1,87 +1,115 @@
 Orphapacket:
-  ORPHApacketId: '425003'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '425003'
-  Label: Inherited digestive cancer-predisposing syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_425003
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '140162'
-      Label: Inherited cancer-predisposing syndrome
-  - Parent:
-    - ORPHAcode: '97935'
-      Label: Rare gastroenterologic disease
   Childs:
   - Child:
-      Label: Multiple endocrine neoplasia type 1
-      ORPHAcode: '652'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1785'
+            Source: HGNC
+          - Reference: '600778'
+            Source: OMIM
           Label: cyclin dependent kinase inhibitor 1B
           Symbol: CDKN1B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1785'
-          - Source: OMIM
-            Reference: '600778'
       - Gene:
+          ExternalReferences:
+          - Reference: '1784'
+            Source: HGNC
+          - Reference: '116899'
+            Source: OMIM
           Label: cyclin dependent kinase inhibitor 1A
           Symbol: CDKN1A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1784'
-          - Source: OMIM
-            Reference: '116899'
       - Gene:
+          ExternalReferences:
+          - Reference: '1788'
+            Source: HGNC
+          - Reference: '600431'
+            Source: OMIM
           Label: cyclin dependent kinase inhibitor 2B
           Symbol: CDKN2B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1788'
-          - Source: OMIM
-            Reference: '600431'
       - Gene:
+          ExternalReferences:
+          - Reference: '1789'
+            Source: HGNC
+          - Reference: '603369'
+            Source: OMIM
           Label: cyclin dependent kinase inhibitor 2C
           Symbol: CDKN2C
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1789'
-          - Source: OMIM
-            Reference: '603369'
       - Gene:
+          ExternalReferences:
+          - Reference: '7010'
+            Source: HGNC
+          - Reference: '613733'
+            Source: OMIM
           Label: menin 1
           Symbol: MEN1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7010'
-          - Source: OMIM
-            Reference: '613733'
+      Label: Multiple endocrine neoplasia type 1
+      ORPHAcode: '652'
   - Child:
+      Genes: no data
       Label: Multiple endocrine neoplasia type 2
       ORPHAcode: '653'
-      Genes: no data
   - Child:
-      Label: Hereditary nonpolyposis colon cancer
-      ORPHAcode: '443909'
-      Genes: no data
-  - Child:
-      Label: Intestinal polyposis syndrome
-      ORPHAcode: '104010'
-      Genes: no data
-  - Child:
-      Label: Hereditary neuroendocrine tumor of small intestine
-      ORPHAcode: '456333'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '3468'
+            Source: HGNC
+          - Reference: '601663'
+            Source: OMIM
+          Label: estrogen receptor 2
+          Symbol: ESR2
+      - Gene:
+          ExternalReferences:
+          - Reference: '8031'
+            Source: HGNC
+          - Reference: '191315'
+            Source: OMIM
+          Label: neurotrophic receptor tyrosine kinase 1
+          Symbol: NTRK1
+      - Gene:
+          ExternalReferences:
+          - Reference: '9967'
+            Source: HGNC
+          - Reference: '164761'
+            Source: OMIM
+          Label: ret proto-oncogene
+          Symbol: RET
+      Label: Familial medullary thyroid carcinoma
+      ORPHAcode: '99361'
+  - Child:
+      Genes: no data
+      Label: Hereditary nonpolyposis colon cancer
+      ORPHAcode: '443909'
+  - Child:
+      Genes: no data
+      Label: Intestinal polyposis syndrome
+      ORPHAcode: '104010'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '20739'
+            Source: HGNC
+          - Reference: '609851'
+            Source: OMIM
           Label: inositol polyphosphate multikinase
           Symbol: IPMK
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '20739'
-          - Source: OMIM
-            Reference: '609851'
+      Label: Hereditary neuroendocrine tumor of small intestine
+      ORPHAcode: '456333'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Inherited digestive cancer-predisposing syndrome
+  ORPHAcode: '425003'
+  ORPHApacketId: '425003'
+  PURL: http://www.orpha.net/ORDO/Orphanet_425003
+  Parents:
+  - Parent:
+    - Label: Inherited cancer-predisposing syndrome
+      ORPHAcode: '140162'
+  - Parent:
+    - Label: Rare gastroenterologic disease
+      ORPHAcode: '97935'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

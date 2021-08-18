@@ -1,18 +1,23 @@
 Orphapacket:
-  ORPHApacketId: '402026'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '402026'
-  Label: Acute myeloid leukemia with NPM1 somatic mutations
-  PURL: http://www.orpha.net/ORDO/Orphanet_402026
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: nucleophosmin 1
+      Symbol: NPM1
+  Label: Acute myeloid leukemia with NPM1 somatic mutations
+  ORPHAcode: '402026'
+  ORPHApacketId: '402026'
+  PURL: http://www.orpha.net/ORDO/Orphanet_402026
+  Parents:
+  - Parent:
+    - Label: Acute myeloid leukemia with recurrent genetic anomaly
+      ORPHAcode: '98277'
   Synonyms:
   - Synonym: AML with NPM1 somatic mutations
   TextSection:
-    TextSectionType: Definition
     Contents: A subtype of acute myeloid leukemia with recurrent genetic abnormalities
       characterized by leukocytosis thrombocytosis and nonspecific symptoms related
       to ineffective hematopoiesis (fatigue bleeding and bruising recurrent infections
@@ -22,12 +27,7 @@ Orphapacket:
       in the bone marrow blood and other tissues. It is associated with multilineage
       dysplasia involving the myeloid monocytic erythroid and megakaryocytic cell
       lineages.
-  Genes:
-  - Gene:
-      Symbol: NPM1
-      Name: nucleophosmin 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98277'
-      Label: Acute myeloid leukemia with recurrent genetic anomaly
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

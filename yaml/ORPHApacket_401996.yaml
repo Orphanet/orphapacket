@@ -1,23 +1,49 @@
 Orphapacket:
-  ORPHApacketId: '401996'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '401996'
-  Label: Karyomegalic interstitial nephritis
-  PURL: http://www.orpha.net/ORDO/Orphanet_401996
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '614817'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: FANCD2 and FANCI associated nuclease 1
+      Symbol: FAN1
+  Label: Karyomegalic interstitial nephritis
+  ORPHAcode: '401996'
+  ORPHApacketId: '401996'
+  PURL: http://www.orpha.net/ORDO/Orphanet_401996
+  Parents:
+  - Parent:
+    - Label: Familial cystic renal disease
+      ORPHAcode: '93587'
+  - Parent:
+    - Label: Rare disorder potentially indicated for kidney transplant
+      ORPHAcode: '506213'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 22772369[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_22772369[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: KIN
   - Synonym: Systemic karyomegaly
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614817'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Karyomegalic interstitial nephritis is a rare genetic renal disease
       characterized by slowly progressive chronic tubulointerstitial nephritis leading
       to end-stage renal disease before the age of 50 years manifesting with mild
@@ -27,36 +53,10 @@ Orphapacket:
       biopsy reveals severe chronic interstitial fibrosis and tubular changes as well
       as hallmark karyomegalic tubular epithelial cells which line the proximal and
       distal tubules and have enlarged hyperchromatic nuclei.
-  Genes:
-  - Gene:
-      Symbol: FAN1
-      Name: FANCD2 and FANCI associated nuclease 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '93587'
-      Label: Familial cystic renal disease
-  - Parent:
-    - ORPHAcode: '506213'
-      Label: Rare disorder potentially indicated for kidney transplant
-  Prevalences:
-  - Prevalence:
-      Source: 22772369[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_22772369[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

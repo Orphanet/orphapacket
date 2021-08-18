@@ -1,38 +1,38 @@
 Orphapacket:
-  ORPHApacketId: '399380'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '399380'
-  Label: Osteonecrosis of genetic origin
-  PURL: http://www.orpha.net/ORDO/Orphanet_399380
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Bone necrosis of genetic origin
-  Parents:
-  - Parent:
-    - ORPHAcode: '183524'
-      Label: Rare genetic bone disease
   Childs:
   - Child:
-      Label: Familial osteochondritis dissecans
-      ORPHAcode: '251262'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '319'
+            Source: HGNC
+          - Reference: '155760'
+            Source: OMIM
           Label: aggrecan
           Symbol: ACAN
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '319'
-          - Source: OMIM
-            Reference: '155760'
+      Label: Familial osteochondritis dissecans
+      ORPHAcode: '251262'
   - Child:
+      Genes: no data
       Label: Avascular necrosis of genetic origin
       ORPHAcode: '399388'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Osteochondrosis of genetic origin
       ORPHAcode: '399391'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Osteonecrosis of genetic origin
+  ORPHAcode: '399380'
+  ORPHApacketId: '399380'
+  PURL: http://www.orpha.net/ORDO/Orphanet_399380
+  Parents:
+  - Parent:
+    - Label: Rare genetic bone disease
+      ORPHAcode: '183524'
+  Synonyms:
+  - Synonym: Bone necrosis of genetic origin
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

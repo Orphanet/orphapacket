@@ -1,21 +1,21 @@
 Orphapacket:
-  ORPHApacketId: '439202'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '439202'
-  Label: Non-recovering obstetric brachial plexus lesion
-  PURL: http://www.orpha.net/ORDO/Orphanet_439202
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Non-recovering obstetric brachial plexus lesion
+  ORPHAcode: '439202'
+  ORPHApacketId: '439202'
+  PURL: http://www.orpha.net/ORDO/Orphanet_439202
+  Parents:
+  - Parent:
+    - Label: Acquired peripheral neuropathy
+      ORPHAcode: '182086'
   Synonyms:
   - Synonym: Chronic obstetric brachial plexus injury
   - Synonym: Chronic obstetric brachial plexus palsy
   - Synonym: Non-recovering OBPI
   - Synonym: Non-recovering OBPL
   TextSection:
-    TextSectionType: Definition
     Contents: A rare acquired peripheral neuropathy characterized by paresis of the
       supraspinatus infraspinatus deltoid and biceps muscles (in C5-C6 injury) wrist
       and finger extensor muscles (C7 injury) or impaired hand function (C8-Th1 injury)
@@ -23,10 +23,10 @@ Orphapacket:
       delivery. The upper trunk of the brachial plexus is most commonly affected while
       isolated injury to the lower trunk is very rare. Potential sequelae of brachial
       plexus injury are muscle atrophy pain sensory deficits and secondary deformities.
-  Parents:
-  - Parent:
-    - ORPHAcode: '182086'
-      Label: Acquired peripheral neuropathy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

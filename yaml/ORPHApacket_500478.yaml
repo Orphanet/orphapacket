@@ -1,43 +1,4 @@
 Orphapacket:
-  ORPHApacketId: '500478'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '500478'
-  Label: Squamous cell carcinoma of the oropharynx
-  PURL: http://www.orpha.net/ORDO/Orphanet_500478
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '275355'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  Genes:
-  - Gene:
-      Symbol: TNFRSF10B
-      Name: TNF receptor superfamily member 10b
-      ExternalReferences: []
-  - Gene:
-      Symbol: PTEN
-      Name: phosphatase and tensin homolog
-      ExternalReferences: []
-  - Gene:
-      Symbol: ING1
-      Name: inhibitor of growth family member 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98061'
-      Label: Rare otorhinolaryngologic tumor
-  Prevalences:
-    Prevalence:
-    - Source: RARECARE surveillance of rare cancers in Europe[REG]_28687376[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '3.12'
-      PrevalenceGeographic: Europe
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -45,3 +6,56 @@ Orphapacket:
       value: Adult
   - AverageAgeOfOnset:
       value: Elderly
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '275355'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: TNF receptor superfamily member 10b
+      Symbol: TNFRSF10B
+  - Gene:
+      ExternalReferences: []
+      Name: phosphatase and tensin homolog
+      Symbol: PTEN
+  - Gene:
+      ExternalReferences: []
+      Name: inhibitor of growth family member 1
+      Symbol: ING1
+  Label: Squamous cell carcinoma of the oropharynx
+  ORPHAcode: '500478'
+  ORPHApacketId: '500478'
+  PURL: http://www.orpha.net/ORDO/Orphanet_500478
+  Parents:
+  - Parent:
+    - Label: Rare otorhinolaryngologic tumor
+      ORPHAcode: '98061'
+  - Parent:
+    - Label: Pediatric head and neck cancer
+      ORPHAcode: '602715'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]_28687376[PMID]
+      ValMoy: '3.12'
+  TextSection:
+    Contents: A rare head and neck tumor characterized by a malignant epithelial neoplasm
+      with evidence of squamous differentiation which may arise in association with
+      high-risk HPV in a subset of cases. HPV-positive tumors have a strong predilection
+      for the base of tongue and the palatine tonsils and typically present at an
+      advanced clinical stage with cervical lymphadenopathy. They are associated with
+      significantly better prognosis than HPV-negative tumors which more commonly
+      involve the soft palate manifest as sore throat and difficulty in swallowing
+      or a neck mass and occur in older patients. Smoking and alcohol consumption
+      are important risk factors.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

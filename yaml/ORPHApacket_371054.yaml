@@ -1,34 +1,34 @@
 Orphapacket:
-  ORPHApacketId: '371054'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '371054'
-  Label: X-linked congenital disorder of glycosylation with intellectual disability
-    as a major feature
-  PURL: http://www.orpha.net/ORDO/Orphanet_371054
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: X-linked CDG with intellectual disability as a major feature
-  Parents:
-  - Parent:
-    - ORPHAcode: '182076'
-      Label: Syndromic neurometabolic disease with X-linked intellectual disability
-  - Parent:
-    - ORPHAcode: '371047'
-      Label: Congenital disorder of glycosylation with neurological involvement
   Childs:
   - Child:
-      Label: SLC35A2-CDG
-      ORPHAcode: '356961'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11022'
+            Source: HGNC
+          - Reference: '314375'
+            Source: OMIM
           Label: solute carrier family 35 member A2
           Symbol: SLC35A2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11022'
-          - Source: OMIM
-            Reference: '314375'
+      Label: SLC35A2-CDG
+      ORPHAcode: '356961'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: X-linked congenital disorder of glycosylation with intellectual disability
+    as a major feature
+  ORPHAcode: '371054'
+  ORPHApacketId: '371054'
+  PURL: http://www.orpha.net/ORDO/Orphanet_371054
+  Parents:
+  - Parent:
+    - Label: Syndromic neurometabolic disease with X-linked intellectual disability
+      ORPHAcode: '182076'
+  - Parent:
+    - Label: Congenital disorder of glycosylation with neurological involvement
+      ORPHAcode: '371047'
+  Synonyms:
+  - Synonym: X-linked CDG with intellectual disability as a major feature
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

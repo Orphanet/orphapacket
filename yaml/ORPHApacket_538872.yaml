@@ -1,46 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '538872'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '538872'
-  Label: Vegetative pyoderma gangrenosum
-  PURL: http://www.orpha.net/ORDO/Orphanet_538872
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: Granulomatous pyoderma gangrenosum
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare subtype of pyoderma gangrenosum disease characterized by a solitary
-      erythematous ulcerated plaque which lacks the violaceous border typically present
-      in classic pyoderma gangrenosum usually affecting individuals who are otherwise
-      healthy. Histologically the lesion presents a central layer containing neutrophilic
-      inflamation surrounded by a palisade of histiocytes which are rimmed by a lymphocytic
-      infiltrate. In comparison with the other variants of pyoderma gangrenosum this
-      subtype usually shows a good response to less aggressive treatments and underlying
-      systemic disorders are less frequently associated. It is considered the most
-      benign and uncommon clinical variant of pyoderma gangrenosum.
-  Parents:
-  - Parent:
-    - ORPHAcode: '48104'
-      Label: Pyoderma gangrenosum
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET_25213386[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_29877043[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Italy
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -50,6 +11,45 @@ Orphapacket:
       value: Childhood
   - AverageAgeOfOnset:
       value: Elderly
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  Label: Vegetative pyoderma gangrenosum
+  ORPHAcode: '538872'
+  ORPHApacketId: '538872'
+  PURL: http://www.orpha.net/ORDO/Orphanet_538872
+  Parents:
+  - Parent:
+    - Label: Pyoderma gangrenosum
+      ORPHAcode: '48104'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_25213386[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Italy
+      PrevalenceQualification: Class only
+      PrevalenceType: Annual incidence
+      Source: ORPHANET_29877043[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Granulomatous pyoderma gangrenosum
+  TextSection:
+    Contents: A rare subtype of pyoderma gangrenosum disease characterized by a solitary
+      erythematous ulcerated plaque which lacks the violaceous border typically present
+      in classic pyoderma gangrenosum usually affecting individuals who are otherwise
+      healthy. Histologically the lesion presents a central layer containing neutrophilic
+      inflamation surrounded by a palisade of histiocytes which are rimmed by a lymphocytic
+      infiltrate. In comparison with the other variants of pyoderma gangrenosum this
+      subtype usually shows a good response to less aggressive treatments and underlying
+      systemic disorders are less frequently associated. It is considered the most
+      benign and uncommon clinical variant of pyoderma gangrenosum.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

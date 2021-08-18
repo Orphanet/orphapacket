@@ -1,24 +1,47 @@
 Orphapacket:
-  ORPHApacketId: '263524'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '263524'
-  Label: Acute necrotizing encephalopathy of childhood
-  PURL: http://www.orpha.net/ORDO/Orphanet_263524
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
+    Reference: '614212'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: carnitine palmitoyltransferase 2
+      Symbol: CPT2
+  - Gene:
+      ExternalReferences: []
+      Name: RAN binding protein 2
+      Symbol: RANBP2
+  Label: Acute necrotizing encephalopathy of childhood
+  ORPHAcode: '263524'
+  ORPHApacketId: '263524'
+  PURL: http://www.orpha.net/ORDO/Orphanet_263524
+  Parents:
+  - Parent:
+    - Label: Infectious encephalitis
+      ORPHAcode: '98252'
+  - Parent:
+    - Label: Disease associated with a genetic susceptibility or tested for a biomarker
+      ORPHAcode: '231957'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: ANEC
   - Synonym: Isolated ANE
   - Synonym: Isolated acute necrotizing encephalopathy
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614212'
-    DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
   TextSection:
-    TextSectionType: Definition
     Contents: A rare neurologic disease characterized by a rapid onset of seizures
       an altered state of consciousness neurologic decline and variable degrees of
       hepatic dysfunction following a respiratory or gastrointesitnal infection (e.g.
@@ -26,33 +49,10 @@ Orphapacket:
       reveals bilateral multiple symmetrical lesions predominantly observed in thalami
       and brainstem but also in periventricular white matter and cerebellum in some
       cases.
-  Genes:
-  - Gene:
-      Symbol: CPT2
-      Name: carnitine palmitoyltransferase 2
-      ExternalReferences: []
-  - Gene:
-      Symbol: RANBP2
-      Name: RAN binding protein 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98252'
-      Label: Infectious encephalitis
-  - Parent:
-    - ORPHAcode: '231957'
-      Label: Disease associated with a genetic susceptibility or tested for a biomarker
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

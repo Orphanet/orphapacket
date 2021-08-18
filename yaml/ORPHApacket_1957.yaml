@@ -1,18 +1,38 @@
 Orphapacket:
-  ORPHApacketId: '1957'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '1957'
-  Label: Esthesioneuroblastoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_1957
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Elderly
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Esthesioneuroblastoma
+  ORPHAcode: '1957'
+  ORPHApacketId: '1957'
+  PURL: http://www.orpha.net/ORDO/Orphanet_1957
+  Parents:
+  - Parent:
+    - Label: Central nervous system embryonal tumor
+      ORPHAcode: '251870'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: Olfactory neuroblastoma
   TextSection:
-    TextSectionType: Definition
     Contents: Esthesioneuroblastoma (ENB) is a rare malignant neoplasm of the sinonasal
       cavity arising from the basal layers of olfactory neuroepithelial cells in the
       superior nasal vault which usually occurs in the 5th to 6th decades of life
@@ -22,30 +42,10 @@ Orphapacket:
       due to orbital extension. With early treatment and in the absence of distant
       metastases ENB appears to have a good prognosis (compared to other superior
       nasal malignancies) despite a high rate of cervical metastases.
-  Parents:
-  - Parent:
-    - ORPHAcode: '251870'
-      Label: Central nervous system embryonal tumor
-  Prevalences:
-  - Prevalence:
-      Source: RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adult
-  - AverageAgeOfOnset:
-      value: Elderly
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

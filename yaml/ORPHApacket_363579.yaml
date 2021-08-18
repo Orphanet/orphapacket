@@ -1,36 +1,39 @@
 Orphapacket:
-  ORPHApacketId: '363579'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '363579'
-  Label: Extragonadal germ cell tumor
-  PURL: http://www.orpha.net/ORDO/Orphanet_363579
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '3399'
-      Label: Germ cell tumor
   Childs:
   - Child:
+      Genes: no data
       Label: Extragonadal non-dysgerminomatous germ cell tumor
       ORPHAcode: '99913'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Extragonadal germinoma
       ORPHAcode: '182127'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Primary germ cell tumor of central nervous system
       ORPHAcode: '251995'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Extragonadal germ cell tumor
+  ORPHAcode: '363579'
+  ORPHApacketId: '363579'
+  PURL: http://www.orpha.net/ORDO/Orphanet_363579
+  Parents:
+  - Parent:
+    - Label: Germ cell tumor
+      ORPHAcode: '3399'
+  - Parent:
+    - Label: Pediatric germ cell cancer
+      ORPHAcode: '602661'
   Prevalences:
     Prevalence:
-    - Source: RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.13'
+    - PrevalenceClass: 1-9 / 1 000 000
       PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: '0.13'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

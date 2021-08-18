@@ -1,68 +1,68 @@
 Orphapacket:
-  ORPHApacketId: '459526'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '459526'
-  Label: Rare genetic capillary malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_459526
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '211240'
-      Label: Genetic vascular anomaly
   Childs:
   - Child:
-      Label: Hereditary hemorrhagic telangiectasia
-      ORPHAcode: '774'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '175'
+            Source: HGNC
+          - Reference: '601284'
+            Source: OMIM
           Label: activin A receptor like type 1
           Symbol: ACVRL1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '175'
-          - Source: OMIM
-            Reference: '601284'
       - Gene:
+          ExternalReferences:
+          - Reference: '6770'
+            Source: HGNC
+          - Reference: '600993'
+            Source: OMIM
           Label: SMAD family member 4
           Symbol: SMAD4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6770'
-          - Source: OMIM
-            Reference: '600993'
       - Gene:
+          ExternalReferences:
+          - Reference: '3349'
+            Source: HGNC
+          - Reference: '131195'
+            Source: OMIM
           Label: endoglin
           Symbol: ENG
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3349'
-          - Source: OMIM
-            Reference: '131195'
       - Gene:
+          ExternalReferences:
+          - Reference: '4217'
+            Source: HGNC
+          - Reference: '605120'
+            Source: OMIM
           Label: growth differentiation factor 2
           Symbol: GDF2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4217'
-          - Source: OMIM
-            Reference: '605120'
+      Label: Hereditary hemorrhagic telangiectasia
+      ORPHAcode: '774'
   - Child:
-      Label: Familial multiple nevi flammei
-      ORPHAcode: '624'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4390'
+            Source: HGNC
+          - Reference: '600998'
+            Source: OMIM
           Label: G protein subunit alpha q
           Symbol: GNAQ
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4390'
-          - Source: OMIM
-            Reference: '600998'
+      Label: Familial multiple nevi flammei
+      ORPHAcode: '624'
   - Child:
+      Genes: no data
       Label: Rare capillary malformation with associated anomalies
       ORPHAcode: '458830'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare genetic capillary malformation
+  ORPHAcode: '459526'
+  ORPHApacketId: '459526'
+  PURL: http://www.orpha.net/ORDO/Orphanet_459526
+  Parents:
+  - Parent:
+    - Label: Genetic vascular anomaly
+      ORPHAcode: '211240'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,19 +1,67 @@
 Orphapacket:
-  ORPHApacketId: '313906'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '313906'
-  Label: Congenital pancreatic cyst
-  PURL: http://www.orpha.net/ORDO/Orphanet_313906
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  Label: Congenital pancreatic cyst
+  ORPHAcode: '313906'
+  ORPHApacketId: '313906'
+  PURL: http://www.orpha.net/ORDO/Orphanet_313906
+  Parents:
+  - Parent:
+    - Label: Rare pancreatic disease
+      ORPHAcode: '101937'
+  - Parent:
+    - Label: Rare disorder potentially indicated for bowel transplant
+      ORPHAcode: '506216'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000952
+      HPOTerm: Jaundice
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001733
+      HPOTerm: Pancreatitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002013
+      HPOTerm: Vomiting
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002027
+      HPOTerm: Abdominal pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002039
+      HPOTerm: Anorexia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003270
+      HPOTerm: Abdominal distention
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 19231513[PMID]_2202976[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: Neonatal congenital pancreatic cyst
   - Synonym: True congenital pancreatic cyst
   TextSection:
-    TextSectionType: Definition
     Contents: A rare pancreatic disease characterized by a most commonly single unilocular
       thin-walled cystic lesion which may be located anywhere within the pancreas
       (but is more frequently found in the body and tail) and does not communicate
@@ -21,58 +69,10 @@ Orphapacket:
       signs and symptoms of gastrointestinal or biliary obstruction or pancreatitis.
       The condition can be isolated or occur in association with other anomalies (such
       as von Hippel-Lindau disease or polycystic kidney disease).
-  Parents:
-  - Parent:
-    - ORPHAcode: '101937'
-      Label: Rare pancreatic disease
-  - Parent:
-    - ORPHAcode: '506216'
-      Label: Rare disorder potentially indicated for bowel transplant
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000952
-      HPOTerm: Jaundice
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001733
-      HPOTerm: Pancreatitis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002013
-      HPOTerm: Vomiting
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002027
-      HPOTerm: Abdominal pain
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002039
-      HPOTerm: Anorexia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003270
-      HPOTerm: Abdominal distention
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-  - Prevalence:
-      Source: 19231513[PMID]_2202976[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Unknown
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

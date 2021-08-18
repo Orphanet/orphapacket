@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "93547",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "93547",
         "Label": "Syndromic renal or urinary tract malformation",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_93547",
@@ -371,7 +371,7 @@
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "T-box 1",
+                                "Label": "T-box transcription factor 1",
                                 "Symbol": "TBX1",
                                 "ExternalReferences": [
                                     {
@@ -387,7 +387,7 @@
                         },
                         {
                             "Gene": {
-                                "Label": "T-box 1",
+                                "Label": "T-box transcription factor 1",
                                 "Symbol": "TBX1",
                                 "ExternalReferences": [
                                     {
@@ -566,10 +566,12 @@
                                 "Symbol": "MRAS",
                                 "ExternalReferences": [
                                     {
-                                        "ExternalReference": {
-                                            "Source": "HGNC",
-                                            "Reference": "7227"
-                                        }
+                                        "Source": "HGNC",
+                                        "Reference": "7227"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "608435"
                                     }
                                 ]
                             }
@@ -580,10 +582,12 @@
                                 "Symbol": "RRAS2",
                                 "ExternalReferences": [
                                     {
-                                        "ExternalReference": {
-                                            "Source": "HGNC",
-                                            "Reference": "17271"
-                                        }
+                                        "Source": "HGNC",
+                                        "Reference": "17271"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600098"
                                     }
                                 ]
                             }
@@ -891,16 +895,16 @@
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "centrosomal protein 55",
-                                "Symbol": "CEP55",
+                                "Label": "thioredoxin domain containing 15",
+                                "Symbol": "TXNDC15",
                                 "ExternalReferences": [
                                     {
-                                        "Source": "OMIM",
-                                        "Reference": "610000"
+                                        "Source": "HGNC",
+                                        "Reference": "20652"
                                     },
                                     {
-                                        "Source": "HGNC",
-                                        "Reference": "1161"
+                                        "Source": "OMIM",
+                                        "Reference": "617778"
                                     }
                                 ]
                             }
@@ -917,6 +921,38 @@
                                     {
                                         "Source": "HGNC",
                                         "Reference": "28128"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "tectonic family member 1",
+                                "Symbol": "TCTN1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "26113"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "609863"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "transmembrane protein 237",
+                                "Symbol": "TMEM237",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "14432"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "614423"
                                     }
                                 ]
                             }
@@ -1035,16 +1071,16 @@
                         },
                         {
                             "Gene": {
-                                "Label": "WD repeat containing planar cell polarity effector",
-                                "Symbol": "WDPCP",
+                                "Label": "tectonic family member 3",
+                                "Symbol": "TCTN3",
                                 "ExternalReferences": [
                                     {
                                         "Source": "HGNC",
-                                        "Reference": "28027"
+                                        "Reference": "24519"
                                     },
                                     {
                                         "Source": "OMIM",
-                                        "Reference": "613580"
+                                        "Reference": "613847"
                                     }
                                 ]
                             }
@@ -1380,7 +1416,7 @@
             },
             {
                 "Child": {
-                    "Label": "Acroosteolysis dominant type",
+                    "Label": "Hajdu-Cheney syndrome",
                     "ORPHAcode": "955",
                     "Genes": [
                         {
@@ -1757,22 +1793,6 @@
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "hepatocyte nuclear factor 4 alpha",
-                                "Symbol": "HNF4A",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "5024"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "600281"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "Gene": {
                                 "Label": "HNF1 homeobox B",
                                 "Symbol": "HNF1B",
                                 "ExternalReferences": [
@@ -1946,6 +1966,37 @@
                             }
                         }
                     ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Menke-Hennekam syndrome",
+                    "ORPHAcode": "592574",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "CREB binding protein",
+                                "Symbol": "CREBBP",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "2348"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600140"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "SETD2-related microcephaly-severe intellectual disability-multiple congenital anomalies syndrome",
+                    "ORPHAcode": "597743",
+                    "Genes": "no data"
                 }
             }
         ]

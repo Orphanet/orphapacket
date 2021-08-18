@@ -1,43 +1,43 @@
 Orphapacket:
-  ORPHApacketId: '220448'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '220448'
-  Label: Macrothrombocytopenia with mitral valve insufficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_220448
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Macrothrombocytopenia with mitral valve insufficiency
+  ORPHAcode: '220448'
+  ORPHApacketId: '220448'
+  PURL: http://www.orpha.net/ORDO/Orphanet_220448
+  Parents:
+  - Parent:
+    - Label: Syndromic constitutional thrombocytopenia
+      ORPHAcode: '477794'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 9482416[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_9482416[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Macrothrombocytopenia with mitral valve insufficiency is a rare hemorrhagic
       disorder due to a platelet anomaly characterized by dysfunctional platelets
       of abnormally large size moderate thrombocytopenia prolonged bleeding time and
       mild bleeding diathesis (ecchymoses and epistaxis) associated with mitral valve
       insufficiency.
-  Parents:
-  - Parent:
-    - ORPHAcode: '477794'
-      Label: Syndromic constitutional thrombocytopenia
-  Prevalences:
-  - Prevalence:
-      Source: 9482416[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_9482416[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

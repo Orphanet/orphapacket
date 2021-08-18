@@ -1,40 +1,40 @@
 Orphapacket:
-  ORPHApacketId: '93424'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '93424'
-  Label: Perlecan-related bone disorder
-  PURL: http://www.orpha.net/ORDO/Orphanet_93424
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '364803'
-      Label: Rare bone disease related to a common gene or pathway defect
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '5273'
+            Source: HGNC
+          - Reference: '142461'
+            Source: OMIM
+          Label: heparan sulfate proteoglycan 2
+          Symbol: HSPG2
       Label: Schwartz-Jampel syndrome
       ORPHAcode: '800'
+  - Child:
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '5273'
+            Source: HGNC
+          - Reference: '142461'
+            Source: OMIM
           Label: heparan sulfate proteoglycan 2
           Symbol: HSPG2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5273'
-          - Source: OMIM
-            Reference: '142461'
-  - Child:
       Label: Dyssegmental dysplasia, Silverman-Handmaker type
       ORPHAcode: '1865'
-      Genes:
-      - Gene:
-          Label: heparan sulfate proteoglycan 2
-          Symbol: HSPG2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5273'
-          - Source: OMIM
-            Reference: '142461'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Perlecan-related bone disorder
+  ORPHAcode: '93424'
+  ORPHApacketId: '93424'
+  PURL: http://www.orpha.net/ORDO/Orphanet_93424
+  Parents:
+  - Parent:
+    - Label: Rare bone disease related to a common gene or pathway defect
+      ORPHAcode: '364803'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

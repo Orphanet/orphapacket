@@ -1,48 +1,48 @@
 Orphapacket:
-  ORPHApacketId: '3427'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3427'
-  Label: Double outlet left ventricle
-  PURL: http://www.orpha.net/ORDO/Orphanet_3427
-  DisorderType:
-    value: Morphological anomaly
-    PURL: http://www.orpha.net/ORDO/Orphanet_377791
-  Synonyms:
-  - Synonym: DOLV
-  TextSection:
-    TextSectionType: Definition
-    Contents: Double-outlet left ventricle (DOLV) is an extremely rare congenital
-      cardiac malformation in which both the aorta and the pulmonary artery arise
-      either exclusively or predominantly from the morphologic left ventricle.
-  Parents:
-  - Parent:
-    - ORPHAcode: '2445'
-      Label: Conotruncal heart malformations
-  Prevalences:
-  - Prevalence:
-      Source: 21106011[PMID]_22644696[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  Label: Double outlet left ventricle
+  ORPHAcode: '3427'
+  ORPHApacketId: '3427'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3427
+  Parents:
+  - Parent:
+    - Label: Conotruncal heart malformations
+      ORPHAcode: '2445'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 21106011[PMID]_22644696[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: DOLV
+  TextSection:
+    Contents: Double-outlet left ventricle (DOLV) is an extremely rare congenital
+      cardiac malformation in which both the aorta and the pulmonary artery arise
+      either exclusively or predominantly from the morphologic left ventricle.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

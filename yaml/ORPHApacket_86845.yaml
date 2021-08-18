@@ -1,24 +1,40 @@
 Orphapacket:
-  ORPHApacketId: '86845'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '86845'
-  Label: Acute myeloid leukaemia with myelodysplasia-related features
-  PURL: http://www.orpha.net/ORDO/Orphanet_86845
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '601626'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: tet methylcytosine dioxygenase 2
+      Symbol: TET2
+  Label: Acute myeloid leukaemia with myelodysplasia-related features
+  ORPHAcode: '86845'
+  ORPHApacketId: '86845'
+  PURL: http://www.orpha.net/ORDO/Orphanet_86845
+  Parents:
+  - Parent:
+    - Label: Acute myeloid leukemia
+      ORPHAcode: '519'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: AML with multilineage dysplasia
   - Synonym: AML with myelodysplasia-related features
   - Synonym: Acute myeloid leukemia with multilineage dysplasia
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '601626'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
   TextSection:
-    TextSectionType: Definition
     Contents: A rare acute myeloid leukemia (AML) characterized by the presence of
       acute leukemia with at least 20% peripheral blood or bone marrow blasts with
       morphological features of myelodysplasia or occurrence in patients with a prior
@@ -28,23 +44,7 @@ Orphapacket:
       Prior cytotoxic or radiation therapy for an unrelated disease must be excluded.
       The condition occurs mainly in elderly patients and is rare in children. Patients
       often present with severe pancytopenia. Prognosis is generally poor.
-  Genes:
-  - Gene:
-      Symbol: TET2
-      Name: tet methylcytosine dioxygenase 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '519'
-      Label: Acute myeloid leukemia
-  Prevalences:
-    Prevalence:
-    - Source: RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

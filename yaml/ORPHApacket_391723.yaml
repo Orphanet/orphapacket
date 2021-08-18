@@ -1,18 +1,23 @@
 Orphapacket:
-  ORPHApacketId: '391723'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '391723'
-  Label: Mucinous adenocarcinoma of the appendix
-  PURL: http://www.orpha.net/ORDO/Orphanet_391723
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Elderly
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Mucinous adenocarcinoma of the appendix
+  ORPHAcode: '391723'
+  ORPHApacketId: '391723'
+  PURL: http://www.orpha.net/ORDO/Orphanet_391723
+  Parents:
+  - Parent:
+    - Label: Epithelial tumor of the appendix
+      ORPHAcode: '423982'
   Synonyms:
   - Synonym: Appendiceal mucinous adenocarcinoma
   TextSection:
-    TextSectionType: Definition
     Contents: Mucinous adenocarcinoma of the appendix is a very rare slow growing
       well-differentiated epithelial neoplasm of the appendix characterized by abundant
       mucin production. Clinically it presents as acute appendicitis (with abdominal
@@ -20,12 +25,7 @@ Orphapacket:
       of mucin within the peritoneal cavity) however some patients may be completely
       asymptomatic at the time of diagnosis. In many cases a second gastrointestinal
       malignancy is present.
-  Parents:
-  - Parent:
-    - ORPHAcode: '423982'
-      Label: Epithelial tumor of the appendix
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adult
-  - AverageAgeOfOnset:
-      value: Elderly
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

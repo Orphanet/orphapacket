@@ -1,23 +1,58 @@
 Orphapacket:
-  ORPHApacketId: '221043'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '221043'
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: adult
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Infancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '615704'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: FAM111 trypsin like peptidase B
+      Symbol: FAM111B
   Label: Hereditary fibrosing poikiloderma-tendon contractures-myopathy-pulmonary
     fibrosis syndrome
+  ORPHAcode: '221043'
+  ORPHApacketId: '221043'
   PURL: http://www.orpha.net/ORDO/Orphanet_221043
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  Parents:
+  - Parent:
+    - Label: Hereditary poikiloderma
+      ORPHAcode: '222628'
+  - Parent:
+    - Label: Genetic interstitial lung disease
+      ORPHAcode: '264992'
+  - Parent:
+    - Label: Non-dystrophic myopathy
+      ORPHAcode: '206656'
+  - Parent:
+    - Label: Primary interstitial lung disease specific to adulthood
+      ORPHAcode: '264740'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 26471370[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_26471370[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: POIKTMP syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '615704'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Hereditary fibrosing poikiloderma-tendon contractures-myopathy-pulmonary
       fibrosis syndrome is a rare genetic hereditary poikiloderma syndrome characterized
       by early-onset poikiloderma (mainly on the face) hypotrichosis hypohidrosis
@@ -26,45 +61,10 @@ Orphapacket:
       Mild lymphedema of the extremities growth retardation liver impairment exocrine
       pancreatic insufficiency and hematologic abnormalities are additional variable
       features.
-  Genes:
-  - Gene:
-      Symbol: FAM111B
-      Name: family with sequence similarity 111 member B
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '222628'
-      Label: Hereditary poikiloderma
-  - Parent:
-    - ORPHAcode: '264992'
-      Label: Genetic interstitial lung disease
-  - Parent:
-    - ORPHAcode: '206656'
-      Label: Non-dystrophic myopathy
-  - Parent:
-    - ORPHAcode: '264740'
-      Label: Primary interstitial lung disease specific to adulthood
-  Prevalences:
-  - Prevalence:
-      Source: 26471370[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_26471370[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

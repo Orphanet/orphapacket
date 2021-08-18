@@ -1,111 +1,109 @@
 Orphapacket:
-  ORPHApacketId: '79234'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79234'
-  Label: Crigler-Najjar syndrome type 1
-  PURL: http://www.orpha.net/ORDO/Orphanet_79234
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '218800'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: UDP glucuronosyltransferase family 1 member A1
+      Symbol: UGT1A1
+  Label: Crigler-Najjar syndrome type 1
+  ORPHAcode: '79234'
+  ORPHApacketId: '79234'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79234
+  Parents:
+  - Parent:
+    - Label: Crigler-Najjar syndrome
+      ORPHAcode: '205'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000365
+      HPOTerm: Hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000750
+      HPOTerm: Delayed speech and language development
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001080
+      HPOTerm: Biliary tract abnormality
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001337
+      HPOTerm: Tremor
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001343
+      HPOTerm: Kernicterus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001392
+      HPOTerm: Abnormality of the liver
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002354
+      HPOTerm: Memory impairment
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003265
+      HPOTerm: Neonatal hyperbilirubinemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006579
+      HPOTerm: Prolonged neonatal jaundice
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008282
+      HPOTerm: Unconjugated hyperbilirubinemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008947
+      HPOTerm: Infantile muscular hypotonia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012246
+      HPOTerm: Oculomotor nerve palsy
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Bilirubin uridinediphosphate glucuronosyltransferase deficiency type
       1
   - Synonym: Bilirubin-UGT deficiency type 1
-  - Synonym: Hereditary unconjugated hyperbilirubinemia type 1
-  - Synonym: UGT deficiency type 1
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '218800'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
+    Contents: A form of Crigler Najjar syndrome (CNS) a hereditary disorder of hepatic
+      bilirubin conjugation characterized by severe neonatal unconjugated hyperbilirubinemia
+      due to a complete absence of hepatic UDP-glucuronosyltransferase 1A1. The disorder
+      clinically manifests with neonatal isolated severe and permanent jaundice with
+      a permanent risk of bilirubin encephalopathy.
     TextSectionType: Definition
-    Contents: A hereditary disorder of hepatic bilirubin conjugation characterized
-      by severe neonatal unconjugated hyperbilirubinemia due to a complete absence
-      of hepatic bilirubin glucuronosyltransferase (BGT).
-  Genes:
-  - Gene:
-      Symbol: UGT1A1
-      Name: UDP glucuronosyltransferase family 1 member A1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '205'
-      Label: Crigler-Najjar syndrome
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000365
-      HPOTerm: Hearing impairment
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000750
-      HPOTerm: Delayed speech and language development
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001080
-      HPOTerm: Biliary tract abnormality
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001250
-      HPOTerm: Seizures
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001337
-      HPOTerm: Tremor
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001343
-      HPOTerm: Kernicterus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001392
-      HPOTerm: Abnormality of the liver
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002354
-      HPOTerm: Memory impairment
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003265
-      HPOTerm: Neonatal hyperbilirubinemia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006579
-      HPOTerm: Prolonged neonatal jaundice
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008282
-      HPOTerm: Unconjugated hyperbilirubinemia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008947
-      HPOTerm: Infantile muscular hypotonia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0012246
-      HPOTerm: Oculomotor nerve palsy
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

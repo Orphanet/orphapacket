@@ -1,80 +1,68 @@
 Orphapacket:
-  ORPHApacketId: '156601'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '156601'
-  Label: Rare genetic hepatic disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_156601
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '98053'
-      Label: Rare genetic disease
   Childs:
   - Child:
-      Label: Transient familial neonatal hyperbilirubinemia
-      ORPHAcode: '2312'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '12530'
+            Source: HGNC
+          - Reference: '191740'
+            Source: OMIM
           Label: UDP glucuronosyltransferase family 1 member A1
           Symbol: UGT1A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12530'
-          - Source: OMIM
-            Reference: '191740'
+      Label: Transient familial neonatal hyperbilirubinemia
+      ORPHAcode: '2312'
   - Child:
-      Label: Hepatic veno-occlusive disease-immunodeficiency syndrome
-      ORPHAcode: '79124'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '5401'
+            Source: HGNC
+          - Reference: '604457'
+            Source: OMIM
           Label: SP110 nuclear body protein
           Symbol: SP110
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5401'
-          - Source: OMIM
-            Reference: '604457'
+      Label: Hepatic veno-occlusive disease-immunodeficiency syndrome
+      ORPHAcode: '79124'
   - Child:
+      Genes: no data
       Label: Rare metabolic liver disease
       ORPHAcode: '101940'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Genetic parenchymatous liver disease
       ORPHAcode: '156604'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Genetic biliary tract disease
       ORPHAcode: '156607'
-      Genes: no data
   - Child:
-      Label: Hyperbiliverdinemia
-      ORPHAcode: '276405'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '109750'
+            Source: OMIM
+          - Reference: '1062'
+            Source: HGNC
           Label: biliverdin reductase A
           Symbol: BLVRA
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '109750'
-          - Source: HGNC
-            Reference: '1062'
+      Label: Hyperbiliverdinemia
+      ORPHAcode: '276405'
   - Child:
+      Genes: no data
       Label: Cholestasis-lymphedema syndrome
       ORPHAcode: '1414'
-      Genes: no data
-  - Child:
-      Label: Early-onset familial noncirrhotic portal hypertension
-      ORPHAcode: '494348'
-      Genes:
-      - Gene:
-          Label: deoxyguanosine kinase
-          Symbol: DGUOK
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2858'
-          - Source: OMIM
-            Reference: '601465'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare genetic hepatic disease
+  ORPHAcode: '156601'
+  ORPHApacketId: '156601'
+  PURL: http://www.orpha.net/ORDO/Orphanet_156601
+  Parents:
+  - Parent:
+    - Label: Rare genetic disease
+      ORPHAcode: '98053'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

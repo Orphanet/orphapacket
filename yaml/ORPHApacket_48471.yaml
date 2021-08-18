@@ -1,98 +1,95 @@
 Orphapacket:
-  ORPHApacketId: '48471'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '48471'
-  Label: Lissencephaly
-  PURL: http://www.orpha.net/ORDO/Orphanet_48471
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  TextSection:
-    TextSectionType: Definition
-    Contents: The term lissencephaly covers a group of rare malformations sharing
-      the common feature of anomalies in the appearance of brain convolutions (characterised
-      by simplification or absence of folding) associated with abnormal organisation
-      of the cortical layers as a result of neuronal migration defects during embryogenesis.
-  Parents:
-  - Parent:
-    - ORPHAcode: '138101'
-      Label: Sucking/swallowing disorder associated with suprabulbar anomalies
-  - Parent:
-    - ORPHAcode: '108991'
-      Label: Syndrome with a central nervous system malformation as a major feature
-  - Parent:
-    - ORPHAcode: '102369'
-      Label: Rare syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '166478'
-      Label: Cerebral malformation with epilepsy
-  - Parent:
-    - ORPHAcode: '183763'
-      Label: Rare genetic syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '269564'
-      Label: Genetic syndrome with a central nervous system malformation as a major
-        feature
-  Childs:
-  - Child:
-      Label: Microlissencephaly
-      ORPHAcode: '1083'
-      Genes:
-      - Gene:
-          Label: nudE neurodevelopment protein 1
-          Symbol: NDE1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '17619'
-          - Source: OMIM
-            Reference: '609449'
-      - Gene:
-          Label: katanin regulatory subunit B1
-          Symbol: KATNB1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6217'
-          - Source: OMIM
-            Reference: '602703'
-  - Child:
-      Label: Cobblestone lissencephaly
-      ORPHAcode: '51577'
-      Genes: no data
-  - Child:
-      Label: Lissencephaly with cerebellar hypoplasia
-      ORPHAcode: '86823'
-      Genes: no data
-  - Child:
-      Label: Classic lissencephaly
-      ORPHAcode: '102009'
-      Genes: no data
-  - Child:
-      Label: Other syndrome with lissencephaly as a major feature
-      ORPHAcode: '102010'
-      Genes: no data
-  - Child:
-      Label: Lissencephaly type 3
-      ORPHAcode: '102011'
-      Genes: no data
-  - Child:
-      Label: Lissencephaly due to TUBA1A mutation
-      ORPHAcode: '171680'
-      Genes:
-      - Gene:
-          Label: tubulin alpha 1a
-          Symbol: TUBA1A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '20766'
-          - Source: OMIM
-            Reference: '602529'
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: young Adult
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: young Adult
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '17619'
+            Source: HGNC
+          - Reference: '609449'
+            Source: OMIM
+          Label: nudE neurodevelopment protein 1
+          Symbol: NDE1
+      - Gene:
+          ExternalReferences:
+          - Reference: '6217'
+            Source: HGNC
+          - Reference: '602703'
+            Source: OMIM
+          Label: katanin regulatory subunit B1
+          Symbol: KATNB1
+      Label: Microlissencephaly
+      ORPHAcode: '1083'
+  - Child:
+      Genes: no data
+      Label: Cobblestone lissencephaly
+      ORPHAcode: '51577'
+  - Child:
+      Genes: no data
+      Label: Lissencephaly with cerebellar hypoplasia
+      ORPHAcode: '86823'
+  - Child:
+      Genes: no data
+      Label: Classic lissencephaly
+      ORPHAcode: '102009'
+  - Child:
+      Genes: no data
+      Label: Other syndrome with lissencephaly as a major feature
+      ORPHAcode: '102010'
+  - Child:
+      Genes: no data
+      Label: Lissencephaly type 3
+      ORPHAcode: '102011'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '20766'
+            Source: HGNC
+          - Reference: '602529'
+            Source: OMIM
+          Label: tubulin alpha 1a
+          Symbol: TUBA1A
+      Label: Lissencephaly due to TUBA1A mutation
+      ORPHAcode: '171680'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Lissencephaly
+  ORPHAcode: '48471'
+  ORPHApacketId: '48471'
+  PURL: http://www.orpha.net/ORDO/Orphanet_48471
+  Parents:
+  - Parent:
+    - Label: Syndrome with a central nervous system malformation as a major feature
+      ORPHAcode: '108991'
+  - Parent:
+    - Label: Rare syndromic intellectual disability
+      ORPHAcode: '102369'
+  - Parent:
+    - Label: Cerebral malformation with epilepsy
+      ORPHAcode: '166478'
+  - Parent:
+    - Label: Rare genetic syndromic intellectual disability
+      ORPHAcode: '183763'
+  - Parent:
+    - Label: Genetic syndrome with a central nervous system malformation as a major
+        feature
+      ORPHAcode: '269564'
+  TextSection:
+    Contents: The term lissencephaly covers a group of rare malformations sharing
+      the common feature of anomalies in the appearance of brain convolutions (characterised
+      by simplification or absence of folding) associated with abnormal organisation
+      of the cortical layers as a result of neuronal migration defects during embryogenesis.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

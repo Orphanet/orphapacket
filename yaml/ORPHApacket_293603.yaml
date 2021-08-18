@@ -1,14 +1,74 @@
 Orphapacket:
-  ORPHApacketId: '293603'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '293603'
-  Label: Congenital hereditary endothelial dystrophy type II
-  PURL: http://www.orpha.net/ORDO/Orphanet_293603
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '217700'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: solute carrier family 4 member 11
+      Symbol: SLC4A11
+  Label: Congenital hereditary endothelial dystrophy type II
+  ORPHAcode: '293603'
+  ORPHApacketId: '293603'
+  PURL: http://www.orpha.net/ORDO/Orphanet_293603
+  Parents:
+  - Parent:
+    - Label: Posterior corneal dystrophy
+      ORPHAcode: '98627'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0031792
+      HPOTerm: Irregular astigmatism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000622
+      HPOTerm: Blurred vision
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011487
+      HPOTerm: Increased corneal thickness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007957
+      HPOTerm: Corneal opacity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011490
+      HPOTerm: Abnormal Descemet membrane morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012040
+      HPOTerm: Corneal stromal edema
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007663
+      HPOTerm: Reduced visual acuity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000407
+      HPOTerm: Sensorineural hearing impairment
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Autosomal recessive CHED
   - Synonym: Autosomal recessive congenital hereditary endothelial dystrophy
@@ -17,38 +77,15 @@ Orphapacket:
   - Synonym: Congenital hereditary endothelial dystrophy type 2
   - Synonym: Infantile hereditary endothelial dystrophy
   - Synonym: Maumenee corneal dystrophy
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '217700'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Congenital hereditary endothelial dystrophy II (CHED II) is a rare subtype
       of posterior corneal dystrophy (see this term) characterized by a diffuse ground-glass
       appearance of the corneas and marked corneal thickening from birth with nystagmus
       and blurred vision.
-  Genes:
-  - Gene:
-      Symbol: SLC4A11
-      Name: solute carrier family 4 member 11
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98627'
-      Label: Posterior corneal dystrophy
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,45 +1,45 @@
 Orphapacket:
-  ORPHApacketId: '309458'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '309458'
-  Label: Disorder of O-N-acetylgalactosaminylglycan synthesis
-  PURL: http://www.orpha.net/ORDO/Orphanet_309458
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '309447'
-      Label: Disorder of protein O-glycosylation
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '3680'
+            Source: HGNC
+          - Reference: '605380'
+            Source: OMIM
+          Label: fibroblast growth factor 23
+          Symbol: FGF23
+      - Gene:
+          ExternalReferences:
+          - Reference: '4125'
+            Source: HGNC
+          - Reference: '601756'
+            Source: OMIM
+          Label: polypeptide N-acetylgalactosaminyltransferase 3
+          Symbol: GALNT3
+      - Gene:
+          ExternalReferences:
+          - Reference: '6344'
+            Source: HGNC
+          - Reference: '604824'
+            Source: OMIM
+          Label: klotho
+          Symbol: KL
       Label: Familial hyperphosphatemic tumoral calcinosis/Hyperphosphatemic hyperostosis
         syndrome
       ORPHAcode: '306661'
-      Genes:
-      - Gene:
-          Label: fibroblast growth factor 23
-          Symbol: FGF23
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3680'
-          - Source: OMIM
-            Reference: '605380'
-      - Gene:
-          Label: polypeptide N-acetylgalactosaminyltransferase 3
-          Symbol: GALNT3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4125'
-          - Source: OMIM
-            Reference: '601756'
-      - Gene:
-          Label: klotho
-          Symbol: KL
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6344'
-          - Source: OMIM
-            Reference: '604824'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Disorder of O-N-acetylgalactosaminylglycan synthesis
+  ORPHAcode: '309458'
+  ORPHApacketId: '309458'
+  PURL: http://www.orpha.net/ORDO/Orphanet_309458
+  Parents:
+  - Parent:
+    - Label: Disorder of protein O-glycosylation
+      ORPHAcode: '309447'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

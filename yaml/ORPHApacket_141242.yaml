@@ -1,14 +1,27 @@
 Orphapacket:
-  ORPHApacketId: '141242'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '141242'
-  Label: Paramedian nasal cleft
-  PURL: http://www.orpha.net/ORDO/Orphanet_141242
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '614687'
+    Source: OMIM
+  Label: Paramedian nasal cleft
+  ORPHAcode: '141242'
+  ORPHApacketId: '141242'
+  PURL: http://www.orpha.net/ORDO/Orphanet_141242
+  Parents:
+  - Parent:
+    - Label: Paramedian facial cleft
+      ORPHAcode: '155867'
   Synonyms:
   - Synonym: Alar cleft
   - Synonym: Alar rim cleft
@@ -16,12 +29,7 @@ Orphapacket:
   - Synonym: Isolated cleft of the ala nasi
   - Synonym: Isolated coloboma of the nose
   - Synonym: Tessier number 1 cleft
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614687'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Paramedian nasal cleft is a rare developmental defect during embryogenesis
       characterized by a unilateral or bilateral coloboma of the nose ranging in severity
       from a small notch resulting in minor deviation of the nasal septum to variable-sized
@@ -29,15 +37,7 @@ Orphapacket:
       in the nasal midline. Defect may be isolated or may occur in association with
       cleft lip and/or other craniofacial anomalies (e.g. hypertelorism broadening
       of nasal root midline cleft). Dorsum and apex of nose are usually well preserved.
-  Parents:
-  - Parent:
-    - ORPHAcode: '155867'
-      Label: Paramedian facial cleft
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Antenatal
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

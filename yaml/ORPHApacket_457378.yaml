@@ -1,62 +1,62 @@
 Orphapacket:
-  ORPHApacketId: '457378'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '457378'
-  Label: Complex lethal osteochondrodysplasia
-  PURL: http://www.orpha.net/ORDO/Orphanet_457378
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: Complex lethal osteochondrodysplasia, Symoens-Barnes-Gistelinck type
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '616897'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare genetic primary bone dysplasia with decreased bone density characterized
-      by fetal lethality severe hypomineralization of the entire skeleton barrel shaped
-      thorax with short ribs multiple intrauterine fractures of ribs and long bones
-      ascites pleural effusion and ventriculomegaly. Variable congenital developmental
-      anomalies affecting the brain lungs and kidneys have also been associated.
-  Genes:
-  - Gene:
-      Symbol: TAPT1
-      Name: transmembrane anterior posterior transformation 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '363250'
-      Label: Ciliopathy
-  - Parent:
-    - ORPHAcode: '93446'
-      Label: Primary bone dysplasia with decreased bone density
-  Prevalences:
-  - Prevalence:
-      Source: 26365339[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_26365339[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Antenatal
   AverageAgeOfDeaths:
   - AverageAgeOfDeath:
       value: no data
   - AverageAgeOfDeath:
       value: no data
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Antenatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '616897'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: transmembrane anterior posterior transformation 1
+      Symbol: TAPT1
+  Label: Complex lethal osteochondrodysplasia
+  ORPHAcode: '457378'
+  ORPHApacketId: '457378'
+  PURL: http://www.orpha.net/ORDO/Orphanet_457378
+  Parents:
+  - Parent:
+    - Label: Ciliopathy
+      ORPHAcode: '363250'
+  - Parent:
+    - Label: Primary bone dysplasia with decreased bone density
+      ORPHAcode: '93446'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 26365339[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_26365339[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Complex lethal osteochondrodysplasia, Symoens-Barnes-Gistelinck type
+  TextSection:
+    Contents: A rare genetic primary bone dysplasia with decreased bone density characterized
+      by fetal lethality severe hypomineralization of the entire skeleton barrel shaped
+      thorax with short ribs multiple intrauterine fractures of ribs and long bones
+      ascites pleural effusion and ventriculomegaly. Variable congenital developmental
+      anomalies affecting the brain lungs and kidneys have also been associated.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

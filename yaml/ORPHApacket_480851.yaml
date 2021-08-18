@@ -1,20 +1,46 @@
 Orphapacket:
-  ORPHApacketId: '480851'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '480851'
-  Label: Hereditary thrombocytopenia with early-onset myelofibrosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_480851
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '616937'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: SRC proto-oncogene, non-receptor tyrosine kinase
+      Symbol: SRC
+  Label: Hereditary thrombocytopenia with early-onset myelofibrosis
+  ORPHAcode: '480851'
+  ORPHApacketId: '480851'
+  PURL: http://www.orpha.net/ORDO/Orphanet_480851
+  Parents:
+  - Parent:
+    - Label: Myeloproliferative neoplasm
+      ORPHAcode: '98274'
+  - Parent:
+    - Label: Syndromic constitutional thrombocytopenia
+      ORPHAcode: '477794'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 26936507[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_26936507[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: A rare syndromic constitutional thrombocytopenia characterized by thrombocytopenia
       with increased bleeding tendency (leading to epistaxis menorrhagia and petechiae)
       in combination with myelofibrosis and splenomegaly. Platelets may be abnormally
@@ -23,36 +49,10 @@ Orphapacket:
       manifestations have been described in some patients including mild bone abnormalities
       and facial dysmorphism with large forehead hypertelorism deep-set eyes and wide
       nostrils.
-  Genes:
-  - Gene:
-      Symbol: SRC
-      Name: SRC proto-oncogene, non-receptor tyrosine kinase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98274'
-      Label: Myeloproliferative neoplasm
-  - Parent:
-    - ORPHAcode: '477794'
-      Label: Syndromic constitutional thrombocytopenia
-  Prevalences:
-  - Prevalence:
-      Source: 26936507[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_26936507[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

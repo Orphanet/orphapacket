@@ -1,16 +1,35 @@
 Orphapacket:
-  ORPHApacketId: '168940'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '168940'
-  Label: Chronic eosinophilic leukemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_168940
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: factor interacting with PAPOLA and CPSF1
+      Symbol: FIP1L1
+  - Gene:
+      ExternalReferences: []
+      Name: platelet derived growth factor receptor alpha
+      Symbol: PDGFRA
+  Label: Chronic eosinophilic leukemia
+  ORPHAcode: '168940'
+  ORPHApacketId: '168940'
+  PURL: http://www.orpha.net/ORDO/Orphanet_168940
+  Parents:
+  - Parent:
+    - Label: Myeloproliferative neoplasm
+      ORPHAcode: '98274'
+  - Parent:
+    - Label: Pediatric myeloid cancer
+      ORPHAcode: '602665'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare myeloproliferative neoplasm characterized by a clonal proliferation
       of eosinophilic precursors with persistent increase of eosinophils in peripheral
       blood and bone marrow accompanied by increased blasts (<20%) or clonal cytogenetic
@@ -21,23 +40,7 @@ Orphapacket:
       signs and symptoms of organ involvement such as endomyocardial fibrosis peripheral
       neuropathy central nervous system manifestations respiratory symptoms or rheumatological
       findings. Acute transformation is common.
-  Genes:
-  - Gene:
-      Symbol: FIP1L1
-      Name: factor interacting with PAPOLA and CPSF1
-      ExternalReferences: []
-  - Gene:
-      Symbol: PDGFRA
-      Name: platelet derived growth factor receptor alpha
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98274'
-      Label: Myeloproliferative neoplasm
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adolescent
-  - AverageAgeOfOnset:
-      value: Adult
-  - AverageAgeOfOnset:
-      value: Childhood
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

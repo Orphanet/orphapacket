@@ -1,16 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '251589'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '251589'
-  Label: Anaplastic astrocytoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_251589
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: isocitrate dehydrogenase (NADP(+)) 2
+      Symbol: IDH2
+  Label: Anaplastic astrocytoma
+  ORPHAcode: '251589'
+  ORPHApacketId: '251589'
+  PURL: http://www.orpha.net/ORDO/Orphanet_251589
+  Parents:
+  - Parent:
+    - Label: High-grade astrocytoma
+      ORPHAcode: '251561'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: Central Brain Tumor registry of the United States 2010-2014[REG]_29117289[PMID]
+      ValMoy: '0.4'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare high-grade malignant glial tumor histologically characterized
       by abundance of pleomorphic astrocytes and multiple mitotic figures often associated
       with diffuse infiltration of the surrounding tissue considerable edema and mass
@@ -19,26 +35,10 @@ Orphapacket:
       pressure (headache vomiting papilledema) seizures progressive neurological deficits
       and/or behavioral changes. The tumor is most commonly localized in the frontal
       and temporal lobes brain stem and spinal cord.
-  Genes:
-  - Gene:
-      Symbol: IDH2
-      Name: isocitrate dehydrogenase (NADP(+)) 2, mitochondrial
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '251561'
-      Label: High-grade astrocytoma
-  Prevalences:
-    Prevalence:
-    - Source: Central Brain Tumor registry of the United States 2010-2014[REG]_29117289[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.4'
-      PrevalenceGeographic: United States
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

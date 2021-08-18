@@ -1,109 +1,107 @@
 Orphapacket:
-  ORPHApacketId: '171851'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '171851'
-  Label: MEDNIK syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_171851
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '609313'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: adaptor related protein complex 1 subunit beta 1
+      Symbol: AP1B1
+  - Gene:
+      ExternalReferences: []
+      Name: adaptor related protein complex 1 subunit sigma 1
+      Symbol: AP1S1
+  Label: MEDNIK syndrome
+  ORPHAcode: '171851'
+  ORPHApacketId: '171851'
+  PURL: http://www.orpha.net/ORDO/Orphanet_171851
+  Parents:
+  - Parent:
+    - Label: Syndromic genetic deafness
+      ORPHAcode: '90642'
+  - Parent:
+    - Label: Genetic erythrokeratoderma
+      ORPHAcode: '183438'
+  - Parent:
+    - Label: Rare genetic syndromic intellectual disability
+      ORPHAcode: '183763'
+  - Parent:
+    - Label: Disorder of copper metabolism
+      ORPHAcode: '309839'
+  - Parent:
+    - Label: Autosomal ichthyosis syndrome with prominent neurologic signs
+      ORPHAcode: '281238'
+  - Parent:
+    - Label: Erythrokeratoderma
+      ORPHAcode: '79355'
+  - Parent:
+    - Label: Rare syndromic intellectual disability
+      ORPHAcode: '102369'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000962
+      HPOTerm: Hyperkeratosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002242
+      HPOTerm: Abnormal intestine morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008064
+      HPOTerm: Ichthyosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009830
+      HPOTerm: Peripheral neuropathy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001406
+      HPOTerm: Intrahepatic cholestasis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010837
+      HPOTerm: Decreased serum ceruloplasmin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011967
+      HPOTerm: Decreased circulating copper concentration
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 23423674[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_23423674[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Intellectual disability-enteropathy-deafness-peripheral neuropathy-ichthyosis-keratodermia
       syndrome
   - Synonym: Intellectual disability-enteropathy-hearing loss-peripheral neuropathy-ichthyosis-keratodermia
       syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '609313'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
+    Contents: A rare disorder of copper metabolism characterized by intellectual deficit
+      enteropathy sensorineural hearing loss peripheral neuropathy lamellar and erythrodermic
+      ichthyosis and keratodermia.
     TextSectionType: Definition
-    Contents: MEDNIK syndrome previously known as Erythrokeratodermia Variabilis type
-      3 (EKV3) is characterized by intellectual deficit enteropathy sensorineural
-      hearing loss peripheral neuropathy lamellar and erythrodermic ichthyosis and
-      keratodermia (MEDNIK stands for Mental retardation Enteropathy Deafness peripheral
-      Neuropathy Ichtyosis Keratodermia).
-  Genes:
-  - Gene:
-      Symbol: AP1B1
-      Name: adaptor related protein complex 1 subunit beta 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: AP1S1
-      Name: adaptor related protein complex 1 subunit sigma 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '90642'
-      Label: Syndromic genetic deafness
-  - Parent:
-    - ORPHAcode: '183438'
-      Label: Genetic erythrokeratoderma
-  - Parent:
-    - ORPHAcode: '183763'
-      Label: Rare genetic syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '309839'
-      Label: Disorder of copper metabolism
-  - Parent:
-    - ORPHAcode: '281238'
-      Label: Autosomal ichthyosis syndrome with prominent neurologic signs
-  - Parent:
-    - ORPHAcode: '79355'
-      Label: Erythrokeratoderma
-  - Parent:
-    - ORPHAcode: '102369'
-      Label: Rare syndromic intellectual disability
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000962
-      HPOTerm: Hyperkeratosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002242
-      HPOTerm: Abnormal intestine morphology
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008064
-      HPOTerm: Ichthyosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0009830
-      HPOTerm: Peripheral neuropathy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001406
-      HPOTerm: Intrahepatic cholestasis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0010837
-      HPOTerm: Decreased serum ceruloplasmin
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0011967
-      HPOTerm: Decreased circulating copper concentration
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 23423674[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_23423674[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

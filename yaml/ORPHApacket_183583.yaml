@@ -1,80 +1,76 @@
 Orphapacket:
-  ORPHApacketId: '183583'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '183583'
-  Label: Genetic head and neck malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_183583
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '183530'
-      Label: Rare genetic developmental defect during embryogenesis
   Childs:
   - Child:
+      Genes: no data
       Label: Orofacial clefting syndrome
       ORPHAcode: '139039'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Isolated hereditary congenital facial paralysis
       ORPHAcode: '306527'
-      Genes: no data
   - Child:
-      Label: Congenital hereditary facial paralysis-variable hearing loss syndrome
-      ORPHAcode: '306530'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '5111'
+            Source: HGNC
+          - Reference: '142968'
+            Source: OMIM
           Label: homeobox B1
           Symbol: HOXB1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5111'
-          - Source: OMIM
-            Reference: '142968'
+      Label: Congenital hereditary facial paralysis-variable hearing loss syndrome
+      ORPHAcode: '306530'
   - Child:
-      Label: Familial median cleft of the upper and lower lips
-      ORPHAcode: '401942'
       Genes: no data
-  - Child:
       Label: Genetic facial cleft
       ORPHAcode: '414726'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Genetic otorhinolaryngological malformation
       ORPHAcode: '435603'
-      Genes: no data
   - Child:
-      Label: Isolated Pierre Robin syndrome
-      ORPHAcode: '718'
       Genes:
       - Gene:
-          Label: SRY-box 9
-          Symbol: SOX9
           ExternalReferences:
-          - Source: HGNC
-            Reference: '11204'
-          - Source: OMIM
-            Reference: '608160'
+          - Reference: '11204'
+            Source: HGNC
+          - Reference: '608160'
+            Source: OMIM
+          Label: SRY-box transcription factor 9
+          Symbol: SOX9
+      Label: Isolated Pierre Robin syndrome
+      ORPHAcode: '718'
   - Child:
+      Genes: no data
       Label: Otomandibular dysplasia
       ORPHAcode: '155896'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Macroglossia
       ORPHAcode: '156207'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Hypoglossia/aglossia
       ORPHAcode: '156212'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Paralytic facial malformation
       ORPHAcode: '156224'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Syndrome or malformation associated with head and neck malformations
       ORPHAcode: '156237'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Genetic head and neck malformation
+  ORPHAcode: '183583'
+  ORPHApacketId: '183583'
+  PURL: http://www.orpha.net/ORDO/Orphanet_183583
+  Parents:
+  - Parent:
+    - Label: Rare genetic developmental defect during embryogenesis
+      ORPHAcode: '183530'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

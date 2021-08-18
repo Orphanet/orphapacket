@@ -1,58 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '93583'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '93583'
-  Label: Congenital thrombotic thrombocytopenic purpura
-  PURL: http://www.orpha.net/ORDO/Orphanet_93583
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: Congenital ADAMTS-13 deficiency
-  - Synonym: Congenital TTP
-  - Synonym: Familial TTP
-  - Synonym: Upshaw-Schulman syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '274150'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A hereditary form of thrombotic thrombocytopenic purpura (TTP) characterized
-      by profound peripheral thrombocytopenia microangiopathic hemolytic anemia (MAHA)
-      and single or multiple organ failure of variable severity.
-  Genes:
-  - Gene:
-      Symbol: ADAMTS13
-      Name: ADAM metallopeptidase with thrombospondin type 1 motif 13
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '54057'
-      Label: Thrombotic thrombocytopenic purpura
-  - Parent:
-    - ORPHAcode: '183654'
-      Label: Rare genetic coagulation disorder
-  - Parent:
-    - ORPHAcode: '183589'
-      Label: Genetic thrombotic microangiopathy
-  Prevalences:
-  - Prevalence:
-      Source: '[EXPERT]_19847791[PMID]'
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: '[EXPERT]_ORPHANET'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adult
@@ -62,9 +11,67 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '274150'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ADAM metallopeptidase with thrombospondin type 1 motif 13
+      Symbol: ADAMTS13
+  Label: Congenital thrombotic thrombocytopenic purpura
+  ORPHAcode: '93583'
+  ORPHApacketId: '93583'
+  PURL: http://www.orpha.net/ORDO/Orphanet_93583
+  Parents:
+  - Parent:
+    - Label: Thrombotic thrombocytopenic purpura
+      ORPHAcode: '54057'
+  - Parent:
+    - Label: Rare genetic coagulation disorder
+      ORPHAcode: '183654'
+  - Parent:
+    - Label: Genetic thrombotic microangiopathy
+      ORPHAcode: '183589'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Annual incidence
+      Source: '[EXPERT]_19847791[PMID]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]_ORPHANET'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: PMID:30792199
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Congenital ADAMTS-13 deficiency
+  - Synonym: Congenital TTP
+  - Synonym: Familial TTP
+  - Synonym: Upshaw-Schulman syndrome
+  TextSection:
+    Contents: A hereditary form of thrombotic thrombocytopenic purpura (TTP) characterized
+      by profound peripheral thrombocytopenia microangiopathic hemolytic anemia (MAHA)
+      and single or multiple organ failure of variable severity.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

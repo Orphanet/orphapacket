@@ -1,61 +1,4 @@
 Orphapacket:
-  ORPHApacketId: '65283'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '65283'
-  Label: Timothy syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_65283
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: LQT8
-  - Synonym: Long QT syndrome type 8
-  - Synonym: Long QT syndrome-syndactyly syndrome
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '618447'
-      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '601005'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare multiple congenital anomalies syndrome with cardiac involvement
-      as a major feature characterized by QT prolongation congenital heart defects
-      syndactyly facial dysmorphism and neurodevelopmental features. There three clinical
-      phenotypes recognized the classical types that present with a prolonged QT interval
-      and either with (TS1) or without (TS2) cutaneous syndactyly of fingers and toes.
-      The atypical form (ATS) causes multi-system health concerns but not necessarily
-      with prolonged QT.
-  Genes:
-  - Gene:
-      Symbol: CACNA1C
-      Name: calcium voltage-gated channel subunit alpha1 C
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '768'
-      Label: Familial long QT syndrome
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
@@ -63,6 +6,87 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '1390'
+            Source: HGNC
+          - Reference: '114205'
+            Source: OMIM
+          Label: calcium voltage-gated channel subunit alpha1 C
+          Symbol: CACNA1C
+      Label: Timothy syndrome type 1
+      ORPHAcode: '595098'
+  - Child:
+      Genes: no data
+      Label: Timothy syndrome type 2
+      ORPHAcode: '595105'
+  - Child:
+      Genes: no data
+      Label: Atypical Timothy syndrome
+      ORPHAcode: '595109'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
+        Term)
+      Reference: '618447'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '601005'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: calcium voltage-gated channel subunit alpha1 C
+      Symbol: CACNA1C
+  Label: Timothy syndrome
+  ORPHAcode: '65283'
+  ORPHApacketId: '65283'
+  PURL: http://www.orpha.net/ORDO/Orphanet_65283
+  Parents:
+  - Parent:
+    - Label: Familial long QT syndrome
+      ORPHAcode: '768'
+  - Parent:
+    - Label: Rare disease with autism
+      ORPHAcode: '180772'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: LQT8
+  - Synonym: Long QT syndrome type 8
+  - Synonym: Long QT syndrome-syndactyly syndrome
+  TextSection:
+    Contents: A rare multiple congenital anomalies syndrome with cardiac involvement
+      as a major feature characterized by QT prolongation congenital heart defects
+      syndactyly facial dysmorphism and neurodevelopmental features. There are three
+      clinical phenotypes recognized the classical types that present with a prolonged
+      QT interval and either with (TS1) or without (TS2) cutaneous syndactyly of fingers
+      and toes. The atypical form (ATS) causes multi-system health concerns but not
+      necessarily with prolonged QT.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

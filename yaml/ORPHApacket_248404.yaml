@@ -1,68 +1,68 @@
 Orphapacket:
-  ORPHApacketId: '248404'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '248404'
-  Label: Rare thrombotic disorder due to an acquired platelet anomaly
-  PURL: http://www.orpha.net/ORDO/Orphanet_248404
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '248368'
-      Label: Rare thrombotic disorder due to a platelet anomaly
   Childs:
   - Child:
-      Label: Essential thrombocythemia
-      ORPHAcode: '3318'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '25941'
+            Source: HGNC
+          - Reference: '612839'
+            Source: OMIM
           Label: tet methylcytosine dioxygenase 2
           Symbol: TET2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '25941'
-          - Source: OMIM
-            Reference: '612839'
       - Gene:
+          ExternalReferences:
+          - Reference: '6192'
+            Source: HGNC
+          - Reference: '147796'
+            Source: OMIM
           Label: Janus kinase 2
           Symbol: JAK2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6192'
-          - Source: OMIM
-            Reference: '147796'
       - Gene:
+          ExternalReferences:
+          - Reference: '7217'
+            Source: HGNC
+          - Reference: '159530'
+            Source: OMIM
           Label: MPL proto-oncogene, thrombopoietin receptor
           Symbol: MPL
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7217'
-          - Source: OMIM
-            Reference: '159530'
       - Gene:
+          ExternalReferences:
+          - Reference: '1455'
+            Source: HGNC
+          - Reference: '109091'
+            Source: OMIM
           Label: calreticulin
           Symbol: CALR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1455'
-          - Source: OMIM
-            Reference: '109091'
       - Gene:
+          ExternalReferences:
+          - Reference: '29605'
+            Source: HGNC
+          - Reference: '605093'
+            Source: OMIM
           Label: SH2B adaptor protein 3
           Symbol: SH2B3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '29605'
-          - Source: OMIM
-            Reference: '605093'
       - Gene:
+          ExternalReferences:
+          - Reference: '11998'
+            Source: HGNC
+          - Reference: '191170'
+            Source: OMIM
           Label: tumor protein p53
           Symbol: TP53
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11998'
-          - Source: OMIM
-            Reference: '191170'
+      Label: Essential thrombocythemia
+      ORPHAcode: '3318'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare thrombotic disorder due to an acquired platelet anomaly
+  ORPHAcode: '248404'
+  ORPHApacketId: '248404'
+  PURL: http://www.orpha.net/ORDO/Orphanet_248404
+  Parents:
+  - Parent:
+    - Label: Rare thrombotic disorder due to a platelet anomaly
+      ORPHAcode: '248368'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

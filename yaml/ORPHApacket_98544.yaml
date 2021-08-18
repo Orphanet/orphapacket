@@ -1,108 +1,108 @@
 Orphapacket:
-  ORPHApacketId: '98544'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98544'
-  Label: Cerebral lipidosis with dementia
-  PURL: http://www.orpha.net/ORDO/Orphanet_98544
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '98543'
-      Label: Metabolic disease with dementia
   Childs:
   - Child:
-      Label: Gaucher disease type 1
-      ORPHAcode: '77259'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4177'
+            Source: HGNC
+          - Reference: '606463'
+            Source: OMIM
           Label: glucosylceramidase beta
           Symbol: GBA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4177'
-          - Source: OMIM
-            Reference: '606463'
       - Gene:
+          ExternalReferences:
+          - Reference: '1665'
+            Source: HGNC
+          - Reference: '602257'
+            Source: OMIM
           Label: scavenger receptor class B member 2
           Symbol: SCARB2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1665'
-          - Source: OMIM
-            Reference: '602257'
+      Label: Gaucher disease type 1
+      ORPHAcode: '77259'
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '4177'
+            Source: HGNC
+          - Reference: '606463'
+            Source: OMIM
+          Label: glucosylceramidase beta
+          Symbol: GBA
       Label: Gaucher disease type 2
       ORPHAcode: '77260'
+  - Child:
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4177'
+            Source: HGNC
+          - Reference: '606463'
+            Source: OMIM
           Label: glucosylceramidase beta
           Symbol: GBA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4177'
-          - Source: OMIM
-            Reference: '606463'
-  - Child:
       Label: Gaucher disease type 3
       ORPHAcode: '77261'
-      Genes:
-      - Gene:
-          Label: glucosylceramidase beta
-          Symbol: GBA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4177'
-          - Source: OMIM
-            Reference: '606463'
   - Child:
+      Genes: no data
       Label: Adult neuronal ceroid lipofuscinosis
       ORPHAcode: '79262'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Infantile neuronal ceroid lipofuscinosis
       ORPHAcode: '79263'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Juvenile neuronal ceroid lipofuscinosis
       ORPHAcode: '79264'
-      Genes: no data
   - Child:
-      Label: Adult Krabbe disease
-      ORPHAcode: '206448'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4115'
+            Source: HGNC
+          - Reference: '606890'
+            Source: OMIM
           Label: galactosylceramidase
           Symbol: GALC
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4115'
-          - Source: OMIM
-            Reference: '606890'
+      Label: Adult Krabbe disease
+      ORPHAcode: '206448'
   - Child:
+      Genes: no data
       Label: Sandhoff disease
       ORPHAcode: '796'
-      Genes: no data
   - Child:
-      Label: Cerebrotendinous xanthomatosis
-      ORPHAcode: '909'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2605'
+            Source: HGNC
+          - Reference: '606530'
+            Source: OMIM
           Label: cytochrome P450 family 27 subfamily A member 1
           Symbol: CYP27A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2605'
-          - Source: OMIM
-            Reference: '606530'
+      Label: Cerebrotendinous xanthomatosis
+      ORPHAcode: '909'
   - Child:
+      Genes: no data
       Label: Niemann-Pick disease type C
       ORPHAcode: '646'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Tay-Sachs disease
       ORPHAcode: '845'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Cerebral lipidosis with dementia
+  ORPHAcode: '98544'
+  ORPHApacketId: '98544'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98544
+  Parents:
+  - Parent:
+    - Label: Metabolic disease with dementia
+      ORPHAcode: '98543'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

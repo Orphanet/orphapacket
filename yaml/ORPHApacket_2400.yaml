@@ -1,84 +1,84 @@
 Orphapacket:
-  ORPHApacketId: '2400'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2400'
-  Label: Peripheral motor neuropathy-dysautonomia syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_2400
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '252320'
+    Source: OMIM
+  Label: Peripheral motor neuropathy-dysautonomia syndrome
+  ORPHAcode: '2400'
+  ORPHApacketId: '2400'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2400
+  Parents:
+  - Parent:
+    - Label: Primary orthostatic hypotension
+      ORPHAcode: '182058'
+  - Parent:
+    - Label: Genetic primary orthostatic hypotension
+      ORPHAcode: '448426'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000975
+      HPOTerm: Hyperhidrosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001063
+      HPOTerm: Acrocyanosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001265
+      HPOTerm: Hyporeflexia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001387
+      HPOTerm: Joint stiffness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002571
+      HPOTerm: Achalasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003202
+      HPOTerm: Skeletal muscle atrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003457
+      HPOTerm: EMG abnormality
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 7282784[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_7282784[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Lisker-Garcia-Ramos syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '252320'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Peripheral motor neuropathy-dysautonomia syndrome is characterised by
       distal slowly progressive muscular weakness childhood-onset amyotrophy autonomic
       dysfunction characterized by profuse sweating distal cyanosis related to cold
       weather orthostatic hypotension and esophageal achalasia. It has been described
       in two sisters. Inheritance appears to be autosomal recessive.
-  Parents:
-  - Parent:
-    - ORPHAcode: '182058'
-      Label: Primary orthostatic hypotension
-  - Parent:
-    - ORPHAcode: '448426'
-      Label: Genetic primary orthostatic hypotension
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000975
-      HPOTerm: Hyperhidrosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001063
-      HPOTerm: Acrocyanosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001265
-      HPOTerm: Hyporeflexia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001387
-      HPOTerm: Joint stiffness
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002571
-      HPOTerm: Achalasia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003202
-      HPOTerm: Skeletal muscle atrophy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003457
-      HPOTerm: EMG abnormality
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 7282784[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_7282784[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Unknown
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

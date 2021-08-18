@@ -1,18 +1,23 @@
 Orphapacket:
-  ORPHApacketId: '458792'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '458792'
-  Label: Mixed cystic lymphatic malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_458792
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Label: Mixed cystic lymphatic malformation
+  ORPHAcode: '458792'
+  ORPHApacketId: '458792'
+  PURL: http://www.orpha.net/ORDO/Orphanet_458792
+  Parents:
+  - Parent:
+    - Label: Common cystic lymphatic malformation
+      ORPHAcode: '458833'
   Synonyms:
   - Synonym: Mixed cystic lymphangioma
   TextSection:
-    TextSectionType: Definition
     Contents: A rare common cystic lymphatic malformation characterized by a benign
       cystic lesion composed of dilated lymphatic channels. Mixed cystic lesions consist
       of cysts both larger (macrocystic) and smaller (microcystic) than 1 cm in diameter.
@@ -20,15 +25,10 @@ Orphapacket:
       occur in the head and neck region but may affect any site. Symptoms depend on
       the location and extent of the lesion. Infection trauma or intracystic hemorrhage
       can lead to lesional expansion. Malignant transformation does not occur.
-  Parents:
-  - Parent:
-    - ORPHAcode: '458833'
-      Label: Common cystic lymphatic malformation
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

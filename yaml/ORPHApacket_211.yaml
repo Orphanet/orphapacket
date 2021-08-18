@@ -1,38 +1,38 @@
 Orphapacket:
-  ORPHApacketId: '211'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '211'
-  Label: Familial cylindromatosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_211
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: Turban tumor syndrome
+    value: Clinical subtype
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '132700'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
   Genes:
   - Gene:
-      Symbol: CYLD
-      Name: CYLD lysine 63 deubiquitinase
       ExternalReferences: []
+      Name: CYLD lysine 63 deubiquitinase
+      Symbol: CYLD
+  Label: Familial cylindromatosis
+  ORPHAcode: '211'
+  ORPHApacketId: '211'
+  PURL: http://www.orpha.net/ORDO/Orphanet_211
   Parents:
   - Parent:
-    - ORPHAcode: '79493'
-      Label: Brooke-Spiegler syndrome
+    - Label: Brooke-Spiegler syndrome
+      ORPHAcode: '79493'
   Phenotypes:
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001482
       HPOTerm: Subcutaneous nodule
-      HPOFrequency: Very frequent (99-80%)
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0100585
       HPOTerm: Telangiectasia of the skin
-      HPOFrequency: Very frequent (99-80%)
+  Synonyms:
+  - Synonym: Turban tumor syndrome
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,32 +1,41 @@
 Orphapacket:
-  ORPHApacketId: '498228'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '498228'
-  Label: Phyllodes tumor of the prostate
-  PURL: http://www.orpha.net/ORDO/Orphanet_498228
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Cystic epithelial-stromal tumors of the prostate
-  - Synonym: Cystosarcoma phyllodes of the prostate
-  - Synonym: Phyllodes type of atypical prostatic hyperplasia
-  Parents:
-  - Parent:
-    - ORPHAcode: '98058'
-      Label: Rare urinary tract tumor
-  Prevalences:
-    Prevalence:
-    - Source: 25210561[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: '90.0'
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adult
   - AverageAgeOfOnset:
       value: Elderly
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Phyllodes tumor of the prostate
+  ORPHAcode: '498228'
+  ORPHApacketId: '498228'
+  PURL: http://www.orpha.net/ORDO/Orphanet_498228
+  Parents:
+  - Parent:
+    - Label: Rare urinary tract tumor
+      ORPHAcode: '98058'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 25210561[PMID]
+      ValMoy: '90.0'
+  Synonyms:
+  - Synonym: Cystic epithelial-stromal tumors of the prostate
+  - Synonym: Cystosarcoma phyllodes of the prostate
+  - Synonym: Phyllodes type of atypical prostatic hyperplasia
+  TextSection:
+    Contents: A rare urogenital tumor characterized by stromal and epithelial components
+      forming cysts lined by hyperplastic epithelium in a cellular or sarcomatoid
+      stroma. The tumors may be clinically benign or malignant and tend to recur after
+      transurethral resection. Metastatic spread is to lungs bone and liver. Patients
+      may present with obstructive voiding symptoms dysuria hematuria urinary retention
+      or a palpable abdominal mass. The prostate is palpably enlarged but feels soft
+      and spongy.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

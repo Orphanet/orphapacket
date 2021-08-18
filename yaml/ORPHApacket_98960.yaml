@@ -1,14 +1,86 @@
 Orphapacket:
-  ORPHApacketId: '98960'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98960'
-  Label: Thiel-Behnke corneal dystrophy
-  PURL: http://www.orpha.net/ORDO/Orphanet_98960
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '602082'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: transforming growth factor beta induced
+      Symbol: TGFBI
+  Label: Thiel-Behnke corneal dystrophy
+  ORPHAcode: '98960'
+  ORPHApacketId: '98960'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98960
+  Parents:
+  - Parent:
+    - Label: Genetic superficial corneal dystrophy
+      ORPHAcode: '522562'
+  - Parent:
+    - Label: Superficial corneal dystrophy
+      ORPHAcode: '98625'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007881
+      HPOTerm: Central corneal dystrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007924
+      HPOTerm: Slow decrease in visual acuity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008039
+      HPOTerm: Subepithelial corneal opacities
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000495
+      HPOTerm: Recurrent corneal erosions
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000613
+      HPOTerm: Photophobia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007759
+      HPOTerm: Opacification of the corneal stroma
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0032148
+      HPOTerm: Episodic pain
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0200026
+      HPOTerm: Ocular pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000483
+      HPOTerm: Astigmatism
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: Anterior limiting membrane dystrophy type 2
   - Synonym: Anterior limiting membrane dystrophy type II
@@ -18,49 +90,14 @@ Orphapacket:
   - Synonym: Honeycomb corneal dystrophy
   - Synonym: TBCD
   - Synonym: Waardenburg-Jonker corneal dystrophy
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '602082'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Thiel-Behnke corneal dystrophy (TBCD) is a rare form of superficial
       corneal dystrophy characterized by sub-epithelial honeycomb-shaped corneal opacities
       in the superficial cornea and progressive visual impairment.
-  Genes:
-  - Gene:
-      Symbol: TGFBI
-      Name: transforming growth factor beta induced
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '522562'
-      Label: Genetic superficial corneal dystrophy
-  - Parent:
-    - ORPHAcode: '98625'
-      Label: Superficial corneal dystrophy
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adolescent
-  - AverageAgeOfOnset:
-      value: Adult
-  - AverageAgeOfOnset:
-      value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

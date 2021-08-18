@@ -1,80 +1,80 @@
 Orphapacket:
-  ORPHApacketId: '2523'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2523'
-  Label: Microcephaly-brain defect-spasticity-hypernatremia syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_2523
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Label: Microcephaly-brain defect-spasticity-hypernatremia syndrome
+  ORPHAcode: '2523'
+  ORPHApacketId: '2523'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2523
+  Parents:
+  - Parent:
+    - Label: Syndrome with microcephaly as a major feature
+      ORPHAcode: '269528'
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
+  - Parent:
+    - Label: Rare genetic syndromic intellectual disability
+      ORPHAcode: '183763'
+  - Parent:
+    - Label: Rare syndromic intellectual disability
+      ORPHAcode: '102369'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000252
+      HPOTerm: Microcephaly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001257
+      HPOTerm: Spasticity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001360
+      HPOTerm: Holoprosencephaly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001939
+      HPOTerm: Abnormality of metabolism/homeostasis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002120
+      HPOTerm: Cerebral cortical atrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100543
+      HPOTerm: Cognitive impairment
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 3784440[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_3784440[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Franek-Bocker-Kahlen syndrome
   TextSection:
-    TextSectionType: Definition
     Contents: Microcephaly-brain defect-spasticity-hypernatremia syndrome is a rare
       congenital genetic syndrome with a central nervous system malformation as a
       major feature characterized by microcephaly hypertonia developmental delay and
       cognitive impairment swallowing difficulty hypernatremia and hypoplasia of the
       frontal parts and fusion of the lateral ventricles on brain MRI. There have
       been no further descriptions in the literature since 1986.
-  Parents:
-  - Parent:
-    - ORPHAcode: '269528'
-      Label: Syndrome with microcephaly as a major feature
-  - Parent:
-    - ORPHAcode: '102283'
-      Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-  - Parent:
-    - ORPHAcode: '183763'
-      Label: Rare genetic syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '102369'
-      Label: Rare syndromic intellectual disability
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000252
-      HPOTerm: Microcephaly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001257
-      HPOTerm: Spasticity
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001360
-      HPOTerm: Holoprosencephaly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001939
-      HPOTerm: Abnormality of metabolism/homeostasis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002120
-      HPOTerm: Cerebral cortical atrophy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100543
-      HPOTerm: Cognitive impairment
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 3784440[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_3784440[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

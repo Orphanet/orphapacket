@@ -1,110 +1,110 @@
 Orphapacket:
-  ORPHApacketId: '2978'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2978'
-  Label: Chronic intestinal pseudoobstruction
-  PURL: http://www.orpha.net/ORDO/Orphanet_2978
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '3754'
+            Source: HGNC
+          - Reference: '300017'
+            Source: OMIM
+          Label: filamin A
+          Symbol: FLNA
+      Label: Neuronal intestinal pseudoobstruction
+      ORPHAcode: '99811'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '145'
+            Source: HGNC
+          - Reference: '102545'
+            Source: OMIM
+          Label: actin gamma 2, smooth muscle
+          Symbol: ACTG2
+      Label: Myopathic intestinal pseudoobstruction
+      ORPHAcode: '104077'
+  - Child:
+      Genes: no data
+      Label: Unclassified intestinal pseudoobstruction
+      ORPHAcode: '104078'
   DisorderType:
-    value: Clinical syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377792
-  Synonyms:
-  - Synonym: CIPO
+    value: Clinical syndrome
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
       Reference: '243180'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
-  - ExternalReference:
-      Source: OMIM
       Reference: '300048'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
-  - ExternalReference:
-      Source: OMIM
       Reference: '601223'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
       Source: OMIM
-      Reference: '609629'
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
+      Reference: '609629'
+      Source: OMIM
+  Label: Chronic intestinal pseudoobstruction
+  ORPHAcode: '2978'
+  ORPHApacketId: '2978'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2978
+  Parents:
+  - Parent:
+    - Label: Rare disease involving intestinal motility
+      ORPHAcode: '104009'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001643
+      HPOTerm: Patent ductus arteriosus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002021
+      HPOTerm: Pyloric stenosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002242
+      HPOTerm: Abnormal intestine morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002566
+      HPOTerm: Intestinal malrotation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011875
+      HPOTerm: Abnormal platelet morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012639
+      HPOTerm: Abnormality of nervous system morphology
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: CIPO
   TextSection:
-    TextSectionType: Definition
     Contents: Chronic intestinal pseudo-obstruction (CIPO) is a rare gastrointestinal
       motility disorder characterized by recurring episodes resembling mechanical
       obstruction in the absence of organic systemic or metabolic disorders and without
       any physical obstruction being detected by X-ray or during surgery. CIPO develops
       predominantly in children and may be present at birth.
-  Parents:
-  - Parent:
-    - ORPHAcode: '104009'
-      Label: Rare disease involving intestinal motility
-  Childs:
-  - Child:
-      Label: Neuronal intestinal pseudoobstruction
-      ORPHAcode: '99811'
-      Genes:
-      - Gene:
-          Label: filamin A
-          Symbol: FLNA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3754'
-          - Source: OMIM
-            Reference: '300017'
-  - Child:
-      Label: Myopathic intestinal pseudoobstruction
-      ORPHAcode: '104077'
-      Genes:
-      - Gene:
-          Label: actin gamma 2, smooth muscle
-          Symbol: ACTG2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '145'
-          - Source: OMIM
-            Reference: '102545'
-  - Child:
-      Label: Unclassified intestinal pseudoobstruction
-      ORPHAcode: '104078'
-      Genes: no data
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001643
-      HPOTerm: Patent ductus arteriosus
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002021
-      HPOTerm: Pyloric stenosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002242
-      HPOTerm: Abnormal intestine morphology
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002566
-      HPOTerm: Intestinal malrotation
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0011875
-      HPOTerm: Abnormal platelet morphology
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0012639
-      HPOTerm: Abnormality of nervous system morphology
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

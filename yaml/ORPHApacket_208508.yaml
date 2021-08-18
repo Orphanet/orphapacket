@@ -1,35 +1,35 @@
 Orphapacket:
-  ORPHApacketId: '208508'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '208508'
-  Label: Autosomal dominant cerebellar ataxia type II
-  PURL: http://www.orpha.net/ORDO/Orphanet_208508
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '10560'
+            Source: HGNC
+          - Reference: '607640'
+            Source: OMIM
+          Label: ataxin 7
+          Symbol: ATXN7
+      Label: Spinocerebellar ataxia type 7
+      ORPHAcode: '94147'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Autosomal dominant cerebellar ataxia type II
+  ORPHAcode: '208508'
+  ORPHApacketId: '208508'
+  PURL: http://www.orpha.net/ORDO/Orphanet_208508
+  Parents:
+  - Parent:
+    - Label: Autosomal dominant cerebellar ataxia
+      ORPHAcode: '99'
   Synonyms:
   - Synonym: ADCA2
   - Synonym: ADCAII
   - Synonym: Autosomal dominant cerebellar ataxia type 2
-  Parents:
-  - Parent:
-    - ORPHAcode: '99'
-      Label: Autosomal dominant cerebellar ataxia
-  Childs:
-  - Child:
-      Label: Spinocerebellar ataxia type 7
-      ORPHAcode: '94147'
-      Genes:
-      - Gene:
-          Label: ataxin 7
-          Symbol: ATXN7
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10560'
-          - Source: OMIM
-            Reference: '607640'
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

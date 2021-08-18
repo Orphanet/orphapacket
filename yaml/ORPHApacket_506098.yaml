@@ -1,14 +1,15 @@
 Orphapacket:
-  ORPHApacketId: '506098'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '506098'
-  Label: Neuroendocrine carcinoma of pancreas
-  PURL: http://www.orpha.net/ORDO/Orphanet_506098
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Neuroendocrine carcinoma of pancreas
+  ORPHAcode: '506098'
+  ORPHApacketId: '506098'
+  PURL: http://www.orpha.net/ORDO/Orphanet_506098
+  Parents:
+  - Parent:
+    - Label: Neuroendocrine neoplasm of pancreas
+      ORPHAcode: '506052'
   Synonyms:
   - Synonym: Pancreatic NEC
   - Synonym: Pancreatic neuroendocrine carcinoma
@@ -17,7 +18,6 @@ Orphapacket:
   - Synonym: Poorly-differentiated pancreatic NEN
   - Synonym: Poorly-differentiated pancreatic neuroendocrine neoplasm
   TextSection:
-    TextSectionType: Definition
     Contents: A rare neuroendocrine neoplasm of pancreas characterized by a high-grade
       malignant epithelial tumor with neuroendocrine differentiation. Based on histopathologic
       appearance a small cell (composed of diffuse sheets of cells) and a large cell
@@ -26,7 +26,7 @@ Orphapacket:
       index is typically very high (>60 - 80%). Patients present with back pain jaundice
       and/or non-specific abdominal symptoms. Serum hormone activity is unusual. The
       tumor is highly aggressive with poor prognosis.
-  Parents:
-  - Parent:
-    - ORPHAcode: '506052'
-      Label: Neuroendocrine neoplasm of pancreas
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

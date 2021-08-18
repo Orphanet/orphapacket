@@ -1,56 +1,56 @@
 Orphapacket:
-  ORPHApacketId: '319189'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '319189'
-  Label: Familial cortical myoclonus
-  PURL: http://www.orpha.net/ORDO/Orphanet_319189
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '614937'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: nucleolar protein 3
+      Symbol: NOL3
+  Label: Familial cortical myoclonus
+  ORPHAcode: '319189'
+  ORPHApacketId: '319189'
+  PURL: http://www.orpha.net/ORDO/Orphanet_319189
+  Parents:
+  - Parent:
+    - Label: Primary myoclonus
+      ORPHAcode: '306750'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 2292685[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_2292685[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Familial cortical myoclonus is a rare genetic movement disorder characterized
       by autosomal dominant adult-onset slowly progressive multifocal cortical myoclonus.
       Patients present somatosensory-evoked brief jerky involuntary movements in the
       face arms and legs associated in most cases with sustained multiple sudden falls
       without loss of consciousness. Seizures or other neurological deficits aside
       from mild cerebellar ataxia late in the course of the illness are absent.
-  Genes:
-  - Gene:
-      Symbol: NOL3
-      Name: nucleolar protein 3
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '306750'
-      Label: Primary myoclonus
-  Prevalences:
-  - Prevalence:
-      Source: 2292685[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_2292685[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

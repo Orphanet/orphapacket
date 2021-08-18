@@ -1,67 +1,67 @@
 Orphapacket:
-  ORPHApacketId: '319547'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '319547'
-  Label: Mendelian susceptibility to mycobacterial diseases due to complete IFNgammaR2
-    deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_319547
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: MSMD due to complete IFNgammaR2 deficiency
-  - Synonym: MSMD due to complete interferon gamma receptor 2 deficiency
-  - Synonym: Mendelian susceptibility to mycobacterial diseases due to complete interferon
-      gamma receptor 2 deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614889'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Mendelian susceptibily to mycobacterial diseases (MSMD) due to complete
-      interferon gamma receptor 2 (IFN-gammaR2) deficiency is a genetic variant of
-      MSMD (see this term) characterized by a complete deficiency in IFN-gammaR2 leading
-      to an undetectable response to IFN-gamma and consequently to severe and often
-      fatal infections with bacillus Calmette-Guérin (BCG) and other environmental
-      mycobacteria (EM).
-  Genes:
-  - Gene:
-      Symbol: IFNGR2
-      Name: interferon gamma receptor 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '319535'
-      Label: Autosomal recessive mendelian susceptibility to mycobacterial diseases
-        due to a complete deficiency
-  Prevalences:
-  - Prevalence:
-      Source: 25453225[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_25453225[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
   AverageAgeOfDeaths:
   - AverageAgeOfDeath:
       value: Infancy
   - AverageAgeOfDeath:
       value: Neonatal
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '614889'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: interferon gamma receptor 2
+      Symbol: IFNGR2
+  Label: Mendelian susceptibility to mycobacterial diseases due to complete IFNgammaR2
+    deficiency
+  ORPHAcode: '319547'
+  ORPHApacketId: '319547'
+  PURL: http://www.orpha.net/ORDO/Orphanet_319547
+  Parents:
+  - Parent:
+    - Label: Autosomal recessive mendelian susceptibility to mycobacterial diseases
+        due to a complete deficiency
+      ORPHAcode: '319535'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 25453225[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_25453225[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: MSMD due to complete IFNgammaR2 deficiency
+  - Synonym: MSMD due to complete interferon gamma receptor 2 deficiency
+  - Synonym: Mendelian susceptibility to mycobacterial diseases due to complete interferon
+      gamma receptor 2 deficiency
+  TextSection:
+    Contents: "Mendelian susceptibily to mycobacterial diseases (MSMD) due to complete\
+      \ interferon gamma receptor 2 (IFN-gammaR2) deficiency is a genetic variant\
+      \ of MSMD (see this term) characterized by a complete deficiency in IFN-gammaR2\
+      \ leading to an undetectable response to IFN-gamma and consequently to severe\
+      \ and often fatal infections with bacillus Calmette-Gu\xE9rin (BCG) and other\
+      \ environmental mycobacteria (EM)."
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

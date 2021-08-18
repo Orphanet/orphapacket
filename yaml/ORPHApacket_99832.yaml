@@ -1,119 +1,151 @@
 Orphapacket:
-  ORPHApacketId: '99832'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99832'
-  Label: Resistance to thyrotropin-releasing hormone syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_99832
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Infancy
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '618573'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: thyrotropin releasing hormone receptor
+      Symbol: TRHR
+  Label: Resistance to thyrotropin-releasing hormone syndrome
+  ORPHAcode: '99832'
+  ORPHApacketId: '99832'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99832
+  Parents:
+  - Parent:
+    - Label: Central congenital hypothyroidism
+      ORPHAcode: '226298'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000707
+      HPOTerm: Abnormality of the nervous system
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000716
+      HPOTerm: Depressivity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000870
+      HPOTerm: Increased circulating prolactin concentration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000958
+      HPOTerm: Dry skin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001254
+      HPOTerm: Lethargy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001510
+      HPOTerm: Growth delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001609
+      HPOTerm: Hoarse voice
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002750
+      HPOTerm: Delayed skeletal maturation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005990
+      HPOTerm: Thyroid hypoplasia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006579
+      HPOTerm: Prolonged neonatal jaundice
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008202
+      HPOTerm: Reduced circulating prolactin concentration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008245
+      HPOTerm: Pituitary hypothyroidism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012758
+      HPOTerm: Neurodevelopmental delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0025483
+      HPOTerm: Abnormal circulating thyroglobulin level
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0025502
+      HPOTerm: Overweight
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0031219
+      HPOTerm: Reduced radioactive iodine uptake
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0031507
+      HPOTerm: Decreased circulating thyroxine level
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0032210
+      HPOTerm: Decreased circulating free T3
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0000853
+      HPOTerm: Goiter
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0002925
+      HPOTerm: Increased thyroid-stimulating hormone level
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0011437
+      HPOTerm: Maternal autoimmune disease
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0030057
+      HPOTerm: Autoimmune antibody positivity
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 19213692[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: 19213692[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Central hypothyroidism due to TRH receptor deficiency
   - Synonym: TRH resistance syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '618573'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Resistance to thyrotropin-releasing hormone (TRH) syndrome is a type
       of central congenital hypothyroidism (see this term) characterized by low levels
       of thyroid hormones due to insufficient release of thyroid-stimulating hormone
       (TSH) caused by pituitary resistance to TRH. It may or may not be observed from
       birth.
-  Genes:
-  - Gene:
-      Symbol: TRHR
-      Name: thyrotropin releasing hormone receptor
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '226298'
-      Label: Central congenital hypothyroidism
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000158
-      HPOTerm: Macroglossia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000239
-      HPOTerm: Large fontanelles
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000271
-      HPOTerm: Abnormality of the face
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000280
-      HPOTerm: Coarse facial features
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000821
-      HPOTerm: Hypothyroidism
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001252
-      HPOTerm: Muscular hypotonia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001263
-      HPOTerm: Global developmental delay
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001290
-      HPOTerm: Generalized hypotonia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001510
-      HPOTerm: Growth delay
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001537
-      HPOTerm: Umbilical hernia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002019
-      HPOTerm: Constipation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002360
-      HPOTerm: Sleep disturbance
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0004491
-      HPOTerm: Large posterior fontanelle
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006579
-      HPOTerm: Prolonged neonatal jaundice
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0011968
-      HPOTerm: Feeding difficulties
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 19213692[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: 19213692[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

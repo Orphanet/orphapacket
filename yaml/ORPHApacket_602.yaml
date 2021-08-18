@@ -1,14 +1,182 @@
 Orphapacket:
-  ORPHApacketId: '602'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '602'
-  Label: GNE myopathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_602
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '605820'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '617158'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: glucosamine (UDP-N-acetyl)-2-epimerase/N-acetylmannosamine kinase
+      Symbol: GNE
+  Label: GNE myopathy
+  ORPHAcode: '602'
+  ORPHApacketId: '602'
+  PURL: http://www.orpha.net/ORDO/Orphanet_602
+  Parents:
+  - Parent:
+    - Label: Autosomal recessive distal myopathy
+      ORPHAcode: '206653'
+  - Parent:
+    - Label: Inclusion myopathy
+      ORPHAcode: '206662'
+  - Parent:
+    - Label: Congenital disorder of glycosylation with neurological involvement
+      ORPHAcode: '371047'
+  - Parent:
+    - Label: Qualitative or quantitative defects of glucosamine (UDP-N-acetyl)-2-epimerase/N-acetylmannosamine
+        kinase -
+      ORPHAcode: '209203'
+  - Parent:
+    - Label: Syndromic constitutional thrombocytopenia
+      ORPHAcode: '477794'
+  - Parent:
+    - Label: Disorder of multiple glycosylation
+      ORPHAcode: '309526'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003805
+      HPOTerm: Rimmed vacuoles
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007340
+      HPOTerm: Lower limb muscle weakness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008180
+      HPOTerm: Mildly elevated creatine kinase
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008963
+      HPOTerm: Tibialis muscle weakness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009027
+      HPOTerm: Foot dorsiflexor weakness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012548
+      HPOTerm: Fatty replacement of skeletal muscle
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100299
+      HPOTerm: Muscle fiber inclusion bodies
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000821
+      HPOTerm: Hypothyroidism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003376
+      HPOTerm: Steppage gait
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003438
+      HPOTerm: Absent Achilles reflex
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003458
+      HPOTerm: 'EMG: myopathic abnormalities'
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003547
+      HPOTerm: Shoulder girdle muscle weakness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003557
+      HPOTerm: Increased variability in muscle fiber diameter
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006251
+      HPOTerm: Limited wrist extension
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006467
+      HPOTerm: Limited shoulder movement
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012515
+      HPOTerm: Hip flexor weakness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030007
+      HPOTerm: 'EMG: positive sharp waves'
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100284
+      HPOTerm: 'EMG: myotonic discharges'
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001324
+      HPOTerm: Muscle weakness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001436
+      HPOTerm: Abnormality of the foot musculature
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003691
+      HPOTerm: Scapular winging
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003724
+      HPOTerm: Shoulder girdle muscle atrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007210
+      HPOTerm: Lower limb amyotrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010628
+      HPOTerm: Facial palsy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0040047
+      HPOTerm: Abnormality of the right hemidiaphragm
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001638
+      HPOTerm: Cardiomyopathy
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0009077
+      HPOTerm: Weakness of long finger extensor muscles
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0003731
+      HPOTerm: Quadriceps muscle weakness
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 25002140[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 6-9 / 10 000
+      PrevalenceGeographic: Specific population
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 12743242[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: DMRV
   - Synonym: Distal myopathy with rimmed vacuoles
@@ -19,185 +187,17 @@ Orphapacket:
   - Synonym: Inclusion body myopathy type 2
   - Synonym: Nonaka myopathy
   - Synonym: Quadriceps-sparing myopathy
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '605820'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '617158'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
   TextSection:
-    TextSectionType: Definition
     Contents: GNE myopathy is a rare autosomal recessive distal myopathy characterized
       by early adult-onset slowly to moderately progressive distal muscle weakness
       that preferentially affects the tibialis anterior muscle and that usually spares
       the quadriceps femoris. Muscle biopsy reveals presence of rimmed vacuoles.
-  Genes:
-  - Gene:
-      Symbol: GNE
-      Name: glucosamine (UDP-N-acetyl)-2-epimerase/N-acetylmannosamine kinase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '206653'
-      Label: Autosomal recessive distal myopathy
-  - Parent:
-    - ORPHAcode: '206662'
-      Label: Inclusion myopathy
-  - Parent:
-    - ORPHAcode: '371047'
-      Label: Congenital disorder of glycosylation with neurological involvement
-  - Parent:
-    - ORPHAcode: '209203'
-      Label: Qualitative or quantitative defects of glucosamine (UDP-N-acetyl)-2-epimerase/N-acetylmannosamine
-        kinase -
-  - Parent:
-    - ORPHAcode: '477794'
-      Label: Syndromic constitutional thrombocytopenia
-  - Parent:
-    - ORPHAcode: '309526'
-      Label: Disorder of multiple glycosylation
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0003805
-      HPOTerm: Rimmed vacuoles
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007340
-      HPOTerm: Lower limb muscle weakness
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008180
-      HPOTerm: Mildly elevated creatine phosphokinase
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008963
-      HPOTerm: Tibialis muscle weakness
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0009027
-      HPOTerm: Foot dorsiflexor weakness
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0012548
-      HPOTerm: Fatty replacement of skeletal muscle
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100299
-      HPOTerm: Muscle fiber inclusion bodies
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000821
-      HPOTerm: Hypothyroidism
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003376
-      HPOTerm: Steppage gait
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003438
-      HPOTerm: Absent Achilles reflex
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003458
-      HPOTerm: 'EMG: myopathic abnormalities'
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003547
-      HPOTerm: Shoulder girdle muscle weakness
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003557
-      HPOTerm: Increased variability in muscle fiber diameter
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0006251
-      HPOTerm: Limited wrist extension
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0006467
-      HPOTerm: Limited shoulder movement
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012515
-      HPOTerm: Hip flexor weakness
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0030007
-      HPOTerm: 'EMG: positive sharp waves'
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0100284
-      HPOTerm: 'EMG: myotonic discharges'
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001324
-      HPOTerm: Muscle weakness
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001436
-      HPOTerm: Abnormality of the foot musculature
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003691
-      HPOTerm: Scapular winging
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003724
-      HPOTerm: Shoulder girdle muscle atrophy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0007210
-      HPOTerm: Lower limb amyotrophy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0010628
-      HPOTerm: Facial palsy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0040047
-      HPOTerm: Abnormality of the right hemidiaphragm
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001638
-      HPOTerm: Cardiomyopathy
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0009077
-      HPOTerm: Weakness of long finger extensor muscles
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0003731
-      HPOTerm: Quadriceps muscle weakness
-      HPOFrequency: Excluded (0%)
-  Prevalences:
-  - Prevalence:
-      Source: 25002140[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: 12743242[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 6-9 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Specific population
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adolescent
-  - AverageAgeOfOnset:
-      value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

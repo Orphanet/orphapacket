@@ -1,57 +1,57 @@
 Orphapacket:
-  ORPHApacketId: '97337'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '97337'
-  Label: Sinding-Larsen-Johansson disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_97337
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Aseptic necrosis of patella
-  - Synonym: Osteochondrosis of patella
-  TextSection:
-    TextSectionType: Definition
-    Contents: Sinding-Larsen-Johansson disease is a type of osteochondrosis affecting
-      the attachment of the patellar tendon to the patella and characterised by tenderness
-      and localized swelling of the patella.
-  Parents:
-  - Parent:
-    - ORPHAcode: '399319'
-      Label: Osteochondrosis
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0030839
-      HPOTerm: Knee pain
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001386
-      HPOTerm: Joint swelling
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0010501
-      HPOTerm: Limitation of knee mobility
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0040188
-      HPOTerm: Osteochondrosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002661
-      HPOTerm: Painless fractures due to injury
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
   - AverageAgeOfOnset:
       value: Childhood
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Sinding-Larsen-Johansson disease
+  ORPHAcode: '97337'
+  ORPHApacketId: '97337'
+  PURL: http://www.orpha.net/ORDO/Orphanet_97337
+  Parents:
+  - Parent:
+    - Label: Osteochondrosis
+      ORPHAcode: '399319'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0030839
+      HPOTerm: Knee pain
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001386
+      HPOTerm: Joint swelling
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010501
+      HPOTerm: Limitation of knee mobility
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0040188
+      HPOTerm: Osteochondrosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002661
+      HPOTerm: Painless fractures due to injury
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: Aseptic necrosis of patella
+  - Synonym: Osteochondrosis of patella
+  TextSection:
+    Contents: Sinding-Larsen-Johansson disease is a type of osteochondrosis affecting
+      the attachment of the patellar tendon to the patella and characterised by tenderness
+      and localized swelling of the patella.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

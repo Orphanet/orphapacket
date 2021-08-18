@@ -1,30 +1,30 @@
 Orphapacket:
-  ORPHApacketId: '308487'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '308487'
-  Label: Generalized galactose epimerase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_308487
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '230350'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: UDP-galactose-4-epimerase
+      Symbol: GALE
+  Label: Generalized galactose epimerase deficiency
+  ORPHAcode: '308487'
+  ORPHApacketId: '308487'
+  PURL: http://www.orpha.net/ORDO/Orphanet_308487
+  Parents:
+  - Parent:
+    - Label: Galactose epimerase deficiency
+      ORPHAcode: '79238'
   Synonyms:
   - Synonym: Generalized GALE deficiency
   - Synonym: Generalized GALE-D
   - Synonym: Generalized UDP-galactose-4-epimerase deficiency
   - Synonym: Generalized epimerase deficiency galactosemia
   - Synonym: Generalized uridine diphosphate galactose-4-epimerase deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '230350'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  Genes:
-  - Gene:
-      Symbol: GALE
-      Name: UDP-galactose-4-epimerase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79238'
-      Label: Galactose epimerase deficiency
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "264740",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "264740",
         "Label": "Primary interstitial lung disease specific to adulthood",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_264740",
@@ -95,7 +95,24 @@
                 "Child": {
                     "Label": "Autoimmune pulmonary alveolar proteinosis",
                     "ORPHAcode": "747",
-                    "Genes": "no data"
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "major histocompatibility complex, class II, DR beta 1",
+                                "Symbol": "HLA-DRB1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "4948"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "142857"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -133,7 +150,7 @@
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "family with sequence similarity 111 member B",
+                                "Label": "FAM111 trypsin like peptidase B",
                                 "Symbol": "FAM111B",
                                 "ExternalReferences": [
                                     {

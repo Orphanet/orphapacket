@@ -1,30 +1,30 @@
 Orphapacket:
-  ORPHApacketId: '562538'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '562538'
-  Label: Autosomal recessive extra-oral halitosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_562538
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '618148'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: selenium binding protein 1
+      Symbol: SELENBP1
+  Label: Autosomal recessive extra-oral halitosis
+  ORPHAcode: '562538'
+  ORPHApacketId: '562538'
+  PURL: http://www.orpha.net/ORDO/Orphanet_562538
+  Parents:
+  - Parent:
+    - Label: Disorder of methionine cycle and sulfur amino acid metabolism
+      ORPHAcode: '79173'
   Synonyms:
   - Synonym: MTO-deficiency
   - Synonym: Methanethiol oxidase deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '618148'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: SELENBP1
-      Name: selenium binding protein 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79173'
-      Label: Disorder of methionine cycle and sulfur amino acid metabolism
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

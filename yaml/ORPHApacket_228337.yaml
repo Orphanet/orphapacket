@@ -1,38 +1,4 @@
 Orphapacket:
-  ORPHApacketId: '228337'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '228337'
-  Label: CLN10 disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_228337
-  DisorderType:
-    value: Etiological subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377795
-  Synonyms:
-  - Synonym: Cathepsin D deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '610127'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: CTSD
-      Name: cathepsin D
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79262'
-      Label: Adult neuronal ceroid lipofuscinosis
-  - Parent:
-    - ORPHAcode: '79264'
-      Label: Juvenile neuronal ceroid lipofuscinosis
-  - Parent:
-    - ORPHAcode: '168486'
-      Label: Congenital neuronal ceroid lipofuscinosis
-  - Parent:
-    - ORPHAcode: '168491'
-      Label: Late infantile neuronal ceroid lipofuscinosis
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -42,6 +8,40 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377795
+    value: Etiological subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '610127'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: cathepsin D
+      Symbol: CTSD
+  Label: CLN10 disease
+  ORPHAcode: '228337'
+  ORPHApacketId: '228337'
+  PURL: http://www.orpha.net/ORDO/Orphanet_228337
+  Parents:
+  - Parent:
+    - Label: Adult neuronal ceroid lipofuscinosis
+      ORPHAcode: '79262'
+  - Parent:
+    - Label: Juvenile neuronal ceroid lipofuscinosis
+      ORPHAcode: '79264'
+  - Parent:
+    - Label: Congenital neuronal ceroid lipofuscinosis
+      ORPHAcode: '168486'
+  - Parent:
+    - Label: Late infantile neuronal ceroid lipofuscinosis
+      ORPHAcode: '168491'
+  Synonyms:
+  - Synonym: Cathepsin D deficiency
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

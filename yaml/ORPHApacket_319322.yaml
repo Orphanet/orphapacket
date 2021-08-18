@@ -1,16 +1,26 @@
 Orphapacket:
-  ORPHApacketId: '319322'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '319322'
-  Label: Mucinous tubular and spindle cell renal carcinoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_319322
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Elderly
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Mucinous tubular and spindle cell renal carcinoma
+  ORPHAcode: '319322'
+  ORPHApacketId: '319322'
+  PURL: http://www.orpha.net/ORDO/Orphanet_319322
+  Parents:
+  - Parent:
+    - Label: Renal cell carcinoma
+      ORPHAcode: '217071'
+  - Parent:
+    - Label: Pediatric renal cancer
+      ORPHAcode: '602683'
   TextSection:
-    TextSectionType: Definition
     Contents: Mucinous tubular and spindle cell renal carcinoma is a rare subtype
       of renal cell carcinoma characterized histologically by tubular architecture
       and sheets of spindle cells embedded in a mucinous/myxoid stroma and macroscopically
@@ -20,14 +30,7 @@ Orphapacket:
       present abdominal/flank pain adbominal mass and/or hematuria however most are
       asymptomatic and tumor is discovered incidentally. Indolent behavior is frequent
       and association with nephrolithiasis and end-stage kidney disease has been noted.
-  Parents:
-  - Parent:
-    - ORPHAcode: '217071'
-      Label: Renal cell carcinoma
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adolescent
-  - AverageAgeOfOnset:
-      value: Adult
-  - AverageAgeOfOnset:
-      value: Elderly
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

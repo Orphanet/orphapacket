@@ -1,20 +1,45 @@
 Orphapacket:
-  ORPHApacketId: '33067'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '33067'
-  Label: Metaphyseal chondrodysplasia, Jansen type
-  PURL: http://www.orpha.net/ORDO/Orphanet_33067
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '156400'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: parathyroid hormone 1 receptor
+      Symbol: PTH1R
+  Label: Metaphyseal chondrodysplasia, Jansen type
+  ORPHAcode: '33067'
+  ORPHApacketId: '33067'
+  PURL: http://www.orpha.net/ORDO/Orphanet_33067
+  Parents:
+  - Parent:
+    - Label: Multiple metaphyseal dysplasia
+      ORPHAcode: '93430'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Jansen's metaphyseal chondrodysplasia (JMC) is a very rare autosomal
       dominant skeletal dysplasia characterized by short-limbed short stature (due
       to severe metaphyseal changes that are often discovered in childhood by imaging)
@@ -22,35 +47,10 @@ Orphapacket:
       clubbed fingers clinodactyly prominent upper face and small mandible as well
       as chronic parathyroid hormone-independent hypercalcemia hypercalciuria and
       mild hypophosphatemia.
-  Genes:
-  - Gene:
-      Symbol: PTH1R
-      Name: parathyroid hormone 1 receptor
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '93430'
-      Label: Multiple metaphyseal dysplasia
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

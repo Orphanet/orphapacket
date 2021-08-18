@@ -1,50 +1,50 @@
 Orphapacket:
-  ORPHApacketId: '98050'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98050'
-  Label: Rare allergic disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_98050
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Rare allergy
-  Parents:
-  - Parent:
-    - ORPHAcode: '320716'
-      Label: Rare disorders
   Childs:
   - Child:
+      Genes: no data
       Label: Non-histaminic angioedema
       ORPHAcode: '658'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Rare urticaria
       ORPHAcode: '79384'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Rare allergic respiratory disease
       ORPHAcode: '98052'
-      Genes: no data
   - Child:
-      Label: Severe dermatitis-multiple allergies-metabolic wasting syndrome
-      ORPHAcode: '369992'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '3052'
+            Source: HGNC
+          - Reference: '125647'
+            Source: OMIM
           Label: desmoplakin
           Symbol: DSP
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3052'
-          - Source: OMIM
-            Reference: '125647'
       - Gene:
+          ExternalReferences:
+          - Reference: '3048'
+            Source: HGNC
+          - Reference: '125670'
+            Source: OMIM
           Label: desmoglein 1
           Symbol: DSG1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3048'
-          - Source: OMIM
-            Reference: '125670'
+      Label: Severe dermatitis-multiple allergies-metabolic wasting syndrome
+      ORPHAcode: '369992'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare allergic disease
+  ORPHAcode: '98050'
+  ORPHApacketId: '98050'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98050
+  Parents:
+  - Parent:
+    - Label: Rare disorders
+      ORPHAcode: '320716'
+  Synonyms:
+  - Synonym: Rare allergy
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

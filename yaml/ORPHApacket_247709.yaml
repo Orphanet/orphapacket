@@ -1,51 +1,58 @@
 Orphapacket:
-  ORPHApacketId: '247709'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '247709'
-  Label: Multiple endocrine neoplasia type 2B
-  PURL: http://www.orpha.net/ORDO/Orphanet_247709
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '162300'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ret proto-oncogene
+      Symbol: RET
+  Label: Multiple endocrine neoplasia type 2B
+  ORPHAcode: '247709'
+  ORPHApacketId: '247709'
+  PURL: http://www.orpha.net/ORDO/Orphanet_247709
+  Parents:
+  - Parent:
+    - Label: Multiple endocrine neoplasia type 2
+      ORPHAcode: '653'
+  - Parent:
+    - Label: Adrenal/paraganglial tumor
+      ORPHAcode: '100091'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: MEN2B
   - Synonym: Multiple endocrine neoplasia type 3
   - Synonym: Wagenmann-Froboese syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '162300'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
+    Contents: A rare form of multiple endocrine neoplasia type 2 (MEN2) syndrome characterized
+      by aggressive medullary thyroid carcinoma in association with other endocrine
+      tumors notably pheochromocytoma (one or both adrenal glands can be affected).
+      Onset is typically in infancy or childhood and patients often have a typical
+      facies (mucosal neuromas of the lips and tongue and bumpy lips) ophthalmologic
+      abnormalities (alacrima in infancy thickened and everted eyelids mild ptosis
+      and prominent corneal nerves) skeletal anomalies (marfanoid body habitus narrow
+      long facies pes cavus pectus excavatum high-arched palate scoliosis hyperextensible
+      joints and slipped capital femoral epiphyses) and a generalized ganglioneuromatosis
+      throughout the aerodigestive tract. Chronic constipation abdominal distension
+      diarrhea or megacolon at birth are often the initial manifestations.
     TextSectionType: Definition
-    Contents: Multiple endocrine neoplasia 2B (MEN2B) syndrome is a rare aggressive
-      form of MEN2 (see this term) characterized by medullary thyroid carcinoma (MTC
-      see this term) pheochromocytoma (see this term) mucosal ganglioneuroma and marfanoid
-      habitus.
-  Genes:
-  - Gene:
-      Symbol: RET
-      Name: ret proto-oncogene
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '653'
-      Label: Multiple endocrine neoplasia type 2
-  - Parent:
-    - ORPHAcode: '100091'
-      Label: Adrenal/paraganglial tumor
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

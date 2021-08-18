@@ -1,49 +1,70 @@
 Orphapacket:
-  ORPHApacketId: '329967'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '329967'
-  Label: Intermittent hydrarthrosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_329967
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: MEFV innate immuity regulator, pyrin
+      Symbol: MEFV
+  - Gene:
+      ExternalReferences: []
+      Name: TNF receptor superfamily member 1A
+      Symbol: TNFRSF1A
+  Label: Intermittent hydrarthrosis
+  ORPHAcode: '329967'
+  ORPHApacketId: '329967'
+  PURL: http://www.orpha.net/ORDO/Orphanet_329967
+  Parents:
+  - Parent:
+    - Label: Rare pediatric rheumatologic disease
+      ORPHAcode: '486955'
+  - Parent:
+    - Label: Rare rheumatologic disease
+      ORPHAcode: '182231'
+  - Parent:
+    - Label: Rare genetic systemic or rheumatologic disease
+      ORPHAcode: '271870'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001386
+      HPOTerm: Joint swelling
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002829
+      HPOTerm: Arthralgia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002815
+      HPOTerm: Abnormality of the knee
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0045086
+      HPOTerm: Knee joint hypermobility
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000934
+      HPOTerm: Chondrocalcinosis
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare rheumatologic disease characterized by recurrent self-remitting
       episodes of acute monoarticular arthritis often with a fixed periodicity typically
       affecting the knee or another large joint which develops an effusion over 12
       to 24 hours with only mild to moderate pain and minimal signs of inflammation.
       Attacks last three to five days and may parallel menses in females. Systemic
       symptoms are absent and no joint damage occurs.
-  Genes:
-  - Gene:
-      Symbol: MEFV
-      Name: MEFV innate immuity regulator, pyrin
-      ExternalReferences: []
-  - Gene:
-      Symbol: TNFRSF1A
-      Name: TNF receptor superfamily member 1A
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '486955'
-      Label: Rare pediatric rheumatologic disease
-  - Parent:
-    - ORPHAcode: '182231'
-      Label: Rare rheumatologic disease
-  - Parent:
-    - ORPHAcode: '271870'
-      Label: Rare genetic systemic or rheumatologic disease
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

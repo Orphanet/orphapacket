@@ -1,94 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '393'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '393'
-  Label: 46,XX testicular disorder of sex development
-  PURL: http://www.orpha.net/ORDO/Orphanet_393
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: 46,XX testicular DSD
-  - Synonym: De la Chapelle syndrome
-  - Synonym: XX, male syndrome
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '278850'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '300833'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '400045'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare disorder of sex development (DSD) associated with a 46 XX karyotype
-      and characterized by male external genitalia ranging from normal to atypical
-      with associated testosterone deficiency.
-  Genes:
-  - Gene:
-      Symbol: SOX9
-      Name: SRY-box 9
-      ExternalReferences: []
-  - Gene:
-      Symbol: SRY
-      Name: sex determining region Y
-      ExternalReferences: []
-  - Gene:
-      Symbol: SOX3
-      Name: SRY-box 3
-      ExternalReferences: []
-  - Gene:
-      Symbol: NR0B1
-      Name: nuclear receptor subfamily 0 group B member 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: NR5A1
-      Name: nuclear receptor subfamily 5 group A member 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98313'
-      Label: Male infertility due to gonadal dysgenesis
-  - Parent:
-    - ORPHAcode: '325055'
-      Label: 46,XX disorder of gonadal development
-  - Parent:
-    - ORPHAcode: '506213'
-      Label: Rare disorder potentially indicated for kidney transplant
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000026
-      HPOTerm: Male hypogonadism
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000062
-      HPOTerm: Ambiguous genitalia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000147
-      HPOTerm: Polycystic ovaries
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008734
-      HPOTerm: Decreased testicular size
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: 16200839[PMID]_6945286[PMID]_[EXPERT]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '2.5'
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -96,9 +9,96 @@ Orphapacket:
       value: Antenatal
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '278850'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '300833'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '400045'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: SRY-box transcription factor 9
+      Symbol: SOX9
+  - Gene:
+      ExternalReferences: []
+      Name: sex determining region Y
+      Symbol: SRY
+  - Gene:
+      ExternalReferences: []
+      Name: SRY-box transcription factor 3
+      Symbol: SOX3
+  - Gene:
+      ExternalReferences: []
+      Name: nuclear receptor subfamily 0 group B member 1
+      Symbol: NR0B1
+  - Gene:
+      ExternalReferences: []
+      Name: nuclear receptor subfamily 5 group A member 1
+      Symbol: NR5A1
+  Label: 46,XX testicular disorder of sex development
+  ORPHAcode: '393'
+  ORPHApacketId: '393'
+  PURL: http://www.orpha.net/ORDO/Orphanet_393
+  Parents:
+  - Parent:
+    - Label: Male infertility due to gonadal dysgenesis
+      ORPHAcode: '98313'
+  - Parent:
+    - Label: 46,XX disorder of gonadal development
+      ORPHAcode: '325055'
+  - Parent:
+    - Label: Rare disorder potentially indicated for kidney transplant
+      ORPHAcode: '506213'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000026
+      HPOTerm: Male hypogonadism
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000062
+      HPOTerm: Ambiguous genitalia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000147
+      HPOTerm: Polycystic ovaries
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008734
+      HPOTerm: Decreased testicular size
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 16200839[PMID]_6945286[PMID]_[EXPERT]
+      ValMoy: '2.5'
+  Synonyms:
+  - Synonym: 46,XX testicular DSD
+  - Synonym: De la Chapelle syndrome
+  - Synonym: XX, male syndrome
+  TextSection:
+    Contents: A rare disorder of sex development (DSD) associated with a 46 XX karyotype
+      and characterized by male external genitalia ranging from normal to atypical
+      with associated testosterone deficiency.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

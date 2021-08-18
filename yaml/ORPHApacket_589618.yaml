@@ -1,24 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '589618'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '589618'
-  Label: Dystonia 28
-  PURL: http://www.orpha.net/ORDO/Orphanet_589618
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: lysine methyltransferase 2B
+      Symbol: KMT2B
+  Label: Dystonia 28
+  ORPHAcode: '589618'
+  ORPHApacketId: '589618'
+  PURL: http://www.orpha.net/ORDO/Orphanet_589618
+  Parents:
+  - Parent:
+    - Label: Persistent combined dystonia
+      ORPHAcode: '391711'
+  - Parent:
+    - Label: Rare genetic syndromic intellectual disability
+      ORPHAcode: '183763'
+  - Parent:
+    - Label: Rare syndromic intellectual disability
+      ORPHAcode: '102369'
   Synonyms:
   - Synonym: DYT28
   - Synonym: KMT2B-related dystonia
-  Parents:
-  - Parent:
-    - ORPHAcode: '391711'
-      Label: Persistent combined dystonia
-  - Parent:
-    - ORPHAcode: '183763'
-      Label: Rare genetic syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '102369'
-      Label: Rare syndromic intellectual disability
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

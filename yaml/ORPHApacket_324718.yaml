@@ -1,59 +1,62 @@
 Orphapacket:
-  ORPHApacketId: '324718'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '324718'
-  Label: ABetaA21G amyloidosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_324718
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: adult
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '605714'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: amyloid beta precursor protein
+      Symbol: APP
+  Label: ABetaA21G amyloidosis
+  ORPHAcode: '324718'
+  ORPHApacketId: '324718'
+  PURL: http://www.orpha.net/ORDO/Orphanet_324718
+  Parents:
+  - Parent:
+    - Label: Hereditary cerebral hemorrhage with amyloidosis
+      ORPHAcode: '85458'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: ABeta amyloidosis, Flemish type
   - Synonym: ABetaA21G-related amyloidosis
   - Synonym: HCHWA, Flemish type
   - Synonym: Hereditary cerebral hemorrhage with amyloidosis, Flemish type
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '605714'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
   TextSection:
+    Contents: A form of hereditary cerebral hemorrhage with amyloidosis characterized
+      by an age of onset of 45 years of age progressive Alzheimer's disease-like dementia
+      and lobar intracerebral hemorrhage in some patients. This subtype is due to
+      a mutation in the <i>APP</i> gene (21q21.2) encoding the beta-amyloid precursor
+      protein. This mutation causes an increased accumulation of amyloid-beta protein
+      in the walls of the arteries and capillaries of the meninges cerebellar cortex
+      and cerebral cortex leading to the weakening and eventual rupture of these vessels.
     TextSectionType: Definition
-    Contents: Hereditary cerebral hemorrhage with amyloidosis (HCHWA) Flemish type
-      is a form of HCHWA (see this term) characterized by an age of onset of 45 years
-      of age progressive Alzheimer's disease-like dementia and lobar intracerebral
-      hemorrhage in some patients.
-  Genes:
-  - Gene:
-      Symbol: APP
-      Name: amyloid beta precursor protein
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '85458'
-      Label: Hereditary cerebral hemorrhage with amyloidosis
-  Prevalences:
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: adult
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,20 +1,46 @@
 Orphapacket:
-  ORPHApacketId: '3291'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3291'
-  Label: Teebi-Shaltout syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_3291
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '272950'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Teebi-Shaltout syndrome
+  ORPHAcode: '3291'
+  ORPHApacketId: '3291'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3291
+  Parents:
+  - Parent:
+    - Label: Dysostosis with predominant craniofacial involvement
+      ORPHAcode: '93453'
+  - Parent:
+    - Label: Ectodermal dysplasia syndrome
+      ORPHAcode: '79373'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 23918592[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_23918592[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Teebi-Shaltout syndrome is a rare genetic development defect during
       embryogenesis malformation syndrome characterized by association of characteristic
       facial features (including abnormal head shape with narrow forehead hypertelorism
@@ -23,36 +49,10 @@ Orphapacket:
       with delayed dentition slow growing hair and reduced sweating) and skeletal
       abnormalities including camptodactyly and caudal appendage. Short stature and
       abnormal palmar creases are additional clinical features.
-  Parents:
-  - Parent:
-    - ORPHAcode: '93453'
-      Label: Dysostosis with predominant craniofacial involvement
-  - Parent:
-    - ORPHAcode: '79373'
-      Label: Ectodermal dysplasia syndrome
-  Prevalences:
-  - Prevalence:
-      Source: 23918592[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_23918592[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

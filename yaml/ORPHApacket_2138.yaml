@@ -1,129 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '2138'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2138'
-  Label: 46,XX ovotesticular disorder of sex development
-  PURL: http://www.orpha.net/ORDO/Orphanet_2138
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: 46,XX ovotesticular DSD
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '400045'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare disorder of sex development (DSD) characterized by histologically
-      confirmed testicular and ovarian tissue in an individual with a 46,XX karyotype.
-  Genes:
-  - Gene:
-      Symbol: SOX9
-      Name: SRY-box 9
-      ExternalReferences: []
-  - Gene:
-      Symbol: SRY
-      Name: sex determining region Y
-      ExternalReferences: []
-  - Gene:
-      Symbol: NR5A1
-      Name: nuclear receptor subfamily 5 group A member 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98074'
-      Label: Gonadal dysgenesis of gynecological interest
-  - Parent:
-    - ORPHAcode: '325055'
-      Label: 46,XX disorder of gonadal development
-  - Parent:
-    - ORPHAcode: '399877'
-      Label: Rare female infertility due to gonadal dysgenesis
-  - Parent:
-    - ORPHAcode: '506213'
-      Label: Rare disorder potentially indicated for kidney transplant
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000008
-      HPOTerm: Abnormality of female internal genitalia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000022
-      HPOTerm: Abnormality of male internal genitalia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000028
-      HPOTerm: Cryptorchidism
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000046
-      HPOTerm: Scrotal hypoplasia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000047
-      HPOTerm: Hypospadias
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000048
-      HPOTerm: Bifid scrotum
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000062
-      HPOTerm: Ambiguous genitalia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000130
-      HPOTerm: Abnormality of the uterus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000144
-      HPOTerm: Decreased fertility
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000147
-      HPOTerm: Polycystic ovaries
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008736
-      HPOTerm: Hypoplasia of penis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0010459
-      HPOTerm: True hermaphroditism
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0012856
-      HPOTerm: Abnormal scrotal rugation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100779
-      HPOTerm: Urogenital sinus anomaly
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: '[EXPERT]_23926413[PMID]'
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_[EXPERT]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -131,11 +9,133 @@ Orphapacket:
       value: Antenatal
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '400045'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: SRY-box transcription factor 9
+      Symbol: SOX9
+  - Gene:
+      ExternalReferences: []
+      Name: sex determining region Y
+      Symbol: SRY
+  - Gene:
+      ExternalReferences: []
+      Name: nuclear receptor subfamily 5 group A member 1
+      Symbol: NR5A1
+  Label: 46,XX ovotesticular disorder of sex development
+  ORPHAcode: '2138'
+  ORPHApacketId: '2138'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2138
+  Parents:
+  - Parent:
+    - Label: Gonadal dysgenesis of gynecological interest
+      ORPHAcode: '98074'
+  - Parent:
+    - Label: 46,XX disorder of gonadal development
+      ORPHAcode: '325055'
+  - Parent:
+    - Label: Rare female infertility due to gonadal dysgenesis
+      ORPHAcode: '399877'
+  - Parent:
+    - Label: Rare disorder potentially indicated for kidney transplant
+      ORPHAcode: '506213'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000008
+      HPOTerm: Abnormal morphology of female internal genitalia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000022
+      HPOTerm: Abnormality of male internal genitalia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000028
+      HPOTerm: Cryptorchidism
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000046
+      HPOTerm: Scrotal hypoplasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000047
+      HPOTerm: Hypospadias
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000048
+      HPOTerm: Bifid scrotum
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000062
+      HPOTerm: Ambiguous genitalia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000130
+      HPOTerm: Abnormality of the uterus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000144
+      HPOTerm: Decreased fertility
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000147
+      HPOTerm: Polycystic ovaries
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008736
+      HPOTerm: Hypoplasia of penis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010459
+      HPOTerm: True hermaphroditism
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012856
+      HPOTerm: Abnormal scrotal rugation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100779
+      HPOTerm: Urogenital sinus anomaly
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: '[EXPERT]_23926413[PMID]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_[EXPERT]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: 46,XX ovotesticular DSD
+  TextSection:
+    Contents: A rare disorder of sex development (DSD) characterized by histologically
+      confirmed testicular and ovarian tissue in an individual with a 46,XX karyotype.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

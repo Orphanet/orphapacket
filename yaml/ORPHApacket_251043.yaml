@@ -1,19 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '251043'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '251043'
-  Label: Ring chromosome 5 syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_251043
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Label: Ring chromosome 5 syndrome
+  ORPHAcode: '251043'
+  ORPHApacketId: '251043'
+  PURL: http://www.orpha.net/ORDO/Orphanet_251043
+  Parents:
+  - Parent:
+    - Label: Ring chromosome
+      ORPHAcode: '363203'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Ring 5
   - Synonym: Ring chromosome 5
   TextSection:
-    TextSectionType: Definition
     Contents: Ring chromosome 5 syndrome is a rare chromosomal anomaly syndrome with
       high phenotypic variability principally characterized by a neonatal mewing cry
       severe developmental delay and intellectual disability short stature hypotonia
@@ -22,28 +35,12 @@ Orphapacket:
       atrial and ventricular septal defect tricuspid insufficiency hypoplastic aorta)
       and skeletal abnormalities (e.g. hypoplastic thumbs anomalous ulna/radius dysplastic
       metacarpals and phalanges).
-  Parents:
-  - Parent:
-    - ORPHAcode: '261709'
-      Label: Anomaly of chromosome 5
-  - Parent:
-    - ORPHAcode: '363203'
-      Label: Ring chromosome
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Not applicable
   - TypeOfInheritance:
       value: Unknown
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

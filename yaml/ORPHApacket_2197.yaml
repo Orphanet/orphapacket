@@ -1,72 +1,76 @@
 Orphapacket:
-  ORPHApacketId: '2197'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2197'
-  Label: Idiopathic hypercalciuria
-  PURL: http://www.orpha.net/ORDO/Orphanet_2197
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
       Reference: '143870'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
       Source: OMIM
-      Reference: '607258'
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare renal disease characterized by excess urinary calcium excretion
-      in the absence of an underlying systemic disease. The condition leads to an
-      increased risk for the formation of kidney stones and nephrocalcinosis as well
-      as reduced bone mineral density with increased incidence of fractures.
+      Reference: '607258'
+      Source: OMIM
   Genes:
   - Gene:
-      Symbol: ADCY10
-      Name: adenylate cyclase 10
       ExternalReferences: []
+      Name: adenylate cyclase 10
+      Symbol: ADCY10
+  Label: Idiopathic hypercalciuria
+  ORPHAcode: '2197'
+  ORPHApacketId: '2197'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2197
   Parents:
   - Parent:
-    - ORPHAcode: '93603'
-      Label: Rare renal tubular disease
+    - Label: Rare renal tubular disease
+      ORPHAcode: '93603'
   - Parent:
-    - ORPHAcode: '183592'
-      Label: Genetic renal tubular disease
+    - Label: Genetic renal tubular disease
+      ORPHAcode: '183592'
   - Parent:
-    - ORPHAcode: '506213'
-      Label: Rare disorder potentially indicated for kidney transplant
+    - Label: Rare disorder potentially indicated for kidney transplant
+      ORPHAcode: '506213'
   Phenotypes:
   - Phenotype:
+      HPOFrequency: Obligate (100%)
       HPOId: HP:0002150
       HPOTerm: Hypercalciuria
-      HPOFrequency: Obligate (100%)
   - Phenotype:
+      HPOFrequency: Obligate (100%)
       HPOId: HP:0012637
       HPOTerm: Renal calcium wasting
-      HPOFrequency: Obligate (100%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000938
       HPOTerm: Osteopenia
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0008672
       HPOTerm: Calcium oxalate nephrolithiasis
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000939
       HPOTerm: Osteoporosis
-      HPOFrequency: Occasional (29-5%)
   - Phenotype:
+      HPOFrequency: Excluded (0%)
       HPOId: HP:0003529
       HPOTerm: Parathormone-independent increased renal tubular calcium reabsorption
-      HPOFrequency: Excluded (0%)
   - Phenotype:
+      HPOFrequency: Excluded (0%)
       HPOId: HP:0040077
       HPOTerm: Abnormal concentration of calcium in blood
-      HPOFrequency: Excluded (0%)
+  TextSection:
+    Contents: A rare renal disease characterized by persistent excess urinary calcium
+      excretion in the absence of an underlying systemic disease and hypercalcemia.
+      The condition leads to an increased risk for the formation of kidney stones
+      and nephrocalcinosis as well as reduced bone mineral density with increased
+      incidence of fractures in some patients.
+    TextSectionType: Definition
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

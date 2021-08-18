@@ -1,16 +1,73 @@
 Orphapacket:
-  ORPHApacketId: '158000'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '158000'
-  Label: Juvenile xanthogranuloma
-  PURL: http://www.orpha.net/ORDO/Orphanet_158000
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Juvenile xanthogranuloma
+  ORPHAcode: '158000'
+  ORPHApacketId: '158000'
+  PURL: http://www.orpha.net/ORDO/Orphanet_158000
+  Parents:
+  - Parent:
+    - Label: Non-Langerhans cell histiocytosis
+      ORPHAcode: '157987'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000498
+      HPOTerm: Blepharitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000501
+      HPOTerm: Glaucoma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000520
+      HPOTerm: Proptosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000554
+      HPOTerm: Uveitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000572
+      HPOTerm: Visual loss
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001101
+      HPOTerm: Iritis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002086
+      HPOTerm: Abnormality of the respiratory system
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005547
+      HPOTerm: Myeloproliferative disorder
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007565
+      HPOTerm: Multiple cafe-au-lait spots
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011830
+      HPOTerm: Abnormal oral mucosa morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011886
+      HPOTerm: Hyphema
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0200064
+      HPOTerm: Asymmetry of iris pigmentation
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Germany
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 22969141[PMID]
+      ValMoy: '0.005'
   TextSection:
-    TextSectionType: Definition
     Contents: Juvenile xanthogranuloma is the most common type of non-Langerhans cell
       histiocytosis (see this term) characterized by the occurrence of one or more
       reddish or yellowish self-limiting and benign papules or nodules of several
@@ -20,67 +77,10 @@ Orphapacket:
       reported involving most commonly the eye (uveal tract) but with other locations
       including the central nervous system lung liver bones and endocrine glands and
       may be associated with considerable morbidity.
-  Parents:
-  - Parent:
-    - ORPHAcode: '157987'
-      Label: Non-Langerhans cell histiocytosis
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000498
-      HPOTerm: Blepharitis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000501
-      HPOTerm: Glaucoma
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000520
-      HPOTerm: Proptosis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000554
-      HPOTerm: Uveitis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000572
-      HPOTerm: Visual loss
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001101
-      HPOTerm: Iritis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002086
-      HPOTerm: Abnormality of the respiratory system
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0005547
-      HPOTerm: Myeloproliferative disorder
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0007565
-      HPOTerm: Multiple cafe-au-lait spots
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0011830
-      HPOTerm: Abnormal oral mucosa morphology
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0011886
-      HPOTerm: Hyphema
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0200064
-      HPOTerm: Asymmetry of iris pigmentation
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-    Prevalence:
-    - Source: 22969141[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.005'
-      PrevalenceGeographic: Germany
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

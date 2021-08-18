@@ -1,91 +1,98 @@
 Orphapacket:
-  ORPHApacketId: '99819'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99819'
-  Label: Familial gestational hyperthyroidism
-  PURL: http://www.orpha.net/ORDO/Orphanet_99819
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '603373'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
   Genes:
   - Gene:
-      Symbol: TSHR
-      Name: thyroid stimulating hormone receptor
       ExternalReferences: []
+      Name: thyroid stimulating hormone receptor
+      Symbol: TSHR
+  Label: Familial gestational hyperthyroidism
+  ORPHAcode: '99819'
+  ORPHApacketId: '99819'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99819
   Parents:
   - Parent:
-    - ORPHAcode: '181399'
-      Label: Rare hyperthyroidism
+    - Label: Rare hyperthyroidism
+      ORPHAcode: '181399'
   - Parent:
-    - ORPHAcode: '163637'
-      Label: Rare disorder related with pregnancy, childbirth and puerperium
+    - Label: Rare disorder related with pregnancy, childbirth and puerperium
+      ORPHAcode: '163637'
   Phenotypes:
   - Phenotype:
+      HPOFrequency: Obligate (100%)
       HPOId: HP:0000836
       HPOTerm: Hyperthyroidism
-      HPOFrequency: Obligate (100%)
   - Phenotype:
+      HPOFrequency: Obligate (100%)
       HPOId: HP:0011790
       HPOTerm: Activating thyroid-stimulating hormone receptor (TSHR) defect
-      HPOFrequency: Obligate (100%)
   - Phenotype:
+      HPOFrequency: Obligate (100%)
       HPOId: HP:0012188
       HPOTerm: Hyperemesis gravidarum
-      HPOFrequency: Obligate (100%)
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000853
       HPOTerm: Goiter
-      HPOFrequency: Very frequent (99-80%)
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001824
       HPOTerm: Weight loss
-      HPOFrequency: Very frequent (99-80%)
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002014
       HPOTerm: Diarrhea
-      HPOFrequency: Very frequent (99-80%)
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002378
       HPOTerm: Hand tremor
-      HPOFrequency: Very frequent (99-80%)
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0008249
       HPOTerm: Thyroid hyperplasia
-      HPOFrequency: Very frequent (99-80%)
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0011784
       HPOTerm: Thyrotoxicosis with diffuse goiter
-      HPOFrequency: Very frequent (99-80%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000713
       HPOTerm: Agitation
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000752
       HPOTerm: Hyperactivity
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001270
       HPOTerm: Motor delay
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002360
       HPOTerm: Sleep disturbance
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000520
       HPOTerm: Proptosis
-      HPOFrequency: Occasional (29-5%)
   - Phenotype:
+      HPOFrequency: Excluded (0%)
       HPOId: HP:0030057
       HPOTerm: Autoimmune antibody positivity
-      HPOFrequency: Excluded (0%)
+  TextSection:
+    Contents: A rare genetic hyperthyroidism characterized by hyperemesis gravidarum
+      associated with hyperthyroidism due to hypersensitivity of the thyrotropin receptor
+      to chorionic gonadotropin in the absence of abnormally high serum chorionic
+      gonadotropin levels. Clinical manifestations include severe nausea vomiting
+      weight loss tachycardia excessive sweating and hand tremor but no signs of ophthalmopathy.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,114 +1,114 @@
 Orphapacket:
-  ORPHApacketId: '371183'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '371183'
-  Label: Congenital disorder of glycosylation with cardiac malformation as a major
-    feature
-  PURL: http://www.orpha.net/ORDO/Orphanet_371183
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: CDG with cardiac malformation as a major feature
-  Parents:
-  - Parent:
-    - ORPHAcode: '156532'
-      Label: Rare syndrome with cardiac malformations
-  - Parent:
-    - ORPHAcode: '371235'
-      Label: Congenital disorder of glycosylation with developmental anomaly
   Childs:
   - Child:
-      Label: Peters plus syndrome
-      ORPHAcode: '709'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '20207'
+            Source: HGNC
+          - Reference: '610308'
+            Source: OMIM
           Label: beta 3-glucosyltransferase
           Symbol: B3GLCT
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '20207'
-          - Source: OMIM
-            Reference: '610308'
+      Label: Peters plus syndrome
+      ORPHAcode: '709'
   - Child:
-      Label: Musculocontractural Ehlers-Danlos syndrome
-      ORPHAcode: '2953'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '24464'
+            Source: HGNC
+          - Reference: '608429'
+            Source: OMIM
           Label: carbohydrate sulfotransferase 14
           Symbol: CHST14
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '24464'
-          - Source: OMIM
-            Reference: '608429'
       - Gene:
+          ExternalReferences:
+          - Reference: '21144'
+            Source: HGNC
+          - Reference: '605942'
+            Source: OMIM
           Label: dermatan sulfate epimerase
           Symbol: DSE
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '21144'
-          - Source: OMIM
-            Reference: '605942'
+      Label: Musculocontractural Ehlers-Danlos syndrome
+      ORPHAcode: '2953'
   - Child:
-      Label: CHIME syndrome
-      ORPHAcode: '3474'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '8966'
+            Source: HGNC
+          - Reference: '605947'
+            Source: OMIM
           Label: phosphatidylinositol glycan anchor biosynthesis class L
           Symbol: PIGL
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8966'
-          - Source: OMIM
-            Reference: '605947'
+      Label: CHIME syndrome
+      ORPHAcode: '3474'
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '7045'
+            Source: HGNC
+          - Reference: '602616'
+            Source: OMIM
+          Label: alpha-1,6-mannosyl-glycoprotein 2-beta-N-acetylglucosaminyltransferase
+          Symbol: MGAT2
       Label: MGAT2-CDG
       ORPHAcode: '79329'
-      Genes:
-      - Gene:
-          Label: mannosyl (alpha-1,6-)-glycoprotein beta-1,2-N-acetylglucosaminyltransferase
-          Symbol: MGAT2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7045'
-          - Source: OMIM
-            Reference: '602616'
   - Child:
-      Label: COG7-CDG
-      ORPHAcode: '79333'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '18622'
+            Source: HGNC
+          - Reference: '606978'
+            Source: OMIM
           Label: component of oligomeric golgi complex 7
           Symbol: COG7
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18622'
-          - Source: OMIM
-            Reference: '606978'
+      Label: COG7-CDG
+      ORPHAcode: '79333'
   - Child:
-      Label: COG1-CDG
-      ORPHAcode: '263508'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6545'
+            Source: HGNC
+          - Reference: '606973'
+            Source: OMIM
           Label: component of oligomeric golgi complex 1
           Symbol: COG1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6545'
-          - Source: OMIM
-            Reference: '606973'
+      Label: COG1-CDG
+      ORPHAcode: '263508'
   - Child:
-      Label: Larsen-like syndrome, B3GAT3 type
-      ORPHAcode: '284139'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '923'
+            Source: HGNC
+          - Reference: '606374'
+            Source: OMIM
           Label: beta-1,3-glucuronyltransferase 3
           Symbol: B3GAT3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '923'
-          - Source: OMIM
-            Reference: '606374'
+      Label: Larsen-like syndrome, B3GAT3 type
+      ORPHAcode: '284139'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Congenital disorder of glycosylation with cardiac malformation as a major
+    feature
+  ORPHAcode: '371183'
+  ORPHApacketId: '371183'
+  PURL: http://www.orpha.net/ORDO/Orphanet_371183
+  Parents:
+  - Parent:
+    - Label: Rare syndrome with cardiac malformations
+      ORPHAcode: '156532'
+  - Parent:
+    - Label: Congenital disorder of glycosylation with developmental anomaly
+      ORPHAcode: '371235'
+  Synonyms:
+  - Synonym: CDG with cardiac malformation as a major feature
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,27 +1,27 @@
 Orphapacket:
-  ORPHApacketId: '309169'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '309169'
-  Label: Sandhoff disease, adult form
-  PURL: http://www.orpha.net/ORDO/Orphanet_309169
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '268800'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: hexosaminidase subunit beta
+      Symbol: HEXB
+  Label: Sandhoff disease, adult form
+  ORPHAcode: '309169'
+  ORPHApacketId: '309169'
+  PURL: http://www.orpha.net/ORDO/Orphanet_309169
+  Parents:
+  - Parent:
+    - Label: Sandhoff disease
+      ORPHAcode: '796'
   Synonyms:
   - Synonym: Adult GM2 gangliosidosis 0 variant
   - Synonym: Hexosaminidases A and B deficiency, adult form
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '268800'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  Genes:
-  - Gene:
-      Symbol: HEXB
-      Name: hexosaminidase subunit beta
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '796'
-      Label: Sandhoff disease
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

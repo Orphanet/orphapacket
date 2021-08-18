@@ -1,66 +1,66 @@
 Orphapacket:
-  ORPHApacketId: '67041'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '67041'
-  Label: Hyaluronidase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_67041
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '601492'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: hyaluronidase 1
+      Symbol: HYAL1
+  Label: Hyaluronidase deficiency
+  ORPHAcode: '67041'
+  ORPHApacketId: '67041'
+  PURL: http://www.orpha.net/ORDO/Orphanet_67041
+  Parents:
+  - Parent:
+    - Label: Mucopolysaccharidosis
+      ORPHAcode: '79213'
+  - Parent:
+    - Label: Lysosomal storage disease with skeletal involvement
+      ORPHAcode: '93448'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003170
+      HPOTerm: Abnormality of the acetabulum
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: MPS9
   - Synonym: MPSIX
   - Synonym: Mucopolysaccharidosis type 9
   - Synonym: Mucopolysaccharidosis type IX
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '601492'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare form of mucopolysaccharidosis characterized by abnormal storage
       of hyaluronan in lysosomes due to deficiency of hyaluronidase 1. Clinical manifestations
       include knee and/or hip pain associated with swelling diffuse joint involvement
       with proliferative synovitis and occurrence of multiple periarticular soft-tissue
       masses short stature and dysmorphic craniofacial features (such as flattened
       nasal bridge bifid uvula and cleft palate).
-  Genes:
-  - Gene:
-      Symbol: HYAL1
-      Name: hyaluronidase 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79213'
-      Label: Mucopolysaccharidosis
-  - Parent:
-    - ORPHAcode: '93448'
-      Label: Lysosomal storage disease with skeletal involvement
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0003170
-      HPOTerm: Abnormality of the acetabulum
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0004322
-      HPOTerm: Short stature
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

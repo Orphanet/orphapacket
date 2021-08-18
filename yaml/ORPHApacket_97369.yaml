@@ -1,42 +1,42 @@
 Orphapacket:
-  ORPHApacketId: '97369'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '97369'
-  Label: Renal tubular dysgenesis of genetic origin
-  PURL: http://www.orpha.net/ORDO/Orphanet_97369
   DisorderType:
-    value: Etiological subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377795
+    value: Etiological subtype
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '267430'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
   Genes:
   - Gene:
-      Symbol: ACE
+      ExternalReferences: []
       Name: angiotensin I converting enzyme
-      ExternalReferences: []
+      Symbol: ACE
   - Gene:
-      Symbol: AGT
+      ExternalReferences: []
       Name: angiotensinogen
-      ExternalReferences: []
+      Symbol: AGT
   - Gene:
-      Symbol: REN
+      ExternalReferences: []
       Name: renin
-      ExternalReferences: []
+      Symbol: REN
   - Gene:
-      Symbol: AGTR1
-      Name: angiotensin II receptor type 1
       ExternalReferences: []
+      Name: angiotensin II receptor type 1
+      Symbol: AGTR1
+  Label: Renal tubular dysgenesis of genetic origin
+  ORPHAcode: '97369'
+  ORPHApacketId: '97369'
+  PURL: http://www.orpha.net/ORDO/Orphanet_97369
   Parents:
   - Parent:
-    - ORPHAcode: '3033'
-      Label: Renal tubular dysgenesis
+    - Label: Renal tubular dysgenesis
+      ORPHAcode: '3033'
   - Parent:
-    - ORPHAcode: '357506'
-      Label: Genetic non-syndromic renal or urinary tract malformation
+    - Label: Genetic non-syndromic renal or urinary tract malformation
+      ORPHAcode: '357506'
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

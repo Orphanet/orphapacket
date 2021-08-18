@@ -1,44 +1,44 @@
 Orphapacket:
-  ORPHApacketId: '71203'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '71203'
-  Label: Autoimmune thrombocytopenia
-  PURL: http://www.orpha.net/ORDO/Orphanet_71203
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '248347'
-      Label: Rare hemorrhagic disorder due to an acquired platelet anomaly
   Childs:
   - Child:
-      Label: Immune thrombocytopenia
-      ORPHAcode: '3002'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '15626'
+            Source: HGNC
+          - Reference: '612169'
+            Source: OMIM
           Label: Fc fragment of IgG receptor IIc (gene/pseudogene)
           Symbol: FCGR2C
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '15626'
-          - Source: OMIM
-            Reference: '612169'
+      Label: Immune thrombocytopenia
+      ORPHAcode: '3002'
   - Child:
+      Genes: no data
       Label: Evans syndrome
       ORPHAcode: '1959'
-      Genes: no data
   - Child:
-      Label: STAT3-related early-onset multisystem autoimmune disease
-      ORPHAcode: '438159'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11364'
+            Source: HGNC
+          - Reference: '102582'
+            Source: OMIM
           Label: signal transducer and activator of transcription 3
           Symbol: STAT3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11364'
-          - Source: OMIM
-            Reference: '102582'
+      Label: STAT3-related early-onset multisystem autoimmune disease
+      ORPHAcode: '438159'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Autoimmune thrombocytopenia
+  ORPHAcode: '71203'
+  ORPHApacketId: '71203'
+  PURL: http://www.orpha.net/ORDO/Orphanet_71203
+  Parents:
+  - Parent:
+    - Label: Rare hemorrhagic disorder due to an acquired platelet anomaly
+      ORPHAcode: '248347'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

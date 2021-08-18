@@ -1,25 +1,51 @@
 Orphapacket:
-  ORPHApacketId: '140905'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '140905'
-  Label: Hyperlipidemia due to hepatic triacylglycerol lipase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_140905
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '614025'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: lipase C, hepatic type
+      Symbol: LIPC
+  Label: Hyperlipidemia due to hepatic triacylglycerol lipase deficiency
+  ORPHAcode: '140905'
+  ORPHApacketId: '140905'
+  PURL: http://www.orpha.net/ORDO/Orphanet_140905
+  Parents:
+  - Parent:
+    - Label: Hyperalphalipoproteinemia
+      ORPHAcode: '181428'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0002155
+      HPOTerm: Hypertriglyceridemia
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0012184
+      HPOTerm: Increased HDL cholesterol concentration
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001013
+      HPOTerm: Eruptive xanthomas
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001681
+      HPOTerm: Angina pectoris
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005181
+      HPOTerm: Premature coronary artery atherosclerosis
   Synonyms:
   - Synonym: Hyperlipidemia due to HL deficiency
   - Synonym: Hyperlipidemia due to HTGL deficiency
   - Synonym: Hyperlipidemia due to hepatic lipase deficiency
   - Synonym: Hyperlipidemia due to hepatic triglyceride lipase deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614025'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Hyperlipidemia due to hepatic triacylglycerol lipase deficiency is a
       rare genetic hyperalphalipoproteinemia disorder characterized by elevated plasma
       cholesterol and triglyceride (TG) levels with a marked TG enrichment of low-
@@ -27,33 +53,7 @@ Orphapacket:
       lipoproteins and elevated HDL cholesterol levels in the presence of a very low
       or undetectable postheparin plasma hepatic lipase activity. Premature atherosclerosis
       and/or coronary heart disease may be associated.
-  Genes:
-  - Gene:
-      Symbol: LIPC
-      Name: lipase C, hepatic type
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '181428'
-      Label: Hyperalphalipoproteinemia
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0002155
-      HPOTerm: Hypertriglyceridemia
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0012184
-      HPOTerm: Increased HDL cholesterol concentration
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0001013
-      HPOTerm: Eruptive xanthomas
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001681
-      HPOTerm: Angina pectoris
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0005181
-      HPOTerm: Premature coronary artery atherosclerosis
-      HPOFrequency: Frequent (79-30%)
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

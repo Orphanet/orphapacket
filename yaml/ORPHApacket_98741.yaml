@@ -1,119 +1,119 @@
 Orphapacket:
-  ORPHApacketId: '98741'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98741'
-  Label: Neurological muscular channelopathy due to a genetic potassium channel defect
-  PURL: http://www.orpha.net/ORDO/Orphanet_98741
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '98737'
-      Label: Genetic neurological muscular channelopathy
   Childs:
   - Child:
-      Label: Hypokalemic periodic paralysis
-      ORPHAcode: '681'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '10591'
+            Source: HGNC
+          - Reference: '603967'
+            Source: OMIM
           Label: sodium voltage-gated channel alpha subunit 4
           Symbol: SCN4A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10591'
-          - Source: OMIM
-            Reference: '603967'
       - Gene:
+          ExternalReferences:
+          - Reference: '1397'
+            Source: HGNC
+          - Reference: '114208'
+            Source: OMIM
           Label: calcium voltage-gated channel subunit alpha1 S
           Symbol: CACNA1S
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1397'
-          - Source: OMIM
-            Reference: '114208'
       - Gene:
+          ExternalReferences:
+          - Reference: '6243'
+            Source: HGNC
+          - Reference: '604433'
+            Source: OMIM
           Label: potassium voltage-gated channel subfamily E regulatory subunit 3
           Symbol: KCNE3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6243'
-          - Source: OMIM
-            Reference: '604433'
+      Label: Hypokalemic periodic paralysis
+      ORPHAcode: '681'
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '6263'
+            Source: HGNC
+          - Reference: '600681'
+            Source: OMIM
+          Label: potassium inwardly rectifying channel subfamily J member 2
+          Symbol: KCNJ2
+      - Gene:
+          ExternalReferences:
+          - Reference: '6266'
+            Source: HGNC
+          - Reference: '600734'
+            Source: OMIM
+          Label: potassium inwardly rectifying channel subfamily J member 5
+          Symbol: KCNJ5
       Label: Andersen-Tawil syndrome
       ORPHAcode: '37553'
-      Genes:
-      - Gene:
-          Label: potassium voltage-gated channel subfamily J member 2
-          Symbol: KCNJ2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6263'
-          - Source: OMIM
-            Reference: '600681'
-      - Gene:
-          Label: potassium voltage-gated channel subfamily J member 5
-          Symbol: KCNJ5
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6266'
-          - Source: OMIM
-            Reference: '600734'
   - Child:
-      Label: Myoclonus-dystonia syndrome
-      ORPHAcode: '36899'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '10808'
+            Source: HGNC
+          - Reference: '604149'
+            Source: OMIM
           Label: sarcoglycan epsilon
           Symbol: SGCE
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10808'
-          - Source: OMIM
-            Reference: '604149'
       - Gene:
+          ExternalReferences:
+          - Reference: '3098'
+            Source: HGNC
+          - Reference: '605204'
+            Source: OMIM
           Label: torsin family 1 member A
           Symbol: TOR1A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3098'
-          - Source: OMIM
-            Reference: '605204'
       - Gene:
+          ExternalReferences:
+          - Reference: '3023'
+            Source: HGNC
+          - Reference: '126450'
+            Source: OMIM
           Label: dopamine receptor D2
           Symbol: DRD2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3023'
-          - Source: OMIM
-            Reference: '126450'
       - Gene:
-          Label: dystonia 15, myoclonic
-          Symbol: DYT15
           ExternalReferences:
           - ExternalReference:
-              Source: HGNC
               Reference: '31376'
+              Source: HGNC
+          Label: dystonia 15, myoclonic
+          Symbol: DYT15
       - Gene:
+          ExternalReferences:
+          - Reference: '25705'
+            Source: HGNC
+          - Reference: '616386'
+            Source: OMIM
           Label: potassium channel tetramerization domain containing 17
           Symbol: KCTD17
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '25705'
-          - Source: OMIM
-            Reference: '616386'
+      Label: Myoclonus-dystonia syndrome
+      ORPHAcode: '36899'
   - Child:
-      Label: Hereditary continuous muscle fiber activity
-      ORPHAcode: '972'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6218'
+            Source: HGNC
+          - Reference: '176260'
+            Source: OMIM
           Label: potassium voltage-gated channel subfamily A member 1
           Symbol: KCNA1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6218'
-          - Source: OMIM
-            Reference: '176260'
+      Label: Hereditary continuous muscle fiber activity
+      ORPHAcode: '972'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Neurological muscular channelopathy due to a genetic potassium channel defect
+  ORPHAcode: '98741'
+  ORPHApacketId: '98741'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98741
+  Parents:
+  - Parent:
+    - Label: Genetic neurological muscular channelopathy
+      ORPHAcode: '98737'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

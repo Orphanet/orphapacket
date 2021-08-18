@@ -1,77 +1,80 @@
 Orphapacket:
-  ORPHApacketId: '2407'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2407'
-  Label: LOC syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_2407
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: LOGIC syndrome
-  - Synonym: Laryngeal and ocular granulation tissue in children from the Indian subcontinent
-      syndrome
-  - Synonym: Laryngo-onycho-cutaneous syndrome
-  - Synonym: Shabbir syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '245660'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: LOC syndrome is a subtype of junctional epidermolysis bullosa (JEB see
-      this term) characterized by an altered cry in the neonatal period and by aberrant
-      production of granulation tissue in particular affecting the upper airway tract
-      conjunctiva and periungual/subungual sites.
-  Genes:
-  - Gene:
-      Symbol: LAMA3
-      Name: laminin subunit alpha 3
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98610'
-      Label: Rare disorder with conjunctival involvement as a major feature
-  - Parent:
-    - ORPHAcode: '522542'
-      Label: Rare genetic disorder with conjunctival involvement as a major feature
-  - Parent:
-    - ORPHAcode: '108993'
-      Label: Non-syndromic respiratory or mediastinal malformation
-  - Parent:
-    - ORPHAcode: '305'
-      Label: Junctional epidermolysis bullosa
-  - Parent:
-    - ORPHAcode: '183622'
-      Label: Genetic respiratory malformation
-  - Parent:
-    - ORPHAcode: '108995'
-      Label: Syndromic respiratory or mediastinal malformation
-  - Parent:
-    - ORPHAcode: '182111'
-      Label: Respiratory malformation
-  Prevalences:
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '245660'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: laminin subunit alpha 3
+      Symbol: LAMA3
+  Label: Laryngo-onycho-cutaneous syndrome
+  ORPHAcode: '2407'
+  ORPHApacketId: '2407'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2407
+  Parents:
+  - Parent:
+    - Label: Rare disorder with conjunctival involvement as a major feature
+      ORPHAcode: '98610'
+  - Parent:
+    - Label: Rare genetic disorder with conjunctival involvement as a major feature
+      ORPHAcode: '522542'
+  - Parent:
+    - Label: Non-syndromic respiratory or mediastinal malformation
+      ORPHAcode: '108993'
+  - Parent:
+    - Label: Junctional epidermolysis bullosa
+      ORPHAcode: '305'
+  - Parent:
+    - Label: Genetic respiratory malformation
+      ORPHAcode: '183622'
+  - Parent:
+    - Label: Syndromic respiratory or mediastinal malformation
+      ORPHAcode: '108995'
+  - Parent:
+    - Label: Respiratory malformation
+      ORPHAcode: '182111'
+  - Parent:
+    - Label: Rare disease with odontological manifestation
+      ORPHAcode: '98027'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: LOC syndrome
+  - Synonym: LOGIC syndrome
+  - Synonym: Laryngeal and ocular granulation tissue in children from the Indian subcontinent
+      syndrome
+  - Synonym: Shabbir syndrome
+  TextSection:
+    Contents: LOC syndrome is a subtype of junctional epidermolysis bullosa (JEB see
+      this term) characterized by an altered cry in the neonatal period and by aberrant
+      production of granulation tissue in particular affecting the upper airway tract
+      conjunctiva and periungual/subungual sites.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

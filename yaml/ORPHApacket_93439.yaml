@@ -1,90 +1,90 @@
 Orphapacket:
-  ORPHApacketId: '93439'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '93439'
-  Label: Campomelic dysplasia and related disorders
-  PURL: http://www.orpha.net/ORDO/Orphanet_93439
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Synonyms:
-  - Synonym: Bent bone dysplasia
-  Parents:
-  - Parent:
-    - ORPHAcode: '364526'
-      Label: Primary bone dysplasia
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11204'
+            Source: HGNC
+          - Reference: '608160'
+            Source: OMIM
+          Label: SRY-box transcription factor 9
+          Symbol: SOX9
       Label: Campomelic dysplasia
       ORPHAcode: '140'
-      Genes:
-      - Gene:
-          Label: SRY-box 9
-          Symbol: SOX9
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11204'
-          - Source: OMIM
-            Reference: '608160'
   - Child:
+      Genes: no data
       Label: Campomelia, Cumming type
       ORPHAcode: '1318'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Kyphomelic dysplasia
       ORPHAcode: '1801'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Congenital bowing of long bones
       ORPHAcode: '2292'
-      Genes: no data
   - Child:
-      Label: Parastremmatic dwarfism
-      ORPHAcode: '2646'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '18083'
+            Source: HGNC
+          - Reference: '605427'
+            Source: OMIM
           Label: transient receptor potential cation channel subfamily V member 4
           Symbol: TRPV4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18083'
-          - Source: OMIM
-            Reference: '605427'
+      Label: Parastremmatic dwarfism
+      ORPHAcode: '2646'
   - Child:
+      Genes: no data
       Label: Blount disease
       ORPHAcode: '2768'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Weismann-Netter syndrome
       ORPHAcode: '3344'
-      Genes: no data
   - Child:
-      Label: Stüve-Wiedemann syndrome
-      ORPHAcode: '3206'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6597'
+            Source: HGNC
+          - Reference: '151443'
+            Source: OMIM
           Label: LIF receptor subunit alpha
           Symbol: LIFR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6597'
-          - Source: OMIM
-            Reference: '151443'
+      Label: "St\xFCve-Wiedemann syndrome"
+      ORPHAcode: '3206'
   - Child:
-      Label: FGFR2-related bent bone dysplasia
-      ORPHAcode: '313855'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '3689'
+            Source: HGNC
+          - Reference: '176943'
+            Source: OMIM
           Label: fibroblast growth factor receptor 2
           Symbol: FGFR2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3689'
-          - Source: OMIM
-            Reference: '176943'
+      Label: FGFR2-related bent bone dysplasia
+      ORPHAcode: '313855'
   - Child:
+      Genes: no data
       Label: Severe lateral tibial bowing with short stature
       ORPHAcode: '324307'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Campomelic dysplasia and related disorders
+  ORPHAcode: '93439'
+  ORPHApacketId: '93439'
+  PURL: http://www.orpha.net/ORDO/Orphanet_93439
+  Parents:
+  - Parent:
+    - Label: Primary bone dysplasia
+      ORPHAcode: '364526'
+  Synonyms:
+  - Synonym: Bent bone dysplasia
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

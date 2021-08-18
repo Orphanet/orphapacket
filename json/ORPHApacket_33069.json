@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "33069",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "33069",
         "Label": "Dravet syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_33069",
@@ -12,9 +12,6 @@
             "PURL": "http://www.orpha.net/ORDO/Orphanet_377788"
         },
         "Synonyms": [
-            {
-                "Synonym": "DS"
-            },
             {
                 "Synonym": "SMEI"
             },
@@ -50,7 +47,7 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Dravet syndrome (DS) is a genetic epilepsy of childhood characterized by a variety of drug-resistant seizures often induced by fever presenting in previously healthy children and which frequently leads to cognitive and motor impairment."
+            "Contents": "A rare genetic developmental and epileptic encephalopathy characterized by infantile onset of intractable seizures that are often febrile and associated with cognitive and motor impairment."
         },
         "Genes": [
             {
@@ -77,14 +74,14 @@
             {
                 "Gene": {
                     "Symbol": "GABRA1",
-                    "Name": "gamma-aminobutyric acid type A receptor alpha1 subunit",
+                    "Name": "gamma-aminobutyric acid type A receptor subunit alpha1",
                     "ExternalReferences": []
                 }
             },
             {
                 "Gene": {
                     "Symbol": "GABRG2",
-                    "Name": "gamma-aminobutyric acid type A receptor gamma2 subunit",
+                    "Name": "gamma-aminobutyric acid type A receptor subunit gamma2",
                     "ExternalReferences": []
                 }
             },
@@ -225,7 +222,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0002123",
-                    "HPOTerm": "Generalized myoclonic seizures",
+                    "HPOTerm": "Generalized myoclonic seizure",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -302,7 +299,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0011172",
-                    "HPOTerm": "Complex febrile seizures",
+                    "HPOTerm": "Complex febrile seizure",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -435,7 +432,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0031475",
-                    "HPOTerm": "Nonconvulsive status epilepticus",
+                    "HPOTerm": "Status epilepticus without prominent motor symptoms",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -468,38 +465,18 @@
                 }
             }
         ],
-        "Prevalences": [
-            {
-                "Prevalence": {
-                    "Source": "22719002[PMID]",
+        "Prevalences": {
+            "Prevalence": [
+                {
+                    "Source": "PMID: 22719002; 25772213; 31302675",
                     "PrevalenceType": "Prevalence at birth",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 100 000",
-                    "ValMoy": "no data",
-                    "PrevalenceGeographic": "United Kingdom"
-                }
-            },
-            {
-                "Prevalence": {
-                    "Source": "ORPHANET",
-                    "PrevalenceType": "Prevalence at birth",
-                    "PrevalenceQualification": "Value and class",
-                    "PrevalenceClass": "1-9 / 100 000",
-                    "ValMoy": "no data",
-                    "PrevalenceGeographic": "Worldwide"
-                }
-            },
-            {
-                "Prevalence": {
-                    "Source": "ORPHANET",
-                    "PrevalenceType": "Point prevalence",
-                    "PrevalenceQualification": "Class only",
-                    "PrevalenceClass": "Unknown",
-                    "ValMoy": "no data",
+                    "ValMoy": "3.3",
                     "PrevalenceGeographic": "Europe"
                 }
-            }
-        ],
+            ]
+        },
         "AverageAgeOfOnsets": [
             {
                 "AverageAgeOfOnset": {

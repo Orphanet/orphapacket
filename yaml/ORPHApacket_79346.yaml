@@ -1,20 +1,25 @@
 Orphapacket:
-  ORPHApacketId: '79346'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79346'
-  Label: Chondrodysplasia punctata, tibial-metacarpal type
-  PURL: http://www.orpha.net/ORDO/Orphanet_79346
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '118651'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Chondrodysplasia punctata, tibial-metacarpal type
+  ORPHAcode: '79346'
+  ORPHApacketId: '79346'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79346
+  Parents:
+  - Parent:
+    - Label: Non-rhizomelic chondrodysplasia punctata
+      ORPHAcode: '176'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare non-rhizomelic chondrodysplasia punctata syndrome characterized
       radiologically by stippled calcifications and disproportionate short metacarpals
       and tibiae (with characteristic overshoot of the proximal fibula) clincially
@@ -23,15 +28,10 @@ Orphapacket:
       Neonatal tachnypnea hydrocephalus and mild developmental delay have been seldomly
       associated. Additional radiologic features include bowed long bones platyspondyly
       and/or vertebral clefts.
-  Parents:
-  - Parent:
-    - ORPHAcode: '176'
-      Label: Non-rhizomelic chondrodysplasia punctata
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Antenatal
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Unknown
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

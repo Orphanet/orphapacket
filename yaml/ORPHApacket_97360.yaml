@@ -1,145 +1,406 @@
 Orphapacket:
-  ORPHApacketId: '97360'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '97360'
-  Label: Robinow syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_97360
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '10257'
+            Source: HGNC
+          - Reference: '602337'
+            Source: OMIM
+          Label: receptor tyrosine kinase like orphan receptor 2
+          Symbol: ROR2
+      - Gene:
+          ExternalReferences:
+          - Reference: '18008'
+            Source: HGNC
+          - Reference: '612895'
+            Source: OMIM
+          Label: nucleoredoxin
+          Symbol: NXN
+      Label: Autosomal recessive Robinow syndrome
+      ORPHAcode: '1507'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '3087'
+            Source: HGNC
+          - Reference: '601368'
+            Source: OMIM
+          Label: dishevelled segment polarity protein 3
+          Symbol: DVL3
+      - Gene:
+          ExternalReferences:
+          - Reference: '12784'
+            Source: HGNC
+          - Reference: '164975'
+            Source: OMIM
+          Label: Wnt family member 5A
+          Symbol: WNT5A
+      - Gene:
+          ExternalReferences:
+          - Reference: '3084'
+            Source: HGNC
+          - Reference: '601365'
+            Source: OMIM
+          Label: dishevelled segment polarity protein 1
+          Symbol: DVL1
+      - Gene:
+          ExternalReferences:
+          - Reference: '600667'
+            Source: OMIM
+          - Reference: '4040'
+            Source: HGNC
+          Label: frizzled class receptor 2
+          Symbol: FZD2
+      Label: Autosomal dominant Robinow syndrome
+      ORPHAcode: '3107'
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '616894'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '180700'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '268310'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '616331'
+      Source: OMIM
+  Label: Robinow syndrome
+  ORPHAcode: '97360'
+  ORPHApacketId: '97360'
+  PURL: http://www.orpha.net/ORDO/Orphanet_97360
+  Parents:
+  - Parent:
+    - Label: Malformation syndrome with short stature
+      ORPHAcode: '139021'
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-variable intellectual
+        disability syndrome
+      ORPHAcode: '102284'
+  - Parent:
+    - Label: Mesomelic and rhizo-mesomelic dysplasia
+      ORPHAcode: '93438'
+  - Parent:
+    - Label: Genetic malformation syndrome with short stature
+      ORPHAcode: '183570'
+  - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-variable intellectual
+        disability syndrome
+      ORPHAcode: '330197'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003027
+      HPOTerm: Mesomelia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000316
+      HPOTerm: Hypertelorism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001518
+      HPOTerm: Small for gestational age
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003086
+      HPOTerm: Acromesomelia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003241
+      HPOTerm: External genital hypoplasia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005011
+      HPOTerm: Mesomelic arm shortening
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000028
+      HPOTerm: Cryptorchidism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000046
+      HPOTerm: Scrotal hypoplasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000054
+      HPOTerm: Micropenis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000059
+      HPOTerm: Hypoplastic labia majora
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000060
+      HPOTerm: Clitoral hypoplasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000126
+      HPOTerm: Hydronephrosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000187
+      HPOTerm: Broad alveolar ridges
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000202
+      HPOTerm: Oral cleft
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000207
+      HPOTerm: Triangular mouth
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000212
+      HPOTerm: Gingival overgrowth
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000256
+      HPOTerm: Macrocephaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000343
+      HPOTerm: Long philtrum
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000347
+      HPOTerm: Micrognathia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000358
+      HPOTerm: Posteriorly rotated ears
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000369
+      HPOTerm: Low-set ears
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000454
+      HPOTerm: Flared nostrils
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000455
+      HPOTerm: Broad nasal tip
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000463
+      HPOTerm: Anteverted nares
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000520
+      HPOTerm: Proptosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000668
+      HPOTerm: Hypodontia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000678
+      HPOTerm: Dental crowding
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000689
+      HPOTerm: Dental malocclusion
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000692
+      HPOTerm: Misalignment of teeth
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000902
+      HPOTerm: Rib fusion
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000921
+      HPOTerm: Missing ribs
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001156
+      HPOTerm: Brachydactyly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001159
+      HPOTerm: Syndactyly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001627
+      HPOTerm: Abnormal heart morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001629
+      HPOTerm: Ventricular septal defect
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001631
+      HPOTerm: Atrial septal defect
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001642
+      HPOTerm: Pulmonic stenosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001680
+      HPOTerm: Coarctation of aorta
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001792
+      HPOTerm: Small nail
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002007
+      HPOTerm: Frontal bossing
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002164
+      HPOTerm: Nail dysplasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002751
+      HPOTerm: Kyphoscoliosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002937
+      HPOTerm: Hemivertebrae
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003196
+      HPOTerm: Short nose
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005280
+      HPOTerm: Depressed nasal bridge
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006439
+      HPOTerm: Radioulnar dislocation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009611
+      HPOTerm: Bifid distal phalanx of the thumb
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009882
+      HPOTerm: Short distal phalanx of finger
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009890
+      HPOTerm: High anterior hairline
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010296
+      HPOTerm: Ankyloglossia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010297
+      HPOTerm: Bifid tongue
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010882
+      HPOTerm: Pulmonary valve atresia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011662
+      HPOTerm: Tricuspid atresia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011800
+      HPOTerm: Midface retrusion
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030039
+      HPOTerm: Fused thoracic vertebrae
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030264
+      HPOTerm: Webbed penis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000003
+      HPOTerm: Multicystic kidney dysplasia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000410
+      HPOTerm: Mixed hearing impairment
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001537
+      HPOTerm: Umbilical hernia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0006291
+      HPOTerm: Marked delay in eruption of permanent teeth
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0006335
+      HPOTerm: Persistence of primary teeth
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0012758
+      HPOTerm: Neurodevelopmental delay
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0040171
+      HPOTerm: Decreased serum testosterone level
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: Acral dysostosis with facial and genital abnormalities
   - Synonym: Fetal face syndrome
   - Synonym: Mesomelic dwarfism-small genitalia syndrome
   - Synonym: Robinow dwarfism
   - Synonym: Robinow-Silverman-Smith syndrome
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '616894'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '180700'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '268310'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '616331'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
   TextSection:
-    TextSectionType: Definition
     Contents: Robinow syndrome (RS) is a rare genetic syndrome characterized by limb
       shortening and abnormalities of the head face and external genitalia.
-  Parents:
-  - Parent:
-    - ORPHAcode: '139021'
-      Label: Malformation syndrome with short stature
-  - Parent:
-    - ORPHAcode: '102284'
-      Label: Multiple congenital anomalies/dysmorphic syndrome-variable intellectual
-        disability syndrome
-  - Parent:
-    - ORPHAcode: '93438'
-      Label: Mesomelic and rhizo-mesomelic dysplasia
-  - Parent:
-    - ORPHAcode: '183570'
-      Label: Genetic malformation syndrome with short stature
-  - Parent:
-    - ORPHAcode: '330197'
-      Label: Genetic multiple congenital anomalies/dysmorphic syndrome-variable intellectual
-        disability syndrome
-  Childs:
-  - Child:
-      Label: Autosomal recessive Robinow syndrome
-      ORPHAcode: '1507'
-      Genes:
-      - Gene:
-          Label: receptor tyrosine kinase like orphan receptor 2
-          Symbol: ROR2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10257'
-          - Source: OMIM
-            Reference: '602337'
-      - Gene:
-          Label: nucleoredoxin
-          Symbol: NXN
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18008'
-          - Source: OMIM
-            Reference: '612895'
-  - Child:
-      Label: Autosomal dominant Robinow syndrome
-      ORPHAcode: '3107'
-      Genes:
-      - Gene:
-          Label: dishevelled segment polarity protein 3
-          Symbol: DVL3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3087'
-          - Source: OMIM
-            Reference: '601368'
-      - Gene:
-          Label: Wnt family member 5A
-          Symbol: WNT5A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12784'
-          - Source: OMIM
-            Reference: '164975'
-      - Gene:
-          Label: dishevelled segment polarity protein 1
-          Symbol: DVL1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3084'
-          - Source: OMIM
-            Reference: '601365'
-      - Gene:
-          Label: frizzled class receptor 2
-          Symbol: FZD2
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '600667'
-          - Source: HGNC
-            Reference: '4040'
-  Prevalences:
-  - Prevalence:
-      Source: '[EXPERT]'
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

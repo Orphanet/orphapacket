@@ -1,105 +1,113 @@
 Orphapacket:
-  ORPHApacketId: '3231'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3231'
-  Label: Deafness-onychodystrophy syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_3231
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '854'
+            Source: HGNC
+          - Reference: '606939'
+            Source: OMIM
+          Label: ATPase H+ transporting V1 subunit B2
+          Symbol: ATP6V1B2
+      Label: Autosomal dominant deafness-onychodystrophy syndrome
+      ORPHAcode: '79499'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '854'
+            Source: HGNC
+          - Reference: '606939'
+            Source: OMIM
+          Label: ATPase H+ transporting V1 subunit B2
+          Symbol: ATP6V1B2
+      - Gene:
+          ExternalReferences:
+          - Reference: '29203'
+            Source: HGNC
+          - Reference: '613577'
+            Source: OMIM
+          Label: TBC1 domain family member 24
+          Symbol: TBC1D24
+      Label: DOORS syndrome
+      ORPHAcode: '79500'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Synonyms:
-  - Synonym: Hearing loss-onychodystrophy syndrome
+    value: Clinical group
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
       Reference: '124480'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
       Source: OMIM
-      Reference: '220500'
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
+      Reference: '220500'
+      Source: OMIM
+  Label: Deafness-onychodystrophy syndrome
+  ORPHAcode: '3231'
+  ORPHApacketId: '3231'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3231
+  Parents:
+  - Parent:
+    - Label: Syndromic nail anomaly
+      ORPHAcode: '79370'
+  - Parent:
+    - Label: Ectodermal dysplasia syndrome
+      ORPHAcode: '79373'
+  - Parent:
+    - Label: Rare syndromic intellectual disability
+      ORPHAcode: '102369'
+  - Parent:
+    - Label: Syndromic genetic deafness
+      ORPHAcode: '90642'
+  - Parent:
+    - Label: Rare genetic syndromic intellectual disability
+      ORPHAcode: '183763'
+  - Parent:
+    - Label: Syndromic genetic cataract
+      ORPHAcode: '522548'
+  - Parent:
+    - Label: Syndromic cataract
+      ORPHAcode: '98641'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Hearing loss-onychodystrophy syndrome
   TextSection:
-    TextSectionType: Definition
     Contents: Deafness-onychodystrophy syndrome is a group of rare genetic developmental
       defect during embryogenesis disorders characterized by the association of sensorineural
       deafness and onychodystrophy (e.g. absent/hypoplastic finger and toenails) as
       well as brachydactyly and finger-like thumbs. Additional features present in
       one of the diseases comprising this group include osteodystrophy intellectual
       disability seizures developmental delay and distinctive facies.
-  Parents:
-  - Parent:
-    - ORPHAcode: '79370'
-      Label: Syndromic nail anomaly
-  - Parent:
-    - ORPHAcode: '79373'
-      Label: Ectodermal dysplasia syndrome
-  - Parent:
-    - ORPHAcode: '102369'
-      Label: Rare syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '90642'
-      Label: Syndromic genetic deafness
-  - Parent:
-    - ORPHAcode: '183763'
-      Label: Rare genetic syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '522548'
-      Label: Syndromic genetic cataract
-  - Parent:
-    - ORPHAcode: '98641'
-      Label: Syndromic cataract
-  Childs:
-  - Child:
-      Label: Autosomal dominant deafness-onychodystrophy syndrome
-      ORPHAcode: '79499'
-      Genes:
-      - Gene:
-          Label: ATPase H+ transporting V1 subunit B2
-          Symbol: ATP6V1B2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '854'
-          - Source: OMIM
-            Reference: '606939'
-  - Child:
-      Label: DOORS syndrome
-      ORPHAcode: '79500'
-      Genes:
-      - Gene:
-          Label: TBC1 domain family member 24
-          Symbol: TBC1D24
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '29203'
-          - Source: OMIM
-            Reference: '613577'
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,71 +1,71 @@
 Orphapacket:
-  ORPHApacketId: '371212'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '371212'
-  Label: Congenital disorder of glycosylation with deafness as a major feature
-  PURL: http://www.orpha.net/ORDO/Orphanet_371212
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '8966'
+            Source: HGNC
+          - Reference: '605947'
+            Source: OMIM
+          Label: phosphatidylinositol glycan anchor biosynthesis class L
+          Symbol: PIGL
+      Label: CHIME syndrome
+      ORPHAcode: '3474'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '30220'
+            Source: HGNC
+          - Reference: '611908'
+            Source: OMIM
+          Label: RFT1 homolog
+          Symbol: RFT1
+      Label: RFT1-CDG
+      ORPHAcode: '244310'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '6545'
+            Source: HGNC
+          - Reference: '606973'
+            Source: OMIM
+          Label: component of oligomeric golgi complex 1
+          Symbol: COG1
+      Label: COG1-CDG
+      ORPHAcode: '263508'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '17198'
+            Source: HGNC
+          - Reference: '608183'
+            Source: OMIM
+          Label: chondroitin sulfate synthase 1
+          Symbol: CHSY1
+      Label: Temtamy preaxial brachydactyly syndrome
+      ORPHAcode: '363417'
   DisorderType:
-    value: Category
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Congenital disorder of glycosylation with deafness as a major feature
+  ORPHAcode: '371212'
+  ORPHApacketId: '371212'
+  PURL: http://www.orpha.net/ORDO/Orphanet_371212
+  Parents:
+  - Parent:
+    - Label: Syndromic genetic deafness
+      ORPHAcode: '90642'
+  - Parent:
+    - Label: Congenital disorder of glycosylation with developmental anomaly
+      ORPHAcode: '371235'
   Synonyms:
   - Synonym: CDG with deafness as a major feature
   - Synonym: CDG with hearing loss as a major feature
   - Synonym: Congenital disorder of glycosylation with hearing loss as a major feature
-  Parents:
-  - Parent:
-    - ORPHAcode: '90642'
-      Label: Syndromic genetic deafness
-  - Parent:
-    - ORPHAcode: '371235'
-      Label: Congenital disorder of glycosylation with developmental anomaly
-  Childs:
-  - Child:
-      Label: CHIME syndrome
-      ORPHAcode: '3474'
-      Genes:
-      - Gene:
-          Label: phosphatidylinositol glycan anchor biosynthesis class L
-          Symbol: PIGL
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8966'
-          - Source: OMIM
-            Reference: '605947'
-  - Child:
-      Label: RFT1-CDG
-      ORPHAcode: '244310'
-      Genes:
-      - Gene:
-          Label: RFT1 homolog
-          Symbol: RFT1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '30220'
-          - Source: OMIM
-            Reference: '611908'
-  - Child:
-      Label: COG1-CDG
-      ORPHAcode: '263508'
-      Genes:
-      - Gene:
-          Label: component of oligomeric golgi complex 1
-          Symbol: COG1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6545'
-          - Source: OMIM
-            Reference: '606973'
-  - Child:
-      Label: Temtamy preaxial brachydactyly syndrome
-      ORPHAcode: '363417'
-      Genes:
-      - Gene:
-          Label: chondroitin sulfate synthase 1
-          Symbol: CHSY1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '17198'
-          - Source: OMIM
-            Reference: '608183'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

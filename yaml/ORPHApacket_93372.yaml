@@ -1,50 +1,50 @@
 Orphapacket:
-  ORPHApacketId: '93372'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '93372'
-  Label: Familial hypocalciuric hypercalcemia type 1
-  PURL: http://www.orpha.net/ORDO/Orphanet_93372
-  DisorderType:
-    value: Etiological subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377795
-  Synonyms:
-  - Synonym: FHH type 1
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '145980'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: CASR
-      Name: calcium sensing receptor
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '405'
-      Label: Familial hypocalciuric hypercalcemia
-  Prevalences:
-  - Prevalence:
-      Source: 21986511[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: 11353947[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: United Kingdom
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377795
+    value: Etiological subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '145980'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: calcium sensing receptor
+      Symbol: CASR
+  Label: Familial hypocalciuric hypercalcemia type 1
+  ORPHAcode: '93372'
+  ORPHApacketId: '93372'
+  PURL: http://www.orpha.net/ORDO/Orphanet_93372
+  Parents:
+  - Parent:
+    - Label: Familial hypocalciuric hypercalcemia
+      ORPHAcode: '405'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 21986511[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: United Kingdom
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 11353947[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: FHH type 1
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

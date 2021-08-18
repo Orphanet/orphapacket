@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "96061",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "96061",
         "Label": "Mosaic trisomy 8",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_96061",
@@ -24,7 +24,7 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Mosaic trisomy 8 is a chromosomal disorder defined by the presence of three copies of chromosome 8 in some cells of the organism. It is characterized by facial dysmorphism mild intellectual deficit and joint urinary cardiac and skeletal anomalies."
+            "Contents": "A rare autosomal anomaly defined by the presence of three copies of chromosome 8 in some cells of the body and clinically characterized by facial dysmorphism typically deep palmar and plantar creases mild intellectual deficit and joint urinary cardiac and skeletal anomalies."
         },
         "Parents": [
             {
@@ -32,14 +32,6 @@
                     {
                         "ORPHAcode": "98131",
                         "Label": "Total autosomal trisomy"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "261718",
-                        "Label": "Anomaly of chromosome 8"
                     }
                 ]
             }
@@ -340,28 +332,18 @@
                 }
             }
         ],
-        "Prevalences": [
-            {
-                "Prevalence": {
-                    "Source": "ORPHANET",
-                    "PrevalenceType": "Annual incidence",
-                    "PrevalenceQualification": "Value and class",
-                    "PrevalenceClass": "1-9 / 100 000",
-                    "ValMoy": "no data",
-                    "PrevalenceGeographic": "Europe"
-                }
-            },
-            {
-                "Prevalence": {
+        "Prevalences": {
+            "Prevalence": [
+                {
                     "Source": "ORPHANET",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "Unknown",
-                    "ValMoy": "no data",
+                    "ValMoy": "0.0",
                     "PrevalenceGeographic": "Worldwide"
                 }
-            }
-        ],
+            ]
+        },
         "AverageAgeOfOnsets": [
             {
                 "AverageAgeOfOnset": {
@@ -370,6 +352,18 @@
             },
             {
                 "AverageAgeOfOnset": {
+                    "value": "Neonatal"
+                }
+            }
+        ],
+        "AverageAgeOfDeaths": [
+            {
+                "AverageAgeOfDeath": {
+                    "value": "Infancy"
+                }
+            },
+            {
+                "AverageAgeOfDeath": {
                     "value": "Neonatal"
                 }
             }

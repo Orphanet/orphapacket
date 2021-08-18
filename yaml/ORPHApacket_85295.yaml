@@ -1,64 +1,64 @@
 Orphapacket:
-  ORPHApacketId: '85295'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '85295'
-  Label: HSD10 disease, atypical type
-  PURL: http://www.orpha.net/ORDO/Orphanet_85295
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: HSD10 deficiency, atypical type
-  - Synonym: Syndromic X-linked intellectual disability type 10
-  - Synonym: X-linked intellectual disability-choreoathetosis-abnormal behavior syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '300438'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  Genes:
-  - Gene:
-      Symbol: HSD17B10
-      Name: hydroxysteroid 17-beta dehydrogenase 10
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '391417'
-      Label: HSD10 disease
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000708
-      HPOTerm: Behavioral abnormality
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100022
-      HPOTerm: Abnormality of movement
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 27306202[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_ 27306202[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
   - AverageAgeOfOnset:
       value: Infancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '300438'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: hydroxysteroid 17-beta dehydrogenase 10
+      Symbol: HSD17B10
+  Label: HSD10 disease, atypical type
+  ORPHAcode: '85295'
+  ORPHApacketId: '85295'
+  PURL: http://www.orpha.net/ORDO/Orphanet_85295
+  Parents:
+  - Parent:
+    - Label: HSD10 disease
+      ORPHAcode: '391417'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000708
+      HPOTerm: Behavioral abnormality
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100022
+      HPOTerm: Abnormality of movement
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 27306202[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_ 27306202[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: HSD10 deficiency, atypical type
+  - Synonym: Syndromic X-linked intellectual disability type 10
+  - Synonym: X-linked intellectual disability-choreoathetosis-abnormal behavior syndrome
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

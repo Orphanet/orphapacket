@@ -1,36 +1,36 @@
 Orphapacket:
-  ORPHApacketId: '308386'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '308386'
-  Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency type A
-  PURL: http://www.orpha.net/ORDO/Orphanet_308386
   DisorderType:
-    value: Etiological subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377795
+    value: Etiological subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '252150'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: molybdenum cofactor synthesis 1
+      Symbol: MOCS1
+  Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency type A
+  ORPHAcode: '308386'
+  ORPHApacketId: '308386'
+  PURL: http://www.orpha.net/ORDO/Orphanet_308386
+  Parents:
+  - Parent:
+    - Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency
+      ORPHAcode: '99732'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_European Medicines Agency 2010[INST]
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Combined deficiency of sulfite oxidase, xanthine dehydrogenase and aldehyde
       oxidase type A
   - Synonym: MOCOD type A
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '252150'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: MOCS1
-      Name: molybdenum cofactor synthesis 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '99732'
-      Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET_European Medicines Agency 2010[INST]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

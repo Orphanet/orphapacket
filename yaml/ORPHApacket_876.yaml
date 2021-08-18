@@ -1,31 +1,40 @@
 Orphapacket:
-  ORPHApacketId: '876'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '876'
-  Label: Yolk sac tumor
-  PURL: http://www.orpha.net/ORDO/Orphanet_876
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Endodermal sinus tumor
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '273300'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  Parents:
-  - Parent:
-    - ORPHAcode: '99913'
-      Label: Extragonadal non-dysgerminomatous germ cell tumor
-  Childs:
-  - Child:
-      Label: Yolk sac tumor of central nervous system
-      ORPHAcode: '252006'
-      Genes: no data
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
   - AverageAgeOfOnset:
       value: Adult
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Yolk sac tumor of central nervous system
+      ORPHAcode: '252006'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '273300'
+    Source: OMIM
+  Label: Yolk sac tumor
+  ORPHAcode: '876'
+  ORPHApacketId: '876'
+  PURL: http://www.orpha.net/ORDO/Orphanet_876
+  Parents:
+  - Parent:
+    - Label: Extragonadal non-dysgerminomatous germ cell tumor
+      ORPHAcode: '99913'
+  Synonyms:
+  - Synonym: Endodermal sinus tumor
+  TextSection:
+    Contents: A rare germ cell tumor characterized by multiple patterns reflecting
+      endodermal extraembryonal differentiation (secondary yolk sac and allantois)
+      or endodermal somatic tissues (intestine liver and mesenchyme). The tumors most
+      commonly occur in the second or third decade of life. They are typically located
+      in the gonads occasionally also in other regions. Patients present with a pelvic
+      mass and/or abdominal pain (females) or an often painless unilateral testicular
+      mass (males). Elevated serum alpha fetoprotein is a common laboratory finding.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

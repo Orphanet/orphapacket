@@ -1,90 +1,90 @@
 Orphapacket:
-  ORPHApacketId: '401854'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '401854'
-  Label: Lipoic acid biosynthesis defect
-  PURL: http://www.orpha.net/ORDO/Orphanet_401854
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Lipoate biosynthesis defect
-  Parents:
-  - Parent:
-    - ORPHAcode: '68380'
-      Label: Mitochondrial disease
-  Childs:
-  - Child:
-      Label: Pyruvate dehydrogenase E3 deficiency
-      ORPHAcode: '2394'
-      Genes:
-      - Gene:
-          Label: dihydrolipoamide dehydrogenase
-          Symbol: DLD
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2898'
-          - Source: OMIM
-            Reference: '238331'
-  - Child:
-      Label: Multiple mitochondrial dysfunctions syndrome
-      ORPHAcode: '289573'
-      Genes: no data
-  - Child:
-      Label: Lipoic acid synthetase deficiency
-      ORPHAcode: '401859'
-      Genes:
-      - Gene:
-          Label: lipoic acid synthetase
-          Symbol: LIAS
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '16429'
-          - Source: OMIM
-            Reference: '607031'
-  - Child:
-      Label: Lipoyl transferase 1 deficiency
-      ORPHAcode: '401862'
-      Genes:
-      - Gene:
-          Label: lipoyltransferase 1
-          Symbol: LIPT1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '29569'
-          - Source: OMIM
-            Reference: '610284'
-  - Child:
-      Label: Childhood-onset spasticity with hyperglycinemia
-      ORPHAcode: '401866'
-      Genes:
-      - Gene:
-          Label: glutaredoxin 5
-          Symbol: GLRX5
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '20134'
-          - Source: OMIM
-            Reference: '609588'
-  - Child:
-      Label: MEPAN syndrome
-      ORPHAcode: '508093'
-      Genes:
-      - Gene:
-          Label: mitochondrial trans-2-enoyl-CoA reductase
-          Symbol: MECR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '19691'
-          - Source: OMIM
-            Reference: '608205'
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
   - AverageAgeOfOnset:
       value: Neonatal
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '2898'
+            Source: HGNC
+          - Reference: '238331'
+            Source: OMIM
+          Label: dihydrolipoamide dehydrogenase
+          Symbol: DLD
+      Label: Pyruvate dehydrogenase E3 deficiency
+      ORPHAcode: '2394'
+  - Child:
+      Genes: no data
+      Label: Multiple mitochondrial dysfunctions syndrome
+      ORPHAcode: '289573'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '16429'
+            Source: HGNC
+          - Reference: '607031'
+            Source: OMIM
+          Label: lipoic acid synthetase
+          Symbol: LIAS
+      Label: Lipoic acid synthetase deficiency
+      ORPHAcode: '401859'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '29569'
+            Source: HGNC
+          - Reference: '610284'
+            Source: OMIM
+          Label: lipoyltransferase 1
+          Symbol: LIPT1
+      Label: Lipoyl transferase 1 deficiency
+      ORPHAcode: '401862'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '20134'
+            Source: HGNC
+          - Reference: '609588'
+            Source: OMIM
+          Label: glutaredoxin 5
+          Symbol: GLRX5
+      Label: Childhood-onset spasticity with hyperglycinemia
+      ORPHAcode: '401866'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '19691'
+            Source: HGNC
+          - Reference: '608205'
+            Source: OMIM
+          Label: mitochondrial trans-2-enoyl-CoA reductase
+          Symbol: MECR
+      Label: MEPAN syndrome
+      ORPHAcode: '508093'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Lipoic acid biosynthesis defect
+  ORPHAcode: '401854'
+  ORPHApacketId: '401854'
+  PURL: http://www.orpha.net/ORDO/Orphanet_401854
+  Parents:
+  - Parent:
+    - Label: Mitochondrial disease
+      ORPHAcode: '68380'
+  Synonyms:
+  - Synonym: Lipoate biosynthesis defect
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

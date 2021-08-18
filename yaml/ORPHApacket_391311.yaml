@@ -1,37 +1,37 @@
 Orphapacket:
-  ORPHApacketId: '391311'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '391311'
-  Label: Susceptibility to viral and mycobacterial infections due to STAT1 deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_391311
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '613796'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: signal transducer and activator of transcription 1
+      Symbol: STAT1
+  Label: Susceptibility to viral and mycobacterial infections due to STAT1 deficiency
+  ORPHAcode: '391311'
+  ORPHApacketId: '391311'
+  PURL: http://www.orpha.net/ORDO/Orphanet_391311
+  Parents:
+  - Parent:
+    - Label: Genetic susceptibility to infections due to particular pathogens
+      ORPHAcode: '183710'
   Synonyms:
   - Synonym: Predisposition to severe viral infection due to STAT1 deficiency
   - Synonym: STAT1 deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '613796'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Susceptibility to viral and mycobacterial infections is a rare genetic
       primary immunodeficiency due to a defect in innate immunity disorder characterized
       by impaired intracellular signaling from both type I and type II interferons
       leading to early-onset severe life-threatening intracellular bacterial (typically
       mycobacteria) and viral (mainly herpes viruses) infections.
-  Genes:
-  - Gene:
-      Symbol: STAT1
-      Name: signal transducer and activator of transcription 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '183710'
-      Label: Genetic susceptibility to infections due to particular pathogens
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

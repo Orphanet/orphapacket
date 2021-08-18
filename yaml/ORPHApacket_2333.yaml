@@ -1,29 +1,81 @@
 Orphapacket:
-  ORPHApacketId: '2333'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2333'
-  Label: Kenny-Caffey syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_2333
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11582'
+            Source: HGNC
+          - Reference: '604934'
+            Source: OMIM
+          Label: tubulin folding cofactor E
+          Symbol: TBCE
+      Label: Autosomal recessive Kenny-Caffey syndrome
+      ORPHAcode: '93324'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '24725'
+            Source: HGNC
+          - Reference: '615292'
+            Source: OMIM
+          Label: FAM111 trypsin like peptidase A
+          Symbol: FAM111A
+      Label: Autosomal dominant Kenny-Caffey syndrome
+      ORPHAcode: '93325'
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: Kenny syndrome
+    value: Malformation syndrome
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
       Reference: '244460'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
       Source: OMIM
-      Reference: '127000'
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
+      Reference: '127000'
+      Source: OMIM
+  Label: Kenny-Caffey syndrome
+  ORPHAcode: '2333'
+  ORPHApacketId: '2333'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2333
+  Parents:
+  - Parent:
+    - Label: Slender bone dysplasia
+      ORPHAcode: '93440'
+  - Parent:
+    - Label: Malformation syndrome with short stature
+      ORPHAcode: '139021'
+  - Parent:
+    - Label: Syndrome with hypoparathyroidism
+      ORPHAcode: '181402'
+  - Parent:
+    - Label: Genetic malformation syndrome with short stature
+      ORPHAcode: '183570'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 22522175[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Kenny syndrome
   TextSection:
-    TextSectionType: Definition
     Contents: A rare primary bone dysplasia syndrome characterized by growth retardation
       with proportionate short stature cortical thickening and medullary stenosis
       of the long bones delayed anterior fontanelle closure hypocalcemia due to congenital
@@ -34,64 +86,12 @@ Orphapacket:
       disease. Inheritance may be autosomal dominant or autosomal recessive with more
       severe growth retardation small hands and feet intellectual disability microcephaly
       and recurrent bacterial infections being observed in the latter.
-  Parents:
-  - Parent:
-    - ORPHAcode: '93440'
-      Label: Slender bone dysplasia
-  - Parent:
-    - ORPHAcode: '139021'
-      Label: Malformation syndrome with short stature
-  - Parent:
-    - ORPHAcode: '181402'
-      Label: Syndrome with hypoparathyroidism
-  - Parent:
-    - ORPHAcode: '183570'
-      Label: Genetic malformation syndrome with short stature
-  Childs:
-  - Child:
-      Label: Autosomal recessive Kenny-Caffey syndrome
-      ORPHAcode: '93324'
-      Genes:
-      - Gene:
-          Label: tubulin folding cofactor E
-          Symbol: TBCE
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11582'
-          - Source: OMIM
-            Reference: '604934'
-  - Child:
-      Label: Autosomal dominant Kenny-Caffey syndrome
-      ORPHAcode: '93325'
-      Genes:
-      - Gene:
-          Label: family with sequence similarity 111 member A
-          Symbol: FAM111A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '24725'
-          - Source: OMIM
-            Reference: '615292'
-  Prevalences:
-  - Prevalence:
-      Source: 22522175[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

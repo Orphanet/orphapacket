@@ -1,39 +1,39 @@
 Orphapacket:
-  ORPHApacketId: '269190'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '269190'
-  Label: Encephaloclastic disorder
-  PURL: http://www.orpha.net/ORDO/Orphanet_269190
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '199633'
-      Label: Non-syndromic cerebral malformation
-  - Parent:
-    - ORPHAcode: '269553'
-      Label: Genetic cerebral malformation
   Childs:
   - Child:
+      Genes: no data
       Label: Schizencephaly
       ORPHAcode: '799'
-      Genes: no data
   - Child:
-      Label: Hydranencephaly
-      ORPHAcode: '2177'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '17619'
+            Source: HGNC
+          - Reference: '609449'
+            Source: OMIM
           Label: nudE neurodevelopment protein 1
           Symbol: NDE1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '17619'
-          - Source: OMIM
-            Reference: '609449'
+      Label: Hydranencephaly
+      ORPHAcode: '2177'
   - Child:
+      Genes: no data
       Label: Porencephaly
       ORPHAcode: '2940'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Encephaloclastic disorder
+  ORPHAcode: '269190'
+  ORPHApacketId: '269190'
+  PURL: http://www.orpha.net/ORDO/Orphanet_269190
+  Parents:
+  - Parent:
+    - Label: Non-syndromic cerebral malformation
+      ORPHAcode: '199633'
+  - Parent:
+    - Label: Genetic cerebral malformation
+      ORPHAcode: '269553'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

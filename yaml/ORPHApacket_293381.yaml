@@ -1,59 +1,104 @@
 Orphapacket:
-  ORPHApacketId: '293381'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '293381'
-  Label: Epithelial recurrent erosion dystrophy
-  PURL: http://www.orpha.net/ORDO/Orphanet_293381
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '122400'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: collagen type XVII alpha 1 chain
+      Symbol: COL17A1
+  Label: Epithelial recurrent erosion dystrophy
+  ORPHAcode: '293381'
+  ORPHApacketId: '293381'
+  PURL: http://www.orpha.net/ORDO/Orphanet_293381
+  Parents:
+  - Parent:
+    - Label: Genetic superficial corneal dystrophy
+      ORPHAcode: '522562'
+  - Parent:
+    - Label: Superficial corneal dystrophy
+      ORPHAcode: '98625'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0200026
+      HPOTerm: Ocular pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009926
+      HPOTerm: Epiphora
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000613
+      HPOTerm: Photophobia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001131
+      HPOTerm: Corneal dystrophy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000622
+      HPOTerm: Blurred vision
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008039
+      HPOTerm: Subepithelial corneal opacities
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000495
+      HPOTerm: Recurrent corneal erosions
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000559
+      HPOTerm: Corneal scarring
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000529
+      HPOTerm: Progressive visual loss
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0031792
+      HPOTerm: Irregular astigmatism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001097
+      HPOTerm: Keratoconjunctivitis sicca
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 18700883[PMID]_6887751[PMID]_12035594[PMID]_18700883[PMID]_187789[PMID]_19710953[PMID]_20597871[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: Dystrophia Helsinglandica
   - Synonym: Dystrophia Smolandiensis
   - Synonym: ERED
   - Synonym: Recurrent hereditary corneal erosions
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '122400'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Epithelial recurrent erosion dystrophy (ERED) is a rare form of superficial
       corneal dystrophy (see this term) characterized by recurrent episodes of epithelial
       erosions from childhood in the absence of associated diseases with occasional
       impairment of vision.
-  Genes:
-  - Gene:
-      Symbol: COL17A1
-      Name: collagen type XVII alpha 1 chain
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '522562'
-      Label: Genetic superficial corneal dystrophy
-  - Parent:
-    - ORPHAcode: '98625'
-      Label: Superficial corneal dystrophy
-  Prevalences:
-  - Prevalence:
-      Source: 18700883[PMID]_6887751[PMID]_12035594[PMID]_18700883[PMID]_187789[PMID]_19710953[PMID]_20597871[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

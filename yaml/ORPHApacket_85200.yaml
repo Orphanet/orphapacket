@@ -1,40 +1,40 @@
 Orphapacket:
-  ORPHApacketId: '85200'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '85200'
-  Label: Ischiovertebral syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_85200
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: BMP binding endothelial regulator
+      Symbol: BMPER
+  Label: Ischiovertebral syndrome
+  ORPHAcode: '85200'
+  ORPHApacketId: '85200'
+  PURL: http://www.orpha.net/ORDO/Orphanet_85200
+  Parents:
+  - Parent:
+    - Label: Dysostosis with predominant vertebral and costal involvement
+      ORPHAcode: '93454'
   Synonyms:
   - Synonym: Ischiospinal dysostosis
   - Synonym: Ischiovertebral dysplasia
   TextSection:
-    TextSectionType: Definition
     Contents: Ischio-vertebral syndrome is a very rare poorly-defined bone disease
       characterized by ischial aplasia or hypoplasia vertebral anomalies (vertebral
       malsegmentation kyphoscoliosis) and in some patients non-distinctive facial
       dysmorphism.
-  Genes:
-  - Gene:
-      Symbol: BMPER
-      Name: BMP binding endothelial regulator
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '93454'
-      Label: Dysostosis with predominant vertebral and costal involvement
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

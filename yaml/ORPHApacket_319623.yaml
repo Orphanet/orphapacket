@@ -1,50 +1,50 @@
 Orphapacket:
-  ORPHApacketId: '319623'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '319623'
-  Label: X-linked mendelian susceptibility to mycobacterial diseases due to CYBB deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_319623
-  DisorderType:
-    value: Etiological subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377795
-  Synonyms:
-  - Synonym: X-linked MSMD due to CYBB deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '300645'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: CYBB
-      Name: cytochrome b-245 beta chain
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '319605'
-      Label: X-linked mendelian susceptibility to mycobacterial diseases
-  Prevalences:
-  - Prevalence:
-      Source: 21278736[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_21278736[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Infancy
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Infancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377795
+    value: Etiological subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '300645'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: cytochrome b-245 beta chain
+      Symbol: CYBB
+  Label: X-linked mendelian susceptibility to mycobacterial diseases due to CYBB deficiency
+  ORPHAcode: '319623'
+  ORPHApacketId: '319623'
+  PURL: http://www.orpha.net/ORDO/Orphanet_319623
+  Parents:
+  - Parent:
+    - Label: X-linked mendelian susceptibility to mycobacterial diseases
+      ORPHAcode: '319605'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 21278736[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_21278736[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: X-linked MSMD due to CYBB deficiency
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

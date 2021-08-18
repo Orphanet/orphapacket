@@ -1,147 +1,167 @@
 Orphapacket:
-  ORPHApacketId: '54370'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '54370'
-  Label: Primary membranoproliferative glomerulonephritis
-  PURL: http://www.orpha.net/ORDO/Orphanet_54370
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Mesangiocapillary glomerulonephritis
-  - Synonym: Primary MPGN
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '305800'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '609814'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '614809'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '615008'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Membranoproliferative glomerulonephritis (MPGN) is a chronic progressive
-      kidney disorder characterized by glomerular capillary wall structural changes
-      and mesangial cell proliferation leading to nephrotic syndrome hypocomplementemia
-      hypertension proteinuria and end-stage kidney disease. MPGN can be due to either
-      idiopathic (type 1 2 and 3 MPGN; see these terms) or secondary (associated with
-      infectious and immune complex diseases) causes.
-  Parents:
-  - Parent:
-    - ORPHAcode: '93548'
-      Label: Glomerular disease
-  - Parent:
-    - ORPHAcode: '183586'
-      Label: Genetic glomerular disease
-  Childs:
-  - Child:
-      Label: Immunoglobulin-mediated membranoproliferative glomerulonephritis
-      ORPHAcode: '329903'
-      Genes:
-      - Gene:
-          Label: complement factor H
-          Symbol: CFH
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4883'
-          - Source: OMIM
-            Reference: '134370'
-      - Gene:
-          Label: diacylglycerol kinase epsilon
-          Symbol: DGKE
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2852'
-          - Source: OMIM
-            Reference: '601440'
-  - Child:
-      Label: C3 glomerulopathy
-      ORPHAcode: '329918'
-      Genes: no data
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000083
-      HPOTerm: Renal insufficiency
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000093
-      HPOTerm: Proteinuria
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000100
-      HPOTerm: Nephrotic syndrome
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000822
-      HPOTerm: Hypertension
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002907
-      HPOTerm: Microscopic hematuria
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0004746
-      HPOTerm: Glomerular subendothelial electron-dense deposits
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0005421
-      HPOTerm: Decreased serum complement C3
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012622
-      HPOTerm: Chronic kidney disease
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0030888
-      HPOTerm: C3 nephritic factor positivity
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001919
-      HPOTerm: Acute kidney injury
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003073
-      HPOTerm: Hypoalbuminemia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003774
-      HPOTerm: Stage 5 chronic kidney disease
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001658
-      HPOTerm: Myocardial infarction
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0001977
-      HPOTerm: Abnormal thrombosis
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0011510
-      HPOTerm: Drusen
-      HPOFrequency: Very rare (<4-1%)
-  Prevalences:
-    Prevalence:
-    - Source: European Medicines Agency 2012[INST]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: '16.0'
-      PrevalenceGeographic: Europe
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Adult
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '4883'
+            Source: HGNC
+          - Reference: '134370'
+            Source: OMIM
+          Label: complement factor H
+          Symbol: CFH
+      - Gene:
+          ExternalReferences:
+          - Reference: '2852'
+            Source: HGNC
+          - Reference: '601440'
+            Source: OMIM
+          Label: diacylglycerol kinase epsilon
+          Symbol: DGKE
+      Label: Immunoglobulin-mediated membranoproliferative glomerulonephritis
+      ORPHAcode: '329903'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '16980'
+            Source: HGNC
+          - Reference: '605336'
+            Source: OMIM
+          Label: complement factor H related 3
+          Symbol: CFHR3
+      - Gene:
+          ExternalReferences:
+          - Reference: '4890'
+            Source: HGNC
+          - Reference: '600889'
+            Source: OMIM
+          Label: complement factor H related 2
+          Symbol: CFHR2
+      Label: C3 glomerulopathy
+      ORPHAcode: '329918'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '305800'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '609814'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '614809'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '615008'
+      Source: OMIM
+  Label: Primary membranoproliferative glomerulonephritis
+  ORPHAcode: '54370'
+  ORPHApacketId: '54370'
+  PURL: http://www.orpha.net/ORDO/Orphanet_54370
+  Parents:
+  - Parent:
+    - Label: Glomerular disease
+      ORPHAcode: '93548'
+  - Parent:
+    - Label: Genetic glomerular disease
+      ORPHAcode: '183586'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000083
+      HPOTerm: Renal insufficiency
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000093
+      HPOTerm: Proteinuria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000100
+      HPOTerm: Nephrotic syndrome
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000822
+      HPOTerm: Hypertension
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002907
+      HPOTerm: Microscopic hematuria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004746
+      HPOTerm: Glomerular subendothelial electron-dense deposits
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005421
+      HPOTerm: Decreased serum complement C3
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012622
+      HPOTerm: Chronic kidney disease
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030888
+      HPOTerm: C3 nephritic factor positivity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001919
+      HPOTerm: Acute kidney injury
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003073
+      HPOTerm: Hypoalbuminemia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003774
+      HPOTerm: Stage 5 chronic kidney disease
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001658
+      HPOTerm: Myocardial infarction
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001977
+      HPOTerm: Abnormal thrombosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0011510
+      HPOTerm: Drusen
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: European Medicines Agency 2012[INST]
+      ValMoy: '16.0'
+  Synonyms:
+  - Synonym: Mesangiocapillary glomerulonephritis
+  - Synonym: Primary MPGN
+  TextSection:
+    Contents: 'A rare glomerular disease characterized by a pattern of glomerular
+      injury on kidney biopsy with characteristic light microscopic changes: mesangial
+      hypercellularity endocapillary proliferation and thickening of the glomerular
+      basement membrane (GBM). On the basis of immunofluorescence (IF) the disorder
+      is divided into C3 glomerulopathy (C3G) or immunoglobulin-mediated membranoproliferative
+      glomerulonephritis. Through electron microscopy C3G is further divided into
+      Dense deposit disease with highly electrondense deposits in the glomerular basement
+      membrane and C3 glomerulonephritis with mesangial intramembranous subendothelial
+      and subepithelial deposits. Secondary causes (autoimmune infectious malignancies)
+      are excluded.'
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,11 +1,11 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2745",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "2745",
-        "Label": "Opitz G/BBB syndrome",
+        "Label": "Opitz GBBB syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2745",
         "DisorderType": {
             "value": "Malformation syndrome",
@@ -13,16 +13,22 @@
         },
         "Synonyms": [
             {
+                "Synonym": "Hypertelorism-hypospadias syndrome"
+            },
+            {
                 "Synonym": "Hypertelorism-oesophageal abnormality-hypospadias syndrome"
             },
             {
                 "Synonym": "Hypospadias-dysphagia syndrome"
             },
             {
-                "Synonym": "Hypospadias-hypertelorism syndrome"
+                "Synonym": "Opitz BBB/G syndrome"
             },
             {
-                "Synonym": "Opitz syndrome"
+                "Synonym": "Opitz BBBG syndrome"
+            },
+            {
+                "Synonym": "Opitz G/BBB syndrome"
             },
             {
                 "Synonym": "Opitz-Frias syndrome"
@@ -52,8 +58,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "165707",
-                        "Label": "Syndromic urogenital tract malformation"
+                        "ORPHAcode": "117573",
+                        "Label": "Syndromic anorectal malformation"
                     }
                 ]
             },
@@ -76,8 +82,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "117573",
-                        "Label": "Syndromic anorectal malformation"
+                        "ORPHAcode": "165707",
+                        "Label": "Syndromic urogenital tract malformation"
                     }
                 ]
             },
@@ -98,75 +104,207 @@
                 ]
             }
         ],
-        "Childs": [
+        "Phenotypes": [
             {
-                "Child": {
-                    "Label": "Autosomal dominant Opitz G/BBB syndrome",
-                    "ORPHAcode": "306588",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "sperm antigen with calponin homology and coiled-coil domains 1 like",
-                                "Symbol": "SPECC1L",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "29022"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "614140"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
+                "Phenotype": {
+                    "HPOId": "HP:0000316",
+                    "HPOTerm": "Hypertelorism",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
-                "Child": {
-                    "Label": "X-linked Opitz G/BBB syndrome",
-                    "ORPHAcode": "306597",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "midline 1",
-                                "Symbol": "MID1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "7095"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "300552"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
+                "Phenotype": {
+                    "HPOId": "HP:0000343",
+                    "HPOTerm": "Long philtrum",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
-            }
-        ],
-        "Phenotypes": [
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000431",
+                    "HPOTerm": "Wide nasal bridge",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011220",
+                    "HPOTerm": "Prominent forehead",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000047",
                     "HPOTerm": "Hypospadias",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000175",
                     "HPOTerm": "Cleft palate",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000349",
+                    "HPOTerm": "Widow's peak",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000463",
+                    "HPOTerm": "Anteverted nares",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000506",
+                    "HPOTerm": "Telecanthus",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000508",
+                    "HPOTerm": "Ptosis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000736",
+                    "HPOTerm": "Short attention span",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001249",
+                    "HPOTerm": "Intellectual disability",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001273",
+                    "HPOTerm": "Abnormal corpus callosum morphology",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001328",
+                    "HPOTerm": "Specific learning disability",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001999",
+                    "HPOTerm": "Abnormal facial shape",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002119",
+                    "HPOTerm": "Ventriculomegaly",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004322",
+                    "HPOTerm": "Short stature",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008751",
+                    "HPOTerm": "Laryngeal cleft",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012758",
+                    "HPOTerm": "Neurodevelopmental delay",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0410030",
+                    "HPOTerm": "Cleft lip",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000023",
+                    "HPOTerm": "Inguinal hernia",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000202",
-                    "HPOTerm": "Oral cleft",
+                    "HPOId": "HP:0000028",
+                    "HPOTerm": "Cryptorchidism",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000048",
+                    "HPOTerm": "Bifid scrotum",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000049",
+                    "HPOTerm": "Shawl scrotum",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000076",
+                    "HPOTerm": "Vesicoureteral reflux",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000079",
+                    "HPOTerm": "Abnormality of the urinary system",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000119",
+                    "HPOTerm": "Abnormality of the genitourinary system",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000126",
+                    "HPOTerm": "Hydronephrosis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000218",
+                    "HPOTerm": "High palate",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -179,16 +317,30 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000286",
-                    "HPOTerm": "Epicanthus",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0000252",
+                    "HPOTerm": "Microcephaly",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000316",
-                    "HPOTerm": "Hypertelorism",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0000347",
+                    "HPOTerm": "Micrognathia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000358",
+                    "HPOTerm": "Posteriorly rotated ears",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000365",
+                    "HPOTerm": "Hearing impairment",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -200,27 +352,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000407",
-                    "HPOTerm": "Sensorineural hearing impairment",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000431",
-                    "HPOTerm": "Wide nasal bridge",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000463",
-                    "HPOTerm": "Anteverted nares",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000494",
                     "HPOTerm": "Downslanted palpebral fissures",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -228,65 +359,163 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000506",
-                    "HPOTerm": "Telecanthus",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000600",
-                    "HPOTerm": "Abnormality of the pharynx",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000668",
-                    "HPOTerm": "Hypodontia",
+                    "HPOId": "HP:0000729",
+                    "HPOTerm": "Autistic behavior",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000767",
-                    "HPOTerm": "Pectus excavatum",
+                    "HPOId": "HP:0000776",
+                    "HPOTerm": "Congenital diaphragmatic hernia",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000768",
-                    "HPOTerm": "Pectus carinatum",
+                    "HPOId": "HP:0001274",
+                    "HPOTerm": "Agenesis of corpus callosum",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001249",
-                    "HPOTerm": "Intellectual disability",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0001305",
+                    "HPOTerm": "Dandy-Walker malformation",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001263",
-                    "HPOTerm": "Global developmental delay",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0001363",
+                    "HPOTerm": "Craniosynostosis",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001608",
-                    "HPOTerm": "Abnormality of the voice",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0001537",
+                    "HPOTerm": "Umbilical hernia",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002093",
-                    "HPOTerm": "Respiratory insufficiency",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0001539",
+                    "HPOTerm": "Omphalocele",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001627",
+                    "HPOTerm": "Abnormal heart morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001629",
+                    "HPOTerm": "Ventricular septal defect",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001631",
+                    "HPOTerm": "Atrial septal defect",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001643",
+                    "HPOTerm": "Patent ductus arteriosus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001655",
+                    "HPOTerm": "Patent foramen ovale",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001680",
+                    "HPOTerm": "Coarctation of aorta",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002015",
+                    "HPOTerm": "Dysphagia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002023",
+                    "HPOTerm": "Anal atresia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002079",
+                    "HPOTerm": "Hypoplasia of the corpus callosum",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002100",
+                    "HPOTerm": "Recurrent aspiration pneumonia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002465",
+                    "HPOTerm": "Poor speech",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002575",
+                    "HPOTerm": "Tracheoesophageal fistula",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002616",
+                    "HPOTerm": "Aortic root aneurysm",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004397",
+                    "HPOTerm": "Ectopic anus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004467",
+                    "HPOTerm": "Preauricular pit",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005301",
+                    "HPOTerm": "Persistent left superior vena cava",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -298,16 +527,107 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0011069",
-                    "HPOTerm": "Increased number of teeth",
+                    "HPOId": "HP:0006817",
+                    "HPOTerm": "Aplasia/Hypoplasia of the cerebellar vermis",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0011220",
-                    "HPOTerm": "Prominent forehead",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0008872",
+                    "HPOTerm": "Feeding difficulties in infancy",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010307",
+                    "HPOTerm": "Stridor",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012443",
+                    "HPOTerm": "Abnormality of brain morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0031936",
+                    "HPOTerm": "Delayed ability to walk",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100879",
+                    "HPOTerm": "Enlarged ovaries",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000486",
+                    "HPOTerm": "Strabismus",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000539",
+                    "HPOTerm": "Abnormality of refraction",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000668",
+                    "HPOTerm": "Hypodontia",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000695",
+                    "HPOTerm": "Natal tooth",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000813",
+                    "HPOTerm": "Bicornuate uterus",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002779",
+                    "HPOTerm": "Tracheomalacia",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003422",
+                    "HPOTerm": "Vertebral segmentation defect",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010296",
+                    "HPOTerm": "Ankyloglossia",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010518",
+                    "HPOTerm": "Thyroglossal cyst",
+                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             }
         ],
@@ -324,6 +644,11 @@
             ]
         },
         "AverageAgeOfOnsets": [
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Antenatal"
+                }
+            },
             {
                 "AverageAgeOfOnset": {
                     "value": "Infancy"

@@ -1,32 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '79311'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79311'
-  Label: Vitamin B12-responsive methylmalonic acidemia type cblB
-  PURL: http://www.orpha.net/ORDO/Orphanet_79311
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: Vitamin B12-responsive methylmalonic aciduria, type cblB
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '251110'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: MMAB
-      Name: metabolism of cobalamin associated B
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '28'
-      Label: Vitamin B12-responsive methylmalonic acidemia
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Childhood
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '251110'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: metabolism of cobalamin associated B
+      Symbol: MMAB
+  Label: Vitamin B12-responsive methylmalonic acidemia type cblB
+  ORPHAcode: '79311'
+  ORPHApacketId: '79311'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79311
+  Parents:
+  - Parent:
+    - Label: Vitamin B12-responsive methylmalonic acidemia
+      ORPHAcode: '28'
+  Synonyms:
+  - Synonym: Vitamin B12-responsive methylmalonic aciduria, type cblB
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

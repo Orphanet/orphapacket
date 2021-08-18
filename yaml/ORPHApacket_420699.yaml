@@ -1,53 +1,53 @@
 Orphapacket:
-  ORPHApacketId: '420699'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '420699'
-  Label: Autosomal recessive severe congenital neutropenia due to CXCR2 deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_420699
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  TextSection:
-    TextSectionType: Definition
-    Contents: Autosomal recessive severe congenital neutropenia due to CXCR2 deficiency
-      is a rare genetic primary immunodeficiency disorder characterized by recurrent
-      bacterial infections (including septic thrombophlebitis and subacute bacterial
-      endocarditis) and neutropenia without lymphopenia or warts resulting from recessively
-      inherited mutations in <i>CXCR2<i/>.
-  Genes:
-  - Gene:
-      Symbol: CXCR2
-      Name: C-X-C motif chemokine receptor 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '439849'
-      Label: Autosomal recessive severe congenital neutropenia
-  Prevalences:
-  - Prevalence:
-      Source: 24777453[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_24777453[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: C-X-C motif chemokine receptor 2
+      Symbol: CXCR2
+  Label: Autosomal recessive severe congenital neutropenia due to CXCR2 deficiency
+  ORPHAcode: '420699'
+  ORPHApacketId: '420699'
+  PURL: http://www.orpha.net/ORDO/Orphanet_420699
+  Parents:
+  - Parent:
+    - Label: Autosomal recessive severe congenital neutropenia
+      ORPHAcode: '439849'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 24777453[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_24777453[PMID]
+      ValMoy: no data
+  TextSection:
+    Contents: Autosomal recessive severe congenital neutropenia due to CXCR2 deficiency
+      is a rare genetic primary immunodeficiency disorder characterized by recurrent
+      bacterial infections (including septic thrombophlebitis and subacute bacterial
+      endocarditis) and neutropenia without lymphopenia or warts resulting from recessively
+      inherited mutations in <i>CXCR2<i/>.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

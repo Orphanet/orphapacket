@@ -1,46 +1,46 @@
 Orphapacket:
-  ORPHApacketId: '166308'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '166308'
-  Label: Benign infantile focal epilepsy with midline spikes and waves during sleep
-  PURL: http://www.orpha.net/ORDO/Orphanet_166308
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Infancy
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Benign infantile focal epilepsy with midline spikes and waves during sleep
+  ORPHAcode: '166308'
+  ORPHApacketId: '166308'
+  PURL: http://www.orpha.net/ORDO/Orphanet_166308
+  Parents:
+  - Parent:
+    - Label: Benign partial infantile seizures
+      ORPHAcode: '166311'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 20822975[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_20822975[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: BIMSE
   TextSection:
-    TextSectionType: Definition
     Contents: Benign infantile focal epilepsy with midline spikes and waves during
       sleep is a rare infantile epilepsy syndrome characterized by age of onset between
       4 and 30 months partial sporadic seizures presenting with motion arrest staring
       cyanosis and less common automatisms and lateralizing signs and characteristic
       interictal sleep EEG changes consisting of a spike followed by a bell-shaped
       slow wave in the midline region.
-  Parents:
-  - Parent:
-    - ORPHAcode: '166311'
-      Label: Benign partial infantile seizures
-  Prevalences:
-  - Prevalence:
-      Source: 20822975[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_20822975[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

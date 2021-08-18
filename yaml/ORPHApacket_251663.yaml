@@ -1,33 +1,33 @@
 Orphapacket:
-  ORPHApacketId: '251663'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '251663'
-  Label: Anaplastic oligoastrocytoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_251663
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: aMOA
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare and aggressive glial tumor of the central nervous system that
-      usually presents in adults with seizures is most often located in the cerebral
-      hemispheres and that is associated with a very poor prognosis.
-  Genes:
-  - Gene:
-      Symbol: IDH2
-      Name: isocitrate dehydrogenase (NADP(+)) 2, mitochondrial
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '251651'
-      Label: Oligoastrocytic tumor
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: adult
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: isocitrate dehydrogenase (NADP(+)) 2
+      Symbol: IDH2
+  Label: Anaplastic oligoastrocytoma
+  ORPHAcode: '251663'
+  ORPHApacketId: '251663'
+  PURL: http://www.orpha.net/ORDO/Orphanet_251663
+  Parents:
+  - Parent:
+    - Label: Oligoastrocytic tumor
+      ORPHAcode: '251651'
+  Synonyms:
+  - Synonym: aMOA
+  TextSection:
+    Contents: A rare and aggressive glial tumor of the central nervous system that
+      usually presents in adults with seizures is most often located in the cerebral
+      hemispheres and that is associated with a very poor prognosis.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

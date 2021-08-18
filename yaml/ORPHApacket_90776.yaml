@@ -1,79 +1,83 @@
 Orphapacket:
-  ORPHApacketId: '90776'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '90776'
-  Label: 46,XX disorder of sex development induced by fetal androgens excess
-  PURL: http://www.orpha.net/ORDO/Orphanet_90776
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: 46,XX DSD induced by fetal androgens excess
-  Parents:
-  - Parent:
-    - ORPHAcode: '98078'
-      Label: 46,XX disorder of sex development induced by androgens excess
-  - Parent:
-    - ORPHAcode: '325665'
-      Label: Genetic disorder of sex development of gynecological interest
-  - Parent:
-    - ORPHAcode: '325697'
-      Label: Genetic 46,XX disorder of sex development
   Childs:
   - Child:
-      Label: Generalized glucocorticoid resistance syndrome
-      ORPHAcode: '786'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '7978'
+            Source: HGNC
+          - Reference: '138040'
+            Source: OMIM
           Label: nuclear receptor subfamily 3 group C member 1
           Symbol: NR3C1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7978'
-          - Source: OMIM
-            Reference: '138040'
+      Label: Generalized glucocorticoid resistance syndrome
+      ORPHAcode: '786'
   - Child:
-      Label: Congenital adrenal hyperplasia due to 3-beta-hydroxysteroid dehydrogenase
-        deficiency
-      ORPHAcode: '90791'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '5218'
+            Source: HGNC
+          - Reference: '613890'
+            Source: OMIM
           Label: hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase
             2
           Symbol: HSD3B2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5218'
-          - Source: OMIM
-            Reference: '613890'
+      Label: Congenital adrenal hyperplasia due to 3-beta-hydroxysteroid dehydrogenase
+        deficiency
+      ORPHAcode: '90791'
   - Child:
+      Genes: no data
       Label: Classic congenital adrenal hyperplasia due to 21-hydroxylase deficiency
       ORPHAcode: '90794'
-      Genes: no data
   - Child:
-      Label: Congenital adrenal hyperplasia due to 11-beta-hydroxylase deficiency
-      ORPHAcode: '90795'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '610613'
+            Source: OMIM
+          - Reference: '2591'
+            Source: HGNC
           Label: cytochrome P450 family 11 subfamily B member 1
           Symbol: CYP11B1
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '610613'
-          - Source: HGNC
-            Reference: '2591'
+      Label: Congenital adrenal hyperplasia due to 11-beta-hydroxylase deficiency
+      ORPHAcode: '90795'
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '9208'
+            Source: HGNC
+          - Reference: '124015'
+            Source: OMIM
+          Label: cytochrome p450 oxidoreductase
+          Symbol: POR
       Label: Congenital adrenal hyperplasia due to cytochrome P450 oxidoreductase
         deficiency
       ORPHAcode: '95699'
-      Genes:
-      - Gene:
-          Label: cytochrome p450 oxidoreductase
-          Symbol: POR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9208'
-          - Source: OMIM
-            Reference: '124015'
+  - Child:
+      Genes: no data
+      Label: Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis
+      ORPHAcode: '63269'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: 46,XX disorder of sex development induced by fetal androgens excess
+  ORPHAcode: '90776'
+  ORPHApacketId: '90776'
+  PURL: http://www.orpha.net/ORDO/Orphanet_90776
+  Parents:
+  - Parent:
+    - Label: 46,XX disorder of sex development induced by androgens excess
+      ORPHAcode: '98078'
+  - Parent:
+    - Label: Genetic disorder of sex development of gynecological interest
+      ORPHAcode: '325665'
+  - Parent:
+    - Label: Genetic 46,XX disorder of sex development
+      ORPHAcode: '325697'
+  Synonyms:
+  - Synonym: 46,XX DSD induced by fetal androgens excess
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

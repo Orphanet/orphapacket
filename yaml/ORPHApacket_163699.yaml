@@ -1,23 +1,38 @@
 Orphapacket:
-  ORPHApacketId: '163699'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '163699'
-  Label: Alveolar soft tissue sarcoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_163699
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '606243'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: transcription factor binding to IGHM enhancer 3
+      Symbol: TFE3
+  - Gene:
+      ExternalReferences: []
+      Name: ASPSCR1 tether for SLC2A4, UBX domain containing
+      Symbol: ASPSCR1
+  Label: Alveolar soft tissue sarcoma
+  ORPHAcode: '163699'
+  ORPHApacketId: '163699'
+  PURL: http://www.orpha.net/ORDO/Orphanet_163699
+  Parents:
+  - Parent:
+    - Label: Soft tissue sarcoma
+      ORPHAcode: '3394'
+  - Parent:
+    - Label: Pediatric soft tissue sarcoma
+      ORPHAcode: '602681'
   Synonyms:
   - Synonym: ASPS
   - Synonym: Alveolar soft part sarcoma
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '606243'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare soft tissue sarcoma characterized by a slowly growing painless
       space-occupying lesion composed of large uniform epitheloid cells arranged in
       solid nests and/or alveolar structures separated by thin sinusoidal vessels.
@@ -25,19 +40,7 @@ Orphapacket:
       commonly to the lung bones and brain is a characteristic feature and relevant
       prognostic factor together with age at presentation and tumor size while histological
       features have no prognostic significance.
-  Genes:
-  - Gene:
-      Symbol: TFE3
-      Name: transcription factor binding to IGHM enhancer 3
-      ExternalReferences: []
-  - Gene:
-      Symbol: ASPSCR1
-      Name: ASPSCR1 tether for SLC2A4, UBX domain containing
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '3394'
-      Label: Soft tissue sarcoma
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

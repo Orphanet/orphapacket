@@ -1,18 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '50839'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '50839'
-  Label: Cat-scratch disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_50839
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Cat-scratch disease
+  ORPHAcode: '50839'
+  ORPHApacketId: '50839'
+  PURL: http://www.orpha.net/ORDO/Orphanet_50839
+  Parents:
+  - Parent:
+    - Label: Rare bacterial infectious disease
+      ORPHAcode: '163582'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]'
+      ValMoy: '6.6'
   Synonyms:
   - Synonym: Bartonellosis due to Bartonella henselae infection
   TextSection:
-    TextSectionType: Definition
     Contents: Cat-scratch disease is a rare infectious disease caused by the Gram-negative
       bacteria <i>Bartonella henselae</i> that is transmitted to humans via a scratch
       or bite of an infected cat and that has a variable clinical presentation but
@@ -22,24 +36,10 @@ Orphapacket:
       lesions encephalitis retinitis and atypical pneumonia can also occur. Cat-scratch
       disease can atypically present as parinaud oculoglandular syndrome (unilateral
       conjunctivitis and preauricular lymphadenopathy).
-  Parents:
-  - Parent:
-    - ORPHAcode: '163582'
-      Label: Rare bacterial infectious disease
-  Prevalences:
-    Prevalence:
-    - Source: '[EXPERT]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '6.6'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,14 +1,98 @@
 Orphapacket:
-  ORPHApacketId: '256'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '256'
-  Label: Early-onset generalized limb-onset dystonia
-  PURL: http://www.orpha.net/ORDO/Orphanet_256
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '128100'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '602554'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: torsin family 1 member A
+      Symbol: TOR1A
+  Label: Early-onset generalized limb-onset dystonia
+  ORPHAcode: '256'
+  ORPHApacketId: '256'
+  PURL: http://www.orpha.net/ORDO/Orphanet_256
+  Parents:
+  - Parent:
+    - Label: Generalized isolated dystonia
+      ORPHAcode: '376724'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001276
+      HPOTerm: Hypertonia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001288
+      HPOTerm: Gait disturbance
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001608
+      HPOTerm: Abnormality of the voice
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003011
+      HPOTerm: Abnormality of the musculature
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100022
+      HPOTerm: Abnormality of movement
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Specific population
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 7719342[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 3264051[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 17129379[PMID]_23596437[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 3264051[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: France
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 17290457[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Dystonia musculorum deformans
   - Synonym: EOTD
@@ -18,99 +102,15 @@ Orphapacket:
   - Synonym: Early-onset torsion dystonia
   - Synonym: Idiopathic torsion dystonia
   - Synonym: Oppenheim dystonia
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '128100'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '602554'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
   TextSection:
-    TextSectionType: Definition
     Contents: A rare movement disorder characterized by involuntary repetitive sustained
       muscle contractions or postures that typically begins in a single limb and in
       most individuals followed by progressive involvement of other limbs and the
       trunk typically sparing the cranial and cervical region.
-  Genes:
-  - Gene:
-      Symbol: TOR1A
-      Name: torsin family 1 member A
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '376724'
-      Label: Generalized isolated dystonia
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001276
-      HPOTerm: Hypertonia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001288
-      HPOTerm: Gait disturbance
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001608
-      HPOTerm: Abnormality of the voice
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003011
-      HPOTerm: Abnormality of the musculature
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100022
-      HPOTerm: Abnormality of movement
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 7719342[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Specific population
-  - Prevalence:
-      Source: 3264051[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: United States
-  - Prevalence:
-      Source: 17129379[PMID]_23596437[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 3264051[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: United States
-  - Prevalence:
-      Source: 17290457[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: France
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adolescent
-  - AverageAgeOfOnset:
-      value: Adult
-  - AverageAgeOfOnset:
-      value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

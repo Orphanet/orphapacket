@@ -1,34 +1,34 @@
 Orphapacket:
-  ORPHApacketId: '316235'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '316235'
-  Label: Autosomal dominant spastic ataxia
-  PURL: http://www.orpha.net/ORDO/Orphanet_316235
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: AD-SPAX
-  Parents:
-  - Parent:
-    - ORPHAcode: '316226'
-      Label: Spastic ataxia
   Childs:
   - Child:
+      Genes: no data
       Label: Spastic ataxia with congenital miosis
       ORPHAcode: '1182'
-      Genes: no data
   - Child:
-      Label: Autosomal dominant spastic ataxia type 1
-      ORPHAcode: '251282'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '12642'
+            Source: HGNC
+          - Reference: '185880'
+            Source: OMIM
           Label: vesicle associated membrane protein 1
           Symbol: VAMP1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12642'
-          - Source: OMIM
-            Reference: '185880'
+      Label: Autosomal dominant spastic ataxia type 1
+      ORPHAcode: '251282'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Autosomal dominant spastic ataxia
+  ORPHAcode: '316235'
+  ORPHApacketId: '316235'
+  PURL: http://www.orpha.net/ORDO/Orphanet_316235
+  Parents:
+  - Parent:
+    - Label: Spastic ataxia
+      ORPHAcode: '316226'
+  Synonyms:
+  - Synonym: AD-SPAX
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,20 +1,105 @@
 Orphapacket:
-  ORPHApacketId: '1528'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '1528'
-  Label: Craniotelencephalic dysplasia
-  PURL: http://www.orpha.net/ORDO/Orphanet_1528
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '218670'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Craniotelencephalic dysplasia
+  ORPHAcode: '1528'
+  ORPHApacketId: '1528'
+  PURL: http://www.orpha.net/ORDO/Orphanet_1528
+  Parents:
+  - Parent:
+    - Label: Syndromic craniosynostosis
+      ORPHAcode: '139393'
+  - Parent:
+    - Label: Other syndrome with lissencephaly as a major feature
+      ORPHAcode: '102010'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000238
+      HPOTerm: Hydrocephalus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000252
+      HPOTerm: Microcephaly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000368
+      HPOTerm: Low-set, posteriorly rotated ears
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000505
+      HPOTerm: Visual impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000568
+      HPOTerm: Microphthalmia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000648
+      HPOTerm: Optic atrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001274
+      HPOTerm: Agenesis of corpus callosum
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001321
+      HPOTerm: Cerebellar hypoplasia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001339
+      HPOTerm: Lissencephaly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001363
+      HPOTerm: Craniosynostosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002007
+      HPOTerm: Frontal bossing
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002139
+      HPOTerm: Arrhinencephaly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007330
+      HPOTerm: Frontal encephalocele
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100842
+      HPOTerm: Septo-optic dysplasia
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 6859106[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_6859106[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Craniotelencephalic dysplasia is an extremely rare genetic developmental
       defect during embryogenesis syndrome characterized by craniosynostosis with
       frontal encephalocele and various additional brain anomalies (severe hydrocephalus
@@ -22,92 +107,7 @@ Orphapacket:
       cysts septo-optic dysplasia) resulting in marked cerebral dysfunction seizures
       and very severe psychomotor delay. There have been no further descriptions in
       the literature since 1983.
-  Parents:
-  - Parent:
-    - ORPHAcode: '139393'
-      Label: Syndromic craniosynostosis
-  - Parent:
-    - ORPHAcode: '102010'
-      Label: Other syndrome with lissencephaly as a major feature
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000238
-      HPOTerm: Hydrocephalus
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000252
-      HPOTerm: Microcephaly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000368
-      HPOTerm: Low-set, posteriorly rotated ears
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000505
-      HPOTerm: Visual impairment
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000568
-      HPOTerm: Microphthalmia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000648
-      HPOTerm: Optic atrophy
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001263
-      HPOTerm: Global developmental delay
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001274
-      HPOTerm: Agenesis of corpus callosum
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001321
-      HPOTerm: Cerebellar hypoplasia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001339
-      HPOTerm: Lissencephaly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001363
-      HPOTerm: Craniosynostosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002007
-      HPOTerm: Frontal bossing
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002139
-      HPOTerm: Arrhinencephaly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0007330
-      HPOTerm: Frontal encephalocele
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0100842
-      HPOTerm: Septo-optic dysplasia
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 6859106[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_6859106[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

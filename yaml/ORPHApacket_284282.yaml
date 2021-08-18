@@ -1,86 +1,86 @@
 Orphapacket:
-  ORPHApacketId: '284282'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '284282'
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '614322'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: WW domain containing oxidoreductase
+      Symbol: WWOX
   Label: Autosomal recessive cerebellar ataxia-epilepsy-intellectual disability syndrome
     due to WWOX deficiency
+  ORPHAcode: '284282'
+  ORPHApacketId: '284282'
   PURL: http://www.orpha.net/ORDO/Orphanet_284282
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+  Parents:
+  - Parent:
+    - Label: Autosomal recessive cerebellar ataxia-epilepsy-intellectual disability
+        syndrome
+      ORPHAcode: '404481'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000750
+      HPOTerm: Delayed speech and language development
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001260
+      HPOTerm: Dysarthria
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001265
+      HPOTerm: Hyporeflexia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001270
+      HPOTerm: Motor delay
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002066
+      HPOTerm: Gait ataxia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002070
+      HPOTerm: Limb ataxia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002839
+      HPOTerm: Urinary bladder sphincter dysfunction
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Autosomal recessive spinocerebellar ataxia type 12
   - Synonym: SCAR12
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614322'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare autosomal recessive cerebellar ataxia-epilepsy-intellectual disability
       syndrome characterized by early-childhood onset of cerebellar ataxia associated
       with generalized tonic-clonic epilepsy and psychomotor development delay dysarthria
       gaze-evoked nystagmus and learning disability. Other features in some patients
       include upper motor neuron signs with leg spasticity and extensor plantar responses
       and mild cerebellar atrophy on brain MRI.
-  Genes:
-  - Gene:
-      Symbol: WWOX
-      Name: WW domain containing oxidoreductase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '404481'
-      Label: Autosomal recessive cerebellar ataxia-epilepsy-intellectual disability
-        syndrome
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000639
-      HPOTerm: Nystagmus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000750
-      HPOTerm: Delayed speech and language development
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001260
-      HPOTerm: Dysarthria
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001265
-      HPOTerm: Hyporeflexia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001270
-      HPOTerm: Motor delay
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002066
-      HPOTerm: Gait ataxia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002070
-      HPOTerm: Limb ataxia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002839
-      HPOTerm: Urinary bladder sphincter dysfunction
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

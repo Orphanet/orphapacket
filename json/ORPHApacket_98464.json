@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "98464",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "98464",
         "Label": "X-linked syndromic intellectual disability",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_98464",
@@ -68,7 +68,7 @@
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "fragile X mental retardation 1",
+                                "Label": "FMRP translational regulator 1",
                                 "Symbol": "FMR1",
                                 "ExternalReferences": [
                                     {
@@ -163,7 +163,7 @@
                         },
                         {
                             "Gene": {
-                                "Label": "N(alpha)-acetyltransferase 10, NatA catalytic subunit",
+                                "Label": "N-alpha-acetyltransferase 10, NatA catalytic subunit",
                                 "Symbol": "NAA10",
                                 "ExternalReferences": [
                                     {
@@ -255,10 +255,12 @@
                                 "Symbol": "NDUFAF8",
                                 "ExternalReferences": [
                                     {
-                                        "ExternalReference": {
-                                            "Source": "HGNC",
-                                            "Reference": "33551"
-                                        }
+                                        "Source": "HGNC",
+                                        "Reference": "33551"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "618461"
                                     }
                                 ]
                             }
@@ -995,7 +997,7 @@
             },
             {
                 "Child": {
-                    "Label": "X-linked intellectual disability with marfanoid habitus",
+                    "Label": "Lujan-Fryns syndrome",
                     "ORPHAcode": "776",
                     "Genes": [
                         {
@@ -1016,7 +1018,7 @@
                         },
                         {
                             "Gene": {
-                                "Label": "zinc finger DHHC-type containing 9",
+                                "Label": "zinc finger DHHC-type palmitoyltransferase 9",
                                 "Symbol": "ZDHHC9",
                                 "ExternalReferences": [
                                     {
@@ -1051,7 +1053,7 @@
             },
             {
                 "Child": {
-                    "Label": "Trisomy Xq28",
+                    "Label": "Proximal Xq28 duplication syndrome",
                     "ORPHAcode": "1762",
                     "Genes": [
                         {
@@ -1543,13 +1545,6 @@
             },
             {
                 "Child": {
-                    "Label": "X-linked intellectual disability, Brooks type",
-                    "ORPHAcode": "3056",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
                     "Label": "X-linked intellectual disability, Snyder type",
                     "ORPHAcode": "3063",
                     "Genes": [
@@ -1830,7 +1825,7 @@
                         },
                         {
                             "Gene": {
-                                "Label": "LAS1 like, ribosome biogenesis factor",
+                                "Label": "LAS1 like ribosome biogenesis factor",
                                 "Symbol": "LAS1L",
                                 "ExternalReferences": [
                                     {
@@ -1932,6 +1927,22 @@
                         },
                         {
                             "Gene": {
+                                "Label": "structural maintenance of chromosomes 1A",
+                                "Symbol": "SMC1A",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "11111"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "300040"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Gene": {
                                 "Label": "gamma-aminobutyric acid type B receptor subunit 2",
                                 "Symbol": "GABBR2",
                                 "ExternalReferences": [
@@ -1951,7 +1962,7 @@
             },
             {
                 "Child": {
-                    "Label": "Opitz G/BBB syndrome",
+                    "Label": "Opitz GBBB syndrome",
                     "ORPHAcode": "2745",
                     "Genes": "no data"
                 }
@@ -2018,7 +2029,7 @@
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "SRY-box 3",
+                                "Label": "SRY-box transcription factor 3",
                                 "Symbol": "SOX3",
                                 "ExternalReferences": [
                                     {
@@ -2104,6 +2115,30 @@
                                     {
                                         "Source": "OMIM",
                                         "Reference": "300231"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Alpha-thalassemia-X-linked intellectual disability syndrome",
+                    "ORPHAcode": "847",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "ATRX chromatin remodeler",
+                                "Symbol": "ATRX",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "886"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "300032"
                                     }
                                 ]
                             }
@@ -2424,30 +2459,6 @@
             },
             {
                 "Child": {
-                    "Label": "X-linked intellectual disability, Turner type",
-                    "ORPHAcode": "85328",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "HECT, UBA and WWE domain containing E3 ubiquitin protein ligase 1",
-                                "Symbol": "HUWE1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "30892"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "300697"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
                     "Label": "X-linked intellectual disability-hypotonia-facial dysmorphism-aggressive behavior syndrome",
                     "ORPHAcode": "85329",
                     "Genes": [
@@ -2529,7 +2540,7 @@
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "Alport syndrome, mental retardation, midface hypoplasia and elliptocytosis chromosomal region gene 1",
+                                "Label": "AMMECR nuclear protein 1",
                                 "Symbol": "AMMECR1",
                                 "ExternalReferences": [
                                     {
@@ -2561,7 +2572,7 @@
                         },
                         {
                             "Gene": {
-                                "Label": "Alport syndrome, mental retardation, midface hypoplasia and elliptocytosis chromosomal region gene 1",
+                                "Label": "AMMECR nuclear protein 1",
                                 "Symbol": "AMMECR1",
                                 "ExternalReferences": [
                                     {
@@ -2868,13 +2879,6 @@
             },
             {
                 "Child": {
-                    "Label": "ATR-X-related syndrome",
-                    "ORPHAcode": "263355",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
                     "Label": "L1 syndrome",
                     "ORPHAcode": "275543",
                     "Genes": "no data"
@@ -2966,7 +2970,7 @@
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "IQ motif and Sec7 domain 2",
+                                "Label": "IQ motif and Sec7 domain ArfGEF 2",
                                 "Symbol": "IQSEC2",
                                 "ExternalReferences": [
                                     {
@@ -3371,30 +3375,6 @@
                     "Label": "X-linked colobomatous microphthalmia-microcephaly-intellectual disability-short stature syndrome",
                     "ORPHAcode": "431140",
                     "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Hyperekplexia-epilepsy syndrome",
-                    "ORPHAcode": "163985",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "Cdc42 guanine nucleotide exchange factor 9",
-                                "Symbol": "ARHGEF9",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "14561"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "300429"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
                 }
             },
             {

@@ -1,23 +1,26 @@
 Orphapacket:
-  ORPHApacketId: '252046'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '252046'
-  Label: Meningeal melanocytoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_252046
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Meningeal melanocytoma
+  ORPHAcode: '252046'
+  ORPHApacketId: '252046'
+  PURL: http://www.orpha.net/ORDO/Orphanet_252046
+  Parents:
+  - Parent:
+    - Label: Primary melanocytic tumor of central nervous system
+      ORPHAcode: '252028'
+  - Parent:
+    - Label: Pediatric nervous system cancer
+      ORPHAcode: '602693'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare nervous system tumor characterized by a benign pigmented space-occupying
       lesion derived from leptomeningeal melanocytes. Symptoms typically show insidious
       onset and are related to the mass effect on adjacent tissues. Depending on the
       location of the tumor they include focal neurological deficits increased intracranial
       pressure seizures and spinal cord compression among others. Although the tumor
       may behave aggressively prognosis is good after complete surgical resection.
-  Parents:
-  - Parent:
-    - ORPHAcode: '252028'
-      Label: Primary melanocytic tumor of central nervous system
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

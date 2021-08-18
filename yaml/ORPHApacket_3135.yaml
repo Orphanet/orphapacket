@@ -1,23 +1,38 @@
 Orphapacket:
-  ORPHApacketId: '3135'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3135'
-  Label: Familial Scheuermann disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_3135
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adolescent
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '181440'
+    Source: OMIM
+  Label: Familial Scheuermann disease
+  ORPHAcode: '3135'
+  ORPHApacketId: '3135'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3135
+  Parents:
+  - Parent:
+    - Label: Osteochondrosis
+      ORPHAcode: '399319'
+  - Parent:
+    - Label: Osteochondrosis of genetic origin
+      ORPHAcode: '399391'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002808
+      HPOTerm: Kyphosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003312
+      HPOTerm: Abnormal form of the vertebral bodies
   Synonyms:
   - Synonym: Familial Scheuermann juvenile kyphosis
   - Synonym: Familial spinal osteochondrosis
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '181440'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Familial Scheuermann disease is characterized by kyphotic deformity
       of the spine that develops in adolescence. The spinal deformity includes irregularities
       of the vertebral endplates the presence of Schmorl's nodes disk-space narrowing
@@ -26,25 +41,10 @@ Orphapacket:
       Analysis of the mode of inheritance in a sample of 90 pedigrees derived from
       the Siberian population supported an autosomal dominant mode of inheritance
       with complete penetrance in boys and incomplete penetrance in girls.
-  Parents:
-  - Parent:
-    - ORPHAcode: '399319'
-      Label: Osteochondrosis
-  - Parent:
-    - ORPHAcode: '399391'
-      Label: Osteochondrosis of genetic origin
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0002808
-      HPOTerm: Kyphosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003312
-      HPOTerm: Abnormal form of the vertebral bodies
-      HPOFrequency: Very frequent (99-80%)
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adolescent
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

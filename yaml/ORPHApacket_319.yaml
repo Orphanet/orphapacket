@@ -1,77 +1,80 @@
 Orphapacket:
-  ORPHApacketId: '319'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '319'
-  Label: Skeletal Ewing sarcoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_319
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Osseous Ewing sarcoma
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '612219'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Ewing's sarcoma is a malignant small round cell bone tumor with strong
-      metastatic potential.
-  Genes:
-  - Gene:
-      Symbol: ERG
-      Name: ETS transcription factor ERG
-      ExternalReferences: []
-  - Gene:
-      Symbol: ETV1
-      Name: ETS variant 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: EWSR1
-      Name: EWS RNA binding protein 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: FLI1
-      Name: Fli-1 proto-oncogene, ETS transcription factor
-      ExternalReferences: []
-  - Gene:
-      Symbol: ETV4
-      Name: ETS variant 4
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '223727'
-      Label: Bone sarcoma
-  Prevalences:
-  - Prevalence:
-      Source: 22033323[PMID]_RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 22033323[PMID]_RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Lifetime Prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '612219'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ETS transcription factor ERG
+      Symbol: ERG
+  - Gene:
+      ExternalReferences: []
+      Name: ETS variant transcription factor 1
+      Symbol: ETV1
+  - Gene:
+      ExternalReferences: []
+      Name: EWS RNA binding protein 1
+      Symbol: EWSR1
+  - Gene:
+      ExternalReferences: []
+      Name: Fli-1 proto-oncogene, ETS transcription factor
+      Symbol: FLI1
+  - Gene:
+      ExternalReferences: []
+      Name: ETS variant transcription factor 4
+      Symbol: ETV4
+  Label: Skeletal Ewing sarcoma
+  ORPHAcode: '319'
+  ORPHApacketId: '319'
+  PURL: http://www.orpha.net/ORDO/Orphanet_319
+  Parents:
+  - Parent:
+    - Label: Bone sarcoma
+      ORPHAcode: '223727'
+  - Parent:
+    - Label: Pediatric bone cancer
+      ORPHAcode: '602677'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 22033323[PMID]_RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Lifetime Prevalence
+      Source: 22033323[PMID]_RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Osseous Ewing sarcoma
+  TextSection:
+    Contents: Ewing's sarcoma is a malignant small round cell bone tumor with strong
+      metastatic potential.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

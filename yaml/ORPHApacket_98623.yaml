@@ -1,52 +1,52 @@
 Orphapacket:
-  ORPHApacketId: '98623'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98623'
-  Label: Syndromic keratoconus
-  PURL: http://www.orpha.net/ORDO/Orphanet_98623
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '519288'
-      Label: Rare disorder with corneal involvement as a major feature
   Childs:
   - Child:
+      Genes: no data
       Label: Down syndrome
       ORPHAcode: '870'
-      Genes: no data
   - Child:
-      Label: GAPO syndrome
-      ORPHAcode: '2067'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '21014'
+            Source: HGNC
+          - Reference: '606410'
+            Source: OMIM
           Label: ANTXR cell adhesion molecule 1
           Symbol: ANTXR1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '21014'
-          - Source: OMIM
-            Reference: '606410'
+      Label: GAPO syndrome
+      ORPHAcode: '2067'
   - Child:
+      Genes: no data
       Label: Marfan syndrome
       ORPHAcode: '558'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Vernal keratoconjunctivitis
       ORPHAcode: '70476'
-      Genes: no data
   - Child:
-      Label: EDICT syndrome
-      ORPHAcode: '293936'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '31555'
+            Source: HGNC
+          - Reference: '613146'
+            Source: OMIM
           Label: microRNA 184
           Symbol: MIR184
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '31555'
-          - Source: OMIM
-            Reference: '613146'
+      Label: EDICT syndrome
+      ORPHAcode: '293936'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Syndromic keratoconus
+  ORPHAcode: '98623'
+  ORPHApacketId: '98623'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98623
+  Parents:
+  - Parent:
+    - Label: Rare disorder with corneal involvement as a major feature
+      ORPHAcode: '519288'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

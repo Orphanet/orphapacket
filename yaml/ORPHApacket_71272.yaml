@@ -1,86 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '71272'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '71272'
-  Label: Sandifer syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_71272
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  TextSection:
-    TextSectionType: Definition
-    Contents: Sandifer syndrome is a paroxysmal dystonic movement disorder occurring
-      in association with gastro-oesophageal reflux and in some cases hiatal hernia.
-  Parents:
-  - Parent:
-    - ORPHAcode: '101936'
-      Label: Rare gastroesophageal disease
-  - Parent:
-    - ORPHAcode: '306768'
-      Label: Rare paroxysmal movement disorder
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000473
-      HPOTerm: Torticollis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002020
-      HPOTerm: Gastroesophageal reflux
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002457
-      HPOTerm: Abnormal head movements
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002533
-      HPOTerm: Abnormal posturing
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001903
-      HPOTerm: Anemia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002036
-      HPOTerm: Hiatus hernia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002248
-      HPOTerm: Hematemesis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0004637
-      HPOTerm: Decreased cervical spine mobility
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0011968
-      HPOTerm: Feeding difficulties
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012547
-      HPOTerm: Abnormal involuntary eye movements
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0100633
-      HPOTerm: Esophagitis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0410019
-      HPOTerm: Epigastric pain
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002572
-      HPOTerm: Episodic vomiting
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adult
@@ -88,9 +9,88 @@ Orphapacket:
       value: Childhood
   - AverageAgeOfOnset:
       value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Sandifer syndrome
+  ORPHAcode: '71272'
+  ORPHApacketId: '71272'
+  PURL: http://www.orpha.net/ORDO/Orphanet_71272
+  Parents:
+  - Parent:
+    - Label: Rare gastroesophageal disease
+      ORPHAcode: '101936'
+  - Parent:
+    - Label: Rare paroxysmal movement disorder
+      ORPHAcode: '306768'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000473
+      HPOTerm: Torticollis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002020
+      HPOTerm: Gastroesophageal reflux
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002457
+      HPOTerm: Abnormal head movements
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002533
+      HPOTerm: Abnormal posturing
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001903
+      HPOTerm: Anemia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002036
+      HPOTerm: Hiatus hernia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002248
+      HPOTerm: Hematemesis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004637
+      HPOTerm: Decreased cervical spine mobility
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011968
+      HPOTerm: Feeding difficulties
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012547
+      HPOTerm: Abnormal involuntary eye movements
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100633
+      HPOTerm: Esophagitis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0410019
+      HPOTerm: Epigastric pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002572
+      HPOTerm: Episodic vomiting
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  TextSection:
+    Contents: Sandifer syndrome is a paroxysmal dystonic movement disorder occurring
+      in association with gastro-oesophageal reflux and in some cases hiatal hernia.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

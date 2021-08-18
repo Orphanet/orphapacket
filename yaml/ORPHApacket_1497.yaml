@@ -1,82 +1,82 @@
 Orphapacket:
-  ORPHApacketId: '1497'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '1497'
-  Label: X-linked complicated corpus callosum dysgenesis
-  PURL: http://www.orpha.net/ORDO/Orphanet_1497
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '304100'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A congenital X-linked clinical subtype of L1 syndrome characterized
-      by variable spastic paraplegia mild to moderate intellectual disability and
-      dysplasia hypoplasia or aplasia of the corpus callosum. In this subtype hydrocephalus
-      adducted thumbs or absent speech are not observed.
-  Genes:
-  - Gene:
-      Symbol: L1CAM
-      Name: L1 cell adhesion molecule
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '275543'
-      Label: L1 syndrome
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000252
-      HPOTerm: Microcephaly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001250
-      HPOTerm: Seizures
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001257
-      HPOTerm: Spasticity
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001321
-      HPOTerm: Cerebellar hypoplasia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001324
-      HPOTerm: Muscle weakness
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002251
-      HPOTerm: Aganglionic megacolon
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '304100'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: L1 cell adhesion molecule
+      Symbol: L1CAM
+  Label: X-linked complicated corpus callosum dysgenesis
+  ORPHAcode: '1497'
+  ORPHApacketId: '1497'
+  PURL: http://www.orpha.net/ORDO/Orphanet_1497
+  Parents:
+  - Parent:
+    - Label: L1 syndrome
+      ORPHAcode: '275543'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000252
+      HPOTerm: Microcephaly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001257
+      HPOTerm: Spasticity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001321
+      HPOTerm: Cerebellar hypoplasia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001324
+      HPOTerm: Muscle weakness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002251
+      HPOTerm: Aganglionic megacolon
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  TextSection:
+    Contents: A congenital X-linked clinical subtype of L1 syndrome characterized
+      by variable spastic paraplegia mild to moderate intellectual disability and
+      dysplasia hypoplasia or aplasia of the corpus callosum. In this subtype hydrocephalus
+      adducted thumbs or absent speech are not observed.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

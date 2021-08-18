@@ -1,61 +1,61 @@
 Orphapacket:
-  ORPHApacketId: '399158'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '399158'
-  Label: Osteonecrosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_399158
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Bone necrosis
-  Parents:
-  - Parent:
-    - ORPHAcode: '93419'
-      Label: Rare bone disease
-  - Parent:
-    - ORPHAcode: '182231'
-      Label: Rare rheumatologic disease
   Childs:
   - Child:
+      Genes: no data
       Label: Mueller-Weiss syndrome
       ORPHAcode: '566943'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Epiphysiolysis of the hip
       ORPHAcode: '399329'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Idiopathic phalangeal acro-osteolysis
       ORPHAcode: '444316'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Osteochondritis dissecans
       ORPHAcode: '2764'
-      Genes: no data
   - Child:
-      Label: Familial osteochondritis dissecans
-      ORPHAcode: '251262'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '319'
+            Source: HGNC
+          - Reference: '155760'
+            Source: OMIM
           Label: aggrecan
           Symbol: ACAN
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '319'
-          - Source: OMIM
-            Reference: '155760'
+      Label: Familial osteochondritis dissecans
+      ORPHAcode: '251262'
   - Child:
+      Genes: no data
       Label: Avascular necrosis
       ORPHAcode: '399164'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Osteochondrosis
       ORPHAcode: '399319'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Osteoradionecrosis of the mandible
       ORPHAcode: '521127'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Osteonecrosis
+  ORPHAcode: '399158'
+  ORPHApacketId: '399158'
+  PURL: http://www.orpha.net/ORDO/Orphanet_399158
+  Parents:
+  - Parent:
+    - Label: Rare bone disease
+      ORPHAcode: '93419'
+  - Parent:
+    - Label: Rare rheumatologic disease
+      ORPHAcode: '182231'
+  Synonyms:
+  - Synonym: Bone necrosis
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

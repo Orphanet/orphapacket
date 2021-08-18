@@ -1,90 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '753'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '753'
-  Label: 46,XY disorder of sex development due to 5-alpha-reductase 2 deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_753
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: 46,XY DSD due to 5-alpha-reductase 2 deficiency
-  - Synonym: Pseudovaginal perineoscrotal hypospadias
-  - Synonym: Steroid 5-alpha-reductase deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '264600'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare disorder of sex development (DSD) due to a defect in metabolizing
-      testosterone to dihydrotestosterone and characterized by incomplete intrauterine
-      masculinization which ranges from a female genitalia with a blind vaginal pouch
-      to a fully male phenotype with pseudovaginal posterior hypospadias and micropenis.
-  Genes:
-  - Gene:
-      Symbol: SRD5A2
-      Name: steroid 5 alpha-reductase 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98086'
-      Label: 46,XY disorder of sex development due to a defect in testosterone metabolism
-        by peripheral tissue
-  - Parent:
-    - ORPHAcode: '399685'
-      Label: Rare male infertility due to testicular endocrine disorder
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000028
-      HPOTerm: Cryptorchidism
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000033
-      HPOTerm: Ambiguous genitalia, male
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000046
-      HPOTerm: Scrotal hypoplasia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000048
-      HPOTerm: Bifid scrotum
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000051
-      HPOTerm: Perineal hypospadias
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000062
-      HPOTerm: Ambiguous genitalia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000144
-      HPOTerm: Decreased fertility
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000818
-      HPOTerm: Abnormality of the endocrine system
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008736
-      HPOTerm: Hypoplasia of penis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100779
-      HPOTerm: Urogenital sinus anomaly
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: '[EXPERT]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -94,9 +11,92 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '264600'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: steroid 5 alpha-reductase 2
+      Symbol: SRD5A2
+  Label: 46,XY disorder of sex development due to 5-alpha-reductase 2 deficiency
+  ORPHAcode: '753'
+  ORPHApacketId: '753'
+  PURL: http://www.orpha.net/ORDO/Orphanet_753
+  Parents:
+  - Parent:
+    - Label: 46,XY disorder of sex development due to a defect in testosterone metabolism
+        by peripheral tissue
+      ORPHAcode: '98086'
+  - Parent:
+    - Label: Rare male infertility due to testicular endocrine disorder
+      ORPHAcode: '399685'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000028
+      HPOTerm: Cryptorchidism
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000033
+      HPOTerm: Ambiguous genitalia, male
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000046
+      HPOTerm: Scrotal hypoplasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000048
+      HPOTerm: Bifid scrotum
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000051
+      HPOTerm: Perineal hypospadias
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000062
+      HPOTerm: Ambiguous genitalia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000144
+      HPOTerm: Decreased fertility
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000818
+      HPOTerm: Abnormality of the endocrine system
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008736
+      HPOTerm: Hypoplasia of penis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100779
+      HPOTerm: Urogenital sinus anomaly
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]'
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: 46,XY DSD due to 5-alpha-reductase 2 deficiency
+  - Synonym: Pseudovaginal perineoscrotal hypospadias
+  - Synonym: Steroid 5-alpha-reductase deficiency
+  TextSection:
+    Contents: A rare disorder of sex development (DSD) due to a defect in metabolizing
+      testosterone to dihydrotestosterone and characterized by incomplete intrauterine
+      masculinization which ranges from a female genitalia with a blind vaginal pouch
+      to a fully male phenotype with pseudovaginal posterior hypospadias and micropenis.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,32 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '447985'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '447985'
-  Label: Partial duplication of the short arm of chromosome 19
-  PURL: http://www.orpha.net/ORDO/Orphanet_447985
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '7788'
+            Source: HGNC
+          - Reference: '164005'
+            Source: OMIM
+          Label: nuclear factor I X
+          Symbol: NFIX
+      Label: 19p13.3 microduplication syndrome
+      ORPHAcode: '447980'
   DisorderType:
-    value: Category
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Partial duplication of the short arm of chromosome 19
+  ORPHAcode: '447985'
+  ORPHApacketId: '447985'
+  PURL: http://www.orpha.net/ORDO/Orphanet_447985
+  Parents:
+  - Parent:
+    - Label: Partial duplication of chromosome 19
+      ORPHAcode: '262687'
   Synonyms:
   - Synonym: Partial duplication of chromosome 19p
   - Synonym: Partial trisomy of chromosome 19p
   - Synonym: Partial trisomy of the short arm of chromosome 19
-  Parents:
-  - Parent:
-    - ORPHAcode: '262687'
-      Label: Partial duplication of chromosome 19
-  Childs:
-  - Child:
-      Label: 19p13.3 microduplication syndrome
-      ORPHAcode: '447980'
-      Genes:
-      - Gene:
-          Label: nuclear factor I X
-          Symbol: NFIX
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7788'
-          - Source: OMIM
-            Reference: '164005'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

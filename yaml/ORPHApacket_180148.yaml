@@ -1,72 +1,72 @@
 Orphapacket:
-  ORPHApacketId: '180148'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '180148'
-  Label: Syndromic uterovaginal malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_180148
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '180062'
-      Label: Uterovaginal malformation
   Childs:
   - Child:
-      Label: Currarino syndrome
-      ORPHAcode: '1552'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4979'
+            Source: HGNC
+          - Reference: '142994'
+            Source: OMIM
           Label: motor neuron and pancreas homeobox 1
           Symbol: MNX1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4979'
-          - Source: OMIM
-            Reference: '142994'
+      Label: Currarino syndrome
+      ORPHAcode: '1552'
   - Child:
+      Genes: no data
       Label: PAGOD syndrome
       ORPHAcode: '991'
-      Genes: no data
   - Child:
-      Label: Hand-foot-genital syndrome
-      ORPHAcode: '2438'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '5102'
+            Source: HGNC
+          - Reference: '142959'
+            Source: OMIM
           Label: homeobox A13
           Symbol: HOXA13
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5102'
-          - Source: OMIM
-            Reference: '142959'
+      Label: Hand-foot-genital syndrome
+      ORPHAcode: '2438'
   - Child:
-      Label: Müllerian duct anomalies-limb anomalies syndrome
-      ORPHAcode: '2491'
       Genes: no data
+      Label: "M\xFCllerian duct anomalies-limb anomalies syndrome"
+      ORPHAcode: '2491'
   - Child:
+      Genes: no data
       Label: 46,XX disorder of sex development-anorectal anomalies syndrome
       ORPHAcode: '2973'
-      Genes: no data
   - Child:
-      Label: Meacham syndrome
-      ORPHAcode: '3097'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '12796'
+            Source: HGNC
+          - Reference: '607102'
+            Source: OMIM
           Label: WT1 transcription factor
           Symbol: WT1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12796'
-          - Source: OMIM
-            Reference: '607102'
+      Label: Meacham syndrome
+      ORPHAcode: '3097'
   - Child:
+      Genes: no data
       Label: Double uterus-hemivagina-renal agenesis syndrome
       ORPHAcode: '3411'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Spondylocostal dysostosis-anal atresia-genitourinary malformation syndrome
       ORPHAcode: '94095'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Syndromic uterovaginal malformation
+  ORPHAcode: '180148'
+  ORPHApacketId: '180148'
+  PURL: http://www.orpha.net/ORDO/Orphanet_180148
+  Parents:
+  - Parent:
+    - Label: Uterovaginal malformation
+      ORPHAcode: '180062'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

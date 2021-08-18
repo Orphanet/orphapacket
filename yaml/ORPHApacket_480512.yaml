@@ -1,29 +1,29 @@
 Orphapacket:
-  ORPHApacketId: '480512'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '480512'
-  Label: Idiopathic ductopenia
-  PURL: http://www.orpha.net/ORDO/Orphanet_480512
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Idiopathic ductopenia
+  ORPHAcode: '480512'
+  ORPHApacketId: '480512'
+  PURL: http://www.orpha.net/ORDO/Orphanet_480512
+  Parents:
+  - Parent:
+    - Label: Rare biliary tract disease
+      ORPHAcode: '101941'
+  - Parent:
+    - Label: Rare disorder potentially indicated for liver transplant
+      ORPHAcode: '506210'
   Synonyms:
   - Synonym: IAD
   - Synonym: Idiopathic adult ductopenia
   TextSection:
-    TextSectionType: Definition
     Contents: A rare biliary tract disease characterized by loss of interlobular bile
       ducts resulting in chronic cholestasis without any known cause. Loss of less
       than 50% of interlobular bile ducts is associated with a mild disease course
       while loss of the majority of ducts results in a severe form potentially leading
       to cirrhosis and liver failure. Patients typically present as young or middle-aged
       adults with episodic jaundice pruritus and elevated liver enzymes.
-  Parents:
-  - Parent:
-    - ORPHAcode: '101941'
-      Label: Rare biliary tract disease
-  - Parent:
-    - ORPHAcode: '506210'
-      Label: Rare disorder potentially indicated for liver transplant
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

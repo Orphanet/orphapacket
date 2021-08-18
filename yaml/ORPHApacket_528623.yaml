@@ -1,48 +1,59 @@
 Orphapacket:
-  ORPHApacketId: '528623'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '528623'
-  Label: Hereditary angioedema with C1Inh deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_528623
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '1228'
+            Source: HGNC
+          - Reference: '606860'
+            Source: OMIM
+          Label: serpin family G member 1
+          Symbol: SERPING1
+      Label: Hereditary angioedema type 1
+      ORPHAcode: '100050'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '1228'
+            Source: HGNC
+          - Reference: '606860'
+            Source: OMIM
+          Label: serpin family G member 1
+          Symbol: SERPING1
+      Label: Hereditary angioedema type 2
+      ORPHAcode: '100051'
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Hereditary angioedema with C1Inh deficiency
+  ORPHAcode: '528623'
+  ORPHApacketId: '528623'
+  PURL: http://www.orpha.net/ORDO/Orphanet_528623
+  Parents:
+  - Parent:
+    - Label: Hereditary angioedema
+      ORPHAcode: '91378'
+  - Parent:
+    - Label: Serpinopathy with loss of serpin function
+      ORPHAcode: '250811'
   Synonyms:
   - Synonym: HAE with C1 inhibitor deficiency
   - Synonym: HAE with C1Inh deficiency
   - Synonym: Hereditary angioneurotic edema with C1 inhibitor deficiency
   - Synonym: Hereditary angioneurotic edema with C1Inh deficiency
-  Parents:
-  - Parent:
-    - ORPHAcode: '91378'
-      Label: Hereditary angioedema
-  - Parent:
-    - ORPHAcode: '250811'
-      Label: Serpinopathy with loss of serpin function
-  Childs:
-  - Child:
-      Label: Hereditary angioedema type 1
-      ORPHAcode: '100050'
-      Genes:
-      - Gene:
-          Label: serpin family G member 1
-          Symbol: SERPING1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1228'
-          - Source: OMIM
-            Reference: '606860'
-  - Child:
-      Label: Hereditary angioedema type 2
-      ORPHAcode: '100051'
-      Genes:
-      - Gene:
-          Label: serpin family G member 1
-          Symbol: SERPING1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1228'
-          - Source: OMIM
-            Reference: '606860'
+  TextSection:
+    Contents: A rare hereditary angioedema characterized by potentially life-threatening
+      episodes of subcutaneous and/or submucosal edema without urticaria associated
+      with C1 esterase inhibitor (C1-INH) deficiency. Hereditary angioedema (HAE)
+      type 1 is caused by quantitative HAE type 2 by qualitative defects of C1-INH.
+      The two subtypes are clinically indistinguishable. Patients may present at any
+      age (but most commonly in childhood) with recurrent attacks of nonpitting edema
+      of the skin severe abdominal symptoms such as pain and swelling and/or respiratory
+      distress due to upper respiratory airways involvement. Genital bladder muscle
+      or joint swelling may occur in some cases.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

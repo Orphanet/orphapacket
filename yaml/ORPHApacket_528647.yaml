@@ -1,58 +1,92 @@
 Orphapacket:
-  ORPHApacketId: '528647'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '528647'
-  Label: Hereditary angioedema with normal C1Inh
-  PURL: http://www.orpha.net/ORDO/Orphanet_528647
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '3530'
+            Source: HGNC
+          - Reference: '610619'
+            Source: OMIM
+          Label: coagulation factor XII
+          Symbol: F12
+      Label: F12-related hereditary angioedema with normal C1Inh
+      ORPHAcode: '100054'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '9071'
+            Source: HGNC
+          - Reference: '173350'
+            Source: OMIM
+          Label: plasminogen
+          Symbol: PLG
+      Label: PLG-related hereditary angioedema with normal C1Inh
+      ORPHAcode: '537072'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '484'
+            Source: HGNC
+          - Reference: '601667'
+            Source: OMIM
+          Label: angiopoietin 1
+          Symbol: ANGPT1
+      - Gene:
+          ExternalReferences:
+          - Reference: '604603'
+            Source: OMIM
+          - Reference: '3656'
+            Source: HGNC
+          Label: myoferlin
+          Symbol: MYOF
+      - Gene:
+          ExternalReferences:
+          - Reference: '6383'
+            Source: HGNC
+          - Reference: '612358'
+            Source: OMIM
+          Label: kininogen 1
+          Symbol: KNG1
+      - Gene:
+          ExternalReferences:
+          - ExternalReference:
+              Reference: '14178'
+              Source: HGNC
+          Label: heparan sulfate-glucosamine 3-sulfotransferase 6
+          Symbol: HS3ST6
+      Label: Hereditary angioedema with normal C1Inh not related to F12 or PLG variant
+      ORPHAcode: '599418'
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Hereditary angioedema with normal C1Inh
+  ORPHAcode: '528647'
+  ORPHApacketId: '528647'
+  PURL: http://www.orpha.net/ORDO/Orphanet_528647
+  Parents:
+  - Parent:
+    - Label: Hereditary angioedema
+      ORPHAcode: '91378'
   Synonyms:
   - Synonym: HAE with normal C1 inhibitor
   - Synonym: HAE with normal C1Inh
   - Synonym: Hereditary angioedema with normal C1 inhibitor
   - Synonym: Hereditary angioneurotic edema with normal C1 inhibitor
   - Synonym: Hereditary angioneurotic edema with normal C1Inh
-  Parents:
-  - Parent:
-    - ORPHAcode: '91378'
-      Label: Hereditary angioedema
-  Childs:
-  - Child:
-      Label: F12-related hereditary angioedema with normal C1Inh
-      ORPHAcode: '100054'
-      Genes:
-      - Gene:
-          Label: coagulation factor XII
-          Symbol: F12
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3530'
-          - Source: OMIM
-            Reference: '610619'
-  - Child:
-      Label: PLG-related hereditary angioedema with normal C1Inh
-      ORPHAcode: '537072'
-      Genes:
-      - Gene:
-          Label: plasminogen
-          Symbol: PLG
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9071'
-          - Source: OMIM
-            Reference: '173350'
-  - Child:
-      Label: ANGPT1-related hereditary angioedema with normal C1Inh
-      ORPHAcode: '537891'
-      Genes:
-      - Gene:
-          Label: angiopoietin 1
-          Symbol: ANGPT1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '484'
-          - Source: OMIM
-            Reference: '601667'
+  TextSection:
+    Contents: A rare hereditary angioedema characterized by potentially life-threatening
+      episodes of subcutaneous and/or submucosal edema without urticaria and with
+      normal levels and function of C1 esterase inhibitor. Patients present with prolonged
+      attacks which last for approximately two to five days and may include nonpitting
+      edema of the skin severe abdominal symptoms such as pain and swelling and/or
+      respiratory distress due to upper respiratory airways involvement. Affected
+      locations and frequency of attacks differ slightly between subtypes. Estrogen-containing
+      oral contraceptives and pregnancy are precipitating factors especially in patients
+      with a factor XII mutation.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "306558",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "306558",
         "Label": "Primary microcephaly-epilepsy-permanent neonatal diabetes syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_306558",
@@ -13,9 +13,18 @@
         },
         "ExternalReferences": [
             {
-                "Source": "OMIM",
-                "Reference": "614231",
-                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "614231",
+                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "619278",
+                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                }
             }
         ],
         "TextSection": {
@@ -27,6 +36,13 @@
                 "Gene": {
                     "Symbol": "IER3IP1",
                     "Name": "immediate early response 3 interacting protein 1",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "YIPF5",
+                    "Name": "Yip1 domain family member 5",
                     "ExternalReferences": []
                 }
             }
@@ -53,14 +69,6 @@
                     {
                         "ORPHAcode": "269528",
                         "Label": "Syndrome with microcephaly as a major feature"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "269564",
-                        "Label": "Genetic syndrome with a central nervous system malformation as a major feature"
                     }
                 ]
             },

@@ -1,34 +1,34 @@
 Orphapacket:
-  ORPHApacketId: '88918'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '88918'
-  Label: Autosomal dominant Alport syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_88918
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '104200'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: COL4A3
-      Name: collagen type IV alpha 3 chain
-      ExternalReferences: []
-  - Gene:
-      Symbol: COL4A4
-      Name: collagen type IV alpha 4 chain
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '63'
-      Label: Alport syndrome
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Childhood
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '104200'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: collagen type IV alpha 3 chain
+      Symbol: COL4A3
+  - Gene:
+      ExternalReferences: []
+      Name: collagen type IV alpha 4 chain
+      Symbol: COL4A4
+  Label: Autosomal dominant Alport syndrome
+  ORPHAcode: '88918'
+  ORPHApacketId: '88918'
+  PURL: http://www.orpha.net/ORDO/Orphanet_88918
+  Parents:
+  - Parent:
+    - Label: Alport syndrome
+      ORPHAcode: '63'
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,74 +1,74 @@
 Orphapacket:
-  ORPHApacketId: '90044'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '90044'
-  Label: Familial pseudohyperkalemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_90044
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '609153'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Familial pseudohyperkalemia (FP) is an inherited mild non-hemolytic
-      subtype of hereditary stomatocytosis that is associated with a temperature-dependent
-      anomaly in red cell membrane permeability to potassium that leads to high <i>in
-      vitro</i> potassium levels in samples stored below 37°C. FP is not associated
-      with additional hematological abnormalities although affected individuals may
-      show some mild abnormalities like macrocytosis.
-  Genes:
-  - Gene:
-      Symbol: ABCB6
-      Name: ATP binding cassette subfamily B member 6 (Langereis blood group)
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98365'
-      Label: Hereditary stomatocytosis
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0002153
-      HPOTerm: Hyperkalemia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000822
-      HPOTerm: Hypertension
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0004446
-      HPOTerm: Stomatocytosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001923
-      HPOTerm: Reticulocytosis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0005518
-      HPOTerm: Increased mean corpuscular volume
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0004802
-      HPOTerm: Episodic hemolytic anemia
-      HPOFrequency: Very rare (<4-1%)
-  Prevalences:
-    Prevalence:
-    - Source: '[EXPERT]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '609153'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ATP binding cassette subfamily B member 6 (Langereis blood group)
+      Symbol: ABCB6
+  Label: Familial pseudohyperkalemia
+  ORPHAcode: '90044'
+  ORPHApacketId: '90044'
+  PURL: http://www.orpha.net/ORDO/Orphanet_90044
+  Parents:
+  - Parent:
+    - Label: Hereditary stomatocytosis
+      ORPHAcode: '98365'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002153
+      HPOTerm: Hyperkalemia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000822
+      HPOTerm: Hypertension
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004446
+      HPOTerm: Stomatocytosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001923
+      HPOTerm: Reticulocytosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005518
+      HPOTerm: Increased mean corpuscular volume
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0004802
+      HPOTerm: Episodic hemolytic anemia
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]'
+      ValMoy: '0.0'
+  TextSection:
+    Contents: "Familial pseudohyperkalemia (FP) is an inherited mild non-hemolytic\
+      \ subtype of hereditary stomatocytosis that is associated with a temperature-dependent\
+      \ anomaly in red cell membrane permeability to potassium that leads to high\
+      \ <i>in vitro</i> potassium levels in samples stored below 37\xB0C. FP is not\
+      \ associated with additional hematological abnormalities although affected individuals\
+      \ may show some mild abnormalities like macrocytosis."
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

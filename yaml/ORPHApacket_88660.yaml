@@ -1,19 +1,22 @@
 Orphapacket:
-  ORPHApacketId: '88660'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '88660'
-  Label: Hypertension due to gain-of-function mutations in the mineralocorticoid receptor
-  PURL: http://www.orpha.net/ORDO/Orphanet_88660
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Hypertension due to gain-of-function mutations in the mineralocorticoid receptor
+  ORPHAcode: '88660'
+  ORPHApacketId: '88660'
+  PURL: http://www.orpha.net/ORDO/Orphanet_88660
+  Parents:
+  - Parent:
+    - Label: Rare genetic cause of hypertension
+      ORPHAcode: '156629'
+  - Parent:
+    - Label: Rare disorder related with pregnancy, childbirth and puerperium
+      ORPHAcode: '163637'
   Synonyms:
   - Synonym: Early-onset hypertension with exacerbation in pregnancy
   - Synonym: Pseudohyperaldosteronism type 2
   TextSection:
-    TextSectionType: Definition
     Contents: Hypertension due to gain-of-function mutations in the mineralocorticoid
       receptor is a rare genetic hypertension characterized by a familial severe hypertension
       with an onset before age 20 years associated with suppressed plasma renin and
@@ -22,10 +25,7 @@ Orphapacket:
       pregnancy there is a marked exacerbation of hypertension accompanied by low
       serum potassium levels and undetectable aldosterone levels but without signs
       of preeclampsia requiring early delivery.
-  Parents:
-  - Parent:
-    - ORPHAcode: '156629'
-      Label: Rare genetic cause of hypertension
-  - Parent:
-    - ORPHAcode: '163637'
-      Label: Rare disorder related with pregnancy, childbirth and puerperium
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,23 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '93336'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '93336'
-  Label: Polydactyly of a triphalangeal thumb
-  PURL: http://www.orpha.net/ORDO/Orphanet_93336
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '174500'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: sonic hedgehog signaling molecule
+      Symbol: SHH
+  - Gene:
+      ExternalReferences: []
+      Name: limb development membrane protein 1
+      Symbol: LMBR1
+  Label: Polydactyly of a triphalangeal thumb
+  ORPHAcode: '93336'
+  ORPHApacketId: '93336'
+  PURL: http://www.orpha.net/ORDO/Orphanet_93336
+  Parents:
+  - Parent:
+    - Label: Non-syndromic preaxial polydactyly
+      ORPHAcode: '498464'
   Synonyms:
   - Synonym: PPD2
   - Synonym: Preaxial polydactyly type 2
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '174500'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
   TextSection:
-    TextSectionType: Definition
     Contents: Polydactyly of a triphalangeal thumb or PPD2 is a form of preaxial polydactyly
       of fingers (see this term) a limb malformation syndrome that is characterized
       by the presence of a usually opposable triphalangeal thumb with or without additional
@@ -25,19 +34,10 @@ Orphapacket:
       can differ widely in shape (wedge to rectangular) or it can be deviated in the
       radio-ulnar plane (clinodactyly). PPD2 is also associated with systemic syndromes
       including Holt-Oram syndrome and Fanconi anemia (see these terms).
-  Genes:
-  - Gene:
-      Symbol: SHH
-      Name: sonic hedgehog signaling molecule
-      ExternalReferences: []
-  - Gene:
-      Symbol: LMBR1
-      Name: limb development membrane protein 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '498464'
-      Label: Non-syndromic preaxial polydactyly
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

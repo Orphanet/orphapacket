@@ -1,47 +1,47 @@
 Orphapacket:
-  ORPHApacketId: '365563'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '365563'
-  Label: Primary short bowel syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_365563
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '104008'
-      Label: Short bowel syndrome
-  - Parent:
-    - ORPHAcode: '165655'
-      Label: Genetic intestinal disease
   Childs:
   - Child:
-      Label: Congenital short bowel syndrome
-      ORPHAcode: '2301'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '3754'
+            Source: HGNC
+          - Reference: '300017'
+            Source: OMIM
           Label: filamin A
           Symbol: FLNA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3754'
-          - Source: OMIM
-            Reference: '300017'
       - Gene:
+          ExternalReferences:
+          - Reference: '24039'
+            Source: HGNC
+          - Reference: '611693'
+            Source: OMIM
           Label: CXADR like membrane protein
           Symbol: CLMP
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '24039'
-          - Source: OMIM
-            Reference: '611693'
+      Label: Congenital short bowel syndrome
+      ORPHAcode: '2301'
   - Child:
+      Genes: no data
       Label: Atresia of small intestine
       ORPHAcode: '1201'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Gastroschisis
       ORPHAcode: '2368'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Primary short bowel syndrome
+  ORPHAcode: '365563'
+  ORPHApacketId: '365563'
+  PURL: http://www.orpha.net/ORDO/Orphanet_365563
+  Parents:
+  - Parent:
+    - Label: Short bowel syndrome
+      ORPHAcode: '104008'
+  - Parent:
+    - Label: Genetic intestinal disease
+      ORPHAcode: '165655'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

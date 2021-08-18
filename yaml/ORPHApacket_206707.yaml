@@ -1,28 +1,28 @@
 Orphapacket:
-  ORPHApacketId: '206707'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '206707'
-  Label: Bulbospinal muscular atrophy of adult
-  PURL: http://www.orpha.net/ORDO/Orphanet_206707
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '206701'
-      Label: Bulbospinal muscular atrophy
   Childs:
   - Child:
-      Label: Kennedy disease
-      ORPHAcode: '481'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '644'
+            Source: HGNC
+          - Reference: '313700'
+            Source: OMIM
           Label: androgen receptor
           Symbol: AR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '644'
-          - Source: OMIM
-            Reference: '313700'
+      Label: Kennedy disease
+      ORPHAcode: '481'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Bulbospinal muscular atrophy of adult
+  ORPHAcode: '206707'
+  ORPHApacketId: '206707'
+  PURL: http://www.orpha.net/ORDO/Orphanet_206707
+  Parents:
+  - Parent:
+    - Label: Bulbospinal muscular atrophy
+      ORPHAcode: '206701'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

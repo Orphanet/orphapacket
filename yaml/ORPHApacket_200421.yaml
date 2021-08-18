@@ -1,20 +1,25 @@
 Orphapacket:
-  ORPHApacketId: '200421'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '200421'
-  Label: Immunodeficiency with factor H anomaly
-  PURL: http://www.orpha.net/ORDO/Orphanet_200421
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
     Reference: '609814'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: complement factor H
+      Symbol: CFH
+  Label: Immunodeficiency with factor H anomaly
+  ORPHAcode: '200421'
+  ORPHApacketId: '200421'
+  PURL: http://www.orpha.net/ORDO/Orphanet_200421
+  Parents:
+  - Parent:
+    - Label: Immunodeficiency due to a complement regulatory deficiency
+      ORPHAcode: '459348'
   TextSection:
-    TextSectionType: Definition
     Contents: Immunodeficiency with factor H anomaly is a rare genetic primary immunodeficiency
       disease characterized by increased susceptibility to recurrent usually severe
       infections (particularly by <i> Neisseria meningitidis</i> <i>Escherichia coli</i>
@@ -24,12 +29,7 @@ Orphapacket:
       syndrome glomerulonephritis and/or systemic lupus erythematosus. Laboratory
       serum analysis reveals in addition to factor H deficiency decreased complement
       factor B properin complement C3 and terminal complement components.
-  Genes:
-  - Gene:
-      Symbol: CFH
-      Name: complement factor H
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '459348'
-      Label: Immunodeficiency due to a complement regulatory deficiency
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

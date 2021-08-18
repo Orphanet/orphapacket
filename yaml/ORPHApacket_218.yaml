@@ -1,119 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '218'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '218'
-  Label: Darier disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_218
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Darier-White disease
-  - Synonym: Keratosis follicularis
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '124200'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Darier disease (DD) is a keratinization disorder characterized by the
-      development of keratotic papules in seborrheic areas and specific nail anomalies.
-  Genes:
-  - Gene:
-      Symbol: ATP2A2
-      Name: ATPase sarcoplasmic/endoplasmic reticulum Ca2+ transporting 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79359'
-      Label: Other epidermal disorder
-  - Parent:
-    - ORPHAcode: '79360'
-      Label: Other genetic epidermal disease
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000982
-      HPOTerm: Palmoplantar keratoderma
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000989
-      HPOTerm: Pruritus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001000
-      HPOTerm: Abnormality of skin pigmentation
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001034
-      HPOTerm: Hypermelanotic macule
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001072
-      HPOTerm: Thickened skin
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001595
-      HPOTerm: Abnormality of the hair
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001597
-      HPOTerm: Abnormality of the nail
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0005212
-      HPOTerm: Anal mucosal leukoplakia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0008410
-      HPOTerm: Subungual hyperkeratotic fragments
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0010612
-      HPOTerm: Plantar pits
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012733
-      HPOTerm: Macule
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0200016
-      HPOTerm: Acrokeratosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0200037
-      HPOTerm: Skin vesicle
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-  - Prevalence:
-      Source: 1390140[PMID]_11841374[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: United Kingdom
-  - Prevalence:
-      Source: 13835928[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Denmark
-  - Prevalence:
-      Source: 16001099[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Slovenia
-  - Prevalence:
-      Source: 1390140[PMID]_11841374[PMID]_16001099[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -121,9 +9,121 @@ Orphapacket:
       value: Adult
   - AverageAgeOfOnset:
       value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '124200'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ATPase sarcoplasmic/endoplasmic reticulum Ca2+ transporting 2
+      Symbol: ATP2A2
+  Label: Darier disease
+  ORPHAcode: '218'
+  ORPHApacketId: '218'
+  PURL: http://www.orpha.net/ORDO/Orphanet_218
+  Parents:
+  - Parent:
+    - Label: Other epidermal disorder
+      ORPHAcode: '79359'
+  - Parent:
+    - Label: Other genetic epidermal disease
+      ORPHAcode: '79360'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000982
+      HPOTerm: Palmoplantar keratoderma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000989
+      HPOTerm: Pruritus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001000
+      HPOTerm: Abnormality of skin pigmentation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001034
+      HPOTerm: Hypermelanotic macule
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001072
+      HPOTerm: Thickened skin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001595
+      HPOTerm: Abnormality of the hair
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001597
+      HPOTerm: Abnormality of the nail
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005212
+      HPOTerm: Anal mucosal leukoplakia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008410
+      HPOTerm: Subungual hyperkeratotic fragments
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010612
+      HPOTerm: Plantar pits
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012733
+      HPOTerm: Macule
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0200016
+      HPOTerm: Acrokeratosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0200037
+      HPOTerm: Skin vesicle
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: United Kingdom
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 1390140[PMID]_11841374[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Denmark
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 13835928[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Slovenia
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 16001099[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 1390140[PMID]_11841374[PMID]_16001099[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Darier-White disease
+  - Synonym: Keratosis follicularis
+  TextSection:
+    Contents: Darier disease (DD) is a keratinization disorder characterized by the
+      development of keratotic papules in seborrheic areas and specific nail anomalies.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

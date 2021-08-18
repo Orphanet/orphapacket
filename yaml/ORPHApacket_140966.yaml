@@ -1,66 +1,66 @@
 Orphapacket:
-  ORPHApacketId: '140966'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '140966'
-  Label: Palmoplantar keratoderma, Nagashima type
-  PURL: http://www.orpha.net/ORDO/Orphanet_140966
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: PPK, Nagashima type
-  - Synonym: Palmoplantar hyperkeratosis, Nagashima type
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '615598'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Keratosis Nagashima-type is a transgressive and nonprogressive palmoplantar
-      keratoderma resembling a mild form of mal de Meleda (see this term).
-  Genes:
-  - Gene:
-      Symbol: SERPINB7
-      Name: serpin family B member 7
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98356'
-      Label: Autosomal recessive isolated diffuse palmoplantar keratoderma
-  - Parent:
-    - ORPHAcode: '250811'
-      Label: Serpinopathy with loss of serpin function
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000975
-      HPOTerm: Hyperhidrosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000982
-      HPOTerm: Palmoplantar keratoderma
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 27666198[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_27666198[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
   - AverageAgeOfOnset:
       value: Infancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '615598'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: serpin family B member 7
+      Symbol: SERPINB7
+  Label: Palmoplantar keratoderma, Nagashima type
+  ORPHAcode: '140966'
+  ORPHApacketId: '140966'
+  PURL: http://www.orpha.net/ORDO/Orphanet_140966
+  Parents:
+  - Parent:
+    - Label: Autosomal recessive isolated diffuse palmoplantar keratoderma
+      ORPHAcode: '98356'
+  - Parent:
+    - Label: Serpinopathy with loss of serpin function
+      ORPHAcode: '250811'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000975
+      HPOTerm: Hyperhidrosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000982
+      HPOTerm: Palmoplantar keratoderma
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 27666198[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_27666198[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: PPK, Nagashima type
+  - Synonym: Palmoplantar hyperkeratosis, Nagashima type
+  TextSection:
+    Contents: Keratosis Nagashima-type is a transgressive and nonprogressive palmoplantar
+      keratoderma resembling a mild form of mal de Meleda (see this term).
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

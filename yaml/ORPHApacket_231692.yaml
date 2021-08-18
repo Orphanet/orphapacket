@@ -1,74 +1,74 @@
 Orphapacket:
-  ORPHApacketId: '231692'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '231692'
-  Label: Isolated growth hormone deficiency type III
-  PURL: http://www.orpha.net/ORDO/Orphanet_231692
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '1133'
+            Source: HGNC
+          - Reference: '300300'
+            Source: OMIM
+          Label: Bruton tyrosine kinase
+          Symbol: BTK
+      - Gene:
+          ExternalReferences:
+          - Reference: '3319'
+            Source: HGNC
+          - Reference: '300775'
+            Source: OMIM
+          Label: E74 like ETS transcription factor 4
+          Symbol: ELF4
+      Label: Short stature due to isolated growth hormone deficiency with X-linked
+        hypogammaglobulinemia
+      ORPHAcode: '632'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11199'
+            Source: HGNC
+          - Reference: '313430'
+            Source: OMIM
+          Label: SRY-box transcription factor 3
+          Symbol: SOX3
+      Label: X-linked intellectual disability with isolated growth hormone deficiency
+      ORPHAcode: '67045'
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '307200'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '300123'
+      Source: OMIM
+  Label: Isolated growth hormone deficiency type III
+  ORPHAcode: '231692'
+  ORPHApacketId: '231692'
+  PURL: http://www.orpha.net/ORDO/Orphanet_231692
+  Parents:
+  - Parent:
+    - Label: Non-acquired isolated growth hormone deficiency
+      ORPHAcode: '631'
   Synonyms:
   - Synonym: Congenital IGHD type III
   - Synonym: Congenital isolated GH deficiency type III
   - Synonym: Congenital isolated growth hormone deficiency type III
   - Synonym: X-linked IGHD
   - Synonym: X-linked isolated growth hormone deficiency
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '307200'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '300123'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  Parents:
-  - Parent:
-    - ORPHAcode: '631'
-      Label: Non-acquired isolated growth hormone deficiency
-  Childs:
-  - Child:
-      Label: Short stature due to isolated growth hormone deficiency with X-linked
-        hypogammaglobulinemia
-      ORPHAcode: '632'
-      Genes:
-      - Gene:
-          Label: Bruton tyrosine kinase
-          Symbol: BTK
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1133'
-          - Source: OMIM
-            Reference: '300300'
-      - Gene:
-          Label: E74 like ETS transcription factor 4
-          Symbol: ELF4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3319'
-          - Source: OMIM
-            Reference: '300775'
-  - Child:
-      Label: X-linked intellectual disability with isolated growth hormone deficiency
-      ORPHAcode: '67045'
-      Genes:
-      - Gene:
-          Label: SRY-box 3
-          Symbol: SOX3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11199'
-          - Source: OMIM
-            Reference: '313430'
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,20 +1,149 @@
 Orphapacket:
-  ORPHApacketId: '99893'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99893'
-  Label: ACTH-independent Cushing syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_99893
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '9388'
+            Source: HGNC
+          - Reference: '188830'
+            Source: OMIM
+          Label: protein kinase cAMP-dependent type I regulatory subunit alpha
+          Symbol: PRKAR1A
+      - Gene:
+          ExternalReferences:
+          - Reference: '8773'
+            Source: HGNC
+          - Reference: '604961'
+            Source: OMIM
+          Label: phosphodiesterase 11A
+          Symbol: PDE11A
+      - Gene:
+          ExternalReferences:
+          - Reference: '8794'
+            Source: HGNC
+          - Reference: '603390'
+            Source: OMIM
+          Label: phosphodiesterase 8B
+          Symbol: PDE8B
+      - Gene:
+          ExternalReferences:
+          - Reference: '9380'
+            Source: HGNC
+          - Reference: '601639'
+            Source: OMIM
+          Label: protein kinase cAMP-activated catalytic subunit alpha
+          Symbol: PRKACA
+      Label: Primary pigmented nodular adrenocortical disease
+      ORPHAcode: '189439'
+  - Child:
+      Genes: no data
+      Label: ACTH-independent Cushing syndrome due to rare cortisol-producing adrenal
+        tumor
+      ORPHAcode: '443287'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: ACTH-independent Cushing syndrome
+  ORPHAcode: '99893'
+  ORPHApacketId: '99893'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99893
+  Parents:
+  - Parent:
+    - Label: Cushing syndrome
+      ORPHAcode: '553'
+  - Parent:
+    - Label: Rare male infertility due to adrenal disorder
+      ORPHAcode: '399584'
+  - Parent:
+    - Label: Rare female infertility due to an adrenal disorder
+      ORPHAcode: '399849'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000311
+      HPOTerm: Round face
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000963
+      HPOTerm: Thin skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001956
+      HPOTerm: Truncal obesity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008182
+      HPOTerm: Adrenocortical hypoplasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008568
+      HPOTerm: Vestibular areflexia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000716
+      HPOTerm: Depressivity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000739
+      HPOTerm: Anxiety
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000787
+      HPOTerm: Nephrolithiasis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000789
+      HPOTerm: Infertility
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000819
+      HPOTerm: Diabetes mellitus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000822
+      HPOTerm: Hypertension
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000978
+      HPOTerm: Bruising susceptibility
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001061
+      HPOTerm: Acne
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001065
+      HPOTerm: Striae distensae
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001324
+      HPOTerm: Muscle weakness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002230
+      HPOTerm: Generalized hirsutism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002900
+      HPOTerm: Hypokalemia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0400008
+      HPOTerm: Menometrorrhagia
   Synonyms:
   - Synonym: Adrenal Cushing syndrome
   - Synonym: Adrenocorticotropic hormone-independent Cushing syndrome
   - Synonym: Corticotropin-independent Cushing syndrome
   TextSection:
-    TextSectionType: Definition
     Contents: 'A form of endogenous Cushing syndrome (CS) that may result from excess
       secretion of cortisol by either a unilateral and benign (adrenocortical adenoma:
       55-60%) or malignant (adrenocortical carcinoma: 35-40 %) adrenocortical tumor
@@ -22,136 +151,7 @@ Orphapacket:
       as an isolated disease or as part of McCune-Albright syndrome (MAS) or by primary
       pigmented nodular adrenocortical disease (PPNAD) as an isolated disease or as
       part of Carney complex (CNC).'
-  Parents:
-  - Parent:
-    - ORPHAcode: '553'
-      Label: Cushing syndrome
-  - Parent:
-    - ORPHAcode: '399584'
-      Label: Rare male infertility due to adrenal disorder
-  - Parent:
-    - ORPHAcode: '399849'
-      Label: Rare female infertility due to an adrenal disorder
-  Childs:
-  - Child:
-      Label: Primary pigmented nodular adrenocortical disease
-      ORPHAcode: '189439'
-      Genes:
-      - Gene:
-          Label: protein kinase cAMP-dependent type I regulatory subunit alpha
-          Symbol: PRKAR1A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9388'
-          - Source: OMIM
-            Reference: '188830'
-      - Gene:
-          Label: phosphodiesterase 11A
-          Symbol: PDE11A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8773'
-          - Source: OMIM
-            Reference: '604961'
-      - Gene:
-          Label: phosphodiesterase 8B
-          Symbol: PDE8B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8794'
-          - Source: OMIM
-            Reference: '603390'
-      - Gene:
-          Label: protein kinase cAMP-activated catalytic subunit alpha
-          Symbol: PRKACA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9380'
-          - Source: OMIM
-            Reference: '601639'
-  - Child:
-      Label: ACTH-independent Cushing syndrome due to rare cortisol-producing adrenal
-        tumor
-      ORPHAcode: '443287'
-      Genes: no data
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000311
-      HPOTerm: Round face
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000716
-      HPOTerm: Depressivity
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000739
-      HPOTerm: Anxiety
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000787
-      HPOTerm: Nephrolithiasis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000789
-      HPOTerm: Infertility
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000819
-      HPOTerm: Diabetes mellitus
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000822
-      HPOTerm: Hypertension
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000963
-      HPOTerm: Thin skin
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000978
-      HPOTerm: Bruising susceptibility
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001061
-      HPOTerm: Acne
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001065
-      HPOTerm: Striae distensae
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001324
-      HPOTerm: Muscle weakness
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001508
-      HPOTerm: Failure to thrive
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001956
-      HPOTerm: Truncal obesity
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002230
-      HPOTerm: Generalized hirsutism
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002900
-      HPOTerm: Hypokalemia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0008182
-      HPOTerm: Adrenocortical hypoplasia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008568
-      HPOTerm: Vestibular areflexia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0012378
-      HPOTerm: Fatigue
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0400008
-      HPOTerm: Menometrorrhagia
-      HPOFrequency: Frequent (79-30%)
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

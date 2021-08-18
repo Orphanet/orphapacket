@@ -1,37 +1,37 @@
 Orphapacket:
-  ORPHApacketId: '443173'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '443173'
-  Label: Postpartum psychosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_443173
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Postpartum psychosis
+  ORPHAcode: '443173'
+  ORPHApacketId: '443173'
+  PURL: http://www.orpha.net/ORDO/Orphanet_443173
+  Parents:
+  - Parent:
+    - Label: Rare disorder related with pregnancy, childbirth and puerperium
+      ORPHAcode: '163637'
+  - Parent:
+    - Label: Rare neurologic disease with psychiatric involvement
+      ORPHAcode: '98033'
   Synonyms:
   - Synonym: Puerperal psychosis
   TextSection:
-    TextSectionType: Definition
     Contents: A rare gynecologic or obstetric disease characterized by an abrupt onset
       of psychiatric symptoms during the first weeks after childbirth. Clinical features
       include mood changes depression anxiety delusions and hallucinations among others.
       The disease is associated with a risk of suicide or infanticide as well as an
       increased risk for recurrence after the next pregnancy and future non-pregnancy
       related psychotic episodes.
-  Parents:
-  - Parent:
-    - ORPHAcode: '163637'
-      Label: Rare disorder related with pregnancy, childbirth and puerperium
-  - Parent:
-    - ORPHAcode: '98033'
-      Label: Rare neurologic disease with psychiatric involvement
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

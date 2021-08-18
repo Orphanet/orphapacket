@@ -1,55 +1,55 @@
 Orphapacket:
-  ORPHApacketId: '599'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '599'
-  Label: Distal myopathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_599
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Distal muscular dystrophy
-  TextSection:
-    TextSectionType: Definition
-    Contents: Distal myopathy refers to a group of muscle diseases which share the
-      clinical pattern of predominant weakness and atrophy beginning in the feet and/or
-      hands.
-  Parents:
-  - Parent:
-    - ORPHAcode: '206634'
-      Label: Genetic skeletal muscle disease
-  Childs:
-  - Child:
-      Label: Autosomal dominant distal myopathy
-      ORPHAcode: '206650'
-      Genes: no data
-  - Child:
-      Label: Autosomal recessive distal myopathy
-      ORPHAcode: '206653'
-      Genes: no data
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0003198
-      HPOTerm: Myopathy
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-    Prevalence:
-    - Source: 19767415[PMID]_[EXPERT]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.33'
-      PrevalenceGeographic: United Kingdom
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Autosomal dominant distal myopathy
+      ORPHAcode: '206650'
+  - Child:
+      Genes: no data
+      Label: Autosomal recessive distal myopathy
+      ORPHAcode: '206653'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Distal myopathy
+  ORPHAcode: '599'
+  ORPHApacketId: '599'
+  PURL: http://www.orpha.net/ORDO/Orphanet_599
+  Parents:
+  - Parent:
+    - Label: Genetic skeletal muscle disease
+      ORPHAcode: '206634'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003198
+      HPOTerm: Myopathy
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: United Kingdom
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 19767415[PMID]_[EXPERT]
+      ValMoy: '0.33'
+  Synonyms:
+  - Synonym: Distal muscular dystrophy
+  TextSection:
+    Contents: Distal myopathy refers to a group of muscle diseases which share the
+      clinical pattern of predominant weakness and atrophy beginning in the feet and/or
+      hands.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

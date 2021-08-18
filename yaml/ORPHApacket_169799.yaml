@@ -1,47 +1,47 @@
 Orphapacket:
-  ORPHApacketId: '169799'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '169799'
-  Label: Mild hemophilia B
-  PURL: http://www.orpha.net/ORDO/Orphanet_169799
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: Mild factor IX deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '306900'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Mild hemophilia B is a form of hemophilia B (see this term) characterized
-      by a small deficiency of factor IX leading to abnormal bleeding as a result
-      of minor injuries or following surgery or tooth extraction.
-  Genes:
-  - Gene:
-      Symbol: F9
-      Name: coagulation factor IX
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98879'
-      Label: Hemophilia B
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.6'
-      PrevalenceGeographic: Europe
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '306900'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: coagulation factor IX
+      Symbol: F9
+  Label: Mild hemophilia B
+  ORPHAcode: '169799'
+  ORPHApacketId: '169799'
+  PURL: http://www.orpha.net/ORDO/Orphanet_169799
+  Parents:
+  - Parent:
+    - Label: Hemophilia B
+      ORPHAcode: '98879'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.6'
+  Synonyms:
+  - Synonym: Mild factor IX deficiency
+  TextSection:
+    Contents: Mild hemophilia B is a form of hemophilia B (see this term) characterized
+      by a small deficiency of factor IX leading to abnormal bleeding as a result
+      of minor injuries or following surgery or tooth extraction.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

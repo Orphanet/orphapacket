@@ -1,49 +1,119 @@
 Orphapacket:
-  ORPHApacketId: '210272'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '210272'
-  Label: Mal de débarquement
-  PURL: http://www.orpha.net/ORDO/Orphanet_210272
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Clinical syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377792
+    value: Clinical syndrome
+  Label: "Mal de d\xE9barquement"
+  ORPHAcode: '210272'
+  ORPHApacketId: '210272'
+  PURL: http://www.orpha.net/ORDO/Orphanet_210272
+  Parents:
+  - Parent:
+    - Label: Rare otorhinolaryngologic disease
+      ORPHAcode: '98036'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002141
+      HPOTerm: Gait imbalance
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002172
+      HPOTerm: Postural instability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002317
+      HPOTerm: Unsteady gait
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002321
+      HPOTerm: Vertigo
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000496
+      HPOTerm: Abnormality of eye movement
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000622
+      HPOTerm: Blurred vision
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000651
+      HPOTerm: Diplopia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000739
+      HPOTerm: Anxiety
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001289
+      HPOTerm: Confusion
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002013
+      HPOTerm: Vomiting
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002018
+      HPOTerm: Nausea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002076
+      HPOTerm: Migraine
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002315
+      HPOTerm: Headache
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030826
+      HPOTerm: Eyelid fasciculation
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0001751
+      HPOTerm: Vestibular dysfunction
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0410263
+      HPOTerm: Brain imaging abnormality
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Disembarkment syndrome
   - Synonym: MdD
   - Synonym: MdDS
   - Synonym: Sickness of disembarkment
   TextSection:
+    Contents: "Mal de d\xE9barquement (MdD) is a rare otorhinolaryngological disease\
+      \ characterized by a persistent sensation of motion such as rocking swaying\
+      \ tumbling and/or bobbing following a period of exposure to passive movement\
+      \ usually an ocean cruise or other types of water train automobile or air travel\
+      \ and less commonly other movements (like sleeping on a waterbed). Onset may\
+      \ be spontaneous in some patients. Manifestations begin shortly after the stimulus\
+      \ persist for 6 months to years and may be associated with anxiety fatigue and\
+      \ impaired cognition. Symptoms are often accentuated when in an enclosed space\
+      \ or when attempting to be motionless (sitting lying down or standing in a stationary\
+      \ position) and are relieved when in passive motion such as in a moving car\
+      \ airplane or train."
     TextSectionType: Definition
-    Contents: Mal de débarquement (MdD) is a rare otorhinolaryngological disease characterized
-      by a persistent sensation of motion such as rocking swaying tumbling and/or
-      bobbing following a period of exposure to passive movement usually an ocean
-      cruise or other types of water train automobile or air travel and less commonly
-      other movements (like sleeping on a waterbed). Onset may be spontaneous in some
-      patients. Manifestations begin shortly after the stimulus persist for 6 months
-      to years and may be associated with anxiety fatigue and impaired cognition.
-      Symptoms are often accentuated when in an enclosed space or when attempting
-      to be motionless (sitting lying down or standing in a stationary position) and
-      are relieved when in passive motion such as in a moving car airplane or train.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98036'
-      Label: Rare otorhinolaryngologic disease
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

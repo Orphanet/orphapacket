@@ -1,20 +1,81 @@
 Orphapacket:
-  ORPHApacketId: '2010'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2010'
-  Label: Cleft palate-stapes fixation-oligodontia syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_2010
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '216300'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Cleft palate-stapes fixation-oligodontia syndrome
+  ORPHAcode: '2010'
+  ORPHApacketId: '2010'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2010
+  Parents:
+  - Parent:
+    - Label: Malformation syndrome with odontal and/or periodontal component
+      ORPHAcode: '139042'
+  - Parent:
+    - Label: Genetic malformation syndrome with odontal and/or periodontal component
+      ORPHAcode: '183580'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000175
+      HPOTerm: Cleft palate
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000413
+      HPOTerm: Atresia of the external auditory canal
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000506
+      HPOTerm: Telecanthus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003019
+      HPOTerm: Abnormality of the wrist
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003028
+      HPOTerm: Abnormality of the ankles
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008368
+      HPOTerm: Tarsal synostosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008513
+      HPOTerm: Bilateral conductive hearing impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009702
+      HPOTerm: Carpal synostosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012225
+      HPOTerm: Oligodontia of primary teeth
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 5173249[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_5173249[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Cleft palate - stapes fixation - oligodontia is characterized by cleft
       soft palate severe oligodontia of the deciduous teeth absence of the permanent
       dentition bilateral conductive deafness due to fixation of the footplate of
@@ -22,71 +83,10 @@ Orphapacket:
       and fusion of carpal and tarsal bones. It has been described in two sisters
       of Swedish extraction. An autosomal recessive mode of inheritance is likely.
       There have been no further descriptions in the literature since 1971.
-  Parents:
-  - Parent:
-    - ORPHAcode: '139042'
-      Label: Malformation syndrome with odontal and/or periodontal component
-  - Parent:
-    - ORPHAcode: '183580'
-      Label: Genetic malformation syndrome with odontal and/or periodontal component
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000175
-      HPOTerm: Cleft palate
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000413
-      HPOTerm: Atresia of the external auditory canal
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000506
-      HPOTerm: Telecanthus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003019
-      HPOTerm: Abnormality of the wrist
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003028
-      HPOTerm: Abnormality of the ankles
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008368
-      HPOTerm: Tarsal synostosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008513
-      HPOTerm: Bilateral conductive hearing impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0009702
-      HPOTerm: Carpal synostosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012225
-      HPOTerm: Oligodontia of primary teeth
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 5173249[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_5173249[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

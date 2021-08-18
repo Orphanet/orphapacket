@@ -1,65 +1,65 @@
 Orphapacket:
-  ORPHApacketId: '294963'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '294963'
-  Label: Popliteal pterygium syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_294963
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '109007'
-      Label: Arthrogryposis syndrome
-  - Parent:
-    - ORPHAcode: '98565'
-      Label: Syndromic ankyloblepharon filiforme adnatum
-  - Parent:
-    - ORPHAcode: '156237'
-      Label: Syndrome or malformation associated with head and neck malformations
-  Childs:
-  - Child:
-      Label: Bartsocas-Papas syndrome
-      ORPHAcode: '1234'
-      Genes:
-      - Gene:
-          Label: receptor interacting serine/threonine kinase 4
-          Symbol: RIPK4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '496'
-          - Source: OMIM
-            Reference: '605706'
-  - Child:
-      Label: Autosomal dominant popliteal pterygium syndrome
-      ORPHAcode: '1300'
-      Genes:
-      - Gene:
-          Label: interferon regulatory factor 6
-          Symbol: IRF6
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6121'
-          - Source: OMIM
-            Reference: '607199'
-  Prevalences:
-    Prevalence:
-    - Source: 2352260[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.3'
-      PrevalenceGeographic: Europe
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '496'
+            Source: HGNC
+          - Reference: '605706'
+            Source: OMIM
+          Label: receptor interacting serine/threonine kinase 4
+          Symbol: RIPK4
+      Label: Bartsocas-Papas syndrome
+      ORPHAcode: '1234'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '6121'
+            Source: HGNC
+          - Reference: '607199'
+            Source: OMIM
+          Label: interferon regulatory factor 6
+          Symbol: IRF6
+      Label: Autosomal dominant popliteal pterygium syndrome
+      ORPHAcode: '1300'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Popliteal pterygium syndrome
+  ORPHAcode: '294963'
+  ORPHApacketId: '294963'
+  PURL: http://www.orpha.net/ORDO/Orphanet_294963
+  Parents:
+  - Parent:
+    - Label: Arthrogryposis syndrome
+      ORPHAcode: '109007'
+  - Parent:
+    - Label: Syndromic ankyloblepharon filiforme adnatum
+      ORPHAcode: '98565'
+  - Parent:
+    - Label: Syndrome or malformation associated with head and neck malformations
+      ORPHAcode: '156237'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 2352260[PMID]
+      ValMoy: '0.3'
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

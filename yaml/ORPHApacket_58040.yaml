@@ -1,16 +1,16 @@
 Orphapacket:
-  ORPHApacketId: '58040'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '58040'
-  Label: Osteoblastoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_58040
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Osteoblastoma
+  ORPHAcode: '58040'
+  ORPHApacketId: '58040'
+  PURL: http://www.orpha.net/ORDO/Orphanet_58040
+  Parents:
+  - Parent:
+    - Label: Rare bone tumor
+      ORPHAcode: '68411'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare neoplastic disease characterized by a typically benign locally
       aggressive non self-limiting osteoblastic bone tumor usually located on the
       spine proximal humerus and hip (although any bone may be involved) generally
@@ -20,7 +20,7 @@ Orphapacket:
       or paraplegia may be associated if the spine is involved. Imaging reveals a
       lytic (or mixed lytic and blastic) lesion with a radiolucent nidus (> 2 cm)
       associated with reactive sclerotic bone.
-  Parents:
-  - Parent:
-    - ORPHAcode: '68411'
-      Label: Rare bone tumor
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

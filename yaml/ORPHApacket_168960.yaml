@@ -1,25 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '168960'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '168960'
-  Label: Refractory anemia with excess blasts in transformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_168960
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: RAEB-t
+    value: Disease
+  Label: Refractory anemia with excess blasts in transformation
+  ORPHAcode: '168960'
+  ORPHApacketId: '168960'
+  PURL: http://www.orpha.net/ORDO/Orphanet_168960
   Parents:
   - Parent:
-    - ORPHAcode: '52688'
-      Label: Myelodysplastic syndrome
+    - Label: Myelodysplastic syndrome
+      ORPHAcode: '52688'
   Prevalences:
     Prevalence:
-    - Source: RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.04'
+    - PrevalenceClass: <1 / 1 000 000
       PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: '0.04'
+  Synonyms:
+  - Synonym: RAEB-t
+  TextSection:
+    Contents: A rare hematologic disease characterized by the presence of 20-29% blasts
+      in the bone marrow presence of 5-29% blasts in the peripheral blood and/or presence
+      of Auer rods. Patients show relatively stable peripheral blood counts for weeks
+      or months with specific cytogenetic and molecular genetic characteristics constituting
+      important prognostic factors.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

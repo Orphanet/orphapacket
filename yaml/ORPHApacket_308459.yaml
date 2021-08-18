@@ -1,52 +1,52 @@
 Orphapacket:
-  ORPHApacketId: '308459'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '308459'
-  Label: Disorder of glycolysis
-  PURL: http://www.orpha.net/ORDO/Orphanet_308459
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '79161'
-      Label: Disorder of carbohydrate metabolism
   Childs:
   - Child:
-      Label: Triose phosphate-isomerase deficiency
-      ORPHAcode: '868'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '12009'
+            Source: HGNC
+          - Reference: '190450'
+            Source: OMIM
           Label: triosephosphate isomerase 1
           Symbol: TPI1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12009'
-          - Source: OMIM
-            Reference: '190450'
+      Label: Triose phosphate-isomerase deficiency
+      ORPHAcode: '868'
   - Child:
-      Label: Hemolytic anemia due to glucophosphate isomerase deficiency
-      ORPHAcode: '712'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4458'
+            Source: HGNC
+          - Reference: '172400'
+            Source: OMIM
           Label: glucose-6-phosphate isomerase
           Symbol: GPI
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4458'
-          - Source: OMIM
-            Reference: '172400'
+      Label: Hemolytic anemia due to glucophosphate isomerase deficiency
+      ORPHAcode: '712'
   - Child:
-      Label: Hyperinsulinism due to glucokinase deficiency
-      ORPHAcode: '79299'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4195'
+            Source: HGNC
+          - Reference: '138079'
+            Source: OMIM
           Label: glucokinase
           Symbol: GCK
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4195'
-          - Source: OMIM
-            Reference: '138079'
+      Label: Hyperinsulinism due to glucokinase deficiency
+      ORPHAcode: '79299'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Disorder of glycolysis
+  ORPHAcode: '308459'
+  ORPHApacketId: '308459'
+  PURL: http://www.orpha.net/ORDO/Orphanet_308459
+  Parents:
+  - Parent:
+    - Label: Disorder of carbohydrate metabolism
+      ORPHAcode: '79161'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

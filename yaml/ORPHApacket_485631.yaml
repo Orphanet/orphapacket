@@ -1,67 +1,67 @@
 Orphapacket:
-  ORPHApacketId: '485631'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '485631'
-  Label: Congenital bile acid synthesis defect
-  PURL: http://www.orpha.net/ORDO/Orphanet_485631
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Synonyms:
-  - Synonym: BASD
-  Parents:
-  - Parent:
-    - ORPHAcode: '163631'
-      Label: Bile acid synthesis defect with cholestasis and malabsorption
   Childs:
   - Child:
-      Label: Congenital bile acid synthesis defect type 4
-      ORPHAcode: '79095'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '451'
+            Source: HGNC
+          - Reference: '604489'
+            Source: OMIM
           Label: alpha-methylacyl-CoA racemase
           Symbol: AMACR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '451'
-          - Source: OMIM
-            Reference: '604489'
+      Label: Congenital bile acid synthesis defect type 4
+      ORPHAcode: '79095'
   - Child:
-      Label: Congenital bile acid synthesis defect type 1
-      ORPHAcode: '79301'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '18324'
+            Source: HGNC
+          - Reference: '607764'
+            Source: OMIM
           Label: hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase
             7
           Symbol: HSD3B7
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18324'
-          - Source: OMIM
-            Reference: '607764'
+      Label: Congenital bile acid synthesis defect type 1
+      ORPHAcode: '79301'
   - Child:
-      Label: Congenital bile acid synthesis defect type 3
-      ORPHAcode: '79302'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2652'
+            Source: HGNC
+          - Reference: '603711'
+            Source: OMIM
           Label: cytochrome P450 family 7 subfamily B member 1
           Symbol: CYP7B1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2652'
-          - Source: OMIM
-            Reference: '603711'
+      Label: Congenital bile acid synthesis defect type 3
+      ORPHAcode: '79302'
   - Child:
-      Label: Congenital bile acid synthesis defect type 2
-      ORPHAcode: '79303'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '388'
+            Source: HGNC
+          - Reference: '604741'
+            Source: OMIM
           Label: aldo-keto reductase family 1 member D1
           Symbol: AKR1D1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '388'
-          - Source: OMIM
-            Reference: '604741'
+      Label: Congenital bile acid synthesis defect type 2
+      ORPHAcode: '79303'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Congenital bile acid synthesis defect
+  ORPHAcode: '485631'
+  ORPHApacketId: '485631'
+  PURL: http://www.orpha.net/ORDO/Orphanet_485631
+  Parents:
+  - Parent:
+    - Label: Bile acid synthesis defect with cholestasis and malabsorption
+      ORPHAcode: '163631'
+  Synonyms:
+  - Synonym: BASD
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

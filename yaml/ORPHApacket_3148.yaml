@@ -1,65 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '3148'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3148'
-  Label: Malignant peripheral nerve sheath tumor
-  PURL: http://www.orpha.net/ORDO/Orphanet_3148
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: MPNST
-  - Synonym: Malignant neurilemmoma
-  - Synonym: Malignant neurofibroma
-  - Synonym: Malignant schwannoma
-  - Synonym: Neurofibrosarcoma
-  - Synonym: Neurogenic sarcoma
-  TextSection:
-    TextSectionType: Definition
-    Contents: Malignant peripheral nerve sheath tumor (MPNST) is a rare and often
-      aggressive soft tissue sarcoma occurring in a wide range of anatomical sites.
-  Genes:
-  - Gene:
-      Symbol: SH3PXD2A
-      Name: SH3 and PX domains 2A
-      ExternalReferences: []
-  - Gene:
-      Symbol: HTRA1
-      Name: HtrA serine peptidase 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '3394'
-      Label: Soft tissue sarcoma
-  - Parent:
-    - ORPHAcode: '252057'
-      Label: Tumor of cranial and spinal nerves
-  Childs:
-  - Child:
-      Label: Malignant triton tumor
-      ORPHAcode: '252212'
-      Genes: no data
-  - Child:
-      Label: Malignant peripheral nerve sheath tumor with perineurial differentiation
-      ORPHAcode: '252128'
-      Genes: no data
-  Prevalences:
-  - Prevalence:
-      Source: 24470531[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_24470531[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -71,9 +13,73 @@ Orphapacket:
       value: Elderly
   - AverageAgeOfOnset:
       value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Malignant triton tumor
+      ORPHAcode: '252212'
+  - Child:
+      Genes: no data
+      Label: Malignant peripheral nerve sheath tumor with perineurial differentiation
+      ORPHAcode: '252128'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: SH3 and PX domains 2A
+      Symbol: SH3PXD2A
+  - Gene:
+      ExternalReferences: []
+      Name: HtrA serine peptidase 1
+      Symbol: HTRA1
+  Label: Malignant peripheral nerve sheath tumor
+  ORPHAcode: '3148'
+  ORPHApacketId: '3148'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3148
+  Parents:
+  - Parent:
+    - Label: Soft tissue sarcoma
+      ORPHAcode: '3394'
+  - Parent:
+    - Label: Tumor of cranial and spinal nerves
+      ORPHAcode: '252057'
+  - Parent:
+    - Label: Pediatric soft tissue sarcoma
+      ORPHAcode: '602681'
+  - Parent:
+    - Label: Pediatric nervous system cancer
+      ORPHAcode: '602693'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 24470531[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_24470531[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: MPNST
+  - Synonym: Malignant neurilemmoma
+  - Synonym: Malignant neurofibroma
+  - Synonym: Malignant schwannoma
+  - Synonym: Neurofibrosarcoma
+  - Synonym: Neurogenic sarcoma
+  TextSection:
+    Contents: Malignant peripheral nerve sheath tumor (MPNST) is a rare and often
+      aggressive soft tissue sarcoma occurring in a wide range of anatomical sites.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

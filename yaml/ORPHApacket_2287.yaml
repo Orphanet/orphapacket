@@ -1,37 +1,37 @@
 Orphapacket:
-  ORPHApacketId: '2287'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2287'
-  Label: Fused mandibular incisors
-  PURL: http://www.orpha.net/ORDO/Orphanet_2287
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '147251'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Fused mandibular incisors
+  ORPHAcode: '2287'
+  ORPHApacketId: '2287'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2287
+  Parents:
+  - Parent:
+    - Label: Rare odontal or periodontal disorder
+      ORPHAcode: '164001'
+  - Parent:
+    - Label: Rare genetic odontal or periodontal disorder
+      ORPHAcode: '420755'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000164
+      HPOTerm: Abnormality of the dentition
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006288
+      HPOTerm: Advanced eruption of teeth
   TextSection:
-    TextSectionType: Definition
     Contents: Fused manidbular incisors is an extremely rare dental anomaly that is
       characterized by the union of two normally separated incisor tooth germs of
       the primary dentition. It is frequently associated with hypodontia (see this
       term) and an increased risk of pulp exposure.
-  Parents:
-  - Parent:
-    - ORPHAcode: '164001'
-      Label: Rare odontal or periodontal disorder
-  - Parent:
-    - ORPHAcode: '420755'
-      Label: Rare genetic odontal or periodontal disorder
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000164
-      HPOTerm: Abnormality of the dentition
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006288
-      HPOTerm: Advanced eruption of teeth
-      HPOFrequency: Very frequent (99-80%)
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

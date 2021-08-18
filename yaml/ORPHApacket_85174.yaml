@@ -1,20 +1,83 @@
 Orphapacket:
-  ORPHApacketId: '85174'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '85174'
-  Label: Pseudodiastrophic dysplasia
-  PURL: http://www.orpha.net/ORDO/Orphanet_85174
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: infantile
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '264180'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Pseudodiastrophic dysplasia
+  ORPHAcode: '85174'
+  ORPHApacketId: '85174'
+  PURL: http://www.orpha.net/ORDO/Orphanet_85174
+  Parents:
+  - Parent:
+    - Label: Primary bone dysplasia with multiple joint dislocations
+      ORPHAcode: '93441'
+  - Parent:
+    - Label: Rare developmental defect with connective tissue involvement
+      ORPHAcode: '139030'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000272
+      HPOTerm: Malar flattening
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000926
+      HPOTerm: Platyspondyly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001539
+      HPOTerm: Omphalocele
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001762
+      HPOTerm: Talipes equinovarus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002564
+      HPOTerm: Malformation of the heart and great vessels
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003042
+      HPOTerm: Elbow dislocation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006243
+      HPOTerm: Phalangeal dislocation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008905
+      HPOTerm: Rhizomelia
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 26754439[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_26754439[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Pseudodiastrophic dysplasia is characterized by rhizomelic shortening
       of the limbs and severe clubfoot deformity in association with elbow and proximal
       interphalangeal joint dislocations platyspondyly and scoliosis. It has been
@@ -24,73 +87,10 @@ Orphapacket:
       Clubfoot can be treated by surgical therapy and neonatal contractures and scoliosis
       can be relieved by physical therapy. Several of the reported patients died in
       the neonatal period or during infancy.
-  Parents:
-  - Parent:
-    - ORPHAcode: '93441'
-      Label: Primary bone dysplasia with multiple joint dislocations
-  - Parent:
-    - ORPHAcode: '139030'
-      Label: Rare developmental defect with connective tissue involvement
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000272
-      HPOTerm: Malar flattening
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000926
-      HPOTerm: Platyspondyly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001539
-      HPOTerm: Omphalocele
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001762
-      HPOTerm: Talipes equinovarus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002564
-      HPOTerm: Malformation of the heart and great vessels
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002650
-      HPOTerm: Scoliosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003042
-      HPOTerm: Elbow dislocation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006243
-      HPOTerm: Phalangeal dislocation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008905
-      HPOTerm: Rhizomelia
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 26754439[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_26754439[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: infantile
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

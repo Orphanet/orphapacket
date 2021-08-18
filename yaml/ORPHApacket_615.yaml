@@ -1,20 +1,124 @@
 Orphapacket:
-  ORPHApacketId: '615'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '615'
-  Label: Familial atrial myxoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_615
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: adult
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '255960'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: protein kinase cAMP-dependent type I regulatory subunit alpha
+      Symbol: PRKAR1A
+  Label: Familial atrial myxoma
+  ORPHAcode: '615'
+  ORPHApacketId: '615'
+  PURL: http://www.orpha.net/ORDO/Orphanet_615
+  Parents:
+  - Parent:
+    - Label: Rare cardiac tumor
+      ORPHAcode: '168194'
+  - Parent:
+    - Label: Genetic cardiac tumor
+      ORPHAcode: '271841'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0011672
+      HPOTerm: Cardiac myxoma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006691
+      HPOTerm: Pulmonic valve myxoma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0030148
+      HPOTerm: Heart murmur
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002875
+      HPOTerm: Exertional dyspnea
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003388
+      HPOTerm: Easy fatigability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000952
+      HPOTerm: Jaundice
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001396
+      HPOTerm: Cholestasis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001541
+      HPOTerm: Ascites
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001635
+      HPOTerm: Congestive heart failure
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001640
+      HPOTerm: Cardiomegaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001907
+      HPOTerm: Thromboembolism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001945
+      HPOTerm: Fever
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005180
+      HPOTerm: Tricuspid regurgitation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006689
+      HPOTerm: Bacterial endocarditis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010741
+      HPOTerm: Pedal edema
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100749
+      HPOTerm: Chest pain
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002617
+      HPOTerm: Dilatation
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0004944
+      HPOTerm: Dilatation of the cerebral artery
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 1540058[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_1540058[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Familial atrial myxoma is a rare genetic cardiac tumor characterized
       by the presence of a primary benign gelatinous mass located in the atria and
       composed of primitive connective tissue cells and stroma (resembling mesenchyme)
@@ -22,114 +126,10 @@ Orphapacket:
       and location of tumor ranging from nonspecific and/or constitutional symptoms
       to sudden cardiac death and includes dyspnea hemoptisis syncope fatigue fever
       cutaneous rash increases in venous pressure and/or peripheral edema.
-  Genes:
-  - Gene:
-      Symbol: PRKAR1A
-      Name: protein kinase cAMP-dependent type I regulatory subunit alpha
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '168194'
-      Label: Rare cardiac tumor
-  - Parent:
-    - ORPHAcode: '271841'
-      Label: Genetic cardiac tumor
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0011672
-      HPOTerm: Cardiac myxoma
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0006691
-      HPOTerm: Pulmonic valve myxoma
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0030148
-      HPOTerm: Heart murmur
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002875
-      HPOTerm: Exertional dyspnea
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003388
-      HPOTerm: Easy fatigability
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000952
-      HPOTerm: Jaundice
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001396
-      HPOTerm: Cholestasis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001541
-      HPOTerm: Ascites
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001635
-      HPOTerm: Congestive heart failure
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001640
-      HPOTerm: Cardiomegaly
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001907
-      HPOTerm: Thromboembolism
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001945
-      HPOTerm: Fever
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0005180
-      HPOTerm: Tricuspid regurgitation
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0006689
-      HPOTerm: Bacterial endocarditis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0010741
-      HPOTerm: Pedal edema
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0100749
-      HPOTerm: Chest pain
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002617
-      HPOTerm: Dilatation
-      HPOFrequency: Very rare (<4-1%)
-  - Phenotype:
-      HPOId: HP:0004944
-      HPOTerm: Dilatation of the cerebral artery
-      HPOFrequency: Very rare (<4-1%)
-  Prevalences:
-  - Prevalence:
-      Source: 1540058[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_1540058[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adolescent
-  - AverageAgeOfOnset:
-      value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

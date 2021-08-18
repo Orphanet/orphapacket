@@ -1,20 +1,49 @@
 Orphapacket:
-  ORPHApacketId: '447784'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '447784'
-  Label: Mitochondrial pyruvate carrier deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_447784
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: early childhood
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '614741'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: mitochondrial pyruvate carrier 1
+      Symbol: MPC1
+  Label: Mitochondrial pyruvate carrier deficiency
+  ORPHAcode: '447784'
+  ORPHApacketId: '447784'
+  PURL: http://www.orpha.net/ORDO/Orphanet_447784
+  Parents:
+  - Parent:
+    - Label: Neurometabolic disease
+      ORPHAcode: '68385'
+  - Parent:
+    - Label: Pyruvate metabolism disorder
+      ORPHAcode: '254746'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 22628558[PMID]_12649063[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_22628558[PMID]_12649063[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: A rare pyruvate metabolism disorder characterized by neonatal onset
       of a mitochondrial encephalopathy with global developmental delay and the biochemical
       characteristics of lactic acidosis and increased serum pyruvate with normal
@@ -22,39 +51,10 @@ Orphapacket:
       peripheral neuropathy hypotonia nystagmus extensor plantar responses hepatomegaly
       and craniofacial dysmorphism (such as progressive microcephaly epicanthus long
       philtrum and thin upper lip).
-  Genes:
-  - Gene:
-      Symbol: MPC1
-      Name: mitochondrial pyruvate carrier 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '68385'
-      Label: Neurometabolic disease
-  - Parent:
-    - ORPHAcode: '254746'
-      Label: Pyruvate metabolism disorder
-  Prevalences:
-  - Prevalence:
-      Source: 22628558[PMID]_12649063[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_22628558[PMID]_12649063[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: early childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

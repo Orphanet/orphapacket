@@ -1,60 +1,60 @@
 Orphapacket:
-  ORPHApacketId: '85146'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '85146'
-  Label: Neurogenic scapuloperoneal syndrome, Kaeser type
-  PURL: http://www.orpha.net/ORDO/Orphanet_85146
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '181400'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: desmin
+      Symbol: DES
+  Label: Neurogenic scapuloperoneal syndrome, Kaeser type
+  ORPHAcode: '85146'
+  ORPHApacketId: '85146'
+  PURL: http://www.orpha.net/ORDO/Orphanet_85146
+  Parents:
+  - Parent:
+    - Label: Genetic motor neuron disease
+      ORPHAcode: '98505'
+  - Parent:
+    - Label: Qualitative or quantitative defects of desmin
+      ORPHAcode: '209041'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 17439987[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_17439987[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Kaeser syndrome
   - Synonym: Stark-Kaeser syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '181400'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic neuromuscular disease characterized by adult-onset muscle
       weakness and atrophy in a scapuloperoneal distribution mild involvement of the
       facial muscles dysphagia and gynecomastia. Elevated serum CK levels and mixed
       myopathic and neurogenic abnormalities are associated clinical findings.
-  Genes:
-  - Gene:
-      Symbol: DES
-      Name: desmin
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98505'
-      Label: Genetic motor neuron disease
-  - Parent:
-    - ORPHAcode: '209041'
-      Label: Qualitative or quantitative defects of desmin
-  Prevalences:
-  - Prevalence:
-      Source: 17439987[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_17439987[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

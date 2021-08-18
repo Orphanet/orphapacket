@@ -1,20 +1,20 @@
 Orphapacket:
-  ORPHApacketId: '166433'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '166433'
-  Label: Reading seizures
-  PURL: http://www.orpha.net/ORDO/Orphanet_166433
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '132300'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Reading seizures
+  ORPHAcode: '166433'
+  ORPHApacketId: '166433'
+  PURL: http://www.orpha.net/ORDO/Orphanet_166433
+  Parents:
+  - Parent:
+    - Label: Reflex epilepsy
+      ORPHAcode: '310'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare reflex epilepsy characterized by reading-induced seizures which
       in most cases present with orofacial/jaw myoclonus possibly extending to the
       upper limbs but can also manifest as dyslexia or alexia and visual symptoms.
@@ -22,7 +22,7 @@ Orphapacket:
       stimulus is not interrupted. The disease typically begins in the second or third
       decade of life and may be inherited in an autosomal dominant pattern. It usually
       takes a benign course with little tendency to spontaneous seizures.
-  Parents:
-  - Parent:
-    - ORPHAcode: '310'
-      Label: Reflex epilepsy
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

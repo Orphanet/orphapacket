@@ -1,143 +1,143 @@
 Orphapacket:
-  ORPHApacketId: '302'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '302'
-  Label: Epidermodysplasia verruciformis
-  PURL: http://www.orpha.net/ORDO/Orphanet_302
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '226400'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '305350'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '618309'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '618231'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '618267'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: transmembrane channel like 6
+      Symbol: TMC6
+  - Gene:
+      ExternalReferences: []
+      Name: transmembrane channel like 8
+      Symbol: TMC8
+  - Gene:
+      ExternalReferences: []
+      Name: interleukin 7
+      Symbol: IL7
+  - Gene:
+      ExternalReferences: []
+      Name: calcium and integrin binding 1
+      Symbol: CIB1
+  Label: Epidermodysplasia verruciformis
+  ORPHAcode: '302'
+  ORPHApacketId: '302'
+  PURL: http://www.orpha.net/ORDO/Orphanet_302
+  Parents:
+  - Parent:
+    - Label: Immune deficiency with skin involvement
+      ORPHAcode: '79391'
+  - Parent:
+    - Label: Inherited cancer-predisposing syndrome
+      ORPHAcode: '140162'
+  - Parent:
+    - Label: Other immunodeficiency syndromes due to defects in innate immunity
+      ORPHAcode: '331193'
+  - Parent:
+    - Label: Genetic immune deficiency with skin involvement
+      ORPHAcode: '183494'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001051
+      HPOTerm: Seborrheic dermatitis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001053
+      HPOTerm: Hypopigmented skin patches
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001581
+      HPOTerm: Recurrent skin infections
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002715
+      HPOTerm: Abnormality of the immune system
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002860
+      HPOTerm: Squamous cell carcinoma
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007565
+      HPOTerm: Multiple cafe-au-lait spots
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100585
+      HPOTerm: Telangiectasia of the skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0200034
+      HPOTerm: Papule
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0200035
+      HPOTerm: Skin plaque
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0200039
+      HPOTerm: Pustule
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0200043
+      HPOTerm: Verrucae
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: Lewandowsky-Lutz syndrome
   - Synonym: Lutz-Lewandowsky epidermodysplasia verruciformis
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '226400'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '305350'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '618309'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '618231'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
-      Source: OMIM
-      Reference: '618267'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
   TextSection:
-    TextSectionType: Definition
     Contents: Epidermodysplasia verruciformis (EV) is a rare inherited genodermatosis
       characterized by chronic infection with human papillomavirus (HPV) leading to
       polymorphous cutaneous lesions and high risk of developing non melanoma skin
       cancer.
-  Genes:
-  - Gene:
-      Symbol: TMC6
-      Name: transmembrane channel like 6
-      ExternalReferences: []
-  - Gene:
-      Symbol: TMC8
-      Name: transmembrane channel like 8
-      ExternalReferences: []
-  - Gene:
-      Symbol: IL7
-      Name: interleukin 7
-      ExternalReferences: []
-  - Gene:
-      Symbol: CIB1
-      Name: calcium and integrin binding 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79391'
-      Label: Immune deficiency with skin involvement
-  - Parent:
-    - ORPHAcode: '140162'
-      Label: Inherited cancer-predisposing syndrome
-  - Parent:
-    - ORPHAcode: '331193'
-      Label: Other immunodeficiency syndromes due to defects in innate immunity
-  - Parent:
-    - ORPHAcode: '183494'
-      Label: Genetic immune deficiency with skin involvement
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001051
-      HPOTerm: Seborrheic dermatitis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001053
-      HPOTerm: Hypopigmented skin patches
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001581
-      HPOTerm: Recurrent skin infections
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002715
-      HPOTerm: Abnormality of the immune system
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002860
-      HPOTerm: Squamous cell carcinoma
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0007565
-      HPOTerm: Multiple cafe-au-lait spots
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0100585
-      HPOTerm: Telangiectasia of the skin
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0200034
-      HPOTerm: Papule
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0200035
-      HPOTerm: Skin plaque
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0200039
-      HPOTerm: Pustule
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0200043
-      HPOTerm: Verrucae
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

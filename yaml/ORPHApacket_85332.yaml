@@ -1,57 +1,57 @@
 Orphapacket:
-  ORPHApacketId: '85332'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '85332'
-  Label: X-linked intellectual disability-retinitis pigmentosa syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_85332
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '300578'
+    Source: OMIM
+  Label: X-linked intellectual disability-retinitis pigmentosa syndrome
+  ORPHAcode: '85332'
+  ORPHApacketId: '85332'
+  PURL: http://www.orpha.net/ORDO/Orphanet_85332
+  Parents:
+  - Parent:
+    - Label: X-linked syndromic intellectual disability
+      ORPHAcode: '98464'
+  - Parent:
+    - Label: Partial monosomy of the short arm of chromosome X
+      ORPHAcode: '263731'
+  - Parent:
+    - Label: Syndromic rod-cone dystrophy
+      ORPHAcode: '98661'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007730
+      HPOTerm: Iris hypopigmentation
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Aldred syndrome
   - Synonym: Retinitis pigmentosa and intellectual disability due to Xp11.3 microdeletion
   - Synonym: Retinitis pigmentosa and intellectual disability due to del(X)(p11.3)
   - Synonym: Retinitis pigmentosa and intellectual disability due to monosomy Xp11.3
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '300578'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: X-linked intellectual disability-retinitis pigmentosa syndrome is characterized
       by moderate intellectual deficit and severe early-onset retinitis pigmentosa.
       It has been described in five males spanning three generations of one family.
       Some patients also had microcephaly. It is transmitted as an X-linked recessive
       trait.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98464'
-      Label: X-linked syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '263731'
-      Label: Partial monosomy of the short arm of chromosome X
-  - Parent:
-    - ORPHAcode: '98661'
-      Label: Syndromic rod-cone dystrophy
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007730
-      HPOTerm: Iris hypopigmentation
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

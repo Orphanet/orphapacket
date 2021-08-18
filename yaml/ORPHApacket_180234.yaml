@@ -1,31 +1,4 @@
 Orphapacket:
-  ORPHApacketId: '180234'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '180234'
-  Label: Mixed germ cell tumor
-  PURL: http://www.orpha.net/ORDO/Orphanet_180234
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Parents:
-  - Parent:
-    - ORPHAcode: '99913'
-      Label: Extragonadal non-dysgerminomatous germ cell tumor
-  Childs:
-  - Child:
-      Label: Mixed germ cell tumor of central nervous system
-      ORPHAcode: '252021'
-      Genes: no data
-  Prevalences:
-    Prevalence:
-    - Source: RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.01'
-      PrevalenceGeographic: Europe
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -33,3 +6,40 @@ Orphapacket:
       value: Adult
   - AverageAgeOfOnset:
       value: Childhood
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Mixed germ cell tumor of central nervous system
+      ORPHAcode: '252021'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Mixed germ cell tumor
+  ORPHAcode: '180234'
+  ORPHApacketId: '180234'
+  PURL: http://www.orpha.net/ORDO/Orphanet_180234
+  Parents:
+  - Parent:
+    - Label: Extragonadal non-dysgerminomatous germ cell tumor
+      ORPHAcode: '99913'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: '0.01'
+  TextSection:
+    Contents: A rare germ cell tumor characterized by composition of two or more malignant
+      germ cell components the most common combination being dysgerminoma and yolk
+      sac tumor. The tumors typically occur between childhood and young adulthood.
+      They are usually located in the gonads occasionally also in other regions. Clinical
+      presentation corresponds to the individual germ cell components and the tumor
+      location; manifestations may include abdominal pain abdominal mass and menstrual
+      disorder in females and a testicular mass in males. The most important prognostic
+      factor is tumor stage.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,37 +1,37 @@
 Orphapacket:
-  ORPHApacketId: '231413'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '231413'
-  Label: Variant of Guillain-Barré syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_231413
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Variant of GBS
-  Parents:
-  - Parent:
-    - ORPHAcode: '2103'
-      Label: Guillain-Barré syndrome
-  Childs:
-  - Child:
-      Label: Regional variant of Guillain-Barré syndrome
-      ORPHAcode: '231416'
-      Genes: no data
-  - Child:
-      Label: Functional variant of Guillain-Barré syndrome
-      ORPHAcode: '231419'
-      Genes: no data
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
+  Childs:
+  - Child:
+      Genes: no data
+      Label: "Regional variant of Guillain-Barr\xE9 syndrome"
+      ORPHAcode: '231416'
+  - Child:
+      Genes: no data
+      Label: "Functional variant of Guillain-Barr\xE9 syndrome"
+      ORPHAcode: '231419'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: "Variant of Guillain-Barr\xE9 syndrome"
+  ORPHAcode: '231413'
+  ORPHApacketId: '231413'
+  PURL: http://www.orpha.net/ORDO/Orphanet_231413
+  Parents:
+  - Parent:
+    - Label: "Guillain-Barr\xE9 syndrome"
+      ORPHAcode: '2103'
+  Synonyms:
+  - Synonym: Variant of GBS
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Multigenic/multifactorial
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

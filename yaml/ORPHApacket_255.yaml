@@ -1,99 +1,296 @@
 Orphapacket:
-  ORPHApacketId: '255'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '255'
-  Label: Dopa-responsive dystonia
-  PURL: http://www.orpha.net/ORDO/Orphanet_255
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '191290'
+            Source: OMIM
+          - Reference: '11782'
+            Source: HGNC
+          Label: tyrosine hydroxylase
+          Symbol: TH
+      Label: Autosomal recessive dopa-responsive dystonia
+      ORPHAcode: '101150'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11257'
+            Source: HGNC
+          - Reference: '182125'
+            Source: OMIM
+          Label: sepiapterin reductase
+          Symbol: SPR
+      Label: Dopa-responsive dystonia due to sepiapterin reductase deficiency
+      ORPHAcode: '70594'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '4193'
+            Source: HGNC
+          - Reference: '600225'
+            Source: OMIM
+          Label: GTP cyclohydrolase 1
+          Symbol: GCH1
+      Label: Autosomal dominant dopa-responsive dystonia
+      ORPHAcode: '98808'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Dopa-responsive dystonia
+  ORPHAcode: '255'
+  ORPHApacketId: '255'
+  PURL: http://www.orpha.net/ORDO/Orphanet_255
+  Parents:
+  - Parent:
+    - Label: Disorder of pterin metabolism
+      ORPHAcode: '309819'
+  - Parent:
+    - Label: Persistent combined dystonia
+      ORPHAcode: '391711'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001332
+      HPOTerm: Dystonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000708
+      HPOTerm: Behavioral abnormality
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001288
+      HPOTerm: Gait disturbance
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001337
+      HPOTerm: Tremor
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001575
+      HPOTerm: Mood changes
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002063
+      HPOTerm: Rigidity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002355
+      HPOTerm: Difficulty walking
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002360
+      HPOTerm: Sleep disturbance
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002540
+      HPOTerm: Inability to walk
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003785
+      HPOTerm: Decreased CSF homovanillic acid
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010553
+      HPOTerm: Oculogyric crisis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0031959
+      HPOTerm: Leg dystonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0040207
+      HPOTerm: Abnormal CSF biopterin level
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000716
+      HPOTerm: Depressivity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000722
+      HPOTerm: Obsessive-compulsive behavior
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000736
+      HPOTerm: Short attention span
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000737
+      HPOTerm: Irritability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000739
+      HPOTerm: Anxiety
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000756
+      HPOTerm: Agoraphobia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000975
+      HPOTerm: Hyperhidrosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001254
+      HPOTerm: Lethargy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001260
+      HPOTerm: Dysarthria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001270
+      HPOTerm: Motor delay
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001300
+      HPOTerm: Parkinsonism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001350
+      HPOTerm: Slurred speech
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002013
+      HPOTerm: Vomiting
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002019
+      HPOTerm: Constipation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002071
+      HPOTerm: Abnormality of extrapyramidal motor function
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002119
+      HPOTerm: Ventriculomegaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002172
+      HPOTerm: Postural instability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002370
+      HPOTerm: Poor coordination
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002375
+      HPOTerm: Hypokinesia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002376
+      HPOTerm: Developmental regression
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002421
+      HPOTerm: Poor head control
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002493
+      HPOTerm: Upper motor neuron dysfunction
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003473
+      HPOTerm: Fatigable weakness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003781
+      HPOTerm: Excessive salivation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007325
+      HPOTerm: Generalized dystonia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008936
+      HPOTerm: Muscular hypotonia of the trunk
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011344
+      HPOTerm: Severe global developmental delay
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012433
+      HPOTerm: Abnormal social behavior
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012531
+      HPOTerm: Pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012704
+      HPOTerm: Widened subarachnoid space
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025269
+      HPOTerm: Panic attack
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025356
+      HPOTerm: Psychomotor retardation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0031960
+      HPOTerm: Arm dystonia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000020
+      HPOTerm: Urinary incontinence
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001298
+      HPOTerm: Encephalopathy
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001945
+      HPOTerm: Fever
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0010818
+      HPOTerm: Generalized tonic seizures
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0012448
+      HPOTerm: Delayed myelination
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 8420194[PMID]_19533203[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: HPD with diurnal fluctuation
   - Synonym: Hereditary progressive dystonia with diurnal fluctuation
   TextSection:
-    TextSectionType: Definition
     Contents: Dopa-responsive dystonia (DRD) describes a group of neurometabolic disorders
       characterized by dystonia that typically shows diurnal fluctuations that responds
       excellently to levodopa (L-dopa) and that is comprised of autosomal dominant
       dopa-responsive dystonia (DYT5a) autosomal recessive dopa-responsive dystonia
       (DYT5b) and dopa responsive dystonia due to sepiapterin reductase (SR) deficiency.
-  Parents:
-  - Parent:
-    - ORPHAcode: '309819'
-      Label: Disorder of pterin metabolism
-  - Parent:
-    - ORPHAcode: '391711'
-      Label: Persistent combined dystonia
-  Childs:
-  - Child:
-      Label: Autosomal recessive dopa-responsive dystonia
-      ORPHAcode: '101150'
-      Genes:
-      - Gene:
-          Label: tyrosine hydroxylase
-          Symbol: TH
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '191290'
-          - Source: HGNC
-            Reference: '11782'
-  - Child:
-      Label: Dopa-responsive dystonia due to sepiapterin reductase deficiency
-      ORPHAcode: '70594'
-      Genes:
-      - Gene:
-          Label: sepiapterin reductase
-          Symbol: SPR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11257'
-          - Source: OMIM
-            Reference: '182125'
-  - Child:
-      Label: Autosomal dominant dopa-responsive dystonia
-      ORPHAcode: '98808'
-      Genes:
-      - Gene:
-          Label: GTP cyclohydrolase 1
-          Symbol: GCH1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4193'
-          - Source: OMIM
-            Reference: '600225'
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001257
-      HPOTerm: Spasticity
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001288
-      HPOTerm: Gait disturbance
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100022
-      HPOTerm: Abnormality of movement
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 8420194[PMID]_19533203[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
@@ -101,3 +298,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,36 +1,36 @@
 Orphapacket:
-  ORPHApacketId: '98307'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98307'
-  Label: Acquired lipodystrophy
-  PURL: http://www.orpha.net/ORDO/Orphanet_98307
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '90970'
-      Label: Primary lipodystrophy
   Childs:
   - Child:
+      Genes: no data
       Label: Acquired generalized lipodystrophy
       ORPHAcode: '79086'
-      Genes: no data
   - Child:
-      Label: Acquired partial lipodystrophy
-      ORPHAcode: '79087'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6638'
+            Source: HGNC
+          - Reference: '150341'
+            Source: OMIM
           Label: lamin B2
           Symbol: LMNB2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6638'
-          - Source: OMIM
-            Reference: '150341'
+      Label: Acquired partial lipodystrophy
+      ORPHAcode: '79087'
   - Child:
+      Genes: no data
       Label: Localized lipodystrophy
       ORPHAcode: '79088'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Acquired lipodystrophy
+  ORPHAcode: '98307'
+  ORPHApacketId: '98307'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98307
+  Parents:
+  - Parent:
+    - Label: Primary lipodystrophy
+      ORPHAcode: '90970'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

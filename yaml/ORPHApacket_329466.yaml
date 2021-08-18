@@ -1,84 +1,84 @@
 Orphapacket:
-  ORPHApacketId: '329466'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '329466'
-  Label: Autosomal dominant focal dystonia, DYT25 type
-  PURL: http://www.orpha.net/ORDO/Orphanet_329466
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: DYT25
-  - Synonym: Dystonia 25
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '615073'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A form of focal dystonia characterized by cervical laryngeal and hand-forearm
-      dystonia.
-  Genes:
-  - Gene:
-      Symbol: GNAL
-      Name: G protein subunit alpha L
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '1866'
-      Label: Focal, segmental or multifocal dystonia
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0004373
-      HPOTerm: Focal dystonia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000473
-      HPOTerm: Torticollis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002451
-      HPOTerm: Limb dystonia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002530
-      HPOTerm: Axial dystonia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012049
-      HPOTerm: Laryngeal dystonia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012179
-      HPOTerm: Craniofacial dystonia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0031008
-      HPOTerm: Lingual dystonia
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 23222958[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_23222958[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '615073'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: G protein subunit alpha L
+      Symbol: GNAL
+  Label: Autosomal dominant focal dystonia, DYT25 type
+  ORPHAcode: '329466'
+  ORPHApacketId: '329466'
+  PURL: http://www.orpha.net/ORDO/Orphanet_329466
+  Parents:
+  - Parent:
+    - Label: Focal, segmental or multifocal dystonia
+      ORPHAcode: '1866'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004373
+      HPOTerm: Focal dystonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000473
+      HPOTerm: Torticollis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002451
+      HPOTerm: Limb dystonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002530
+      HPOTerm: Axial dystonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012049
+      HPOTerm: Laryngeal dystonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012179
+      HPOTerm: Craniofacial dystonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0031008
+      HPOTerm: Lingual dystonia
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 23222958[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_23222958[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: DYT25
+  - Synonym: Dystonia 25
+  TextSection:
+    Contents: A form of focal dystonia characterized by cervical laryngeal and hand-forearm
+      dystonia.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,18 +1,29 @@
 Orphapacket:
-  ORPHApacketId: '454706'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '454706'
-  Label: Progressive muscular atrophy
-  PURL: http://www.orpha.net/ORDO/Orphanet_454706
+  AverageAgeOfDeaths:
+  - AverageAgeOfDeath:
+      value: no data
+  - AverageAgeOfDeath:
+      value: no data
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Progressive muscular atrophy
+  ORPHAcode: '454706'
+  ORPHApacketId: '454706'
+  PURL: http://www.orpha.net/ORDO/Orphanet_454706
+  Parents:
+  - Parent:
+    - Label: Motor neuron disease
+      ORPHAcode: '98503'
+  - Parent:
+    - Label: Rare neurodegenerative disease
+      ORPHAcode: '182070'
   Synonyms:
   - Synonym: PMA
   TextSection:
-    TextSectionType: Definition
     Contents: A rare motor neuron disease characterized by isolated lower motor neuron
       features including progressive flaccid weakness muscle atrophy fasciculations
       and reduced or absent tendon reflexes. Onset is in late adulthood with men being
@@ -20,21 +31,10 @@ Orphapacket:
       some cases. Occurrence of respiratory insufficiency determines the prognosis.
       Neuropathological analysis shows intraneuronal Bunina bodies and ubiquitin-positive
       inclusions.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98503'
-      Label: Motor neuron disease
-  - Parent:
-    - ORPHAcode: '182070'
-      Label: Rare neurodegenerative disease
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: no data
-  - AverageAgeOfDeath:
-      value: no data
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

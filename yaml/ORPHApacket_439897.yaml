@@ -1,20 +1,64 @@
 Orphapacket:
-  ORPHApacketId: '439897'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '439897'
-  Label: Lethal fetal cerebrorenogenitourinary agenesis/hypoplasia syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_439897
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: embryofetal
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Antenatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '616258'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: kinesin family member 14
+      Symbol: KIF14
+  Label: Lethal fetal cerebrorenogenitourinary agenesis/hypoplasia syndrome
+  ORPHAcode: '439897'
+  ORPHApacketId: '439897'
+  PURL: http://www.orpha.net/ORDO/Orphanet_439897
+  Parents:
+  - Parent:
+    - Label: Arthrogryposis multiplex congenita
+      ORPHAcode: '1037'
+  - Parent:
+    - Label: Syndromic urogenital tract malformation
+      ORPHAcode: '165707'
+  - Parent:
+    - Label: Syndrome with a cerebellar malformation as a major feature
+      ORPHAcode: '269523'
+  - Parent:
+    - Label: Syndrome with microcephaly as a major feature
+      ORPHAcode: '269528'
+  - Parent:
+    - Label: Genetic syndrome with a cerebellar malformation as a major feature
+      ORPHAcode: '269567'
+  - Parent:
+    - Label: Nephropathy-associated ciliopathy
+      ORPHAcode: '156162'
+  - Parent:
+    - Label: Syndromic renal or urinary tract malformation
+      ORPHAcode: '93547'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 24128419[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_24128419[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Lethal fetal cerebrorenogenitourinary agenesis/hypoplasia syndrome is
       a rare genetic developmental defect during embryogenesis malformation syndrome
       characterized by intrauterine growth restriction flexion arthrogryposis of all
@@ -23,54 +67,10 @@ Orphapacket:
       callosum and/or occipital lobe agenesis with or without arhinencephaly) as well
       as of the genitourinary tract (ureteral agenesis/hypoplasia uterine hypoplasia
       and/or vaginal atresia) leading to fetal demise.
-  Genes:
-  - Gene:
-      Symbol: KIF14
-      Name: kinesin family member 14
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '1037'
-      Label: Arthrogryposis multiplex congenita
-  - Parent:
-    - ORPHAcode: '165707'
-      Label: Syndromic urogenital tract malformation
-  - Parent:
-    - ORPHAcode: '269523'
-      Label: Syndrome with a cerebellar malformation as a major feature
-  - Parent:
-    - ORPHAcode: '269528'
-      Label: Syndrome with microcephaly as a major feature
-  - Parent:
-    - ORPHAcode: '269567'
-      Label: Genetic syndrome with a cerebellar malformation as a major feature
-  - Parent:
-    - ORPHAcode: '156162'
-      Label: Nephropathy-associated ciliopathy
-  - Parent:
-    - ORPHAcode: '93547'
-      Label: Syndromic renal or urinary tract malformation
-  Prevalences:
-  - Prevalence:
-      Source: 24128419[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_24128419[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Antenatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: embryofetal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

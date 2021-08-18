@@ -1,44 +1,44 @@
 Orphapacket:
-  ORPHApacketId: '172976'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '172976'
-  Label: Congenital myopathy with cores
-  PURL: http://www.orpha.net/ORDO/Orphanet_172976
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '97245'
-      Label: Congenital myopathy
   Childs:
   - Child:
-      Label: Central core disease
-      ORPHAcode: '597'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '10483'
+            Source: HGNC
+          - Reference: '180901'
+            Source: OMIM
           Label: ryanodine receptor 1
           Symbol: RYR1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10483'
-          - Source: OMIM
-            Reference: '180901'
+      Label: Central core disease
+      ORPHAcode: '597'
   - Child:
+      Genes: no data
       Label: Multiminicore myopathy
       ORPHAcode: '598'
-      Genes: no data
   - Child:
-      Label: Congenital myopathy with internal nuclei and atypical cores
-      ORPHAcode: '319160'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '14153'
+            Source: HGNC
+          - Reference: '614666'
+            Source: OMIM
           Label: coiled-coil domain containing 78
           Symbol: CCDC78
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '14153'
-          - Source: OMIM
-            Reference: '614666'
+      Label: Congenital myopathy with internal nuclei and atypical cores
+      ORPHAcode: '319160'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Congenital myopathy with cores
+  ORPHAcode: '172976'
+  ORPHApacketId: '172976'
+  PURL: http://www.orpha.net/ORDO/Orphanet_172976
+  Parents:
+  - Parent:
+    - Label: Congenital myopathy
+      ORPHAcode: '97245'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

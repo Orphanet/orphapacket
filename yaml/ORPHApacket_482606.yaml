@@ -1,63 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '482606'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '482606'
-  Label: X-linked keloid scarring-reduced joint mobility-increased optic cup-to-disc
-    ratio syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_482606
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare genetic disease characterized by congenital contractures of the
-      distal interphalangeal joints progressive stiffness of the shoulders and neck
-      keloid scarring increased optic cup-to-disc ratio and renal stones. Additional
-      reported features include arthritis osteoporosis hypoplastic flexion creases
-      clinodactyly anxiety and facial dysmorphism (such as sloping forehead prominent
-      supraorbital ridges downslanting palpebral fissures prominent ears and high
-      arched palate). Female carriers exhibit a variable milder phenotype.
-  Genes:
-  - Gene:
-      Symbol: FLNA
-      Name: filamin A
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '79359'
-      Label: Other epidermal disorder
-  - Parent:
-    - ORPHAcode: '79360'
-      Label: Other genetic epidermal disease
-  - Parent:
-    - ORPHAcode: '93425'
-      Label: Filamin-related bone disorder
-  - Parent:
-    - ORPHAcode: '404571'
-      Label: Dysostosis of genetic origin with limb anomaly as a major feature
-  - Parent:
-    - ORPHAcode: '441434'
-      Label: Syndromic hereditary optic neuropathy
-  - Parent:
-    - ORPHAcode: '364568'
-      Label: Dysostosis with limb anomaly as a major feature
-  Prevalences:
-  - Prevalence:
-      Source: 26804200[PMID]_26686323[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_26804200[PMID]_26686323[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -67,6 +11,62 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: filamin A
+      Symbol: FLNA
+  Label: X-linked keloid scarring-reduced joint mobility-increased optic cup-to-disc
+    ratio syndrome
+  ORPHAcode: '482606'
+  ORPHApacketId: '482606'
+  PURL: http://www.orpha.net/ORDO/Orphanet_482606
+  Parents:
+  - Parent:
+    - Label: Other epidermal disorder
+      ORPHAcode: '79359'
+  - Parent:
+    - Label: Other genetic epidermal disease
+      ORPHAcode: '79360'
+  - Parent:
+    - Label: Filamin-related bone disorder
+      ORPHAcode: '93425'
+  - Parent:
+    - Label: Dysostosis of genetic origin with limb anomaly as a major feature
+      ORPHAcode: '404571'
+  - Parent:
+    - Label: Syndromic hereditary optic neuropathy
+      ORPHAcode: '441434'
+  - Parent:
+    - Label: Dysostosis with limb anomaly as a major feature
+      ORPHAcode: '364568'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 26804200[PMID]_26686323[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_26804200[PMID]_26686323[PMID]
+      ValMoy: no data
+  TextSection:
+    Contents: A rare genetic disease characterized by congenital contractures of the
+      distal interphalangeal joints progressive stiffness of the shoulders and neck
+      keloid scarring increased optic cup-to-disc ratio and renal stones. Additional
+      reported features include arthritis osteoporosis hypoplastic flexion creases
+      clinodactyly anxiety and facial dysmorphism (such as sloping forehead prominent
+      supraorbital ridges downslanting palpebral fissures prominent ears and high
+      arched palate). Female carriers exhibit a variable milder phenotype.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

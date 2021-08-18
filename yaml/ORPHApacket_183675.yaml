@@ -1,57 +1,57 @@
 Orphapacket:
-  ORPHApacketId: '183675'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '183675'
-  Label: Recurrent infections associated with rare immunoglobulin isotypes deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_183675
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '614102'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: immunoglobulin heavy constant gamma 2 (G2m marker)
+      Symbol: IGHG2
+  - Gene:
+      ExternalReferences: []
+      Name: immunoglobulin kappa constant
+      Symbol: IGKC
+  Label: Recurrent infections associated with rare immunoglobulin isotypes deficiency
+  ORPHAcode: '183675'
+  ORPHApacketId: '183675'
+  PURL: http://www.orpha.net/ORDO/Orphanet_183675
+  Parents:
+  - Parent:
+    - Label: Immunodeficiency with isotype or light chain deficiencies with normal
+        number of B-cells
+      ORPHAcode: '331232'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: IgG subclass deficiency with IgA subclass deficiency
   - Synonym: Isolated IgG subclass deficiency
   - Synonym: Kappa-chain deficiency
   - Synonym: Selective IgG subclass deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614102'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: 'Deficiencies in immunoglobulin (Ig) isotypes (including: isolated IgG
       subclass deficiency IgG sublcass deficiency with IgA deficiency and kappa chain
       deficiency) are primary immunodeficiencies that are often asymptomatic but can
       be characterized by recurrent often pyogenic sinopulmonary infections.'
-  Genes:
-  - Gene:
-      Symbol: IGHG2
-      Name: immunoglobulin heavy constant gamma 2 (G2m marker)
-      ExternalReferences: []
-  - Gene:
-      Symbol: IGKC
-      Name: immunoglobulin kappa constant
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '331232'
-      Label: Immunodeficiency with isotype or light chain deficiencies with normal
-        number of B-cells
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Unknown
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

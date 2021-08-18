@@ -1,32 +1,4 @@
 Orphapacket:
-  ORPHApacketId: '251646'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '251646'
-  Label: Anaplastic ependymoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_251646
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare malignant type of ependymoma that most often arises in the supratentorial
-      region of the brain of children and young adults and that manifests with variable
-      symptoms including headaches nausea vision impairment memory loss and difficulty
-      walking.
-  Parents:
-  - Parent:
-    - ORPHAcode: '301'
-      Label: Ependymal tumor
-  Prevalences:
-    Prevalence:
-    - Source: 23660944[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.04'
-      PrevalenceGeographic: United States
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -34,6 +6,37 @@ Orphapacket:
       value: Adult
   - AverageAgeOfOnset:
       value: Childhood
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Anaplastic ependymoma
+  ORPHAcode: '251646'
+  ORPHApacketId: '251646'
+  PURL: http://www.orpha.net/ORDO/Orphanet_251646
+  Parents:
+  - Parent:
+    - Label: Ependymal tumor
+      ORPHAcode: '301'
+  - Parent:
+    - Label: Pediatric cancer of neuroepithelial tissue
+      ORPHAcode: '602695'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 23660944[PMID]
+      ValMoy: '0.04'
+  TextSection:
+    Contents: A rare malignant type of ependymoma that most often arises in the supratentorial
+      region of the brain of children and young adults and that manifests with variable
+      symptoms including headaches nausea vision impairment memory loss and difficulty
+      walking.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

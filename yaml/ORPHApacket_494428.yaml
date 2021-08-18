@@ -1,19 +1,48 @@
 Orphapacket:
-  ORPHApacketId: '494428'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '494428'
-  Label: Idiopathic pleuroparenchymal fibroelastosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_494428
+  AverageAgeOfDeaths:
+  - AverageAgeOfDeath:
+      value: Adolescent
+  - AverageAgeOfDeath:
+      value: Adult
+  - AverageAgeOfDeath:
+      value: Elderly
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Elderly
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Idiopathic pleuroparenchymal fibroelastosis
+  ORPHAcode: '494428'
+  ORPHApacketId: '494428'
+  PURL: http://www.orpha.net/ORDO/Orphanet_494428
+  Parents:
+  - Parent:
+    - Label: Idiopathic interstitial pneumonia
+      ORPHAcode: '98300'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_27141432[PMID]_28344924[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 27141432[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: IPPFE
   - Synonym: Idiopathic pleuropulmonary fibroelastosis
   TextSection:
-    TextSectionType: Definition
     Contents: A rare idiopathic interstitial pneumonia characterized by prominent
       subpleural and parenchymal fibroelastosis and pleural fibrosis predominantly
       involving the upper lobes. Signs and symptoms include non-productive cough dyspnea
@@ -22,36 +51,7 @@ Orphapacket:
       diffusing capacity. Computed tomography shows pleural thickening with signs
       of fibrosis (traction bronchiectasis architectural distortion and loss of volume)
       and reticulation.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98300'
-      Label: Idiopathic interstitial pneumonia
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET_27141432[PMID]_28344924[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: 27141432[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adolescent
-  - AverageAgeOfOnset:
-      value: Adult
-  - AverageAgeOfOnset:
-      value: Elderly
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Adolescent
-  - AverageAgeOfDeath:
-      value: Adult
-  - AverageAgeOfDeath:
-      value: Elderly
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,31 +1,116 @@
 Orphapacket:
-  ORPHApacketId: '52429'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '52429'
-  Label: Branchiootic syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_52429
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
   ExternalReferences:
   - ExternalReference:
-      Source: OMIM
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
       Reference: '120502'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
       Source: OMIM
-      Reference: '602588'
+  - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  - ExternalReference:
+      Reference: '602588'
       Source: OMIM
-      Reference: '608389'
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
+      Reference: '608389'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: EYA transcriptional coactivator and phosphatase 1
+      Symbol: EYA1
+  - Gene:
+      ExternalReferences: []
+      Name: SIX homeobox 1
+      Symbol: SIX1
+  Label: Branchiootic syndrome
+  ORPHAcode: '52429'
+  ORPHApacketId: '52429'
+  PURL: http://www.orpha.net/ORDO/Orphanet_52429
+  Parents:
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '102285'
+  - Parent:
+    - Label: Syndromic genetic deafness
+      ORPHAcode: '90642'
+  - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '330206'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000324
+      HPOTerm: Facial asymmetry
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000347
+      HPOTerm: Micrognathia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000356
+      HPOTerm: Abnormality of the outer ear
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000359
+      HPOTerm: Abnormality of the inner ear
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000384
+      HPOTerm: Preauricular skin tag
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000405
+      HPOTerm: Conductive hearing impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000407
+      HPOTerm: Sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000413
+      HPOTerm: Atresia of the external auditory canal
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004467
+      HPOTerm: Preauricular pit
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008609
+      HPOTerm: Morphological abnormality of the middle ear
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009795
+      HPOTerm: Branchial fistula
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010628
+      HPOTerm: Facial palsy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000175
+      HPOTerm: Cleft palate
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000365
+      HPOTerm: Hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000614
+      HPOTerm: Abnormality of the nasolacrimal system
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100267
+      HPOTerm: Lip pit
   TextSection:
-    TextSectionType: Definition
     Contents: Branchiootic syndrome is a rare genetic multiple congenital anomalies
       syndrome characterized by second branchial arch anomalies (branchial cysts and
       fistulae) malformations of the outer middle and inner ear associated with sensorineural
@@ -34,95 +119,10 @@ Orphapacket:
       pits and/or tags and middle and/or inner ear dysplasias (inculding cochlear
       vestibular and semicircular channel hypoplasia malformation of the ossicles
       and of middle ear space).
-  Genes:
-  - Gene:
-      Symbol: EYA1
-      Name: EYA transcriptional coactivator and phosphatase 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: SIX1
-      Name: SIX homeobox 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '102285'
-      Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-  - Parent:
-    - ORPHAcode: '90642'
-      Label: Syndromic genetic deafness
-  - Parent:
-    - ORPHAcode: '330206'
-      Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000324
-      HPOTerm: Facial asymmetry
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000347
-      HPOTerm: Micrognathia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000356
-      HPOTerm: Abnormality of the outer ear
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000359
-      HPOTerm: Abnormality of the inner ear
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000384
-      HPOTerm: Preauricular skin tag
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000405
-      HPOTerm: Conductive hearing impairment
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000407
-      HPOTerm: Sensorineural hearing impairment
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000413
-      HPOTerm: Atresia of the external auditory canal
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0004467
-      HPOTerm: Preauricular pit
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008609
-      HPOTerm: Morphological abnormality of the middle ear
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0009795
-      HPOTerm: Branchial fistula
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0010628
-      HPOTerm: Facial palsy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000175
-      HPOTerm: Cleft palate
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000365
-      HPOTerm: Hearing impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000614
-      HPOTerm: Abnormality of the nasolacrimal system
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0100267
-      HPOTerm: Lip pit
-      HPOFrequency: Occasional (29-5%)
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

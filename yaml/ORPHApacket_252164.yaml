@@ -1,20 +1,139 @@
 Orphapacket:
-  ORPHApacketId: '252164'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '252164'
-  Label: Benign schwannoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_252164
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Elderly
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Vestibular schwannoma
+      ORPHAcode: '252175'
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Benign schwannoma
+  ORPHAcode: '252164'
+  ORPHApacketId: '252164'
+  PURL: http://www.orpha.net/ORDO/Orphanet_252164
+  Parents:
+  - Parent:
+    - Label: Benign peripheral nerve sheath tumor
+      ORPHAcode: '252131'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000197
+      HPOTerm: Abnormal parotid gland morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000364
+      HPOTerm: Hearing abnormality
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000769
+      HPOTerm: Abnormality of the breast
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000834
+      HPOTerm: Abnormality of the adrenal glands
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001291
+      HPOTerm: Abnormal cranial nerve morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001392
+      HPOTerm: Abnormality of the liver
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001600
+      HPOTerm: Abnormality of the larynx
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002011
+      HPOTerm: Morphological abnormality of the central nervous system
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002031
+      HPOTerm: Abnormal esophagus morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002321
+      HPOTerm: Vertigo
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002991
+      HPOTerm: Abnormality of fibula morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003489
+      HPOTerm: Acute episodes of neuropathic symptoms
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009588
+      HPOTerm: Vestibular Schwannoma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009593
+      HPOTerm: Peripheral Schwannoma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009911
+      HPOTerm: Abnormal temporal bone morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010628
+      HPOTerm: Facial palsy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010826
+      HPOTerm: Abnormality of the twelfth cranial nerve
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012531
+      HPOTerm: Pain
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0030177
+      HPOTerm: Abnormality of peripheral nervous system electrophysiology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012533
+      HPOTerm: Allodynia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100008
+      HPOTerm: Schwannoma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100011
+      HPOTerm: Scleral schwannoma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100582
+      HPOTerm: Nasal polyposis
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0100697
+      HPOTerm: Neurofibrosarcoma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0200008
+      HPOTerm: Intestinal polyposis
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: European Medicines Agency[INST]
+      ValMoy: '6.0'
   Synonyms:
   - Synonym: Neurilemmoma
   - Synonym: Neurilemoma
   - Synonym: Peripheral fibroblastoma
   TextSection:
-    TextSectionType: Definition
     Contents: A rare benign peripheral nerve sheath tumor characterized by a usually
       encapsulated space-occupying lesion composed of differentiated neoplastic Schwann
       cells. It most commonly arises from peripheral nerves in the head and neck region
@@ -22,121 +141,7 @@ Orphapacket:
       especially the vestibular nerve. The tumor may be asymptomatic or cause symptoms
       related to a mass effect. It grows slowly and only rarely undergoes malignant
       transformation.
-  Parents:
-  - Parent:
-    - ORPHAcode: '252131'
-      Label: Benign peripheral nerve sheath tumor
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000197
-      HPOTerm: Abnormal parotid gland morphology
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000364
-      HPOTerm: Hearing abnormality
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000769
-      HPOTerm: Abnormality of the breast
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000834
-      HPOTerm: Abnormality of the adrenal glands
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001291
-      HPOTerm: Abnormal cranial nerve morphology
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001392
-      HPOTerm: Abnormality of the liver
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001600
-      HPOTerm: Abnormality of the larynx
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002011
-      HPOTerm: Morphological abnormality of the central nervous system
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002031
-      HPOTerm: Abnormal esophagus morphology
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002321
-      HPOTerm: Vertigo
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002991
-      HPOTerm: Abnormality of fibula morphology
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003489
-      HPOTerm: Acute episodes of neuropathic symptoms
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0009588
-      HPOTerm: Vestibular Schwannoma
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0009593
-      HPOTerm: Peripheral Schwannoma
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0009911
-      HPOTerm: Abnormal temporal bone morphology
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0010628
-      HPOTerm: Facial palsy
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0010826
-      HPOTerm: Abnormality of the twelfth cranial nerve
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0012531
-      HPOTerm: Pain
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0030177
-      HPOTerm: Abnormality of peripheral nervous system electrophysiology
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0012533
-      HPOTerm: Allodynia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0100008
-      HPOTerm: Schwannoma
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100011
-      HPOTerm: Scleral schwannoma
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100582
-      HPOTerm: Nasal polyposis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0100697
-      HPOTerm: Neurofibrosarcoma
-      HPOFrequency: Excluded (0%)
-  - Phenotype:
-      HPOId: HP:0200008
-      HPOTerm: Intestinal polyposis
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-    Prevalence:
-    - Source: European Medicines Agency[INST]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '6.0'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adult
-  - AverageAgeOfOnset:
-      value: Elderly
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

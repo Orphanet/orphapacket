@@ -1,55 +1,56 @@
 Orphapacket:
-  ORPHApacketId: '211266'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '211266'
-  Label: Rare arteriovenous malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_211266
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '211243'
-      Label: Simple vascular malformation
   Childs:
   - Child:
+      Genes: no data
       Label: Pulmonary arteriovenous malformation
       ORPHAcode: '2038'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Cerebral arteriovenous malformation
       ORPHAcode: '46724'
-      Genes: no data
   - Child:
-      Label: Vein of Galen aneurysmal malformation
-      ORPHAcode: '1053'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '600011'
+            Source: OMIM
+          - Reference: '3395'
+            Source: HGNC
           Label: EPH receptor B4
           Symbol: EPHB4
-          ExternalReferences:
-          - ExternalReference:
-              Source: HGNC
-              Reference: '3395'
+      Label: Vein of Galen aneurysmal malformation
+      ORPHAcode: '1053'
   - Child:
+      Genes: no data
       Label: Dural sinus malformation
       ORPHAcode: '97339'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Spinal arteriovenous metameric syndrome
       ORPHAcode: '53721'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Foix-Alajouanine syndrome
       ORPHAcode: '79093'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Cerebrofacial arteriovenous metameric syndrome
       ORPHAcode: '141189'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Facial arteriovenous malformation
       ORPHAcode: '156230'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare arteriovenous malformation
+  ORPHAcode: '211266'
+  ORPHApacketId: '211266'
+  PURL: http://www.orpha.net/ORDO/Orphanet_211266
+  Parents:
+  - Parent:
+    - Label: Simple vascular malformation
+      ORPHAcode: '211243'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

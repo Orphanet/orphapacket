@@ -1,26 +1,55 @@
 Orphapacket:
-  ORPHApacketId: '464443'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '464443'
-  Label: COG6-CGD
-  PURL: http://www.orpha.net/ORDO/Orphanet_464443
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: infantile
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '614576'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: component of oligomeric golgi complex 6
+      Symbol: COG6
+  Label: COG6-CGD
+  ORPHAcode: '464443'
+  ORPHApacketId: '464443'
+  PURL: http://www.orpha.net/ORDO/Orphanet_464443
+  Parents:
+  - Parent:
+    - Label: Defect in conserved oligomeric Golgi complex
+      ORPHAcode: '309568'
+  - Parent:
+    - Label: Congenital disorder of glycosylation with neurological involvement
+      ORPHAcode: '371047'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 26260076[PMID]_23430903[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_26260076[PMID]_23430903[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: CDG syndrome type IIL
   - Synonym: CDG-IIL
   - Synonym: CDG2L
   - Synonym: Congenital disorder of glycosylation type 2l
   - Synonym: Congenital disorder of glycosylation type IIL
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614576'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare congenital disorder of glycosylation characterized by neonatal
       onset of global developmental delay hypotonia failure to thrive hematological/immunological
       abnormalities recurrent infections liver involvement (with hepatosplenomegaly
@@ -29,39 +58,10 @@ Orphapacket:
       fissures and retrognathia) hypohidrosis hyperkeratosis and cardiac and musculoskeletal
       anomalies. Brain imaging may show hypoplastic corpus callosum cerebral and cerebellar
       atrophy and enlarged ventricles.
-  Genes:
-  - Gene:
-      Symbol: COG6
-      Name: component of oligomeric golgi complex 6
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '309568'
-      Label: Defect in conserved oligomeric Golgi complex
-  - Parent:
-    - ORPHAcode: '371047'
-      Label: Congenital disorder of glycosylation with neurological involvement
-  Prevalences:
-  - Prevalence:
-      Source: 26260076[PMID]_23430903[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_26260076[PMID]_23430903[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: infantile
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

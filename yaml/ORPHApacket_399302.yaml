@@ -1,42 +1,42 @@
 Orphapacket:
-  ORPHApacketId: '399302'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '399302'
-  Label: Primary avascular necrosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_399302
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Synonyms:
-  - Synonym: Primary AVN
-  Parents:
-  - Parent:
-    - ORPHAcode: '399164'
-      Label: Avascular necrosis
   Childs:
   - Child:
-      Label: Familial avascular necrosis of femoral head
-      ORPHAcode: '86820'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '18083'
+            Source: HGNC
+          - Reference: '605427'
+            Source: OMIM
           Label: transient receptor potential cation channel subfamily V member 4
           Symbol: TRPV4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18083'
-          - Source: OMIM
-            Reference: '605427'
       - Gene:
+          ExternalReferences:
+          - Reference: '2200'
+            Source: HGNC
+          - Reference: '120140'
+            Source: OMIM
           Label: collagen type II alpha 1 chain
           Symbol: COL2A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2200'
-          - Source: OMIM
-            Reference: '120140'
+      Label: Familial avascular necrosis of femoral head
+      ORPHAcode: '86820'
   - Child:
+      Genes: no data
       Label: Idiopathic avascular necrosis
       ORPHAcode: '399307'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Primary avascular necrosis
+  ORPHAcode: '399302'
+  ORPHApacketId: '399302'
+  PURL: http://www.orpha.net/ORDO/Orphanet_399302
+  Parents:
+  - Parent:
+    - Label: Avascular necrosis
+      ORPHAcode: '399164'
+  Synonyms:
+  - Synonym: Primary AVN
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

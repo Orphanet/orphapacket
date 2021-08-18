@@ -1,44 +1,48 @@
 Orphapacket:
-  ORPHApacketId: '156143'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '156143'
-  Label: Predominantly medium-vessel vasculitis
-  PURL: http://www.orpha.net/ORDO/Orphanet_156143
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '52759'
-      Label: Vasculitis
   Childs:
   - Child:
+      Genes: no data
       Label: Kawasaki disease
       ORPHAcode: '2331'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Polyarteritis nodosa
       ORPHAcode: '767'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Buerger disease
       ORPHAcode: '36258'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Primary angiitis of the central nervous system
       ORPHAcode: '140989'
-      Genes: no data
   - Child:
-      Label: Vasculitis due to ADA2 deficiency
-      ORPHAcode: '404553'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1839'
+            Source: HGNC
+          - Reference: '607575'
+            Source: OMIM
           Label: adenosine deaminase 2
           Symbol: ADA2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1839'
-          - Source: OMIM
-            Reference: '607575'
+      Label: Vasculitis due to ADA2 deficiency
+      ORPHAcode: '404553'
+  - Child:
+      Genes: no data
+      Label: VEXAS syndrome
+      ORPHAcode: '596753'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Predominantly medium-vessel vasculitis
+  ORPHAcode: '156143'
+  ORPHApacketId: '156143'
+  PURL: http://www.orpha.net/ORDO/Orphanet_156143
+  Parents:
+  - Parent:
+    - Label: Vasculitis
+      ORPHAcode: '52759'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

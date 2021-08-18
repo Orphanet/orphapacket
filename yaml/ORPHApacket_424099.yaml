@@ -1,22 +1,59 @@
 Orphapacket:
-  ORPHApacketId: '424099'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '424099'
-  Label: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_424099
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '615877'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: mab-21 like 2
+      Symbol: MAB21L2
+  Label: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
+  ORPHAcode: '424099'
+  ORPHApacketId: '424099'
+  PURL: http://www.orpha.net/ORDO/Orphanet_424099
+  Parents:
+  - Parent:
+    - Label: Malformation syndrome with short stature
+      ORPHAcode: '139021'
+  - Parent:
+    - Label: Mesomelic and rhizo-mesomelic dysplasia
+      ORPHAcode: '93438'
+  - Parent:
+    - Label: Syndromic microphthalmia-anophthalmia-coloboma
+      ORPHAcode: '202948'
+  - Parent:
+    - Label: Genetic malformation syndrome with short stature
+      ORPHAcode: '183570'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 24906020[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_24906020[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Microphthalmia-coloboma-rhizomelic skeletal dysplasia
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '615877'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Colobomatous microphthalmia-rhizomelic dysplasia syndrome is a rare
       genetic developmental defect during embryogenesis characterized by a range of
       developmental eye anomalies (including anophthalmia microphthalmia colobomas
@@ -24,49 +61,12 @@ Orphapacket:
       and contractures of large joints. Intellectual disability with autistic features
       macrocephaly dysmorphic features urogenital anomalies (hypospadia cryptorchidism)
       cutaneous syndactyly and precocious puberty may also be present.
-  Genes:
-  - Gene:
-      Symbol: MAB21L2
-      Name: mab-21 like 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '139021'
-      Label: Malformation syndrome with short stature
-  - Parent:
-    - ORPHAcode: '93438'
-      Label: Mesomelic and rhizo-mesomelic dysplasia
-  - Parent:
-    - ORPHAcode: '202948'
-      Label: Syndromic microphthalmia-anophthalmia-coloboma
-  - Parent:
-    - ORPHAcode: '183570'
-      Label: Genetic malformation syndrome with short stature
-  Prevalences:
-  - Prevalence:
-      Source: 24906020[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_24906020[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Antenatal
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

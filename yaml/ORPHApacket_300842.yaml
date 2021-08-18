@@ -1,194 +1,199 @@
 Orphapacket:
-  ORPHApacketId: '300842'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '300842'
-  Label: Indolent B-cell non-Hodgkin lymphoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_300842
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Indolent B-cell NHL
-  Parents:
-  - Parent:
-    - ORPHAcode: '171915'
-      Label: B-cell non-Hodgkin lymphoma
-  Childs:
-  - Child:
-      Label: Follicular lymphoma
-      ORPHAcode: '545'
-      Genes:
-      - Gene:
-          Label: BCL2 apoptosis regulator
-          Symbol: BCL2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '990'
-          - Source: OMIM
-            Reference: '151430'
-      - Gene:
-          Label: major histocompatibility complex, class II, DR beta 1
-          Symbol: HLA-DRB1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4948'
-          - Source: OMIM
-            Reference: '142857'
-      - Gene:
-          Label: BCL6 transcription repressor
-          Symbol: BCL6
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1001'
-          - Source: OMIM
-            Reference: '109565'
-      - Gene:
-          Label: immunoglobulin heavy locus
-          Symbol: IGH
-          ExternalReferences:
-          - ExternalReference:
-              Source: HGNC
-              Reference: '5477'
-  - Child:
-      Label: Waldenström macroglobulinemia
-      ORPHAcode: '33226'
-      Genes:
-      - Gene:
-          Label: MYD88 innate immune signal transduction adaptor
-          Symbol: MYD88
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7562'
-          - Source: OMIM
-            Reference: '602170'
-  - Child:
-      Label: Classic hairy cell leukemia
-      ORPHAcode: '58017'
-      Genes:
-      - Gene:
-          Label: B-Raf proto-oncogene, serine/threonine kinase
-          Symbol: BRAF
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1097'
-          - Source: OMIM
-            Reference: '164757'
-  - Child:
-      Label: B-cell chronic lymphocytic leukemia
-      ORPHAcode: '67038'
-      Genes:
-      - Gene:
-          Label: purinergic receptor P2X 7
-          Symbol: P2RX7
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '602566'
-          - Source: HGNC
-            Reference: '8537'
-      - Gene:
-          Label: immunoglobulin heavy variable 3-21
-          Symbol: IGHV3-21
-          ExternalReferences:
-          - ExternalReference:
-              Source: HGNC
-              Reference: '5586'
-      - Gene:
-          Label: ATM serine/threonine kinase
-          Symbol: ATM
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '795'
-          - Source: OMIM
-            Reference: '607585'
-      - Gene:
-          Label: cyclin D1
-          Symbol: CCND1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1582'
-          - Source: OMIM
-            Reference: '168461'
-      - Gene:
-          Label: tumor protein p53
-          Symbol: TP53
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11998'
-          - Source: OMIM
-            Reference: '191170'
-      - Gene:
-          Label: ADP ribosylation factor like GTPase 11
-          Symbol: ARL11
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '24046'
-          - Source: OMIM
-            Reference: '609351'
-      - Gene:
-          Label: immunoglobulin heavy constant gamma 1 (G1m marker)
-          Symbol: IGHG1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5525'
-          - Source: OMIM
-            Reference: '147100'
-      - Gene:
-          Label: protection of telomeres 1
-          Symbol: POT1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '17284'
-          - Source: OMIM
-            Reference: '606478'
-      - Gene:
-          Label: ribosomal protein S15
-          Symbol: RPS15
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10388'
-          - Source: OMIM
-            Reference: '180535'
-      - Gene:
-          Label: IKAROS family zinc finger 3
-          Symbol: IKZF3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '13178'
-          - Source: OMIM
-            Reference: '606221'
-  - Child:
-      Label: Indolent primary cutaneous B-cell lymphoma
-      ORPHAcode: '178557'
-      Genes: no data
-  - Child:
-      Label: Hairy cell leukemia variant
-      ORPHAcode: '300878'
-      Genes:
-      - Gene:
-          Label: immunoglobulin heavy variable 4-34
-          Symbol: IGHV4-34
-          ExternalReferences:
-          - ExternalReference:
-              Source: HGNC
-              Reference: '5650'
-  - Child:
-      Label: Marginal zone lymphoma
-      ORPHAcode: '300912'
-      Genes: no data
-  - Child:
-      Label: Lymphoplasmacytic lymphoma without IgM production
-      ORPHAcode: '443159'
-      Genes: no data
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Adult
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '990'
+            Source: HGNC
+          - Reference: '151430'
+            Source: OMIM
+          Label: BCL2 apoptosis regulator
+          Symbol: BCL2
+      - Gene:
+          ExternalReferences:
+          - Reference: '4948'
+            Source: HGNC
+          - Reference: '142857'
+            Source: OMIM
+          Label: major histocompatibility complex, class II, DR beta 1
+          Symbol: HLA-DRB1
+      - Gene:
+          ExternalReferences:
+          - Reference: '1001'
+            Source: HGNC
+          - Reference: '109565'
+            Source: OMIM
+          Label: BCL6 transcription repressor
+          Symbol: BCL6
+      - Gene:
+          ExternalReferences:
+          - Reference: '146910'
+            Source: OMIM
+          - Reference: '147010'
+            Source: OMIM
+          - Reference: '147070'
+            Source: OMIM
+          - Reference: '5477'
+            Source: HGNC
+          Label: immunoglobulin heavy locus
+          Symbol: IGH
+      Label: Follicular lymphoma
+      ORPHAcode: '545'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '7562'
+            Source: HGNC
+          - Reference: '602170'
+            Source: OMIM
+          Label: MYD88 innate immune signal transduction adaptor
+          Symbol: MYD88
+      Label: "Waldenstr\xF6m macroglobulinemia"
+      ORPHAcode: '33226'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '1097'
+            Source: HGNC
+          - Reference: '164757'
+            Source: OMIM
+          Label: B-Raf proto-oncogene, serine/threonine kinase
+          Symbol: BRAF
+      Label: Classic hairy cell leukemia
+      ORPHAcode: '58017'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '602566'
+            Source: OMIM
+          - Reference: '8537'
+            Source: HGNC
+          Label: purinergic receptor P2X 7
+          Symbol: P2RX7
+      - Gene:
+          ExternalReferences:
+          - ExternalReference:
+              Reference: '5586'
+              Source: HGNC
+          Label: immunoglobulin heavy variable 3-21
+          Symbol: IGHV3-21
+      - Gene:
+          ExternalReferences:
+          - Reference: '795'
+            Source: HGNC
+          - Reference: '607585'
+            Source: OMIM
+          Label: ATM serine/threonine kinase
+          Symbol: ATM
+      - Gene:
+          ExternalReferences:
+          - Reference: '1582'
+            Source: HGNC
+          - Reference: '168461'
+            Source: OMIM
+          Label: cyclin D1
+          Symbol: CCND1
+      - Gene:
+          ExternalReferences:
+          - Reference: '11998'
+            Source: HGNC
+          - Reference: '191170'
+            Source: OMIM
+          Label: tumor protein p53
+          Symbol: TP53
+      - Gene:
+          ExternalReferences:
+          - Reference: '24046'
+            Source: HGNC
+          - Reference: '609351'
+            Source: OMIM
+          Label: ADP ribosylation factor like GTPase 11
+          Symbol: ARL11
+      - Gene:
+          ExternalReferences:
+          - Reference: '5525'
+            Source: HGNC
+          - Reference: '147100'
+            Source: OMIM
+          Label: immunoglobulin heavy constant gamma 1 (G1m marker)
+          Symbol: IGHG1
+      - Gene:
+          ExternalReferences:
+          - Reference: '17284'
+            Source: HGNC
+          - Reference: '606478'
+            Source: OMIM
+          Label: protection of telomeres 1
+          Symbol: POT1
+      - Gene:
+          ExternalReferences:
+          - Reference: '10388'
+            Source: HGNC
+          - Reference: '180535'
+            Source: OMIM
+          Label: ribosomal protein S15
+          Symbol: RPS15
+      - Gene:
+          ExternalReferences:
+          - Reference: '13178'
+            Source: HGNC
+          - Reference: '606221'
+            Source: OMIM
+          Label: IKAROS family zinc finger 3
+          Symbol: IKZF3
+      Label: B-cell chronic lymphocytic leukemia
+      ORPHAcode: '67038'
+  - Child:
+      Genes: no data
+      Label: Indolent primary cutaneous B-cell lymphoma
+      ORPHAcode: '178557'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - ExternalReference:
+              Reference: '5650'
+              Source: HGNC
+          Label: immunoglobulin heavy variable 4-34
+          Symbol: IGHV4-34
+      Label: Hairy cell leukemia variant
+      ORPHAcode: '300878'
+  - Child:
+      Genes: no data
+      Label: Marginal zone lymphoma
+      ORPHAcode: '300912'
+  - Child:
+      Genes: no data
+      Label: Lymphoplasmacytic lymphoma without IgM production
+      ORPHAcode: '443159'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Indolent B-cell non-Hodgkin lymphoma
+  ORPHAcode: '300842'
+  ORPHApacketId: '300842'
+  PURL: http://www.orpha.net/ORDO/Orphanet_300842
+  Parents:
+  - Parent:
+    - Label: B-cell non-Hodgkin lymphoma
+      ORPHAcode: '171915'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: Indolent B-cell NHL
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,20 +1,54 @@
 Orphapacket:
-  ORPHApacketId: '293864'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '293864'
-  Label: Hypoplastic pancreas-intestinal atresia-hypoplastic gallbladder syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_293864
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: early childhood
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
     Reference: '615710'
-    DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: regulatory factor X6
+      Symbol: RFX6
+  Label: Hypoplastic pancreas-intestinal atresia-hypoplastic gallbladder syndrome
+  ORPHAcode: '293864'
+  ORPHApacketId: '293864'
+  PURL: http://www.orpha.net/ORDO/Orphanet_293864
+  Parents:
+  - Parent:
+    - Label: Syndromic visceral malformation
+      ORPHAcode: '108973'
+  - Parent:
+    - Label: Syndromic intestinal malformation
+      ORPHAcode: '108969'
+  - Parent:
+    - Label: Syndromic biliary atresia
+      ORPHAcode: '498350'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 21965172[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Hypoplastic pancreas-intestinal atresia-hypoplastic gallbladder syndrome
       is a rare potentially fatal genetic visceral malformation syndrome characterized
       by neonatal diabetes hypoplastic or annular pancreas duodenal and jejunal atresia
@@ -22,44 +56,10 @@ Orphapacket:
       growth restriction failure to thrive malnutrition intestinal malrotation malabsorption
       conjugated hyperbilirubinemia acholia and infections. Cardiac anomalies may
       also be associated.
-  Genes:
-  - Gene:
-      Symbol: RFX6
-      Name: regulatory factor X6
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '108973'
-      Label: Syndromic visceral malformation
-  - Parent:
-    - ORPHAcode: '108969'
-      Label: Syndromic intestinal malformation
-  - Parent:
-    - ORPHAcode: '498350'
-      Label: Syndromic biliary atresia
-  Prevalences:
-  - Prevalence:
-      Source: 21965172[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: early childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

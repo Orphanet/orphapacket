@@ -1,21 +1,42 @@
 Orphapacket:
-  ORPHApacketId: '86880'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '86880'
-  Label: Enteropathy-associated T-cell lymphoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_86880
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Enteropathy-associated T-cell lymphoma
+  ORPHAcode: '86880'
+  ORPHApacketId: '86880'
+  PURL: http://www.orpha.net/ORDO/Orphanet_86880
+  Parents:
+  - Parent:
+    - Label: T-cell non-Hodgkin lymphoma
+      ORPHAcode: '171918'
+  - Parent:
+    - Label: Rare tumor of small intestine
+      ORPHAcode: '423793'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 26104061[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Netherlands
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 18618372[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: EATL
   - Synonym: ETTL
   - Synonym: Enteropathy-type T-cell lymphoma
   - Synonym: Intestinal T-cell lymphoma
   TextSection:
-    TextSectionType: Definition
     Contents: A rare T-cell non-Hodgkin lymphoma characterized by a neoplasm of intraepithelial
       T-cells mostly occurring in the jejunum or ileum in patients with celiac disease.
       The lesion may be multifocal and form ulcerating nodules plaques strictures
@@ -23,28 +44,7 @@ Orphapacket:
       involved. Patients typically present with abdominal pain malabsorption or diarrhea
       anorexia weight loss fatigue nausea vomiting and sometimes intestinal perforation
       or hemorrhage. Prognosis is generally poor.
-  Parents:
-  - Parent:
-    - ORPHAcode: '171918'
-      Label: T-cell non-Hodgkin lymphoma
-  - Parent:
-    - ORPHAcode: '423793'
-      Label: Rare tumor of small intestine
-  Prevalences:
-  - Prevalence:
-      Source: 26104061[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: United States
-  - Prevalence:
-      Source: 18618372[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Netherlands
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

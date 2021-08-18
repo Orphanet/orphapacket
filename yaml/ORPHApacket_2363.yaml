@@ -1,92 +1,353 @@
 Orphapacket:
-  ORPHApacketId: '2363'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2363'
-  Label: Lacrimoauriculodentodigital syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_2363
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: LADD syndrome
-  - Synonym: LARD syndrome
-  - Synonym: Lacrimoauriculoradiodental syndrome
-  - Synonym: Levy-Hollister syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '149730'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Lacrimoauriculodentodigital (LADD) syndrome is a multiple congenital
-      anomaly syndrome characterized by hypoplasia aplasia or atresia of the lacrimal
-      system; anomalies of the ears and hearing loss; hypoplasias apalsias or atresias
-      of the salivary glands; dental anomalies and digital malformations.
-  Genes:
-  - Gene:
-      Symbol: FGF10
-      Name: fibroblast growth factor 10
-      ExternalReferences: []
-  - Gene:
-      Symbol: FGFR3
-      Name: fibroblast growth factor receptor 3
-      ExternalReferences: []
-  - Gene:
-      Symbol: FGFR2
-      Name: fibroblast growth factor receptor 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '102285'
-      Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-  - Parent:
-    - ORPHAcode: '294959'
-      Label: Syndrome with limb duplication, polydactyly, syndactyly, and/or hyperphalangy
-  - Parent:
-    - ORPHAcode: '98609'
-      Label: EEC syndrome and related disorders
-  - Parent:
-    - ORPHAcode: '139042'
-      Label: Malformation syndrome with odontal and/or periodontal component
-  - Parent:
-    - ORPHAcode: '156246'
-      Label: Nose and cavum anomaly
-  - Parent:
-    - ORPHAcode: '183580'
-      Label: Genetic malformation syndrome with odontal and/or periodontal component
-  - Parent:
-    - ORPHAcode: '435606'
-      Label: Genetic nose and cavum anomaly
-  - Parent:
-    - ORPHAcode: '330206'
-      Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-  Prevalences:
-  - Prevalence:
-      Source: 23010692[PMID]_Pr MANOUVRIER-HANU Sylvie[EXPERT]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_23010692[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '149730'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: fibroblast growth factor 10
+      Symbol: FGF10
+  - Gene:
+      ExternalReferences: []
+      Name: fibroblast growth factor receptor 3
+      Symbol: FGFR3
+  - Gene:
+      ExternalReferences: []
+      Name: fibroblast growth factor receptor 2
+      Symbol: FGFR2
+  Label: Lacrimoauriculodentodigital syndrome
+  ORPHAcode: '2363'
+  ORPHApacketId: '2363'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2363
+  Parents:
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '102285'
+  - Parent:
+    - Label: Syndrome with limb duplication, polydactyly, syndactyly, and/or hyperphalangy
+      ORPHAcode: '294959'
+  - Parent:
+    - Label: Nose and cavum anomaly
+      ORPHAcode: '156246'
+  - Parent:
+    - Label: EEC syndrome and related disorders
+      ORPHAcode: '98609'
+  - Parent:
+    - Label: Malformation syndrome with odontal and/or periodontal component
+      ORPHAcode: '139042'
+  - Parent:
+    - Label: Genetic malformation syndrome with odontal and/or periodontal component
+      ORPHAcode: '183580'
+  - Parent:
+    - Label: Genetic nose and cavum anomaly
+      ORPHAcode: '435606'
+  - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '330206'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000164
+      HPOTerm: Abnormality of the dentition
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000217
+      HPOTerm: Xerostomia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000377
+      HPOTerm: Abnormality of the pinna
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000478
+      HPOTerm: Abnormality of the eye
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000670
+      HPOTerm: Carious teeth
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000682
+      HPOTerm: Abnormality of dental enamel
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001097
+      HPOTerm: Keratoconjunctivitis sicca
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009926
+      HPOTerm: Epiphora
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010286
+      HPOTerm: Abnormal salivary gland morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011297
+      HPOTerm: Abnormal digit morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011481
+      HPOTerm: Abnormal lacrimal duct morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011482
+      HPOTerm: Abnormal lacrimal gland morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000369
+      HPOTerm: Low-set ears
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000378
+      HPOTerm: Cupped ear
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000405
+      HPOTerm: Conductive hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000407
+      HPOTerm: Sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000410
+      HPOTerm: Mixed hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000495
+      HPOTerm: Recurrent corneal erosions
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000508
+      HPOTerm: Ptosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000668
+      HPOTerm: Hypodontia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000691
+      HPOTerm: Microdontia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001092
+      HPOTerm: Absent lacrimal punctum
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001096
+      HPOTerm: Keratoconjunctivitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001159
+      HPOTerm: Syndactyly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001172
+      HPOTerm: Abnormal thumb morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001770
+      HPOTerm: Toe syndactyly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001999
+      HPOTerm: Abnormal facial shape
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002984
+      HPOTerm: Hypoplasia of the radius
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006101
+      HPOTerm: Finger syndactyly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006297
+      HPOTerm: Hypoplasia of dental enamel
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007656
+      HPOTerm: Lacrimal gland aplasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007892
+      HPOTerm: Hypoplasia of the lacrimal punctum
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007925
+      HPOTerm: Lacrimal duct aplasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009777
+      HPOTerm: Absent thumb
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009778
+      HPOTerm: Short thumb
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009942
+      HPOTerm: Duplication of thumb phalanx
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011496
+      HPOTerm: Corneal neovascularization
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012155
+      HPOTerm: Decreased corneal sensation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012804
+      HPOTerm: Corneal ulceration
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030084
+      HPOTerm: Clinodactyly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0032107
+      HPOTerm: Limbal stem cell deficiency
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000028
+      HPOTerm: Cryptorchidism
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000076
+      HPOTerm: Vesicoureteral reflux
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000089
+      HPOTerm: Renal hypoplasia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000126
+      HPOTerm: Hydronephrosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000193
+      HPOTerm: Bifid uvula
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000202
+      HPOTerm: Oral cleft
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000347
+      HPOTerm: Micrognathia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000453
+      HPOTerm: Choanal atresia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000458
+      HPOTerm: Anosmia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000577
+      HPOTerm: Exotropia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000813
+      HPOTerm: Bicornuate uterus
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001369
+      HPOTerm: Arthritis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001643
+      HPOTerm: Patent ductus arteriosus
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002015
+      HPOTerm: Dysphagia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002164
+      HPOTerm: Nail dysplasia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0005349
+      HPOTerm: Hypoplasia of the epiglottis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0008551
+      HPOTerm: Microtia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0011487
+      HPOTerm: Increased corneal thickness
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0012108
+      HPOTerm: Open angle glaucoma
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 23010692[PMID]_Pr MANOUVRIER-HANU Sylvie[EXPERT]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_23010692[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: LADD syndrome
+  - Synonym: LARD syndrome
+  - Synonym: Lacrimoauriculoradiodental syndrome
+  - Synonym: Levy-Hollister syndrome
+  TextSection:
+    Contents: A rare genetic multiple congenital anomalies/dysmorphic syndrome characterized
+      by hypoplasia aplasia or atresia of the lacrimal system anomalies of the ears
+      with sensorineural or mixed hearing loss hypoplasia aplasia or atresia of the
+      salivary glands dental anomalies and digital malformations. Patients present
+      obstruction of the nasal lacrimal ducts that can lead to epiphora and chronic
+      conjunctivitis due to alacrimia. Aplasia or hypoplasia of the salivary glands
+      lead to dry mouth and early onset of severe dental caries. Dental features include
+      late tooth eruption small and peg-shaped lateral maxillary incisors and mild
+      enamel dysplasia. The digital features are variable and include fifth finger
+      clinodactyly duplication of the distal phalanx of the thumb triphalangeal thumb
+      and/or syndactyly. Unilateral radial aplasia and radial-ulnar synostosis have
+      also been reported in association.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

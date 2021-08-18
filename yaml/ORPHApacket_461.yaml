@@ -1,111 +1,111 @@
 Orphapacket:
-  ORPHApacketId: '461'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '461'
-  Label: Recessive X-linked ichthyosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_461
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '300001'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '308100'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: steroid sulfatase
+      Symbol: STS
+  Label: Recessive X-linked ichthyosis
+  ORPHAcode: '461'
+  ORPHApacketId: '461'
+  PURL: http://www.orpha.net/ORDO/Orphanet_461
+  Parents:
+  - Parent:
+    - Label: Syndromic corneal dystrophy
+      ORPHAcode: '98628'
+  - Parent:
+    - Label: Inherited non-syndromic ichthyosis
+      ORPHAcode: '281082'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000028
+      HPOTerm: Cryptorchidism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000717
+      HPOTerm: Autism
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000958
+      HPOTerm: Dry skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000962
+      HPOTerm: Hyperkeratosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000966
+      HPOTerm: Hypohidrosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002167
+      HPOTerm: Neurological speech impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007018
+      HPOTerm: Attention deficit hyperactivity disorder
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007759
+      HPOTerm: Opacification of the corneal stroma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008064
+      HPOTerm: Ichthyosis
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Italy
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 12920363[PMID]_ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: RXLI
   - Synonym: Steroid sulfatase deficiency
   - Synonym: X-linked ichthyosis
   - Synonym: XLI
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '300001'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '308100'
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Recessive X-linked ichthyosis (RXLI) is a genodermatosis belonging to
       the Mendelian Disorders of Cornification (MeDOC) and characterized by generalized
       hyperkeratosis and scaling of the skin.
-  Genes:
-  - Gene:
-      Symbol: STS
-      Name: steroid sulfatase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98628'
-      Label: Syndromic corneal dystrophy
-  - Parent:
-    - ORPHAcode: '281082'
-      Label: Inherited non-syndromic ichthyosis
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000028
-      HPOTerm: Cryptorchidism
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000717
-      HPOTerm: Autism
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000958
-      HPOTerm: Dry skin
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000962
-      HPOTerm: Hyperkeratosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000966
-      HPOTerm: Hypohidrosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002167
-      HPOTerm: Neurological speech impairment
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0007018
-      HPOTerm: Attention deficit hyperactivity disorder
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0007759
-      HPOTerm: Opacification of the corneal stroma
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0008064
-      HPOTerm: Ichthyosis
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 12920363[PMID]_ORPHANET
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Italy
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

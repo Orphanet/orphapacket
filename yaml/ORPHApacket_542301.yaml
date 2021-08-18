@@ -1,50 +1,59 @@
 Orphapacket:
-  ORPHApacketId: '542301'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '542301'
-  Label: Severe combined immunodeficiency due to CARMIL2 deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_542301
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Severe combined immunodeficiency due to RLTPR deficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '618131'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: CARMIL2
-      Name: capping protein regulator and myosin 1 linker 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '238510'
-      Label: Lymphoproliferative syndrome
-  Prevalences:
-  - Prevalence:
-      Source: 27896283[PMID]_27647349[PMID]_28112205[PMID]_29479355[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_27896283[PMID]_27647349[PMID]_28112205[PMID]_29479355[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
   AverageAgeOfDeaths:
     AverageAgeOfDeath:
     - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '618131'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: capping protein regulator and myosin 1 linker 2
+      Symbol: CARMIL2
+  Label: Combined immunodeficiency due to CARMIL2 deficiency
+  ORPHAcode: '542301'
+  ORPHApacketId: '542301'
+  PURL: http://www.orpha.net/ORDO/Orphanet_542301
+  Parents:
+  - Parent:
+    - Label: Lymphoproliferative syndrome
+      ORPHAcode: '238510'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 27896283[PMID]_27647349[PMID]_28112205[PMID]_29479355[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_27896283[PMID]_27647349[PMID]_28112205[PMID]_29479355[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Combined immunodeficiency due to RLTPR deficiency
+  TextSection:
+    Contents: A rare immune dysregulation disease with immunodeficiency characterized
+      by infantile or childhood onset of a variable phenotype including recurrent/persistent
+      bacterial fungal and viral infections with involvement of the skin lower respiratory
+      tract and gastrointestinal tract eczema allergies and inflammatory bowel disease
+      among others. EBV-related smooth muscle tumors have also been reported. Immunophenotyping
+      shows decreased Treg counts as well as a deficient CD3/CD28 co-stimulation response
+      in CD4+ and CD8+ T-cells.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

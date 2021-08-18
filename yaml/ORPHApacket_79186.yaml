@@ -1,64 +1,64 @@
 Orphapacket:
-  ORPHApacketId: '79186'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79186'
-  Label: Disorder of pentose phosphate metabolism
-  PURL: http://www.orpha.net/ORDO/Orphanet_79186
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '440701'
-      Label: Disorders of pentose/polyol metabolism
   Childs:
   - Child:
-      Label: Transketolase deficiency
-      ORPHAcode: '488618'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11834'
+            Source: HGNC
+          - Reference: '606781'
+            Source: OMIM
           Label: transketolase
           Symbol: TKT
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11834'
-          - Source: OMIM
-            Reference: '606781'
+      Label: Transketolase deficiency
+      ORPHAcode: '488618'
   - Child:
-      Label: Transaldolase deficiency
-      ORPHAcode: '101028'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11559'
+            Source: HGNC
+          - Reference: '602063'
+            Source: OMIM
           Label: transaldolase 1
           Symbol: TALDO1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11559'
-          - Source: OMIM
-            Reference: '602063'
+      Label: Transaldolase deficiency
+      ORPHAcode: '101028'
   - Child:
-      Label: Ribose-5-P isomerase deficiency
-      ORPHAcode: '440706'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '10297'
+            Source: HGNC
+          - Reference: '180430'
+            Source: OMIM
           Label: ribose 5-phosphate isomerase A
           Symbol: RPIA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10297'
-          - Source: OMIM
-            Reference: '180430'
+      Label: Ribose-5-P isomerase deficiency
+      ORPHAcode: '440706'
   - Child:
-      Label: Isolated sedoheptulokinase deficiency
-      ORPHAcode: '440713'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1492'
+            Source: HGNC
+          - Reference: '605060'
+            Source: OMIM
           Label: sedoheptulokinase
           Symbol: SHPK
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1492'
-          - Source: OMIM
-            Reference: '605060'
+      Label: Isolated sedoheptulokinase deficiency
+      ORPHAcode: '440713'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Disorder of pentose phosphate metabolism
+  ORPHAcode: '79186'
+  ORPHApacketId: '79186'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79186
+  Parents:
+  - Parent:
+    - Label: Disorders of pentose/polyol metabolism
+      ORPHAcode: '440701'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

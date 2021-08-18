@@ -1,23 +1,111 @@
 Orphapacket:
-  ORPHApacketId: '352675'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '352675'
-  Label: X-linked Charcot-Marie-Tooth disease type 6
-  PURL: http://www.orpha.net/ORDO/Orphanet_352675
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '300905'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: pyruvate dehydrogenase kinase 3
+      Symbol: PDK3
+  Label: X-linked Charcot-Marie-Tooth disease type 6
+  ORPHAcode: '352675'
+  ORPHApacketId: '352675'
+  PURL: http://www.orpha.net/ORDO/Orphanet_352675
+  Parents:
+  - Parent:
+    - Label: X-linked Charcot-Marie-Tooth disease
+      ORPHAcode: '64747'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000762
+      HPOTerm: Decreased nerve conduction velocity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001761
+      HPOTerm: Pes cavus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002355
+      HPOTerm: Difficulty walking
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002378
+      HPOTerm: Hand tremor
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002936
+      HPOTerm: Distal sensory impairment
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003438
+      HPOTerm: Absent Achilles reflex
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003482
+      HPOTerm: 'EMG: axonal abnormality'
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007141
+      HPOTerm: Sensorimotor neuropathy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007340
+      HPOTerm: Lower limb muscle weakness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008944
+      HPOTerm: Distal lower limb amyotrophy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002166
+      HPOTerm: Impaired vibration sensation in the lower limbs
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003236
+      HPOTerm: Elevated serum creatine kinase
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003376
+      HPOTerm: Steppage gait
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003393
+      HPOTerm: Thenar muscle atrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000407
+      HPOTerm: Sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001270
+      HPOTerm: Motor delay
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 23297365[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_23297365[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: CMT6X
   - Synonym: CMTX6
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '300905'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: X-linked Charcot-Marie-Tooth disease type 6 is a rare genetic principally
       axonal peripheral sensorimotor neuropathy characterized by an X-linked dominant
       inheritance pattern and the childhood-onset of slowly progressive moderate to
@@ -26,98 +114,10 @@ Orphapacket:
       clawed toes) absent ankle reflexes and gait abnormalities (steppage gait). Females
       are usually asymptomatic or only present mild manifestations (mild postural
       hand tremor mild wasting of hand intrinsic muscles).
-  Genes:
-  - Gene:
-      Symbol: PDK3
-      Name: pyruvate dehydrogenase kinase 3
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '64747'
-      Label: X-linked Charcot-Marie-Tooth disease
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000762
-      HPOTerm: Decreased nerve conduction velocity
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001761
-      HPOTerm: Pes cavus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002355
-      HPOTerm: Difficulty walking
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002378
-      HPOTerm: Hand tremor
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002936
-      HPOTerm: Distal sensory impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003438
-      HPOTerm: Absent Achilles reflex
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003482
-      HPOTerm: 'EMG: axonal abnormality'
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007141
-      HPOTerm: Sensorimotor neuropathy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007340
-      HPOTerm: Lower limb muscle weakness
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008944
-      HPOTerm: Distal lower limb amyotrophy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002166
-      HPOTerm: Impaired vibration sensation in the lower limbs
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003236
-      HPOTerm: Elevated serum creatine kinase
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003376
-      HPOTerm: Steppage gait
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003393
-      HPOTerm: Thenar muscle atrophy
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000407
-      HPOTerm: Sensorineural hearing impairment
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001270
-      HPOTerm: Motor delay
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-  - Prevalence:
-      Source: 23297365[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_23297365[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,28 +1,28 @@
 Orphapacket:
-  ORPHApacketId: '99138'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99138'
-  Label: Hemolytic anemia due to erythrocyte adenosine deaminase overproduction
-  PURL: http://www.orpha.net/ORDO/Orphanet_99138
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Hemolytic anemia due to erythrocyte adenosine deaminase overproduction
+  ORPHAcode: '99138'
+  ORPHApacketId: '99138'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99138
+  Parents:
+  - Parent:
+    - Label: Hemolytic anemia due to an erythrocyte nucleotide metabolism disorder
+      ORPHAcode: '98374'
+  - Parent:
+    - Label: Disorder of purine metabolism
+      ORPHAcode: '79191'
   TextSection:
-    TextSectionType: Definition
     Contents: Hemolytic anemia due to erythrocyte adenosine deaminase overproduction
       is a rare genetic hematologic disease characterized by mild chronic hemolytic
       anemia (due to highly elevated adenosine deaminase activity in red blood cells
       resulting in their premature destruction) elevated reticulocyte count splenomegaly
       and mild hyperbilirubinemia. Other cells and tissues are not affected.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98374'
-      Label: Hemolytic anemia due to an erythrocyte nucleotide metabolism disorder
-  - Parent:
-    - ORPHAcode: '79191'
-      Label: Disorder of purine metabolism
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

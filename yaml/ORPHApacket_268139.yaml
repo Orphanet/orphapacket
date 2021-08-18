@@ -1,18 +1,29 @@
 Orphapacket:
-  ORPHApacketId: '268139'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '268139'
-  Label: Intraocular medulloepithelioma
-  PURL: http://www.orpha.net/ORDO/Orphanet_268139
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Intraocular medulloepithelioma
+  ORPHAcode: '268139'
+  ORPHApacketId: '268139'
+  PURL: http://www.orpha.net/ORDO/Orphanet_268139
+  Parents:
+  - Parent:
+    - Label: Rare eye tumor
+      ORPHAcode: '101950'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Orbital medulloepithelioma
   TextSection:
-    TextSectionType: Definition
     Contents: Intraocular medulloepithelioma is a rare eye tumor characterized by
       a white gray or yellow-colored cystic mass that arises from the primitive neuroectodermal
       nonpigmented epithelium of the ciliary body or occasionally from the optic nerve
@@ -21,21 +32,10 @@ Orphapacket:
       glaucoma and/or cataract. Leukocoria exotropia exophthalmos strabismus epiphora
       change in eye color hyphema and raised intraocular pressure are also remarkable
       manifestations.
-  Parents:
-  - Parent:
-    - ORPHAcode: '101950'
-      Label: Rare eye tumor
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

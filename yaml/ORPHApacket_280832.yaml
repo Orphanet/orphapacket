@@ -1,14 +1,23 @@
 Orphapacket:
-  ORPHApacketId: '280832'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '280832'
-  Label: Congenital pulmonary airway malformation type 1
-  PURL: http://www.orpha.net/ORDO/Orphanet_280832
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  Label: Congenital pulmonary airway malformation type 1
+  ORPHAcode: '280832'
+  ORPHApacketId: '280832'
+  PURL: http://www.orpha.net/ORDO/Orphanet_280832
+  Parents:
+  - Parent:
+    - Label: Congenital pulmonary airway malformation
+      ORPHAcode: '2444'
   Synonyms:
   - Synonym: CCAM type 1
   - Synonym: CPAM type 1
@@ -16,7 +25,6 @@ Orphapacket:
   - Synonym: Congenital cystic adenomatous malformation of the lung type 1
   - Synonym: Congenital cystic disease of the lung type 1
   TextSection:
-    TextSectionType: Definition
     Contents: A rare subtype of congenital pulmonary airway malformation characterized
       by a multicystic mass of non-functioning lung tissue with one or more dominant
       cysts of 2 to 10 cm in diameter which may be surrounded by smaller cysts. The
@@ -27,15 +35,7 @@ Orphapacket:
       Pulmonary hypoplasia and severe fetal hydrops are rare complications. The condition
       is associated with an increased risk of pulmonary malignancy such as bronchoalveolar
       carcinoma.
-  Parents:
-  - Parent:
-    - ORPHAcode: '2444'
-      Label: Congenital pulmonary airway malformation
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Antenatal
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

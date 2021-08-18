@@ -1,92 +1,100 @@
 Orphapacket:
-  ORPHApacketId: '206653'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '206653'
-  Label: Autosomal recessive distal myopathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_206653
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '599'
-      Label: Distal myopathy
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '1226'
+            Source: HGNC
+          - Reference: '605072'
+            Source: OMIM
+          Label: GIPC PDZ domain containing family member 1
+          Symbol: GIPC1
       Label: Oculopharyngodistal myopathy
       ORPHAcode: '98897'
-      Genes: no data
   - Child:
-      Label: GNE myopathy
-      ORPHAcode: '602'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '23657'
+            Source: HGNC
+          - Reference: '603824'
+            Source: OMIM
           Label: glucosamine (UDP-N-acetyl)-2-epimerase/N-acetylmannosamine kinase
           Symbol: GNE
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '23657'
-          - Source: OMIM
-            Reference: '603824'
+      Label: GNE myopathy
+      ORPHAcode: '602'
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '3097'
+            Source: HGNC
+          - Reference: '603009'
+            Source: OMIM
+          Label: dysferlin
+          Symbol: DYSF
       Label: Miyoshi myopathy
       ORPHAcode: '45448'
+  - Child:
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '3097'
+            Source: HGNC
+          - Reference: '603009'
+            Source: OMIM
           Label: dysferlin
           Symbol: DYSF
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3097'
-          - Source: OMIM
-            Reference: '603009'
-  - Child:
       Label: Distal myopathy with anterior tibial onset
       ORPHAcode: '178400'
-      Genes:
-      - Gene:
-          Label: dysferlin
-          Symbol: DYSF
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3097'
-          - Source: OMIM
-            Reference: '603009'
   - Child:
-      Label: Distal anoctaminopathy
-      ORPHAcode: '399096'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '27337'
+            Source: HGNC
+          - Reference: '608662'
+            Source: OMIM
           Label: anoctamin 5
           Symbol: ANO5
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '27337'
-          - Source: OMIM
-            Reference: '608662'
+      Label: Distal anoctaminopathy
+      ORPHAcode: '399096'
   - Child:
-      Label: Distal nebulin myopathy
-      ORPHAcode: '399103'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '161650'
+            Source: OMIM
+          - Reference: '7720'
+            Source: HGNC
           Label: nebulin
           Symbol: NEB
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '161650'
-          - Source: HGNC
-            Reference: '7720'
+      Label: Distal nebulin myopathy
+      ORPHAcode: '399103'
   - Child:
-      Label: Adenylosuccinate synthetase-like 1-related distal myopathy
-      ORPHAcode: '482601'
       Genes:
       - Gene:
-          Label: adenylosuccinate synthase like 1
-          Symbol: ADSSL1
           ExternalReferences:
-          - Source: OMIM
-            Reference: '612498'
-          - Source: HGNC
-            Reference: '20093'
+          - Reference: '612498'
+            Source: OMIM
+          - Reference: '20093'
+            Source: HGNC
+          Label: adenylosuccinate synthase 1
+          Symbol: ADSS1
+      Label: Adenylosuccinate synthetase-like 1-related distal myopathy
+      ORPHAcode: '482601'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Autosomal recessive distal myopathy
+  ORPHAcode: '206653'
+  ORPHApacketId: '206653'
+  PURL: http://www.orpha.net/ORDO/Orphanet_206653
+  Parents:
+  - Parent:
+    - Label: Distal myopathy
+      ORPHAcode: '599'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

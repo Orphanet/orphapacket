@@ -1,92 +1,105 @@
 Orphapacket:
-  ORPHApacketId: '370106'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '370106'
-  Label: Rare disorder with dystonia and other neurologic or systemic manifestation
-  PURL: http://www.orpha.net/ORDO/Orphanet_370106
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '68363'
-      Label: Rare dystonia
-  - Parent:
-    - ORPHAcode: '391799'
-      Label: Rare genetic dystonia
   Childs:
   - Child:
-      Label: Wilson disease
-      ORPHAcode: '905'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '870'
+            Source: HGNC
+          - Reference: '606882'
+            Source: OMIM
           Label: ATPase copper transporting beta
           Symbol: ATP7B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '870'
-          - Source: OMIM
-            Reference: '606882'
+      Label: Wilson disease
+      ORPHAcode: '905'
   - Child:
-      Label: Woodhouse-Sakati syndrome
-      ORPHAcode: '3464'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '25784'
+            Source: HGNC
+          - Reference: '612515'
+            Source: OMIM
           Label: DDB1 and CUL4 associated factor 17
           Symbol: DCAF17
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '25784'
-          - Source: OMIM
-            Reference: '612515'
+      Label: Woodhouse-Sakati syndrome
+      ORPHAcode: '3464'
   - Child:
-      Label: Developmental malformations-deafness-dystonia syndrome
-      ORPHAcode: '79107'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '132'
+            Source: HGNC
+          - Reference: '102630'
+            Source: OMIM
           Label: actin beta
           Symbol: ACTB
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '132'
-          - Source: OMIM
-            Reference: '102630'
+      Label: Developmental malformations-deafness-dystonia syndrome
+      ORPHAcode: '79107'
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '16695'
+            Source: HGNC
+          - Reference: '300398'
+            Source: OMIM
+          Label: B cell receptor associated protein 31
+          Symbol: BCAP31
       Label: Severe motor and intellectual disabilities-sensorineural deafness-dystonia
         syndrome
       ORPHAcode: '369939'
-      Genes:
-      - Gene:
-          Label: B cell receptor associated protein 31
-          Symbol: BCAP31
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '16695'
-          - Source: OMIM
-            Reference: '300398'
   - Child:
-      Label: Childhood-onset basal ganglia degeneration syndrome
-      ORPHAcode: '497906'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '14282'
+            Source: HGNC
+          - Reference: '611720'
+            Source: OMIM
+          Label: interferon regulatory factor 2 binding protein like
+          Symbol: IRF2BPL
+      Label: IRF2BPL-related regressive neurodevelopmental disorder-dystonia-seizures
+        syndrome
+      ORPHAcode: '597623'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '25507'
+            Source: HGNC
+          - Reference: '604632'
+            Source: OMIM
           Label: VAC14 component of PIKFYVE complex
           Symbol: VAC14
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '25507'
-          - Source: OMIM
-            Reference: '604632'
+      Label: Childhood-onset basal ganglia degeneration syndrome
+      ORPHAcode: '497906'
   - Child:
-      Label: Ataxia-oculomotor apraxia type 4
-      ORPHAcode: '459033'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '9154'
+            Source: HGNC
+          - Reference: '605610'
+            Source: OMIM
           Label: polynucleotide kinase 3'-phosphatase
           Symbol: PNKP
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9154'
-          - Source: OMIM
-            Reference: '605610'
+      Label: Ataxia-oculomotor apraxia type 4
+      ORPHAcode: '459033'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare disorder with dystonia and other neurologic or systemic manifestation
+  ORPHAcode: '370106'
+  ORPHApacketId: '370106'
+  PURL: http://www.orpha.net/ORDO/Orphanet_370106
+  Parents:
+  - Parent:
+    - Label: Rare dystonia
+      ORPHAcode: '68363'
+  - Parent:
+    - Label: Rare genetic dystonia
+      ORPHAcode: '391799'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

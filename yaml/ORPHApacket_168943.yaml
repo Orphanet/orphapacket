@@ -1,57 +1,60 @@
 Orphapacket:
-  ORPHApacketId: '168943'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '168943'
-  Label: Myeloid/lymphoid neoplasms associated with eosinophilia and abnormality of
-    PDGFRA, PDGFRB, FGFR1 or JAK2
-  PURL: http://www.orpha.net/ORDO/Orphanet_168943
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '171895'
-      Label: Myeloid hemopathy
   Childs:
   - Child:
-      Label: Myeloid/lymphoid neoplasm associated with PDGFRA rearrangement
-      ORPHAcode: '168947'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '8803'
+            Source: HGNC
+          - Reference: '173490'
+            Source: OMIM
           Label: platelet derived growth factor receptor alpha
           Symbol: PDGFRA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8803'
-          - Source: OMIM
-            Reference: '173490'
+      Label: Myeloid/lymphoid neoplasm associated with PDGFRA rearrangement
+      ORPHAcode: '168947'
   - Child:
-      Label: Myeloid/lymphoid neoplasm associated with PDGFRB rearrangement
-      ORPHAcode: '168950'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '8804'
+            Source: HGNC
+          - Reference: '173410'
+            Source: OMIM
           Label: platelet derived growth factor receptor beta
           Symbol: PDGFRB
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8804'
-          - Source: OMIM
-            Reference: '173410'
+      Label: Myeloid/lymphoid neoplasm associated with PDGFRB rearrangement
+      ORPHAcode: '168950'
   - Child:
-      Label: Myeloid/lymphoid neoplasm associated with FGFR1 rearrangement
-      ORPHAcode: '168953'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '3688'
+            Source: HGNC
+          - Reference: '136350'
+            Source: OMIM
           Label: fibroblast growth factor receptor 1
           Symbol: FGFR1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3688'
-          - Source: OMIM
-            Reference: '136350'
+      Label: Myeloid/lymphoid neoplasm associated with FGFR1 rearrangement
+      ORPHAcode: '168953'
   - Child:
+      Genes: no data
       Label: Myeloid/lymphoid neoplasm associated with JAK2 rearrangement
       ORPHAcode: '589542'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Myeloid/lymphoid neoplasms associated with eosinophilia and abnormality of
+    PDGFRA, PDGFRB, FGFR1 or JAK2
+  ORPHAcode: '168943'
+  ORPHApacketId: '168943'
+  PURL: http://www.orpha.net/ORDO/Orphanet_168943
+  Parents:
+  - Parent:
+    - Label: Myeloid hemopathy
+      ORPHAcode: '171895'
+  - Parent:
+    - Label: Pediatric myeloid cancer
+      ORPHAcode: '602665'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

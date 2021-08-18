@@ -1,42 +1,42 @@
 Orphapacket:
-  ORPHApacketId: '93338'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '93338'
-  Label: Polysyndactyly
-  PURL: http://www.orpha.net/ORDO/Orphanet_93338
-  DisorderType:
-    value: Morphological anomaly
-    PURL: http://www.orpha.net/ORDO/Orphanet_377791
-  Synonyms:
-  - Synonym: PPD4
-  - Synonym: Preaxial polydactyly type 4
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '174700'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Polysyndactyly or PPD4 is a form of preaxial polydactyly of fingers
-      (see this term) a limb malformation syndrome characterized by the presence of
-      a thumb showing the mildest degree of duplication being broad bifid or with
-      radially deviated distal phalanx. Syndactyly of various degrees of third-and-fourth
-      fingers is occasionally present.
-  Genes:
-  - Gene:
-      Symbol: GLI3
-      Name: GLI family zinc finger 3
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '498464'
-      Label: Non-syndromic preaxial polydactyly
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '174700'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: GLI family zinc finger 3
+      Symbol: GLI3
+  Label: Polysyndactyly
+  ORPHAcode: '93338'
+  ORPHApacketId: '93338'
+  PURL: http://www.orpha.net/ORDO/Orphanet_93338
+  Parents:
+  - Parent:
+    - Label: Non-syndromic preaxial polydactyly
+      ORPHAcode: '498464'
+  Synonyms:
+  - Synonym: PPD4
+  - Synonym: Preaxial polydactyly type 4
+  TextSection:
+    Contents: Polysyndactyly or PPD4 is a form of preaxial polydactyly of fingers
+      (see this term) a limb malformation syndrome characterized by the presence of
+      a thumb showing the mildest degree of duplication being broad bifid or with
+      radially deviated distal phalanx. Syndactyly of various degrees of third-and-fourth
+      fingers is occasionally present.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

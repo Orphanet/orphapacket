@@ -1,48 +1,48 @@
 Orphapacket:
-  ORPHApacketId: '98562'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98562'
-  Label: Cryptophthalmia
-  PURL: http://www.orpha.net/ORDO/Orphanet_98562
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '98561'
-      Label: Congenital malformation of the eyelid
   Childs:
   - Child:
-      Label: Fraser syndrome
-      ORPHAcode: '2052'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '19185'
+            Source: HGNC
+          - Reference: '607830'
+            Source: OMIM
           Label: Fraser extracellular matrix complex subunit 1
           Symbol: FRAS1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '19185'
-          - Source: OMIM
-            Reference: '607830'
       - Gene:
+          ExternalReferences:
+          - Reference: '25396'
+            Source: HGNC
+          - Reference: '608945'
+            Source: OMIM
           Label: FRAS1 related extracellular matrix 2
           Symbol: FREM2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '25396'
-          - Source: OMIM
-            Reference: '608945'
       - Gene:
+          ExternalReferences:
+          - Reference: '18708'
+            Source: HGNC
+          - Reference: '604597'
+            Source: OMIM
           Label: glutamate receptor interacting protein 1
           Symbol: GRIP1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18708'
-          - Source: OMIM
-            Reference: '604597'
+      Label: Fraser syndrome
+      ORPHAcode: '2052'
   - Child:
+      Genes: no data
       Label: Isolated cryptophthalmia
       ORPHAcode: '91396'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Cryptophthalmia
+  ORPHAcode: '98562'
+  ORPHApacketId: '98562'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98562
+  Parents:
+  - Parent:
+    - Label: Congenital malformation of the eyelid
+      ORPHAcode: '98561'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

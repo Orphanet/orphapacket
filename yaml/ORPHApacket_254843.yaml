@@ -1,41 +1,41 @@
 Orphapacket:
-  ORPHApacketId: '254843'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '254843'
-  Label: Exercise intolerance with lactic acidosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_254843
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '309136'
-      Label: Mitochondrial disorder due to a defect in assembly or maturation of the
-        respiratory chain complexes
   Childs:
   - Child:
-      Label: Hereditary myopathy with lactic acidosis due to ISCU deficiency
-      ORPHAcode: '43115'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '29882'
+            Source: HGNC
+          - Reference: '611911'
+            Source: OMIM
           Label: iron-sulfur cluster assembly enzyme
           Symbol: ISCU
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '29882'
-          - Source: OMIM
-            Reference: '611911'
+      Label: Hereditary myopathy with lactic acidosis due to ISCU deficiency
+      ORPHAcode: '43115'
   - Child:
-      Label: Acyl-CoA dehydrogenase 9 deficiency
-      ORPHAcode: '99901'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '21497'
+            Source: HGNC
+          - Reference: '611103'
+            Source: OMIM
           Label: acyl-CoA dehydrogenase family member 9
           Symbol: ACAD9
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '21497'
-          - Source: OMIM
-            Reference: '611103'
+      Label: Acyl-CoA dehydrogenase 9 deficiency
+      ORPHAcode: '99901'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Exercise intolerance with lactic acidosis
+  ORPHAcode: '254843'
+  ORPHApacketId: '254843'
+  PURL: http://www.orpha.net/ORDO/Orphanet_254843
+  Parents:
+  - Parent:
+    - Label: Mitochondrial disorder due to a defect in assembly or maturation of the
+        respiratory chain complexes
+      ORPHAcode: '309136'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,16 +1,68 @@
 Orphapacket:
-  ORPHApacketId: '88643'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '88643'
-  Label: Obesity-colitis-hypothyroidism-cardiac hypertrophy-developmental delay syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_88643
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: infantile
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Obesity-colitis-hypothyroidism-cardiac hypertrophy-developmental delay syndrome
+  ORPHAcode: '88643'
+  ORPHApacketId: '88643'
+  PURL: http://www.orpha.net/ORDO/Orphanet_88643
+  Parents:
+  - Parent:
+    - Label: Syndromic hypothyroidism
+      ORPHAcode: '177107'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000851
+      HPOTerm: Congenital hypothyroidism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001363
+      HPOTerm: Craniosynostosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001513
+      HPOTerm: Obesity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001640
+      HPOTerm: Cardiomegaly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002583
+      HPOTerm: Colitis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003073
+      HPOTerm: Hypoalbuminemia
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 17163533[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_17163533[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Obesity-colitis-hypothyroidism-cardiac hypertrophy-developmental delay
       syndrome is characterised by precocious obesity congenital hypothyroidism neonatal
       colitis cardiac hypertrophy craniosynostosis and developmental delay. It has
@@ -19,46 +71,10 @@ Orphapacket:
       the pregnancies were complicated by a maternal HELLP syndrome (Haemolysis Elevated
       Liver enzymes and Low Platelets). The mode of inheritance has not yet been clearly
       established.
-  Parents:
-  - Parent:
-    - ORPHAcode: '177107'
-      Label: Syndromic hypothyroidism
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000821
-      HPOTerm: Hypothyroidism
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001513
-      HPOTerm: Obesity
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001639
-      HPOTerm: Hypertrophic cardiomyopathy
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 17163533[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_17163533[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: infantile
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Unknown
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

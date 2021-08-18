@@ -1,72 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '94064'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '94064'
-  Label: Deafness-infertility syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_94064
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: DIS
-  - Synonym: Hearing loss-infertility syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '611102'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Deafness-infertility syndrome (DIS) is a very rare syndrome associating
-      sensorineural deafness and male infertility.
-  Genes:
-  - Gene:
-      Symbol: CATSPER2
-      Name: cation channel sperm associated 2
-      ExternalReferences: []
-  - Gene:
-      Symbol: STRC
-      Name: stereocilin
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '262119'
-      Label: Partial deletion of the long arm of chromosome 15
-  - Parent:
-    - ORPHAcode: '90642'
-      Label: Syndromic genetic deafness
-  - Parent:
-    - ORPHAcode: '399813'
-      Label: Male infertility due to sperm motility disorder
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000027
-      HPOTerm: Azoospermia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000407
-      HPOTerm: Sensorineural hearing impairment
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003251
-      HPOTerm: Male infertility
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 26011646[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_26011646[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
@@ -74,9 +9,74 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '611102'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: cation channel sperm associated 2
+      Symbol: CATSPER2
+  - Gene:
+      ExternalReferences: []
+      Name: stereocilin
+      Symbol: STRC
+  Label: Deafness-infertility syndrome
+  ORPHAcode: '94064'
+  ORPHApacketId: '94064'
+  PURL: http://www.orpha.net/ORDO/Orphanet_94064
+  Parents:
+  - Parent:
+    - Label: Partial deletion of the long arm of chromosome 15
+      ORPHAcode: '262119'
+  - Parent:
+    - Label: Syndromic genetic deafness
+      ORPHAcode: '90642'
+  - Parent:
+    - Label: Male infertility due to sperm motility disorder
+      ORPHAcode: '399813'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000027
+      HPOTerm: Azoospermia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000407
+      HPOTerm: Sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003251
+      HPOTerm: Male infertility
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 26011646[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_26011646[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: DIS
+  - Synonym: Hearing loss-infertility syndrome
+  TextSection:
+    Contents: Deafness-infertility syndrome (DIS) is a very rare syndrome associating
+      sensorineural deafness and male infertility.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

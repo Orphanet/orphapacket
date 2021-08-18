@@ -1,52 +1,52 @@
 Orphapacket:
-  ORPHApacketId: '397802'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '397802'
-  Label: T+ B+ severe combined immunodeficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_397802
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '183660'
-      Label: Severe combined immunodeficiency
   Childs:
   - Child:
-      Label: Severe combined immunodeficiency due to CARD11 deficiency
-      ORPHAcode: '357237'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '16393'
+            Source: HGNC
+          - Reference: '607210'
+            Source: OMIM
           Label: caspase recruitment domain family member 11
           Symbol: CARD11
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '16393'
-          - Source: OMIM
-            Reference: '607210'
+      Label: Severe combined immunodeficiency due to CARD11 deficiency
+      ORPHAcode: '357237'
   - Child:
-      Label: Severe combined immunodeficiency due to IKK2 deficiency
-      ORPHAcode: '397787'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '5960'
+            Source: HGNC
+          - Reference: '603258'
+            Source: OMIM
           Label: inhibitor of nuclear factor kappa B kinase subunit beta
           Symbol: IKBKB
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5960'
-          - Source: OMIM
-            Reference: '603258'
+      Label: Severe combined immunodeficiency due to IKK2 deficiency
+      ORPHAcode: '397787'
   - Child:
-      Label: Severe combined immunodeficiency due to CTPS1 deficiency
-      ORPHAcode: '420573'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2519'
+            Source: HGNC
+          - Reference: '123860'
+            Source: OMIM
           Label: CTP synthase 1
           Symbol: CTPS1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2519'
-          - Source: OMIM
-            Reference: '123860'
+      Label: Severe combined immunodeficiency due to CTPS1 deficiency
+      ORPHAcode: '420573'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: T+ B+ severe combined immunodeficiency
+  ORPHAcode: '397802'
+  ORPHApacketId: '397802'
+  PURL: http://www.orpha.net/ORDO/Orphanet_397802
+  Parents:
+  - Parent:
+    - Label: Severe combined immunodeficiency
+      ORPHAcode: '183660'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

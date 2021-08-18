@@ -1,80 +1,80 @@
 Orphapacket:
-  ORPHApacketId: '180173'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '180173'
-  Label: Deficient breast volume or number
-  PURL: http://www.orpha.net/ORDO/Orphanet_180173
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '180163'
-      Label: Rare breast malformation
   Childs:
   - Child:
-      Label: Scalp-ear-nipple syndrome
-      ORPHAcode: '2036'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '18249'
+            Source: HGNC
+          - Reference: '613420'
+            Source: OMIM
           Label: potassium channel tetramerization domain containing 1
           Symbol: KCTD1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18249'
-          - Source: OMIM
-            Reference: '613420'
+      Label: Scalp-ear-nipple syndrome
+      ORPHAcode: '2036'
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11602'
+            Source: HGNC
+          - Reference: '601621'
+            Source: OMIM
+          Label: T-box transcription factor 3
+          Symbol: TBX3
       Label: Ulnar-mammary syndrome
       ORPHAcode: '3138'
-      Genes:
-      - Gene:
-          Label: T-box 3
-          Symbol: TBX3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11602'
-          - Source: OMIM
-            Reference: '601621'
   - Child:
-      Label: Becker nevus syndrome
-      ORPHAcode: '64755'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '132'
+            Source: HGNC
+          - Reference: '102630'
+            Source: OMIM
           Label: actin beta
           Symbol: ACTB
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '132'
-          - Source: OMIM
-            Reference: '102630'
+      Label: Becker nevus syndrome
+      ORPHAcode: '64755'
   - Child:
-      Label: Limb-mammary syndrome
-      ORPHAcode: '69085'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '15979'
+            Source: HGNC
+          - Reference: '603273'
+            Source: OMIM
           Label: tumor protein p63
           Symbol: TP63
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '15979'
-          - Source: OMIM
-            Reference: '603273'
+      Label: Limb-mammary syndrome
+      ORPHAcode: '69085'
   - Child:
-      Label: Isolated congenital breast hypoplasia/aplasia
-      ORPHAcode: '180188'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '9670'
+            Source: HGNC
+          - Reference: '179590'
+            Source: OMIM
           Label: protein tyrosine phosphatase receptor type F
           Symbol: PTPRF
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9670'
-          - Source: OMIM
-            Reference: '179590'
+      Label: Isolated congenital breast hypoplasia/aplasia
+      ORPHAcode: '180188'
   - Child:
+      Genes: no data
       Label: Syndromic breast hypoplasia/aplasia
       ORPHAcode: '180193'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Deficient breast volume or number
+  ORPHAcode: '180173'
+  ORPHApacketId: '180173'
+  PURL: http://www.orpha.net/ORDO/Orphanet_180173
+  Parents:
+  - Parent:
+    - Label: Rare breast malformation
+      ORPHAcode: '180163'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

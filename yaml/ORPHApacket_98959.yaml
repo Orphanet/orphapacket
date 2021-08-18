@@ -1,50 +1,50 @@
 Orphapacket:
-  ORPHApacketId: '98959'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98959'
-  Label: Subepithelial mucinous corneal dystrophy
-  PURL: http://www.orpha.net/ORDO/Orphanet_98959
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: SMCD
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '612867'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Subepithelial mucinous corneal dystrophy (SMCD) is a very rare form
-      of superficial corneal dystrophy characterized by frequent recurrent corneal
-      erosions in the first decade of life with progressive loss of vision.
-  Parents:
-  - Parent:
-    - ORPHAcode: '522562'
-      Label: Genetic superficial corneal dystrophy
-  - Parent:
-    - ORPHAcode: '98625'
-      Label: Superficial corneal dystrophy
-  Prevalences:
-  - Prevalence:
-      Source: 8352693[PMID]_[EXPERT]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Childhood
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '612867'
+    Source: OMIM
+  Label: Subepithelial mucinous corneal dystrophy
+  ORPHAcode: '98959'
+  ORPHApacketId: '98959'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98959
+  Parents:
+  - Parent:
+    - Label: Genetic superficial corneal dystrophy
+      ORPHAcode: '522562'
+  - Parent:
+    - Label: Superficial corneal dystrophy
+      ORPHAcode: '98625'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 8352693[PMID]_[EXPERT]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: SMCD
+  TextSection:
+    Contents: Subepithelial mucinous corneal dystrophy (SMCD) is a very rare form
+      of superficial corneal dystrophy characterized by frequent recurrent corneal
+      erosions in the first decade of life with progressive loss of vision.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

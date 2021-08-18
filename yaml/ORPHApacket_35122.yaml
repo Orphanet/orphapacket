@@ -1,65 +1,4 @@
 Orphapacket:
-  ORPHApacketId: '35122'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '35122'
-  Label: Congenital sucrase-isomaltase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_35122
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: CSID
-  - Synonym: Congenital sucrose intolerance
-  - Synonym: Disaccharide intolerance
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '222900'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare genetic congenital carbohydrate intolerance disorder characterized
-      by lack of endogenous sucrase activity marked reduction in isomaltase activity
-      and moderate decrease in maltase activity and clinically manifesting with diarrhea
-      abdominal pain and bloating failure to thrive.
-  Genes:
-  - Gene:
-      Symbol: SI
-      Name: sucrase-isomaltase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '104006'
-      Label: Congenital intestinal disease due to an enzymatic defect
-  - Parent:
-    - ORPHAcode: '309001'
-      Label: Disorder of carbohydrate absorption and transport
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0002014
-      HPOTerm: Diarrhea
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002013
-      HPOTerm: Vomiting
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003270
-      HPOTerm: Abdominal distention
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0011848
-      HPOTerm: Abdominal colic
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-5 / 10 000
-      ValMoy: '20.0'
-      PrevalenceGeographic: Europe
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -69,6 +8,67 @@ Orphapacket:
       value: Childhood
   - AverageAgeOfOnset:
       value: Infancy
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '222900'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: sucrase-isomaltase
+      Symbol: SI
+  Label: Congenital sucrase-isomaltase deficiency
+  ORPHAcode: '35122'
+  ORPHApacketId: '35122'
+  PURL: http://www.orpha.net/ORDO/Orphanet_35122
+  Parents:
+  - Parent:
+    - Label: Congenital intestinal disease due to an enzymatic defect
+      ORPHAcode: '104006'
+  - Parent:
+    - Label: Disorder of carbohydrate absorption and transport
+      ORPHAcode: '309001'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002014
+      HPOTerm: Diarrhea
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002013
+      HPOTerm: Vomiting
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003270
+      HPOTerm: Abdominal distention
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011848
+      HPOTerm: Abdominal colic
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-5 / 10 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '20.0'
+  Synonyms:
+  - Synonym: CSID
+  - Synonym: Congenital sucrose intolerance
+  - Synonym: Disaccharide intolerance
+  TextSection:
+    Contents: A rare genetic congenital carbohydrate intolerance disorder characterized
+      by lack of endogenous sucrase activity marked reduction in isomaltase activity
+      and moderate decrease in maltase activity and clinically manifesting with diarrhea
+      abdominal pain and bloating failure to thrive.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

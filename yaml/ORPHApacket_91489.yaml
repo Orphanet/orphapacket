@@ -1,22 +1,27 @@
 Orphapacket:
-  ORPHApacketId: '91489'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '91489'
-  Label: Isolated congenital megalocornea
-  PURL: http://www.orpha.net/ORDO/Orphanet_91489
   DisorderType:
-    value: Morphological anomaly
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '309300'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: chordin like 1
+      Symbol: CHRDL1
+  Label: Isolated congenital megalocornea
+  ORPHAcode: '91489'
+  ORPHApacketId: '91489'
+  PURL: http://www.orpha.net/ORDO/Orphanet_91489
+  Parents:
+  - Parent:
+    - Label: Corneodysgenesis
+      ORPHAcode: '98635'
   Synonyms:
   - Synonym: Congenital anterior megalophthalmia
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '309300'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Isolated congenital megalocornea is a genetic non-syndromic developmental
       defect of the anterior eye segment characterized by bilateral enlargement of
       the corneal diameter (>12.5 mm) and a deep anterior eye chamber without an elevation
@@ -24,15 +29,10 @@ Orphapacket:
       as photophobia and iridodonesis (due to iris hypoplasia). Associated complications
       include lens dislocation retinal detachment presenile cataract development and
       secondary glaucoma.
-  Genes:
-  - Gene:
-      Symbol: CHRDL1
-      Name: chordin like 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98635'
-      Label: Corneodysgenesis
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

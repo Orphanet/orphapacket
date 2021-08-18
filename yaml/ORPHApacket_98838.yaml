@@ -1,21 +1,41 @@
 Orphapacket:
-  ORPHApacketId: '98838'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98838'
-  Label: Primary mediastinal large B-cell lymphoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_98838
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: BCL6 transcription repressor
+      Symbol: BCL6
+  - Gene:
+      ExternalReferences: []
+      Name: exportin 1
+      Symbol: XPO1
+  Label: Primary mediastinal large B-cell lymphoma
+  ORPHAcode: '98838'
+  ORPHApacketId: '98838'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98838
+  Parents:
+  - Parent:
+    - Label: Diffuse large B-cell lymphoma
+      ORPHAcode: '544'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: European Medicines Agency 2018[INST]
+      ValMoy: '5.0'
   Synonyms:
   - Synonym: Large cell lymphoma of the mediastinum
   - Synonym: Med-DLBCL
   - Synonym: Mediastinal diffuse large-cell lymphoma with sclerosis
   - Synonym: Primary mediastinal clear cell lymphoma of B-cell type
   TextSection:
-    TextSectionType: Definition
     Contents: Primary mediastinal B-cell lymphoma (PMBL) is a rare subtype of diffuse
       large B-cell lymphoma (DLBCL; see this term) arising from B cells of thymic
       origin that affects mainly women between the ages of 20-30 that usually presents
@@ -23,32 +43,12 @@ Orphapacket:
       and pericardial effusions and that can invade the lungs superior vena cava pleura
       pericardium and chest wall leading to manifestations of cough dyspnea and superior
       vena cava syndrome.
-  Genes:
-  - Gene:
-      Symbol: BCL6
-      Name: BCL6 transcription repressor
-      ExternalReferences: []
-  - Gene:
-      Symbol: XPO1
-      Name: exportin 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '544'
-      Label: Diffuse large B-cell lymphoma
-  Prevalences:
-    Prevalence:
-    - Source: European Medicines Agency 2018[INST]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '5.0'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Multigenic/multifactorial
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

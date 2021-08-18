@@ -1,19 +1,88 @@
 Orphapacket:
-  ORPHApacketId: '1959'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '1959'
-  Label: Evans syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_1959
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Evans syndrome
+  ORPHAcode: '1959'
+  ORPHApacketId: '1959'
+  PURL: http://www.orpha.net/ORDO/Orphanet_1959
+  Parents:
+  - Parent:
+    - Label: Autoimmune hemolytic anemia
+      ORPHAcode: '98375'
+  - Parent:
+    - Label: Autoimmune thrombocytopenia
+      ORPHAcode: '71203'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0001890
+      HPOTerm: Autoimmune hemolytic anemia
+  - Phenotype:
+      HPOFrequency: Obligate (100%)
+      HPOId: HP:0001973
+      HPOTerm: Autoimmune thrombocytopenia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000967
+      HPOTerm: Petechiae
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001904
+      HPOTerm: Neutropenia in presence of anti-neutropil antibodies
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000421
+      HPOTerm: Epistaxis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000952
+      HPOTerm: Jaundice
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000978
+      HPOTerm: Bruising susceptibility
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000980
+      HPOTerm: Pallor
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001254
+      HPOTerm: Lethargy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001324
+      HPOTerm: Muscle weakness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002094
+      HPOTerm: Dyspnea
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001279
+      HPOTerm: Syncope
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: '[EXPERT]'
+      ValMoy: '0.1'
   Synonyms:
   - Synonym: Autoimmune hemolytic anemia and autoimmune thrombocytopenia
   - Synonym: Immune pancytopenia
   TextSection:
-    TextSectionType: Definition
     Contents: A rare chronic hematologic disorder characterized by the simultaneous
       or sequential association of autoimmune hemolytic anemia (AIHA; a disorder in
       which auto-antibodies are directed against red blood cells causing anemia of
@@ -21,79 +90,10 @@ Orphapacket:
       disorder in which auto-antibodies are directed against platelets causing hemorrhagic
       episodes) and occasionally autoimmune neutropenia in the absence of a known
       underlying etiology.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98375'
-      Label: Autoimmune hemolytic anemia
-  - Parent:
-    - ORPHAcode: '71203'
-      Label: Autoimmune thrombocytopenia
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001890
-      HPOTerm: Autoimmune hemolytic anemia
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0001973
-      HPOTerm: Autoimmune thrombocytopenia
-      HPOFrequency: Obligate (100%)
-  - Phenotype:
-      HPOId: HP:0000967
-      HPOTerm: Petechiae
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001904
-      HPOTerm: Neutropenia in presence of anti-neutropil antibodies
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000421
-      HPOTerm: Epistaxis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000952
-      HPOTerm: Jaundice
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000978
-      HPOTerm: Bruising susceptibility
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000980
-      HPOTerm: Pallor
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001254
-      HPOTerm: Lethargy
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001324
-      HPOTerm: Muscle weakness
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002094
-      HPOTerm: Dyspnea
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012378
-      HPOTerm: Fatigue
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001279
-      HPOTerm: Syncope
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-    Prevalence:
-    - Source: '[EXPERT]'
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.1'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Adult
-  - AverageAgeOfOnset:
-      value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

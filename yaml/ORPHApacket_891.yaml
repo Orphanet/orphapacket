@@ -1,116 +1,113 @@
 Orphapacket:
-  ORPHApacketId: '891'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '891'
-  Label: Familial exudative vitreoretinopathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_891
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Criswick-Schepens syndrome
-  - Synonym: FEVR
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '133780'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '305390'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '601813'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '605750'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '613310'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '616468'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '617572'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: Familial exudative vitreoretinopathy (FEVR) is a rare hereditary vitreoretinal
-      disorder characterized by abnormal or incomplete vascularization of the peripheral
-      retina leading to variable clinical manifestations ranging from no effects to
-      minor anomalies or even retinal detachment with blindness.
-  Genes:
-  - Gene:
-      Symbol: CTNNB1
-      Name: catenin beta 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: FZD4
-      Name: frizzled class receptor 4
-      ExternalReferences: []
-  - Gene:
-      Symbol: LRP5
-      Name: LDL receptor related protein 5
-      ExternalReferences: []
-  - Gene:
-      Symbol: NDP
-      Name: norrin cystine knot growth factor NDP
-      ExternalReferences: []
-  - Gene:
-      Symbol: TSPAN12
-      Name: tetraspanin 12
-      ExternalReferences: []
-  - Gene:
-      Symbol: ZNF408
-      Name: zinc finger protein 408
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '71281'
-      Label: Rare central nervous system and retinal vascular disease
-  - Parent:
-    - ORPHAcode: '519317'
-      Label: Rare retinal vasculopathy
-  - Parent:
-    - ORPHAcode: '519304'
-      Label: Isolated vitreoretinopathy
-  - Parent:
-    - ORPHAcode: '522576'
-      Label: Rare genetic retinal vasculopathy
-  - Parent:
-    - ORPHAcode: '183503'
-      Label: Genetic central nervous system and retinal vascular disease
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '133780'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '305390'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '601813'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '605750'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '613310'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '616468'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '617572'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: catenin beta 1
+      Symbol: CTNNB1
+  - Gene:
+      ExternalReferences: []
+      Name: frizzled class receptor 4
+      Symbol: FZD4
+  - Gene:
+      ExternalReferences: []
+      Name: LDL receptor related protein 5
+      Symbol: LRP5
+  - Gene:
+      ExternalReferences: []
+      Name: norrin cystine knot growth factor NDP
+      Symbol: NDP
+  - Gene:
+      ExternalReferences: []
+      Name: tetraspanin 12
+      Symbol: TSPAN12
+  - Gene:
+      ExternalReferences: []
+      Name: zinc finger protein 408
+      Symbol: ZNF408
+  Label: Familial exudative vitreoretinopathy
+  ORPHAcode: '891'
+  ORPHApacketId: '891'
+  PURL: http://www.orpha.net/ORDO/Orphanet_891
+  Parents:
+  - Parent:
+    - Label: Rare central nervous system and retinal vascular disease
+      ORPHAcode: '71281'
+  - Parent:
+    - Label: Rare retinal vasculopathy
+      ORPHAcode: '519317'
+  - Parent:
+    - Label: Isolated vitreoretinopathy
+      ORPHAcode: '519304'
+  - Parent:
+    - Label: Rare genetic retinal vasculopathy
+      ORPHAcode: '522576'
+  - Parent:
+    - Label: Genetic central nervous system and retinal vascular disease
+      ORPHAcode: '183503'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: Criswick-Schepens syndrome
+  - Synonym: FEVR
+  TextSection:
+    Contents: Familial exudative vitreoretinopathy (FEVR) is a rare hereditary vitreoretinal
+      disorder characterized by abnormal or incomplete vascularization of the peripheral
+      retina leading to variable clinical manifestations ranging from no effects to
+      minor anomalies or even retinal detachment with blindness.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
@@ -118,3 +115,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

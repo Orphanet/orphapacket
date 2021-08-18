@@ -1,23 +1,29 @@
 Orphapacket:
-  ORPHApacketId: '447792'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '447792'
-  Label: Hemochromatosis type 5
-  PURL: http://www.orpha.net/ORDO/Orphanet_447792
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   Genes:
   - Gene:
-      Symbol: BMP6
-      Name: bone morphogenetic protein 6
       ExternalReferences: []
+      Name: bone morphogenetic protein 6
+      Symbol: BMP6
+  Label: Hemochromatosis type 5
+  ORPHAcode: '447792'
+  ORPHApacketId: '447792'
+  PURL: http://www.orpha.net/ORDO/Orphanet_447792
   Parents:
   - Parent:
-    - ORPHAcode: '220489'
-      Label: Rare hereditary hemochromatosis
+    - Label: Rare hereditary hemochromatosis
+      ORPHAcode: '220489'
+  TextSection:
+    Contents: A rare hereditary hemochromatosis characterized by mild to moderate
+      late-onset iron overload with increased serum ferritin normal or high transferrin
+      saturation and increased liver iron concentration. Associated laboratory findings
+      are more pronounced in males than in females.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

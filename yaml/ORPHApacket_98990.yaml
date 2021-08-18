@@ -1,32 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '98990'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98990'
-  Label: Coralliform cataract
-  PURL: http://www.orpha.net/ORDO/Orphanet_98990
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '115800'
-    DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
-  Genes:
-  - Gene:
-      Symbol: CRYGD
-      Name: crystallin gamma D
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98992'
-      Label: Early-onset partial cataract
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
+    Reference: '115800'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: crystallin gamma D
+      Symbol: CRYGD
+  Label: Coralliform cataract
+  ORPHAcode: '98990'
+  ORPHApacketId: '98990'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98990
+  Parents:
+  - Parent:
+    - Label: Early-onset partial cataract
+      ORPHAcode: '98992'
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

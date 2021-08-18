@@ -1,18 +1,23 @@
 Orphapacket:
-  ORPHApacketId: '370109'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '370109'
-  Label: Ataxia-telangiectasia variant
-  PURL: http://www.orpha.net/ORDO/Orphanet_370109
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ATM serine/threonine kinase
+      Symbol: ATM
+  Label: Ataxia-telangiectasia variant
+  ORPHAcode: '370109'
+  ORPHApacketId: '370109'
+  PURL: http://www.orpha.net/ORDO/Orphanet_370109
+  Parents:
+  - Parent:
+    - Label: Persistent combined dystonia
+      ORPHAcode: '391711'
   Synonyms:
   - Synonym: v-AT
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic persistent combined dystonia characterized by clinical
       signs similar to ataxia-telangiectasia but with a later (usually adulthood)
       onset and slower progression. Patients typically present extrapyramidal signs
@@ -21,12 +26,7 @@ Orphapacket:
       and immunodeficiency may be absent but secondary features of ataxia-telangiectasia
       such as risk of malignancy dysarthria and peripheral neuropathy are frequently
       present.
-  Genes:
-  - Gene:
-      Symbol: ATM
-      Name: ATM serine/threonine kinase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '391711'
-      Label: Persistent combined dystonia
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

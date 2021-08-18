@@ -1,45 +1,45 @@
 Orphapacket:
-  ORPHApacketId: '264968'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '264968'
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '4177'
+            Source: HGNC
+          - Reference: '606463'
+            Source: OMIM
+          Label: glucosylceramidase beta
+          Symbol: GBA
+      - Gene:
+          ExternalReferences:
+          - Reference: '1665'
+            Source: HGNC
+          - Reference: '602257'
+            Source: OMIM
+          Label: scavenger receptor class B member 2
+          Symbol: SCARB2
+      Label: Gaucher disease type 1
+      ORPHAcode: '77259'
+  - Child:
+      Genes: no data
+      Label: Niemann-Pick disease type C
+      ORPHAcode: '646'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
   Label: Secondary interstitial lung disease in childhood and adulthood associated
     with a metabolic disease
+  ORPHAcode: '264968'
+  ORPHApacketId: '264968'
   PURL: http://www.orpha.net/ORDO/Orphanet_264968
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+  Parents:
+  - Parent:
+    - Label: Secondary interstitial lung disease in childhood and adulthood associated
+        with a systemic disease
+      ORPHAcode: '264949'
   Synonyms:
   - Synonym: Secondary ILD in childhood and adulthood associated with a metabolic
       disease
-  Parents:
-  - Parent:
-    - ORPHAcode: '264949'
-      Label: Secondary interstitial lung disease in childhood and adulthood associated
-        with a systemic disease
-  Childs:
-  - Child:
-      Label: Gaucher disease type 1
-      ORPHAcode: '77259'
-      Genes:
-      - Gene:
-          Label: glucosylceramidase beta
-          Symbol: GBA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4177'
-          - Source: OMIM
-            Reference: '606463'
-      - Gene:
-          Label: scavenger receptor class B member 2
-          Symbol: SCARB2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1665'
-          - Source: OMIM
-            Reference: '602257'
-  - Child:
-      Label: Niemann-Pick disease type C
-      ORPHAcode: '646'
-      Genes: no data
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

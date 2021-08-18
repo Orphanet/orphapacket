@@ -1,49 +1,49 @@
 Orphapacket:
-  ORPHApacketId: '3387'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3387'
-  Label: Isolated anterior cervical hypertrichosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_3387
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Hairy throat syndrome
-  - Synonym: Tsukahara-Kajii syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '600457'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare form of localised hypertrichosis characterised by hair growth
-      near the laryngeal prominence during childhood.
-  Parents:
-  - Parent:
-    - ORPHAcode: '79365'
-      Label: Rare disorder with hypertrichosis
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Childhood
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '600457'
+    Source: OMIM
+  Label: Isolated anterior cervical hypertrichosis
+  ORPHAcode: '3387'
+  ORPHApacketId: '3387'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3387
+  Parents:
+  - Parent:
+    - Label: Rare disorder with hypertrichosis
+      ORPHAcode: '79365'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Hairy throat syndrome
+  - Synonym: Tsukahara-Kajii syndrome
+  TextSection:
+    Contents: A rare form of localised hypertrichosis characterised by hair growth
+      near the laryngeal prominence during childhood.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

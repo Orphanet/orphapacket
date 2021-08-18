@@ -1,57 +1,57 @@
 Orphapacket:
-  ORPHApacketId: '399849'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '399849'
-  Label: Rare female infertility due to an adrenal disorder
-  PURL: http://www.orpha.net/ORDO/Orphanet_399849
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '399831'
-      Label: Rare female infertility due to hypothalamic-pituitary-gonadal axis disorder
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '5212'
+            Source: HGNC
+          - Reference: '605573'
+            Source: OMIM
+          Label: hydroxysteroid 17-beta dehydrogenase 3
+          Symbol: HSD17B3
       Label: 46,XY disorder of sex development due to 17-beta-hydroxysteroid dehydrogenase
         3 deficiency
       ORPHAcode: '752'
-      Genes:
-      - Gene:
-          Label: hydroxysteroid 17-beta dehydrogenase 3
-          Symbol: HSD17B3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5212'
-          - Source: OMIM
-            Reference: '605573'
   - Child:
+      Genes: no data
       Label: Congenital lipoid adrenal hyperplasia due to STAR deficency
       ORPHAcode: '90790'
-      Genes: no data
   - Child:
-      Label: Congenital adrenal hyperplasia due to 17-alpha-hydroxylase deficiency
-      ORPHAcode: '90793'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2593'
+            Source: HGNC
+          - Reference: '609300'
+            Source: OMIM
           Label: cytochrome P450 family 17 subfamily A member 1
           Symbol: CYP17A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2593'
-          - Source: OMIM
-            Reference: '609300'
+      Label: Congenital adrenal hyperplasia due to 17-alpha-hydroxylase deficiency
+      ORPHAcode: '90793'
   - Child:
+      Genes: no data
       Label: Classic congenital adrenal hyperplasia due to 21-hydroxylase deficiency
       ORPHAcode: '90794'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: ACTH-dependent Cushing syndrome
       ORPHAcode: '99892'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: ACTH-independent Cushing syndrome
       ORPHAcode: '99893'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare female infertility due to an adrenal disorder
+  ORPHAcode: '399849'
+  ORPHApacketId: '399849'
+  PURL: http://www.orpha.net/ORDO/Orphanet_399849
+  Parents:
+  - Parent:
+    - Label: Rare female infertility due to hypothalamic-pituitary-gonadal axis disorder
+      ORPHAcode: '399831'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

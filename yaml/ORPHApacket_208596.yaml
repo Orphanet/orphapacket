@@ -1,36 +1,40 @@
 Orphapacket:
-  ORPHApacketId: '208596'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '208596'
-  Label: Genetic hyperparathyroidism
-  PURL: http://www.orpha.net/ORDO/Orphanet_208596
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '183634'
-      Label: Rare genetic parathyroid disease and phosphocalcic metabolism disorder
   Childs:
   - Child:
-      Label: Neonatal severe primary hyperparathyroidism
-      ORPHAcode: '417'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '14006'
+            Source: HGNC
+          - Reference: '606680'
+            Source: OMIM
           Label: transient receptor potential cation channel subfamily V member 6
           Symbol: TRPV6
-          ExternalReferences: []
       - Gene:
+          ExternalReferences:
+          - Reference: '1514'
+            Source: HGNC
+          - Reference: '601199'
+            Source: OMIM
           Label: calcium sensing receptor
           Symbol: CASR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1514'
-          - Source: OMIM
-            Reference: '601199'
+      Label: Neonatal severe primary hyperparathyroidism
+      ORPHAcode: '417'
   - Child:
+      Genes: no data
       Label: Familial primary hyperparathyroidism
       ORPHAcode: '2207'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Genetic hyperparathyroidism
+  ORPHAcode: '208596'
+  ORPHApacketId: '208596'
+  PURL: http://www.orpha.net/ORDO/Orphanet_208596
+  Parents:
+  - Parent:
+    - Label: Rare genetic parathyroid disease and phosphocalcic metabolism disorder
+      ORPHAcode: '183634'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

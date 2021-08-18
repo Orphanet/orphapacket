@@ -1,65 +1,65 @@
 Orphapacket:
-  ORPHApacketId: '315'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '315'
-  Label: Erythrokeratoderma ''en cocardes''
-  PURL: http://www.orpha.net/ORDO/Orphanet_315
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Erythrokeratoderma ''en cocardes''
+  ORPHAcode: '315'
+  ORPHApacketId: '315'
+  PURL: http://www.orpha.net/ORDO/Orphanet_315
+  Parents:
+  - Parent:
+    - Label: Erythrokeratoderma
+      ORPHAcode: '79355'
+  - Parent:
+    - Label: Genetic erythrokeratoderma
+      ORPHAcode: '183438'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000962
+      HPOTerm: Hyperkeratosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001000
+      HPOTerm: Abnormality of skin pigmentation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008069
+      HPOTerm: Neoplasm of the skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0200034
+      HPOTerm: Papule
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002664
+      HPOTerm: Neoplasm
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Degos genodermatosis "en cocardes"
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic epidermal disorder characterized by intermittent (remitting
       and recurring) annular polycyclic target-like (or 'en cocardes') plaques with
       concentric rings of scaling erythema occurring on the extremities flexural areas
       and trunk. Concurrent erythrokeratoderma variabilis-like scaly plaques are commonly
       found in other parts of the body.
-  Parents:
-  - Parent:
-    - ORPHAcode: '79355'
-      Label: Erythrokeratoderma
-  - Parent:
-    - ORPHAcode: '183438'
-      Label: Genetic erythrokeratoderma
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000962
-      HPOTerm: Hyperkeratosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001000
-      HPOTerm: Abnormality of skin pigmentation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0008069
-      HPOTerm: Neoplasm of the skin
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0200034
-      HPOTerm: Papule
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002664
-      HPOTerm: Neoplasm
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

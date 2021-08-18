@@ -1,52 +1,52 @@
 Orphapacket:
-  ORPHApacketId: '98408'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98408'
-  Label: Constitutional megaloblastic anemia due to folate metabolism disorder
-  PURL: http://www.orpha.net/ORDO/Orphanet_98408
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '248296'
-      Label: Constitutional deficiency anemia
   Childs:
   - Child:
-      Label: Formiminoglutamic aciduria
-      ORPHAcode: '51208'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '3974'
+            Source: HGNC
+          - Reference: '606806'
+            Source: OMIM
           Label: formimidoyltransferase cyclodeaminase
           Symbol: FTCD
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3974'
-          - Source: OMIM
-            Reference: '606806'
+      Label: Formiminoglutamic aciduria
+      ORPHAcode: '51208'
   - Child:
-      Label: Hereditary folate malabsorption
-      ORPHAcode: '90045'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '30521'
+            Source: HGNC
+          - Reference: '611672'
+            Source: OMIM
           Label: solute carrier family 46 member 1
           Symbol: SLC46A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '30521'
-          - Source: OMIM
-            Reference: '611672'
+      Label: Hereditary folate malabsorption
+      ORPHAcode: '90045'
   - Child:
-      Label: Constitutional megaloblastic anemia with severe neurologic disease
-      ORPHAcode: '319651'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2861'
+            Source: HGNC
+          - Reference: '126060'
+            Source: OMIM
           Label: dihydrofolate reductase
           Symbol: DHFR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2861'
-          - Source: OMIM
-            Reference: '126060'
+      Label: Constitutional megaloblastic anemia with severe neurologic disease
+      ORPHAcode: '319651'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Constitutional megaloblastic anemia due to folate metabolism disorder
+  ORPHAcode: '98408'
+  ORPHApacketId: '98408'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98408
+  Parents:
+  - Parent:
+    - Label: Constitutional deficiency anemia
+      ORPHAcode: '248296'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,18 +1,34 @@
 Orphapacket:
-  ORPHApacketId: '251359'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '251359'
-  Label: Sickle cell-beta-thalassemia disease syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_251359
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: hemoglobin subunit beta
+      Symbol: HBB
+  Label: Sickle cell-beta-thalassemia disease syndrome
+  ORPHAcode: '251359'
+  ORPHApacketId: '251359'
+  PURL: http://www.orpha.net/ORDO/Orphanet_251359
+  Parents:
+  - Parent:
+    - Label: Sickle cell disease associated with another hemoglobin anomaly
+      ORPHAcode: '251355'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: HbS-beta-thalassemia syndrome
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic hemoglobinopathy that affects red blood cells both in
       the production of abnormal hemoglobin as well as the decreased synthesis of
       beta globin chains. Clinical manifestations depend on the amount of residual
@@ -20,26 +36,10 @@ Orphapacket:
       anemia vascular occlusion and its complications acute episodes of pain acute
       chest syndrome pulmonary hypertension sepsis ischemic brain injury splenic sequestration
       crisis and splenomegaly.
-  Genes:
-  - Gene:
-      Symbol: HBB
-      Name: hemoglobin subunit beta
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '251355'
-      Label: Sickle cell disease associated with an other hemoglobin anomaly
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

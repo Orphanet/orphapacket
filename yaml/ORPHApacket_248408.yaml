@@ -1,32 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '248408'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '248408'
-  Label: Familial hypodysfibrinogenemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_248408
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
     Reference: '616004'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Source: OMIM
   Genes:
   - Gene:
-      Symbol: FGA
+      ExternalReferences: []
       Name: fibrinogen alpha chain
-      ExternalReferences: []
+      Symbol: FGA
   - Gene:
-      Symbol: FGB
+      ExternalReferences: []
       Name: fibrinogen beta chain
-      ExternalReferences: []
+      Symbol: FGB
   - Gene:
-      Symbol: FGG
-      Name: fibrinogen gamma chain
       ExternalReferences: []
+      Name: fibrinogen gamma chain
+      Symbol: FGG
+  Label: Familial hypodysfibrinogenemia
+  ORPHAcode: '248408'
+  ORPHApacketId: '248408'
+  PURL: http://www.orpha.net/ORDO/Orphanet_248408
   Parents:
   - Parent:
-    - ORPHAcode: '335'
-      Label: Congenital fibrinogen deficiency
+    - Label: Congenital fibrinogen deficiency
+      ORPHAcode: '335'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

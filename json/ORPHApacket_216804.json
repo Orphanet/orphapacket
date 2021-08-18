@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "216804",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "216804",
         "Label": "Osteogenesis imperfecta type 2",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_216804",
@@ -51,7 +51,7 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Osteogenesis imperfecta type II is a lethal type of osteogenesis imperfecta (OI; see this term) a genetic disorder characterized by increased bone fragility low bone mass and susceptibility to bone fractures. Patients with type II present multiple rib and long bone fractures at birth marked deformities broad long bones low density on skull X-rays and dark sclera."
+            "Contents": "A lethal type of osteogenesis imperfecta (OI) characterized by increased bone fragility low bone mass and susceptibility to bone fractures and presenting with multiple rib and long bone fractures at birth marked deformities broad long bones low density skull on X-ray and dark sclera."
         },
         "Genes": [
             {
@@ -88,6 +88,13 @@
                     "Name": "peptidylprolyl isomerase B",
                     "ExternalReferences": []
                 }
+            },
+            {
+                "Gene": {
+                    "Symbol": "MESD",
+                    "Name": "mesoderm development LRP chaperone",
+                    "ExternalReferences": []
+                }
             }
         ],
         "Parents": [
@@ -108,32 +115,22 @@
                 ]
             }
         ],
-        "Prevalences": [
-            {
-                "Prevalence": {
-                    "Source": "EUROCAT European surveillance of congenital anomalies 2005-2012[REG]",
-                    "PrevalenceType": "Prevalence at birth",
-                    "PrevalenceQualification": "Value and class",
-                    "PrevalenceClass": "1-9 / 1 000 000",
-                    "ValMoy": "no data",
-                    "PrevalenceGeographic": "Europe"
-                }
-            },
-            {
-                "Prevalence": {
+        "Prevalences": {
+            "Prevalence": [
+                {
                     "Source": "ORPHANET",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "Unknown",
-                    "ValMoy": "no data",
+                    "ValMoy": "0.0",
                     "PrevalenceGeographic": "Worldwide"
                 }
-            }
-        ],
+            ]
+        },
         "AverageAgeOfOnsets": [
             {
                 "AverageAgeOfOnset": {
-                    "value": "Infancy"
+                    "value": "Antenatal"
                 }
             },
             {
@@ -142,13 +139,18 @@
                 }
             }
         ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "early childhood"
+        "AverageAgeOfDeaths": [
+            {
+                "AverageAgeOfDeath": {
+                    "value": "Antenatal"
                 }
-            ]
-        },
+            },
+            {
+                "AverageAgeOfDeath": {
+                    "value": "Neonatal"
+                }
+            }
+        ],
         "TypeOfInheritances": [
             {
                 "TypeOfInheritance": {

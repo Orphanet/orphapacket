@@ -1,18 +1,27 @@
 Orphapacket:
-  ORPHApacketId: '402017'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '402017'
-  Label: Acute myeloid leukemia with t(9;11)(p22;q23)
-  PURL: http://www.orpha.net/ORDO/Orphanet_402017
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: lysine methyltransferase 2A
+      Symbol: KMT2A
+  - Gene:
+      ExternalReferences: []
+      Name: MLLT3 super elongation complex subunit
+      Symbol: MLLT3
+  Label: Acute myeloid leukemia with t(9;11)(p22;q23)
+  ORPHAcode: '402017'
+  ORPHApacketId: '402017'
+  PURL: http://www.orpha.net/ORDO/Orphanet_402017
+  Parents:
+  - Parent:
+    - Label: Acute myeloid leukemia with recurrent genetic anomaly
+      ORPHAcode: '98277'
   Synonyms:
   - Synonym: AML with t(9;11)(p22;q23)
   TextSection:
-    TextSectionType: Definition
     Contents: A tumor of hematopoietic and lymphoid tissues characterized by the most
       common AML-causing MLL translocation resulting in the MLL-MLLT3-fusion protein.
       It can occur either as a primary neoplasm or secondary to previous chemo-/radiation
@@ -20,16 +29,7 @@ Orphapacket:
       cells within the bone marrow peripheral blood and other organs and include leukocytosis
       anemia thrombocytopenia fever bone pain fatigue pallor easy bruising and frequent
       bleeding.
-  Genes:
-  - Gene:
-      Symbol: KMT2A
-      Name: lysine methyltransferase 2A
-      ExternalReferences: []
-  - Gene:
-      Symbol: MLLT3
-      Name: MLLT3 super elongation complex subunit
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98277'
-      Label: Acute myeloid leukemia with recurrent genetic anomaly
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

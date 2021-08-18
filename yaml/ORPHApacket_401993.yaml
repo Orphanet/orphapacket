@@ -1,67 +1,75 @@
 Orphapacket:
-  ORPHApacketId: '401993'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '401993'
-  Label: Cold-induced sweating syndrome-hyperthermia spectrum
-  PURL: http://www.orpha.net/ORDO/Orphanet_401993
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '140477'
-      Label: Autosomal recessive hereditary sensory and autonomic neuropathy
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '2364'
+            Source: HGNC
+          - Reference: '604237'
+            Source: OMIM
+          Label: cytokine receptor like factor 1
+          Symbol: CRLF1
+      - Gene:
+          ExternalReferences:
+          - Reference: '17412'
+            Source: HGNC
+          - Reference: '607672'
+            Source: OMIM
+          Label: cardiotrophin like cytokine factor 1
+          Symbol: CLCF1
       Label: Crisponi syndrome
       ORPHAcode: '1545'
-      Genes:
-      - Gene:
-          Label: cytokine receptor like factor 1
-          Symbol: CRLF1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2364'
-          - Source: OMIM
-            Reference: '604237'
-      - Gene:
-          Label: cardiotrophin like cytokine factor 1
-          Symbol: CLCF1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '17412'
-          - Source: OMIM
-            Reference: '607672'
   - Child:
-      Label: Cold-induced sweating syndrome
-      ORPHAcode: '157820'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '15646'
+            Source: HGNC
+          - Reference: '611119'
+            Source: OMIM
           Label: kelch like family member 7
           Symbol: KLHL7
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '15646'
-          - Source: OMIM
-            Reference: '611119'
       - Gene:
+          ExternalReferences:
+          - Reference: '2364'
+            Source: HGNC
+          - Reference: '604237'
+            Source: OMIM
           Label: cytokine receptor like factor 1
           Symbol: CRLF1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2364'
-          - Source: OMIM
-            Reference: '604237'
       - Gene:
+          ExternalReferences:
+          - Reference: '17412'
+            Source: HGNC
+          - Reference: '607672'
+            Source: OMIM
           Label: cardiotrophin like cytokine factor 1
           Symbol: CLCF1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '17412'
-          - Source: OMIM
-            Reference: '607672'
+      Label: Cold-induced sweating syndrome
+      ORPHAcode: '157820'
+  - Child:
+      Genes: no data
+      Label: KLHL7-related cold-induced sweating-like syndrome
+      ORPHAcode: '603694'
+  - Child:
+      Genes: no data
+      Label: KLHL7-related Bohring-Opitz-like/Cold-induced sweating-like overlap syndrome
+      ORPHAcode: '603684'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Cold-induced sweating syndrome-hyperthermia spectrum
+  ORPHAcode: '401993'
+  ORPHApacketId: '401993'
+  PURL: http://www.orpha.net/ORDO/Orphanet_401993
+  Parents:
+  - Parent:
+    - Label: Autosomal recessive hereditary sensory and autonomic neuropathy
+      ORPHAcode: '140477'
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

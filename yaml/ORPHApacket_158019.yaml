@@ -1,32 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '158019'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '158019'
-  Label: Indeterminate cell histiocytosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_158019
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: Indeterminate cell histiocytosis
+  ORPHAcode: '158019'
+  ORPHApacketId: '158019'
+  PURL: http://www.orpha.net/ORDO/Orphanet_158019
+  Parents:
+  - Parent:
+    - Label: Non-Langerhans cell histiocytosis
+      ORPHAcode: '157987'
+  - Parent:
+    - Label: Dendritic cell tumor
+      ORPHAcode: '98289'
   Synonyms:
   - Synonym: Indeterminate dendritic cell neoplasm
   - Synonym: Indeterminate dendritic cell tumor
   TextSection:
-    TextSectionType: Definition
     Contents: A rare neoplastic disease characterized by multiple and on occasion
       single asymptomatic smooth red-brown papulonodules located on the face neck
       trunk and/or extremities which present a nonepidermotrophic histiocytic infiltrate
       with immunohistochemical features of both Langerhans and non-Langerhans cells
       (i.e. immunopositive for S100 protein and CD1a in the absence of Birbeck granules
       and langerin expression).
-  Parents:
-  - Parent:
-    - ORPHAcode: '157987'
-      Label: Non-Langerhans cell histiocytosis
-  - Parent:
-    - ORPHAcode: '98289'
-      Label: Dendritic cell tumor
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

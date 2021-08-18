@@ -1,14 +1,118 @@
 Orphapacket:
-  ORPHApacketId: '158'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '158'
-  Label: Systemic primary carnitine deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_158
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '212140'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: solute carrier family 22 member 5
+      Symbol: SLC22A5
+  Label: Systemic primary carnitine deficiency
+  ORPHAcode: '158'
+  ORPHApacketId: '158'
+  PURL: http://www.orpha.net/ORDO/Orphanet_158
+  Parents:
+  - Parent:
+    - Label: Muscular lipidosis
+      ORPHAcode: '206953'
+  - Parent:
+    - Label: Disorder of carnitine cycle and carnitine transport
+      ORPHAcode: '309130'
+  - Parent:
+    - Label: Fatty acid oxidation and ketogenesis disorder with dilated cardiomyopathy
+      ORPHAcode: '217616'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000467
+      HPOTerm: Neck muscle weakness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001289
+      HPOTerm: Confusion
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001324
+      HPOTerm: Muscle weakness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002013
+      HPOTerm: Vomiting
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002240
+      HPOTerm: Hepatomegaly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002312
+      HPOTerm: Clumsiness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002910
+      HPOTerm: Elevated hepatic transaminase
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006846
+      HPOTerm: Acute encephalopathy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007334
+      HPOTerm: Bilateral tonic-clonic seizure with focal onset
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 22989098[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 22989098[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Japan
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 10545605[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Australia
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: 12788994[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 6-9 / 10 000
+      PrevalenceGeographic: Faroe Islands
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 17417720[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: '>1 / 1000'
+      PrevalenceGeographic: Faroe Islands
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 17417720[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: CDSP
   - Synonym: CUD
@@ -16,119 +120,15 @@ Orphapacket:
   - Synonym: Carnitine uptake deficiency
   - Synonym: Deficiency of plasma-membrane carnitine transporter
   - Synonym: SPCD
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '212140'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A disorder of carnitine cycle and carnitine transport that is characterized
       classically by early childhood onset cardiomyopathy often with weakness and
       hypotonia failure to thrive and recurrent hypoglycemic hypoketotic seizures
       and/or coma.
-  Genes:
-  - Gene:
-      Symbol: SLC22A5
-      Name: solute carrier family 22 member 5
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '206953'
-      Label: Muscular lipidosis
-  - Parent:
-    - ORPHAcode: '309130'
-      Label: Disorder of carnitine cycle and carnitine transport
-  - Parent:
-    - ORPHAcode: '217616'
-      Label: Fatty acid oxidation and ketogenesis disorder with dilated cardiomyopathy
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000467
-      HPOTerm: Neck muscle weakness
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001289
-      HPOTerm: Confusion
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001324
-      HPOTerm: Muscle weakness
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002013
-      HPOTerm: Vomiting
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002240
-      HPOTerm: Hepatomegaly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002312
-      HPOTerm: Clumsiness
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002910
-      HPOTerm: Elevated hepatic transaminase
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0006846
-      HPOTerm: Acute encephalopathy
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007334
-      HPOTerm: Generalized tonic-clonic seizures with focal onset
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 22989098[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 22989098[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: United States
-  - Prevalence:
-      Source: 10545605[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Japan
-  - Prevalence:
-      Source: 12788994[PMID]
-      PrevalenceType: Prevalence at birth
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Australia
-  - Prevalence:
-      Source: 17417720[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 6-9 / 10 000
-      ValMoy: no data
-      PrevalenceGeographic: Faroe Islands
-  - Prevalence:
-      Source: 17417720[PMID]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: '>1 / 1000'
-      ValMoy: no data
-      PrevalenceGeographic: Faroe Islands
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,67 +1,67 @@
 Orphapacket:
-  ORPHApacketId: '79369'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79369'
-  Label: Isolated nail anomaly
-  PURL: http://www.orpha.net/ORDO/Orphanet_79369
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '79368'
-      Label: Nail anomaly
-  - Parent:
-    - ORPHAcode: '183454'
-      Label: Genetic nail anomaly
   Childs:
   - Child:
-      Label: Leukonychia totalis
-      ORPHAcode: '2387'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '9060'
+            Source: HGNC
+          - Reference: '602142'
+            Source: OMIM
           Label: phospholipase C delta 1
           Symbol: PLCD1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9060'
-          - Source: OMIM
-            Reference: '602142'
+      Label: Leukonychia totalis
+      ORPHAcode: '2387'
   - Child:
+      Genes: no data
       Label: Isolated congenital anonychia
       ORPHAcode: '79143'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Isolated congenital onychodysplasia
       ORPHAcode: '79144'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Idiopathic trachyonychia
       ORPHAcode: '79153'
-      Genes: no data
   - Child:
-      Label: Isolated congenital digital clubbing
-      ORPHAcode: '217059'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '601688'
+            Source: OMIM
+          - Reference: '5154'
+            Source: HGNC
           Label: 15-hydroxyprostaglandin dehydrogenase
           Symbol: HPGD
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '601688'
-          - Source: HGNC
-            Reference: '5154'
+      Label: Isolated congenital digital clubbing
+      ORPHAcode: '217059'
   - Child:
-      Label: Autosomal recessive nail dysplasia
-      ORPHAcode: '280654'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4044'
+            Source: HGNC
+          - Reference: '603409'
+            Source: OMIM
           Label: frizzled class receptor 6
           Symbol: FZD6
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4044'
-          - Source: OMIM
-            Reference: '603409'
+      Label: Autosomal recessive nail dysplasia
+      ORPHAcode: '280654'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Isolated nail anomaly
+  ORPHAcode: '79369'
+  ORPHApacketId: '79369'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79369
+  Parents:
+  - Parent:
+    - Label: Nail anomaly
+      ORPHAcode: '79368'
+  - Parent:
+    - Label: Genetic nail anomaly
+      ORPHAcode: '183454'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

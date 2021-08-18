@@ -1,52 +1,52 @@
 Orphapacket:
-  ORPHApacketId: '363306'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '363306'
-  Label: Genetic intestinal disease due to fat malabsorption
-  PURL: http://www.orpha.net/ORDO/Orphanet_363306
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '165655'
-      Label: Genetic intestinal disease
   Childs:
   - Child:
-      Label: Abetalipoproteinemia
-      ORPHAcode: '14'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '7467'
+            Source: HGNC
+          - Reference: '157147'
+            Source: OMIM
           Label: microsomal triglyceride transfer protein
           Symbol: MTTP
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7467'
-          - Source: OMIM
-            Reference: '157147'
+      Label: Abetalipoproteinemia
+      ORPHAcode: '14'
   - Child:
-      Label: Chylomicron retention disease
-      ORPHAcode: '71'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '10535'
+            Source: HGNC
+          - Reference: '607690'
+            Source: OMIM
           Label: secretion associated Ras related GTPase 1B
           Symbol: SAR1B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10535'
-          - Source: OMIM
-            Reference: '607690'
+      Label: Chylomicron retention disease
+      ORPHAcode: '71'
   - Child:
-      Label: Acrodermatitis enteropathica
-      ORPHAcode: '37'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '17129'
+            Source: HGNC
+          - Reference: '607059'
+            Source: OMIM
           Label: solute carrier family 39 member 4
           Symbol: SLC39A4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '17129'
-          - Source: OMIM
-            Reference: '607059'
+      Label: Acrodermatitis enteropathica
+      ORPHAcode: '37'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Genetic intestinal disease due to fat malabsorption
+  ORPHAcode: '363306'
+  ORPHApacketId: '363306'
+  PURL: http://www.orpha.net/ORDO/Orphanet_363306
+  Parents:
+  - Parent:
+    - Label: Genetic intestinal disease
+      ORPHAcode: '165655'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

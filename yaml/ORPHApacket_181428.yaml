@@ -1,48 +1,48 @@
 Orphapacket:
-  ORPHApacketId: '181428'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '181428'
-  Label: Hyperalphalipoproteinemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_181428
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '181422'
-      Label: Rare hyperlipidemia
   Childs:
   - Child:
-      Label: Cholesterol-ester transfer protein deficiency
-      ORPHAcode: '79506'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '610'
+            Source: HGNC
+          - Reference: '107720'
+            Source: OMIM
           Label: apolipoprotein C3
           Symbol: APOC3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '610'
-          - Source: OMIM
-            Reference: '107720'
       - Gene:
+          ExternalReferences:
+          - Reference: '1869'
+            Source: HGNC
+          - Reference: '118470'
+            Source: OMIM
           Label: cholesteryl ester transfer protein
           Symbol: CETP
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1869'
-          - Source: OMIM
-            Reference: '118470'
+      Label: Cholesterol-ester transfer protein deficiency
+      ORPHAcode: '79506'
   - Child:
-      Label: Hyperlipidemia due to hepatic triacylglycerol lipase deficiency
-      ORPHAcode: '140905'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6619'
+            Source: HGNC
+          - Reference: '151670'
+            Source: OMIM
           Label: lipase C, hepatic type
           Symbol: LIPC
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6619'
-          - Source: OMIM
-            Reference: '151670'
+      Label: Hyperlipidemia due to hepatic triacylglycerol lipase deficiency
+      ORPHAcode: '140905'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Hyperalphalipoproteinemia
+  ORPHAcode: '181428'
+  ORPHApacketId: '181428'
+  PURL: http://www.orpha.net/ORDO/Orphanet_181428
+  Parents:
+  - Parent:
+    - Label: Rare hyperlipidemia
+      ORPHAcode: '181422'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

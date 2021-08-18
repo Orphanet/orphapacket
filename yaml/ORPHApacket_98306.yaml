@@ -1,131 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '98306'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98306'
-  Label: Familial partial lipodystrophy
-  PURL: http://www.orpha.net/ORDO/Orphanet_98306
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Synonyms:
-  - Synonym: FPLD
-  TextSection:
-    TextSectionType: Definition
-    Contents: A group of rare genetic lipodystrophies characterized in most cases
-      by fat loss from the limbs and buttocks from childhood or early adulthood and
-      often associated with acanthosis nigricans insulin resistance diabetes hypertriglyceridemia
-      and liver steatosis.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98305'
-      Label: Genetic lipodystrophy
-  Childs:
-  - Child:
-      Label: Familial partial lipodystrophy, Dunnigan type
-      ORPHAcode: '2348'
-      Genes:
-      - Gene:
-          Label: lamin A/C
-          Symbol: LMNA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6636'
-          - Source: OMIM
-            Reference: '150330'
-  - Child:
-      Label: PPARG-related familial partial lipodystrophy
-      ORPHAcode: '79083'
-      Genes:
-      - Gene:
-          Label: peroxisome proliferator activated receptor gamma
-          Symbol: PPARG
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9236'
-          - Source: OMIM
-            Reference: '601487'
-  - Child:
-      Label: Familial partial lipodystrophy, Köbberling type
-      ORPHAcode: '79084'
-      Genes:
-      - Gene:
-          Label: lamin A/C
-          Symbol: LMNA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6636'
-          - Source: OMIM
-            Reference: '150330'
-  - Child:
-      Label: AKT2-related familial partial lipodystrophy
-      ORPHAcode: '79085'
-      Genes:
-      - Gene:
-          Label: AKT serine/threonine kinase 2
-          Symbol: AKT2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '392'
-          - Source: OMIM
-            Reference: '164731'
-  - Child:
-      Label: PLIN1-related familial partial lipodystrophy
-      ORPHAcode: '280356'
-      Genes:
-      - Gene:
-          Label: perilipin 1
-          Symbol: PLIN1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9076'
-          - Source: OMIM
-            Reference: '170290'
-  - Child:
-      Label: Autosomal semi-dominant severe lipodystrophic laminopathy
-      ORPHAcode: '280365'
-      Genes:
-      - Gene:
-          Label: lamin A/C
-          Symbol: LMNA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6636'
-          - Source: OMIM
-            Reference: '150330'
-  - Child:
-      Label: CIDEC-related familial partial lipodystrophy
-      ORPHAcode: '435651'
-      Genes:
-      - Gene:
-          Label: cell death inducing DFFA like effector c
-          Symbol: CIDEC
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '24229'
-          - Source: OMIM
-            Reference: '612120'
-  - Child:
-      Label: LIPE-related familial partial lipodystrophy
-      ORPHAcode: '435660'
-      Genes:
-      - Gene:
-          Label: lipase E, hormone sensitive type
-          Symbol: LIPE
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6621'
-          - Source: OMIM
-            Reference: '151750'
-  Prevalences:
-    Prevalence:
-    - Source: European Medicines Agency 2016[INST]_29066925[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -135,11 +11,135 @@ Orphapacket:
       value: Childhood
   - AverageAgeOfOnset:
       value: Elderly
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '6636'
+            Source: HGNC
+          - Reference: '150330'
+            Source: OMIM
+          Label: lamin A/C
+          Symbol: LMNA
+      Label: Familial partial lipodystrophy, Dunnigan type
+      ORPHAcode: '2348'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '9236'
+            Source: HGNC
+          - Reference: '601487'
+            Source: OMIM
+          Label: peroxisome proliferator activated receptor gamma
+          Symbol: PPARG
+      Label: PPARG-related familial partial lipodystrophy
+      ORPHAcode: '79083'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '6636'
+            Source: HGNC
+          - Reference: '150330'
+            Source: OMIM
+          Label: lamin A/C
+          Symbol: LMNA
+      Label: "Familial partial lipodystrophy, K\xF6bberling type"
+      ORPHAcode: '79084'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '392'
+            Source: HGNC
+          - Reference: '164731'
+            Source: OMIM
+          Label: AKT serine/threonine kinase 2
+          Symbol: AKT2
+      Label: AKT2-related familial partial lipodystrophy
+      ORPHAcode: '79085'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '9076'
+            Source: HGNC
+          - Reference: '170290'
+            Source: OMIM
+          Label: perilipin 1
+          Symbol: PLIN1
+      Label: PLIN1-related familial partial lipodystrophy
+      ORPHAcode: '280356'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '6636'
+            Source: HGNC
+          - Reference: '150330'
+            Source: OMIM
+          Label: lamin A/C
+          Symbol: LMNA
+      Label: Autosomal semi-dominant severe lipodystrophic laminopathy
+      ORPHAcode: '280365'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '24229'
+            Source: HGNC
+          - Reference: '612120'
+            Source: OMIM
+          Label: cell death inducing DFFA like effector c
+          Symbol: CIDEC
+      Label: CIDEC-related familial partial lipodystrophy
+      ORPHAcode: '435651'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '6621'
+            Source: HGNC
+          - Reference: '151750'
+            Source: OMIM
+          Label: lipase E, hormone sensitive type
+          Symbol: LIPE
+      Label: LIPE-related familial partial lipodystrophy
+      ORPHAcode: '435660'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Familial partial lipodystrophy
+  ORPHAcode: '98306'
+  ORPHApacketId: '98306'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98306
+  Parents:
+  - Parent:
+    - Label: Genetic lipodystrophy
+      ORPHAcode: '98305'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: European Medicines Agency 2016[INST]_29066925[PMID]
+      ValMoy: '0.0'
+  Synonyms:
+  - Synonym: FPLD
+  TextSection:
+    Contents: A group of rare genetic lipodystrophies characterized in most cases
+      by fat loss from the limbs and buttocks from childhood or early adulthood and
+      often associated with acanthosis nigricans insulin resistance diabetes hypertriglyceridemia
+      and liver steatosis.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

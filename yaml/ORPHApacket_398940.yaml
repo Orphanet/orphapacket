@@ -1,51 +1,51 @@
 Orphapacket:
-  ORPHApacketId: '398940'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '398940'
-  Label: Malignant non-epithelial tumor of ovary
-  PURL: http://www.orpha.net/ORDO/Orphanet_398940
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Malignant germ cell tumor of ovary
+      ORPHAcode: '35807'
+  - Child:
+      Genes: no data
+      Label: Malignant sex cord stromal tumor of ovary
+      ORPHAcode: '35808'
+  - Child:
+      Genes: no data
+      Label: Gonadoblastoma
+      ORPHAcode: '206484'
+  - Child:
+      Genes: no data
+      Label: Familial ovarian cancer
+      ORPHAcode: '213517'
+  - Child:
+      Genes: no data
+      Label: Malignant teratoma of ovary
+      ORPHAcode: '398987'
   DisorderType:
-    value: Category
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Malignant non-epithelial tumor of ovary
+  ORPHAcode: '398940'
+  ORPHApacketId: '398940'
+  PURL: http://www.orpha.net/ORDO/Orphanet_398940
+  Parents:
+  - Parent:
+    - Label: Ovarian cancer
+      ORPHAcode: '213500'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: '0.43'
   Synonyms:
   - Synonym: Non-epithelial cancer of ovary
   - Synonym: Ovarian malignant non-epithelial tumor
   - Synonym: Ovarian non-epithelial cancer
-  Parents:
-  - Parent:
-    - ORPHAcode: '213500'
-      Label: Ovarian cancer
-  Childs:
-  - Child:
-      Label: Malignant germ cell tumor of ovary
-      ORPHAcode: '35807'
-      Genes: no data
-  - Child:
-      Label: Malignant sex cord stromal tumor of ovary
-      ORPHAcode: '35808'
-      Genes: no data
-  - Child:
-      Label: Gonadoblastoma
-      ORPHAcode: '206484'
-      Genes: no data
-  - Child:
-      Label: Familial ovarian cancer
-      ORPHAcode: '213517'
-      Genes: no data
-  - Child:
-      Label: Malignant teratoma of ovary
-      ORPHAcode: '398987'
-      Genes: no data
-  Prevalences:
-    Prevalence:
-    - Source: RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.43'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

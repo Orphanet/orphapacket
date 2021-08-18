@@ -1,68 +1,65 @@
 Orphapacket:
-  ORPHApacketId: '155896'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '155896'
-  Label: Otomandibular dysplasia
-  PURL: http://www.orpha.net/ORDO/Orphanet_155896
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '93453'
-      Label: Dysostosis with predominant craniofacial involvement
-  - Parent:
-    - ORPHAcode: '96333'
-      Label: Rare otorhinolaryngological malformation
-  - Parent:
-    - ORPHAcode: '68329'
-      Label: Rare maxillo-facial surgical disease
-  - Parent:
-    - ORPHAcode: '155832'
-      Label: Rare head and neck malformation
-  - Parent:
-    - ORPHAcode: '183583'
-      Label: Genetic head and neck malformation
   Childs:
   - Child:
-      Label: Auriculocondylar syndrome
-      ORPHAcode: '137888'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4387'
+            Source: HGNC
+          - Reference: '139370'
+            Source: OMIM
           Label: G protein subunit alpha i3
           Symbol: GNAI3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4387'
-          - Source: OMIM
-            Reference: '139370'
       - Gene:
+          ExternalReferences:
+          - Reference: '9059'
+            Source: HGNC
+          - Reference: '600810'
+            Source: OMIM
           Label: phospholipase C beta 4
           Symbol: PLCB4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9059'
-          - Source: OMIM
-            Reference: '600810'
       - Gene:
+          ExternalReferences:
+          - Reference: '3176'
+            Source: HGNC
+          - Reference: '131240'
+            Source: OMIM
           Label: endothelin 1
           Symbol: EDN1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3176'
-          - Source: OMIM
-            Reference: '131240'
+      Label: Auriculocondylar syndrome
+      ORPHAcode: '137888'
   - Child:
+      Genes: no data
       Label: Oculo-auriculo-vertebral spectrum
       ORPHAcode: '141132'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Mandibulofacial dysostosis
       ORPHAcode: '155899'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Otomandibular dysplasia associated with monogenic syndromes
       ORPHAcode: '156202'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Otomandibular dysplasia
+  ORPHAcode: '155896'
+  ORPHApacketId: '155896'
+  PURL: http://www.orpha.net/ORDO/Orphanet_155896
+  Parents:
+  - Parent:
+    - Label: Dysostosis with predominant craniofacial involvement
+      ORPHAcode: '93453'
+  - Parent:
+    - Label: Rare otorhinolaryngological malformation
+      ORPHAcode: '96333'
+  - Parent:
+    - Label: Rare maxillo-facial surgical disease
+      ORPHAcode: '68329'
+  - Parent:
+    - Label: Genetic head and neck malformation
+      ORPHAcode: '183583'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

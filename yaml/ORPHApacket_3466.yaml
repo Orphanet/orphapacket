@@ -1,53 +1,53 @@
 Orphapacket:
-  ORPHApacketId: '3466'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3466'
-  Label: WT limb-blood syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_3466
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '194350'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: WT limb-blood syndrome
+  ORPHAcode: '3466'
+  ORPHApacketId: '3466'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3466
+  Parents:
+  - Parent:
+    - Label: Syndrome with synostosis or other joint formation defect
+      ORPHAcode: '93459'
+  - Parent:
+    - Label: Rare constitutional aplastic anemia
+      ORPHAcode: '68383'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 890097[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_890097[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: A rare constitutional aplastic anemia disorder characterized by severe
       hypo/aplastic anemia or pancytopenia associated with skeletal anomalies (such
       as radial/ulnar defects and hand/digit abnormalities) and an increased risk
       of leukemia. There have been no further descriptions in the literature since
       1995.
-  Parents:
-  - Parent:
-    - ORPHAcode: '93459'
-      Label: Syndrome with synostosis or other joint formation defect
-  - Parent:
-    - ORPHAcode: '68383'
-      Label: Rare constitutional aplastic anemia
-  Prevalences:
-  - Prevalence:
-      Source: 890097[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_890097[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

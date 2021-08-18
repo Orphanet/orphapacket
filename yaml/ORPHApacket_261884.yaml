@@ -1,48 +1,72 @@
 Orphapacket:
-  ORPHApacketId: '261884'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '261884'
-  Label: Partial deletion of the short arm of chromosome 4
-  PURL: http://www.orpha.net/ORDO/Orphanet_261884
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '616918'
+            Source: OMIM
+          - Reference: '25985'
+            Source: HGNC
+          Label: phosphatidylinositol glycan anchor biosynthesis class G
+          Symbol: PIGG
+      - Gene:
+          ExternalReferences:
+          - Reference: '2309'
+            Source: HGNC
+          - Reference: '605032'
+            Source: OMIM
+          Label: complexin 1
+          Symbol: CPLX1
+      - Gene:
+          ExternalReferences:
+          - Reference: '2494'
+            Source: HGNC
+          - Reference: '602618'
+            Source: OMIM
+          Label: C-terminal binding protein 1
+          Symbol: CTBP1
+      - Gene:
+          ExternalReferences:
+          - Reference: '12766'
+            Source: HGNC
+          - Reference: '602952'
+            Source: OMIM
+          Label: nuclear receptor binding SET domain protein 2
+          Symbol: NSD2
+      - Gene:
+          ExternalReferences:
+          - Reference: '12768'
+            Source: HGNC
+          - Reference: '606026'
+            Source: OMIM
+          Label: negative elongation factor complex member A
+          Symbol: NELFA
+      - Gene:
+          ExternalReferences:
+          - Reference: '6556'
+            Source: HGNC
+          - Reference: '604407'
+            Source: OMIM
+          Label: leucine zipper and EF-hand containing transmembrane protein 1
+          Symbol: LETM1
+      Label: Wolf-Hirschhorn syndrome
+      ORPHAcode: '280'
   DisorderType:
-    value: Category
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Partial deletion of the short arm of chromosome 4
+  ORPHAcode: '261884'
+  ORPHApacketId: '261884'
+  PURL: http://www.orpha.net/ORDO/Orphanet_261884
+  Parents:
+  - Parent:
+    - Label: Partial deletion of chromosome 4
+      ORPHAcode: '261781'
   Synonyms:
   - Synonym: Partial deletion of chromosome 4p
   - Synonym: Partial monosomy of chromosome 4p
   - Synonym: Partial monosomy of the short arm of chromosome 4
-  Parents:
-  - Parent:
-    - ORPHAcode: '261781'
-      Label: Partial deletion of chromosome 4
-  Childs:
-  - Child:
-      Label: Wolf-Hirschhorn syndrome
-      ORPHAcode: '280'
-      Genes:
-      - Gene:
-          Label: nuclear receptor binding SET domain protein 2
-          Symbol: NSD2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12766'
-          - Source: OMIM
-            Reference: '602952'
-      - Gene:
-          Label: negative elongation factor complex member A
-          Symbol: NELFA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12768'
-          - Source: OMIM
-            Reference: '606026'
-      - Gene:
-          Label: leucine zipper and EF-hand containing transmembrane protein 1
-          Symbol: LETM1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6556'
-          - Source: OMIM
-            Reference: '604407'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

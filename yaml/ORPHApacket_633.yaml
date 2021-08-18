@@ -1,14 +1,157 @@
 Orphapacket:
-  ORPHApacketId: '633'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '633'
-  Label: Laron syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_633
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '262500'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: growth hormone receptor
+      Symbol: GHR
+  Label: Laron syndrome
+  ORPHAcode: '633'
+  ORPHApacketId: '633'
+  PURL: http://www.orpha.net/ORDO/Orphanet_633
+  Parents:
+  - Parent:
+    - Label: Growth hormone insensitivity syndrome
+      ORPHAcode: '181393'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000347
+      HPOTerm: Micrognathia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000348
+      HPOTerm: High forehead
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000457
+      HPOTerm: Depressed nasal ridge
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000592
+      HPOTerm: Blue sclerae
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000684
+      HPOTerm: Delayed eruption of teeth
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000691
+      HPOTerm: Microdontia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000818
+      HPOTerm: Abnormality of the endocrine system
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000823
+      HPOTerm: Delayed puberty
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000929
+      HPOTerm: Abnormal skull morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000966
+      HPOTerm: Hypohidrosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001156
+      HPOTerm: Brachydactyly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001270
+      HPOTerm: Motor delay
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001620
+      HPOTerm: High pitched voice
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001831
+      HPOTerm: Short toe
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001943
+      HPOTerm: Hypoglycemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001956
+      HPOTerm: Truncal obesity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001999
+      HPOTerm: Abnormal facial shape
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002750
+      HPOTerm: Delayed skeletal maturation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002758
+      HPOTerm: Osteoarthritis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003124
+      HPOTerm: Hypercholesterolemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003510
+      HPOTerm: Severe short stature
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005281
+      HPOTerm: Hypoplastic nasal bridge
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007495
+      HPOTerm: Prematurely aged appearance
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008736
+      HPOTerm: Hypoplasia of penis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009804
+      HPOTerm: Reduced number of teeth
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009811
+      HPOTerm: Abnormality of the elbow
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009891
+      HPOTerm: Underdeveloped supraorbital ridges
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009924
+      HPOTerm: Aplasia/Hypoplasia involving the nose
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: European Medicines Agency 2003[INST]
+      ValMoy: '0.3'
   Synonyms:
   - Synonym: Complete growth hormone insensitivity
   - Synonym: GH receptor deficiency
@@ -19,158 +162,15 @@ Orphapacket:
   - Synonym: Primary growth hormone insensitivity
   - Synonym: Primary growth hormone resistance
   - Synonym: Short stature due to growth hormone resistance
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '262500'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Laron syndrome is a congenital disorder characterized by marked short
       stature associated with normal or high serum growth hormone (GH) and low serum
       insulin-like growth factor-1 (IGF-I) levels which fail to rise after exogenous
       GH administration.
-  Genes:
-  - Gene:
-      Symbol: GHR
-      Name: growth hormone receptor
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '181393'
-      Label: Growth hormone insensitivity syndrome
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000347
-      HPOTerm: Micrognathia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000348
-      HPOTerm: High forehead
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000457
-      HPOTerm: Depressed nasal ridge
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000592
-      HPOTerm: Blue sclerae
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000684
-      HPOTerm: Delayed eruption of teeth
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000691
-      HPOTerm: Microdontia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000818
-      HPOTerm: Abnormality of the endocrine system
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000823
-      HPOTerm: Delayed puberty
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000929
-      HPOTerm: Abnormal skull morphology
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000966
-      HPOTerm: Hypohidrosis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001156
-      HPOTerm: Brachydactyly
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001270
-      HPOTerm: Motor delay
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001620
-      HPOTerm: High pitched voice
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001831
-      HPOTerm: Short toe
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001943
-      HPOTerm: Hypoglycemia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001956
-      HPOTerm: Truncal obesity
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001999
-      HPOTerm: Abnormal facial shape
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002750
-      HPOTerm: Delayed skeletal maturation
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002758
-      HPOTerm: Osteoarthritis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003124
-      HPOTerm: Hypercholesterolemia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003510
-      HPOTerm: Severe short stature
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0005281
-      HPOTerm: Hypoplastic nasal bridge
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007495
-      HPOTerm: Prematurely aged appearance
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0008736
-      HPOTerm: Hypoplasia of penis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0009804
-      HPOTerm: Reduced number of teeth
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0009811
-      HPOTerm: Abnormality of the elbow
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0009891
-      HPOTerm: Underdeveloped supraorbital ridges
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0009924
-      HPOTerm: Aplasia/Hypoplasia involving the nose
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-    Prevalence:
-    - Source: European Medicines Agency 2003[INST]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: '0.3'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

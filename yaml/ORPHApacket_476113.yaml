@@ -1,23 +1,48 @@
 Orphapacket:
-  ORPHApacketId: '476113'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '476113'
-  Label: Combined immunodeficiency due to TFRC deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_476113
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '616740'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: transferrin receptor
+      Symbol: TFRC
+  Label: Combined immunodeficiency due to TFRC deficiency
+  ORPHAcode: '476113'
+  ORPHApacketId: '476113'
+  PURL: http://www.orpha.net/ORDO/Orphanet_476113
+  Parents:
+  - Parent:
+    - Label: Non-severe combined immunodeficiency
+      ORPHAcode: '480549'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 26642240[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_26642240[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: CID due to TFRC deficiency
   - Synonym: TFRC-related combined immunodeficiency
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '616740'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic combined T and B cell immunodeficiency characterized
       by life-threatening infections due to disrupted transferrin receptor 1 endocytosis
       resulting in defective cellular iron transport and impaired T and B cell function.
@@ -26,35 +51,10 @@ Orphapacket:
       normal lymphocyte counts but decreased numbers of memory B cells intermittent
       neutropenia and thrombocytopenia and mild anemia (resistant to iron supplementation)
       with low mean corpuscular volume.
-  Genes:
-  - Gene:
-      Symbol: TFRC
-      Name: transferrin receptor
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '480549'
-      Label: Non-severe combined immunodeficiency
-  Prevalences:
-  - Prevalence:
-      Source: 26642240[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_26642240[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Childhood
-  - AverageAgeOfOnset:
-      value: Infancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

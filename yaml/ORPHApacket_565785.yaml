@@ -1,39 +1,31 @@
 Orphapacket:
-  ORPHApacketId: '565785'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '565785'
-  Label: Methotrexate dose selection
-  PURL: http://www.orpha.net/ORDO/Orphanet_565785
   DisorderType:
-    value: Particular clinical situation in a disease or syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377793
+    value: Particular clinical situation in a disease or syndrome
   Genes:
   - Gene:
-      Symbol: MTHFR
+      ExternalReferences: []
       Name: methylenetetrahydrofolate reductase
-      ExternalReferences: []
+      Symbol: MTHFR
   - Gene:
-      Symbol: SLC19A1
+      ExternalReferences: []
       Name: solute carrier family 19 member 1
-      ExternalReferences: []
+      Symbol: SLC19A1
   - Gene:
-      Symbol: GGH
-      Name: gamma-glutamyl hydrolase
       ExternalReferences: []
+      Name: gamma-glutamyl hydrolase
+      Symbol: GGH
+  Label: Methotrexate dose selection
+  ORPHAcode: '565785'
+  ORPHApacketId: '565785'
+  PURL: http://www.orpha.net/ORDO/Orphanet_565785
   Parents:
   - Parent:
-    - ORPHAcode: '231957'
-      Label: Disease associated with a genetic susceptibility or tested for a biomarker
+    - Label: Disease associated with a genetic susceptibility or tested for a biomarker
+      ORPHAcode: '231957'
   - Parent:
-    - ORPHAcode: '155712'
-      Label: Particular clinical situation or non rare disorder with an orphan designation
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Europe
+    - Label: Particular clinical situation or non rare disorder with an orphan designation
+      ORPHAcode: '155712'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

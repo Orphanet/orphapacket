@@ -1,23 +1,52 @@
 Orphapacket:
-  ORPHApacketId: '2892'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2892'
-  Label: Pilodental dysplasia-refractive errors syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_2892
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '262020'
+    Source: OMIM
+  Label: Pilodental dysplasia-refractive errors syndrome
+  ORPHAcode: '2892'
+  ORPHApacketId: '2892'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2892
+  Parents:
+  - Parent:
+    - Label: Malformation syndrome with odontal and/or periodontal component
+      ORPHAcode: '139042'
+  - Parent:
+    - Label: Ectodermal dysplasia syndrome
+      ORPHAcode: '79373'
+  - Parent:
+    - Label: Genetic malformation syndrome with odontal and/or periodontal component
+      ORPHAcode: '183580'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 4018802[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_4018802[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Euhidrotic ectodermal dysplasia
   - Synonym: Kopysc-Barczyk-Krol syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '262020'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Pilodental dysplasia-refractive errors syndrome is a rare ectodermal
       dysplasia syndrome characterized by dysplastic abnormalities of the hair and
       teeth (including hypodontia abnormally shaped teeth scalp hypotrichosis and
@@ -25,39 +54,10 @@ Orphapacket:
       Intensified delineation reticular hyperpigmentation of the nape and astigmatism
       have also been reported. There have been no further descriptions in the literature
       since 1985.
-  Parents:
-  - Parent:
-    - ORPHAcode: '139042'
-      Label: Malformation syndrome with odontal and/or periodontal component
-  - Parent:
-    - ORPHAcode: '79373'
-      Label: Ectodermal dysplasia syndrome
-  - Parent:
-    - ORPHAcode: '183580'
-      Label: Genetic malformation syndrome with odontal and/or periodontal component
-  Prevalences:
-  - Prevalence:
-      Source: 4018802[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_4018802[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

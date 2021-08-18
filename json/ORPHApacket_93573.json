@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "93573",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "93573",
         "Label": "Thrombotic microangiopathy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_93573",
@@ -11,6 +11,11 @@
             "value": "Clinical group",
             "PURL": "http://www.orpha.net/ORDO/Orphanet_377794"
         },
+        "Synonyms": [
+            {
+                "Synonym": "TMA"
+            }
+        ],
         "Parents": [
             {
                 "Parent": [
@@ -546,6 +551,46 @@
                     "Label": "Hemolytic uremic syndrome",
                     "ORPHAcode": "544458",
                     "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "De novo thrombotic microangiopathy after kidney transplantation",
+                    "ORPHAcode": "244275",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "complement factor I",
+                                "Symbol": "CFI",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "217030"
+                                    },
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "5394"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "complement factor H",
+                                "Symbol": "CFH",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "4883"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "134370"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             }
         ]

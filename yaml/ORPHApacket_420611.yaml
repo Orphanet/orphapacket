@@ -1,24 +1,37 @@
 Orphapacket:
-  ORPHApacketId: '420611'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '420611'
-  Label: Transient myeloproliferative syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_420611
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: infantile
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '159595'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: GATA binding protein 1
+      Symbol: GATA1
+  Label: Transient myeloproliferative syndrome
+  ORPHAcode: '420611'
+  ORPHApacketId: '420611'
+  PURL: http://www.orpha.net/ORDO/Orphanet_420611
+  Parents:
+  - Parent:
+    - Label: Myeloproliferative neoplasm
+      ORPHAcode: '98274'
   Synonyms:
   - Synonym: TMD
   - Synonym: Transient abnormal myelopoiesis
   - Synonym: Transient myeloproliferative disease
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '159595'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare hematologic disease characterized by clinical and morphological
       findings indistinguishable from those of acute myeloid leukemia typically occurring
       in newborns with Down syndrome. Peripheral blood and bone marrow blasts display
@@ -28,23 +41,10 @@ Orphapacket:
       jaundice ascites respiratory distress bleeding and pericardial or pleural effusions.
       Most patients undergo spontaneous remission within the first three months of
       life although some may develop life-threatening hepatic renal or cardiac complications.
-  Genes:
-  - Gene:
-      Symbol: GATA1
-      Name: GATA binding protein 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98274'
-      Label: Myeloproliferative neoplasm
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Antenatal
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: infantile
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

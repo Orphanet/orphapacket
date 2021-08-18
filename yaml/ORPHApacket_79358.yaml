@@ -1,101 +1,101 @@
 Orphapacket:
-  ORPHApacketId: '79358'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79358'
-  Label: Porokeratosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_79358
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '79353'
-      Label: Epidermal disease
   Childs:
   - Child:
-      Label: Porokeratosis of Mibelli
-      ORPHAcode: '735'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '7530'
+            Source: HGNC
+          - Reference: '251170'
+            Source: OMIM
           Label: mevalonate kinase
           Symbol: MVK
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7530'
-          - Source: OMIM
-            Reference: '251170'
       - Gene:
+          ExternalReferences:
+          - Reference: '9141'
+            Source: HGNC
+          - Reference: '607622'
+            Source: OMIM
           Label: phosphomevalonate kinase
           Symbol: PMVK
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9141'
-          - Source: OMIM
-            Reference: '607622'
+      Label: Porokeratosis of Mibelli
+      ORPHAcode: '735'
   - Child:
+      Genes: no data
       Label: Porokeratosis plantaris palmaris et disseminata
       ORPHAcode: '737'
-      Genes: no data
   - Child:
-      Label: Disseminated superficial actinic porokeratosis
-      ORPHAcode: '79152'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '7530'
+            Source: HGNC
+          - Reference: '251170'
+            Source: OMIM
           Label: mevalonate kinase
           Symbol: MVK
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7530'
-          - Source: OMIM
-            Reference: '251170'
       - Gene:
+          ExternalReferences:
+          - Reference: '16192'
+            Source: HGNC
+          - Reference: '612107'
+            Source: OMIM
           Label: solute carrier family 17 member 9
           Symbol: SLC17A9
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '16192'
-          - Source: OMIM
-            Reference: '612107'
       - Gene:
+          ExternalReferences:
+          - Reference: '7529'
+            Source: HGNC
+          - Reference: '603236'
+            Source: OMIM
           Label: mevalonate diphosphate decarboxylase
           Symbol: MVD
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7529'
-          - Source: OMIM
-            Reference: '603236'
       - Gene:
+          ExternalReferences:
+          - Reference: '3631'
+            Source: HGNC
+          - Reference: '134629'
+            Source: OMIM
           Label: farnesyl diphosphate synthase
           Symbol: FDPS
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3631'
-          - Source: OMIM
-            Reference: '134629'
+      Label: Disseminated superficial actinic porokeratosis
+      ORPHAcode: '79152'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Porokeratosis
+  ORPHAcode: '79358'
+  ORPHApacketId: '79358'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79358
+  Parents:
+  - Parent:
+    - Label: Epidermal disease
+      ORPHAcode: '79353'
   Phenotypes:
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000962
       HPOTerm: Hyperkeratosis
-      HPOFrequency: Very frequent (99-80%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000989
       HPOTerm: Pruritus
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000992
       HPOTerm: Cutaneous photosensitivity
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001000
       HPOTerm: Abnormality of skin pigmentation
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0004334
       HPOTerm: Dermal atrophy
-      HPOFrequency: Frequent (79-30%)
   - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0006739
       HPOTerm: Squamous cell carcinoma of the skin
-      HPOFrequency: Occasional (29-5%)
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

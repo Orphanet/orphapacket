@@ -1,25 +1,36 @@
 Orphapacket:
-  ORPHApacketId: '330061'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '330061'
-  Label: Actinic prurigo
-  PURL: http://www.orpha.net/ORDO/Orphanet_330061
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '174770'
+    Source: OMIM
+  Label: Actinic prurigo
+  ORPHAcode: '330061'
+  ORPHApacketId: '330061'
+  PURL: http://www.orpha.net/ORDO/Orphanet_330061
+  Parents:
+  - Parent:
+    - Label: Rare photodermatosis
+      ORPHAcode: '79390'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Familial polymorphous light eruption of American Indians
   - Synonym: Hereditary polymorphous light eruption of American Indians
   - Synonym: Hutchinson summer prurigo
   - Synonym: Hydroa aestivale
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '174770'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare chronic photodermatosis disease characterized by intensely pruritic
       polymorphic erythematous excoriated and/or lichenified papules macules plaques
       and nodules occurring on sun-exposed areas of the skin (particularly face nose
@@ -28,23 +39,12 @@ Orphapacket:
       (depending on geographic location) observed mainly in Native Americans and Mestizos.
       Cheilitis may be the sole clinical presentation. Histologically the presence
       of lymphoid follicles in mucosa is pathognomonic.
-  Parents:
-  - Parent:
-    - ORPHAcode: '79390'
-      Label: Rare photodermatosis
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Multigenic/multifactorial
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

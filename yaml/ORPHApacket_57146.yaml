@@ -1,81 +1,81 @@
 Orphapacket:
-  ORPHApacketId: '57146'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '57146'
-  Label: Rare hepatic disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_57146
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '320716'
-      Label: Rare disorders
   Childs:
   - Child:
-      Label: Transient familial neonatal hyperbilirubinemia
-      ORPHAcode: '2312'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '12530'
+            Source: HGNC
+          - Reference: '191740'
+            Source: OMIM
           Label: UDP glucuronosyltransferase family 1 member A1
           Symbol: UGT1A1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '12530'
-          - Source: OMIM
-            Reference: '191740'
+      Label: Transient familial neonatal hyperbilirubinemia
+      ORPHAcode: '2312'
   - Child:
+      Genes: no data
       Label: Rare vascular liver disease
       ORPHAcode: '101938'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Rare parenchymal liver disease
       ORPHAcode: '101939'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Rare metabolic liver disease
       ORPHAcode: '101940'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Rare biliary tract disease
       ORPHAcode: '101941'
-      Genes: no data
   - Child:
-      Label: Hyperbiliverdinemia
-      ORPHAcode: '276405'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '109750'
+            Source: OMIM
+          - Reference: '1062'
+            Source: HGNC
           Label: biliverdin reductase A
           Symbol: BLVRA
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '109750'
-          - Source: HGNC
-            Reference: '1062'
+      Label: Hyperbiliverdinemia
+      ORPHAcode: '276405'
   - Child:
+      Genes: no data
       Label: Cholestasis-lymphedema syndrome
       ORPHAcode: '1414'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Recurrent hepatitis C virus induced liver disease in liver transplant
         recipients
       ORPHAcode: '90052'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Acute liver failure
       ORPHAcode: '90062'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Hepatitis B reinfection following liver transplantation
       ORPHAcode: '90073'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Rare hepatic and biliary tract tumor
       ORPHAcode: '101943'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Hepatitis delta
       ORPHAcode: '402823'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare hepatic disease
+  ORPHAcode: '57146'
+  ORPHApacketId: '57146'
+  PURL: http://www.orpha.net/ORDO/Orphanet_57146
+  Parents:
+  - Parent:
+    - Label: Rare disorders
+      ORPHAcode: '320716'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

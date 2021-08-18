@@ -1,57 +1,57 @@
 Orphapacket:
-  ORPHApacketId: '391320'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '391320'
-  Label: East Texas bleeding disorder
-  PURL: http://www.orpha.net/ORDO/Orphanet_391320
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Childhood
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '605913'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: coagulation factor V
+      Symbol: F5
+  Label: East Texas bleeding disorder
+  ORPHAcode: '391320'
+  ORPHApacketId: '391320'
+  PURL: http://www.orpha.net/ORDO/Orphanet_391320
+  Parents:
+  - Parent:
+    - Label: Rare hemorrhagic disorder due to a constitutional coagulation factors
+        defect
+      ORPHAcode: '68334'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 23979162[PMID]_25634741[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_25634741[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: East Texas bleeding disorder is a rare genetic coagulation disorder
       characterized by easy bruising (without hemarthrosis or spontaneous hematomas)
       epistaxis menorrhagia and excessive bleeding after minor trauma and surgical
       procedures. Patients present a prolonged prothrombin time and/or activated partial
       thromboplastin time normal levels of all coagulation factors and normal protein
       C activity.
-  Genes:
-  - Gene:
-      Symbol: F5
-      Name: coagulation factor V
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '68334'
-      Label: Rare hemorrhagic disorder due to a constitutional coagulation factors
-        defect
-  Prevalences:
-  - Prevalence:
-      Source: 23979162[PMID]_25634741[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_25634741[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

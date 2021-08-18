@@ -1,63 +1,63 @@
 Orphapacket:
-  ORPHApacketId: '402082'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '402082'
-  Label: Progressive myoclonic epilepsy type 5
-  PURL: http://www.orpha.net/ORDO/Orphanet_402082
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adolescent
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '607459'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: prickle planar cell polarity protein 2
+      Symbol: PRICKLE2
+  - Gene:
+      ExternalReferences: []
+      Name: DNA polymerase gamma, catalytic subunit
+      Symbol: POLG
+  Label: Progressive myoclonic epilepsy type 5
+  ORPHAcode: '402082'
+  ORPHApacketId: '402082'
+  PURL: http://www.orpha.net/ORDO/Orphanet_402082
+  Parents:
+  - Parent:
+    - Label: Progressive myoclonic epilepsy
+      ORPHAcode: '98261'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 21276947[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_21276947[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: EPM5
   - Synonym: PME type 5
   - Synonym: Progressive myoclonus epilepsy type 5
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '607459'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic neurological disorder characterized by early-onset progressive
       ataxia associated with myoclonic seizures generalized tonic-clonic seizures
       (which are often sleep-related) and normal to mild intellectual disability.
       Dysarthria upward gaze palsy sensory neuropathy developmental delay and autistic
       disorder have also been associated.
-  Genes:
-  - Gene:
-      Symbol: PRICKLE2
-      Name: prickle planar cell polarity protein 2
-      ExternalReferences: []
-  - Gene:
-      Symbol: POLG
-      Name: DNA polymerase gamma, catalytic subunit
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98261'
-      Label: Progressive myoclonic epilepsy
-  Prevalences:
-  - Prevalence:
-      Source: 21276947[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_21276947[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adolescent
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

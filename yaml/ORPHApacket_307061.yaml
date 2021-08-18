@@ -1,61 +1,61 @@
 Orphapacket:
-  ORPHApacketId: '307061'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '307061'
-  Label: Rare genetic tremor disorder
-  PURL: http://www.orpha.net/ORDO/Orphanet_307061
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '496916'
-      Label: Rare genetic hyperkinetic movement disorder
   Childs:
   - Child:
-      Label: Wilson disease
-      ORPHAcode: '905'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '870'
+            Source: HGNC
+          - Reference: '606882'
+            Source: OMIM
           Label: ATPase copper transporting beta
           Symbol: ATP7B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '870'
-          - Source: OMIM
-            Reference: '606882'
+      Label: Wilson disease
+      ORPHAcode: '905'
   - Child:
+      Genes: no data
       Label: Hereditary geniospasm
       ORPHAcode: '53372'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Sensorineural hearing loss-early graying-essential tremor syndrome
       ORPHAcode: '66633'
-      Genes: no data
   - Child:
-      Label: Fragile X-associated tremor/ataxia syndrome
-      ORPHAcode: '93256'
       Genes:
       - Gene:
-          Label: fragile X mental retardation 1
-          Symbol: FMR1
           ExternalReferences:
-          - Source: HGNC
-            Reference: '3775'
-          - Source: OMIM
-            Reference: '309550'
+          - Reference: '3775'
+            Source: HGNC
+          - Reference: '309550'
+            Source: OMIM
+          Label: FMRP translational regulator 1
+          Symbol: FMR1
+      Label: Fragile X-associated tremor/ataxia syndrome
+      ORPHAcode: '93256'
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '31399'
+            Source: HGNC
+          - Reference: '610299'
+            Source: OMIM
+          Label: solute carrier family 6 member 17
+          Symbol: SLC6A17
       Label: Progressive essential tremor-speech impairment-facial dysmorphism-intellectual
         disability-abnormal behavior syndrome
       ORPHAcode: '457212'
-      Genes:
-      - Gene:
-          Label: solute carrier family 6 member 17
-          Symbol: SLC6A17
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '31399'
-          - Source: OMIM
-            Reference: '610299'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Rare genetic tremor disorder
+  ORPHAcode: '307061'
+  ORPHApacketId: '307061'
+  PURL: http://www.orpha.net/ORDO/Orphanet_307061
+  Parents:
+  - Parent:
+    - Label: Rare genetic hyperkinetic movement disorder
+      ORPHAcode: '496916'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,68 +1,68 @@
 Orphapacket:
-  ORPHApacketId: '184051'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '184051'
-  Label: Non-rare developmental anomalies during embryogenesis
-  PURL: http://www.orpha.net/ORDO/Orphanet_184051
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-    Parent:
-    - ORPHAcode: '183862'
-      Label: Non-rare disease
   Childs:
   - Child:
+      Genes: no data
       Label: 'NON RARE IN EUROPE: Klinefelter syndrome'
       ORPHAcode: '484'
-      Genes: no data
   - Child:
-      Label: 'NON RARE IN EUROPE: FG syndrome phenotypic spectrum'
-      ORPHAcode: '323'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '17342'
+            Source: HGNC
+          - Reference: '300553'
+            Source: OMIM
           Label: bromodomain and WD repeat domain containing 3
           Symbol: BRWD3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '17342'
-          - Source: OMIM
-            Reference: '300553'
       - Gene:
+          ExternalReferences:
+          - Reference: '3754'
+            Source: HGNC
+          - Reference: '300017'
+            Source: OMIM
           Label: filamin A
           Symbol: FLNA
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3754'
-          - Source: OMIM
-            Reference: '300017'
       - Gene:
+          ExternalReferences:
+          - Reference: '20439'
+            Source: HGNC
+          - Reference: '300298'
+            Source: OMIM
           Label: UPF3B regulator of nonsense mediated mRNA decay
           Symbol: UPF3B
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '20439'
-          - Source: OMIM
-            Reference: '300298'
       - Gene:
+          ExternalReferences:
+          - Reference: '1497'
+            Source: HGNC
+          - Reference: '300172'
+            Source: OMIM
           Label: calcium/calmodulin dependent serine protein kinase
           Symbol: CASK
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1497'
-          - Source: OMIM
-            Reference: '300172'
+      Label: 'NON RARE IN EUROPE: FG syndrome phenotypic spectrum'
+      ORPHAcode: '323'
   - Child:
-      Label: 'NON RARE IN EUROPE: Brachydactyly type D'
-      ORPHAcode: '93385'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '5136'
+            Source: HGNC
+          - Reference: '142989'
+            Source: OMIM
           Label: homeobox D13
           Symbol: HOXD13
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '5136'
-          - Source: OMIM
-            Reference: '142989'
+      Label: 'NON RARE IN EUROPE: Brachydactyly type D'
+      ORPHAcode: '93385'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Non-rare developmental anomalies during embryogenesis
+  ORPHAcode: '184051'
+  ORPHApacketId: '184051'
+  PURL: http://www.orpha.net/ORDO/Orphanet_184051
+  Parents:
+    Parent:
+    - Label: Non-rare disease
+      ORPHAcode: '183862'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

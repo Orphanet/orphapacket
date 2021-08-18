@@ -1,46 +1,46 @@
 Orphapacket:
-  ORPHApacketId: '98374'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98374'
-  Label: Hemolytic anemia due to an erythrocyte nucleotide metabolism disorder
-  PURL: http://www.orpha.net/ORDO/Orphanet_98374
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Hemolytic anemia due to an erythroenzymopathy
-  Parents:
-  - Parent:
-    - ORPHAcode: '98369'
-      Label: Rare constitutional hemolytic anemia due to an enzyme disorder
   Childs:
   - Child:
-      Label: Hemolytic anemia due to pyrimidine 5' nucleotidase deficiency
-      ORPHAcode: '35120'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '17820'
+            Source: HGNC
+          - Reference: '606224'
+            Source: OMIM
           Label: 5'-nucleotidase, cytosolic IIIA
           Symbol: NT5C3A
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '17820'
-          - Source: OMIM
-            Reference: '606224'
+      Label: Hemolytic anemia due to pyrimidine 5' nucleotidase deficiency
+      ORPHAcode: '35120'
   - Child:
-      Label: Hemolytic anemia due to adenylate kinase deficiency
-      ORPHAcode: '86817'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '361'
+            Source: HGNC
+          - Reference: '103000'
+            Source: OMIM
           Label: adenylate kinase 1
           Symbol: AK1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '361'
-          - Source: OMIM
-            Reference: '103000'
+      Label: Hemolytic anemia due to adenylate kinase deficiency
+      ORPHAcode: '86817'
   - Child:
+      Genes: no data
       Label: Hemolytic anemia due to erythrocyte adenosine deaminase overproduction
       ORPHAcode: '99138'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Hemolytic anemia due to an erythrocyte nucleotide metabolism disorder
+  ORPHAcode: '98374'
+  ORPHApacketId: '98374'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98374
+  Parents:
+  - Parent:
+    - Label: Rare constitutional hemolytic anemia due to an enzyme disorder
+      ORPHAcode: '98369'
+  Synonyms:
+  - Synonym: Hemolytic anemia due to an erythroenzymopathy
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

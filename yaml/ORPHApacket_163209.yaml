@@ -1,105 +1,105 @@
 Orphapacket:
-  ORPHApacketId: '163209'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '163209'
-  Label: Non-syndromic cerebral malformation due to abnormal neuronal migration
-  PURL: http://www.orpha.net/ORDO/Orphanet_163209
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Brain malformation due to abnormal neuronal migration
-  Parents:
-  - Parent:
-    - ORPHAcode: '166478'
-      Label: Cerebral malformation with epilepsy
-  - Parent:
-    - ORPHAcode: '199633'
-      Label: Non-syndromic cerebral malformation
-  - Parent:
-    - ORPHAcode: '269553'
-      Label: Genetic cerebral malformation
   Childs:
   - Child:
+      Genes: no data
       Label: Nodular neuronal heterotopia
       ORPHAcode: '2149'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Polymicrogyria
       ORPHAcode: '35981'
-      Genes: no data
   - Child:
-      Label: Subcortical band heterotopia
-      ORPHAcode: '99796'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2714'
+            Source: HGNC
+          - Reference: '300121'
+            Source: OMIM
           Label: doublecortin
           Symbol: DCX
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2714'
-          - Source: OMIM
-            Reference: '300121'
       - Gene:
+          ExternalReferences:
+          - Reference: '8574'
+            Source: HGNC
+          - Reference: '601545'
+            Source: OMIM
           Label: platelet activating factor acetylhydrolase 1b regulatory subunit
             1
           Symbol: PAFAH1B1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '8574'
-          - Source: OMIM
-            Reference: '601545'
       - Gene:
+          ExternalReferences:
+          - Reference: '3330'
+            Source: HGNC
+          - Reference: '602033'
+            Source: OMIM
           Label: EMAP like 1
           Symbol: EML1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3330'
-          - Source: OMIM
-            Reference: '602033'
+      Label: Subcortical band heterotopia
+      ORPHAcode: '99796'
   - Child:
+      Genes: no data
       Label: Cerebral cortical dysplasia
       ORPHAcode: '268950'
-      Genes: no data
   - Child:
-      Label: Occipital pachygyria and polymicrogyria
-      ORPHAcode: '280640'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '6494'
+            Source: HGNC
+          - Reference: '604349'
+            Source: OMIM
           Label: laminin subunit gamma 3
           Symbol: LAMC3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6494'
-          - Source: OMIM
-            Reference: '604349'
       - Gene:
-          Label: T-box, brain 1
-          Symbol: TBR1
           ExternalReferences:
-          - Source: OMIM
-            Reference: '604616'
-          - Source: HGNC
-            Reference: '11590'
+          - Reference: '604616'
+            Source: OMIM
+          - Reference: '11590'
+            Source: HGNC
+          Label: T-box brain transcription factor 1
+          Symbol: TBR1
+      Label: Occipital pachygyria and polymicrogyria
+      ORPHAcode: '280640'
   - Child:
-      Label: Cortical dysgenesis with pontocerebellar hypoplasia due to TUBB3 mutation
-      ORPHAcode: '300570'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '20772'
+            Source: HGNC
+          - Reference: '602661'
+            Source: OMIM
           Label: tubulin beta 3 class III
           Symbol: TUBB3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '20772'
-          - Source: OMIM
-            Reference: '602661'
+      Label: Cortical dysgenesis with pontocerebellar hypoplasia due to TUBB3 mutation
+      ORPHAcode: '300570'
   - Child:
+      Genes: no data
       Label: Autosomal recessive frontotemporal pachygyria
       ORPHAcode: '329329'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Pachygyria-intellectual disability-epilepsy syndrome
       ORPHAcode: '2798'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Non-syndromic cerebral malformation due to abnormal neuronal migration
+  ORPHAcode: '163209'
+  ORPHApacketId: '163209'
+  PURL: http://www.orpha.net/ORDO/Orphanet_163209
+  Parents:
+  - Parent:
+    - Label: Cerebral malformation with epilepsy
+      ORPHAcode: '166478'
+  - Parent:
+    - Label: Non-syndromic cerebral malformation
+      ORPHAcode: '199633'
+  - Parent:
+    - Label: Genetic cerebral malformation
+      ORPHAcode: '269553'
+  Synonyms:
+  - Synonym: Brain malformation due to abnormal neuronal migration
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

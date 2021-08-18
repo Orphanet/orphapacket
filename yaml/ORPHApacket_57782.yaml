@@ -1,18 +1,65 @@
 Orphapacket:
-  ORPHApacketId: '57782'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '57782'
-  Label: Mazabraud syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_57782
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: GNAS complex locus
+      Symbol: GNAS
+  Label: Mazabraud syndrome
+  ORPHAcode: '57782'
+  ORPHApacketId: '57782'
+  PURL: http://www.orpha.net/ORDO/Orphanet_57782
+  Parents:
+  - Parent:
+    - Label: Rare soft tissue tumor
+      ORPHAcode: '71209'
+  - Parent:
+    - Label: Primary bone dysplasia with disorganized development of skeletal components
+      ORPHAcode: '93450'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000924
+      HPOTerm: Abnormality of the skeletal system
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002652
+      HPOTerm: Skeletal dysplasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002653
+      HPOTerm: Bone pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002757
+      HPOTerm: Recurrent fractures
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010734
+      HPOTerm: Fibrous dysplasia of the bones
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: Myxoma with fibrous dysplasia
   TextSection:
-    TextSectionType: Definition
     Contents: Mazabraud syndrome is a rare primary bone dysplasia (see this term)
       characterized by the association of fibrous dysplasia with intramuscular myxomas.
       Fibrous dysplasia (usually polyostotic sometimes monostotic) occurs during the
@@ -23,57 +70,10 @@ Orphapacket:
       (most commonly in the thigh). Although it is a benign condition local recurrences
       of myxomas after incomplete excision and malignant transformation of a fibrous
       dysplastic lesion into osteogenic sarcoma have been reported.
-  Genes:
-  - Gene:
-      Symbol: GNAS
-      Name: GNAS complex locus
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '71209'
-      Label: Rare soft tissue tumor
-  - Parent:
-    - ORPHAcode: '93450'
-      Label: Primary bone dysplasia with disorganized development of skeletal components
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000924
-      HPOTerm: Abnormality of the skeletal system
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002652
-      HPOTerm: Skeletal dysplasia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002653
-      HPOTerm: Bone pain
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002757
-      HPOTerm: Recurrent fractures
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0010734
-      HPOTerm: Fibrous dysplasia of the bones
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

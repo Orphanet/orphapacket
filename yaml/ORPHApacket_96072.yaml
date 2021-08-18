@@ -1,21 +1,32 @@
 Orphapacket:
-  ORPHApacketId: '96072'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '96072'
-  Label: 4p16.3 microduplication syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_96072
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  Label: 4p16.3 microduplication syndrome
+  ORPHAcode: '96072'
+  ORPHApacketId: '96072'
+  PURL: http://www.orpha.net/ORDO/Orphanet_96072
+  Parents:
+  - Parent:
+    - Label: Chromosomal disease with overgrowth
+      ORPHAcode: '93461'
+  - Parent:
+    - Label: Partial duplication of the short arm of chromosome 4
+      ORPHAcode: '262716'
   Synonyms:
   - Synonym: Distal duplication 4p
   - Synonym: Distal trisomy 4p
   - Synonym: Telomeric duplication 4p
   - Synonym: Trisomy 4pter
   TextSection:
-    TextSectionType: Definition
     Contents: 4p16.3 microduplication syndrome is a rare genetic syndrome that results
       from the partial duplication of the short arm of chromosome 4. It has a highly
       variable phenotype principally characterized by psychomotor and language delay
@@ -23,18 +34,7 @@ Orphapacket:
       hypertelorism prominent glabella long narrow palpebral fissures low set ears
       and short neck. Eye abnormalities (glaucoma irregular iris pigmentation hyperopia)
       have also been reported.
-  Parents:
-  - Parent:
-    - ORPHAcode: '93461'
-      Label: Chromosomal disease with overgrowth
-  - Parent:
-    - ORPHAcode: '262716'
-      Label: Partial duplication of the short arm of chromosome 4
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

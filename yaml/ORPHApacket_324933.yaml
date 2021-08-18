@@ -1,73 +1,73 @@
 Orphapacket:
-  ORPHApacketId: '324933'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '324933'
-  Label: Mixed autoinflammatory and autoimmune syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_324933
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '9066'
+            Source: HGNC
+          - Reference: '600220'
+            Source: OMIM
+          Label: phospholipase C gamma 2
+          Symbol: PLCG2
+      Label: Autoinflammation-PLCG2-associated antibody deficiency-immune dysregulation
+      ORPHAcode: '324530'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '15864'
+            Source: HGNC
+          - Reference: '610924'
+            Source: OMIM
+          Label: RANBP2-type and C3HC4-type zinc finger containing 1
+          Symbol: RBCK1
+      - Gene:
+          ExternalReferences:
+          - Reference: '16031'
+            Source: HGNC
+          - Reference: '612487'
+            Source: OMIM
+          Label: ring finger protein 31
+          Symbol: RNF31
+      Label: Autoinflammatory syndrome with pyogenic bacterial infection and amylopectinosis
+      ORPHAcode: '329173'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '9066'
+            Source: HGNC
+          - Reference: '600220'
+            Source: OMIM
+          Label: phospholipase C gamma 2
+          Symbol: PLCG2
+      Label: PLCG2-associated antibody deficiency and immune dysregulation
+      ORPHAcode: '300359'
   DisorderType:
-    value: Category
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Mixed autoinflammatory and autoimmune syndrome
+  ORPHAcode: '324933'
+  ORPHApacketId: '324933'
+  PURL: http://www.orpha.net/ORDO/Orphanet_324933
+  Parents:
+  - Parent:
+    - Label: Autoinflammatory syndrome
+      ORPHAcode: '93665'
+  - Parent:
+    - Label: Rare genetic systemic or rheumatologic disease
+      ORPHAcode: '271870'
+  - Parent:
+    - Label: Autoinflammatory syndrome of childhood
+      ORPHAcode: '319719'
   TextSection:
-    TextSectionType: Definition
     Contents: Mixed autoinflammatory and autoimmune syndrome is a group of systemic
       diseases characterized by mixed patterns of dysregulated innate and/or adaptive
       immune responses leading to chronic activation of the immune system and tissue
       inflammation which presents clincially with a wide range of variable concomitant
       autoimmune and autoinflammatory manifestations in various organ systems.
-  Parents:
-  - Parent:
-    - ORPHAcode: '93665'
-      Label: Autoinflammatory syndrome
-  - Parent:
-    - ORPHAcode: '271870'
-      Label: Rare genetic systemic or rheumatologic disease
-  - Parent:
-    - ORPHAcode: '319719'
-      Label: Autoinflammatory syndrome of childhood
-  Childs:
-  - Child:
-      Label: Autoinflammation-PLCG2-associated antibody deficiency-immune dysregulation
-      ORPHAcode: '324530'
-      Genes:
-      - Gene:
-          Label: phospholipase C gamma 2
-          Symbol: PLCG2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9066'
-          - Source: OMIM
-            Reference: '600220'
-  - Child:
-      Label: Autoinflammatory syndrome with pyogenic bacterial infection and amylopectinosis
-      ORPHAcode: '329173'
-      Genes:
-      - Gene:
-          Label: RANBP2-type and C3HC4-type zinc finger containing 1
-          Symbol: RBCK1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '15864'
-          - Source: OMIM
-            Reference: '610924'
-      - Gene:
-          Label: ring finger protein 31
-          Symbol: RNF31
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '16031'
-          - Source: OMIM
-            Reference: '612487'
-  - Child:
-      Label: PLCG2-associated antibody deficiency and immune dysregulation
-      ORPHAcode: '300359'
-      Genes:
-      - Gene:
-          Label: phospholipase C gamma 2
-          Symbol: PLCG2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9066'
-          - Source: OMIM
-            Reference: '600220'
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

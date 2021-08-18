@@ -1,48 +1,48 @@
 Orphapacket:
-  ORPHApacketId: '90031'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '90031'
-  Label: Non-spherocytic hemolytic anemia due to hexokinase deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_90031
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '235700'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: hexokinase 1
+      Symbol: HK1
+  Label: Non-spherocytic hemolytic anemia due to hexokinase deficiency
+  ORPHAcode: '90031'
+  ORPHApacketId: '90031'
+  PURL: http://www.orpha.net/ORDO/Orphanet_90031
+  Parents:
+  - Parent:
+    - Label: Hemolytic anemia due to a disorder of glycolytic enzymes
+      ORPHAcode: '98372'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Nonspherocytic haemolytic anaemia due to hexokinase deficiency is characterised
       by severe hemolysis appearing in infancy. Seventeen affected families have been
       reported so far. Transmission is autosomal recessive. Mutations have been described
       in <i>HK1</i> the gene that encodes red blood cell-specific hexokinase-R.
-  Genes:
-  - Gene:
-      Symbol: HK1
-      Name: hexokinase 1
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98372'
-      Label: Hemolytic anemia due to a disorder of glycolytic enzymes
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

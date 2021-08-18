@@ -1,43 +1,43 @@
 Orphapacket:
-  ORPHApacketId: '371040'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '371040'
-  Label: Primary qualitative or quantitative defects of alpha-dystroglycan
-  PURL: http://www.orpha.net/ORDO/Orphanet_371040
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '2666'
+            Source: HGNC
+          - Reference: '128239'
+            Source: OMIM
+          Label: dystroglycan 1
+          Symbol: DAG1
+      Label: Alpha-dystroglycan-related  limb-girdle muscular dystrophy R16
+      ORPHAcode: '280333'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '2666'
+            Source: HGNC
+          - Reference: '128239'
+            Source: OMIM
+          Label: dystroglycan 1
+          Symbol: DAG1
+      Label: Muscle-eye-brain disease with bilateral multicystic leucodystrophy
+      ORPHAcode: '370997'
   DisorderType:
-    value: Category
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Primary qualitative or quantitative defects of alpha-dystroglycan
+  ORPHAcode: '371040'
+  ORPHApacketId: '371040'
+  PURL: http://www.orpha.net/ORDO/Orphanet_371040
+  Parents:
+  - Parent:
+    - Label: Qualitative or quantitative defects of alpha-dystroglycan
+      ORPHAcode: '371024'
   Synonyms:
   - Synonym: Primary alpha-dystroglycanopathy
   - Synonym: Primary dystroglycanopathy
-  Parents:
-  - Parent:
-    - ORPHAcode: '371024'
-      Label: Qualitative or quantitative defects of alpha-dystroglycan
-  Childs:
-  - Child:
-      Label: Alpha-dystroglycan-related  limb-girdle muscular dystrophy R16
-      ORPHAcode: '280333'
-      Genes:
-      - Gene:
-          Label: dystroglycan 1
-          Symbol: DAG1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2666'
-          - Source: OMIM
-            Reference: '128239'
-  - Child:
-      Label: Muscle-eye-brain disease with bilateral multicystic leucodystrophy
-      ORPHAcode: '370997'
-      Genes:
-      - Gene:
-          Label: dystroglycan 1
-          Symbol: DAG1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2666'
-          - Source: OMIM
-            Reference: '128239'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

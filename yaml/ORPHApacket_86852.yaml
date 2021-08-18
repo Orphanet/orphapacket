@@ -1,18 +1,29 @@
 Orphapacket:
-  ORPHApacketId: '86852'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '86852'
-  Label: B-cell prolymphocytic leukemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_86852
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Label: B-cell prolymphocytic leukemia
+  ORPHAcode: '86852'
+  ORPHApacketId: '86852'
+  PURL: http://www.orpha.net/ORDO/Orphanet_86852
+  Parents:
+  - Parent:
+    - Label: Aggressive B-cell non-Hodgkin lymphoma
+      ORPHAcode: '300846'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      ValMoy: '0.05'
   Synonyms:
   - Synonym: B-PLL
   TextSection:
-    TextSectionType: Definition
     Contents: A rare mature B-cell neoplasm characterized by clonal proliferation
       of B-cell prolymphocytes with prolymphocytes constituting more than 55% of lymphoid
       cells in peripheral blood. IG genes are clonally rearranged. Neoplastic cells
@@ -20,18 +31,7 @@ Orphapacket:
       present with B symptoms massive splenomegaly but absent or minimal lymphadenopathy
       rapidly increasing lymphocyte count anemia and thrombocytopenia. Therapy response
       is poor.
-  Parents:
-  - Parent:
-    - ORPHAcode: '300846'
-      Label: Aggressive B-cell non-Hodgkin lymphoma
-  Prevalences:
-    Prevalence:
-    - Source: RARECARE surveillance of rare cancers in Europe[REG]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: '0.05'
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

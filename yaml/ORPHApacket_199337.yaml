@@ -1,63 +1,63 @@
 Orphapacket:
-  ORPHApacketId: '199337'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '199337'
-  Label: Pancreatic insufficiency-anemia-hyperostosis syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_199337
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '612714'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: This syndrome is characterized by exocrine pancreatic insufficiency
-      dyserythropoietic anemia and calvarial hyperostosis.
-  Genes:
-  - Gene:
-      Symbol: COX4I2
-      Name: cytochrome c oxidase subunit 4I2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '101937'
-      Label: Rare pancreatic disease
-  - Parent:
-    - ORPHAcode: '2443'
-      Label: Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies
-  - Parent:
-    - ORPHAcode: '293830'
-      Label: Constitutional dyserythropoietic anemia
-  - Parent:
-    - ORPHAcode: '93451'
-      Label: Cleidocranial dysplasia and isolated cranial ossification defect
-  - Parent:
-    - ORPHAcode: '165661'
-      Label: Genetic pancreatic disease
-  Prevalences:
-  - Prevalence:
-      Source: 19268275[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_19268275[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '612714'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: cytochrome c oxidase subunit 4I2
+      Symbol: COX4I2
+  Label: Pancreatic insufficiency-anemia-hyperostosis syndrome
+  ORPHAcode: '199337'
+  ORPHApacketId: '199337'
+  PURL: http://www.orpha.net/ORDO/Orphanet_199337
+  Parents:
+  - Parent:
+    - Label: Rare pancreatic disease
+      ORPHAcode: '101937'
+  - Parent:
+    - Label: Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies
+      ORPHAcode: '2443'
+  - Parent:
+    - Label: Constitutional dyserythropoietic anemia
+      ORPHAcode: '293830'
+  - Parent:
+    - Label: Cleidocranial dysplasia and isolated cranial ossification defect
+      ORPHAcode: '93451'
+  - Parent:
+    - Label: Genetic pancreatic disease
+      ORPHAcode: '165661'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 19268275[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_19268275[PMID]
+      ValMoy: no data
+  TextSection:
+    Contents: This syndrome is characterized by exocrine pancreatic insufficiency
+      dyserythropoietic anemia and calvarial hyperostosis.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

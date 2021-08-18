@@ -1,153 +1,153 @@
 Orphapacket:
-  ORPHApacketId: '52417'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '52417'
-  Label: MALT lymphoma
-  PURL: http://www.orpha.net/ORDO/Orphanet_52417
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: normal life expectancy
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '137245'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: MALT1 paracaspase
+      Symbol: MALT1
+  - Gene:
+      ExternalReferences: []
+      Name: baculoviral IAP repeat containing 3
+      Symbol: BIRC3
+  - Gene:
+      ExternalReferences: []
+      Name: immunoglobulin heavy locus
+      Symbol: IGH
+  - Gene:
+      ExternalReferences: []
+      Name: forkhead box P1
+      Symbol: FOXP1
+  - Gene:
+      ExternalReferences: []
+      Name: BCL10 immune signaling adaptor
+      Symbol: BCL10
+  Label: MALT lymphoma
+  ORPHAcode: '52417'
+  ORPHApacketId: '52417'
+  PURL: http://www.orpha.net/ORDO/Orphanet_52417
+  Parents:
+  - Parent:
+    - Label: Marginal zone lymphoma
+      ORPHAcode: '300912'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000505
+      HPOTerm: Visual impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000614
+      HPOTerm: Abnormality of the nasolacrimal system
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000820
+      HPOTerm: Abnormality of the thyroid gland
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001824
+      HPOTerm: Weight loss
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001903
+      HPOTerm: Anemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001945
+      HPOTerm: Fever
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002017
+      HPOTerm: Nausea and vomiting
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002027
+      HPOTerm: Abdominal pain
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002113
+      HPOTerm: Pulmonary infiltrates
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002205
+      HPOTerm: Recurrent respiratory infections
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002716
+      HPOTerm: Lymphadenopathy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012191
+      HPOTerm: B-cell lymphoma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100721
+      HPOTerm: Mediastinal lymphadenopathy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000975
+      HPOTerm: Hyperhidrosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002019
+      HPOTerm: Constipation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012123
+      HPOTerm: Posterior uveitis
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: '[EXPERT]_RARECARE surveillance of rare cancers in Europe[REG]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 22893605[PMID]_National Cancer Institute[INST]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: European Medicines Agency 2013[INST]
+      ValMoy: no data
   Synonyms:
   - Synonym: Extranodal marginal zone B-cell lymphoma
   - Synonym: MALToma
   - Synonym: Mucosa-associated lymphatic tissue lymphoma
   - Synonym: Mucosa-associated lymphoid tissue lymphoma
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '137245'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: MALT (mucosa-associated lymphoid tissue) lymphoma is a rare form of
       malignant non-Hodgkin lymphoma (see this term) that affects B cells and grows
       at the expense of lymphoid tissue associated with mucous membranes but also
       occurs more rarely in lymph nodes.
-  Genes:
-  - Gene:
-      Symbol: MALT1
-      Name: MALT1 paracaspase
-      ExternalReferences: []
-  - Gene:
-      Symbol: BIRC3
-      Name: baculoviral IAP repeat containing 3
-      ExternalReferences: []
-  - Gene:
-      Symbol: IGH
-      Name: immunoglobulin heavy locus
-      ExternalReferences: []
-  - Gene:
-      Symbol: FOXP1
-      Name: forkhead box P1
-      ExternalReferences: []
-  - Gene:
-      Symbol: BCL10
-      Name: BCL10 immune signaling adaptor
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '300912'
-      Label: Marginal zone lymphoma
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000505
-      HPOTerm: Visual impairment
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000614
-      HPOTerm: Abnormality of the nasolacrimal system
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000820
-      HPOTerm: Abnormality of the thyroid gland
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001824
-      HPOTerm: Weight loss
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001903
-      HPOTerm: Anemia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001945
-      HPOTerm: Fever
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002017
-      HPOTerm: Nausea and vomiting
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002027
-      HPOTerm: Abdominal pain
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002113
-      HPOTerm: Pulmonary infiltrates
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002205
-      HPOTerm: Recurrent respiratory infections
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002716
-      HPOTerm: Lymphadenopathy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0012191
-      HPOTerm: B-cell lymphoma
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0012378
-      HPOTerm: Fatigue
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100721
-      HPOTerm: Mediastinal lymphadenopathy
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0000975
-      HPOTerm: Hyperhidrosis
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002019
-      HPOTerm: Constipation
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0012123
-      HPOTerm: Posterior uveitis
-      HPOFrequency: Occasional (29-5%)
-  Prevalences:
-  - Prevalence:
-      Source: '[EXPERT]_RARECARE surveillance of rare cancers in Europe[REG]'
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 22893605[PMID]_National Cancer Institute[INST]
-      PrevalenceType: Annual incidence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: United States
-  - Prevalence:
-      Source: European Medicines Agency 2013[INST]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Multigenic/multifactorial
   - TypeOfInheritance:
       value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

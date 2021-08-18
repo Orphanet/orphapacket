@@ -1,18 +1,23 @@
 Orphapacket:
-  ORPHApacketId: '566393'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '566393'
-  Label: Acute mast cell leukemia
-  PURL: http://www.orpha.net/ORDO/Orphanet_566393
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: KIT proto-oncogene, receptor tyrosine kinase
+      Symbol: KIT
+  Label: Acute mast cell leukemia
+  ORPHAcode: '566393'
+  ORPHApacketId: '566393'
+  PURL: http://www.orpha.net/ORDO/Orphanet_566393
+  Parents:
+  - Parent:
+    - Label: Mast cell leukemia
+      ORPHAcode: '98851'
   Synonyms:
   - Synonym: Acute MCL
   TextSection:
-    TextSectionType: Definition
     Contents: A rare systemic mastocytosis characterized by the presence of at least
       20% usually immature and atypical mast cells in bone marrow aspirate smears.
       In classic mast cell leukemia mast cells account for at least 10% of peripheral
@@ -21,12 +26,7 @@ Orphapacket:
       splenomegaly skeletal lesions malabsorption) indicative of organ damage due
       to mast cell infiltration are usually present at diagnosis while skin lesions
       are absent in most cases. Prognosis is generally poor.
-  Genes:
-  - Gene:
-      Symbol: KIT
-      Name: KIT proto-oncogene, receptor tyrosine kinase
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98851'
-      Label: Mast cell leukemia
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

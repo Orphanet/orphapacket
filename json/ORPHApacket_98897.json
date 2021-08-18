@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "98897",
-        "creationDate": "2020-12-03 15:53:15",
-        "version": "1.3.6 / 4.1.7 [2020-04-17] (orientdb version)",
-        "copyright": "Orphanet (c) 2020",
+        "creationDate": "2021-08-17 17:32:38",
+        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
+        "copyright": "Orphanet (c) 2021",
         "ORPHAcode": "98897",
         "Label": "Oculopharyngodistal myopathy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_98897",
@@ -21,24 +21,34 @@
         ],
         "ExternalReferences": [
             {
-                "Source": "OMIM",
-                "Reference": "164310",
-                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "164310",
+                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "618940",
+                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                }
             }
         ],
         "TextSection": {
             "TextSectionType": "Definition",
             "Contents": "A rare genetic neuromuscular disease characterized by progressive external ocular facial and pharyngeal muscle weakness leading to variable degrees of ptosis ophthalmoparesis facial muscle atrophy dysarthria and dysphagia as well as distal muscle weakness and atrophy of lower and upper extremities. Respiratory muscle involvement is common but sensorineural hearing loss asymmetrical extremity weakness and severe proximal weakness are rare."
         },
-        "Parents": [
+        "Genes": [
             {
-                "Parent": [
-                    {
-                        "ORPHAcode": "138115",
-                        "Label": "Sucking/swallowing disorder associated with a neuromuscular disease"
-                    }
-                ]
-            },
+                "Gene": {
+                    "Symbol": "GIPC1",
+                    "Name": "GIPC PDZ domain containing family member 1",
+                    "ExternalReferences": []
+                }
+            }
+        ],
+        "Parents": [
             {
                 "Parent": [
                     {

@@ -1,73 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '2777'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2777'
-  Label: Osteomesopyknosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_2777
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: Axial osteosclerosis
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '166450'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Osteomesopyknosis is a very rare benign bone disorder characterized
-      by bone dysplasia manifested by patchy sclerosis of the axial skeleton and increased
-      bone mineral content.
-  Parents:
-  - Parent:
-    - ORPHAcode: '2781'
-      Label: Osteopetrosis and related disorders
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001939
-      HPOTerm: Abnormality of metabolism/homeostasis
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002650
-      HPOTerm: Scoliosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002808
-      HPOTerm: Kyphosis
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0003103
-      HPOTerm: Abnormal cortical bone morphology
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0003312
-      HPOTerm: Abnormal form of the vertebral bodies
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0011001
-      HPOTerm: Increased bone mineral density
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0100861
-      HPOTerm: Vertebral body sclerosis
-      HPOFrequency: Frequent (79-30%)
-  Prevalences:
-  - Prevalence:
-      Source: 26185059[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_26185059[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -75,9 +9,75 @@ Orphapacket:
       value: Adult
   - AverageAgeOfOnset:
       value: Childhood
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '166450'
+    Source: OMIM
+  Label: Osteomesopyknosis
+  ORPHAcode: '2777'
+  ORPHApacketId: '2777'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2777
+  Parents:
+  - Parent:
+    - Label: Osteopetrosis and related disorders
+      ORPHAcode: '2781'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001939
+      HPOTerm: Abnormality of metabolism/homeostasis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002808
+      HPOTerm: Kyphosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003103
+      HPOTerm: Abnormal cortical bone morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003312
+      HPOTerm: Abnormal form of the vertebral bodies
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011001
+      HPOTerm: Increased bone mineral density
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100861
+      HPOTerm: Vertebral body sclerosis
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 26185059[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_26185059[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Axial osteosclerosis
+  TextSection:
+    Contents: Osteomesopyknosis is a very rare benign bone disorder characterized
+      by bone dysplasia manifested by patchy sclerosis of the axial skeleton and increased
+      bone mineral content.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

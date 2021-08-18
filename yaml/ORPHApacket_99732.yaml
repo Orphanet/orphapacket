@@ -1,78 +1,78 @@
 Orphapacket:
-  ORPHApacketId: '99732'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '99732'
-  Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency
-  PURL: http://www.orpha.net/ORDO/Orphanet_99732
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '7190'
+            Source: HGNC
+          - Reference: '603707'
+            Source: OMIM
+          Label: molybdenum cofactor synthesis 1
+          Symbol: MOCS1
+      Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency type
+        A
+      ORPHAcode: '308386'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '7193'
+            Source: HGNC
+          - Reference: '603708'
+            Source: OMIM
+          Label: molybdenum cofactor synthesis 2
+          Symbol: MOCS2
+      Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency type
+        B
+      ORPHAcode: '308393'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '603930'
+            Source: OMIM
+          - Reference: '15465'
+            Source: HGNC
+          Label: gephyrin
+          Symbol: GPHN
+      Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency type
+        C
+      ORPHAcode: '308400'
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '252150'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '252160'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '615501'
+      Source: OMIM
+  Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency
+  ORPHAcode: '99732'
+  ORPHApacketId: '99732'
+  PURL: http://www.orpha.net/ORDO/Orphanet_99732
+  Parents:
+  - Parent:
+    - Label: Encephalopathy due to sulfite oxidase deficiency
+      ORPHAcode: '833'
+  - Parent:
+    - Label: Disorder of other vitamins and cofactors metabolism and transport
+      ORPHAcode: '309833'
   Synonyms:
   - Synonym: Combined deficiency of sulfite oxidase, xanthine dehydrogenase and aldehyde
       oxidase
   - Synonym: MOCOD
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '252150'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '252160'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '615501'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  Parents:
-  - Parent:
-    - ORPHAcode: '833'
-      Label: Encephalopathy due to sulfite oxidase deficiency
-  - Parent:
-    - ORPHAcode: '309833'
-      Label: Disorder of other vitamins and cofactors metabolism and transport
-  Childs:
-  - Child:
-      Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency type
-        A
-      ORPHAcode: '308386'
-      Genes:
-      - Gene:
-          Label: molybdenum cofactor synthesis 1
-          Symbol: MOCS1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7190'
-          - Source: OMIM
-            Reference: '603707'
-  - Child:
-      Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency type
-        B
-      ORPHAcode: '308393'
-      Genes:
-      - Gene:
-          Label: molybdenum cofactor synthesis 2
-          Symbol: MOCS2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '7193'
-          - Source: OMIM
-            Reference: '603708'
-  - Child:
-      Label: Sulfite oxidase deficiency due to molybdenum cofactor deficiency type
-        C
-      ORPHAcode: '308400'
-      Genes:
-      - Gene:
-          Label: gephyrin
-          Symbol: GPHN
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '603930'
-          - Source: HGNC
-            Reference: '15465'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

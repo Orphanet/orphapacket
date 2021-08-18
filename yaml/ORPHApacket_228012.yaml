@@ -1,64 +1,64 @@
 Orphapacket:
-  ORPHApacketId: '228012'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '228012'
-  Label: Progressive sensorineural hearing loss-hypertrophic cardiomyopathy syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_228012
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '606346'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: myosin VI
+      Symbol: MYO6
+  Label: Progressive sensorineural hearing loss-hypertrophic cardiomyopathy syndrome
+  ORPHAcode: '228012'
+  ORPHApacketId: '228012'
+  PURL: http://www.orpha.net/ORDO/Orphanet_228012
+  Parents:
+  - Parent:
+    - Label: Syndromic genetic deafness
+      ORPHAcode: '90642'
+  - Parent:
+    - Label: Genetic cardiac rhythm disease
+      ORPHAcode: '101934'
+  - Parent:
+    - Label: Syndrome associated with hypertrophic cardiomyopathy
+      ORPHAcode: '217595'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family
+      PrevalenceType: Cases/families
+      Source: 18212818[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_18212818[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Progressive neurosensory deafness-hypertrophic cardiomyopathy syndrome
   - Synonym: Progressive neurosensory hearing loss-hypertrophic cardiomyopathy syndrome
   - Synonym: Progressive sensorineural deafness-hypertrophic cardiomyopathy syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '606346'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
   TextSection:
-    TextSectionType: Definition
     Contents: Progressive sensorineural hearing loss - hypertrophic cardiomyopathy
       is an extremely rare disorder described in one family to date that is characterized
       by progressive late onset autosomal dominant sensorineural hearing loss QT interval
       prolongation and mild cardiac hypertrophy.
-  Genes:
-  - Gene:
-      Symbol: MYO6
-      Name: myosin VI
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '90642'
-      Label: Syndromic genetic deafness
-  - Parent:
-    - ORPHAcode: '101934'
-      Label: Genetic cardiac rhythm disease
-  - Parent:
-    - ORPHAcode: '217595'
-      Label: Syndrome associated with hypertrophic cardiomyopathy
-  Prevalences:
-  - Prevalence:
-      Source: 18212818[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Family
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_18212818[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

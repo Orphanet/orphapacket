@@ -1,39 +1,39 @@
 Orphapacket:
-  ORPHApacketId: '97346'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '97346'
-  Label: ADan amyloidosis
-  PURL: http://www.orpha.net/ORDO/Orphanet_97346
   DisorderType:
-    value: Clinical subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '117300'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: integral membrane protein 2B
+      Symbol: ITM2B
+  Label: ADan amyloidosis
+  ORPHAcode: '97346'
+  ORPHApacketId: '97346'
+  PURL: http://www.orpha.net/ORDO/Orphanet_97346
+  Parents:
+  - Parent:
+    - Label: Neurodegenerative disease with dementia
+      ORPHAcode: '98534'
+  - Parent:
+    - Label: ITM2B amyloidosis
+      ORPHAcode: '439254'
   Synonyms:
   - Synonym: Familial dementia, Danish type
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '117300'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare neurodegenerative disease characterized by progressive cataracts
       hearing loss cerebellar ataxia paranoid psychosis and dementia. Neuropathological
       features are diffuse atrophy of all parts of the brain chronic diffuse encephalopathy
       and the presence of extremely thin and almost completely demyelinated cranial
       nerves.
-  Genes:
-  - Gene:
-      Symbol: ITM2B
-      Name: integral membrane protein 2B
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98534'
-      Label: Neurodegenerative disease with dementia
-  - Parent:
-    - ORPHAcode: '439254'
-      Label: ITM2B amyloidosis
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

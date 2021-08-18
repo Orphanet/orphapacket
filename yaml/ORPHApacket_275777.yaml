@@ -1,104 +1,104 @@
 Orphapacket:
-  ORPHApacketId: '275777'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '275777'
-  Label: Heritable pulmonary arterial hypertension
-  PURL: http://www.orpha.net/ORDO/Orphanet_275777
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: All ages
   DisorderType:
-    value: Etiological subtype
     PURL: http://www.orpha.net/ORDO/Orphanet_377795
+    value: Etiological subtype
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
+      Reference: '615342'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
+        Term)
+      Reference: '178600'
+      Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: activin A receptor like type 1
+      Symbol: ACVRL1
+  - Gene:
+      ExternalReferences: []
+      Name: bone morphogenetic protein receptor type 2
+      Symbol: BMPR2
+  - Gene:
+      ExternalReferences: []
+      Name: T-box transcription factor 4
+      Symbol: TBX4
+  - Gene:
+      ExternalReferences: []
+      Name: endoglin
+      Symbol: ENG
+  - Gene:
+      ExternalReferences: []
+      Name: caveolin 1
+      Symbol: CAV1
+  - Gene:
+      ExternalReferences: []
+      Name: SMAD family member 9
+      Symbol: SMAD9
+  - Gene:
+      ExternalReferences: []
+      Name: potassium two pore domain channel subfamily K member 3
+      Symbol: KCNK3
+  - Gene:
+      ExternalReferences: []
+      Name: eukaryotic translation initiation factor 2 alpha kinase 4
+      Symbol: EIF2AK4
+  Label: Heritable pulmonary arterial hypertension
+  ORPHAcode: '275777'
+  ORPHApacketId: '275777'
+  PURL: http://www.orpha.net/ORDO/Orphanet_275777
+  Parents:
+  - Parent:
+    - Label: Idiopathic/heritable pulmonary arterial hypertension
+      ORPHAcode: '422'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 16456139[PMID]_ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: France
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 16456139[PMID]_ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Czech Republic
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 24629043[PMID]_ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: FPAH
   - Synonym: Familial pulmonary arterial hypertension
   - Synonym: HPAH
   - Synonym: Hereditary pulmonary arterial hypertension
-  ExternalReferences:
-  - ExternalReference:
-      Source: OMIM
-      Reference: '615342'
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
-  - ExternalReference:
-      Source: OMIM
-      Reference: '178600'
-      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
-        Term)
   TextSection:
-    TextSectionType: Definition
     Contents: Heritable pulmonary arterial hypertension (HPAH) is a form of pulmonary
       arterial hypertension (PAH see this term) occurring due to mutations in PAH
       predisposing genes or in a familial context. HPAH is characterized by elevated
       pulmonary arterial resistance leading to right heart failure. HPAH is progressive
       and potentially fatal.
-  Genes:
-  - Gene:
-      Symbol: ACVRL1
-      Name: activin A receptor like type 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: BMPR2
-      Name: bone morphogenetic protein receptor type 2
-      ExternalReferences: []
-  - Gene:
-      Symbol: TBX4
-      Name: T-box 4
-      ExternalReferences: []
-  - Gene:
-      Symbol: ENG
-      Name: endoglin
-      ExternalReferences: []
-  - Gene:
-      Symbol: CAV1
-      Name: caveolin 1
-      ExternalReferences: []
-  - Gene:
-      Symbol: SMAD9
-      Name: SMAD family member 9
-      ExternalReferences: []
-  - Gene:
-      Symbol: KCNK3
-      Name: potassium two pore domain channel subfamily K member 3
-      ExternalReferences: []
-  - Gene:
-      Symbol: EIF2AK4
-      Name: eukaryotic translation initiation factor 2 alpha kinase 4
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '422'
-      Label: Idiopathic/heritable pulmonary arterial hypertension
-  Prevalences:
-  - Prevalence:
-      Source: 16456139[PMID]_ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Europe
-  - Prevalence:
-      Source: 16456139[PMID]_ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: France
-  - Prevalence:
-      Source: 24629043[PMID]_ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Czech Republic
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: All ages
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

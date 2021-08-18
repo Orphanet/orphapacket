@@ -1,18 +1,34 @@
 Orphapacket:
-  ORPHApacketId: '141189'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '141189'
-  Label: Cerebrofacial arteriovenous metameric syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_141189
+  Childs:
+  - Child:
+      Genes: no data
+      Label: Wyburn-Mason syndrome
+      ORPHAcode: '53719'
+  - Child:
+      Genes: no data
+      Label: Cerebrofacial arteriovenous metameric syndrome type 1
+      ORPHAcode: '141194'
+  - Child:
+      Genes: no data
+      Label: Cerebrofacial arteriovenous metameric syndrome type 3
+      ORPHAcode: '141199'
   DisorderType:
-    value: Clinical group
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: Cerebrofacial arteriovenous metameric syndrome
+  ORPHAcode: '141189'
+  ORPHApacketId: '141189'
+  PURL: http://www.orpha.net/ORDO/Orphanet_141189
+  Parents:
+  - Parent:
+    - Label: Neurovascular malformation
+      ORPHAcode: '102006'
+  - Parent:
+    - Label: Rare arteriovenous malformation
+      ORPHAcode: '211266'
   Synonyms:
   - Synonym: CAMS
   TextSection:
-    TextSectionType: Definition
     Contents: A group of rare arteriovenous malformations characterized by unilateral
       vascular malformations in a metameric distribution involving the craniofacial
       region. Subtypes differ according to the distribution of lesions with cerebrofacial
@@ -20,23 +36,7 @@ Orphapacket:
       the hypothalamus and nasal region Wyburn-Mason syndrome (lateral prosencephalic
       group) involving the occipital lobe thalamus and maxilla and CAMS 3 (lateral
       rhombencephalic group) involving the cerebellum pons and mandible.
-  Parents:
-  - Parent:
-    - ORPHAcode: '102006'
-      Label: Neurovascular malformation
-  - Parent:
-    - ORPHAcode: '211266'
-      Label: Rare arteriovenous malformation
-  Childs:
-  - Child:
-      Label: Wyburn-Mason syndrome
-      ORPHAcode: '53719'
-      Genes: no data
-  - Child:
-      Label: Cerebrofacial arteriovenous metameric syndrome type 1
-      ORPHAcode: '141194'
-      Genes: no data
-  - Child:
-      Label: Cerebrofacial arteriovenous metameric syndrome type 3
-      ORPHAcode: '141199'
-      Genes: no data
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

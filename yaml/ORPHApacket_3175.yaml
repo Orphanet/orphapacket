@@ -1,86 +1,86 @@
 Orphapacket:
-  ORPHApacketId: '3175'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3175'
-  Label: X-linked spasticity-intellectual disability-epilepsy syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_3175
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '308350'
-    DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
-  TextSection:
-    TextSectionType: Definition
-    Contents: This syndrome is characterised by myoclonic epilepsy with generalised
-      spasticity and intellectual deficit. It has been described in six males from
-      two generations of one family. Transmission appears to be X-linked recessive
-      and the syndrome is caused by mutations in the aristaless-related homeobox gene
-      (<I>ARX</I> Xp22.13).
-  Genes:
-  - Gene:
-      Symbol: ARX
-      Name: aristaless related homeobox
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '98464'
-      Label: X-linked syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '182079'
-      Label: ARX-related epileptic encephalopathy
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001257
-      HPOTerm: Spasticity
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001276
-      HPOTerm: Hypertonia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002063
-      HPOTerm: Rigidity
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002133
-      HPOTerm: Status epilepticus
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002301
-      HPOTerm: Hemiplegia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003552
-      HPOTerm: Muscle stiffness
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 12177367[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_12177367[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+    Reference: '308350'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: aristaless related homeobox
+      Symbol: ARX
+  Label: X-linked spasticity-intellectual disability-epilepsy syndrome
+  ORPHAcode: '3175'
+  ORPHApacketId: '3175'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3175
+  Parents:
+  - Parent:
+    - Label: X-linked syndromic intellectual disability
+      ORPHAcode: '98464'
+  - Parent:
+    - Label: ARX-related epileptic encephalopathy
+      ORPHAcode: '182079'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001257
+      HPOTerm: Spasticity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001276
+      HPOTerm: Hypertonia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002063
+      HPOTerm: Rigidity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002133
+      HPOTerm: Status epilepticus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002301
+      HPOTerm: Hemiplegia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003552
+      HPOTerm: Muscle stiffness
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 12177367[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_12177367[PMID]
+      ValMoy: no data
+  TextSection:
+    Contents: A rare ARX-related epileptic encephalopathy characterized by infantile
+      onset of myoclonic epilepsy with generalized spasticity severe global developmental
+      delay and moderate to profound intellectual disability. Obligate female carriers
+      show subtle generalized hyperreflexia. Late onset progressive spastic ataxia
+      has also been reported.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

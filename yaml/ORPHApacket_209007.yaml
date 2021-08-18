@@ -1,99 +1,100 @@
 Orphapacket:
-  ORPHApacketId: '209007'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '209007'
-  Label: Systemic inflammatory disease associated with an acquired peripheral neuropathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_209007
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-    Parent:
-    - ORPHAcode: '182086'
-      Label: Acquired peripheral neuropathy
   Childs:
   - Child:
-      Label: Sarcoidosis
-      ORPHAcode: '797'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1142'
+            Source: HGNC
+          - Reference: '606000'
+            Source: OMIM
           Label: butyrophilin like 2
           Symbol: BTNL2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1142'
-          - Source: OMIM
-            Reference: '606000'
       - Gene:
+          ExternalReferences:
+          - Reference: '4948'
+            Source: HGNC
+          - Reference: '142857'
+            Source: OMIM
           Label: major histocompatibility complex, class II, DR beta 1
           Symbol: HLA-DRB1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4948'
-          - Source: OMIM
-            Reference: '142857'
+      Label: Sarcoidosis
+      ORPHAcode: '797'
   - Child:
+      Genes: no data
       Label: Eosinophilic granulomatosis with polyangiitis
       ORPHAcode: '183'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Microscopic polyangiitis
       ORPHAcode: '727'
-      Genes: no data
   - Child:
-      Label: Granulomatosis with polyangiitis
-      ORPHAcode: '900'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '142880'
+            Source: OMIM
+          - Reference: '4938'
+            Source: HGNC
           Label: major histocompatibility complex, class II, DP alpha 1
           Symbol: HLA-DPA1
-          ExternalReferences:
-          - ExternalReference:
-              Source: HGNC
-              Reference: '4938'
       - Gene:
+          ExternalReferences:
+          - Reference: '4940'
+            Source: HGNC
+          - Reference: '142858'
+            Source: OMIM
           Label: major histocompatibility complex, class II, DP beta 1
           Symbol: HLA-DPB1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4940'
-          - Source: OMIM
-            Reference: '142858'
       - Gene:
+          ExternalReferences:
+          - Reference: '2505'
+            Source: HGNC
+          - Reference: '123890'
+            Source: OMIM
           Label: cytotoxic T-lymphocyte associated protein 4
           Symbol: CTLA4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2505'
-          - Source: OMIM
-            Reference: '123890'
       - Gene:
+          ExternalReferences:
+          - Reference: '9652'
+            Source: HGNC
+          - Reference: '600716'
+            Source: OMIM
           Label: protein tyrosine phosphatase non-receptor type 22
           Symbol: PTPN22
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9652'
-          - Source: OMIM
-            Reference: '600716'
       - Gene:
+          ExternalReferences:
+          - Reference: '9495'
+            Source: HGNC
+          - Reference: '177020'
+            Source: OMIM
           Label: proteinase 3
           Symbol: PRTN3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '9495'
-          - Source: OMIM
-            Reference: '177020'
+      Label: Granulomatosis with polyangiitis
+      ORPHAcode: '900'
   - Child:
+      Genes: no data
       Label: Polyarteritis nodosa
       ORPHAcode: '767'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Mixed connective tissue disease
       ORPHAcode: '809'
-      Genes: no data
   - Child:
+      Genes: no data
       Label: Cryoglobulinemic vasculitis
       ORPHAcode: '91138'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Systemic inflammatory disease associated with an acquired peripheral neuropathy
+  ORPHAcode: '209007'
+  ORPHApacketId: '209007'
+  PURL: http://www.orpha.net/ORDO/Orphanet_209007
+  Parents:
+    Parent:
+    - Label: Acquired peripheral neuropathy
+      ORPHAcode: '182086'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,59 +1,59 @@
 Orphapacket:
-  ORPHApacketId: '216828'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '216828'
-  Label: Osteogenesis imperfecta type 5
-  PURL: http://www.orpha.net/ORDO/Orphanet_216828
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: OI type 5
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '610967'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Osteogenesis imperfecta type V is a moderate type of osteogenesis imperfecta
-      (OI; see this term) a genetic disorder characterized by increased bone fragility
-      low bone mass and susceptibility to bone fractures with variable severity. OI
-      type V is characterized by mild to moderate short stature dislocation of the
-      radial head mineralized interosseous membranes hyperplasic callus white sclera
-      and no dentinogenesis imperfecta (DI; see this term).
-  Genes:
-  - Gene:
-      Symbol: IFITM5
-      Name: interferon induced transmembrane protein 5
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '666'
-      Label: Osteogenesis imperfecta
-  Prevalences:
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '610967'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: interferon induced transmembrane protein 5
+      Symbol: IFITM5
+  Label: Osteogenesis imperfecta type 5
+  ORPHAcode: '216828'
+  ORPHApacketId: '216828'
+  PURL: http://www.orpha.net/ORDO/Orphanet_216828
+  Parents:
+  - Parent:
+    - Label: Osteogenesis imperfecta
+      ORPHAcode: '666'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: OI type 5
+  TextSection:
+    Contents: A moderate form of osteogenesis imperfecta characterized by increased
+      bone fragility and low bone mass that clinically manifests with susceptibility
+      to bone fractures of variable severity metaphyseal changes at birth short stature
+      dislocation of the radial head mineralized interosseous membranes hyperplasic
+      callus (occurring more often during periods of more rapid growth) white sclera
+      and absence of dentinogenesis imperfecta.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

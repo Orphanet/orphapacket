@@ -1,101 +1,101 @@
 Orphapacket:
-  ORPHApacketId: '98098'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '98098'
-  Label: Autosomal recessive degenerative and progressive cerebellar ataxia
-  PURL: http://www.orpha.net/ORDO/Orphanet_98098
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '1172'
-      Label: Autosomal recessive cerebellar ataxia
   Childs:
   - Child:
-      Label: Friedreich ataxia
-      ORPHAcode: '95'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '3951'
+            Source: HGNC
+          - Reference: '606829'
+            Source: OMIM
           Label: frataxin
           Symbol: FXN
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3951'
-          - Source: OMIM
-            Reference: '606829'
+      Label: Friedreich ataxia
+      ORPHAcode: '95'
   - Child:
+      Genes: no data
       Label: Early-onset cerebellar ataxia with retained tendon reflexes
       ORPHAcode: '1177'
-      Genes: no data
   - Child:
-      Label: Infantile-onset spinocerebellar ataxia
-      ORPHAcode: '1186'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '1160'
+            Source: HGNC
+          - Reference: '606075'
+            Source: OMIM
           Label: twinkle mtDNA helicase
           Symbol: TWNK
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1160'
-          - Source: OMIM
-            Reference: '606075'
+      Label: Infantile-onset spinocerebellar ataxia
+      ORPHAcode: '1186'
   - Child:
-      Label: Marinesco-Sjögren syndrome
-      ORPHAcode: '559'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '24624'
+            Source: HGNC
+          - Reference: '608005'
+            Source: OMIM
           Label: SIL1 nucleotide exchange factor
           Symbol: SIL1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '24624'
-          - Source: OMIM
-            Reference: '608005'
       - Gene:
+          ExternalReferences:
+          - Reference: '33882'
+            Source: HGNC
+          - Reference: '607875'
+            Source: OMIM
           Label: inositol polyphosphate-5-phosphatase K
           Symbol: INPP5K
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '33882'
-          - Source: OMIM
-            Reference: '607875'
+      Label: "Marinesco-Sj\xF6gren syndrome"
+      ORPHAcode: '559'
   - Child:
-      Label: Posterior column ataxia-retinitis pigmentosa syndrome
-      ORPHAcode: '88628'
       Genes:
       - Gene:
-          Label: feline leukemia virus subgroup C cellular receptor 1
-          Symbol: FLVCR1
           ExternalReferences:
-          - Source: HGNC
-            Reference: '24682'
-          - Source: OMIM
-            Reference: '609144'
+          - Reference: '24682'
+            Source: HGNC
+          - Reference: '609144'
+            Source: OMIM
+          Label: FLVCR heme transporter 1
+          Symbol: FLVCR1
+      Label: Posterior column ataxia-retinitis pigmentosa syndrome
+      ORPHAcode: '88628'
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11582'
+            Source: HGNC
+          - Reference: '604934'
+            Source: OMIM
+          Label: tubulin folding cofactor E
+          Symbol: TBCE
       Label: Early-onset progressive encephalopathy-spastic ataxia-distal spinal muscular
         atrophy syndrome
       ORPHAcode: '496756'
-      Genes:
-      - Gene:
-          Label: tubulin folding cofactor E
-          Symbol: TBCE
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11582'
-          - Source: OMIM
-            Reference: '604934'
   - Child:
-      Label: Congenital cataracts-facial dysmorphism-neuropathy syndrome
-      ORPHAcode: '48431'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '2498'
+            Source: HGNC
+          - Reference: '604927'
+            Source: OMIM
           Label: CTD phosphatase subunit 1
           Symbol: CTDP1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2498'
-          - Source: OMIM
-            Reference: '604927'
+      Label: Congenital cataracts-facial dysmorphism-neuropathy syndrome
+      ORPHAcode: '48431'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Autosomal recessive degenerative and progressive cerebellar ataxia
+  ORPHAcode: '98098'
+  ORPHApacketId: '98098'
+  PURL: http://www.orpha.net/ORDO/Orphanet_98098
+  Parents:
+  - Parent:
+    - Label: Autosomal recessive cerebellar ataxia
+      ORPHAcode: '1172'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

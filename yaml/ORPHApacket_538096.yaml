@@ -1,20 +1,34 @@
 Orphapacket:
-  ORPHApacketId: '538096'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '538096'
-  Label: Autosomal recessive lethal neonatal axonal sensorimotor polyneuropathy
-  PURL: http://www.orpha.net/ORDO/Orphanet_538096
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: infantile
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Antenatal
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '604431'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Autosomal recessive lethal neonatal axonal sensorimotor polyneuropathy
+  ORPHAcode: '538096'
+  ORPHApacketId: '538096'
+  PURL: http://www.orpha.net/ORDO/Orphanet_538096
+  Parents:
+  - Parent:
+    - Label: Autosomal recessive axonal hereditary motor and sensory neuropathy
+      ORPHAcode: '91024'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 22971091[PMID]_9771672[PMID]
+      ValMoy: '13.0'
   TextSection:
-    TextSectionType: Definition
     Contents: A rare genetic autosomal recessive axonal hereditary motor and sensory
       neuropathy disease characterized by prenatal onset of a severe sensorimotor
       axonal polyneuropathy (reflected by reduced fetal movement and polyhydramnios)
@@ -23,21 +37,7 @@ Orphapacket:
       deep tendon reflexes in the absence of contractures leading to death before
       8 months of age. Neuropathological findings show severe loss of large- and medium-sized
       myelinated fibers without signs of demyelination.
-  Parents:
-  - Parent:
-    - ORPHAcode: '91024'
-      Label: Autosomal recessive axonal hereditary motor and sensory neuropathy
-  Prevalences:
-    Prevalence:
-    - Source: 22971091[PMID]_9771672[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: '13.0'
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Antenatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: infantile
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

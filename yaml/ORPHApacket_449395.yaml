@@ -1,46 +1,283 @@
 Orphapacket:
-  ORPHApacketId: '449395'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '449395'
-  Label: IgG4-related kidney disease
-  PURL: http://www.orpha.net/ORDO/Orphanet_449395
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare renal disease occurring in the setting of a systemic IgG4 related
-      disease (IgG4-RD). The disorder is characterized by a fibrosing tubulointerstitial
-      nephritis consisting of predominantly IgG4+ plasma cells with/without glomerulonephritis
-      mass lesions enlarged kidneys and hydronephrosis.
-  Parents:
-  - Parent:
-    - ORPHAcode: '567558'
-      Label: Non-genetic systemic disease with glomerulopathy as a major feature
-  - Parent:
-    - ORPHAcode: '284264'
-      Label: IgG4-related disease
-  - Parent:
-    - ORPHAcode: '93603'
-      Label: Rare renal tubular disease
-  Prevalences:
-    Prevalence:
-    - Source: ORPHANET_26666884[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: Unknown
-      ValMoy: '0.0'
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adult
   - AverageAgeOfOnset:
       value: Elderly
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  Label: IgG4-related kidney disease
+  ORPHAcode: '449395'
+  ORPHApacketId: '449395'
+  PURL: http://www.orpha.net/ORDO/Orphanet_449395
+  Parents:
+  - Parent:
+    - Label: Non-genetic systemic disease with glomerulopathy as a major feature
+      ORPHAcode: '567558'
+  - Parent:
+    - Label: IgG4-related systemic disease
+      ORPHAcode: '596448'
+  - Parent:
+    - Label: Rare renal tubular disease
+      ORPHAcode: '93603'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001970
+      HPOTerm: Tubulointerstitial nephritis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003237
+      HPOTerm: Increased circulating IgG level
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0032300
+      HPOTerm: Increased circulating IgG4 level
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000083
+      HPOTerm: Renal insufficiency
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000093
+      HPOTerm: Proteinuria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000790
+      HPOTerm: Hematuria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001919
+      HPOTerm: Acute kidney injury
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002923
+      HPOTerm: Rheumatoid factor positive
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003259
+      HPOTerm: Elevated serum creatinine
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003493
+      HPOTerm: Antinuclear antibody positivity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004431
+      HPOTerm: Complement deficiency
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005421
+      HPOTerm: Decreased serum complement C3
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012622
+      HPOTerm: Chronic kidney disease
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0032298
+      HPOTerm: Increased circulating IgG1 level
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0032616
+      HPOTerm: Renal interstitial immunoglobulin deposits
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0045042
+      HPOTerm: Decreased serum complement C4
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000024
+      HPOTerm: Prostatitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000105
+      HPOTerm: Enlarged kidney
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000620
+      HPOTerm: Dacryocystitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001082
+      HPOTerm: Cholecystitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001287
+      HPOTerm: Meningitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001410
+      HPOTerm: Decreased liver function
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001679
+      HPOTerm: Abnormal aortic morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001701
+      HPOTerm: Pericarditis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001733
+      HPOTerm: Pancreatitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001824
+      HPOTerm: Weight loss
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001880
+      HPOTerm: Eosinophilia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002027
+      HPOTerm: Abdominal pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002088
+      HPOTerm: Abnormal lung morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002102
+      HPOTerm: Pleuritis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002716
+      HPOTerm: Lymphadenopathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002840
+      HPOTerm: Lymphadenitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003212
+      HPOTerm: Increased circulating total IgE level
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005200
+      HPOTerm: Retroperitoneal fibrosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006000
+      HPOTerm: Ureteral obstruction
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006515
+      HPOTerm: Interstitial pneumonitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011109
+      HPOTerm: Chronic sinusitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011123
+      HPOTerm: Inflammatory abnormality of the skin
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011747
+      HPOTerm: Abnormality of the anterior pituitary
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012089
+      HPOTerm: Arteritis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012378
+      HPOTerm: Fatigue
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012578
+      HPOTerm: Membranous nephropathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012592
+      HPOTerm: Albuminuria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012593
+      HPOTerm: Nephrotic range proteinuria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025633
+      HPOTerm: Abnormal ureter morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030991
+      HPOTerm: Sclerosing cholangitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0031032
+      HPOTerm: Decreased retinol-binding protein level
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0031093
+      HPOTerm: Abnormal breast morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0031281
+      HPOTerm: Sialadenitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0031549
+      HPOTerm: Lymphocytoma cutis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0045026
+      HPOTerm: Abnormality of the mediastinum
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100016
+      HPOTerm: Abnormality of mesentery morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100577
+      HPOTerm: Urinary bladder inflammation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100646
+      HPOTerm: Thyroiditis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0500006
+      HPOTerm: Urethritis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000126
+      HPOTerm: Hydronephrosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0010741
+      HPOTerm: Pedal edema
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0011227
+      HPOTerm: Elevated C-reactive protein level
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0100586
+      HPOTerm: Sterile pyuria
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_26666884[PMID]
+      ValMoy: '0.0'
+  TextSection:
+    Contents: A rare renal disease occurring in the setting of a systemic IgG4 related
+      disease (IgG4-RD). The disorder is characterized by a fibrosing tubulointerstitial
+      nephritis consisting of predominantly IgG4+ plasma cells with/without glomerulonephritis
+      mass lesions enlarged kidneys and hydronephrosis.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

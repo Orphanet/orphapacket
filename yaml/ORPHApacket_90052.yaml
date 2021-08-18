@@ -1,27 +1,36 @@
 Orphapacket:
-  ORPHApacketId: '90052'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '90052'
-  Label: Recurrent hepatitis C virus induced liver disease in liver transplant recipients
-  PURL: http://www.orpha.net/ORDO/Orphanet_90052
   DisorderType:
-    value: Particular clinical situation in a disease or syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377793
+    value: Particular clinical situation in a disease or syndrome
+  Label: Recurrent hepatitis C virus induced liver disease in liver transplant recipients
+  ORPHAcode: '90052'
+  ORPHApacketId: '90052'
+  PURL: http://www.orpha.net/ORDO/Orphanet_90052
   Parents:
   - Parent:
-    - ORPHAcode: '57146'
-      Label: Rare hepatic disease
+    - Label: Rare hepatic disease
+      ORPHAcode: '57146'
   - Parent:
-    - ORPHAcode: '565779'
-      Label: Rare disorder potentially indicated for transplant or complication after
+    - Label: Rare disorder potentially indicated for transplant or complication after
         transplantation
+      ORPHAcode: '565779'
   Prevalences:
     Prevalence:
-    - Source: European Medicines Agency[INST]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Value and class
-      PrevalenceClass: 1-9 / 100 000
-      ValMoy: '7.0'
+    - PrevalenceClass: 1-9 / 100 000
       PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: European Medicines Agency[INST]
+      ValMoy: '7.0'
+  TextSection:
+    Contents: A rare hepatic disease characterized by recurrence of hepatitis C virus
+      infection after liver transplantation leading to liver injury with features
+      resembling those observed in the non-transplant graft and typically developing
+      after three months post-transplantation. The clinical course is highly variable
+      although patients most commonly develop progressive chronic liver disease with
+      higher viral loads and more rapid fibrosis progression than in the immunocompetent
+      population.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

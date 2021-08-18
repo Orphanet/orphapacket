@@ -1,56 +1,7 @@
 Orphapacket:
-  ORPHApacketId: '423655'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '423655'
-  Label: ARX-related encephalopathy-brain malformation spectrum
-  PURL: http://www.orpha.net/ORDO/Orphanet_423655
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '98464'
-      Label: X-linked syndromic intellectual disability
-  - Parent:
-    - ORPHAcode: '182079'
-      Label: ARX-related epileptic encephalopathy
-  - Parent:
-    - ORPHAcode: '165707'
-      Label: Syndromic urogenital tract malformation
-  - Parent:
-    - ORPHAcode: '269573'
-      Label: Genetic syndrome with corpus callosum agenesis/dysgenesis as a major
-        feature
-  - Parent:
-    - ORPHAcode: '199639'
-      Label: Syndrome with corpus callosum agenesis/dysgenesis as a major feature
-  Childs:
-  - Child:
-      Label: Corpus callosum agenesis-abnormal genitalia syndrome
-      ORPHAcode: '2508'
-      Genes:
-      - Gene:
-          Label: aristaless related homeobox
-          Symbol: ARX
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18060'
-          - Source: OMIM
-            Reference: '300382'
-  - Child:
-      Label: X-linked lissencephaly with abnormal genitalia
-      ORPHAcode: '452'
-      Genes:
-      - Gene:
-          Label: aristaless related homeobox
-          Symbol: ARX
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '18060'
-          - Source: OMIM
-            Reference: '300382'
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: any age
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
@@ -60,6 +11,55 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '18060'
+            Source: HGNC
+          - Reference: '300382'
+            Source: OMIM
+          Label: aristaless related homeobox
+          Symbol: ARX
+      Label: Corpus callosum agenesis-abnormal genitalia syndrome
+      ORPHAcode: '2508'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '18060'
+            Source: HGNC
+          - Reference: '300382'
+            Source: OMIM
+          Label: aristaless related homeobox
+          Symbol: ARX
+      Label: X-linked lissencephaly with abnormal genitalia
+      ORPHAcode: '452'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: ARX-related encephalopathy-brain malformation spectrum
+  ORPHAcode: '423655'
+  ORPHApacketId: '423655'
+  PURL: http://www.orpha.net/ORDO/Orphanet_423655
+  Parents:
+  - Parent:
+    - Label: X-linked syndromic intellectual disability
+      ORPHAcode: '98464'
+  - Parent:
+    - Label: ARX-related epileptic encephalopathy
+      ORPHAcode: '182079'
+  - Parent:
+    - Label: Syndromic urogenital tract malformation
+      ORPHAcode: '165707'
+  - Parent:
+    - Label: Genetic syndrome with corpus callosum agenesis/dysgenesis as a major
+        feature
+      ORPHAcode: '269573'
+  - Parent:
+    - Label: Syndrome with corpus callosum agenesis/dysgenesis as a major feature
+      ORPHAcode: '199639'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

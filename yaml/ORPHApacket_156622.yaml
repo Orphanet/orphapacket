@@ -1,92 +1,92 @@
 Orphapacket:
-  ORPHApacketId: '156622'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '156622'
-  Label: Genetic urogenital tract malformation
-  PURL: http://www.orpha.net/ORDO/Orphanet_156622
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '156619'
-      Label: Rare genetic urogenital disease
   Childs:
   - Child:
-      Label: Congenital bilateral absence of vas deferens
-      ORPHAcode: '48'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '4516'
+            Source: HGNC
+          - Reference: '300572'
+            Source: OMIM
           Label: adhesion G protein-coupled receptor G2
           Symbol: ADGRG2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4516'
-          - Source: OMIM
-            Reference: '300572'
       - Gene:
-          Label: cystic fibrosis transmembrane conductance regulator
-          Symbol: CFTR
           ExternalReferences:
-          - Source: HGNC
-            Reference: '1884'
-          - Source: OMIM
-            Reference: '602421'
+          - Reference: '1884'
+            Source: HGNC
+          - Reference: '602421'
+            Source: OMIM
+          Label: CF transmembrane conductance regulator
+          Symbol: CFTR
+      Label: Congenital bilateral absence of vas deferens
+      ORPHAcode: '48'
   - Child:
-      Label: Müllerian aplasia
-      ORPHAcode: '73217'
       Genes: no data
+      Label: "M\xFCllerian aplasia"
+      ORPHAcode: '73217'
   - Child:
+      Genes: no data
       Label: Syndromic urogenital tract malformation
       ORPHAcode: '165707'
-      Genes: no data
   - Child:
-      Label: Familial vesicoureteral reflux
-      ORPHAcode: '289365'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11976'
+            Source: HGNC
+          - Reference: '600985'
+            Source: OMIM
           Label: tenascin XB
           Symbol: TNXB
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11976'
-          - Source: OMIM
-            Reference: '600985'
       - Gene:
+          ExternalReferences:
+          - Reference: '10250'
+            Source: HGNC
+          - Reference: '602431'
+            Source: OMIM
           Label: roundabout guidance receptor 2
           Symbol: ROBO2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '10250'
-          - Source: OMIM
-            Reference: '602431'
       - Gene:
-          Label: SRY-box 17
-          Symbol: SOX17
           ExternalReferences:
-          - Source: HGNC
-            Reference: '18122'
-          - Source: OMIM
-            Reference: '610928'
+          - Reference: '18122'
+            Source: HGNC
+          - Reference: '610928'
+            Source: OMIM
+          Label: SRY-box transcription factor 17
+          Symbol: SOX17
+      Label: Familial vesicoureteral reflux
+      ORPHAcode: '289365'
   - Child:
-      Label: Posterior hypospadias
-      ORPHAcode: '95706'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '644'
+            Source: HGNC
+          - Reference: '313700'
+            Source: OMIM
           Label: androgen receptor
           Symbol: AR
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '644'
-          - Source: OMIM
-            Reference: '313700'
       - Gene:
+          ExternalReferences:
+          - Reference: '2568'
+            Source: HGNC
+          - Reference: '300120'
+            Source: OMIM
           Label: mastermind like domain containing 1
           Symbol: MAMLD1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2568'
-          - Source: OMIM
-            Reference: '300120'
+      Label: Non-syndromic posterior hypospadias
+      ORPHAcode: '95706'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Genetic urogenital tract malformation
+  ORPHAcode: '156622'
+  ORPHApacketId: '156622'
+  PURL: http://www.orpha.net/ORDO/Orphanet_156622
+  Parents:
+  - Parent:
+    - Label: Rare genetic urogenital disease
+      ORPHAcode: '156619'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

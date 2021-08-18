@@ -1,88 +1,96 @@
 Orphapacket:
-  ORPHApacketId: '306759'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '306759'
-  Label: Non progressive epilepsy and/or ataxia with myoclonus as a major feature
-  PURL: http://www.orpha.net/ORDO/Orphanet_306759
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Parents:
-  - Parent:
-    - ORPHAcode: '306756'
-      Label: Epilepsy and/or ataxia with myoclonus as a major feature
   Childs:
   - Child:
-      Label: Juvenile myoclonic epilepsy
-      ORPHAcode: '307'
       Genes:
       - Gene:
-          Label: intestinal cell kinase
-          Symbol: ICK
           ExternalReferences:
-          - Source: HGNC
-            Reference: '21219'
-          - Source: OMIM
-            Reference: '612325'
+          - Reference: '21219'
+            Source: HGNC
+          - Reference: '612325'
+            Source: OMIM
+          Label: ciliogenesis associated kinase 1
+          Symbol: CILK1
       - Gene:
+          ExternalReferences:
+          - Reference: '1404'
+            Source: HGNC
+          - Reference: '601949'
+            Source: OMIM
           Label: calcium voltage-gated channel auxiliary subunit beta 4
           Symbol: CACNB4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '1404'
-          - Source: OMIM
-            Reference: '601949'
       - Gene:
+          ExternalReferences:
+          - Reference: '16406'
+            Source: HGNC
+          - Reference: '608815'
+            Source: OMIM
           Label: EF-hand domain containing 1
           Symbol: EFHC1
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '16406'
-          - Source: OMIM
-            Reference: '608815'
       - Gene:
-          Label: gamma-aminobutyric acid type A receptor alpha1 subunit
+          ExternalReferences:
+          - Reference: '137160'
+            Source: OMIM
+          - Reference: '4075'
+            Source: HGNC
+          Label: gamma-aminobutyric acid type A receptor subunit alpha1
           Symbol: GABRA1
-          ExternalReferences:
-          - Source: OMIM
-            Reference: '137160'
-          - Source: HGNC
-            Reference: '4075'
       - Gene:
-          Label: gamma-aminobutyric acid type A receptor delta subunit
+          ExternalReferences:
+          - Reference: '4084'
+            Source: HGNC
+          - Reference: '137163'
+            Source: OMIM
+          Label: gamma-aminobutyric acid type A receptor subunit delta
           Symbol: GABRD
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '4084'
-          - Source: OMIM
-            Reference: '137163'
       - Gene:
+          ExternalReferences:
+          - Reference: '6297'
+            Source: HGNC
+          - Reference: '602232'
+            Source: OMIM
           Label: potassium voltage-gated channel subfamily Q member 3
           Symbol: KCNQ3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6297'
-          - Source: OMIM
-            Reference: '602232'
       - Gene:
+          ExternalReferences:
+          - Reference: '6199'
+            Source: HGNC
+          - Reference: '603210'
+            Source: OMIM
           Label: Jrk helix-turn-helix protein
           Symbol: JRK
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '6199'
-          - Source: OMIM
-            Reference: '603210'
       - Gene:
+          ExternalReferences:
+          - Reference: '2020'
+            Source: HGNC
+          - Reference: '600570'
+            Source: OMIM
           Label: chloride voltage-gated channel 2
           Symbol: CLCN2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '2020'
-          - Source: OMIM
-            Reference: '600570'
+      Label: Juvenile myoclonic epilepsy
+      ORPHAcode: '307'
   - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '11005'
+            Source: HGNC
+          - Reference: '138140'
+            Source: OMIM
+          Label: solute carrier family 2 member 1
+          Symbol: SLC2A1
       Label: Epilepsy with myoclonic absences
       ORPHAcode: '86911'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Non progressive epilepsy and/or ataxia with myoclonus as a major feature
+  ORPHAcode: '306759'
+  ORPHApacketId: '306759'
+  PURL: http://www.orpha.net/ORDO/Orphanet_306759
+  Parents:
+  - Parent:
+    - Label: Epilepsy and/or ataxia with myoclonus as a major feature
+      ORPHAcode: '306756'
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

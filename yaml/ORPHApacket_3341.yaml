@@ -1,20 +1,40 @@
 Orphapacket:
-  ORPHApacketId: '3341'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '3341'
-  Label: Torticollis-keloids-cryptorchidism-renal dysplasia syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_3341
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
   ExternalReferences:
-  - Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '314300'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Source: OMIM
+  Label: Torticollis-keloids-cryptorchidism-renal dysplasia syndrome
+  ORPHAcode: '3341'
+  ORPHApacketId: '3341'
+  PURL: http://www.orpha.net/ORDO/Orphanet_3341
+  Parents:
+  - Parent:
+    - Label: Syndromic urogenital tract malformation
+      ORPHAcode: '165707'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 12725596[PMID]_4387470[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_12725596[PMID]_4387470[PMID]
+      ValMoy: no data
   TextSection:
-    TextSectionType: Definition
     Contents: Torticollis-keloids-cryptorchidism-renal dysplasia syndrome is an extremely
       rare developmental defect during embryogenesis malformation syndrome characterized
       by congenital muscular torticollis associated with skin anomalies (such as multiple
@@ -22,30 +42,10 @@ Orphapacket:
       and hypospadias) and renal dysplasia (e.g. chronic pyelonephritis renal atrophy).
       Additional reported features include varicose veins intellectual disability
       and musculoskeletal anomalies.
-  Parents:
-  - Parent:
-    - ORPHAcode: '165707'
-      Label: Syndromic urogenital tract malformation
-  Prevalences:
-  - Prevalence:
-      Source: 12725596[PMID]_4387470[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_12725596[PMID]_4387470[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Infancy
-  - AverageAgeOfOnset:
-      value: Neonatal
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

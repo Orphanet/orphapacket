@@ -1,56 +1,53 @@
 Orphapacket:
-  ORPHApacketId: '96186'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '96186'
-  Label: Maternal uniparental disomy of chromosome 20
-  PURL: http://www.orpha.net/ORDO/Orphanet_96186
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: No data available
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
-    value: Malformation syndrome
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '617352'
+    Source: OMIM
+  Label: Maternal uniparental disomy of chromosome 20
+  ORPHAcode: '96186'
+  ORPHApacketId: '96186'
+  PURL: http://www.orpha.net/ORDO/Orphanet_96186
+  Parents:
+  - Parent:
+    - Label: Maternal uniparental disomy
+      ORPHAcode: '98153'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 26248010[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_26248010[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Maternal UPD(20)
   - Synonym: UPD(20)mat
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '617352'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Maternal uniparental disomy of chromosome 20 (UPD 20) is a very rare
       chromosomal anomaly in which both copies of chromosome 20 are inherited from
       the mother. The main feature described is prenatal and postnatal growth retardation.
       Microcephaly minor dysmorphic features and psychomotor developmental delay have
       been occasionally reported. Maternal UPD20 is most often ascertained by a mosaic
       trisomy 20 pregnancy.
-  Parents:
-  - Parent:
-    - ORPHAcode: '98153'
-      Label: Maternal uniparental disomy
-  - Parent:
-    - ORPHAcode: '263059'
-      Label: Uniparental disomy of chromosome 20
-  Prevalences:
-  - Prevalence:
-      Source: 26248010[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_26248010[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-  - AverageAgeOfOnset:
-      value: Antenatal
-  - AverageAgeOfOnset:
-      value: Neonatal
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

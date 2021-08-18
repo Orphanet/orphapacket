@@ -1,50 +1,50 @@
 Orphapacket:
-  ORPHApacketId: '414726'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '414726'
-  Label: Genetic facial cleft
-  PURL: http://www.orpha.net/ORDO/Orphanet_414726
-  DisorderType:
-    value: Category
-    PURL: http://www.orpha.net/ORDO/Orphanet_557495
-  Synonyms:
-  - Synonym: Genetic craniofacial cleft
-  Parents:
-  - Parent:
-    - ORPHAcode: '183583'
-      Label: Genetic head and neck malformation
   Childs:
   - Child:
-      Label: Tessier number 4 facial cleft
-      ORPHAcode: '141258'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '29022'
+            Source: HGNC
+          - Reference: '614140'
+            Source: OMIM
           Label: sperm antigen with calponin homology and coiled-coil domains 1 like
           Symbol: SPECC1L
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '29022'
-          - Source: OMIM
-            Reference: '614140'
+      Label: Tessier number 4 facial cleft
+      ORPHAcode: '141258'
   - Child:
+      Genes: no data
       Label: Lateral facial cleft
       ORPHAcode: '141269'
-      Genes: no data
   - Child:
-      Label: Frontorhiny
-      ORPHAcode: '391474'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '449'
+            Source: HGNC
+          - Reference: '606014'
+            Source: OMIM
           Label: ALX homeobox 3
           Symbol: ALX3
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '449'
-          - Source: OMIM
-            Reference: '606014'
+      Label: Frontorhiny
+      ORPHAcode: '391474'
   - Child:
+      Genes: no data
       Label: Familial median cleft of the upper and lower lips
       ORPHAcode: '401942'
-      Genes: no data
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_557495
+    value: Category
+  Label: Genetic facial cleft
+  ORPHAcode: '414726'
+  ORPHApacketId: '414726'
+  PURL: http://www.orpha.net/ORDO/Orphanet_414726
+  Parents:
+  - Parent:
+    - Label: Genetic head and neck malformation
+      ORPHAcode: '183583'
+  Synonyms:
+  - Synonym: Genetic craniofacial cleft
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

@@ -1,59 +1,59 @@
 Orphapacket:
-  ORPHApacketId: '324321'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '324321'
-  Label: Sinoatrial node dysfunction and deafness
-  PURL: http://www.orpha.net/ORDO/Orphanet_324321
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Synonyms:
-  - Synonym: Sinoatrial node dysfunction and hearing loss
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '614896'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Sinoatrial node dysfunction and deafness is a rare genetic disease characterized
-      by congenital severe to profound deafness with no evidence of vestibular dysfunction
-      associated with sinoatrial node dysfunction with pronounced bradycardia and
-      increased variability of heart rate at rest and episodic syncopes that may be
-      triggered by enhanced physical activity and stress.
-  Genes:
-  - Gene:
-      Symbol: CACNA1D
-      Name: calcium voltage-gated channel subunit alpha1 D
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '90642'
-      Label: Syndromic genetic deafness
-  - Parent:
-    - ORPHAcode: '101934'
-      Label: Genetic cardiac rhythm disease
-  Prevalences:
-  - Prevalence:
-      Source: 21131953[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '614896'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: calcium voltage-gated channel subunit alpha1 D
+      Symbol: CACNA1D
+  Label: Sinoatrial node dysfunction and deafness
+  ORPHAcode: '324321'
+  ORPHApacketId: '324321'
+  PURL: http://www.orpha.net/ORDO/Orphanet_324321
+  Parents:
+  - Parent:
+    - Label: Syndromic genetic deafness
+      ORPHAcode: '90642'
+  - Parent:
+    - Label: Genetic cardiac rhythm disease
+      ORPHAcode: '101934'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 21131953[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
+  Synonyms:
+  - Synonym: Sinoatrial node dysfunction and hearing loss
+  TextSection:
+    Contents: Sinoatrial node dysfunction and deafness is a rare genetic disease characterized
+      by congenital severe to profound deafness with no evidence of vestibular dysfunction
+      associated with sinoatrial node dysfunction with pronounced bradycardia and
+      increased variability of heart rate at rest and episodic syncopes that may be
+      triggered by enhanced physical activity and stress.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

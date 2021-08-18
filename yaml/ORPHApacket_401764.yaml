@@ -1,53 +1,53 @@
 Orphapacket:
-  ORPHApacketId: '401764'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '401764'
-  Label: Pancytopenia-developmental delay syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_401764
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adolescent
   DisorderType:
-    value: Disease
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '615715'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ERCC excision repair 6 like 2
+      Symbol: ERCC6L2
+  Label: Pancytopenia-developmental delay syndrome
+  ORPHAcode: '401764'
+  ORPHApacketId: '401764'
+  PURL: http://www.orpha.net/ORDO/Orphanet_401764
+  Parents:
+  - Parent:
+    - Label: Rare constitutional aplastic anemia
+      ORPHAcode: '68383'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 24507776[PMID]_27185855[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_24507776[PMID]_27185855[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: Trilineage bone marrow failure-developmental delay syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '615715'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
   TextSection:
-    TextSectionType: Definition
     Contents: Pancytopenia-developmental delay syndrome is a rare genetic hematologic
       disorder characterized by progressive trilineage bone marrow failure (with hypocellularity)
       developmental delay with learning disabilities and microcephaly. Mild facial
       dysmorphism and hypotonia have also been reported.
-  Genes:
-  - Gene:
-      Symbol: ERCC6L2
-      Name: ERCC excision repair 6 like 2
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '68383'
-      Label: Rare constitutional aplastic anemia
-  Prevalences:
-  - Prevalence:
-      Source: 24507776[PMID]_27185855[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_24507776[PMID]_27185855[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adolescent
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

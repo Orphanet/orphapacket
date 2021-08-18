@@ -1,32 +1,42 @@
 Orphapacket:
-  ORPHApacketId: '2665'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2665'
-  Label: Congenital mesoblastic nephroma
-  PURL: http://www.orpha.net/ORDO/Orphanet_2665
-  DisorderType:
-    value: Disease
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-  Genes:
-  - Gene:
-      Symbol: ETV6
-      Name: ETS variant 6
-      ExternalReferences: []
-  - Gene:
-      Symbol: NTRK3
-      Name: neurotrophic receptor tyrosine kinase 3
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '93619'
-      Label: Rare renal tumor
-  - Parent:
-    - ORPHAcode: '506213'
-      Label: Rare disorder potentially indicated for kidney transplant
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: ETS variant transcription factor 6
+      Symbol: ETV6
+  - Gene:
+      ExternalReferences: []
+      Name: neurotrophic receptor tyrosine kinase 3
+      Symbol: NTRK3
+  Label: Congenital mesoblastic nephroma
+  ORPHAcode: '2665'
+  ORPHApacketId: '2665'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2665
+  Parents:
+  - Parent:
+    - Label: Rare renal tumor
+      ORPHAcode: '93619'
+  - Parent:
+    - Label: Rare disorder potentially indicated for kidney transplant
+      ORPHAcode: '506213'
+  TextSection:
+    Contents: A rare renal tumor characterized by a unilateral solitary well demarcated
+      mesenchymal/myofibroblastic neoplasm occurring in very young children. Histopathologically
+      three subtypes (classic cellular and mixed) can be distinguished. The tumor
+      most commonly involves the renal sinus and is typically discovered as a palpable
+      abdominal mass. Patients may also present with hypertension or hematuria rarely
+      with hypercalcemia or hyperreninemia. Prenatal presentation usually with polyhydramnios
+      is not infrequent. The most important prognostic factor is completeness of surgical
+      resection. Overall malignant potential is low and clinical outcome favorable.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

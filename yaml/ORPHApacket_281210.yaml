@@ -1,67 +1,64 @@
 Orphapacket:
-  ORPHApacketId: '281210'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '281210'
-  Label: X-linked ichthyosis syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_281210
-  DisorderType:
-    value: Clinical group
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-  Parents:
-  - Parent:
-    - ORPHAcode: '281085'
-      Label: Inherited ichthyosis syndromic form
   Childs:
   - Child:
-      Label: CHILD syndrome
-      ORPHAcode: '139'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '13398'
+            Source: HGNC
+          - Reference: '300275'
+            Source: OMIM
           Label: NAD(P) dependent steroid dehydrogenase-like
           Symbol: NSDHL
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '13398'
-          - Source: OMIM
-            Reference: '300275'
+      Label: CHILD syndrome
+      ORPHAcode: '139'
   - Child:
-      Label: Ichthyosis follicularis-alopecia-photophobia syndrome
-      ORPHAcode: '2273'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '15455'
+            Source: HGNC
+          - Reference: '300294'
+            Source: OMIM
           Label: membrane bound transcription factor peptidase, site 2
           Symbol: MBTPS2
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '15455'
-          - Source: OMIM
-            Reference: '300294'
+      Label: Ichthyosis follicularis-alopecia-photophobia syndrome
+      ORPHAcode: '2273'
   - Child:
-      Label: X-linked dominant chondrodysplasia punctata
-      ORPHAcode: '35173'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '3133'
+            Source: HGNC
+          - Reference: '300205'
+            Source: OMIM
           Label: EBP cholestenol delta-isomerase
           Symbol: EBP
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '3133'
-          - Source: OMIM
-            Reference: '300205'
+      Label: X-linked dominant chondrodysplasia punctata
+      ORPHAcode: '35173'
   - Child:
-      Label: Syndromic recessive X-linked ichthyosis
-      ORPHAcode: '281090'
       Genes:
       - Gene:
+          ExternalReferences:
+          - Reference: '11425'
+            Source: HGNC
+          - Reference: '300747'
+            Source: OMIM
           Label: steroid sulfatase
           Symbol: STS
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '11425'
-          - Source: OMIM
-            Reference: '300747'
+      Label: Syndromic recessive X-linked ichthyosis
+      ORPHAcode: '281090'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377794
+    value: Clinical group
+  Label: X-linked ichthyosis syndrome
+  ORPHAcode: '281210'
+  ORPHApacketId: '281210'
+  PURL: http://www.orpha.net/ORDO/Orphanet_281210
+  Parents:
+  - Parent:
+    - Label: Inherited ichthyosis syndromic form
+      ORPHAcode: '281085'
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Not applicable
@@ -69,3 +66,6 @@ Orphapacket:
       value: X-linked dominant
   - TypeOfInheritance:
       value: X-linked recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

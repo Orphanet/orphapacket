@@ -1,45 +1,45 @@
 Orphapacket:
-  ORPHApacketId: '2989'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '2989'
-  Label: Familial pterygium of the conjunctiva
-  PURL: http://www.orpha.net/ORDO/Orphanet_2989
-  DisorderType:
-    value: Morphological anomaly
-    PURL: http://www.orpha.net/ORDO/Orphanet_377791
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '178000'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: A rare form of pterygium which develops in early adulthood characterized
-      by a wing-like bulbar thickening of the conjunctiva in the interpalpebral fissure
-      area that can be cured by surgical excision.
-  Parents:
-    Parent:
-    - ORPHAcode: '117594'
-      Label: Unclassified rare disease
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000478
-      HPOTerm: Abnormality of the eye
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0000504
-      HPOTerm: Abnormality of vision
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007759
-      HPOTerm: Opacification of the corneal stroma
-      HPOFrequency: Frequent (79-30%)
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
   - AverageAgeOfOnset:
       value: Adult
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377791
+    value: Morphological anomaly
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '178000'
+    Source: OMIM
+  Label: Familial pterygium of the conjunctiva
+  ORPHAcode: '2989'
+  ORPHApacketId: '2989'
+  PURL: http://www.orpha.net/ORDO/Orphanet_2989
+  Parents:
+    Parent:
+    - Label: Unclassified rare disease
+      ORPHAcode: '117594'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000478
+      HPOTerm: Abnormality of the eye
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000504
+      HPOTerm: Abnormality of vision
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007759
+      HPOTerm: Opacification of the corneal stroma
+  TextSection:
+    Contents: A rare form of pterygium which develops in early adulthood characterized
+      by a wing-like bulbar thickening of the conjunctiva in the interpalpebral fissure
+      area that can be cured by surgical excision.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

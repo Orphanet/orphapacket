@@ -1,143 +1,153 @@
 Orphapacket:
-  ORPHApacketId: '79477'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '79477'
-  Label: Griscelli syndrome type 2
-  PURL: http://www.orpha.net/ORDO/Orphanet_79477
-  DisorderType:
-    value: Clinical subtype
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-  Synonyms:
-  - Synonym: Griscelli-Pruniéras syndrome type 2
-  - Synonym: Hypopigmentation-immunodeficiency with or without neurologic impairment
-      syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '607624'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  Genes:
-  - Gene:
-      Symbol: RAB27A
-      Name: RAB27A, member RAS oncogene family
-      ExternalReferences: []
-  Parents:
-  - Parent:
-    - ORPHAcode: '381'
-      Label: Griscelli syndrome
-  - Parent:
-    - ORPHAcode: '331184'
-      Label: Constitutional neutropenia with extra-hematopoietic manifestations
-  - Parent:
-    - ORPHAcode: '331249'
-      Label: Immunodeficiency syndrome with hypopigmentation
-  - Parent:
-    - ORPHAcode: '183494'
-      Label: Genetic immune deficiency with skin involvement
-  - Parent:
-    - ORPHAcode: '79391'
-      Label: Immune deficiency with skin involvement
-  Phenotypes:
-  - Phenotype:
-      HPOId: HP:0000952
-      HPOTerm: Jaundice
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0000967
-      HPOTerm: Petechiae
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001250
-      HPOTerm: Seizures
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001276
-      HPOTerm: Hypertonia
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0001744
-      HPOTerm: Splenomegaly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001875
-      HPOTerm: Neutropenia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0001876
-      HPOTerm: Pancytopenia
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0001945
-      HPOTerm: Fever
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002017
-      HPOTerm: Nausea and vomiting
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002113
-      HPOTerm: Pulmonary infiltrates
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0002216
-      HPOTerm: Premature graying of hair
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002240
-      HPOTerm: Hepatomegaly
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0002716
-      HPOTerm: Lymphadenopathy
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0002721
-      HPOTerm: Immunodeficiency
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0003077
-      HPOTerm: Hyperlipidemia
-      HPOFrequency: Frequent (79-30%)
-  - Phenotype:
-      HPOId: HP:0005599
-      HPOTerm: Hypopigmentation of hair
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007443
-      HPOTerm: Partial albinism
-      HPOFrequency: Very frequent (99-80%)
-  - Phenotype:
-      HPOId: HP:0007730
-      HPOTerm: Iris hypopigmentation
-      HPOFrequency: Occasional (29-5%)
-  - Phenotype:
-      HPOId: HP:0012156
-      HPOTerm: Hemophagocytosis
-      HPOFrequency: Very frequent (99-80%)
-  Prevalences:
-  - Prevalence:
-      Source: 26960655[PMID]
-      PrevalenceType: Cases/families
-      PrevalenceQualification: Case
-      PrevalenceClass: no data
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
-  - Prevalence:
-      Source: ORPHANET_26960655[PMID]
-      PrevalenceType: Point prevalence
-      PrevalenceQualification: Class only
-      PrevalenceClass: <1 / 1 000 000
-      ValMoy: no data
-      PrevalenceGeographic: Worldwide
+  AverageAgeOfDeaths:
+    AverageAgeOfDeath:
+    - value: late childhood
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
   - AverageAgeOfOnset:
       value: Infancy
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: late childhood
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '607624'
+    Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: RAB27A, member RAS oncogene family
+      Symbol: RAB27A
+  Label: Griscelli syndrome type 2
+  ORPHAcode: '79477'
+  ORPHApacketId: '79477'
+  PURL: http://www.orpha.net/ORDO/Orphanet_79477
+  Parents:
+  - Parent:
+    - Label: Griscelli syndrome
+      ORPHAcode: '381'
+  - Parent:
+    - Label: Constitutional neutropenia with extra-hematopoietic manifestations
+      ORPHAcode: '331184'
+  - Parent:
+    - Label: Immunodeficiency syndrome with hypopigmentation
+      ORPHAcode: '331249'
+  - Parent:
+    - Label: Genetic immune deficiency with skin involvement
+      ORPHAcode: '183494'
+  - Parent:
+    - Label: Immune deficiency with skin involvement
+      ORPHAcode: '79391'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000952
+      HPOTerm: Jaundice
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000967
+      HPOTerm: Petechiae
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001250
+      HPOTerm: Seizures
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001276
+      HPOTerm: Hypertonia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001744
+      HPOTerm: Splenomegaly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001875
+      HPOTerm: Neutropenia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001876
+      HPOTerm: Pancytopenia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001945
+      HPOTerm: Fever
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002017
+      HPOTerm: Nausea and vomiting
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002113
+      HPOTerm: Pulmonary infiltrates
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002216
+      HPOTerm: Premature graying of hair
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002240
+      HPOTerm: Hepatomegaly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002716
+      HPOTerm: Lymphadenopathy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002721
+      HPOTerm: Immunodeficiency
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003077
+      HPOTerm: Hyperlipidemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005599
+      HPOTerm: Hypopigmentation of hair
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007443
+      HPOTerm: Partial albinism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007730
+      HPOTerm: Iris hypopigmentation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012156
+      HPOTerm: Hemophagocytosis
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 26960655[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET_26960655[PMID]
+      ValMoy: no data
+  Synonyms:
+  - Synonym: "Griscelli-Pruni\xE9ras syndrome type 2"
+  - Synonym: Hypopigmentation-immunodeficiency with or without neurologic impairment
+      syndrome
+  TextSection:
+    Contents: A rare subtype of Griscelli syndrome characterized by pigmentary dilution
+      in skin and hair with irregular clumps of pigment in hair shafts resulting in
+      silvery hair in association with increased susceptibility to recurrent infections
+      and immunological abnormalities in particular impairment of T-cell and natural
+      killer cytotoxic activity eventually leading to hemophagocytic lymphohistiocytosis.
+      Patients may present neurological manifestations related to infiltration of
+      the central nervous system in the context of the hemophagocytic syndrome. The
+      disease is mostly fatal in the first decade of life.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)

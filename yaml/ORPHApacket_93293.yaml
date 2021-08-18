@@ -1,75 +1,71 @@
 Orphapacket:
-  ORPHApacketId: '93293'
-  creationDate: '2020-12-03 15:53:15'
-  version: 1.3.6 / 4.1.7 [2020-04-17] (orientdb version)
-  copyright: Orphanet (c) 2020
-  ORPHAcode: '93293'
-  Label: Okihiro syndrome
-  PURL: http://www.orpha.net/ORDO/Orphanet_93293
-  DisorderType:
-    value: Malformation syndrome
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-  Synonyms:
-  - Synonym: Duane-radial ray syndrome
-  ExternalReferences:
-  - Source: OMIM
-    Reference: '607323'
-    DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-  TextSection:
-    TextSectionType: Definition
-    Contents: Okihiro syndrome is a syndrome of multiple congenital anomalies and
-      is characterized by ocular manifestations (uni- or bilateral Duane anomaly (95%
-      of cases) congenital optic nerve hypoplasia or optic disc coloboma) bilateral
-      deafness and radial ray malformation that can include thenar hypoplasia and/or
-      hypoplasia or aplasia of the thumbs; hypoplasia or aplasia of the radii; shortening
-      and radial deviation of the forearms; triphalangeal thumbs; and duplication
-      of the thumb (preaxial polydactyly).The phenotype overlaps with other <i>SALL4>/i>
-      related disorders including acro-renal-ocular syndrome and Holt-Oram syndrome
-      (see these terms). Transmission is autosomal dominant.
-  Parents:
-  - Parent:
-    - ORPHAcode: '117573'
-      Label: Syndromic anorectal malformation
-  - Parent:
-    - ORPHAcode: '404574'
-      Label: Genetic syndrome with limb reduction defects
-  - Parent:
-    - ORPHAcode: '522520'
-      Label: Syndromic genetic disorder with strabismus
-  - Parent:
-    - ORPHAcode: '294955'
-      Label: Syndrome with limb reduction defects
-  - Parent:
-    - ORPHAcode: '98683'
-      Label: Syndromic disorder with strabismus
-  Childs:
-  - Child:
-      Label: Okihiro syndrome due to 20q13 microdeletion
-      ORPHAcode: '261638'
-      Genes:
-      - Gene:
-          Label: spalt like transcription factor 4
-          Symbol: SALL4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '15924'
-          - Source: OMIM
-            Reference: '607343'
-  - Child:
-      Label: Okihiro syndrome due to a point mutation
-      ORPHAcode: '261647'
-      Genes:
-      - Gene:
-          Label: spalt like transcription factor 4
-          Symbol: SALL4
-          ExternalReferences:
-          - Source: HGNC
-            Reference: '15924'
-          - Source: OMIM
-            Reference: '607343'
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Neonatal
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '15924'
+            Source: HGNC
+          - Reference: '607343'
+            Source: OMIM
+          Label: spalt like transcription factor 4
+          Symbol: SALL4
+      Label: Okihiro syndrome due to 20q13 microdeletion
+      ORPHAcode: '261638'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '15924'
+            Source: HGNC
+          - Reference: '607343'
+            Source: OMIM
+          Label: spalt like transcription factor 4
+          Symbol: SALL4
+      Label: Okihiro syndrome due to a point mutation
+      ORPHAcode: '261647'
+  DisorderType:
+    PURL: http://www.orpha.net/ORDO/Orphanet_377789
+    value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '607323'
+    Source: OMIM
+  Label: Okihiro syndrome
+  ORPHAcode: '93293'
+  ORPHApacketId: '93293'
+  PURL: http://www.orpha.net/ORDO/Orphanet_93293
+  Parents:
+  - Parent:
+    - Label: Syndromic anorectal malformation
+      ORPHAcode: '117573'
+  - Parent:
+    - Label: Genetic syndrome with limb reduction defects
+      ORPHAcode: '404574'
+  - Parent:
+    - Label: Syndromic genetic disorder with strabismus
+      ORPHAcode: '522520'
+  - Parent:
+    - Label: Syndrome with limb reduction defects
+      ORPHAcode: '294955'
+  - Parent:
+    - Label: Syndromic disorder with strabismus
+      ORPHAcode: '98683'
+  Synonyms:
+  - Synonym: Duane-radial ray syndrome
+  TextSection:
+    Contents: A rare multiple congenital anomalies syndrome characterized by the association
+      of uni- or bilateral radial defects uni- or bilateral Duane anomaly (congenital
+      limited horizontal eye movement accompanied by globe retraction which results
+      in narrowing of the palpebral fissure) renal abnormalities sensorineural and/or
+      conductive hearing loss and less frequently imperforate anus and scoliosis.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
+  copyright: Orphanet (c) 2021
+  creationDate: '2021-08-17 17:32:38'
+  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
