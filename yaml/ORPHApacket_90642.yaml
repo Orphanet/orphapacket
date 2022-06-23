@@ -455,20 +455,20 @@ Orphapacket:
           Symbol: UFD1
       - Gene:
           ExternalReferences:
-          - Reference: '2228'
-            Source: HGNC
-          - Reference: '116790'
-            Source: OMIM
-          Label: catechol-O-methyltransferase
-          Symbol: COMT
-      - Gene:
-          ExternalReferences:
           - Reference: '4916'
             Source: HGNC
           - Reference: '600237'
             Source: OMIM
           Label: histone cell cycle regulator
           Symbol: HIRA
+      - Gene:
+          ExternalReferences:
+          - Reference: '2228'
+            Source: HGNC
+          - Reference: '116790'
+            Source: OMIM
+          Label: catechol-O-methyltransferase
+          Symbol: COMT
       - Gene:
           ExternalReferences:
           - Reference: '12313'
@@ -503,7 +503,7 @@ Orphapacket:
             Source: HGNC
           - Reference: '607379'
             Source: OMIM
-          Label: neurofibromin 2
+          Label: NF2, moesin-ezrin-radixin like (MERLIN) tumor suppressor
           Symbol: NF2
       Label: Neurofibromatosis type 2
       ORPHAcode: '637'
@@ -612,7 +612,15 @@ Orphapacket:
       Label: Ermine phenotype
       ORPHAcode: '999'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '607246'
+            Source: OMIM
+          - Reference: '568'
+            Source: HGNC
+          Label: adaptor related protein complex 3 subunit delta 1
+          Symbol: AP3D1
       Label: Ocular albinism with late-onset sensorineural deafness
       ORPHAcode: '1000'
   - Child:
@@ -1174,7 +1182,7 @@ Orphapacket:
             Source: HGNC
           - Reference: '614571'
             Source: OMIM
-          Label: ciliogenesis and planar polarity effector 1
+          Label: ciliogenesis and planar polarity effector complex subunit 1
           Symbol: CPLANE1
       - Gene:
           ExternalReferences:
@@ -1192,6 +1200,14 @@ Orphapacket:
             Source: OMIM
           Label: phosphodiesterase 6D
           Symbol: PDE6D
+      - Gene:
+          ExternalReferences:
+          - Reference: '21653'
+            Source: HGNC
+          - Reference: '609507'
+            Source: OMIM
+          Label: TOP1 binding arginine/serine rich protein, E3 ubiquitin ligase
+          Symbol: TOPORS
       - Gene:
           ExternalReferences:
           - Reference: '29110'
@@ -1797,6 +1813,15 @@ Orphapacket:
         syndrome
       ORPHAcode: '543470'
   - Child:
+      Genes: no data
+      Label: Oculogastrointestinal-neurodevelopmental syndrome
+      ORPHAcode: '611201'
+  - Child:
+      Genes: no data
+      Label: Spondyloepiphyseal dysplasia-sensorineural hearing loss-intellectual
+        disability-Leber congenital amaurosis syndrome
+      ORPHAcode: '611207'
+  - Child:
       Genes:
       - Gene:
           ExternalReferences:
@@ -2078,7 +2103,7 @@ Orphapacket:
             Source: OMIM
           Label: chloride voltage-gated channel Ka
           Symbol: CLCNKA
-      Label: Infantile Bartter syndrome with sensorineural deafness
+      Label: Bartter syndrome type 4
       ORPHAcode: '89938'
   - Child:
       Genes:
@@ -2305,6 +2330,6 @@ Orphapacket:
       ORPHAcode: '68361'
   Synonyms:
   - Synonym: Syndromic genetic hearing loss
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

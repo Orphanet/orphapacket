@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "435365",
-        "creationDate": "2021-08-17 17:32:38",
-        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
-        "copyright": "Orphanet (c) 2021",
+        "creationDate": "2022-06-14 15:58:09",
+        "version": "1.3.16 / 4.1.7 [2022-01-26] (orientdb version)",
+        "copyright": "Orphanet (c) 2022",
         "ORPHAcode": "435365",
         "Label": "Fetal lower urinary tract obstruction",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_435365",
@@ -20,6 +20,14 @@
             {
                 "Parent": [
                     {
+                        "ORPHAcode": "357506",
+                        "Label": "Genetic non-syndromic renal or urinary tract malformation"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
                         "ORPHAcode": "93546",
                         "Label": "Non-syndromic renal or urinary tract malformation"
                     }
@@ -32,45 +40,13 @@
                         "Label": "Non-syndromic urogenital tract malformation of male and female"
                     }
                 ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "357506",
-                        "Label": "Genetic non-syndromic renal or urinary tract malformation"
-                    }
-                ]
             }
         ],
         "Childs": [
             {
                 "Child": {
-                    "Label": "Prune belly syndrome",
-                    "ORPHAcode": "2970",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "cholinergic receptor muscarinic 3",
-                                "Symbol": "CHRM3",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "1952"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "118494"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Atresia of urethra",
-                    "ORPHAcode": "105",
+                    "Label": "Anterior urethral valve",
+                    "ORPHAcode": "435372",
                     "Genes": "no data"
                 }
             },
@@ -100,9 +76,33 @@
             },
             {
                 "Child": {
-                    "Label": "Anterior urethral valve",
-                    "ORPHAcode": "435372",
+                    "Label": "Atresia of urethra",
+                    "ORPHAcode": "105",
                     "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Prune belly syndrome",
+                    "ORPHAcode": "2970",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "cholinergic receptor muscarinic 3",
+                                "Symbol": "CHRM3",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "1952"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "118494"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             }
         ]

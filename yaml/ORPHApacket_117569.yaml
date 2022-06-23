@@ -1,7 +1,15 @@
 Orphapacket:
   Childs:
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '6119'
+            Source: HGNC
+          - Reference: '601900'
+            Source: OMIM
+          Label: interferon regulatory factor 4
+          Symbol: IRF4
       Label: Whipple disease
       ORPHAcode: '3452'
   - Child:
@@ -138,6 +146,10 @@ Orphapacket:
       ORPHAcode: '583861'
   - Child:
       Genes: no data
+      Label: Superior mesenteric artery syndrome
+      ORPHAcode: '622099'
+  - Child:
+      Genes: no data
       Label: Pouchitis
       ORPHAcode: '217067'
   - Child:
@@ -191,6 +203,6 @@ Orphapacket:
   - Parent:
     - Label: Rare gastroenterologic disease
       ORPHAcode: '97935'
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

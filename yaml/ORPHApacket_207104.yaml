@@ -1,7 +1,15 @@
 Orphapacket:
   Childs:
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '1480'
+            Source: HGNC
+          - Reference: '114240'
+            Source: OMIM
+          Label: calpain 3
+          Symbol: CAPN3
       Label: Calpain-3-related limb-girdle muscular dystrophy D4
       ORPHAcode: '565909'
   - Child:
@@ -14,7 +22,7 @@ Orphapacket:
             Source: OMIM
           Label: calpain 3
           Symbol: CAPN3
-      Label: Calpain-3-related  limb-girdle muscular dystrophy R1
+      Label: Calpain-3-related limb-girdle muscular dystrophy R1
       ORPHAcode: '267'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
@@ -27,6 +35,6 @@ Orphapacket:
   - Parent:
     - Label: Qualitative or quantitative protein defects in neuromuscular diseases
       ORPHAcode: '207049'
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

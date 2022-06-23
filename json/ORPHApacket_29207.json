@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "29207",
-        "creationDate": "2021-08-17 17:32:38",
-        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
-        "copyright": "Orphanet (c) 2021",
+        "creationDate": "2022-06-14 15:58:09",
+        "version": "1.3.16 / 4.1.7 [2022-01-26] (orientdb version)",
+        "copyright": "Orphanet (c) 2022",
         "ORPHAcode": "29207",
         "Label": "Reactive arthritis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_29207",
@@ -27,9 +27,33 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Reactive arthritis (ReA) is an autoimmune disorder belonging to the group of seronegative spondyloarthropathies and is characterized by the classic triad of arthritis urethritis and conjunctivitis."
+            "Contents": "A rare spondyloarthritis characterized by acute or chronic sterile synovitis with or without extra-articular manifestations becoming manifest after an infection."
         },
+        "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "HLA-B",
+                    "Name": "major histocompatibility complex, class I, B",
+                    "ExternalReferences": []
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "HLA-B",
+                    "Name": "major histocompatibility complex, class I, B",
+                    "ExternalReferences": []
+                }
+            }
+        ],
         "Parents": [
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "231957",
+                        "Label": "Disease associated with a genetic susceptibility or tested for a biomarker"
+                    }
+                ]
+            },
             {
                 "Parent": [
                     {
@@ -239,17 +263,27 @@
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "1-9 / 100 000",
                     "ValMoy": "0.0",
-                    "PrevalenceGeographic": "Europe"
+                    "PrevalenceGeographic": "Worldwide"
                 }
             ]
         },
-        "AverageAgeOfOnsets": {
-            "AverageAgeOfOnset": [
-                {
-                    "value": "All ages"
+        "AverageAgeOfOnsets": [
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Adolescent"
                 }
-            ]
-        },
+            },
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Adult"
+                }
+            },
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Elderly"
+                }
+            }
+        ],
         "AverageAgeOfDeaths": {
             "AverageAgeOfDeath": [
                 {
@@ -257,12 +291,17 @@
                 }
             ]
         },
-        "TypeOfInheritances": {
-            "TypeOfInheritance": [
-                {
+        "TypeOfInheritances": [
+            {
+                "TypeOfInheritance": {
+                    "value": "Multigenic/multifactorial"
+                }
+            },
+            {
+                "TypeOfInheritance": {
                     "value": "Not applicable"
                 }
-            ]
-        }
+            }
+        ]
     }
 }

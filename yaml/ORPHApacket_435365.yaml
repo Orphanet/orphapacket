@@ -1,21 +1,9 @@
 Orphapacket:
   Childs:
   - Child:
-      Genes:
-      - Gene:
-          ExternalReferences:
-          - Reference: '1952'
-            Source: HGNC
-          - Reference: '118494'
-            Source: OMIM
-          Label: cholinergic receptor muscarinic 3
-          Symbol: CHRM3
-      Label: Prune belly syndrome
-      ORPHAcode: '2970'
-  - Child:
       Genes: no data
-      Label: Atresia of urethra
-      ORPHAcode: '105'
+      Label: Anterior urethral valve
+      ORPHAcode: '435372'
   - Child:
       Genes:
       - Gene:
@@ -30,8 +18,20 @@ Orphapacket:
       ORPHAcode: '93110'
   - Child:
       Genes: no data
-      Label: Anterior urethral valve
-      ORPHAcode: '435372'
+      Label: Atresia of urethra
+      ORPHAcode: '105'
+  - Child:
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '1952'
+            Source: HGNC
+          - Reference: '118494'
+            Source: OMIM
+          Label: cholinergic receptor muscarinic 3
+          Symbol: CHRM3
+      Label: Prune belly syndrome
+      ORPHAcode: '2970'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
     value: Clinical group
@@ -41,16 +41,16 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_435365
   Parents:
   - Parent:
+    - Label: Genetic non-syndromic renal or urinary tract malformation
+      ORPHAcode: '357506'
+  - Parent:
     - Label: Non-syndromic renal or urinary tract malformation
       ORPHAcode: '93546'
   - Parent:
     - Label: Non-syndromic urogenital tract malformation of male and female
       ORPHAcode: '182124'
-  - Parent:
-    - Label: Genetic non-syndromic renal or urinary tract malformation
-      ORPHAcode: '357506'
   Synonyms:
   - Synonym: LUTO
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

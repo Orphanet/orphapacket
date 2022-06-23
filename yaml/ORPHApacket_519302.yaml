@@ -128,7 +128,15 @@ Orphapacket:
       Label: Occult macular dystrophy
       ORPHAcode: '247834'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '6055'
+            Source: HGNC
+          - Reference: '602870'
+            Source: OMIM
+          Label: interphotoreceptor matrix proteoglycan 1
+          Symbol: IMPG1
       Label: Benign concentric annular macular dystrophy
       ORPHAcode: '251287'
   - Child:
@@ -154,6 +162,6 @@ Orphapacket:
   - Parent:
     - Label: Isolated progressive inherited retinal disorder
       ORPHAcode: '519306'
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

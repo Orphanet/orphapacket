@@ -1,4 +1,9 @@
 Orphapacket:
+  AverageAgeOfDeaths:
+  - AverageAgeOfDeath:
+      value: Antenatal
+  - AverageAgeOfDeath:
+      value: Neonatal
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
@@ -33,22 +38,21 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_140
   Parents:
   - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-variable intellectual
-        disability syndrome
-      ORPHAcode: '102284'
-  - Parent:
     - Label: Syndrome with 46,XY disorder of sex development
       ORPHAcode: '98087'
   - Parent:
     - Label: Campomelic dysplasia and related disorders
       ORPHAcode: '93439'
   - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
+  - Parent:
     - Label: Syndrome with disorder of sex development of gynecological interest
       ORPHAcode: '325638'
   - Parent:
-    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-variable intellectual
-        disability syndrome
-      ORPHAcode: '330197'
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
+        disability
+      ORPHAcode: '611327'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
@@ -203,27 +207,13 @@ Orphapacket:
       HPOId: HP:0012368
       HPOTerm: Flat face
   Prevalences:
-  - Prevalence:
-      PrevalenceClass: 1-9 / 1 000 000
-      PrevalenceGeographic: Europe
-      PrevalenceQualification: Value and class
-      PrevalenceType: Prevalence at birth
-      Source: '[EXPERT]'
-      ValMoy: no data
-  - Prevalence:
-      PrevalenceClass: 1-5 / 10 000
-      PrevalenceGeographic: Norway
-      PrevalenceQualification: Value and class
-      PrevalenceType: Prevalence at birth
-      Source: 8482284[PMID]_ORPHANET
-      ValMoy: no data
-  - Prevalence:
-      PrevalenceClass: <1 / 1 000 000
-      PrevalenceGeographic: Europe
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
       PrevalenceQualification: Class only
       PrevalenceType: Point prevalence
       Source: ORPHANET
-      ValMoy: no data
+      ValMoy: '0.0'
   Synonyms:
   - Synonym: Campomelic dwarfism
   TextSection:
@@ -234,6 +224,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

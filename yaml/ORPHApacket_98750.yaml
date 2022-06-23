@@ -10,10 +10,18 @@ Orphapacket:
       ORPHAcode: '83467'
   - Child:
       Genes: no data
-      Label: Isaac syndrome
+      Label: Isaacs syndrome
       ORPHAcode: '84142'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '497'
+            Source: HGNC
+          - Reference: '604775'
+            Source: OMIM
+          Label: transient receptor potential cation channel subfamily A member 1
+          Symbol: TRPA1
       Label: Cramp-fasciculation syndrome
       ORPHAcode: '581271'
   DisorderType:
@@ -27,6 +35,6 @@ Orphapacket:
   - Parent:
     - Label: Muscular channelopathy
       ORPHAcode: '71864'
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

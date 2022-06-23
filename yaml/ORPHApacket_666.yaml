@@ -37,6 +37,14 @@ Orphapacket:
             Source: HGNC
           Label: collagen type I alpha 2 chain
           Symbol: COL1A2
+      - Gene:
+          ExternalReferences:
+          - Reference: '15455'
+            Source: HGNC
+          - Reference: '300294'
+            Source: OMIM
+          Label: membrane bound transcription factor peptidase, site 2
+          Symbol: MBTPS2
       Label: Osteogenesis imperfecta type 1
       ORPHAcode: '216796'
   - Child:
@@ -173,6 +181,14 @@ Orphapacket:
             Source: OMIM
           Label: Wnt family member 1
           Symbol: WNT1
+      - Gene:
+          ExternalReferences:
+          - Reference: '18345'
+            Source: HGNC
+          - Reference: '611357'
+            Source: OMIM
+          Label: terminal nucleotidyltransferase 5A
+          Symbol: TENT5A
       - Gene:
           ExternalReferences:
           - Reference: '1067'
@@ -378,19 +394,6 @@ Orphapacket:
         Term)
       Reference: '259440'
       Source: OMIM
-  Genes:
-  - Gene:
-      ExternalReferences: []
-      Name: terminal nucleotidyltransferase 5A
-      Symbol: TENT5A
-  - Gene:
-      ExternalReferences: []
-      Name: KDEL endoplasmic reticulum protein retention receptor 2
-      Symbol: KDELR2
-  - Gene:
-      ExternalReferences: []
-      Name: membrane bound transcription factor peptidase, site 2
-      Symbol: MBTPS2
   Label: Osteogenesis imperfecta
   ORPHAcode: '666'
   ORPHApacketId: '666'
@@ -846,56 +849,42 @@ Orphapacket:
       PrevalenceGeographic: Worldwide
       PrevalenceQualification: Value and class
       PrevalenceType: Point prevalence
-      Source: 'PMID: 31769437, 25944380, 24715559'
+      Source: 31769437[PMID]_25944380[PMID]_24715559[PMID]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
       PrevalenceGeographic: France
       PrevalenceQualification: Value and class
       PrevalenceType: Prevalence at birth
-      Source: 'PMID: 2785882'
+      Source: 2785882[PMID]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
       PrevalenceGeographic: Latin America
       PrevalenceQualification: Value and class
       PrevalenceType: Prevalence at birth
-      Source: 'PMID: 3746832'
+      Source: 3746832[PMID]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
       PrevalenceGeographic: Ireland
       PrevalenceQualification: Value and class
       PrevalenceType: Prevalence at birth
-      Source: 'PMID: 22375084'
+      Source: 22375084[PMID]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
       PrevalenceGeographic: United States
       PrevalenceQualification: Value and class
       PrevalenceType: Prevalence at birth
-      Source: 'PMID: 22461456, 24715559'
+      Source: 22461456[PMID]_24715559[PMID]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
       PrevalenceGeographic: Sweden
       PrevalenceQualification: Value and class
       PrevalenceType: Prevalence at birth
-      Source: 'PMID: 25944380'
-      ValMoy: no data
-  - Prevalence:
-      PrevalenceClass: no data
-      PrevalenceGeographic: China
-      PrevalenceQualification: Case
-      PrevalenceType: Cases/families
-      Source: 'PMID: 22913777'
-      ValMoy: no data
-  - Prevalence:
-      PrevalenceClass: no data
-      PrevalenceGeographic: Taiwan, Province of China
-      PrevalenceQualification: Case
-      PrevalenceType: Cases/families
-      Source: 'PMID: 26627451'
+      Source: 25944380[PMID]
       ValMoy: no data
   Synonyms:
   - Synonym: Brittle bone disease
@@ -914,6 +903,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

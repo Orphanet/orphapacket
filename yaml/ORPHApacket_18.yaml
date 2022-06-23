@@ -82,6 +82,11 @@ Orphapacket:
         Term)
       Reference: '611590'
       Source: OMIM
+  Genes:
+  - Gene:
+      ExternalReferences: []
+      Name: WD repeat domain 72
+      Symbol: WDR72
   Label: Distal renal tubular acidosis
   ORPHAcode: '18'
   ORPHApacketId: '18'
@@ -90,6 +95,9 @@ Orphapacket:
   - Parent:
     - Label: Primary renal tubular acidosis
       ORPHAcode: '314822'
+  - Parent:
+    - Label: Rare disorder potentially indicated for kidney transplant
+      ORPHAcode: '506213'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -253,10 +261,9 @@ Orphapacket:
   - Synonym: Renal tubular acidosis type 1
   - Synonym: dRTA
   TextSection:
-    Contents: Distal renal tubular acidosis (dRTA) is a disorder of impaired net acid
-      secretion by the distal tubule characterized by hyperchloremic metabolic acidosis.
-      The classic form is often associated with hypokalemia whereas other forms of
-      acquired dRTA may be associated with hypokalemia hyperkalemia or normokalemia.
+    Contents: A rare genetic or acquired renal tubular disease characterized by hyperchloremic
+      metabolic acidosis. Primary distal renal tubular acidosis (dRTA) is often associated
+      with hypokalemia other forms with hypokalemia hyperkalemia or normokalemia.
     TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
@@ -265,6 +272,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: Not applicable
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

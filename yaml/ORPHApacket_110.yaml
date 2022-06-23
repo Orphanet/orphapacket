@@ -6,6 +6,8 @@ Orphapacket:
   - AverageAgeOfOnset:
       value: Antenatal
   - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
@@ -205,6 +207,18 @@ Orphapacket:
       Symbol: IFT27
   - Gene:
       ExternalReferences: []
+      Name: intraflagellar transport 74
+      Symbol: IFT74
+  - Gene:
+      ExternalReferences: []
+      Name: centrosomal protein 19
+      Symbol: CEP19
+  - Gene:
+      ExternalReferences: []
+      Name: S-phase cyclin A associated protein in the ER
+      Symbol: SCAPER
+  - Gene:
+      ExternalReferences: []
       Name: cilia and flagella associated protein 418
       Symbol: CFAP418
   Label: Bardet-Biedl syndrome
@@ -213,20 +227,10 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_110
   Parents:
   - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-variable intellectual
-        disability syndrome
-      ORPHAcode: '102284'
-  - Parent:
-    - Label: Syndromic obesity
-      ORPHAcode: '240371'
-  - Parent:
-    - Label: Rare disorder with Hirschsprung disease as a major feature
-      ORPHAcode: '557866'
-  - Parent:
     - Label: Syndromic rod-cone dystrophy
       ORPHAcode: '98661'
   - Parent:
-    - Label: Nephropathy-associated ciliopathy
+    - Label: Renal ciliopathy
       ORPHAcode: '156162'
   - Parent:
     - Label: Rare disorder with multisystemic involvement and congenital hypogonadotropic
@@ -236,25 +240,34 @@ Orphapacket:
     - Label: Rare disease involving intestinal motility
       ORPHAcode: '104009'
   - Parent:
+    - Label: Syndromic obesity
+      ORPHAcode: '240371'
+  - Parent:
     - Label: Retinal ciliopathy due to mutation in nephronophthisis gene
       ORPHAcode: '156180'
   - Parent:
-    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-variable intellectual
-        disability syndrome
-      ORPHAcode: '330197'
+    - Label: Rare disorder with Hirschsprung disease as a major feature
+      ORPHAcode: '557866'
   - Parent:
     - Label: Rare disorder with female infertility due to a congenital hypogonadotropic
         hypogonadism
       ORPHAcode: '399846'
   - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
+        disability
+      ORPHAcode: '611327'
+  - Parent:
     - Label: Retinal ciliopathy due to mutation in Bardet-Biedl gene
       ORPHAcode: '156183'
   - Parent:
-    - Label: Familial cystic renal disease
+    - Label: Genetic cystic renal disease
       ORPHAcode: '93587'
   - Parent:
     - Label: Rare disorder potentially indicated for kidney transplant
       ORPHAcode: '506213'
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -368,13 +381,6 @@ Orphapacket:
       PrevalenceClass: 1-9 / 1 000 000
       PrevalenceGeographic: Europe
       PrevalenceQualification: Value and class
-      PrevalenceType: Point prevalence
-      Source: 5367041[PMID]_ORPHANET_[EXPERT]
-      ValMoy: no data
-  - Prevalence:
-      PrevalenceClass: 1-9 / 1 000 000
-      PrevalenceGeographic: Europe
-      PrevalenceQualification: Value and class
       PrevalenceType: Prevalence at birth
       Source: EUROCAT European surveillance of congenital anomalies 2005-2012[REG]
       ValMoy: no data
@@ -386,27 +392,6 @@ Orphapacket:
       Source: 22109794[PMID]
       ValMoy: no data
   - Prevalence:
-      PrevalenceClass: 1-9 / 1 000 000
-      PrevalenceGeographic: Switzerland
-      PrevalenceQualification: Value and class
-      PrevalenceType: Point prevalence
-      Source: 5367041[PMID]
-      ValMoy: no data
-  - Prevalence:
-      PrevalenceClass: 1-9 / 1 000 000
-      PrevalenceGeographic: United Kingdom
-      PrevalenceQualification: Value and class
-      PrevalenceType: Point prevalence
-      Source: 9039982[PMID]
-      ValMoy: no data
-  - Prevalence:
-      PrevalenceClass: 1-9 / 100 000
-      PrevalenceGeographic: Specific population
-      PrevalenceQualification: Value and class
-      PrevalenceType: Point prevalence
-      Source: 15637713[PMID]
-      ValMoy: no data
-  - Prevalence:
       PrevalenceClass: 1-9 / 100 000
       PrevalenceGeographic: United States
       PrevalenceQualification: Value and class
@@ -416,13 +401,15 @@ Orphapacket:
   Synonyms:
   - Synonym: BBS
   TextSection:
-    Contents: Bardet-Biedl syndrome (BBS) is a ciliopathy with multisystem involvement.
+    Contents: A rare genetic multisystem disorder characterized by the variable association
+      of retinal dystrophy obesity polydactyly genitourinary and kidney anomalies
+      learning disability and hypogonadism with a wide spectrum of other minor manifestations.
     TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: Oligogenic
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

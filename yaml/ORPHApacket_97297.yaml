@@ -1,4 +1,14 @@
 Orphapacket:
+  AverageAgeOfDeaths:
+  - AverageAgeOfDeath:
+      value: Antenatal
+  - AverageAgeOfDeath:
+      value: Neonatal
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
     value: Malformation syndrome
@@ -7,10 +17,6 @@ Orphapacket:
     Reference: '605039'
     Source: OMIM
   Genes:
-  - Gene:
-      ExternalReferences: []
-      Name: kelch like family member 7
-      Symbol: KLHL7
   - Gene:
       ExternalReferences: []
       Name: ASXL transcriptional regulator 1
@@ -24,11 +30,12 @@ Orphapacket:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
   - Parent:
-    - Label: Rare genetic syndromic intellectual disability
-      ORPHAcode: '183763'
+    - Label: Syndromic craniosynostosis
+      ORPHAcode: '139393'
   - Parent:
-    - Label: Rare syndromic intellectual disability
-      ORPHAcode: '102369'
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
+        disability
+      ORPHAcode: '611327'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -312,22 +319,16 @@ Orphapacket:
   - Synonym: Oberklaid-Danks syndrome
   - Synonym: Opitz trigonocephaly-like syndrome
   TextSection:
-    Contents: A rare life-threatening mutliple congenital anomalies syndrome characterized
-      by intrauterine growth restriction postnatal failure to thrive and facial dysmorphism
-      (microcephaly or trigonocephaly prominent glabellar nevus flammeus (simplex)
-      fading with age hypotonic facies low frontal and temporal hairline hirsutism
-      synophrys prominent or proptotic eyes hypertelorism upslanting palpebral fissures
-      depressed and wide nasal bridge anteverted nares full cheeks low-set and posteriorly
-      angulated ears cleft lip and/or palate high arched palate micrognathia and/or
-      retrognathia). A specific posture (BOS posture) is also reported characterized
-      by external rotation and/or adduction of the shoulders flexion at the elbows
-      and wrists ulnar deviation of the wrists and/or the metacarpophalangeal joints.
-      Additional features mainly include severe feeding difficulties chronic emesis
-      recurrent infections hypertrichosis seizures truncal hypotonia and hypertonic
-      extremities as well as cerebral ocular cardiac and other skeletal anomalies
-      central obesity severe intellectual disability sleep disturbance urinary retention
-      and an increased risk for renal stones and Wilms tumor.
+    Contents: A rare multiple congenital anomalies syndrome characterized by intrauterine
+      growth retardation (IUGR) postnatal failure to thrive severe feeding difficulties
+      microcephaly/trigonocephaly facial dysmorphism a recognizable upper limb posture
+      and severe developmental delay. The upper limb posture consists of internal
+      rotation of the shoulders flexion of the elbows ulnar deviation of wrists and/or
+      metacarpophalangeal joints.
     TextSectionType: Definition
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal dominant
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

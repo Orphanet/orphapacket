@@ -1,7 +1,15 @@
 Orphapacket:
   Childs:
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '604197'
+            Source: OMIM
+          - Reference: '7437'
+            Source: HGNC
+          Label: methenyltetrahydrofolate synthetase
+          Symbol: MTHFS
       Label: MTHFS-related developmental delay-microcephaly-short stature-epilepsy
         syndrome
       ORPHAcode: '597874'
@@ -76,6 +84,6 @@ Orphapacket:
   - Parent:
     - Label: Disorder of vitamin and non-protein cofactor absorption and transport
       ORPHAcode: '309827'
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

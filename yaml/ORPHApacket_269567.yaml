@@ -26,7 +26,7 @@ Orphapacket:
             Source: HGNC
           - Reference: '615068'
             Source: OMIM
-          Label: ectopic P-granules autophagy protein 5 homolog
+          Label: ectopic P-granules 5 autophagy tethering factor
           Symbol: EPG5
       Label: Vici syndrome
       ORPHAcode: '1493'
@@ -203,7 +203,7 @@ Orphapacket:
             Source: HGNC
           - Reference: '614571'
             Source: OMIM
-          Label: ciliogenesis and planar polarity effector 1
+          Label: ciliogenesis and planar polarity effector complex subunit 1
           Symbol: CPLANE1
       - Gene:
           ExternalReferences:
@@ -221,6 +221,14 @@ Orphapacket:
             Source: OMIM
           Label: phosphodiesterase 6D
           Symbol: PDE6D
+      - Gene:
+          ExternalReferences:
+          - Reference: '21653'
+            Source: HGNC
+          - Reference: '609507'
+            Source: OMIM
+          Label: TOP1 binding arginine/serine rich protein, E3 ubiquitin ligase
+          Symbol: TOPORS
       - Gene:
           ExternalReferences:
           - Reference: '29110'
@@ -598,6 +606,10 @@ Orphapacket:
           Symbol: SLC39A8
       Label: SLC39A8-CDG
       ORPHAcode: '468699'
+  - Child:
+      Genes: no data
+      Label: EN1-related dorsoventral syndrome
+      ORPHAcode: '611223'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -610,6 +622,6 @@ Orphapacket:
     - Label: Genetic syndrome with a central nervous system malformation as a major
         feature
       ORPHAcode: '269564'
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

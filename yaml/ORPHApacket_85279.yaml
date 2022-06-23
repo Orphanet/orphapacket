@@ -14,7 +14,7 @@ Orphapacket:
       ExternalReferences: []
       Name: lysine demethylase 5C
       Symbol: KDM5C
-  Label: Syndromic X-linked intellectual disability due to JARID1C mutation
+  Label: KDM5C-related syndromic X-linked intellectual disability
   ORPHAcode: '85279'
   ORPHApacketId: '85279'
   PURL: http://www.orpha.net/ORDO/Orphanet_85279
@@ -23,11 +23,12 @@ Orphapacket:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
   - Parent:
-    - Label: X-linked syndromic intellectual disability
-      ORPHAcode: '98464'
-  - Parent:
     - Label: Monogenic disease with epilepsy
       ORPHAcode: '166472'
+  - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
+        disability
+      ORPHAcode: '611327'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -145,17 +146,14 @@ Orphapacket:
       Source: ORPHANET
       ValMoy: no data
   TextSection:
-    Contents: Syndromic X-linked intellectual disability due to JARID1C mutation is
-      characterised by mild to severe intellectual deficit associated with variable
-      clinical manifestations including spasticity cryptorchidism maxillary hypoplasia
-      alopecia areata epilepsy short stature impaired speech and behavioural problems.
-      To date it has been described in less than 15 families. Transmission is X-linked
-      recessive and the syndrome is caused by mutations in the <i>JARID1C</i> (<i>SMCX</i>)
-      gene encoding a JmjC-domain protein with histone demethylase activity.
+    Contents: A rare multiple congenital anomalies/dysmorphic syndrome characterized
+      by mild to severe intellectual deficit associated with variable clinical manifestations
+      including spasticity cryptorchidism maxillary hypoplasia alopecia areata epilepsy
+      short stature impaired speech and behavioral problems.
     TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

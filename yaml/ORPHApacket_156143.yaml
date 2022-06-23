@@ -29,7 +29,15 @@ Orphapacket:
       Label: Vasculitis due to ADA2 deficiency
       ORPHAcode: '404553'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '12469'
+            Source: HGNC
+          - Reference: '314370'
+            Source: OMIM
+          Label: ubiquitin like modifier activating enzyme 1
+          Symbol: UBA1
       Label: VEXAS syndrome
       ORPHAcode: '596753'
   DisorderType:
@@ -43,6 +51,6 @@ Orphapacket:
   - Parent:
     - Label: Vasculitis
       ORPHAcode: '52759'
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

@@ -22,11 +22,6 @@ Orphapacket:
   - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '619263'
     Source: OMIM
-  Genes:
-  - Gene:
-      ExternalReferences: []
-      Name: dishevelled associated activator of morphogenesis 2
-      Symbol: DAAM2
   Label: Idiopathic steroid-resistant nephrotic syndrome
   ORPHAcode: '567548'
   ORPHApacketId: '567548'
@@ -133,15 +128,28 @@ Orphapacket:
       HPOId: HP:0004936
       HPOTerm: Venous thrombosis
   Prevalences:
-    Prevalence:
-    - PrevalenceClass: Unknown
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 30552564[PMID]_ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: Unknown
       PrevalenceGeographic: Worldwide
       PrevalenceQualification: Class only
       PrevalenceType: Point prevalence
       Source: ORPHANET
-      ValMoy: '0.0'
+      ValMoy: no data
   Synonyms:
   - Synonym: Idiopathic SRNS
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  TextSection:
+    Contents: A rare idiopathic nephrotic syndrome characterized by the triad of proteinuria
+      hypoalbuminemia and edema in patients who do not respond or only partially respond
+      to the initial trial of corticosteroids. Patients may be multidrug resistant
+      or may be sensitive to second-line immunosuppressive therapy.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

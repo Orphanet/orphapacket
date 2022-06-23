@@ -11,7 +11,15 @@ Orphapacket:
       value: Neonatal
   Childs:
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '9208'
+            Source: HGNC
+          - Reference: '124015'
+            Source: OMIM
+          Label: cytochrome p450 oxidoreductase
+          Symbol: POR
       Label: Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis
       ORPHAcode: '63269'
   - Child:
@@ -33,31 +41,21 @@ Orphapacket:
   - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '207410'
     Source: OMIM
-  Genes:
-  - Gene:
-      ExternalReferences: []
-      Name: cytochrome p450 oxidoreductase
-      Symbol: POR
-  - Gene:
-      ExternalReferences: []
-      Name: fibroblast growth factor receptor 2
-      Symbol: FGFR2
   Label: Antley-Bixler syndrome
   ORPHAcode: '83'
   ORPHApacketId: '83'
   PURL: http://www.orpha.net/ORDO/Orphanet_83
   Parents:
   - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-variable intellectual
-        disability syndrome
-      ORPHAcode: '102284'
-  - Parent:
     - Label: Syndromic craniosynostosis
       ORPHAcode: '139393'
   - Parent:
-    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-variable intellectual
-        disability syndrome
-      ORPHAcode: '330197'
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
+  - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
+        disability
+      ORPHAcode: '611327'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
@@ -196,6 +194,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

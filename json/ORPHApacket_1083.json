@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1083",
-        "creationDate": "2021-08-17 17:32:38",
-        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
-        "copyright": "Orphanet (c) 2021",
+        "creationDate": "2022-06-14 15:58:09",
+        "version": "1.3.16 / 4.1.7 [2022-01-26] (orientdb version)",
+        "copyright": "Orphanet (c) 2022",
         "ORPHAcode": "1083",
         "Label": "Microlissencephaly",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_1083",
@@ -31,22 +31,6 @@
             "TextSectionType": "Definition",
             "Contents": "Microlissencephaly describes a heterogenous group of a rare cortical malformations characterized by lissencephaly in combination with severe congenital microcephaly presenting with spasticity severe developmental delay and seizures and with survival varying from days to years."
         },
-        "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "NDE1",
-                    "Name": "nudE neurodevelopment protein 1",
-                    "ExternalReferences": []
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "KATNB1",
-                    "Name": "katanin regulatory subunit B1",
-                    "ExternalReferences": []
-                }
-            }
-        ],
         "Parents": [
             {
                 "Parent": [
@@ -81,6 +65,38 @@
                     "Genes": [
                         {
                             "Gene": {
+                                "Label": "nudE neurodevelopment protein 1",
+                                "Symbol": "NDE1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "17619"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "609449"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "katanin regulatory subunit B1",
+                                "Symbol": "KATNB1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "6217"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "602703"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Gene": {
                                 "Label": "reelin",
                                 "Symbol": "RELN",
                                 "ExternalReferences": [
@@ -96,6 +112,162 @@
                             }
                         }
                     ]
+                }
+            }
+        ],
+        "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000252",
+                    "HPOTerm": "Microcephaly",
+                    "HPOFrequency": "Obligate (100%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000750",
+                    "HPOTerm": "Delayed speech and language development",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001263",
+                    "HPOTerm": "Global developmental delay",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002079",
+                    "HPOTerm": "Hypoplasia of the corpus callosum",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007190",
+                    "HPOTerm": "Neuronal loss in the cerebral cortex",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007266",
+                    "HPOTerm": "Cerebral dysmyelination",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010864",
+                    "HPOTerm": "Intellectual disability, severe",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0025190",
+                    "HPOTerm": "Generalized tonic-clonic seizures without focal onset",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001276",
+                    "HPOTerm": "Hypertonia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001339",
+                    "HPOTerm": "Lissencephaly",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001347",
+                    "HPOTerm": "Hyperreflexia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001999",
+                    "HPOTerm": "Abnormal facial shape",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002119",
+                    "HPOTerm": "Ventriculomegaly",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002120",
+                    "HPOTerm": "Cerebral cortical atrophy",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0006891",
+                    "HPOTerm": "Thick cerebral cortex",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001272",
+                    "HPOTerm": "Cerebellar atrophy",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001302",
+                    "HPOTerm": "Pachygyria",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002090",
+                    "HPOTerm": "Pneumonia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002126",
+                    "HPOTerm": "Polymicrogyria",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007165",
+                    "HPOTerm": "Periventricular heterotopia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0009879",
+                    "HPOTerm": "Simplified gyral pattern",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0032391",
+                    "HPOTerm": "Subcortical heterotopia",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             }
         ],

@@ -1,11 +1,11 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "217253",
-        "creationDate": "2021-08-17 17:32:38",
-        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
-        "copyright": "Orphanet (c) 2021",
+        "creationDate": "2022-06-14 15:58:09",
+        "version": "1.3.16 / 4.1.7 [2022-01-26] (orientdb version)",
+        "copyright": "Orphanet (c) 2022",
         "ORPHAcode": "217253",
-        "Label": "Limbic encephalitis with NMDA receptor antibodies",
+        "Label": "NMDA receptor encephalitis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_217253",
         "DisorderType": {
             "value": "Disease",
@@ -14,6 +14,18 @@
         "Synonyms": [
             {
                 "Synonym": "Limbic encephalitis with N-methyl-D-aspartate receptor antibodies"
+            },
+            {
+                "Synonym": "Limbic encephalitis with NMDA receptor antibodies"
+            },
+            {
+                "Synonym": "N-methyl-D-aspartate receptor encephalitis"
+            },
+            {
+                "Synonym": "NMDARE"
+            },
+            {
+                "Synonym": "anti-NMDA receptor encephalitis"
             }
         ],
         "TextSection": {
@@ -24,18 +36,383 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "163895",
-                        "Label": "Paraneoplastic limbic encephalitis"
+                        "ORPHAcode": "622014",
+                        "Label": "Autoimmune encephalitis"
                     }
                 ]
+            }
+        ],
+        "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000708",
+                    "HPOTerm": "Behavioral abnormality",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
             },
             {
-                "Parent": [
-                    {
-                        "ORPHAcode": "163918",
-                        "Label": "Non-paraneoplastic limbic encephalitis"
-                    }
-                ]
+                "Phenotype": {
+                    "HPOId": "HP:0000736",
+                    "HPOTerm": "Short attention span",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001250",
+                    "HPOTerm": "Seizures",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001289",
+                    "HPOTerm": "Confusion",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002354",
+                    "HPOTerm": "Memory impairment",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012229",
+                    "HPOTerm": "CSF pleocytosis",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0032264",
+                    "HPOTerm": "Anti-NMDA receptor antibody positivity",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0032266",
+                    "HPOTerm": "CSF anti-NMDA receptor antibody positivity",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000738",
+                    "HPOTerm": "Hallucinations",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000739",
+                    "HPOTerm": "Anxiety",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000746",
+                    "HPOTerm": "Delusions",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001945",
+                    "HPOTerm": "Fever",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002013",
+                    "HPOTerm": "Vomiting",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002014",
+                    "HPOTerm": "Diarrhea",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002315",
+                    "HPOTerm": "Headache",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004305",
+                    "HPOTerm": "Involuntary movements",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011289",
+                    "HPOTerm": "EEG with temporal sharp slow waves",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012226",
+                    "HPOTerm": "Ovarian teratoma",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012332",
+                    "HPOTerm": "Abnormal autonomic nervous system physiology",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100660",
+                    "HPOTerm": "Dyskinesia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100754",
+                    "HPOTerm": "Mania",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100785",
+                    "HPOTerm": "Insomnia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000709",
+                    "HPOTerm": "Psychosis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000713",
+                    "HPOTerm": "Agitation",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000716",
+                    "HPOTerm": "Depressivity",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000733",
+                    "HPOTerm": "Stereotypy",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001266",
+                    "HPOTerm": "Choreoathetosis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001278",
+                    "HPOTerm": "Orthostatic hypotension",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001332",
+                    "HPOTerm": "Dystonia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001336",
+                    "HPOTerm": "Myoclonus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002063",
+                    "HPOTerm": "Rigidity",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002072",
+                    "HPOTerm": "Chorea",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002133",
+                    "HPOTerm": "Status epilepticus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002179",
+                    "HPOTerm": "Opisthotonus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002197",
+                    "HPOTerm": "Generalized-onset seizure",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002300",
+                    "HPOTerm": "Mutism",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002310",
+                    "HPOTerm": "Orofacial dyskinesia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002371",
+                    "HPOTerm": "Loss of speech",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002463",
+                    "HPOTerm": "Language impairment",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003781",
+                    "HPOTerm": "Excessive salivation",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007359",
+                    "HPOTerm": "Focal-onset seizure",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008763",
+                    "HPOTerm": "No social interaction",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010553",
+                    "HPOTerm": "Oculogyric crisis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012173",
+                    "HPOTerm": "Orthostatic tachycardia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012333",
+                    "HPOTerm": "Abnormal sudomotor regulation",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0030214",
+                    "HPOTerm": "Hypersexuality",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0031258",
+                    "HPOTerm": "Delirium",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003006",
+                    "HPOTerm": "Neuroblastoma",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012189",
+                    "HPOTerm": "Hodgkin lymphoma",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100013",
+                    "HPOTerm": "Neoplasm of the breast",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100521",
+                    "HPOTerm": "Neoplasm of the thymus",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100526",
+                    "HPOTerm": "Neoplasm of the lung",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100616",
+                    "HPOTerm": "Testicular teratoma",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
             }
         ],
         "Prevalences": {

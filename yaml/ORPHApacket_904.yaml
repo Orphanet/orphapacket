@@ -18,6 +18,22 @@ Orphapacket:
       Symbol: STX1A
   - Gene:
       ExternalReferences: []
+      Name: transducin beta like 2
+      Symbol: TBL2
+  - Gene:
+      ExternalReferences: []
+      Name: GTF2I repeat domain containing 2
+      Symbol: GTF2IRD2
+  - Gene:
+      ExternalReferences: []
+      Name: VPS37D subunit of ESCRT-I
+      Symbol: VPS37D
+  - Gene:
+      ExternalReferences: []
+      Name: FKBP prolyl isomerase family member 6 (inactive)
+      Symbol: FKBP6
+  - Gene:
+      ExternalReferences: []
       Name: replication factor C subunit 2
       Symbol: RFC2
   - Gene:
@@ -26,16 +42,16 @@ Orphapacket:
       Symbol: NCF1
   - Gene:
       ExternalReferences: []
-      Name: FKBP prolyl isomerase family member 6 (inactive)
-      Symbol: FKBP6
+      Name: transmembrane protein 270
+      Symbol: TMEM270
   - Gene:
       ExternalReferences: []
       Name: MLX interacting protein like
       Symbol: MLXIPL
   - Gene:
       ExternalReferences: []
-      Name: VPS37D subunit of ESCRT-I
-      Symbol: VPS37D
+      Name: eukaryotic translation initiation factor 4H
+      Symbol: EIF4H
   - Gene:
       ExternalReferences: []
       Name: DnaJ heat shock protein family (Hsp40) member C30
@@ -46,44 +62,16 @@ Orphapacket:
       Symbol: BCL7B
   - Gene:
       ExternalReferences: []
-      Name: abhydrolase domain containing 11
-      Symbol: ABHD11
-  - Gene:
-      ExternalReferences: []
-      Name: claudin 3
-      Symbol: CLDN3
-  - Gene:
-      ExternalReferences: []
-      Name: claudin 4
-      Symbol: CLDN4
-  - Gene:
-      ExternalReferences: []
-      Name: eukaryotic translation initiation factor 4H
-      Symbol: EIF4H
-  - Gene:
-      ExternalReferences: []
-      Name: linker for activation of T cells family member 2
-      Symbol: LAT2
+      Name: methyltransferase like 27
+      Symbol: METTL27
   - Gene:
       ExternalReferences: []
       Name: BUD23 rRNA methyltransferase and ribosome maturation factor
       Symbol: BUD23
   - Gene:
       ExternalReferences: []
-      Name: methyltransferase like 27
-      Symbol: METTL27
-  - Gene:
-      ExternalReferences: []
-      Name: transmembrane protein 270
-      Symbol: TMEM270
-  - Gene:
-      ExternalReferences: []
       Name: bromodomain adjacent to zinc finger domain 1B
       Symbol: BAZ1B
-  - Gene:
-      ExternalReferences: []
-      Name: transducin beta like 2
-      Symbol: TBL2
   - Gene:
       ExternalReferences: []
       Name: CAP-Gly domain containing linker protein 2
@@ -104,10 +92,6 @@ Orphapacket:
       ExternalReferences: []
       Name: LIM domain kinase 1
       Symbol: LIMK1
-  - Gene:
-      ExternalReferences: []
-      Name: GTF2I repeat domain containing 2
-      Symbol: GTF2IRD2
   Label: Williams syndrome
   ORPHAcode: '904'
   ORPHApacketId: '904'
@@ -116,6 +100,9 @@ Orphapacket:
   - Parent:
     - Label: Malformation syndrome with short stature
       ORPHAcode: '139021'
+  - Parent:
+    - Label: Syndromic craniosynostosis
+      ORPHAcode: '139393'
   - Parent:
     - Label: Partial deletion of the long arm of chromosome 7
       ORPHAcode: '262056'
@@ -129,23 +116,24 @@ Orphapacket:
     - Label: Rare syndrome with cardiac malformations
       ORPHAcode: '156532'
   - Parent:
-    - Label: Rare syndromic intellectual disability
-      ORPHAcode: '102369'
-  - Parent:
-    - Label: Motor stereotypies
-      ORPHAcode: '306765'
-  - Parent:
-    - Label: Rare neurologic disease with psychiatric involvement
-      ORPHAcode: '98033'
-  - Parent:
     - Label: Rare genetic cause of hypertension
       ORPHAcode: '156629'
   - Parent:
     - Label: Genetic malformation syndrome with short stature
       ORPHAcode: '183570'
   - Parent:
-    - Label: Rare genetic syndromic intellectual disability
-      ORPHAcode: '183763'
+    - Label: Motor stereotypies
+      ORPHAcode: '306765'
+  - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
+        disability
+      ORPHAcode: '611327'
+  - Parent:
+    - Label: Rare disorder potentially indicated for kidney transplant
+      ORPHAcode: '506213'
+  - Parent:
+    - Label: Rare neurologic disease with psychiatric involvement
+      ORPHAcode: '98033'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
@@ -947,6 +935,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2021
-  creationDate: '2021-08-17 17:32:38'
-  version: 1.3.7 / 4.1.7 [2020-12-03] (orientdb version)
+  copyright: Orphanet (c) 2022
+  creationDate: '2022-06-14 15:58:09'
+  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)

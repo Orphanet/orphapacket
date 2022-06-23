@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2332",
-        "creationDate": "2021-08-17 17:32:38",
-        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
-        "copyright": "Orphanet (c) 2021",
+        "creationDate": "2022-06-14 15:58:09",
+        "version": "1.3.16 / 4.1.7 [2022-01-26] (orientdb version)",
+        "copyright": "Orphanet (c) 2022",
         "ORPHAcode": "2332",
         "Label": "KBG syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2332",
@@ -31,20 +31,12 @@
             {
                 "Gene": {
                     "Symbol": "ANKRD11",
-                    "Name": "ankyrin repeat domain 11",
+                    "Name": "ankyrin repeat domain containing 11",
                     "ExternalReferences": []
                 }
             }
         ],
         "Parents": [
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "102369",
-                        "Label": "Rare syndromic intellectual disability"
-                    }
-                ]
-            },
             {
                 "Parent": [
                     {
@@ -56,8 +48,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "183763",
-                        "Label": "Rare genetic syndromic intellectual disability"
+                        "ORPHAcode": "139393",
+                        "Label": "Syndromic craniosynostosis"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "139042",
+                        "Label": "Malformation syndrome with odontal and/or periodontal component"
                     }
                 ]
             },
@@ -72,8 +72,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "139042",
-                        "Label": "Malformation syndrome with odontal and/or periodontal component"
+                        "ORPHAcode": "611327",
+                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
                     }
                 ]
             }
@@ -360,28 +360,18 @@
                 }
             }
         ],
-        "Prevalences": [
-            {
-                "Prevalence": {
+        "Prevalences": {
+            "Prevalence": [
+                {
                     "Source": "21782149[PMID]_29565525[PMID]",
                     "PrevalenceType": "Cases/families",
                     "PrevalenceQualification": "Case",
                     "PrevalenceClass": "no data",
-                    "ValMoy": "no data",
+                    "ValMoy": "164.0",
                     "PrevalenceGeographic": "Worldwide"
                 }
-            },
-            {
-                "Prevalence": {
-                    "Source": "ORPHANET_29565525[PMID]",
-                    "PrevalenceType": "Point prevalence",
-                    "PrevalenceQualification": "Class only",
-                    "PrevalenceClass": "<1 / 1 000 000",
-                    "ValMoy": "no data",
-                    "PrevalenceGeographic": "Worldwide"
-                }
-            }
-        ],
+            ]
+        },
         "AverageAgeOfOnsets": [
             {
                 "AverageAgeOfOnset": {

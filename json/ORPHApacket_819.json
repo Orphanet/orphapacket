@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "819",
-        "creationDate": "2021-08-17 17:32:38",
-        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
-        "copyright": "Orphanet (c) 2021",
+        "creationDate": "2022-06-14 15:58:09",
+        "version": "1.3.16 / 4.1.7 [2022-01-26] (orientdb version)",
+        "copyright": "Orphanet (c) 2022",
         "ORPHAcode": "819",
         "Label": "Smith-Magenis syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_819",
@@ -44,13 +44,6 @@
             },
             {
                 "Gene": {
-                    "Symbol": "RAI1",
-                    "Name": "retinoic acid induced 1",
-                    "ExternalReferences": []
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "FLII",
                     "Name": "FLII actin remodeling protein",
                     "ExternalReferences": []
@@ -68,14 +61,6 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "102369",
-                        "Label": "Rare syndromic intellectual disability"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
                         "ORPHAcode": "180772",
                         "Label": "Rare disease with autism"
                     }
@@ -84,8 +69,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "183763",
-                        "Label": "Rare genetic syndromic intellectual disability"
+                        "ORPHAcode": "102283",
+                        "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
                     }
                 ]
             },
@@ -108,8 +93,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "102283",
-                        "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
+                        "ORPHAcode": "611327",
+                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
                     }
                 ]
             }
@@ -696,6 +681,21 @@
         "AverageAgeOfOnsets": [
             {
                 "AverageAgeOfOnset": {
+                    "value": "Adolescent"
+                }
+            },
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Adult"
+                }
+            },
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Childhood"
+                }
+            },
+            {
+                "AverageAgeOfOnset": {
                     "value": "Infancy"
                 }
             },
@@ -712,17 +712,12 @@
                 }
             ]
         },
-        "TypeOfInheritances": [
-            {
-                "TypeOfInheritance": {
-                    "value": "Not applicable"
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Autosomal dominant"
                 }
-            },
-            {
-                "TypeOfInheritance": {
-                    "value": "Unknown"
-                }
-            }
-        ]
+            ]
+        }
     }
 }

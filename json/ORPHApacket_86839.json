@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "86839",
-        "creationDate": "2021-08-17 17:32:38",
-        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
-        "copyright": "Orphanet (c) 2021",
+        "creationDate": "2022-06-14 15:58:09",
+        "version": "1.3.16 / 4.1.7 [2022-01-26] (orientdb version)",
+        "copyright": "Orphanet (c) 2022",
         "ORPHAcode": "86839",
         "Label": "Refractory anemia with excess blasts",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_86839",
@@ -20,15 +20,6 @@
             "TextSectionType": "Definition",
             "Contents": "Refractory anemia with excess blasts (RAEB) is a frequent severe subtype of myelodysplastic syndrome (MDS; see this term) characterized by cytopenias with unilineage or multilineage dysplasia and 5% to 19% blasts in bone marrow or blood."
         },
-        "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "TET2",
-                    "Name": "tet methylcytosine dioxygenase 2",
-                    "ExternalReferences": []
-                }
-            }
-        ],
         "Parents": [
             {
                 "Parent": [
@@ -44,14 +35,48 @@
                 "Child": {
                     "Label": "Refractory anemia with excess blasts type 1",
                     "ORPHAcode": "100019",
-                    "Genes": "no data"
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "tet methylcytosine dioxygenase 2",
+                                "Symbol": "TET2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "25941"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "612839"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             },
             {
                 "Child": {
                     "Label": "Refractory anemia with excess blasts type 2",
                     "ORPHAcode": "100020",
-                    "Genes": "no data"
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "tet methylcytosine dioxygenase 2",
+                                "Symbol": "TET2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "25941"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "612839"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             }
         ],
@@ -164,7 +189,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0010876",
-                    "HPOTerm": "Abnormality of circulating protein level",
+                    "HPOTerm": "Abnormal circulating protein level",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },

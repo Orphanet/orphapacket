@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "576",
-        "creationDate": "2021-08-17 17:32:38",
-        "version": "1.3.7 / 4.1.7 [2020-12-03] (orientdb version)",
-        "copyright": "Orphanet (c) 2021",
+        "creationDate": "2022-06-14 15:58:09",
+        "version": "1.3.16 / 4.1.7 [2022-01-26] (orientdb version)",
+        "copyright": "Orphanet (c) 2022",
         "ORPHAcode": "576",
         "Label": "Mucolipidosis type II",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_576",
@@ -31,7 +31,7 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Mucolipidosis II (MLII) is a slowly progressive lysosomal disorder characterized by growth retardation skeletal abnormalities facial dysmorphism stiff skin developmental delay and cardiomegaly."
+            "Contents": "A rare severe form of mucolipidosis characterized by growth retardation skeletal abnormalities (dysostosis multiplex craniosynostosis contractures of the joints and osteopenia) facial dysmorphism stiff skin obstructive airway cardiomegaly and severe global developmental delay."
         },
         "Genes": [
             {
@@ -48,6 +48,22 @@
                     {
                         "ORPHAcode": "79212",
                         "Label": "Mucolipidosis"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "611327",
+                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "102283",
+                        "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
                     }
                 ]
             },
@@ -506,7 +522,7 @@
         "Prevalences": [
             {
                 "Prevalence": {
-                    "Source": "14685153[PMID]_10480370[PMID]_20301728[PMID]_ORPHANET",
+                    "Source": "10480370[PMID]_14685153[PMID]_ 25274184[PMID]_ORPHANET",
                     "PrevalenceType": "Prevalence at birth",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 1 000 000",
@@ -546,26 +562,6 @@
             },
             {
                 "Prevalence": {
-                    "Source": "2998652[PMID]",
-                    "PrevalenceType": "Prevalence at birth",
-                    "PrevalenceQualification": "Value and class",
-                    "PrevalenceClass": "1-9 / 1 000 000",
-                    "ValMoy": "no data",
-                    "PrevalenceGeographic": "Japan"
-                }
-            },
-            {
-                "Prevalence": {
-                    "Source": "20301728[PMID]",
-                    "PrevalenceType": "Prevalence at birth",
-                    "PrevalenceQualification": "Value and class",
-                    "PrevalenceClass": "1-9 / 100 000",
-                    "ValMoy": "no data",
-                    "PrevalenceGeographic": "Ireland"
-                }
-            },
-            {
-                "Prevalence": {
                     "Source": "18190596[PMID]_1937486[PMID]",
                     "PrevalenceType": "Prevalence at birth",
                     "PrevalenceQualification": "Value and class",
@@ -585,22 +581,27 @@
                 }
             }
         ],
-        "AverageAgeOfOnsets": {
-            "AverageAgeOfOnset": [
-                {
+        "AverageAgeOfOnsets": [
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Antenatal"
+                }
+            },
+            {
+                "AverageAgeOfOnset": {
                     "value": "Neonatal"
                 }
-            ]
-        },
+            }
+        ],
         "AverageAgeOfDeaths": [
             {
                 "AverageAgeOfDeath": {
-                    "value": "no data"
+                    "value": "Antenatal"
                 }
             },
             {
                 "AverageAgeOfDeath": {
-                    "value": "no data"
+                    "value": "Neonatal"
                 }
             }
         ],
