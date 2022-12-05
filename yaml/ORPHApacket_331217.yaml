@@ -118,6 +118,14 @@ Orphapacket:
             Source: OMIM
           Label: poly(A)-specific ribonuclease
           Symbol: PARN
+      - Gene:
+          ExternalReferences:
+          - Reference: '12441'
+            Source: HGNC
+          - Reference: '188350'
+            Source: OMIM
+          Label: thymidylate synthetase
+          Symbol: TYMS
       Label: Dyskeratosis congenita
       ORPHAcode: '1775'
   - Child:
@@ -406,7 +414,15 @@ Orphapacket:
       Label: Combined immunodeficiency-enteropathy spectrum
       ORPHAcode: '436252'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '7782'
+            Source: HGNC
+          - Reference: '600492'
+            Source: OMIM
+          Label: NFE2 like bZIP transcription factor 2
+          Symbol: NFE2L2
       Label: Developmental delay-immunodeficiency-leukoencephalopathy-hypohomocysteinemia
         syndrome
       ORPHAcode: '619979'
@@ -422,5 +438,5 @@ Orphapacket:
     - Label: Primary immunodeficiency due to a defect in adaptive immunity
       ORPHAcode: '179006'
   copyright: Orphanet (c) 2022
-  creationDate: '2022-06-14 15:58:09'
-  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)
+  creationDate: '2022-11-28 11:04:13'
+  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)

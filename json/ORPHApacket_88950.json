@@ -1,8 +1,8 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "88950",
-        "creationDate": "2022-06-14 15:58:09",
-        "version": "1.3.16 / 4.1.7 [2022-01-26] (orientdb version)",
+        "creationDate": "2022-11-28 11:04:13",
+        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
         "copyright": "Orphanet (c) 2022",
         "ORPHAcode": "88950",
         "Label": "UMOD-related autosomal dominant tubulointerstitial kidney disease",
@@ -38,6 +38,10 @@
                 "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
             }
         ],
+        "TextSection": {
+            "TextSectionType": "Definition",
+            "Contents": "A form of autosomal dominant tubulointerstitial kidney disease (ADTKD) due to <i>UMOD</i> mutations that is clinically characterized by bland urinalysis (absence of blood or protein in the urine) chronic kidney disease (CKD) leading to end-stage kidney disease (ESKD) between 20 and 80 years and gout occurring in 50% of affected individuals."
+        },
         "Genes": [
             {
                 "Gene": {
@@ -65,25 +69,50 @@
                 ]
             }
         ],
-        "Prevalences": {
-            "Prevalence": [
-                {
+        "Prevalences": [
+            {
+                "Prevalence": {
+                    "Source": "22740033[PMID]",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 1 000 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Austria"
+                }
+            },
+            {
+                "Prevalence": {
+                    "Source": "30376835[PMID]",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 1 000 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "United Kingdom"
+                }
+            },
+            {
+                "Prevalence": {
                     "Source": "ORPHANET_21868615[PMID]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "Unknown",
-                    "ValMoy": "0.0",
+                    "ValMoy": "no data",
                     "PrevalenceGeographic": "Worldwide"
                 }
-            ]
-        },
-        "AverageAgeOfOnsets": {
-            "AverageAgeOfOnset": [
-                {
-                    "value": "All ages"
+            }
+        ],
+        "AverageAgeOfOnsets": [
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Adolescent"
                 }
-            ]
-        },
+            },
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Adult"
+                }
+            }
+        ],
         "TypeOfInheritances": {
             "TypeOfInheritance": [
                 {

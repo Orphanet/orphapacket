@@ -9,7 +9,15 @@ Orphapacket:
       Label: Idiopathic chronic eosinophilic pneumonia
       ORPHAcode: '2902'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '7516'
+            Source: HGNC
+          - Reference: '600770'
+            Source: OMIM
+          Label: mucin 5B, oligomeric mucus/gel-forming
+          Symbol: MUC5B
       Label: Hypersensitivity pneumonitis
       ORPHAcode: '31740'
   DisorderType:
@@ -26,5 +34,5 @@ Orphapacket:
   Synonyms:
   - Synonym: Rare respiratory allergy
   copyright: Orphanet (c) 2022
-  creationDate: '2022-06-14 15:58:09'
-  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)
+  creationDate: '2022-11-28 11:04:13'
+  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)

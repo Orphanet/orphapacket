@@ -51,6 +51,11 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
         Term)
+      Reference: '619931'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
+        Term)
       Reference: '617028'
       Source: OMIM
   - ExternalReference:
@@ -245,12 +250,28 @@ Orphapacket:
       Symbol: DCPS
   - Gene:
       ExternalReferences: []
-      Name: adaptor related protein complex 1 subunit gamma 1
-      Symbol: AP1G1
-  - Gene:
-      ExternalReferences: []
       Name: beta-1,3-N-acetylgalactosaminyltransferase 2
       Symbol: B3GALNT2
+  - Gene:
+      ExternalReferences: []
+      Name: inositol monophosphatase 1
+      Symbol: IMPA1
+  - Gene:
+      ExternalReferences: []
+      Name: ATP binding cassette subfamily A member 2
+      Symbol: ABCA2
+  - Gene:
+      ExternalReferences: []
+      Name: choline kinase alpha
+      Symbol: CHKA
+  - Gene:
+      ExternalReferences: []
+      Name: glutamate ionotropic receptor AMPA type subunit 1
+      Symbol: GRIA1
+  - Gene:
+      ExternalReferences: []
+      Name: Yip1 interacting factor homolog B, membrane trafficking protein
+      Symbol: YIF1B
   - Gene:
       ExternalReferences: []
       Name: aminoacyl tRNA synthetase complex interacting multifunctional protein
@@ -390,6 +411,10 @@ Orphapacket:
       Symbol: SLC45A1
   - Gene:
       ExternalReferences: []
+      Name: gem nuclear organelle associated protein 5
+      Symbol: GEMIN5
+  - Gene:
+      ExternalReferences: []
       Name: ferric chelate reductase 1 like
       Symbol: FRRS1L
   - Gene:
@@ -408,10 +433,6 @@ Orphapacket:
       ExternalReferences: []
       Name: seryl-tRNA synthetase 1
       Symbol: SARS1
-  - Gene:
-      ExternalReferences: []
-      Name: solute carrier family 12 member 2
-      Symbol: SLC12A2
   - Gene:
       ExternalReferences: []
       Name: arginine and serine rich coiled-coil 1
@@ -434,8 +455,16 @@ Orphapacket:
       Symbol: MAN1B1
   - Gene:
       ExternalReferences: []
+      Name: translocated promoter region, nuclear basket protein
+      Symbol: TPR
+  - Gene:
+      ExternalReferences: []
       Name: lysine demethylase 5B
       Symbol: KDM5B
+  - Gene:
+      ExternalReferences: []
+      Name: eukaryotic translation elongation factor 1 beta 2
+      Symbol: EEF1B2
   Label: Autosomal recessive non-syndromic intellectual disability
   ORPHAcode: '88616'
   ORPHApacketId: '88616'
@@ -446,21 +475,13 @@ Orphapacket:
       ORPHAcode: '101685'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000716
-      HPOTerm: Depressivity
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0001256
-      HPOTerm: Intellectual disability, mild
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000750
       HPOTerm: Delayed speech and language development
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001250
-      HPOTerm: Seizures
+      HPOTerm: Seizure
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001263
@@ -508,7 +529,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001252
-      HPOTerm: Muscular hypotonia
+      HPOTerm: Hypotonia
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001257
@@ -572,7 +593,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0011097
-      HPOTerm: Epileptic spasms
+      HPOTerm: Epileptic spasm
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0011185
@@ -597,6 +618,14 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0100710
       HPOTerm: Impulsivity
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000716
+      HPOTerm: Depression
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001256
+      HPOTerm: Intellectual disability, mild
   Synonyms:
   - Synonym: AR-NSID
   - Synonym: NS-ARID
@@ -604,5 +633,5 @@ Orphapacket:
     TypeOfInheritance:
     - value: Autosomal recessive
   copyright: Orphanet (c) 2022
-  creationDate: '2022-06-14 15:58:09'
-  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)
+  creationDate: '2022-11-28 11:04:13'
+  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)

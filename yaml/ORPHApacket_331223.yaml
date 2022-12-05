@@ -57,7 +57,15 @@ Orphapacket:
       Label: PGM3-CDG
       ORPHAcode: '443811'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '16393'
+            Source: HGNC
+          - Reference: '607210'
+            Source: OMIM
+          Label: caspase recruitment domain family member 11
+          Symbol: CARD11
       Label: CADINS disease
       ORPHAcode: '619972'
   DisorderType:
@@ -72,5 +80,5 @@ Orphapacket:
     - Label: Syndrome with combined immunodeficiency
       ORPHAcode: '331217'
   copyright: Orphanet (c) 2022
-  creationDate: '2022-06-14 15:58:09'
-  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)
+  creationDate: '2022-11-28 11:04:13'
+  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)

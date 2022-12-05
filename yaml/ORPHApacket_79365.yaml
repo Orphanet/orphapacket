@@ -85,7 +85,15 @@ Orphapacket:
       Label: Autosomal dominant preaxial polydactyly-upperback hypertrichosis syndrome
       ORPHAcode: '476119'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '6279'
+            Source: HGNC
+          - Reference: '605720'
+            Source: OMIM
+          Label: potassium two pore domain channel subfamily K member 4
+          Symbol: KCNK4
       Label: Facial dysmorphism-hypertrichosis-epilepsy-intellectual disability/developmental
         delay-gingival overgrowth syndrome
       ORPHAcode: '598603'
@@ -108,5 +116,5 @@ Orphapacket:
     - Label: Hair anomaly
       ORPHAcode: '79363'
   copyright: Orphanet (c) 2022
-  creationDate: '2022-06-14 15:58:09'
-  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)
+  creationDate: '2022-11-28 11:04:13'
+  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)

@@ -13,7 +13,15 @@ Orphapacket:
       Label: Autosomal recessive extra-oral halitosis
       ORPHAcode: '562538'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          ExternalReferences:
+          - Reference: '7782'
+            Source: HGNC
+          - Reference: '600492'
+            Source: OMIM
+          Label: NFE2 like bZIP transcription factor 2
+          Symbol: NFE2L2
       Label: Developmental delay-immunodeficiency-leukoencephalopathy-hypohomocysteinemia
         syndrome
       ORPHAcode: '619979'
@@ -115,5 +123,5 @@ Orphapacket:
   Synonyms:
   - Synonym: Cytosolic methyl group transfer or sulfur amino acid metabolism disorder
   copyright: Orphanet (c) 2022
-  creationDate: '2022-06-14 15:58:09'
-  version: 1.3.16 / 4.1.7 [2022-01-26] (orientdb version)
+  creationDate: '2022-11-28 11:04:13'
+  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)

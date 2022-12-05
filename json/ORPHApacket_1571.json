@@ -1,8 +1,8 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1571",
-        "creationDate": "2022-06-14 15:58:09",
-        "version": "1.3.16 / 4.1.7 [2022-01-26] (orientdb version)",
+        "creationDate": "2022-11-28 11:04:13",
+        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
         "copyright": "Orphanet (c) 2022",
         "ORPHAcode": "1571",
         "Label": "Knobloch syndrome",
@@ -21,9 +21,18 @@
         ],
         "ExternalReferences": [
             {
-                "Source": "OMIM",
-                "Reference": "267750",
-                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "618458",
+                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "267750",
+                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                }
             }
         ],
         "TextSection": {
@@ -31,6 +40,13 @@
             "Contents": "A rare systemic disorder characterized by vitreoretinal and macular degeneration as well as occipital encephalocele."
         },
         "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "PAK2",
+                    "Name": "p21 (RAC1) activated kinase 2",
+                    "ExternalReferences": []
+                }
+            },
             {
                 "Gene": {
                     "Symbol": "COL18A1",
@@ -152,7 +168,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0001250",
-                    "HPOTerm": "Seizures",
+                    "HPOTerm": "Seizure",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },

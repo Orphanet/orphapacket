@@ -1,8 +1,8 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "611",
-        "creationDate": "2022-06-14 15:58:09",
-        "version": "1.3.16 / 4.1.7 [2022-01-26] (orientdb version)",
+        "creationDate": "2022-11-28 11:04:13",
+        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
         "copyright": "Orphanet (c) 2022",
         "ORPHAcode": "611",
         "Label": "Inclusion body myositis",
@@ -75,7 +75,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0003236",
-                    "HPOTerm": "Elevated serum creatine kinase",
+                    "HPOTerm": "Elevated circulating creatine kinase concentration",
                     "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
@@ -149,7 +149,7 @@
             },
             {
                 "Prevalence": {
-                    "Source": "8191875[PMID]",
+                    "Source": "35596584[PMID]",
                     "PrevalenceType": "Annual incidence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 1 000 000",
@@ -196,6 +196,16 @@
                     "ValMoy": "no data",
                     "PrevalenceGeographic": "Turkey"
                 }
+            },
+            {
+                "Prevalence": {
+                    "Source": "35596584[PMID]",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 100 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Sweden"
+                }
             }
         ],
         "AverageAgeOfOnsets": [
@@ -210,13 +220,18 @@
                 }
             }
         ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "normal life expectancy"
+        "AverageAgeOfDeaths": [
+            {
+                "AverageAgeOfDeath": {
+                    "value": "Adult"
                 }
-            ]
-        },
+            },
+            {
+                "AverageAgeOfDeath": {
+                    "value": "Elderly"
+                }
+            }
+        ],
         "TypeOfInheritances": {
             "TypeOfInheritance": [
                 {
