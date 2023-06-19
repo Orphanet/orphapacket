@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "391665",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "391665",
         "Label": "Homozygous familial hypercholesterolemia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_391665",
@@ -21,76 +21,66 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "143890",
-                    "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "602247",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "603813",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "144010",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "A rare disorder of lipid metabolism characterized by severely elevated low-density lipoprotein cholesterol levels and subsequent premature formation of atherosclerotic plaques in the coronary arteries proximal aorta and other arteries significantly increasing the risk of cardiovascular disease at an early age. Xanthomas of the skin and in tendons are also a hallmark of the disease. Lethality is high due to early complications in particular myocardial infarction."
+            "Contents": "A rare disorder of lipid metabolism characterized by severely elevated plasma total cholesterol low-density lipoprotein (LDL) cholesterol levels and subsequent premature formation of atherosclerotic plaques in the coronary arteries proximal aorta and other arteries significantly increasing the risk of premature cardiovascular disease and death. Xanthomas of the skin and in tendons are also a hallmark of the disease. Lethality is high due to early complications in particular myocardial infarction and aortic valvular disease."
         },
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "ABCG5",
-                    "Name": "ATP binding cassette subfamily G member 5",
-                    "ExternalReferences": []
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "ABCG8",
-                    "Name": "ATP binding cassette subfamily G member 8",
-                    "ExternalReferences": []
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "APOB",
                     "Name": "apolipoprotein B",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "LDLRAP1",
                     "Name": "low density lipoprotein receptor adaptor protein 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "PCSK9",
                     "Name": "proprotein convertase subtilisin/kexin type 9",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "LDLR",
                     "Name": "low density lipoprotein receptor",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -206,7 +196,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0005162",
-                    "HPOTerm": "Left ventricular dysfunction",
+                    "HPOTerm": "Abnormal left ventricular function",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -340,7 +330,17 @@
         "Prevalences": [
             {
                 "Prevalence": {
-                    "Source": "23956253[PMID]",
+                    "Source": "21146822[PMID]",
+                    "PrevalenceType": "Annual incidence",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 1 000 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Japan"
+                }
+            },
+            {
+                "Prevalence": {
+                    "Source": "31947532[PMID]_32439005[PMID]_ORPHANET",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 1 000 000",

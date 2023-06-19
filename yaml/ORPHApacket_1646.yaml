@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Adult
@@ -10,49 +7,28 @@ Orphapacket:
     value: Malformation syndrome
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '400042'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '415000'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Role in the phenotype of
       ExternalReferences: []
       Name: azoospermia factor 1
       Symbol: AZF1
   - Gene:
+      DisorderGeneAssociationType: Role in the phenotype of
       ExternalReferences: []
       Name: ubiquitin specific peptidase 9 Y-linked
       Symbol: USP9Y
   - Gene:
-      ExternalReferences: []
-      Name: deleted in azoospermia 1
-      Symbol: DAZ1
-  - Gene:
-      ExternalReferences: []
-      Name: deleted in azoospermia 2
-      Symbol: DAZ2
-  - Gene:
-      ExternalReferences: []
-      Name: deleted in azoospermia 3
-      Symbol: DAZ3
-  - Gene:
-      ExternalReferences: []
-      Name: deleted in azoospermia 4
-      Symbol: DAZ4
-  - Gene:
-      ExternalReferences: []
-      Name: DEAD-box helicase 3 Y-linked
-      Symbol: DDX3Y
-  - Gene:
-      ExternalReferences: []
-      Name: RNA binding motif protein Y-linked family 1 member A1
-      Symbol: RBMY1A1
-  - Gene:
+      DisorderGeneAssociationType: Modifying germline mutation in
       ExternalReferences: []
       Name: testis specific protein Y-linked 1
       Symbol: TSPY1
@@ -119,6 +95,6 @@ Orphapacket:
       value: Not applicable
   - TypeOfInheritance:
       value: Y-linked
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

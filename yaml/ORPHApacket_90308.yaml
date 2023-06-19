@@ -8,11 +8,13 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+  - DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code used
+      to represent it)
     Reference: '149000'
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
       Name: angiogenic factor with G-patch and FHA domains 1
       Symbol: AGGF1
@@ -167,11 +169,21 @@ Orphapacket:
       PrevalenceType: Point prevalence
       Source: '[EXPERT]'
       ValMoy: no data
+  TextSection:
+    Contents: A rare congenital complex vascular malformation syndrome characterized
+      by capillary malformations manifesting as port-wine stains and venous varicosities
+      typically prominent along the lateral aspect of the lower extremities associated
+      with overgrowth of a limb (most commonly a leg) more rarely other regions of
+      the body involving bone and/or soft tissue. The diagnosis is usually made when
+      at least 2 of these 3 features exist. Lymphatic malformations are also observed
+      while arteriovenous fistulas are absent. Patients present recurrent painful
+      thrombophlebitis venous thrombosis and sudden venous hemorrhage.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Multigenic/multifactorial
   - TypeOfInheritance:
       value: Not applicable
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

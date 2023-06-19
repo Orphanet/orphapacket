@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "71277",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "71277",
         "Label": "Classic glucose transporter type 1 deficiency syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_71277",
@@ -41,7 +41,8 @@
                 "Gene": {
                     "Symbol": "SLC2A1",
                     "Name": "solute carrier family 2 member 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
             }
         ],
@@ -307,8 +308,18 @@
         "Prevalences": [
             {
                 "Prevalence": {
+                    "Source": "32913944[PMID]",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 1 000 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Norway"
+                }
+            },
+            {
+                "Prevalence": {
                     "Source": "16712556[PMID]",
-                    "PrevalenceType": "Prevalence at birth",
+                    "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 100 000",
                     "ValMoy": "no data",
@@ -317,10 +328,10 @@
             },
             {
                 "Prevalence": {
-                    "Source": "ORPHANET",
+                    "Source": "ORPHANET_32913944[PMID]",
                     "PrevalenceType": "Point prevalence",
-                    "PrevalenceQualification": "Class only",
-                    "PrevalenceClass": "Unknown",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 1 000 000",
                     "ValMoy": "no data",
                     "PrevalenceGeographic": "Worldwide"
                 }
@@ -328,7 +339,7 @@
             {
                 "Prevalence": {
                     "Source": "26537434[PMID]",
-                    "PrevalenceType": "Prevalence at birth",
+                    "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 100 000",
                     "ValMoy": "no data",
@@ -348,13 +359,6 @@
                 }
             }
         ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "No data available"
-                }
-            ]
-        },
         "TypeOfInheritances": [
             {
                 "TypeOfInheritance": {

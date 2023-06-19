@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: All ages
@@ -10,13 +7,13 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '246300'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '607572'
       Source: OMIM
   - ExternalReference:
@@ -24,18 +21,18 @@ Orphapacket:
       Reference: '609888'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '610988'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '613223'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '613407'
       Source: OMIM
   Label: Leprosy
@@ -182,6 +179,10 @@ Orphapacket:
       HPOTerm: Verrucous papule
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012534
+      HPOTerm: Dysesthesia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0012804
       HPOTerm: Corneal ulceration
   - Phenotype:
@@ -192,10 +193,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0030351
       HPOTerm: Urticarial plaque
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0031005
-      HPOTerm: Hyperalgesia
   - Phenotype:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0000501
@@ -262,6 +259,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Multigenic/multifactorial
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

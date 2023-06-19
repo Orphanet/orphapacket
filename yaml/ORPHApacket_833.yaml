@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: early childhood
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
@@ -13,6 +10,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '11460'
             Source: HGNC
@@ -31,23 +29,23 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '252150'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '252160'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '272300'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '615501'
       Source: OMIM
   Label: Encephalopathy due to sulfite oxidase deficiency
@@ -58,6 +56,10 @@ Orphapacket:
   - Parent:
     - Label: Neurometabolic disease
       ORPHAcode: '68385'
+  - Parent:
+    - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
+        syndrome
+      ORPHAcode: '611314'
   - Parent:
     - Label: Disorder of methionine cycle and sulfur amino acid metabolism
       ORPHAcode: '79173'
@@ -180,6 +182,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "263543",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "263543",
         "Label": "Generalized peeling skin syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_263543",
@@ -24,7 +24,7 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "616265",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
@@ -37,7 +37,7 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Generalized peeling skin syndrome (PSS) is a form of PSS (see this term) presenting with a generalized distribution. It comprises two sub-types: the non-inflammatory (PSS type A) and the inflammatory (PSS type B) form (see these terms). PSS type A is characterized by generalized white scaling with superficial peeling of the skin while PSS type B is characterized by superficial patchy peeling of the entire skin with underlying erythroderma associated with pruritus and atopy."
+            "Contents": "A form of peeling skin syndrome characterized by a generalized distribution. It comprises two sub-types: the non-inflammatory (PSS type A) and the inflammatory (PSS type B) form. PSS type A is characterized by generalized white scaling with superficial non-inflammatory peeling of the skin while PSS type B is characterized by superficial patchy peeling of the entire skin with underlying erythroderma pruritus and atopy."
         },
         "Parents": [
             {
@@ -68,17 +68,11 @@
                                         "Source": "OMIM",
                                         "Reference": "602593"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Peeling skin syndrome type C",
-                    "ORPHAcode": "263558",
-                    "Genes": "no data"
                 }
             },
             {
@@ -99,7 +93,8 @@
                                         "Source": "OMIM",
                                         "Reference": "616284"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         },
                         {
@@ -115,7 +110,25 @@
                                         "Source": "HGNC",
                                         "Reference": "15993"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "serpin family B member 8",
+                                "Symbol": "SERPINB8",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "601697"
+                                    },
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "8952"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]

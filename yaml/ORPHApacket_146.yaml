@@ -1,11 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Adolescent
-  - AverageAgeOfDeath:
-      value: Adult
-  - AverageAgeOfDeath:
-      value: Childhood
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -18,129 +11,158 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
-        Term)
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
       Reference: '188550'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '607464'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences: []
       Name: eukaryotic translation initiation factor 1A X-linked
       Symbol: EIF1AX
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: peroxisome proliferator activated receptor gamma
       Symbol: PPARG
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: ret proto-oncogene
       Symbol: RET
   - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences: []
       Name: B-Raf proto-oncogene, serine/threonine kinase
       Symbol: BRAF
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: coiled-coil domain containing 6
       Symbol: CCDC6
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: trafficking from ER to golgi regulator
       Symbol: TFG
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: translocated promoter region, nuclear basket protein
       Symbol: TPR
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: tripartite motif containing 24
       Symbol: TRIM24
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: tripartite motif containing 27
       Symbol: TRIM27
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: tripartite motif containing 33
       Symbol: TRIM33
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: ELKS/RAB6-interacting/CAST family member 1
       Symbol: ERC1
   - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
       Name: forkhead box E1
       Symbol: FOXE1
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: golgin A5
       Symbol: GOLGA5
   - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences: []
       Name: HRas proto-oncogene, GTPase
       Symbol: HRAS
   - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences: []
       Name: KRAS proto-oncogene, GTPase
       Symbol: KRAS
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: neurotrophic receptor tyrosine kinase 1
       Symbol: NTRK1
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: paired box 8
       Symbol: PAX8
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: pericentriolar material 1
       Symbol: PCM1
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: ETS variant transcription factor 6
       Symbol: ETV6
   - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
       Name: NK2 homeobox 1
       Symbol: NKX2-1
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: ALK receptor tyrosine kinase
       Symbol: ALK
   - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences: []
       Name: NRAS proto-oncogene, GTPase
       Symbol: NRAS
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: neurotrophic receptor tyrosine kinase 3
       Symbol: NTRK3
   - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
       Name: nuclear receptor coactivator 4
       Symbol: NCOA4
   - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
       Name: disrupted in renal carcinoma 3
       Symbol: DIRC3
   - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences: []
       Name: NADH:ubiquinone oxidoreductase subunit A13
       Symbol: NDUFA13
   - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences: []
       Name: telomerase reverse transcriptase
       Symbol: TERT
   - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences: []
       Name: GAS8 antisense RNA 1
       Symbol: GAS8-AS1
   - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences: []
       Name: lysophosphatidic acid receptor 4
       Symbol: LPAR4
@@ -150,7 +172,7 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_146
   Parents:
   - Parent:
-    - Label: Thyroid carcinoma
+    - Label: Rare thyroid carcinoma
       ORPHAcode: '100088'
   - Parent:
     - Label: Pediatric thyroid carcinoma
@@ -188,6 +210,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

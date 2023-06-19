@@ -1,9 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Antenatal
-  - AverageAgeOfDeath:
-      value: Neonatal
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
@@ -18,17 +13,19 @@ Orphapacket:
       Reference: '114290'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '211990'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '602196'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: SRY-box transcription factor 9
       Symbol: SOX9
@@ -38,7 +35,7 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_140
   Parents:
   - Parent:
-    - Label: Syndrome with 46,XY disorder of sex development
+    - Label: Syndrome with 46,XY difference of sex development
       ORPHAcode: '98087'
   - Parent:
     - Label: Campomelic dysplasia and related disorders
@@ -47,25 +44,13 @@ Orphapacket:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
   - Parent:
-    - Label: Syndrome with disorder of sex development of gynecological interest
+    - Label: Syndrome with difference of sex development of gynecological interest
       ORPHAcode: '325638'
   - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
       ORPHAcode: '611327'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000037
-      HPOTerm: Male pseudohermaphroditism
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000062
-      HPOTerm: Ambiguous genitalia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000126
-      HPOTerm: Hydronephrosis
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000175
@@ -75,29 +60,13 @@ Orphapacket:
       HPOId: HP:0000256
       HPOTerm: Macrocephaly
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000316
-      HPOTerm: Hypertelorism
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000347
       HPOTerm: Micrognathia
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000365
-      HPOTerm: Hearing impairment
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000369
-      HPOTerm: Low-set ears
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000470
       HPOTerm: Short neck
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000520
-      HPOTerm: Proptosis
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000774
@@ -111,21 +80,9 @@ Orphapacket:
       HPOId: HP:0001601
       HPOTerm: Laryngomalacia
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001762
-      HPOTerm: Talipes equinovarus
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002093
       HPOTerm: Respiratory insufficiency
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002119
-      HPOTerm: Ventriculomegaly
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002564
-      HPOTerm: Malformation of the heart and great vessels
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002650
@@ -143,17 +100,9 @@ Orphapacket:
       HPOId: HP:0002786
       HPOTerm: Tracheobronchomalacia
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002808
-      HPOTerm: Kyphosis
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002827
       HPOTerm: Hip dislocation
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002980
-      HPOTerm: Femoral bowing
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002982
@@ -167,18 +116,6 @@ Orphapacket:
       HPOId: HP:0003038
       HPOTerm: Fibular hypoplasia
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0004322
-      HPOTerm: Short stature
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0004408
-      HPOTerm: Abnormality of the sense of smell
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0005280
-      HPOTerm: Depressed nasal bridge
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0006487
       HPOTerm: Bowing of the long bones
@@ -186,10 +123,6 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0006584
       HPOTerm: Small abnormally formed scapulae
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0007036
-      HPOTerm: Hypoplasia of olfactory tract
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0008477
@@ -199,13 +132,77 @@ Orphapacket:
       HPOId: HP:0008821
       HPOTerm: Hypoplastic inferior ilia
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012368
+      HPOTerm: Flat face
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000037
+      HPOTerm: Male pseudohermaphroditism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000062
+      HPOTerm: Ambiguous genitalia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000316
+      HPOTerm: Hypertelorism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000369
+      HPOTerm: Low-set ears
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000520
+      HPOTerm: Proptosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001762
+      HPOTerm: Talipes equinovarus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002980
+      HPOTerm: Femoral bowing
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0010781
       HPOTerm: Skin dimple
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0012368
-      HPOTerm: Flat face
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000126
+      HPOTerm: Hydronephrosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000365
+      HPOTerm: Hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002119
+      HPOTerm: Ventriculomegaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002808
+      HPOTerm: Kyphosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004408
+      HPOTerm: Abnormality of the sense of smell
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005280
+      HPOTerm: Depressed nasal bridge
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007036
+      HPOTerm: Hypoplasia of olfactory tract
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030680
+      HPOTerm: Abnormality of cardiovascular system morphology
   Prevalences:
     Prevalence:
     - PrevalenceClass: Unknown
@@ -219,11 +216,12 @@ Orphapacket:
   TextSection:
     Contents: A rare skeletal dysplasia characterized by peculiar facial anomalies
       Pierre Robin sequence cleft palate shortening and bowing of long bones. Sexual
-      ambiguity or female external genitalia is possible individuals with a male karyotype.
+      ambiguity or female external genitalia is possible in individuals with a male
+      karyotype.
     TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

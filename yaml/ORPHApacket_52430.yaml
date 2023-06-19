@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: adult
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Adult
@@ -14,25 +11,28 @@ Orphapacket:
       Reference: '167320'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '615422'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '615424'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: valosin containing protein
       Symbol: VCP
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: heterogeneous nuclear ribonucleoprotein A2/B1
       Symbol: HNRNPA2B1
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: heterogeneous nuclear ribonucleoprotein A1
       Symbol: HNRNPA1
@@ -175,12 +175,12 @@ Orphapacket:
       HPOTerm: Upper motor neuron dysfunction
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002648
-      HPOTerm: Abnormality of calvarial morphology
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002659
       HPOTerm: Increased susceptibility to fractures
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002683
+      HPOTerm: Abnormality of the calvaria
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002839
@@ -264,6 +264,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

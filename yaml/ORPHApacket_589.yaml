@@ -1,59 +1,20 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: All ages
-  Childs:
-  - Child:
-      Genes:
-      - Gene:
-          ExternalReferences:
-          - Reference: '11908'
-            Source: HGNC
-          - Reference: '603499'
-            Source: OMIM
-          Label: TNF receptor superfamily member 11a
-          Symbol: TNFRSF11A
-      - Gene:
-          ExternalReferences:
-          - Reference: '2505'
-            Source: HGNC
-          - Reference: '123890'
-            Source: OMIM
-          Label: cytotoxic T-lymphocyte associated protein 4
-          Symbol: CTLA4
-      - Gene:
-          ExternalReferences:
-          - Reference: '146880'
-            Source: OMIM
-          - Reference: '4942'
-            Source: HGNC
-          Label: major histocompatibility complex, class II, DQ alpha 1
-          Symbol: HLA-DQA1
-      Label: Adult-onset myasthenia gravis
-      ORPHAcode: '391490'
-  - Child:
-      Genes: no data
-      Label: Juvenile myasthenia gravis
-      ORPHAcode: '391497'
-  - Child:
-      Genes: no data
-      Label: Transient neonatal myasthenia gravis
-      ORPHAcode: '391504'
+  Childs: []
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '607085'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '159400'
       Source: OMIM
   - ExternalReference:
@@ -387,6 +348,6 @@ Orphapacket:
       value: Multigenic/multifactorial
   - TypeOfInheritance:
       value: Not applicable
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "93426",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "93426",
         "Label": "Ciliopathies with major skeletal involvement",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_93426",
@@ -23,7 +23,7 @@
             {
                 "Source": "OMIM",
                 "Reference": "617405",
-                "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
             }
         ],
         "Parents": [
@@ -45,30 +45,6 @@
             }
         ],
         "Childs": [
-            {
-                "Child": {
-                    "Label": "NEK9-related lethal skeletal dysplasia",
-                    "ORPHAcode": "464366",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "NIMA related kinase 9",
-                                "Symbol": "NEK9",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "18591"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "609798"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
             {
                 "Child": {
                     "Label": "Short rib-polydactyly syndrome",
@@ -101,7 +77,8 @@
                                         "Source": "OMIM",
                                         "Reference": "613847"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -132,7 +109,8 @@
                                         "Source": "OMIM",
                                         "Reference": "614620"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -148,7 +126,33 @@
                                         "Source": "HGNC",
                                         "Reference": "30391"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "NEK9-related lethal skeletal dysplasia",
+                    "ORPHAcode": "464366",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "NIMA related kinase 9",
+                                "Symbol": "NEK9",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "18591"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "609798"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]

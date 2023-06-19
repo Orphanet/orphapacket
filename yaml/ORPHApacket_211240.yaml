@@ -2,8 +2,16 @@ Orphapacket:
   Childs:
   - Child:
       Genes: no data
+      Label: Cerebral arteriovenous malformation
+      ORPHAcode: '46724'
+  - Child:
+      Genes: no data
       Label: Rare genetic capillary malformation
       ORPHAcode: '459526'
+  - Child:
+      Genes: no data
+      Label: Primary lymphedema
+      ORPHAcode: '77240'
   - Child:
       Genes: no data
       Label: Genetic complex vascular malformation with associated anomalies
@@ -13,32 +21,9 @@ Orphapacket:
       Label: Rare genetic vascular tumor
       ORPHAcode: '459543'
   - Child:
-      Genes: no data
-      Label: Rare genetic venous malformation
-      ORPHAcode: '459548'
-  - Child:
-      Genes: no data
-      Label: Cerebral arteriovenous malformation
-      ORPHAcode: '46724'
-  - Child:
-      Genes: no data
-      Label: Primary lymphedema
-      ORPHAcode: '77240'
-  - Child:
       Genes:
       - Gene:
-          ExternalReferences:
-          - Reference: '600011'
-            Source: OMIM
-          - Reference: '3395'
-            Source: HGNC
-          Label: EPH receptor B4
-          Symbol: EPHB4
-      Label: Vein of Galen aneurysmal malformation
-      ORPHAcode: '1053'
-  - Child:
-      Genes:
-      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '9871'
             Source: HGNC
@@ -47,6 +32,7 @@ Orphapacket:
           Label: RAS p21 protein activator 1
           Symbol: RASA1
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '600011'
             Source: OMIM
@@ -57,8 +43,13 @@ Orphapacket:
       Label: Capillary malformation-arteriovenous malformation
       ORPHAcode: '137667'
   - Child:
+      Genes: no data
+      Label: Rare genetic venous malformation
+      ORPHAcode: '459548'
+  - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '11743'
             Source: HGNC
@@ -67,6 +58,8 @@ Orphapacket:
           Label: transcription factor AP-2 beta
           Symbol: TFAP2B
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
           ExternalReferences:
           - Reference: '9350'
             Source: HGNC
@@ -76,6 +69,20 @@ Orphapacket:
           Symbol: PRDM6
       Label: Familial patent arterial duct
       ORPHAcode: '466729'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '600011'
+            Source: OMIM
+          - Reference: '3395'
+            Source: HGNC
+          Label: EPH receptor B4
+          Symbol: EPHB4
+      Label: Vein of Galen aneurysmal malformation
+      ORPHAcode: '1053'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -87,6 +94,6 @@ Orphapacket:
   - Parent:
     - Label: Rare genetic developmental defect during embryogenesis
       ORPHAcode: '183530'
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

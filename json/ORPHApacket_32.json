@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "32",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "32",
         "Label": "Glutathione synthetase deficiency",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_32",
@@ -21,14 +21,14 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "231900",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "266130",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -52,6 +52,14 @@
                         "Label": "Disorder of the gamma-glutamyl cycle"
                     }
                 ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "611314",
+                        "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
+                    }
+                ]
             }
         ],
         "Childs": [
@@ -73,7 +81,8 @@
                                         "Source": "OMIM",
                                         "Reference": "601002"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]
@@ -97,7 +106,8 @@
                                         "Source": "OMIM",
                                         "Reference": "601002"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]

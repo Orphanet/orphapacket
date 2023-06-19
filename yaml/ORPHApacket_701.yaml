@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: All ages
@@ -10,22 +7,23 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
-        Term)
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
       Reference: '104000'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '203655'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '610753'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: HR lysine demethylase and nuclear receptor corepressor
       Symbol: HR
@@ -54,8 +52,8 @@ Orphapacket:
       HPOTerm: Absent eyebrow
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002229
-      HPOTerm: Alopecia areata
+      HPOId: HP:0002232
+      HPOTerm: Patchy alopecia
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002289
@@ -78,6 +76,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: Multigenic/multifactorial
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

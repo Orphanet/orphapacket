@@ -7,47 +7,43 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
-        Term)
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
       Reference: '143890'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '602247'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '603813'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '144010'
       Source: OMIM
   Genes:
   - Gene:
-      ExternalReferences: []
-      Name: ATP binding cassette subfamily G member 5
-      Symbol: ABCG5
-  - Gene:
-      ExternalReferences: []
-      Name: ATP binding cassette subfamily G member 8
-      Symbol: ABCG8
-  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: apolipoprotein B
       Symbol: APOB
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: low density lipoprotein receptor adaptor protein 1
       Symbol: LDLRAP1
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: proprotein convertase subtilisin/kexin type 9
       Symbol: PCSK9
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: low density lipoprotein receptor
       Symbol: LDLR
@@ -119,7 +115,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0005162
-      HPOTerm: Left ventricular dysfunction
+      HPOTerm: Abnormal left ventricular function
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0005181
@@ -195,10 +191,17 @@ Orphapacket:
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Japan
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 21146822[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
       PrevalenceGeographic: Worldwide
       PrevalenceQualification: Value and class
       PrevalenceType: Point prevalence
-      Source: 23956253[PMID]
+      Source: 31947532[PMID]_32439005[PMID]_ORPHANET
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
@@ -232,17 +235,18 @@ Orphapacket:
   - Synonym: HoFH
   TextSection:
     Contents: A rare disorder of lipid metabolism characterized by severely elevated
-      low-density lipoprotein cholesterol levels and subsequent premature formation
-      of atherosclerotic plaques in the coronary arteries proximal aorta and other
-      arteries significantly increasing the risk of cardiovascular disease at an early
-      age. Xanthomas of the skin and in tendons are also a hallmark of the disease.
-      Lethality is high due to early complications in particular myocardial infarction.
+      plasma total cholesterol low-density lipoprotein (LDL) cholesterol levels and
+      subsequent premature formation of atherosclerotic plaques in the coronary arteries
+      proximal aorta and other arteries significantly increasing the risk of premature
+      cardiovascular disease and death. Xanthomas of the skin and in tendons are also
+      a hallmark of the disease. Lethality is high due to early complications in particular
+      myocardial infarction and aortic valvular disease.
     TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

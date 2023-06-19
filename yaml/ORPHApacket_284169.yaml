@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Infancy
@@ -9,11 +6,13 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
     value: Clinical subtype
   ExternalReferences:
-  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+  - DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code used
+      to represent it)
     Reference: '616708'
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Role in the phenotype of
       ExternalReferences: []
       Name: WW domain containing adaptor with coiled-coil
       Symbol: WAC
@@ -234,21 +233,21 @@ Orphapacket:
   - Synonym: 10p12p11 microdeletion syndrome
   - Synonym: Del(10)(p11.21p12.31)
   - Synonym: Deletion 10p11.21p12.31
+  - Synonym: Desanto-Shinawi syndrome due to 10p11.21p12.31 microdeletion
   - Synonym: Monosomy 10p11.21p12.31
   TextSection:
-    Contents: Facial dysmorphism-developmental delay-behavioral abnormalities syndrome
-      due to 10p11.21p12.31 microdeletion is a rare genetic syndromic intellectual
-      disability characterized by developmental delay hypotonia speech delay mild
-      to moderate intellectual disability abnormal behavior (autistic aggressive hyperactive)
-      and dysmorphic facial features including synophrys or thick eyebrows deep set
-      eyes bulbous nasal tip and full cheeks. Congenital heart and brain anomalies
-      visual and hearing impairment are also common.
+    Contents: A rare genetic syndromic intellectual disability characterized by developmental
+      delay hypotonia speech delay mild to moderate intellectual disability abnormal
+      behavior (autistic aggressive hyperactive) and dysmorphic facial features including
+      synophrys or thick eyebrows deep set eyes bulbous nasal tip and full cheeks.
+      Congenital heart and brain anomalies visual and hearing impairment are also
+      common.
     TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Not applicable
   - TypeOfInheritance:
       value: Unknown
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

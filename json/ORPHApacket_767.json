@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "767",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "767",
         "Label": "Polyarteritis nodosa",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_767",
@@ -52,22 +52,7 @@
                 ]
             }
         ],
-        "Childs": [
-            {
-                "Child": {
-                    "Label": "Primary polyarteritis nodosa",
-                    "ORPHAcode": "439737",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Secondary polyarteritis nodosa",
-                    "ORPHAcode": "439746",
-                    "Genes": "no data"
-                }
-            }
-        ],
+        "Childs": [],
         "Phenotypes": [
             {
                 "Phenotype": {
@@ -121,7 +106,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0011227",
-                    "HPOTerm": "Elevated C-reactive protein level",
+                    "HPOTerm": "Elevated circulating C-reactive protein concentration",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -255,6 +240,16 @@
         "Prevalences": [
             {
                 "Prevalence": {
+                    "Source": "9805179[PMID]_14872461[PMID]_17553910[PMID]_ORPHANET",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 100 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Europe"
+                }
+            },
+            {
+                "Prevalence": {
                     "Source": "17553910[PMID]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Value and class",
@@ -295,16 +290,6 @@
             },
             {
                 "Prevalence": {
-                    "Source": "11136884[PMID]",
-                    "PrevalenceType": "Point prevalence",
-                    "PrevalenceQualification": "Value and class",
-                    "PrevalenceClass": "1-9 / 1 000 000",
-                    "ValMoy": "no data",
-                    "PrevalenceGeographic": "Germany"
-                }
-            },
-            {
-                "Prevalence": {
                     "Source": "11156552[PMID]",
                     "PrevalenceType": "Annual incidence",
                     "PrevalenceQualification": "Value and class",
@@ -321,16 +306,6 @@
                     "PrevalenceClass": "1-9 / 100 000",
                     "ValMoy": "no data",
                     "PrevalenceGeographic": "Norway"
-                }
-            },
-            {
-                "Prevalence": {
-                    "Source": "[EXPERT]",
-                    "PrevalenceType": "Point prevalence",
-                    "PrevalenceQualification": "Value and class",
-                    "PrevalenceClass": "1-9 / 100 000",
-                    "ValMoy": "no data",
-                    "PrevalenceGeographic": "Europe"
                 }
             },
             {
@@ -358,13 +333,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "All ages"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "normal life expectancy"
                 }
             ]
         },

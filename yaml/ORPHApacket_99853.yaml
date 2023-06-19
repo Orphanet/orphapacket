@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: adult
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -14,37 +11,44 @@ Orphapacket:
     value: Clinical subtype
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
-        Term)
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
       Reference: '603896'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '615889'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: eukaryotic translation initiation factor 2B subunit alpha
       Symbol: EIF2B1
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: eukaryotic translation initiation factor 2B subunit beta
       Symbol: EIF2B2
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: eukaryotic translation initiation factor 2B subunit gamma
       Symbol: EIF2B3
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: eukaryotic translation initiation factor 2B subunit delta
       Symbol: EIF2B4
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: eukaryotic translation initiation factor 2B subunit epsilon
       Symbol: EIF2B5
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: alanyl-tRNA synthetase 2, mitochondrial
       Symbol: AARS2
@@ -74,6 +78,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "90348",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "90348",
         "Label": "Autosomal dominant cutis laxa",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_90348",
@@ -21,21 +21,21 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "123700",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "614434",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "616603",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -48,21 +48,24 @@
                 "Gene": {
                     "Symbol": "ALDH18A1",
                     "Name": "aldehyde dehydrogenase 18 family member A1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "FBLN5",
                     "Name": "fibulin 5",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "ELN",
                     "Name": "elastin",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -77,265 +80,6 @@
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000486",
-                    "HPOTerm": "Strabismus",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000508",
-                    "HPOTerm": "Ptosis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000519",
-                    "HPOTerm": "Developmental cataract",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001181",
-                    "HPOTerm": "Adducted thumb",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001252",
-                    "HPOTerm": "Hypotonia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001270",
-                    "HPOTerm": "Motor delay",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001348",
-                    "HPOTerm": "Brisk reflexes",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001511",
-                    "HPOTerm": "Intrauterine growth retardation",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001635",
-                    "HPOTerm": "Congestive heart failure",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001680",
-                    "HPOTerm": "Coarctation of aorta",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002097",
-                    "HPOTerm": "Emphysema",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002110",
-                    "HPOTerm": "Bronchiectasis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002256",
-                    "HPOTerm": "Small bowel diverticula",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002650",
-                    "HPOTerm": "Scoliosis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002827",
-                    "HPOTerm": "Hip dislocation",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004969",
-                    "HPOTerm": "Peripheral pulmonary artery stenosis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0005989",
-                    "HPOTerm": "Redundant neck skin",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0006698",
-                    "HPOTerm": "Dilatation of the ventricular cavity",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0007957",
-                    "HPOTerm": "Corneal opacity",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008897",
-                    "HPOTerm": "Postnatal growth retardation",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0010648",
-                    "HPOTerm": "Dermal translucency",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011220",
-                    "HPOTerm": "Prominent forehead",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011950",
-                    "HPOTerm": "Bronchiolitis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011968",
-                    "HPOTerm": "Feeding difficulties",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012330",
-                    "HPOTerm": "Pyelonephritis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0025356",
-                    "HPOTerm": "Psychomotor retardation",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0100512",
-                    "HPOTerm": "Low levels of vitamin D",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000122",
-                    "HPOTerm": "Unilateral renal agenesis",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000729",
-                    "HPOTerm": "Autistic behavior",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000938",
-                    "HPOTerm": "Osteopenia",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001762",
-                    "HPOTerm": "Talipes equinovarus",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001763",
-                    "HPOTerm": "Pes planus",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001884",
-                    "HPOTerm": "Talipes calcaneovalgus",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002013",
-                    "HPOTerm": "Vomiting",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002645",
-                    "HPOTerm": "Wormian bones",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002677",
-                    "HPOTerm": "Small foramen magnum",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002816",
-                    "HPOTerm": "Genu recurvatum",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000973",
@@ -489,6 +233,265 @@
                     "HPOTerm": "Protruding ear",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000486",
+                    "HPOTerm": "Strabismus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000508",
+                    "HPOTerm": "Ptosis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000519",
+                    "HPOTerm": "Developmental cataract",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001181",
+                    "HPOTerm": "Adducted thumb",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001252",
+                    "HPOTerm": "Hypotonia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001263",
+                    "HPOTerm": "Global developmental delay",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001270",
+                    "HPOTerm": "Motor delay",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001348",
+                    "HPOTerm": "Brisk reflexes",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001511",
+                    "HPOTerm": "Intrauterine growth retardation",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001635",
+                    "HPOTerm": "Congestive heart failure",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001680",
+                    "HPOTerm": "Coarctation of aorta",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002097",
+                    "HPOTerm": "Emphysema",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002110",
+                    "HPOTerm": "Bronchiectasis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002256",
+                    "HPOTerm": "Small bowel diverticula",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002650",
+                    "HPOTerm": "Scoliosis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002827",
+                    "HPOTerm": "Hip dislocation",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004969",
+                    "HPOTerm": "Peripheral pulmonary artery stenosis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005989",
+                    "HPOTerm": "Redundant neck skin",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0006698",
+                    "HPOTerm": "Dilatation of the ventricular cavity",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007957",
+                    "HPOTerm": "Corneal opacity",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008897",
+                    "HPOTerm": "Postnatal growth retardation",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010648",
+                    "HPOTerm": "Dermal translucency",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011220",
+                    "HPOTerm": "Prominent forehead",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011950",
+                    "HPOTerm": "Bronchiolitis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011968",
+                    "HPOTerm": "Feeding difficulties",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012330",
+                    "HPOTerm": "Pyelonephritis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100512",
+                    "HPOTerm": "Low levels of vitamin D",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000122",
+                    "HPOTerm": "Unilateral renal agenesis",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000729",
+                    "HPOTerm": "Autistic behavior",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000938",
+                    "HPOTerm": "Osteopenia",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001762",
+                    "HPOTerm": "Talipes equinovarus",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001763",
+                    "HPOTerm": "Pes planus",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001884",
+                    "HPOTerm": "Talipes calcaneovalgus",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002013",
+                    "HPOTerm": "Vomiting",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002645",
+                    "HPOTerm": "Wormian bones",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002677",
+                    "HPOTerm": "Small foramen magnum",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002816",
+                    "HPOTerm": "Genu recurvatum",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
             }
         ],
         "Prevalences": [
@@ -525,13 +528,6 @@
                 }
             }
         ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "normal life expectancy"
-                }
-            ]
-        },
         "TypeOfInheritances": {
             "TypeOfInheritance": [
                 {

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "3318",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "3318",
         "Label": "Essential thrombocythemia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_3318",
@@ -24,21 +24,21 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "187950",
-                    "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "601977",
-                    "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "614521",
-                    "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
                 }
             }
         ],
@@ -49,44 +49,34 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "TET2",
-                    "Name": "tet methylcytosine dioxygenase 2",
-                    "ExternalReferences": []
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "JAK2",
                     "Name": "Janus kinase 2",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "MPL",
                     "Name": "MPL proto-oncogene, thrombopoietin receptor",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "CALR",
                     "Name": "calreticulin",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "SH2B3",
                     "Name": "SH2B adaptor protein 3",
-                    "ExternalReferences": []
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "TP53",
-                    "Name": "tumor protein p53",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
                 }
             }
         ],
@@ -285,13 +275,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "All ages"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "normal life expectancy"
                 }
             ]
         },

@@ -13,25 +13,30 @@ Orphapacket:
       Reference: '180500'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '601499'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '602482'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: paired like homeodomain 2
       Symbol: PITX2
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
+        in
       ExternalReferences: []
       Name: paired like homeodomain 2
       Symbol: PITX2
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: forkhead box C1
       Symbol: FOXC1
@@ -62,13 +67,41 @@ Orphapacket:
       ORPHAcode: '102285'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000047
-      HPOTerm: Hypospadias
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000593
+      HPOTerm: Abnormal anterior chamber morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000627
+      HPOTerm: Posterior embryotoxon
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008053
+      HPOTerm: Aplasia/Hypoplasia of the iris
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000232
       HPOTerm: Everted lower lip vermilion
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000365
+      HPOTerm: Hearing impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000501
+      HPOTerm: Glaucoma
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011800
+      HPOTerm: Midface retrusion
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030680
+      HPOTerm: Abnormality of cardiovascular system morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000047
+      HPOTerm: Hypospadias
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000316
@@ -78,29 +111,13 @@ Orphapacket:
       HPOId: HP:0000327
       HPOTerm: Hypoplasia of the maxilla
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000365
-      HPOTerm: Hearing impairment
-  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000431
       HPOTerm: Wide nasal bridge
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000501
-      HPOTerm: Glaucoma
-  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000506
       HPOTerm: Telecanthus
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000593
-      HPOTerm: Abnormal anterior chamber morphology
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000627
-      HPOTerm: Posterior embryotoxon
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000668
@@ -126,25 +143,13 @@ Orphapacket:
       HPOId: HP:0002025
       HPOTerm: Anal stenosis
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002564
-      HPOTerm: Malformation of the heart and great vessels
-  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0005280
       HPOTerm: Depressed nasal bridge
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0008053
-      HPOTerm: Aplasia/Hypoplasia of the iris
-  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0011220
       HPOTerm: Prominent forehead
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0011800
-      HPOTerm: Midface retrusion
   Prevalences:
     Prevalence:
     - PrevalenceClass: 1-9 / 1 000 000
@@ -165,6 +170,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

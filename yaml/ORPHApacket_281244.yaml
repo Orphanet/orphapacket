@@ -3,18 +3,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
-          ExternalReferences:
-          - Reference: '17646'
-            Source: HGNC
-          - Reference: '610661'
-            Source: OMIM
-          Label: N-glycanase 1
-          Symbol: NGLY1
-      Label: Alacrimia-choreoathetosis-liver dysfunction syndrome
-      ORPHAcode: '404454'
-  - Child:
-      Genes:
-      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '4284'
             Source: HGNC
@@ -23,6 +12,7 @@ Orphapacket:
           Label: gap junction protein beta 2
           Symbol: GJB2
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '4288'
             Source: HGNC
@@ -32,50 +22,6 @@ Orphapacket:
           Symbol: GJB6
       Label: KID syndrome
       ORPHAcode: '477'
-  - Child:
-      Genes:
-      - Gene:
-          ExternalReferences:
-          - Reference: '10998'
-            Source: HGNC
-          - Reference: '604194'
-            Source: OMIM
-          Label: solute carrier family 27 member 4
-          Symbol: SLC27A4
-      Label: Ichthyosis-prematurity syndrome
-      ORPHAcode: '88621'
-  - Child:
-      Genes:
-      - Gene:
-          ExternalReferences:
-          - Reference: '21396'
-            Source: HGNC
-          - Reference: '604780'
-            Source: OMIM
-          Label: abhydrolase domain containing 5, lysophosphatidic acid acyltransferase
-          Symbol: ABHD5
-      Label: Neutral lipid storage disease with ichthyosis
-      ORPHAcode: '98907'
-  - Child:
-      Genes:
-      - Gene:
-          ExternalReferences:
-          - Reference: '17109'
-            Source: HGNC
-          - Reference: '607511'
-            Source: OMIM
-          Label: ADAM metallopeptidase with thrombospondin type 1 motif 17
-          Symbol: ADAMTS17
-      - Gene:
-          ExternalReferences:
-          - Reference: '23752'
-            Source: HGNC
-          - Reference: '615276'
-            Source: OMIM
-          Label: ceramide synthase 3
-          Symbol: CERS3
-      Label: Ichthyosis-short stature-brachydactyly-microspherophakia syndrome
-      ORPHAcode: '363992'
   - Child:
       Genes: no data
       Label: Multiple sclerosis-ichthyosis-factor VIII deficiency syndrome
@@ -104,6 +50,20 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '10998'
+            Source: HGNC
+          - Reference: '604194'
+            Source: OMIM
+          Label: solute carrier family 27 member 4
+          Symbol: SLC27A4
+      Label: Ichthyosis-prematurity syndrome
+      ORPHAcode: '88621'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '23406'
             Source: HGNC
@@ -113,6 +73,56 @@ Orphapacket:
           Symbol: DOLK
       Label: DK1-CDG
       ORPHAcode: '91131'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '21396'
+            Source: HGNC
+          - Reference: '604780'
+            Source: OMIM
+          Label: abhydrolase domain containing 5, lysophosphatidic acid acyltransferase
+          Symbol: ABHD5
+      Label: Neutral lipid storage disease with ichthyosis
+      ORPHAcode: '98907'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '17109'
+            Source: HGNC
+          - Reference: '607511'
+            Source: OMIM
+          Label: ADAM metallopeptidase with thrombospondin type 1 motif 17
+          Symbol: ADAMTS17
+      - Gene:
+          DisorderGeneAssociationType: Role in the phenotype of
+          ExternalReferences:
+          - Reference: '23752'
+            Source: HGNC
+          - Reference: '615276'
+            Source: OMIM
+          Label: ceramide synthase 3
+          Symbol: CERS3
+      Label: Ichthyosis-short stature-brachydactyly-microspherophakia syndrome
+      ORPHAcode: '363992'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '17646'
+            Source: HGNC
+          - Reference: '610661'
+            Source: OMIM
+          Label: N-glycanase 1
+          Symbol: NGLY1
+      Label: Alacrimia-choreoathetosis-liver dysfunction syndrome
+      ORPHAcode: '404454'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -124,6 +134,6 @@ Orphapacket:
   - Parent:
     - Label: Autosomal ichthyosis syndrome
       ORPHAcode: '281217'
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

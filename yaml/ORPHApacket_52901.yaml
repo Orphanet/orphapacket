@@ -13,6 +13,8 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: follicle stimulating hormone subunit beta
       Symbol: FSHB
@@ -30,21 +32,9 @@ Orphapacket:
       ORPHAcode: '400011'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000786
-      HPOTerm: Primary amenorrhea
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000823
-      HPOTerm: Delayed puberty
-  - Phenotype:
       HPOFrequency: Obligate (100%)
       HPOId: HP:0000026
       HPOTerm: Male hypogonadism
-  - Phenotype:
-      HPOFrequency: Obligate (100%)
-      HPOId: HP:0000044
-      HPOTerm: Hypogonadotrophic hypogonadism
   - Phenotype:
       HPOFrequency: Obligate (100%)
       HPOId: HP:0000134
@@ -53,6 +43,18 @@ Orphapacket:
       HPOFrequency: Obligate (100%)
       HPOId: HP:0008213
       HPOTerm: Gonadotropin deficiency
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000044
+      HPOTerm: Hypogonadotropic hypogonadism
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000786
+      HPOTerm: Primary amenorrhea
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000823
+      HPOTerm: Delayed puberty
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002215
@@ -67,16 +69,8 @@ Orphapacket:
       HPOTerm: Delayed skeletal maturation
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003335
-      HPOTerm: Low gonadotropins (secondary hypogonadism)
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0008214
       HPOTerm: Decreased serum estradiol
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0008230
-      HPOTerm: Decreased testosterone in males
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0008734
@@ -85,6 +79,10 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0012569
       HPOTerm: Delayed menarche
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0040171
+      HPOTerm: Decreased serum testosterone concentration
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000027
@@ -142,6 +140,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

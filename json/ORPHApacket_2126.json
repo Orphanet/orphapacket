@@ -1,11 +1,11 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2126",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "2126",
-        "Label": "Solitary fibrous tumor/hemangiopericytoma",
+        "Label": "Solitary fibrous tumor",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2126",
         "DisorderType": {
             "value": "Disease",
@@ -13,33 +13,35 @@
         },
         "Synonyms": [
             {
-                "Synonym": "SFT/HPC"
+                "Synonym": "SFT"
             }
         ],
         "ExternalReferences": [
             {
                 "Source": "OMIM",
                 "Reference": "234820",
-                "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
             }
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "A rare spindle cell neoplasm that may be benign or malignant and that most frequently arises from the pleura and peritoneum and rarely from other sites such as head and neck liver and skeletal muscle. SFT may be clinically asymptomatic or may present with enlarging mass compressive effects depending on the site involved and rarely with paraneoplastic manifestations (osteoarthropathy or hypoglycemia)."
+            "Contents": "A rare soft tissue tumor characterized by a well-circumscribed mass potentially occurring at any anatomical site histopathologically showing spindled to ovoid cells arranged around a branching and hyalinized vasculature and variable stromal collagen deposition. Immunohistochemistry reveals CD34 and/or STAT6 expression. <i>NAB2-STAT6</i> gene fusions are pathognomonic for this tumor which may be malignant or benign. Clinically most patients present with a slow-growing painless mass. Large tumors may cause paraneoplastic syndromes such as Doege-Potter syndrome with the induction of severe hypoglycemia or acromegaloid features."
         },
         "Genes": [
             {
                 "Gene": {
                     "Symbol": "STAT6",
                     "Name": "signal transducer and activator of transcription 6",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Part of a fusion gene in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "NAB2",
                     "Name": "NGFI-A binding protein 2",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Part of a fusion gene in"
                 }
             }
         ],
@@ -282,13 +284,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "All ages"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "any age"
                 }
             ]
         },

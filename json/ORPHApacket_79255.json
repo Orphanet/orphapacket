@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "79255",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "79255",
         "Label": "GM1 gangliosidosis type 1",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_79255",
@@ -35,7 +35,8 @@
                 "Gene": {
                     "Symbol": "GLB1",
                     "Name": "galactosidase beta 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -74,90 +75,6 @@
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008166",
-                    "HPOTerm": "Decreased beta-galactosidase activity",
-                    "HPOFrequency": "Obligate (100%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000365",
-                    "HPOTerm": "Hearing impairment",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000618",
-                    "HPOTerm": "Blindness",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000707",
-                    "HPOTerm": "Abnormality of the nervous system",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000924",
-                    "HPOTerm": "Abnormality of the skeletal system",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001249",
-                    "HPOTerm": "Intellectual disability",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001433",
-                    "HPOTerm": "Hepatosplenomegaly",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001999",
-                    "HPOTerm": "Abnormal facial shape",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002376",
-                    "HPOTerm": "Developmental regression",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003541",
-                    "HPOTerm": "Urinary glycosaminoglycan excretion",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008947",
-                    "HPOTerm": "Infantile muscular hypotonia",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0025356",
-                    "HPOTerm": "Psychomotor retardation",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0410346",
@@ -457,6 +374,90 @@
                     "HPOId": "HP:0002071",
                     "HPOTerm": "Abnormality of extrapyramidal motor function",
                     "HPOFrequency": "Excluded (0%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008166",
+                    "HPOTerm": "Decreased beta-galactosidase activity",
+                    "HPOFrequency": "Obligate (100%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000365",
+                    "HPOTerm": "Hearing impairment",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000618",
+                    "HPOTerm": "Blindness",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000707",
+                    "HPOTerm": "Abnormality of the nervous system",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000924",
+                    "HPOTerm": "Abnormality of the skeletal system",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001249",
+                    "HPOTerm": "Intellectual disability",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001263",
+                    "HPOTerm": "Global developmental delay",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001433",
+                    "HPOTerm": "Hepatosplenomegaly",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001999",
+                    "HPOTerm": "Abnormal facial shape",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002376",
+                    "HPOTerm": "Developmental regression",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003541",
+                    "HPOTerm": "Urinary glycosaminoglycan excretion",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008947",
+                    "HPOTerm": "Infantile muscular hypotonia",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             }
         ],

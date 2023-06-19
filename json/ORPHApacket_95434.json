@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "95434",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "95434",
         "Label": "Autosomal recessive cerebellar ataxia-movement disorder syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_95434",
@@ -35,14 +35,16 @@
                 "Gene": {
                     "Symbol": "VPS41",
                     "Name": "VPS41 subunit of HOPS complex",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "VPS13D",
                     "Name": "vacuolar protein sorting 13 homolog D",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -201,9 +203,9 @@
         "Prevalences": [
             {
                 "Prevalence": {
-                    "Source": "11960835[PMID]",
+                    "Source": "29518282[PMID]_29604224[PMID]_31876103[PMID]",
                     "PrevalenceType": "Cases/families",
-                    "PrevalenceQualification": "Family",
+                    "PrevalenceQualification": "Case",
                     "PrevalenceClass": "no data",
                     "ValMoy": "no data",
                     "PrevalenceGeographic": "Worldwide"
@@ -211,7 +213,7 @@
             },
             {
                 "Prevalence": {
-                    "Source": "ORPHANET_11960835[PMID]",
+                    "Source": "29518282[PMID]_29604224[PMID]_31876103[PMID]_ORPHANET",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "<1 / 1 000 000",
@@ -220,20 +222,28 @@
                 }
             }
         ],
-        "AverageAgeOfOnsets": {
-            "AverageAgeOfOnset": [
-                {
+        "AverageAgeOfOnsets": [
+            {
+                "AverageAgeOfOnset": {
                     "value": "Adult"
                 }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "No data available"
+            },
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Childhood"
                 }
-            ]
-        },
+            },
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Elderly"
+                }
+            },
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Infancy"
+                }
+            }
+        ],
         "TypeOfInheritances": {
             "TypeOfInheritance": [
                 {

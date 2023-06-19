@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "551",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "551",
         "Label": "MERRF",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_551",
@@ -28,77 +28,63 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "MERRF (Myoclonic Epilepsy with Ragged Red Fibers) syndrome is a mitochondrial encephalomyopathy characterized by myoclonic seizures."
+            "Contents": "A rare mitochondrial oxidative phosphorylation disorder characterized by myoclonic seizures ataxia generalized epilepsy muscle weakness and ragged red fibers in the muscle biopsy."
         },
         "Genes": [
             {
                 "Gene": {
                     "Symbol": "MT-TP",
                     "Name": "mitochondrially encoded tRNA-Pro (CCN)",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "MT-ND5",
                     "Name": "mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 5",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "MT-TL1",
                     "Name": "mitochondrially encoded tRNA-Leu (UUA/G) 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "MT-TK",
                     "Name": "mitochondrially encoded tRNA-Lys (AAA/G)",
-                    "ExternalReferences": []
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "MT-RNR1",
-                    "Name": "mitochondrially encoded 12S rRNA",
-                    "ExternalReferences": []
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "MT-TQ",
-                    "Name": "mitochondrially encoded tRNA-Gln (CAA/G)",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "MT-TH",
                     "Name": "mitochondrially encoded tRNA-His (CAU/C)",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "MT-TS1",
                     "Name": "mitochondrially encoded tRNA-Ser (UCN) 1",
-                    "ExternalReferences": []
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "MT-TS2",
-                    "Name": "mitochondrially encoded tRNA-Ser (AGU/C) 2",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "MT-TF",
                     "Name": "mitochondrially encoded tRNA-Phe (UUU/C)",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -208,7 +194,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0002123",
-                    "HPOTerm": "Generalized myoclonic seizures",
+                    "HPOTerm": "Generalized myoclonic seizure",
                     "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
@@ -255,18 +241,28 @@
                 }
             }
         ],
-        "Prevalences": {
-            "Prevalence": [
-                {
+        "Prevalences": [
+            {
+                "Prevalence": {
+                    "Source": "11261513[PMID]",
+                    "PrevalenceType": "Prevalence at birth",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 1 000 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Sweden"
+                }
+            },
+            {
+                "Prevalence": {
                     "Source": "ORPHANET",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "Unknown",
-                    "ValMoy": "0.0",
+                    "ValMoy": "no data",
                     "PrevalenceGeographic": "Europe"
                 }
-            ]
-        },
+            }
+        ],
         "AverageAgeOfOnsets": [
             {
                 "AverageAgeOfOnset": {
@@ -279,13 +275,6 @@
                 }
             }
         ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "No data available"
-                }
-            ]
-        },
         "TypeOfInheritances": {
             "TypeOfInheritance": [
                 {

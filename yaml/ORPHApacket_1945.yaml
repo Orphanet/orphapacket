@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Childhood
@@ -14,23 +11,21 @@ Orphapacket:
       Reference: '117100'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
-        Term)
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
       Reference: '245570'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: gamma-aminobutyric acid type A receptor subunit gamma2
       Symbol: GABRG2
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: glutamate ionotropic receptor NMDA type subunit 2A
       Symbol: GRIN2A
-  - Gene:
-      ExternalReferences: []
-      Name: sushi repeat containing protein X-linked 2
-      Symbol: SRPX2
   Label: Rolandic epilepsy
   ORPHAcode: '1945'
   ORPHApacketId: '1945'
@@ -59,7 +54,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0007334
-      HPOTerm: Generalized tonic-clonic seizures with focal onset
+      HPOTerm: Bilateral tonic-clonic seizure with focal onset
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0009088
@@ -160,6 +155,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

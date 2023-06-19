@@ -8,15 +8,18 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+  - DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code used
+      to represent it)
     Reference: '607745'
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: sodium voltage-gated channel alpha subunit 2
       Symbol: SCN2A
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: potassium voltage-gated channel subfamily Q member 2
       Symbol: KCNQ2
@@ -40,6 +43,67 @@ Orphapacket:
     - Label: Idiopathic or cryptogenic familial epilepsy syndrome with identified
         loci/genes
       ORPHAcode: '166475'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002069
+      HPOTerm: Bilateral tonic-clonic seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002266
+      HPOTerm: Focal clonic seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011193
+      HPOTerm: EEG with focal spikes
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0032792
+      HPOTerm: Tonic seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0032807
+      HPOTerm: Neonatal seizure
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001350
+      HPOTerm: Slurred speech
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002018
+      HPOTerm: Nausea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002104
+      HPOTerm: Apnea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002131
+      HPOTerm: Episodic ataxia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002172
+      HPOTerm: Postural instability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002315
+      HPOTerm: Headache
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002321
+      HPOTerm: Vertigo
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025401
+      HPOTerm: Staring gaze
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001268
+      HPOTerm: Mental deterioration
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0031491
+      HPOTerm: Continuous spike and waves during slow sleep
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -73,6 +137,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

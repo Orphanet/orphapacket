@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Neonatal
@@ -14,6 +11,7 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: paired box 3
       Symbol: PAX3
@@ -30,14 +28,6 @@ Orphapacket:
       ORPHAcode: '98575'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000175
-      HPOTerm: Cleft palate
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000204
-      HPOTerm: Cleft upper lip
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000303
       HPOTerm: Mandibular prognathia
@@ -46,21 +36,9 @@ Orphapacket:
       HPOId: HP:0000365
       HPOTerm: Hearing impairment
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000430
-      HPOTerm: Underdeveloped nasal alae
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000431
-      HPOTerm: Wide nasal bridge
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000478
       HPOTerm: Abnormality of the eye
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000486
-      HPOTerm: Strabismus
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000504
@@ -70,10 +48,6 @@ Orphapacket:
       HPOId: HP:0000506
       HPOTerm: Telecanthus
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000508
-      HPOTerm: Ptosis
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000574
       HPOTerm: Thick eyebrow
@@ -81,14 +55,6 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000632
       HPOTerm: Lacrimation abnormality
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000664
-      HPOTerm: Synophrys
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000912
-      HPOTerm: Sprengel anomaly
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001053
@@ -98,17 +64,9 @@ Orphapacket:
       HPOId: HP:0001100
       HPOTerm: Heterochromia iridis
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001595
-      HPOTerm: Abnormality of the hair
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002211
       HPOTerm: White forelock
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002216
-      HPOTerm: Premature graying of hair
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002226
@@ -117,6 +75,66 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002227
       HPOTerm: White eyelashes
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003196
+      HPOTerm: Short nose
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005599
+      HPOTerm: Hypopigmentation of hair
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008527
+      HPOTerm: Congenital sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011364
+      HPOTerm: White hair
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000430
+      HPOTerm: Underdeveloped nasal alae
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000431
+      HPOTerm: Wide nasal bridge
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000664
+      HPOTerm: Synophrys
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001595
+      HPOTerm: Abnormality of the hair
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002216
+      HPOTerm: Premature graying of hair
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010804
+      HPOTerm: Tented upper lip vermilion
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000175
+      HPOTerm: Cleft palate
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000204
+      HPOTerm: Cleft upper lip
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000486
+      HPOTerm: Strabismus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000508
+      HPOTerm: Ptosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000912
+      HPOTerm: Sprengel anomaly
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002251
@@ -131,32 +149,12 @@ Orphapacket:
       HPOTerm: Meningocele
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002564
-      HPOTerm: Malformation of the heart and great vessels
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002650
       HPOTerm: Scoliosis
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003196
-      HPOTerm: Short nose
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0005599
-      HPOTerm: Hypopigmentation of hair
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0008527
-      HPOTerm: Congenital sensorineural hearing impairment
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0010804
-      HPOTerm: Tented upper lip vermilion
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0011364
-      HPOTerm: White hair
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030680
+      HPOTerm: Abnormality of cardiovascular system morphology
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -183,6 +181,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

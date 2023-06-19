@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: All ages
@@ -14,16 +11,20 @@ Orphapacket:
       Reference: '601198'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '615361'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
+        in
       ExternalReferences: []
       Name: calcium sensing receptor
       Symbol: CASR
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
+        in
       ExternalReferences: []
       Name: G protein subunit alpha 11
       Symbol: GNA11
@@ -161,6 +162,13 @@ Orphapacket:
       HPOTerm: Cortical myoclonus
   Prevalences:
   - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Denmark
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 25753591[PMID]
+      ValMoy: no data
+  - Prevalence:
       PrevalenceClass: Unknown
       PrevalenceGeographic: Worldwide
       PrevalenceQualification: Class only
@@ -178,12 +186,12 @@ Orphapacket:
   - Synonym: AD hypocalcemia
   TextSection:
     Contents: A rare disorder of calcium homeostasis characterized by variable degrees
-      of hypocalcemia with abnormally low levels of parathyroid hormone (PTH) and
-      persistant normal or elevated calciuria.
+      of hypocalcemia with disproportionately low/normal levels of parathyroid hormone
+      (PTH) and persistent normal or elevated renal calcium excretion.
     TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

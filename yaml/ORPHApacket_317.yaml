@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
@@ -12,39 +9,44 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
-        Term)
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
       Reference: '133200'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '617524'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '617525'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '617526'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: gap junction protein alpha 1
       Symbol: GJA1
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: gap junction protein beta 4
       Symbol: GJB4
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: gap junction protein beta 3
       Symbol: GJB3
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: 3-ketodihydrosphingosine reductase
       Symbol: KDSR
@@ -71,25 +73,9 @@ Orphapacket:
       HPOId: HP:0000252
       HPOTerm: Microcephaly
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000365
-      HPOTerm: Hearing impairment
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000411
-      HPOTerm: Protruding ear
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000501
-      HPOTerm: Glaucoma
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000518
-      HPOTerm: Cataract
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000958
-      HPOTerm: Dry skin
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000962
+      HPOTerm: Hyperkeratosis
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000988
@@ -103,33 +89,9 @@ Orphapacket:
       HPOId: HP:0001034
       HPOTerm: Hypermelanotic macule
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001156
-      HPOTerm: Brachydactyly
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001182
-      HPOTerm: Tapered finger
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001595
-      HPOTerm: Abnormality of the hair
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001597
-      HPOTerm: Abnormality of the nail
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001824
       HPOTerm: Weight loss
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002230
-      HPOTerm: Generalized hirsutism
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002564
-      HPOTerm: Malformation of the heart and great vessels
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0004322
@@ -139,10 +101,6 @@ Orphapacket:
       HPOId: HP:0008066
       HPOTerm: Abnormal blistering of the skin
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008069
-      HPOTerm: Neoplasm of the skin
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0010783
       HPOTerm: Erythema
@@ -151,21 +109,25 @@ Orphapacket:
       HPOId: HP:0012733
       HPOTerm: Macule
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000035
-      HPOTerm: Abnormal testis morphology
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000501
+      HPOTerm: Glaucoma
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000518
+      HPOTerm: Cataract
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000819
       HPOTerm: Diabetes mellitus
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000962
-      HPOTerm: Hyperkeratosis
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000958
+      HPOTerm: Dry skin
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001595
+      HPOTerm: Abnormality of the hair
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001596
@@ -180,8 +142,48 @@ Orphapacket:
       HPOTerm: Irregular hyperpigmentation
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000035
+      HPOTerm: Abnormal testis morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000365
+      HPOTerm: Hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000411
+      HPOTerm: Protruding ear
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001156
+      HPOTerm: Brachydactyly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001182
+      HPOTerm: Tapered finger
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001597
+      HPOTerm: Abnormality of the nail
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002230
+      HPOTerm: Generalized hirsutism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0007957
       HPOTerm: Corneal opacity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008069
+      HPOTerm: Neoplasm of the skin
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030680
+      HPOTerm: Abnormality of cardiovascular system morphology
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -205,6 +207,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

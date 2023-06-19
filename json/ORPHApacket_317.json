@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "317",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "317",
         "Label": "Erythrokeratodermia variabilis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_317",
@@ -24,28 +24,28 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "133200",
-                    "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "617524",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "617525",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "617526",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -54,28 +54,32 @@
                 "Gene": {
                     "Symbol": "GJA1",
                     "Name": "gap junction protein alpha 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "GJB4",
                     "Name": "gap junction protein beta 4",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "GJB3",
                     "Name": "gap junction protein beta 3",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "KDSR",
                     "Name": "3-ketodihydrosphingosine reductase",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
             }
         ],
@@ -123,37 +127,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000365",
-                    "HPOTerm": "Hearing impairment",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000411",
-                    "HPOTerm": "Protruding ear",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000501",
-                    "HPOTerm": "Glaucoma",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000518",
-                    "HPOTerm": "Cataract",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000958",
-                    "HPOTerm": "Dry skin",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0000962",
+                    "HPOTerm": "Hyperkeratosis",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -179,51 +155,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001156",
-                    "HPOTerm": "Brachydactyly",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001182",
-                    "HPOTerm": "Tapered finger",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001595",
-                    "HPOTerm": "Abnormality of the hair",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001597",
-                    "HPOTerm": "Abnormality of the nail",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0001824",
                     "HPOTerm": "Weight loss",
                     "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002230",
-                    "HPOTerm": "Generalized hirsutism",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002564",
-                    "HPOTerm": "Malformation of the heart and great vessels",
-                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -242,13 +176,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0008069",
-                    "HPOTerm": "Neoplasm of the skin",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0010783",
                     "HPOTerm": "Erythema",
                     "HPOFrequency": "Very frequent (99-80%)"
@@ -263,9 +190,16 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000035",
-                    "HPOTerm": "Abnormal testis morphology",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0000501",
+                    "HPOTerm": "Glaucoma",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000518",
+                    "HPOTerm": "Cataract",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -277,16 +211,16 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000962",
-                    "HPOTerm": "Hyperkeratosis",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0000958",
+                    "HPOTerm": "Dry skin",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001249",
-                    "HPOTerm": "Intellectual disability",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0001595",
+                    "HPOTerm": "Abnormality of the hair",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -312,8 +246,78 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0000035",
+                    "HPOTerm": "Abnormal testis morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000365",
+                    "HPOTerm": "Hearing impairment",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000411",
+                    "HPOTerm": "Protruding ear",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001156",
+                    "HPOTerm": "Brachydactyly",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001182",
+                    "HPOTerm": "Tapered finger",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001249",
+                    "HPOTerm": "Intellectual disability",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001597",
+                    "HPOTerm": "Abnormality of the nail",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002230",
+                    "HPOTerm": "Generalized hirsutism",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0007957",
                     "HPOTerm": "Corneal opacity",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008069",
+                    "HPOTerm": "Neoplasm of the skin",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0030680",
+                    "HPOTerm": "Abnormality of cardiovascular system morphology",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             }
@@ -352,13 +356,6 @@
                 }
             }
         ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "normal life expectancy"
-                }
-            ]
-        },
         "TypeOfInheritances": [
             {
                 "TypeOfInheritance": {

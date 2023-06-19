@@ -1,9 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Antenatal
-  - AverageAgeOfDeath:
-      value: Neonatal
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
@@ -18,19 +13,26 @@ Orphapacket:
       Reference: '601186'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '615524'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: signaling receptor and transporter of retinol STRA6
       Symbol: STRA6
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: retinoic acid receptor beta
       Symbol: RARB
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences: []
+      Name: Wnt family member 7B
+      Symbol: WNT7B
   Label: Matthew-Wood syndrome
   ORPHAcode: '2470'
   ORPHApacketId: '2470'
@@ -178,14 +180,19 @@ Orphapacket:
       syndrome
   - Synonym: Spear syndrome
   TextSection:
-    Contents: Matthew-Wood syndrome is a rare clinical entity including as main characteristics
-      anophthalmia or severe microphthalmia and pulmonary hypoplasia or aplasia.
+    Contents: 'A rare genetic congenital malformation syndrome characterized by bilateral
+      anopthalmia (or less commonly microphthalmia) in association with a variable
+      combination of the following: pulmonary hypoplasia or agenesis congenital diaphragmatic
+      hernia or eventration and variable cardiovascular defects (congenital heart
+      defects and/or pulmonary artery atresia). Intellectual disability is noted in
+      surviving patients. Other variable malformations affecting different organ systems
+      as well as facial dysmorphism may be observed.'
     TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

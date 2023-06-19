@@ -8,6 +8,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '1802'
             Source: HGNC
@@ -18,12 +19,10 @@ Orphapacket:
       Label: Peeling skin syndrome type B
       ORPHAcode: '263553'
   - Child:
-      Genes: no data
-      Label: Peeling skin syndrome type C
-      ORPHAcode: '263558'
-  - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
           ExternalReferences:
           - Reference: '33276'
             Source: HGNC
@@ -32,6 +31,8 @@ Orphapacket:
           Label: filaggrin 2
           Symbol: FLG2
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
           ExternalReferences:
           - Reference: '610190'
             Source: OMIM
@@ -39,6 +40,16 @@ Orphapacket:
             Source: HGNC
           Label: carbohydrate sulfotransferase 8
           Symbol: CHST8
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '601697'
+            Source: OMIM
+          - Reference: '8952'
+            Source: HGNC
+          Label: serpin family B member 8
+          Symbol: SERPINB8
       Label: Peeling skin syndrome type A
       ORPHAcode: '263548'
   DisorderType:
@@ -46,8 +57,8 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '616265'
       Source: OMIM
   - ExternalReference:
@@ -74,17 +85,16 @@ Orphapacket:
   - Synonym: Generalized PSS
   - Synonym: Generalized deciduous skin
   TextSection:
-    Contents: 'Generalized peeling skin syndrome (PSS) is a form of PSS (see this
-      term) presenting with a generalized distribution. It comprises two sub-types:
-      the non-inflammatory (PSS type A) and the inflammatory (PSS type B) form (see
-      these terms). PSS type A is characterized by generalized white scaling with
-      superficial peeling of the skin while PSS type B is characterized by superficial
-      patchy peeling of the entire skin with underlying erythroderma associated with
+    Contents: 'A form of peeling skin syndrome characterized by a generalized distribution.
+      It comprises two sub-types: the non-inflammatory (PSS type A) and the inflammatory
+      (PSS type B) form. PSS type A is characterized by generalized white scaling
+      with superficial non-inflammatory peeling of the skin while PSS type B is characterized
+      by superficial patchy peeling of the entire skin with underlying erythroderma
       pruritus and atopy.'
     TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

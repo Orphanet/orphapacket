@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "181",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "181",
         "Label": "X-linked hypohidrotic ectodermal dysplasia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_181",
@@ -34,14 +34,16 @@
                 "Gene": {
                     "Symbol": "EDA",
                     "Name": "ectodysplasin A",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "EDA2R",
                     "Name": "ectodysplasin A2 receptor",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -86,6 +88,48 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0000966",
+                    "HPOTerm": "Hypohidrosis",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002231",
+                    "HPOTerm": "Sparse body hair",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008070",
+                    "HPOTerm": "Sparse hair",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010803",
+                    "HPOTerm": "Everted upper lip vermilion",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100840",
+                    "HPOTerm": "Aplasia/Hypoplasia of the eyebrow",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002007",
+                    "HPOTerm": "Frontal bossing",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0000822",
                     "HPOTerm": "Hypertension",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -100,34 +144,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000966",
-                    "HPOTerm": "Hypohidrosis",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001006",
-                    "HPOTerm": "Hypotrichosis",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002007",
-                    "HPOTerm": "Frontal bossing",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002231",
-                    "HPOTerm": "Sparse body hair",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0009882",
                     "HPOTerm": "Short distal phalanx of finger",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -135,23 +151,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0010803",
-                    "HPOTerm": "Everted upper lip vermilion",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0100651",
                     "HPOTerm": "Type I diabetes mellitus",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0100840",
-                    "HPOTerm": "Aplasia/Hypoplasia of the eyebrow",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             }
         ],
@@ -199,13 +201,6 @@
                 }
             }
         ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "normal life expectancy"
-                }
-            ]
-        },
         "TypeOfInheritances": {
             "TypeOfInheritance": [
                 {

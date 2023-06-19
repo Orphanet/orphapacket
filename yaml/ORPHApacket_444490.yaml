@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -15,18 +12,8 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
-          ExternalReferences:
-          - Reference: '14154'
-            Source: HGNC
-          - Reference: '611761'
-            Source: OMIM
-          Label: lipase maturation factor 1
-          Symbol: LMF1
-      Label: Familial lipase maturation factor 1 deficiency
-      ORPHAcode: '535453'
-  - Child:
-      Genes:
-      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
           ExternalReferences:
           - Reference: '6677'
             Source: HGNC
@@ -39,6 +26,8 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
           ExternalReferences:
           - Reference: '608083'
             Source: OMIM
@@ -51,6 +40,20 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '14154'
+            Source: HGNC
+          - Reference: '611761'
+            Source: OMIM
+          Label: lipase maturation factor 1
+          Symbol: LMF1
+      Label: Familial lipase maturation factor 1 deficiency
+      ORPHAcode: '535453'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '24945'
             Source: HGNC
@@ -64,6 +67,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '17288'
             Source: HGNC
@@ -78,23 +82,23 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '118830'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '207750'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '238600'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '615947'
       Source: OMIM
   Label: Familial chylomicronemia syndrome
@@ -211,15 +215,16 @@ Orphapacket:
       ValMoy: no data
   TextSection:
     Contents: A rare genetic hyperlipidemia characterized by excessive increase in
-      plasma triglyceride levels due to the accumulation of chylomicrons. Clinical
-      manifestations include recurrent episodes of severe acute pancreatitis abdominal
-      pain nausea fatigue diarrhea constipation hepatosplenomegaly eruptive xanthomas
-      and failure to thrive. Children may often be asymptomatic. The condition is
+      plasma triglyceride levels due to the accumulation of chylomicrons which manifests
+      biochemically as severe hypertriglyceridemia. Clinical manifestations include
+      recurrent episodes of acute pancreatitis abdominal pain nausea fatigue diarrhea
+      hepatosplenomegaly eruptive xanthomas lipemia retinalis and failure to thrive.
+      Children may be asymptomatic with later onset of symptoms. The condition is
       not associated with severe atherosclerosis.
     TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

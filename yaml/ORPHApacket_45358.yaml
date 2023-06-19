@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Neonatal
@@ -10,48 +7,67 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '616219'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
       Reference: '135700'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '600638'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '602078'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '609384'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '609428'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '609612'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences: []
+      Name: collagen type XXV alpha 1 chain
+      Symbol: COL25A1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences: []
+      Name: tubulin alpha 1a
+      Symbol: TUBA1A
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: paired like homeobox 2A
       Symbol: PHOX2A
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: kinesin family member 21A
       Symbol: KIF21A
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: tubulin beta 3 class III
       Symbol: TUBB3
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: tubulin beta 2B class IIb
       Symbol: TUBB2B
@@ -72,6 +88,147 @@ Orphapacket:
   - Parent:
     - Label: Syndromic genetic disorder with strabismus
       ORPHAcode: '522520'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000486
+      HPOTerm: Strabismus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000508
+      HPOTerm: Ptosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000542
+      HPOTerm: Impaired ocular adduction
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000577
+      HPOTerm: Exotropia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001491
+      HPOTerm: Congenital fibrosis of extraocular muscles
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011347
+      HPOTerm: Abnormality of ocular abduction
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012241
+      HPOTerm: Levator palpebrae superioris atrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0025721
+      HPOTerm: Limited vertical extraocular movement
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0030211
+      HPOTerm: Slow pupillary light response
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0030534
+      HPOTerm: Abnormal best corrected visual acuity test
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000512
+      HPOTerm: Abnormal electroretinogram
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000539
+      HPOTerm: Abnormality of refraction
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000616
+      HPOTerm: Miosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000646
+      HPOTerm: Amblyopia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001477
+      HPOTerm: Compensatory chin elevation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007831
+      HPOTerm: Nonprogressive restrictive external ophthalmoplegia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012547
+      HPOTerm: Abnormal involuntary eye movements
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0025309
+      HPOTerm: Abnormal pupil shape
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030588
+      HPOTerm: Abnormal visual field test
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000044
+      HPOTerm: Hypogonadotropic hypogonadism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000473
+      HPOTerm: Torticollis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000518
+      HPOTerm: Cataract
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000565
+      HPOTerm: Esotropia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000609
+      HPOTerm: Optic nerve hypoplasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001180
+      HPOTerm: Hand oligodactyly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001252
+      HPOTerm: Hypotonia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001357
+      HPOTerm: Plagiocephaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002013
+      HPOTerm: Vomiting
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002126
+      HPOTerm: Polymicrogyria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002194
+      HPOTerm: Delayed gross motor development
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008527
+      HPOTerm: Congenital sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009916
+      HPOTerm: Anisocoria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025186
+      HPOTerm: Marcus Gunn jaw winking synkinesis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0032466
+      HPOTerm: Aplasia of the olfactory bulb
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
@@ -106,6 +263,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: Not applicable
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

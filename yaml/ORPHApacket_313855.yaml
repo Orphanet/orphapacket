@@ -1,9 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Antenatal
-  - AverageAgeOfDeath:
-      value: Neonatal
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
@@ -18,6 +13,7 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: fibroblast growth factor receptor 2
       Symbol: FGFR2
@@ -33,10 +29,6 @@ Orphapacket:
     - Label: Syndromic craniosynostosis
       ORPHAcode: '139393'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000057
-      HPOTerm: Clitoromegaly
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000212
@@ -82,10 +74,6 @@ Orphapacket:
       HPOId: HP:0001156
       HPOTerm: Brachydactyly
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001433
-      HPOTerm: Hepatosplenomegaly
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001591
       HPOTerm: Bell-shaped thorax
@@ -95,20 +83,12 @@ Orphapacket:
       HPOTerm: Extramedullary hematopoiesis
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0004440
-      HPOTerm: Coronal craniosynostosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002814
-      HPOTerm: Abnormality of the lower limb
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002979
-      HPOTerm: Bowing of the legs
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0003175
       HPOTerm: Hypoplastic ischia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004440
+      HPOTerm: Coronal craniosynostosis
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0004453
@@ -121,6 +101,10 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0007642
       HPOTerm: Congenital stationary night blindness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008665
+      HPOTerm: Clitoral hypertrophy
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0010455
@@ -141,6 +125,18 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0040166
       HPOTerm: Abnormality of the periosteum
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001433
+      HPOTerm: Hepatosplenomegaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002814
+      HPOTerm: Abnormality of the lower limb
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002979
+      HPOTerm: Bowing of the legs
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -171,6 +167,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

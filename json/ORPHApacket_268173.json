@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "268173",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "268173",
         "Label": "Intermittent maple syrup urine disease",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_268173",
@@ -26,7 +26,7 @@
             {
                 "Source": "OMIM",
                 "Reference": "248600",
-                "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
             }
         ],
         "TextSection": {
@@ -38,21 +38,24 @@
                 "Gene": {
                     "Symbol": "BCKDHA",
                     "Name": "branched chain keto acid dehydrogenase E1 subunit alpha",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "BCKDHB",
                     "Name": "branched chain keto acid dehydrogenase E1 subunit beta",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "DBT",
                     "Name": "dihydrolipoamide branched chain transacylase E2",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
             }
         ],
@@ -105,13 +108,6 @@
                 }
             }
         ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "normal life expectancy"
-                }
-            ]
-        },
         "TypeOfInheritances": {
             "TypeOfInheritance": [
                 {

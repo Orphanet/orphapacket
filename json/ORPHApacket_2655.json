@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2655",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "2655",
         "Label": "Thanatophoric dysplasia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2655",
@@ -21,21 +21,21 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "156830",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "187600",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "187601",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -88,7 +88,8 @@
                                         "Source": "OMIM",
                                         "Reference": "134934"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -112,7 +113,8 @@
                                         "Source": "OMIM",
                                         "Reference": "134934"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -122,51 +124,9 @@
         "Phenotypes": [
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000077",
-                    "HPOTerm": "Abnormality of the kidney",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000238",
-                    "HPOTerm": "Hydrocephalus",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000256",
                     "HPOTerm": "Macrocephaly",
                     "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000365",
-                    "HPOTerm": "Hearing impairment",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000369",
-                    "HPOTerm": "Low-set ears",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000494",
-                    "HPOTerm": "Downslanted palpebral fissures",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000520",
-                    "HPOTerm": "Proptosis",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -192,58 +152,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000956",
-                    "HPOTerm": "Acanthosis nigricans",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001156",
-                    "HPOTerm": "Brachydactyly",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001250",
-                    "HPOTerm": "Seizure",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0001252",
                     "HPOTerm": "Hypotonia",
                     "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001385",
-                    "HPOTerm": "Hip dysplasia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001387",
-                    "HPOTerm": "Joint stiffness",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001511",
-                    "HPOTerm": "Intrauterine growth retardation",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001561",
-                    "HPOTerm": "Polyhydramnios",
-                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -255,44 +166,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001631",
-                    "HPOTerm": "Atrial septal defect",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001643",
-                    "HPOTerm": "Patent ductus arteriosus",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002007",
-                    "HPOTerm": "Frontal bossing",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0002089",
                     "HPOTerm": "Pulmonary hypoplasia",
                     "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002093",
-                    "HPOTerm": "Respiratory insufficiency",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002119",
-                    "HPOTerm": "Ventriculomegaly",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -304,44 +180,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002282",
-                    "HPOTerm": "Gray matter heterotopia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002564",
-                    "HPOTerm": "Malformation of the heart and great vessels",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0002652",
                     "HPOTerm": "Skeletal dysplasia",
                     "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002676",
-                    "HPOTerm": "Cloverleaf skull",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002808",
-                    "HPOTerm": "Kyphosis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002867",
-                    "HPOTerm": "Abnormality of the ilium",
-                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -356,13 +197,6 @@
                     "HPOId": "HP:0005280",
                     "HPOTerm": "Depressed nasal bridge",
                     "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0005692",
-                    "HPOTerm": "Joint hyperflexibility",
-                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -388,6 +222,62 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0012368",
+                    "HPOTerm": "Flat face",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000365",
+                    "HPOTerm": "Hearing impairment",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000520",
+                    "HPOTerm": "Proptosis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001156",
+                    "HPOTerm": "Brachydactyly",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001511",
+                    "HPOTerm": "Intrauterine growth retardation",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002007",
+                    "HPOTerm": "Frontal bossing",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002119",
+                    "HPOTerm": "Ventriculomegaly",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002282",
+                    "HPOTerm": "Gray matter heterotopia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0011800",
                     "HPOTerm": "Midface retrusion",
                     "HPOFrequency": "Frequent (79-30%)"
@@ -395,9 +285,121 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0012368",
-                    "HPOTerm": "Flat face",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0000077",
+                    "HPOTerm": "Abnormality of the kidney",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000238",
+                    "HPOTerm": "Hydrocephalus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000369",
+                    "HPOTerm": "Low-set ears",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000494",
+                    "HPOTerm": "Downslanted palpebral fissures",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000956",
+                    "HPOTerm": "Acanthosis nigricans",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001250",
+                    "HPOTerm": "Seizure",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001385",
+                    "HPOTerm": "Hip dysplasia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001387",
+                    "HPOTerm": "Joint stiffness",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001561",
+                    "HPOTerm": "Polyhydramnios",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001631",
+                    "HPOTerm": "Atrial septal defect",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001643",
+                    "HPOTerm": "Patent ductus arteriosus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002093",
+                    "HPOTerm": "Respiratory insufficiency",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002676",
+                    "HPOTerm": "Cloverleaf skull",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002808",
+                    "HPOTerm": "Kyphosis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002867",
+                    "HPOTerm": "Abnormality of the ilium",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005692",
+                    "HPOTerm": "Joint hyperflexibility",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0030680",
+                    "HPOTerm": "Abnormality of cardiovascular system morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -512,13 +514,6 @@
                 }
             }
         ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "early childhood"
-                }
-            ]
-        },
         "TypeOfInheritances": [
             {
                 "TypeOfInheritance": {

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "930",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "930",
         "Label": "Idiopathic achalasia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_930",
@@ -26,7 +26,7 @@
             {
                 "Source": "OMIM",
                 "Reference": "200400",
-                "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
             }
         ],
         "TextSection": {
@@ -38,28 +38,32 @@
                 "Gene": {
                     "Symbol": "CRLF1",
                     "Name": "cytokine receptor like factor 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "HLA-DQA1",
                     "Name": "major histocompatibility complex, class II, DQ alpha 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Major susceptibility factor in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "HLA-DQB1",
                     "Name": "major histocompatibility complex, class II, DQ beta 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Major susceptibility factor in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "NOS1",
                     "Name": "nitric oxide synthase 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -289,13 +293,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "All ages"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "normal life expectancy"
                 }
             ]
         },

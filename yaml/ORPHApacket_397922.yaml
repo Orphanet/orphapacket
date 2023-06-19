@@ -6,11 +6,13 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
+  - DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+      to represent it)
     Reference: '301072'
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: phosphatidylinositol glycan anchor biosynthesis class A
       Symbol: PIGA
@@ -28,6 +30,10 @@ Orphapacket:
   - Parent:
     - Label: Genetic neurodegenerative disease
       ORPHAcode: '183500'
+  - Parent:
+    - Label: Disorder of glycosphingolipid and glycosylphosphatidylinositol anchor
+        glycosylation
+      ORPHAcode: '309515'
   - Parent:
     - Label: Rare parenchymal liver disease
       ORPHAcode: '101939'
@@ -64,6 +70,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

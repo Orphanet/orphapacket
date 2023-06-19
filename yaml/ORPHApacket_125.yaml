@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: adult
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
@@ -16,6 +13,7 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: BLM RecQ like helicase
       Symbol: BLM
@@ -43,6 +41,10 @@ Orphapacket:
     - Label: Genetic photodermatosis
       ORPHAcode: '183490'
   - Parent:
+    - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
+        syndrome
+      ORPHAcode: '611314'
+  - Parent:
     - Label: Rare photodermatosis
       ORPHAcode: '79390'
   Phenotypes:
@@ -65,7 +67,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0004313
-      HPOTerm: Decreased antibody level in blood
+      HPOTerm: Decreased circulating antibody level
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0008850
@@ -204,8 +206,8 @@ Orphapacket:
       HPOTerm: Pneumonia
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002229
-      HPOTerm: Alopecia areata
+      HPOId: HP:0002232
+      HPOTerm: Patchy alopecia
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002665
@@ -245,7 +247,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0011110
-      HPOTerm: Tonsillitis
+      HPOTerm: Recurrent tonsillitis
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0011471
@@ -347,6 +349,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

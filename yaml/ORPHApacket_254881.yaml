@@ -8,11 +8,13 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+  - DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code used
+      to represent it)
     Reference: '607459'
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: DNA polymerase gamma, catalytic subunit
       Symbol: POLG
@@ -24,20 +26,133 @@ Orphapacket:
   - Parent:
     - Label: Ataxia neuropathy spectrum
       ORPHAcode: '254818'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000182
+      HPOTerm: Movement abnormality of the tongue
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000508
+      HPOTerm: Ptosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000597
+      HPOTerm: Ophthalmoparesis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000640
+      HPOTerm: Gaze-evoked nystagmus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000648
+      HPOTerm: Optic atrophy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000716
+      HPOTerm: Depression
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000739
+      HPOTerm: Anxiety
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001260
+      HPOTerm: Dysarthria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001310
+      HPOTerm: Dysmetria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001332
+      HPOTerm: Dystonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001336
+      HPOTerm: Myoclonus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001337
+      HPOTerm: Tremor
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002066
+      HPOTerm: Gait ataxia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002073
+      HPOTerm: Progressive cerebellar ataxia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002075
+      HPOTerm: Dysdiadochokinesis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002076
+      HPOTerm: Migraine
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002151
+      HPOTerm: Increased serum lactate
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002344
+      HPOTerm: Progressive neurologic deterioration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002448
+      HPOTerm: Progressive encephalopathy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003198
+      HPOTerm: Myopathy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003348
+      HPOTerm: Hyperalaninemia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003390
+      HPOTerm: Sensory axonal neuropathy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006554
+      HPOTerm: Acute hepatic failure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007334
+      HPOTerm: Bilateral tonic-clonic seizure with focal onset
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012377
+      HPOTerm: Hemianopia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012692
+      HPOTerm: Focal T2 hyperintense thalamic lesion
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0025722
+      HPOTerm: Cerebral infarct
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0033720
+      HPOTerm: EEG with occipital epileptiform discharges
   Synonyms:
   - Synonym: MSCAE
   - Synonym: Mitochondrial spinocerebellar ataxia with epilepsy
   - Synonym: SCAE
   TextSection:
-    Contents: Spinocerebellar ataxia with epilepsy is a rare mitochondrial DNA maintenance
-      syndrome characterized by cerebellar ataxia sensory peripheral neuropathy myoclonus
-      epilepsy progressive cognitive impairment late-onset ptosis and external ophthalmoplegia.
-      Liver failure may also occur most often in association with the use of antiepileptic
-      drug sodium valproate.
+    Contents: A rare mitochondrial DNA maintenance syndrome characterized by cerebellar
+      ataxia sensory peripheral neuropathy myoclonus epilepsy progressive cognitive
+      impairment late-onset ptosis and external ophthalmoplegia. Liver failure may
+      also occur most often in association with the use of antiepileptic drug sodium
+      valproate.
     TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

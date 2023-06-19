@@ -3,6 +3,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '11740'
             Source: HGNC
@@ -15,18 +16,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
-          ExternalReferences:
-          - Reference: '2295'
-            Source: HGNC
-          - Reference: '117700'
-            Source: OMIM
-          Label: ceruloplasmin
-          Symbol: CP
-      Label: Aceruloplasminemia
-      ORPHAcode: '48818'
-  - Child:
-      Genes:
-      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '10908'
             Source: HGNC
@@ -39,6 +29,8 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
           ExternalReferences:
           - Reference: '16517'
             Source: HGNC
@@ -51,6 +43,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '24592'
             Source: HGNC
@@ -60,6 +53,20 @@ Orphapacket:
           Symbol: STEAP3
       Label: Severe congenital hypochromic anemia with ringed sideroblasts
       ORPHAcode: '300298'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '2295'
+            Source: HGNC
+          - Reference: '117700'
+            Source: OMIM
+          Label: ceruloplasmin
+          Symbol: CP
+      Label: Aceruloplasminemia
+      ORPHAcode: '48818'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -71,6 +78,6 @@ Orphapacket:
   - Parent:
     - Label: Constitutional deficiency anemia
       ORPHAcode: '248296'
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

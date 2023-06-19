@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1797",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "1797",
         "Label": "Autosomal dominant spondylocostal dysostosis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_1797",
@@ -20,7 +20,7 @@
             {
                 "Source": "OMIM",
                 "Reference": "122600",
-                "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
             }
         ],
         "TextSection": {
@@ -32,7 +32,8 @@
                 "Gene": {
                     "Symbol": "TBX6",
                     "Name": "T-box transcription factor 6",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -49,30 +50,30 @@
         "Phenotypes": [
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000008",
-                    "HPOTerm": "Abnormal morphology of female internal genitalia",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0001511",
+                    "HPOTerm": "Intrauterine growth retardation",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000175",
-                    "HPOTerm": "Cleft palate",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0002650",
+                    "HPOTerm": "Scoliosis",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000252",
-                    "HPOTerm": "Microcephaly",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0003422",
+                    "HPOTerm": "Vertebral segmentation defect",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000256",
-                    "HPOTerm": "Macrocephaly",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0003510",
+                    "HPOTerm": "Severe short stature",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -112,6 +113,48 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0003307",
+                    "HPOTerm": "Hyperlordosis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010306",
+                    "HPOTerm": "Short thorax",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000008",
+                    "HPOTerm": "Abnormal morphology of female internal genitalia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000175",
+                    "HPOTerm": "Cleft palate",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000252",
+                    "HPOTerm": "Microcephaly",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000256",
+                    "HPOTerm": "Macrocephaly",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0000772",
                     "HPOTerm": "Abnormality of the ribs",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -133,30 +176,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001511",
-                    "HPOTerm": "Intrauterine growth retardation",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0002205",
                     "HPOTerm": "Recurrent respiratory infections",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002564",
-                    "HPOTerm": "Malformation of the heart and great vessels",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002650",
-                    "HPOTerm": "Scoliosis",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -168,27 +190,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0003307",
-                    "HPOTerm": "Hyperlordosis",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003422",
-                    "HPOTerm": "Vertebral segmentation defect",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003510",
-                    "HPOTerm": "Severe short stature",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0005107",
                     "HPOTerm": "Abnormal sacrum morphology",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -196,9 +197,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0010306",
-                    "HPOTerm": "Short thorax",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0030680",
+                    "HPOTerm": "Abnormality of cardiovascular system morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             }
         ],

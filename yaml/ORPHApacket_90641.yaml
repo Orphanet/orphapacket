@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
@@ -12,18 +9,18 @@ Orphapacket:
     value: Etiological subtype
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '580000'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '304400'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '221745'
       Source: OMIM
   - ExternalReference:
@@ -32,38 +29,41 @@ Orphapacket:
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: POU class 3 homeobox 4
       Symbol: POU3F4
   - Gene:
-      ExternalReferences: []
-      Name: mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4
-      Symbol: MT-ND4
-  - Gene:
+      DisorderGeneAssociationType: Modifying germline mutation in
       ExternalReferences: []
       Name: transcription factor B1, mitochondrial
       Symbol: TFB1M
   - Gene:
+      DisorderGeneAssociationType: Modifying germline mutation in
       ExternalReferences: []
       Name: tRNA mitochondrial 2-thiouridylase
       Symbol: TRMU
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: mitochondrially encoded cytochrome c oxidase I
       Symbol: MT-CO1
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: mitochondrially encoded 12S rRNA
       Symbol: MT-RNR1
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: mitochondrially encoded tRNA-His (CAU/C)
       Symbol: MT-TH
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: mitochondrially encoded tRNA-Ser (UCN) 1
       Symbol: MT-TS1
-  Label: Mitochondrial non-syndromic sensorineural deafness
+  Label: Rare mitochondrial non-syndromic sensorineural deafness
   ORPHAcode: '90641'
   ORPHApacketId: '90641'
   PURL: http://www.orpha.net/ORDO/Orphanet_90641
@@ -94,6 +94,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Mitochondrial inheritance
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

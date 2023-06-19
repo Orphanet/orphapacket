@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: All ages
@@ -9,6 +6,8 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
           ExternalReferences:
           - Reference: '14388'
             Source: HGNC
@@ -27,13 +26,13 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '614200'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '614201'
       Source: OMIM
   Label: Bleeding diathesis due to a collagen receptor defect
@@ -60,19 +59,18 @@ Orphapacket:
       Source: ORPHANET
       ValMoy: no data
   TextSection:
-    Contents: Bleeding diathesis due to a collagen receptor defect is a rare genetic
-      coagulation disorder characterized by a mild to moderate bleeding tendency due
-      to impaired platelet activation and aggregation in response to collagen or impaired
-      platelet-vessel wall interaction resulting from a collagen receptor defect.
-      Patients manifest with ecchymoses epistaxis menorrhagia and/or post-traumatic
-      and post-surgery bleeding complications. Laboratory analysis reveals prolonged
-      bleeding time and occasionally mild thrombocytopenia.
+    Contents: A rare genetic coagulation disorder characterized by a mild to moderate
+      bleeding tendency due to impaired platelet activation and aggregation in response
+      to collagen or impaired platelet-vessel wall interaction resulting from a collagen
+      receptor defect. Patients manifest with ecchymoses epistaxis menorrhagia and/or
+      post-traumatic and post-surgery bleeding complications. Laboratory analysis
+      reveals prolonged bleeding time and occasionally mild thrombocytopenia.
     TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

@@ -3,6 +3,8 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
           ExternalReferences:
           - Reference: '11204'
             Source: HGNC
@@ -21,13 +23,9 @@ Orphapacket:
       Label: Kyphomelic dysplasia
       ORPHAcode: '1801'
   - Child:
-      Genes: no data
-      Label: Congenital bowing of long bones-short stature-dolichomacrocephaly-ocular
-        hypertelorism syndrome
-      ORPHAcode: '2292'
-  - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '18083'
             Source: HGNC
@@ -48,6 +46,18 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '6021'
+            Source: HGNC
+          - Reference: '600694'
+            Source: OMIM
+          Label: interleukin 6 cytokine family signal transducer
+          Symbol: IL6ST
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
           ExternalReferences:
           - Reference: '6597'
             Source: HGNC
@@ -60,6 +70,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '3689'
             Source: HGNC
@@ -77,6 +88,17 @@ Orphapacket:
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
     value: Clinical group
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620076'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '614592'
+      Source: OMIM
   Label: Campomelic dysplasia and related disorders
   ORPHAcode: '93439'
   ORPHApacketId: '93439'
@@ -87,6 +109,6 @@ Orphapacket:
       ORPHAcode: '364526'
   Synonyms:
   - Synonym: Bent bone dysplasia
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

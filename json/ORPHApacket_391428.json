@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "391428",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "391428",
         "Label": "HSD10 disease, infantile type",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_391428",
@@ -44,19 +44,20 @@
             {
                 "Source": "OMIM",
                 "Reference": "300438",
-                "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
             }
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "HSD10 disease infantile type is a clinical subtype of HSD10 disease a rare neurometabolic disorder. Affected boys may show lethargy poor feeding and evidence of mitochondrial dysfunction in the newborn period with subsequent mild developmental delay and abnormal muscle tone. Hallmark of the disease is progressive neurodegeneration and cardiomyopathy which usually manifests between ages 6 months and 2 years with developmental regression progressive visual and hearing loss epilepsy and other neurological symptoms and severe cardiomyopathy. Laboratory investigations show signs of mitochondrial dysfunction and increased urinary excretion of specific isoleucine metabolites. The disease is often fatal around 2-4 years of age."
+            "Contents": "A clinical subtype of HSD10 disease a rare neurometabolic disorder. Affected boys may show lethargy poor feeding and evidence of mitochondrial dysfunction in the newborn period with subsequent mild developmental delay and abnormal muscle tone. Hallmark of the disease is progressive neurodegeneration and cardiomyopathy which usually manifests between ages 6 months and 2 years with developmental regression progressive visual and hearing loss epilepsy and other neurological symptoms and severe cardiomyopathy. Laboratory investigations show signs of mitochondrial dysfunction and increased urinary excretion of specific isoleucine metabolites. The disease is often fatal around 2-4 years of age."
         },
         "Genes": [
             {
                 "Gene": {
                     "Symbol": "HSD17B10",
                     "Name": "hydroxysteroid 17-beta dehydrogenase 10",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -180,13 +181,6 @@
                 "Phenotype": {
                     "HPOId": "HP:0011343",
                     "HPOTerm": "Moderate global developmental delay",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0025356",
-                    "HPOTerm": "Psychomotor retardation",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },

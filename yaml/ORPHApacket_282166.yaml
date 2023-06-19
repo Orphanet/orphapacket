@@ -1,9 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Adult
-  - AverageAgeOfDeath:
-      value: Elderly
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adult
@@ -18,6 +13,7 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: prion protein
       Symbol: PRNP
@@ -36,6 +32,30 @@ Orphapacket:
     - Label: Miscellaneous movement disorder due to neurodegenerative disease
       ORPHAcode: '306695'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000504
+      HPOTerm: Abnormality of vision
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000605
+      HPOTerm: Supranuclear gaze palsy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000712
+      HPOTerm: Emotional lability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000716
+      HPOTerm: Depression
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000726
+      HPOTerm: Dementia
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000736
@@ -110,10 +130,6 @@ Orphapacket:
       HPOTerm: Astrocytosis
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002459
-      HPOTerm: Dysautonomia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002464
       HPOTerm: Spastic dysarthria
   - Phenotype:
@@ -160,6 +176,10 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0011099
       HPOTerm: Spastic hemiparesis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012332
+      HPOTerm: Abnormal autonomic nervous system physiology
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0012672
@@ -212,30 +232,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0100661
       HPOTerm: Trigeminal neuralgia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000504
-      HPOTerm: Abnormality of vision
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000605
-      HPOTerm: Supranuclear gaze palsy
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000639
-      HPOTerm: Nystagmus
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000712
-      HPOTerm: Emotional lability
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000716
-      HPOTerm: Depression
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000726
-      HPOTerm: Dementia
   Prevalences:
     Prevalence:
     - PrevalenceClass: <1 / 1 000 000
@@ -255,6 +251,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

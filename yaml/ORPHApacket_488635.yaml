@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Neonatal
@@ -9,11 +6,14 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
+  - DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+      to represent it)
     Reference: '616917'
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: phosphatidylinositol glycan anchor biosynthesis class G
       Symbol: PIGG
@@ -191,6 +191,6 @@ Orphapacket:
       Brain MRI findings are variable and include cerebral atrophy cerebellar hypoplasia/atrophy
       and thin corpus callosum.
     TextSectionType: Definition
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

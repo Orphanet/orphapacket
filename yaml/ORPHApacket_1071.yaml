@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Neonatal
@@ -9,6 +6,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '15979'
             Source: HGNC
@@ -51,81 +49,17 @@ Orphapacket:
       ORPHAcode: '294955'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000175
-      HPOTerm: Cleft palate
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000176
-      HPOTerm: Submucous cleft hard palate
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000347
-      HPOTerm: Micrognathia
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000405
       HPOTerm: Conductive hearing impairment
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000411
-      HPOTerm: Protruding ear
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000431
       HPOTerm: Wide nasal bridge
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000535
-      HPOTerm: Sparse eyebrow
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000653
-      HPOTerm: Sparse eyelashes
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000668
-      HPOTerm: Hypodontia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000682
-      HPOTerm: Abnormality of dental enamel
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000684
-      HPOTerm: Delayed eruption of teeth
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000687
-      HPOTerm: Widely spaced teeth
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000698
-      HPOTerm: Conical tooth
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000966
       HPOTerm: Hypohidrosis
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000982
-      HPOTerm: Palmoplantar keratoderma
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001006
-      HPOTerm: Hypotrichosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001092
-      HPOTerm: Absent lacrimal punctum
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001608
-      HPOTerm: Abnormality of the voice
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001629
-      HPOTerm: Ventricular septal defect
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001795
@@ -143,6 +77,90 @@ Orphapacket:
       HPOId: HP:0002208
       HPOTerm: Coarse hair
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008070
+      HPOTerm: Sparse hair
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008391
+      HPOTerm: Dystrophic fingernails
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009755
+      HPOTerm: Ankyloblepharon
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100335
+      HPOTerm: Non-midline cleft lip
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000175
+      HPOTerm: Cleft palate
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000176
+      HPOTerm: Submucous cleft hard palate
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000347
+      HPOTerm: Micrognathia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000535
+      HPOTerm: Sparse eyebrow
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000653
+      HPOTerm: Sparse eyelashes
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000668
+      HPOTerm: Hypodontia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000682
+      HPOTerm: Abnormality of dental enamel
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000687
+      HPOTerm: Widely spaced teeth
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000698
+      HPOTerm: Conical tooth
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000982
+      HPOTerm: Palmoplantar keratoderma
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007440
+      HPOTerm: Generalized hyperpigmentation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011819
+      HPOTerm: Submucous cleft soft palate
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000411
+      HPOTerm: Protruding ear
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000684
+      HPOTerm: Delayed eruption of teeth
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001092
+      HPOTerm: Absent lacrimal punctum
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001608
+      HPOTerm: Abnormality of the voice
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001629
+      HPOTerm: Ventricular septal defect
+  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002558
       HPOTerm: Supernumerary nipple
@@ -154,26 +172,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0006101
       HPOTerm: Finger syndactyly
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0007440
-      HPOTerm: Generalized hyperpigmentation
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0008391
-      HPOTerm: Dystrophic fingernails
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0009755
-      HPOTerm: Ankyloblepharon
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0011819
-      HPOTerm: Submucous cleft soft palate
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0100335
-      HPOTerm: Non-midline cleft lip
   Prevalences:
     Prevalence:
     - PrevalenceClass: Unknown
@@ -192,6 +190,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

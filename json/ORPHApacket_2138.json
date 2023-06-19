@@ -1,11 +1,11 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2138",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "2138",
-        "Label": "46,XX ovotesticular disorder of sex development",
+        "Label": "46,XX ovotesticular difference of sex development",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2138",
         "DisorderType": {
             "value": "Malformation syndrome",
@@ -14,13 +14,16 @@
         "Synonyms": [
             {
                 "Synonym": "46,XX ovotesticular DSD"
+            },
+            {
+                "Synonym": "46,XX ovotesticular disorder of sex development"
             }
         ],
         "ExternalReferences": [
             {
                 "Source": "OMIM",
                 "Reference": "400045",
-                "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
             }
         ],
         "TextSection": {
@@ -32,21 +35,24 @@
                 "Gene": {
                     "Symbol": "SOX9",
                     "Name": "SRY-box transcription factor 9",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "SRY",
                     "Name": "sex determining region Y",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "NR5A1",
                     "Name": "nuclear receptor subfamily 5 group A member 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
             }
         ],
@@ -233,13 +239,6 @@
                 }
             }
         ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "normal life expectancy"
-                }
-            ]
-        },
         "TypeOfInheritances": [
             {
                 "TypeOfInheritance": {

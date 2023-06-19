@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "116",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "116",
         "Label": "Beckwith-Wiedemann syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_116",
@@ -55,6 +55,14 @@
                     {
                         "ORPHAcode": "183422",
                         "Label": "Polymalformative genetic syndrome with increased risk of developing cancer"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "641343",
+                        "Label": "Imprinting disorders"
                     }
                 ]
             },
@@ -132,7 +140,8 @@
                                         "Source": "OMIM",
                                         "Reference": "103280"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
                             }
                         },
                         {
@@ -148,7 +157,8 @@
                                         "Source": "OMIM",
                                         "Reference": "604115"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
                             }
                         },
                         {
@@ -164,7 +174,8 @@
                                         "Source": "OMIM",
                                         "Reference": "147470"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
                             }
                         }
                     ]
@@ -188,7 +199,8 @@
                                         "Source": "OMIM",
                                         "Reference": "600856"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]
@@ -212,7 +224,8 @@
                                         "Source": "OMIM",
                                         "Reference": "103280"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
                             }
                         }
                     ]
@@ -243,7 +256,8 @@
                                         "Source": "OMIM",
                                         "Reference": "606681"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -645,13 +659,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002564",
-                    "HPOTerm": "Malformation of the heart and great vessels",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0002667",
                     "HPOTerm": "Nephroblastoma",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -757,6 +764,13 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0030680",
+                    "HPOTerm": "Abnormality of cardiovascular system morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0100243",
                     "HPOTerm": "Leiomyosarcoma",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -854,18 +868,6 @@
             },
             {
                 "AverageAgeOfOnset": {
-                    "value": "Neonatal"
-                }
-            }
-        ],
-        "AverageAgeOfDeaths": [
-            {
-                "AverageAgeOfDeath": {
-                    "value": "Antenatal"
-                }
-            },
-            {
-                "AverageAgeOfDeath": {
                     "value": "Neonatal"
                 }
             }

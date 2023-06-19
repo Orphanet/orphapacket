@@ -3,6 +3,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '19750'
             Source: HGNC
@@ -13,28 +14,8 @@ Orphapacket:
       Label: Multiple intestinal atresia
       ORPHAcode: '2300'
   - Child:
-      Genes:
-      - Gene:
-          ExternalReferences:
-          - Reference: '3754'
-            Source: HGNC
-          - Reference: '300017'
-            Source: OMIM
-          Label: filamin A
-          Symbol: FLNA
-      - Gene:
-          ExternalReferences:
-          - Reference: '24039'
-            Source: HGNC
-          - Reference: '611693'
-            Source: OMIM
-          Label: CXADR like membrane protein
-          Symbol: CLMP
-      Label: Congenital short bowel syndrome
-      ORPHAcode: '2301'
-  - Child:
       Genes: no data
-      Label: Atresia of small intestine
+      Label: Small bowel atresia
       ORPHAcode: '1201'
   - Child:
       Genes: no data
@@ -44,6 +25,29 @@ Orphapacket:
       Genes: no data
       Label: Digestive duplication
       ORPHAcode: '238'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '3754'
+            Source: HGNC
+          - Reference: '300017'
+            Source: OMIM
+          Label: filamin A
+          Symbol: FLNA
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '24039'
+            Source: HGNC
+          - Reference: '611693'
+            Source: OMIM
+          Label: CXADR like membrane protein
+          Symbol: CLMP
+      Label: Congenital short bowel syndrome
+      ORPHAcode: '2301'
   - Child:
       Genes: no data
       Label: Familial intestinal malrotation
@@ -63,6 +67,6 @@ Orphapacket:
   - Parent:
     - Label: Intestinal malformation
       ORPHAcode: '97945'
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "101960",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "101960",
         "Label": "Genetic chronic primary adrenal insufficiency",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_101960",
@@ -32,30 +32,6 @@
         "Childs": [
             {
                 "Child": {
-                    "Label": "Endocrine-cerebro-osteodysplasia syndrome",
-                    "ORPHAcode": "199332",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "ciliogenesis associated kinase 1",
-                                "Symbol": "CILK1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "21219"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "612325"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
                     "Label": "X-linked adrenoleukodystrophy",
                     "ORPHAcode": "43",
                     "Genes": "no data"
@@ -79,7 +55,8 @@
                                         "Source": "OMIM",
                                         "Reference": "614138"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -95,7 +72,8 @@
                                         "Source": "OMIM",
                                         "Reference": "605378"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -111,7 +89,8 @@
                                         "Source": "OMIM",
                                         "Reference": "615495"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]
@@ -126,25 +105,34 @@
             },
             {
                 "Child": {
-                    "Label": "Familial glucocorticoid deficiency",
-                    "ORPHAcode": "361",
+                    "Label": "Autoimmune polyendocrinopathy type 1",
+                    "ORPHAcode": "3453",
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "steroidogenic acute regulatory protein",
-                                "Symbol": "STAR",
+                                "Label": "autoimmune regulator",
+                                "Symbol": "AIRE",
                                 "ExternalReferences": [
                                     {
                                         "Source": "HGNC",
-                                        "Reference": "11359"
+                                        "Reference": "360"
                                     },
                                     {
                                         "Source": "OMIM",
-                                        "Reference": "600617"
+                                        "Reference": "607358"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
-                        },
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Familial glucocorticoid deficiency",
+                    "ORPHAcode": "361",
+                    "Genes": [
                         {
                             "Gene": {
                                 "Label": "melanocortin 2 receptor",
@@ -158,7 +146,8 @@
                                         "Source": "OMIM",
                                         "Reference": "607397"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -174,7 +163,8 @@
                                         "Source": "OMIM",
                                         "Reference": "609196"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -190,7 +180,8 @@
                                         "Source": "OMIM",
                                         "Reference": "606448"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         },
                         {
@@ -206,7 +197,8 @@
                                         "Source": "OMIM",
                                         "Reference": "607878"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -214,7 +206,7 @@
             },
             {
                 "Child": {
-                    "Label": "46,XY disorder of sex development-adrenal insufficiency due to CYP11A1 deficiency",
+                    "Label": "46,XY difference of sex development-adrenal insufficiency due to CYP11A1 deficiency",
                     "ORPHAcode": "168558",
                     "Genes": [
                         {
@@ -230,7 +222,8 @@
                                         "Source": "OMIM",
                                         "Reference": "118485"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]
@@ -254,31 +247,8 @@
                                         "Source": "OMIM",
                                         "Reference": "118485"
                                     }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Autoimmune polyendocrinopathy type 1",
-                    "ORPHAcode": "3453",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "autoimmune regulator",
-                                "Symbol": "AIRE",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "360"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "607358"
-                                    }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]
@@ -302,7 +272,8 @@
                                         "Source": "OMIM",
                                         "Reference": "170993"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -318,7 +289,8 @@
                                         "Source": "OMIM",
                                         "Reference": "602136"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -334,7 +306,8 @@
                                         "Source": "OMIM",
                                         "Reference": "602859"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -350,7 +323,8 @@
                                         "Source": "OMIM",
                                         "Reference": "601758"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -366,7 +340,8 @@
                                         "Source": "HGNC",
                                         "Reference": "8855"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -382,7 +357,8 @@
                                         "Source": "OMIM",
                                         "Reference": "601791"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -398,7 +374,8 @@
                                         "Source": "OMIM",
                                         "Reference": "603360"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -414,7 +391,8 @@
                                         "Source": "OMIM",
                                         "Reference": "600279"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -430,7 +408,8 @@
                                         "Source": "OMIM",
                                         "Reference": "608666"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -446,7 +425,8 @@
                                         "Source": "OMIM",
                                         "Reference": "603164"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -462,7 +442,8 @@
                                         "Source": "OMIM",
                                         "Reference": "600414"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -478,7 +459,8 @@
                                         "Source": "OMIM",
                                         "Reference": "601498"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -494,7 +476,8 @@
                                         "Source": "OMIM",
                                         "Reference": "603867"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -512,6 +495,31 @@
                     "Label": "Adrenal hypoplasia congenita",
                     "ORPHAcode": "595337",
                     "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Endocrine-cerebro-osteodysplasia syndrome",
+                    "ORPHAcode": "199332",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "ciliogenesis associated kinase 1",
+                                "Symbol": "CILK1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "21219"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "612325"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
                 }
             }
         ]

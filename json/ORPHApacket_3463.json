@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "3463",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "3463",
         "Label": "Wolfram syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_3463",
@@ -34,14 +34,14 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "598500",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "604928",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -54,14 +54,16 @@
                 "Gene": {
                     "Symbol": "WFS1",
                     "Name": "wolframin ER transmembrane glycoprotein",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "CISD2",
                     "Name": "CDGSH iron sulfur domain 2",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -102,16 +104,44 @@
         "Phenotypes": [
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000010",
-                    "HPOTerm": "Recurrent urinary tract infections",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0000407",
+                    "HPOTerm": "Sensorineural hearing impairment",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000026",
-                    "HPOTerm": "Male hypogonadism",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0000648",
+                    "HPOTerm": "Optic atrophy",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000819",
+                    "HPOTerm": "Diabetes mellitus",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000873",
+                    "HPOTerm": "Diabetes insipidus",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001959",
+                    "HPOTerm": "Polydipsia",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000010",
+                    "HPOTerm": "Recurrent urinary tract infections",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -130,93 +160,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000135",
-                    "HPOTerm": "Hypogonadism",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000407",
-                    "HPOTerm": "Sensorineural hearing impairment",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000501",
-                    "HPOTerm": "Glaucoma",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000602",
-                    "HPOTerm": "Ophthalmoplegia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000639",
                     "HPOTerm": "Nystagmus",
                     "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000648",
-                    "HPOTerm": "Optic atrophy",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000708",
-                    "HPOTerm": "Behavioral abnormality",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000726",
-                    "HPOTerm": "Dementia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000738",
-                    "HPOTerm": "Hallucinations",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000819",
-                    "HPOTerm": "Diabetes mellitus",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000823",
-                    "HPOTerm": "Delayed puberty",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000873",
-                    "HPOTerm": "Diabetes insipidus",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001249",
-                    "HPOTerm": "Intellectual disability",
-                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -242,6 +188,90 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0008872",
+                    "HPOTerm": "Feeding difficulties in infancy",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100016",
+                    "HPOTerm": "Abnormality of mesentery morphology",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100518",
+                    "HPOTerm": "Dysuria",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000026",
+                    "HPOTerm": "Male hypogonadism",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000135",
+                    "HPOTerm": "Hypogonadism",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000501",
+                    "HPOTerm": "Glaucoma",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000602",
+                    "HPOTerm": "Ophthalmoplegia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000708",
+                    "HPOTerm": "Behavioral abnormality",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000726",
+                    "HPOTerm": "Dementia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000738",
+                    "HPOTerm": "Hallucinations",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000823",
+                    "HPOTerm": "Delayed puberty",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001249",
+                    "HPOTerm": "Intellectual disability",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0001387",
                     "HPOTerm": "Joint stiffness",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -259,13 +289,6 @@
                     "HPOId": "HP:0001903",
                     "HPOTerm": "Anemia",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001959",
-                    "HPOTerm": "Polydipsia",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -319,13 +342,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002459",
-                    "HPOTerm": "Dysautonomia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0002592",
                     "HPOTerm": "Gastric ulcer",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -347,13 +363,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0008872",
-                    "HPOTerm": "Feeding difficulties in infancy",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0009830",
                     "HPOTerm": "Peripheral neuropathy",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -361,16 +370,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0100016",
-                    "HPOTerm": "Abnormality of mesentery morphology",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0100518",
-                    "HPOTerm": "Dysuria",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0012332",
+                    "HPOTerm": "Abnormal autonomic nervous system physiology",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             }
         ],
@@ -453,13 +455,6 @@
                 }
             }
         ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "adult"
-                }
-            ]
-        },
         "TypeOfInheritances": {
             "TypeOfInheritance": [
                 {

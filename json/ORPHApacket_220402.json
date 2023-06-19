@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "220402",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "220402",
         "Label": "Limited cutaneous systemic sclerosis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_220402",
@@ -20,7 +20,7 @@
             {
                 "Source": "OMIM",
                 "Reference": "181750",
-                "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
             }
         ],
         "TextSection": {
@@ -32,42 +32,48 @@
                 "Gene": {
                     "Symbol": "CAV1",
                     "Name": "caveolin 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Major susceptibility factor in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "HLA-DRB1",
                     "Name": "major histocompatibility complex, class II, DR beta 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Major susceptibility factor in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "CCN2",
                     "Name": "cellular communication network factor 2",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Major susceptibility factor in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "IRF5",
                     "Name": "interferon regulatory factor 5",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Major susceptibility factor in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "KIAA0319L",
                     "Name": "KIAA0319 like",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Major susceptibility factor in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "CCR6",
                     "Name": "C-C motif chemokine receptor 6",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Major susceptibility factor in"
                 }
             }
         ],
@@ -148,7 +154,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0008366",
-                    "HPOTerm": "Contractures involving the joints of the feet",
+                    "HPOTerm": "Foot joint contracture",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -192,13 +198,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "Adult"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "adult"
                 }
             ]
         },

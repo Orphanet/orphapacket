@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "364526",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "364526",
         "Label": "Primary bone dysplasia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_364526",
@@ -56,13 +56,6 @@
         "Childs": [
             {
                 "Child": {
-                    "Label": "Genetic inflammatory or rheumatoid-like osteoarthropathy",
-                    "ORPHAcode": "498445",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
                     "Label": "Osteofibrous dysplasia",
                     "ORPHAcode": "488265",
                     "Genes": [
@@ -79,10 +72,18 @@
                                         "Source": "OMIM",
                                         "Reference": "164860"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
                             }
                         }
                     ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Genetic inflammatory or rheumatoid-like osteoarthropathy",
+                    "ORPHAcode": "498445",
+                    "Genes": "no data"
                 }
             },
             {
@@ -124,7 +125,8 @@
                                         "Source": "OMIM",
                                         "Reference": "155760"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]

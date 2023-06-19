@@ -11,25 +11,31 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '615513'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '616005'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: phosphatase and tensin homolog
       Symbol: PTEN
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
+        in
       ExternalReferences: []
       Name: phosphoinositide-3-kinase regulatory subunit 1
       Symbol: PIK3R1
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
+        in
       ExternalReferences: []
       Name: phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
       Symbol: PIK3CD
@@ -41,6 +47,103 @@ Orphapacket:
   - Parent:
     - Label: Agammaglobulinemia
       ORPHAcode: '183669'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002090
+      HPOTerm: Pneumonia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0200117
+      HPOTerm: Recurrent upper and lower respiratory tract infections
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000403
+      HPOTerm: Recurrent otitis media
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001744
+      HPOTerm: Splenomegaly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002110
+      HPOTerm: Bronchiectasis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002240
+      HPOTerm: Hepatomegaly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002716
+      HPOTerm: Lymphadenopathy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002960
+      HPOTerm: Autoimmunity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003496
+      HPOTerm: Increased circulating IgM level
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004313
+      HPOTerm: Decreased circulating antibody level
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010976
+      HPOTerm: B lymphocytopenia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011109
+      HPOTerm: Chronic sinusitis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011956
+      HPOTerm: Intestinal lymphoid nodular hyperplasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000252
+      HPOTerm: Microcephaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000365
+      HPOTerm: Hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001369
+      HPOTerm: Arthritis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002242
+      HPOTerm: Abnormal intestine morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002665
+      HPOTerm: Lymphoma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011110
+      HPOTerm: Recurrent tonsillitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012758
+      HPOTerm: Neurodevelopmental delay
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0031692
+      HPOTerm: Severe cytomegalovirus infection
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0031693
+      HPOTerm: Severe Epstein Barr virus infection
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0032170
+      HPOTerm: Severe varicella zoster infection
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -74,6 +177,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

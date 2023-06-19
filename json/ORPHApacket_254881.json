@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "254881",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "254881",
         "Label": "Spinocerebellar ataxia with epilepsy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_254881",
@@ -26,19 +26,20 @@
             {
                 "Source": "OMIM",
                 "Reference": "607459",
-                "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
             }
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Spinocerebellar ataxia with epilepsy is a rare mitochondrial DNA maintenance syndrome characterized by cerebellar ataxia sensory peripheral neuropathy myoclonus epilepsy progressive cognitive impairment late-onset ptosis and external ophthalmoplegia. Liver failure may also occur most often in association with the use of antiepileptic drug sodium valproate."
+            "Contents": "A rare mitochondrial DNA maintenance syndrome characterized by cerebellar ataxia sensory peripheral neuropathy myoclonus epilepsy progressive cognitive impairment late-onset ptosis and external ophthalmoplegia. Liver failure may also occur most often in association with the use of antiepileptic drug sodium valproate."
         },
         "Genes": [
             {
                 "Gene": {
                     "Symbol": "POLG",
                     "Name": "DNA polymerase gamma, catalytic subunit",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -50,6 +51,204 @@
                         "Label": "Ataxia neuropathy spectrum"
                     }
                 ]
+            }
+        ],
+        "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000182",
+                    "HPOTerm": "Movement abnormality of the tongue",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000508",
+                    "HPOTerm": "Ptosis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000597",
+                    "HPOTerm": "Ophthalmoparesis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000640",
+                    "HPOTerm": "Gaze-evoked nystagmus",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000648",
+                    "HPOTerm": "Optic atrophy",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000716",
+                    "HPOTerm": "Depression",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000739",
+                    "HPOTerm": "Anxiety",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001260",
+                    "HPOTerm": "Dysarthria",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001310",
+                    "HPOTerm": "Dysmetria",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001332",
+                    "HPOTerm": "Dystonia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001336",
+                    "HPOTerm": "Myoclonus",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001337",
+                    "HPOTerm": "Tremor",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002066",
+                    "HPOTerm": "Gait ataxia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002073",
+                    "HPOTerm": "Progressive cerebellar ataxia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002075",
+                    "HPOTerm": "Dysdiadochokinesis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002076",
+                    "HPOTerm": "Migraine",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002151",
+                    "HPOTerm": "Increased serum lactate",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002344",
+                    "HPOTerm": "Progressive neurologic deterioration",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002448",
+                    "HPOTerm": "Progressive encephalopathy",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003198",
+                    "HPOTerm": "Myopathy",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003348",
+                    "HPOTerm": "Hyperalaninemia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003390",
+                    "HPOTerm": "Sensory axonal neuropathy",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0006554",
+                    "HPOTerm": "Acute hepatic failure",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007334",
+                    "HPOTerm": "Bilateral tonic-clonic seizure with focal onset",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012377",
+                    "HPOTerm": "Hemianopia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012692",
+                    "HPOTerm": "Focal T2 hyperintense thalamic lesion",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0025722",
+                    "HPOTerm": "Cerebral infarct",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0033720",
+                    "HPOTerm": "EEG with occipital epileptiform discharges",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
             }
         ],
         "AverageAgeOfOnsets": [

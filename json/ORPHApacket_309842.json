@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "309842",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "309842",
         "Label": "Disorder of iron metabolism and transport",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_309842",
@@ -22,13 +22,6 @@
             }
         ],
         "Childs": [
-            {
-                "Child": {
-                    "Label": "Rare hereditary hemochromatosis",
-                    "ORPHAcode": "220489",
-                    "Genes": "no data"
-                }
-            },
             {
                 "Child": {
                     "Label": "Neonatal hemochromatosis",
@@ -54,7 +47,8 @@
                                         "Source": "OMIM",
                                         "Reference": "190000"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -78,7 +72,8 @@
                                         "Source": "OMIM",
                                         "Reference": "117700"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]
@@ -102,7 +97,8 @@
                                         "Source": "OMIM",
                                         "Reference": "600523"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -110,7 +106,7 @@
             },
             {
                 "Child": {
-                    "Label": "African iron overload",
+                    "Label": "Dietary iron overload disease",
                     "ORPHAcode": "139507",
                     "Genes": "no data"
                 }
@@ -133,10 +129,18 @@
                                         "Source": "OMIM",
                                         "Reference": "134790"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Rare hereditary hemochromatosis",
+                    "ORPHAcode": "220489",
+                    "Genes": "no data"
                 }
             },
             {
@@ -157,7 +161,33 @@
                                         "Source": "OMIM",
                                         "Reference": "134770"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Ferroportin Disease",
+                    "ORPHAcode": "648562",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "solute carrier family 40 member 1",
+                                "Symbol": "SLC40A1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "10909"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "604653"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]

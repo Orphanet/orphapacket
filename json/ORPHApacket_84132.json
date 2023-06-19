@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "84132",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "84132",
         "Label": "Desmin-related myopathy with Mallory body-like inclusions",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_84132",
@@ -20,7 +20,7 @@
             {
                 "Source": "OMIM",
                 "Reference": "602771",
-                "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
             }
         ],
         "Genes": [
@@ -28,7 +28,8 @@
                 "Gene": {
                     "Symbol": "SELENON",
                     "Name": "selenoprotein N",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -88,18 +89,6 @@
             },
             {
                 "AverageAgeOfOnset": {
-                    "value": "Neonatal"
-                }
-            }
-        ],
-        "AverageAgeOfDeaths": [
-            {
-                "AverageAgeOfDeath": {
-                    "value": "Infancy"
-                }
-            },
-            {
-                "AverageAgeOfDeath": {
                     "value": "Neonatal"
                 }
             }

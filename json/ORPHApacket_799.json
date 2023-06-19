@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "799",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "799",
         "Label": "Schizencephaly",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_799",
@@ -51,62 +51,6 @@
         "Childs": [
             {
                 "Child": {
-                    "Label": "Acquired schizencephaly",
-                    "ORPHAcode": "485275",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "empty spiracles homeobox 2",
-                                "Symbol": "EMX2",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "3341"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "600035"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "SIX homeobox 3",
-                                "Symbol": "SIX3",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "10889"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "603714"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "sonic hedgehog signaling molecule",
-                                "Symbol": "SHH",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "10848"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "600725"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
                     "Label": "Familial schizencephaly",
                     "ORPHAcode": "481986",
                     "Genes": [
@@ -123,7 +67,67 @@
                                         "Source": "OMIM",
                                         "Reference": "120130"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Acquired schizencephaly",
+                    "ORPHAcode": "485275",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "empty spiracles homeobox 2",
+                                "Symbol": "EMX2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "3341"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600035"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Major susceptibility factor in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "SIX homeobox 3",
+                                "Symbol": "SIX3",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "10889"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "603714"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Major susceptibility factor in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "sonic hedgehog signaling molecule",
+                                "Symbol": "SHH",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "10848"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600725"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Major susceptibility factor in"
                             }
                         }
                     ]
@@ -248,13 +252,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "All ages"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "any age"
                 }
             ]
         },

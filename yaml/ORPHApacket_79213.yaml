@@ -1,12 +1,26 @@
 Orphapacket:
   Childs:
   - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '5320'
+            Source: HGNC
+          - Reference: '607071'
+            Source: OMIM
+          Label: hyaluronidase 1
+          Symbol: HYAL1
+      Label: Hyaluronidase deficiency
+      ORPHAcode: '67041'
+  - Child:
       Genes: no data
       Label: Mucopolysaccharidosis type 6
       ORPHAcode: '583'
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '4696'
             Source: HGNC
@@ -32,18 +46,6 @@ Orphapacket:
       Genes: no data
       Label: Mucopolysaccharidosis type 4
       ORPHAcode: '582'
-  - Child:
-      Genes:
-      - Gene:
-          ExternalReferences:
-          - Reference: '5320'
-            Source: HGNC
-          - Reference: '607071'
-            Source: OMIM
-          Label: hyaluronidase 1
-          Symbol: HYAL1
-      Label: Hyaluronidase deficiency
-      ORPHAcode: '67041'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -222,6 +224,6 @@ Orphapacket:
       PrevalenceType: Point prevalence
       Source: 35209917[PMID]
       ValMoy: no data
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

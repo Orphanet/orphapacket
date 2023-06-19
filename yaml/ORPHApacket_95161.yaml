@@ -1,18 +1,12 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: All ages
   Childs:
   - Child:
-      Genes: no data
-      Label: Porphyria cutanea tarda
-      ORPHAcode: '101330'
-  - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '12591'
             Source: HGNC
@@ -22,6 +16,10 @@ Orphapacket:
           Symbol: UROD
       Label: Hepatoerythropoietic porphyria
       ORPHAcode: '95159'
+  - Child:
+      Genes: no data
+      Label: Porphyria cutanea tarda
+      ORPHAcode: '101330'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
     value: Clinical group
@@ -54,6 +52,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

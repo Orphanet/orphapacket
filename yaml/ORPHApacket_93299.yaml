@@ -1,9 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Antenatal
-  - AverageAgeOfDeath:
-      value: Neonatal
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
@@ -18,6 +13,8 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: thyroid hormone receptor interactor 11
       Symbol: TRIP11
@@ -55,25 +52,9 @@ Orphapacket:
       HPOId: HP:0000474
       HPOTerm: Thickened nuchal skin fold
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000476
-      HPOTerm: Cystic hygroma
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000774
       HPOTerm: Narrow chest
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001537
-      HPOTerm: Umbilical hernia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001561
-      HPOTerm: Polyhydramnios
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001773
-      HPOTerm: Short foot
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001789
@@ -82,14 +63,6 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002007
       HPOTerm: Frontal bossing
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002564
-      HPOTerm: Malformation of the heart and great vessels
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002757
-      HPOTerm: Recurrent fractures
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002983
@@ -111,17 +84,9 @@ Orphapacket:
       HPOId: HP:0003510
       HPOTerm: Severe short stature
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0004279
-      HPOTerm: Short palm
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0005716
       HPOTerm: Lethal skeletal dysplasia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0006640
-      HPOTerm: Multiple rib fractures
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0006703
@@ -136,8 +101,40 @@ Orphapacket:
       HPOTerm: Flat face
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001537
+      HPOTerm: Umbilical hernia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001561
+      HPOTerm: Polyhydramnios
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001773
+      HPOTerm: Short foot
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002757
+      HPOTerm: Recurrent fractures
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004279
+      HPOTerm: Short palm
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006640
+      HPOTerm: Multiple rib fractures
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0100541
       HPOTerm: Femoral hernia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000476
+      HPOTerm: Cystic hygroma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030680
+      HPOTerm: Abnormality of cardiovascular system morphology
   Prevalences:
     Prevalence:
     - PrevalenceClass: Unknown
@@ -156,6 +153,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

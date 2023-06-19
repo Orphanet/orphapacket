@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "211240",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "211240",
         "Label": "Genetic vascular anomaly",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_211240",
@@ -24,8 +24,22 @@
         "Childs": [
             {
                 "Child": {
+                    "Label": "Cerebral arteriovenous malformation",
+                    "ORPHAcode": "46724",
+                    "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
                     "Label": "Rare genetic capillary malformation",
                     "ORPHAcode": "459526",
+                    "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Primary lymphedema",
+                    "ORPHAcode": "77240",
                     "Genes": "no data"
                 }
             },
@@ -41,51 +55,6 @@
                     "Label": "Rare genetic vascular tumor",
                     "ORPHAcode": "459543",
                     "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Rare genetic venous malformation",
-                    "ORPHAcode": "459548",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Cerebral arteriovenous malformation",
-                    "ORPHAcode": "46724",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Primary lymphedema",
-                    "ORPHAcode": "77240",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Vein of Galen aneurysmal malformation",
-                    "ORPHAcode": "1053",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "EPH receptor B4",
-                                "Symbol": "EPHB4",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "600011"
-                                    },
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "3395"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
                 }
             },
             {
@@ -106,7 +75,8 @@
                                         "Source": "OMIM",
                                         "Reference": "139150"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -122,10 +92,18 @@
                                         "Source": "HGNC",
                                         "Reference": "3395"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Rare genetic venous malformation",
+                    "ORPHAcode": "459548",
+                    "Genes": "no data"
                 }
             },
             {
@@ -146,7 +124,8 @@
                                         "Source": "OMIM",
                                         "Reference": "601601"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -162,7 +141,33 @@
                                         "Source": "OMIM",
                                         "Reference": "616982"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Vein of Galen aneurysmal malformation",
+                    "ORPHAcode": "1053",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "EPH receptor B4",
+                                "Symbol": "EPHB4",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600011"
+                                    },
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "3395"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]

@@ -6,39 +6,31 @@ Orphapacket:
       value: Neonatal
   Childs:
   - Child:
-      Genes:
-      - Gene:
-          ExternalReferences:
-          - Reference: '26219'
-            Source: HGNC
-          - Reference: '610622'
-            Source: OMIM
-          Label: fuzzy planar cell polarity protein
-          Symbol: FUZ
-      Label: Arnold-Chiari malformation type II
-      ORPHAcode: '1136'
-  - Child:
       Genes: no data
-      Label: Myelomeningocele
-      ORPHAcode: '93969'
-  - Child:
-      Genes: no data
-      Label: Posterior meningocele
+      Label: Isolated posterior meningocele
       ORPHAcode: '268810'
   - Child:
       Genes: no data
       Label: Myelocystocele
       ORPHAcode: '268813'
+  - Child:
+      Genes: no data
+      Label: Saccular spinal dysraphism with a stalk to the dome
+      ORPHAcode: '645319'
+  - Child:
+      Genes: no data
+      Label: Open spinal dysraphism with a posterior meningocele
+      ORPHAcode: '645270'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
     value: Clinical group
-  Label: Spina bifida cystica
+  Label: Spinal dysraphism with a posterior meningocele
   ORPHAcode: '268744'
   ORPHApacketId: '268744'
   PURL: http://www.orpha.net/ORDO/Orphanet_268744
   Parents:
   - Parent:
-    - Label: Isolated spina bifida
+    - Label: Spina bifida and other spinal dysraphisms
       ORPHAcode: '823'
   Prevalences:
   - Prevalence:
@@ -55,11 +47,17 @@ Orphapacket:
       PrevalenceType: Point prevalence
       Source: ORPHANET
       ValMoy: no data
+  Synonyms:
+  - Synonym: Spina bifida cystica
+  TextSection:
+    Contents: A rare spinal dysraphism characterized by the presence of a posteriorly
+      located sac containing cerebrospinal fluid.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Multigenic/multifactorial
   - TypeOfInheritance:
       value: Not applicable
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

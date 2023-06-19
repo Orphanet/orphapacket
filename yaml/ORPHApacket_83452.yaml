@@ -1,24 +1,14 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: All ages
-  Childs:
-  - Child:
-      Genes: no data
-      Label: Complex regional pain syndrome type 2
-      ORPHAcode: '99994'
-  - Child:
-      Genes: no data
-      Label: Complex regional pain syndrome type 1
-      ORPHAcode: '99995'
+  Childs: []
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
+  - DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+      to represent it)
     Reference: '604335'
     Source: OMIM
   Label: Complex regional pain syndrome
@@ -72,8 +62,8 @@ Orphapacket:
       HPOTerm: Allodynia
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0031005
-      HPOTerm: Hyperalgesia
+      HPOId: HP:0012534
+      HPOTerm: Dysesthesia
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0040170
@@ -105,6 +95,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

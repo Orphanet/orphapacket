@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
@@ -12,17 +9,18 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '308205'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '619016'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: membrane bound transcription factor peptidase, site 2
       Symbol: MBTPS2
@@ -45,101 +43,9 @@ Orphapacket:
       ORPHAcode: '79364'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000077
-      HPOTerm: Abnormality of the kidney
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000126
-      HPOTerm: Hydronephrosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000252
-      HPOTerm: Microcephaly
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000400
-      HPOTerm: Macrotia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000453
-      HPOTerm: Choanal atresia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000483
-      HPOTerm: Astigmatism
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000491
-      HPOTerm: Keratitis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000492
-      HPOTerm: Abnormal eyelid morphology
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000498
-      HPOTerm: Blepharitis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000509
-      HPOTerm: Conjunctivitis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000545
-      HPOTerm: Myopia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000554
-      HPOTerm: Uveitis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000639
-      HPOTerm: Nystagmus
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000682
-      HPOTerm: Abnormality of dental enamel
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000925
-      HPOTerm: Abnormality of the vertebral column
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000926
-      HPOTerm: Platyspondyly
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001025
-      HPOTerm: Urticaria
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001155
-      HPOTerm: Abnormality of the hand
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001252
-      HPOTerm: Hypotonia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001274
-      HPOTerm: Agenesis of corpus callosum
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001321
-      HPOTerm: Cerebellar hypoplasia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001331
-      HPOTerm: Absent septum pellucidum
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000613
       HPOTerm: Photophobia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001006
-      HPOTerm: Hypotrichosis
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001249
@@ -164,6 +70,10 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0008064
       HPOTerm: Ichthyosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008070
+      HPOTerm: Sparse hair
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0200034
@@ -282,6 +192,94 @@ Orphapacket:
       HPOTerm: Hydroureter
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000077
+      HPOTerm: Abnormality of the kidney
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000126
+      HPOTerm: Hydronephrosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000252
+      HPOTerm: Microcephaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000400
+      HPOTerm: Macrotia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000453
+      HPOTerm: Choanal atresia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000483
+      HPOTerm: Astigmatism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000491
+      HPOTerm: Keratitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000492
+      HPOTerm: Abnormal eyelid morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000498
+      HPOTerm: Blepharitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000509
+      HPOTerm: Conjunctivitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000545
+      HPOTerm: Myopia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000554
+      HPOTerm: Uveitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000682
+      HPOTerm: Abnormality of dental enamel
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000925
+      HPOTerm: Abnormality of the vertebral column
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000926
+      HPOTerm: Platyspondyly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001025
+      HPOTerm: Urticaria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001155
+      HPOTerm: Abnormality of the hand
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001252
+      HPOTerm: Hypotonia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001274
+      HPOTerm: Agenesis of corpus callosum
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001321
+      HPOTerm: Cerebellar hypoplasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001331
+      HPOTerm: Absent septum pellucidum
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001539
       HPOTerm: Omphalocele
   - Phenotype:
@@ -386,6 +384,6 @@ Orphapacket:
       value: Not applicable
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

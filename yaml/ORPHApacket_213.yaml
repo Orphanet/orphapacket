@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -15,6 +12,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '2518'
             Source: HGNC
@@ -27,6 +25,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '2518'
             Source: HGNC
@@ -39,6 +38,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '2518'
             Source: HGNC
@@ -53,13 +53,13 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '219800'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '219900'
       Source: OMIM
   Label: Cystinosis
@@ -193,8 +193,8 @@ Orphapacket:
       HPOTerm: Malabsorption
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002357
-      HPOTerm: Dysphasia
+      HPOId: HP:0002381
+      HPOTerm: Aphasia
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0006824
@@ -285,6 +285,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

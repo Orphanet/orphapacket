@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "370997",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "370997",
         "Label": "Muscle-eye-brain disease with bilateral multicystic leucodystrophy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_370997",
@@ -20,19 +20,20 @@
             {
                 "Source": "OMIM",
                 "Reference": "616538",
-                "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
             }
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "A rare genetic congenital muscular alpha-dystroglycanopathy with brain and eye anomalies disease characterized by a severe muscle-eye-brain disease-like phenotype associated with intellectual disability muscular dystrophy macrocephaly and extended bilateral multicystic white matter disease."
+            "Contents": "A rare congenital muscular alpha-dystroglycanopathy with brain and eye anomalies disease characterized by a severe muscle-eye-brain disease-like phenotype associated with intellectual disability muscular dystrophy macrocephaly and extended bilateral multicystic white matter disease."
         },
         "Genes": [
             {
                 "Gene": {
                     "Symbol": "DAG1",
                     "Name": "dystroglycan 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -243,13 +244,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "Infancy"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "No data available"
                 }
             ]
         }

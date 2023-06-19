@@ -8,11 +8,13 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
     value: Clinical subtype
   ExternalReferences:
-  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+  - DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code used
+      to represent it)
     Reference: '300438'
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: hydroxysteroid 17-beta dehydrogenase 10
       Symbol: HSD17B10
@@ -31,6 +33,10 @@ Orphapacket:
       HPOTerm: Seizure
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001639
       HPOTerm: Hypertrophic cardiomyopathy
   - Phenotype:
@@ -45,10 +51,6 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0012379
       HPOTerm: Abnormal enzyme/coenzyme activity
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0025356
-      HPOTerm: Psychomotor retardation
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0500170
@@ -91,6 +93,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

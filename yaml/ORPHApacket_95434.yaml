@@ -1,10 +1,13 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
   AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adult
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Elderly
+  - AverageAgeOfOnset:
+      value: Infancy
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
@@ -14,10 +17,12 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: VPS41 subunit of HOPS complex
       Symbol: VPS41
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: vacuolar protein sorting 13 homolog D
       Symbol: VPS13D
@@ -114,16 +119,16 @@ Orphapacket:
   - Prevalence:
       PrevalenceClass: no data
       PrevalenceGeographic: Worldwide
-      PrevalenceQualification: Family
+      PrevalenceQualification: Case
       PrevalenceType: Cases/families
-      Source: 11960835[PMID]
+      Source: 29518282[PMID]_29604224[PMID]_31876103[PMID]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: <1 / 1 000 000
       PrevalenceGeographic: Worldwide
       PrevalenceQualification: Class only
       PrevalenceType: Point prevalence
-      Source: ORPHANET_11960835[PMID]
+      Source: 29518282[PMID]_29604224[PMID]_31876103[PMID]_ORPHANET
       ValMoy: no data
   Synonyms:
   - Synonym: SCAR4
@@ -143,6 +148,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "972",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "972",
         "Label": "Hereditary continuous muscle fiber activity",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_972",
@@ -15,7 +15,7 @@
             {
                 "Source": "OMIM",
                 "Reference": "160120",
-                "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
             }
         ],
         "TextSection": {
@@ -27,7 +27,8 @@
                 "Gene": {
                     "Symbol": "KCNA1",
                     "Name": "potassium voltage-gated channel subfamily A member 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -132,13 +133,6 @@
                     "value": "Infancy"
                 }
             }
-        ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "No data available"
-                }
-            ]
-        }
+        ]
     }
 }

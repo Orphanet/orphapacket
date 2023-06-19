@@ -6,14 +6,36 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+  - DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code used
+      to represent it)
     Reference: '601626'
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences: []
       Name: tet methylcytosine dioxygenase 2
       Symbol: TET2
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
+      ExternalReferences: []
+      Name: isocitrate dehydrogenase (NADP(+)) 1
+      Symbol: IDH1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
+      ExternalReferences: []
+      Name: isocitrate dehydrogenase (NADP(+)) 2
+      Symbol: IDH2
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
+      ExternalReferences: []
+      Name: ASXL transcriptional regulator 1
+      Symbol: ASXL1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
+      ExternalReferences: []
+      Name: DNA methyltransferase 3 alpha
+      Symbol: DNMT3A
   Label: Acute myeloid leukaemia with myelodysplasia-related features
   ORPHAcode: '86845'
   ORPHApacketId: '86845'
@@ -48,6 +70,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

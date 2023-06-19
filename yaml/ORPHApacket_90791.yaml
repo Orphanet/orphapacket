@@ -13,6 +13,7 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase
         2
@@ -24,10 +25,10 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_90791
   Parents:
   - Parent:
-    - Label: 46,XX disorder of sex development induced by fetal androgens excess
+    - Label: 46,XX difference of sex development induced by fetal androgens excess
       ORPHAcode: '90776'
   - Parent:
-    - Label: 46,XY disorder of sex development due to adrenal and testicular steroidogenesis
+    - Label: 46,XY difference of sex development due to adrenal and testicular steroidogenesis
         defect
       ORPHAcode: '90786'
   - Parent:
@@ -125,7 +126,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0040171
-      HPOTerm: Decreased serum testosterone level
+      HPOTerm: Decreased serum testosterone concentration
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0500022
@@ -152,6 +153,10 @@ Orphapacket:
       HPOTerm: Hirsutism
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001508
       HPOTerm: Failure to thrive
   - Phenotype:
@@ -174,10 +179,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0012881
       HPOTerm: Abnormality of the labia majora
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0025356
-      HPOTerm: Psychomotor retardation
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -209,6 +210,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

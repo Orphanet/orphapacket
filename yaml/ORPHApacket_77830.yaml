@@ -6,26 +6,6 @@ Orphapacket:
       ORPHAcode: '99792'
   - Child:
       Genes: no data
-      Label: Rare genetic odontal or periodontal disorder
-      ORPHAcode: '420755'
-  - Child:
-      Genes: no data
-      Label: SATB2-associated syndrome
-      ORPHAcode: '576278'
-  - Child:
-      Genes:
-      - Gene:
-          ExternalReferences:
-          - Reference: '19182'
-            Source: HGNC
-          - Reference: '607955'
-            Source: OMIM
-          Label: SAM and SH3 domain containing 1
-          Symbol: SASH1
-      Label: Pigmentation defects-palmoplantar keratoderma-skin carcinoma syndrome
-      ORPHAcode: '447961'
-  - Child:
-      Genes: no data
       Label: Rare disease with dentinogenesis imperfecta
       ORPHAcode: '167762'
   - Child:
@@ -33,8 +13,14 @@ Orphapacket:
       Label: Malformative syndrome with dentinogenesis imperfecta
       ORPHAcode: '180766'
   - Child:
+      Genes: no data
+      Label: Rare genetic odontal or periodontal disorder
+      ORPHAcode: '420755'
+  - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
           ExternalReferences:
           - Reference: '8971'
             Source: HGNC
@@ -48,6 +34,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '613667'
             Source: OMIM
@@ -60,6 +47,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '3052'
             Source: HGNC
@@ -69,6 +57,23 @@ Orphapacket:
           Symbol: DSP
       Label: Erythrokeratodermia-cardiomyopathy syndrome
       ORPHAcode: '476096'
+  - Child:
+      Genes: no data
+      Label: SATB2-associated syndrome
+      ORPHAcode: '576278'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '19182'
+            Source: HGNC
+          - Reference: '607955'
+            Source: OMIM
+          Label: SAM and SH3 domain containing 1
+          Symbol: SASH1
+      Label: Pigmentation defects-palmoplantar keratoderma-skin carcinoma syndrome
+      ORPHAcode: '447961'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -80,6 +85,6 @@ Orphapacket:
   - Parent:
     - Label: Rare genetic disease
       ORPHAcode: '98053'
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

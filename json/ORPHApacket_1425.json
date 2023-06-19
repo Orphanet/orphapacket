@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1425",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "1425",
         "Label": "Desbuquois syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_1425",
@@ -24,21 +24,14 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "251450",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "300881",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "615777",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -51,21 +44,24 @@
                 "Gene": {
                     "Symbol": "CSGALNACT1",
                     "Name": "chondroitin sulfate N-acetylgalactosaminyltransferase 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "CANT1",
                     "Name": "calcium activated nucleotidase 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "XYLT1",
                     "Name": "xylosyltransferase 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
             }
         ],
@@ -98,13 +94,6 @@
         "Phenotypes": [
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000368",
-                    "HPOTerm": "Low-set, posteriorly rotated ears",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000463",
                     "HPOTerm": "Anteverted nares",
                     "HPOFrequency": "Very frequent (99-80%)"
@@ -115,13 +104,6 @@
                     "HPOId": "HP:0000470",
                     "HPOTerm": "Short neck",
                     "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000499",
-                    "HPOTerm": "Abnormal eyelash morphology",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -140,23 +122,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000592",
-                    "HPOTerm": "Blue sclerae",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000944",
                     "HPOTerm": "Abnormality of the metaphysis",
                     "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001006",
-                    "HPOTerm": "Hypotrichosis",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -175,58 +143,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001629",
-                    "HPOTerm": "Ventricular septal defect",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002650",
-                    "HPOTerm": "Scoliosis",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002673",
-                    "HPOTerm": "Coxa valga",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002812",
-                    "HPOTerm": "Coxa vara",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002816",
-                    "HPOTerm": "Genu recurvatum",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002974",
-                    "HPOTerm": "Radioulnar synostosis",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0002999",
                     "HPOTerm": "Patellar dislocation",
                     "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003042",
-                    "HPOTerm": "Elbow dislocation",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -241,13 +160,6 @@
                     "HPOId": "HP:0003510",
                     "HPOTerm": "Severe short stature",
                     "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004209",
-                    "HPOTerm": "Clinodactyly of the 5th finger",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -294,6 +206,90 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0000368",
+                    "HPOTerm": "Low-set, posteriorly rotated ears",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000499",
+                    "HPOTerm": "Abnormal eyelash morphology",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000592",
+                    "HPOTerm": "Blue sclerae",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001629",
+                    "HPOTerm": "Ventricular septal defect",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002650",
+                    "HPOTerm": "Scoliosis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002673",
+                    "HPOTerm": "Coxa valga",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002812",
+                    "HPOTerm": "Coxa vara",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002816",
+                    "HPOTerm": "Genu recurvatum",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002974",
+                    "HPOTerm": "Radioulnar synostosis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003042",
+                    "HPOTerm": "Elbow dislocation",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004209",
+                    "HPOTerm": "Clinodactyly of the 5th finger",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008070",
+                    "HPOTerm": "Sparse hair",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0200055",
                     "HPOTerm": "Small hand",
                     "HPOFrequency": "Frequent (79-30%)"
@@ -334,13 +330,6 @@
                 }
             }
         ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "embryofetal"
-                }
-            ]
-        },
         "TypeOfInheritances": {
             "TypeOfInheritance": [
                 {

@@ -8,11 +8,13 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+  - DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code used
+      to represent it)
     Reference: '608354'
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: RAS p21 protein activator 1
       Symbol: RASA1
@@ -201,11 +203,19 @@ Orphapacket:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0010550
       HPOTerm: Paraplegia
+  TextSection:
+    Contents: A rare congenital complex vascular malformation syndrome characterized
+      by overgrowth of a limb (most commonly a leg) involving bones and soft tissue
+      in association with capillary malformations usually in the form of port-wine
+      stains and multiple arteriovenous fistulas with high-flow arteriovenous shunting.
+      The latter can also lead to other severe complications including abnormal bleeding
+      and heart failure. Lymphatic malformations may also be present.
+    TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Not applicable
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

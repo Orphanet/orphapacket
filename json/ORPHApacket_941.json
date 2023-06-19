@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "941",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "941",
         "Label": "D-glyceric aciduria",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_941",
@@ -35,7 +35,8 @@
                 "Gene": {
                     "Symbol": "GLYCTK",
                     "Name": "glycerate kinase",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -50,6 +51,48 @@
             }
         ],
         "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007185",
+                    "HPOTerm": "Loss of consciousness",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008288",
+                    "HPOTerm": "Nonketotic hyperglycinemia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011344",
+                    "HPOTerm": "Severe global developmental delay",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012444",
+                    "HPOTerm": "Brain atrophy",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012736",
+                    "HPOTerm": "Profound global developmental delay",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100704",
+                    "HPOTerm": "Cerebral visual impairment",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0001942",
@@ -108,6 +151,13 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0001263",
+                    "HPOTerm": "Global developmental delay",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0002154",
                     "HPOTerm": "Hyperglycinemia",
                     "HPOFrequency": "Frequent (79-30%)"
@@ -124,13 +174,6 @@
                 "Phenotype": {
                     "HPOId": "HP:0008947",
                     "HPOTerm": "Infantile muscular hypotonia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0025356",
-                    "HPOTerm": "Psychomotor retardation",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -189,48 +232,6 @@
                     "HPOTerm": "Hypoplasia of the corpus callosum",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0007185",
-                    "HPOTerm": "Loss of consciousness",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008288",
-                    "HPOTerm": "Nonketotic hyperglycinemia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011344",
-                    "HPOTerm": "Severe global developmental delay",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012444",
-                    "HPOTerm": "Brain atrophy",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012736",
-                    "HPOTerm": "Profound global developmental delay",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0100704",
-                    "HPOTerm": "Cerebral visual impairment",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
             }
         ],
         "Prevalences": {
@@ -249,13 +250,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "All ages"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "No data available"
                 }
             ]
         },

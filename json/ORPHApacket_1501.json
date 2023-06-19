@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1501",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "1501",
         "Label": "Adrenocortical carcinoma",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_1501",
@@ -11,11 +11,16 @@
             "value": "Disease",
             "PURL": "http://www.orpha.net/ORDO/Orphanet_377788"
         },
+        "Synonyms": [
+            {
+                "Synonym": "ACC"
+            }
+        ],
         "ExternalReferences": [
             {
                 "Source": "OMIM",
                 "Reference": "202300",
-                "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
             }
         ],
         "TextSection": {
@@ -27,49 +32,56 @@
                 "Gene": {
                     "Symbol": "TP53",
                     "Name": "tumor protein p53",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "TP53",
                     "Name": "tumor protein p53",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "ZNRF3",
                     "Name": "zinc and ring finger 3",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "CTNNB1",
                     "Name": "catenin beta 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "CDKN2A",
                     "Name": "cyclin dependent kinase inhibitor 2A",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "TERT",
                     "Name": "telomerase reverse transcriptase",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "PRKAR1A",
                     "Name": "protein kinase cAMP-dependent type I regulatory subunit alpha",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
                 }
             }
         ],
@@ -85,8 +97,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "443287",
-                        "Label": "ACTH-independent Cushing syndrome due to rare cortisol-producing adrenal tumor"
+                        "ORPHAcode": "314749",
+                        "Label": "Rare disease with adrenal Cushing syndrome as a major feature"
                     }
                 ]
             },

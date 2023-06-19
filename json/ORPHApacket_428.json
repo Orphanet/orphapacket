@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "428",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "428",
         "Label": "Autosomal dominant hypocalcemia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_428",
@@ -28,27 +28,29 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "615361",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "A rare disorder of calcium homeostasis characterized by variable degrees of hypocalcemia with abnormally low levels of parathyroid hormone (PTH) and persistant normal or elevated calciuria."
+            "Contents": "A rare disorder of calcium homeostasis characterized by variable degrees of hypocalcemia with disproportionately low/normal levels of parathyroid hormone (PTH) and persistent normal or elevated renal calcium excretion."
         },
         "Genes": [
             {
                 "Gene": {
                     "Symbol": "CASR",
                     "Name": "calcium sensing receptor",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "GNA11",
                     "Name": "G protein subunit alpha 11",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
                 }
             }
         ],
@@ -285,6 +287,16 @@
         "Prevalences": [
             {
                 "Prevalence": {
+                    "Source": "25753591[PMID]",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 1 000 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Denmark"
+                }
+            },
+            {
+                "Prevalence": {
                     "Source": "ORPHANET",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
@@ -308,13 +320,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "All ages"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "normal life expectancy"
                 }
             ]
         },

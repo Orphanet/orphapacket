@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "95157",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "95157",
         "Label": "Acute hepatic porphyria",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_95157",
@@ -44,30 +44,6 @@
         "Childs": [
             {
                 "Child": {
-                    "Label": "Acute intermittent porphyria",
-                    "ORPHAcode": "79276",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "hydroxymethylbilane synthase",
-                                "Symbol": "HMBS",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "4982"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "609806"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
                     "Label": "Hereditary coproporphyria",
                     "ORPHAcode": "79273",
                     "Genes": [
@@ -84,7 +60,33 @@
                                         "Source": "OMIM",
                                         "Reference": "612732"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Acute intermittent porphyria",
+                    "ORPHAcode": "79276",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "hydroxymethylbilane synthase",
+                                "Symbol": "HMBS",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "4982"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "609806"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -108,7 +110,8 @@
                                         "Source": "OMIM",
                                         "Reference": "600923"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -132,7 +135,8 @@
                                         "Source": "OMIM",
                                         "Reference": "125270"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -155,13 +159,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "All ages"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "No data available"
                 }
             ]
         },

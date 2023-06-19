@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: All ages
@@ -10,32 +7,26 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '609265'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '151623'
       Source: OMIM
   Genes:
   - Gene:
-      ExternalReferences: []
-      Name: cyclin dependent kinase inhibitor 2A
-      Symbol: CDKN2A
-  - Gene:
+      DisorderGeneAssociationType: Modifying germline mutation in
       ExternalReferences: []
       Name: MDM2 proto-oncogene
       Symbol: MDM2
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: tumor protein p53
       Symbol: TP53
-  - Gene:
-      ExternalReferences: []
-      Name: checkpoint kinase 2
-      Symbol: CHEK2
   Label: Li-Fraumeni syndrome
   ORPHAcode: '524'
   ORPHApacketId: '524'
@@ -48,7 +39,7 @@ Orphapacket:
     - Label: Inherited nervous system cancer-predisposing syndrome
       ORPHAcode: '252190'
   - Parent:
-    - Label: Rare disease with Cushing syndrome as a major feature
+    - Label: Rare disease with adrenal Cushing syndrome as a major feature
       ORPHAcode: '314749'
   Phenotypes:
   - Phenotype:
@@ -222,6 +213,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

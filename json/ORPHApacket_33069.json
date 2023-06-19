@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "33069",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "33069",
         "Label": "Dravet syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_33069",
@@ -34,14 +34,14 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "612164",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "615744",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -54,49 +54,48 @@
                 "Gene": {
                     "Symbol": "SCN1A",
                     "Name": "sodium voltage-gated channel alpha subunit 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "SCN1B",
                     "Name": "sodium voltage-gated channel beta subunit 1",
-                    "ExternalReferences": []
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "SCN9A",
-                    "Name": "sodium voltage-gated channel alpha subunit 9",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "GABRA1",
                     "Name": "gamma-aminobutyric acid type A receptor subunit alpha1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "GABRG2",
                     "Name": "gamma-aminobutyric acid type A receptor subunit gamma2",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "PCDH19",
                     "Name": "protocadherin 19",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "SCN2A",
                     "Name": "sodium voltage-gated channel alpha subunit 2",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -223,7 +222,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0002123",
-                    "HPOTerm": "Generalized myoclonic seizures",
+                    "HPOTerm": "Generalized myoclonic seizure",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -258,7 +257,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0006813",
-                    "HPOTerm": "Hemiclonic seizures",
+                    "HPOTerm": "Focal hemiclonic seizure",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -500,13 +499,6 @@
                 }
             }
         ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "any age"
-                }
-            ]
-        },
         "TypeOfInheritances": {
             "TypeOfInheritance": [
                 {

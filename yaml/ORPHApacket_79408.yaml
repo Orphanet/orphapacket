@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: adult
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Neonatal
@@ -14,10 +11,13 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: collagen type VII alpha 1 chain
       Symbol: COL7A1
   - Gene:
+      DisorderGeneAssociationType: Modifying germline mutation in
       ExternalReferences: []
       Name: matrix metallopeptidase 1
       Symbol: MMP1
@@ -37,6 +37,18 @@ Orphapacket:
     - Label: Rare disorder with corneal involvement as a major feature
       ORPHAcode: '519288'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000670
+      HPOTerm: Carious teeth
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001030
+      HPOTerm: Fragile skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001056
+      HPOTerm: Milia
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001075
@@ -114,18 +126,6 @@ Orphapacket:
       HPOId: HP:0031446
       HPOTerm: Erosion of oral mucosa
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000670
-      HPOTerm: Carious teeth
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001030
-      HPOTerm: Fragile skin
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001056
-      HPOTerm: Milia
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0032676
       HPOTerm: Chronic cutaneous wound
@@ -199,6 +199,10 @@ Orphapacket:
       HPOTerm: Esophageal ulceration
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008366
+      HPOTerm: Foot joint contracture
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0010296
       HPOTerm: Ankyloglossia
   - Phenotype:
@@ -229,10 +233,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0031903
       HPOTerm: Abnormal circulating selenium concentration
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100492
-      HPOTerm: Joint contractures involving the joints of the feet
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0100508
@@ -307,6 +307,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

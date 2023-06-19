@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1810",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "1810",
         "Label": "Autosomal dominant hypohidrotic ectodermal dysplasia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_1810",
@@ -24,21 +24,21 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "617337",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "129490",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "614940",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -47,28 +47,32 @@
                 "Gene": {
                     "Symbol": "EDAR",
                     "Name": "ectodysplasin A receptor",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "EDARADD",
-                    "Name": "EDAR associated death domain",
-                    "ExternalReferences": []
+                    "Name": "EDAR associated via death domain",
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "TRAF6",
                     "Name": "TNF receptor associated factor 6",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "KDF1",
                     "Name": "keratinocyte differentiation factor 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -113,13 +117,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001006",
-                    "HPOTerm": "Hypotrichosis",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0002231",
                     "HPOTerm": "Sparse body hair",
                     "HPOFrequency": "Very frequent (99-80%)"
@@ -136,6 +133,13 @@
                 "Phenotype": {
                     "HPOId": "HP:0006482",
                     "HPOTerm": "Abnormality of dental morphology",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008070",
+                    "HPOTerm": "Sparse hair",
                     "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
@@ -223,13 +227,6 @@
                 }
             }
         ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "No data available"
-                }
-            ]
-        },
         "TypeOfInheritances": {
             "TypeOfInheritance": [
                 {

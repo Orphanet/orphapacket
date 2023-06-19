@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "319678",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "319678",
         "Label": "Encephalopathy-hypertrophic cardiomyopathy-renal tubular disease syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_319678",
@@ -13,9 +13,18 @@
         },
         "ExternalReferences": [
             {
-                "Source": "OMIM",
-                "Reference": "614654",
-                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "614654",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "616733",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -27,7 +36,16 @@
                 "Gene": {
                     "Symbol": "COQ9",
                     "Name": "coenzyme Q9",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "COQ7",
+                    "Name": "coenzyme Q7, hydroxylase",
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
             }
         ],
@@ -75,13 +93,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "Neonatal"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "No data available"
                 }
             ]
         }

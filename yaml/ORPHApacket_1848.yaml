@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: infantile
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
@@ -16,42 +13,52 @@ Orphapacket:
       Reference: '191830'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '619887'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
-        Term)
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
       Reference: '617805'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '615721'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: Wnt family member 9B
       Symbol: WNT9B
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: GREB1 like retinoic acid receptor coactivator
       Symbol: GREB1L
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: ret proto-oncogene
       Symbol: RET
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: integrin subunit alpha 8
       Symbol: ITGA8
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: fibroblast growth factor 20
       Symbol: FGF20
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: GDNF family receptor alpha 1
       Symbol: GFRA1
@@ -65,17 +72,9 @@ Orphapacket:
       ORPHAcode: '411709'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000008
-      HPOTerm: Abnormal morphology of female internal genitalia
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000104
       HPOTerm: Renal agenesis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000175
-      HPOTerm: Cleft palate
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000286
@@ -97,10 +96,6 @@ Orphapacket:
       HPOId: HP:0001562
       HPOTerm: Oligohydramnios
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001563
-      HPOTerm: Fetal polyuria
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001958
       HPOTerm: Nonketotic hypoglycemia
@@ -110,12 +105,12 @@ Orphapacket:
       HPOTerm: Pulmonary hypoplasia
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002242
-      HPOTerm: Abnormal intestine morphology
+      HPOId: HP:0001563
+      HPOTerm: Fetal polyuria
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002564
-      HPOTerm: Malformation of the heart and great vessels
+      HPOId: HP:0002242
+      HPOTerm: Abnormal intestine morphology
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002575
@@ -125,6 +120,22 @@ Orphapacket:
       HPOId: HP:0005107
       HPOTerm: Abnormal sacrum morphology
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030680
+      HPOTerm: Abnormality of cardiovascular system morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100589
+      HPOTerm: Urogenital fistula
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000008
+      HPOTerm: Abnormal morphology of female internal genitalia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000175
+      HPOTerm: Cleft palate
+  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0010497
       HPOTerm: Sirenomelia
@@ -132,10 +143,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0100335
       HPOTerm: Non-midline cleft lip
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0100589
-      HPOTerm: Urogenital fistula
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -273,6 +280,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

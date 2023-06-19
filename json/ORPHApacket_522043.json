@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "522043",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "522043",
         "Label": "Syndromic autoimmune enteropathy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_522043",
@@ -40,95 +40,24 @@
         "Childs": [
             {
                 "Child": {
-                    "Label": "Autoimmune lymphoproliferative syndrome due to CTLA4 haploinsuffiency",
-                    "ORPHAcode": "436159",
+                    "Label": "Syndromic multisystem autoimmune disease due to Itch deficiency",
+                    "ORPHAcode": "228426",
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "cytotoxic T-lymphocyte associated protein 4",
-                                "Symbol": "CTLA4",
+                                "Label": "itchy E3 ubiquitin protein ligase",
+                                "Symbol": "ITCH",
                                 "ExternalReferences": [
                                     {
                                         "Source": "HGNC",
-                                        "Reference": "2505"
+                                        "Reference": "13890"
                                     },
                                     {
                                         "Source": "OMIM",
-                                        "Reference": "123890"
+                                        "Reference": "606409"
                                     }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome",
-                    "ORPHAcode": "37042",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "forkhead box P3",
-                                "Symbol": "FOXP3",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "6106"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "300292"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Immunodeficiency due to CD25 deficiency",
-                    "ORPHAcode": "169100",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "interleukin 2 receptor subunit alpha",
-                                "Symbol": "IL2RA",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "6008"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "147730"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "STAT3-related early-onset multisystem autoimmune disease",
-                    "ORPHAcode": "438159",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "signal transducer and activator of transcription 3",
-                                "Symbol": "STAT3",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "11364"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "102582"
-                                    }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -152,7 +81,8 @@
                                         "Source": "HGNC",
                                         "Reference": "11982"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         },
                         {
@@ -168,7 +98,8 @@
                                         "Source": "OMIM",
                                         "Reference": "600555"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
                             }
                         }
                     ]
@@ -176,23 +107,49 @@
             },
             {
                 "Child": {
-                    "Label": "Autoimmune polyendocrinopathy type 1",
-                    "ORPHAcode": "3453",
+                    "Label": "STAT3-related early-onset multisystem autoimmune disease",
+                    "ORPHAcode": "438159",
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "autoimmune regulator",
-                                "Symbol": "AIRE",
+                                "Label": "signal transducer and activator of transcription 3",
+                                "Symbol": "STAT3",
                                 "ExternalReferences": [
                                     {
                                         "Source": "HGNC",
-                                        "Reference": "360"
+                                        "Reference": "11364"
                                     },
                                     {
                                         "Source": "OMIM",
-                                        "Reference": "607358"
+                                        "Reference": "102582"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Immunodeficiency due to CD25 deficiency",
+                    "ORPHAcode": "169100",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "interleukin 2 receptor subunit alpha",
+                                "Symbol": "IL2RA",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "6008"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "147730"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -216,7 +173,33 @@
                                         "Source": "OMIM",
                                         "Reference": "604260"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Autoimmune lymphoproliferative syndrome due to CTLA4 haploinsuffiency",
+                    "ORPHAcode": "436159",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "cytotoxic T-lymphocyte associated protein 4",
+                                "Symbol": "CTLA4",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "2505"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "123890"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -240,7 +223,8 @@
                                         "Source": "OMIM",
                                         "Reference": "606453"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]
@@ -248,23 +232,49 @@
             },
             {
                 "Child": {
-                    "Label": "Syndromic multisystem autoimmune disease due to Itch deficiency",
-                    "ORPHAcode": "228426",
+                    "Label": "Autoimmune polyendocrinopathy type 1",
+                    "ORPHAcode": "3453",
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "itchy E3 ubiquitin protein ligase",
-                                "Symbol": "ITCH",
+                                "Label": "autoimmune regulator",
+                                "Symbol": "AIRE",
                                 "ExternalReferences": [
                                     {
                                         "Source": "HGNC",
-                                        "Reference": "13890"
+                                        "Reference": "360"
                                     },
                                     {
                                         "Source": "OMIM",
-                                        "Reference": "606409"
+                                        "Reference": "607358"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome",
+                    "ORPHAcode": "37042",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "forkhead box P3",
+                                "Symbol": "FOXP3",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "6106"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "300292"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]

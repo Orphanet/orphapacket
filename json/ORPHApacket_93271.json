@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "93271",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "93271",
         "Label": "Short rib-polydactyly syndrome, Verma-Naumoff type",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_93271",
@@ -21,28 +21,28 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "614091",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "613091",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "615503",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "615633",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -55,35 +55,40 @@
                 "Gene": {
                     "Symbol": "IFT80",
                     "Name": "intraflagellar transport 80",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "DYNC2H1",
                     "Name": "dynein cytoplasmic 2 heavy chain 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "WDR35",
                     "Name": "WD repeat domain 35",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "DYNC2I1",
                     "Name": "dynein 2 intermediate chain 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "DYNC2I2",
                     "Name": "dynein 2 intermediate chain 2",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -108,6 +113,90 @@
         "Phenotypes": [
             {
                 "Phenotype": {
+                    "HPOId": "HP:0000773",
+                    "HPOTerm": "Short ribs",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000774",
+                    "HPOTerm": "Narrow chest",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000944",
+                    "HPOTerm": "Abnormality of the metaphysis",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001773",
+                    "HPOTerm": "Short foot",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002093",
+                    "HPOTerm": "Respiratory insufficiency",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002983",
+                    "HPOTerm": "Micromelia",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003270",
+                    "HPOTerm": "Abdominal distention",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004279",
+                    "HPOTerm": "Short palm",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005716",
+                    "HPOTerm": "Lethal skeletal dysplasia",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008873",
+                    "HPOTerm": "Disproportionate short-limb short stature",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0009106",
+                    "HPOTerm": "Abnormal pelvis bone ossification",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010306",
+                    "HPOTerm": "Short thorax",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0000028",
                     "HPOTerm": "Cryptorchidism",
                     "HPOFrequency": "Frequent (79-30%)"
@@ -125,13 +214,6 @@
                     "HPOId": "HP:0000089",
                     "HPOTerm": "Renal hypoplasia",
                     "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000107",
-                    "HPOTerm": "Renal cyst",
-                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -185,37 +267,86 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000518",
-                    "HPOTerm": "Cataract",
+                    "HPOId": "HP:0001162",
+                    "HPOTerm": "Postaxial hand polydactyly",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001789",
+                    "HPOTerm": "Hydrops fetalis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002007",
+                    "HPOTerm": "Frontal bossing",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002612",
+                    "HPOTerm": "Congenital hepatic fibrosis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003762",
+                    "HPOTerm": "Uterus didelphys",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004599",
+                    "HPOTerm": "Absent or minimally ossified vertebral bodies",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005280",
+                    "HPOTerm": "Depressed nasal bridge",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008716",
+                    "HPOTerm": "Urethrovaginal fistula",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008736",
+                    "HPOTerm": "Hypoplasia of penis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0030680",
+                    "HPOTerm": "Abnormality of cardiovascular system morphology",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000107",
+                    "HPOTerm": "Renal cyst",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000773",
-                    "HPOTerm": "Short ribs",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000774",
-                    "HPOTerm": "Narrow chest",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000944",
-                    "HPOTerm": "Abnormality of the metaphysis",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001162",
-                    "HPOTerm": "Postaxial hand polydactyly",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0000518",
+                    "HPOTerm": "Cataract",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -255,30 +386,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001773",
-                    "HPOTerm": "Short foot",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001789",
-                    "HPOTerm": "Hydrops fetalis",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0002006",
                     "HPOTerm": "Facial cleft",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002007",
-                    "HPOTerm": "Frontal bossing",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -304,58 +414,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002093",
-                    "HPOTerm": "Respiratory insufficiency",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0002119",
                     "HPOTerm": "Ventriculomegaly",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002564",
-                    "HPOTerm": "Malformation of the heart and great vessels",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002612",
-                    "HPOTerm": "Congenital hepatic fibrosis",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002983",
-                    "HPOTerm": "Micromelia",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003270",
-                    "HPOTerm": "Abdominal distention",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003762",
-                    "HPOTerm": "Uterus didelphys",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004279",
-                    "HPOTerm": "Short palm",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -367,65 +428,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0004599",
-                    "HPOTerm": "Absent or minimally ossified vertebral bodies",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0005280",
-                    "HPOTerm": "Depressed nasal bridge",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0005716",
-                    "HPOTerm": "Lethal skeletal dysplasia",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008716",
-                    "HPOTerm": "Urethrovaginal fistula",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008736",
-                    "HPOTerm": "Hypoplasia of penis",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008873",
-                    "HPOTerm": "Disproportionate short-limb short stature",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0009106",
-                    "HPOTerm": "Abnormal pelvis bone ossification",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0010297",
                     "HPOTerm": "Bifid tongue",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0010306",
-                    "HPOTerm": "Short thorax",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -456,18 +461,6 @@
             },
             {
                 "AverageAgeOfOnset": {
-                    "value": "Neonatal"
-                }
-            }
-        ],
-        "AverageAgeOfDeaths": [
-            {
-                "AverageAgeOfDeath": {
-                    "value": "Antenatal"
-                }
-            },
-            {
-                "AverageAgeOfDeath": {
                     "value": "Neonatal"
                 }
             }

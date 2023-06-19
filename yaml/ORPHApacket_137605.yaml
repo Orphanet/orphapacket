@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
@@ -18,6 +15,7 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: sprouty related EVH1 domain containing 1
       Symbol: SPRED1
@@ -27,14 +25,15 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_137605
   Parents:
   - Parent:
-    - Label: Malformation syndrome with hamartosis
-      ORPHAcode: '98196'
-  - Parent:
     - Label: Genetic hyperpigmentation of the skin
       ORPHAcode: '183466'
   - Parent:
     - Label: RASopathy
       ORPHAcode: '536391'
+  - Parent:
+    - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
+        syndrome
+      ORPHAcode: '611314'
   - Parent:
     - Label: Hyperpigmentation of the skin
       ORPHAcode: '79375'
@@ -235,6 +234,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

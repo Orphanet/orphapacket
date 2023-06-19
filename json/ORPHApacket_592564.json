@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "592564",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "592564",
         "Label": "GNAO1-related developmental delay-seizures-movement disorder spectrum",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_592564",
@@ -13,15 +13,39 @@
         },
         "Synonyms": [
             {
+                "Synonym": "GNAO1-related neurodevelopmental disorder"
+            },
+            {
                 "Synonym": "GNAO1-related spectrum"
             }
         ],
+        "ExternalReferences": [
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "615473",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "617493",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            }
+        ],
+        "TextSection": {
+            "TextSectionType": "Definition",
+            "Contents": "A rare genetic neurological disorder characterized by a phenotypic spectrum of mild to severe developmental delay and hypotonia variably associated with intellectual disability early-onset seizures and movement disorders such as dystonia ataxia chorea and dyskinesia. Brain imaging may show delayed myelination thin corpus callosum or cerebral atrophy."
+        },
         "Genes": [
             {
                 "Gene": {
                     "Symbol": "GNAO1",
                     "Name": "G protein subunit alpha o1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -105,13 +129,6 @@
                     "value": "Neonatal"
                 }
             }
-        ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "No data available"
-                }
-            ]
-        }
+        ]
     }
 }

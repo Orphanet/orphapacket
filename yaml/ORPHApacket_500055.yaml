@@ -1,36 +1,33 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
   - AverageAgeOfOnset:
       value: Infancy
   DisorderType:
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-    value: Malformation syndrome
+    PURL: http://www.orpha.net/ORDO/Orphanet_377795
+    value: Etiological subtype
   ExternalReferences:
   - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '616863'
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Role in the phenotype of
       ExternalReferences: []
       Name: ubiquitin specific peptidase 7
       Symbol: USP7
-  Label: 16p13.2 microdeletion syndrome
+  Label: Hao-Fountain syndrome due to 16p13.2 microdeletion
   ORPHAcode: '500055'
   ORPHApacketId: '500055'
   PURL: http://www.orpha.net/ORDO/Orphanet_500055
   Parents:
   - Parent:
-    - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
-        syndrome
-      ORPHAcode: '611314'
-  - Parent:
     - Label: Partial deletion of the short arm of chromosome 16
       ORPHAcode: '261956'
+  - Parent:
+    - Label: Hao-Fountain syndrome
+      ORPHAcode: '643549'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -260,6 +257,7 @@ Orphapacket:
       Source: ORPHANET_26365382[PMID]
       ValMoy: no data
   Synonyms:
+  - Synonym: Chromosome 16p13.2 deletion syndrome
   - Synonym: Del(16)(p13.2)
   - Synonym: Monosomy 16p13.2
   TextSection:
@@ -269,6 +267,6 @@ Orphapacket:
       compulsivity stubbornness manipulative behaviors temper tantrums and aggressive
       behaviors.
     TextSectionType: Definition
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

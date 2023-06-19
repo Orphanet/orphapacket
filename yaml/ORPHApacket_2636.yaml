@@ -1,9 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Infancy
-  - AverageAgeOfDeath:
-      value: Neonatal
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
@@ -14,17 +9,18 @@ Orphapacket:
     value: Malformation syndrome
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '210710'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '210730'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: RNA, U4atac small nuclear (U12-dependent splicing)
       Symbol: RNU4ATAC
@@ -121,16 +117,8 @@ Orphapacket:
       HPOTerm: Abnormality of the metaphysis
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001006
-      HPOTerm: Hypotrichosis
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001156
       HPOTerm: Brachydactyly
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001163
-      HPOTerm: Abnormality of the metacarpal bones
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001167
@@ -245,12 +233,20 @@ Orphapacket:
       HPOTerm: Aplasia/hypoplasia of the femur
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005916
+      HPOTerm: Abnormal metacarpal morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0006660
       HPOTerm: Aplastic clavicles
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0007598
       HPOTerm: Bilateral single transverse palmar creases
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008070
+      HPOTerm: Sparse hair
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0008818
@@ -334,7 +330,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0009912
-      HPOTerm: Abnormality of the tragus
+      HPOTerm: Abnormal tragus morphology
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0012471
@@ -367,6 +363,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

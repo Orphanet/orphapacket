@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "98544",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "98544",
         "Label": "Cerebral lipidosis with dementia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_98544",
@@ -22,139 +22,6 @@
             }
         ],
         "Childs": [
-            {
-                "Child": {
-                    "Label": "Gaucher disease type 1",
-                    "ORPHAcode": "77259",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "glucosylceramidase beta 1",
-                                "Symbol": "GBA1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "4177"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "606463"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "scavenger receptor class B member 2",
-                                "Symbol": "SCARB2",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "1665"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "602257"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Gaucher disease type 2",
-                    "ORPHAcode": "77260",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "glucosylceramidase beta 1",
-                                "Symbol": "GBA1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "4177"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "606463"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Gaucher disease type 3",
-                    "ORPHAcode": "77261",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "glucosylceramidase beta 1",
-                                "Symbol": "GBA1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "4177"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "606463"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Adult neuronal ceroid lipofuscinosis",
-                    "ORPHAcode": "79262",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Infantile neuronal ceroid lipofuscinosis",
-                    "ORPHAcode": "79263",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Juvenile neuronal ceroid lipofuscinosis",
-                    "ORPHAcode": "79264",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Adult Krabbe disease",
-                    "ORPHAcode": "206448",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "galactosylceramidase",
-                                "Symbol": "GALC",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "4115"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "606890"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
             {
                 "Child": {
                     "Label": "Sandhoff disease",
@@ -180,7 +47,8 @@
                                         "Source": "OMIM",
                                         "Reference": "606530"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -197,6 +65,144 @@
                 "Child": {
                     "Label": "Tay-Sachs disease",
                     "ORPHAcode": "845",
+                    "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Gaucher disease type 1",
+                    "ORPHAcode": "77259",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "glucosylceramidase beta 1",
+                                "Symbol": "GBA1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "4177"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "606463"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "scavenger receptor class B member 2",
+                                "Symbol": "SCARB2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "1665"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "602257"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Modifying germline mutation in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Gaucher disease type 2",
+                    "ORPHAcode": "77260",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "glucosylceramidase beta 1",
+                                "Symbol": "GBA1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "4177"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "606463"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Infantile neuronal ceroid lipofuscinosis",
+                    "ORPHAcode": "79263",
+                    "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Adult Krabbe disease",
+                    "ORPHAcode": "206448",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "galactosylceramidase",
+                                "Symbol": "GALC",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "4115"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "606890"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Juvenile neuronal ceroid lipofuscinosis",
+                    "ORPHAcode": "79264",
+                    "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Gaucher disease type 3",
+                    "ORPHAcode": "77261",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "glucosylceramidase beta 1",
+                                "Symbol": "GBA1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "4177"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "606463"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Adult neuronal ceroid lipofuscinosis",
+                    "ORPHAcode": "79262",
                     "Genes": "no data"
                 }
             }

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2710",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "2710",
         "Label": "Oculodentodigital dysplasia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2710",
@@ -34,7 +34,7 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "257850",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -47,7 +47,8 @@
                 "Gene": {
                     "Symbol": "GJA1",
                     "Name": "gap junction protein alpha 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -128,20 +129,6 @@
         "Phenotypes": [
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000011",
-                    "HPOTerm": "Neurogenic bladder",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000161",
-                    "HPOTerm": "Median cleft lip",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000175",
                     "HPOTerm": "Cleft palate",
                     "HPOFrequency": "Very frequent (99-80%)"
@@ -149,65 +136,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000187",
-                    "HPOTerm": "Broad alveolar ridges",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000286",
-                    "HPOTerm": "Epicanthus",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000303",
-                    "HPOTerm": "Mandibular prognathia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000316",
-                    "HPOTerm": "Hypertelorism",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000347",
-                    "HPOTerm": "Micrognathia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000348",
-                    "HPOTerm": "High forehead",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000365",
-                    "HPOTerm": "Hearing impairment",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000366",
                     "HPOTerm": "Abnormality of the nose",
                     "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000405",
-                    "HPOTerm": "Conductive hearing impairment",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -233,13 +164,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000478",
-                    "HPOTerm": "Abnormality of the eye",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000482",
                     "HPOTerm": "Microcornea",
                     "HPOFrequency": "Very frequent (99-80%)"
@@ -247,16 +171,121 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000486",
-                    "HPOTerm": "Strabismus",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0000598",
+                    "HPOTerm": "Abnormality of the ear",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000490",
-                    "HPOTerm": "Deeply set eye",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0000670",
+                    "HPOTerm": "Carious teeth",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000682",
+                    "HPOTerm": "Abnormality of dental enamel",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001770",
+                    "HPOTerm": "Toe syndactyly",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004209",
+                    "HPOTerm": "Clinodactyly of the 5th finger",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0006101",
+                    "HPOTerm": "Finger syndactyly",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0006323",
+                    "HPOTerm": "Premature loss of primary teeth",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0009804",
+                    "HPOTerm": "Reduced number of teeth",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010761",
+                    "HPOTerm": "Broad columella",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000011",
+                    "HPOTerm": "Neurogenic bladder",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000161",
+                    "HPOTerm": "Median cleft lip",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000187",
+                    "HPOTerm": "Broad alveolar ridges",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000303",
+                    "HPOTerm": "Mandibular prognathia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000316",
+                    "HPOTerm": "Hypertelorism",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000348",
+                    "HPOTerm": "High forehead",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000405",
+                    "HPOTerm": "Conductive hearing impairment",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000478",
+                    "HPOTerm": "Abnormality of the eye",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -289,30 +318,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000525",
-                    "HPOTerm": "Abnormality iris morphology",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000545",
                     "HPOTerm": "Myopia",
                     "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000582",
-                    "HPOTerm": "Upslanted palpebral fissure",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000598",
-                    "HPOTerm": "Abnormality of the ear",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -324,51 +332,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000639",
-                    "HPOTerm": "Nystagmus",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000648",
                     "HPOTerm": "Optic atrophy",
                     "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000670",
-                    "HPOTerm": "Carious teeth",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000679",
-                    "HPOTerm": "Taurodontia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000682",
-                    "HPOTerm": "Abnormality of dental enamel",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000889",
-                    "HPOTerm": "Abnormality of the clavicle",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000940",
-                    "HPOTerm": "Abnormal diaphysis morphology",
-                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -380,51 +346,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000982",
-                    "HPOTerm": "Palmoplantar keratoderma",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001006",
-                    "HPOTerm": "Hypotrichosis",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001156",
-                    "HPOTerm": "Brachydactyly",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001161",
-                    "HPOTerm": "Hand polydactyly",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001177",
-                    "HPOTerm": "Preaxial hand polydactyly",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0001231",
                     "HPOTerm": "Abnormal fingernail morphology",
                     "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001249",
-                    "HPOTerm": "Intellectual disability",
-                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -478,37 +402,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001537",
-                    "HPOTerm": "Umbilical hernia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0001597",
                     "HPOTerm": "Abnormality of the nail",
                     "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001629",
-                    "HPOTerm": "Ventricular septal defect",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001770",
-                    "HPOTerm": "Toe syndactyly",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001943",
-                    "HPOTerm": "Hypoglycemia",
-                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -520,23 +416,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002213",
-                    "HPOTerm": "Fine hair",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0002217",
                     "HPOTerm": "Slow-growing hair",
                     "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002299",
-                    "HPOTerm": "Brittle hair",
-                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -555,20 +437,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002564",
-                    "HPOTerm": "Malformation of the heart and great vessels",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003067",
-                    "HPOTerm": "Madelung deformity",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0003103",
                     "HPOTerm": "Abnormal cortical bone morphology",
                     "HPOFrequency": "Frequent (79-30%)"
@@ -579,20 +447,6 @@
                     "HPOId": "HP:0003196",
                     "HPOTerm": "Short nose",
                     "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003312",
-                    "HPOTerm": "Abnormal form of the vertebral bodies",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004209",
-                    "HPOTerm": "Clinodactyly of the 5th finger",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -611,22 +465,15 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0006101",
-                    "HPOTerm": "Finger syndactyly",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0006323",
-                    "HPOTerm": "Premature loss of primary teeth",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0007360",
                     "HPOTerm": "Aplasia/Hypoplasia of the cerebellum",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008070",
+                    "HPOTerm": "Sparse hair",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -646,30 +493,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0009804",
-                    "HPOTerm": "Reduced number of teeth",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0009843",
                     "HPOTerm": "Aplasia/Hypoplasia of the middle phalanges of the hand",
                     "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0010109",
-                    "HPOTerm": "Short hallux",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0010761",
-                    "HPOTerm": "Broad columella",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -681,23 +507,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0011675",
-                    "HPOTerm": "Arrhythmia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0030084",
                     "HPOTerm": "Clinodactyly",
                     "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0100335",
-                    "HPOTerm": "Non-midline cleft lip",
-                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -712,6 +524,195 @@
                     "HPOId": "HP:0100774",
                     "HPOTerm": "Hyperostosis",
                     "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000286",
+                    "HPOTerm": "Epicanthus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000347",
+                    "HPOTerm": "Micrognathia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000365",
+                    "HPOTerm": "Hearing impairment",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000486",
+                    "HPOTerm": "Strabismus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000490",
+                    "HPOTerm": "Deeply set eye",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000525",
+                    "HPOTerm": "Abnormality iris morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000582",
+                    "HPOTerm": "Upslanted palpebral fissure",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000639",
+                    "HPOTerm": "Nystagmus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000679",
+                    "HPOTerm": "Taurodontia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000889",
+                    "HPOTerm": "Abnormality of the clavicle",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000940",
+                    "HPOTerm": "Abnormal diaphysis morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000982",
+                    "HPOTerm": "Palmoplantar keratoderma",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001156",
+                    "HPOTerm": "Brachydactyly",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001161",
+                    "HPOTerm": "Hand polydactyly",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001177",
+                    "HPOTerm": "Preaxial hand polydactyly",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001249",
+                    "HPOTerm": "Intellectual disability",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001537",
+                    "HPOTerm": "Umbilical hernia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001629",
+                    "HPOTerm": "Ventricular septal defect",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001943",
+                    "HPOTerm": "Hypoglycemia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002213",
+                    "HPOTerm": "Fine hair",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002299",
+                    "HPOTerm": "Brittle hair",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003067",
+                    "HPOTerm": "Madelung deformity",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003312",
+                    "HPOTerm": "Abnormal form of the vertebral bodies",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010109",
+                    "HPOTerm": "Short hallux",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011675",
+                    "HPOTerm": "Arrhythmia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0030680",
+                    "HPOTerm": "Abnormality of cardiovascular system morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100335",
+                    "HPOTerm": "Non-midline cleft lip",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             }
         ],

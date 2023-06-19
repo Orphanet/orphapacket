@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: normal life expectancy
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Neonatal
@@ -9,6 +6,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '8101'
             Source: HGNC
@@ -17,6 +15,7 @@ Orphapacket:
           Label: OCA2 melanosomal transmembrane protein
           Symbol: OCA2
       - Gene:
+          DisorderGeneAssociationType: Modifying germline mutation in
           ExternalReferences:
           - Reference: '6929'
             Source: HGNC
@@ -29,6 +28,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '12450'
             Source: HGNC
@@ -41,6 +41,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '16472'
             Source: HGNC
@@ -57,6 +58,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '23405'
             Source: HGNC
@@ -73,6 +75,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '20611'
             Source: HGNC
@@ -85,6 +88,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '2709'
             Source: HGNC
@@ -114,99 +118,6 @@ Orphapacket:
   - Parent:
     - Label: Hypopigmentation of the skin
       ORPHAcode: '79376'
-  Phenotypes:
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000539
-      HPOTerm: Abnormality of refraction
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000613
-      HPOTerm: Photophobia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000639
-      HPOTerm: Nystagmus
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000992
-      HPOTerm: Cutaneous photosensitivity
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0007513
-      HPOTerm: Generalized hypopigmentation
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0007663
-      HPOTerm: Reduced visual acuity
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0007730
-      HPOTerm: Iris hypopigmentation
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0007750
-      HPOTerm: Hypoplasia of the fovea
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0007894
-      HPOTerm: Hypopigmentation of the fundus
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000486
-      HPOTerm: Strabismus
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001010
-      HPOTerm: Hypopigmentation of the skin
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001107
-      HPOTerm: Ocular albinism
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002226
-      HPOTerm: White eyebrow
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002227
-      HPOTerm: White eyelashes
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0005599
-      HPOTerm: Hypopigmentation of hair
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0006739
-      HPOTerm: Squamous cell carcinoma of the skin
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0011358
-      HPOTerm: Generalized hypopigmentation of hair
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0011364
-      HPOTerm: White hair
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0200098
-      HPOTerm: Absent skin pigmentation
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002297
-      HPOTerm: Red hair
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002671
-      HPOTerm: Basal cell carcinoma
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000612
-      HPOTerm: Iris coloboma
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0012056
-      HPOTerm: Cutaneous melanoma
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -241,6 +152,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

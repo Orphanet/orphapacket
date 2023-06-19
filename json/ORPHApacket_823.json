@@ -1,36 +1,44 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "823",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "823",
-        "Label": "Isolated spina bifida",
+        "Label": "Spina bifida and other spinal dysraphisms",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_823",
         "DisorderType": {
-            "value": "Clinical group",
-            "PURL": "http://www.orpha.net/ORDO/Orphanet_377794"
+            "value": "Category",
+            "PURL": "http://www.orpha.net/ORDO/Orphanet_557495"
         },
+        "Synonyms": [
+            {
+                "Synonym": "Isolated spina bifida"
+            },
+            {
+                "Synonym": "Isolated spinal dysraphism"
+            }
+        ],
         "ExternalReferences": [
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "182940",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "301410",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "601634",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -59,172 +67,23 @@
         "Childs": [
             {
                 "Child": {
-                    "Label": "Spina bifida aperta",
+                    "Label": "Open spinal dysraphism",
                     "ORPHAcode": "268369",
                     "Genes": "no data"
                 }
             },
             {
                 "Child": {
-                    "Label": "Spina bifida cystica",
+                    "Label": "Spinal dysraphism with a posterior meningocele",
                     "ORPHAcode": "268744",
                     "Genes": "no data"
                 }
-            }
-        ],
-        "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002414",
-                    "HPOTerm": "Spina bifida",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
             },
             {
-                "Phenotype": {
-                    "HPOId": "HP:0002435",
-                    "HPOTerm": "Meningocele",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002475",
-                    "HPOTerm": "Myelomeningocele",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000238",
-                    "HPOTerm": "Hydrocephalus",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000763",
-                    "HPOTerm": "Sensory neuropathy",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001249",
-                    "HPOTerm": "Intellectual disability",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001252",
-                    "HPOTerm": "Hypotonia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002308",
-                    "HPOTerm": "Arnold-Chiari malformation",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004322",
-                    "HPOTerm": "Short stature",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0100639",
-                    "HPOTerm": "Erectile dysfunction",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000772",
-                    "HPOTerm": "Abnormality of the ribs",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001250",
-                    "HPOTerm": "Seizure",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001257",
-                    "HPOTerm": "Spasticity",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001762",
-                    "HPOTerm": "Talipes equinovarus",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002006",
-                    "HPOTerm": "Facial cleft",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002084",
-                    "HPOTerm": "Encephalocele",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002323",
-                    "HPOTerm": "Anencephaly",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002564",
-                    "HPOTerm": "Malformation of the heart and great vessels",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002650",
-                    "HPOTerm": "Scoliosis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003272",
-                    "HPOTerm": "Abnormality of the hip bone",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003396",
-                    "HPOTerm": "Syringomyelia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0005640",
-                    "HPOTerm": "Abnormal vertebral segmentation and fusion",
-                    "HPOFrequency": "Occasional (29-5%)"
+                "Child": {
+                    "Label": "Closed spinal dysraphism",
+                    "ORPHAcode": "645202",
+                    "Genes": "no data"
                 }
             }
         ],

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1576",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "1576",
         "Label": "Infantile bilateral striatal necrosis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_1576",
@@ -27,14 +27,14 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "271930",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "500003",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -99,6 +99,23 @@
                     "Genes": [
                         {
                             "Gene": {
+                                "Label": "nucleoporin 54",
+                                "Symbol": "NUP54",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "17359"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "607607"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
                                 "Label": "adenosine deaminase RNA specific",
                                 "Symbol": "ADAR",
                                 "ExternalReferences": [
@@ -110,7 +127,8 @@
                                         "Source": "OMIM",
                                         "Reference": "146920"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         },
                         {
@@ -126,7 +144,8 @@
                                         "Source": "OMIM",
                                         "Reference": "516060"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -142,7 +161,8 @@
                                         "Source": "OMIM",
                                         "Reference": "605815"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -168,18 +188,6 @@
                 }
             ]
         },
-        "AverageAgeOfDeaths": [
-            {
-                "AverageAgeOfDeath": {
-                    "value": "no data"
-                }
-            },
-            {
-                "AverageAgeOfDeath": {
-                    "value": "no data"
-                }
-            }
-        ],
         "TypeOfInheritances": [
             {
                 "TypeOfInheritance": {

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "140927",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "140927",
         "Label": "Benign familial neonatal-infantile seizures",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_140927",
@@ -23,7 +23,7 @@
             {
                 "Source": "OMIM",
                 "Reference": "607745",
-                "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
             }
         ],
         "TextSection": {
@@ -35,14 +35,16 @@
                 "Gene": {
                     "Symbol": "SCN2A",
                     "Name": "sodium voltage-gated channel alpha subunit 2",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "KCNQ2",
                     "Name": "potassium voltage-gated channel subfamily Q member 2",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -78,6 +80,113 @@
                         "Label": "Idiopathic or cryptogenic familial epilepsy syndrome with identified loci/genes"
                     }
                 ]
+            }
+        ],
+        "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002069",
+                    "HPOTerm": "Bilateral tonic-clonic seizure",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002266",
+                    "HPOTerm": "Focal clonic seizure",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011193",
+                    "HPOTerm": "EEG with focal spikes",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0032792",
+                    "HPOTerm": "Tonic seizure",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0032807",
+                    "HPOTerm": "Neonatal seizure",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001350",
+                    "HPOTerm": "Slurred speech",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002018",
+                    "HPOTerm": "Nausea",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002104",
+                    "HPOTerm": "Apnea",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002131",
+                    "HPOTerm": "Episodic ataxia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002172",
+                    "HPOTerm": "Postural instability",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002315",
+                    "HPOTerm": "Headache",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002321",
+                    "HPOTerm": "Vertigo",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0025401",
+                    "HPOTerm": "Staring gaze",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001268",
+                    "HPOTerm": "Mental deterioration",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0031491",
+                    "HPOTerm": "Continuous spike and waves during slow sleep",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
             }
         ],
         "Prevalences": [

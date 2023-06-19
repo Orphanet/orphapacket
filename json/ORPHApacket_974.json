@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "974",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "974",
         "Label": "Adams-Oliver syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_974",
@@ -37,35 +37,35 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "614219",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "614814",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "615297",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "616028",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "616589",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -78,42 +78,48 @@
                 "Gene": {
                     "Symbol": "NOTCH1",
                     "Name": "notch receptor 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "ARHGAP31",
                     "Name": "Rho GTPase activating protein 31",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "DOCK6",
                     "Name": "dedicator of cytokinesis 6",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "RBPJ",
                     "Name": "recombination signal binding protein for immunoglobulin kappa J region",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "EOGT",
                     "Name": "EGF domain specific O-linked N-acetylglucosamine transferase",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "DLL4",
                     "Name": "delta like canonical Notch ligand 4",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
             }
         ],
@@ -210,6 +216,76 @@
         "Phenotypes": [
             {
                 "Phenotype": {
+                    "HPOId": "HP:0000965",
+                    "HPOTerm": "Cutis marmorata",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001057",
+                    "HPOTerm": "Aplasia cutis congenita",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001362",
+                    "HPOTerm": "Skull defect",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001508",
+                    "HPOTerm": "Failure to thrive",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002814",
+                    "HPOTerm": "Abnormality of the lower limb",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002817",
+                    "HPOTerm": "Abnormality of the upper limb",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004050",
+                    "HPOTerm": "Absent hand",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008065",
+                    "HPOTerm": "Aplasia/Hypoplasia of the skin",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008070",
+                    "HPOTerm": "Sparse hair",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010760",
+                    "HPOTerm": "Absent toe",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0000238",
                     "HPOTerm": "Hydrocephalus",
                     "HPOFrequency": "Frequent (79-30%)"
@@ -238,20 +314,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000965",
-                    "HPOTerm": "Cutis marmorata",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001057",
-                    "HPOTerm": "Aplasia cutis congenita",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0001156",
                     "HPOTerm": "Brachydactyly",
                     "HPOFrequency": "Frequent (79-30%)"
@@ -259,15 +321,57 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001163",
-                    "HPOTerm": "Abnormality of the metacarpal bones",
+                    "HPOId": "HP:0001171",
+                    "HPOTerm": "Split hand",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001171",
-                    "HPOTerm": "Split hand",
+                    "HPOId": "HP:0001636",
+                    "HPOTerm": "Tetralogy of Fallot",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001641",
+                    "HPOTerm": "Abnormal pulmonary valve morphology",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001883",
+                    "HPOTerm": "Talipes",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004935",
+                    "HPOTerm": "Pulmonary artery atresia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005916",
+                    "HPOTerm": "Abnormal metacarpal morphology",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0006101",
+                    "HPOTerm": "Finger syndactyly",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0009882",
+                    "HPOTerm": "Short distal phalanx of finger",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -301,13 +405,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001362",
-                    "HPOTerm": "Skull defect",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0001394",
                     "HPOTerm": "Cirrhosis",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -318,13 +415,6 @@
                     "HPOId": "HP:0001409",
                     "HPOTerm": "Portal hypertension",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001508",
-                    "HPOTerm": "Failure to thrive",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -346,20 +436,6 @@
                     "HPOId": "HP:0001622",
                     "HPOTerm": "Premature birth",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001636",
-                    "HPOTerm": "Tetralogy of Fallot",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001641",
-                    "HPOTerm": "Abnormal pulmonary valve morphology",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -388,13 +464,6 @@
                     "HPOId": "HP:0001882",
                     "HPOTerm": "Leukopenia",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001883",
-                    "HPOTerm": "Talipes",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -448,41 +517,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002814",
-                    "HPOTerm": "Abnormality of the lower limb",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002817",
-                    "HPOTerm": "Abnormality of the upper limb",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004050",
-                    "HPOTerm": "Absent hand",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004935",
-                    "HPOTerm": "Pulmonary artery atresia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0006101",
-                    "HPOTerm": "Finger syndactyly",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0006970",
                     "HPOTerm": "Periventricular leukomalacia",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -490,37 +524,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0008065",
-                    "HPOTerm": "Aplasia/Hypoplasia of the skin",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008070",
-                    "HPOTerm": "Sparse hair",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0009882",
-                    "HPOTerm": "Short distal phalanx of finger",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0010624",
                     "HPOTerm": "Aplastic/hypoplastic toenail",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0010760",
-                    "HPOTerm": "Absent toe",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {

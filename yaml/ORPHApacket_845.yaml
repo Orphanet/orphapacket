@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: All ages
@@ -9,6 +6,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '4878'
             Source: HGNC
@@ -21,6 +19,20 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '4878'
+            Source: HGNC
+          - Reference: '606869'
+            Source: OMIM
+          Label: hexosaminidase subunit alpha
+          Symbol: HEXA
+      Label: Tay-Sachs disease, B variant, juvenile form
+      ORPHAcode: '309185'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '4878'
             Source: HGNC
@@ -33,6 +45,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '4878'
             Source: HGNC
@@ -42,18 +55,6 @@ Orphapacket:
           Symbol: HEXA
       Label: Tay-Sachs disease, B1 variant
       ORPHAcode: '309239'
-  - Child:
-      Genes:
-      - Gene:
-          ExternalReferences:
-          - Reference: '4878'
-            Source: HGNC
-          - Reference: '606869'
-            Source: OMIM
-          Label: hexosaminidase subunit alpha
-          Symbol: HEXA
-      Label: Tay-Sachs disease, B variant, juvenile form
-      ORPHAcode: '309185'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
@@ -464,6 +465,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

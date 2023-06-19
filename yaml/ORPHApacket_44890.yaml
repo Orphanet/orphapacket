@@ -11,8 +11,8 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '175510'
       Source: OMIM
   - ExternalReference:
@@ -21,26 +21,24 @@ Orphapacket:
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: succinate dehydrogenase complex flavoprotein subunit A
       Symbol: SDHA
   - Gene:
-      ExternalReferences: []
-      Name: succinate dehydrogenase complex iron sulfur subunit B
-      Symbol: SDHB
-  - Gene:
-      ExternalReferences: []
-      Name: succinate dehydrogenase complex subunit C
-      Symbol: SDHC
-  - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences: []
       Name: KIT proto-oncogene, receptor tyrosine kinase
       Symbol: KIT
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
+        in
       ExternalReferences: []
       Name: KIT proto-oncogene, receptor tyrosine kinase
       Symbol: KIT
   - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences: []
       Name: platelet derived growth factor receptor alpha
       Symbol: PDGFRA
@@ -205,6 +203,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Not applicable
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

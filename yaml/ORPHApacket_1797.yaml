@@ -6,11 +6,13 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
     value: Malformation syndrome
   ExternalReferences:
-  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+  - DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code used
+      to represent it)
     Reference: '122600'
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: T-box transcription factor 6
       Symbol: TBX6
@@ -24,21 +26,21 @@ Orphapacket:
       ORPHAcode: '93454'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000008
-      HPOTerm: Abnormal morphology of female internal genitalia
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001511
+      HPOTerm: Intrauterine growth retardation
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000175
-      HPOTerm: Cleft palate
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000252
-      HPOTerm: Microcephaly
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003422
+      HPOTerm: Vertebral segmentation defect
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000256
-      HPOTerm: Macrocephaly
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003510
+      HPOTerm: Severe short stature
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000269
@@ -60,6 +62,30 @@ Orphapacket:
       HPOId: HP:0000582
       HPOTerm: Upslanted palpebral fissure
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003307
+      HPOTerm: Hyperlordosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010306
+      HPOTerm: Short thorax
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000008
+      HPOTerm: Abnormal morphology of female internal genitalia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000175
+      HPOTerm: Cleft palate
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000252
+      HPOTerm: Microcephaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000256
+      HPOTerm: Macrocephaly
+  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000772
       HPOTerm: Abnormality of the ribs
@@ -72,45 +98,21 @@ Orphapacket:
       HPOId: HP:0000921
       HPOTerm: Missing ribs
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001511
-      HPOTerm: Intrauterine growth retardation
-  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002205
       HPOTerm: Recurrent respiratory infections
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002564
-      HPOTerm: Malformation of the heart and great vessels
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002650
-      HPOTerm: Scoliosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0003298
       HPOTerm: Spina bifida occulta
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0003307
-      HPOTerm: Hyperlordosis
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003422
-      HPOTerm: Vertebral segmentation defect
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003510
-      HPOTerm: Severe short stature
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0005107
       HPOTerm: Abnormal sacrum morphology
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0010306
-      HPOTerm: Short thorax
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030680
+      HPOTerm: Abnormality of cardiovascular system morphology
   Prevalences:
     Prevalence:
     - PrevalenceClass: Unknown
@@ -129,6 +131,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

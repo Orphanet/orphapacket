@@ -6,15 +6,19 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
+  - DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+      to represent it)
     Reference: '616479'
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: ribonucleotide reductase regulatory TP53 inducible subunit M2B
       Symbol: RRM2B
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: ribonuclease H1
       Symbol: RNASEH1
@@ -193,6 +197,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Mitochondrial inheritance
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

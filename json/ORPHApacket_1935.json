@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1935",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "1935",
         "Label": "Early myoclonic encephalopathy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_1935",
@@ -21,21 +21,21 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "617105",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "609304",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "616341",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -48,14 +48,16 @@
                 "Gene": {
                     "Symbol": "SLC25A22",
                     "Name": "solute carrier family 25 member 22",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "SIK1",
                     "Name": "salt inducible kinase 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -88,7 +90,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0002123",
-                    "HPOTerm": "Generalized myoclonic seizures",
+                    "HPOTerm": "Generalized myoclonic seizure",
                     "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
@@ -232,13 +234,6 @@
                 }
             }
         ],
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "early childhood"
-                }
-            ]
-        },
         "TypeOfInheritances": [
             {
                 "TypeOfInheritance": {

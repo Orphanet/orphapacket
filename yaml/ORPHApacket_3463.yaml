@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: adult
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -18,21 +15,24 @@ Orphapacket:
       Reference: '222300'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '598500'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '604928'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: wolframin ER transmembrane glycoprotein
       Symbol: WFS1
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: CDGSH iron sulfur domain 2
       Symbol: CISD2
@@ -55,13 +55,29 @@ Orphapacket:
       ORPHAcode: '181371'
   Phenotypes:
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000407
+      HPOTerm: Sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000648
+      HPOTerm: Optic atrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000819
+      HPOTerm: Diabetes mellitus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000873
+      HPOTerm: Diabetes insipidus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001959
+      HPOTerm: Polydipsia
+  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000010
       HPOTerm: Recurrent urinary tract infections
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000026
-      HPOTerm: Male hypogonadism
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000079
@@ -71,57 +87,9 @@ Orphapacket:
       HPOId: HP:0000112
       HPOTerm: Nephropathy
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000135
-      HPOTerm: Hypogonadism
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000407
-      HPOTerm: Sensorineural hearing impairment
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000501
-      HPOTerm: Glaucoma
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000602
-      HPOTerm: Ophthalmoplegia
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000639
       HPOTerm: Nystagmus
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000648
-      HPOTerm: Optic atrophy
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000708
-      HPOTerm: Behavioral abnormality
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000726
-      HPOTerm: Dementia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000738
-      HPOTerm: Hallucinations
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000819
-      HPOTerm: Diabetes mellitus
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000823
-      HPOTerm: Delayed puberty
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000873
-      HPOTerm: Diabetes insipidus
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001250
@@ -135,6 +103,54 @@ Orphapacket:
       HPOId: HP:0001260
       HPOTerm: Dysarthria
   - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008872
+      HPOTerm: Feeding difficulties in infancy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100016
+      HPOTerm: Abnormality of mesentery morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100518
+      HPOTerm: Dysuria
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000026
+      HPOTerm: Male hypogonadism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000135
+      HPOTerm: Hypogonadism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000501
+      HPOTerm: Glaucoma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000602
+      HPOTerm: Ophthalmoplegia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000708
+      HPOTerm: Behavioral abnormality
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000726
+      HPOTerm: Dementia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000738
+      HPOTerm: Hallucinations
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000823
+      HPOTerm: Delayed puberty
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001387
       HPOTerm: Joint stiffness
@@ -146,10 +162,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001903
       HPOTerm: Anemia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001959
-      HPOTerm: Polydipsia
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002019
@@ -180,10 +192,6 @@ Orphapacket:
       HPOTerm: Developmental regression
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002459
-      HPOTerm: Dysautonomia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002592
       HPOTerm: Gastric ulcer
   - Phenotype:
@@ -195,21 +203,13 @@ Orphapacket:
       HPOId: HP:0003198
       HPOTerm: Myopathy
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0008872
-      HPOTerm: Feeding difficulties in infancy
-  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0009830
       HPOTerm: Peripheral neuropathy
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0100016
-      HPOTerm: Abnormality of mesentery morphology
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0100518
-      HPOTerm: Dysuria
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012332
+      HPOTerm: Abnormal autonomic nervous system physiology
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
@@ -265,6 +265,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

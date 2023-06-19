@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "251056",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "251056",
         "Label": "6q25 microdeletion syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_251056",
@@ -35,7 +35,8 @@
                 "Gene": {
                     "Symbol": "ARID1B",
                     "Name": "AT-rich interaction domain 1B",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Role in the phenotype of"
                 }
             }
         ],
@@ -52,9 +53,30 @@
         "Phenotypes": [
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000175",
-                    "HPOTerm": "Cleft palate",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0000252",
+                    "HPOTerm": "Microcephaly",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000407",
+                    "HPOTerm": "Sensorineural hearing impairment",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001256",
+                    "HPOTerm": "Intellectual disability, mild",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001263",
+                    "HPOTerm": "Global developmental delay",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -62,13 +84,6 @@
                     "HPOId": "HP:0000218",
                     "HPOTerm": "High palate",
                     "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000252",
-                    "HPOTerm": "Microcephaly",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -94,20 +109,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000343",
-                    "HPOTerm": "Long philtrum",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000347",
-                    "HPOTerm": "Micrognathia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000368",
                     "HPOTerm": "Low-set, posteriorly rotated ears",
                     "HPOFrequency": "Frequent (79-30%)"
@@ -118,13 +119,6 @@
                     "HPOId": "HP:0000377",
                     "HPOTerm": "Abnormality of the pinna",
                     "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000407",
-                    "HPOTerm": "Sensorineural hearing impairment",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -157,6 +151,62 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0001274",
+                    "HPOTerm": "Agenesis of corpus callosum",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001357",
+                    "HPOTerm": "Plagiocephaly",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001508",
+                    "HPOTerm": "Failure to thrive",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004322",
+                    "HPOTerm": "Short stature",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012639",
+                    "HPOTerm": "Abnormality of nervous system morphology",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000175",
+                    "HPOTerm": "Cleft palate",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000343",
+                    "HPOTerm": "Long philtrum",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000347",
+                    "HPOTerm": "Micrognathia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0000582",
                     "HPOTerm": "Upslanted palpebral fissure",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -178,44 +228,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001256",
-                    "HPOTerm": "Intellectual disability, mild",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001263",
-                    "HPOTerm": "Global developmental delay",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001274",
-                    "HPOTerm": "Agenesis of corpus callosum",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0001319",
                     "HPOTerm": "Neonatal hypotonia",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001357",
-                    "HPOTerm": "Plagiocephaly",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001508",
-                    "HPOTerm": "Failure to thrive",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -229,13 +244,6 @@
                 "Phenotype": {
                     "HPOId": "HP:0002119",
                     "HPOTerm": "Ventriculomegaly",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002564",
-                    "HPOTerm": "Malformation of the heart and great vessels",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -255,16 +263,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0004322",
-                    "HPOTerm": "Short stature",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012639",
-                    "HPOTerm": "Abnormality of nervous system morphology",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0030680",
+                    "HPOTerm": "Abnormality of cardiovascular system morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {

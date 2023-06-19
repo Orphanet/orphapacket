@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: elderly
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Adult
@@ -10,64 +7,73 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '619132'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
-        Term)
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
       Reference: '172700'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '600795'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '616437'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader
-        Term)
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
       Reference: '600274'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
       Name: transmembrane protein 106B
       Symbol: TMEM106B
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: presenilin 1
       Symbol: PSEN1
   - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
       Name: charged multivesicular body protein 2B
       Symbol: CHMP2B
   - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
       Name: triggering receptor expressed on myeloid cells 2
       Symbol: TREM2
   - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
       Name: valosin containing protein
       Symbol: VCP
   - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
       Name: microtubule associated protein tau
       Symbol: MAPT
   - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
       Name: granulin precursor
       Symbol: GRN
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: sequestosome 1
       Symbol: SQSTM1
   - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
       Name: C9orf72-SMCR8 complex subunit
       Symbol: C9ORF72
@@ -91,10 +97,6 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000708
       HPOTerm: Behavioral abnormality
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000709
-      HPOTerm: Psychosis
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000710
@@ -128,10 +130,6 @@ Orphapacket:
       HPOId: HP:0000737
       HPOTerm: Irritability
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000741
-      HPOTerm: Apathy
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000751
       HPOTerm: Personality changes
@@ -144,65 +142,29 @@ Orphapacket:
       HPOId: HP:0001268
       HPOTerm: Mental deterioration
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001288
-      HPOTerm: Gait disturbance
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001347
-      HPOTerm: Hyperreflexia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002069
-      HPOTerm: Bilateral tonic-clonic seizure
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002071
-      HPOTerm: Abnormality of extrapyramidal motor function
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002145
       HPOTerm: Frontotemporal dementia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002300
-      HPOTerm: Mutism
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002354
       HPOTerm: Memory impairment
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002357
-      HPOTerm: Dysphasia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002371
       HPOTerm: Loss of speech
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002380
-      HPOTerm: Fasciculations
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002381
+      HPOTerm: Aphasia
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002442
       HPOTerm: Dyscalculia
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002446
-      HPOTerm: Astrocytosis
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002465
       HPOTerm: Poor speech
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002493
-      HPOTerm: Upper motor neuron dysfunction
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002500
-      HPOTerm: Abnormal cerebral white matter morphology
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0006892
@@ -220,14 +182,6 @@ Orphapacket:
       HPOId: HP:0010529
       HPOTerm: Echolalia
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0011204
-      HPOTerm: EEG with continuous slow activity
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0030212
-      HPOTerm: Collectionism
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0030213
       HPOTerm: Emotional blunting
@@ -237,8 +191,60 @@ Orphapacket:
       HPOTerm: Perseveration
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002500
+      HPOTerm: Abnormal cerebral white matter morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011204
+      HPOTerm: EEG with continuous slow activity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0012658
       HPOTerm: Abnormal brain FDG positron emission tomography
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030212
+      HPOTerm: Collectionism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000709
+      HPOTerm: Psychosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000741
+      HPOTerm: Apathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001288
+      HPOTerm: Gait disturbance
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001347
+      HPOTerm: Hyperreflexia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002069
+      HPOTerm: Bilateral tonic-clonic seizure
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002071
+      HPOTerm: Abnormality of extrapyramidal motor function
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002300
+      HPOTerm: Mutism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002380
+      HPOTerm: Fasciculations
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002446
+      HPOTerm: Astrocytosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002493
+      HPOTerm: Upper motor neuron dysfunction
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0012671
@@ -262,6 +268,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

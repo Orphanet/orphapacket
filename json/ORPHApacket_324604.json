@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "324604",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "324604",
         "Label": "Classic multiminicore myopathy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_324604",
@@ -23,7 +23,7 @@
             {
                 "Source": "OMIM",
                 "Reference": "602771",
-                "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
             }
         ],
         "Genes": [
@@ -31,21 +31,24 @@
                 "Gene": {
                     "Symbol": "SELENON",
                     "Name": "selenoprotein N",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "TTN",
                     "Name": "titin",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "MYH7",
                     "Name": "myosin heavy chain 7",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -97,8 +100,8 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002111",
-                    "HPOTerm": "Restrictive deficit on pulmonary function testing",
+                    "HPOId": "HP:0002091",
+                    "HPOTerm": "Restrictive ventilatory defect",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },

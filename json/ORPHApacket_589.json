@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "589",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "589",
         "Label": "Myasthenia gravis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_589",
@@ -24,14 +24,14 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "607085",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "159400",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
@@ -72,78 +72,7 @@
                 ]
             }
         ],
-        "Childs": [
-            {
-                "Child": {
-                    "Label": "Adult-onset myasthenia gravis",
-                    "ORPHAcode": "391490",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "TNF receptor superfamily member 11a",
-                                "Symbol": "TNFRSF11A",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "11908"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "603499"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "cytotoxic T-lymphocyte associated protein 4",
-                                "Symbol": "CTLA4",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "2505"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "123890"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "major histocompatibility complex, class II, DQ alpha 1",
-                                "Symbol": "HLA-DQA1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "146880"
-                                    },
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "4942"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Juvenile myasthenia gravis",
-                    "ORPHAcode": "391497",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Transient neonatal myasthenia gravis",
-                    "ORPHAcode": "391504",
-                    "Genes": "no data"
-                }
-            }
-        ],
+        "Childs": [],
         "Phenotypes": [
             {
                 "Phenotype": {
@@ -615,13 +544,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "All ages"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "normal life expectancy"
                 }
             ]
         },

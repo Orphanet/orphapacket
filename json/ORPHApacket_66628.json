@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "66628",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "66628",
         "Label": "Obesity due to congenital leptin deficiency",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_66628",
@@ -27,7 +27,8 @@
                 "Gene": {
                     "Symbol": "LEP",
                     "Name": "leptin",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -129,13 +130,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0008230",
-                    "HPOTerm": "Decreased testosterone in males",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0008724",
                     "HPOTerm": "Hypoplasia of the ovary",
                     "HPOFrequency": "Very frequent (99-80%)"
@@ -145,6 +139,13 @@
                 "Phenotype": {
                     "HPOId": "HP:0008734",
                     "HPOTerm": "Decreased testicular size",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0040171",
+                    "HPOTerm": "Decreased serum testosterone concentration",
                     "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
@@ -217,13 +218,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "Childhood"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "No data available"
                 }
             ]
         },

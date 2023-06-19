@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "459548",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "459548",
         "Label": "Rare genetic venous malformation",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_459548",
@@ -24,30 +24,6 @@
         "Childs": [
             {
                 "Child": {
-                    "Label": "Blue rubber bleb nevus",
-                    "ORPHAcode": "1059",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "TEK receptor tyrosine kinase",
-                                "Symbol": "TEK",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "11724"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "600221"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
                     "Label": "Mucocutaneous venous malformations",
                     "ORPHAcode": "2451",
                     "Genes": [
@@ -64,7 +40,8 @@
                                         "Source": "OMIM",
                                         "Reference": "600221"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
                             }
                         }
                     ]
@@ -72,23 +49,24 @@
             },
             {
                 "Child": {
-                    "Label": "Glomuvenous malformation",
-                    "ORPHAcode": "83454",
+                    "Label": "Blue rubber bleb nevus",
+                    "ORPHAcode": "1059",
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "glomulin, FKBP associated protein",
-                                "Symbol": "GLMN",
+                                "Label": "TEK receptor tyrosine kinase",
+                                "Symbol": "TEK",
                                 "ExternalReferences": [
                                     {
                                         "Source": "HGNC",
-                                        "Reference": "14373"
+                                        "Reference": "11724"
                                     },
                                     {
                                         "Source": "OMIM",
-                                        "Reference": "601749"
+                                        "Reference": "600221"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
                             }
                         }
                     ]
@@ -112,7 +90,8 @@
                                         "Source": "OMIM",
                                         "Reference": "607929"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         },
                         {
@@ -128,7 +107,8 @@
                                         "Source": "OMIM",
                                         "Reference": "604214"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         },
                         {
@@ -144,7 +124,50 @@
                                         "Source": "OMIM",
                                         "Reference": "609118"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",
+                                "Symbol": "PIK3CA",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "8975"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "171834"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Glomuvenous malformation",
+                    "ORPHAcode": "83454",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "glomulin, FKBP associated protein",
+                                "Symbol": "GLMN",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "14373"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "601749"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]

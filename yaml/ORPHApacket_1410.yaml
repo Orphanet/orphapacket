@@ -7,26 +7,30 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '191480'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '617251'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '617252'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: peptidyl arginine deiminase 3
       Symbol: PADI3
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: transglutaminase 3
       Symbol: TGM3
@@ -55,10 +59,6 @@ Orphapacket:
       HPOId: HP:0002224
       HPOTerm: Woolly hair
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002229
-      HPOTerm: Alopecia areata
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002552
       HPOTerm: Trichodysplasia
@@ -66,6 +66,10 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0011364
       HPOTerm: White hair
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002232
+      HPOTerm: Patchy alopecia
   Prevalences:
     Prevalence:
     - PrevalenceClass: Unknown
@@ -83,6 +87,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

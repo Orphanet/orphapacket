@@ -9,24 +9,27 @@ Orphapacket:
     value: Malformation syndrome
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '101800'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '614613'
       Source: OMIM
   Genes:
   - Gene:
-      ExternalReferences: []
-      Name: protein kinase cAMP-dependent type I regulatory subunit alpha
-      Symbol: PRKAR1A
-  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: phosphodiesterase 4D
       Symbol: PDE4D
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
+        in
+      ExternalReferences: []
+      Name: protein kinase cAMP-dependent type I regulatory subunit alpha
+      Symbol: PRKAR1A
   Label: Acrodysostosis
   ORPHAcode: '950'
   ORPHApacketId: '950'
@@ -40,45 +43,13 @@ Orphapacket:
       ORPHAcode: '155899'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000028
-      HPOTerm: Cryptorchidism
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000055
-      HPOTerm: Abnormality of female external genitalia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000135
-      HPOTerm: Hypogonadism
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000194
       HPOTerm: Open mouth
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000248
-      HPOTerm: Brachycephaly
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000286
-      HPOTerm: Epicanthus
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000303
-      HPOTerm: Mandibular prognathia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000316
-      HPOTerm: Hypertelorism
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000327
       HPOTerm: Hypoplasia of the maxilla
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000365
-      HPOTerm: Hearing impairment
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000431
@@ -88,29 +59,9 @@ Orphapacket:
       HPOId: HP:0000457
       HPOTerm: Depressed nasal ridge
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000463
-      HPOTerm: Anteverted nares
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000684
-      HPOTerm: Delayed eruption of teeth
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000858
-      HPOTerm: Irregular menstruation
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000995
-      HPOTerm: Melanocytic nevus
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001156
       HPOTerm: Brachydactyly
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001163
-      HPOTerm: Abnormality of the metacarpal bones
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001249
@@ -123,6 +74,82 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001831
       HPOTerm: Short toe
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003196
+      HPOTerm: Short nose
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003312
+      HPOTerm: Abnormal form of the vertebral bodies
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005280
+      HPOTerm: Depressed nasal bridge
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005616
+      HPOTerm: Accelerated skeletal maturation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005916
+      HPOTerm: Abnormal metacarpal morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010049
+      HPOTerm: Short metacarpal
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010579
+      HPOTerm: Cone-shaped epiphysis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010655
+      HPOTerm: Epiphyseal stippling
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010743
+      HPOTerm: Short metatarsal
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011800
+      HPOTerm: Midface retrusion
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000028
+      HPOTerm: Cryptorchidism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000055
+      HPOTerm: Abnormality of female external genitalia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000248
+      HPOTerm: Brachycephaly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000303
+      HPOTerm: Mandibular prognathia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000316
+      HPOTerm: Hypertelorism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000365
+      HPOTerm: Hearing impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000463
+      HPOTerm: Anteverted nares
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000684
+      HPOTerm: Delayed eruption of teeth
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002818
@@ -144,61 +171,37 @@ Orphapacket:
       HPOId: HP:0003022
       HPOTerm: Hypoplasia of the ulna
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003196
-      HPOTerm: Short nose
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003312
-      HPOTerm: Abnormal form of the vertebral bodies
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0003416
       HPOTerm: Spinal canal stenosis
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0004322
-      HPOTerm: Short stature
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0005280
-      HPOTerm: Depressed nasal bridge
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0005616
-      HPOTerm: Accelerated skeletal maturation
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0009830
       HPOTerm: Peripheral neuropathy
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0010049
-      HPOTerm: Short metacarpal
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0010579
-      HPOTerm: Cone-shaped epiphysis
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0010655
-      HPOTerm: Epiphyseal stippling
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0010743
-      HPOTerm: Short metatarsal
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0010807
-      HPOTerm: Open bite
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0010978
       HPOTerm: Abnormality of immune system physiology
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0011800
-      HPOTerm: Midface retrusion
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000135
+      HPOTerm: Hypogonadism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000286
+      HPOTerm: Epicanthus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000858
+      HPOTerm: Irregular menstruation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000995
+      HPOTerm: Melanocytic nevus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010807
+      HPOTerm: Open bite
   Prevalences:
   - Prevalence:
       PrevalenceClass: Unknown
@@ -215,6 +218,7 @@ Orphapacket:
       Source: '[EXPERT]'
       ValMoy: no data
   Synonyms:
+  - Synonym: Acrodysostosis with or without multiple hormonal resistance
   - Synonym: Acrodysplasia
   - Synonym: Arkless-Graham syndrome
   - Synonym: Maroteaux-Malamut syndrome
@@ -226,6 +230,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

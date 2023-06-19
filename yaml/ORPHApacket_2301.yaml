@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: infantile
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
@@ -12,8 +9,8 @@ Orphapacket:
     value: Morphological anomaly
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '300048'
       Source: OMIM
   - ExternalReference:
@@ -22,10 +19,13 @@ Orphapacket:
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: filamin A
       Symbol: FLNA
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: CXADR like membrane protein
       Symbol: CLMP
@@ -42,13 +42,21 @@ Orphapacket:
       ORPHAcode: '365563'
   Phenotypes:
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005245
+      HPOTerm: Intestinal hypoplasia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002566
+      HPOTerm: Intestinal malrotation
+  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0004322
       HPOTerm: Short stature
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0005245
-      HPOTerm: Intestinal hypoplasia
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008070
+      HPOTerm: Sparse hair
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0100543
@@ -61,14 +69,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0100627
       HPOTerm: Displacement of the urethral meatus
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001006
-      HPOTerm: Hypotrichosis
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002566
-      HPOTerm: Intestinal malrotation
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -95,6 +95,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

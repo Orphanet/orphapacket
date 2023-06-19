@@ -1,13 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Antenatal
-  - AverageAgeOfDeath:
-      value: Childhood
-  - AverageAgeOfDeath:
-      value: Infancy
-  - AverageAgeOfDeath:
-      value: Neonatal
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
@@ -18,14 +9,16 @@ Orphapacket:
   - AverageAgeOfOnset:
       value: Neonatal
   DisorderType:
-    PURL: http://www.orpha.net/ORDO/Orphanet_377796
-    value: Clinical subtype
+    PURL: http://www.orpha.net/ORDO/Orphanet_377788
+    value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+  - DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code used
+      to represent it)
     Reference: '609322'
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences: []
       Name: SWI/SNF related, matrix associated, actin dependent regulator of chromatin,
         subfamily b, member 1
@@ -36,14 +29,17 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_99966
   Parents:
   - Parent:
-    - Label: Rhabdoid tumor
-      ORPHAcode: '69077'
+    - Label: Embryonal tumor of neuroepithelial tissue
+      ORPHAcode: '251852'
+  - Parent:
+    - Label: Soft tissue sarcoma
+      ORPHAcode: '3394'
+  - Parent:
+    - Label: Pediatric soft tissue sarcoma
+      ORPHAcode: '602681'
   - Parent:
     - Label: Pediatric cancer of neuroepithelial tissue
       ORPHAcode: '602695'
-  - Parent:
-    - Label: Embryonal tumor of neuroepithelial tissue
-      ORPHAcode: '251852'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
@@ -130,6 +126,6 @@ Orphapacket:
     Contents: A rare highly malignant central nervous system (CNS) rhabdoid tumor
       (RT) found almost exclusively in children.
     TextSectionType: Definition
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

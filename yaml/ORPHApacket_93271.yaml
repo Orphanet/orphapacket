@@ -1,9 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Antenatal
-  - AverageAgeOfDeath:
-      value: Neonatal
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
@@ -14,43 +9,48 @@ Orphapacket:
     value: Malformation syndrome
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '614091'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '613091'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '615503'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '615633'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: intraflagellar transport 80
       Symbol: IFT80
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: dynein cytoplasmic 2 heavy chain 1
       Symbol: DYNC2H1
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: WD repeat domain 35
       Symbol: WDR35
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: dynein 2 intermediate chain 1
       Symbol: DYNC2I1
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: dynein 2 intermediate chain 2
       Symbol: DYNC2I2
@@ -67,6 +67,54 @@ Orphapacket:
       ORPHAcode: '117573'
   Phenotypes:
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000773
+      HPOTerm: Short ribs
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000774
+      HPOTerm: Narrow chest
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000944
+      HPOTerm: Abnormality of the metaphysis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001773
+      HPOTerm: Short foot
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002093
+      HPOTerm: Respiratory insufficiency
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002983
+      HPOTerm: Micromelia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003270
+      HPOTerm: Abdominal distention
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004279
+      HPOTerm: Short palm
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005716
+      HPOTerm: Lethal skeletal dysplasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008873
+      HPOTerm: Disproportionate short-limb short stature
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009106
+      HPOTerm: Abnormal pelvis bone ossification
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010306
+      HPOTerm: Short thorax
+  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000028
       HPOTerm: Cryptorchidism
@@ -78,10 +126,6 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000089
       HPOTerm: Renal hypoplasia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000107
-      HPOTerm: Renal cyst
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000126
@@ -111,25 +155,53 @@ Orphapacket:
       HPOId: HP:0000445
       HPOTerm: Wide nose
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000518
-      HPOTerm: Cataract
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000773
-      HPOTerm: Short ribs
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000774
-      HPOTerm: Narrow chest
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000944
-      HPOTerm: Abnormality of the metaphysis
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001162
       HPOTerm: Postaxial hand polydactyly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001789
+      HPOTerm: Hydrops fetalis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002007
+      HPOTerm: Frontal bossing
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002612
+      HPOTerm: Congenital hepatic fibrosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003762
+      HPOTerm: Uterus didelphys
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004599
+      HPOTerm: Absent or minimally ossified vertebral bodies
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005280
+      HPOTerm: Depressed nasal bridge
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008716
+      HPOTerm: Urethrovaginal fistula
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008736
+      HPOTerm: Hypoplasia of penis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030680
+      HPOTerm: Abnormality of cardiovascular system morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000107
+      HPOTerm: Renal cyst
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000518
+      HPOTerm: Cataract
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001177
@@ -151,21 +223,9 @@ Orphapacket:
       HPOId: HP:0001539
       HPOTerm: Omphalocele
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001773
-      HPOTerm: Short foot
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001789
-      HPOTerm: Hydrops fetalis
-  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002006
       HPOTerm: Facial cleft
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002007
-      HPOTerm: Frontal bossing
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002023
@@ -179,77 +239,17 @@ Orphapacket:
       HPOId: HP:0002089
       HPOTerm: Pulmonary hypoplasia
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002093
-      HPOTerm: Respiratory insufficiency
-  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002119
       HPOTerm: Ventriculomegaly
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002564
-      HPOTerm: Malformation of the heart and great vessels
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002612
-      HPOTerm: Congenital hepatic fibrosis
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002983
-      HPOTerm: Micromelia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003270
-      HPOTerm: Abdominal distention
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0003762
-      HPOTerm: Uterus didelphys
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0004279
-      HPOTerm: Short palm
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0004397
       HPOTerm: Ectopic anus
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0004599
-      HPOTerm: Absent or minimally ossified vertebral bodies
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0005280
-      HPOTerm: Depressed nasal bridge
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0005716
-      HPOTerm: Lethal skeletal dysplasia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0008716
-      HPOTerm: Urethrovaginal fistula
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0008736
-      HPOTerm: Hypoplasia of penis
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0008873
-      HPOTerm: Disproportionate short-limb short stature
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0009106
-      HPOTerm: Abnormal pelvis bone ossification
-  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0010297
       HPOTerm: Bifid tongue
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0010306
-      HPOTerm: Short thorax
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0010564
@@ -275,6 +275,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

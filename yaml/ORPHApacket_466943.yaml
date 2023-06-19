@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
@@ -11,6 +8,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Role in the phenotype of
           ExternalReferences:
           - Reference: '17327'
             Source: HGNC
@@ -24,6 +22,8 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
           ExternalReferences:
           - Reference: '17327'
             Source: HGNC
@@ -38,7 +38,8 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
     value: Malformation syndrome
   ExternalReferences:
-  - DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower Term)
+  - DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+      to represent it)
     Reference: '616708'
     Source: OMIM
   Label: WAC-related facial dysmorphism-developmental delay-behavioral abnormalities
@@ -350,6 +351,8 @@ Orphapacket:
       PrevalenceType: Point prevalence
       Source: ORPHANET_27119754[PMID]
       ValMoy: no data
+  Synonyms:
+  - Synonym: Desanto-Shinawi syndrome
   TextSection:
     Contents: A rare genetic syndromic intellectual disability characterised by several
       dysmorphic features hypotonia developmental delay intellectual disability behavioral
@@ -367,6 +370,6 @@ Orphapacket:
       value: Not applicable
   - TypeOfInheritance:
       value: Unknown
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

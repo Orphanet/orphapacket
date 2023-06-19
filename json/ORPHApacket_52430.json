@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "52430",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "52430",
         "Label": "Inclusion body myopathy with Paget disease of bone and frontotemporal dementia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_52430",
@@ -37,14 +37,14 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "615422",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "615424",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -57,21 +57,24 @@
                 "Gene": {
                     "Symbol": "VCP",
                     "Name": "valosin containing protein",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "HNRNPA2B1",
                     "Name": "heterogeneous nuclear ribonucleoprotein A2/B1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "HNRNPA1",
                     "Name": "heterogeneous nuclear ribonucleoprotein A1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -323,15 +326,15 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002648",
-                    "HPOTerm": "Abnormality of calvarial morphology",
+                    "HPOId": "HP:0002659",
+                    "HPOTerm": "Increased susceptibility to fractures",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002659",
-                    "HPOTerm": "Increased susceptibility to fractures",
+                    "HPOId": "HP:0002683",
+                    "HPOTerm": "Abnormality of the calvaria",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -446,13 +449,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "Adult"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "adult"
                 }
             ]
         },

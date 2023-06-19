@@ -1,9 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Childhood
-  - AverageAgeOfDeath:
-      value: Infancy
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Childhood
@@ -13,18 +8,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
-          ExternalReferences:
-          - Reference: '4298'
-            Source: HGNC
-          - Reference: '611458'
-            Source: OMIM
-          Label: galactosidase beta 1
-          Symbol: GLB1
-      Label: Mucopolysaccharidosis type 4B
-      ORPHAcode: '309310'
-  - Child:
-      Genes:
-      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '4122'
             Source: HGNC
@@ -34,23 +18,36 @@ Orphapacket:
           Symbol: GALNS
       Label: Mucopolysaccharidosis type 4A
       ORPHAcode: '309297'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '4298'
+            Source: HGNC
+          - Reference: '611458'
+            Source: OMIM
+          Label: galactosidase beta 1
+          Symbol: GLB1
+      Label: Mucopolysaccharidosis type 4B
+      ORPHAcode: '309310'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '252300'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '253000'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '253010'
       Source: OMIM
   Label: Mucopolysaccharidosis type 4
@@ -357,6 +354,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

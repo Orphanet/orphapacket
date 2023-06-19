@@ -13,12 +13,13 @@ Orphapacket:
       Reference: '164200'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '257850'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: gap junction protein alpha 1
       Symbol: GJA1
@@ -57,53 +58,13 @@ Orphapacket:
       ORPHAcode: '611327'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000011
-      HPOTerm: Neurogenic bladder
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000161
-      HPOTerm: Median cleft lip
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000175
       HPOTerm: Cleft palate
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000187
-      HPOTerm: Broad alveolar ridges
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000286
-      HPOTerm: Epicanthus
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000303
-      HPOTerm: Mandibular prognathia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000316
-      HPOTerm: Hypertelorism
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000347
-      HPOTerm: Micrognathia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000348
-      HPOTerm: High forehead
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000365
-      HPOTerm: Hearing impairment
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000366
       HPOTerm: Abnormality of the nose
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000405
-      HPOTerm: Conductive hearing impairment
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000430
@@ -117,21 +78,77 @@ Orphapacket:
       HPOId: HP:0000463
       HPOTerm: Anteverted nares
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000478
-      HPOTerm: Abnormality of the eye
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000482
       HPOTerm: Microcornea
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000486
-      HPOTerm: Strabismus
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000598
+      HPOTerm: Abnormality of the ear
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000490
-      HPOTerm: Deeply set eye
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000670
+      HPOTerm: Carious teeth
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000682
+      HPOTerm: Abnormality of dental enamel
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001770
+      HPOTerm: Toe syndactyly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004209
+      HPOTerm: Clinodactyly of the 5th finger
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006101
+      HPOTerm: Finger syndactyly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006323
+      HPOTerm: Premature loss of primary teeth
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009804
+      HPOTerm: Reduced number of teeth
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010761
+      HPOTerm: Broad columella
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000011
+      HPOTerm: Neurogenic bladder
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000161
+      HPOTerm: Median cleft lip
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000187
+      HPOTerm: Broad alveolar ridges
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000303
+      HPOTerm: Mandibular prognathia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000316
+      HPOTerm: Hypertelorism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000348
+      HPOTerm: High forehead
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000405
+      HPOTerm: Conductive hearing impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000478
+      HPOTerm: Abnormality of the eye
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000501
@@ -149,85 +166,25 @@ Orphapacket:
       HPOId: HP:0000518
       HPOTerm: Cataract
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000525
-      HPOTerm: Abnormality iris morphology
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000545
       HPOTerm: Myopia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000582
-      HPOTerm: Upslanted palpebral fissure
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000598
-      HPOTerm: Abnormality of the ear
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000601
       HPOTerm: Hypotelorism
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000639
-      HPOTerm: Nystagmus
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000648
       HPOTerm: Optic atrophy
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000670
-      HPOTerm: Carious teeth
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000679
-      HPOTerm: Taurodontia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000682
-      HPOTerm: Abnormality of dental enamel
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000889
-      HPOTerm: Abnormality of the clavicle
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000940
-      HPOTerm: Abnormal diaphysis morphology
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000944
       HPOTerm: Abnormality of the metaphysis
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000982
-      HPOTerm: Palmoplantar keratoderma
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001006
-      HPOTerm: Hypotrichosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001156
-      HPOTerm: Brachydactyly
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001161
-      HPOTerm: Hand polydactyly
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001177
-      HPOTerm: Preaxial hand polydactyly
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001231
       HPOTerm: Abnormal fingernail morphology
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001250
@@ -257,41 +214,17 @@ Orphapacket:
       HPOId: HP:0001347
       HPOTerm: Hyperreflexia
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001537
-      HPOTerm: Umbilical hernia
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001597
       HPOTerm: Abnormality of the nail
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001629
-      HPOTerm: Ventricular septal defect
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001770
-      HPOTerm: Toe syndactyly
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001943
-      HPOTerm: Hypoglycemia
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002212
       HPOTerm: Curly hair
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002213
-      HPOTerm: Fine hair
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002217
       HPOTerm: Slow-growing hair
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002299
-      HPOTerm: Brittle hair
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002313
@@ -301,14 +234,6 @@ Orphapacket:
       HPOId: HP:0002514
       HPOTerm: Cerebral calcification
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002564
-      HPOTerm: Malformation of the heart and great vessels
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003067
-      HPOTerm: Madelung deformity
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0003103
       HPOTerm: Abnormal cortical bone morphology
@@ -316,14 +241,6 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0003196
       HPOTerm: Short nose
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003312
-      HPOTerm: Abnormal form of the vertebral bodies
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0004209
-      HPOTerm: Clinodactyly of the 5th finger
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0004437
@@ -333,17 +250,13 @@ Orphapacket:
       HPOId: HP:0004495
       HPOTerm: Thin anteverted nares
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0006101
-      HPOTerm: Finger syndactyly
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0006323
-      HPOTerm: Premature loss of primary teeth
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0007360
       HPOTerm: Aplasia/Hypoplasia of the cerebellum
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008070
+      HPOTerm: Sparse hair
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0008499
@@ -353,37 +266,17 @@ Orphapacket:
       HPOId: HP:0008572
       HPOTerm: External ear malformation
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0009804
-      HPOTerm: Reduced number of teeth
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0009843
       HPOTerm: Aplasia/Hypoplasia of the middle phalanges of the hand
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0010109
-      HPOTerm: Short hallux
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0010761
-      HPOTerm: Broad columella
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0011342
       HPOTerm: Mild global developmental delay
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011675
-      HPOTerm: Arrhythmia
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0030084
       HPOTerm: Clinodactyly
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100335
-      HPOTerm: Non-midline cleft lip
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0100490
@@ -392,6 +285,114 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0100774
       HPOTerm: Hyperostosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000286
+      HPOTerm: Epicanthus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000347
+      HPOTerm: Micrognathia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000365
+      HPOTerm: Hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000486
+      HPOTerm: Strabismus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000490
+      HPOTerm: Deeply set eye
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000525
+      HPOTerm: Abnormality iris morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000582
+      HPOTerm: Upslanted palpebral fissure
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000679
+      HPOTerm: Taurodontia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000889
+      HPOTerm: Abnormality of the clavicle
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000940
+      HPOTerm: Abnormal diaphysis morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000982
+      HPOTerm: Palmoplantar keratoderma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001156
+      HPOTerm: Brachydactyly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001161
+      HPOTerm: Hand polydactyly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001177
+      HPOTerm: Preaxial hand polydactyly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001537
+      HPOTerm: Umbilical hernia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001629
+      HPOTerm: Ventricular septal defect
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001943
+      HPOTerm: Hypoglycemia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002213
+      HPOTerm: Fine hair
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002299
+      HPOTerm: Brittle hair
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003067
+      HPOTerm: Madelung deformity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003312
+      HPOTerm: Abnormal form of the vertebral bodies
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010109
+      HPOTerm: Short hallux
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011675
+      HPOTerm: Arrhythmia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030680
+      HPOTerm: Abnormality of cardiovascular system morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100335
+      HPOTerm: Non-midline cleft lip
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -420,6 +421,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: All ages
@@ -14,12 +11,13 @@ Orphapacket:
       Reference: '238700'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '238710'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: aminoadipate-semialdehyde synthase
       Symbol: AASS
@@ -32,6 +30,30 @@ Orphapacket:
     - Label: Disorder of lysine and hydroxylysine metabolism
       ORPHAcode: '289832'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025331
+      HPOTerm: Upgaze palsy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030051
+      HPOTerm: Tip-toe gait
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0031867
+      HPOTerm: Neck hypertonia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0040288
+      HPOTerm: Nasogastric tube feeding
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0045074
+      HPOTerm: Thin eyebrow
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100022
+      HPOTerm: Abnormality of movement
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000252
@@ -56,6 +78,10 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001250
       HPOTerm: Seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001987
@@ -100,10 +126,6 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0012758
       HPOTerm: Neurodevelopmental delay
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0025356
-      HPOTerm: Psychomotor retardation
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0500163
@@ -236,30 +258,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0011968
       HPOTerm: Feeding difficulties
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0025331
-      HPOTerm: Upgaze palsy
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0030051
-      HPOTerm: Tip-toe gait
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0031867
-      HPOTerm: Neck hypertonia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0040288
-      HPOTerm: Nasogastric tube feeding
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0045074
-      HPOTerm: Thin eyebrow
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100022
-      HPOTerm: Abnormality of movement
   Prevalences:
     Prevalence:
     - PrevalenceClass: Unknown
@@ -279,6 +277,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

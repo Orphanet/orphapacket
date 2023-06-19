@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "72",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "72",
         "Label": "Angelman syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_72",
@@ -36,6 +36,14 @@
                     {
                         "ORPHAcode": "98033",
                         "Label": "Rare neurologic disease with psychiatric involvement"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "641343",
+                        "Label": "Imprinting disorders"
                     }
                 ]
             },
@@ -75,7 +83,8 @@
                                         "Source": "OMIM",
                                         "Reference": "601623"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
                             }
                         },
                         {
@@ -91,7 +100,8 @@
                                         "Source": "OMIM",
                                         "Reference": "611409"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
                             }
                         }
                     ]
@@ -115,63 +125,8 @@
                                         "Source": "OMIM",
                                         "Reference": "601623"
                                     }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Angelman syndrome due to imprinting defect in 15q11-q13",
-                    "ORPHAcode": "411515",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "small nuclear ribonucleoprotein polypeptide N",
-                                "Symbol": "SNRPN",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "11164"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "182279"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "ubiquitin protein ligase E3A",
-                                "Symbol": "UBE3A",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "12496"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "601623"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "ATPase phospholipid transporting 10A (putative)",
-                                "Symbol": "ATP10A",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "13542"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "605855"
-                                    }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
                             }
                         }
                     ]
@@ -195,7 +150,67 @@
                                         "Source": "OMIM",
                                         "Reference": "601623"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Angelman syndrome due to imprinting defect in 15q11-q13",
+                    "ORPHAcode": "411515",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "small nuclear ribonucleoprotein polypeptide N",
+                                "Symbol": "SNRPN",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "11164"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "182279"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "ubiquitin protein ligase E3A",
+                                "Symbol": "UBE3A",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "12496"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "601623"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "ATPase phospholipid transporting 10A (putative)",
+                                "Symbol": "ATP10A",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "13542"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "605855"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
                             }
                         }
                     ]
@@ -598,7 +613,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0002123",
-                    "HPOTerm": "Generalized myoclonic seizures",
+                    "HPOTerm": "Generalized myoclonic seizure",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -827,13 +842,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "Infancy"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "normal life expectancy"
                 }
             ]
         },

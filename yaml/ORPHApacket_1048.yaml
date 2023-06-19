@@ -1,60 +1,17 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: early childhood
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  Childs:
-  - Child:
-      Genes:
-      - Gene:
-          ExternalReferences:
-          - Reference: '15511'
-            Source: HGNC
-          - Reference: '600533'
-            Source: OMIM
-          Label: VANGL planar cell polarity protein 2
-          Symbol: VANGL2
-      - Gene:
-          ExternalReferences:
-          - Reference: '607093'
-            Source: OMIM
-          - Reference: '7436'
-            Source: HGNC
-          Label: methylenetetrahydrofolate reductase
-          Symbol: MTHFR
-      Label: Isolated anencephaly
-      ORPHAcode: '563609'
-  - Child:
-      Genes:
-      - Gene:
-          ExternalReferences:
-          - Reference: '15511'
-            Source: HGNC
-          - Reference: '600533'
-            Source: OMIM
-          Label: VANGL planar cell polarity protein 2
-          Symbol: VANGL2
-      - Gene:
-          ExternalReferences:
-          - Reference: '607093'
-            Source: OMIM
-          - Reference: '7436'
-            Source: HGNC
-          Label: methylenetetrahydrofolate reductase
-          Symbol: MTHFR
-      Label: Isolated exencephaly
-      ORPHAcode: '563612'
+  Childs: []
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
     value: Morphological anomaly
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '619452'
       Source: OMIM
   - ExternalReference:
@@ -70,8 +27,8 @@ Orphapacket:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
   - Parent:
-    - Label: Neural tube closure defect
-      ORPHAcode: '268357'
+    - Label: Malformation of the neurenteric canal, spinal cord and column
+      ORPHAcode: '268843'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -142,6 +99,6 @@ Orphapacket:
       value: Multigenic/multifactorial
   - TypeOfInheritance:
       value: Not applicable
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

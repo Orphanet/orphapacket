@@ -9,21 +9,24 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '160980'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '605244'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: protein kinase cAMP-dependent type I regulatory subunit alpha
       Symbol: PRKAR1A
   - Gene:
+      DisorderGeneAssociationType: Modifying germline mutation in
       ExternalReferences: []
       Name: phosphodiesterase 11A
       Symbol: PDE11A
@@ -39,7 +42,7 @@ Orphapacket:
     - Label: Adrenal/paraganglial tumor
       ORPHAcode: '100091'
   - Parent:
-    - Label: Rare disease with Cushing syndrome as a major feature
+    - Label: Rare disease with adrenal Cushing syndrome as a major feature
       ORPHAcode: '314749'
   - Parent:
     - Label: Genetic hyperpigmentation of the skin
@@ -316,14 +319,14 @@ Orphapacket:
       PrevalenceGeographic: Worldwide
       PrevalenceQualification: Case
       PrevalenceType: Cases/families
-      Source: 16756677[PMID]
+      Source: 34167977[PMID]_35165607[PMID]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: Unknown
       PrevalenceGeographic: Worldwide
       PrevalenceQualification: Class only
       PrevalenceType: Point prevalence
-      Source: ORPHANET_26130139[PMID]
+      Source: 34167977[PMID]_35165607[PMID]_ORPHANET
       ValMoy: no data
   Synonyms:
   - Synonym: Carney syndrome
@@ -335,6 +338,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

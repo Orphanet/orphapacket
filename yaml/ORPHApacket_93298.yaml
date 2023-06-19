@@ -1,9 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Antenatal
-  - AverageAgeOfDeath:
-      value: Neonatal
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
@@ -18,6 +13,7 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: solute carrier family 26 member 2
       Symbol: SLC26A2
@@ -58,29 +54,9 @@ Orphapacket:
       HPOId: HP:0000474
       HPOTerm: Thickened nuchal skin fold
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000476
-      HPOTerm: Cystic hygroma
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000772
-      HPOTerm: Abnormality of the ribs
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000774
       HPOTerm: Narrow chest
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001537
-      HPOTerm: Umbilical hernia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001561
-      HPOTerm: Polyhydramnios
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001762
-      HPOTerm: Talipes equinovarus
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001773
@@ -93,10 +69,6 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002007
       HPOTerm: Frontal bossing
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002564
-      HPOTerm: Malformation of the heart and great vessels
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002983
@@ -135,8 +107,32 @@ Orphapacket:
       HPOTerm: Flat face
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000772
+      HPOTerm: Abnormality of the ribs
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001537
+      HPOTerm: Umbilical hernia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001561
+      HPOTerm: Polyhydramnios
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001762
+      HPOTerm: Talipes equinovarus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0100541
       HPOTerm: Femoral hernia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000476
+      HPOTerm: Cystic hygroma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030680
+      HPOTerm: Abnormality of cardiovascular system morphology
   Prevalences:
     Prevalence:
     - PrevalenceClass: Unknown
@@ -156,6 +152,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

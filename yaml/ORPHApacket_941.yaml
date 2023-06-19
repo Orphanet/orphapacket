@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: All ages
@@ -14,6 +11,7 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: glycerate kinase
       Symbol: GLYCTK
@@ -26,6 +24,30 @@ Orphapacket:
     - Label: Disorder of glyoxylate metabolism
       ORPHAcode: '308998'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007185
+      HPOTerm: Loss of consciousness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008288
+      HPOTerm: Nonketotic hyperglycinemia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011344
+      HPOTerm: Severe global developmental delay
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012444
+      HPOTerm: Brain atrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012736
+      HPOTerm: Profound global developmental delay
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100704
+      HPOTerm: Cerebral visual impairment
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001942
@@ -60,6 +82,10 @@ Orphapacket:
       HPOTerm: Spasticity
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002154
       HPOTerm: Hyperglycinemia
   - Phenotype:
@@ -70,10 +96,6 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0008947
       HPOTerm: Infantile muscular hypotonia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0025356
-      HPOTerm: Psychomotor retardation
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0030781
@@ -106,30 +128,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002079
       HPOTerm: Hypoplasia of the corpus callosum
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0007185
-      HPOTerm: Loss of consciousness
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008288
-      HPOTerm: Nonketotic hyperglycinemia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011344
-      HPOTerm: Severe global developmental delay
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012444
-      HPOTerm: Brain atrophy
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012736
-      HPOTerm: Profound global developmental delay
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100704
-      HPOTerm: Cerebral visual impairment
   Prevalences:
     Prevalence:
     - PrevalenceClass: Unknown
@@ -152,6 +150,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

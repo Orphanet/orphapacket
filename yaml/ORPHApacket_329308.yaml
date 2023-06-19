@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: No data available
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Adolescent
@@ -11,11 +8,13 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: NTBT (ORPHA code's Narrower Term maps to a Broader Term)
+  - DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code used
+      to represent it)
     Reference: '612319'
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: fatty acid 2-hydroxylase
       Symbol: FA2H
@@ -125,7 +124,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002505
-      HPOTerm: Progressive inability to walk
+      HPOTerm: Loss of ambulation
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002527
@@ -184,6 +183,6 @@ Orphapacket:
       oculomotor disturbances (optic atrophy) accompanied by iron deposition in the
       globus pallidus.
     TextSectionType: Definition
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

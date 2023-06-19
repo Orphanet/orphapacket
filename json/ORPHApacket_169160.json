@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "169160",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "169160",
         "Label": "T-B+ severe combined immunodeficiency due to CD3delta/CD3epsilon/CD3zeta",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_169160",
@@ -20,29 +20,22 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "608971",
-                    "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
                     "Reference": "610163",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "615615",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "615617",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -55,21 +48,24 @@
                 "Gene": {
                     "Symbol": "CD3D",
                     "Name": "CD3 delta subunit of T-cell receptor complex",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "CD3E",
                     "Name": "CD3 epsilon subunit of T-cell receptor complex",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "CD247",
                     "Name": "CD247 molecule",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -272,13 +268,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "Infancy"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "infantile"
                 }
             ]
         },

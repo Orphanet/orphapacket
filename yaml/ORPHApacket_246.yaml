@@ -1,9 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-  - AverageAgeOfDeath:
-      value: Antenatal
-  - AverageAgeOfDeath:
-      value: Neonatal
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Antenatal
@@ -18,6 +13,8 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: dihydroorotate dehydrogenase (quinone)
       Symbol: DHODH
@@ -54,10 +51,6 @@ Orphapacket:
       ORPHAcode: '330206'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000175
-      HPOTerm: Cleft palate
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000272
       HPOTerm: Malar flattening
@@ -70,21 +63,9 @@ Orphapacket:
       HPOId: HP:0000368
       HPOTerm: Low-set, posteriorly rotated ears
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000370
-      HPOTerm: Abnormality of the middle ear
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000378
       HPOTerm: Cupped ear
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000405
-      HPOTerm: Conductive hearing impairment
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000486
-      HPOTerm: Strabismus
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000494
@@ -98,10 +79,6 @@ Orphapacket:
       HPOId: HP:0002558
       HPOTerm: Supernumerary nipple
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002564
-      HPOTerm: Malformation of the heart and great vessels
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002984
       HPOTerm: Hypoplasia of the radius
@@ -109,10 +86,6 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0003022
       HPOTerm: Hypoplasia of the ulna
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0006101
-      HPOTerm: Finger syndactyly
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0007477
@@ -127,12 +100,36 @@ Orphapacket:
       HPOTerm: Microtia
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000175
+      HPOTerm: Cleft palate
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000370
+      HPOTerm: Abnormality of the middle ear
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000405
+      HPOTerm: Conductive hearing impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006101
+      HPOTerm: Finger syndactyly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030680
+      HPOTerm: Abnormality of cardiovascular system morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0100335
       HPOTerm: Non-midline cleft lip
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0100490
       HPOTerm: Camptodactyly of finger
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000486
+      HPOTerm: Strabismus
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -163,6 +160,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

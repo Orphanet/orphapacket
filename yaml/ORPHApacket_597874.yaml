@@ -1,4 +1,11 @@
 Orphapacket:
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
@@ -8,6 +15,7 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: methenyltetrahydrofolate synthetase
       Symbol: MTHFS
@@ -32,6 +40,28 @@ Orphapacket:
   - Parent:
     - Label: Disorder of folate metabolism and transport
       ORPHAcode: '285657'
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case
+      PrevalenceType: Cases/families
+      Source: 30031689[PMID]_31844630[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: 30031689[PMID]_31844630[PMID]_ORPHANET
+      ValMoy: no data
+  TextSection:
+    Contents: A rare genetic neurometabolic disease characterized by microcephaly
+      short stature epilepsy cerebral hypomyelination severe global developmental
+      delay and progressive spasticity. Macrocytic anemia and hyperthermia have also
+      been reported in association. Brain imaging reveals delayed myelination with
+      minimal progression over time mild cerebellar atrophy and/or thin corpus callosum.
+    TextSectionType: Definition
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: infantile
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
@@ -16,16 +13,19 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: cytochrome P450 family 11 subfamily A member 1
       Symbol: CYP11A1
-  Label: 46,XY disorder of sex development-adrenal insufficiency due to CYP11A1 deficiency
+  Label: 46,XY difference of sex development-adrenal insufficiency due to CYP11A1
+    deficiency
   ORPHAcode: '168558'
   ORPHApacketId: '168558'
   PURL: http://www.orpha.net/ORDO/Orphanet_168558
   Parents:
   - Parent:
-    - Label: 46,XY disorder of sex development due to adrenal and testicular steroidogenesis
+    - Label: 46,XY difference of sex development due to adrenal and testicular steroidogenesis
         defect
       ORPHAcode: '90786'
   - Parent:
@@ -45,17 +45,9 @@ Orphapacket:
       HPOId: HP:0000037
       HPOTerm: Male pseudohermaphroditism
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000057
-      HPOTerm: Clitoromegaly
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000127
       HPOTerm: Renal salt wasting
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000142
-      HPOTerm: Abnormality of the vagina
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000144
@@ -73,21 +65,9 @@ Orphapacket:
       HPOId: HP:0000823
       HPOTerm: Delayed puberty
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000835
-      HPOTerm: Adrenal hypoplasia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002750
-      HPOTerm: Delayed skeletal maturation
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000848
       HPOTerm: Increased circulating renin level
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0008207
-      HPOTerm: Primary adrenal insufficiency
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000939
@@ -104,10 +84,6 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001508
       HPOTerm: Failure to thrive
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001622
-      HPOTerm: Premature birth
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001941
@@ -134,6 +110,10 @@ Orphapacket:
       HPOTerm: Hypotension
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002750
+      HPOTerm: Delayed skeletal maturation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002902
       HPOTerm: Hyponatremia
   - Phenotype:
@@ -148,10 +128,6 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0003154
       HPOTerm: Increased circulating ACTH level
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0012605
-      HPOTerm: Hypernatriuria
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0004349
@@ -177,9 +153,9 @@ Orphapacket:
       HPOId: HP:0008187
       HPOTerm: Absence of secondary sex characteristics
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0008232
-      HPOTerm: Elevated circulating follicle stimulating hormone level
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008207
+      HPOTerm: Primary adrenal insufficiency
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0008730
@@ -205,10 +181,6 @@ Orphapacket:
       HPOId: HP:0011968
       HPOTerm: Feeding difficulties
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0011969
-      HPOTerm: Elevated circulating luteinizing hormone level
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0012244
       HPOTerm: Abnormal sex determination
@@ -221,9 +193,9 @@ Orphapacket:
       HPOId: HP:0012598
       HPOTerm: Abnormal urine potassium concentration
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012854
-      HPOTerm: Midshaft hypospadias
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012605
+      HPOTerm: Hypernatriuria
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0030349
@@ -236,6 +208,34 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0100779
       HPOTerm: Urogenital sinus anomaly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000835
+      HPOTerm: Adrenal hypoplasia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001622
+      HPOTerm: Premature birth
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008232
+      HPOTerm: Elevated circulating follicle stimulating hormone level
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011969
+      HPOTerm: Elevated circulating luteinizing hormone level
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000142
+      HPOTerm: Abnormality of the vagina
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008665
+      HPOTerm: Clitoral hypertrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012854
+      HPOTerm: Midshaft hypospadias
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -252,11 +252,12 @@ Orphapacket:
       Source: ORPHANET_21880796[PMID]
       ValMoy: no data
   Synonyms:
+  - Synonym: 46,XY disorder of sex development-adrenal insufficiency due to CYP11A1
+      deficiency
   - Synonym: XY sex reversal-adrenal failure
   TextSection:
-    Contents: 46,XY disorder of sex development-adrenal insufficiency due to CYP11A1
-      deficiency is a rare genetic developmental defect during embryogenesis disorder
-      characterized by severe early-onset salt-wasting adrenal insufficiency and ambiguous/female
+    Contents: A rare genetic developmental defect during embryogenesis disorder characterized
+      by severe early-onset salt-wasting adrenal insufficiency and ambiguous/female
       external genitalia (irrespective of chromosomal sex) due to mutations in the
       <i>CYP11A1</i> gene. Milder cases may present delayed onset of adrenal gland
       dysfunction and genitalia phenotype may range from normal male to female in
@@ -269,6 +270,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

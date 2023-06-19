@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "79644",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "79644",
         "Label": "Autosomal recessive hyperinsulinism due to Kir6.2 deficiency",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_79644",
@@ -20,7 +20,7 @@
             {
                 "Source": "OMIM",
                 "Reference": "601820",
-                "DisorderMappingRelation": "NTBT (ORPHA code's Narrower Term maps to a Broader Term)"
+                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
             }
         ],
         "TextSection": {
@@ -32,7 +32,8 @@
                 "Gene": {
                     "Symbol": "KCNJ11",
                     "Name": "potassium inwardly rectifying channel subfamily J member 11",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -42,6 +43,14 @@
                     {
                         "ORPHAcode": "165988",
                         "Label": "Diazoxide-resistant diffuse hyperinsulinism"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "611314",
+                        "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
                     }
                 ]
             }

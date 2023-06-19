@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "3455",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "3455",
         "Label": "Wiedemann-Rautenstrauch syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_3455",
@@ -32,7 +32,8 @@
                 "Gene": {
                     "Symbol": "POLR3A",
                     "Name": "RNA polymerase III subunit A",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -209,13 +210,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001006",
-                    "HPOTerm": "Hypotrichosis",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0001043",
                     "HPOTerm": "Prominent scalp veins",
                     "HPOFrequency": "Very frequent (99-80%)"
@@ -265,6 +259,13 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0003758",
+                    "HPOTerm": "Reduced subcutaneous adipose tissue",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0004322",
                     "HPOTerm": "Short stature",
                     "HPOFrequency": "Very frequent (99-80%)"
@@ -293,9 +294,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0007409",
-                    "HPOTerm": "Absence of subcutaneous fat over entire body except buttocks, hips, and thighs",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0008070",
+                    "HPOTerm": "Sparse hair",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -329,7 +330,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0000044",
-                    "HPOTerm": "Hypogonadotrophic hypogonadism",
+                    "HPOTerm": "Hypogonadotropic hypogonadism",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -427,7 +428,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0000824",
-                    "HPOTerm": "Growth hormone deficiency",
+                    "HPOTerm": "Decreased response to growth hormone stimulation test",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -645,13 +646,6 @@
                 "Phenotype": {
                     "HPOId": "HP:0007957",
                     "HPOTerm": "Corneal opacity",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008070",
-                    "HPOTerm": "Sparse hair",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -1036,18 +1030,6 @@
             },
             {
                 "AverageAgeOfOnset": {
-                    "value": "Neonatal"
-                }
-            }
-        ],
-        "AverageAgeOfDeaths": [
-            {
-                "AverageAgeOfDeath": {
-                    "value": "Antenatal"
-                }
-            },
-            {
-                "AverageAgeOfDeath": {
                     "value": "Neonatal"
                 }
             }

@@ -1,7 +1,4 @@
 Orphapacket:
-  AverageAgeOfDeaths:
-    AverageAgeOfDeath:
-    - value: any age
   AverageAgeOfOnsets:
   - AverageAgeOfOnset:
       value: Infancy
@@ -16,41 +13,44 @@ Orphapacket:
       Reference: '607208'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '612164'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHA code's Broader Term maps to a Narrower
-        Term)
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '615744'
       Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: sodium voltage-gated channel alpha subunit 1
       Symbol: SCN1A
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences: []
       Name: sodium voltage-gated channel beta subunit 1
       Symbol: SCN1B
   - Gene:
-      ExternalReferences: []
-      Name: sodium voltage-gated channel alpha subunit 9
-      Symbol: SCN9A
-  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: gamma-aminobutyric acid type A receptor subunit alpha1
       Symbol: GABRA1
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: gamma-aminobutyric acid type A receptor subunit gamma2
       Symbol: GABRG2
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: protocadherin 19
       Symbol: PCDH19
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: sodium voltage-gated channel alpha subunit 2
       Symbol: SCN2A
@@ -125,7 +125,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002123
-      HPOTerm: Generalized myoclonic seizures
+      HPOTerm: Generalized myoclonic seizure
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002349
@@ -145,7 +145,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0006813
-      HPOTerm: Hemiclonic seizures
+      HPOTerm: Focal hemiclonic seizure
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0007207
@@ -289,6 +289,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

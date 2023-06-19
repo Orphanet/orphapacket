@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "108969",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "108969",
         "Label": "Syndromic intestinal malformation",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_108969",
@@ -31,6 +31,13 @@
             },
             {
                 "Child": {
+                    "Label": "Marfanoid syndrome, De Silva type",
+                    "ORPHAcode": "2464",
+                    "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
                     "Label": "Thoraco-abdominal enteric duplication",
                     "ORPHAcode": "1759",
                     "Genes": "no data"
@@ -40,53 +47,6 @@
                 "Child": {
                     "Label": "Umbilical cord ulceration-intestinal atresia syndrome",
                     "ORPHAcode": "3405",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Combined immunodeficiency-enteropathy spectrum",
-                    "ORPHAcode": "436252",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "tetratricopeptide repeat domain 7A",
-                                "Symbol": "TTC7A",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "19750"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "609332"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "phosphatidylinositol 4-kinase alpha",
-                                "Symbol": "PI4KA",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "8983"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "600286"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Marfanoid syndrome, De Silva type",
-                    "ORPHAcode": "2464",
                     "Genes": "no data"
                 }
             },
@@ -108,7 +68,50 @@
                                         "Source": "OMIM",
                                         "Reference": "612659"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Combined immunodeficiency-enteropathy spectrum",
+                    "ORPHAcode": "436252",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "tetratricopeptide repeat domain 7A",
+                                "Symbol": "TTC7A",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "19750"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "609332"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "phosphatidylinositol 4-kinase alpha",
+                                "Symbol": "PI4KA",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "8983"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600286"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]
@@ -132,7 +135,8 @@
                                         "Source": "OMIM",
                                         "Reference": "142995"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -156,7 +160,8 @@
                                         "Source": "OMIM",
                                         "Reference": "600236"
                                     }
-                                ]
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]

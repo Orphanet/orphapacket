@@ -3,6 +3,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '7883'
             Source: HGNC
@@ -15,26 +16,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
-          ExternalReferences:
-          - Reference: '26169'
-            Source: HGNC
-          - Reference: '613129'
-            Source: OMIM
-          Label: CST telomere replication complex component 1
-          Symbol: CTC1
-      - Gene:
-          ExternalReferences:
-          - Reference: '26200'
-            Source: HGNC
-          - Reference: '613128'
-            Source: OMIM
-          Label: STN1 subunit of CST complex
-          Symbol: STN1
-      Label: Coats plus syndrome
-      ORPHAcode: '313838'
-  - Child:
-      Genes:
-      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '12269'
             Source: HGNC
@@ -47,6 +29,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '24731'
             Source: HGNC
@@ -57,12 +40,32 @@ Orphapacket:
       Label: Fibrosis-neurodegeneration-cerebral angiomatosis syndrome
       ORPHAcode: '621758'
   - Child:
-      Genes: no data
-      Label: Hereditary cerebral hemorrhage with amyloidosis
-      ORPHAcode: '85458'
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '26169'
+            Source: HGNC
+          - Reference: '613129'
+            Source: OMIM
+          Label: CST telomere replication complex component 1
+          Symbol: CTC1
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '26200'
+            Source: HGNC
+          - Reference: '613128'
+            Source: OMIM
+          Label: STN1 subunit of CST complex
+          Symbol: STN1
+      Label: Coats plus syndrome
+      ORPHAcode: '313838'
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '32952'
             Source: HGNC
@@ -82,8 +85,13 @@ Orphapacket:
         syndrome
       ORPHAcode: '314572'
   - Child:
+      Genes: no data
+      Label: Hereditary cerebral hemorrhage with amyloidosis
+      ORPHAcode: '85458'
+  - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '9251'
             Source: HGNC
@@ -111,6 +119,6 @@ Orphapacket:
   - Parent:
     - Label: Genetic central nervous system and retinal vascular disease
       ORPHAcode: '183503'
-  copyright: Orphanet (c) 2022
-  creationDate: '2022-11-28 11:04:13'
-  version: 1.3.18 / 4.1.7 [2022-07-12] (orientdb version)
+  copyright: Orphanet (c) 2023
+  creationDate: '2023-06-19 09:22:44'
+  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)

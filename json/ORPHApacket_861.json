@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "861",
-        "creationDate": "2022-11-28 11:04:13",
-        "version": "1.3.18 / 4.1.7 [2022-07-12] (orientdb version)",
-        "copyright": "Orphanet (c) 2022",
+        "creationDate": "2023-06-19 09:22:44",
+        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "861",
         "Label": "Treacher-Collins syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_861",
@@ -24,7 +24,7 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "618939",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
@@ -38,14 +38,14 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "248390",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "613717",
-                    "DisorderMappingRelation": "BTNT (ORPHA code's Broader Term maps to a Narrower Term)"
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -58,28 +58,32 @@
                 "Gene": {
                     "Symbol": "POLR1B",
                     "Name": "RNA polymerase I subunit B",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "TCOF1",
                     "Name": "treacle ribosome biogenesis factor 1",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "POLR1D",
                     "Name": "RNA polymerase I and III subunit D",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
                 "Gene": {
                     "Symbol": "POLR1C",
                     "Name": "RNA polymerase I and III subunit C",
-                    "ExternalReferences": []
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -184,6 +188,20 @@
         "Phenotypes": [
             {
                 "Phenotype": {
+                    "HPOId": "HP:0009804",
+                    "HPOTerm": "Reduced number of teeth",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011386",
+                    "HPOTerm": "Narrow internal auditory canal",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0000028",
                     "HPOTerm": "Cryptorchidism",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -226,13 +244,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000164",
-                    "HPOTerm": "Abnormality of the dentition",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000175",
                     "HPOTerm": "Cleft palate",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -261,51 +272,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000272",
-                    "HPOTerm": "Malar flattening",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000278",
-                    "HPOTerm": "Retrognathia",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000294",
-                    "HPOTerm": "Low anterior hairline",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000316",
                     "HPOTerm": "Hypertelorism",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000327",
-                    "HPOTerm": "Hypoplasia of the maxilla",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000347",
-                    "HPOTerm": "Micrognathia",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000370",
-                    "HPOTerm": "Abnormality of the middle ear",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -317,44 +286,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000405",
-                    "HPOTerm": "Conductive hearing impairment",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000431",
-                    "HPOTerm": "Wide nasal bridge",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000453",
                     "HPOTerm": "Choanal atresia",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000486",
-                    "HPOTerm": "Strabismus",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000494",
-                    "HPOTerm": "Downslanted palpebral fissures",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000505",
-                    "HPOTerm": "Visual impairment",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -366,30 +300,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000561",
-                    "HPOTerm": "Absent eyelashes",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000568",
                     "HPOTerm": "Microphthalmia",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000612",
-                    "HPOTerm": "Iris coloboma",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000625",
-                    "HPOTerm": "Eyelid coloboma",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -457,23 +370,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001999",
-                    "HPOTerm": "Abnormal facial shape",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0002006",
                     "HPOTerm": "Facial cleft",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002007",
-                    "HPOTerm": "Frontal bossing",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -492,8 +391,8 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002564",
-                    "HPOTerm": "Malformation of the heart and great vessels",
+                    "HPOId": "HP:0002357",
+                    "HPOTerm": "Dysphasia",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -502,13 +401,6 @@
                     "HPOId": "HP:0002575",
                     "HPOTerm": "Tracheoesophageal fistula",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004348",
-                    "HPOTerm": "Abnormality of bone mineral density",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -534,13 +426,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0008551",
-                    "HPOTerm": "Microtia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0008736",
                     "HPOTerm": "Hypoplasia of penis",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -555,9 +440,72 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0009804",
-                    "HPOTerm": "Reduced number of teeth",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0030680",
+                    "HPOTerm": "Abnormality of cardiovascular system morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000272",
+                    "HPOTerm": "Malar flattening",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000278",
+                    "HPOTerm": "Retrognathia",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000327",
+                    "HPOTerm": "Hypoplasia of the maxilla",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000347",
+                    "HPOTerm": "Micrognathia",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000494",
+                    "HPOTerm": "Downslanted palpebral fissures",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001999",
+                    "HPOTerm": "Abnormal facial shape",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002652",
+                    "HPOTerm": "Skeletal dysplasia",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004348",
+                    "HPOTerm": "Abnormality of bone mineral density",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010669",
+                    "HPOTerm": "Hypoplasia of the zygomatic bone",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -576,13 +524,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0011386",
-                    "HPOTerm": "Narrow internal auditory canal",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0011800",
                     "HPOTerm": "Midface retrusion",
                     "HPOFrequency": "Very frequent (99-80%)"
@@ -590,23 +531,86 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002357",
-                    "HPOTerm": "Dysphasia",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0000164",
+                    "HPOTerm": "Abnormality of the dentition",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002652",
-                    "HPOTerm": "Skeletal dysplasia",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0000294",
+                    "HPOTerm": "Low anterior hairline",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0010669",
-                    "HPOTerm": "Hypoplasia of the zygomatic bone",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0000370",
+                    "HPOTerm": "Abnormality of the middle ear",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000405",
+                    "HPOTerm": "Conductive hearing impairment",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000431",
+                    "HPOTerm": "Wide nasal bridge",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000486",
+                    "HPOTerm": "Strabismus",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000505",
+                    "HPOTerm": "Visual impairment",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000561",
+                    "HPOTerm": "Absent eyelashes",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000612",
+                    "HPOTerm": "Iris coloboma",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000625",
+                    "HPOTerm": "Eyelid coloboma",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002007",
+                    "HPOTerm": "Frontal bossing",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008551",
+                    "HPOTerm": "Microtia",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             }
         ],
@@ -676,13 +680,6 @@
             "AverageAgeOfOnset": [
                 {
                     "value": "Neonatal"
-                }
-            ]
-        },
-        "AverageAgeOfDeaths": {
-            "AverageAgeOfDeath": [
-                {
-                    "value": "normal life expectancy"
                 }
             ]
         },
