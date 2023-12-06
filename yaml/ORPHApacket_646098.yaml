@@ -39,7 +39,7 @@ Orphapacket:
             Source: OMIM
           Label: collagen type XII alpha 1 chain
           Symbol: COL12A1
-      Label: Bethlem myopathy
+      Label: Bethlem muscular dystrophy
       ORPHAcode: '610'
   - Child:
       Genes:
@@ -80,7 +80,7 @@ Orphapacket:
             Source: OMIM
           Label: collagen type XII alpha 1 chain
           Symbol: COL12A1
-      Label: Congenital muscular dystrophy, Ullrich type
+      Label: Ullrich congenital muscular dystrophy
       ORPHAcode: '75840'
   - Child:
       Genes:
@@ -116,6 +116,17 @@ Orphapacket:
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
     value: Clinical group
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '158810'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '254090'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -146,5 +157,5 @@ Orphapacket:
   Synonyms:
   - Synonym: COL6-RD
   copyright: Orphanet (c) 2023
-  creationDate: '2023-06-22 11:33:23'
-  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)
+  creationDate: '2023-12-06 11:51:54'
+  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

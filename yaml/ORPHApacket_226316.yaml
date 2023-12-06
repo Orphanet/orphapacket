@@ -1,7 +1,16 @@
 Orphapacket:
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '607200'
+    Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
@@ -28,7 +37,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002925
-      HPOTerm: Increased thyroid-stimulating hormone level
+      HPOTerm: Elevated circulating thyroid-stimulating hormone concentration
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0008263
@@ -112,5 +121,5 @@ Orphapacket:
       the first few months or years of life.
     TextSectionType: Definition
   copyright: Orphanet (c) 2023
-  creationDate: '2023-06-22 11:33:23'
-  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)
+  creationDate: '2023-12-06 11:51:54'
+  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

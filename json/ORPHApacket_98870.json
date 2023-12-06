@@ -1,8 +1,8 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "98870",
-        "creationDate": "2023-06-22 11:33:23",
-        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "creationDate": "2023-12-06 11:51:54",
+        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
         "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "98870",
         "Label": "Congenital dyserythropoietic anemia type III",
@@ -27,14 +27,23 @@
         ],
         "ExternalReferences": [
             {
-                "Source": "OMIM",
-                "Reference": "105600",
-                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "619789",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "105600",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Congenital dyserythropoietic anemia type III (CDA III) is a rare form of CDA (see this term) characterized by dyserythropoiesis with big multinucleated erythroblasts in the bone marrow and manifesting with mild to moderate anemia."
+            "Contents": "A rare form of congenital dyserythropoietic anemia (CDA) characterized by dyserythropoiesis with big multinucleated erythroblasts in the bone marrow and manifesting with mild to moderate anemia."
         },
         "Genes": [
             {

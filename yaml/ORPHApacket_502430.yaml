@@ -7,13 +7,17 @@ Orphapacket:
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
     value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '618619'
+    Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences: []
       Name: zinc finger protein 462
       Symbol: ZNF462
-  Label: Metopic ridging-ptosis-facial dysmorphism syndrome
+  Label: Weiss-Kruszka Syndrome
   ORPHAcode: '502430'
   ORPHApacketId: '502430'
   PURL: http://www.orpha.net/ORDO/Orphanet_502430
@@ -28,6 +32,123 @@ Orphapacket:
   - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000508
+      HPOTerm: Ptosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000286
+      HPOTerm: Epicanthus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000289
+      HPOTerm: Broad philtrum
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000356
+      HPOTerm: Abnormality of the outer ear
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000494
+      HPOTerm: Downslanted palpebral fissures
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000729
+      HPOTerm: Autistic behavior
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000750
+      HPOTerm: Delayed speech and language development
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001252
+      HPOTerm: Hypotonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001270
+      HPOTerm: Motor delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002263
+      HPOTerm: Exaggerated cupid's bow
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002553
+      HPOTerm: Highly arched eyebrow
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003196
+      HPOTerm: Short nose
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005274
+      HPOTerm: Prominent nasal tip
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005487
+      HPOTerm: Prominent metopic ridge
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011968
+      HPOTerm: Feeding difficulties
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012758
+      HPOTerm: Neurodevelopmental delay
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000028
+      HPOTerm: Cryptorchidism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000316
+      HPOTerm: Hypertelorism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000365
+      HPOTerm: Hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000369
+      HPOTerm: Low-set ears
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000824
+      HPOTerm: Decreased response to growth hormone stimulation test
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000954
+      HPOTerm: Single transverse palmar crease
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001627
+      HPOTerm: Abnormal heart morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002870
+      HPOTerm: Obstructive sleep apnea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004209
+      HPOTerm: Clinodactyly of the 5th finger
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006989
+      HPOTerm: Dysplastic corpus callosum
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0033454
+      HPOTerm: Tube feeding
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0040064
+      HPOTerm: Abnormality of limbs
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0009623
+      HPOTerm: Proximal placement of thumb
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -43,6 +164,8 @@ Orphapacket:
       PrevalenceType: Point prevalence
       Source: ORPHANET_28513610[PMID]
       ValMoy: no data
+  Synonyms:
+  - Synonym: Metopic ridging-ptosis-facial dysmorphism syndrome
   TextSection:
     Contents: A rare genetic multiple congenital anomalies/dysmorphic syndrome with
       variable intellectual disability characterized by abnormal head shape/metopic
@@ -53,5 +176,5 @@ Orphapacket:
       imaging may show agenesis of the corpus callosum.
     TextSectionType: Definition
   copyright: Orphanet (c) 2023
-  creationDate: '2023-06-22 11:33:23'
-  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)
+  creationDate: '2023-12-06 11:51:54'
+  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

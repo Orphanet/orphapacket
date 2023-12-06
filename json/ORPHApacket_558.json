@@ -1,8 +1,8 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "558",
-        "creationDate": "2023-06-22 11:33:23",
-        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "creationDate": "2023-12-06 11:51:54",
+        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
         "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "558",
         "Label": "Marfan syndrome",
@@ -135,6 +135,23 @@
                     "Genes": [
                         {
                             "Gene": {
+                                "Label": "transforming growth factor beta receptor 1",
+                                "Symbol": "TGFBR1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "11772"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "190181"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
                                 "Label": "transforming growth factor beta receptor 2",
                                 "Symbol": "TGFBR2",
                                 "ExternalReferences": [
@@ -155,27 +172,6 @@
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000768",
-                    "HPOTerm": "Pectus carinatum",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001065",
-                    "HPOTerm": "Striae distensae",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001166",
-                    "HPOTerm": "Arachnodactyly",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0001519",
@@ -206,8 +202,15 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0005111",
-                    "HPOTerm": "Dilatation of the ascending aorta",
+                    "HPOId": "HP:0002616",
+                    "HPOTerm": "Aortic root aneurysm",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004942",
+                    "HPOTerm": "Aortic aneurysm",
                     "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
@@ -283,8 +286,36 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0001653",
+                    "HPOTerm": "Mitral regurgitation",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001659",
+                    "HPOTerm": "Aortic regurgitation",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001704",
+                    "HPOTerm": "Tricuspid valve prolapse",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0002360",
                     "HPOTerm": "Sleep disturbance",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002647",
+                    "HPOTerm": "Aortic dissection",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -311,6 +342,13 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0004970",
+                    "HPOTerm": "Ascending tubular aorta aneurysm",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0005059",
                     "HPOTerm": "Arthralgia/arthritis",
                     "HPOFrequency": "Frequent (79-30%)"
@@ -325,15 +363,22 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0012019",
-                    "HPOTerm": "Lens luxation",
+                    "HPOId": "HP:0010535",
+                    "HPOTerm": "Sleep apnea",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0012369",
-                    "HPOTerm": "Malar anomaly",
+                    "HPOId": "HP:0010668",
+                    "HPOTerm": "Abnormal zygomatic bone morphology",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012019",
+                    "HPOTerm": "Lens luxation",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -500,8 +545,22 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0004349",
+                    "HPOTerm": "Reduced bone mineral density",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0004382",
                     "HPOTerm": "Mitral valve calcification",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004756",
+                    "HPOTerm": "Ventricular tachycardia",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -514,8 +573,8 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0004933",
-                    "HPOTerm": "Ascending aortic dissection",
+                    "HPOId": "HP:0005162",
+                    "HPOTerm": "Abnormal left ventricular function",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -563,9 +622,30 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0012499",
-                    "HPOTerm": "Descending aortic dissection",
+                    "HPOId": "HP:0100785",
+                    "HPOTerm": "Insomnia",
                     "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000768",
+                    "HPOTerm": "Pectus carinatum",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001065",
+                    "HPOTerm": "Striae distensae",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001166",
+                    "HPOTerm": "Arachnodactyly",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             }
         ],

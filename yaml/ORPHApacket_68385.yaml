@@ -444,7 +444,7 @@ Orphapacket:
             Source: OMIM
           Label: cystathionine beta-synthase
           Symbol: CBS
-      Label: Classic homocystinuria
+      Label: Homocystinuria due to cystathionine beta-synthase deficiency
       ORPHAcode: '394'
   - Child:
       Genes:
@@ -860,6 +860,10 @@ Orphapacket:
       ORPHAcode: '555407'
   - Child:
       Genes: no data
+      Label: 1p36.33 duplication syndrome
+      ORPHAcode: '656279'
+  - Child:
+      Genes: no data
       Label: Disorder of pterin metabolism
       ORPHAcode: '309819'
   - Child:
@@ -1016,7 +1020,17 @@ Orphapacket:
       Label: Pyridoxine-dependent epilepsy
       ORPHAcode: '3006'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '8124'
+            Source: HGNC
+          - Reference: '613022'
+            Source: OMIM
+          Label: oxoglutarate dehydrogenase
+          Symbol: OGDH
       Label: Oxoglutaric aciduria
       ORPHAcode: '31'
   - Child:
@@ -2430,5 +2444,5 @@ Orphapacket:
     - Label: Rare neurologic disease
       ORPHAcode: '98006'
   copyright: Orphanet (c) 2023
-  creationDate: '2023-06-22 11:33:23'
-  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)
+  creationDate: '2023-12-06 11:51:54'
+  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

@@ -1,8 +1,8 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "68385",
-        "creationDate": "2023-06-22 11:33:23",
-        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "creationDate": "2023-12-06 11:51:54",
+        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
         "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "68385",
         "Label": "Neurometabolic disease",
@@ -837,7 +837,7 @@
             },
             {
                 "Child": {
-                    "Label": "Classic homocystinuria",
+                    "Label": "Homocystinuria due to cystathionine beta-synthase deficiency",
                     "ORPHAcode": "394",
                     "Genes": [
                         {
@@ -1627,6 +1627,13 @@
             },
             {
                 "Child": {
+                    "Label": "1p36.33 duplication syndrome",
+                    "ORPHAcode": "656279",
+                    "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
                     "Label": "Disorder of pterin metabolism",
                     "ORPHAcode": "309819",
                     "Genes": "no data"
@@ -1922,7 +1929,25 @@
                 "Child": {
                     "Label": "Oxoglutaric aciduria",
                     "ORPHAcode": "31",
-                    "Genes": "no data"
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "oxoglutarate dehydrogenase",
+                                "Symbol": "OGDH",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "8124"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "613022"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        }
+                    ]
                 }
             },
             {

@@ -1,8 +1,8 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "845",
-        "creationDate": "2023-06-22 11:33:23",
-        "version": "1.3.25 / 4.1.7 [2023-04-17] (orientdb version)",
+        "creationDate": "2023-12-06 11:51:54",
+        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
         "copyright": "Orphanet (c) 2023",
         "ORPHAcode": "845",
         "Label": "Tay-Sachs disease",
@@ -13,10 +13,16 @@
         },
         "Synonyms": [
             {
-                "Synonym": "GM2 gangliosidosis, B, B1 variant"
+                "Synonym": "Beta-hexosaminidase subunitalpha deficiency"
             },
             {
-                "Synonym": "Hexosaminidase A deficiency"
+                "Synonym": "GM2 gangliosidosis, Tay-Sachs variant"
+            },
+            {
+                "Synonym": "GM2 gangliosidosis, hexosaminidase A deficiency variant"
+            },
+            {
+                "Synonym": "HEXA disorder"
             }
         ],
         "ExternalReferences": [
@@ -28,7 +34,7 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "A rare disorder characterized by accumulation of G2 gangliosides due to hexosaminidase A deficiency."
+            "Contents": "A rare autosomal recessive lysosomal disease characterized by accumulation of GM2 gangliosides in the nervous system due to hexosaminidase A deficiency as a consequence of biallelic pathogenic variants in the HEXA gene."
         },
         "Parents": [
             {
@@ -67,7 +73,7 @@
         "Childs": [
             {
                 "Child": {
-                    "Label": "Tay-Sachs disease, B variant, infantile form",
+                    "Label": "Tay-Sachs disease, infantile form",
                     "ORPHAcode": "309178",
                     "Genes": [
                         {
@@ -92,7 +98,7 @@
             },
             {
                 "Child": {
-                    "Label": "Tay-Sachs disease, B variant, juvenile form",
+                    "Label": "Tay-Sachs disease, juvenile form",
                     "ORPHAcode": "309185",
                     "Genes": [
                         {
@@ -117,33 +123,8 @@
             },
             {
                 "Child": {
-                    "Label": "Tay-Sachs disease, B variant, adult form",
+                    "Label": "Tay-Sachs disease, adult form",
                     "ORPHAcode": "309192",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "hexosaminidase subunit alpha",
-                                "Symbol": "HEXA",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "4878"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "606869"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Tay-Sachs disease, B1 variant",
-                    "ORPHAcode": "309239",
                     "Genes": [
                         {
                             "Gene": {
@@ -219,7 +200,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0000708",
-                    "HPOTerm": "Behavioral abnormality",
+                    "HPOTerm": "Atypical behavior",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },

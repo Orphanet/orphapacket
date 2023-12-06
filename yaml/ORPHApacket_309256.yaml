@@ -5,6 +5,11 @@ Orphapacket:
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
     value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code used
+      to represent it)
+    Reference: '250100'
+    Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -26,30 +31,6 @@ Orphapacket:
     - Label: Metachromatic leukodystrophy
       ORPHAcode: '512'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0007663
-      HPOTerm: Reduced visual acuity
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008619
-      HPOTerm: Bilateral sensorineural hearing impairment
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008872
-      HPOTerm: Feeding difficulties in infancy
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012433
-      HPOTerm: Abnormal social behavior
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0025013
-      HPOTerm: Decerebrate rigidity
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0031358
-      HPOTerm: Vegetative state
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000020
@@ -124,12 +105,12 @@ Orphapacket:
       HPOTerm: Progressive gait ataxia
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0030081
-      HPOTerm: Punctate periventricular T2 hyperintense foci
+      HPOId: HP:0030051
+      HPOTerm: Tip-toe gait
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0040083
-      HPOTerm: Toe walking
+      HPOId: HP:0030081
+      HPOTerm: Punctate periventricular T2 hyperintense foci
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000649
@@ -156,6 +137,10 @@ Orphapacket:
       HPOTerm: Spasticity
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001939
+      HPOTerm: Abnormality of metabolism/homeostasis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002371
       HPOTerm: Loss of speech
   - Phenotype:
@@ -168,8 +153,28 @@ Orphapacket:
       HPOTerm: Babinski sign
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0004355
-      HPOTerm: Abnormality of proteoglycan metabolism
+      HPOId: HP:0007663
+      HPOTerm: Reduced visual acuity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008619
+      HPOTerm: Bilateral sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008872
+      HPOTerm: Feeding difficulties in infancy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012433
+      HPOTerm: Abnormal social behavior
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0025013
+      HPOTerm: Decerebrate rigidity
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0031358
+      HPOTerm: Vegetative state
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
@@ -198,5 +203,5 @@ Orphapacket:
       skills and decerebration. Death occurs within the first decade of life.
     TextSectionType: Definition
   copyright: Orphanet (c) 2023
-  creationDate: '2023-06-22 11:33:23'
-  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)
+  creationDate: '2023-12-06 11:51:54'
+  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

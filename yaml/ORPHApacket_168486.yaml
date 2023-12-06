@@ -4,20 +4,6 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
-  Childs:
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '2529'
-            Source: HGNC
-          - Reference: '116840'
-            Source: OMIM
-          Label: cathepsin D
-          Symbol: CTSD
-      Label: CLN10 disease
-      ORPHAcode: '228337'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
@@ -26,6 +12,32 @@ Orphapacket:
       to represent it)
     Reference: '610127'
     Source: OMIM
+  Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences: []
+      Name: DnaJ heat shock protein family (Hsp40) member C5
+      Symbol: DNAJC5
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences: []
+      Name: cathepsin D
+      Symbol: CTSD
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences: []
+      Name: granulin precursor
+      Symbol: GRN
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences: []
+      Name: tripeptidyl peptidase 1
+      Symbol: TPP1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences: []
+      Name: CLN5 intracellular trafficking protein
+      Symbol: CLN5
   Label: Congenital neuronal ceroid lipofuscinosis
   ORPHAcode: '168486'
   ORPHApacketId: '168486'
@@ -68,7 +80,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0025435
-      HPOTerm: Increased lactate dehydrogenase activity
+      HPOTerm: Increased circulating lactate dehydrogenase concentration
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0010851
@@ -187,5 +199,5 @@ Orphapacket:
     TypeOfInheritance:
     - value: Autosomal recessive
   copyright: Orphanet (c) 2023
-  creationDate: '2023-06-22 11:33:23'
-  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)
+  creationDate: '2023-12-06 11:51:54'
+  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

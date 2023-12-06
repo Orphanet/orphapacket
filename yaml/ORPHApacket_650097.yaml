@@ -2,6 +2,11 @@ Orphapacket:
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
     value: Clinical subtype
+  ExternalReferences:
+  - DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code used
+      to represent it)
+    Reference: '176400'
+    Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -18,6 +23,11 @@ Orphapacket:
       ExternalReferences: []
       Name: KISS1 receptor
       Symbol: KISS1R
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences: []
+      Name: KiSS-1 metastasis suppressor
+      Symbol: KISS1
   Label: Genetic central precocious puberty in male
   ORPHAcode: '650097'
   ORPHApacketId: '650097'
@@ -34,5 +44,5 @@ Orphapacket:
   - Synonym: Genetic CPP in male
   - Synonym: Genetic central precocious puberty in boy
   copyright: Orphanet (c) 2023
-  creationDate: '2023-06-22 11:33:23'
-  version: 1.3.25 / 4.1.7 [2023-04-17] (orientdb version)
+  creationDate: '2023-12-06 11:51:54'
+  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
