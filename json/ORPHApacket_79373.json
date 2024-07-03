@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "79373",
-        "creationDate": "2023-12-06 11:51:54",
+        "creationDate": "2024-07-01 09:48:26",
         "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2023",
+        "copyright": "Orphanet (c) 2024",
         "ORPHAcode": "79373",
         "Label": "Ectodermal dysplasia syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_79373",
@@ -95,23 +95,6 @@
                         },
                         {
                             "Gene": {
-                                "Label": "EvC ciliary complex subunit 1",
-                                "Symbol": "EVC",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "3497"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "604831"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        },
-                        {
-                            "Gene": {
                                 "Label": "EvC ciliary complex subunit 2",
                                 "Symbol": "EVC2",
                                 "ExternalReferences": [
@@ -122,6 +105,23 @@
                                     {
                                         "Source": "OMIM",
                                         "Reference": "607261"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "EvC ciliary complex subunit 1",
+                                "Symbol": "EVC",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "3497"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "604831"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -1280,7 +1280,25 @@
                 "Child": {
                     "Label": "Hallermann-Streiff syndrome",
                     "ORPHAcode": "2108",
-                    "Genes": "no data"
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "chromodomain helicase DNA binding protein 6",
+                                "Symbol": "CHD6",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "616114"
+                                    },
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "19057"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -1607,7 +1625,7 @@
             },
             {
                 "Child": {
-                    "Label": "Toriello-Lacassie-Droste syndrome",
+                    "Label": "Oculoectodermal syndrome",
                     "ORPHAcode": "3339",
                     "Genes": [
                         {

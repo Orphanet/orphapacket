@@ -1,11 +1,11 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "331220",
-        "creationDate": "2023-12-06 11:51:54",
+        "creationDate": "2024-07-01 09:48:26",
         "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2023",
+        "copyright": "Orphanet (c) 2024",
         "ORPHAcode": "331220",
-        "Label": "Immunodeficiency due to absence of thymus",
+        "Label": "Syndome with combined immunodeficiency due to thymic defect",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_331220",
         "DisorderType": {
             "value": "Category",
@@ -22,6 +22,31 @@
             }
         ],
         "Childs": [
+            {
+                "Child": {
+                    "Label": "Severe combined immunodeficiency due to FOXN1 deficiency",
+                    "ORPHAcode": "169095",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "forkhead box N1",
+                                "Symbol": "FOXN1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "12765"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600838"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
             {
                 "Child": {
                     "Label": "CHARGE syndrome",
@@ -230,6 +255,31 @@
                     "Label": "T-cell immunodeficiency with thymic aplasia",
                     "ORPHAcode": "83471",
                     "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Jacobsen syndrome",
+                    "ORPHAcode": "2308",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "Fli-1 proto-oncogene, ETS transcription factor",
+                                "Symbol": "FLI1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "3749"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "193067"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
+                            }
+                        }
+                    ]
                 }
             }
         ]

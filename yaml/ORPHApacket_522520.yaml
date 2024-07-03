@@ -355,15 +355,6 @@ Orphapacket:
             Source: OMIM
           Label: SIL1 nucleotide exchange factor
           Symbol: SIL1
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '33882'
-            Source: HGNC
-          - Reference: '607875'
-            Source: OMIM
-          Label: inositol polyphosphate-5-phosphatase K
-          Symbol: INPP5K
       Label: "Marinesco-Sj\xF6gren syndrome"
       ORPHAcode: '559'
   - Child:
@@ -944,9 +935,17 @@ Orphapacket:
       Label: Intellectual disability-strabismus syndrome
       ORPHAcode: '363528'
   - Child:
-      Genes: no data
-      Label: Severe intellectual disability-hypotonia-strabismus-coarse face-planovalgus
-        syndrome
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '28858'
+            Source: HGNC
+          - Reference: '614584'
+            Source: OMIM
+          Label: prolyl 4-hydroxylase, transmembrane
+          Symbol: P4HTM
+      Label: HIDEA syndrome
       ORPHAcode: '436141'
   - Child:
       Genes:
@@ -973,6 +972,6 @@ Orphapacket:
   - Parent:
     - Label: Rare genetic disorder with strabismus
       ORPHAcode: '522518'
-  copyright: Orphanet (c) 2023
-  creationDate: '2023-12-06 11:51:54'
+  copyright: Orphanet (c) 2024
+  creationDate: '2024-07-01 09:48:26'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2062",
-        "creationDate": "2023-12-06 11:51:54",
+        "creationDate": "2024-07-01 09:48:26",
         "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2023",
+        "copyright": "Orphanet (c) 2024",
         "ORPHAcode": "2062",
         "Label": "Progressive non-infectious anterior vertebral fusion",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2062",
@@ -14,6 +14,9 @@
         "Synonyms": [
             {
                 "Synonym": "Copenhagen syndrome"
+            },
+            {
+                "Synonym": "PAVF"
             }
         ],
         "TextSection": {
@@ -36,16 +39,17 @@
                         "Label": "Dysostosis with predominant vertebral and costal involvement"
                     }
                 ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "330206",
+                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual disability"
+                    }
+                ]
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000098",
-                    "HPOTerm": "Tall stature",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000154",
@@ -132,6 +136,55 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0002650",
+                    "HPOTerm": "Scoliosis",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002808",
+                    "HPOTerm": "Kyphosis",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002937",
+                    "HPOTerm": "Hemivertebrae",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005108",
+                    "HPOTerm": "Abnormal intervertebral disk morphology",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005280",
+                    "HPOTerm": "Depressed nasal bridge",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012368",
+                    "HPOTerm": "Flat face",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000098",
+                    "HPOTerm": "Tall stature",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0001387",
                     "HPOTerm": "Joint stiffness",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -147,15 +200,8 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0002011",
-                    "HPOTerm": "Morphological abnormality of the central nervous system",
+                    "HPOTerm": "Morphological central nervous system abnormality",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002650",
-                    "HPOTerm": "Scoliosis",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -163,20 +209,6 @@
                     "HPOId": "HP:0002653",
                     "HPOTerm": "Bone pain",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002808",
-                    "HPOTerm": "Kyphosis",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002937",
-                    "HPOTerm": "Hemivertebrae",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -202,27 +234,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0005108",
-                    "HPOTerm": "Abnormality of the intervertebral disk",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0005280",
-                    "HPOTerm": "Depressed nasal bridge",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012368",
-                    "HPOTerm": "Flat face",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0100777",
                     "HPOTerm": "Exostoses",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -242,7 +253,7 @@
             },
             {
                 "Prevalence": {
-                    "Source": "ORPHANET_25485486[PMID]_28235247[PMID]",
+                    "Source": "25485486[PMID]_28235247[PMID]_ORPHANET",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "<1 / 1 000 000",

@@ -3,19 +3,6 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '124'
-            Source: HGNC
-          - Reference: '171640'
-            Source: OMIM
-          Label: acid phosphatase 5, tartrate resistant
-          Symbol: ACP5
-      Label: Spondyloenchondrodysplasia
-      ORPHAcode: '1855'
-  - Child:
-      Genes:
-      - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
             of function) in
           ExternalReferences:
@@ -65,25 +52,6 @@ Orphapacket:
             Source: OMIM
           Label: Fas ligand
           Symbol: FASLG
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
-            of function) in
-          ExternalReferences:
-          - Reference: '176977'
-            Source: OMIM
-          - Reference: '9399'
-            Source: HGNC
-          Label: protein kinase C delta
-          Symbol: PRKCD
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '603962'
-            Source: OMIM
-          - Reference: '9878'
-            Source: HGNC
-          Label: RAS guanyl releasing protein 1
-          Symbol: RASGRP1
       Label: Autoimmune lymphoproliferative syndrome
       ORPHAcode: '3261'
   - Child:
@@ -158,7 +126,8 @@ Orphapacket:
             Source: OMIM
           Label: caspase 8
           Symbol: CASP8
-      Label: Autoimmune lymphoproliferative syndrome with recurrent viral infections
+      Label: Autoimmune lymphoproliferative syndrome-recurrent viral infections due
+        to CASP8 deficiency
       ORPHAcode: '275517'
   - Child:
       Genes:
@@ -195,8 +164,8 @@ Orphapacket:
             Source: OMIM
           Label: signal transducer and activator of transcription 1
           Symbol: STAT1
-      Label: Autoimmune enteropathy and endocrinopathy-susceptibility to chronic infections
-        syndrome
+      Label: STAT1-related autoimmune enteropathy and endocrinopathy-susceptibility
+        to chronic infections syndrome
       ORPHAcode: '391487'
   - Child:
       Genes:
@@ -211,7 +180,7 @@ Orphapacket:
           Label: tripeptidyl peptidase 2
           Symbol: TPP2
       Label: Autoimmune hemolytic anemia-autoimmune thrombocytopenia-primary immunodeficiency
-        syndrome
+        syndrome due to TPP2 deficiency
       ORPHAcode: '444463'
   - Child:
       Genes:
@@ -225,12 +194,54 @@ Orphapacket:
             Source: OMIM
           Label: suppressor of cytokine signaling 1
           Symbol: SOCS1
-      Label: Early-onset autoimmunity-autoinflammation-immunodeficiency syndrome
+      Label: Early-onset autoimmunity-autoinflammation-immunodeficiency syndrome due
+        to SOCS1 haploinsufficiency
       ORPHAcode: '619948'
   - Child:
-      Genes: no data
-      Label: Early-onset autoimmune disorder due to DOCK11 partial deficiency
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '300681'
+            Source: OMIM
+          - Reference: '23483'
+            Source: HGNC
+          Label: dedicator of cytokinesis 11
+          Symbol: DOCK11
+      Label: Early-onset immune dysregulation with autoimmunity due to DOCK11 partial
+        deficiency
       ORPHAcode: '658946'
+  - Child:
+      Genes: no data
+      Label: Dianzani autoimmune lymphoproliferative disease
+      ORPHAcode: '275523'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '2505'
+            Source: HGNC
+          - Reference: '123890'
+            Source: OMIM
+          Label: cytotoxic T-lymphocyte associated protein 4
+          Symbol: CTLA4
+      Label: Autoimmune lymphoproliferative syndrome due to CTLA4 haploinsuffiency
+      ORPHAcode: '436159'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain
+            of function) in
+          ExternalReferences:
+          - Reference: '11364'
+            Source: HGNC
+          - Reference: '102582'
+            Source: OMIM
+          Label: signal transducer and activator of transcription 3
+          Symbol: STAT3
+      Label: STAT3-related early-onset multisystem autoimmune disease
+      ORPHAcode: '438159'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -245,6 +256,6 @@ Orphapacket:
   - Parent:
     - Label: Rare disorder potentially indicated for hematopoietic stem cell transplant
       ORPHAcode: '506219'
-  copyright: Orphanet (c) 2023
-  creationDate: '2023-12-06 11:51:54'
+  copyright: Orphanet (c) 2024
+  creationDate: '2024-07-01 09:48:26'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

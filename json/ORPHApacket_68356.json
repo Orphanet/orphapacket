@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "68356",
-        "creationDate": "2023-12-06 11:51:54",
+        "creationDate": "2024-07-01 09:48:26",
         "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2023",
+        "copyright": "Orphanet (c) 2024",
         "ORPHAcode": "68356",
         "Label": "Leukodystrophy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_68356",
@@ -270,7 +270,7 @@
                         },
                         {
                             "Gene": {
-                                "Label": "'RNA, U7 small nuclear 1'",
+                                "Label": "RNA, U7 small nuclear 1",
                                 "Symbol": "RNU7-1",
                                 "ExternalReferences": [
                                     {
@@ -828,7 +828,7 @@
             },
             {
                 "Child": {
-                    "Label": "Hereditary diffuse leukoencephalopathy with axonal spheroids and pigmented glia",
+                    "Label": "Adult-onset leukoencephalopathy with axonal spheroids and pigmented glia",
                     "ORPHAcode": "313808",
                     "Genes": [
                         {
@@ -1139,7 +1139,25 @@
                 "Child": {
                     "Label": "Adult-onset progressive leukoencephalopathy-early-onset deafness",
                     "ORPHAcode": "652532",
-                    "Genes": "no data"
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "lysyl-tRNA synthetase 1",
+                                "Symbol": "KARS1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "6215"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "601421"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -1222,6 +1240,13 @@
                             }
                         }
                     ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Episodic memory defect leukoencephalopathy",
+                    "ORPHAcode": "662229",
+                    "Genes": "no data"
                 }
             }
         ]

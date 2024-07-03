@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1048",
-        "creationDate": "2023-12-06 11:51:54",
+        "creationDate": "2024-07-01 09:48:26",
         "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2023",
+        "copyright": "Orphanet (c) 2024",
         "ORPHAcode": "1048",
         "Label": "Isolated anencephaly/exencephaly",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_1048",
@@ -35,6 +35,14 @@
             {
                 "Parent": [
                     {
+                        "ORPHAcode": "268843",
+                        "Label": "Malformation of the neurenteric canal, spinal cord and column"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
                         "ORPHAcode": "102283",
                         "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
                     }
@@ -43,13 +51,115 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "268843",
-                        "Label": "Malformation of the neurenteric canal, spinal cord and column"
+                        "ORPHAcode": "231957",
+                        "Label": "Disease associated with a genetic susceptibility or tested for a biomarker"
                     }
                 ]
             }
         ],
-        "Childs": [],
+        "Childs": [
+            {
+                "Child": {
+                    "Label": "Isolated anencephaly",
+                    "ORPHAcode": "563609",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "VANGL planar cell polarity protein 2",
+                                "Symbol": "VANGL2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "15511"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600533"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Major susceptibility factor in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "methylenetetrahydrofolate reductase",
+                                "Symbol": "MTHFR",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "607093"
+                                    },
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "7436"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Major susceptibility factor in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "NUAK family kinase 2",
+                                "Symbol": "NUAK2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "29558"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "608131"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Isolated exencephaly",
+                    "ORPHAcode": "563612",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "VANGL planar cell polarity protein 2",
+                                "Symbol": "VANGL2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "15511"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600533"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Major susceptibility factor in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "methylenetetrahydrofolate reductase",
+                                "Symbol": "MTHFR",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "607093"
+                                    },
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "7436"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Major susceptibility factor in"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
         "Phenotypes": [
             {
                 "Phenotype": {

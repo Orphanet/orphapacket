@@ -7,11 +7,13 @@ Orphapacket:
     value: Malformation syndrome
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '107480'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '617466'
       Source: OMIM
   Genes:
@@ -38,12 +40,6 @@ Orphapacket:
     - Label: Syndromic genetic deafness
       ORPHAcode: '90642'
   - Parent:
-    - Label: Otomandibular dysplasia associated with monogenic syndromes
-      ORPHAcode: '156202'
-  - Parent:
-    - Label: Genetic branchial arch or oral-acral syndrome
-      ORPHAcode: '183576'
-  - Parent:
     - Label: Syndrome with limb duplication, polydactyly, syndactyly, and/or hyperphalangy
       ORPHAcode: '294959'
   - Parent:
@@ -51,22 +47,9 @@ Orphapacket:
         disability
       ORPHAcode: '330206'
   - Parent:
-    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
-        disability
-      ORPHAcode: '611327'
-  - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
         disability
       ORPHAcode: '102285'
-  - Parent:
-    - Label: Syndromic renal or urinary tract malformation
-      ORPHAcode: '93547'
-  - Parent:
-    - Label: Branchial arch or oral-acral syndrome
-      ORPHAcode: '139036'
-  - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-      ORPHAcode: '102283'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -267,7 +250,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002308
-      HPOTerm: Arnold-Chiari malformation
+      HPOTerm: Chiari malformation
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002607
@@ -364,6 +347,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2023
-  creationDate: '2023-12-06 11:51:54'
+  copyright: Orphanet (c) 2024
+  creationDate: '2024-07-01 09:48:26'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

@@ -15,6 +15,11 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
+      Name: zinc finger E-box binding homeobox 2
+      Symbol: ZEB2
+  - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
+      ExternalReferences: []
       Name: B-Raf proto-oncogene, serine/threonine kinase
       Symbol: BRAF
   - Gene:
@@ -23,15 +28,20 @@ Orphapacket:
       Name: Raf-1 proto-oncogene, serine/threonine kinase
       Symbol: RAF1
   - Gene:
-      DisorderGeneAssociationType: Modifying germline mutation in
+      DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences: []
-      Name: melanocortin 1 receptor
-      Symbol: MC1R
+      Name: ALK receptor tyrosine kinase
+      Symbol: ALK
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences: []
       Name: NRAS proto-oncogene, GTPase
       Symbol: NRAS
+  - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
+      ExternalReferences: []
+      Name: SRY-box transcription factor 5
+      Symbol: SOX5
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences: []
@@ -50,17 +60,45 @@ Orphapacket:
       ORPHAcode: '294057'
   Phenotypes:
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001000
+      HPOTerm: Abnormality of skin pigmentation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003764
+      HPOTerm: Nevus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005600
+      HPOTerm: Congenital giant melanocytic nevus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000958
+      HPOTerm: Dry skin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000970
+      HPOTerm: Anhidrosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001058
+      HPOTerm: Poor wound healing
+  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000238
       HPOTerm: Hydrocephalus
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000708
+      HPOTerm: Atypical behavior
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000989
       HPOTerm: Pruritus
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001000
-      HPOTerm: Abnormality of skin pigmentation
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000998
+      HPOTerm: Hypertrichosis
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001053
@@ -74,37 +112,37 @@ Orphapacket:
       HPOId: HP:0001482
       HPOTerm: Subcutaneous nodule
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002230
-      HPOTerm: Generalized hirsutism
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002664
-      HPOTerm: Neoplasm
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002176
+      HPOTerm: Spinal cord compression
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002859
-      HPOTerm: Rhabdomyosarcoma
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003764
-      HPOTerm: Nevus
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0005600
-      HPOTerm: Congenital giant melanocytic nevus
+      HPOId: HP:0002315
+      HPOTerm: Headache
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008069
-      HPOTerm: Neoplasm of the skin
+      HPOId: HP:0002516
+      HPOTerm: Increased intracranial pressure
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0012056
       HPOTerm: Cutaneous melanoma
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100242
-      HPOTerm: Sarcoma
+      HPOId: HP:0012758
+      HPOTerm: Neurodevelopmental delay
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000028
+      HPOTerm: Cryptorchidism
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0004912
+      HPOTerm: Hypophosphatemic rickets
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0010314
+      HPOTerm: Premature thelarche
   Prevalences:
     Prevalence:
     - PrevalenceClass: 1-9 / 100 000
@@ -130,6 +168,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Multigenic/multifactorial
-  copyright: Orphanet (c) 2023
-  creationDate: '2023-12-06 11:51:54'
+  copyright: Orphanet (c) 2024
+  creationDate: '2024-07-01 09:48:26'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

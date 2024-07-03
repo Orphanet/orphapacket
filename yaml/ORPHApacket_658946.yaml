@@ -2,7 +2,19 @@ Orphapacket:
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
-  Label: Early-onset autoimmune disorder due to DOCK11 partial deficiency
+  ExternalReferences:
+  - DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+      to represent it)
+    Reference: '301109'
+    Source: OMIM
+  Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences: []
+      Name: dedicator of cytokinesis 11
+      Symbol: DOCK11
+  Label: Early-onset immune dysregulation with autoimmunity due to DOCK11 partial
+    deficiency
   ORPHAcode: '658946'
   ORPHApacketId: '658946'
   PURL: http://www.orpha.net/ORDO/Orphanet_658946
@@ -19,12 +31,12 @@ Orphapacket:
   - Parent:
     - Label: Genetic immune deficiency with skin involvement
       ORPHAcode: '183494'
-  - Parent:
-    - Label: Rare disorder potentially indicated for hematopoietic stem cell transplant
-      ORPHAcode: '506219'
   Synonyms:
-  - Synonym: Early-onset autoimmune disorder related to dedicator of cytokinesis 11
-      protei
-  copyright: Orphanet (c) 2023
-  creationDate: '2023-12-06 11:51:54'
+  - Synonym: Early-onset immune dysregulation with autoimmunity due to partial dedicator
+      of cytokinesis 11 protein deficiency
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: X-linked recessive
+  copyright: Orphanet (c) 2024
+  creationDate: '2024-07-01 09:48:26'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

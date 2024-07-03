@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "626",
-        "creationDate": "2023-12-06 11:51:54",
+        "creationDate": "2024-07-01 09:48:26",
         "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2023",
+        "copyright": "Orphanet (c) 2024",
         "ORPHAcode": "626",
         "Label": "Large congenital melanocytic nevus",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_626",
@@ -42,6 +42,14 @@
         "Genes": [
             {
                 "Gene": {
+                    "Symbol": "ZEB2",
+                    "Name": "zinc finger E-box binding homeobox 2",
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Part of a fusion gene in"
+                }
+            },
+            {
+                "Gene": {
                     "Symbol": "BRAF",
                     "Name": "B-Raf proto-oncogene, serine/threonine kinase",
                     "ExternalReferences": [],
@@ -58,10 +66,10 @@
             },
             {
                 "Gene": {
-                    "Symbol": "MC1R",
-                    "Name": "melanocortin 1 receptor",
+                    "Symbol": "ALK",
+                    "Name": "ALK receptor tyrosine kinase",
                     "ExternalReferences": [],
-                    "DisorderGeneAssociationType": "Modifying germline mutation in"
+                    "DisorderGeneAssociationType": "Part of a fusion gene in"
                 }
             },
             {
@@ -70,6 +78,14 @@
                     "Name": "NRAS proto-oncogene, GTPase",
                     "ExternalReferences": [],
                     "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "SOX5",
+                    "Name": "SRY-box transcription factor 5",
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Part of a fusion gene in"
                 }
             },
             {
@@ -102,8 +118,57 @@
         "Phenotypes": [
             {
                 "Phenotype": {
+                    "HPOId": "HP:0001000",
+                    "HPOTerm": "Abnormality of skin pigmentation",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003764",
+                    "HPOTerm": "Nevus",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005600",
+                    "HPOTerm": "Congenital giant melanocytic nevus",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000958",
+                    "HPOTerm": "Dry skin",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000970",
+                    "HPOTerm": "Anhidrosis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001058",
+                    "HPOTerm": "Poor wound healing",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0000238",
                     "HPOTerm": "Hydrocephalus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000708",
+                    "HPOTerm": "Atypical behavior",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -116,9 +181,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001000",
-                    "HPOTerm": "Abnormality of skin pigmentation",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0000998",
+                    "HPOTerm": "Hypertrichosis",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -144,43 +209,22 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002230",
-                    "HPOTerm": "Generalized hirsutism",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002664",
-                    "HPOTerm": "Neoplasm",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002859",
-                    "HPOTerm": "Rhabdomyosarcoma",
+                    "HPOId": "HP:0002176",
+                    "HPOTerm": "Spinal cord compression",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0003764",
-                    "HPOTerm": "Nevus",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0002315",
+                    "HPOTerm": "Headache",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0005600",
-                    "HPOTerm": "Congenital giant melanocytic nevus",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008069",
-                    "HPOTerm": "Neoplasm of the skin",
+                    "HPOId": "HP:0002516",
+                    "HPOTerm": "Increased intracranial pressure",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -193,9 +237,30 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0100242",
-                    "HPOTerm": "Sarcoma",
+                    "HPOId": "HP:0012758",
+                    "HPOTerm": "Neurodevelopmental delay",
                     "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000028",
+                    "HPOTerm": "Cryptorchidism",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004912",
+                    "HPOTerm": "Hypophosphatemic rickets",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010314",
+                    "HPOTerm": "Premature thelarche",
+                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             }
         ],

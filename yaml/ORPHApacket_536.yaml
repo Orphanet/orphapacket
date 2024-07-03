@@ -26,6 +26,11 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
+      Name: B cell scaffold protein with ankyrin repeats 1
+      Symbol: BANK1
+  - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
+      ExternalReferences: []
       Name: PX domain containing serine/threonine kinase like
       Symbol: PXK
   - Gene:
@@ -66,23 +71,18 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
-      Name: complement C4A (Rodgers blood group)
+      Name: complement C4A (Chido/Rodgers blood group)
       Symbol: C4A
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
-      Name: complement C4B (Chido blood group)
+      Name: complement C4B (Chido/Rodgers blood group)
       Symbol: C4B
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
       Name: complement C3d receptor 2
       Symbol: CR2
-  - Gene:
-      DisorderGeneAssociationType: Major susceptibility factor in
-      ExternalReferences: []
-      Name: BLK proto-oncogene, Src family tyrosine kinase
-      Symbol: BLK
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
@@ -116,8 +116,8 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
-      Name: B cell scaffold protein with ankyrin repeats 1
-      Symbol: BANK1
+      Name: BLK proto-oncogene, Src family tyrosine kinase
+      Symbol: BLK
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences: []
@@ -246,7 +246,11 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0005421
-      HPOTerm: Decreased serum complement C3
+      HPOTerm: Decreased circulating complement C3 concentration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005764
+      HPOTerm: Polyarticular arthritis
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0012085
@@ -265,8 +269,20 @@ Orphapacket:
       HPOTerm: Lupus nephritis
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0034076
+      HPOTerm: Anti-ribosome Po antibody positivity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0034077
+      HPOTerm: Anti-complement component C1q antibody positivity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0045042
-      HPOTerm: Decreased serum complement C4
+      HPOTerm: Decreased circulating complement C4 concentration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:5000038
+      HPOTerm: Anti-titin antibody positivity
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000155
@@ -301,6 +317,10 @@ Orphapacket:
       HPOTerm: Discoid lupus rash
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0020151
+      HPOTerm: Anti-dsDNA antibody positivity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0032235
       HPOTerm: Anti-La/SS-B antibody positivity
   - Phenotype:
@@ -311,6 +331,18 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0033040
       HPOTerm: Anti-Sm antibody positivity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0033556
+      HPOTerm: Anti-nucleoporin 62 antibody positivity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0034093
+      HPOTerm: Anti-Ro52/TRIM21 antibody positivity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0034096
+      HPOTerm: Anti-phosphatidic acid antibody positivity
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0045073
@@ -419,6 +451,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
-  copyright: Orphanet (c) 2023
-  creationDate: '2023-12-06 11:51:54'
+  copyright: Orphanet (c) 2024
+  creationDate: '2024-07-01 09:48:26'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

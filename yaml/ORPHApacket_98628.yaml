@@ -42,7 +42,7 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          DisorderGeneAssociationType: Modifying germline mutation in
           ExternalReferences:
           - Reference: '3748'
             Source: HGNC
@@ -138,7 +138,15 @@ Orphapacket:
       Label: X-linked reticulate pigmentary disorder
       ORPHAcode: '85453'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - ExternalReference:
+              Reference: '6757'
+              Source: HGNC
+          Label: mab-21 like 1
+          Symbol: MAB21L1
       Label: Congenital labioscrotal agenesis-cerebellar malformation-corneal dystrophy-facial
         dysmorphism syndrome
       ORPHAcode: '495875'
@@ -169,6 +177,6 @@ Orphapacket:
   - Parent:
     - Label: Genetic corneal dystrophy
       ORPHAcode: '522560'
-  copyright: Orphanet (c) 2023
-  creationDate: '2023-12-06 11:51:54'
+  copyright: Orphanet (c) 2024
+  creationDate: '2024-07-01 09:48:26'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

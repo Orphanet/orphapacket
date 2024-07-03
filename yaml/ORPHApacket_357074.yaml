@@ -9,15 +9,18 @@ Orphapacket:
     value: Clinical subtype
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '219200'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '617403'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '617402'
       Source: OMIM
   Genes:
@@ -46,98 +49,6 @@ Orphapacket:
     - Label: Autosomal recessive cutis laxa type 2A
       ORPHAcode: '357058'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0007552
-      HPOTerm: Abnormal subcutaneous fat tissue distribution
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0008070
-      HPOTerm: Sparse hair
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0008897
-      HPOTerm: Postnatal growth retardation
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0008947
-      HPOTerm: Infantile muscular hypotonia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0009125
-      HPOTerm: Lipodystrophy
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0011003
-      HPOTerm: High myopia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0011968
-      HPOTerm: Feeding difficulties
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0025167
-      HPOTerm: Fragmented elastic fibers in the dermis
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0100874
-      HPOTerm: Thick hair
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000023
-      HPOTerm: Inguinal hernia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000486
-      HPOTerm: Strabismus
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001250
-      HPOTerm: Seizure
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001257
-      HPOTerm: Spasticity
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001302
-      HPOTerm: Pachygyria
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001305
-      HPOTerm: Dandy-Walker malformation
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001321
-      HPOTerm: Cerebellar hypoplasia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001339
-      HPOTerm: Lissencephaly
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001374
-      HPOTerm: Congenital hip dislocation
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002126
-      HPOTerm: Polymicrogyria
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0025201
-      HPOTerm: Abnormal apolipoprotein level
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0025244
-      HPOTerm: Subretinal pigment epithelium hemorrhage
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0010989
-      HPOTerm: Abnormality of the intrinsic pathway
-  - Phenotype:
-      HPOFrequency: Excluded (0%)
-      HPOId: HP:0002097
-      HPOTerm: Emphysema
   - Phenotype:
       HPOFrequency: Obligate (100%)
       HPOId: HP:0001476
@@ -274,6 +185,98 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0007457
       HPOTerm: Prominent veins on trunk
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007552
+      HPOTerm: Abnormal subcutaneous fat tissue distribution
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008070
+      HPOTerm: Sparse hair
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008897
+      HPOTerm: Postnatal growth retardation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008947
+      HPOTerm: Infantile muscular hypotonia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009125
+      HPOTerm: Lipodystrophy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011003
+      HPOTerm: High myopia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011968
+      HPOTerm: Feeding difficulties
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0025167
+      HPOTerm: Fragmented elastic fibers in the dermis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100874
+      HPOTerm: Thick hair
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000023
+      HPOTerm: Inguinal hernia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000486
+      HPOTerm: Strabismus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001250
+      HPOTerm: Seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001257
+      HPOTerm: Spasticity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001302
+      HPOTerm: Pachygyria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001305
+      HPOTerm: Dandy-Walker malformation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001321
+      HPOTerm: Cerebellar hypoplasia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001339
+      HPOTerm: Lissencephaly
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001374
+      HPOTerm: Congenital hip dislocation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002126
+      HPOTerm: Polymicrogyria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0025201
+      HPOTerm: Abnormal circulating apolipoprotein concentration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0025244
+      HPOTerm: Subretinal pigment epithelium hemorrhage
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010989
+      HPOTerm: Abnormality of the intrinsic pathway
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0002097
+      HPOTerm: Emphysema
   Synonyms:
   - Synonym: "ARCL2, Debr\xE9 type"
   - Synonym: ARCL2, classic type
@@ -281,6 +284,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2023
-  creationDate: '2023-12-06 11:51:54'
+  copyright: Orphanet (c) 2024
+  creationDate: '2024-07-01 09:48:26'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

@@ -2,7 +2,19 @@ Orphapacket:
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
-  Label: Methylenetetrahydrofolate dehydrogenase 1 deficiency
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '617780'
+    Source: OMIM
+  Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences: []
+      Name: methylenetetrahydrofolate dehydrogenase, cyclohydrolase and formyltetrahydrofolate
+        synthetase 1
+      Symbol: MTHFD1
+  Label: Combined immunodeficiency-megaloblastic anemia due to methylenetetrahydrofolate
+    dehydrogenase 1 deficiency
   ORPHAcode: '658813'
   ORPHApacketId: '658813'
   PURL: http://www.orpha.net/ORDO/Orphanet_658813
@@ -14,7 +26,12 @@ Orphapacket:
     - Label: Disorder of folate metabolism and transport
       ORPHAcode: '285657'
   Synonyms:
+  - Synonym: CIMAH
   - Synonym: Combined immunodeficiency-megaloblastic anemia with or without hyperhomocysteinemia
-  copyright: Orphanet (c) 2023
-  creationDate: '2023-12-06 11:51:54'
+  - Synonym: Methylenetetrahydrofolate dehydrogenase 1 deficiency
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive
+  copyright: Orphanet (c) 2024
+  creationDate: '2024-07-01 09:48:26'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

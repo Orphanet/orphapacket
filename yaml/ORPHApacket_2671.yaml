@@ -31,7 +31,16 @@ Orphapacket:
       Label: Neu-Laxova syndrome due to 3-phosphoglycerate dehydrogenase deficiency
       ORPHAcode: '583607'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '9577'
+            Source: HGNC
+          - Reference: '172480'
+            Source: OMIM
+          Label: phosphoserine phosphatase
+          Symbol: PSPH
       Label: Neu-Laxova syndrome due to 3-phosphoserine phosphatase deficiency
       ORPHAcode: '583612'
   DisorderType:
@@ -39,7 +48,8 @@ Orphapacket:
     value: Malformation syndrome
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '256520'
       Source: OMIM
   - ExternalReference:
@@ -343,6 +353,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2023
-  creationDate: '2023-12-06 11:51:54'
+  copyright: Orphanet (c) 2024
+  creationDate: '2024-07-01 09:48:26'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

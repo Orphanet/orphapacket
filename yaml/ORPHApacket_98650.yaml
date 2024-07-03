@@ -146,7 +146,17 @@ Orphapacket:
       Label: Zellweger syndrome
       ORPHAcode: '912'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '616114'
+            Source: OMIM
+          - Reference: '19057'
+            Source: HGNC
+          Label: chromodomain helicase DNA binding protein 6
+          Symbol: CHD6
       Label: Hallermann-Streiff syndrome
       ORPHAcode: '2108'
   - Child:
@@ -195,6 +205,6 @@ Orphapacket:
   - Parent:
     - Label: Syndromic cataract
       ORPHAcode: '98641'
-  copyright: Orphanet (c) 2023
-  creationDate: '2023-12-06 11:51:54'
+  copyright: Orphanet (c) 2024
+  creationDate: '2024-07-01 09:48:26'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

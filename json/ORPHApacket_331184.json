@@ -1,22 +1,30 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "331184",
-        "creationDate": "2023-12-06 11:51:54",
+        "creationDate": "2024-07-01 09:48:26",
         "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2023",
+        "copyright": "Orphanet (c) 2024",
         "ORPHAcode": "331184",
-        "Label": "Constitutional neutropenia with extra-hematopoietic manifestations",
+        "Label": "Syndrome with congenital neutropenia as a major feature",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_331184",
         "DisorderType": {
             "value": "Category",
             "PURL": "http://www.orpha.net/ORDO/Orphanet_557495"
         },
+        "Synonyms": [
+            {
+                "Synonym": "Syndrome with constitutional neutropenia as a major feature"
+            },
+            {
+                "Synonym": "Syndrome with genetic neutropenia as a major feature"
+            }
+        ],
         "Parents": [
             {
                 "Parent": [
                     {
                         "ORPHAcode": "101987",
-                        "Label": "Constitutional neutropenia"
+                        "Label": "Congenital neutropenia"
                     }
                 ]
             }
@@ -24,9 +32,100 @@
         "Childs": [
             {
                 "Child": {
-                    "Label": "Pearson syndrome",
-                    "ORPHAcode": "699",
-                    "Genes": "no data"
+                    "Label": "3-methylglutaconic aciduria-neonatal cataract-neurologic involvement-congenital neutropenia syndrome",
+                    "ORPHAcode": "445038",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "ClpB family mitochondrial disaggregase",
+                                "Symbol": "CLPB",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "30664"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "616254"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Severe congenital neutropenia due to JAGN1 deficiency",
+                    "ORPHAcode": "423384",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "jagunal homolog 1",
+                                "Symbol": "JAGN1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "26926"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "616012"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Severe congenital neutropenia-developmental delay-pancreatic insufficiency syndrome due to SRP54 deficiency",
+                    "ORPHAcode": "675767",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "signal recognition particle 54",
+                                "Symbol": "SRP54",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "11301"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "604857"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "TLR8-related inflammation-severe neutropenia-bone marrow failure-lymphoproliferation syndrome",
+                    "ORPHAcode": "675628",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "toll like receptor 8",
+                                "Symbol": "TLR8",
+                                "ExternalReferences": [
+                                    {
+                                        "ExternalReference": {
+                                            "Source": "HGNC",
+                                            "Reference": "15632"
+                                        }
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -95,31 +194,6 @@
             },
             {
                 "Child": {
-                    "Label": "WHIM syndrome",
-                    "ORPHAcode": "51636",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "C-X-C motif chemokine receptor 4",
-                                "Symbol": "CXCR4",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "2561"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "162643"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
                     "Label": "Glycogen storage disease due to glucose-6-phosphatase deficiency type Ib",
                     "ORPHAcode": "79259",
                     "Genes": [
@@ -145,32 +219,7 @@
             },
             {
                 "Child": {
-                    "Label": "Griscelli syndrome type 2",
-                    "ORPHAcode": "79477",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "RAB27A, member RAS oncogene family",
-                                "Symbol": "RAB27A",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "9766"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "603868"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Primary immunodeficiency syndrome due to LAMTOR2 deficiency",
+                    "Label": "Primary immunodeficiency syndrome due to P14/LAMTOR2 deficiency",
                     "ORPHAcode": "90023",
                     "Genes": [
                         {
@@ -197,25 +246,7 @@
                 "Child": {
                     "Label": "Hermansky-Pudlak syndrome due to AP-3 deficiency",
                     "ORPHAcode": "183678",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "adaptor related protein complex 3 subunit beta 1",
-                                "Symbol": "AP3B1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "566"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "603401"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
+                    "Genes": "no data"
                 }
             },
             {
@@ -264,19 +295,128 @@
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
-                        },
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Severe congenital neutropenia due to G6PC3 deficiency",
+                    "ORPHAcode": "331176",
+                    "Genes": [
                         {
                             "Gene": {
-                                "Label": "rabenosyn, RAB effector",
-                                "Symbol": "RBSN",
+                                "Label": "glucose-6-phosphatase catalytic subunit 3",
+                                "Symbol": "G6PC3",
                                 "ExternalReferences": [
                                     {
                                         "Source": "HGNC",
-                                        "Reference": "20759"
+                                        "Reference": "24861"
                                     },
                                     {
                                         "Source": "OMIM",
-                                        "Reference": "609511"
+                                        "Reference": "611045"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Shwachman-Diamond syndrome",
+                    "ORPHAcode": "811",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "SBDS ribosome maturation factor",
+                                "Symbol": "SBDS",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "19440"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "607444"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "elongation factor like GTPase 1",
+                                "Symbol": "EFL1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "25789"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "617538"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "DnaJ heat shock protein family (Hsp40) member C21",
+                                "Symbol": "DNAJC21",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "27030"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "617048"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Recurrent infections due to specific granule deficiency",
+                    "ORPHAcode": "169142",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "CCAAT enhancer binding protein epsilon",
+                                "Symbol": "CEBPE",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "1836"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600749"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 2",
+                                "Symbol": "SMARCD2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "11107"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "601736"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
