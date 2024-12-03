@@ -115,7 +115,17 @@ Orphapacket:
       Label: Autoimmune interstitial lung disease-arthritis syndrome
       ORPHAcode: '444092'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '300681'
+            Source: OMIM
+          - Reference: '23483'
+            Source: HGNC
+          Label: dedicator of cytokinesis 11
+          Symbol: DOCK11
       Label: Early-onset immune dysregulation due to DOCK11 complete deficiency
       ORPHAcode: '658951'
   - Child:
@@ -146,5 +156,5 @@ Orphapacket:
     - Label: Rare genetic disease
       ORPHAcode: '98053'
   copyright: Orphanet (c) 2024
-  creationDate: '2024-07-01 09:48:26'
+  creationDate: '2024-12-03 10:13:55'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

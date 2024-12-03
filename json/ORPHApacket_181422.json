@@ -1,7 +1,7 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "181422",
-        "creationDate": "2024-07-01 09:48:26",
+        "creationDate": "2024-12-03 10:13:55",
         "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
         "copyright": "Orphanet (c) 2024",
         "ORPHAcode": "181422",
@@ -49,9 +49,59 @@
             },
             {
                 "Child": {
-                    "Label": "Hyperalphalipoproteinemia",
+                    "Label": "Familial Hyperalphalipoproteinemia",
                     "ORPHAcode": "181428",
-                    "Genes": "no data"
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "cholesteryl ester transfer protein",
+                                "Symbol": "CETP",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "1869"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "118470"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "apolipoprotein C3",
+                                "Symbol": "APOC3",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "610"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "107720"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "scavenger receptor class B member 1",
+                                "Symbol": "SCARB1",
+                                "ExternalReferences": [
+                                    {
+                                        "ExternalReference": {
+                                            "Source": "HGNC",
+                                            "Reference": "1664"
+                                        }
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
                 }
             },
             {

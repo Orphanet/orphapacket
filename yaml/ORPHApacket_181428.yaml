@@ -5,19 +5,6 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '1869'
-            Source: HGNC
-          - Reference: '118470'
-            Source: OMIM
-          Label: cholesteryl ester transfer protein
-          Symbol: CETP
-      Label: Cholesterol-ester transfer protein deficiency
-      ORPHAcode: '79506'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
           - Reference: '6619'
             Source: HGNC
           - Reference: '151670'
@@ -27,9 +14,43 @@ Orphapacket:
       Label: Hyperlipidemia due to hepatic triacylglycerol lipase deficiency
       ORPHAcode: '140905'
   DisorderType:
-    PURL: http://www.orpha.net/ORDO/Orphanet_377794
-    value: Clinical group
-  Label: Hyperalphalipoproteinemia
+    PURL: http://www.orpha.net/ORDO/Orphanet_377790
+    value: Biological anomaly
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '143470'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '610762'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '614028'
+      Source: OMIM
+  Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences: []
+      Name: cholesteryl ester transfer protein
+      Symbol: CETP
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences: []
+      Name: apolipoprotein C3
+      Symbol: APOC3
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences: []
+      Name: scavenger receptor class B member 1
+      Symbol: SCARB1
+  Label: Familial Hyperalphalipoproteinemia
   ORPHAcode: '181428'
   ORPHApacketId: '181428'
   PURL: http://www.orpha.net/ORDO/Orphanet_181428
@@ -37,6 +58,9 @@ Orphapacket:
   - Parent:
     - Label: Rare hyperlipidemia
       ORPHAcode: '181422'
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal dominant
   copyright: Orphanet (c) 2024
-  creationDate: '2024-07-01 09:48:26'
+  creationDate: '2024-12-03 10:13:55'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

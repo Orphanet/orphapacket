@@ -118,25 +118,6 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '986'
-            Source: HGNC
-          - Reference: '608348'
-            Source: OMIM
-          Label: branched chain keto acid dehydrogenase E1 subunit alpha
-          Symbol: BCKDHA
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
-            of function) in
-          ExternalReferences:
-          - Reference: '987'
-            Source: HGNC
-          - Reference: '248611'
-            Source: OMIM
-          Label: branched chain keto acid dehydrogenase E1 subunit beta
-          Symbol: BCKDHB
-      - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
             of function) in
           ExternalReferences:
@@ -158,7 +139,18 @@ Orphapacket:
       Reference: '615135'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620698'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620699'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '248600'
       Source: OMIM
   Label: Maple syrup urine disease
@@ -328,5 +320,5 @@ Orphapacket:
     TypeOfInheritance:
     - value: Autosomal recessive
   copyright: Orphanet (c) 2024
-  creationDate: '2024-07-01 09:48:26'
+  creationDate: '2024-12-03 10:13:55'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

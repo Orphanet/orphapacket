@@ -9,7 +9,18 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620726'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620725'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '158810'
       Source: OMIM
   - ExternalReference:
@@ -241,5 +252,5 @@ Orphapacket:
   - TypeOfInheritance:
       value: Autosomal recessive
   copyright: Orphanet (c) 2024
-  creationDate: '2024-07-01 09:48:26'
+  creationDate: '2024-12-03 10:13:55'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

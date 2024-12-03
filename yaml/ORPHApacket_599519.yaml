@@ -18,16 +18,40 @@ Orphapacket:
       Label: East Texas bleeding disorder
       ORPHAcode: '391320'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain
+            of function) in
+          ExternalReferences:
+          - Reference: '3542'
+            Source: HGNC
+          - Reference: '612309'
+            Source: OMIM
+          Label: coagulation factor V
+          Symbol: F5
       Label: Factor V Amsterdam bleeding disorder
       ORPHAcode: '599579'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '3542'
+            Source: HGNC
+          - Reference: '612309'
+            Source: OMIM
+          Label: coagulation factor V
+          Symbol: F5
       Label: Factor V Atlanta bleeding disorder
       ORPHAcode: '600194'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+      to represent it)
+    Reference: '605913'
+    Source: OMIM
   Label: Factor V short isoforms-related bleeding disorder
   ORPHAcode: '599519'
   ORPHApacketId: '599519'
@@ -41,7 +65,7 @@ Orphapacket:
   - Prevalence:
       PrevalenceClass: no data
       PrevalenceGeographic: Worldwide
-      PrevalenceQualification: Case
+      PrevalenceQualification: Case(s)
       PrevalenceType: Cases/families
       Source: 25634741[PMID]_33773040[PMID]
       ValMoy: no data
@@ -54,6 +78,9 @@ Orphapacket:
       ValMoy: no data
   Synonyms:
   - Synonym: FV short isoforms-related bleeding disorder
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal dominant
   copyright: Orphanet (c) 2024
-  creationDate: '2024-07-01 09:48:26'
+  creationDate: '2024-12-03 10:13:55'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

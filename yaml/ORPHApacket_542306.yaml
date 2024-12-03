@@ -8,9 +8,16 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-    Reference: '617173'
-    Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '617173'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '617182'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -129,7 +136,7 @@ Orphapacket:
   - Prevalence:
       PrevalenceClass: no data
       PrevalenceGeographic: Worldwide
-      PrevalenceQualification: Case
+      PrevalenceQualification: Case(s)
       PrevalenceType: Cases/families
       Source: 27523599[PMID]_27677260[PMID]_28697420[PMID]_29368331[PMID]_30631341[PMID]
       ValMoy: no data
@@ -144,5 +151,5 @@ Orphapacket:
     TypeOfInheritance:
     - value: Autosomal recessive
   copyright: Orphanet (c) 2024
-  creationDate: '2024-07-01 09:48:26'
+  creationDate: '2024-12-03 10:13:55'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

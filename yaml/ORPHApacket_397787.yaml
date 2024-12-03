@@ -6,15 +6,9 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-      Reference: '615592'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '618204'
-      Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '615592'
+    Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
@@ -22,19 +16,19 @@ Orphapacket:
       ExternalReferences: []
       Name: inhibitor of nuclear factor kappa B kinase subunit beta
       Symbol: IKBKB
-  Label: Severe combined immunodeficiency due to IKK2 deficiency
+  Label: Combined immunodeficiency due to IKK2 deficiency
   ORPHAcode: '397787'
   ORPHApacketId: '397787'
   PURL: http://www.orpha.net/ORDO/Orphanet_397787
   Parents:
   - Parent:
-    - Label: T+ B+ severe combined immunodeficiency
-      ORPHAcode: '397802'
+    - Label: Combined immunodeficiency with low immunoglobulins
+      ORPHAcode: '688571'
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
       PrevalenceGeographic: Worldwide
-      PrevalenceQualification: Case
+      PrevalenceQualification: Case(s)
       PrevalenceType: Cases/families
       Source: 25139357[PMID]
       ValMoy: no data
@@ -46,7 +40,8 @@ Orphapacket:
       Source: ORPHANET_25139357[PMID]
       ValMoy: no data
   Synonyms:
-  - Synonym: SCID due to IKK2 deficiency
+  - Synonym: CID due to IKK2 deficiency
+  - Synonym: Combined immunodeficiency due to I-kappa-B kinase 2 deficiency
   TextSection:
     Contents: A rare genetic form of primary immunodeficiency characterized by life-threatening
       bacterial fungal and viral infections with the onset in infancy and failure
@@ -57,5 +52,5 @@ Orphapacket:
     TypeOfInheritance:
     - value: Autosomal recessive
   copyright: Orphanet (c) 2024
-  creationDate: '2024-07-01 09:48:26'
+  creationDate: '2024-12-03 10:13:55'
   version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)

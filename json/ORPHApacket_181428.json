@@ -1,16 +1,65 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "181428",
-        "creationDate": "2024-07-01 09:48:26",
+        "creationDate": "2024-12-03 10:13:55",
         "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
         "copyright": "Orphanet (c) 2024",
         "ORPHAcode": "181428",
-        "Label": "Hyperalphalipoproteinemia",
+        "Label": "Familial Hyperalphalipoproteinemia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_181428",
         "DisorderType": {
-            "value": "Clinical group",
-            "PURL": "http://www.orpha.net/ORDO/Orphanet_377794"
+            "value": "Biological anomaly",
+            "PURL": "http://www.orpha.net/ORDO/Orphanet_377790"
         },
+        "ExternalReferences": [
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "143470",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "610762",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "614028",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            }
+        ],
+        "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "CETP",
+                    "Name": "cholesteryl ester transfer protein",
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "APOC3",
+                    "Name": "apolipoprotein C3",
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "SCARB1",
+                    "Name": "scavenger receptor class B member 1",
+                    "ExternalReferences": [],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            }
+        ],
         "Parents": [
             {
                 "Parent": [
@@ -22,31 +71,6 @@
             }
         ],
         "Childs": [
-            {
-                "Child": {
-                    "Label": "Cholesterol-ester transfer protein deficiency",
-                    "ORPHAcode": "79506",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "cholesteryl ester transfer protein",
-                                "Symbol": "CETP",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "1869"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "118470"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
             {
                 "Child": {
                     "Label": "Hyperlipidemia due to hepatic triacylglycerol lipase deficiency",
@@ -72,6 +96,13 @@
                     ]
                 }
             }
-        ]
+        ],
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Autosomal dominant"
+                }
+            ]
+        }
     }
 }
