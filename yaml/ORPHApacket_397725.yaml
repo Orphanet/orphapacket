@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: COASY
+        Source: ClinVar
+      - Reference: '29932'
+        Source: HGNC
+      - Reference: '609855'
+        Source: OMIM
       Name: Coenzyme A synthase
       Symbol: COASY
   Label: COASY protein-associated neurodegeneration

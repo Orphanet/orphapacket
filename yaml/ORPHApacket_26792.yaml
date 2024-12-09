@@ -16,7 +16,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: ACADS
+        Source: ClinVar
+      - Reference: '90'
+        Source: HGNC
+      - Reference: '606885'
+        Source: OMIM
       Name: acyl-CoA dehydrogenase short chain
       Symbol: ACADS
   Label: Short chain acyl-CoA dehydrogenase deficiency

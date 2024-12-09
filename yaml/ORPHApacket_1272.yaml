@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: MAF
+        Source: ClinVar
+      - Reference: '6776'
+        Source: HGNC
+      - Reference: '177075'
+        Source: OMIM
       Name: MAF bZIP transcription factor
       Symbol: MAF
   Label: "Aym\xE9-Gripp syndrome"

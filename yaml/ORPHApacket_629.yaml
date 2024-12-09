@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GH1
+        Source: ClinVar
+      - Reference: '4261'
+        Source: HGNC
+      - Reference: '139250'
+        Source: OMIM
       Name: growth hormone 1
       Symbol: GH1
   Label: Short stature due to growth hormone qualitative anomaly

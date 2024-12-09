@@ -20,13 +20,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: DNM2
+        Source: ClinVar
+      - Reference: '2974'
+        Source: HGNC
+      - Reference: '602378'
+        Source: OMIM
       Name: dynamin 2
       Symbol: DNM2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '1052'
+        Source: HGNC
+      - Reference: '601248'
+        Source: OMIM
+      - Reference: BIN1
+        Source: ClinVar
       Name: bridging integrator 1
       Symbol: BIN1
   Label: Autosomal dominant centronuclear myopathy

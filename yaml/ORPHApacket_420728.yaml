@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: VARS2
+        Source: ClinVar
+      - Reference: '12651'
+        Source: HGNC
+      - Reference: '192150'
+        Source: OMIM
       Name: valyl-tRNA synthetase 1
       Symbol: VARS1
   Label: Combined oxidative phosphorylation defect type 20

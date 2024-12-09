@@ -16,7 +16,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: TTN
+        Source: ClinVar
+      - Reference: '12403'
+        Source: HGNC
+      - Reference: '188840'
+        Source: OMIM
       Name: titin
       Symbol: TTN
   Label: Titin-related limb-girdle muscular dystrophy R10

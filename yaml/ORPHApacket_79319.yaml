@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: MPI
+        Source: ClinVar
+      - Reference: '7216'
+        Source: HGNC
+      - Reference: '154550'
+        Source: OMIM
       Name: mannose phosphate isomerase
       Symbol: MPI
   Label: MPI-CDG

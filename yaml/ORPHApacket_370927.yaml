@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: SSR4
+        Source: ClinVar
+      - Reference: '11326'
+        Source: HGNC
+      - Reference: '300090'
+        Source: OMIM
       Name: signal sequence receptor subunit 4
       Symbol: SSR4
   Label: SSR4-CDG

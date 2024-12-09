@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: LAMP2
+        Source: ClinVar
+      - Reference: '6501'
+        Source: HGNC
+      - Reference: '309060'
+        Source: OMIM
       Name: lysosomal associated membrane protein 2
       Symbol: LAMP2
   Label: Danon disease

@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: COMP
+        Source: ClinVar
+      - Reference: '2227'
+        Source: HGNC
+      - Reference: '600310'
+        Source: OMIM
       Name: cartilage oligomeric matrix protein
       Symbol: COMP
   Label: Pseudoachondroplasia

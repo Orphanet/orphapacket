@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GPI
+        Source: ClinVar
+      - Reference: '4458'
+        Source: HGNC
+      - Reference: '172400'
+        Source: OMIM
       Name: glucose-6-phosphate isomerase
       Symbol: GPI
   Label: Hemolytic anemia due to glucophosphate isomerase deficiency

@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '12029'
+        Source: HGNC
+      - Reference: '186880'
+        Source: OMIM
+      - Reference: TRAC
+        Source: ClinVar
       Name: T-cell receptor alpha constant
       Symbol: TRAC
   Label: TCR-alpha-beta-positive T-cell deficiency

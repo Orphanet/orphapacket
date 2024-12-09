@@ -14,13 +14,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '3527'
+        Source: HGNC
+      - Reference: '601573'
+        Source: OMIM
+      - Reference: EZH2
+        Source: ClinVar
       Name: enhancer of zeste 2 polycomb repressive complex 2 subunit
       Symbol: EZH2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: SUZ12
+        Source: ClinVar
+      - Reference: '17101'
+        Source: HGNC
+      - Reference: '606245'
+        Source: OMIM
       Name: SUZ12 polycomb repressive complex 2 subunit
       Symbol: SUZ12
   Label: Weaver syndrome

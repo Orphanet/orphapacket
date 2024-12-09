@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: HAL
+        Source: ClinVar
+      - Reference: '4806'
+        Source: HGNC
+      - Reference: '609457'
+        Source: OMIM
       Name: histidine ammonia-lyase
       Symbol: HAL
   Label: Histidinemia

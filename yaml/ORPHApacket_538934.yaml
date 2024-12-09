@@ -18,7 +18,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: XIAP
+        Source: ClinVar
+      - Reference: '592'
+        Source: HGNC
+      - Reference: '300079'
+        Source: OMIM
       Name: X-linked inhibitor of apoptosis
       Symbol: XIAP
   Label: X-linked lymphoproliferative disease due to XIAP deficiency

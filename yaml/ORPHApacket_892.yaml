@@ -16,12 +16,24 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Modifying germline mutation in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '1582'
+        Source: HGNC
+      - Reference: '168461'
+        Source: OMIM
+      - Reference: CCND1
+        Source: ClinVar
       Name: cyclin D1
       Symbol: CCND1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: VHL
+        Source: ClinVar
+      - Reference: '12687'
+        Source: HGNC
+      - Reference: '608537'
+        Source: OMIM
       Name: von Hippel-Lindau tumor suppressor
       Symbol: VHL
   Label: Von Hippel-Lindau disease

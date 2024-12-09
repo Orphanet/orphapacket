@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: SC5DL
+        Source: ClinVar
+      - Reference: '10547'
+        Source: HGNC
+      - Reference: '602286'
+        Source: OMIM
       Name: sterol-C5-desaturase
       Symbol: SC5D
   Label: Lathosterolosis

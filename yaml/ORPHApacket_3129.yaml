@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: SARDH
+        Source: ClinVar
+      - Reference: '10536'
+        Source: HGNC
+      - Reference: '604455'
+        Source: OMIM
       Name: sarcosine dehydrogenase
       Symbol: SARDH
   Label: Sarcosinemia

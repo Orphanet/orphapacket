@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: POLE
+        Source: ClinVar
+      - Reference: '174762'
+        Source: OMIM
+      - Reference: '9177'
+        Source: HGNC
       Name: DNA polymerase epsilon, catalytic subunit
       Symbol: POLE
   Label: Facial dysmorphism-immunodeficiency-livedo-short stature syndrome

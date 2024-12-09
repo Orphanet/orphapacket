@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: COG5
+        Source: ClinVar
+      - Reference: '14857'
+        Source: HGNC
+      - Reference: '606821'
+        Source: OMIM
       Name: component of oligomeric golgi complex 5
       Symbol: COG5
   Label: COG5-CDG

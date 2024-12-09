@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: LBR
+        Source: ClinVar
+      - Reference: '600024'
+        Source: OMIM
+      - Reference: '6518'
+        Source: HGNC
       Name: lamin B receptor
       Symbol: LBR
   Label: Regressive spondylometaphyseal dysplasia

@@ -15,7 +15,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '5173'
+        Source: HGNC
+      - Reference: '190020'
+        Source: OMIM
+      - Reference: HRAS
+        Source: ClinVar
       Name: HRas proto-oncogene, GTPase
       Symbol: HRAS
   Label: Woolly hair nevus

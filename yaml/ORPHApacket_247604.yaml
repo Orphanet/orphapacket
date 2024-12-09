@@ -12,13 +12,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '443'
+        Source: HGNC
+      - Reference: '606352'
+        Source: OMIM
+      - Reference: ALS2
+        Source: ClinVar
       Name: alsin Rho guanine nucleotide exchange factor ALS2
       Symbol: ALS2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: ERLIN2
+        Source: ClinVar
+      - Reference: '1356'
+        Source: HGNC
+      - Reference: '611605'
+        Source: OMIM
       Name: ER lipid raft associated 2
       Symbol: ERLIN2
   Label: Juvenile primary lateral sclerosis

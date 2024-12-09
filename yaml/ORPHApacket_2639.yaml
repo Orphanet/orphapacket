@@ -14,13 +14,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '1077'
+        Source: HGNC
+      - Reference: '603248'
+        Source: OMIM
+      - Reference: BMPR1B
+        Source: ClinVar
       Name: bone morphogenetic protein receptor type 1B
       Symbol: BMPR1B
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GDF5
+        Source: ClinVar
+      - Reference: '601146'
+        Source: OMIM
+      - Reference: '4220'
+        Source: HGNC
       Name: growth differentiation factor 5
       Symbol: GDF5
   Label: Fibular aplasia-complex brachydactyly syndrome

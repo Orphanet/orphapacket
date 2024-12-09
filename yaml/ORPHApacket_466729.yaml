@@ -21,13 +21,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '11743'
+        Source: HGNC
+      - Reference: TFAP2B
+        Source: ClinVar
+      - Reference: '601601'
+        Source: OMIM
       Name: transcription factor AP-2 beta
       Symbol: TFAP2B
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '9350'
+        Source: HGNC
+      - Reference: '616982'
+        Source: OMIM
+      - Reference: PRDM6
+        Source: ClinVar
       Name: PR/SET domain 6
       Symbol: PRDM6
   Label: Familial patent arterial duct

@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: TRMU
+        Source: ClinVar
+      - Reference: '25481'
+        Source: HGNC
+      - Reference: '610230'
+        Source: OMIM
       Name: tRNA mitochondrial 2-thiouridylase
       Symbol: TRMU
   Label: Acute infantile liver failure due to synthesis defect of mtDNA-encoded proteins

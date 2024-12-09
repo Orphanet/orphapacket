@@ -9,7 +9,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: UNG
+        Source: ClinVar
+      - Reference: '12572'
+        Source: HGNC
+      - Reference: '191525'
+        Source: OMIM
       Name: uracil DNA glycosylase
       Symbol: UNG
   Label: Hyper-IgM syndrome type 5

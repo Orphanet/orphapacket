@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: IL2RG
+        Source: ClinVar
+      - Reference: '6010'
+        Source: HGNC
+      - Reference: '308380'
+        Source: OMIM
       Name: interleukin 2 receptor subunit gamma
       Symbol: IL2RG
   Label: T-B+ severe combined immunodeficiency due to gamma chain deficiency

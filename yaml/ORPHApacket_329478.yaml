@@ -8,7 +8,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: VCP
+        Source: ClinVar
+      - Reference: '12666'
+        Source: HGNC
+      - Reference: '601023'
+        Source: OMIM
       Name: valosin containing protein
       Symbol: VCP
   Label: Adult-onset distal myopathy due to VCP mutation

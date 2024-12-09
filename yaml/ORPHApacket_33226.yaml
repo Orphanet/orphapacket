@@ -18,7 +18,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: MYD88
+        Source: ClinVar
+      - Reference: '7562'
+        Source: HGNC
+      - Reference: '602170'
+        Source: OMIM
       Name: MYD88 innate immune signal transduction adaptor
       Symbol: MYD88
   Label: "Waldenstr\xF6m macroglobulinemia"

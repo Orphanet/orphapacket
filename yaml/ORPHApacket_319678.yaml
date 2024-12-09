@@ -19,13 +19,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: COQ9
+        Source: ClinVar
+      - Reference: '25302'
+        Source: HGNC
+      - Reference: '612837'
+        Source: OMIM
       Name: coenzyme Q9
       Symbol: COQ9
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '601683'
+        Source: OMIM
+      - Reference: '2244'
+        Source: HGNC
+      - Reference: COQ7
+        Source: ClinVar
       Name: coenzyme Q7, hydroxylase
       Symbol: COQ7
   Label: Encephalopathy-hypertrophic cardiomyopathy-renal tubular disease syndrome

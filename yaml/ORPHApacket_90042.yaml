@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '3416'
+        Source: HGNC
+      - Reference: '133171'
+        Source: OMIM
+      - Reference: EPOR
+        Source: ClinVar
       Name: erythropoietin receptor
       Symbol: EPOR
   Label: Primary familial polycythemia

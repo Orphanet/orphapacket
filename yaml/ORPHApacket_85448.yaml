@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GSN
+        Source: ClinVar
+      - Reference: '4620'
+        Source: HGNC
+      - Reference: '137350'
+        Source: OMIM
       Name: gelsolin
       Symbol: GSN
   Label: AGel amyloidosis

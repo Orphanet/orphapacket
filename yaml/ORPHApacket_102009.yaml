@@ -84,7 +84,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: APC2
+        Source: ClinVar
+      - Reference: '24036'
+        Source: HGNC
+      - Reference: '612034'
+        Source: OMIM
       Name: APC regulator of WNT signaling pathway 2
       Symbol: APC2
   Label: Classic lissencephaly

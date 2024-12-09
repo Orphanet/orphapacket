@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GALT
+        Source: ClinVar
+      - Reference: '4135'
+        Source: HGNC
+      - Reference: '606999'
+        Source: OMIM
       Name: galactose-1-phosphate uridylyltransferase
       Symbol: GALT
   Label: Classic galactosemia

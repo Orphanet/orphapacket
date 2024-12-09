@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '11740'
+        Source: HGNC
+      - Reference: '190000'
+        Source: OMIM
+      - Reference: TF
+        Source: ClinVar
       Name: transferrin
       Symbol: TF
   Label: Congenital atransferrinemia

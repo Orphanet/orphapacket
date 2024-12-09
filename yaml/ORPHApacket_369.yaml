@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: PYGL
+        Source: ClinVar
+      - Reference: '9725'
+        Source: HGNC
+      - Reference: '613741'
+        Source: OMIM
       Name: glycogen phosphorylase L
       Symbol: PYGL
   Label: Glycogen storage disease due to liver glycogen phosphorylase deficiency

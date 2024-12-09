@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: F5
+        Source: ClinVar
+      - Reference: '3542'
+        Source: HGNC
+      - Reference: '612309'
+        Source: OMIM
       Name: coagulation factor V
       Symbol: F5
   Label: Congenital factor V deficiency

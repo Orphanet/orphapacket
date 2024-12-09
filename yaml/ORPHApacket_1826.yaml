@@ -19,13 +19,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: MAP3K7
+        Source: ClinVar
+      - Reference: '6859'
+        Source: HGNC
+      - Reference: '602614'
+        Source: OMIM
       Name: mitogen-activated protein kinase kinase kinase 7
       Symbol: MAP3K7
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '3754'
+        Source: HGNC
+      - Reference: '300017'
+        Source: OMIM
+      - Reference: FLNA
+        Source: ClinVar
       Name: filamin A
       Symbol: FLNA
   Label: Frontometaphyseal dysplasia

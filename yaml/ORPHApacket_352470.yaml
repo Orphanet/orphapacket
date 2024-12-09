@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: DNA2
+        Source: ClinVar
+      - Reference: '2939'
+        Source: HGNC
+      - Reference: '601810'
+        Source: OMIM
       Name: DNA replication helicase/nuclease 2
       Symbol: DNA2
   Label: DNA2-related mitochondrial DNA deletion syndrome

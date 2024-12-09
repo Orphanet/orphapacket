@@ -22,7 +22,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: DSP
+        Source: ClinVar
+      - Reference: '3052'
+        Source: HGNC
+      - Reference: '125647'
+        Source: OMIM
       Name: desmoplakin
       Symbol: DSP
   Label: Carvajal syndrome

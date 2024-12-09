@@ -20,7 +20,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GNE
+        Source: ClinVar
+      - Reference: '23657'
+        Source: HGNC
+      - Reference: '603824'
+        Source: OMIM
       Name: glucosamine (UDP-N-acetyl)-2-epimerase/N-acetylmannosamine kinase
       Symbol: GNE
   Label: GNE myopathy

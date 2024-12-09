@@ -9,7 +9,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: EED
+        Source: ClinVar
+      - Reference: '3188'
+        Source: HGNC
+      - Reference: '605984'
+        Source: OMIM
       Name: embryonic ectoderm development
       Symbol: EED
   Label: Cohen-Gibson syndrome

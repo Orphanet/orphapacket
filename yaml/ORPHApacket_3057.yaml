@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '6833'
+        Source: HGNC
+      - Reference: '309850'
+        Source: OMIM
+      - Reference: MAOA
+        Source: ClinVar
       Name: monoamine oxidase A
       Symbol: MAOA
   Label: Monoamine oxidase A deficiency

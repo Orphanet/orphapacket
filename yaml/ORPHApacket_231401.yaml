@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '886'
+        Source: HGNC
+      - Reference: '300032'
+        Source: OMIM
+      - Reference: ATRX
+        Source: ClinVar
       Name: ATRX chromatin remodeler
       Symbol: ATRX
   Label: Alpha-thalassemia-myelodysplastic syndrome

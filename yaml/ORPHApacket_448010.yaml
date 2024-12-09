@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: CAD
+        Source: ClinVar
+      - Reference: '1424'
+        Source: HGNC
+      - Reference: '114010'
+        Source: OMIM
       Name: carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase
       Symbol: CAD
   Label: CAD-CDG

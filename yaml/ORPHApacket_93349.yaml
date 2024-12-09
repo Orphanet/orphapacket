@@ -9,7 +9,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: BGN
+        Source: ClinVar
+      - Reference: '1044'
+        Source: HGNC
+      - Reference: '301870'
+        Source: OMIM
       Name: biglycan
       Symbol: BGN
   Label: X-linked spondyloepimetaphyseal dysplasia

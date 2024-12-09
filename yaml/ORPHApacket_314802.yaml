@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GHR
+        Source: ClinVar
+      - Reference: '4263'
+        Source: HGNC
+      - Reference: '600946'
+        Source: OMIM
       Name: growth hormone receptor
       Symbol: GHR
   Label: Short stature due to partial GHR deficiency

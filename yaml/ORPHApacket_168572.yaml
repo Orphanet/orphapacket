@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: STAC3
+        Source: ClinVar
+      - Reference: '615521'
+        Source: OMIM
+      - Reference: '28423'
+        Source: HGNC
       Name: SH3 and cysteine rich domain 3
       Symbol: STAC3
   Label: Native American myopathy

@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: SGCD
+        Source: ClinVar
+      - Reference: '10807'
+        Source: HGNC
+      - Reference: '601411'
+        Source: OMIM
       Name: sarcoglycan delta
       Symbol: SGCD
   Label: Delta-sarcoglycan-related limb-girdle muscular dystrophy R6

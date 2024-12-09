@@ -19,7 +19,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GJB1
+        Source: ClinVar
+      - Reference: '4283'
+        Source: HGNC
+      - Reference: '304040'
+        Source: OMIM
       Name: gap junction protein beta 1
       Symbol: GJB1
   Label: X-linked progressive cerebellar ataxia

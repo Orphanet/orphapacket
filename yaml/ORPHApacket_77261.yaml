@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GBA
+        Source: ClinVar
+      - Reference: '4177'
+        Source: HGNC
+      - Reference: '606463'
+        Source: OMIM
       Name: glucosylceramidase beta 1
       Symbol: GBA1
   Label: Gaucher disease type 3

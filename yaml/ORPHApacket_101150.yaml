@@ -14,13 +14,23 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: TH
+        Source: ClinVar
+      - Reference: '191290'
+        Source: OMIM
+      - Reference: '11782'
+        Source: HGNC
       Name: tyrosine hydroxylase
       Symbol: TH
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '16831'
+        Source: HGNC
+      - Reference: '610764'
+        Source: OMIM
       Name: TSPO associated protein 1
       Symbol: TSPOAP1
   Label: Autosomal recessive dopa-responsive dystonia

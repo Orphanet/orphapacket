@@ -15,7 +15,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: HTT
+        Source: ClinVar
+      - Reference: '4851'
+        Source: HGNC
+      - Reference: '613004'
+        Source: OMIM
       Name: huntingtin
       Symbol: HTT
   Label: Juvenile Huntington disease

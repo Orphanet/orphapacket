@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: MTR
+        Source: ClinVar
+      - Reference: '7468'
+        Source: HGNC
+      - Reference: '156570'
+        Source: OMIM
       Name: 5-methyltetrahydrofolate-homocysteine methyltransferase
       Symbol: MTR
   Label: Methylcobalamin deficiency type cblG

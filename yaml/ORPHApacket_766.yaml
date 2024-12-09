@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: PKLR
+        Source: ClinVar
+      - Reference: '9020'
+        Source: HGNC
+      - Reference: '609712'
+        Source: OMIM
       Name: pyruvate kinase L/R
       Symbol: PKLR
   Label: Hemolytic anemia due to red cell pyruvate kinase deficiency

@@ -16,7 +16,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GNAS
+        Source: ClinVar
+      - Reference: '4392'
+        Source: HGNC
+      - Reference: '139320'
+        Source: OMIM
       Name: GNAS complex locus
       Symbol: GNAS
   Label: Pseudohypoparathyroidism type 1C

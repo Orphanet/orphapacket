@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: ARG1
+        Source: ClinVar
+      - Reference: '608313'
+        Source: OMIM
+      - Reference: '663'
+        Source: HGNC
       Name: arginase 1
       Symbol: ARG1
   Label: Argininemia

@@ -18,13 +18,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '26169'
+        Source: HGNC
+      - Reference: '613129'
+        Source: OMIM
+      - Reference: CTC1
+        Source: ClinVar
       Name: CST telomere replication complex component 1
       Symbol: CTC1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: OBFC1
+        Source: ClinVar
+      - Reference: '26200'
+        Source: HGNC
+      - Reference: '613128'
+        Source: OMIM
       Name: STN1 subunit of CST complex
       Symbol: STN1
   Label: Coats plus syndrome

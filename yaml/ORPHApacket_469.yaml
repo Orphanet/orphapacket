@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '417'
+        Source: HGNC
+      - Reference: '612724'
+        Source: OMIM
+      - Reference: ALDOB
+        Source: ClinVar
       Name: aldolase, fructose-bisphosphate B
       Symbol: ALDOB
   Label: Hereditary fructose intolerance

@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: RET
+        Source: ClinVar
+      - Reference: '9967'
+        Source: HGNC
+      - Reference: '164761'
+        Source: OMIM
       Name: ret proto-oncogene
       Symbol: RET
   Label: Multiple endocrine neoplasia type 2B

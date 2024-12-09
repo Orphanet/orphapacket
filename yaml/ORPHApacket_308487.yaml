@@ -10,7 +10,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GALE
+        Source: ClinVar
+      - Reference: '4116'
+        Source: HGNC
+      - Reference: '606953'
+        Source: OMIM
       Name: UDP-galactose-4-epimerase
       Symbol: GALE
   Label: Generalized galactose epimerase deficiency

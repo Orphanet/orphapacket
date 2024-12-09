@@ -14,12 +14,24 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '3765'
+        Source: HGNC
+      - Reference: '136351'
+        Source: OMIM
+      - Reference: FLT3
+        Source: ClinVar
       Name: fms related receptor tyrosine kinase 3
       Symbol: FLT3
   - Gene:
       DisorderGeneAssociationType: Part of a fusion gene in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: KMT2A
+        Source: ClinVar
+      - Reference: '7132'
+        Source: HGNC
+      - Reference: '159555'
+        Source: OMIM
       Name: lysine methyltransferase 2A
       Symbol: KMT2A
   Label: Mixed phenotype acute leukemia with t(9;22)(q34.1;q11.2)

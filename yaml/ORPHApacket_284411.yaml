@@ -15,7 +15,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GK
+        Source: ClinVar
+      - Reference: '4289'
+        Source: HGNC
+      - Reference: '300474'
+        Source: OMIM
       Name: glycerol kinase
       Symbol: GK
   Label: Glycerol kinase deficiency, juvenile form

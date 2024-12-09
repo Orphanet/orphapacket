@@ -12,12 +12,24 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: TSC1
+        Source: ClinVar
+      - Reference: '12362'
+        Source: HGNC
+      - Reference: '605284'
+        Source: OMIM
       Name: TSC complex subunit 1
       Symbol: TSC1
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '191092'
+        Source: OMIM
+      - Reference: TSC2
+        Source: ClinVar
+      - Reference: '12363'
+        Source: HGNC
       Name: TSC complex subunit 2
       Symbol: TSC2
   Label: Lymphangioleiomyomatosis

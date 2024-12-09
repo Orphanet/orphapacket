@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GAN
+        Source: ClinVar
+      - Reference: '4137'
+        Source: HGNC
+      - Reference: '605379'
+        Source: OMIM
       Name: gigaxonin
       Symbol: GAN
   Label: Giant axonal neuropathy

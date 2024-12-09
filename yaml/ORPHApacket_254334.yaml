@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: KARS
+        Source: ClinVar
+      - Reference: '6215'
+        Source: HGNC
+      - Reference: '601421'
+        Source: OMIM
       Name: lysyl-tRNA synthetase 1
       Symbol: KARS1
   Label: Autosomal recessive intermediate Charcot-Marie-Tooth disease type B

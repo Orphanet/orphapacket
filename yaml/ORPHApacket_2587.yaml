@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: MPO
+        Source: ClinVar
+      - Reference: '7218'
+        Source: HGNC
+      - Reference: '606989'
+        Source: OMIM
       Name: myeloperoxidase
       Symbol: MPO
   Label: Myeloperoxidase deficiency

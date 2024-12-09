@@ -20,7 +20,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: HADH
+        Source: ClinVar
+      - Reference: '4799'
+        Source: HGNC
+      - Reference: '601609'
+        Source: OMIM
       Name: hydroxyacyl-CoA dehydrogenase
       Symbol: HADH
   Label: Hyperinsulinism due to short chain 3-hydroxylacyl-CoA dehydrogenase deficiency

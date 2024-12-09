@@ -15,13 +15,25 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '3689'
+        Source: HGNC
+      - Reference: '176943'
+        Source: OMIM
+      - Reference: FGFR2
+        Source: ClinVar
       Name: fibroblast growth factor receptor 2
       Symbol: FGFR2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: ERF
+        Source: ClinVar
+      - Reference: '3444'
+        Source: HGNC
+      - Reference: '611888'
+        Source: OMIM
       Name: ETS2 repressor factor
       Symbol: ERF
   Label: Crouzon syndrome

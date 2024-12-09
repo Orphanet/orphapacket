@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: INSR
+        Source: ClinVar
+      - Reference: '147670'
+        Source: OMIM
+      - Reference: '6091'
+        Source: HGNC
       Name: insulin receptor
       Symbol: INSR
   Label: Hyperinsulinism due to INSR deficiency

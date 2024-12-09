@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: DPYD
+        Source: ClinVar
+      - Reference: '3012'
+        Source: HGNC
+      - Reference: '612779'
+        Source: OMIM
       Name: dihydropyrimidine dehydrogenase
       Symbol: DPYD
   Label: Dihydropyrimidine dehydrogenase deficiency

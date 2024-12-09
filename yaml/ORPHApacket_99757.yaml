@@ -9,17 +9,35 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '11998'
+        Source: HGNC
+      - Reference: '191170'
+        Source: OMIM
+      - Reference: TP53
+        Source: ClinVar
       Name: tumor protein p53
       Symbol: TP53
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '7765'
+        Source: HGNC
+      - Reference: '613113'
+        Source: OMIM
+      - Reference: NF1
+        Source: ClinVar
       Name: neurofibromin 1
       Symbol: NF1
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: DICER1
+        Source: ClinVar
+      - Reference: '17098'
+        Source: HGNC
+      - Reference: '606241'
+        Source: OMIM
       Name: dicer 1, ribonuclease III
       Symbol: DICER1
   Label: Embryonal rhabdomyosarcoma

@@ -16,12 +16,24 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '11998'
+        Source: HGNC
+      - Reference: '191170'
+        Source: OMIM
+      - Reference: TP53
+        Source: ClinVar
       Name: tumor protein p53
       Symbol: TP53
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '7765'
+        Source: HGNC
+      - Reference: '613113'
+        Source: OMIM
+      - Reference: NF1
+        Source: ClinVar
       Name: neurofibromin 1
       Symbol: NF1
   Label: Pleomorphic rhabdomyosarcoma

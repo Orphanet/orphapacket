@@ -16,7 +16,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: LITAF
+        Source: ClinVar
+      - Reference: '16841'
+        Source: HGNC
+      - Reference: '603795'
+        Source: OMIM
       Name: lipopolysaccharide induced TNF factor
       Symbol: LITAF
   Label: Charcot-Marie-Tooth disease type 1C

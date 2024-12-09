@@ -12,12 +12,24 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '23177'
+        Source: HGNC
+      - Reference: '606016'
+        Source: OMIM
+      - Reference: KEAP1
+        Source: ClinVar
       Name: kelch like ECH associated protein 1
       Symbol: KEAP1
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: DICER1
+        Source: ClinVar
+      - Reference: '17098'
+        Source: HGNC
+      - Reference: '606241'
+        Source: OMIM
       Name: dicer 1, ribonuclease III
       Symbol: DICER1
   Label: Familial multinodular goiter

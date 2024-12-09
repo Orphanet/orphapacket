@@ -13,7 +13,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: ABCD1
+        Source: ClinVar
+      - Reference: '61'
+        Source: HGNC
+      - Reference: '300371'
+        Source: OMIM
       Name: ATP binding cassette subfamily D member 1
       Symbol: ABCD1
   Label: Adrenomyeloneuropathy

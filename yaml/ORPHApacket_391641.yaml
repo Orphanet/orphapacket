@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: MYCN
+        Source: ClinVar
+      - Reference: '164840'
+        Source: OMIM
+      - Reference: '7559'
+        Source: HGNC
       Name: MYCN proto-oncogene, bHLH transcription factor
       Symbol: MYCN
   Label: Feingold syndrome type 1

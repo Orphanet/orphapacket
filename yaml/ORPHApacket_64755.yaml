@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: ACTB
+        Source: ClinVar
+      - Reference: '132'
+        Source: HGNC
+      - Reference: '102630'
+        Source: OMIM
       Name: actin beta
       Symbol: ACTB
   Label: Becker nevus syndrome

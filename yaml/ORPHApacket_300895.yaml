@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: ALK
+        Source: ClinVar
+      - Reference: '427'
+        Source: HGNC
+      - Reference: '105590'
+        Source: OMIM
       Name: ALK receptor tyrosine kinase
       Symbol: ALK
   Label: ALK-positive anaplastic large cell lymphoma

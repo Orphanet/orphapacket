@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: WT1
+        Source: ClinVar
+      - Reference: '12796'
+        Source: HGNC
+      - Reference: '607102'
+        Source: OMIM
       Name: WT1 transcription factor
       Symbol: WT1
   Label: Meacham syndrome

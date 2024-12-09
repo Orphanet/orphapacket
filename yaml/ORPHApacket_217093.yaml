@@ -13,7 +13,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: IDS
+        Source: ClinVar
+      - Reference: '5389'
+        Source: HGNC
+      - Reference: '300823'
+        Source: OMIM
       Name: iduronate 2-sulfatase
       Symbol: IDS
   Label: Mucopolysaccharidosis type 2, attenuated form

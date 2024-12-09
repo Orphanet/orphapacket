@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '12399'
+        Source: HGNC
+      - Reference: '604103'
+        Source: OMIM
+      - Reference: MYOT
+        Source: ClinVar
       Name: myotilin
       Symbol: MYOT
   Label: Spheroid body myopathy

@@ -10,7 +10,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: FGA
+        Source: ClinVar
+      - Reference: '3661'
+        Source: HGNC
+      - Reference: '134820'
+        Source: OMIM
       Name: fibrinogen alpha chain
       Symbol: FGA
   Label: AFib amyloidosis

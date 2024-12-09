@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: F2
+        Source: ClinVar
+      - Reference: '3535'
+        Source: HGNC
+      - Reference: '176930'
+        Source: OMIM
       Name: coagulation factor II, thrombin
       Symbol: F2
   Label: Congenital factor II deficiency

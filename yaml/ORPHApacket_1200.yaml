@@ -18,13 +18,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '17264'
+        Source: HGNC
+      - Reference: POLR1A
+        Source: ClinVar
+      - Reference: '616404'
+        Source: OMIM
       Name: RNA polymerase I subunit A
       Symbol: POLR1A
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '30551'
+        Source: HGNC
+      - Reference: '611595'
+        Source: OMIM
+      - Reference: TXNL4A
+        Source: ClinVar
       Name: thioredoxin like 4A
       Symbol: TXNL4A
   Label: Burn-McKeown syndrome

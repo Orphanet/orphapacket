@@ -18,7 +18,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GIF
+        Source: ClinVar
+      - Reference: '609342'
+        Source: OMIM
+      - Reference: '4268'
+        Source: HGNC
       Name: cobalamin binding intrinsic factor
       Symbol: CBLIF
   Label: Congenital intrinsic factor deficiency

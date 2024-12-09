@@ -9,7 +9,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: CFP
+        Source: ClinVar
+      - Reference: '8864'
+        Source: HGNC
+      - Reference: '300383'
+        Source: OMIM
       Name: complement factor properdin
       Symbol: CFP
   Label: Properdin deficiency

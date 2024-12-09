@@ -13,7 +13,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: G6PD
+        Source: ClinVar
+      - Reference: '4057'
+        Source: HGNC
+      - Reference: '305900'
+        Source: OMIM
       Name: glucose-6-phosphate dehydrogenase
       Symbol: G6PD
   Label: Class I glucose-6-phosphate dehydrogenase deficiency

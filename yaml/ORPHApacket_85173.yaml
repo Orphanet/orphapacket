@@ -14,13 +14,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '1786'
+        Source: HGNC
+      - Reference: '600856'
+        Source: OMIM
+      - Reference: CDKN1C
+        Source: ClinVar
       Name: cyclin dependent kinase inhibitor 1C
       Symbol: CDKN1C
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: POLE
+        Source: ClinVar
+      - Reference: '174762'
+        Source: OMIM
+      - Reference: '9177'
+        Source: HGNC
       Name: DNA polymerase epsilon, catalytic subunit
       Symbol: POLE
   Label: IMAGe syndrome

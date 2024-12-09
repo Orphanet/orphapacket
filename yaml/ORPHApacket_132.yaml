@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: BCHE
+        Source: ClinVar
+      - Reference: '983'
+        Source: HGNC
+      - Reference: '177400'
+        Source: OMIM
       Name: butyrylcholinesterase
       Symbol: BCHE
   Label: Hereditary butyrylcholinesterase deficiency

@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: SLC11A2
+        Source: ClinVar
+      - Reference: '10908'
+        Source: HGNC
+      - Reference: '600523'
+        Source: OMIM
       Name: solute carrier family 11 member 2
       Symbol: SLC11A2
   Label: Microcytic anemia with liver iron overload

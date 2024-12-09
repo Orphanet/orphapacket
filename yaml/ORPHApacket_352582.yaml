@@ -15,13 +15,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '2309'
+        Source: HGNC
+      - Reference: '605032'
+        Source: OMIM
+      - Reference: CPLX1
+        Source: ClinVar
       Name: complexin 1
       Symbol: CPLX1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: TBC1D24
+        Source: ClinVar
+      - Reference: '29203'
+        Source: HGNC
+      - Reference: '613577'
+        Source: OMIM
       Name: TBC1 domain family member 24
       Symbol: TBC1D24
   Label: Familial infantile myoclonic epilepsy

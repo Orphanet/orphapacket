@@ -19,7 +19,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: PROC
+        Source: ClinVar
+      - Reference: '9451'
+        Source: HGNC
+      - Reference: '612283'
+        Source: OMIM
       Name: protein C, inactivator of coagulation factors Va and VIIIa
       Symbol: PROC
   Label: Severe hereditary thrombophilia due to congenital protein C deficiency

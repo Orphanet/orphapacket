@@ -15,18 +15,36 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: SEPN1
+        Source: ClinVar
+      - Reference: '15999'
+        Source: HGNC
+      - Reference: '606210'
+        Source: OMIM
       Name: selenoprotein N
       Symbol: SELENON
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: TTN
+        Source: ClinVar
+      - Reference: '12403'
+        Source: HGNC
+      - Reference: '188840'
+        Source: OMIM
       Name: titin
       Symbol: TTN
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: MYH7
+        Source: ClinVar
+      - Reference: '160760'
+        Source: OMIM
+      - Reference: '7577'
+        Source: HGNC
       Name: myosin heavy chain 7
       Symbol: MYH7
   Label: Classic multiminicore myopathy

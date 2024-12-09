@@ -18,7 +18,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '613'
+        Source: HGNC
+      - Reference: '107741'
+        Source: OMIM
+      - Reference: APOE
+        Source: ClinVar
       Name: apolipoprotein E
       Symbol: APOE
   Label: Lipoprotein glomerulopathy

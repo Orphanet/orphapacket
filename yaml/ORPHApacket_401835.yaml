@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: MARS
+        Source: ClinVar
+      - Reference: '6898'
+        Source: HGNC
+      - Reference: '156560'
+        Source: OMIM
       Name: methionyl-tRNA synthetase 1
       Symbol: MARS1
   Label: Autosomal recessive spastic paraplegia type 70

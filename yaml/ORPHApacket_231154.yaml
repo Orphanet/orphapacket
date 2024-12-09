@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: RAG1
+        Source: ClinVar
+      - Reference: '9831'
+        Source: HGNC
+      - Reference: '179615'
+        Source: OMIM
       Name: recombination activating 1
       Symbol: RAG1
   Label: Combined immunodeficiency due to partial RAG1 deficiency

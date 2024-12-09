@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: TFRC
+        Source: ClinVar
+      - Reference: '190010'
+        Source: OMIM
+      - Reference: '11763'
+        Source: HGNC
       Name: transferrin receptor
       Symbol: TFRC
   Label: Combined immunodeficiency due to TFRC deficiency

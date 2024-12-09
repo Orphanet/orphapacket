@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: AFP
+        Source: ClinVar
+      - Reference: '317'
+        Source: HGNC
+      - Reference: '104150'
+        Source: OMIM
       Name: alpha fetoprotein
       Symbol: AFP
   Label: Hereditary persistence of alpha-fetoprotein

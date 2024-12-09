@@ -10,7 +10,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: RYR1
+        Source: ClinVar
+      - Reference: '10483'
+        Source: HGNC
+      - Reference: '180901'
+        Source: OMIM
       Name: ryanodine receptor 1
       Symbol: RYR1
   Label: Benign Samaritan congenital myopathy

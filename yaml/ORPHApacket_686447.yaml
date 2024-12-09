@@ -16,13 +16,21 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '6116'
+        Source: HGNC
       Name: interferon regulatory factor 1
       Symbol: IRF1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: IFNG
+        Source: ClinVar
+      - Reference: '5438'
+        Source: HGNC
+      - Reference: '147570'
+        Source: OMIM
       Name: interferon gamma
       Symbol: IFNG
   Label: IFNG-responsive severe mendelian susceptibility to mycobacterial diseases

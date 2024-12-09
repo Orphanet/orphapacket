@@ -9,7 +9,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GSS
+        Source: ClinVar
+      - Reference: '4624'
+        Source: HGNC
+      - Reference: '601002'
+        Source: OMIM
       Name: glutathione synthetase
       Symbol: GSS
   Label: Glutathione synthetase deficiency without 5-oxoprolinuria

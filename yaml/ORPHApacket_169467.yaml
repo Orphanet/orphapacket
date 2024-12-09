@@ -9,7 +9,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: CFD
+        Source: ClinVar
+      - Reference: '2771'
+        Source: HGNC
+      - Reference: '134350'
+        Source: OMIM
       Name: complement factor D
       Symbol: CFD
   Label: Recurrent Neisseria infections due to factor D deficiency

@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: WFS1
+        Source: ClinVar
+      - Reference: '12762'
+        Source: HGNC
+      - Reference: '606201'
+        Source: OMIM
       Name: wolframin ER transmembrane glycoprotein
       Symbol: WFS1
   Label: Wolfram-like syndrome

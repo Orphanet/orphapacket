@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: PTS
+        Source: ClinVar
+      - Reference: '9689'
+        Source: HGNC
+      - Reference: '612719'
+        Source: OMIM
       Name: 6-pyruvoyltetrahydropterin synthase
       Symbol: PTS
   Label: 6-pyruvoyl-tetrahydropterin synthase deficiency

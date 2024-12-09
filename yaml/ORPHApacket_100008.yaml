@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: CST3
+        Source: ClinVar
+      - Reference: '2475'
+        Source: HGNC
+      - Reference: '604312'
+        Source: OMIM
       Name: cystatin C
       Symbol: CST3
   Label: ACys amyloidosis

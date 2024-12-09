@@ -10,7 +10,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '1101'
+        Source: HGNC
+      - Reference: '600185'
+        Source: OMIM
+      - Reference: BRCA2
+        Source: ClinVar
       Name: BRCA2 DNA repair associated
       Symbol: BRCA2
   Label: Inherited cancer-predisposing syndrome due to biallelic BRCA2 mutations

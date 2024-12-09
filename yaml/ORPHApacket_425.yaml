@@ -19,12 +19,24 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '600'
+        Source: HGNC
+      - Reference: '107680'
+        Source: OMIM
+      - Reference: APOA1
+        Source: ClinVar
       Name: apolipoprotein A1
       Symbol: APOA1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: ABCA1
+        Source: ClinVar
+      - Reference: '29'
+        Source: HGNC
+      - Reference: '600046'
+        Source: OMIM
       Name: ATP binding cassette subfamily A member 1
       Symbol: ABCA1
   Label: Apolipoprotein A-I deficiency

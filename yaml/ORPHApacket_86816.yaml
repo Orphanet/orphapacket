@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '399'
+        Source: HGNC
+      - Reference: '103600'
+        Source: OMIM
+      - Reference: ALB
+        Source: ClinVar
       Name: albumin
       Symbol: ALB
   Label: Congenital analbuminemia

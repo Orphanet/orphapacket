@@ -10,7 +10,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '600'
+        Source: HGNC
+      - Reference: '107680'
+        Source: OMIM
+      - Reference: APOA1
+        Source: ClinVar
       Name: apolipoprotein A1
       Symbol: APOA1
   Label: AApoAI amyloidosis

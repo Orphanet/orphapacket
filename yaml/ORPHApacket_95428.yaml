@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: COG8
+        Source: ClinVar
+      - Reference: '18623'
+        Source: HGNC
+      - Reference: '606979'
+        Source: OMIM
       Name: component of oligomeric golgi complex 8
       Symbol: COG8
   Label: COG8-CDG

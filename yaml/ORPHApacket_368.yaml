@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: PYGM
+        Source: ClinVar
+      - Reference: '9726'
+        Source: HGNC
+      - Reference: '608455'
+        Source: OMIM
       Name: glycogen phosphorylase, muscle associated
       Symbol: PYGM
   Label: Glycogen storage disease due to muscle glycogen phosphorylase deficiency

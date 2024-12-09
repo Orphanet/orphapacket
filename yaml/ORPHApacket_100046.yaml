@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: MPZ
+        Source: ClinVar
+      - Reference: '7225'
+        Source: HGNC
+      - Reference: '159440'
+        Source: OMIM
       Name: myelin protein zero
       Symbol: MPZ
   Label: Autosomal dominant intermediate Charcot-Marie-Tooth disease type D

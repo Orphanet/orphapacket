@@ -13,13 +13,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '9498'
+        Source: HGNC
+      - Reference: '176801'
+        Source: OMIM
+      - Reference: PSAP
+        Source: ClinVar
       Name: prosaposin
       Symbol: PSAP
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: ARSA
+        Source: ClinVar
+      - Reference: '713'
+        Source: HGNC
+      - Reference: '607574'
+        Source: OMIM
       Name: arylsulfatase A
       Symbol: ARSA
   Label: Metachromatic leukodystrophy, adult form

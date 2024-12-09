@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GCK
+        Source: ClinVar
+      - Reference: '4195'
+        Source: HGNC
+      - Reference: '138079'
+        Source: OMIM
       Name: glucokinase
       Symbol: GCK
   Label: Congenital glucokinase-related hyperinsulinism

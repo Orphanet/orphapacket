@@ -24,13 +24,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '18451'
+        Source: HGNC
+      - Reference: '607788'
+        Source: OMIM
+      - Reference: MCFD2
+        Source: ClinVar
       Name: multiple coagulation factor deficiency 2, ER cargo receptor complex subunit
       Symbol: MCFD2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: LMAN1
+        Source: ClinVar
+      - Reference: '6631'
+        Source: HGNC
+      - Reference: '601567'
+        Source: OMIM
       Name: lectin, mannose binding 1
       Symbol: LMAN1
   Label: Combined deficiency of factor V and factor VIII

@@ -18,7 +18,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: SI
+        Source: ClinVar
+      - Reference: '10856'
+        Source: HGNC
+      - Reference: '609845'
+        Source: OMIM
       Name: sucrase-isomaltase
       Symbol: SI
   Label: Congenital sucrase-isomaltase deficiency

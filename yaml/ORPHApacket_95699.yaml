@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: POR
+        Source: ClinVar
+      - Reference: '9208'
+        Source: HGNC
+      - Reference: '124015'
+        Source: OMIM
       Name: cytochrome p450 oxidoreductase
       Symbol: POR
   Label: Congenital adrenal hyperplasia due to cytochrome P450 oxidoreductase deficiency

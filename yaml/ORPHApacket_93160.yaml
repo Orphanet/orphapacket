@@ -26,7 +26,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: VDR
+        Source: ClinVar
+      - Reference: '12679'
+        Source: HGNC
+      - Reference: '601769'
+        Source: OMIM
       Name: vitamin D receptor
       Symbol: VDR
   Label: Hypocalcemic vitamin D-resistant rickets

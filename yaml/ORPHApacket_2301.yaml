@@ -20,13 +20,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '3754'
+        Source: HGNC
+      - Reference: '300017'
+        Source: OMIM
+      - Reference: FLNA
+        Source: ClinVar
       Name: filamin A
       Symbol: FLNA
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '24039'
+        Source: HGNC
+      - Reference: '611693'
+        Source: OMIM
+      - Reference: ASAM
+        Source: ClinVar
       Name: CXADR like membrane protein
       Symbol: CLMP
   Label: Congenital short bowel syndrome

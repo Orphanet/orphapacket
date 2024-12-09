@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: PRX
+        Source: ClinVar
+      - Reference: '13797'
+        Source: HGNC
+      - Reference: '605725'
+        Source: OMIM
       Name: periaxin
       Symbol: PRX
   Label: Charcot-Marie-Tooth disease type 4F

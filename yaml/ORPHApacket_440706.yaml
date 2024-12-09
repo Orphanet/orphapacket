@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: RPIA
+        Source: ClinVar
+      - Reference: '10297'
+        Source: HGNC
+      - Reference: '180430'
+        Source: OMIM
       Name: ribose 5-phosphate isomerase A
       Symbol: RPIA
   Label: Ribose-5-P isomerase deficiency

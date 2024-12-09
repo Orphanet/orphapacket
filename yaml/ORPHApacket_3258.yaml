@@ -14,13 +14,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '583'
+        Source: HGNC
+      - Reference: '611731'
+        Source: OMIM
+      - Reference: APC
+        Source: ClinVar
       Name: APC regulator of WNT signaling pathway
       Symbol: APC
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: LRP4
+        Source: ClinVar
+      - Reference: '6696'
+        Source: HGNC
+      - Reference: '604270'
+        Source: OMIM
       Name: LDL receptor related protein 4
       Symbol: LRP4
   Label: Cenani-Lenz syndrome

@@ -16,7 +16,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: MVK
+        Source: ClinVar
+      - Reference: '7530'
+        Source: HGNC
+      - Reference: '251170'
+        Source: OMIM
       Name: mevalonate kinase
       Symbol: MVK
   Label: Mevalonic aciduria

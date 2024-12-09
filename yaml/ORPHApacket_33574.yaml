@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GCLC
+        Source: ClinVar
+      - Reference: '4311'
+        Source: HGNC
+      - Reference: '606857'
+        Source: OMIM
       Name: glutamate-cysteine ligase catalytic subunit
       Symbol: GCLC
   Label: Glutamate-cysteine ligase deficiency

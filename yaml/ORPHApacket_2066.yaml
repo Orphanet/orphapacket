@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '23'
+        Source: HGNC
+      - Reference: '137150'
+        Source: OMIM
+      - Reference: ABAT
+        Source: ClinVar
       Name: 4-aminobutyrate aminotransferase
       Symbol: ABAT
   Label: Gamma-aminobutyric acid transaminase deficiency

@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: VCAN
+        Source: ClinVar
+      - Reference: '2464'
+        Source: HGNC
+      - Reference: '118661'
+        Source: OMIM
       Name: versican
       Symbol: VCAN
   Label: Wagner disease

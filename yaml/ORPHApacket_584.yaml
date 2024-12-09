@@ -20,7 +20,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GUSB
+        Source: ClinVar
+      - Reference: '4696'
+        Source: HGNC
+      - Reference: '611499'
+        Source: OMIM
       Name: glucuronidase beta
       Symbol: GUSB
   Label: Mucopolysaccharidosis type 7

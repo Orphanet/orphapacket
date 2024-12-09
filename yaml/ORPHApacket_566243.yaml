@@ -23,7 +23,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: THRB
+        Source: ClinVar
+      - Reference: '11799'
+        Source: HGNC
+      - Reference: '190160'
+        Source: OMIM
       Name: thyroid hormone receptor beta
       Symbol: THRB
   Label: Resistance to thyroid hormone due to a mutation in thyroid hormone receptor

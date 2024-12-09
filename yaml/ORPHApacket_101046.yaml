@@ -27,19 +27,37 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: RELN
+        Source: ClinVar
+      - Reference: '9957'
+        Source: HGNC
+      - Reference: '600514'
+        Source: OMIM
       Name: reelin
       Symbol: RELN
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: LGI1
+        Source: ClinVar
+      - Reference: '6572'
+        Source: HGNC
+      - Reference: '604619'
+        Source: OMIM
       Name: leucine rich glioma inactivated 1
       Symbol: LGI1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '18423'
+        Source: HGNC
+      - Reference: '614191'
+        Source: OMIM
+      - Reference: DEPDC5
+        Source: ClinVar
       Name: DEP domain containing 5, GATOR1 subcomplex subunit
       Symbol: DEPDC5
   Label: Autosomal dominant epilepsy with auditory features

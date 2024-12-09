@@ -12,12 +12,24 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '1092'
+        Source: HGNC
+      - Reference: FOXL2
+        Source: ClinVar
+      - Reference: '605597'
+        Source: OMIM
       Name: forkhead box L2
       Symbol: FOXL2
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: DICER1
+        Source: ClinVar
+      - Reference: '17098'
+        Source: HGNC
+      - Reference: '606241'
+        Source: OMIM
       Name: dicer 1, ribonuclease III
       Symbol: DICER1
   Label: Malignant granulosa cell tumor of the ovary

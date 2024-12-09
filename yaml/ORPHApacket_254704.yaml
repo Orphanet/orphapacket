@@ -8,7 +8,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: FTL
+        Source: ClinVar
+      - Reference: '3999'
+        Source: HGNC
+      - Reference: '134790'
+        Source: OMIM
       Name: ferritin light chain
       Symbol: FTL
   Label: Genetic hyperferritinemia without iron overload

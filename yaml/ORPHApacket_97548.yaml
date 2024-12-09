@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GDF1
+        Source: ClinVar
+      - Reference: '4214'
+        Source: HGNC
+      - Reference: '602880'
+        Source: OMIM
       Name: growth differentiation factor 1
       Symbol: GDF1
   Label: Right sided atrial isomerism

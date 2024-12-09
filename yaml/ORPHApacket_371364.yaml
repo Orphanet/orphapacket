@@ -21,13 +21,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: NALCN
+        Source: ClinVar
+      - Reference: '19082'
+        Source: HGNC
+      - Reference: '611549'
+        Source: OMIM
       Name: sodium leak channel, non-selective
       Symbol: NALCN
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '26582'
+        Source: HGNC
+      - Reference: '612636'
+        Source: OMIM
+      - Reference: UNC80
+        Source: ClinVar
       Name: unc-80 homolog, NALCN channel complex subunit
       Symbol: UNC80
   Label: Hypotonia-speech impairment-severe cognitive delay syndrome

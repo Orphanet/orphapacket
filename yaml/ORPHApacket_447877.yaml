@@ -19,12 +19,24 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: POLE
+        Source: ClinVar
+      - Reference: '174762'
+        Source: OMIM
+      - Reference: '9177'
+        Source: HGNC
       Name: DNA polymerase epsilon, catalytic subunit
       Symbol: POLE
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '9175'
+        Source: HGNC
+      - Reference: '174761'
+        Source: OMIM
+      - Reference: POLD1
+        Source: ClinVar
       Name: DNA polymerase delta 1, catalytic subunit
       Symbol: POLD1
   Label: Polymerase proofreading-related adenomatous polyposis

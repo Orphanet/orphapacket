@@ -20,12 +20,24 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GH1
+        Source: ClinVar
+      - Reference: '4261'
+        Source: HGNC
+      - Reference: '139250'
+        Source: OMIM
       Name: growth hormone 1
       Symbol: GH1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '18666'
+        Source: HGNC
+      - Reference: '618016'
+        Source: OMIM
+      - Reference: RNPC3
+        Source: ClinVar
       Name: RNA binding region (RNP1, RRM) containing 3
       Symbol: RNPC3
   Label: Isolated growth hormone deficiency type IA

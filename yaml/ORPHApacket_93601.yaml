@@ -9,7 +9,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: XDH
+        Source: ClinVar
+      - Reference: '12805'
+        Source: HGNC
+      - Reference: '607633'
+        Source: OMIM
       Name: xanthine dehydrogenase
       Symbol: XDH
   Label: Xanthinuria type I

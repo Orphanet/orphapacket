@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: WAS
+        Source: ClinVar
+      - Reference: '12731'
+        Source: HGNC
+      - Reference: '300392'
+        Source: OMIM
       Name: WASP actin nucleation promoting factor
       Symbol: WAS
   Label: X-linked severe congenital neutropenia

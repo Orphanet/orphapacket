@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: KRAS
+        Source: ClinVar
+      - Reference: '6407'
+        Source: HGNC
+      - Reference: '190070'
+        Source: OMIM
       Name: KRAS proto-oncogene, GTPase
       Symbol: KRAS
   Label: Oculoectodermal syndrome

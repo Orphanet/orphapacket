@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GHSR
+        Source: ClinVar
+      - Reference: '4267'
+        Source: HGNC
+      - Reference: '601898'
+        Source: OMIM
       Name: growth hormone secretagogue receptor
       Symbol: GHSR
   Label: Short stature due to GHSR deficiency

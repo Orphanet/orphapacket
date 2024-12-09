@@ -18,13 +18,23 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '14006'
+        Source: HGNC
+      - Reference: '606680'
+        Source: OMIM
       Name: transient receptor potential cation channel subfamily V member 6
       Symbol: TRPV6
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '1514'
+        Source: HGNC
+      - Reference: '601199'
+        Source: OMIM
+      - Reference: CASR
+        Source: ClinVar
       Name: calcium sensing receptor
       Symbol: CASR
   Label: Neonatal severe primary hyperparathyroidism

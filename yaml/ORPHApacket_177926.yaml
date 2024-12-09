@@ -13,7 +13,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: F8
+        Source: ClinVar
+      - Reference: '3546'
+        Source: HGNC
+      - Reference: '300841'
+        Source: OMIM
       Name: coagulation factor VIII
       Symbol: F8
   Label: Bleeding disorder in hemophilia A carriers

@@ -20,7 +20,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: VMA21
+        Source: ClinVar
+      - Reference: '22082'
+        Source: HGNC
+      - Reference: '300913'
+        Source: OMIM
       Name: vacuolar ATPase assembly factor VMA21
       Symbol: VMA21
   Label: X-linked myopathy with excessive autophagy

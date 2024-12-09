@@ -16,7 +16,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: FH
+        Source: ClinVar
+      - Reference: '3700'
+        Source: HGNC
+      - Reference: '136850'
+        Source: OMIM
       Name: fumarate hydratase
       Symbol: FH
   Label: Hereditary leiomyomatosis and renal cell cancer

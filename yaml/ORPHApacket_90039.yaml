@@ -8,7 +8,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: HBB
+        Source: ClinVar
+      - Reference: '4827'
+        Source: HGNC
+      - Reference: '141900'
+        Source: OMIM
       Name: hemoglobin subunit beta
       Symbol: HBB
   Label: Hemoglobin D disease

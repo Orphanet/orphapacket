@@ -13,7 +13,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: SCN4A
+        Source: ClinVar
+      - Reference: '10591'
+        Source: HGNC
+      - Reference: '603967'
+        Source: OMIM
       Name: sodium voltage-gated channel alpha subunit 4
       Symbol: SCN4A
   Label: Myotonia permanens

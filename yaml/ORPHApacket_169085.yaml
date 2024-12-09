@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: CD8A
+        Source: ClinVar
+      - Reference: '1706'
+        Source: HGNC
+      - Reference: '186910'
+        Source: OMIM
       Name: CD8 subunit alpha
       Symbol: CD8A
   Label: Susceptibility to respiratory infections associated with CD8alpha chain mutation

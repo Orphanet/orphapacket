@@ -14,12 +14,24 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: KRAS
+        Source: ClinVar
+      - Reference: '6407'
+        Source: HGNC
+      - Reference: '190070'
+        Source: OMIM
       Name: KRAS proto-oncogene, GTPase
       Symbol: KRAS
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '7989'
+        Source: HGNC
+      - Reference: '164790'
+        Source: OMIM
+      - Reference: NRAS
+        Source: ClinVar
       Name: NRAS proto-oncogene, GTPase
       Symbol: NRAS
   Label: RAS-associated autoimmune leukoproliferative disease

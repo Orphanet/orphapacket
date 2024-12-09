@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: WRN
+        Source: ClinVar
+      - Reference: '604611'
+        Source: OMIM
+      - Reference: '12791'
+        Source: HGNC
       Name: WRN RecQ like helicase
       Symbol: WRN
   Label: Werner syndrome

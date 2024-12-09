@@ -5,7 +5,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GRN
+        Source: ClinVar
+      - Reference: '4601'
+        Source: HGNC
+      - Reference: '138945'
+        Source: OMIM
       Name: granulin precursor
       Symbol: GRN
   Label: CLN11 disease

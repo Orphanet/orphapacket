@@ -9,7 +9,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '3600'
+        Source: HGNC
+      - Reference: '135820'
+        Source: OMIM
+      - Reference: FBLN1
+        Source: ClinVar
       Name: fibulin 1
       Symbol: FBLN1
   Label: Synpolydactyly type 2

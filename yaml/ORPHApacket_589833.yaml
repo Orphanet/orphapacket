@@ -13,7 +13,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: DMPK
+        Source: ClinVar
+      - Reference: '2933'
+        Source: HGNC
+      - Reference: '605377'
+        Source: OMIM
       Name: DM1 protein kinase
       Symbol: DMPK
   Label: Late-onset Steinert myotonic dystrophy

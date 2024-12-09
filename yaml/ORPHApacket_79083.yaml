@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: PPARG
+        Source: ClinVar
+      - Reference: '9236'
+        Source: HGNC
+      - Reference: '601487'
+        Source: OMIM
       Name: peroxisome proliferator activated receptor gamma
       Symbol: PPARG
   Label: PPARG-related familial partial lipodystrophy

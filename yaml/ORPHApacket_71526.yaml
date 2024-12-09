@@ -20,7 +20,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '9201'
+        Source: HGNC
+      - Reference: '176830'
+        Source: OMIM
+      - Reference: POMC
+        Source: ClinVar
       Name: proopiomelanocortin
       Symbol: POMC
   Label: Obesity due to pro-opiomelanocortin deficiency

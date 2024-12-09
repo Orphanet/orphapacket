@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: IGF1
+        Source: ClinVar
+      - Reference: '5464'
+        Source: HGNC
+      - Reference: '147440'
+        Source: OMIM
       Name: insulin like growth factor 1
       Symbol: IGF1
   Label: Growth delay due to insulin-like growth factor type 1 deficiency

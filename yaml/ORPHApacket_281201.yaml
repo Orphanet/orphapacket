@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: POMP
+        Source: ClinVar
+      - Reference: '20330'
+        Source: HGNC
+      - Reference: '613386'
+        Source: OMIM
       Name: proteasome maturation protein
       Symbol: POMP
   Label: Keratosis linearis-ichthyosis congenita-sclerosing keratoderma syndrome

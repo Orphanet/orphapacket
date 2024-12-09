@@ -8,7 +8,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: KIT
+        Source: ClinVar
+      - Reference: '6342'
+        Source: HGNC
+      - Reference: '164920'
+        Source: OMIM
       Name: KIT proto-oncogene, receptor tyrosine kinase
       Symbol: KIT
   Label: Cutaneous mastocytoma

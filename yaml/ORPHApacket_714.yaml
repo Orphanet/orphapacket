@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: BPGM
+        Source: ClinVar
+      - Reference: '1093'
+        Source: HGNC
+      - Reference: '613896'
+        Source: OMIM
       Name: bisphosphoglycerate mutase
       Symbol: BPGM
   Label: Hemolytic anemia due to diphosphoglycerate mutase deficiency

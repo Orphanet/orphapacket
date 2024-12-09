@@ -20,7 +20,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: MANBA
+        Source: ClinVar
+      - Reference: '6831'
+        Source: HGNC
+      - Reference: '609489'
+        Source: OMIM
       Name: mannosidase beta
       Symbol: MANBA
   Label: Beta-mannosidosis

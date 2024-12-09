@@ -20,7 +20,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: ATM
+        Source: ClinVar
+      - Reference: '795'
+        Source: HGNC
+      - Reference: '607585'
+        Source: OMIM
       Name: ATM serine/threonine kinase
       Symbol: ATM
   Label: Ataxia-telangiectasia

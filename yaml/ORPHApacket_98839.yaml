@@ -5,7 +5,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: BCL6
+        Source: ClinVar
+      - Reference: '1001'
+        Source: HGNC
+      - Reference: '109565'
+        Source: OMIM
       Name: BCL6 transcription repressor
       Symbol: BCL6
   Label: Intravascular large B-cell lymphoma

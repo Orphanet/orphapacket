@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: ELANE
+        Source: ClinVar
+      - Reference: '3309'
+        Source: HGNC
+      - Reference: '130130'
+        Source: OMIM
       Name: elastase, neutrophil expressed
       Symbol: ELANE
   Label: Cyclic neutropenia

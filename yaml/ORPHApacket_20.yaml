@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: HMGCL
+        Source: ClinVar
+      - Reference: '5005'
+        Source: HGNC
+      - Reference: '613898'
+        Source: OMIM
       Name: 3-hydroxy-3-methylglutaryl-CoA lyase
       Symbol: HMGCL
   Label: 3-hydroxy-3-methylglutaric aciduria

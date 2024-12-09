@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: LEP
+        Source: ClinVar
+      - Reference: '6553'
+        Source: HGNC
+      - Reference: '164160'
+        Source: OMIM
       Name: leptin
       Symbol: LEP
   Label: Obesity due to congenital leptin deficiency

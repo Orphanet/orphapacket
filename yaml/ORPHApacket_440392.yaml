@@ -21,7 +21,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: SFTPC
+        Source: ClinVar
+      - Reference: '10802'
+        Source: HGNC
+      - Reference: '178620'
+        Source: OMIM
       Name: surfactant protein C
       Symbol: SFTPC
   Label: Interstitial lung disease due to SP-C deficiency

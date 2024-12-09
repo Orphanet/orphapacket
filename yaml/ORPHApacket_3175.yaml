@@ -15,7 +15,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: ARX
+        Source: ClinVar
+      - Reference: '18060'
+        Source: HGNC
+      - Reference: '300382'
+        Source: OMIM
       Name: aristaless related homeobox
       Symbol: ARX
   Label: X-linked spasticity-intellectual disability-epilepsy syndrome

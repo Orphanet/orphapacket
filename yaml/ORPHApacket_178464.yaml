@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: TTN
+        Source: ClinVar
+      - Reference: '12403'
+        Source: HGNC
+      - Reference: '188840'
+        Source: OMIM
       Name: titin
       Symbol: TTN
   Label: Hereditary myopathy with early respiratory failure

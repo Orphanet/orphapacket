@@ -23,13 +23,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: EXT1
+        Source: ClinVar
+      - Reference: '3512'
+        Source: HGNC
+      - Reference: '608177'
+        Source: OMIM
       Name: exostosin glycosyltransferase 1
       Symbol: EXT1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: EXT2
+        Source: ClinVar
+      - Reference: '3513'
+        Source: HGNC
+      - Reference: '608210'
+        Source: OMIM
       Name: exostosin glycosyltransferase 2
       Symbol: EXT2
   Label: Multiple osteochondromas

@@ -18,12 +18,24 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: AMH
+        Source: ClinVar
+      - Reference: '464'
+        Source: HGNC
+      - Reference: '600957'
+        Source: OMIM
       Name: anti-Mullerian hormone
       Symbol: AMH
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '465'
+        Source: HGNC
+      - Reference: '600956'
+        Source: OMIM
+      - Reference: AMHR2
+        Source: ClinVar
       Name: anti-Mullerian hormone receptor type 2
       Symbol: AMHR2
   Label: "Persistent M\xFCllerian duct syndrome"

@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: RHAG
+        Source: ClinVar
+      - Reference: '180297'
+        Source: OMIM
+      - Reference: '10006'
+        Source: HGNC
       Name: Rh associated glycoprotein
       Symbol: RHAG
   Label: Overhydrated hereditary stomatocytosis

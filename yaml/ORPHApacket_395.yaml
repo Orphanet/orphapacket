@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: MTHFR
+        Source: ClinVar
+      - Reference: '607093'
+        Source: OMIM
+      - Reference: '7436'
+        Source: HGNC
       Name: methylenetetrahydrofolate reductase
       Symbol: MTHFR
   Label: Homocystinuria due to methylene tetrahydrofolate reductase deficiency

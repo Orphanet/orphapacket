@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: MTRR
+        Source: ClinVar
+      - Reference: '7473'
+        Source: HGNC
+      - Reference: '602568'
+        Source: OMIM
       Name: 5-methyltetrahydrofolate-homocysteine methyltransferase reductase
       Symbol: MTRR
   Label: Methylcobalamin deficiency type cblE

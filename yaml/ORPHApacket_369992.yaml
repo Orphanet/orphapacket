@@ -14,13 +14,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: DSP
+        Source: ClinVar
+      - Reference: '3052'
+        Source: HGNC
+      - Reference: '125647'
+        Source: OMIM
       Name: desmoplakin
       Symbol: DSP
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: DSG1
+        Source: ClinVar
+      - Reference: '3048'
+        Source: HGNC
+      - Reference: '125670'
+        Source: OMIM
       Name: desmoglein 1
       Symbol: DSG1
   Label: Severe dermatitis-multiple allergies-metabolic wasting syndrome

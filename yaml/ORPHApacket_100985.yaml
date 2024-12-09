@@ -18,7 +18,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: SPAST
+        Source: ClinVar
+      - Reference: '11233'
+        Source: HGNC
+      - Reference: '604277'
+        Source: OMIM
       Name: spastin
       Symbol: SPAST
   Label: Autosomal dominant spastic paraplegia type 4

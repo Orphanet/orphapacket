@@ -18,7 +18,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: DES
+        Source: ClinVar
+      - Reference: '2770'
+        Source: HGNC
+      - Reference: '125660'
+        Source: OMIM
       Name: desmin
       Symbol: DES
   Label: Desminopathy

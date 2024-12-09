@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: MPC1
+        Source: ClinVar
+      - Reference: '21606'
+        Source: HGNC
+      - Reference: '614738'
+        Source: OMIM
       Name: mitochondrial pyruvate carrier 1
       Symbol: MPC1
   Label: Mitochondrial pyruvate carrier deficiency

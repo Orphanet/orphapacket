@@ -12,12 +12,24 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Modifying germline mutation in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: FLG
+        Source: ClinVar
+      - Reference: '3748'
+        Source: HGNC
+      - Reference: '135940'
+        Source: OMIM
       Name: filaggrin
       Symbol: FLG
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '11425'
+        Source: HGNC
+      - Reference: '300747'
+        Source: OMIM
+      - Reference: STS
+        Source: ClinVar
       Name: steroid sulfatase
       Symbol: STS
   Label: Recessive X-linked ichthyosis

@@ -10,7 +10,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: VWF
+        Source: ClinVar
+      - Reference: '12726'
+        Source: HGNC
+      - Reference: '613160'
+        Source: OMIM
       Name: von Willebrand factor
       Symbol: VWF
   Label: Von Willebrand disease type 2B

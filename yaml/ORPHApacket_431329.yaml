@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: TFG
+        Source: ClinVar
+      - Reference: '11758'
+        Source: HGNC
+      - Reference: '602498'
+        Source: OMIM
       Name: trafficking from ER to golgi regulator
       Symbol: TFG
   Label: Autosomal recessive spastic paraplegia type 57

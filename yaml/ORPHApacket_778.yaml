@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '6990'
+        Source: HGNC
+      - Reference: '300005'
+        Source: OMIM
+      - Reference: MECP2
+        Source: ClinVar
       Name: methyl-CpG binding protein 2
       Symbol: MECP2
   Label: Rett syndrome

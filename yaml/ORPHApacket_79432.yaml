@@ -14,12 +14,24 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: OCA2
+        Source: ClinVar
+      - Reference: '8101'
+        Source: HGNC
+      - Reference: '611409'
+        Source: OMIM
       Name: OCA2 melanosomal transmembrane protein
       Symbol: OCA2
   - Gene:
       DisorderGeneAssociationType: Modifying germline mutation in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '6929'
+        Source: HGNC
+      - Reference: '155555'
+        Source: OMIM
+      - Reference: MC1R
+        Source: ClinVar
       Name: melanocortin 1 receptor
       Symbol: MC1R
   Label: Oculocutaneous albinism type 2

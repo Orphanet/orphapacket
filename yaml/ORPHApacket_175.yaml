@@ -20,7 +20,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: RMRP
+        Source: ClinVar
+      - Reference: '10031'
+        Source: HGNC
+      - Reference: '157660'
+        Source: OMIM
       Name: RNA component of mitochondrial RNA processing endoribonuclease
       Symbol: RMRP
   Label: Cartilage-hair hypoplasia

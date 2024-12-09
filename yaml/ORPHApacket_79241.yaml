@@ -20,7 +20,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '1122'
+        Source: HGNC
+      - Reference: '609019'
+        Source: OMIM
+      - Reference: BTD
+        Source: ClinVar
       Name: biotinidase
       Symbol: BTD
   Label: Biotinidase deficiency

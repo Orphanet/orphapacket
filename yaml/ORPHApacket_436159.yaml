@@ -16,7 +16,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: CTLA4
+        Source: ClinVar
+      - Reference: '2505'
+        Source: HGNC
+      - Reference: '123890'
+        Source: OMIM
       Name: cytotoxic T-lymphocyte associated protein 4
       Symbol: CTLA4
   Label: Autoimmune lymphoproliferative syndrome due to CTLA4 haploinsuffiency

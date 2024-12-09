@@ -12,7 +12,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: OAT
+        Source: ClinVar
+      - Reference: '8091'
+        Source: HGNC
+      - Reference: '613349'
+        Source: OMIM
       Name: ornithine aminotransferase
       Symbol: OAT
   Label: Gyrate atrophy of choroid and retina

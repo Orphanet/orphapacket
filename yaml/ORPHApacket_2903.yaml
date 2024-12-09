@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: FLCN
+        Source: ClinVar
+      - Reference: '27310'
+        Source: HGNC
+      - Reference: '607273'
+        Source: OMIM
       Name: folliculin
       Symbol: FLCN
   Label: Familial spontaneous pneumothorax

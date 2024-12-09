@@ -10,12 +10,24 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: PTH
+        Source: ClinVar
+      - Reference: '9606'
+        Source: HGNC
+      - Reference: '168450'
+        Source: OMIM
       Name: parathyroid hormone
       Symbol: PTH
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '360'
+        Source: HGNC
+      - Reference: '607358'
+        Source: OMIM
+      - Reference: AIRE
+        Source: ClinVar
       Name: autoimmune regulator
       Symbol: AIRE
   Label: Familial isolated hypoparathyroidism due to impaired PTH secretion

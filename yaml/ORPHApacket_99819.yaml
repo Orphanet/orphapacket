@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '12373'
+        Source: HGNC
+      - Reference: '603372'
+        Source: OMIM
+      - Reference: TSHR
+        Source: ClinVar
       Name: thyroid stimulating hormone receptor
       Symbol: TSHR
   Label: Familial gestational hyperthyroidism

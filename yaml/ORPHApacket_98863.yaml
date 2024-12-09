@@ -18,12 +18,24 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: EMD
+        Source: ClinVar
+      - Reference: '3331'
+        Source: HGNC
+      - Reference: '300384'
+        Source: OMIM
       Name: emerin
       Symbol: EMD
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: '3702'
+        Source: HGNC
+      - Reference: '300163'
+        Source: OMIM
+      - Reference: FHL1
+        Source: ClinVar
       Name: four and a half LIM domains 1
       Symbol: FHL1
   Label: X-linked Emery-Dreifuss muscular dystrophy

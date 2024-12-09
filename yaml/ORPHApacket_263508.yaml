@@ -14,7 +14,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: COG1
+        Source: ClinVar
+      - Reference: '6545'
+        Source: HGNC
+      - Reference: '606973'
+        Source: OMIM
       Name: component of oligomeric golgi complex 1
       Symbol: COG1
   Label: COG1-CDG

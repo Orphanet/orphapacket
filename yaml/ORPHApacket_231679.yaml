@@ -14,13 +14,25 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GH1
+        Source: ClinVar
+      - Reference: '4261'
+        Source: HGNC
+      - Reference: '139250'
+        Source: OMIM
       Name: growth hormone 1
       Symbol: GH1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
         in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: POU1F1
+        Source: ClinVar
+      - Reference: '9210'
+        Source: HGNC
+      - Reference: '173110'
+        Source: OMIM
       Name: POU class 1 homeobox 1
       Symbol: POU1F1
   Label: Isolated growth hormone deficiency type II

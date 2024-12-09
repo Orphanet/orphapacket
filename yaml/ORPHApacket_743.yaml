@@ -21,7 +21,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: PROS1
+        Source: ClinVar
+      - Reference: '9456'
+        Source: HGNC
+      - Reference: '176880'
+        Source: OMIM
       Name: protein S
       Symbol: PROS1
   Label: Severe hereditary thrombophilia due to congenital protein S deficiency

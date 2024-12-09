@@ -15,7 +15,13 @@ Orphapacket:
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences: []
+      ExternalReferences:
+      - Reference: GAA
+        Source: ClinVar
+      - Reference: '4065'
+        Source: HGNC
+      - Reference: '606800'
+        Source: OMIM
       Name: alpha glucosidase
       Symbol: GAA
   Label: Glycogen storage disease due to acid maltase deficiency, late-onset
