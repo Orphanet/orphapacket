@@ -10,16 +10,7 @@ Orphapacket:
       Label: Distal deletion 3p syndrome
       ORPHAcode: '1620'
   - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '11957'
-            Source: HGNC
-          - Reference: '300188'
-            Source: OMIM
-          Label: mediator complex subunit 12
-          Symbol: MED12
+      Genes: no data
       Label: Blepharophimosis-intellectual disability syndrome, Ohdo type
       ORPHAcode: '2728'
   - Child:
@@ -61,11 +52,14 @@ Orphapacket:
             Source: HGNC
           - Reference: '600014'
             Source: OMIM
-          Label: SWI/SNF related, matrix associated, actin dependent regulator of
-            chromatin, subfamily a, member 2
+          Label: SWI/SNF related BAF chromatin remodeling complex subunit ATPase 2
           Symbol: SMARCA2
       Label: SMARCA2-related blepharophimosis-intellectual disability syndrome
       ORPHAcode: '637013'
+  - Child:
+      Genes: no data
+      Label: ADNP-related blepharophimosis-intellectual disability syndrome
+      ORPHAcode: '700160'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
     value: Clinical group
@@ -99,15 +93,20 @@ Orphapacket:
       PrevalenceType: Point prevalence
       Source: ORPHANET
       ValMoy: no data
-  Synonyms:
-  - Synonym: BMRS
+  TextSection:
+    Contents: A rare group of syndromic intellectual disabilities characterized by
+      global developmental delay (DD)/intellectual disability (ID) blepharophimosis
+      and other craniofacial dysmorphisms and organ anomalies.
+    TextSectionType: Definition
   TypeOfInheritances:
+  - TypeOfInheritance:
+      value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: Mitochondrial inheritance
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

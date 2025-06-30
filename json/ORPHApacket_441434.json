@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "441434",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "441434",
         "Label": "Syndromic hereditary optic neuropathy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_441434",
@@ -493,7 +493,25 @@
                 "Child": {
                     "Label": "Severe X-linked intellectual disability, Gustavson type",
                     "ORPHAcode": "3078",
-                    "Genes": "no data"
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "RNA binding motif protein X-linked",
+                                "Symbol": "RBMX",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "300199"
+                                    },
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "9910"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -624,10 +642,12 @@
                                 "Symbol": "OPA2",
                                 "ExternalReferences": [
                                     {
-                                        "ExternalReference": {
-                                            "Source": "HGNC",
-                                            "Reference": "8141"
-                                        }
+                                        "Source": "HGNC",
+                                        "Reference": "8141"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": null
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -788,7 +808,7 @@
             },
             {
                 "Child": {
-                    "Label": "Short stature-optic atrophy-Pelger-Hu\u00ebt anomaly syndrome",
+                    "Label": "Short stature-optic atrophy-Pelger-Huët anomaly syndrome",
                     "ORPHAcode": "391677",
                     "Genes": [
                         {

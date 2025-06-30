@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "228349",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "228349",
         "Label": "CLN2 disease",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_228349",
@@ -14,31 +14,22 @@
         "Synonyms": [
             {
                 "Synonym": "Neuronal ceroid lipofuscinosis type 2"
-            }
-        ],
-        "Genes": [
+            },
             {
-                "Gene": {
-                    "Symbol": "TPP1",
-                    "Name": "tripeptidyl peptidase 1",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "2073"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "607998"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TPP1"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
+                "Synonym": "NCL2"
             }
         ],
+        "ExternalReferences": [
+            {
+                "Source": "OMIM",
+                "Reference": "204500",
+                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+            }
+        ],
+        "TextSection": {
+            "TextSectionType": "Definition",
+            "Contents": "A rare neuronal ceroid lipofuscinosis characterized by neurodevelopmental delay impaired motor and language skills progressive dementia visual deterioration extrapyramidal signs progressive gait dysfunction seizures and brain atrophy. It may present rarely with infantile (2-18 months) classically late infantile (2-4 years) and juvenile-onset (6-10 years). Infantile-onset and late infantile-onset patients are reported to have rapid disease progression leading to complete loss of motor function within 6 years and may be fatal whereas juvenile onset patients were reported to have milder clinical features including mild learning disability behavior abnormalities associated with dementia and progressive cognitive function regression. Extrapyramidal cerebellar signs retinal degeneration and vision loss may be observed later in the adulthood. This form is most frequently observed in Southern Europe."
+        },
         "Parents": [
             {
                 "Parent": [
@@ -56,6 +47,90 @@
                     }
                 ]
             }
-        ]
+        ],
+        "Childs": [
+            {
+                "Child": {
+                    "Label": "Infantile CLN2 disease",
+                    "ORPHAcode": "699751",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "tripeptidyl peptidase 1",
+                                "Symbol": "TPP1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "2073"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "607998"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Juvenile CLN2 disease",
+                    "ORPHAcode": "699769",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "tripeptidyl peptidase 1",
+                                "Symbol": "TPP1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "2073"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "607998"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Late infantile CLN2 disease",
+                    "ORPHAcode": "699761",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "tripeptidyl peptidase 1",
+                                "Symbol": "TPP1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "2073"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "607998"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Autosomal recessive"
+                }
+            ]
+        }
     }
 }

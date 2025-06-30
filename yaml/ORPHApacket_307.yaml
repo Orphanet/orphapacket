@@ -1,7 +1,9 @@
 Orphapacket:
   AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Childhood
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
@@ -57,7 +59,7 @@ Orphapacket:
       Source: OMIM
   Genes:
   - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
       - Reference: '21219'
         Source: HGNC
@@ -68,7 +70,7 @@ Orphapacket:
       Name: ciliogenesis associated kinase 1
       Symbol: CILK1
   - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
       - Reference: '1404'
         Source: HGNC
@@ -81,17 +83,6 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
-      - Reference: '16406'
-        Source: HGNC
-      - Reference: '608815'
-        Source: OMIM
-      - Reference: EFHC1
-        Source: ClinVar
-      Name: EF-hand domain containing 1
-      Symbol: EFHC1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: GABRA1
         Source: ClinVar
       - Reference: '137160'
@@ -100,6 +91,17 @@ Orphapacket:
         Source: HGNC
       Name: gamma-aminobutyric acid type A receptor subunit alpha1
       Symbol: GABRA1
+  - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
+      ExternalReferences:
+      - Reference: '16406'
+        Source: HGNC
+      - Reference: '608815'
+        Source: OMIM
+      - Reference: EFHC1
+        Source: ClinVar
+      Name: EF-hand domain containing 1
+      Symbol: EFHC1
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
@@ -139,15 +141,15 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_307
   Parents:
   - Parent:
-    - Label: Familial partial epilepsy
-      ORPHAcode: '309'
-  - Parent:
-    - Label: Non progressive epilepsy and/or ataxia with myoclonus as a major feature
-      ORPHAcode: '306759'
-  - Parent:
     - Label: Neurological channelopathy of the central nervous system due to a genetic
         GABA receptor defect
       ORPHAcode: '98749'
+  - Parent:
+    - Label: Variable age-onset epilepsy syndrome
+      ORPHAcode: '699645'
+  - Parent:
+    - Label: Non progressive epilepsy and/or ataxia with myoclonus as a major feature
+      ORPHAcode: '306759'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -194,30 +196,32 @@ Orphapacket:
       HPOId: HP:0001249
       HPOTerm: Intellectual disability
   Prevalences:
-    Prevalence:
-    - PrevalenceClass: Unknown
+  - Prevalence:
+      PrevalenceClass: Unknown
       PrevalenceGeographic: Worldwide
       PrevalenceQualification: Class only
       PrevalenceType: Point prevalence
       Source: ORPHANET
-      ValMoy: '0.0'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Norway
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 27861775[PMID]
+      ValMoy: no data
   Synonyms:
   - Synonym: JME
   - Synonym: Juvenile myoclonus epilepsy
   TextSection:
-    Contents: Juvenile myoclonic epilepsy is the most common hereditary idiopathic
-      generalized epilepsy syndrome and is characterized by myoclonic jerks of the
-      upper limbs on awakening generalized tonic-clonic seizures manifesting during
-      adolescence and triggered by sleep deprivation alcohol intake and cognitive
-      activities and typical absence seizures (30% of cases).
+    Contents: A rare epilepsy syndrome characterized by adolescence/young adulthood
+      onset of myoclonic with or without other generalized seizure types in an otherwise
+      healthy individual. The electroencephalogram (EEG) shows 3-5.5&nbsp;Hz generalized
+      spike-waves and polyspike-waves. Photosensitivity is common.
     TextSectionType: Definition
   TypeOfInheritances:
-  - TypeOfInheritance:
-      value: Autosomal dominant
-  - TypeOfInheritance:
-      value: Autosomal recessive
-  - TypeOfInheritance:
-      value: Multigenic/multifactorial
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+    TypeOfInheritance:
+    - value: Multigenic/multifactorial
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

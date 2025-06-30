@@ -7,8 +7,14 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-      Reference: '213600'
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620786'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '114100'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -23,6 +29,11 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
+      Reference: '213600'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '615483'
       Source: OMIM
   - ExternalReference:
@@ -30,7 +41,32 @@ Orphapacket:
         to represent it)
       Reference: '616413'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618317'
+      Source: OMIM
   Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: '614246'
+        Source: OMIM
+      - Reference: '25875'
+        Source: HGNC
+      Name: N-alpha-acetyltransferase 60, NatF catalytic subunit
+      Symbol: NAA60
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: '611787'
+        Source: OMIM
+      - Reference: '27015'
+        Source: HGNC
+      Name: cytidine/uridine monophosphate kinase 2
+      Symbol: CMPK2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
@@ -48,7 +84,7 @@ Orphapacket:
         Source: HGNC
       - Reference: '618255'
         Source: OMIM
-      Name: myogenesis regulating glycosidase (putative)
+      Name: myogenesis regulating glycosidase
       Symbol: MYORG
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -118,49 +154,137 @@ Orphapacket:
       ORPHAcode: '306666'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000252
-      HPOTerm: Microcephaly
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000298
+      HPOTerm: Mask-like facies
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000709
+      HPOTerm: Psychosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000726
+      HPOTerm: Dementia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000739
+      HPOTerm: Anxiety
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000751
+      HPOTerm: Personality changes
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001250
       HPOTerm: Seizure
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001392
-      HPOTerm: Abnormality of the liver
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001511
-      HPOTerm: Intrauterine growth retardation
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001873
-      HPOTerm: Thrombocytopenia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001933
-      HPOTerm: Subcutaneous hemorrhage
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002119
-      HPOTerm: Ventriculomegaly
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002240
-      HPOTerm: Hepatomegaly
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002269
-      HPOTerm: Abnormality of neuronal migration
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002514
-      HPOTerm: Cerebral calcification
+      HPOId: HP:0001266
+      HPOTerm: Choreoathetosis
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0007957
-      HPOTerm: Corneal opacity
+      HPOId: HP:0001337
+      HPOTerm: Tremor
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002063
+      HPOTerm: Rigidity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002067
+      HPOTerm: Bradykinesia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002135
+      HPOTerm: Basal ganglia calcification
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002315
+      HPOTerm: Headache
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002321
+      HPOTerm: Vertigo
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002344
+      HPOTerm: Progressive neurologic deterioration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007146
+      HPOTerm: Bilateral basal ganglia lesions
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000012
+      HPOTerm: Urinary urgency
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000802
+      HPOTerm: Impotence
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000822
+      HPOTerm: Hypertension
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001332
+      HPOTerm: Dystonia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001350
+      HPOTerm: Slurred speech
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002015
+      HPOTerm: Dysphagia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002312
+      HPOTerm: Clumsiness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002317
+      HPOTerm: Unsteady gait
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002354
+      HPOTerm: Memory impairment
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003388
+      HPOTerm: Easy fatigability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100660
+      HPOTerm: Dyskinesia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003394
+      HPOTerm: Muscle spasm
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004305
+      HPOTerm: Involuntary movements
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007256
+      HPOTerm: Abnormal pyramidal sign
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007352
+      HPOTerm: Cerebellar calcifications
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0031987
+      HPOTerm: Diminished ability to concentrate
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0011450
+      HPOTerm: Unusual CNS infection
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0032180
+      HPOTerm: Abnormal circulating metabolite concentration
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -192,7 +316,9 @@ Orphapacket:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
+      value: Autosomal recessive
+  - TypeOfInheritance:
       value: Not applicable
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

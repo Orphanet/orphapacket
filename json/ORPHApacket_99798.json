@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "99798",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "99798",
         "Label": "Oligodontia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_99798",
@@ -21,6 +21,13 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "620173",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "617275",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
@@ -79,27 +86,6 @@
             "Contents": "Oligodontia is a rare developmental dental anomaly in humans characterized by the absence of six or more teeth."
         },
         "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "AXIN2",
-                    "Name": "axin 2",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "AXIN2"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "904"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "604025"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
             {
                 "Gene": {
                     "Symbol": "EDA",
@@ -291,6 +277,19 @@
             },
             {
                 "Gene": {
+                    "Symbol": "GREM2",
+                    "Name": "gremlin 2, DAN family BMP antagonist",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "17655"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
                     "Symbol": "WNT10B",
                     "Name": "Wnt family member 10B",
                     "ExternalReferences": [
@@ -459,7 +458,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0006482",
-                    "HPOTerm": "Abnormality of dental morphology",
+                    "HPOTerm": "Abnormal dental morphology",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },

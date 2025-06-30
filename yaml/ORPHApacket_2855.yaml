@@ -10,6 +10,16 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '609947'
+            Source: OMIM
+          - Reference: '19958'
+            Source: HGNC
+          Label: protein only RNase P catalytic subunit
+          Symbol: PRORP
+      - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '2084'
@@ -85,6 +95,16 @@ Orphapacket:
       ORPHAcode: '642945'
   - Child:
       Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '609947'
+            Source: OMIM
+          - Reference: '19958'
+            Source: HGNC
+          Label: protein only RNase P catalytic subunit
+          Symbol: PRORP
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -190,7 +210,17 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
+      Reference: '619518'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '617565'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '619737'
       Source: OMIM
   Label: Perrault syndrome
   ORPHAcode: '2855'
@@ -218,13 +248,90 @@ Orphapacket:
   - Parent:
     - Label: Rare non-acquired premature ovarian failure
       ORPHAcode: '95710'
+  Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000407
+      HPOTerm: Sensorineural hearing impairment
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000837
+      HPOTerm: Increased circulating gonadotropin level
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000013
+      HPOTerm: Hypoplasia of the uterus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000786
+      HPOTerm: Primary amenorrhea
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008209
+      HPOTerm: Premature ovarian insufficiency
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010464
+      HPOTerm: Streak ovary
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000027
+      HPOTerm: Azoospermia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000175
+      HPOTerm: Cleft palate
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000218
+      HPOTerm: High palate
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000813
+      HPOTerm: Bicornuate uterus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000869
+      HPOTerm: Secondary amenorrhea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000876
+      HPOTerm: Oligomenorrhea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001251
+      HPOTerm: Ataxia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001328
+      HPOTerm: Specific learning disability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001513
+      HPOTerm: Obesity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001519
+      HPOTerm: Disproportionate tall stature
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003477
+      HPOTerm: Peripheral axonal neuropathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007256
+      HPOTerm: Abnormal pyramidal sign
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
       PrevalenceGeographic: Worldwide
       PrevalenceQualification: Case(s)
       PrevalenceType: Cases/families
-      Source: "Haute Autorit\xE9 de Sant\xE9[OTHER]"
+      Source: Haute Autorité de Santé[OTHER]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: <1 / 1 000 000
@@ -234,8 +341,8 @@ Orphapacket:
       Source: ORPHANET
       ValMoy: no data
   Synonyms:
-  - Synonym: XX gonadal dysgenesis-deafness syndrome
   - Synonym: XX gonadal dysgenesis-hearing loss syndrome
+  - Synonym: XX gonadal dysgenesis-deafness syndrome
   TextSection:
     Contents: A rare genetic disease characterized by a clinical picture of variable
       severity associating sensorineural hearing impairment with ovarian dysgenesis
@@ -246,6 +353,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -8,9 +8,16 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
     value: Clinical subtype
   ExternalReferences:
-  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-    Reference: '236750'
-    Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '236750'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '619369'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
@@ -74,10 +81,10 @@ Orphapacket:
       Source: 9280003[PMID]
       ValMoy: no data
   Synonyms:
-  - Synonym: NIHF
   - Synonym: Non-immune HF
   - Synonym: Non-immune fetal edema
   - Synonym: Non-immune fetal hydrops
+  - Synonym: NIHF
   TextSection:
     Contents: Non-immune hydrops fetalis (NIHF) a form of HF is a severe fetal condition
       defined as the excessive accumulation of fetal fluid within the fetal extravascular
@@ -86,6 +93,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

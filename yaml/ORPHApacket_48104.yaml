@@ -8,7 +8,59 @@ Orphapacket:
       value: Childhood
   - AverageAgeOfOnset:
       value: Elderly
-  Childs: []
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '9658'
+            Source: HGNC
+          - Reference: '176883'
+            Source: OMIM
+          Label: protein tyrosine phosphatase non-receptor type 6
+          Symbol: PTPN6
+      Label: Classic pyoderma gangrenosum
+      ORPHAcode: '538863'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '9658'
+            Source: HGNC
+          - Reference: '176883'
+            Source: OMIM
+          Label: protein tyrosine phosphatase non-receptor type 6
+          Symbol: PTPN6
+      Label: Pustular pyoderma gangrenosum
+      ORPHAcode: '538866'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '9658'
+            Source: HGNC
+          - Reference: '176883'
+            Source: OMIM
+          Label: protein tyrosine phosphatase non-receptor type 6
+          Symbol: PTPN6
+      Label: Bullous pyoderma gangrenosum
+      ORPHAcode: '538869'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '9658'
+            Source: HGNC
+          - Reference: '176883'
+            Source: OMIM
+          Label: protein tyrosine phosphatase non-receptor type 6
+          Symbol: PTPN6
+      Label: Vegetative pyoderma gangrenosum
+      ORPHAcode: '538872'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
@@ -23,6 +75,9 @@ Orphapacket:
   - Parent:
     - Label: Pyogenic autoinflammatory syndrome
       ORPHAcode: '324927'
+  - Parent:
+    - Label: Rare hereditary autoinflammatory disease
+      ORPHAcode: '619238'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
@@ -135,6 +190,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Unknown
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

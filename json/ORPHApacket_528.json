@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "528",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "528",
         "Label": "Congenital generalized lipodystrophy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_528",
@@ -16,16 +16,13 @@
                 "Synonym": "BSCL"
             },
             {
-                "Synonym": "Berardinelli-Seip congenital lipodystrophy"
-            },
-            {
                 "Synonym": "Berardinelli-Seip syndrome"
             },
             {
-                "Synonym": "CGL"
+                "Synonym": "Berardinelli-Seip congenital lipodystrophy"
             },
             {
-                "Synonym": "Lipoatrophic diabetes"
+                "Synonym": "CGL"
             }
         ],
         "ExternalReferences": [
@@ -72,27 +69,6 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "CAVIN1",
-                    "Name": "caveolae associated protein 1",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "9688"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "603198"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "PTRF"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "PPARG",
                     "Name": "peroxisome proliferator activated receptor gamma",
                     "ExternalReferences": [
@@ -107,69 +83,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "601487"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "BSCL2",
-                    "Name": "BSCL2 lipid droplet biogenesis associated, seipin",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "15832"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "606158"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "BSCL2"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "AGPAT2",
-                    "Name": "1-acylglycerol-3-phosphate O-acyltransferase 2",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "325"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "603100"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "AGPAT2"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "CAV1",
-                    "Name": "caveolin 1",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "1527"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "601047"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CAV1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -217,16 +130,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "611327",
-                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
+                        "ORPHAcode": "102283",
+                        "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "363245",
-                        "Label": "Genetic progeroid syndrome"
+                        "ORPHAcode": "611327",
+                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
                     }
                 ]
             },
@@ -241,10 +154,137 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "102283",
-                        "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
+                        "ORPHAcode": "363245",
+                        "Label": "Genetic progeroid syndrome"
                     }
                 ]
+            }
+        ],
+        "Childs": [
+            {
+                "Child": {
+                    "Label": "Congenital generalized lipodystrophy type 2",
+                    "ORPHAcode": "696289",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "BSCL2 lipid droplet biogenesis associated, seipin",
+                                "Symbol": "BSCL2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "15832"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "606158"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "PPARG-associated congenital generalized lipodystrophy",
+                    "ORPHAcode": "696242",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "peroxisome proliferator activated receptor gamma",
+                                "Symbol": "PPARG",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "9236"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "601487"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Congenital generalized lipodystrophy type 3",
+                    "ORPHAcode": "696206",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "caveolin 1",
+                                "Symbol": "CAV1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "1527"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "601047"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Congenital generalized lipodystrophy type 1",
+                    "ORPHAcode": "696189",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "1-acylglycerol-3-phosphate O-acyltransferase 2",
+                                "Symbol": "AGPAT2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "325"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "603100"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Congenital generalized  lipodystrophy type 4",
+                    "ORPHAcode": "228429",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "caveolae associated protein 1",
+                                "Symbol": "CAVIN1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "9688"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "603198"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "Phenotypes": [

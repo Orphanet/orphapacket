@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "251359",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "251359",
         "Label": "Sickle cell-beta-thalassemia disease syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_251359",
@@ -20,37 +20,66 @@
             "TextSectionType": "Definition",
             "Contents": "A rare genetic hemoglobinopathy that affects red blood cells both in the production of abnormal hemoglobin as well as the decreased synthesis of beta globin chains. Clinical manifestations depend on the amount of residual beta globin chains production and are similar to sickle cell disease including anemia vascular occlusion and its complications acute episodes of pain acute chest syndrome pulmonary hypertension sepsis ischemic brain injury splenic sequestration crisis and splenomegaly."
         },
-        "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "HBB",
-                    "Name": "hemoglobin subunit beta",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "HBB"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "4827"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "141900"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            }
-        ],
         "Parents": [
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "251355",
-                        "Label": "Sickle cell disease associated with another hemoglobin anomaly"
+                        "ORPHAcode": "275752",
+                        "Label": "Sickle cell disease"
                     }
                 ]
+            }
+        ],
+        "Childs": [
+            {
+                "Child": {
+                    "Label": "Sickle cell-beta zero-thalassemia",
+                    "ORPHAcode": "695140",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "hemoglobin subunit beta",
+                                "Symbol": "HBB",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "4827"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "141900"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Sickle cell-beta plus-thalassemia",
+                    "ORPHAcode": "695147",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "hemoglobin subunit beta",
+                                "Symbol": "HBB",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "4827"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "141900"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "Prevalences": {

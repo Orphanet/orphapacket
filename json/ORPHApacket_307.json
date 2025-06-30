@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "307",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "307",
         "Label": "Juvenile myoclonic epilepsy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_307",
@@ -93,7 +93,7 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Juvenile myoclonic epilepsy is the most common hereditary idiopathic generalized epilepsy syndrome and is characterized by myoclonic jerks of the upper limbs on awakening generalized tonic-clonic seizures manifesting during adolescence and triggered by sleep deprivation alcohol intake and cognitive activities and typical absence seizures (30% of cases)."
+            "Contents": "A rare epilepsy syndrome characterized by adolescence/young adulthood onset of myoclonic with or without other generalized seizure types in an otherwise healthy individual. The electroencephalogram (EEG) shows 3-5.5&nbsp;Hz generalized spike-waves and polyspike-waves. Photosensitivity is common."
         },
         "Genes": [
             {
@@ -114,7 +114,7 @@
                             "Reference": "ICK"
                         }
                     ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                    "DisorderGeneAssociationType": "Major susceptibility factor in"
                 }
             },
             {
@@ -133,27 +133,6 @@
                         {
                             "Source": "ClinVar",
                             "Reference": "CACNB4"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "EFHC1",
-                    "Name": "EF-hand domain containing 1",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "16406"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "608815"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "EFHC1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Major susceptibility factor in"
@@ -177,7 +156,28 @@
                             "Reference": "4075"
                         }
                     ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                    "DisorderGeneAssociationType": "Major susceptibility factor in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "EFHC1",
+                    "Name": "EF-hand domain containing 1",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "16406"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "608815"
+                        },
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "EFHC1"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Major susceptibility factor in"
                 }
             },
             {
@@ -248,8 +248,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "309",
-                        "Label": "Familial partial epilepsy"
+                        "ORPHAcode": "98749",
+                        "Label": "Neurological channelopathy of the central nervous system due to a genetic GABA receptor defect"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "699645",
+                        "Label": "Variable age-onset epilepsy syndrome"
                     }
                 ]
             },
@@ -258,14 +266,6 @@
                     {
                         "ORPHAcode": "306759",
                         "Label": "Non progressive epilepsy and/or ataxia with myoclonus as a major feature"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "98749",
-                        "Label": "Neurological channelopathy of the central nervous system due to a genetic GABA receptor defect"
                     }
                 ]
             }
@@ -349,41 +349,46 @@
                 }
             }
         ],
-        "Prevalences": {
-            "Prevalence": [
-                {
+        "Prevalences": [
+            {
+                "Prevalence": {
                     "Source": "ORPHANET",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "Unknown",
-                    "ValMoy": "0.0",
+                    "ValMoy": "no data",
                     "PrevalenceGeographic": "Worldwide"
                 }
-            ]
-        },
-        "AverageAgeOfOnsets": {
-            "AverageAgeOfOnset": [
-                {
-                    "value": "Adolescent"
-                }
-            ]
-        },
-        "TypeOfInheritances": [
-            {
-                "TypeOfInheritance": {
-                    "value": "Autosomal dominant"
-                }
             },
             {
-                "TypeOfInheritance": {
-                    "value": "Autosomal recessive"
-                }
-            },
-            {
-                "TypeOfInheritance": {
-                    "value": "Multigenic/multifactorial"
+                "Prevalence": {
+                    "Source": "27861775[PMID]",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 100 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Norway"
                 }
             }
-        ]
+        ],
+        "AverageAgeOfOnsets": [
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Adolescent"
+                }
+            },
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Childhood"
+                }
+            }
+        ],
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Multigenic/multifactorial"
+                }
+            ]
+        }
     }
 }

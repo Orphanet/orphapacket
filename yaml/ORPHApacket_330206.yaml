@@ -97,7 +97,17 @@ Orphapacket:
         syndrome
       ORPHAcode: '688581'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '617449'
+            Source: OMIM
+          - Reference: '20185'
+            Source: HGNC
+          Label: transmembrane protein 260
+          Symbol: TMEM260
       Label: Structural heart defects-renal anomalies syndrome
       ORPHAcode: '689822'
   - Child:
@@ -183,7 +193,7 @@ Orphapacket:
             Source: HGNC
           Label: insulin receptor
           Symbol: INSR
-      Label: Leprechaunism
+      Label: Donohue syndrome
       ORPHAcode: '508'
   - Child:
       Genes:
@@ -471,7 +481,7 @@ Orphapacket:
             Source: HGNC
           - Reference: '605882'
             Source: OMIM
-          Label: BRCA1 interacting helicase 1
+          Label: BRCA1 interacting DNA helicase 1
           Symbol: BRIP1
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -770,6 +780,16 @@ Orphapacket:
             Source: OMIM
           Label: EvC ciliary complex subunit 2
           Symbol: EVC2
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain
+            of function) in
+          ExternalReferences:
+          - Reference: '2514'
+            Source: HGNC
+          - Reference: '116806'
+            Source: OMIM
+          Label: catenin beta 1
+          Symbol: CTNNB1
       Label: Acrofacial dysostosis, Weyers type
       ORPHAcode: '952'
   - Child:
@@ -858,6 +878,15 @@ Orphapacket:
             Source: OMIM
           Label: nucleoporin 88
           Symbol: NUP88
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '608603'
+            Source: OMIM
+          - Reference: '29514'
+            Source: HGNC
+          Label: gliomedin
+          Symbol: GLDN
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
             of function) in
@@ -1228,19 +1257,6 @@ Orphapacket:
       Label: Gordon syndrome
       ORPHAcode: '376'
   - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '608744'
-            Source: OMIM
-          - Reference: '20662'
-            Source: HGNC
-          Label: solute carrier family 25 member 24
-          Symbol: SLC25A24
-      Label: Gorlin-Chaudhry-Moss syndrome
-      ORPHAcode: '2095'
-  - Child:
       Genes: no data
       Label: Short stature-craniofacial anomalies-genital hypoplasia syndrome
       ORPHAcode: '2994'
@@ -1286,7 +1302,7 @@ Orphapacket:
             Source: HGNC
           - Reference: '300275'
             Source: OMIM
-          Label: NAD(P) dependent steroid dehydrogenase-like
+          Label: NAD(P) dependent 3-beta-hydroxysteroid dehydrogenase NSDHL
           Symbol: NSDHL
       Label: CHILD syndrome
       ORPHAcode: '139'
@@ -1356,7 +1372,16 @@ Orphapacket:
       Label: Nasopalpebral lipoma-coloboma syndrome
       ORPHAcode: '2399'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '16290'
+            Source: HGNC
+          - Reference: '605769'
+            Source: OMIM
+          Label: tripartite motif containing 33
+          Symbol: TRIM33
       Label: Dislocation of the hip-dysmorphism syndrome
       ORPHAcode: '2412'
   - Child:
@@ -1391,15 +1416,6 @@ Orphapacket:
             Source: OMIM
           Label: signaling receptor and transporter of retinol STRA6
           Symbol: STRA6
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '9865'
-            Source: HGNC
-          - Reference: '180220'
-            Source: OMIM
-          Label: retinoic acid receptor beta
-          Symbol: RARB
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -1444,7 +1460,7 @@ Orphapacket:
       ORPHAcode: '2484'
   - Child:
       Genes: no data
-      Label: "M\xFCllerian duct anomalies-limb anomalies syndrome"
+      Label: Müllerian duct anomalies-limb anomalies syndrome
       ORPHAcode: '2491'
   - Child:
       Genes: no data
@@ -1518,10 +1534,6 @@ Orphapacket:
       Genes: no data
       Label: Cyprus facial-neuromusculoskeletal syndrome
       ORPHAcode: '2674'
-  - Child:
-      Genes: no data
-      Label: Median nodule of the upper lip
-      ORPHAcode: '2699'
   - Child:
       Genes: no data
       Label: PARC syndrome
@@ -2084,7 +2096,7 @@ Orphapacket:
       ORPHAcode: '3191'
   - Child:
       Genes: no data
-      Label: "M\xFCllerian derivatives-lymphangiectasia-polydactyly syndrome"
+      Label: Müllerian derivatives-lymphangiectasia-polydactyly syndrome
       ORPHAcode: '1655'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
@@ -2102,6 +2114,6 @@ Orphapacket:
   - Synonym: Genetic MCA
   - Synonym: Genetic multiple congenital anomalies without intellectual disability
       (with or without dysmorphism)
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

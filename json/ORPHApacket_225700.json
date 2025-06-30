@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "225700",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "225700",
         "Label": "Mitochondrial disease with epilepsy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_225700",
@@ -865,7 +865,25 @@
                 "Child": {
                     "Label": "Leigh syndrome",
                     "ORPHAcode": "506",
-                    "Genes": "no data"
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "isoleucyl-tRNA synthetase 2, mitochondrial",
+                                "Symbol": "IARS2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "29685"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "612801"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -1068,6 +1086,31 @@
                                     {
                                         "Source": "OMIM",
                                         "Reference": "607031"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Epileptic encephalopathy with global cerebral demyelination",
+                    "ORPHAcode": "353217",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "solute carrier family 25 member 12",
+                                "Symbol": "SLC25A12",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "10982"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "603667"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"

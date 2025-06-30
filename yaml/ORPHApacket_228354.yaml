@@ -1,19 +1,38 @@
 Orphapacket:
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '2079'
+            Source: HGNC
+          - Reference: '607837'
+            Source: OMIM
+          Label: CLN8 transmembrane ER and ERGIC protein
+          Symbol: CLN8
+      Label: Late infantile CLN8 disease
+      ORPHAcode: '700484'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '2079'
+            Source: HGNC
+          - Reference: '607837'
+            Source: OMIM
+          Label: CLN8 transmembrane ER and ERGIC protein
+          Symbol: CLN8
+      Label: Northern epilepsy
+      ORPHAcode: '1947'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
-  Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: CLN8
-        Source: ClinVar
-      - Reference: '2079'
-        Source: HGNC
-      - Reference: '607837'
-        Source: OMIM
-      Name: CLN8 transmembrane ER and ERGIC protein
-      Symbol: CLN8
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '600143'
+    Source: OMIM
   Label: CLN8 disease
   ORPHAcode: '228354'
   ORPHApacketId: '228354'
@@ -27,6 +46,21 @@ Orphapacket:
       ORPHAcode: '216'
   Synonyms:
   - Synonym: Neuronal ceroid lipofuscinosis type 8
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  - Synonym: NCL8
+  TextSection:
+    Contents: A rare neuronal ceroid lipofuscinosis characterized classically by late
+      infantile-onset (5-10 years) with rapid disease progression myoclonus visual
+      loss and progressive intellectual disability (commonly observed within 2-5 years
+      of seizure onset). Spasticity dystonic posturing tremors and other extrapyramidal
+      signs are also reported in these patients. Less frequently the disease can manifest
+      with intractable tonic-clonic or complex partial seizures without myoclonous
+      progressive intellectual disability and variable visual deficit blindness being
+      infrequent. This condition also known as Northern epilepsy is milder and slow
+      progressing compared to the classical form of the disease.
+    TextSectionType: Definition
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

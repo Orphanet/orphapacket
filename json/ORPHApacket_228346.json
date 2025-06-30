@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "228346",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "228346",
         "Label": "CLN3 disease",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_228346",
@@ -13,41 +13,20 @@
         },
         "Synonyms": [
             {
-                "Synonym": "Batten-Spielmeyer-Vogt-Sj\u00f6gren disease"
-            },
-            {
-                "Synonym": "Classic juvenile NCL"
-            },
-            {
-                "Synonym": "Classic juvenile neuronal ceroid lipofuscinosis"
-            },
-            {
                 "Synonym": "Neuronal ceroid lipofuscinosis type 3"
             }
         ],
-        "Genes": [
+        "ExternalReferences": [
             {
-                "Gene": {
-                    "Symbol": "CLN3",
-                    "Name": "CLN3 lysosomal/endosomal transmembrane protein, battenin",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CLN3"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "2074"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "607042"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
+                "Source": "OMIM",
+                "Reference": "607042",
+                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
             }
         ],
+        "TextSection": {
+            "TextSectionType": "Definition",
+            "Contents": "A rare neuronal ceroid lipofuscinosis characterized by juvenile or protracted juvenile-onset progressive vision loss due to retinal degeneration/retinopathy (which in several patients may precede the onset of neurological symptoms by some years) seizures progressive cognitive impairment with a precipitous decline to dementia progressive motor decline with cerebellar pyramidal and extrapyramidal features. Associated systemic features may include cardiac abnormalities (including conduction abnormalities ventricular hypertrophy atrial flutter/fibrillation and symptomatic bradycardia) and autophagic vacuolar myopathy. Seizures in juvenile-onset (also known as the classic form of the disease) patients develop typically within 2-4 years of the onset of visual deterioration. In protracted form characterized by combined focal and generalized epilepsy syndrome and progressive neurologic deterioration seizures and other neurological manifestations appear significantly later compared to classic form and symptoms are milder. This is the most common form of ceroid lipofuscinosis and is widespread across Western countries."
+        },
         "Parents": [
             {
                 "Parent": [
@@ -65,6 +44,65 @@
                     }
                 ]
             }
-        ]
+        ],
+        "Childs": [
+            {
+                "Child": {
+                    "Label": "Juvenile CLN3 disease",
+                    "ORPHAcode": "699780",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "CLN3 lysosomal/endosomal transmembrane protein, battenin",
+                                "Symbol": "CLN3",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "2074"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "607042"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Protracted juvenile CLN3 disease",
+                    "ORPHAcode": "699796",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "CLN3 lysosomal/endosomal transmembrane protein, battenin",
+                                "Symbol": "CLN3",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "2074"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "607042"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Autosomal recessive"
+                }
+            ]
+        }
     }
 }

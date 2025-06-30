@@ -9,11 +9,6 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '619693'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
       Reference: '619707'
       Source: OMIM
   - ExternalReference:
@@ -37,13 +32,14 @@ Orphapacket:
       Reference: '615214'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-      Reference: '601495'
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '612692'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '612692'
+      Reference: '601495'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -64,21 +60,23 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '601416'
-        Source: OMIM
-      - Reference: '4927'
-        Source: HGNC
-      Name: solute carrier family 39 member 7
-      Symbol: SLC39A7
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: '165170'
         Source: OMIM
       - Reference: '11241'
         Source: HGNC
       Name: Spi-1 proto-oncogene
       Symbol: SPI1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '602839'
+        Source: OMIM
+      - Reference: '8977'
+        Source: HGNC
+      - Reference: PIK3CD
+        Source: ClinVar
+      Name: phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+      Symbol: PIK3CD
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -167,13 +165,13 @@ Orphapacket:
         Source: ClinVar
       Name: phosphoinositide-3-kinase regulatory subunit 1
       Symbol: PIK3R1
-  Label: Autosomal agammaglobulinemia
+  Label: Autosomal non-syndromic agammaglobulinemia
   ORPHAcode: '33110'
   ORPHApacketId: '33110'
   PURL: http://www.orpha.net/ORDO/Orphanet_33110
   Parents:
   - Parent:
-    - Label: Isolated agammaglobulinemia
+    - Label: Non-syndromic agammaglobulinemia
       ORPHAcode: '229717'
   Phenotypes:
   - Phenotype:
@@ -223,7 +221,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001875
-      HPOTerm: Neutropenia
+      HPOTerm: Decreased total neutrophil count
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001944
@@ -308,7 +306,8 @@ Orphapacket:
       Source: ORPHANET
       ValMoy: no data
   Synonyms:
-  - Synonym: Agammaglobulinemia, non-Bruton type
+  - Synonym: Non-syndromic agammaglobulinemia, non-Bruton type
+  - Synonym: Non-syndromic hypogammaglobulinemia
   TextSection:
     Contents: A rare form of agammaglobulinemia a primary immunodeficiency disease
       and is characterized by variable immune dysfunction with frequent and recurrent
@@ -319,6 +318,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

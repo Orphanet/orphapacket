@@ -6,6 +6,72 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '15832'
+            Source: HGNC
+          - Reference: '606158'
+            Source: OMIM
+          Label: BSCL2 lipid droplet biogenesis associated, seipin
+          Symbol: BSCL2
+      Label: Congenital generalized lipodystrophy type 2
+      ORPHAcode: '696289'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '9236'
+            Source: HGNC
+          - Reference: '601487'
+            Source: OMIM
+          Label: peroxisome proliferator activated receptor gamma
+          Symbol: PPARG
+      Label: PPARG-associated congenital generalized lipodystrophy
+      ORPHAcode: '696242'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '1527'
+            Source: HGNC
+          - Reference: '601047'
+            Source: OMIM
+          Label: caveolin 1
+          Symbol: CAV1
+      Label: Congenital generalized lipodystrophy type 3
+      ORPHAcode: '696206'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '325'
+            Source: HGNC
+          - Reference: '603100'
+            Source: OMIM
+          Label: 1-acylglycerol-3-phosphate O-acyltransferase 2
+          Symbol: AGPAT2
+      Label: Congenital generalized lipodystrophy type 1
+      ORPHAcode: '696189'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '9688'
+            Source: HGNC
+          - Reference: '603198'
+            Source: OMIM
+          Label: caveolae associated protein 1
+          Symbol: CAVIN1
+      Label: Congenital generalized  lipodystrophy type 4
+      ORPHAcode: '228429'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
@@ -39,17 +105,6 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '9688'
-        Source: HGNC
-      - Reference: '603198'
-        Source: OMIM
-      - Reference: PTRF
-        Source: ClinVar
-      Name: caveolae associated protein 1
-      Symbol: CAVIN1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: PPARG
         Source: ClinVar
       - Reference: '9236'
@@ -58,39 +113,6 @@ Orphapacket:
         Source: OMIM
       Name: peroxisome proliferator activated receptor gamma
       Symbol: PPARG
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '15832'
-        Source: HGNC
-      - Reference: '606158'
-        Source: OMIM
-      - Reference: BSCL2
-        Source: ClinVar
-      Name: BSCL2 lipid droplet biogenesis associated, seipin
-      Symbol: BSCL2
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '325'
-        Source: HGNC
-      - Reference: '603100'
-        Source: OMIM
-      - Reference: AGPAT2
-        Source: ClinVar
-      Name: 1-acylglycerol-3-phosphate O-acyltransferase 2
-      Symbol: AGPAT2
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '1527'
-        Source: HGNC
-      - Reference: '601047'
-        Source: OMIM
-      - Reference: CAV1
-        Source: ClinVar
-      Name: caveolin 1
-      Symbol: CAV1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -114,18 +136,18 @@ Orphapacket:
     - Label: Rare insulin-resistance syndrome
       ORPHAcode: '181368'
   - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
+  - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
       ORPHAcode: '611327'
   - Parent:
-    - Label: Genetic progeroid syndrome
-      ORPHAcode: '363245'
-  - Parent:
     - Label: Progeroid syndrome
       ORPHAcode: '139033'
   - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-      ORPHAcode: '102283'
+    - Label: Genetic progeroid syndrome
+      ORPHAcode: '363245'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -348,10 +370,9 @@ Orphapacket:
       ValMoy: no data
   Synonyms:
   - Synonym: BSCL
-  - Synonym: Berardinelli-Seip congenital lipodystrophy
   - Synonym: Berardinelli-Seip syndrome
+  - Synonym: Berardinelli-Seip congenital lipodystrophy
   - Synonym: CGL
-  - Synonym: Lipoatrophic diabetes
   TextSection:
     Contents: A rare autosomal recessive form of lipodystrophy characterized by the
       association of generalized lipoatrophy with acromegaloid features muscle hypertrophy
@@ -360,6 +381,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

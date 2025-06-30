@@ -38,9 +38,10 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - ExternalReference:
-              Reference: '1664'
-              Source: HGNC
+          - Reference: '601040'
+            Source: OMIM
+          - Reference: '1664'
+            Source: HGNC
           Label: scavenger receptor class B member 1
           Symbol: SCARB1
       Label: Familial Hyperalphalipoproteinemia
@@ -49,6 +50,19 @@ Orphapacket:
       Genes: no data
       Label: Familial chylomicronemia syndrome
       ORPHAcode: '444490'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '6619'
+            Source: HGNC
+          - Reference: '151670'
+            Source: OMIM
+          Label: lipase C, hepatic type
+          Symbol: LIPC
+      Label: Hyperlipidemia due to hepatic triacylglycerol lipase deficiency
+      ORPHAcode: '140905'
   - Child:
       Genes: no data
       Label: Rare hypercholesterolemia
@@ -64,6 +78,6 @@ Orphapacket:
   - Parent:
     - Label: Rare dyslipidemia
       ORPHAcode: '101953'
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

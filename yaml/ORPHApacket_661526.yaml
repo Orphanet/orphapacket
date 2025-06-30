@@ -1,4 +1,7 @@
 Orphapacket:
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
@@ -6,6 +9,16 @@ Orphapacket:
   - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '619975'
     Source: OMIM
+  Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '603574'
+        Source: OMIM
+      - Reference: '6919'
+        Source: HGNC
+      Name: methyl-CpG binding domain 4, DNA glycosylase
+      Symbol: MBD4
   Label: MBD4-related tumor predisposition syndrome
   ORPHAcode: '661526'
   ORPHApacketId: '661526'
@@ -14,6 +27,24 @@ Orphapacket:
   - Parent:
     - Label: Inherited cancer-predisposing syndrome
       ORPHAcode: '140162'
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Family(ies)
+      PrevalenceType: Cases/families
+      Source: 35460607[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: 30049810[PMID]_31322271[PMID]_35460607[PMID]_ORPHANET
+      ValMoy: no data
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

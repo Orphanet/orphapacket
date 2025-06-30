@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "293642",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "293642",
         "Label": "Blepharophimosis-intellectual disability syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_293642",
@@ -11,11 +11,10 @@
             "value": "Clinical group",
             "PURL": "http://www.orpha.net/ORDO/Orphanet_377794"
         },
-        "Synonyms": [
-            {
-                "Synonym": "BMRS"
-            }
-        ],
+        "TextSection": {
+            "TextSectionType": "Definition",
+            "Contents": "A rare group of syndromic intellectual disabilities characterized by global developmental delay (DD)/intellectual disability (ID) blepharophimosis and other craniofacial dysmorphisms and organ anomalies."
+        },
         "Parents": [
             {
                 "Parent": [
@@ -54,25 +53,7 @@
                 "Child": {
                     "Label": "Blepharophimosis-intellectual disability syndrome, Ohdo type",
                     "ORPHAcode": "2728",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "mediator complex subunit 12",
-                                "Symbol": "MED12",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "11957"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "300188"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
+                    "Genes": "no data"
                 }
             },
             {
@@ -139,7 +120,7 @@
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 2",
+                                "Label": "SWI/SNF related BAF chromatin remodeling complex subunit ATPase 2",
                                 "Symbol": "SMARCA2",
                                 "ExternalReferences": [
                                     {
@@ -155,6 +136,13 @@
                             }
                         }
                     ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "ADNP-related blepharophimosis-intellectual disability syndrome",
+                    "ORPHAcode": "700160",
+                    "Genes": "no data"
                 }
             }
         ],
@@ -193,6 +181,11 @@
             }
         ],
         "TypeOfInheritances": [
+            {
+                "TypeOfInheritance": {
+                    "value": "Autosomal dominant"
+                }
+            },
             {
                 "TypeOfInheritance": {
                     "value": "Autosomal recessive"

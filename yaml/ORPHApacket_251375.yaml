@@ -3,8 +3,8 @@ Orphapacket:
     AverageAgeOfOnset:
     - value: All ages
   DisorderType:
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-    value: Disease
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -17,14 +17,15 @@ Orphapacket:
         Source: OMIM
       Name: hemoglobin subunit beta
       Symbol: HBB
-  Label: Sickle cell-hemoglobin E disease syndrome
+  Label: Sickle cell S-E disease
   ORPHAcode: '251375'
   ORPHApacketId: '251375'
   PURL: http://www.orpha.net/ORDO/Orphanet_251375
   Parents:
   - Parent:
-    - Label: Sickle cell disease associated with another hemoglobin anomaly
-      ORPHAcode: '251355'
+    - Label: Sickle cell disease due to hemoglobin S and a non-S/non-C hemoglobin
+        variant
+      ORPHAcode: '700085'
   Prevalences:
     Prevalence:
     - PrevalenceClass: Unknown
@@ -35,6 +36,8 @@ Orphapacket:
       ValMoy: '0.0'
   Synonyms:
   - Synonym: HbSE disease
+  - Synonym: Hemoglobin S-E disease
+  - Synonym: Sickle cell-hemoglobin E disease
   TextSection:
     Contents: A rare genetic hemoglobinopathy usually characterized by mild microcytic
       hemolysis and very rarely vaso-occlusive complications. Severe manifestations
@@ -47,6 +50,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

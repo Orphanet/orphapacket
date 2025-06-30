@@ -3,8 +3,8 @@ Orphapacket:
     AverageAgeOfOnset:
     - value: Childhood
   DisorderType:
-    PURL: http://www.orpha.net/ORDO/Orphanet_377788
-    value: Disease
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
   ExternalReferences:
   - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '610003'
@@ -21,23 +21,20 @@ Orphapacket:
         Source: OMIM
       Name: CLN8 transmembrane ER and ERGIC protein
       Symbol: CLN8
-  Label: Progressive epilepsy-intellectual disability syndrome, Finnish type
+  Label: Northern epilepsy
   ORPHAcode: '1947'
   ORPHApacketId: '1947'
   PURL: http://www.orpha.net/ORDO/Orphanet_1947
   Parents:
   - Parent:
-    - Label: Progressive myoclonic epilepsy
-      ORPHAcode: '98261'
-  - Parent:
     - Label: Monogenic disease with epilepsy
       ORPHAcode: '166472'
   - Parent:
-    - Label: Neuronal ceroid lipofuscinosis
-      ORPHAcode: '216'
-  - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
+  - Parent:
+    - Label: CLN8 disease
+      ORPHAcode: '228354'
   - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
@@ -214,19 +211,13 @@ Orphapacket:
       Source: ORPHANET
       ValMoy: '0.0'
   Synonyms:
+  - Synonym: Progressive epilepsy-intellectual disability syndrome, Finnish type
   - Synonym: CLN8 disease, Northern epilepsy variant
   - Synonym: NCL, Northern epilepsy variant
   - Synonym: Neuronal ceroid lipofuscinosis, Northern epilepsy variant
-  - Synonym: Northern epilepsy
-  TextSection:
-    Contents: Progressive epilepsy-intellectual deficit Finnish type (also known as
-      Northern epilepsy) is a subtype of neuronal ceroid lipofuscinosis (NCL; see
-      this term) characterized by seizures progressive decline of intellectual capacities
-      and variable loss of vision.
-    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

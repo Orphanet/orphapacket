@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "104010",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "104010",
         "Label": "Intestinal polyposis syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_104010",
@@ -12,14 +12,6 @@
             "PURL": "http://www.orpha.net/ORDO/Orphanet_377794"
         },
         "Parents": [
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "117569",
-                        "Label": "Rare intestinal disease"
-                    }
-                ]
-            },
             {
                 "Parent": [
                     {
@@ -35,9 +27,159 @@
                         "Label": "Rare disorder potentially indicated for bowel transplant"
                     }
                 ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "117569",
+                        "Label": "Rare intestinal disease"
+                    }
+                ]
             }
         ],
         "Childs": [
+            {
+                "Child": {
+                    "Label": "5q22 microdeletion syndrome",
+                    "ORPHAcode": "261584",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "APC regulator of WNT signaling pathway",
+                                "Symbol": "APC",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "583"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "611731"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "MUTYH-related polyposis",
+                    "ORPHAcode": "247798",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "mutY DNA glycosylase",
+                                "Symbol": "MUTYH",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "7527"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "604933"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Polymerase proofreading-related polyposis",
+                    "ORPHAcode": "447877",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "DNA polymerase epsilon, catalytic subunit",
+                                "Symbol": "POLE",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "174762"
+                                    },
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "9177"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "DNA polymerase delta 1, catalytic subunit",
+                                "Symbol": "POLD1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "9175"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "174761"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "NTHL1-related polyposis",
+                    "ORPHAcode": "454840",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "nth like DNA glycosylase 1",
+                                "Symbol": "NTHL1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "8028"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "602656"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "MSH3-related polyposis",
+                    "ORPHAcode": "480536",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "mutS homolog 3",
+                                "Symbol": "MSH3",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600887"
+                                    },
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "7326"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        }
+                    ]
+                }
+            },
             {
                 "Child": {
                     "Label": "Hereditary mixed polyposis syndrome",
@@ -109,7 +251,25 @@
                 "Child": {
                     "Label": "Attenuated familial adenomatous polyposis",
                     "ORPHAcode": "220460",
-                    "Genes": "no data"
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "APC regulator of WNT signaling pathway",
+                                "Symbol": "APC",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "583"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "611731"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -136,6 +296,31 @@
                                     {
                                         "Source": "OMIM",
                                         "Reference": "602216"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "AXIN2-related polyposis",
+                    "ORPHAcode": "401911",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "axin 2",
+                                "Symbol": "AXIN2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "904"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "604025"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"

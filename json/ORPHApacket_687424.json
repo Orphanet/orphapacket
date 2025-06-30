@@ -1,22 +1,32 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "687424",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "687424",
-        "Label": "10p15 microdeletion syndrome",
+        "Label": "ZMYND11-related developmental delay-speech delay-seizures-behavioral abnormalities-craniofacial dysmorphism syndrome due to 10p15.3 microdeletion",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_687424",
         "DisorderType": {
-            "value": "Malformation syndrome",
-            "PURL": "http://www.orpha.net/ORDO/Orphanet_377789"
+            "value": "Etiological subtype",
+            "PURL": "http://www.orpha.net/ORDO/Orphanet_377795"
         },
         "Synonyms": [
             {
-                "Synonym": "Del(10)(p15)"
+                "Synonym": "10p15.3 microdeletion syndrome"
             },
             {
-                "Synonym": "Deletion 10p15"
+                "Synonym": "Del(10)(p15.3)"
+            },
+            {
+                "Synonym": "Deletion 10p15.3"
+            }
+        ],
+        "ExternalReferences": [
+            {
+                "Source": "OMIM",
+                "Reference": "616083",
+                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
             }
         ],
         "Genes": [
@@ -46,27 +56,26 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "261938",
-                        "Label": "Partial deletion of the short arm of chromosome 10 syndrome"
+                        "ORPHAcode": "1580",
+                        "Label": "Distal deletion 10p syndrome"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "102283",
-                        "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "611327",
-                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
+                        "ORPHAcode": "694304",
+                        "Label": "ZMYND11-related developmental delay-speech delay-seizures-behavioral abnormalities-craniofacial dysmorphism syndrome"
                     }
                 ]
             }
-        ]
+        ],
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Autosomal dominant"
+                }
+            ]
+        }
     }
 }

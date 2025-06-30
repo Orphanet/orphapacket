@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "988",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "988",
         "Label": "Tibial hemimelia-polysyndactyly-triphalangeal thumb syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_988",
@@ -21,9 +21,18 @@
         ],
         "ExternalReferences": [
             {
-                "Source": "OMIM",
-                "Reference": "188740",
-                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "188740",
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "190605",
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -136,6 +145,28 @@
                 }
             }
         ],
+        "Prevalences": [
+            {
+                "Prevalence": {
+                    "Source": "10869115[PMID]_2333896[PMID]_39273297[PMID]_24965254[PMID]_24478176[PMID]_24777739[PMID]_2837505[PMID]",
+                    "PrevalenceType": "Cases/families",
+                    "PrevalenceQualification": "Case(s)",
+                    "PrevalenceClass": "no data",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Worldwide"
+                }
+            },
+            {
+                "Prevalence": {
+                    "Source": "10869115[PMID]_2333896[PMID]_39273297[PMID]_24965254[PMID]_24478176[PMID]_24777739[PMID]_2837505[PMID]_ORPHANET",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Class only",
+                    "PrevalenceClass": "<1 / 1 000 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Worldwide"
+                }
+            }
+        ],
         "AverageAgeOfOnsets": [
             {
                 "AverageAgeOfOnset": {
@@ -145,6 +176,18 @@
             {
                 "AverageAgeOfOnset": {
                     "value": "Neonatal"
+                }
+            }
+        ],
+        "TypeOfInheritances": [
+            {
+                "TypeOfInheritance": {
+                    "value": "Autosomal dominant"
+                }
+            },
+            {
+                "TypeOfInheritance": {
+                    "value": "Autosomal recessive"
                 }
             }
         ]

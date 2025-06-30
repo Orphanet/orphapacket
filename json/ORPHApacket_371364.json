@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "371364",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "371364",
         "Label": "Hypotonia-speech impairment-severe cognitive delay syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_371364",
@@ -13,10 +13,10 @@
         },
         "Synonyms": [
             {
-                "Synonym": "IHPRF syndrome"
+                "Synonym": "Infantile hypotonia-psychomotor retardation-characteristic facies syndrome"
             },
             {
-                "Synonym": "Infantile hypotonia-psychomotor retardation-characteristic facies syndrome"
+                "Synonym": "IHPRF syndrome"
             }
         ],
         "ExternalReferences": [
@@ -39,50 +39,6 @@
             "TextSectionType": "Definition",
             "Contents": "Hypotonia-speech impairment-severe cognitive delay syndrome is a rare genetic neurodegenerative disorder characterized by severe persistent hypotonia (presenting at birth or in early infancy) severe global developmental delay (with poor or absent speech difficulty or inability to roll sit or walk) profound intellectual disability and failure to thrive. Additional manifestations include microcephaly progressive peripheral spasticity bilateral strabismus and nystagmus constipation and variable dysmorphic facial features (including plagiocephaly broad forehead small nose low-set ears micrognathia and open mouth with tented upper lip)."
         },
-        "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "NALCN",
-                    "Name": "sodium leak channel, non-selective",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "NALCN"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "19082"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "611549"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "UNC80",
-                    "Name": "unc-80 homolog, NALCN channel complex subunit",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "26582"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "612636"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "UNC80"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
-                }
-            }
-        ],
         "Parents": [
             {
                 "Parent": [
@@ -123,6 +79,58 @@
                         "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
                     }
                 ]
+            }
+        ],
+        "Childs": [
+            {
+                "Child": {
+                    "Label": "Hypotonia-speech impairment-severe cognitive delay syndrome due to UNC80 deficiency",
+                    "ORPHAcode": "700333",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "unc-80 homolog, NALCN channel complex subunit",
+                                "Symbol": "UNC80",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "26582"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "612636"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Hypotonia-speech impairment-severe cognitive delay syndrome due to NALCN deficiency",
+                    "ORPHAcode": "700336",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "sodium leak channel, non-selective",
+                                "Symbol": "NALCN",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "19082"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "611549"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "Phenotypes": [

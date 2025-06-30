@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "319605",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "319605",
         "Label": "X-linked mendelian susceptibility to mycobacterial diseases",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_319605",
@@ -18,24 +18,38 @@
         ],
         "ExternalReferences": [
             {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "300636",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "300645",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
+                "Source": "OMIM",
+                "Reference": "300645",
+                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
             }
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "X-linked (XR) Mendelian susceptibility to mycobacterial diseases (MSMD; see this term) describes a rare group of immunodeficiencies due to specific mutations in the inhibitor of kappa light polypeptide gene enhancer in B-cells kinase gamma (<i>IKBKG</i>) or the cytochrome b-245 beta polypeptide (<i>CYBB</i>) genes. They are characterized by mycobacterial infections occuring in males."
+            "Contents": "X-linked (XR) Mendelian susceptibility to mycobacterial diseases (MSMD) describes a rare group of immunodeficiencies due to specific mutations in the inhibitor of kappa light polypeptide gene enhancer in B-cells kinase gamma (<i>IKBKG</i>) or the cytochrome b-245 beta polypeptide (<i>CYBB</i>) genes. They are characterized by mycobacterial infections occuring in males."
         },
+        "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "CYBB",
+                    "Name": "cytochrome b-245 beta chain",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "2578"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "300481"
+                        },
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "CYBB"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            }
+        ],
         "Parents": [
             {
                 "Parent": [
@@ -44,58 +58,6 @@
                         "Label": "Mendelian susceptibility to mycobacterial diseases"
                     }
                 ]
-            }
-        ],
-        "Childs": [
-            {
-                "Child": {
-                    "Label": "X-linked mendelian susceptibility to mycobacterial diseases due to IKBKG deficiency",
-                    "ORPHAcode": "319612",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "inhibitor of nuclear factor kappa B kinase regulatory subunit gamma",
-                                "Symbol": "IKBKG",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "5961"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "300248"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "X-linked mendelian susceptibility to mycobacterial diseases due to CYBB deficiency",
-                    "ORPHAcode": "319623",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "cytochrome b-245 beta chain",
-                                "Symbol": "CYBB",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "2578"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "300481"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
             }
         ],
         "Prevalences": [

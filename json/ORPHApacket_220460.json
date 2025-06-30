@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "220460",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "220460",
         "Label": "Attenuated familial adenomatous polyposis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_220460",
@@ -20,49 +20,51 @@
             },
             {
                 "Synonym": "Attenuated familial polyposis coli"
+            },
+            {
+                "Synonym": "APC-related AFAP"
+            },
+            {
+                "Synonym": "APC-related attenuated FAP"
+            },
+            {
+                "Synonym": "APC-related attenuated familial polyposis coli"
             }
         ],
         "ExternalReferences": [
             {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "175100",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "608456",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "612591",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "615083",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "616415",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
+                "Source": "OMIM",
+                "Reference": "175100",
+                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
             }
         ],
         "TextSection": {
             "TextSectionType": "Definition",
             "Contents": "A mild form of familial adenomatous polyposis characterized by the presence of fewer than 100 adenomatous colonic polyps a more proximal colonic location a delayed age of colorectal cancer onset and a more limited expression of the extracolonic features."
         },
+        "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "APC",
+                    "Name": "APC regulator of WNT signaling pathway",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "583"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "611731"
+                        },
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "APC"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            }
+        ],
         "Parents": [
             {
                 "Parent": [
@@ -89,181 +91,26 @@
                 ]
             }
         ],
-        "Childs": [
-            {
-                "Child": {
-                    "Label": "MUTYH-related attenuated familial adenomatous polyposis",
-                    "ORPHAcode": "247798",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "mutY DNA glycosylase",
-                                "Symbol": "MUTYH",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "7527"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "604933"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "APC-related attenuated familial adenomatous polyposis",
-                    "ORPHAcode": "247806",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "APC regulator of WNT signaling pathway",
-                                "Symbol": "APC",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "583"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "611731"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "AXIN2-related attenuated familial adenomatous polyposis",
-                    "ORPHAcode": "401911",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "axin 2",
-                                "Symbol": "AXIN2",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "904"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "604025"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "MSH3-related attenuated familial adenomatous polyposis",
-                    "ORPHAcode": "480536",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "mutS homolog 3",
-                                "Symbol": "MSH3",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "600887"
-                                    },
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "7326"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Polymerase proofreading-related adenomatous polyposis",
-                    "ORPHAcode": "447877",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "DNA polymerase epsilon, catalytic subunit",
-                                "Symbol": "POLE",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "174762"
-                                    },
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "9177"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "DNA polymerase delta 1, catalytic subunit",
-                                "Symbol": "POLD1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "9175"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "174761"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "NTHL1-related attenuated familial adenomatous polyposis",
-                    "ORPHAcode": "454840",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "nth like DNA glycosylase 1",
-                                "Symbol": "NTHL1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "8028"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "602656"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
-                            }
-                        }
-                    ]
-                }
-            }
-        ],
         "Phenotypes": [
             {
                 "Phenotype": {
                     "HPOId": "HP:0200063",
                     "HPOTerm": "Colorectal polyposis",
                     "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003003",
+                    "HPOTerm": "Colon cancer",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004394",
+                    "HPOTerm": "Multiple gastric polyps",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -348,6 +195,55 @@
                     "HPOId": "HP:0040276",
                     "HPOTerm": "Adenocarcinoma of the colon",
                     "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002672",
+                    "HPOTerm": "Gastrointestinal carcinoma",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002894",
+                    "HPOTerm": "Neoplasm of the pancreas",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002895",
+                    "HPOTerm": "Papillary thyroid carcinoma",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003002",
+                    "HPOTerm": "Breast carcinoma",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0006744",
+                    "HPOTerm": "Adrenocortical carcinoma",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008256",
+                    "HPOTerm": "Adrenocortical adenoma",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0030434",
+                    "HPOTerm": "Pilomatrixoma",
+                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             },
             {

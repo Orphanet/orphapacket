@@ -6,49 +6,25 @@ Orphapacket:
       value: Childhood
   - AverageAgeOfOnset:
       value: Infancy
-  Childs:
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '5961'
-            Source: HGNC
-          - Reference: '300248'
-            Source: OMIM
-          Label: inhibitor of nuclear factor kappa B kinase regulatory subunit gamma
-          Symbol: IKBKG
-      Label: X-linked mendelian susceptibility to mycobacterial diseases due to IKBKG
-        deficiency
-      ORPHAcode: '319612'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '2578'
-            Source: HGNC
-          - Reference: '300481'
-            Source: OMIM
-          Label: cytochrome b-245 beta chain
-          Symbol: CYBB
-      Label: X-linked mendelian susceptibility to mycobacterial diseases due to CYBB
-        deficiency
-      ORPHAcode: '319623'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '300636'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '300645'
-      Source: OMIM
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '300645'
+    Source: OMIM
+  Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '2578'
+        Source: HGNC
+      - Reference: '300481'
+        Source: OMIM
+      - Reference: CYBB
+        Source: ClinVar
+      Name: cytochrome b-245 beta chain
+      Symbol: CYBB
   Label: X-linked mendelian susceptibility to mycobacterial diseases
   ORPHAcode: '319605'
   ORPHApacketId: '319605'
@@ -75,15 +51,15 @@ Orphapacket:
   Synonyms:
   - Synonym: X-linked MSMD
   TextSection:
-    Contents: X-linked (XR) Mendelian susceptibility to mycobacterial diseases (MSMD;
-      see this term) describes a rare group of immunodeficiencies due to specific
-      mutations in the inhibitor of kappa light polypeptide gene enhancer in B-cells
-      kinase gamma (<i>IKBKG</i>) or the cytochrome b-245 beta polypeptide (<i>CYBB</i>)
-      genes. They are characterized by mycobacterial infections occuring in males.
+    Contents: X-linked (XR) Mendelian susceptibility to mycobacterial diseases (MSMD)
+      describes a rare group of immunodeficiencies due to specific mutations in the
+      inhibitor of kappa light polypeptide gene enhancer in B-cells kinase gamma (<i>IKBKG</i>)
+      or the cytochrome b-245 beta polypeptide (<i>CYBB</i>) genes. They are characterized
+      by mycobacterial infections occuring in males.
     TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

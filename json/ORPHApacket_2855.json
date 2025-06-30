@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2855",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "2855",
         "Label": "Perrault syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2855",
@@ -13,10 +13,10 @@
         },
         "Synonyms": [
             {
-                "Synonym": "XX gonadal dysgenesis-deafness syndrome"
+                "Synonym": "XX gonadal dysgenesis-hearing loss syndrome"
             },
             {
-                "Synonym": "XX gonadal dysgenesis-hearing loss syndrome"
+                "Synonym": "XX gonadal dysgenesis-deafness syndrome"
             }
         ],
         "ExternalReferences": [
@@ -58,7 +58,21 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
+                    "Reference": "619518",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
                     "Reference": "617565",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "619737",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
@@ -131,6 +145,23 @@
                     "Label": "Perrault syndrome type 1",
                     "ORPHAcode": "642945",
                     "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "protein only RNase P catalytic subunit",
+                                "Symbol": "PRORP",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "609947"
+                                    },
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "19958"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        },
                         {
                             "Gene": {
                                 "Label": "caseinolytic mitochondrial matrix peptidase proteolytic subunit",
@@ -277,6 +308,23 @@
                     "Genes": [
                         {
                             "Gene": {
+                                "Label": "protein only RNase P catalytic subunit",
+                                "Symbol": "PRORP",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "609947"
+                                    },
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "19958"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        },
+                        {
+                            "Gene": {
                                 "Label": "caseinolytic mitochondrial matrix peptidase proteolytic subunit",
                                 "Symbol": "CLPP",
                                 "ExternalReferences": [
@@ -415,10 +463,145 @@
                 }
             }
         ],
+        "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000407",
+                    "HPOTerm": "Sensorineural hearing impairment",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000837",
+                    "HPOTerm": "Increased circulating gonadotropin level",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000013",
+                    "HPOTerm": "Hypoplasia of the uterus",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000786",
+                    "HPOTerm": "Primary amenorrhea",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008209",
+                    "HPOTerm": "Premature ovarian insufficiency",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010464",
+                    "HPOTerm": "Streak ovary",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000027",
+                    "HPOTerm": "Azoospermia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000175",
+                    "HPOTerm": "Cleft palate",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000218",
+                    "HPOTerm": "High palate",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000813",
+                    "HPOTerm": "Bicornuate uterus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000869",
+                    "HPOTerm": "Secondary amenorrhea",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000876",
+                    "HPOTerm": "Oligomenorrhea",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001251",
+                    "HPOTerm": "Ataxia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001263",
+                    "HPOTerm": "Global developmental delay",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001328",
+                    "HPOTerm": "Specific learning disability",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001513",
+                    "HPOTerm": "Obesity",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001519",
+                    "HPOTerm": "Disproportionate tall stature",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003477",
+                    "HPOTerm": "Peripheral axonal neuropathy",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007256",
+                    "HPOTerm": "Abnormal pyramidal sign",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            }
+        ],
         "Prevalences": [
             {
                 "Prevalence": {
-                    "Source": "Haute Autorit\u00e9 de Sant\u00e9[OTHER]",
+                    "Source": "Haute Autorité de Santé[OTHER]",
                     "PrevalenceType": "Cases/families",
                     "PrevalenceQualification": "Case(s)",
                     "PrevalenceClass": "no data",

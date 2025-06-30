@@ -4,7 +4,6 @@ Orphapacket:
       value: Antenatal
   - AverageAgeOfOnset:
       value: Neonatal
-  Childs: []
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
     value: Malformation syndrome
@@ -19,7 +18,20 @@ Orphapacket:
         to represent it)
       Reference: '248000'
       Source: OMIM
-  Label: Megalencephaly
+  Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: TBC1D7
+        Source: ClinVar
+      - Reference: '21066'
+        Source: HGNC
+      - Reference: '612655'
+        Source: OMIM
+      Name: TBC1 domain family member 7
+      Symbol: TBC1D7
+  Label: Isolated megalencephaly
   ORPHAcode: '2477'
   ORPHApacketId: '2477'
   PURL: http://www.orpha.net/ORDO/Orphanet_2477
@@ -27,6 +39,9 @@ Orphapacket:
   - Parent:
     - Label: Non-syndromic cerebral malformation
       ORPHAcode: '199633'
+  - Parent:
+    - Label: Genetic cerebral malformation
+      ORPHAcode: '269553'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
@@ -92,8 +107,6 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002857
       HPOTerm: Genu valgum
-  Synonyms:
-  - Synonym: Macroencephaly
   TextSection:
     Contents: A rare central nervous system malformation characterized by an abnormally
       large brain accompanied by abnormal head circumference measurements evident
@@ -102,6 +115,9 @@ Orphapacket:
       pattern of symptoms but mental retardation seizures and other neurologic abnormalities
       have been reported.
     TextSectionType: Definition
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

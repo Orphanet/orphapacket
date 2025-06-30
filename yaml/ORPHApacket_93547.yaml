@@ -140,6 +140,15 @@ Orphapacket:
             Source: OMIM
           Label: SOS Ras/Rho guanine nucleotide exchange factor 2
           Symbol: SOS2
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '1097'
+            Source: HGNC
+          - Reference: '164757'
+            Source: OMIM
+          Label: B-Raf proto-oncogene, serine/threonine kinase
+          Symbol: BRAF
       Label: Noonan syndrome
       ORPHAcode: '648'
   - Child:
@@ -737,7 +746,7 @@ Orphapacket:
       ORPHAcode: '3032'
   - Child:
       Genes: no data
-      Label: "Mayer-Rokitansky-K\xFCster-Hauser syndrome"
+      Label: Mayer-Rokitansky-Küster-Hauser syndrome
       ORPHAcode: '3109'
   - Child:
       Genes:
@@ -958,6 +967,10 @@ Orphapacket:
       Label: Turner syndrome
       ORPHAcode: '881'
   - Child:
+      Genes: no data
+      Label: Radio-renal syndrome
+      ORPHAcode: '3015'
+  - Child:
       Genes:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
@@ -972,6 +985,10 @@ Orphapacket:
       Label: Multinucleated neurons-anhydramnios-renal dysplasia-cerebellar hypoplasia-hydranencephaly
         syndrome
       ORPHAcode: '500135'
+  - Child:
+      Genes: no data
+      Label: Caudal duplication
+      ORPHAcode: '1756'
   - Child:
       Genes:
       - Gene:
@@ -1041,7 +1058,7 @@ Orphapacket:
             Source: HGNC
           - Reference: '600140'
             Source: OMIM
-          Label: CREB binding protein
+          Label: CREB binding lysine acetyltransferase
           Symbol: CREBBP
       Label: Menke-Hennekam syndrome
       ORPHAcode: '592574'
@@ -1071,10 +1088,20 @@ Orphapacket:
             Source: OMIM
           Label: PBX homeobox 1
           Symbol: PBX1
-      Label: PBX1-related congenital anomalies of kidney and urinary tract syndrome
+      Label: PBX1-related congenital anomalies of kidney-urinary tract syndrome
       ORPHAcode: '656130'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '617449'
+            Source: OMIM
+          - Reference: '20185'
+            Source: HGNC
+          Label: transmembrane protein 260
+          Symbol: TMEM260
       Label: Structural heart defects-renal anomalies syndrome
       ORPHAcode: '689822'
   DisorderType:
@@ -1086,14 +1113,14 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_93547
   Parents:
   - Parent:
+    - Label: Rare disorder potentially indicated for kidney transplant
+      ORPHAcode: '506213'
+  - Parent:
     - Label: Renal or urinary tract malformation
       ORPHAcode: '93545'
   - Parent:
     - Label: Genetic renal or urinary tract malformation
       ORPHAcode: '183539'
-  - Parent:
-    - Label: Rare disorder potentially indicated for kidney transplant
-      ORPHAcode: '506213'
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

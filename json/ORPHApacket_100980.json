@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "100980",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "100980",
         "Label": "Autosomal dominant pure spastic paraplegia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_100980",
@@ -92,10 +92,12 @@
                                 "Symbol": "SPG19",
                                 "ExternalReferences": [
                                     {
-                                        "ExternalReference": {
-                                            "Source": "HGNC",
-                                            "Reference": "16706"
-                                        }
+                                        "Source": "HGNC",
+                                        "Reference": "16706"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": null
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -115,10 +117,12 @@
                                 "Symbol": "SPG37",
                                 "ExternalReferences": [
                                     {
-                                        "ExternalReference": {
-                                            "Source": "HGNC",
-                                            "Reference": "33472"
-                                        }
+                                        "Source": "OMIM",
+                                        "Reference": null
+                                    },
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "33472"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -246,7 +250,7 @@
             },
             {
                 "Child": {
-                    "Label": "IFH1-related hereditary spastic paraplegia",
+                    "Label": "IFIH1-related hereditary spastic paraplegia",
                     "ORPHAcode": "689231",
                     "Genes": [
                         {
@@ -261,6 +265,31 @@
                                     {
                                         "Source": "OMIM",
                                         "Reference": "606951"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "ADAR-related hereditary spastic paraplegia",
+                    "ORPHAcode": "694356",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "adenosine deaminase RNA specific",
+                                "Symbol": "ADAR",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "225"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "146920"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"

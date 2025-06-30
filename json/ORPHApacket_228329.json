@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "228329",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "228329",
         "Label": "CLN1 disease",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_228329",
@@ -13,35 +13,23 @@
         },
         "Synonyms": [
             {
-                "Synonym": "Haltia-Santavuori disease"
+                "Synonym": "Neuronal ceroid lipofuscinosis type 1"
             },
             {
-                "Synonym": "Neuronal ceroid lipofuscinosis type 1"
+                "Synonym": "NCL1"
             }
         ],
-        "Genes": [
+        "ExternalReferences": [
             {
-                "Gene": {
-                    "Symbol": "PPT1",
-                    "Name": "palmitoyl-protein thioesterase 1",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "PPT1"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "9325"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "600722"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
+                "Source": "OMIM",
+                "Reference": "256730",
+                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
             }
         ],
+        "TextSection": {
+            "TextSectionType": "Definition",
+            "Contents": "A rare neuronal ceroid lipofuscinosis characterized by developmental delay psychomotor regression hypotonia seizures ataxia movement disorders and visual impairment. It may present classically with infantile-onset (6-18 months) however late infantile (18 months-4 years) juvenile (4 years-early adolescence) or adult-onset (mid 20s-mid 30s) have also been described. Disease progression is rapid in both infantile/late infantile onset patients manifesting with progressive and rapid loss of speech early cognitive and motor decline impaired gait function myoclonus vision loss (observed bit later in late infantile form) and brain atrophy. Infantile form is characterized by a short lifespan preceeded by a relatively long steady progression following the rapid decline. Disease progression is slow in juvenile-onset and protracted in adult-onset patients. Psychosis in juvenile-onset patients depression and parkinsonism in adult-onset patients are reported in addition to the common clinical symptoms."
+        },
         "Parents": [
             {
                 "Parent": [
@@ -59,6 +47,144 @@
                     }
                 ]
             }
-        ]
+        ],
+        "Childs": [
+            {
+                "Child": {
+                    "Label": "Infantile CLN1 disease",
+                    "ORPHAcode": "699718",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "palmitoyl-protein thioesterase 1",
+                                "Symbol": "PPT1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "9325"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600722"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Juvenile CLN1 disease",
+                    "ORPHAcode": "699739",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "palmitoyl-protein thioesterase 1",
+                                "Symbol": "PPT1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "9325"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600722"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Adult CLN1 disease",
+                    "ORPHAcode": "699745",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "palmitoyl-protein thioesterase 1",
+                                "Symbol": "PPT1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "9325"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600722"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Late infantile CLN1 disease",
+                    "ORPHAcode": "699734",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "palmitoyl-protein thioesterase 1",
+                                "Symbol": "PPT1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "9325"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600722"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "Prevalences": [
+            {
+                "Prevalence": {
+                    "Source": "ORPHANET",
+                    "PrevalenceType": "Cases/families",
+                    "PrevalenceQualification": "Case(s)",
+                    "PrevalenceClass": "no data",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Worldwide"
+                }
+            },
+            {
+                "Prevalence": {
+                    "Source": "ORPHANET",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Class only",
+                    "PrevalenceClass": "<1 / 1 000 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Worldwide"
+                }
+            }
+        ],
+        "AverageAgeOfOnsets": {
+            "AverageAgeOfOnset": [
+                {
+                    "value": "Infancy"
+                }
+            ]
+        },
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Autosomal recessive"
+                }
+            ]
+        }
     }
 }

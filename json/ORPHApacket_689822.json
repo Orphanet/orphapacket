@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "689822",
-        "creationDate": "2024-12-03 10:13:55",
-        "version": "1.3.29 / 4.1.7 [2023-08-02] (orientdb version)",
-        "copyright": "Orphanet (c) 2024",
+        "creationDate": "2025-06-26 11:48:15",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "689822",
         "Label": "Structural heart defects-renal anomalies syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_689822",
@@ -13,10 +13,36 @@
         },
         "Synonyms": [
             {
-                "Synonym": "SHDRA syndrome"
+                "Synonym": "Severe congenital heart defects-renal anomalies syndome"
             },
             {
-                "Synonym": "Severe congenital heart defects-renal anomalies syndome"
+                "Synonym": "SHDRA syndrome"
+            }
+        ],
+        "ExternalReferences": [
+            {
+                "Source": "OMIM",
+                "Reference": "617478",
+                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+            }
+        ],
+        "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "TMEM260",
+                    "Name": "transmembrane protein 260",
+                    "ExternalReferences": [
+                        {
+                            "Source": "OMIM",
+                            "Reference": "617449"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "20185"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                }
             }
         ],
         "Parents": [
@@ -52,6 +78,47 @@
                     }
                 ]
             }
-        ]
+        ],
+        "Prevalences": [
+            {
+                "Prevalence": {
+                    "Source": "28318500[PMID]_34612517[PMID]",
+                    "PrevalenceType": "Cases/families",
+                    "PrevalenceQualification": "Case(s)",
+                    "PrevalenceClass": "no data",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Worldwide"
+                }
+            },
+            {
+                "Prevalence": {
+                    "Source": "28318500[PMID]_34612517[PMID]_ORPHANET",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Class only",
+                    "PrevalenceClass": "<1 / 1 000 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Worldwide"
+                }
+            }
+        ],
+        "AverageAgeOfOnsets": [
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Antenatal"
+                }
+            },
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Neonatal"
+                }
+            }
+        ],
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Autosomal recessive"
+                }
+            ]
+        }
     }
 }

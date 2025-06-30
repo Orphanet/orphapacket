@@ -65,14 +65,32 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - ExternalReference:
-              Reference: '10193'
-              Source: HGNC
+          - Reference: '10193'
+            Source: HGNC
+          - Reference: '620823'
+            Source: OMIM
           Label: RNA, U4 small nuclear 2
           Symbol: RNU4-2
       Label: RNU4-2-related neurodevelopmental disorder-facial dysmorphism-white matter
         abnormalities-short stature syndrome
       ORPHAcode: '686488'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '11540'
+            Source: HGNC
+          - Reference: '602955'
+            Source: OMIM
+          Label: TATA-box binding protein associated factor 6
+          Symbol: TAF6
+      Label: Alazami-Yuan syndrome
+      ORPHAcode: '694946'
+  - Child:
+      Genes: no data
+      Label: Brachymorphism-onychodysplasia-dysphalangism syndrome
+      ORPHAcode: '1292'
   - Child:
       Genes:
       - Gene:
@@ -138,14 +156,6 @@ Orphapacket:
             Source: OMIM
           Label: RAD21 cohesin complex component
           Symbol: RAD21
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - ExternalReference:
-              Reference: '11540'
-              Source: HGNC
-          Label: TATA-box binding protein associated factor 6
-          Symbol: TAF6
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -400,7 +410,7 @@ Orphapacket:
             Source: OMIM
           Label: NBAS subunit of NRZ tethering complex
           Symbol: NBAS
-      Label: "Short stature-optic atrophy-Pelger-Hu\xEBt anomaly syndrome"
+      Label: Short stature-optic atrophy-Pelger-Huët anomaly syndrome
       ORPHAcode: '391677'
   - Child:
       Genes: no data
@@ -759,7 +769,7 @@ Orphapacket:
             Source: HGNC
           - Reference: '600140'
             Source: OMIM
-          Label: CREB binding protein
+          Label: CREB binding lysine acetyltransferase
           Symbol: CREBBP
       Label: Menke-Hennekam syndrome
       ORPHAcode: '592574'
@@ -822,6 +832,6 @@ Orphapacket:
   - Parent:
     - Label: Rare genetic developmental defect during embryogenesis
       ORPHAcode: '183530'
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

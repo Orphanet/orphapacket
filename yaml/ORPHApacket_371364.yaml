@@ -4,6 +4,36 @@ Orphapacket:
       value: Infancy
   - AverageAgeOfOnset:
       value: Neonatal
+  Childs:
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '26582'
+            Source: HGNC
+          - Reference: '612636'
+            Source: OMIM
+          Label: unc-80 homolog, NALCN channel complex subunit
+          Symbol: UNC80
+      Label: Hypotonia-speech impairment-severe cognitive delay syndrome due to UNC80
+        deficiency
+      ORPHAcode: '700333'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '19082'
+            Source: HGNC
+          - Reference: '611549'
+            Source: OMIM
+          Label: sodium leak channel, non-selective
+          Symbol: NALCN
+      Label: Hypotonia-speech impairment-severe cognitive delay syndrome due to NALCN
+        deficiency
+      ORPHAcode: '700336'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
@@ -18,30 +48,6 @@ Orphapacket:
         to represent it)
       Reference: '615419'
       Source: OMIM
-  Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: NALCN
-        Source: ClinVar
-      - Reference: '19082'
-        Source: HGNC
-      - Reference: '611549'
-        Source: OMIM
-      Name: sodium leak channel, non-selective
-      Symbol: NALCN
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '26582'
-        Source: HGNC
-      - Reference: '612636'
-        Source: OMIM
-      - Reference: UNC80
-        Source: ClinVar
-      Name: unc-80 homolog, NALCN channel complex subunit
-      Symbol: UNC80
   Label: Hypotonia-speech impairment-severe cognitive delay syndrome
   ORPHAcode: '371364'
   ORPHApacketId: '371364'
@@ -293,8 +299,8 @@ Orphapacket:
       Source: 23749988[PMID]_24075186[PMID]
       ValMoy: '0.0'
   Synonyms:
-  - Synonym: IHPRF syndrome
   - Synonym: Infantile hypotonia-psychomotor retardation-characteristic facies syndrome
+  - Synonym: IHPRF syndrome
   TextSection:
     Contents: Hypotonia-speech impairment-severe cognitive delay syndrome is a rare
       genetic neurodegenerative disorder characterized by severe persistent hypotonia
@@ -309,6 +315,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

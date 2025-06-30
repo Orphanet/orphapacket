@@ -1,4 +1,11 @@
 Orphapacket:
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
     value: Malformation syndrome
@@ -16,8 +23,7 @@ Orphapacket:
         Source: OMIM
       - Reference: SMARCA2
         Source: ClinVar
-      Name: SWI/SNF related, matrix associated, actin dependent regulator of chromatin,
-        subfamily a, member 2
+      Name: SWI/SNF related BAF chromatin remodeling complex subunit ATPase 2
       Symbol: SMARCA2
   Label: SMARCA2-related blepharophimosis-intellectual disability syndrome
   ORPHAcode: '637013'
@@ -27,6 +33,21 @@ Orphapacket:
   - Parent:
     - Label: Blepharophimosis-intellectual disability syndrome
       ORPHAcode: '293642'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case(s)
+      PrevalenceType: Cases/families
+      Source: 32694869[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: 32694869[PMID]_ORPHANET
+      ValMoy: no data
   TextSection:
     Contents: A rare genetic syndromic intellectual disability disorder characterized
       by global developmental delay often with severe hypotonia and limited mobility
@@ -35,6 +56,9 @@ Orphapacket:
       epicanthal folds sparse eyebrows and eyelashes broad nasal bridge short nose
       with downturned tip open mouth with thin upper vermillion and abnormal ears.
     TextSectionType: Definition
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal dominant
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]

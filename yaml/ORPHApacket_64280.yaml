@@ -34,18 +34,7 @@ Orphapacket:
       Source: OMIM
   Genes:
   - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: SLC2A1
-        Source: ClinVar
-      - Reference: '11005'
-        Source: HGNC
-      - Reference: '138140'
-        Source: OMIM
-      Name: solute carrier family 2 member 1
-      Symbol: SLC2A1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
       - Reference: GABRB3
         Source: ClinVar
@@ -55,25 +44,11 @@ Orphapacket:
         Source: OMIM
       Name: gamma-aminobutyric acid type A receptor subunit beta3
       Symbol: GABRB3
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '1395'
-        Source: HGNC
-      - Reference: '607904'
-        Source: OMIM
-      - Reference: CACNA1H
-        Source: ClinVar
-      Name: calcium voltage-gated channel subunit alpha1 H
-      Symbol: CACNA1H
   Label: Childhood absence epilepsy
   ORPHAcode: '64280'
   ORPHApacketId: '64280'
   PURL: http://www.orpha.net/ORDO/Orphanet_64280
   Parents:
-  - Parent:
-    - Label: Familial partial epilepsy
-      ORPHAcode: '309'
   - Parent:
     - Label: Neurological channelopathy of the central nervous system due to a genetic
         calcium channel defect
@@ -82,6 +57,9 @@ Orphapacket:
     - Label: Neurological channelopathy of the central nervous system due to a genetic
         GABA receptor defect
       ORPHAcode: '98749'
+  - Parent:
+    - Label: Childhood-onset epilepsy syndrome
+      ORPHAcode: '98259'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -192,6 +170,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2024
-  creationDate: '2024-12-03 10:13:55'
-  version: 1.3.29 / 4.1.7 [2023-08-02] (orientdb version)
+  copyright: Orphanet (c) 2025
+  creationDate: '2025-06-26 11:48:15'
+  version: 1.3.42 / 4.1.8 [2025-03-03]
