@@ -4,45 +4,7 @@ Orphapacket:
     - value: Infancy
   Childs:
   - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
-            of function) in
-          ExternalReferences:
-          - Reference: '8582'
-            Source: HGNC
-          - Reference: '612349'
-            Source: OMIM
-          Label: phenylalanine hydroxylase
-          Symbol: PAH
-      Label: Mild phenylketonuria
-      ORPHAcode: '79253'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
-            of function) in
-          ExternalReferences:
-          - Reference: '8582'
-            Source: HGNC
-          - Reference: '612349'
-            Source: OMIM
-          Label: phenylalanine hydroxylase
-          Symbol: PAH
-      Label: Classic phenylketonuria
-      ORPHAcode: '79254'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
-            of function) in
-          ExternalReferences:
-          - Reference: '8582'
-            Source: HGNC
-          - Reference: '612349'
-            Source: OMIM
-          Label: phenylalanine hydroxylase
-          Symbol: PAH
+      Genes: no data
       Label: Mild hyperphenylalaninemia
       ORPHAcode: '79651'
   - Child:
@@ -56,13 +18,27 @@ Orphapacket:
             Source: OMIM
           Label: phenylalanine hydroxylase
           Symbol: PAH
-      Label: Tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria
+      Label: Tetrahydrobiopterin-responsive phenylketonuria
       ORPHAcode: '293284'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '8582'
+            Source: HGNC
+          - Reference: '612349'
+            Source: OMIM
+          Label: phenylalanine hydroxylase
+          Symbol: PAH
+      Label: Tetrahydrobiopterin-unresponsive phenylketonuria
+      ORPHAcode: '708895'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+  - DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code used
+      to represent it)
     Reference: '261600'
     Source: OMIM
   Label: Phenylketonuria
@@ -110,8 +86,16 @@ Orphapacket:
       HPOTerm: Seizure
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001328
       HPOTerm: Specific learning disability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001510
+      HPOTerm: Growth delay
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002353
@@ -895,9 +879,7 @@ Orphapacket:
       Source: 34082800[PMID]
       ValMoy: no data
   Synonyms:
-  - Synonym: PAH deficiency
   - Synonym: PKU
-  - Synonym: Phenylalanine hydroxylase deficiency
   TextSection:
     Contents: A rare inborn error of amino acid metabolism characterized by elevated
       blood phenylalanine and low levels or absence of phenylalanine hydroxylase enzyme.
@@ -908,5 +890,5 @@ Orphapacket:
     TypeOfInheritance:
     - value: Autosomal recessive
   copyright: Orphanet (c) 2025
-  creationDate: '2025-06-26 11:48:15'
+  creationDate: '2025-12-08 06:52:43'
   version: 1.3.42 / 4.1.8 [2025-03-03]

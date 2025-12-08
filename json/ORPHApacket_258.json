@@ -1,7 +1,7 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "258",
-        "creationDate": "2025-06-26 11:48:15",
+        "creationDate": "2025-12-08 06:52:43",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
         "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "258",
@@ -30,23 +30,14 @@
         ],
         "ExternalReferences": [
             {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "618138",
-                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "607855",
-                    "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
-                }
+                "Source": "OMIM",
+                "Reference": "607855",
+                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
             }
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Congenital muscular dystrophy type 1A (MCD1A) belongs to a group of neuromuscular disorders with onset at birth or infancy characterized by hypotonia muscle weakness and muscle wasting."
+            "Contents": "A rare congenital muscular dystrophy characterized by severe hypotonia muscle weakness and muscle wasting presenting at birth or during infancy poor spontaneous movements and contractures of the large joints. Patients have poor motor development leading to feeding and respiratory issues."
         },
         "Genes": [
             {
@@ -98,6 +89,13 @@
             }
         ],
         "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003560",
+                    "HPOTerm": "Muscular dystrophy",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0001252",
@@ -165,13 +163,6 @@
                 "Phenotype": {
                     "HPOId": "HP:0003560",
                     "HPOTerm": "Muscular dystrophy",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003741",
-                    "HPOTerm": "Congenital muscular dystrophy",
                     "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
@@ -480,12 +471,32 @@
         "Prevalences": [
             {
                 "Prevalence": {
-                    "Source": "[EXPERT]",
+                    "Source": "37005889[PMID]_ORPHANET",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 1 000 000",
                     "ValMoy": "no data",
+                    "PrevalenceGeographic": "Eastern Mediterranean Asia"
+                }
+            },
+            {
+                "Prevalence": {
+                    "Source": "37005889[PMID]_ORPHANET",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 100 000",
+                    "ValMoy": "no data",
                     "PrevalenceGeographic": "Europe"
+                }
+            },
+            {
+                "Prevalence": {
+                    "Source": "37005889[PMID]_ORPHANET",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 1 000 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Worldwide"
                 }
             },
             {
@@ -499,13 +510,23 @@
                 }
             }
         ],
-        "AverageAgeOfOnsets": {
-            "AverageAgeOfOnset": [
-                {
+        "AverageAgeOfOnsets": [
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Antenatal"
+                }
+            },
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Infancy"
+                }
+            },
+            {
+                "AverageAgeOfOnset": {
                     "value": "Neonatal"
                 }
-            ]
-        },
+            }
+        ],
         "TypeOfInheritances": {
             "TypeOfInheritance": [
                 {

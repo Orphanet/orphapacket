@@ -8,10 +8,21 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code used
-      to represent it)
-    Reference: '605021'
-    Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '617976'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
+      Reference: '605021'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618364'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -36,6 +47,17 @@ Orphapacket:
         Source: OMIM
       Name: TBC1 domain family member 24
       Symbol: TBC1D24
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '10596'
+        Source: HGNC
+      - Reference: '600702'
+        Source: OMIM
+      - Reference: SCN8A
+        Source: ClinVar
+      Name: sodium voltage-gated channel alpha subunit 8
+      Symbol: SCN8A
   Label: Familial infantile myoclonic epilepsy
   ORPHAcode: '352582'
   ORPHApacketId: '352582'
@@ -177,5 +199,5 @@ Orphapacket:
     TypeOfInheritance:
     - value: Autosomal recessive
   copyright: Orphanet (c) 2025
-  creationDate: '2025-06-26 11:48:15'
+  creationDate: '2025-12-08 06:52:43'
   version: 1.3.42 / 4.1.8 [2025-03-03]

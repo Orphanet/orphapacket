@@ -1,7 +1,7 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "352682",
-        "creationDate": "2025-06-26 11:48:15",
+        "creationDate": "2025-12-08 06:52:43",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
         "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "352682",
@@ -24,9 +24,18 @@
         ],
         "ExternalReferences": [
             {
-                "Source": "OMIM",
-                "Reference": "615191",
-                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "615191",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "617255",
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -50,6 +59,27 @@
                         {
                             "Source": "OMIM",
                             "Reference": "150240"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "TMTC3",
+                    "Name": "transmembrane O-mannosyltransferase targeting cadherins 3",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "TMTC3"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "26899"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "617218"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"

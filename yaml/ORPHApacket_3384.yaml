@@ -6,12 +6,48 @@ Orphapacket:
       value: Neonatal
   Childs:
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '11592'
+            Source: HGNC
+          - Reference: '602054'
+            Source: OMIM
+          Label: T-box transcription factor 1
+          Symbol: TBX1
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '4174'
+            Source: HGNC
+          - Reference: '601656'
+            Source: OMIM
+          Label: GATA binding protein 6
+          Symbol: GATA6
       Label: Common arterial trunk with pulmonary dominance and interrupted aortic
         arch
       ORPHAcode: '665058'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '11592'
+            Source: HGNC
+          - Reference: '602054'
+            Source: OMIM
+          Label: T-box transcription factor 1
+          Symbol: TBX1
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '4174'
+            Source: HGNC
+          - Reference: '601656'
+            Source: OMIM
+          Label: GATA binding protein 6
+          Symbol: GATA6
       Label: Common arterial trunk with aortic dominance
       ORPHAcode: '665044'
   DisorderType:
@@ -23,17 +59,6 @@ Orphapacket:
     Reference: '217095'
     Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '11592'
-        Source: HGNC
-      - Reference: '602054'
-        Source: OMIM
-      - Reference: TBX1
-        Source: ClinVar
-      Name: T-box transcription factor 1
-      Symbol: TBX1
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
@@ -330,18 +355,20 @@ Orphapacket:
   - Synonym: CAT
   - Synonym: Truncus arteriosus
   - Synonym: Common aorticopulmonary trunk
+  - Synonym: Truncus arteriosus communis
+  - Synonym: Persistent truncus arteriosus
+  - Synonym: Common truncus arteriosus
   TextSection:
-    Contents: Truncus arteriosus (TA) is a rare congenital cardiovascular anomaly
-      characterized by a single arterial trunk arising from the heart by means of
-      a single semilunar valve (<I>i.e.</I> truncal valve). Pulmonary arteries originate
-      from the common arterial trunk distal to the coronary arteries and proximal
-      to the first brachiocephalic branch of the aortic arch. TA typically overrides
-      a large outlet ventricular septal defect (VSD). The intracardiac anatomy usually
-      displays situs solitus and atrioventricular (AV) concordance.
+    Contents: 'A rare congenital cardiac malformation characterized by a single arterial
+      trunk arising from the heart giving origin sequentially to the coronary arteries
+      one or more pulmonary arteries and the systemic arterial circulation. Two forms
+      exist: common arterial trunk (CAT) with aortic dominance (unobstructed aortic
+      arch) and one or both pulmonary arteries originating from the trunk and CAT
+      with pulmonary dominance and interrupted aortic arch or coarctation.'
     TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
   copyright: Orphanet (c) 2025
-  creationDate: '2025-06-26 11:48:15'
+  creationDate: '2025-12-08 06:52:43'
   version: 1.3.42 / 4.1.8 [2025-03-03]

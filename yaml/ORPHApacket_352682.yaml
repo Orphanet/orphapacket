@@ -8,9 +8,16 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-    Reference: '615191'
-    Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '615191'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
+      Reference: '617255'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -23,6 +30,17 @@ Orphapacket:
         Source: OMIM
       Name: laminin subunit beta 1
       Symbol: LAMB1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: TMTC3
+        Source: ClinVar
+      - Reference: '26899'
+        Source: HGNC
+      - Reference: '617218'
+        Source: OMIM
+      Name: transmembrane O-mannosyltransferase targeting cadherins 3
+      Symbol: TMTC3
   Label: Cobblestone lissencephaly without muscular or ocular involvement
   ORPHAcode: '352682'
   ORPHApacketId: '352682'
@@ -115,5 +133,5 @@ Orphapacket:
     TypeOfInheritance:
     - value: Autosomal recessive
   copyright: Orphanet (c) 2025
-  creationDate: '2025-06-26 11:48:15'
+  creationDate: '2025-12-08 06:52:43'
   version: 1.3.42 / 4.1.8 [2025-03-03]

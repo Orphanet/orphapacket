@@ -14,10 +14,9 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Role in the phenotype of
           ExternalReferences:
-          - Reference: null
-            Source: OMIM
-          - Reference: '31376'
-            Source: HGNC
+          - ExternalReference:
+              Reference: '31376'
+              Source: HGNC
           Label: dystonia 15, myoclonic
           Symbol: DYT15
       - Gene:
@@ -42,6 +41,24 @@ Orphapacket:
             Source: OMIM
           Label: sterile alpha motif domain containing 12
           Symbol: SAMD12
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '11969'
+            Source: HGNC
+          - Reference: '610739'
+            Source: OMIM
+          Label: trinucleotide repeat containing adaptor 6A
+          Symbol: TNRC6A
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '16854'
+            Source: HGNC
+          - Reference: '609530'
+            Source: OMIM
+          Label: Rap guanine nucleotide exchange factor 2
+          Symbol: RAPGEF2
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -122,5 +139,5 @@ Orphapacket:
     - Label: Rare genetic myoclonus
       ORPHAcode: '307064'
   copyright: Orphanet (c) 2025
-  creationDate: '2025-06-26 11:48:15'
+  creationDate: '2025-12-08 06:52:43'
   version: 1.3.42 / 4.1.8 [2025-03-03]

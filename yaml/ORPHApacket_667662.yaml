@@ -1,4 +1,9 @@
 Orphapacket:
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Elderly
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
@@ -36,6 +41,50 @@ Orphapacket:
         Source: ClinVar
       Name: signal transducer and activator of transcription 3
       Symbol: STAT3
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
+      ExternalReferences:
+      - Reference: '11364'
+        Source: HGNC
+      - Reference: '102582'
+        Source: OMIM
+      - Reference: STAT3
+        Source: ClinVar
+      Name: signal transducer and activator of transcription 3
+      Symbol: STAT3
+  - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
+      ExternalReferences:
+      - Reference: '1100'
+        Source: HGNC
+      - Reference: '113705'
+        Source: OMIM
+      - Reference: BRCA1
+        Source: ClinVar
+      Name: BRCA1 DNA repair associated
+      Symbol: BRCA1
+  - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
+      ExternalReferences:
+      - Reference: '1101'
+        Source: HGNC
+      - Reference: '600185'
+        Source: OMIM
+      - Reference: BRCA2
+        Source: ClinVar
+      Name: BRCA2 DNA repair associated
+      Symbol: BRCA2
+  - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
+      ExternalReferences:
+      - Reference: '11998'
+        Source: HGNC
+      - Reference: '191170'
+        Source: OMIM
+      - Reference: TP53
+        Source: ClinVar
+      Name: tumor protein p53
+      Symbol: TP53
   Label: Breast implant-associated anaplastic large cell lymphoma
   ORPHAcode: '667662'
   ORPHApacketId: '667662'
@@ -47,9 +96,15 @@ Orphapacket:
   Synonyms:
   - Synonym: Breast implant-associated ALCL
   - Synonym: Seroma-associated ALCL
+  TextSection:
+    Contents: A rare T-cell non-Hodgkin lymphoma characterized clinically by tumor
+      developing exclusively after exposure to textured breast implants and arising
+      typically from the periprosthetic capsule surrounding them. Despite being a
+      hematological malignancy it behaves as a solid tumor.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
   copyright: Orphanet (c) 2025
-  creationDate: '2025-06-26 11:48:15'
+  creationDate: '2025-12-08 06:52:43'
   version: 1.3.42 / 4.1.8 [2025-03-03]

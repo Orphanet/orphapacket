@@ -15,11 +15,9 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_2715
   Parents:
   - Parent:
-    - Label: Syndromic genetic disorder with strabismus
-      ORPHAcode: '522520'
-  - Parent:
-    - Label: Syndromic inherited retinal disorder
-      ORPHAcode: '519325'
+    - Label: Rare genetic disorder with progressive vasculopathy disorder as a major
+        feature
+      ORPHAcode: '717348'
   - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
@@ -27,6 +25,12 @@ Orphapacket:
   - Parent:
     - Label: Disorder with multisystemic involvement and glomerulopathy
       ORPHAcode: '567562'
+  - Parent:
+    - Label: Syndromic genetic disorder with strabismus
+      ORPHAcode: '522520'
+  - Parent:
+    - Label: Rare disorder with progressive retinal vasculopathy as a major feature
+      ORPHAcode: '716459'
   - Parent:
     - Label: Syndromic disorder with strabismus
       ORPHAcode: '98683'
@@ -36,6 +40,10 @@ Orphapacket:
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001382
+      HPOTerm: Joint hypermobility
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000083
       HPOTerm: Renal insufficiency
   - Phenotype:
@@ -43,89 +51,25 @@ Orphapacket:
       HPOId: HP:0000093
       HPOTerm: Proteinuria
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000154
-      HPOTerm: Wide mouth
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000275
-      HPOTerm: Narrow face
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000298
-      HPOTerm: Mask-like facies
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000303
-      HPOTerm: Mandibular prognathia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000400
-      HPOTerm: Macrotia
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000486
       HPOTerm: Strabismus
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000505
-      HPOTerm: Visual impairment
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000518
-      HPOTerm: Cataract
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000648
       HPOTerm: Optic atrophy
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001053
-      HPOTerm: Hypopigmented skin patches
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001252
       HPOTerm: Hypotonia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001257
-      HPOTerm: Spasticity
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001264
-      HPOTerm: Spastic diplegia
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001266
       HPOTerm: Choreoathetosis
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001347
-      HPOTerm: Hyperreflexia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001852
-      HPOTerm: Sandal gap
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002187
       HPOTerm: Intellectual disability, profound
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002650
-      HPOTerm: Scoliosis
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0004322
-      HPOTerm: Short stature
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0005692
-      HPOTerm: Joint hyperflexibility
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0007360
-      HPOTerm: Aplasia/Hypoplasia of the cerebellum
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0007703
@@ -135,9 +79,53 @@ Orphapacket:
       HPOId: HP:0008046
       HPOTerm: Abnormal retinal vascular morphology
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0009748
-      HPOTerm: Large earlobe
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100820
+      HPOTerm: Glomerulopathy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000154
+      HPOTerm: Wide mouth
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000275
+      HPOTerm: Narrow face
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000303
+      HPOTerm: Mandibular prognathia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000400
+      HPOTerm: Macrotia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000505
+      HPOTerm: Visual impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001257
+      HPOTerm: Spasticity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001264
+      HPOTerm: Spastic diplegia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001347
+      HPOTerm: Hyperreflexia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001852
+      HPOTerm: Sandal gap
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007360
+      HPOTerm: Aplasia/Hypoplasia of the cerebellum
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0010620
@@ -147,9 +135,25 @@ Orphapacket:
       HPOId: HP:0010669
       HPOTerm: Hypoplasia of the zygomatic bone
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0100820
-      HPOTerm: Glomerulopathy
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000298
+      HPOTerm: Mask-like facies
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000518
+      HPOTerm: Cataract
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001053
+      HPOTerm: Hypopigmented skin patches
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009748
+      HPOTerm: Large earlobe
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -177,6 +181,9 @@ Orphapacket:
       Absence of the cerebellar granular layer has been reported. There have been
       no further descriptions in the literature since 1982.
     TextSectionType: Definition
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive
   copyright: Orphanet (c) 2025
-  creationDate: '2025-06-26 11:48:15'
+  creationDate: '2025-12-08 06:52:43'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -1,7 +1,7 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1770",
-        "creationDate": "2025-06-26 11:48:15",
+        "creationDate": "2025-12-08 06:52:43",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
         "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "1770",
@@ -14,7 +14,7 @@
         "ExternalReferences": [
             {
                 "Source": "OMIM",
-                "Reference": "233430",
+                "Reference": "618419",
                 "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
             }
         ],
@@ -22,6 +22,25 @@
             "TextSectionType": "Definition",
             "Contents": "A rare syndrome with 46,XY difference of sex development characterized by mild developmental delay and streak gonads associated with short stature cardiac renal musculoskeletal and ectodermal abnormalities (the latter including scalp defects and unusual hair whorls) and dysmorphic facial features (such as preauricular pits short columella and small nares). There have been no further descriptions in the literature since 1980."
         },
+        "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "PPP2R3C",
+                    "Name": "protein phosphatase 2 regulatory subunit B''gamma",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "17485"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "615902"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            }
+        ],
         "Parents": [
             {
                 "Parent": [
@@ -72,44 +91,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000175",
-                    "HPOTerm": "Cleft palate",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000286",
-                    "HPOTerm": "Epicanthus",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000288",
-                    "HPOTerm": "Abnormality of the philtrum",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000368",
-                    "HPOTerm": "Low-set, posteriorly rotated ears",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0000413",
                     "HPOTerm": "Atresia of the external auditory canal",
                     "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000494",
-                    "HPOTerm": "Downslanted palpebral fissures",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -149,23 +133,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002000",
-                    "HPOTerm": "Short columella",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0002750",
                     "HPOTerm": "Delayed skeletal maturation",
                     "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004322",
-                    "HPOTerm": "Short stature",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -191,20 +161,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0008551",
-                    "HPOTerm": "Microtia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008678",
-                    "HPOTerm": "Renal hypoplasia/aplasia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0010720",
                     "HPOTerm": "Abnormal hair pattern",
                     "HPOFrequency": "Very frequent (99-80%)"
@@ -226,8 +182,71 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0000175",
+                    "HPOTerm": "Cleft palate",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000286",
+                    "HPOTerm": "Epicanthus",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000288",
+                    "HPOTerm": "Abnormality of the philtrum",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000494",
+                    "HPOTerm": "Downslanted palpebral fissures",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002000",
+                    "HPOTerm": "Short columella",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004322",
+                    "HPOTerm": "Short stature",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008551",
+                    "HPOTerm": "Microtia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008678",
+                    "HPOTerm": "Renal hypoplasia/aplasia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0100335",
                     "HPOTerm": "Non-midline cleft of the upper lip",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000358",
+                    "HPOTerm": "Posteriorly rotated ears",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             }

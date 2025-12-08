@@ -1,7 +1,7 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "98820",
-        "creationDate": "2025-06-26 11:48:15",
+        "creationDate": "2025-12-08 06:52:43",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
         "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "98820",
@@ -38,6 +38,13 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "617118",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "617935",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
@@ -108,6 +115,27 @@
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "SCN3A",
+                    "Name": "sodium voltage-gated channel alpha subunit 3",
+                    "ExternalReferences": [
+                        {
+                            "Source": "OMIM",
+                            "Reference": "182391"
+                        },
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "SCN3A"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "10590"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -302,6 +330,28 @@
                     "HPOId": "HP:0011171",
                     "HPOTerm": "Simple febrile seizures",
                     "HPOFrequency": "Very rare (<4-1%)"
+                }
+            }
+        ],
+        "Prevalences": [
+            {
+                "Prevalence": {
+                    "Source": "14510823[PMID]_15329069[PMID]_22780917[PMID]_24814846[PMID]_25623524[PMID]_27066565[PMID]_32848577[PMID]_26505888[PMID]",
+                    "PrevalenceType": "Cases/families",
+                    "PrevalenceQualification": "Case(s)",
+                    "PrevalenceClass": "no data",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Worldwide"
+                }
+            },
+            {
+                "Prevalence": {
+                    "Source": "14510823[PMID]_15329069[PMID]_22780917[PMID]_24814846[PMID]_25623524[PMID]_27066565[PMID]_32848577[PMID]_26505888[PMID]_ORPHANET",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Class only",
+                    "PrevalenceClass": "<1 / 1 000 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Worldwide"
                 }
             }
         ],

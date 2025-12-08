@@ -61,10 +61,9 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '43724'
-            Source: HGNC
-          - Reference: null
-            Source: OMIM
+          - ExternalReference:
+              Reference: '43724'
+              Source: HGNC
           Label: Usher syndrome 1K (autosomal recessive)
           Symbol: USH1K
       - Gene:
@@ -120,19 +119,17 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '12599'
-            Source: HGNC
-          - Reference: null
-            Source: OMIM
+          - ExternalReference:
+              Reference: '12599'
+              Source: HGNC
           Label: Usher syndrome 1E (autosomal recessive, severe)
           Symbol: USH1E
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: null
-            Source: OMIM
-          - Reference: '22433'
-            Source: HGNC
+          - ExternalReference:
+              Reference: '22433'
+              Source: HGNC
           Label: Usher syndrome 1H (autosomal recessive)
           Symbol: USH1H
       - Gene:
@@ -289,11 +286,12 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_886
   Parents:
   - Parent:
-    - Label: Syndromic genetic deafness
+    - Label: Rare syndromic genetic deafness
       ORPHAcode: '90642'
   - Parent:
-    - Label: Syndromic rod-cone dystrophy
-      ORPHAcode: '98661'
+    - Label: Rare disorder with progressive generalized retinal disorder as a major
+        feature
+      ORPHAcode: '716405'
   - Parent:
     - Label: Retinal ciliopathy due to mutation in Usher gene
       ORPHAcode: '156177'
@@ -429,7 +427,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0008947
-      HPOTerm: Infantile muscular hypotonia
+      HPOTerm: Floppy infant
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0010780
@@ -531,5 +529,5 @@ Orphapacket:
     TypeOfInheritance:
     - value: Autosomal recessive
   copyright: Orphanet (c) 2025
-  creationDate: '2025-06-26 11:48:15'
+  creationDate: '2025-12-08 06:52:43'
   version: 1.3.42 / 4.1.8 [2025-03-03]

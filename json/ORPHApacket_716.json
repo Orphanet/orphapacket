@@ -1,7 +1,7 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "716",
-        "creationDate": "2025-06-26 11:48:15",
+        "creationDate": "2025-12-08 06:52:43",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
         "copyright": "Orphanet (c) 2025",
         "ORPHAcode": "716",
@@ -13,20 +13,14 @@
         },
         "Synonyms": [
             {
-                "Synonym": "PAH deficiency"
-            },
-            {
                 "Synonym": "PKU"
-            },
-            {
-                "Synonym": "Phenylalanine hydroxylase deficiency"
             }
         ],
         "ExternalReferences": [
             {
                 "Source": "OMIM",
                 "Reference": "261600",
-                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+                "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
             }
         ],
         "TextSection": {
@@ -62,58 +56,15 @@
         "Childs": [
             {
                 "Child": {
-                    "Label": "Mild phenylketonuria",
-                    "ORPHAcode": "79253",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "phenylalanine hydroxylase",
-                                "Symbol": "PAH",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "8582"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "612349"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Classic phenylketonuria",
-                    "ORPHAcode": "79254",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "phenylalanine hydroxylase",
-                                "Symbol": "PAH",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "8582"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "612349"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
                     "Label": "Mild hyperphenylalaninemia",
                     "ORPHAcode": "79651",
+                    "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Tetrahydrobiopterin-responsive phenylketonuria",
+                    "ORPHAcode": "293284",
                     "Genes": [
                         {
                             "Gene": {
@@ -129,7 +80,7 @@
                                         "Reference": "612349"
                                     }
                                 ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -137,8 +88,8 @@
             },
             {
                 "Child": {
-                    "Label": "Tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria",
-                    "ORPHAcode": "293284",
+                    "Label": "Tetrahydrobiopterin-unresponsive phenylketonuria",
+                    "ORPHAcode": "708895",
                     "Genes": [
                         {
                             "Gene": {
@@ -213,8 +164,22 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0001263",
+                    "HPOTerm": "Global developmental delay",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0001328",
                     "HPOTerm": "Specific learning disability",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001510",
+                    "HPOTerm": "Growth delay",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },

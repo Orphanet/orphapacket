@@ -2,6 +2,20 @@ Orphapacket:
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
     value: Malformation syndrome
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '620789'
+    Source: OMIM
+  Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '3798'
+        Source: HGNC
+      - Reference: '601575'
+        Source: OMIM
+      Name: FOS like 2, AP-1 transcription factor subunit
+      Symbol: FOSL2
   Label: Congenital scalp aplasia cutis-enamel hypoplasia-developmental delay-intellectual
     disability syndrome
   ORPHAcode: '697356'
@@ -9,14 +23,26 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_697356
   Parents:
   - Parent:
-    - Label: Syndromic nail anomaly
-      ORPHAcode: '79370'
+    - Label: Rare developmental defect with skin/mucosae involvement
+      ORPHAcode: '139027'
   - Parent:
-    - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
-        syndrome
-      ORPHAcode: '611314'
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
+        disability
+      ORPHAcode: '611327'
+  - Parent:
+    - Label: Malformation syndrome with odontal and/or periodontal component
+      ORPHAcode: '139042'
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
+  - Parent:
+    - Label: Other epidermal disorder
+      ORPHAcode: '79359'
   Synonyms:
   - Synonym: FOSL2-related neurodevelopmental disorder
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal dominant
   copyright: Orphanet (c) 2025
-  creationDate: '2025-06-26 11:48:15'
+  creationDate: '2025-12-08 06:52:43'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -7,6 +7,11 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618075'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
       Reference: '601068'
       Source: OMIM
@@ -30,6 +35,11 @@ Orphapacket:
         to represent it)
       Reference: '615400'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618074'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -40,6 +50,24 @@ Orphapacket:
         Source: OMIM
       Name: sterile alpha motif domain containing 12
       Symbol: SAMD12
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '11969'
+        Source: HGNC
+      - Reference: '610739'
+        Source: OMIM
+      Name: trinucleotide repeat containing adaptor 6A
+      Symbol: TNRC6A
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '16854'
+        Source: HGNC
+      - Reference: '609530'
+        Source: OMIM
+      Name: Rap guanine nucleotide exchange factor 2
+      Symbol: RAPGEF2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -169,5 +197,5 @@ Orphapacket:
     TypeOfInheritance:
     - value: Autosomal dominant
   copyright: Orphanet (c) 2025
-  creationDate: '2025-06-26 11:48:15'
+  creationDate: '2025-12-08 06:52:43'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -9,7 +9,8 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '601764'
       Source: OMIM
   - ExternalReference:
@@ -31,6 +32,11 @@ Orphapacket:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '617080'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '602066'
       Source: OMIM
   Genes:
   - Gene:
@@ -111,22 +117,6 @@ Orphapacket:
       ORPHAcode: '693802'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0011171
-      HPOTerm: Simple febrile seizures
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0011182
-      HPOTerm: Interictal epileptiform activity
-  - Phenotype:
-      HPOFrequency: Excluded (0%)
-      HPOId: HP:0002361
-      HPOTerm: Psychomotor deterioration
-  - Phenotype:
-      HPOFrequency: Excluded (0%)
-      HPOId: HP:0410263
-      HPOTerm: Brain imaging abnormality
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002372
       HPOTerm: Normal interictal EEG
@@ -134,6 +124,22 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0032807
       HPOTerm: Neonatal seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001250
+      HPOTerm: Seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001266
+      HPOTerm: Choreoathetosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001332
+      HPOTerm: Dystonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002072
+      HPOTerm: Chorea
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002104
@@ -144,8 +150,20 @@ Orphapacket:
       HPOTerm: Focal clonic seizure
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002305
+      HPOTerm: Athetosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002384
       HPOTerm: Focal impaired awareness seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004305
+      HPOTerm: Involuntary movements
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007166
+      HPOTerm: Paroxysmal dyskinesia
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0007334
@@ -157,7 +175,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0010818
-      HPOTerm: Generalized tonic seizures
+      HPOTerm: Generalized tonic seizure
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0011153
@@ -169,7 +187,11 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0011169
-      HPOTerm: Generalized clonic seizures
+      HPOTerm: Generalized clonic seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0032755
+      HPOTerm: Focal impaired awareness autonomic seizure
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000961
@@ -186,6 +208,14 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002121
       HPOTerm: Generalized non-motor (absence) seizure
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011172
+      HPOTerm: Complex febrile seizure
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012002
+      HPOTerm: Experiential epileptic aura
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0032678
@@ -206,6 +236,22 @@ Orphapacket:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0002133
       HPOTerm: Status epilepticus
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0011171
+      HPOTerm: Simple febrile seizures
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0011182
+      HPOTerm: Interictal epileptiform activity
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0002361
+      HPOTerm: Psychomotor deterioration
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0410263
+      HPOTerm: Brain imaging abnormality
   Prevalences:
     Prevalence:
     - PrevalenceClass: Unknown
@@ -230,5 +276,5 @@ Orphapacket:
     TypeOfInheritance:
     - value: Autosomal dominant
   copyright: Orphanet (c) 2025
-  creationDate: '2025-06-26 11:48:15'
+  creationDate: '2025-12-08 06:52:43'
   version: 1.3.42 / 4.1.8 [2025-03-03]

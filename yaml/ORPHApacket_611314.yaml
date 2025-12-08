@@ -1361,7 +1361,7 @@ Orphapacket:
             Source: HGNC
           - Reference: '612424'
             Source: OMIM
-          Label: eyes shut homolog
+          Label: EGF-like photoreceptor maintenance factor
           Symbol: EYS
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -1865,7 +1865,7 @@ Orphapacket:
             Source: HGNC
           - Reference: '603647'
             Source: OMIM
-          Label: BCS1 homolog, ubiquinol-cytochrome c reductase complex chaperone
+          Label: BCS1 ubiquinol-cytochrome c reductase complex chaperone
           Symbol: BCS1L
       Label: Björnstad syndrome
       ORPHAcode: '123'
@@ -2249,10 +2249,18 @@ Orphapacket:
       Label: EDEM3-CDG
       ORPHAcode: '695783'
   - Child:
-      Genes: no data
-      Label: Congenital scalp aplasia cutis-enamel hypoplasia-developmental delay-intellectual
-        disability syndrome
-      ORPHAcode: '697356'
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '17125'
+            Source: HGNC
+          - Reference: '300031'
+            Source: OMIM
+          Label: transmembrane protein 185A
+          Symbol: TMEM185A
+      Label: FRAXF syndrome
+      ORPHAcode: '100974'
   - Child:
       Genes:
       - Gene:
@@ -2876,10 +2884,9 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '8141'
-            Source: HGNC
-          - Reference: null
-            Source: OMIM
+          - ExternalReference:
+              Reference: '8141'
+              Source: HGNC
           Label: optic atrophy 2 (obscure)
           Symbol: OPA2
       Label: Early-onset X-linked optic atrophy
@@ -2898,10 +2905,9 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '3777'
-            Source: HGNC
-          - Reference: null
-            Source: OMIM
+          - ExternalReference:
+              Reference: '3777'
+              Source: HGNC
           Label: fragile X mental retardation associated 3
           Symbol: FMR3
       Label: FRAXE intellectual disability
@@ -3572,10 +3578,9 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '37475'
-            Source: HGNC
-          - Reference: null
-            Source: OMIM
+          - ExternalReference:
+              Reference: '37475'
+              Source: HGNC
           Label: spinocerebellar ataxia 32
           Symbol: SCA32
       Label: Spinocerebellar ataxia type 32
@@ -3675,23 +3680,13 @@ Orphapacket:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
             of function) in
           ExternalReferences:
-          - Reference: '3236'
-            Source: HGNC
-          - Reference: '131550'
-            Source: OMIM
-          Label: epidermal growth factor receptor
-          Symbol: EGFR
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
-            of function) in
-          ExternalReferences:
           - Reference: '195'
             Source: HGNC
           - Reference: '603639'
             Source: OMIM
           Label: ADAM metallopeptidase domain 17
           Symbol: ADAM17
-      Label: Neonatal inflammatory skin and bowel disease
+      Label: Neonatal erythroderma-autoinflammation-inflammatory bowel disease syndrome
       ORPHAcode: '294023'
   - Child:
       Genes:
@@ -3860,7 +3855,7 @@ Orphapacket:
             Source: HGNC
           - Reference: '613940'
             Source: OMIM
-          Label: AFG2 AAA ATPase homolog A
+          Label: AAA ATPase AFG2A
           Symbol: AFG2A
       Label: Microcephaly-intellectual disability-sensorineural hearing loss-epilepsy-abnormal
         muscle tone syndrome
@@ -4249,6 +4244,15 @@ Orphapacket:
             Source: OMIM
           Label: TBC1 domain family member 24
           Symbol: TBC1D24
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '10596'
+            Source: HGNC
+          - Reference: '600702'
+            Source: OMIM
+          Label: sodium voltage-gated channel alpha subunit 8
+          Symbol: SCN8A
       Label: Familial infantile myoclonic epilepsy
       ORPHAcode: '352582'
   - Child:
@@ -4262,7 +4266,7 @@ Orphapacket:
             Source: OMIM
           Label: zinc finger FYVE-type containing 26
           Symbol: ZFYVE26
-      Label: Autosomal recessive spastic paraplegia type 15
+      Label: Kjellin syndrome
       ORPHAcode: '100996'
   - Child:
       Genes:
@@ -4693,6 +4697,15 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
+          - Reference: '616440'
+            Source: OMIM
+          - Reference: '11018'
+            Source: HGNC
+          Label: solute carrier family 32 member 1
+          Symbol: SLC32A1
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
           - Reference: '300070'
             Source: OMIM
           - Reference: '3670'
@@ -4860,7 +4873,7 @@ Orphapacket:
             Source: HGNC
           - Reference: '600814'
             Source: OMIM
-          Label: MRE11 homolog, double strand break repair nuclease
+          Label: MRE11 double strand break repair nuclease
           Symbol: MRE11
       Label: Ataxia-telangiectasia-like disorder
       ORPHAcode: '251347'
@@ -5393,7 +5406,7 @@ Orphapacket:
             Source: OMIM
           Label: peroxisomal biogenesis factor 7
           Symbol: PEX7
-      Label: Refsum disease
+      Label: Adult Refsum disease
       ORPHAcode: '773'
   - Child:
       Genes:
@@ -5476,7 +5489,7 @@ Orphapacket:
             Source: HGNC
           - Reference: '600470'
             Source: OMIM
-          Label: Zic family member 1
+          Label: Zic family zinc finger 1
           Symbol: ZIC1
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
@@ -6563,7 +6576,7 @@ Orphapacket:
             Source: OMIM
           Label: cytochrome b5 reductase 3
           Symbol: CYB5R3
-      Label: Hereditary methemoglobinemia
+      Label: Autosomal recessive methemoglobinemia
       ORPHAcode: '621'
   - Child:
       Genes:
@@ -6621,6 +6634,24 @@ Orphapacket:
             Source: HGNC
           Label: solute carrier family 32 member 1
           Symbol: SLC32A1
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '18756'
+            Source: HGNC
+          - Reference: '607352'
+            Source: OMIM
+          Label: Rho related BTB domain containing 2
+          Symbol: RHOBTB2
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '1392'
+            Source: HGNC
+          - Reference: '601013'
+            Source: OMIM
+          Label: calcium voltage-gated channel subunit alpha1 E
+          Symbol: CACNA1E
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -7047,6 +7078,15 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
+          - Reference: '18423'
+            Source: HGNC
+          - Reference: '614191'
+            Source: OMIM
+          Label: DEP domain containing 5, GATOR1 subcomplex subunit
+          Symbol: DEPDC5
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
           - Reference: '21042'
             Source: HGNC
           - Reference: '610463'
@@ -7090,6 +7130,15 @@ Orphapacket:
             Source: HGNC
           Label: potassium voltage-gated channel subfamily C member 2
           Symbol: KCNC2
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '6254'
+            Source: HGNC
+          - Reference: '605716'
+            Source: OMIM
+          Label: potassium voltage-gated channel subfamily H member 5
+          Symbol: KCNH5
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -7172,15 +7221,6 @@ Orphapacket:
             Source: OMIM
           Label: sodium voltage-gated channel alpha subunit 1
           Symbol: SCN1A
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '12799'
-            Source: HGNC
-          - Reference: '605131'
-            Source: OMIM
-          Label: WW domain containing oxidoreductase
-          Symbol: WWOX
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
             of function) in
@@ -7296,6 +7336,16 @@ Orphapacket:
             Source: OMIM
           Label: prolyl-tRNA synthetase 2, mitochondrial
           Symbol: PARS2
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '25640'
+            Source: HGNC
+          - Reference: '611482'
+            Source: OMIM
+          Label: UFM1 specific peptidase 2
+          Symbol: UFSP2
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -7576,7 +7626,7 @@ Orphapacket:
             Source: HGNC
           - Reference: '603646'
             Source: OMIM
-          Label: cytochrome c oxidase assembly homolog COX15
+          Label: cytochrome c oxidase assembly factor COX15
           Symbol: COX15
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -7607,7 +7657,7 @@ Orphapacket:
             Source: HGNC
           - Reference: '603647'
             Source: OMIM
-          Label: BCS1 homolog, ubiquinol-cytochrome c reductase complex chaperone
+          Label: BCS1 ubiquinol-cytochrome c reductase complex chaperone
           Symbol: BCS1L
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -7894,10 +7944,6 @@ Orphapacket:
           Symbol: TUBB2B
       Label: Dysequilibrium syndrome
       ORPHAcode: '1766'
-  - Child:
-      Genes: no data
-      Label: Moynahan syndrome
-      ORPHAcode: '2574'
   - Child:
       Genes: no data
       Label: Spastic paraplegia-glaucoma-intellectual disability syndrome
@@ -9099,5 +9145,5 @@ Orphapacket:
     - Label: Rare genetic syndromic intellectual disability
       ORPHAcode: '183763'
   copyright: Orphanet (c) 2025
-  creationDate: '2025-06-26 11:48:15'
+  creationDate: '2025-12-08 06:52:43'
   version: 1.3.42 / 4.1.8 [2025-03-03]

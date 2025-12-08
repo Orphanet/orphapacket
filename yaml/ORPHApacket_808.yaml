@@ -9,6 +9,11 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
+      Reference: '617253'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '210600'
       Source: OMIM
   - ExternalReference:
@@ -44,6 +49,11 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
+      Reference: '620767'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '614851'
       Source: OMIM
   - ExternalReference:
@@ -72,6 +82,15 @@ Orphapacket:
         Source: OMIM
       Name: nucleoporin 85
       Symbol: NUP85
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '29366'
+        Source: HGNC
+      - Reference: '617728'
+        Source: OMIM
+      Name: centrosomal protein 295
+      Symbol: CEP295
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -140,6 +159,39 @@ Orphapacket:
       Name: TRAF interacting protein
       Symbol: TRAIP
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: CEP63
+        Source: ClinVar
+      - Reference: '25815'
+        Source: HGNC
+      - Reference: '614724'
+        Source: OMIM
+      Name: centrosomal protein 63
+      Symbol: CEP63
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '14906'
+        Source: HGNC
+      - Reference: '608684'
+        Source: OMIM
+      - Reference: NIN
+        Source: ClinVar
+      Name: ninein
+      Symbol: NIN
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '26513'
+        Source: HGNC
+      - Reference: NSMCE2
+        Source: ClinVar
+      - Reference: '617246'
+        Source: OMIM
+      Name: NSE2 SUMO ligase component of SMC5/6 complex
+      Symbol: NSMCE2
+  - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
@@ -187,29 +239,9 @@ Orphapacket:
       HPOId: HP:0000347
       HPOTerm: Micrognathia
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000363
-      HPOTerm: Abnormality of earlobe
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000387
-      HPOTerm: Absent earlobe
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000444
       HPOTerm: Convex nasal ridge
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000494
-      HPOTerm: Downslanted palpebral fissures
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000501
-      HPOTerm: Glaucoma
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000682
-      HPOTerm: Abnormality of dental enamel
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001249
@@ -219,10 +251,6 @@ Orphapacket:
       HPOId: HP:0001363
       HPOTerm: Craniosynostosis
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001385
-      HPOTerm: Hip dysplasia
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001511
       HPOTerm: Intrauterine growth retardation
@@ -230,14 +258,6 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001852
       HPOTerm: Sandal gap
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002209
-      HPOTerm: Sparse scalp hair
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002650
-      HPOTerm: Scoliosis
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002750
@@ -255,21 +275,9 @@ Orphapacket:
       HPOId: HP:0004326
       HPOTerm: Cachexia
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0005692
-      HPOTerm: Joint hyperflexibility
-  - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0007495
       HPOTerm: Prematurely aged appearance
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0009804
-      HPOTerm: Reduced number of teeth
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0010579
-      HPOTerm: Cone-shaped epiphysis
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0011342
@@ -278,6 +286,50 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0100543
       HPOTerm: Cognitive impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000363
+      HPOTerm: Abnormality of earlobe
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000387
+      HPOTerm: Absent earlobe
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000494
+      HPOTerm: Downslanted palpebral fissures
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000501
+      HPOTerm: Glaucoma
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000682
+      HPOTerm: Abnormality of dental enamel
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001385
+      HPOTerm: Hip dysplasia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002209
+      HPOTerm: Sparse scalp hair
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009804
+      HPOTerm: Tooth agenesis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010579
+      HPOTerm: Cone-shaped epiphysis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001382
+      HPOTerm: Joint hypermobility
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -287,11 +339,11 @@ Orphapacket:
       Source: 20301772[PMID]
       ValMoy: no data
   - Prevalence:
-      PrevalenceClass: <1 / 1 000 000
+      PrevalenceClass: 1-5 / 10 000
       PrevalenceGeographic: Worldwide
-      PrevalenceQualification: Class only
+      PrevalenceQualification: Value and class
       PrevalenceType: Point prevalence
-      Source: ORPHANET_25284118[PMID]
+      Source: 34345934[PMID]_ORPHANET
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
@@ -301,13 +353,13 @@ Orphapacket:
       Source: EUROCAT European surveillance of congenital anomalies 2005-2012[REG]
       ValMoy: no data
   TextSection:
-    Contents: A rare form of microcephalic primordial dwarfism characterized by a
-      proportionate dwarfism of prenatal onset a severe microcephaly a typical dysmorphic
-      face (bird-like) and mild to severe intellectual disability.
+    Contents: A rare microcephalic primordial dwarfism characterized by severe proportionate
+      short stature of prenatal onset primary microcephaly distinctive facial features
+      and mild to severe intellectual disability.
     TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
   copyright: Orphanet (c) 2025
-  creationDate: '2025-06-26 11:48:15'
+  creationDate: '2025-12-08 06:52:43'
   version: 1.3.42 / 4.1.8 [2025-03-03]
