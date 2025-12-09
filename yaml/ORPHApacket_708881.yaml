@@ -1,4 +1,26 @@
 Orphapacket:
+  Children:
+  - Child:
+      Genes: no data
+      Label: Phenylketonuria
+      ORPHAcode: '716'
+  - Child:
+      Genes: no data
+      Label: Mild hyperphenylalaninemia
+      ORPHAcode: '79651'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '8582'
+            Source: HGNC
+          - Reference: '612349'
+            Source: OMIM
+          Label: phenylalanine hydroxylase
+          Symbol: PAH
+      Label: Maternal phenylketonuria syndrome
+      ORPHAcode: '2209'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377794
     value: Clinical group
@@ -10,8 +32,12 @@ Orphapacket:
   ORPHAcode: '708881'
   ORPHApacketId: '708881'
   PURL: http://www.orpha.net/ORDO/Orphanet_708881
+  Parents:
+  - Parent:
+    - Label: Disorder of phenylalanine metabolism
+      ORPHAcode: '284814'
   Synonyms:
   - Synonym: PAH deficiency
   copyright: Orphanet (c) 2025
-  creationDate: '2025-12-08 06:52:43'
+  creationDate: '2025-12-09 10:41:42'
   version: 1.3.42 / 4.1.8 [2025-03-03]
