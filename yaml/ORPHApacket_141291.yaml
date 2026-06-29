@@ -9,14 +9,19 @@ Orphapacket:
     value: Morphological anomaly
   ExternalReferences:
   - ExternalReference:
+      DisorderMappingRelation: 'ND (not yet decided/unable to decide: the alignment
+        cannot be qualified by any of the existing labels)'
+      Reference: '119530'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
         used to represent it)
       Reference: '129400'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: 'ND (not yet decided/unable to decide: the alignment
-        cannot be qualified by any of the existing labels)'
-      Reference: '119530'
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
+      Reference: '225060'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: 'ND (not yet decided/unable to decide: the alignment
@@ -34,6 +39,11 @@ Orphapacket:
       Reference: '608371'
       Source: OMIM
   - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '608874'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: 'ND (not yet decided/unable to decide: the alignment
         cannot be qualified by any of the existing labels)'
       Reference: '610361'
@@ -43,37 +53,27 @@ Orphapacket:
         cannot be qualified by any of the existing labels)'
       Reference: '612858'
       Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
-        used to represent it)
-      Reference: '225060'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '608874'
-      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
-      - Reference: MSX1
+      - Reference: NECTIN1
         Source: ClinVar
-      - Reference: '7391'
+      - Reference: '9706'
         Source: HGNC
-      - Reference: '142983'
+      - Reference: '600644'
         Source: OMIM
-      Name: msh homeobox 1
-      Symbol: MSX1
+      Name: nectin cell adhesion molecule 1
+      Symbol: NECTIN1
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
+      - Reference: TP63
+        Source: ClinVar
       - Reference: '15979'
         Source: HGNC
       - Reference: '603273'
         Source: OMIM
-      - Reference: TP63
-        Source: ClinVar
       Name: tumor protein p63
       Symbol: TP63
   - Gene:
@@ -90,14 +90,14 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
-      - Reference: NECTIN1
+      - Reference: MSX1
         Source: ClinVar
-      - Reference: '9706'
+      - Reference: '7391'
         Source: HGNC
-      - Reference: '600644'
+      - Reference: '142983'
         Source: OMIM
-      Name: nectin cell adhesion molecule 1
-      Symbol: NECTIN1
+      Name: msh homeobox 1
+      Symbol: MSX1
   Label: Cleft lip and alveolus
   ORPHAcode: '141291'
   ORPHApacketId: '141291'
@@ -170,6 +170,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Multigenic/multifactorial
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

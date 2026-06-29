@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1425",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "1425",
         "Label": "Desbuquois syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_1425",
@@ -13,20 +13,13 @@
         },
         "Synonyms": [
             {
-                "Synonym": "Desbuquois dysplasia"
+                "Synonym": "DBQD"
             },
             {
-                "Synonym": "DBQD"
+                "Synonym": "Desbuquois dysplasia"
             }
         ],
         "ExternalReferences": [
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "618870",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
@@ -40,6 +33,13 @@
                     "Reference": "615777",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "618870",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -49,26 +49,13 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "CSGALNACT1",
-                    "Name": "chondroitin sulfate N-acetylgalactosaminyltransferase 1",
-                    "ExternalReferences": [
-                        {
-                            "Source": "OMIM",
-                            "Reference": "616615"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "24290"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "CANT1",
                     "Name": "calcium activated nucleotidase 1",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "CANT1"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "19721"
@@ -76,10 +63,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "613165"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CANT1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
@@ -105,17 +88,26 @@
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
+            },
+            {
+                "Gene": {
+                    "Symbol": "CSGALNACT1",
+                    "Name": "chondroitin sulfate N-acetylgalactosaminyltransferase 1",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "24290"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "616615"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
             }
         ],
         "Parents": [
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "98638",
-                        "Label": "Rare disease with glaucoma as a major feature"
-                    }
-                ]
-            },
             {
                 "Parent": [
                     {
@@ -129,6 +121,14 @@
                     {
                         "ORPHAcode": "139030",
                         "Label": "Rare developmental defect with connective tissue involvement"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "98638",
+                        "Label": "Rare disease with glaucoma as a major feature"
                     }
                 ]
             }

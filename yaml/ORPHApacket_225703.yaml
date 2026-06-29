@@ -116,15 +116,6 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '7494'
-            Source: HGNC
-          - Reference: '590075'
-            Source: OMIM
-          Label: mitochondrially encoded tRNA-Pro (CCN)
-          Symbol: MT-TP
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
           - Reference: '7461'
             Source: HGNC
           - Reference: '516005'
@@ -177,6 +168,15 @@ Orphapacket:
             Source: OMIM
           Label: mitochondrially encoded tRNA-Phe (UUU/C)
           Symbol: MT-TF
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '7494'
+            Source: HGNC
+          - Reference: '590075'
+            Source: OMIM
+          Label: mitochondrially encoded tRNA-Pro (CCN)
+          Symbol: MT-TP
       Label: MERRF
       ORPHAcode: '551'
   - Child:
@@ -283,10 +283,10 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '600940'
-            Source: OMIM
           - Reference: '6600'
             Source: HGNC
+          - Reference: '600940'
+            Source: OMIM
           Label: DNA ligase 3
           Symbol: LIG3
       Label: Mitochondrial neurogastrointestinal encephalomyopathy
@@ -295,6 +295,19 @@ Orphapacket:
       Genes: no data
       Label: Coenzyme Q10 deficiency
       ORPHAcode: '35656'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '15714'
+            Source: HGNC
+          - Reference: '607544'
+            Source: OMIM
+          Label: leucine rich pentatricopeptide repeat containing
+          Symbol: LRPPRC
+      Label: Congenital lactic acidosis, Saguenay-Lac-Saint-Jean type
+      ORPHAcode: '70472'
   - Child:
       Genes:
       - Gene:
@@ -313,27 +326,14 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '300161'
-            Source: OMIM
           - Reference: '3267'
             Source: HGNC
+          - Reference: '300161'
+            Source: OMIM
           Label: eukaryotic translation initiation factor 2 subunit gamma
           Symbol: EIF2S3
       Label: MEHMO syndrome
       ORPHAcode: '85282'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '15714'
-            Source: HGNC
-          - Reference: '607544'
-            Source: OMIM
-          Label: leucine rich pentatricopeptide repeat containing
-          Symbol: LRPPRC
-      Label: Congenital lactic acidosis, Saguenay-Lac-Saint-Jean type
-      ORPHAcode: '70472'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -345,6 +345,6 @@ Orphapacket:
   - Parent:
     - Label: Rare hereditary metabolic disease with peripheral neuropathy
       ORPHAcode: '207018'
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

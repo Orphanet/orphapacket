@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "718047",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "718047",
         "Label": "Combined immunodeficiency due to polymerase delta deficiency",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_718047",
@@ -15,6 +15,70 @@
             {
                 "Synonym": "CID due to polymerase delta deficiency"
             }
-        ]
+        ],
+        "ExternalReferences": [
+            {
+                "Source": "OMIM",
+                "Reference": "620836",
+                "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+            }
+        ],
+        "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "POLD1",
+                    "Name": "DNA polymerase delta 1, catalytic subunit",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "POLD1"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "9175"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "174761"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "POLD2",
+                    "Name": "DNA polymerase delta 2, accessory subunit",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "9176"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "600815"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            }
+        ],
+        "Parents": [
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "718053",
+                        "Label": "Combined immunodeficiency with low CD4 and normal CD8"
+                    }
+                ]
+            }
+        ],
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Autosomal recessive"
+                }
+            ]
+        }
     }
 }

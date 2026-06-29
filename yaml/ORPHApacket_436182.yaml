@@ -13,22 +13,22 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '617253'
+      Reference: '616541'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '616541'
+      Reference: '617253'
       Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
-      - Reference: '26513'
-        Source: HGNC
       - Reference: NSMCE2
         Source: ClinVar
+      - Reference: '26513'
+        Source: HGNC
       - Reference: '617246'
         Source: OMIM
       Name: NSE2 SUMO ligase component of SMC5/6 complex
@@ -36,12 +36,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: XRCC4
+        Source: ClinVar
       - Reference: '12831'
         Source: HGNC
       - Reference: '194363'
         Source: OMIM
-      - Reference: XRCC4
-        Source: ClinVar
       Name: X-ray repair cross complementing 4
       Symbol: XRCC4
   Label: Microcephalic primordial dwarfism-insulin resistance syndrome
@@ -50,14 +50,17 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_436182
   Parents:
   - Parent:
-    - Label: Rare insulin-resistance syndrome
-      ORPHAcode: '181368'
-  - Parent:
     - Label: Rare non-acquired premature ovarian failure
       ORPHAcode: '95710'
   - Parent:
+    - Label: Rare insulin-resistance syndrome
+      ORPHAcode: '181368'
+  - Parent:
     - Label: Rare genetic premature ovarian failure
       ORPHAcode: '485382'
+  - Parent:
+    - Label: Microcephalic primordial dwarfism
+      ORPHAcode: '324761'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -120,6 +123,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

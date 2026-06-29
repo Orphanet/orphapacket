@@ -1,10 +1,6 @@
 Orphapacket:
   Children:
   - Child:
-      Genes: no data
-      Label: Warts-immunodeficiency-lymphedema-anogenital dysplasia syndrome
-      ORPHAcode: '568056'
-  - Child:
       Genes:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -182,27 +178,41 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '6023'
-            Source: HGNC
-          - Reference: '146660'
-            Source: OMIM
-          Label: interleukin 7
-          Symbol: IL7
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
           - Reference: '16920'
             Source: HGNC
           - Reference: '602293'
             Source: OMIM
           Label: calcium and integrin binding 1
           Symbol: CIB1
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '6023'
+            Source: HGNC
+          - Reference: '146660'
+            Source: OMIM
+          Label: interleukin 7
+          Symbol: IL7
       Label: Inherited epidermodysplasia verruciformis
       ORPHAcode: '302'
   - Child:
       Genes: no data
       Label: Erythroderma desquamativum
       ORPHAcode: '314'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain
+            of function) in
+          ExternalReferences:
+          - Reference: '2561'
+            Source: HGNC
+          - Reference: '162643'
+            Source: OMIM
+          Label: C-X-C motif chemokine receptor 4
+          Symbol: CXCR4
+      Label: WHIM syndrome
+      ORPHAcode: '51636'
   - Child:
       Genes:
       - Gene:
@@ -225,15 +235,6 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '26956'
-            Source: HGNC
-          - Reference: '610169'
-            Source: OMIM
-          Label: INO80 complex ATPase subunit
-          Symbol: INO80
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
           - Reference: '9831'
             Source: HGNC
           - Reference: '179615'
@@ -249,22 +250,26 @@ Orphapacket:
             Source: OMIM
           Label: recombination activating 2
           Symbol: RAG2
-      Label: Combined immunodeficiency with granulomatosis
+      Label: Combined immunodeficiency with granulomas and/or autoimmunity due to
+        RAG defect
       ORPHAcode: '157949'
+  - Child:
+      Genes: no data
+      Label: Warts-immunodeficiency-lymphedema-anogenital dysplasia syndrome
+      ORPHAcode: '568056'
   - Child:
       Genes:
       - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain
-            of function) in
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '2561'
+          - Reference: '9955'
             Source: HGNC
-          - Reference: '162643'
+          - Reference: '164014'
             Source: OMIM
-          Label: C-X-C motif chemokine receptor 4
-          Symbol: CXCR4
-      Label: WHIM syndrome
-      ORPHAcode: '51636'
+          Label: RELA proto-oncogene, NF-kB subunit
+          Symbol: RELA
+      Label: RELA haploinsufficiency-associated inflammatory disease
+      ORPHAcode: '596759'
   - Child:
       Genes:
       - Gene:
@@ -278,20 +283,6 @@ Orphapacket:
           Symbol: ZNF341
       Label: Autosomal recessive hyper-IgE syndrome due to ZNF341 deficiency
       ORPHAcode: '641368'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
-            of function) in
-          ExternalReferences:
-          - Reference: '606944'
-            Source: OMIM
-          - Reference: '15842'
-            Source: HGNC
-          Label: erbb2 interacting protein
-          Symbol: ERBIN
-      Label: Autosomal dominant combined immunodeficiency due to ERBIN deficiency
-      ORPHAcode: '656912'
   - Child:
       Genes:
       - Gene:
@@ -310,10 +301,10 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '147880'
-            Source: OMIM
           - Reference: '6019'
             Source: HGNC
+          - Reference: '147880'
+            Source: OMIM
           Label: interleukin 6 receptor
           Symbol: IL6R
       Label: Autosomal recessive combined immunodeficiency due to IL6R deficiency
@@ -321,12 +312,26 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '15842'
+            Source: HGNC
+          - Reference: '606944'
+            Source: OMIM
+          Label: erbb2 interacting protein
+          Symbol: ERBIN
+      Label: Autosomal dominant combined immunodeficiency due to ERBIN deficiency
+      ORPHAcode: '656912'
+  - Child:
+      Genes:
+      - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '300681'
-            Source: OMIM
           - Reference: '23483'
             Source: HGNC
+          - Reference: '300681'
+            Source: OMIM
           Label: dedicator of cytokinesis 11
           Symbol: DOCK11
       Label: Early-onset immune dysregulation with autoimmunity due to DOCK11 partial
@@ -337,14 +342,15 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '9955'
+          - Reference: '12736'
             Source: HGNC
-          - Reference: '164014'
+          - Reference: '602357'
             Source: OMIM
-          Label: RELA proto-oncogene, NF-kB subunit
-          Symbol: RELA
-      Label: Combined immunodeficiency due to RELA haploinsufficiency
-      ORPHAcode: '596759'
+          Label: WAS/WASL interacting protein family member 1
+          Symbol: WIPF1
+      Label: Congenital thrombocytopenia-recurrent infections syndrome due to WIP
+        deficiency
+      ORPHAcode: '714493'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -356,6 +362,6 @@ Orphapacket:
   - Parent:
     - Label: Rare genetic skin disease
       ORPHAcode: '68346'
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

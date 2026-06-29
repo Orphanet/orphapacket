@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "622",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "622",
         "Label": "Homocystinuria without methylmalonic aciduria",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_622",
@@ -23,6 +23,13 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
+                    "Reference": "236270",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
                     "Reference": "250940",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
@@ -31,13 +38,6 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "277410",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "236270",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
@@ -160,9 +160,23 @@
         "Phenotypes": [
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000505",
-                    "HPOTerm": "Visual impairment",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0002156",
+                    "HPOTerm": "Homocystinuria",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000486",
+                    "HPOTerm": "Strabismus",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000488",
+                    "HPOTerm": "Retinopathy",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -181,9 +195,9 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000726",
-                    "HPOTerm": "Dementia",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0001249",
+                    "HPOTerm": "Intellectual disability",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -195,29 +209,22 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001251",
-                    "HPOTerm": "Ataxia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0001252",
                     "HPOTerm": "Hypotonia",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001254",
-                    "HPOTerm": "Lethargy",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
                     "HPOId": "HP:0001263",
                     "HPOTerm": "Global developmental delay",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001298",
+                    "HPOTerm": "Encephalopathy",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -230,9 +237,79 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001980",
-                    "HPOTerm": "Megaloblastic bone marrow",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0001972",
+                    "HPOTerm": "Macrocytic anemia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002120",
+                    "HPOTerm": "Cerebral cortical atrophy",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002160",
+                    "HPOTerm": "Hyperhomocystinemia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002329",
+                    "HPOTerm": "Drowsiness",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011968",
+                    "HPOTerm": "Feeding difficulties",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000505",
+                    "HPOTerm": "Visual impairment",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000708",
+                    "HPOTerm": "Atypical behavior",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000726",
+                    "HPOTerm": "Dementia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001251",
+                    "HPOTerm": "Ataxia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001254",
+                    "HPOTerm": "Lethargy",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001510",
+                    "HPOTerm": "Growth delay",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -244,9 +321,58 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002120",
-                    "HPOTerm": "Cerebral cortical atrophy",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0003658",
+                    "HPOTerm": "Hypomethioninemia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004372",
+                    "HPOTerm": "Reduced consciousness",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007663",
+                    "HPOTerm": "Reduced visual acuity",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012444",
+                    "HPOTerm": "Brain atrophy",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000648",
+                    "HPOTerm": "Optic atrophy",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005575",
+                    "HPOTerm": "Hemolytic-uremic syndrome",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012469",
+                    "HPOTerm": "Infantile spasms",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002912",
+                    "HPOTerm": "Methylmalonic acidemia",
+                    "HPOFrequency": "Excluded (0%)"
                 }
             }
         ],

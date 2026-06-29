@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "861",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "861",
         "Label": "Treacher-Collins syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_861",
@@ -20,13 +20,6 @@
             }
         ],
         "ExternalReferences": [
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "618939",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
@@ -47,6 +40,13 @@
                     "Reference": "613717",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "618939",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -56,26 +56,13 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "POLR1B",
-                    "Name": "RNA polymerase I subunit B",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "20454"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "602000"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "TCOF1",
                     "Name": "treacle ribosome biogenesis factor 1",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "TCOF1"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "11654"
@@ -83,10 +70,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "606847"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TCOF1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -133,14 +116,39 @@
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
+            },
+            {
+                "Gene": {
+                    "Symbol": "POLR1B",
+                    "Name": "RNA polymerase I subunit B",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "20454"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "602000"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
             }
         ],
         "Parents": [
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "138050",
-                        "Label": "Pierre Robin syndrome associated with branchial archs anomalies"
+                        "ORPHAcode": "90642",
+                        "Label": "Rare syndromic genetic deafness"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "155899",
+                        "Label": "Mandibulofacial dysostosis"
                     }
                 ]
             },
@@ -149,6 +157,30 @@
                     {
                         "ORPHAcode": "102285",
                         "Label": "Multiple congenital anomalies/dysmorphic syndrome without intellectual disability"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "139036",
+                        "Label": "Branchial arch or oral-acral syndrome"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "183576",
+                        "Label": "Genetic branchial arch or oral-acral syndrome"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "330206",
+                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual disability"
                     }
                 ]
             },
@@ -179,24 +211,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "90642",
-                        "Label": "Rare syndromic genetic deafness"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "139036",
-                        "Label": "Branchial arch or oral-acral syndrome"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "155899",
-                        "Label": "Mandibulofacial dysostosis"
+                        "ORPHAcode": "138050",
+                        "Label": "Pierre Robin syndrome associated with branchial archs anomalies"
                     }
                 ]
             },
@@ -205,22 +221,6 @@
                     {
                         "ORPHAcode": "522520",
                         "Label": "Syndromic genetic disorder with strabismus"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "183576",
-                        "Label": "Genetic branchial arch or oral-acral syndrome"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "330206",
-                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual disability"
                     }
                 ]
             },

@@ -22,17 +22,6 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: NALCN
-        Source: ClinVar
-      - Reference: '19082'
-        Source: HGNC
-      - Reference: '611549'
-        Source: OMIM
-      Name: sodium leak channel, non-selective
-      Symbol: NALCN
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: MYH3
         Source: ClinVar
       - Reference: '7573'
@@ -41,18 +30,29 @@ Orphapacket:
         Source: OMIM
       Name: myosin heavy chain 3
       Symbol: MYH3
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: NALCN
+        Source: ClinVar
+      - Reference: '19082'
+        Source: HGNC
+      - Reference: '611549'
+        Source: OMIM
+      Name: sodium leak channel, non-selective
+      Symbol: NALCN
   Label: Freeman-Sheldon syndrome
   ORPHAcode: '2053'
   ORPHApacketId: '2053'
   PURL: http://www.orpha.net/ORDO/Orphanet_2053
   Parents:
   - Parent:
+    - Label: Distal arthrogryposis
+      ORPHAcode: '97120'
+  - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
         disability
       ORPHAcode: '102285'
-  - Parent:
-    - Label: Distal arthrogryposis
-      ORPHAcode: '97120'
   - Parent:
     - Label: Neurological muscular channelopathy due to a genetic sodium channel defect
       ORPHAcode: '98738'
@@ -61,6 +61,26 @@ Orphapacket:
         disability
       ORPHAcode: '330206'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0009465
+      HPOTerm: Ulnar deviation of finger
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010489
+      HPOTerm: Absent palmar crease
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010751
+      HPOTerm: Chin dimple
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100490
+      HPOTerm: Camptodactyly of finger
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100790
+      HPOTerm: Hernia
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000028
@@ -165,26 +185,6 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0008872
       HPOTerm: Feeding difficulties in infancy
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0009465
-      HPOTerm: Ulnar deviation of finger
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0010489
-      HPOTerm: Absent palmar crease
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0010751
-      HPOTerm: Chin dimple
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0100490
-      HPOTerm: Camptodactyly of finger
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100790
-      HPOTerm: Hernia
   Prevalences:
   - Prevalence:
       PrevalenceClass: <1 / 1 000 000
@@ -204,8 +204,8 @@ Orphapacket:
   - Synonym: Craniocarpotarsal dysplasia
   - Synonym: Craniocarpotarsal dystrophy
   - Synonym: Distal arthrogryposis type 2A
-  - Synonym: Whistling face syndrome
   - Synonym: Freeman-Burian syndrome
+  - Synonym: Whistling face syndrome
   TextSection:
     Contents: A rare congenital distal arthogryposis syndrome characterized by microstomia
       whistling-face appearance Chin with V- or H- shaped creased and prominent nasolabial
@@ -217,6 +217,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

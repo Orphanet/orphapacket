@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "910",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "910",
         "Label": "Xeroderma pigmentosum",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_910",
@@ -90,27 +90,6 @@
             },
             {
                 "Gene": {
-                    "Symbol": "ERCC3",
-                    "Name": "ERCC excision repair 3, TFIIH core complex helicase subunit",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "3435"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "133510"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "ERCC3"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "XPC",
                     "Name": "XPC complex subunit, DNA damage recognition and repair factor",
                     "ExternalReferences": [
@@ -153,6 +132,27 @@
             },
             {
                 "Gene": {
+                    "Symbol": "ERCC2",
+                    "Name": "ERCC excision repair 2, TFIIH core complex helicase subunit",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "ERCC2"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "3434"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "126340"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
                     "Symbol": "ERCC4",
                     "Name": "ERCC excision repair 4, endonuclease catalytic subunit",
                     "ExternalReferences": [
@@ -174,20 +174,20 @@
             },
             {
                 "Gene": {
-                    "Symbol": "ERCC5",
-                    "Name": "ERCC excision repair 5, endonuclease",
+                    "Symbol": "ERCC3",
+                    "Name": "ERCC excision repair 3, TFIIH core complex helicase subunit",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "ERCC3"
+                        },
+                        {
                             "Source": "HGNC",
-                            "Reference": "3437"
+                            "Reference": "3435"
                         },
                         {
                             "Source": "OMIM",
-                            "Reference": "133530"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "ERCC5"
+                            "Reference": "133510"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -195,20 +195,20 @@
             },
             {
                 "Gene": {
-                    "Symbol": "ERCC2",
-                    "Name": "ERCC excision repair 2, TFIIH core complex helicase subunit",
+                    "Symbol": "ERCC5",
+                    "Name": "ERCC excision repair 5, endonuclease",
                     "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "ERCC2"
+                            "Reference": "ERCC5"
                         },
                         {
                             "Source": "HGNC",
-                            "Reference": "3434"
+                            "Reference": "3437"
                         },
                         {
                             "Source": "OMIM",
-                            "Reference": "126340"
+                            "Reference": "133530"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -216,6 +216,30 @@
             }
         ],
         "Parents": [
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "79390",
+                        "Label": "Rare photodermatosis"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "98097",
+                        "Label": "Autosomal recessive cerebellar ataxia due to a DNA repair defect"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "98571",
+                        "Label": "Secondary ectropion"
+                    }
+                ]
+            },
             {
                 "Parent": [
                     {
@@ -243,40 +267,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "611314",
-                        "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "98571",
-                        "Label": "Secondary ectropion"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "519270",
-                        "Label": "Rare disorder with entropion"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "139033",
-                        "Label": "Progeroid syndrome"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "98097",
-                        "Label": "Autosomal recessive cerebellar ataxia due to a DNA repair defect"
+                        "ORPHAcode": "363245",
+                        "Label": "Genetic progeroid syndrome"
                     }
                 ]
             },
@@ -299,8 +291,24 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "363245",
-                        "Label": "Genetic progeroid syndrome"
+                        "ORPHAcode": "611314",
+                        "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "139033",
+                        "Label": "Progeroid syndrome"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "519270",
+                        "Label": "Rare disorder with entropion"
                     }
                 ]
             },
@@ -309,14 +317,6 @@
                     {
                         "ORPHAcode": "98641",
                         "Label": "Syndromic cataract"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "79390",
-                        "Label": "Rare photodermatosis"
                     }
                 ]
             }

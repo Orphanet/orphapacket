@@ -8,25 +8,6 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
-            of function) in
-          ExternalReferences:
-          - Reference: '606362'
-            Source: OMIM
-          - Reference: '14376'
-            Source: HGNC
-          Label: acid phosphatase 4
-          Symbol: ACP4
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '14530'
-            Source: HGNC
-          - Reference: '608613'
-            Source: OMIM
-          Label: Sp6 transcription factor
-          Symbol: SP6
-      - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '3344'
@@ -63,20 +44,29 @@ Orphapacket:
             Source: OMIM
           Label: ameloblastin
           Symbol: AMBN
-      Label: Hypoplastic amelogenesis imperfecta
-      ORPHAcode: '100031'
-  - Child:
-      Genes:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
             of function) in
           ExternalReferences:
-          - Reference: '13764'
+          - Reference: '14376'
             Source: HGNC
-          - Reference: '611211'
+          - Reference: '606362'
             Source: OMIM
-          Label: RELT TNF receptor
-          Symbol: RELT
+          Label: acid phosphatase 4
+          Symbol: ACP4
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '14530'
+            Source: HGNC
+          - Reference: '608613'
+            Source: OMIM
+          Label: Sp6 transcription factor
+          Symbol: SP6
+      Label: Hypoplastic amelogenesis imperfecta
+      ORPHAcode: '100031'
+  - Child:
+      Genes:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -84,8 +74,8 @@ Orphapacket:
             Source: HGNC
           - Reference: '611927'
             Source: OMIM
-          Label: family with sequence similarity 83 member H
-          Symbol: FAM83H
+          Label: scaffolding CK1 anchoring protein H
+          Symbol: SACK1H
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -113,20 +103,20 @@ Orphapacket:
             Source: OMIM
           Label: amelotin
           Symbol: AMTN
-      Label: Hypocalcified amelogenesis imperfecta
-      ORPHAcode: '100032'
-  - Child:
-      Genes:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
             of function) in
           ExternalReferences:
-          - Reference: '4519'
+          - Reference: '13764'
             Source: HGNC
-          - Reference: '601404'
+          - Reference: '611211'
             Source: OMIM
-          Label: G protein-coupled receptor 68
-          Symbol: GPR68
+          Label: RELT TNF receptor
+          Symbol: RELT
+      Label: Hypocalcified amelogenesis imperfecta
+      ORPHAcode: '100032'
+  - Child:
+      Genes:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -148,10 +138,10 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '604629'
-            Source: OMIM
           - Reference: '7167'
             Source: HGNC
+          - Reference: '604629'
+            Source: OMIM
           Label: matrix metallopeptidase 20
           Symbol: MMP20
       - Gene:
@@ -182,6 +172,16 @@ Orphapacket:
             Source: OMIM
           Label: solute carrier family 24 member 4
           Symbol: SLC24A4
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '4519'
+            Source: HGNC
+          - Reference: '601404'
+            Source: OMIM
+          Label: G protein-coupled receptor 68
+          Symbol: GPR68
       Label: Hypomaturation amelogenesis imperfecta
       ORPHAcode: '100033'
   - Child:
@@ -204,7 +204,17 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '620104'
+      Reference: '104500'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '104510'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '104530'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -264,22 +274,12 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '104500'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '104510'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '104530'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
       Reference: '617217'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620104'
       Source: OMIM
   Label: Amelogenesis imperfecta
   ORPHAcode: '88661'
@@ -400,6 +400,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

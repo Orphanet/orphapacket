@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "100032",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "100032",
         "Label": "Hypocalcified amelogenesis imperfecta",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_100032",
@@ -20,7 +20,7 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "618386",
+                    "Reference": "130900",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
@@ -34,14 +34,14 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "130900",
+                    "Reference": "617607",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "617607",
+                    "Reference": "618386",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
@@ -49,26 +49,13 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "RELT",
-                    "Name": "RELT TNF receptor",
+                    "Symbol": "SACK1H",
+                    "Name": "scaffolding CK1 anchoring protein H",
                     "ExternalReferences": [
                         {
-                            "Source": "HGNC",
-                            "Reference": "13764"
+                            "Source": "ClinVar",
+                            "Reference": "FAM83H"
                         },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "611211"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "FAM83H",
-                    "Name": "family with sequence similarity 83 member H",
-                    "ExternalReferences": [
                         {
                             "Source": "HGNC",
                             "Reference": "24797"
@@ -76,10 +63,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "611927"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "FAM83H"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -91,16 +74,16 @@
                     "Name": "solute carrier family 24 member 4",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "SLC24A4"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "10978"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "609840"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "SLC24A4"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -133,19 +116,36 @@
                     "Name": "amelotin",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "AMTN"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "33188"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "610912"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "AMTN"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "RELT",
+                    "Name": "RELT TNF receptor",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "13764"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "611211"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
             }
         ],

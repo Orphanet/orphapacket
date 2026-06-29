@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "52417",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "52417",
         "Label": "MALT lymphoma",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_52417",
@@ -43,16 +43,16 @@
                     "Name": "MALT1 paracaspase",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "MALT1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "6819"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "604860"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "MALT1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Part of a fusion gene in"
@@ -64,16 +64,16 @@
                     "Name": "baculoviral IAP repeat containing 3",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "BIRC3"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "591"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "601721"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "BIRC3"
                         }
                     ],
                     "DisorderGeneAssociationType": "Part of a fusion gene in"
@@ -85,6 +85,14 @@
                     "Name": "immunoglobulin heavy locus",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "IGH@"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "5477"
+                        },
+                        {
                             "Source": "OMIM",
                             "Reference": "146910"
                         },
@@ -93,16 +101,8 @@
                             "Reference": "147010"
                         },
                         {
-                            "Source": "ClinVar",
-                            "Reference": "IGH@"
-                        },
-                        {
                             "Source": "OMIM",
                             "Reference": "147070"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "5477"
                         }
                     ],
                     "DisorderGeneAssociationType": "Part of a fusion gene in"
@@ -135,16 +135,16 @@
                     "Name": "BCL10 immune signaling adaptor",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "BCL10"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "989"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "603517"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "BCL10"
                         }
                     ],
                     "DisorderGeneAssociationType": "Part of a fusion gene in"
@@ -159,23 +159,17 @@
                         "Label": "Marginal zone lymphoma"
                     }
                 ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "717877",
+                        "Label": "Rare miscellaneous disease with inflammatory bowel disease"
+                    }
+                ]
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000505",
-                    "HPOTerm": "Visual impairment",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000614",
-                    "HPOTerm": "Abnormal nasolacrimal system morphology",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000820",
@@ -280,12 +274,26 @@
                     "HPOTerm": "Posterior uveitis",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000505",
+                    "HPOTerm": "Visual impairment",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000614",
+                    "HPOTerm": "Abnormal nasolacrimal system morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
             }
         ],
         "Prevalences": [
             {
                 "Prevalence": {
-                    "Source": "[EXPERT]_RARECARE surveillance of rare cancers in Europe[REG]",
+                    "Source": "[EXPERT]_RARECARE surveillance of rare cancers in Europe[OTHER]",
                     "PrevalenceType": "Annual incidence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 1 000 000",
@@ -295,7 +303,7 @@
             },
             {
                 "Prevalence": {
-                    "Source": "22893605[PMID]_National Cancer Institute[INST]",
+                    "Source": "22893605[PMID]_National Cancer OTHERitute[OTHER]",
                     "PrevalenceType": "Annual incidence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 100 000",
@@ -305,7 +313,7 @@
             },
             {
                 "Prevalence": {
-                    "Source": "European Medicines Agency 2013[INST]",
+                    "Source": "European Medicines Agency 2013[OTHER]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 100 000",

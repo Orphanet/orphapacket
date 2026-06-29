@@ -15,32 +15,40 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PLA2G6
+        Source: ClinVar
       - Reference: '9039'
         Source: HGNC
       - Reference: '603604'
         Source: OMIM
-      - Reference: PLA2G6
-        Source: ClinVar
       Name: phospholipase A2 group VI
       Symbol: PLA2G6
-  Label: Adult-onset dystonia-parkinsonism
+  Label: PLA2G6-related neurodegeneration, adult-onset
   ORPHAcode: '199351'
   ORPHApacketId: '199351'
   PURL: http://www.orpha.net/ORDO/Orphanet_199351
   Parents:
   - Parent:
-    - Label: PLA2G6-associated neurodegeneration
-      ORPHAcode: '329303'
+    - Label: Rare parkinsonian syndrome due to genetic neurodegenerative disease
+      ORPHAcode: '307055'
   - Parent:
-    - Label: Rare parkinsonian syndrome due to neurodegenerative disease
-      ORPHAcode: '306666'
+    - Label: PLA2G6-related neurodegeneration
+      ORPHAcode: '329303'
   - Parent:
     - Label: Persistent combined dystonia
       ORPHAcode: '391711'
   - Parent:
-    - Label: Rare parkinsonian syndrome due to genetic neurodegenerative disease
-      ORPHAcode: '307055'
+    - Label: Rare parkinsonian syndrome due to neurodegenerative disease
+      ORPHAcode: '306666'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011999
+      HPOTerm: Paranoia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012675
+      HPOTerm: Iron accumulation in brain
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000338
@@ -161,14 +169,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001336
       HPOTerm: Myoclonus
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011999
-      HPOTerm: Paranoia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012675
-      HPOTerm: Iron accumulation in brain
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -188,6 +188,10 @@ Orphapacket:
   - Synonym: Dystonia-parkinsonism, Paisan-Ruiz type
   - Synonym: PARK14
   - Synonym: PLA2G6-related dystonia-parkinsonism
+  - Synonym: PLA2G6-associated neurodegeneration, adult-onset
+  - Synonym: Adult-onset dystonia-parkinsonism
+  - Synonym: Adult PLAN
+  - Synonym: Adult phospholipase A2-associated neurodegeneration
   TextSection:
     Contents: A rare neurodegenerative disease usually presenting before the age of
       30 and which is characterized by dystonia L-dopa-responsive parkinsonism pyramidal
@@ -196,6 +200,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

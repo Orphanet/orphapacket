@@ -16,19 +16,22 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TBX1
+        Source: ClinVar
       - Reference: '11592'
         Source: HGNC
       - Reference: '602054'
         Source: OMIM
-      - Reference: TBX1
-        Source: ClinVar
       Name: T-box transcription factor 1
       Symbol: TBX1
-  Label: Combined immunodeficiency due to TBX1 deficiency
+  Label: Combined immunodeficiency due to TBX1 mutation
   ORPHAcode: '685017'
   ORPHApacketId: '685017'
   PURL: http://www.orpha.net/ORDO/Orphanet_685017
   Parents:
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
   - Parent:
     - Label: Syndome with combined immunodeficiency due to thymic defect
       ORPHAcode: '331220'
@@ -36,9 +39,6 @@ Orphapacket:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
       ORPHAcode: '611327'
-  - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-      ORPHAcode: '102283'
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -54,9 +54,22 @@ Orphapacket:
       PrevalenceType: Point prevalence
       Source: 11713452[PMID]_ORPHANET
       ValMoy: no data
+  TextSection:
+    Contents: A rare combined immunodeficiency characterized by velo-cardio-facial
+      gestalt (short and narrow palpebral fissures tubulous nose small mouth micrognathia
+      low-set ears flattened malar eminences broad cheeks) congenital heart defect
+      abnormal thymus and parathyroid and velopharyngeal insufficiency. Short stature
+      and psychiatric disorders may also present. Developmental and speech delay were
+      reported in few patients. Even though patients carrying <i>TBX1</i> mutations
+      may manifest clinical features that are overlapping with 22q11.2 deletion syndrome
+      the presence and frequency of these symptoms significantly differs; not all
+      patients with <i>TBX1</i> mutations have congenital heart defect hypocalcemia
+      psychiatric disorders or developmental delay contrary to 22q11.2 deletion syndrome
+      patients where these features are commonly present.
+    TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

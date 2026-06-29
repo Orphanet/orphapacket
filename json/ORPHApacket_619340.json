@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "619340",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "619340",
         "Label": "Inherited hematologic cancer-predisposing syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_619340",
@@ -24,21 +24,21 @@
         "Children": [
             {
                 "Child": {
-                    "Label": "Noonan syndrome",
-                    "ORPHAcode": "648",
+                    "Label": "Li-Fraumeni syndrome",
+                    "ORPHAcode": "524",
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "muscle RAS oncogene homolog",
-                                "Symbol": "MRAS",
+                                "Label": "tumor protein p53",
+                                "Symbol": "TP53",
                                 "ExternalReferences": [
                                     {
                                         "Source": "HGNC",
-                                        "Reference": "7227"
+                                        "Reference": "11998"
                                     },
                                     {
                                         "Source": "OMIM",
-                                        "Reference": "608435"
+                                        "Reference": "191170"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -46,38 +46,29 @@
                         },
                         {
                             "Gene": {
-                                "Label": "sprouty related EVH1 domain containing 2",
-                                "Symbol": "SPRED2",
+                                "Label": "MDM2 proto-oncogene",
+                                "Symbol": "MDM2",
                                 "ExternalReferences": [
                                     {
                                         "Source": "HGNC",
-                                        "Reference": "17722"
+                                        "Reference": "6973"
                                     },
                                     {
                                         "Source": "OMIM",
-                                        "Reference": "609292"
+                                        "Reference": "164785"
                                     }
                                 ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                                "DisorderGeneAssociationType": "Modifying germline mutation in"
                             }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "RAS related 2",
-                                "Symbol": "RRAS2",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "17271"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "600098"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        },
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Noonan syndrome",
+                    "ORPHAcode": "648",
+                    "Genes": [
                         {
                             "Gene": {
                                 "Label": "protein tyrosine phosphatase non-receptor type 11",
@@ -97,16 +88,16 @@
                         },
                         {
                             "Gene": {
-                                "Label": "Cbl proto-oncogene",
-                                "Symbol": "CBL",
+                                "Label": "B-Raf proto-oncogene, serine/threonine kinase",
+                                "Symbol": "BRAF",
                                 "ExternalReferences": [
                                     {
                                         "Source": "HGNC",
-                                        "Reference": "1541"
+                                        "Reference": "1097"
                                     },
                                     {
                                         "Source": "OMIM",
-                                        "Reference": "165360"
+                                        "Reference": "164757"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -182,6 +173,23 @@
                         },
                         {
                             "Gene": {
+                                "Label": "Cbl proto-oncogene",
+                                "Symbol": "CBL",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "1541"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "165360"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
                                 "Label": "Ras like without CAAX 1",
                                 "Symbol": "RIT1",
                                 "ExternalReferences": [
@@ -250,16 +258,50 @@
                         },
                         {
                             "Gene": {
-                                "Label": "B-Raf proto-oncogene, serine/threonine kinase",
-                                "Symbol": "BRAF",
+                                "Label": "muscle RAS oncogene homolog",
+                                "Symbol": "MRAS",
                                 "ExternalReferences": [
                                     {
                                         "Source": "HGNC",
-                                        "Reference": "1097"
+                                        "Reference": "7227"
                                     },
                                     {
                                         "Source": "OMIM",
-                                        "Reference": "164757"
+                                        "Reference": "608435"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "RAS related 2",
+                                "Symbol": "RRAS2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "17271"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600098"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "sprouty related EVH1 domain containing 2",
+                                "Symbol": "SPRED2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "17722"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "609292"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -413,90 +455,6 @@
             },
             {
                 "Child": {
-                    "Label": "B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality",
-                    "ORPHAcode": "585877",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "platelet derived growth factor receptor alpha",
-                                "Symbol": "PDGFRA",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "8803"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "173490"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Part of a fusion gene in"
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "forkhead box P1",
-                                "Symbol": "FOXP1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "3823"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "605515"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Part of a fusion gene in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Li-Fraumeni syndrome",
-                    "ORPHAcode": "524",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "MDM2 proto-oncogene",
-                                "Symbol": "MDM2",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "6973"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "164785"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Modifying germline mutation in"
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "tumor protein p53",
-                                "Symbol": "TP53",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "11998"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "191170"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
                     "Label": "DDX41-related hematologic malignancy predisposition syndrome",
                     "ORPHAcode": "488647",
                     "Genes": [
@@ -506,15 +464,47 @@
                                 "Symbol": "DDX41",
                                 "ExternalReferences": [
                                     {
-                                        "Source": "OMIM",
-                                        "Reference": "608170"
-                                    },
-                                    {
                                         "Source": "HGNC",
                                         "Reference": "18674"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "608170"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Major susceptibility factor in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Combined immunodeficiency-cancer predisposing syndrome due to AIOLOS deficiency",
+                    "ORPHAcode": "697385",
+                    "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Early-onset combined immunodeficiency with low Ig due to dominant negative IKAROS mutation",
+                    "ORPHAcode": "697414",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "IKAROS family zinc finger 1",
+                                "Symbol": "IKZF1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "13176"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "603023"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]

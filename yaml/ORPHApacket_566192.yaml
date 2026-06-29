@@ -6,9 +6,15 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-    Reference: '273900'
-    Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '273900'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620484'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -19,6 +25,15 @@ Orphapacket:
         Source: OMIM
       Name: FYN binding protein 1
       Symbol: FYB1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '9673'
+        Source: HGNC
+      - Reference: '600925'
+        Source: OMIM
+      Name: protein tyrosine phosphatase receptor type J
+      Symbol: PTPRJ
   Label: Congenital autosomal recessive small-platelet thrombocytopenia
   ORPHAcode: '566192'
   ORPHApacketId: '566192'
@@ -54,6 +69,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

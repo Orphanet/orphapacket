@@ -1,42 +1,11 @@
 Orphapacket:
   Children:
   - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '2197'
-            Source: HGNC
-          - Reference: '120150'
-            Source: OMIM
-          Label: collagen type I alpha 1 chain
-          Symbol: COL1A1
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '120160'
-            Source: OMIM
-          - Reference: '2198'
-            Source: HGNC
-          Label: collagen type I alpha 2 chain
-          Symbol: COL1A2
-      Label: Ehlers-Danlos/osteogenesis imperfecta syndrome
-      ORPHAcode: '230857'
-  - Child:
       Genes: no data
       Label: Marfan syndrome
       ORPHAcode: '558'
   - Child:
       Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '616615'
-            Source: OMIM
-          - Reference: '24290'
-            Source: HGNC
-          Label: chondroitin sulfate N-acetylgalactosaminyltransferase 1
-          Symbol: CSGALNACT1
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
             of function) in
@@ -57,8 +26,21 @@ Orphapacket:
             Source: OMIM
           Label: xylosyltransferase 1
           Symbol: XYLT1
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '24290'
+            Source: HGNC
+          - Reference: '616615'
+            Source: OMIM
+          Label: chondroitin sulfate N-acetylgalactosaminyltransferase 1
+          Symbol: CSGALNACT1
       Label: Desbuquois syndrome
       ORPHAcode: '1425'
+  - Child:
+      Genes: no data
+      Label: Familial articular hypermobility syndrome
+      ORPHAcode: '2295'
   - Child:
       Genes: no data
       Label: Lethal Larsen-like syndrome
@@ -108,10 +90,10 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '607860'
-            Source: OMIM
           - Reference: '30935'
             Source: HGNC
+          - Reference: '607860'
+            Source: OMIM
           Label: YY1 associated protein 1
           Symbol: YY1AP1
       Label: Grange syndrome
@@ -137,6 +119,28 @@ Orphapacket:
       Label: Cardiac anomalies-short stature-joint hypermobility-facial dysmorphism
         syndrome
       ORPHAcode: '228410'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '2197'
+            Source: HGNC
+          - Reference: '120150'
+            Source: OMIM
+          Label: collagen type I alpha 1 chain
+          Symbol: COL1A1
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '2198'
+            Source: HGNC
+          - Reference: '120160'
+            Source: OMIM
+          Label: collagen type I alpha 2 chain
+          Symbol: COL1A2
+      Label: Ehlers-Danlos/osteogenesis imperfecta syndrome
+      ORPHAcode: '230857'
   - Child:
       Genes:
       - Gene:
@@ -168,10 +172,6 @@ Orphapacket:
       Label: Marfanoid habitus-inguinal hernia-advanced bone age syndrome
       ORPHAcode: '314041'
   - Child:
-      Genes: no data
-      Label: Fontaine progeroid syndrome
-      ORPHAcode: '697101'
-  - Child:
       Genes:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -186,8 +186,8 @@ Orphapacket:
       ORPHAcode: '527450'
   - Child:
       Genes: no data
-      Label: Familial articular hypermobility syndrome
-      ORPHAcode: '2295'
+      Label: Fontaine progeroid syndrome
+      ORPHAcode: '697101'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -197,11 +197,11 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_139030
   Parents:
   - Parent:
-    - Label: Rare genetic developmental defect during embryogenesis
-      ORPHAcode: '183530'
-  - Parent:
     - Label: Rare developmental defect during embryogenesis
       ORPHAcode: '93890'
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  - Parent:
+    - Label: Rare genetic developmental defect during embryogenesis
+      ORPHAcode: '183530'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

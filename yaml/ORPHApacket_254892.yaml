@@ -9,6 +9,10 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '157640'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '609283'
@@ -28,64 +32,60 @@ Orphapacket:
         to represent it)
       Reference: '613077'
       Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-      Reference: '157640'
-      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: POLG
+        Source: ClinVar
       - Reference: '9179'
         Source: HGNC
       - Reference: '174763'
         Source: OMIM
-      - Reference: POLG
-        Source: ClinVar
       Name: DNA polymerase gamma, catalytic subunit
       Symbol: POLG
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: POLG2
+        Source: ClinVar
       - Reference: '9180'
         Source: HGNC
       - Reference: '604983'
         Source: OMIM
-      - Reference: POLG2
-        Source: ClinVar
       Name: DNA polymerase gamma 2, accessory subunit
       Symbol: POLG2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: SLC25A4
+        Source: ClinVar
       - Reference: '10990'
         Source: HGNC
       - Reference: '103220'
         Source: OMIM
-      - Reference: SLC25A4
-        Source: ClinVar
       Name: solute carrier family 25 member 4
       Symbol: SLC25A4
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: C10orf2
+        Source: ClinVar
       - Reference: '1160'
         Source: HGNC
       - Reference: '606075'
         Source: OMIM
-      - Reference: C10orf2
-        Source: ClinVar
       Name: twinkle mtDNA helicase
       Symbol: TWNK
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: RRM2B
+        Source: ClinVar
       - Reference: '17296'
         Source: HGNC
       - Reference: '604712'
         Source: OMIM
-      - Reference: RRM2B
-        Source: ClinVar
       Name: ribonucleotide reductase regulatory TP53 inducible subunit M2B
       Symbol: RRM2B
   Label: Autosomal dominant progressive external ophthalmoplegia
@@ -94,55 +94,123 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_254892
   Parents:
   - Parent:
-    - Label: Progressive external ophthalmoplegia
-      ORPHAcode: '520820'
-  - Parent:
     - Label: Neurometabolic disease
       ORPHAcode: '68385'
   - Parent:
     - Label: Multiple mitochondrial DNA deletion syndrome
       ORPHAcode: '254807'
+  - Parent:
+    - Label: Progressive external ophthalmoplegia
+      ORPHAcode: '520820'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000508
-      HPOTerm: Ptosis
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003477
+      HPOTerm: Peripheral axonal neuropathy
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000544
-      HPOTerm: External ophthalmoplegia
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003551
+      HPOTerm: Difficulty climbing stairs
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000338
-      HPOTerm: Hypomimic face
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004308
+      HPOTerm: Ventricular arrhythmia
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000496
-      HPOTerm: Abnormality of eye movement
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005110
+      HPOTerm: Atrial fibrillation
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000597
-      HPOTerm: Ophthalmoparesis
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007042
+      HPOTerm: Focal white matter lesions
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000602
-      HPOTerm: Ophthalmoplegia
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009830
+      HPOTerm: Peripheral neuropathy
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002067
-      HPOTerm: Bradykinesia
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011675
+      HPOTerm: Arrhythmia
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002322
-      HPOTerm: Resting tremor
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012664
+      HPOTerm: Reduced left ventricular ejection fraction
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0003198
-      HPOTerm: Myopathy
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000017
+      HPOTerm: Nocturia
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0003200
-      HPOTerm: Ragged-red muscle fibers
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000819
+      HPOTerm: Diabetes mellitus
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000821
+      HPOTerm: Hypothyroidism
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000836
+      HPOTerm: Hyperthyroidism
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000853
+      HPOTerm: Goiter
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000939
+      HPOTerm: Osteoporosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000969
+      HPOTerm: Edema
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001250
+      HPOTerm: Seizure
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001276
+      HPOTerm: Hypertonia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001392
+      HPOTerm: Abnormality of the liver
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001946
+      HPOTerm: Ketosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001962
+      HPOTerm: Palpitations
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002076
+      HPOTerm: Migraine
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002910
+      HPOTerm: Elevated circulating hepatic transaminase concentration
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0003394
+      HPOTerm: Muscle spasm
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0003438
+      HPOTerm: Absent Achilles reflex
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0007302
+      HPOTerm: Bipolar affective disorder
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0100543
+      HPOTerm: Cognitive impairment
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0100704
+      HPOTerm: Cerebral visual impairment
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0003458
@@ -320,113 +388,45 @@ Orphapacket:
       HPOId: HP:0003388
       HPOTerm: Easy fatigability
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003477
-      HPOTerm: Peripheral axonal neuropathy
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000508
+      HPOTerm: Ptosis
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003551
-      HPOTerm: Difficulty climbing stairs
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000544
+      HPOTerm: External ophthalmoplegia
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0004308
-      HPOTerm: Ventricular arrhythmia
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000338
+      HPOTerm: Hypomimic face
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0005110
-      HPOTerm: Atrial fibrillation
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000496
+      HPOTerm: Abnormality of eye movement
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0007042
-      HPOTerm: Focal white matter lesions
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000597
+      HPOTerm: Ophthalmoparesis
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0009830
-      HPOTerm: Peripheral neuropathy
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000602
+      HPOTerm: Ophthalmoplegia
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011675
-      HPOTerm: Arrhythmia
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002067
+      HPOTerm: Bradykinesia
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012664
-      HPOTerm: Reduced left ventricular ejection fraction
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002322
+      HPOTerm: Resting tremor
   - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000017
-      HPOTerm: Nocturia
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003198
+      HPOTerm: Myopathy
   - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000819
-      HPOTerm: Diabetes mellitus
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000821
-      HPOTerm: Hypothyroidism
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000836
-      HPOTerm: Hyperthyroidism
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000853
-      HPOTerm: Goiter
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000939
-      HPOTerm: Osteoporosis
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000969
-      HPOTerm: Edema
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0001250
-      HPOTerm: Seizure
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0001276
-      HPOTerm: Hypertonia
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0001392
-      HPOTerm: Abnormality of the liver
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0001946
-      HPOTerm: Ketosis
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0001962
-      HPOTerm: Palpitations
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0002076
-      HPOTerm: Migraine
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0002910
-      HPOTerm: Elevated circulating hepatic transaminase concentration
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0003394
-      HPOTerm: Muscle spasm
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0003438
-      HPOTerm: Absent Achilles reflex
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0007302
-      HPOTerm: Bipolar affective disorder
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0100543
-      HPOTerm: Cognitive impairment
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0100704
-      HPOTerm: Cerebral visual impairment
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003200
+      HPOTerm: Ragged-red muscle fibers
   Synonyms:
   - Synonym: adPEO
   TextSection:
@@ -440,6 +440,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

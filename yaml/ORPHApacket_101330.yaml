@@ -8,10 +8,10 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Major susceptibility factor in
           ExternalReferences:
-          - Reference: '613609'
-            Source: OMIM
           - Reference: '4886'
             Source: HGNC
+          - Reference: '613609'
+            Source: OMIM
           Label: homeostatic iron regulator
           Symbol: HFE
       Label: Sporadic porphyria cutanea tarda
@@ -31,10 +31,10 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Modifying germline mutation in
           ExternalReferences:
-          - Reference: '613609'
-            Source: OMIM
           - Reference: '4886'
             Source: HGNC
+          - Reference: '613609'
+            Source: OMIM
           Label: homeostatic iron regulator
           Symbol: HFE
       Label: Familial porphyria cutanea tarda
@@ -81,7 +81,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0031876
-      HPOTerm: Decreased hepcidin level
+      HPOTerm: Decreased circulating hepcidin concentration
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0032500
@@ -213,19 +213,12 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0003452
-      HPOTerm: Increased serum iron
+      HPOTerm: Increased circulating iron concentration
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0006562
       HPOTerm: Viral hepatitis
   Prevalences:
-  - Prevalence:
-      PrevalenceClass: 1-9 / 1 000 000
-      PrevalenceGeographic: Europe
-      PrevalenceQualification: Value and class
-      PrevalenceType: Annual incidence
-      Source: 19233912[PMID]_9516680[PMID]_[EXPERT]_ORPHANET
-      ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
       PrevalenceGeographic: Europe
@@ -247,6 +240,13 @@ Orphapacket:
       PrevalenceType: Point prevalence
       Source: 16191856[PMID]
       ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 19233912[PMID]_9516680[PMID]_[EXPERT]_ORPHANET
+      ValMoy: no data
   Synonyms:
   - Synonym: PCT
   TextSection:
@@ -258,6 +258,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Multigenic/multifactorial
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

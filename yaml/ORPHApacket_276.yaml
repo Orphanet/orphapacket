@@ -21,19 +21,27 @@ Orphapacket:
         Source: OMIM
       Name: interleukin 2 receptor subunit gamma
       Symbol: IL2RG
-  Label: T-B+ severe combined immunodeficiency due to gamma chain deficiency
+  Label: T-B+NK- severe combined immunodeficiency due to gamma chain deficiency
   ORPHAcode: '276'
   ORPHApacketId: '276'
   PURL: http://www.orpha.net/ORDO/Orphanet_276
   Parents:
   - Parent:
-    - Label: T-B+ severe combined immunodeficiency
-      ORPHAcode: '317416'
+    - Label: T-B+NK- severe combined immunodeficiency
+      ORPHAcode: '720287'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0032218
       HPOTerm: Decreased proportion of CD4-positive T cells
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0003237
+      HPOTerm: Increased circulating IgG level
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0005523
+      HPOTerm: Lymphoproliferative disorder
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001888
@@ -154,14 +162,6 @@ Orphapacket:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0002665
       HPOTerm: Lymphoma
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0003237
-      HPOTerm: Increased circulating IgG level
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0005523
-      HPOTerm: Lymphoproliferative disorder
   Prevalences:
     Prevalence:
     - PrevalenceClass: 1-9 / 100 000
@@ -172,8 +172,8 @@ Orphapacket:
       ValMoy: '0.0'
   Synonyms:
   - Synonym: SCIDX1
-  - Synonym: T-B+ SCID due to gamma chain deficiency
-  - Synonym: T-B+ severe combined immunodeficiency, X-linked
+  - Synonym: T-B+K- severe combined immunodeficiency, X-linked
+  - Synonym: T-B+NK- SCID due to gamma chain deficiency
   TextSection:
     Contents: Severe combined immunodeficiency (SCID) due to gamma chain deficiency
       also called SCID-X1 is a form of SCID characterized by severe and recurrent
@@ -182,6 +182,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

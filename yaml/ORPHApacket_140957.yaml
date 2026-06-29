@@ -15,21 +15,6 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '619840'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '619271'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '620486'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
         used to represent it)
       Reference: '187800'
@@ -44,18 +29,22 @@ Orphapacket:
         to represent it)
       Reference: '615193'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '619271'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '619840'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620486'
+      Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: TUBA8
-        Source: ClinVar
-      - Reference: '12410'
-        Source: HGNC
-      - Reference: '605742'
-        Source: OMIM
-      Name: tubulin alpha 8
-      Symbol: TUBA8
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -70,28 +59,6 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: TRPM7
-        Source: ClinVar
-      - Reference: '17994'
-        Source: HGNC
-      - Reference: '605692'
-        Source: OMIM
-      Name: transient receptor potential cation channel subfamily M member 7
-      Symbol: TRPM7
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '4238'
-        Source: HGNC
-      - Reference: '604383'
-        Source: OMIM
-      - Reference: GFI1B
-        Source: ClinVar
-      Name: growth factor independent 1B transcriptional repressor
-      Symbol: GFI1B
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: GP1BB
         Source: ClinVar
       - Reference: '4440'
@@ -100,18 +67,6 @@ Orphapacket:
         Source: OMIM
       Name: glycoprotein Ib platelet subunit beta
       Symbol: GP1BB
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '12013'
-        Source: HGNC
-      - Reference: '600317'
-        Source: OMIM
-      - Reference: TPM4
-        Source: ClinVar
-      Name: tropomyosin 4
-      Symbol: TPM4
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -126,23 +81,45 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: ITGB3
+        Source: ClinVar
       - Reference: '6156'
         Source: HGNC
       - Reference: '173470'
         Source: OMIM
-      - Reference: ITGB3
-        Source: ClinVar
       Name: integrin subunit beta 3
       Symbol: ITGB3
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TRPM7
+        Source: ClinVar
+      - Reference: '17994'
+        Source: HGNC
+      - Reference: '605692'
+        Source: OMIM
+      Name: transient receptor potential cation channel subfamily M member 7
+      Symbol: TRPM7
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: TUBA8
+        Source: ClinVar
+      - Reference: '12410'
+        Source: HGNC
+      - Reference: '605742'
+        Source: OMIM
+      Name: tubulin alpha 8
+      Symbol: TUBA8
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: TUBB1
+        Source: ClinVar
       - Reference: '16257'
         Source: HGNC
       - Reference: '612901'
         Source: OMIM
-      - Reference: TUBB1
-        Source: ClinVar
       Name: tubulin beta 1 class VI
       Symbol: TUBB1
   - Gene:
@@ -156,6 +133,29 @@ Orphapacket:
         Source: OMIM
       Name: actinin alpha 1
       Symbol: ACTN1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: TPM4
+        Source: ClinVar
+      - Reference: '12013'
+        Source: HGNC
+      - Reference: '600317'
+        Source: OMIM
+      Name: tropomyosin 4
+      Symbol: TPM4
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: GFI1B
+        Source: ClinVar
+      - Reference: '4238'
+        Source: HGNC
+      - Reference: '604383'
+        Source: OMIM
+      Name: growth factor independent 1B transcriptional repressor
+      Symbol: GFI1B
   Label: Autosomal dominant macrothrombocytopenia
   ORPHAcode: '140957'
   ORPHApacketId: '140957'
@@ -165,6 +165,22 @@ Orphapacket:
     - Label: Isolated hereditary giant platelet disorder
       ORPHAcode: '220452'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000978
+      HPOTerm: Bruising susceptibility
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004846
+      HPOTerm: Prolonged bleeding after surgery
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006298
+      HPOTerm: Prolonged bleeding after dental extraction
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100608
+      HPOTerm: Metrorrhagia
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001873
@@ -185,22 +201,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000421
       HPOTerm: Epistaxis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000978
-      HPOTerm: Bruising susceptibility
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0004846
-      HPOTerm: Prolonged bleeding after surgery
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0006298
-      HPOTerm: Prolonged bleeding after dental extraction
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100608
-      HPOTerm: Metrorrhagia
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -223,6 +223,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

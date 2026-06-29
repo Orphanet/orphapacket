@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1775",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "1775",
         "Label": "Dyskeratosis congenita",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_1775",
@@ -23,20 +23,6 @@
             }
         ],
         "ExternalReferences": [
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "620040",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "620133",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
@@ -99,6 +85,27 @@
                     "Reference": "616353",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "616553",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "620040",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "620133",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -108,23 +115,23 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "NPM1",
-                    "Name": "nucleophosmin 1",
+                    "Symbol": "ACD",
+                    "Name": "ACD shelterin complex subunit and telomerase recruitment factor",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "ACD"
+                        },
+                        {
                             "Source": "HGNC",
-                            "Reference": "7910"
+                            "Reference": "25070"
                         },
                         {
                             "Source": "OMIM",
-                            "Reference": "164040"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "NPM1"
+                            "Reference": "609377"
                         }
                     ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
@@ -133,16 +140,16 @@
                     "Name": "dyskerin pseudouridine synthase 1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "DKC1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "2890"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "300126"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "DKC1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -154,16 +161,16 @@
                     "Name": "telomerase reverse transcriptase",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "TERT"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "11730"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "187270"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TERT"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -196,16 +203,16 @@
                     "Name": "TERF1 interacting nuclear factor 2",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "TINF2"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "11824"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "604319"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TINF2"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -234,9 +241,34 @@
             },
             {
                 "Gene": {
+                    "Symbol": "NPM1",
+                    "Name": "nucleophosmin 1",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "NPM1"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "7910"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "164040"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                }
+            },
+            {
+                "Gene": {
                     "Symbol": "NHP2",
                     "Name": "NHP2 ribonucleoprotein",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "NHP2"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "14377"
@@ -244,10 +276,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "606470"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "NHP2"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -259,16 +287,37 @@
                     "Name": "U6 snRNA biogenesis phosphodiesterase 1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "HVSL1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "25792"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "613276"
-                        },
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "TYMS",
+                    "Name": "thymidylate synthetase",
+                    "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "HVSL1"
+                            "Reference": "TYMS"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "12441"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "188350"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -301,16 +350,16 @@
                     "Name": "CST telomere replication complex component 1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "CTC1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "26169"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "613129"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CTC1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -343,37 +392,16 @@
                     "Name": "poly(A)-specific ribonuclease",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "PARN"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "8609"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "604212"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "PARN"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "TYMS",
-                    "Name": "thymidylate synthetase",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "12441"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "188350"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TYMS"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -384,24 +412,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "79373",
-                        "Label": "Ectodermal dysplasia syndrome"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "222628",
-                        "Label": "Hereditary poikiloderma"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "79375",
-                        "Label": "Hyperpigmentation of the skin"
+                        "ORPHAcode": "68383",
+                        "Label": "Rare constitutional aplastic anemia"
                     }
                 ]
             },
@@ -424,8 +436,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "68383",
-                        "Label": "Rare constitutional aplastic anemia"
+                        "ORPHAcode": "222628",
+                        "Label": "Hereditary poikiloderma"
                     }
                 ]
             },
@@ -440,24 +452,24 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "611314",
-                        "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
+                        "ORPHAcode": "717877",
+                        "Label": "Rare miscellaneous disease with inflammatory bowel disease"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "98196",
-                        "Label": "Malformation syndrome with hamartosis"
+                        "ORPHAcode": "728475",
+                        "Label": "Inherited bone marrow failure disorder with immune defect"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "519274",
-                        "Label": "Syndromic lacrimal system disorder"
+                        "ORPHAcode": "79375",
+                        "Label": "Hyperpigmentation of the skin"
                     }
                 ]
             }

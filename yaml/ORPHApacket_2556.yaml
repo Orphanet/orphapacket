@@ -35,24 +35,24 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: COX7B
+        Source: ClinVar
       - Reference: '2291'
         Source: HGNC
       - Reference: '300885'
         Source: OMIM
-      - Reference: COX7B
-        Source: ClinVar
       Name: cytochrome c oxidase subunit 7B
       Symbol: COX7B
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: NDUFB11
+        Source: ClinVar
       - Reference: '20372'
         Source: HGNC
       - Reference: '300403'
         Source: OMIM
-      - Reference: NDUFB11
-        Source: ClinVar
       Name: NADH:ubiquinone oxidoreductase subunit B11
       Symbol: NDUFB11
   Label: Microphthalmia with linear skin defects syndrome
@@ -61,11 +61,17 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_2556
   Parents:
   - Parent:
-    - Label: Rare developmental defect with skin/mucosae involvement
-      ORPHAcode: '139027'
+    - Label: Mixed dermis disorder
+      ORPHAcode: '79380'
+  - Parent:
+    - Label: Rare disease with glaucoma as a major feature
+      ORPHAcode: '98638'
   - Parent:
     - Label: Syndromic anorectal malformation
       ORPHAcode: '117573'
+  - Parent:
+    - Label: Rare developmental defect with skin/mucosae involvement
+      ORPHAcode: '139027'
   - Parent:
     - Label: Genetic mixed dermis disorder
       ORPHAcode: '183481'
@@ -79,12 +85,6 @@ Orphapacket:
   - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
-  - Parent:
-    - Label: Rare disease with glaucoma as a major feature
-      ORPHAcode: '98638'
-  - Parent:
-    - Label: Mixed dermis disorder
-      ORPHAcode: '79380'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -312,46 +312,6 @@ Orphapacket:
       HPOTerm: Growth delay
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001597
-      HPOTerm: Abnormality of the nail
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001634
-      HPOTerm: Mitral valve prolapse
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001653
-      HPOTerm: Mitral regurgitation
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001704
-      HPOTerm: Tricuspid valve prolapse
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002034
-      HPOTerm: Abnormality of the rectum
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002094
-      HPOTerm: Dyspnea
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002098
-      HPOTerm: Respiratory distress
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002133
-      HPOTerm: Status epilepticus
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002300
-      HPOTerm: Mutism
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002381
-      HPOTerm: Aphasia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002878
       HPOTerm: Respiratory failure
   - Phenotype:
@@ -394,6 +354,46 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0011968
       HPOTerm: Feeding difficulties
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001597
+      HPOTerm: Abnormal nail morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001634
+      HPOTerm: Mitral valve prolapse
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001653
+      HPOTerm: Mitral regurgitation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001704
+      HPOTerm: Tricuspid valve prolapse
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002034
+      HPOTerm: Abnormality of the rectum
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002094
+      HPOTerm: Dyspnea
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002098
+      HPOTerm: Respiratory distress
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002133
+      HPOTerm: Status epilepticus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002300
+      HPOTerm: Mutism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002381
+      HPOTerm: Aphasia
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -425,6 +425,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -20,28 +20,28 @@ Orphapacket:
       Source: OMIM
   Genes:
   - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '8783'
-        Source: HGNC
-      - Reference: '600129'
-        Source: OMIM
-      - Reference: PDE4D
-        Source: ClinVar
-      Name: phosphodiesterase 4D
-      Symbol: PDE4D
-  - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
         in
       ExternalReferences:
+      - Reference: PRKAR1A
+        Source: ClinVar
       - Reference: '9388'
         Source: HGNC
       - Reference: '188830'
         Source: OMIM
-      - Reference: PRKAR1A
-        Source: ClinVar
       Name: protein kinase cAMP-dependent type I regulatory subunit alpha
       Symbol: PRKAR1A
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: PDE4D
+        Source: ClinVar
+      - Reference: '8783'
+        Source: HGNC
+      - Reference: '600129'
+        Source: OMIM
+      Name: phosphodiesterase 4D
+      Symbol: PDE4D
   Label: Acrodysostosis
   ORPHAcode: '950'
   ORPHApacketId: '950'
@@ -61,6 +61,42 @@ Orphapacket:
         disability
       ORPHAcode: '611327'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011220
+      HPOTerm: Prominent forehead
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0040071
+      HPOTerm: Abnormal morphology of ulna
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000135
+      HPOTerm: Hypogonadism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000286
+      HPOTerm: Epicanthus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000858
+      HPOTerm: Irregular menstruation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000995
+      HPOTerm: Melanocytic nevus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010807
+      HPOTerm: Open bite
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012368
+      HPOTerm: Flat face
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000194
@@ -88,7 +124,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001597
-      HPOTerm: Abnormality of the nail
+      HPOTerm: Abnormal nail morphology
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001831
@@ -237,42 +273,6 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0010978
       HPOTerm: Abnormality of immune system physiology
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0011220
-      HPOTerm: Prominent forehead
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0040071
-      HPOTerm: Abnormal morphology of ulna
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000135
-      HPOTerm: Hypogonadism
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000286
-      HPOTerm: Epicanthus
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000858
-      HPOTerm: Irregular menstruation
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000995
-      HPOTerm: Melanocytic nevus
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002650
-      HPOTerm: Scoliosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0010807
-      HPOTerm: Open bite
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012368
-      HPOTerm: Flat face
   Prevalences:
   - Prevalence:
       PrevalenceClass: Unknown
@@ -289,10 +289,10 @@ Orphapacket:
       Source: '[EXPERT]'
       ValMoy: no data
   Synonyms:
+  - Synonym: Acrodysostosis with or without multiple hormonal resistance
   - Synonym: Acrodysplasia
   - Synonym: Arkless-Graham syndrome
   - Synonym: Maroteaux-Malamut syndrome
-  - Synonym: Acrodysostosis with or without multiple hormonal resistance
   TextSection:
     Contents: An acromelic dysplasia that is characterized by severe brachydactyly
       peripheral dysostosis with facial dysostosis nasal hypoplasia and developmental
@@ -301,6 +301,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

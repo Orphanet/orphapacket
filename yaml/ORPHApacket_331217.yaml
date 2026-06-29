@@ -16,15 +16,14 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
-            of function) in
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '7910'
+          - Reference: '25070'
             Source: HGNC
-          - Reference: '164040'
+          - Reference: '609377'
             Source: OMIM
-          Label: nucleophosmin 1
-          Symbol: NPM1
+          Label: ACD shelterin complex subunit and telomerase recruitment factor
+          Symbol: ACD
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -71,6 +70,16 @@ Orphapacket:
           Label: NOP10 ribonucleoprotein
           Symbol: NOP10
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '7910'
+            Source: HGNC
+          - Reference: '164040'
+            Source: OMIM
+          Label: nucleophosmin 1
+          Symbol: NPM1
+      - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
           - Reference: '14377'
@@ -88,6 +97,15 @@ Orphapacket:
             Source: OMIM
           Label: U6 snRNA biogenesis phosphodiesterase 1
           Symbol: USB1
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '12441'
+            Source: HGNC
+          - Reference: '188350'
+            Source: OMIM
+          Label: thymidylate synthetase
+          Symbol: TYMS
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -124,15 +142,6 @@ Orphapacket:
             Source: OMIM
           Label: poly(A)-specific ribonuclease
           Symbol: PARN
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '12441'
-            Source: HGNC
-          - Reference: '188350'
-            Source: OMIM
-          Label: thymidylate synthetase
-          Symbol: TYMS
       Label: Dyskeratosis congenita
       ORPHAcode: '1775'
   - Child:
@@ -154,13 +163,13 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '613441'
-            Source: OMIM
           - Reference: '11653'
             Source: HGNC
+          - Reference: '613441'
+            Source: OMIM
           Label: transcobalamin 2
           Symbol: TCN2
-      Label: Transcobalamin deficiency
+      Label: Transcobalamin II deficiency
       ORPHAcode: '859'
   - Child:
       Genes:
@@ -254,6 +263,15 @@ Orphapacket:
             Source: OMIM
           Label: poly(A)-specific ribonuclease
           Symbol: PARN
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '11727'
+            Source: HGNC
+          - Reference: '602322'
+            Source: OMIM
+          Label: telomerase RNA component
+          Symbol: TERC
       Label: Hoyeraal-Hreidarsson syndrome
       ORPHAcode: '3322'
   - Child:
@@ -323,21 +341,6 @@ Orphapacket:
       Label: Combined immunodeficiency due to CRAC channel dysfunction
       ORPHAcode: '169090'
   - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
-            of function) in
-          ExternalReferences:
-          - Reference: '2876'
-            Source: HGNC
-          - Reference: '602121'
-            Source: OMIM
-          Label: diaphanous related formin 1
-          Symbol: DIAPH1
-      Label: Progressive microcephaly-seizures-cortical blindness-developmental delay
-        syndrome
-      ORPHAcode: '477814'
-  - Child:
       Genes: no data
       Label: DNA repair defect other than combined T-cell and B-cell immunodeficiencies
       ORPHAcode: '169346'
@@ -394,10 +397,10 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '174762'
-            Source: OMIM
           - Reference: '9177'
             Source: HGNC
+          - Reference: '174762'
+            Source: OMIM
           Label: DNA polymerase epsilon, catalytic subunit
           Symbol: POLE
       Label: Facial dysmorphism-immunodeficiency-livedo-short stature syndrome
@@ -426,9 +429,51 @@ Orphapacket:
       Label: Combined immunodeficiency-multiple intestinal atresia
       ORPHAcode: '436252'
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '2876'
+            Source: HGNC
+          - Reference: '602121'
+            Source: OMIM
+          Label: diaphanous related formin 1
+          Symbol: DIAPH1
+      Label: Progressive microcephaly-seizures-cortical blindness-developmental delay
+        syndrome
+      ORPHAcode: '477814'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '7782'
+            Source: HGNC
+          - Reference: '600492'
+            Source: OMIM
+          Label: NFE2 like bZIP transcription factor 2
+          Symbol: NFE2L2
+      Label: Developmental delay-immunodeficiency-leukoencephalopathy-hypohomocysteinemia
+        syndrome
+      ORPHAcode: '619979'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - ExternalReference:
+              Reference: '10937'
+              Source: HGNC
+          Label: solute carrier family 19 member 1
+          Symbol: SLC19A1
       Label: Megaloblastic anemia-immunodeficiency due to folate transporter 1 deficiency
       ORPHAcode: '661412'
+  - Child:
+      Genes: no data
+      Label: Combined immunodeficiency-cancer predisposing syndrome due to AIOLOS
+        deficiency
+      ORPHAcode: '697385'
   - Child:
       Genes:
       - Gene:
@@ -447,15 +492,41 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '7782'
+          - ExternalReference:
+              Reference: '6182'
+              Source: HGNC
+          Label: inositol 1,4,5-trisphosphate receptor type 3
+          Symbol: ITPR3
+      Label: ITPR3-related combined immunodeficiency-ectodermal dysplasia syndrome
+      ORPHAcode: '730318'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '12736'
             Source: HGNC
-          - Reference: '600492'
+          - Reference: '602357'
             Source: OMIM
-          Label: NFE2 like bZIP transcription factor 2
-          Symbol: NFE2L2
-      Label: Developmental delay-immunodeficiency-leukoencephalopathy-hypohomocysteinemia
-        syndrome
-      ORPHAcode: '619979'
+          Label: WAS/WASL interacting protein family member 1
+          Symbol: WIPF1
+      Label: Congenital thrombocytopenia-recurrent infections syndrome due to WIP
+        deficiency
+      ORPHAcode: '714493'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '9369'
+            Source: HGNC
+          - Reference: '176635'
+            Source: OMIM
+          Label: DNA primase subunit 1
+          Symbol: PRIM1
+      Label: Microcephalic primordial dwarfism syndrome with combined immunodeficiency
+        due to PRIM1 deficiency
+      ORPHAcode: '718037'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -467,6 +538,6 @@ Orphapacket:
   - Parent:
     - Label: Primary immunodeficiency due to a defect in adaptive immunity
       ORPHAcode: '179006'
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

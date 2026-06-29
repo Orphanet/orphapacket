@@ -5,8 +5,8 @@ Orphapacket:
   - AverageAgeOfOnset:
       value: Neonatal
   DisorderType:
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-    value: Malformation syndrome
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
   ExternalReferences:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -35,48 +35,36 @@ Orphapacket:
       Source: OMIM
   Genes:
   - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '16791'
-        Source: HGNC
-      - Reference: '608756'
-        Source: OMIM
-      - Reference: TSEN15
-        Source: ClinVar
-      Name: tRNA splicing endonuclease subunit 15
-      Symbol: TSEN15
-  - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TSEN54
+        Source: ClinVar
       - Reference: '27561'
         Source: HGNC
       - Reference: '608755'
         Source: OMIM
-      - Reference: TSEN54
-        Source: ClinVar
       Name: tRNA splicing endonuclease subunit 54
       Symbol: TSEN54
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TSEN34
+        Source: ClinVar
       - Reference: '15506'
         Source: HGNC
       - Reference: '608754'
         Source: OMIM
-      - Reference: TSEN34
-        Source: ClinVar
       Name: tRNA splicing endonuclease subunit 34
       Symbol: TSEN34
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TSEN2
+        Source: ClinVar
       - Reference: '28422'
         Source: HGNC
       - Reference: '608753'
         Source: OMIM
-      - Reference: TSEN2
-        Source: ClinVar
       Name: tRNA splicing endonuclease subunit 2
       Symbol: TSEN2
   - Gene:
@@ -90,13 +78,25 @@ Orphapacket:
         Source: OMIM
       Name: Sep (O-phosphoserine) tRNA:Sec (selenocysteine) tRNA synthase
       Symbol: SEPSECS
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: TSEN15
+        Source: ClinVar
+      - Reference: '16791'
+        Source: HGNC
+      - Reference: '608756'
+        Source: OMIM
+      Name: tRNA splicing endonuclease subunit 15
+      Symbol: TSEN15
   Label: Pontocerebellar hypoplasia type 2
   ORPHAcode: '2524'
   ORPHApacketId: '2524'
   PURL: http://www.orpha.net/ORDO/Orphanet_2524
   Parents:
   - Parent:
-    - Label: Non-syndromic pontocerebellar hypoplasia
+    - Label: Pontocerebellar hypoplasia
       ORPHAcode: '98523'
   - Parent:
     - Label: Spinal muscular atrophy associated with central nervous system anomaly
@@ -233,7 +233,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0011171
-      HPOTerm: Simple febrile seizures
+      HPOTerm: Simple febrile seizure
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0011471
@@ -289,6 +289,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "585948",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "585948",
         "Label": "B-lymphoblastic leukemia/lymphoma with t(5;14)(q31.1;q32.3)",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_585948",
@@ -23,6 +23,14 @@
                     "Name": "immunoglobulin heavy locus",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "IGH@"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "5477"
+                        },
+                        {
                             "Source": "OMIM",
                             "Reference": "146910"
                         },
@@ -31,16 +39,8 @@
                             "Reference": "147010"
                         },
                         {
-                            "Source": "ClinVar",
-                            "Reference": "IGH@"
-                        },
-                        {
                             "Source": "OMIM",
                             "Reference": "147070"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "5477"
                         }
                     ],
                     "DisorderGeneAssociationType": "Part of a fusion gene in"
@@ -51,8 +51,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "585877",
-                        "Label": "B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality"
+                        "ORPHAcode": "99860",
+                        "Label": "Precursor B-cell acute lymphoblastic leukemia"
                     }
                 ]
             }
@@ -60,7 +60,7 @@
         "Prevalences": [
             {
                 "Prevalence": {
-                    "Source": "WHO Classification of Tumours_ORPHANET",
+                    "Source": "WHO Classification of Tumours[OTHER]_ORPHANET",
                     "PrevalenceType": "Annual incidence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "Unknown",
@@ -70,7 +70,7 @@
             },
             {
                 "Prevalence": {
-                    "Source": "WHO Classification of Tumours_ORPHANET",
+                    "Source": "WHO Classification of Tumours[OTHER]_ORPHANET",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "Unknown",
@@ -95,6 +95,13 @@
                     "value": "Childhood"
                 }
             }
-        ]
+        ],
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Not applicable"
+                }
+            ]
+        }
     }
 }

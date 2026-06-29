@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "98087",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "98087",
         "Label": "Syndrome with 46,XY difference of sex development",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_98087",
@@ -13,10 +13,10 @@
         },
         "Synonyms": [
             {
-                "Synonym": "Syndrome with 46,XY disorder of sex development"
+                "Synonym": "Syndrome with 46,XY DSD"
             },
             {
-                "Synonym": "Syndrome with 46,XY DSD"
+                "Synonym": "Syndrome with 46,XY disorder of sex development"
             }
         ],
         "Parents": [
@@ -43,6 +43,23 @@
                     "Label": "WAGR syndrome",
                     "ORPHAcode": "893",
                     "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "brain derived neurotrophic factor",
+                                "Symbol": "BDNF",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "1033"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "113505"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
+                            }
+                        },
                         {
                             "Gene": {
                                 "Label": "WT1 transcription factor",
@@ -72,23 +89,6 @@
                                     {
                                         "Source": "OMIM",
                                         "Reference": "607108"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Role in the phenotype of"
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "brain derived neurotrophic factor",
-                                "Symbol": "BDNF",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "1033"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "113505"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Role in the phenotype of"
@@ -215,6 +215,13 @@
                 "Child": {
                     "Label": "PAGOD syndrome",
                     "ORPHAcode": "991",
+                    "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Genitopalatocardiac syndrome",
+                    "ORPHAcode": "2075",
                     "Genes": "no data"
                 }
             },
@@ -389,23 +396,6 @@
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "mastermind like domain containing 1",
-                                "Symbol": "MAMLD1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "2568"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "300120"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Role in the phenotype of"
-                            }
-                        },
-                        {
-                            "Gene": {
                                 "Label": "myotubularin 1",
                                 "Symbol": "MTM1",
                                 "ExternalReferences": [
@@ -416,6 +406,23 @@
                                     {
                                         "Source": "OMIM",
                                         "Reference": "300415"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "mastermind like domain containing 1",
+                                "Symbol": "MAMLD1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "2568"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "300120"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Role in the phenotype of"
@@ -447,13 +454,6 @@
                             }
                         }
                     ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Genitopalatocardiac syndrome",
-                    "ORPHAcode": "2075",
-                    "Genes": "no data"
                 }
             }
         ]

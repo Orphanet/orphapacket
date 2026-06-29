@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "231183",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "231183",
         "Label": "Usher syndrome type 3",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_231183",
@@ -17,13 +17,6 @@
             }
         ],
         "ExternalReferences": [
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "617236",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
@@ -44,6 +37,13 @@
                     "Reference": "614504",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "617236",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -51,48 +51,6 @@
             "Contents": "A rare ciliopathy characterized by progressive hearing and visual loss in the first decades of life and in some cases vestibular dysfunction. Patients have normal hearing at birth. Onset of hearing loss is usually in late childhood or adolescence after development of speech. Profound deafness is mostly reported by middle age. Retinitis pigmentosa related visual loss also develops in late childhood or adolescence. Developmental motor milestones are generally normal but vestibular dysfunction may occur in adulthood."
         },
         "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "CEP78",
-                    "Name": "centrosomal protein 78",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CEP78"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "617110"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "25740"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "ARSG",
-                    "Name": "arylsulfatase G",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "ARSG"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "610008"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "24102"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
             {
                 "Gene": {
                     "Symbol": "CLRN1",
@@ -120,16 +78,16 @@
                     "Name": "mitochondrially encoded tRNA-Ser (AGU/C) 2",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "MT-TS2"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "7498"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "590085"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "MT-TS2"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -141,16 +99,58 @@
                     "Name": "histidyl-tRNA synthetase 1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "HARS"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "4816"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "142810"
-                        },
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "CEP78",
+                    "Name": "centrosomal protein 78",
+                    "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "HARS"
+                            "Reference": "CEP78"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "25740"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "617110"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "ARSG",
+                    "Name": "arylsulfatase G",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "ARSG"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "24102"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "610008"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -173,13 +173,6 @@
                     "HPOId": "HP:0001751",
                     "HPOTerm": "Abnormal vestibular function",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000375",
-                    "HPOTerm": "Abnormal cochlea morphology",
-                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
@@ -250,6 +243,13 @@
                     "HPOId": "HP:0000739",
                     "HPOTerm": "Anxiety",
                     "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000375",
+                    "HPOTerm": "Abnormal cochlea morphology",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             }
         ],

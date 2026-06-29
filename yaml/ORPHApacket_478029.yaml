@@ -14,12 +14,12 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: TXN2
+        Source: ClinVar
       - Reference: '17772'
         Source: HGNC
       - Reference: '609063'
         Source: OMIM
-      - Reference: TXN2
-        Source: ClinVar
       Name: thioredoxin 2
       Symbol: TXN2
   Label: Combined oxidative phosphorylation defect type 29
@@ -28,11 +28,14 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_478029
   Parents:
   - Parent:
+    - Label: Mitochondrial disorder due to a defect in mitochondrial protein synthesis
+      ORPHAcode: '35696'
+  - Parent:
     - Label: Genetic neurodegenerative disease
       ORPHAcode: '183500'
   - Parent:
-    - Label: Mitochondrial disorder due to a defect in mitochondrial protein synthesis
-      ORPHAcode: '35696'
+    - Label: Neurometabolic disease
+      ORPHAcode: '68385'
   - Parent:
     - Label: Rare neurodegenerative disease
       ORPHAcode: '182070'
@@ -96,7 +99,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0011451
-      HPOTerm: Congenital microcephaly
+      HPOTerm: Primary microcephaly
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0011923
@@ -153,6 +156,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

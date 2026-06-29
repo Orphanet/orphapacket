@@ -7,11 +7,6 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '616219'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
       Reference: '135700'
       Source: OMIM
@@ -40,38 +35,21 @@ Orphapacket:
         to represent it)
       Reference: '609612'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '616219'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: COL25A1
+      - Reference: PHOX2A
         Source: ClinVar
-      - Reference: '18603'
-        Source: HGNC
-      - Reference: '610004'
-        Source: OMIM
-      Name: collagen type XXV alpha 1 chain
-      Symbol: COL25A1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: TUBA1A
-        Source: ClinVar
-      - Reference: '20766'
-        Source: HGNC
-      - Reference: '602529'
-        Source: OMIM
-      Name: tubulin alpha 1a
-      Symbol: TUBA1A
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: '691'
         Source: HGNC
       - Reference: '602753'
         Source: OMIM
-      - Reference: PHOX2A
-        Source: ClinVar
       Name: paired like homeobox 2A
       Symbol: PHOX2A
   - Gene:
@@ -88,25 +66,47 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TUBA1A
+        Source: ClinVar
+      - Reference: '20766'
+        Source: HGNC
+      - Reference: '602529'
+        Source: OMIM
+      Name: tubulin alpha 1a
+      Symbol: TUBA1A
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: TUBB2B
+        Source: ClinVar
+      - Reference: '30829'
+        Source: HGNC
+      - Reference: '612850'
+        Source: OMIM
+      Name: tubulin beta 2B class IIb
+      Symbol: TUBB2B
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: TUBB3
+        Source: ClinVar
       - Reference: '20772'
         Source: HGNC
       - Reference: '602661'
         Source: OMIM
-      - Reference: TUBB3
-        Source: ClinVar
       Name: tubulin beta 3 class III
       Symbol: TUBB3
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '30829'
-        Source: HGNC
-      - Reference: '612850'
-        Source: OMIM
-      - Reference: TUBB2B
+      - Reference: COL25A1
         Source: ClinVar
-      Name: tubulin beta 2B class IIb
-      Symbol: TUBB2B
+      - Reference: '18603'
+        Source: HGNC
+      - Reference: '610004'
+        Source: OMIM
+      Name: collagen type XXV alpha 1 chain
+      Symbol: COL25A1
   Label: Congenital fibrosis of extraocular muscles
   ORPHAcode: '45358'
   ORPHApacketId: '45358'
@@ -116,14 +116,17 @@ Orphapacket:
     - Label: Rare disorder with ptosis
       ORPHAcode: '98578'
   - Parent:
-    - Label: Syndromic disorder with strabismus
-      ORPHAcode: '98683'
+    - Label: Congenital cranial dysinnervation disorder
+      ORPHAcode: '98518'
   - Parent:
     - Label: Progressive muscular dystrophy
       ORPHAcode: '206644'
   - Parent:
     - Label: Syndromic genetic disorder with strabismus
       ORPHAcode: '522520'
+  - Parent:
+    - Label: Syndromic disorder with strabismus
+      ORPHAcode: '98683'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
@@ -303,6 +306,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: Not applicable
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

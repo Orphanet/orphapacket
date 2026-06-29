@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2241",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "2241",
         "Label": "Megacystis-microcolon-intestinal hypoperistalsis syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2241",
@@ -23,6 +23,13 @@
             }
         ],
         "ExternalReferences": [
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "249210",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
@@ -50,13 +57,6 @@
                     "Reference": "619431",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "249210",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
             }
         ],
         "TextSection": {
@@ -64,27 +64,6 @@
             "Contents": "Megacystis microcolon intestinal hypoperistalsis syndrome (MMIHS) is a rare congenital disease characterized by massive abdominal distension caused by a largely dilated non-obstructed urinary bladder (megacystis) microcolon and decreased or absent intestinal peristalsis."
         },
         "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "LMOD1",
-                    "Name": "leiomodin 1",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "6647"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "602715"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "LMOD1"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
-                }
-            },
             {
                 "Gene": {
                     "Symbol": "MYH11",
@@ -108,30 +87,13 @@
             },
             {
                 "Gene": {
-                    "Symbol": "ACTG2",
-                    "Name": "actin gamma 2, smooth muscle",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "145"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "102545"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "ACTG2"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "MYLK",
                     "Name": "myosin light chain kinase",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "MYLK"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "7590"
@@ -139,10 +101,48 @@
                         {
                             "Source": "OMIM",
                             "Reference": "600922"
-                        },
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "ACTG2",
+                    "Name": "actin gamma 2, smooth muscle",
+                    "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "MYLK"
+                            "Reference": "ACTG2"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "145"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "102545"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "LMOD1",
+                    "Name": "leiomodin 1",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "LMOD1"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "6647"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "602715"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"

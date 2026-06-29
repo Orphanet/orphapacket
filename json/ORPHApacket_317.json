@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "317",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "317",
         "Label": "Erythrokeratodermia variabilis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_317",
@@ -73,30 +73,13 @@
             },
             {
                 "Gene": {
-                    "Symbol": "GJB4",
-                    "Name": "gap junction protein beta 4",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "4286"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "605425"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "GJB4"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "GJB3",
                     "Name": "gap junction protein beta 3",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "GJB3"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "4285"
@@ -104,10 +87,27 @@
                         {
                             "Source": "OMIM",
                             "Reference": "603324"
-                        },
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "GJB4",
+                    "Name": "gap junction protein beta 4",
+                    "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "GJB3"
+                            "Reference": "GJB4"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "4286"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "605425"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -123,12 +123,12 @@
                             "Reference": "KDSR"
                         },
                         {
-                            "Source": "OMIM",
-                            "Reference": "136440"
-                        },
-                        {
                             "Source": "HGNC",
                             "Reference": "4021"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "136440"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
@@ -147,14 +147,6 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "522548",
-                        "Label": "Syndromic genetic cataract"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
                         "ORPHAcode": "281082",
                         "Label": "Inherited non-syndromic ichthyosis"
                     }
@@ -165,6 +157,14 @@
                     {
                         "ORPHAcode": "308166",
                         "Label": "Erythrokeratoderma variabilis progressiva"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "522548",
+                        "Label": "Syndromic genetic cataract"
                     }
                 ]
             }
@@ -341,7 +341,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0001597",
-                    "HPOTerm": "Abnormality of the nail",
+                    "HPOTerm": "Abnormal nail morphology",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },

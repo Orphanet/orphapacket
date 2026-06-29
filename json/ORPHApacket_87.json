@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "87",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "87",
         "Label": "Apert syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_87",
@@ -37,16 +37,16 @@
                     "Name": "fibroblast growth factor receptor 2",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "FGFR2"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "3689"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "176943"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "FGFR2"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
@@ -54,6 +54,22 @@
             }
         ],
         "Parents": [
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "98650",
+                        "Label": "Craniofacial anomaly with cataract"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "98684",
+                        "Label": "Craniostenosis with strabismus"
+                    }
+                ]
+            },
             {
                 "Parent": [
                     {
@@ -73,44 +89,21 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "102283",
-                        "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "98684",
-                        "Label": "Craniostenosis with strabismus"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "98650",
-                        "Label": "Craniofacial anomaly with cataract"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
                         "ORPHAcode": "611327",
                         "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "102283",
+                        "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
                     }
                 ]
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011380",
-                    "HPOTerm": "Morphological abnormality of the semicircular canal",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0011800",
@@ -270,6 +263,41 @@
                     "HPOId": "HP:0200020",
                     "HPOTerm": "Corneal erosion",
                     "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011380",
+                    "HPOTerm": "Morphological abnormality of the semicircular canal",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004635",
+                    "HPOTerm": "Cervical vertebrae fusion (C5/C6)",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008872",
+                    "HPOTerm": "Feeding difficulties in infancy",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0009601",
+                    "HPOTerm": "Aplasia/Hypoplasia of the thumb",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011304",
+                    "HPOTerm": "Broad thumb",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -486,34 +514,6 @@
                 "Phenotype": {
                     "HPOId": "HP:0003422",
                     "HPOTerm": "Vertebral segmentation defect",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004635",
-                    "HPOTerm": "Cervical vertebrae fusion (C5/C6)",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008872",
-                    "HPOTerm": "Feeding difficulties in infancy",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0009601",
-                    "HPOTerm": "Aplasia/Hypoplasia of the thumb",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011304",
-                    "HPOTerm": "Broad thumb",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             }

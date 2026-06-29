@@ -11,17 +11,17 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
+      Reference: '219000'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '617666'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '617667'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '219000'
       Source: OMIM
   Genes:
   - Gene:
@@ -38,12 +38,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: FREM2
+        Source: ClinVar
       - Reference: '25396'
         Source: HGNC
       - Reference: '608945'
         Source: OMIM
-      - Reference: FREM2
-        Source: ClinVar
       Name: FRAS1 related extracellular matrix 2
       Symbol: FREM2
   - Gene:
@@ -63,32 +63,32 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_2052
   Parents:
   - Parent:
-    - Label: Syndromic anorectal malformation
-      ORPHAcode: '117573'
+    - Label: Rare syndromic genetic deafness
+      ORPHAcode: '90642'
   - Parent:
     - Label: Cryptophthalmia
       ORPHAcode: '98562'
   - Parent:
-    - Label: Rare syndromic genetic deafness
-      ORPHAcode: '90642'
-  - Parent:
-    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
-        disability
-      ORPHAcode: '611327'
-  - Parent:
-    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-      ORPHAcode: '330206'
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
   - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
         disability
       ORPHAcode: '102285'
   - Parent:
+    - Label: Syndromic anorectal malformation
+      ORPHAcode: '117573'
+  - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '330206'
+  - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
+        disability
+      ORPHAcode: '611327'
+  - Parent:
     - Label: Syndromic renal or urinary tract malformation
       ORPHAcode: '93547'
-  - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-      ORPHAcode: '102283'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
@@ -98,66 +98,6 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000377
       HPOTerm: Abnormal pinna morphology
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002777
-      HPOTerm: Tracheal stenosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003191
-      HPOTerm: Cleft ala nasi
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003422
-      HPOTerm: Vertebral segmentation defect
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0004112
-      HPOTerm: Midline nasal groove
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0004397
-      HPOTerm: Ectopic anus
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0006610
-      HPOTerm: Wide intermamillary distance
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008551
-      HPOTerm: Microtia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0010720
-      HPOTerm: Abnormal hair pattern
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0030680
-      HPOTerm: Abnormal cardiovascular system morphology
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000772
-      HPOTerm: Abnormal rib morphology
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0003183
-      HPOTerm: Wide pubic symphysis
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0009826
-      HPOTerm: Limb undergrowth
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000079
-      HPOTerm: Abnormality of the urinary system
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000618
-      HPOTerm: Blindness
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001126
-      HPOTerm: Cryptophthalmos
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0006101
@@ -354,13 +294,73 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002475
       HPOTerm: Myelomeningocele
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002777
+      HPOTerm: Tracheal stenosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003191
+      HPOTerm: Cleft ala nasi
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003422
+      HPOTerm: Vertebral segmentation defect
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004112
+      HPOTerm: Midline nasal groove
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004397
+      HPOTerm: Ectopic anus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006610
+      HPOTerm: Wide intermamillary distance
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008551
+      HPOTerm: Microtia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010720
+      HPOTerm: Abnormal hair pattern
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030680
+      HPOTerm: Abnormal cardiovascular system morphology
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000772
+      HPOTerm: Abnormal rib morphology
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0003183
+      HPOTerm: Wide pubic symphysis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0009826
+      HPOTerm: Limb undergrowth
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000079
+      HPOTerm: Abnormality of the urinary system
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000618
+      HPOTerm: Blindness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001126
+      HPOTerm: Cryptophthalmos
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
       PrevalenceGeographic: Europe
       PrevalenceQualification: Value and class
       PrevalenceType: Prevalence at birth
-      Source: 23532946[PMID]_EUROCAT European surveillance of congenital anomalies[REG]
+      Source: 23532946[PMID]_EUROCAT European surveillance of congenital anomalies[OTHER]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: Unknown
@@ -385,6 +385,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

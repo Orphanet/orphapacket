@@ -15,12 +15,12 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '300882'
+      Reference: '300590'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '300590'
+      Reference: '300882'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -37,6 +37,11 @@ Orphapacket:
         to represent it)
       Reference: '620568'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '621570'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
@@ -52,82 +57,89 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: NIPBL
+        Source: ClinVar
       - Reference: '28862'
         Source: HGNC
       - Reference: '608667'
         Source: OMIM
-      - Reference: NIPBL
-        Source: ClinVar
       Name: NIPBL cohesin loading factor
       Symbol: NIPBL
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '606062'
-        Source: OMIM
-      - Reference: '2468'
-        Source: HGNC
       - Reference: SMC3
         Source: ClinVar
+      - Reference: '2468'
+        Source: HGNC
+      - Reference: '606062'
+        Source: OMIM
       Name: structural maintenance of chromosomes 3
       Symbol: SMC3
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: HDAC8
+        Source: ClinVar
       - Reference: '13315'
         Source: HGNC
       - Reference: '300269'
         Source: OMIM
-      - Reference: HDAC8
-        Source: ClinVar
       Name: histone deacetylase 8
       Symbol: HDAC8
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: RAD21
+        Source: ClinVar
       - Reference: '9811'
         Source: HGNC
       - Reference: '606462'
         Source: OMIM
-      - Reference: RAD21
-        Source: ClinVar
       Name: RAD21 cohesin complex component
       Symbol: RAD21
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: BRD4
+        Source: ClinVar
       - Reference: '13575'
         Source: HGNC
       - Reference: '608749'
         Source: OMIM
-      - Reference: BRD4
-        Source: ClinVar
       Name: bromodomain containing 4
       Symbol: BRD4
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '29140'
+        Source: HGNC
+      Name: MAU2 sister chromatid cohesion factor
+      Symbol: MAU2
   Label: Cornelia de Lange syndrome
   ORPHAcode: '199'
   ORPHApacketId: '199'
   PURL: http://www.orpha.net/ORDO/Orphanet_199
   Parents:
   - Parent:
+    - Label: Rare disorder with ptosis
+      ORPHAcode: '98578'
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
+  - Parent:
+    - Label: Syndromic diaphragmatic or abdominal wall malformation
+      ORPHAcode: '108979'
+  - Parent:
+    - Label: Pierre Robin syndrome associated with bone disease
+      ORPHAcode: '138055'
+  - Parent:
     - Label: Malformation syndrome with short stature
       ORPHAcode: '139021'
   - Parent:
     - Label: Syndrome with limb reduction defects
       ORPHAcode: '294955'
-  - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-      ORPHAcode: '102283'
-  - Parent:
-    - Label: Pierre Robin syndrome associated with bone disease
-      ORPHAcode: '138055'
-  - Parent:
-    - Label: Rare disorder with ptosis
-      ORPHAcode: '98578'
-  - Parent:
-    - Label: Syndromic diaphragmatic or abdominal wall malformation
-      ORPHAcode: '108979'
   - Parent:
     - Label: Genetic malformation syndrome with short stature
       ORPHAcode: '183570'
@@ -143,93 +155,29 @@ Orphapacket:
       ORPHAcode: '180779'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000218
-      HPOTerm: High palate
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003042
+      HPOTerm: Elbow dislocation
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000233
-      HPOTerm: Thin vermilion border
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004209
+      HPOTerm: Clinodactyly of the 5th finger
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000248
-      HPOTerm: Brachycephaly
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007018
+      HPOTerm: Attention deficit hyperactivity disorder
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000252
-      HPOTerm: Microcephaly
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007598
+      HPOTerm: Bilateral single transverse palmar creases
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000294
-      HPOTerm: Low anterior hairline
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008736
+      HPOTerm: Hypoplasia of penis
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000343
-      HPOTerm: Long philtrum
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000347
-      HPOTerm: Micrognathia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000413
-      HPOTerm: Atresia of the external auditory canal
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000463
-      HPOTerm: Anteverted nares
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000470
-      HPOTerm: Short neck
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000527
-      HPOTerm: Long eyelashes
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000574
-      HPOTerm: Thick eyebrow
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000664
-      HPOTerm: Synophrys
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000684
-      HPOTerm: Delayed eruption of teeth
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000687
-      HPOTerm: Widely spaced teeth
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001276
-      HPOTerm: Hypertonia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001770
-      HPOTerm: Toe syndactyly
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001773
-      HPOTerm: Short foot
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002020
-      HPOTerm: Gastroesophageal reflux
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002162
-      HPOTerm: Low posterior hairline
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002230
-      HPOTerm: Generalized hirsutism
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008850
+      HPOTerm: Severe postnatal growth retardation
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002553
@@ -375,29 +323,101 @@ Orphapacket:
       HPOId: HP:0002974
       HPOTerm: Radioulnar synostosis
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0003042
-      HPOTerm: Elbow dislocation
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000218
+      HPOTerm: High palate
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0004209
-      HPOTerm: Clinodactyly of the 5th finger
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000233
+      HPOTerm: Thin vermilion border
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0007018
-      HPOTerm: Attention deficit hyperactivity disorder
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000248
+      HPOTerm: Brachycephaly
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0007598
-      HPOTerm: Bilateral single transverse palmar creases
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000252
+      HPOTerm: Microcephaly
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0008736
-      HPOTerm: Hypoplasia of penis
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000294
+      HPOTerm: Low anterior hairline
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0008850
-      HPOTerm: Severe postnatal growth retardation
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000343
+      HPOTerm: Long philtrum
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000347
+      HPOTerm: Micrognathia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000413
+      HPOTerm: Atresia of the external auditory canal
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000463
+      HPOTerm: Anteverted nares
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000470
+      HPOTerm: Short neck
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000527
+      HPOTerm: Long eyelashes
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000574
+      HPOTerm: Thick eyebrow
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000664
+      HPOTerm: Synophrys
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000684
+      HPOTerm: Delayed eruption of teeth
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000687
+      HPOTerm: Widely spaced teeth
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001276
+      HPOTerm: Hypertonia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001770
+      HPOTerm: Toe syndactyly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001773
+      HPOTerm: Short foot
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002020
+      HPOTerm: Gastroesophageal reflux
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002162
+      HPOTerm: Low posterior hairline
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002230
+      HPOTerm: Generalized hirsutism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030680
+      HPOTerm: Abnormal cardiovascular system morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0040071
+      HPOTerm: Abnormal morphology of ulna
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0008872
@@ -531,14 +551,6 @@ Orphapacket:
       HPOId: HP:0012165
       HPOTerm: Oligodactyly
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0030680
-      HPOTerm: Abnormal cardiovascular system morphology
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0040071
-      HPOTerm: Abnormal morphology of ulna
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000358
       HPOTerm: Posteriorly rotated ears
@@ -581,6 +593,6 @@ Orphapacket:
       value: Not applicable
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

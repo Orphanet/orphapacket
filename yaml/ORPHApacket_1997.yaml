@@ -7,48 +7,47 @@ Orphapacket:
     value: Malformation syndrome
   ExternalReferences:
   - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '119580'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '617681'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-      Reference: '119580'
       Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
-      - Reference: '2515'
-        Source: HGNC
-      - Reference: '601045'
-        Source: OMIM
-      - Reference: CTNND1
+      - Reference: CDH1
         Source: ClinVar
-      Name: catenin delta 1
-      Symbol: CTNND1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
       - Reference: '1748'
         Source: HGNC
       - Reference: '192090'
         Source: OMIM
-      - Reference: CDH1
-        Source: ClinVar
       Name: cadherin 1
       Symbol: CDH1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: CTNND1
+        Source: ClinVar
+      - Reference: '2515'
+        Source: HGNC
+      - Reference: '601045'
+        Source: OMIM
+      Name: catenin delta 1
+      Symbol: CTNND1
   Label: Blepharo-cheilo-odontic syndrome
   ORPHAcode: '1997'
   ORPHApacketId: '1997'
   PURL: http://www.orpha.net/ORDO/Orphanet_1997
   Parents:
   - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-      ORPHAcode: '102285'
+    - Label: Ectodermal dysplasia syndrome
+      ORPHAcode: '79373'
   - Parent:
     - Label: Congenital ectropion
       ORPHAcode: '98570'
@@ -56,18 +55,19 @@ Orphapacket:
     - Label: Orofacial clefting syndrome
       ORPHAcode: '139039'
   - Parent:
-    - Label: Malformation syndrome with odontal and/or periodontal component
-      ORPHAcode: '139042'
-  - Parent:
-    - Label: Ectodermal dysplasia syndrome
-      ORPHAcode: '79373'
-  - Parent:
     - Label: Genetic malformation syndrome with odontal and/or periodontal component
       ORPHAcode: '183580'
   - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
         disability
       ORPHAcode: '330206'
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '102285'
+  - Parent:
+    - Label: Malformation syndrome with odontal and/or periodontal component
+      ORPHAcode: '139042'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -144,8 +144,8 @@ Orphapacket:
   - Synonym: BCD syndrome
   - Synonym: Blepharocheilodontic syndrome
   - Synonym: Clefting-ectropion-conical teeth syndrome
-  - Synonym: Elschnig syndrome
   - Synonym: Ectropion inferior-cleft lip and/or palate syndrome
+  - Synonym: Elschnig syndrome
   - Synonym: Lagophthalmia-cleft lip and palate syndrome
   TextSection:
     Contents: A rare ectodermal dysplasia syndrome characterized by the association
@@ -155,6 +155,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -15,12 +15,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TRAF7
+        Source: ClinVar
       - Reference: '20456'
         Source: HGNC
       - Reference: '606692'
         Source: OMIM
-      - Reference: TRAF7
-        Source: ClinVar
       Name: TNF receptor associated factor 7
       Symbol: TRAF7
   Label: TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor
@@ -33,9 +33,15 @@ Orphapacket:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
   - Parent:
-    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
-        disability
-      ORPHAcode: '611327'
+    - Label: Other syndrome with a central nervous system malformation as a major
+        feature
+      ORPHAcode: '269531'
+  - Parent:
+    - Label: Syndrome with limb malformations as a major feature
+      ORPHAcode: '109009'
+  - Parent:
+    - Label: Rare syndrome with cardiac malformations
+      ORPHAcode: '156532'
   - Parent:
     - Label: Genetic syndrome with a central nervous system malformation as a major
         feature
@@ -44,22 +50,16 @@ Orphapacket:
     - Label: Genetic syndrome with limb malformations as a major feature
       ORPHAcode: '404577'
   - Parent:
-    - Label: Rare syndrome with cardiac malformations
-      ORPHAcode: '156532'
-  - Parent:
-    - Label: Other syndrome with a central nervous system malformation as a major
-        feature
-      ORPHAcode: '269531'
-  - Parent:
-    - Label: Syndrome with limb malformations as a major feature
-      ORPHAcode: '109009'
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
+        disability
+      ORPHAcode: '611327'
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
       PrevalenceGeographic: Worldwide
       PrevalenceQualification: Case(s)
       PrevalenceType: Cases/families
-      Source: 'PMID: 29961569 ;  32376980 ;  32459067 ;  34088006'
+      Source: 29961569[PMID]_32376980[PMID]_32459067[PMID]_34088006[PMID]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: <1 / 1 000 000
@@ -82,6 +82,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

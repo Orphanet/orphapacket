@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "664923",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "664923",
         "Label": "Congenital arthrogryposis-microcephaly-facial dysmorphism-severe neurodevelopmental delay syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_664923",
@@ -26,20 +26,31 @@
                 "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
             }
         ],
+        "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "SMPD4",
+                    "Name": "sphingomyelin phosphodiesterase 4",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "32949"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "610457"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                }
+            }
+        ],
         "Parents": [
             {
                 "Parent": [
                     {
                         "ORPHAcode": "1037",
                         "Label": "Arthrogryposis multiplex congenita"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "269528",
-                        "Label": "Syndrome with microcephaly as a major feature"
                     }
                 ]
             },
@@ -54,11 +65,26 @@
             {
                 "Parent": [
                     {
+                        "ORPHAcode": "269528",
+                        "Label": "Syndrome with microcephaly as a major feature"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
                         "ORPHAcode": "611327",
                         "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
                     }
                 ]
             }
-        ]
+        ],
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Autosomal recessive"
+                }
+            ]
+        }
     }
 }

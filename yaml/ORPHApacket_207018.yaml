@@ -101,10 +101,10 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '607093'
-            Source: OMIM
           - Reference: '7436'
             Source: HGNC
+          - Reference: '607093'
+            Source: OMIM
           Label: methylenetetrahydrofolate reductase
           Symbol: MTHFR
       Label: Homocystinuria due to methylene tetrahydrofolate reductase deficiency
@@ -299,10 +299,10 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '607839'
-            Source: OMIM
           - Reference: '4180'
             Source: HGNC
+          - Reference: '607839'
+            Source: OMIM
           Label: 1,4-alpha-glucan branching enzyme 1
           Symbol: GBE1
       Label: Adult polyglucosan body disease
@@ -345,6 +345,35 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
+          - Reference: '25567'
+            Source: HGNC
+          - Reference: '612316'
+            Source: OMIM
+          Label: ATPase family AAA domain containing 3A
+          Symbol: ATAD3A
+      Label: Ocular anomalies-axonal neuropathy-developmental delay syndrome
+      ORPHAcode: '496790'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - ExternalReference:
+              Reference: '11041'
+              Source: HGNC
+          Label: solute carrier family 5 member 6
+          Symbol: SLC5A6
+      Label: Sodium-dependent multivitamin transporter deficiency
+      ORPHAcode: '521268'
+  - Child:
+      Genes: no data
+      Label: Encephalopathy due to mitochondrial and peroxisomal fission defect
+      ORPHAcode: '527276'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
           - Reference: '3642'
             Source: HGNC
           - Reference: '103270'
@@ -355,30 +384,17 @@ Orphapacket:
         syndrome
       ORPHAcode: '543470'
   - Child:
-      Genes: no data
-      Label: Parkinsonism with polyneuropathy
-      ORPHAcode: '611237'
-  - Child:
       Genes:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '612316'
-            Source: OMIM
-          - Reference: '25567'
-            Source: HGNC
-          Label: ATPase family AAA domain containing 3A
-          Symbol: ATAD3A
-      Label: Ocular anomalies-axonal neuropathy-developmental delay syndrome
-      ORPHAcode: '496790'
-  - Child:
-      Genes: no data
-      Label: Sodium-dependent multivitamin transporter deficiency
-      ORPHAcode: '521268'
-  - Child:
-      Genes: no data
-      Label: Encephalopathy due to mitochondrial and peroxisomal fission defect
-      ORPHAcode: '527276'
+          - ExternalReference:
+              Reference: '12585'
+              Source: HGNC
+          Label: ubiquinol-cytochrome c reductase core protein 1
+          Symbol: UQCRC1
+      Label: Parkinsonism with polyneuropathy
+      ORPHAcode: '611237'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -390,6 +406,6 @@ Orphapacket:
   - Parent:
     - Label: Rare hereditary disease with peripheral neuropathy
       ORPHAcode: '207015'
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

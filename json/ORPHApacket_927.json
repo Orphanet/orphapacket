@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "927",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "927",
         "Label": "Hyperammonemia due to N-acetylglutamate synthase deficiency",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_927",
@@ -34,16 +34,16 @@
                     "Name": "N-acetylglutamate synthase",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "NAGS"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "17996"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "608300"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "NAGS"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -66,9 +66,136 @@
                         "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
                     }
                 ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "68385",
+                        "Label": "Neurometabolic disease"
+                    }
+                ]
             }
         ],
         "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000252",
+                    "HPOTerm": "Microcephaly",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000708",
+                    "HPOTerm": "Atypical behavior",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000725",
+                    "HPOTerm": "Psychotic episodes",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000733",
+                    "HPOTerm": "Abnormal repetitive mannerisms",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001251",
+                    "HPOTerm": "Ataxia",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001271",
+                    "HPOTerm": "Polyneuropathy",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001297",
+                    "HPOTerm": "Stroke",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001298",
+                    "HPOTerm": "Encephalopathy",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002014",
+                    "HPOTerm": "Diarrhea",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002098",
+                    "HPOTerm": "Respiratory distress",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002240",
+                    "HPOTerm": "Hepatomegaly",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002637",
+                    "HPOTerm": "Cerebral ischemia",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002863",
+                    "HPOTerm": "Myelodysplasia",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0006582",
+                    "HPOTerm": "Reye syndrome-like episodes",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010529",
+                    "HPOTerm": "Echolalia",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010550",
+                    "HPOTerm": "Paraplegia",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0031258",
+                    "HPOTerm": "Delirium",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0001987",
@@ -242,125 +369,6 @@
                     "HPOId": "HP:0100785",
                     "HPOTerm": "Insomnia",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000252",
-                    "HPOTerm": "Microcephaly",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000708",
-                    "HPOTerm": "Atypical behavior",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000725",
-                    "HPOTerm": "Psychotic episodes",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000733",
-                    "HPOTerm": "Abnormal repetitive mannerisms",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001251",
-                    "HPOTerm": "Ataxia",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001271",
-                    "HPOTerm": "Polyneuropathy",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001297",
-                    "HPOTerm": "Stroke",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001298",
-                    "HPOTerm": "Encephalopathy",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002014",
-                    "HPOTerm": "Diarrhea",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002098",
-                    "HPOTerm": "Respiratory distress",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002240",
-                    "HPOTerm": "Hepatomegaly",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002637",
-                    "HPOTerm": "Cerebral ischemia",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002863",
-                    "HPOTerm": "Myelodysplasia",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0006582",
-                    "HPOTerm": "Reye syndrome-like episodes",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0010529",
-                    "HPOTerm": "Echolalia",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0010550",
-                    "HPOTerm": "Paraplegia",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0031258",
-                    "HPOTerm": "Delirium",
-                    "HPOFrequency": "Very rare (<4-1%)"
                 }
             }
         ],

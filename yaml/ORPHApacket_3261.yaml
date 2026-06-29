@@ -7,11 +7,6 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '618534'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
       Reference: '601859'
       Source: OMIM
@@ -20,16 +15,21 @@ Orphapacket:
         to represent it)
       Reference: '603909'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618534'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: CASP10
+        Source: ClinVar
       - Reference: '1500'
         Source: HGNC
       - Reference: '601762'
         Source: OMIM
-      - Reference: CASP10
-        Source: ClinVar
       Name: caspase 10
       Symbol: CASP10
   - Gene:
@@ -140,7 +140,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0010702
-      HPOTerm: Increased circulating antibody level
+      HPOTerm: Increased circulating immunoglobulin concentration
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0030886
@@ -160,7 +160,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001880
-      HPOTerm: Eosinophilia
+      HPOTerm: Increased total eosinophil count
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001888
@@ -188,7 +188,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0003212
-      HPOTerm: Increased circulating IgE level
+      HPOTerm: Increased circulating IgE concentration
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0003261
@@ -397,6 +397,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

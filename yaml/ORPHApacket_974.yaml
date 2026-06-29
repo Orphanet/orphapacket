@@ -41,47 +41,47 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: NOTCH1
+        Source: ClinVar
       - Reference: '7881'
         Source: HGNC
       - Reference: '190198'
         Source: OMIM
-      - Reference: NOTCH1
-        Source: ClinVar
       Name: notch receptor 1
       Symbol: NOTCH1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
         in
       ExternalReferences:
+      - Reference: ARHGAP31
+        Source: ClinVar
       - Reference: '29216'
         Source: HGNC
       - Reference: '610911'
         Source: OMIM
-      - Reference: ARHGAP31
-        Source: ClinVar
       Name: Rho GTPase activating protein 31
       Symbol: ARHGAP31
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: DOCK6
+        Source: ClinVar
       - Reference: '19189'
         Source: HGNC
       - Reference: '614194'
         Source: OMIM
-      - Reference: DOCK6
-        Source: ClinVar
       Name: dedicator of cytokinesis 6
       Symbol: DOCK6
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: RBPJ
+        Source: ClinVar
       - Reference: '5724'
         Source: HGNC
       - Reference: '147183'
         Source: OMIM
-      - Reference: RBPJ
-        Source: ClinVar
       Name: recombination signal binding protein for immunoglobulin kappa J region
       Symbol: RBPJ
   - Gene:
@@ -99,12 +99,12 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: DLL4
+        Source: ClinVar
       - Reference: '2910'
         Source: HGNC
       - Reference: '605185'
         Source: OMIM
-      - Reference: DLL4
-        Source: ClinVar
       Name: delta like canonical Notch ligand 4
       Symbol: DLL4
   Label: Adams-Oliver syndrome
@@ -113,8 +113,23 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_974
   Parents:
   - Parent:
-    - Label: Syndromic genetic cataract
-      ORPHAcode: '522548'
+    - Label: Mixed dermis disorder
+      ORPHAcode: '79380'
+  - Parent:
+    - Label: Cranial malformation
+      ORPHAcode: '98038'
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
+  - Parent:
+    - Label: Syndrome with limb reduction defects
+      ORPHAcode: '294955'
+  - Parent:
+    - Label: Dysostosis with brachydactyly with extraskeletal manifestations
+      ORPHAcode: '498454'
+  - Parent:
+    - Label: Syndromic cataract
+      ORPHAcode: '98641'
   - Parent:
     - Label: Genetic mixed dermis disorder
       ORPHAcode: '183481'
@@ -122,67 +137,16 @@ Orphapacket:
     - Label: Genetic cranial malformation
       ORPHAcode: '183542'
   - Parent:
-    - Label: Dysostosis with brachydactyly with extraskeletal manifestations
-      ORPHAcode: '498454'
-  - Parent:
     - Label: Genetic syndrome with limb reduction defects
       ORPHAcode: '404574'
+  - Parent:
+    - Label: Syndromic genetic cataract
+      ORPHAcode: '522548'
   - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
       ORPHAcode: '611327'
-  - Parent:
-    - Label: Syndromic cataract
-      ORPHAcode: '98641'
-  - Parent:
-    - Label: Mixed dermis disorder
-      ORPHAcode: '79380'
-  - Parent:
-    - Label: Syndrome with limb reduction defects
-      ORPHAcode: '294955'
-  - Parent:
-    - Label: Cranial malformation
-      ORPHAcode: '98038'
-  - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-      ORPHAcode: '102283'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000965
-      HPOTerm: Cutis marmorata
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001057
-      HPOTerm: Aplasia cutis congenita
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001362
-      HPOTerm: Skull defect
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001508
-      HPOTerm: Failure to thrive
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002814
-      HPOTerm: Abnormality of the lower limb
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002817
-      HPOTerm: Abnormality of the upper limb
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0004050
-      HPOTerm: Absent hand
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0008065
-      HPOTerm: Aplasia/Hypoplasia of the skin
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0008070
-      HPOTerm: Sparse hair
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0010760
@@ -331,6 +295,42 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0100026
       HPOTerm: Arteriovenous malformation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000965
+      HPOTerm: Cutis marmorata
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001057
+      HPOTerm: Aplasia cutis congenita
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001362
+      HPOTerm: Skull defect
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002814
+      HPOTerm: Abnormality of the lower limb
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002817
+      HPOTerm: Abnormality of the upper limb
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004050
+      HPOTerm: Absent hand
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008065
+      HPOTerm: Aplasia/Hypoplasia of the skin
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008070
+      HPOTerm: Sparse hair
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
@@ -348,10 +348,10 @@ Orphapacket:
       ValMoy: no data
   Synonyms:
   - Synonym: AOS
+  - Synonym: Aplasia cutis congenita with distal limb anomalies
+  - Synonym: Aplasia cutis congenita with terminal transverse limb defects
   - Synonym: Congenital scalp defects with distal limb anomalies
   - Synonym: Congenital scalp defects with distal limb reduction anomalies
-  - Synonym: Aplasia cutis congenita with terminal transverse limb defects
-  - Synonym: Aplasia cutis congenita with distal limb anomalies
   TextSection:
     Contents: A rare multiple congenital anomalies/dysmorphic syndrome characterized
       by the combination of congenital distal limb reduction and scalp defects often
@@ -362,6 +362,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

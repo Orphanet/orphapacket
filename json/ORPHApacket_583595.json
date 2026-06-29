@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "583595",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "583595",
         "Label": "Serine biosynthesis pathway deficiency, infantile/juvenile form",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_583595",
@@ -15,7 +15,7 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "614023",
+                    "Reference": "601815",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
@@ -29,7 +29,7 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "601815",
+                    "Reference": "614023",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
@@ -42,46 +42,21 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "611314",
-                        "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
+                        "ORPHAcode": "35705",
+                        "Label": "Neurometabolic disorder due to serine deficiency"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "35705",
-                        "Label": "Neurometabolic disorder due to serine deficiency"
+                        "ORPHAcode": "611314",
+                        "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
                     }
                 ]
             }
         ],
         "Children": [
-            {
-                "Child": {
-                    "Label": "3-phosphoglycerate dehydrogenase deficiency, infantile/juvenile form",
-                    "ORPHAcode": "79351",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "phosphoglycerate dehydrogenase",
-                                "Symbol": "PHGDH",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "8923"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "606879"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
             {
                 "Child": {
                     "Label": "3-phosphoserine phosphatase deficiency, infantile/juvenile form",
@@ -99,6 +74,31 @@
                                     {
                                         "Source": "OMIM",
                                         "Reference": "172480"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "3-phosphoglycerate dehydrogenase deficiency, infantile/juvenile form",
+                    "ORPHAcode": "79351",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "phosphoglycerate dehydrogenase",
+                                "Symbol": "PHGDH",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "8923"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "606879"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -136,20 +136,20 @@
         "Prevalences": [
             {
                 "Prevalence": {
-                    "Source": "8758134[PMID]_26960553[PMID]_28135894[PMID]_36308023[PMID]_26610677[PMID]_17436247[PMID]_29269105[PMID]_34089226[PMID]_26610677[PMID]_9222972[PMID]_25080166[PMID]",
-                    "PrevalenceType": "Cases/families",
-                    "PrevalenceQualification": "Case(s)",
-                    "PrevalenceClass": "no data",
+                    "Source": "8758134[PMID]_26960553[PMID]_28135894[PMID]_36308023[PMID]_26610677[PMID]_17436247[PMID]_29269105[PMID]_34089226[PMID]_26610677[PMID]_9222972[PMID]_25080166[PMID]_ORPHANET",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Class only",
+                    "PrevalenceClass": "<1 / 1 000 000",
                     "ValMoy": "no data",
                     "PrevalenceGeographic": "Worldwide"
                 }
             },
             {
                 "Prevalence": {
-                    "Source": "8758134[PMID]_26960553[PMID]_28135894[PMID]_36308023[PMID]_26610677[PMID]_17436247[PMID]_29269105[PMID]_34089226[PMID]_26610677[PMID]_9222972[PMID]_25080166[PMID]_ORPHANET",
-                    "PrevalenceType": "Point prevalence",
-                    "PrevalenceQualification": "Class only",
-                    "PrevalenceClass": "<1 / 1 000 000",
+                    "Source": "8758134[PMID]_26960553[PMID]_28135894[PMID]_36308023[PMID]_26610677[PMID]_17436247[PMID]_29269105[PMID]_34089226[PMID]_26610677[PMID]_9222972[PMID]_25080166[PMID]",
+                    "PrevalenceType": "Cases/families",
+                    "PrevalenceQualification": "Case(s)",
+                    "PrevalenceClass": "no data",
                     "ValMoy": "no data",
                     "PrevalenceGeographic": "Worldwide"
                 }
@@ -171,6 +171,13 @@
                     "value": "Neonatal"
                 }
             }
-        ]
+        ],
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Autosomal recessive"
+                }
+            ]
+        }
     }
 }

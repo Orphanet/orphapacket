@@ -32,14 +32,14 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '3437'
-        Source: HGNC
-      - Reference: '133530'
-        Source: OMIM
-      - Reference: ERCC5
+      - Reference: ERCC2
         Source: ClinVar
-      Name: ERCC excision repair 5, endonuclease
-      Symbol: ERCC5
+      - Reference: '3434'
+        Source: HGNC
+      - Reference: '126340'
+        Source: OMIM
+      Name: ERCC excision repair 2, TFIIH core complex helicase subunit
+      Symbol: ERCC2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -54,43 +54,33 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: ERCC2
+      - Reference: ERCC3
         Source: ClinVar
-      - Reference: '3434'
-        Source: HGNC
-      - Reference: '126340'
-        Source: OMIM
-      Name: ERCC excision repair 2, TFIIH core complex helicase subunit
-      Symbol: ERCC2
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: '3435'
         Source: HGNC
       - Reference: '133510'
         Source: OMIM
-      - Reference: ERCC3
-        Source: ClinVar
       Name: ERCC excision repair 3, TFIIH core complex helicase subunit
       Symbol: ERCC3
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: ERCC5
+        Source: ClinVar
+      - Reference: '3437'
+        Source: HGNC
+      - Reference: '133530'
+        Source: OMIM
+      Name: ERCC excision repair 5, endonuclease
+      Symbol: ERCC5
   Label: Xeroderma pigmentosum-Cockayne syndrome complex
   ORPHAcode: '220295'
   ORPHApacketId: '220295'
   PURL: http://www.orpha.net/ORDO/Orphanet_220295
   Parents:
   - Parent:
-    - Label: Autosomal recessive cerebellar ataxia due to a DNA repair defect
-      ORPHAcode: '98097'
-  - Parent:
-    - Label: Rare disorder with progressive generalized retinal disorder as a major
-        feature
-      ORPHAcode: '716405'
-  - Parent:
-    - Label: Secondary ectropion
-      ORPHAcode: '98571'
-  - Parent:
-    - Label: Rare genetic disorder with entropion
-      ORPHAcode: '522530'
+    - Label: Premature aging
+      ORPHAcode: '79389'
   - Parent:
     - Label: Rare syndromic genetic deafness
       ORPHAcode: '90642'
@@ -100,9 +90,6 @@ Orphapacket:
   - Parent:
     - Label: Polymalformative genetic syndrome with increased risk of developing cancer
       ORPHAcode: '183422'
-  - Parent:
-    - Label: Premature aging
-      ORPHAcode: '79389'
   - Parent:
     - Label: Genetic photodermatosis
       ORPHAcode: '183490'
@@ -114,14 +101,27 @@ Orphapacket:
         syndrome
       ORPHAcode: '611314'
   - Parent:
+    - Label: Rare disorder with progressive generalized retinal disorder as a major
+        feature
+      ORPHAcode: '716405'
+  - Parent:
+    - Label: Autosomal recessive cerebellar ataxia due to a DNA repair defect
+      ORPHAcode: '98097'
+  - Parent:
+    - Label: Secondary ectropion
+      ORPHAcode: '98571'
+  - Parent:
+    - Label: Rare genetic disorder with entropion
+      ORPHAcode: '522530'
+  - Parent:
     - Label: Rare photodermatosis
       ORPHAcode: '79390'
   - Parent:
-    - Label: Rare disorder with entropion
-      ORPHAcode: '519270'
-  - Parent:
     - Label: Progeroid syndrome
       ORPHAcode: '139033'
+  - Parent:
+    - Label: Rare disorder with entropion
+      ORPHAcode: '519270'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -264,6 +264,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

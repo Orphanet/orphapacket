@@ -7,16 +7,20 @@ Orphapacket:
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '614202'
+    Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: MAN1B1
+        Source: ClinVar
       - Reference: '6823'
         Source: HGNC
       - Reference: '604346'
         Source: OMIM
-      - Reference: MAN1B1
-        Source: ClinVar
       Name: mannosidase alpha class 1B member 1
       Symbol: MAN1B1
   Label: MAN1B1-CDG
@@ -25,16 +29,100 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_397941
   Parents:
   - Parent:
+    - Label: Disorder of protein N-glycosylation
+      ORPHAcode: '309347'
+  - Parent:
     - Label: Congenital disorder of glycosylation with neurological involvement
       ORPHAcode: '371047'
   - Parent:
     - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
         syndrome
       ORPHAcode: '611314'
-  - Parent:
-    - Label: Disorder of protein N-glycosylation
-      ORPHAcode: '309347'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002007
+      HPOTerm: Frontal bossing
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002136
+      HPOTerm: Broad-based gait
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002342
+      HPOTerm: Intellectual disability, moderate
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002591
+      HPOTerm: Polyphagia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003186
+      HPOTerm: Inverted nipples
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004523
+      HPOTerm: Long eyebrows
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010801
+      HPOTerm: Underdeveloped nasolabial fold
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010814
+      HPOTerm: Abnormal position of hair whorl
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010864
+      HPOTerm: Intellectual disability, severe
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0045075
+      HPOTerm: Sparse eyebrow
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000276
+      HPOTerm: Long face
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000286
+      HPOTerm: Epicanthus
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000527
+      HPOTerm: Long eyelashes
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002322
+      HPOTerm: Resting tremor
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0004209
+      HPOTerm: Clinodactyly of the 5th finger
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0004691
+      HPOTerm: 2-3 toe syndactyly
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0005469
+      HPOTerm: Flat occiput
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0007165
+      HPOTerm: Periventricular heterotopia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0007565
+      HPOTerm: Multiple cafe-au-lait spots
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0012471
+      HPOTerm: Thick vermilion border
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0012472
+      HPOTerm: Eclabion
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001249
@@ -163,90 +251,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001382
       HPOTerm: Joint hypermobility
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002007
-      HPOTerm: Frontal bossing
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002136
-      HPOTerm: Broad-based gait
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002342
-      HPOTerm: Intellectual disability, moderate
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002591
-      HPOTerm: Polyphagia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003186
-      HPOTerm: Inverted nipples
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0004523
-      HPOTerm: Long eyebrows
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0010801
-      HPOTerm: Underdeveloped nasolabial fold
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0010814
-      HPOTerm: Abnormal position of hair whorl
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0010864
-      HPOTerm: Intellectual disability, severe
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0045075
-      HPOTerm: Sparse eyebrow
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000276
-      HPOTerm: Long face
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000286
-      HPOTerm: Epicanthus
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000527
-      HPOTerm: Long eyelashes
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0002322
-      HPOTerm: Resting tremor
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0004209
-      HPOTerm: Clinodactyly of the 5th finger
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0004691
-      HPOTerm: 2-3 toe syndactyly
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0005469
-      HPOTerm: Flat occiput
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0007165
-      HPOTerm: Periventricular heterotopia
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0007565
-      HPOTerm: Multiple cafe-au-lait spots
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0012471
-      HPOTerm: Thick vermilion border
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0012472
-      HPOTerm: Eclabion
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -263,9 +267,9 @@ Orphapacket:
       Source: ORPHANET_21763484[PMID]_24348268[PMID]_26307094[PMID]
       ValMoy: no data
   Synonyms:
+  - Synonym: Carbohydrate deficient glycoprotein syndrome type II due to MAN1B1 deficiency
   - Synonym: Congenital disorder of glycosylation type 2 due to MAN1B1 deficiency
   - Synonym: Congenital disorder of glycosylation type II due to MAN1B1 deficiency
-  - Synonym: Carbohydrate deficient glycoprotein syndrome type II due to MAN1B1 deficiency
   - Synonym: Intellectual disability-truncal obesity syndrome
   TextSection:
     Contents: MAN1B1-CDG is a form of congenital disorders of N-linked glycosylation
@@ -278,6 +282,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

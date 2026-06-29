@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2701",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "2701",
         "Label": "Noonan syndrome-like disorder with loose anagen hair",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2701",
@@ -13,10 +13,10 @@
         },
         "Synonyms": [
             {
-                "Synonym": "NS/LAH"
+                "Synonym": "Mazzanti syndrome"
             },
             {
-                "Synonym": "Mazzanti syndrome"
+                "Synonym": "NS/LAH"
             }
         ],
         "ExternalReferences": [
@@ -42,6 +42,27 @@
         "Genes": [
             {
                 "Gene": {
+                    "Symbol": "SHOC2",
+                    "Name": "SHOC2 leucine rich repeat scaffold protein",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "SHOC2"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "15454"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "602775"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
                     "Symbol": "PPP1CB",
                     "Name": "protein phosphatase 1 catalytic subunit beta",
                     "ExternalReferences": [
@@ -60,30 +81,25 @@
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
-            },
-            {
-                "Gene": {
-                    "Symbol": "SHOC2",
-                    "Name": "SHOC2 leucine rich repeat scaffold protein",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "15454"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "602775"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "SHOC2"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
             }
         ],
         "Parents": [
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "79364",
+                        "Label": "Alopecia"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "98576",
+                        "Label": "Syndromic outer canthal malposition"
+                    }
+                ]
+            },
             {
                 "Parent": [
                     {
@@ -121,22 +137,6 @@
                     {
                         "ORPHAcode": "611327",
                         "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "98576",
-                        "Label": "Syndromic outer canthal malposition"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "79364",
-                        "Label": "Alopecia"
                     }
                 ]
             }

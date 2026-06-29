@@ -32,12 +32,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: ALG2
+        Source: ClinVar
       - Reference: '23159'
         Source: HGNC
       - Reference: '607905'
         Source: OMIM
-      - Reference: ALG2
-        Source: ClinVar
       Name: ALG2 alpha-1,3/1,6-mannosyltransferase
       Symbol: ALG2
   - Gene:
@@ -54,12 +54,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: GFPT1
+        Source: ClinVar
       - Reference: '4241'
         Source: HGNC
       - Reference: '138292'
         Source: OMIM
-      - Reference: GFPT1
-        Source: ClinVar
       Name: glutamine--fructose-6-phosphate transaminase 1
       Symbol: GFPT1
   - Gene:
@@ -76,12 +76,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: GMPPB
+        Source: ClinVar
       - Reference: '22932'
         Source: HGNC
       - Reference: '615320'
         Source: OMIM
-      - Reference: GMPPB
-        Source: ClinVar
       Name: GDP-mannose pyrophosphorylase B
       Symbol: GMPPB
   Label: Congenital myasthenic syndrome with glycosylation defect
@@ -90,15 +90,68 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_353327
   Parents:
   - Parent:
-    - Label: Ubiquitously expressed proteins associated congenital myasthenic syndrome
-      ORPHAcode: '716913'
+    - Label: Disorder of protein N-glycosylation
+      ORPHAcode: '309347'
   - Parent:
     - Label: Congenital disorder of glycosylation with neurological involvement
       ORPHAcode: '371047'
   - Parent:
-    - Label: Disorder of protein N-glycosylation
-      ORPHAcode: '309347'
+    - Label: Congenital myasthenic syndrome associated with ubiquitously expressed
+        proteins
+      ORPHAcode: '716913'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003200
+      HPOTerm: Ragged-red muscle fibers
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003236
+      HPOTerm: Elevated circulating creatine kinase concentration
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003388
+      HPOTerm: Easy fatigability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003391
+      HPOTerm: Gowers sign
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003394
+      HPOTerm: Muscle spasm
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003551
+      HPOTerm: Difficulty climbing stairs
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003691
+      HPOTerm: Scapular winging
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003803
+      HPOTerm: Type 1 muscle fiber predominance
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006380
+      HPOTerm: Knee flexion contracture
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009028
+      HPOTerm: Generalized weakness of limb muscles
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009046
+      HPOTerm: Difficulty running
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010628
+      HPOTerm: Facial palsy
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002460
+      HPOTerm: Distal muscle weakness
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000218
@@ -192,58 +245,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002938
       HPOTerm: Lumbar hyperlordosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003200
-      HPOTerm: Ragged-red muscle fibers
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003236
-      HPOTerm: Elevated circulating creatine kinase concentration
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003388
-      HPOTerm: Easy fatigability
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003391
-      HPOTerm: Gowers sign
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003394
-      HPOTerm: Muscle spasm
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003551
-      HPOTerm: Difficulty climbing stairs
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003691
-      HPOTerm: Scapular winging
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003803
-      HPOTerm: Type 1 muscle fiber predominance
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0006380
-      HPOTerm: Knee flexion contracture
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0009028
-      HPOTerm: Generalized weakness of limb muscles
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0009046
-      HPOTerm: Difficulty running
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0010628
-      HPOTerm: Facial palsy
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0002460
-      HPOTerm: Distal muscle weakness
   Prevalences:
     Prevalence:
     - PrevalenceClass: Unknown
@@ -255,6 +256,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

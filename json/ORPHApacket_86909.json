@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "86909",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "86909",
         "Label": "Myoclonic epilepsy of infancy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_86909",
@@ -13,30 +13,125 @@
         },
         "Synonyms": [
             {
-                "Synonym": "Benign myoclonus epilepsy of infancy"
-            },
-            {
                 "Synonym": "Benign myoclonic epilepsy of infancy"
             },
             {
+                "Synonym": "Benign myoclonus epilepsy of infancy"
+            },
+            {
                 "Synonym": "MEI"
+            }
+        ],
+        "ExternalReferences": [
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "605021",
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "617976",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "618364",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
             "TextSectionType": "Definition",
             "Contents": "A rare infantile epilepsy syndrome characterized by an infantile-onset of sudden frequent and generalized myoclonic seizures that occur in neurologically and developmentally normal patients and later resolve during childhood with a generally favorable outcome."
         },
+        "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "TBC1D24",
+                    "Name": "TBC1 domain family member 24",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "TBC1D24"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "29203"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "613577"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "SCN8A",
+                    "Name": "sodium voltage-gated channel alpha subunit 8",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "SCN8A"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "10596"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "600702"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "CPLX1",
+                    "Name": "complexin 1",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "CPLX1"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "2309"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "605032"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            }
+        ],
         "Parents": [
             {
                 "Parent": [
                     {
                         "ORPHAcode": "693802",
-                        "Label": "Neonatal-infantile onset epilepsy syndrome"
+                        "Label": "Neonatal/infantile-onset epilepsy syndrome"
                     }
                 ]
             }
         ],
         "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001250",
+                    "HPOTerm": "Seizure",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0001256",
@@ -88,15 +183,15 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001263",
-                    "HPOTerm": "Global developmental delay",
+                    "HPOId": "HP:0001268",
+                    "HPOTerm": "Mental deterioration",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001268",
-                    "HPOTerm": "Mental deterioration",
+                    "HPOId": "HP:0001272",
+                    "HPOTerm": "Cerebellar atrophy",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -123,9 +218,72 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0006891",
+                    "HPOTerm": "Thick cerebral cortex",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0007057",
                     "HPOTerm": "Poor hand-eye coordination",
                     "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007359",
+                    "HPOTerm": "Focal-onset seizure",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011171",
+                    "HPOTerm": "Simple febrile seizure",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011197",
+                    "HPOTerm": "EEG with focal spike waves",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0025190",
+                    "HPOTerm": "Bilateral tonic-clonic seizure with generalized onset",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0025373",
+                    "HPOTerm": "Interictal EEG abnormality",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000520",
+                    "HPOTerm": "Proptosis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000643",
+                    "HPOTerm": "Blepharospasm",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000750",
+                    "HPOTerm": "Delayed speech and language development",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -137,8 +295,29 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0001249",
+                    "HPOTerm": "Intellectual disability",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001251",
+                    "HPOTerm": "Ataxia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0001260",
                     "HPOTerm": "Dysarthria",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001263",
+                    "HPOTerm": "Global developmental delay",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },

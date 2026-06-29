@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "634518",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "634518",
         "Label": "Neurofibromatosis/schwannomatosis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_634518",
@@ -20,21 +20,53 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "252190",
-                        "Label": "Inherited nervous system cancer-predisposing syndrome"
+                        "ORPHAcode": "140162",
+                        "Label": "Inherited cancer-predisposing syndrome"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "140162",
-                        "Label": "Inherited cancer-predisposing syndrome"
+                        "ORPHAcode": "252190",
+                        "Label": "Inherited nervous system cancer-predisposing syndrome"
                     }
                 ]
             }
         ],
         "Children": [
+            {
+                "Child": {
+                    "Label": "Full NF2-related schwannomatosis",
+                    "ORPHAcode": "637",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "NF2, moesin-ezrin-radixin like (MERLIN) tumor suppressor",
+                                "Symbol": "NF2",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "7773"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "607379"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Neurofibromatosis type 1",
+                    "ORPHAcode": "636",
+                    "Genes": "no data"
+                }
+            },
             {
                 "Child": {
                     "Label": "Full schwannomatosis",
@@ -98,7 +130,25 @@
                 "Child": {
                     "Label": "Mosaic neurofibromatosis type 1",
                     "ORPHAcode": "634461",
-                    "Genes": "no data"
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "neurofibromin 1",
+                                "Symbol": "NF1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "7765"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "613113"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -131,38 +181,6 @@
                     "Label": "Mosaic schwannomatosis",
                     "ORPHAcode": "634492",
                     "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Neurofibromatosis type 1",
-                    "ORPHAcode": "636",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Full NF2-related schwannomatosis",
-                    "ORPHAcode": "637",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "NF2, moesin-ezrin-radixin like (MERLIN) tumor suppressor",
-                                "Symbol": "NF2",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "7773"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "607379"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
                 }
             }
         ]

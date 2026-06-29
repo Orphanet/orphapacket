@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "215",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "215",
         "Label": "Congenital stationary night blindness",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_215",
@@ -20,29 +20,6 @@
             "TextSectionType": "Definition",
             "Contents": "Congenital stationary night blindness (CSNB) refers to a non-progressive group of retinal disorders characterized by night or dim light vision disturbance or delayed dark adaptation poor visual acuity (ranging from 20/30 to 20/200) myopia (ranging from low (-0.25 diopters [D] to -4.75 D) to high (&#8805;-10.00 D)) nystagmus strabismus normal color vision and fundus abnormalities."
         },
-        "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "RHO",
-                    "Name": "rhodopsin",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "RHO"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "10012"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "180380"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            }
-        ],
         "Parents": [
             {
                 "Parent": [
@@ -98,55 +75,6 @@
             },
             {
                 "Child": {
-                    "Label": "Congenital stationary night blindness, Riggs type",
-                    "ORPHAcode": "714096",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "G protein subunit alpha transducin 1",
-                                "Symbol": "GNAT1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "4393"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "139330"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "phosphodiesterase 6B",
-                                "Symbol": "PDE6B",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "8786"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "180072"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Congenital stationary night blindness, Schubert-Bornschein type",
-                    "ORPHAcode": "714090",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
                     "Label": "Fundus albipunctatus",
                     "ORPHAcode": "227796",
                     "Genes": [
@@ -186,16 +114,75 @@
                         }
                     ]
                 }
+            },
+            {
+                "Child": {
+                    "Label": "Congenital stationary night blindness, Schubert-Bornschein type",
+                    "ORPHAcode": "714090",
+                    "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Congenital stationary night blindness, Riggs type",
+                    "ORPHAcode": "714096",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "rhodopsin",
+                                "Symbol": "RHO",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "10012"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "180380"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "G protein subunit alpha transducin 1",
+                                "Symbol": "GNAT1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "4393"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "139330"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "phosphodiesterase 6B",
+                                "Symbol": "PDE6B",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "8786"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "180072"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000545",
-                    "HPOTerm": "Myopia",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000662",
@@ -292,6 +279,13 @@
                     "HPOId": "HP:0030329",
                     "HPOTerm": "Retinal thinning",
                     "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000545",
+                    "HPOTerm": "Myopia",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             }
         ],

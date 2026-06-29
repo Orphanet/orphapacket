@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "220393",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "220393",
         "Label": "Diffuse cutaneous systemic sclerosis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_220393",
@@ -27,27 +27,6 @@
             "Contents": "Diffuse cutaneous systemic sclerosis (dcSSc) is a subtype of Systemic Sclerosis (SSc) characterized by truncal and acral skin fibrosis with an early and significant incidence of diffuse involvement (interstitial lung disease oliguric renal failure diffuse gastrointestinal disease and myocardial involvement)."
         },
         "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "CAV1",
-                    "Name": "caveolin 1",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "1527"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "601047"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CAV1"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Major susceptibility factor in"
-                }
-            },
             {
                 "Gene": {
                     "Symbol": "HLA-DRB1",
@@ -85,6 +64,27 @@
                         {
                             "Source": "OMIM",
                             "Reference": "121009"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Major susceptibility factor in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "CAV1",
+                    "Name": "caveolin 1",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "CAV1"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "1527"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "601047"
                         }
                     ],
                     "DisorderGeneAssociationType": "Major susceptibility factor in"
@@ -144,62 +144,6 @@
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000083",
-                    "HPOTerm": "Renal insufficiency",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000217",
-                    "HPOTerm": "Xerostomia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000670",
-                    "HPOTerm": "Carious teeth",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000951",
-                    "HPOTerm": "Abnormality of the skin",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001324",
-                    "HPOTerm": "Muscle weakness",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001369",
-                    "HPOTerm": "Arthritis",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001371",
-                    "HPOTerm": "Flexion contracture",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001635",
-                    "HPOTerm": "Congestive heart failure",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0002015",
@@ -324,6 +268,62 @@
                     "HPOId": "HP:0200042",
                     "HPOTerm": "Skin ulcer",
                     "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000083",
+                    "HPOTerm": "Renal insufficiency",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000217",
+                    "HPOTerm": "Xerostomia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000670",
+                    "HPOTerm": "Carious teeth",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000951",
+                    "HPOTerm": "Abnormality of the skin",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001324",
+                    "HPOTerm": "Muscle weakness",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001369",
+                    "HPOTerm": "Arthritis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001371",
+                    "HPOTerm": "Flexion contracture",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001635",
+                    "HPOTerm": "Congestive heart failure",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             }
         ],

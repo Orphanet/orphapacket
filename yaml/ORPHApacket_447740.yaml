@@ -5,16 +5,27 @@ Orphapacket:
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
+  ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '170650'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '608526'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: FPR1
+        Source: ClinVar
       - Reference: '3826'
         Source: HGNC
       - Reference: '136537'
         Source: OMIM
-      - Reference: FPR1
-        Source: ClinVar
       Name: formyl peptide receptor 1
       Symbol: FPR1
   Label: Aggressive periodontitis
@@ -26,9 +37,9 @@ Orphapacket:
     - Label: Syndrome with congenital phagocyte functional defect as a major feature
       ORPHAcode: '674648'
   Synonyms:
-  - Synonym: Susceptibility to localized juvenile periodontitis
   - Synonym: AgP
   - Synonym: Juvenile periodontitis
+  - Synonym: Susceptibility to localized juvenile periodontitis
   TextSection:
     Contents: A rare functional neutrophil defect characterized by increased susceptibility
       to aggressive periodontitis in otherwise young healthy individuals due to impaired
@@ -39,6 +50,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

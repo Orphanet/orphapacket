@@ -15,12 +15,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: POLH
+        Source: ClinVar
       - Reference: '9181'
         Source: HGNC
       - Reference: '603968'
         Source: OMIM
-      - Reference: POLH
-        Source: ClinVar
       Name: DNA polymerase eta
       Symbol: POLH
   Label: Xeroderma pigmentosum variant
@@ -29,20 +29,23 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_90342
   Parents:
   - Parent:
+    - Label: Rare photodermatosis
+      ORPHAcode: '79390'
+  - Parent:
     - Label: Secondary ectropion
       ORPHAcode: '98571'
   - Parent:
     - Label: Rare developmental defect with skin/mucosae involvement
       ORPHAcode: '139027'
   - Parent:
-    - Label: Rare disorder with entropion
-      ORPHAcode: '519270'
-  - Parent:
     - Label: Progeroid syndrome
       ORPHAcode: '139033'
   - Parent:
-    - Label: Rare genetic disorder with entropion
-      ORPHAcode: '522530'
+    - Label: Rare disorder with entropion
+      ORPHAcode: '519270'
+  - Parent:
+    - Label: Polymalformative genetic syndrome with increased risk of developing cancer
+      ORPHAcode: '183422'
   - Parent:
     - Label: Genetic photodermatosis
       ORPHAcode: '183490'
@@ -50,11 +53,8 @@ Orphapacket:
     - Label: Genetic progeroid syndrome
       ORPHAcode: '363245'
   - Parent:
-    - Label: Polymalformative genetic syndrome with increased risk of developing cancer
-      ORPHAcode: '183422'
-  - Parent:
-    - Label: Rare photodermatosis
-      ORPHAcode: '79390'
+    - Label: Rare genetic disorder with entropion
+      ORPHAcode: '522530'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
@@ -133,6 +133,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

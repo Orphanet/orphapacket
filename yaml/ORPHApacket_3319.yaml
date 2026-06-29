@@ -2,37 +2,53 @@ Orphapacket:
   AverageAgeOfOnsets:
     AverageAgeOfOnset:
     - value: Neonatal
+  Children:
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '7217'
+            Source: HGNC
+          - Reference: '159530'
+            Source: OMIM
+          Label: MPL proto-oncogene, thrombopoietin receptor
+          Symbol: MPL
+      Label: Congenital amegakaryocytic thrombocytopenia-MPL
+      ORPHAcode: '726047'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '11795'
+            Source: HGNC
+          - Reference: '600044'
+            Source: OMIM
+          Label: thrombopoietin
+          Symbol: THPO
+      Label: Congenital amegakaryocytic thrombocytopenia-THPO
+      ORPHAcode: '726050'
+  - Child:
+      Genes: no data
+      Label: Congenital amegakaryocytic thrombocytopenia without known causal genetic
+        defect
+      ORPHAcode: '726053'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-    Reference: '604498'
-    Source: OMIM
-  Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: THPO
-        Source: ClinVar
-      - Reference: '11795'
-        Source: HGNC
-      - Reference: '600044'
-        Source: OMIM
-      Name: thrombopoietin
-      Symbol: THPO
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: MPL
-        Source: ClinVar
-      - Reference: '7217'
-        Source: HGNC
-      - Reference: '159530'
-        Source: OMIM
-      Name: MPL proto-oncogene, thrombopoietin receptor
-      Symbol: MPL
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '604498'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620481'
+      Source: OMIM
   Label: Congenital amegakaryocytic thrombocytopenia
   ORPHAcode: '3319'
   ORPHApacketId: '3319'
@@ -122,6 +138,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

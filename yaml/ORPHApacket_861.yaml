@@ -9,11 +9,6 @@ Orphapacket:
     value: Malformation syndrome
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '618939'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
       Reference: '154500'
       Source: OMIM
@@ -27,25 +22,21 @@ Orphapacket:
         to represent it)
       Reference: '613717'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618939'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '20454'
-        Source: HGNC
-      - Reference: '602000'
-        Source: OMIM
-      Name: RNA polymerase I subunit B
-      Symbol: POLR1B
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
+      - Reference: TCOF1
+        Source: ClinVar
       - Reference: '11654'
         Source: HGNC
       - Reference: '606847'
         Source: OMIM
-      - Reference: TCOF1
-        Source: ClinVar
       Name: treacle ribosome biogenesis factor 1
       Symbol: TCOF1
   - Gene:
@@ -70,18 +61,40 @@ Orphapacket:
         Source: OMIM
       Name: RNA polymerase I and III subunit C
       Symbol: POLR1C
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '20454'
+        Source: HGNC
+      - Reference: '602000'
+        Source: OMIM
+      Name: RNA polymerase I subunit B
+      Symbol: POLR1B
   Label: Treacher-Collins syndrome
   ORPHAcode: '861'
   ORPHApacketId: '861'
   PURL: http://www.orpha.net/ORDO/Orphanet_861
   Parents:
   - Parent:
-    - Label: Pierre Robin syndrome associated with branchial archs anomalies
-      ORPHAcode: '138050'
+    - Label: Rare syndromic genetic deafness
+      ORPHAcode: '90642'
+  - Parent:
+    - Label: Mandibulofacial dysostosis
+      ORPHAcode: '155899'
   - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
         disability
       ORPHAcode: '102285'
+  - Parent:
+    - Label: Branchial arch or oral-acral syndrome
+      ORPHAcode: '139036'
+  - Parent:
+    - Label: Genetic branchial arch or oral-acral syndrome
+      ORPHAcode: '183576'
+  - Parent:
+    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
+        disability
+      ORPHAcode: '330206'
   - Parent:
     - Label: Syndromic eyelid coloboma
       ORPHAcode: '98566'
@@ -92,24 +105,11 @@ Orphapacket:
     - Label: Rare disorder with ptosis
       ORPHAcode: '98578'
   - Parent:
-    - Label: Rare syndromic genetic deafness
-      ORPHAcode: '90642'
-  - Parent:
-    - Label: Branchial arch or oral-acral syndrome
-      ORPHAcode: '139036'
-  - Parent:
-    - Label: Mandibulofacial dysostosis
-      ORPHAcode: '155899'
+    - Label: Pierre Robin syndrome associated with branchial archs anomalies
+      ORPHAcode: '138050'
   - Parent:
     - Label: Syndromic genetic disorder with strabismus
       ORPHAcode: '522520'
-  - Parent:
-    - Label: Genetic branchial arch or oral-acral syndrome
-      ORPHAcode: '183576'
-  - Parent:
-    - Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
-        disability
-      ORPHAcode: '330206'
   - Parent:
     - Label: Syndromic disorder with strabismus
       ORPHAcode: '98683'
@@ -444,6 +444,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

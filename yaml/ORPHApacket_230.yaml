@@ -21,12 +21,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: DBH
+        Source: ClinVar
       - Reference: '2689'
         Source: HGNC
       - Reference: '609312'
         Source: OMIM
-      - Reference: DBH
-        Source: ClinVar
       Name: dopamine beta-hydroxylase
       Symbol: DBH
   Label: Dopamine beta-hydroxylase deficiency
@@ -35,11 +35,11 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_230
   Parents:
   - Parent:
-    - Label: Rare disorder with ptosis
-      ORPHAcode: '98578'
-  - Parent:
     - Label: Neurometabolic disease
       ORPHAcode: '68385'
+  - Parent:
+    - Label: Primary orthostatic hypotension
+      ORPHAcode: '182058'
   - Parent:
     - Label: Disorder of catecholamine synthesis
       ORPHAcode: '309830'
@@ -47,8 +47,8 @@ Orphapacket:
     - Label: Genetic primary orthostatic hypotension
       ORPHAcode: '448426'
   - Parent:
-    - Label: Primary orthostatic hypotension
-      ORPHAcode: '182058'
+    - Label: Rare disorder with ptosis
+      ORPHAcode: '98578'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -187,6 +187,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

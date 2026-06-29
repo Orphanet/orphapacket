@@ -12,19 +12,6 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '8923'
-            Source: HGNC
-          - Reference: '606879'
-            Source: OMIM
-          Label: phosphoglycerate dehydrogenase
-          Symbol: PHGDH
-      Label: 3-phosphoglycerate dehydrogenase deficiency, infantile/juvenile form
-      ORPHAcode: '79351'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
           - Reference: '9577'
             Source: HGNC
           - Reference: '172480'
@@ -33,6 +20,19 @@ Orphapacket:
           Symbol: PSPH
       Label: 3-phosphoserine phosphatase deficiency, infantile/juvenile form
       ORPHAcode: '79350'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '8923'
+            Source: HGNC
+          - Reference: '606879'
+            Source: OMIM
+          Label: phosphoglycerate dehydrogenase
+          Symbol: PHGDH
+      Label: 3-phosphoglycerate dehydrogenase deficiency, infantile/juvenile form
+      ORPHAcode: '79351'
   - Child:
       Genes:
       - Gene:
@@ -53,7 +53,7 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '614023'
+      Reference: '601815'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -63,7 +63,7 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '601815'
+      Reference: '614023'
       Source: OMIM
   Label: Serine biosynthesis pathway deficiency, infantile/juvenile form
   ORPHAcode: '583595'
@@ -71,26 +71,26 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_583595
   Parents:
   - Parent:
+    - Label: Neurometabolic disorder due to serine deficiency
+      ORPHAcode: '35705'
+  - Parent:
     - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
         syndrome
       ORPHAcode: '611314'
-  - Parent:
-    - Label: Neurometabolic disorder due to serine deficiency
-      ORPHAcode: '35705'
   Prevalences:
-  - Prevalence:
-      PrevalenceClass: no data
-      PrevalenceGeographic: Worldwide
-      PrevalenceQualification: Case(s)
-      PrevalenceType: Cases/families
-      Source: 8758134[PMID]_26960553[PMID]_28135894[PMID]_36308023[PMID]_26610677[PMID]_17436247[PMID]_29269105[PMID]_34089226[PMID]_26610677[PMID]_9222972[PMID]_25080166[PMID]
-      ValMoy: no data
   - Prevalence:
       PrevalenceClass: <1 / 1 000 000
       PrevalenceGeographic: Worldwide
       PrevalenceQualification: Class only
       PrevalenceType: Point prevalence
       Source: 8758134[PMID]_26960553[PMID]_28135894[PMID]_36308023[PMID]_26610677[PMID]_17436247[PMID]_29269105[PMID]_34089226[PMID]_26610677[PMID]_9222972[PMID]_25080166[PMID]_ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case(s)
+      PrevalenceType: Cases/families
+      Source: 8758134[PMID]_26960553[PMID]_28135894[PMID]_36308023[PMID]_26610677[PMID]_17436247[PMID]_29269105[PMID]_34089226[PMID]_26610677[PMID]_9222972[PMID]_25080166[PMID]
       ValMoy: no data
   TextSection:
     Contents: A rare inborn error of metabolism comprising 3-phosphoglycerate dehydrogenase
@@ -100,6 +100,9 @@ Orphapacket:
       forms to milder juvenile forms with moderate developmental delay and intellectual
       disability.
     TextSectionType: Definition
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

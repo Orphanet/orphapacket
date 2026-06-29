@@ -16,12 +16,17 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '613989'
+      Reference: '613990'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '613990'
+      Reference: '614742'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '614743'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -42,34 +47,34 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: DKC1
+        Source: ClinVar
       - Reference: '2890'
         Source: HGNC
       - Reference: '300126'
         Source: OMIM
-      - Reference: DKC1
-        Source: ClinVar
       Name: dyskerin pseudouridine synthase 1
       Symbol: DKC1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TERT
+        Source: ClinVar
       - Reference: '11730'
         Source: HGNC
       - Reference: '187270'
         Source: OMIM
-      - Reference: TERT
-        Source: ClinVar
       Name: telomerase reverse transcriptase
       Symbol: TERT
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TINF2
+        Source: ClinVar
       - Reference: '11824'
         Source: HGNC
       - Reference: '604319'
         Source: OMIM
-      - Reference: TINF2
-        Source: ClinVar
       Name: TERF1 interacting nuclear factor 2
       Symbol: TINF2
   - Gene:
@@ -97,14 +102,25 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PARN
+        Source: ClinVar
       - Reference: '8609'
         Source: HGNC
       - Reference: '604212'
         Source: OMIM
-      - Reference: PARN
-        Source: ClinVar
       Name: poly(A)-specific ribonuclease
       Symbol: PARN
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: TERC
+        Source: ClinVar
+      - Reference: '11727'
+        Source: HGNC
+      - Reference: '602322'
+        Source: OMIM
+      Name: telomerase RNA component
+      Symbol: TERC
   Label: Hoyeraal-Hreidarsson syndrome
   ORPHAcode: '3322'
   ORPHApacketId: '3322'
@@ -123,6 +139,12 @@ Orphapacket:
     - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
         syndrome
       ORPHAcode: '611314'
+  - Parent:
+    - Label: Rare miscellaneous disease with inflammatory bowel disease
+      ORPHAcode: '717877'
+  - Parent:
+    - Label: Inherited bone marrow failure disorder with immune defect
+      ORPHAcode: '728475'
   - Parent:
     - Label: Syndrome with a cerebellar malformation as a major feature
       ORPHAcode: '269523'
@@ -269,6 +291,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

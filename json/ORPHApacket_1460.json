@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1460",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "1460",
         "Label": "Isolated complex III deficiency",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_1460",
@@ -26,20 +26,6 @@
             }
         ],
         "ExternalReferences": [
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "618775",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "620137",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
@@ -102,6 +88,20 @@
                     "Reference": "616111",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "618775",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "620137",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -115,16 +115,16 @@
                     "Name": "BCS1 ubiquinol-cytochrome c reductase complex chaperone",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "BCS1L"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "1020"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "603647"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "BCS1L"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -220,16 +220,16 @@
                     "Name": "ubiquinol-cytochrome c reductase core protein 2",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "UQCRC2"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "12586"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "191329"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "UQCRC2"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -241,16 +241,16 @@
                     "Name": "cytochrome c1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "CYC1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "2579"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "123980"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CYC1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -317,12 +317,12 @@
                     "Name": "ubiquinol-cytochrome c reductase, Rieske iron-sulfur polypeptide 1",
                     "ExternalReferences": [
                         {
-                            "Source": "HGNC",
-                            "Reference": "12587"
-                        },
-                        {
                             "Source": "ClinVar",
                             "Reference": "UQCRFS1"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "12587"
                         },
                         {
                             "Source": "OMIM",
@@ -349,6 +349,46 @@
                         "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
                     }
                 ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "68385",
+                        "Label": "Neurometabolic disease"
+                    }
+                ]
+            }
+        ],
+        "Prevalences": [
+            {
+                "Prevalence": {
+                    "Source": "31883641[PMID]_34750991[PMID]_11528392[PMID]_21278747[PMID]_23532514[PMID]_24368687[PMID]_24397319[PMID]_12709789[PMID]_18439546[PMID]_23281071[PMID]_23910460[PMID]_26912632[PMID]",
+                    "PrevalenceType": "Cases/families",
+                    "PrevalenceQualification": "Case(s)",
+                    "PrevalenceClass": "no data",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Worldwide"
+                }
+            },
+            {
+                "Prevalence": {
+                    "Source": "31883641[PMID]_34750991[PMID]_11528392[PMID]_21278747[PMID]_23532514[PMID]_24368687[PMID]_24397319[PMID]_12709789[PMID]_18439546[PMID]_23281071[PMID]_23910460[PMID]_26912632[PMID]_ORPHANET",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Class only",
+                    "PrevalenceClass": "<1 / 1 000 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Worldwide"
+                }
+            },
+            {
+                "Prevalence": {
+                    "Source": null,
+                    "PrevalenceType": "no data",
+                    "PrevalenceQualification": "no data",
+                    "PrevalenceClass": "no data",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "no data"
+                }
             }
         ],
         "AverageAgeOfOnsets": [

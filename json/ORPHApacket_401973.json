@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "401973",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "401973",
         "Label": "MEND syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_401973",
@@ -34,16 +34,16 @@
                     "Name": "EBP cholestenol delta-isomerase",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "EBP"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "3133"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "300205"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "EBP"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -51,14 +51,6 @@
             }
         ],
         "Parents": [
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "102283",
-                        "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
-                    }
-                ]
-            },
             {
                 "Parent": [
                     {
@@ -74,9 +66,39 @@
                         "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
                     }
                 ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "68385",
+                        "Label": "Neurometabolic disease"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "102283",
+                        "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
+                    }
+                ]
             }
         ],
         "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000752",
+                    "HPOTerm": "Hyperactivity",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001627",
+                    "HPOTerm": "Abnormal heart morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0003462",
@@ -375,20 +397,6 @@
                 "Phenotype": {
                     "HPOId": "HP:0000718",
                     "HPOTerm": "Aggressive behavior",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000752",
-                    "HPOTerm": "Hyperactivity",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001627",
-                    "HPOTerm": "Abnormal heart morphology",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             }

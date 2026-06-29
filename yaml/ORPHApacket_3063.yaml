@@ -18,12 +18,12 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: SMS
+        Source: ClinVar
       - Reference: '11123'
         Source: HGNC
       - Reference: '300105'
         Source: OMIM
-      - Reference: SMS
-        Source: ClinVar
       Name: spermine synthase
       Symbol: SMS
   Label: X-linked intellectual disability, Snyder type
@@ -32,12 +32,12 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_3063
   Parents:
   - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
+  - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
       ORPHAcode: '611327'
-  - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-      ORPHAcode: '102283'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -151,6 +151,10 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000465
       HPOTerm: Webbed neck
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0012385
+      HPOTerm: Camptodactyly
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000582
@@ -299,10 +303,6 @@ Orphapacket:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0011003
       HPOTerm: High myopia
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0012385
-      HPOTerm: Camptodactyly
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -333,6 +333,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

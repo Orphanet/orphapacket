@@ -30,17 +30,6 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
-      - Reference: '1142'
-        Source: HGNC
-      - Reference: '606000'
-        Source: OMIM
-      - Reference: BTNL2
-        Source: ClinVar
-      Name: butyrophilin like 2
-      Symbol: BTNL2
-  - Gene:
-      DisorderGeneAssociationType: Major susceptibility factor in
-      ExternalReferences:
       - Reference: HLA-DRB1
         Source: ClinVar
       - Reference: '4948'
@@ -49,18 +38,25 @@ Orphapacket:
         Source: OMIM
       Name: major histocompatibility complex, class II, DR beta 1
       Symbol: HLA-DRB1
+  - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
+      ExternalReferences:
+      - Reference: BTNL2
+        Source: ClinVar
+      - Reference: '1142'
+        Source: HGNC
+      - Reference: '606000'
+        Source: OMIM
+      Name: butyrophilin like 2
+      Symbol: BTNL2
   Label: Sarcoidosis
   ORPHAcode: '797'
   ORPHApacketId: '797'
   PURL: http://www.orpha.net/ORDO/Orphanet_797
   Parents:
   - Parent:
-    - Label: Non-genetic systemic disease with glomerulopathy as a major feature
-      ORPHAcode: '567558'
-  - Parent:
-    - Label: Secondary interstitial lung disease specific to adulthood associated
-        with a systemic disease
-      ORPHAcode: '264745'
+    - Label: Pituitary hormone deficiency secondary to a granulomatous disease
+      ORPHAcode: '95617'
   - Parent:
     - Label: Inflammatory and autoimmune disease with epilepsy
       ORPHAcode: '166484'
@@ -75,11 +71,21 @@ Orphapacket:
     - Label: Granulomatous autoinflammatory syndrome
       ORPHAcode: '324930'
   - Parent:
+    - Label: Disease associated with a genetic susceptibility or tested for a biomarker
+      ORPHAcode: '231957'
+  - Parent:
     - Label: Non-familial restrictive cardiomyopathy
       ORPHAcode: '217720'
   - Parent:
-    - Label: Disease associated with a genetic susceptibility or tested for a biomarker
-      ORPHAcode: '231957'
+    - Label: Secondary interstitial lung disease specific to adulthood associated
+        with a systemic disease
+      ORPHAcode: '264745'
+  - Parent:
+    - Label: Non-genetic systemic disease with glomerulopathy as a major feature
+      ORPHAcode: '567558'
+  - Parent:
+    - Label: Rare pediatric systemic disease
+      ORPHAcode: '280373'
   - Parent:
     - Label: Systemic diseases with anterior uveitis
       ORPHAcode: '280926'
@@ -89,12 +95,6 @@ Orphapacket:
   - Parent:
     - Label: Systemic diseases with panuveitis
       ORPHAcode: '280933'
-  - Parent:
-    - Label: Rare pediatric systemic disease
-      ORPHAcode: '280373'
-  - Parent:
-    - Label: Pituitary hormone deficiency secondary to a granulomatous disease
-      ORPHAcode: '95617'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very rare (<4-1%)
@@ -107,7 +107,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0001880
-      HPOTerm: Eosinophilia
+      HPOTerm: Increased total eosinophil count
   - Phenotype:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0002045
@@ -406,13 +406,6 @@ Orphapacket:
       HPOTerm: Abnormal conjunctiva morphology
   Prevalences:
   - Prevalence:
-      PrevalenceClass: 6-9 / 10 000
-      PrevalenceGeographic: United States
-      PrevalenceQualification: Value and class
-      PrevalenceType: Point prevalence
-      Source: 2750915[PMID]_[EXPERT]
-      ValMoy: no data
-  - Prevalence:
       PrevalenceClass: 1-5 / 10 000
       PrevalenceGeographic: Worldwide
       PrevalenceQualification: Class only
@@ -438,7 +431,7 @@ Orphapacket:
       PrevalenceGeographic: Europe
       PrevalenceQualification: Value and class
       PrevalenceType: Point prevalence
-      Source: European Medicines Agency 2007[INST]_DOI:10.1016/B978-0-323-54429-0.00001-X[OTHER]
+      Source: European Medicines Agency 2007[OTHER]_DOI:10.1016/B978-0-323-54429-0.00001-X[OTHER]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -560,6 +553,13 @@ Orphapacket:
       Source: 17539838[PMID]
       ValMoy: no data
   - Prevalence:
+      PrevalenceClass: 6-9 / 10 000
+      PrevalenceGeographic: United States
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 2750915[PMID]_[EXPERT]
+      ValMoy: no data
+  - Prevalence:
       PrevalenceClass: 1-5 / 10 000
       PrevalenceGeographic: Italy
       PrevalenceQualification: Value and class
@@ -656,6 +656,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Multigenic/multifactorial
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

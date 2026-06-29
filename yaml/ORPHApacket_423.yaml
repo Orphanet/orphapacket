@@ -37,17 +37,6 @@ Orphapacket:
       Source: OMIM
   Genes:
   - Gene:
-      DisorderGeneAssociationType: Major susceptibility factor in
-      ExternalReferences:
-      - Reference: '1397'
-        Source: HGNC
-      - Reference: '114208'
-        Source: OMIM
-      - Reference: CACNA1S
-        Source: ClinVar
-      Name: calcium voltage-gated channel subunit alpha1 S
-      Symbol: CACNA1S
-  - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
       - Reference: RYR1
@@ -58,11 +47,25 @@ Orphapacket:
         Source: OMIM
       Name: ryanodine receptor 1
       Symbol: RYR1
+  - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
+      ExternalReferences:
+      - Reference: CACNA1S
+        Source: ClinVar
+      - Reference: '1397'
+        Source: HGNC
+      - Reference: '114208'
+        Source: OMIM
+      Name: calcium voltage-gated channel subunit alpha1 S
+      Symbol: CACNA1S
   Label: Malignant hyperthermia of anesthesia
   ORPHAcode: '423'
   ORPHApacketId: '423'
   PURL: http://www.orpha.net/ORDO/Orphanet_423
   Parents:
+  - Parent:
+    - Label: Rare disease in anaesthesiology
+      ORPHAcode: '98032'
   - Parent:
     - Label: Neurological muscular channelopathy due to a genetic ryanodine receptor
         defect
@@ -70,9 +73,6 @@ Orphapacket:
   - Parent:
     - Label: Rare disease with malignant hyperthermia
       ORPHAcode: '466658'
-  - Parent:
-    - Label: Rare disease in anaesthesiology
-      ORPHAcode: '98032'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
@@ -185,6 +185,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

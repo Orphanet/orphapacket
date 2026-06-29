@@ -25,12 +25,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: DMD
+        Source: ClinVar
       - Reference: '2928'
         Source: HGNC
       - Reference: '300377'
         Source: OMIM
-      - Reference: DMD
-        Source: ClinVar
       Name: dystrophin
       Symbol: DMD
   Label: Becker muscular dystrophy
@@ -115,7 +115,7 @@ Orphapacket:
       PrevalenceGeographic: Europe
       PrevalenceQualification: Value and class
       PrevalenceType: Point prevalence
-      Source: European Medicines Agency 2018[INST]
+      Source: European Medicines Agency 2018[OTHER]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -151,6 +151,13 @@ Orphapacket:
       PrevalenceQualification: Value and class
       PrevalenceType: Prevalence at birth
       Source: '[EXPERT]'
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Puerto rico
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: DOI:10.3233/JND-160147[OTHER]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -194,13 +201,6 @@ Orphapacket:
       PrevalenceType: Point prevalence
       Source: 8845721[PMID]_24780148[PMID]
       ValMoy: no data
-  - Prevalence:
-      PrevalenceClass: 1-9 / 100 000
-      PrevalenceGeographic: Puerto rico
-      PrevalenceQualification: Value and class
-      PrevalenceType: Point prevalence
-      Source: DOI:10.3233/JND-160147[OTHER]
-      ValMoy: no data
   Synonyms:
   - Synonym: BMD
   - Synonym: Becker dystrophinopathy
@@ -211,6 +211,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -14,7 +14,12 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '609285'
+      Reference: '256030'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '609273'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -24,12 +29,7 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '256030'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '609273'
+      Reference: '609285'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -45,70 +45,70 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '12011'
-        Source: HGNC
-      - Reference: '190990'
-        Source: OMIM
-      - Reference: TPM2
-        Source: ClinVar
-      Name: tropomyosin 2
-      Symbol: TPM2
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '23246'
-        Source: HGNC
-      - Reference: '608517'
-        Source: OMIM
-      - Reference: MYPN
-        Source: ClinVar
-      Name: myopalladin
-      Symbol: MYPN
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: ACTA1
         Source: ClinVar
-      - Reference: '102610'
-        Source: OMIM
       - Reference: '129'
         Source: HGNC
+      - Reference: '102610'
+        Source: OMIM
       Name: actin alpha 1, skeletal muscle
       Symbol: ACTA1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '191030'
-        Source: OMIM
-      - Reference: '12012'
+      - Reference: TPM2
+        Source: ClinVar
+      - Reference: '12011'
         Source: HGNC
+      - Reference: '190990'
+        Source: OMIM
+      Name: tropomyosin 2
+      Symbol: TPM2
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
       - Reference: TPM3
         Source: ClinVar
+      - Reference: '12012'
+        Source: HGNC
+      - Reference: '191030'
+        Source: OMIM
       Name: tropomyosin 3
       Symbol: TPM3
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '161650'
-        Source: OMIM
-      - Reference: '7720'
-        Source: HGNC
       - Reference: NEB
         Source: ClinVar
+      - Reference: '7720'
+        Source: HGNC
+      - Reference: '161650'
+        Source: OMIM
       Name: nebulin
       Symbol: NEB
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: KBTBD13
+        Source: ClinVar
       - Reference: '37227'
         Source: HGNC
       - Reference: '613727'
         Source: OMIM
-      - Reference: KBTBD13
-        Source: ClinVar
       Name: kelch repeat and BTB domain containing 13
       Symbol: KBTBD13
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: MYPN
+        Source: ClinVar
+      - Reference: '23246'
+        Source: HGNC
+      - Reference: '608517'
+        Source: OMIM
+      Name: myopalladin
+      Symbol: MYPN
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
@@ -139,6 +139,82 @@ Orphapacket:
     - Label: Qualitative or quantitative defects of tropomyosin
       ORPHAcode: '284790'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003198
+      HPOTerm: Myopathy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003458
+      HPOTerm: 'EMG: myopathic abnormalities'
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003798
+      HPOTerm: Nemaline bodies
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001265
+      HPOTerm: Hyporeflexia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001270
+      HPOTerm: Motor delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001288
+      HPOTerm: Gait disturbance
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002067
+      HPOTerm: Bradykinesia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002068
+      HPOTerm: Neuromuscular dysphagia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002312
+      HPOTerm: Clumsiness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003306
+      HPOTerm: Spinal rigidity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003546
+      HPOTerm: Exercise intolerance
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003552
+      HPOTerm: Muscle stiffness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003557
+      HPOTerm: Increased variability in muscle fiber diameter
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003690
+      HPOTerm: Limb muscle weakness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003803
+      HPOTerm: Type 1 muscle fiber predominance
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009055
+      HPOTerm: Generalized limb muscle atrophy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009058
+      HPOTerm: Increased muscle lipid content
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000218
+      HPOTerm: High palate
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000275
+      HPOTerm: Narrow face
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000276
@@ -247,82 +323,6 @@ Orphapacket:
       HPOFrequency: Excluded (0%)
       HPOId: HP:0007010
       HPOTerm: Poor fine motor coordination
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003198
-      HPOTerm: Myopathy
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003458
-      HPOTerm: 'EMG: myopathic abnormalities'
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003798
-      HPOTerm: Nemaline bodies
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001265
-      HPOTerm: Hyporeflexia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001270
-      HPOTerm: Motor delay
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001288
-      HPOTerm: Gait disturbance
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002067
-      HPOTerm: Bradykinesia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002068
-      HPOTerm: Neuromuscular dysphagia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002312
-      HPOTerm: Clumsiness
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0003306
-      HPOTerm: Spinal rigidity
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0003546
-      HPOTerm: Exercise intolerance
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0003552
-      HPOTerm: Muscle stiffness
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0003557
-      HPOTerm: Increased variability in muscle fiber diameter
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0003690
-      HPOTerm: Limb muscle weakness
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0003803
-      HPOTerm: Type 1 muscle fiber predominance
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0009055
-      HPOTerm: Generalized limb muscle atrophy
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0009058
-      HPOTerm: Increased muscle lipid content
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000218
-      HPOTerm: High palate
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000275
-      HPOTerm: Narrow face
   Prevalences:
     Prevalence:
     - PrevalenceClass: <1 / 1 000 000
@@ -341,6 +341,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

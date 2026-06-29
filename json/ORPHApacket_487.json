@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "487",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "487",
         "Label": "Krabbe disease",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_487",
@@ -57,16 +57,24 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "79225",
-                        "Label": "Sphingolipidosis"
+                        "ORPHAcode": "68385",
+                        "Label": "Neurometabolic disease"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "68385",
-                        "Label": "Neurometabolic disease"
+                        "ORPHAcode": "182070",
+                        "Label": "Rare neurodegenerative disease"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "79225",
+                        "Label": "Sphingolipidosis"
                     }
                 ]
             },
@@ -93,17 +101,51 @@
                         "Label": "Syndromic hereditary optic neuropathy"
                     }
                 ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "182070",
-                        "Label": "Rare neurodegenerative disease"
-                    }
-                ]
             }
         ],
         "Children": [
+            {
+                "Child": {
+                    "Label": "Infantile Krabbe disease",
+                    "ORPHAcode": "206436",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "prosaposin",
+                                "Symbol": "PSAP",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "9498"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "176801"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "galactosylceramidase",
+                                "Symbol": "GALC",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "4115"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "606890"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
             {
                 "Child": {
                     "Label": "Late-infantile/juvenile Krabbe disease",
@@ -134,48 +176,6 @@
                     "Label": "Adult Krabbe disease",
                     "ORPHAcode": "206448",
                     "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "galactosylceramidase",
-                                "Symbol": "GALC",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "4115"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "606890"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Infantile Krabbe disease",
-                    "ORPHAcode": "206436",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "prosaposin",
-                                "Symbol": "PSAP",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "9498"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "176801"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        },
                         {
                             "Gene": {
                                 "Label": "galactosylceramidase",

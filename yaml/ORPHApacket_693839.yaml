@@ -1,4 +1,11 @@
 Orphapacket:
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Adolescent
+  - AverageAgeOfOnset:
+      value: Adult
+  - AverageAgeOfOnset:
+      value: Childhood
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
     value: Malformation syndrome
@@ -11,14 +18,22 @@ Orphapacket:
     - Label: Rare cause of hypertension
       ORPHAcode: '93618'
   - Parent:
-    - Label: Visceral arteriovenous malformation
-      ORPHAcode: '693855'
-  - Parent:
     - Label: Rare disorder potentially indicated for kidney transplant
       ORPHAcode: '506213'
+  - Parent:
+    - Label: Visceral fast-flow vascular malformation
+      ORPHAcode: '693855'
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: Unknown
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
-  - Synonym: rAVM
   - Synonym: Arteriovenous malformation of the kidney
+  - Synonym: rAVM
   TextSection:
     Contents: A rare visceral arteriovenous malformation characterized by abnormal
       communications between renal arteries and the venous system. Most cases are
@@ -29,6 +44,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -9,17 +9,12 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '618883'
+      Reference: '145000'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '600166'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '145000'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -31,7 +26,34 @@ Orphapacket:
         to represent it)
       Reference: '617343'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618883'
+      Source: OMIM
   Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: CDC73
+        Source: ClinVar
+      - Reference: '16783'
+        Source: HGNC
+      - Reference: '607393'
+        Source: OMIM
+      Name: cell division cycle 73
+      Symbol: CDC73
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: MEN1
+        Source: ClinVar
+      - Reference: '7010'
+        Source: HGNC
+      - Reference: '613733'
+        Source: OMIM
+      Name: menin 1
+      Symbol: MEN1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -41,30 +63,8 @@ Orphapacket:
         Source: HGNC
       - Reference: '603716'
         Source: OMIM
-      Name: glial cells missing transcription factor 2
+      Name: GCM transcription factor 2
       Symbol: GCM2
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '16783'
-        Source: HGNC
-      - Reference: '607393'
-        Source: OMIM
-      - Reference: CDC73
-        Source: ClinVar
-      Name: cell division cycle 73
-      Symbol: CDC73
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '7010'
-        Source: HGNC
-      - Reference: '613733'
-        Source: OMIM
-      - Reference: MEN1
-        Source: ClinVar
-      Name: menin 1
-      Symbol: MEN1
   Label: Familial isolated hyperparathyroidism
   ORPHAcode: '99879'
   ORPHApacketId: '99879'
@@ -74,30 +74,6 @@ Orphapacket:
     - Label: Familial primary hyperparathyroidism
       ORPHAcode: '2207'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000083
-      HPOTerm: Renal insufficiency
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000121
-      HPOTerm: Nephrocalcinosis
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000934
-      HPOTerm: Chondrocalcinosis
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000938
-      HPOTerm: Osteopenia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002148
-      HPOTerm: Hypophosphatemia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002150
-      HPOTerm: Hypercalciuria
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002897
@@ -116,8 +92,12 @@ Orphapacket:
       HPOTerm: Elevated circulating parathyroid hormone level
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0008200
-      HPOTerm: Primary hyperparathyroidism
+      HPOId: HP:0002148
+      HPOTerm: Hypophosphatemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002150
+      HPOTerm: Hypercalciuria
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0011458
@@ -126,6 +106,26 @@ Orphapacket:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0040160
       HPOTerm: Generalized osteoporosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008200
+      HPOTerm: Primary hyperparathyroidism
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000934
+      HPOTerm: Chondrocalcinosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000938
+      HPOTerm: Osteopenia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000083
+      HPOTerm: Renal insufficiency
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000121
+      HPOTerm: Nephrocalcinosis
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -152,6 +152,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

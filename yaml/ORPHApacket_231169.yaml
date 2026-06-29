@@ -11,16 +11,6 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '618632'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '614990'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
       Reference: '276900'
       Source: OMIM
   - ExternalReference:
@@ -56,26 +46,24 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '614869'
+      Reference: '614990'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618632'
       Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '43724'
-        Source: HGNC
-      Name: Usher syndrome 1K (autosomal recessive)
-      Symbol: USH1K
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: CDH23
+        Source: ClinVar
       - Reference: '13733'
         Source: HGNC
       - Reference: '605516'
         Source: OMIM
-      - Reference: CDH23
-        Source: ClinVar
       Name: cadherin related 23
       Symbol: CDH23
   - Gene:
@@ -94,12 +82,12 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: USH1G
+        Source: ClinVar
       - Reference: '16356'
         Source: HGNC
       - Reference: '607696'
         Source: OMIM
-      - Reference: USH1G
-        Source: ClinVar
       Name: USH1 protein network component sans
       Symbol: USH1G
   - Gene:
@@ -118,12 +106,12 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: PCDH15
+        Source: ClinVar
       - Reference: '14674'
         Source: HGNC
       - Reference: '605514'
         Source: OMIM
-      - Reference: PCDH15
-        Source: ClinVar
       Name: protocadherin related 15
       Symbol: PCDH15
   - Gene:
@@ -136,6 +124,17 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: ESPN
+        Source: ClinVar
+      - Reference: '13281'
+        Source: HGNC
+      - Reference: '606351'
+        Source: OMIM
+      Name: espin
+      Symbol: ESPN
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
       - Reference: '22433'
         Source: HGNC
       Name: Usher syndrome 1H (autosomal recessive)
@@ -143,25 +142,10 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '24579'
+      - Reference: '43724'
         Source: HGNC
-      - Reference: '605564'
-        Source: OMIM
-      - Reference: CIB2
-        Source: ClinVar
-      Name: calcium and integrin binding family member 2
-      Symbol: CIB2
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '13281'
-        Source: HGNC
-      - Reference: '606351'
-        Source: OMIM
-      - Reference: ESPN
-        Source: ClinVar
-      Name: espin
-      Symbol: ESPN
+      Name: Usher syndrome 1K (autosomal recessive)
+      Symbol: USH1K
   Label: Usher syndrome type 1
   ORPHAcode: '231169'
   ORPHApacketId: '231169'
@@ -264,6 +248,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

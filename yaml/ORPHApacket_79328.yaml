@@ -11,25 +11,25 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-      Reference: '608776'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '263210'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '608776'
       Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: ALG9
+        Source: ClinVar
       - Reference: '15672'
         Source: HGNC
       - Reference: '606941'
         Source: OMIM
-      - Reference: ALG9
-        Source: ClinVar
       Name: ALG9 alpha-1,2-mannosyltransferase
       Symbol: ALG9
   Label: ALG9-CDG
@@ -38,15 +38,15 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_79328
   Parents:
   - Parent:
+    - Label: Disorder of protein N-glycosylation
+      ORPHAcode: '309347'
+  - Parent:
     - Label: Congenital disorder of glycosylation with epilepsy as a major feature
       ORPHAcode: '371071'
   - Parent:
     - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
         syndrome
       ORPHAcode: '611314'
-  - Parent:
-    - Label: Disorder of protein N-glycosylation
-      ORPHAcode: '309347'
   - Parent:
     - Label: Congenital disorder of glycosylation with hepatic involvement
       ORPHAcode: '371157'
@@ -55,6 +55,82 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000358
       HPOTerm: Posteriorly rotated ears
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005280
+      HPOTerm: Depressed nasal bridge
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005343
+      HPOTerm: Hypoplasia of the bladder
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005487
+      HPOTerm: Prominent metopic ridge
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007385
+      HPOTerm: Aplasia cutis congenita of scalp
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008724
+      HPOTerm: Hypoplasia of the ovary
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008776
+      HPOTerm: Abnormal renal artery morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008905
+      HPOTerm: Rhizomelia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009004
+      HPOTerm: Hypoplasia of the musculature
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009125
+      HPOTerm: Lipodystrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009487
+      HPOTerm: Ulnar deviation of the hand
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010763
+      HPOTerm: Low insertion of columella
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011103
+      HPOTerm: Abnormal left ventricular outflow tract morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011473
+      HPOTerm: Villous atrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011849
+      HPOTerm: Abnormal bone ossification
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012448
+      HPOTerm: Delayed myelination
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012704
+      HPOTerm: Widened subarachnoid space
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030215
+      HPOTerm: Inappropriate crying
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0032464
+      HPOTerm: Ureteral hypoplasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100865
+      HPOTerm: Broad ischia
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001249
@@ -125,88 +201,16 @@ Orphapacket:
       HPOTerm: Wide anterior fontanel
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000270
-      HPOTerm: Delayed cranial suture closure
+      HPOId: HP:0003375
+      HPOTerm: Narrow greater sciatic notch
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000308
-      HPOTerm: Microretrognathia
+      HPOId: HP:0005133
+      HPOTerm: Right ventricular dilatation
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000316
-      HPOTerm: Hypertelorism
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000319
-      HPOTerm: Smooth philtrum
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000343
-      HPOTerm: Long philtrum
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000347
-      HPOTerm: Micrognathia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000369
-      HPOTerm: Low-set ears
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000430
-      HPOTerm: Underdeveloped nasal alae
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000444
-      HPOTerm: Convex nasal ridge
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000470
-      HPOTerm: Short neck
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000473
-      HPOTerm: Torticollis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000474
-      HPOTerm: Thickened nuchal skin fold
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000506
-      HPOTerm: Telecanthus
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000520
-      HPOTerm: Proptosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000565
-      HPOTerm: Esotropia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000586
-      HPOTerm: Shallow orbits
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000737
-      HPOTerm: Irritability
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000813
-      HPOTerm: Bicornuate uterus
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000998
-      HPOTerm: Hypertrichosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001234
-      HPOTerm: Hitchhiker thumb
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001272
-      HPOTerm: Cerebellar atrophy
+      HPOId: HP:0005180
+      HPOTerm: Tricuspid regurgitation
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001347
@@ -309,99 +313,95 @@ Orphapacket:
       HPOTerm: Short nose
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003375
-      HPOTerm: Narrow greater sciatic notch
+      HPOId: HP:0000270
+      HPOTerm: Delayed cranial suture closure
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0005133
-      HPOTerm: Right ventricular dilatation
+      HPOId: HP:0000308
+      HPOTerm: Microretrognathia
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0005180
-      HPOTerm: Tricuspid regurgitation
+      HPOId: HP:0000316
+      HPOTerm: Hypertelorism
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0005280
-      HPOTerm: Depressed nasal bridge
+      HPOId: HP:0000319
+      HPOTerm: Smooth philtrum
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0005343
-      HPOTerm: Hypoplasia of the bladder
+      HPOId: HP:0000343
+      HPOTerm: Long philtrum
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0005487
-      HPOTerm: Prominent metopic ridge
+      HPOId: HP:0000347
+      HPOTerm: Micrognathia
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0007385
-      HPOTerm: Aplasia cutis congenita of scalp
+      HPOId: HP:0000369
+      HPOTerm: Low-set ears
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008724
-      HPOTerm: Hypoplasia of the ovary
+      HPOId: HP:0000430
+      HPOTerm: Underdeveloped nasal alae
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008776
-      HPOTerm: Abnormal renal artery morphology
+      HPOId: HP:0000444
+      HPOTerm: Convex nasal ridge
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008905
-      HPOTerm: Rhizomelia
+      HPOId: HP:0000470
+      HPOTerm: Short neck
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0009004
-      HPOTerm: Hypoplasia of the musculature
+      HPOId: HP:0000473
+      HPOTerm: Torticollis
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0009125
-      HPOTerm: Lipodystrophy
+      HPOId: HP:0000474
+      HPOTerm: Thickened nuchal skin fold
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0009487
-      HPOTerm: Ulnar deviation of the hand
+      HPOId: HP:0000506
+      HPOTerm: Telecanthus
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0010763
-      HPOTerm: Low insertion of columella
+      HPOId: HP:0000520
+      HPOTerm: Proptosis
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011103
-      HPOTerm: Abnormal left ventricular outflow tract morphology
+      HPOId: HP:0000565
+      HPOTerm: Esotropia
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011473
-      HPOTerm: Villous atrophy
+      HPOId: HP:0000586
+      HPOTerm: Shallow orbits
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011849
-      HPOTerm: Abnormal bone ossification
+      HPOId: HP:0000737
+      HPOTerm: Irritability
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012448
-      HPOTerm: Delayed myelination
+      HPOId: HP:0000813
+      HPOTerm: Bicornuate uterus
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012704
-      HPOTerm: Widened subarachnoid space
+      HPOId: HP:0000998
+      HPOTerm: Hypertrichosis
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0030215
-      HPOTerm: Inappropriate crying
+      HPOId: HP:0001234
+      HPOTerm: Hitchhiker thumb
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0032464
-      HPOTerm: Ureteral hypoplasia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100865
-      HPOTerm: Broad ischia
+      HPOId: HP:0001272
+      HPOTerm: Cerebellar atrophy
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
       PrevalenceGeographic: Worldwide
       PrevalenceQualification: Case(s)
       PrevalenceType: Cases/families
-      Source: 26453364[PMID]_28122681[PMID]_28932688[PMID)
+      Source: 26453364[PMID]_28122681[PMID]_28932688[PMID]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: <1 / 1 000 000
@@ -412,10 +412,10 @@ Orphapacket:
       ValMoy: no data
   Synonyms:
   - Synonym: CDG syndrome type IL
-  - Synonym: CDG1L
-  - Synonym: Congenital disorder of glycosylation type 1L
   - Synonym: CDG-IL
+  - Synonym: CDG1L
   - Synonym: Carbohydrate deficient glycoprotein syndrome type IL
+  - Synonym: Congenital disorder of glycosylation type 1L
   - Synonym: Mannosyltransferase 7-9 deficiency
   TextSection:
     Contents: A rare form of congenital disorders of N-linked glycosylation characterized
@@ -429,6 +429,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

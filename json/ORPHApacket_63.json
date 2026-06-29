@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "63",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "63",
         "Label": "Alport syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_63",
@@ -13,10 +13,10 @@
         },
         "Synonyms": [
             {
-                "Synonym": "Alport hearing loss-nephropathy"
+                "Synonym": "Alport deafness-nephropathy"
             },
             {
-                "Synonym": "Alport deafness-nephropathy"
+                "Synonym": "Alport hearing loss-nephropathy"
             }
         ],
         "ExternalReferences": [
@@ -89,6 +89,48 @@
             }
         ],
         "Children": [
+            {
+                "Child": {
+                    "Label": "X-linked Alport syndrome-diffuse leiomyomatosis",
+                    "ORPHAcode": "1018",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "collagen type IV alpha 5 chain",
+                                "Symbol": "COL4A5",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "2207"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "303630"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "collagen type IV alpha 6 chain",
+                                "Symbol": "COL4A6",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "2208"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "303631"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Role in the phenotype of"
+                            }
+                        }
+                    ]
+                }
+            },
             {
                 "Child": {
                     "Label": "X-linked Alport syndrome",
@@ -200,48 +242,6 @@
             },
             {
                 "Child": {
-                    "Label": "X-linked Alport syndrome-diffuse leiomyomatosis",
-                    "ORPHAcode": "1018",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "collagen type IV alpha 6 chain",
-                                "Symbol": "COL4A6",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "2208"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "303631"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Role in the phenotype of"
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "collagen type IV alpha 5 chain",
-                                "Symbol": "COL4A5",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "2207"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "303630"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Role in the phenotype of"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
                     "Label": "Digenic Alport syndrome",
                     "ORPHAcode": "653722",
                     "Genes": [
@@ -310,15 +310,8 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0012577",
-                    "HPOTerm": "Thin glomerular basement membrane",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0030034",
-                    "HPOTerm": "Diffuse glomerular basement membrane lamellation",
+                    "HPOTerm": "Glomerular basement membrane lamellation",
                     "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
@@ -345,6 +338,34 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0003774",
+                    "HPOTerm": "Stage 5 chronic kidney disease",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007663",
+                    "HPOTerm": "Reduced visual acuity",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008619",
+                    "HPOTerm": "Bilateral sensorineural hearing impairment",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012045",
+                    "HPOTerm": "Retinal flecks",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0012574",
                     "HPOTerm": "Mesangial hypercellularity",
                     "HPOFrequency": "Frequent (79-30%)"
@@ -352,43 +373,15 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000092",
-                    "HPOTerm": "Renal tubular atrophy",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0012577",
+                    "HPOTerm": "Thin glomerular basement membrane",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000097",
                     "HPOTerm": "Focal segmental glomerulosclerosis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000100",
-                    "HPOTerm": "Nephrotic syndrome",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000123",
-                    "HPOTerm": "Nephritis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000407",
-                    "HPOTerm": "Sensorineural hearing impairment",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000478",
-                    "HPOTerm": "Abnormality of the eye",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -401,8 +394,15 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000794",
-                    "HPOTerm": "IgA deposition in the glomerulus",
+                    "HPOId": "HP:0000545",
+                    "HPOTerm": "Myopia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000969",
+                    "HPOTerm": "Edema",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -410,13 +410,6 @@
                 "Phenotype": {
                     "HPOId": "HP:0002907",
                     "HPOTerm": "Microscopic hematuria",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003774",
-                    "HPOTerm": "Stage 5 chronic kidney disease",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -450,20 +443,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0012045",
-                    "HPOTerm": "Retinal flecks",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012576",
-                    "HPOTerm": "Glomerular C3 deposition",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0025005",
                     "HPOTerm": "Thickening of glomerular capillary wall",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -478,6 +457,13 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0200020",
+                    "HPOTerm": "Corneal erosion",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0000608",
                     "HPOTerm": "Macular degeneration",
                     "HPOFrequency": "Very rare (<4-1%)"
@@ -485,8 +471,8 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001679",
-                    "HPOTerm": "Abnormal aortic morphology",
+                    "HPOId": "HP:0001131",
+                    "HPOTerm": "Corneal dystrophy",
                     "HPOFrequency": "Very rare (<4-1%)"
                 }
             },
@@ -520,13 +506,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0004942",
-                    "HPOTerm": "Aortic aneurysm",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0006756",
                     "HPOTerm": "Diffuse leiomyomatosis",
                     "HPOFrequency": "Very rare (<4-1%)"
@@ -536,13 +515,6 @@
                 "Phenotype": {
                     "HPOId": "HP:0007787",
                     "HPOTerm": "Posterior subcapsular cataract",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008665",
-                    "HPOTerm": "Clitoral hypertrophy",
                     "HPOFrequency": "Very rare (<4-1%)"
                 }
             },

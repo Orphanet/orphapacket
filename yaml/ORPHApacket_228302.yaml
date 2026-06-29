@@ -19,12 +19,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: CPT2
+        Source: ClinVar
       - Reference: '2330'
         Source: HGNC
       - Reference: '600650'
         Source: OMIM
-      - Reference: CPT2
-        Source: ClinVar
       Name: carnitine palmitoyltransferase 2
       Symbol: CPT2
   Label: Carnitine palmitoyl transferase II deficiency, myopathic form
@@ -36,6 +36,26 @@ Orphapacket:
     - Label: Carnitine palmitoyltransferase II deficiency
       ORPHAcode: '157'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002913
+      HPOTerm: Myoglobinuria
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003326
+      HPOTerm: Myalgia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003546
+      HPOTerm: Exercise intolerance
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003738
+      HPOTerm: Exercise-induced myalgia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012380
+      HPOTerm: Reduced carnitine O-palmitoyltransferase activity
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0040320
@@ -100,26 +120,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0011964
       HPOTerm: Intermittent painful muscle spasms
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002913
-      HPOTerm: Myoglobinuria
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003326
-      HPOTerm: Myalgia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003546
-      HPOTerm: Exercise intolerance
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003738
-      HPOTerm: Exercise-induced myalgia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0012380
-      HPOTerm: Reduced carnitine O-palmitoyltransferase activity
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -136,13 +136,13 @@ Orphapacket:
       Source: ORPHANET_20301431[PMID]
       ValMoy: no data
   Synonyms:
-  - Synonym: CPT2, myopathic form
-  - Synonym: CPTII, adult-onset form
-  - Synonym: CPTII, myopathic form
   - Synonym: Carnitine palmitoyl transferase II deficiency, adult-onset form
   - Synonym: Carnitine palmitoyl transferase deficiency type 2, adult-onset form
   - Synonym: Carnitine palmitoyl transferase deficiency type 2, myopathic form
   - Synonym: CPT2, adult-onset form
+  - Synonym: CPT2, myopathic form
+  - Synonym: CPTII, adult-onset form
+  - Synonym: CPTII, myopathic form
   TextSection:
     Contents: The myopathic form of carnitine palmitoyltransferase II (CPT II) deficiency
       an inherited metabolic disorder that affects mitochondrial oxidation of long
@@ -152,6 +152,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

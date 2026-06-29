@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "650077",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "650077",
         "Label": "Genetic central precocious puberty in female",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_650077",
@@ -13,13 +13,13 @@
         },
         "Synonyms": [
             {
-                "Synonym": "Genetic central precocious puberty in girl"
-            },
-            {
                 "Synonym": "Genetic CPP in female"
             },
             {
                 "Synonym": "Genetic CPP in girl"
+            },
+            {
+                "Synonym": "Genetic central precocious puberty in girl"
             }
         ],
         "ExternalReferences": [
@@ -32,20 +32,20 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "MKRN3",
-                    "Name": "makorin ring finger protein 3",
+                    "Symbol": "KISS1R",
+                    "Name": "KISS1 receptor",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "KISS1R"
+                        },
+                        {
                             "Source": "HGNC",
-                            "Reference": "7114"
+                            "Reference": "4510"
                         },
                         {
                             "Source": "OMIM",
-                            "Reference": "603856"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "MKRN3"
+                            "Reference": "604161"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -74,20 +74,20 @@
             },
             {
                 "Gene": {
-                    "Symbol": "KISS1R",
-                    "Name": "KISS1 receptor",
+                    "Symbol": "MKRN3",
+                    "Name": "makorin ring finger protein 3",
                     "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "KISS1R"
+                            "Reference": "MKRN3"
                         },
                         {
                             "Source": "HGNC",
-                            "Reference": "4510"
+                            "Reference": "7114"
                         },
                         {
                             "Source": "OMIM",
-                            "Reference": "604161"
+                            "Reference": "603856"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -115,16 +115,6 @@
         "Prevalences": [
             {
                 "Prevalence": {
-                    "Source": "38857188[PMID]_26539988[PMID]_ORPHANET",
-                    "PrevalenceType": "Point prevalence",
-                    "PrevalenceQualification": "Value and class",
-                    "PrevalenceClass": "1-9 / 100 000",
-                    "ValMoy": "no data",
-                    "PrevalenceGeographic": "Korea, Democratic People's Republic of"
-                }
-            },
-            {
-                "Prevalence": {
                     "Source": "38857188[PMID]_ORPHANET",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Value and class",
@@ -132,7 +122,24 @@
                     "ValMoy": "no data",
                     "PrevalenceGeographic": "Europe"
                 }
+            },
+            {
+                "Prevalence": {
+                    "Source": "38857188[PMID]_26539988[PMID]_ORPHANET",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 100 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Korea, Democratic People's Republic of"
+                }
             }
-        ]
+        ],
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Autosomal dominant"
+                }
+            ]
+        }
     }
 }

@@ -17,12 +17,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: STK11
+        Source: ClinVar
       - Reference: '11389'
         Source: HGNC
       - Reference: '602216'
         Source: OMIM
-      - Reference: STK11
-        Source: ClinVar
       Name: serine/threonine kinase 11
       Symbol: STK11
   Label: Peutz-Jeghers syndrome
@@ -31,17 +31,20 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_2869
   Parents:
   - Parent:
+    - Label: Hyperpigmentation of the skin
+      ORPHAcode: '79375'
+  - Parent:
     - Label: Malformation syndrome with hamartosis
       ORPHAcode: '98196'
   - Parent:
-    - Label: Polymalformative genetic syndrome with increased risk of developing cancer
-      ORPHAcode: '183422'
+    - Label: Intestinal polyposis syndrome
+      ORPHAcode: '104010'
   - Parent:
     - Label: Genetic hyperpigmentation of the skin
       ORPHAcode: '183466'
   - Parent:
-    - Label: Intestinal polyposis syndrome
-      ORPHAcode: '104010'
+    - Label: Polymalformative genetic syndrome with increased risk of developing cancer
+      ORPHAcode: '183422'
   - Parent:
     - Label: Genetic digestive tract tumor
       ORPHAcode: '271835'
@@ -51,9 +54,6 @@ Orphapacket:
   - Parent:
     - Label: Inherited gynecological cancer-predisposing syndrome
       ORPHAcode: '589746'
-  - Parent:
-    - Label: Hyperpigmentation of the skin
-      ORPHAcode: '79375'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
@@ -221,6 +221,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

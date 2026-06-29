@@ -31,12 +31,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: ARD1A
+        Source: ClinVar
       - Reference: '18704'
         Source: HGNC
       - Reference: '300013'
         Source: OMIM
-      - Reference: ARD1A
-        Source: ClinVar
       Name: N-alpha-acetyltransferase 10, NatA catalytic subunit
       Symbol: NAA10
   Label: Microphthalmia, Lenz type
@@ -48,11 +48,11 @@ Orphapacket:
     - Label: Lens shape anomaly
       ORPHAcode: '98655'
   - Parent:
-    - Label: Syndromic microphthalmia-anophthalmia-coloboma
-      ORPHAcode: '202948'
-  - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
+  - Parent:
+    - Label: Syndromic microphthalmia-anophthalmia-coloboma
+      ORPHAcode: '202948'
   - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
@@ -62,10 +62,6 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000377
       HPOTerm: Abnormal pinna morphology
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000358
-      HPOTerm: Posteriorly rotated ears
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000568
@@ -142,6 +138,10 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0008678
       HPOTerm: Renal hypoplasia/aplasia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000358
+      HPOTerm: Posteriorly rotated ears
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0009943
@@ -250,6 +250,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "263501",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "263501",
         "Label": "COG4-CDG",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_263501",
@@ -12,9 +12,6 @@
             "PURL": "http://www.orpha.net/ORDO/Orphanet_377788"
         },
         "Synonyms": [
-            {
-                "Synonym": "Congenital disorder of glycosylation type 2j"
-            },
             {
                 "Synonym": "CDG syndrome type IIj"
             },
@@ -26,6 +23,9 @@
             },
             {
                 "Synonym": "Carbohydrate deficient glycoprotein syndrome type IIj"
+            },
+            {
+                "Synonym": "Congenital disorder of glycosylation type 2j"
             },
             {
                 "Synonym": "Congenital disorder of glycosylation type IIj"
@@ -53,12 +53,12 @@
                             "Reference": "COG4"
                         },
                         {
-                            "Source": "OMIM",
-                            "Reference": "606976"
-                        },
-                        {
                             "Source": "HGNC",
                             "Reference": "18620"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "606976"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -66,6 +66,14 @@
             }
         ],
         "Parents": [
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "309568",
+                        "Label": "Defect in conserved oligomeric Golgi complex"
+                    }
+                ]
+            },
             {
                 "Parent": [
                     {
@@ -85,14 +93,6 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "309568",
-                        "Label": "Defect in conserved oligomeric Golgi complex"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
                         "ORPHAcode": "371157",
                         "Label": "Congenital disorder of glycosylation with hepatic involvement"
                     }
@@ -100,104 +100,6 @@
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012347",
-                    "HPOTerm": "Abnormal protein N-linked glycosylation",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012358",
-                    "HPOTerm": "Abnormal protein O-linked glycosylation",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000252",
-                    "HPOTerm": "Microcephaly",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000340",
-                    "HPOTerm": "Sloping forehead",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000639",
-                    "HPOTerm": "Nystagmus",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000737",
-                    "HPOTerm": "Irritability",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001251",
-                    "HPOTerm": "Ataxia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001263",
-                    "HPOTerm": "Global developmental delay",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001344",
-                    "HPOTerm": "Absent speech",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001347",
-                    "HPOTerm": "Hyperreflexia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001394",
-                    "HPOTerm": "Cirrhosis",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001433",
-                    "HPOTerm": "Hepatosplenomegaly",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001510",
-                    "HPOTerm": "Growth delay",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001531",
-                    "HPOTerm": "Failure to thrive in infancy",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0001873",
@@ -329,6 +231,104 @@
                     "HPOId": "HP:0040187",
                     "HPOTerm": "Neonatal sepsis",
                     "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012347",
+                    "HPOTerm": "Abnormal protein N-linked glycosylation",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012358",
+                    "HPOTerm": "Abnormal protein O-linked glycosylation",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000252",
+                    "HPOTerm": "Microcephaly",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000340",
+                    "HPOTerm": "Sloping forehead",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000639",
+                    "HPOTerm": "Nystagmus",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000737",
+                    "HPOTerm": "Irritability",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001251",
+                    "HPOTerm": "Ataxia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001263",
+                    "HPOTerm": "Global developmental delay",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001344",
+                    "HPOTerm": "Absent speech",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001347",
+                    "HPOTerm": "Hyperreflexia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001394",
+                    "HPOTerm": "Cirrhosis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001433",
+                    "HPOTerm": "Hepatosplenomegaly",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001510",
+                    "HPOTerm": "Growth delay",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001531",
+                    "HPOTerm": "Failure to thrive in infancy",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             }
         ],

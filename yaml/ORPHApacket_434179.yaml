@@ -15,12 +15,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: C2CD3
+        Source: ClinVar
       - Reference: '24564'
         Source: HGNC
       - Reference: '615944'
         Source: OMIM
-      - Reference: C2CD3
-        Source: ClinVar
       Name: C2 domain containing 3 centriole elongation regulator
       Symbol: C2CD3
   Label: Orofaciodigital syndrome type 14
@@ -32,28 +32,16 @@ Orphapacket:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
   - Parent:
-    - Label: Syndrome with microcephaly as a major feature
-      ORPHAcode: '269528'
-  - Parent:
     - Label: Orofaciodigital syndrome
       ORPHAcode: '140997'
+  - Parent:
+    - Label: Syndrome with microcephaly as a major feature
+      ORPHAcode: '269528'
   - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
       ORPHAcode: '611327'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000039
-      HPOTerm: Epispadias
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000175
-      HPOTerm: Cleft palate
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000180
-      HPOTerm: Lobulated tongue
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000191
@@ -210,6 +198,18 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0100954
       HPOTerm: Open operculum
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000039
+      HPOTerm: Epispadias
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000175
+      HPOTerm: Cleft palate
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000180
+      HPOTerm: Lobulated tongue
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -230,18 +230,17 @@ Orphapacket:
   - Synonym: OFD14
   - Synonym: Oral-facial-digital syndrome type 14
   TextSection:
-    Contents: Orofaciodigital syndrome type 14 is a rare subtype of orofaciodigital
-      syndrome with autosomal recessive inheritance and <i>C2CD3</i> mutations characterized
-      by severe microcephaly trigonocephaly severe intellectual disability and micropenis
-      in addition to oral facial and digital malformations (gingival frenulae lingual
-      hamartomas cleft/lobulated tongue cleft palate telecanthus up-slanting palpebral
-      fissures microretrognathia postaxial polydactyly of hands and duplication of
-      hallux). Corpus callosum agenesis and vermis hypoplasia with molar tooth sign
-      on brain imaging are also associated.
+    Contents: A rare developmental disorder of the ciliopathy group characterized
+      by oral facial and digital malformations associated with microcephaly and cerebral
+      malformations such as corpus callosum agenesis and vermis hypoplasia with molar
+      tooth sign. Oral manifestations include gingival frenulae lingual hamartomas
+      cleft/lobulated tongue and a cleft palate. Facial features can include telecanthus
+      and an upslanting palpebral fissures. Digital malformations encompass hands
+      postaxial polydactyly and duplication of the hallux.
     TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

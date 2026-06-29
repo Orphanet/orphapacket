@@ -13,37 +13,37 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '614976'
+      Reference: '201000'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '201000'
+      Reference: '614976'
       Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '3233'
-        Source: HGNC
-      - Reference: '604267'
-        Source: OMIM
-      - Reference: MEGF8
-        Source: ClinVar
-      Name: multiple EGF like domains 8
-      Symbol: MEGF8
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: RAB23
+        Source: ClinVar
       - Reference: '14263'
         Source: HGNC
       - Reference: '606144'
         Source: OMIM
-      - Reference: RAB23
-        Source: ClinVar
       Name: RAB23, member RAS oncogene family
       Symbol: RAB23
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: MEGF8
+        Source: ClinVar
+      - Reference: '3233'
+        Source: HGNC
+      - Reference: '604267'
+        Source: OMIM
+      Name: multiple EGF like domains 8
+      Symbol: MEGF8
   Label: Carpenter syndrome
   ORPHAcode: '65759'
   ORPHApacketId: '65759'
@@ -53,11 +53,11 @@ Orphapacket:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
   - Parent:
-    - Label: Syndromic obesity
-      ORPHAcode: '240371'
-  - Parent:
     - Label: Syndromic craniosynostosis
       ORPHAcode: '139393'
+  - Parent:
+    - Label: Syndromic obesity
+      ORPHAcode: '240371'
   - Parent:
     - Label: Ciliopathy
       ORPHAcode: '363250'
@@ -254,6 +254,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -9,11 +9,6 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '619947'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
       Reference: '193510'
       Source: OMIM
   - ExternalReference:
@@ -31,29 +26,12 @@ Orphapacket:
         to represent it)
       Reference: '611584'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '619947'
+      Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '6343'
-        Source: HGNC
-      - Reference: '184745'
-        Source: OMIM
-      - Reference: KITLG
-        Source: ClinVar
-      Name: KIT ligand
-      Symbol: KITLG
-  - Gene:
-      DisorderGeneAssociationType: Modifying germline mutation in
-      ExternalReferences:
-      - Reference: '12442'
-        Source: HGNC
-      - Reference: '606933'
-        Source: OMIM
-      - Reference: TYR
-        Source: ClinVar
-      Name: tyrosinase
-      Symbol: TYR
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -77,28 +55,50 @@ Orphapacket:
       Name: SRY-box transcription factor 10
       Symbol: SOX10
   - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      DisorderGeneAssociationType: Modifying germline mutation in
       ExternalReferences:
-      - Reference: '7105'
-        Source: HGNC
-      - Reference: '156845'
-        Source: OMIM
-      - Reference: MITF
+      - Reference: TYR
         Source: ClinVar
-      Name: melanocyte inducing transcription factor
-      Symbol: MITF
+      - Reference: '12442'
+        Source: HGNC
+      - Reference: '606933'
+        Source: OMIM
+      Name: tyrosinase
+      Symbol: TYR
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: EDNRB
+        Source: ClinVar
       - Reference: '3180'
         Source: HGNC
       - Reference: '131244'
         Source: OMIM
-      - Reference: EDNRB
-        Source: ClinVar
       Name: endothelin receptor type B
       Symbol: EDNRB
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: MITF
+        Source: ClinVar
+      - Reference: '7105'
+        Source: HGNC
+      - Reference: '156845'
+        Source: OMIM
+      Name: melanocyte inducing transcription factor
+      Symbol: MITF
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: KITLG
+        Source: ClinVar
+      - Reference: '6343'
+        Source: HGNC
+      - Reference: '184745'
+        Source: OMIM
+      Name: KIT ligand
+      Symbol: KITLG
   Label: Waardenburg syndrome type 2
   ORPHAcode: '895'
   ORPHApacketId: '895'
@@ -182,6 +182,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

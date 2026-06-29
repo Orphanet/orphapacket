@@ -8,19 +8,25 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-    Reference: '605407'
-    Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '605407'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620453'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
       - Reference: TH
         Source: ClinVar
-      - Reference: '191290'
-        Source: OMIM
       - Reference: '11782'
         Source: HGNC
+      - Reference: '191290'
+        Source: OMIM
       Name: tyrosine hydroxylase
       Symbol: TH
   - Gene:
@@ -42,12 +48,12 @@ Orphapacket:
     - Label: Dopa-responsive dystonia
       ORPHAcode: '255'
   - Parent:
-    - Label: Disorder of tyrosine metabolism
-      ORPHAcode: '284818'
-  - Parent:
     - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
         syndrome
       ORPHAcode: '611314'
+  - Parent:
+    - Label: Disorder of tyrosine metabolism
+      ORPHAcode: '284818'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
@@ -209,6 +215,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

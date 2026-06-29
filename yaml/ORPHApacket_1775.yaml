@@ -15,16 +15,6 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '620040'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '620133'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
       Reference: '127550'
       Source: OMIM
@@ -68,39 +58,53 @@ Orphapacket:
         to represent it)
       Reference: '616353'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '616553'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620040'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620133'
+      Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '7910'
-        Source: HGNC
-      - Reference: '164040'
-        Source: OMIM
-      - Reference: NPM1
-        Source: ClinVar
-      Name: nucleophosmin 1
-      Symbol: NPM1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: ACD
+        Source: ClinVar
+      - Reference: '25070'
+        Source: HGNC
+      - Reference: '609377'
+        Source: OMIM
+      Name: ACD shelterin complex subunit and telomerase recruitment factor
+      Symbol: ACD
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: DKC1
+        Source: ClinVar
       - Reference: '2890'
         Source: HGNC
       - Reference: '300126'
         Source: OMIM
-      - Reference: DKC1
-        Source: ClinVar
       Name: dyskerin pseudouridine synthase 1
       Symbol: DKC1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TERT
+        Source: ClinVar
       - Reference: '11730'
         Source: HGNC
       - Reference: '187270'
         Source: OMIM
-      - Reference: TERT
-        Source: ClinVar
       Name: telomerase reverse transcriptase
       Symbol: TERT
   - Gene:
@@ -117,12 +121,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TINF2
+        Source: ClinVar
       - Reference: '11824'
         Source: HGNC
       - Reference: '604319'
         Source: OMIM
-      - Reference: TINF2
-        Source: ClinVar
       Name: TERF1 interacting nuclear factor 2
       Symbol: TINF2
   - Gene:
@@ -137,27 +141,50 @@ Orphapacket:
       Name: NOP10 ribonucleoprotein
       Symbol: NOP10
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: NPM1
+        Source: ClinVar
+      - Reference: '7910'
+        Source: HGNC
+      - Reference: '164040'
+        Source: OMIM
+      Name: nucleophosmin 1
+      Symbol: NPM1
+  - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: NHP2
+        Source: ClinVar
       - Reference: '14377'
         Source: HGNC
       - Reference: '606470'
         Source: OMIM
-      - Reference: NHP2
-        Source: ClinVar
       Name: NHP2 ribonucleoprotein
       Symbol: NHP2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: HVSL1
+        Source: ClinVar
       - Reference: '25792'
         Source: HGNC
       - Reference: '613276'
         Source: OMIM
-      - Reference: HVSL1
-        Source: ClinVar
       Name: U6 snRNA biogenesis phosphodiesterase 1
       Symbol: USB1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: TYMS
+        Source: ClinVar
+      - Reference: '12441'
+        Source: HGNC
+      - Reference: '188350'
+        Source: OMIM
+      Name: thymidylate synthetase
+      Symbol: TYMS
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -172,12 +199,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: CTC1
+        Source: ClinVar
       - Reference: '26169'
         Source: HGNC
       - Reference: '613129'
         Source: OMIM
-      - Reference: CTC1
-        Source: ClinVar
       Name: CST telomere replication complex component 1
       Symbol: CTC1
   - Gene:
@@ -194,39 +221,22 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PARN
+        Source: ClinVar
       - Reference: '8609'
         Source: HGNC
       - Reference: '604212'
         Source: OMIM
-      - Reference: PARN
-        Source: ClinVar
       Name: poly(A)-specific ribonuclease
       Symbol: PARN
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '12441'
-        Source: HGNC
-      - Reference: '188350'
-        Source: OMIM
-      - Reference: TYMS
-        Source: ClinVar
-      Name: thymidylate synthetase
-      Symbol: TYMS
   Label: Dyskeratosis congenita
   ORPHAcode: '1775'
   ORPHApacketId: '1775'
   PURL: http://www.orpha.net/ORDO/Orphanet_1775
   Parents:
   - Parent:
-    - Label: Ectodermal dysplasia syndrome
-      ORPHAcode: '79373'
-  - Parent:
-    - Label: Hereditary poikiloderma
-      ORPHAcode: '222628'
-  - Parent:
-    - Label: Hyperpigmentation of the skin
-      ORPHAcode: '79375'
+    - Label: Rare constitutional aplastic anemia
+      ORPHAcode: '68383'
   - Parent:
     - Label: Inherited cancer-predisposing syndrome
       ORPHAcode: '140162'
@@ -234,21 +244,20 @@ Orphapacket:
     - Label: Genetic hyperpigmentation of the skin
       ORPHAcode: '183466'
   - Parent:
-    - Label: Rare constitutional aplastic anemia
-      ORPHAcode: '68383'
+    - Label: Hereditary poikiloderma
+      ORPHAcode: '222628'
   - Parent:
     - Label: Syndrome with combined immunodeficiency
       ORPHAcode: '331217'
   - Parent:
-    - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
-        syndrome
-      ORPHAcode: '611314'
+    - Label: Rare miscellaneous disease with inflammatory bowel disease
+      ORPHAcode: '717877'
   - Parent:
-    - Label: Malformation syndrome with hamartosis
-      ORPHAcode: '98196'
+    - Label: Inherited bone marrow failure disorder with immune defect
+      ORPHAcode: '728475'
   - Parent:
-    - Label: Syndromic lacrimal system disorder
-      ORPHAcode: '519274'
+    - Label: Hyperpigmentation of the skin
+      ORPHAcode: '79375'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
@@ -522,6 +531,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -1,19 +1,6 @@
 Orphapacket:
   Children:
   - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '15979'
-            Source: HGNC
-          - Reference: '603273'
-            Source: OMIM
-          Label: tumor protein p63
-          Symbol: TP63
-      Label: EEC syndrome
-      ORPHAcode: '1896'
-  - Child:
       Genes: no data
       Label: Megalocornea-intellectual disability syndrome
       ORPHAcode: '2479'
@@ -45,11 +32,16 @@ Orphapacket:
       Label: Tyrosinemia type 2
       ORPHAcode: '28378'
   - Child:
-      Genes: no data
-      Label: Genetic corneal dystrophy
-      ORPHAcode: '522560'
-  - Child:
       Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '6483'
+            Source: HGNC
+          - Reference: '600805'
+            Source: OMIM
+          Label: laminin subunit alpha 3
+          Symbol: LAMA3
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -68,15 +60,6 @@ Orphapacket:
             Source: OMIM
           Label: laminin subunit gamma 2
           Symbol: LAMC2
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '6483'
-            Source: HGNC
-          - Reference: '600805'
-            Source: OMIM
-          Label: laminin subunit alpha 3
-          Symbol: LAMA3
       Label: Severe generalized junctional epidermolysis bullosa
       ORPHAcode: '79404'
   - Child:
@@ -120,12 +103,29 @@ Orphapacket:
       ORPHAcode: '89842'
   - Child:
       Genes: no data
+      Label: Genetic corneal dystrophy
+      ORPHAcode: '522560'
+  - Child:
+      Genes: no data
       Label: Syndromic genetic keratoconus
       ORPHAcode: '522564'
   - Child:
       Genes: no data
       Label: Rare genetic inflammatory/autoimmune corneal disorder
       ORPHAcode: '522566'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '15979'
+            Source: HGNC
+          - Reference: '603273'
+            Source: OMIM
+          Label: tumor protein p63
+          Symbol: TP63
+      Label: EEC syndrome
+      ORPHAcode: '1896'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -137,6 +137,6 @@ Orphapacket:
   - Parent:
     - Label: Rare genetic corneal disorder
       ORPHAcode: '522556'
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

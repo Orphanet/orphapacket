@@ -7,16 +7,6 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
-        used to represent it)
-      Reference: '615528'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '616840'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '300557'
@@ -56,7 +46,62 @@ Orphapacket:
         to represent it)
       Reference: '613643'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
+      Reference: '615528'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '616840'
+      Source: OMIM
   Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: PINK1
+        Source: ClinVar
+      - Reference: '14581'
+        Source: HGNC
+      - Reference: '608309'
+        Source: OMIM
+      Name: PTEN induced kinase 1
+      Symbol: PINK1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: PARK2
+        Source: ClinVar
+      - Reference: '8607'
+        Source: HGNC
+      - Reference: '602544'
+        Source: OMIM
+      Name: parkin RBR E3 ubiquitin protein ligase
+      Symbol: PRKN
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: PARK7
+        Source: ClinVar
+      - Reference: '16369'
+        Source: HGNC
+      - Reference: '602533'
+        Source: OMIM
+      Name: Parkinsonism associated deglycase
+      Symbol: PARK7
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: DNAJC6
+        Source: ClinVar
+      - Reference: '15469'
+        Source: HGNC
+      - Reference: '608375'
+        Source: OMIM
+      Name: DnaJ heat shock protein family (Hsp40) member C6
+      Symbol: DNAJC6
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -68,51 +113,6 @@ Orphapacket:
         Source: OMIM
       Name: synaptojanin 1
       Symbol: SYNJ1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '14581'
-        Source: HGNC
-      - Reference: '608309'
-        Source: OMIM
-      - Reference: PINK1
-        Source: ClinVar
-      Name: PTEN induced kinase 1
-      Symbol: PINK1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '9171'
-        Source: HGNC
-      - Reference: '602632'
-        Source: OMIM
-      - Reference: PODXL
-        Source: ClinVar
-      Name: podocalyxin like
-      Symbol: PODXL
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '8607'
-        Source: HGNC
-      - Reference: '602544'
-        Source: OMIM
-      - Reference: PARK2
-        Source: ClinVar
-      Name: parkin RBR E3 ubiquitin protein ligase
-      Symbol: PRKN
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '16369'
-        Source: HGNC
-      - Reference: '602533'
-        Source: OMIM
-      - Reference: PARK7
-        Source: ClinVar
-      Name: Parkinsonism associated deglycase
-      Symbol: PARK7
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
@@ -129,14 +129,14 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
-      - Reference: DNAJC6
+      - Reference: PODXL
         Source: ClinVar
-      - Reference: '15469'
+      - Reference: '9171'
         Source: HGNC
-      - Reference: '608375'
+      - Reference: '602632'
         Source: OMIM
-      Name: DnaJ heat shock protein family (Hsp40) member C6
-      Symbol: DNAJC6
+      Name: podocalyxin like
+      Symbol: PODXL
   Label: Young-onset Parkinson disease
   ORPHAcode: '2828'
   ORPHApacketId: '2828'
@@ -319,6 +319,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

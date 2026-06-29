@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "329918",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "329918",
         "Label": "C3 glomerulopathy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_329918",
@@ -13,9 +13,6 @@
         },
         "Synonyms": [
             {
-                "Synonym": "Non-immunoglobulin-mediated membranoproliferative glomerulonephritis"
-            },
-            {
                 "Synonym": "Non-Ig-mediated MPGN"
             },
             {
@@ -23,6 +20,9 @@
             },
             {
                 "Synonym": "Non-immunoglobulin-mediated MPGN"
+            },
+            {
+                "Synonym": "Non-immunoglobulin-mediated membranoproliferative glomerulonephritis"
             }
         ],
         "ExternalReferences": [
@@ -94,31 +94,6 @@
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "C3 glomerulonephritis",
-                    "ORPHAcode": "329931",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "complement factor H related 1",
-                                "Symbol": "CFHR1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "4888"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "134371"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
                         },
                         {
                             "Gene": {
@@ -132,6 +107,48 @@
                                     {
                                         "Source": "OMIM",
                                         "Reference": "608593"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "C3 glomerulonephritis",
+                    "ORPHAcode": "329931",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "complement factor H",
+                                "Symbol": "CFH",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "4883"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "134370"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "complement factor H related 1",
+                                "Symbol": "CFHR1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "4888"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "134371"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -152,6 +169,23 @@
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Part of a fusion gene in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "complement factor H related 5",
+                                "Symbol": "CFHR5",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "24668"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "608593"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         },
                         {
@@ -234,6 +268,13 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0012593",
+                    "HPOTerm": "Nephrotic range proteinuria",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0012622",
                     "HPOTerm": "Chronic kidney disease",
                     "HPOFrequency": "Frequent (79-30%)"
@@ -241,22 +282,8 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0025364",
-                    "HPOTerm": "Extracapillary hypercellularity",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0030888",
                     "HPOTerm": "C3 nephritic factor positivity",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0031047",
-                    "HPOTerm": "Paraproteinemia",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -283,15 +310,15 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002719",
-                    "HPOTerm": "Recurrent infections",
+                    "HPOId": "HP:0002960",
+                    "HPOTerm": "Autoimmunity",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002960",
-                    "HPOTerm": "Autoimmunity",
+                    "HPOId": "HP:0008653",
+                    "HPOTerm": "Crescentic glomerulonephritis",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -311,13 +338,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0025567",
-                    "HPOTerm": "Central serous chorioretinopathy",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0030469",
                     "HPOTerm": "Abnormal dark-adapted electroretinogram",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -327,6 +347,20 @@
                 "Phenotype": {
                     "HPOId": "HP:0030506",
                     "HPOTerm": "Yellow/white lesions of the retina",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0031047",
+                    "HPOTerm": "Paraproteinemia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0034001",
+                    "HPOTerm": "Anti-Complement factor H antibody positivity",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },

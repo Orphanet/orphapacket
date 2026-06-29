@@ -29,23 +29,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '28583'
-        Source: HGNC
-      - Reference: RSPO2
+      - Reference: TBX4
         Source: ClinVar
-      - Reference: '610575'
-        Source: OMIM
-      Name: R-spondin 2
-      Symbol: RSPO2
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: '11603'
         Source: HGNC
       - Reference: '601719'
         Source: OMIM
-      - Reference: TBX4
-        Source: ClinVar
       Name: T-box transcription factor 4
       Symbol: TBX4
   - Gene:
@@ -60,11 +49,25 @@ Orphapacket:
         Source: OMIM
       Name: Wnt family member 3
       Symbol: WNT3
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: RSPO2
+        Source: ClinVar
+      - Reference: '28583'
+        Source: HGNC
+      - Reference: '610575'
+        Source: OMIM
+      Name: R-spondin 2
+      Symbol: RSPO2
   Label: Tetraamelia-multiple malformations syndrome
   ORPHAcode: '3301'
   ORPHApacketId: '3301'
   PURL: http://www.orpha.net/ORDO/Orphanet_3301
   Parents:
+  - Parent:
+    - Label: Syndromic cataract
+      ORPHAcode: '98641'
   - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
         disability
@@ -73,9 +76,6 @@ Orphapacket:
     - Label: Syndrome with limb reduction defects
       ORPHAcode: '294955'
   - Parent:
-    - Label: Syndromic genetic cataract
-      ORPHAcode: '522548'
-  - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
         disability
       ORPHAcode: '330206'
@@ -83,8 +83,8 @@ Orphapacket:
     - Label: Genetic syndrome with limb reduction defects
       ORPHAcode: '404574'
   - Parent:
-    - Label: Syndromic cataract
-      ORPHAcode: '98641'
+    - Label: Syndromic genetic cataract
+      ORPHAcode: '522548'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -242,9 +242,9 @@ Orphapacket:
       Source: 20301453[PMID]
       ValMoy: no data
   Synonyms:
-  - Synonym: Zimmer phocomelia
-  - Synonym: PAPPAS
   - Synonym: PAPPA syndrome
+  - Synonym: PAPPAS
+  - Synonym: Zimmer phocomelia
   TextSection:
     Contents: An extremely rare mostly lethal congenital disorder characterized by
       absence of all four limbs and frequent associated major malformations involving
@@ -257,6 +257,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

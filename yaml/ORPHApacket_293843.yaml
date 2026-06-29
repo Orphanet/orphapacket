@@ -25,17 +25,6 @@ Orphapacket:
       Source: OMIM
   Genes:
   - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '2220'
-        Source: HGNC
-      - Reference: '607620'
-        Source: OMIM
-      - Reference: COLEC10
-        Source: ClinVar
-      Name: collectin subfamily member 10
-      Symbol: COLEC10
-  - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
@@ -59,6 +48,17 @@ Orphapacket:
         Source: OMIM
       Name: collectin subfamily member 11
       Symbol: COLEC11
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: COLEC10
+        Source: ClinVar
+      - Reference: '2220'
+        Source: HGNC
+      - Reference: '607620'
+        Source: OMIM
+      Name: collectin subfamily member 10
+      Symbol: COLEC10
   Label: 3MC syndrome
   ORPHAcode: '293843'
   ORPHApacketId: '293843'
@@ -75,6 +75,30 @@ Orphapacket:
         disability
       ORPHAcode: '611327'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000377
+      HPOTerm: Abnormal pinna morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001537
+      HPOTerm: Umbilical hernia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002825
+      HPOTerm: Caudal appendage
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002827
+      HPOTerm: Hip dislocation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005105
+      HPOTerm: Abnormal nasal morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0040016
+      HPOTerm: Prominent coccyx
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000365
@@ -171,30 +195,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000369
       HPOTerm: Low-set ears
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000377
-      HPOTerm: Abnormal pinna morphology
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001537
-      HPOTerm: Umbilical hernia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002825
-      HPOTerm: Caudal appendage
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002827
-      HPOTerm: Hip dislocation
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0005105
-      HPOTerm: Abnormal nasal morphology
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0040016
-      HPOTerm: Prominent coccyx
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -211,8 +211,8 @@ Orphapacket:
       Source: ORPHANET_21258343[PMID]
       ValMoy: no data
   Synonyms:
-  - Synonym: Malpuech-Michels-Mingarelli-Carnevale syndrome
   - Synonym: Craniofacial-ulnar-renal syndrome
+  - Synonym: Malpuech-Michels-Mingarelli-Carnevale syndrome
   TextSection:
     Contents: A rare multiple congenital anomalies syndrome characterized by a spectrum
       of developmental anomalies including cleft lip and/or palate craniosynostosis
@@ -225,6 +225,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

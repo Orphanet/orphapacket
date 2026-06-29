@@ -9,13 +9,13 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '209880'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '619482'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-      Reference: '209880'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -23,15 +23,6 @@ Orphapacket:
       Reference: '619483'
       Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '16960'
-        Source: HGNC
-      - Reference: '604255'
-        Source: OMIM
-      Name: ladybird homeobox 1
-      Symbol: LBX1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -46,14 +37,23 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: MYO1H
+        Source: ClinVar
       - Reference: '13879'
         Source: HGNC
       - Reference: '614636'
         Source: OMIM
-      - Reference: MYO1H
-        Source: ClinVar
       Name: myosin IH
       Symbol: MYO1H
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '16960'
+        Source: HGNC
+      - Reference: '604255'
+        Source: OMIM
+      Name: ladybird homeobox 1
+      Symbol: LBX1
   Label: Congenital central hypoventilation syndrome
   ORPHAcode: '661'
   ORPHApacketId: '661'
@@ -63,11 +63,11 @@ Orphapacket:
     - Label: Rare pulmonary disease
       ORPHAcode: '101944'
   - Parent:
-    - Label: Rare genetic autonomic nervous system disorder
-      ORPHAcode: '434786'
-  - Parent:
     - Label: Rare genetic respiratory disease
       ORPHAcode: '156610'
+  - Parent:
+    - Label: Rare genetic autonomic nervous system disorder
+      ORPHAcode: '434786'
   - Parent:
     - Label: Rare autonomic nervous system disorder
       ORPHAcode: '423662'
@@ -128,10 +128,10 @@ Orphapacket:
       Source: ORPHANET
       ValMoy: no data
   Synonyms:
-  - Synonym: CCHS
-  - Synonym: Ondine syndrome
-  - Synonym: Congenital central alveolar hypoventilation syndrome
   - Synonym: Ondine curse
+  - Synonym: Ondine syndrome
+  - Synonym: CCHS
+  - Synonym: Congenital central alveolar hypoventilation syndrome
   TextSection:
     Contents: Congenital central hypoventilation syndrome (CCHS) is a rare disease
       due to a severely impaired central autonomic control of breathing and dysfunction
@@ -142,6 +142,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Not applicable
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

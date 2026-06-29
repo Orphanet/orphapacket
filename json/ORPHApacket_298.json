@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "298",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "298",
         "Label": "Mitochondrial neurogastrointestinal encephalomyopathy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_298",
@@ -57,16 +57,16 @@
                     "Name": "DNA polymerase gamma, catalytic subunit",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "POLG"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "9179"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "174763"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "POLG"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -99,16 +99,16 @@
                     "Name": "ribonucleotide reductase regulatory TP53 inducible subunit M2B",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "RRM2B"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "17296"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "604712"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "RRM2B"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -120,12 +120,12 @@
                     "Name": "DNA ligase 3",
                     "ExternalReferences": [
                         {
-                            "Source": "OMIM",
-                            "Reference": "600940"
-                        },
-                        {
                             "Source": "HGNC",
                             "Reference": "6600"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "600940"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -133,14 +133,6 @@
             }
         ],
         "Parents": [
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "98578",
-                        "Label": "Rare disorder with ptosis"
-                    }
-                ]
-            },
             {
                 "Parent": [
                     {
@@ -152,8 +144,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "522522",
-                        "Label": "Rare genetic neuromuscular disorder with ocular motility/alignment anomaly"
+                        "ORPHAcode": "352456",
+                        "Label": "Mitochondrial DNA maintenance syndrome"
                     }
                 ]
             },
@@ -162,6 +154,46 @@
                     {
                         "ORPHAcode": "206966",
                         "Label": "Mitochondrial myopathy"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "611314",
+                        "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "717874",
+                        "Label": "Rare inborn error of metabolism with inflammatory bowel disease"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "68385",
+                        "Label": "Neurometabolic disease"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "98578",
+                        "Label": "Rare disorder with ptosis"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "104013",
+                        "Label": "Metabolic disease with intestinal involvement"
                     }
                 ]
             },
@@ -184,24 +216,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "104013",
-                        "Label": "Metabolic disease with intestinal involvement"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "352456",
-                        "Label": "Mitochondrial DNA maintenance syndrome"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "611314",
-                        "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
+                        "ORPHAcode": "522522",
+                        "Label": "Rare genetic neuromuscular disorder with ocular motility/alignment anomaly"
                     }
                 ]
             },
@@ -215,6 +231,20 @@
             }
         ],
         "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0025461",
+                    "HPOTerm": "Abnormal cell morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000726",
+                    "HPOTerm": "Dementia",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000544",
@@ -536,26 +566,12 @@
                     "HPOTerm": "Decreased muscle mass",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0025461",
-                    "HPOTerm": "Abnormal cell morphology",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000726",
-                    "HPOTerm": "Dementia",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
             }
         ],
         "Prevalences": [
             {
                 "Prevalence": {
-                    "Source": "European Medicines Agency[INST]",
+                    "Source": "European Medicines Agency[OTHER]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 1 000 000",

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "98649",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "98649",
         "Label": "Dentocutaneous disease with cataract",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_98649",
@@ -15,21 +15,46 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "522548",
-                        "Label": "Syndromic genetic cataract"
+                        "ORPHAcode": "98641",
+                        "Label": "Syndromic cataract"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "98641",
-                        "Label": "Syndromic cataract"
+                        "ORPHAcode": "522548",
+                        "Label": "Syndromic genetic cataract"
                     }
                 ]
             }
         ],
         "Children": [
+            {
+                "Child": {
+                    "Label": "Nance-Horan syndrome",
+                    "ORPHAcode": "627",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "NHS actin remodeling regulator",
+                                "Symbol": "NHS",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "7820"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "300457"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
             {
                 "Child": {
                     "Label": "COFS syndrome",
@@ -98,31 +123,6 @@
                                     {
                                         "Source": "OMIM",
                                         "Reference": "126380"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Nance-Horan syndrome",
-                    "ORPHAcode": "627",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "NHS actin remodeling regulator",
-                                "Symbol": "NHS",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "7820"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "300457"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"

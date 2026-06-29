@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "417",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "417",
         "Label": "Neonatal severe primary hyperparathyroidism",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_417",
@@ -20,15 +20,15 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "618188",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                    "Reference": "239200",
+                    "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "239200",
-                    "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+                    "Reference": "618188",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -37,6 +37,27 @@
             "Contents": "Neonatal severe primary hyperparathyroidism (NSHPT) is characterized by severe hypercalcemia (> 3.5 mM) from birth and associated with major hyperparathyroidism."
         },
         "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "CASR",
+                    "Name": "calcium sensing receptor",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "CASR"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "1514"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "601199"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                }
+            },
             {
                 "Gene": {
                     "Symbol": "TRPV6",
@@ -53,35 +74,14 @@
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
-            },
-            {
-                "Gene": {
-                    "Symbol": "CASR",
-                    "Name": "calcium sensing receptor",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "1514"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "601199"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CASR"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
-                }
             }
         ],
         "Parents": [
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "181408",
-                        "Label": "Rare hyperparathyroidism"
+                        "ORPHAcode": "93447",
+                        "Label": "Primary bone dysplasia with defective bone mineralization"
                     }
                 ]
             },
@@ -96,8 +96,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "93447",
-                        "Label": "Primary bone dysplasia with defective bone mineralization"
+                        "ORPHAcode": "181408",
+                        "Label": "Rare hyperparathyroidism"
                     }
                 ]
             }

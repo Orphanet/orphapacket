@@ -4,37 +4,27 @@ Orphapacket:
     value: Clinical subtype
   Genes:
   - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '609947'
-        Source: OMIM
-      - Reference: '19958'
+      - Reference: HSD17B4
+        Source: ClinVar
+      - Reference: '5213'
         Source: HGNC
-      Name: protein only RNase P catalytic subunit
-      Symbol: PRORP
+      - Reference: '601860'
+        Source: OMIM
+      Name: hydroxysteroid 17-beta dehydrogenase 4
+      Symbol: HSD17B4
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: CLPP
+      - Reference: C10orf2
         Source: ClinVar
-      - Reference: '2084'
+      - Reference: '1160'
         Source: HGNC
-      - Reference: '601119'
+      - Reference: '606075'
         Source: OMIM
-      Name: caseinolytic mitochondrial matrix peptidase proteolytic subunit
-      Symbol: CLPP
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: ERAL1
-        Source: ClinVar
-      - Reference: '3424'
-        Source: HGNC
-      - Reference: '607435'
-        Source: OMIM
-      Name: Era like 12S mitochondrial rRNA chaperone 1
-      Symbol: ERAL1
+      Name: twinkle mtDNA helicase
+      Symbol: TWNK
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -49,14 +39,25 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '5213'
-        Source: HGNC
-      - Reference: '601860'
-        Source: OMIM
-      - Reference: HSD17B4
+      - Reference: RMND1
         Source: ClinVar
-      Name: hydroxysteroid 17-beta dehydrogenase 4
-      Symbol: HSD17B4
+      - Reference: '21176'
+        Source: HGNC
+      - Reference: '614917'
+        Source: OMIM
+      Name: required for meiotic nuclear division 1 homolog
+      Symbol: RMND1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: CLPP
+        Source: ClinVar
+      - Reference: '2084'
+        Source: HGNC
+      - Reference: '601119'
+        Source: OMIM
+      Name: caseinolytic mitochondrial matrix peptidase proteolytic subunit
+      Symbol: CLPP
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -71,36 +72,35 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '1160'
-        Source: HGNC
-      - Reference: '606075'
-        Source: OMIM
-      - Reference: C10orf2
+      - Reference: ERAL1
         Source: ClinVar
-      Name: twinkle mtDNA helicase
-      Symbol: TWNK
+      - Reference: '3424'
+        Source: HGNC
+      - Reference: '607435'
+        Source: OMIM
+      Name: Era like 12S mitochondrial rRNA chaperone 1
+      Symbol: ERAL1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: GGPS1
+        Source: ClinVar
       - Reference: '4249'
         Source: HGNC
       - Reference: '606982'
         Source: OMIM
-      - Reference: GGPS1
-        Source: ClinVar
       Name: geranylgeranyl diphosphate synthase 1
       Symbol: GGPS1
   - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences:
-      - Reference: '614917'
-        Source: OMIM
-      - Reference: '21176'
+      - Reference: '19958'
         Source: HGNC
-      - Reference: RMND1
-        Source: ClinVar
-      Name: required for meiotic nuclear division 1 homolog
-      Symbol: RMND1
+      - Reference: '609947'
+        Source: OMIM
+      Name: protein only RNase P catalytic subunit
+      Symbol: PRORP
   Label: Perrault syndrome type 2
   ORPHAcode: '642976'
   ORPHApacketId: '642976'
@@ -119,6 +119,9 @@ Orphapacket:
       neuropathy and behavioral symptoms. Additional clinical features may involve
       developmental delay muscular and renal manifestations.
     TextSectionType: Definition
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

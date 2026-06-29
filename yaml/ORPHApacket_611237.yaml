@@ -9,6 +9,14 @@ Orphapacket:
   - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '619279'
     Source: OMIM
+  Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '12585'
+        Source: HGNC
+      Name: ubiquinol-cytochrome c reductase core protein 1
+      Symbol: UQCRC1
   Label: Parkinsonism with polyneuropathy
   ORPHAcode: '611237'
   ORPHApacketId: '611237'
@@ -20,6 +28,9 @@ Orphapacket:
   - Parent:
     - Label: Rare parkinsonian syndrome due to genetic neurodegenerative disease
       ORPHAcode: '307055'
+  - Parent:
+    - Label: Neurometabolic disease
+      ORPHAcode: '68385'
   - Parent:
     - Label: Rare hereditary metabolic disease with peripheral neuropathy
       ORPHAcode: '207018'
@@ -50,6 +61,9 @@ Orphapacket:
       clinical symptoms may include anxiety and depression. Mild diffuse muscular
       atrophy can also be detected in some patients.
     TextSectionType: Definition
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal dominant
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

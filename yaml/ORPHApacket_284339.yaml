@@ -5,8 +5,8 @@ Orphapacket:
   - AverageAgeOfOnset:
       value: Neonatal
   DisorderType:
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-    value: Malformation syndrome
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
   ExternalReferences:
   - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
     Reference: '614969'
@@ -16,36 +16,25 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: TOE1
+        Source: ClinVar
       - Reference: '15954'
         Source: HGNC
       - Reference: '613931'
         Source: OMIM
-      - Reference: TOE1
-        Source: ClinVar
       Name: target of EGR1, exonuclease
       Symbol: TOE1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '7102'
-        Source: HGNC
-      - Reference: '605391'
-        Source: OMIM
-      - Reference: MINPP1
-        Source: ClinVar
-      Name: multiple inositol-polyphosphate phosphatase 1
-      Symbol: MINPP1
   Label: Pontocerebellar hypoplasia type 7
   ORPHAcode: '284339'
   ORPHApacketId: '284339'
   PURL: http://www.orpha.net/ORDO/Orphanet_284339
   Parents:
   - Parent:
+    - Label: Pontocerebellar hypoplasia
+      ORPHAcode: '98523'
+  - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
-  - Parent:
-    - Label: Non-syndromic pontocerebellar hypoplasia
-      ORPHAcode: '98523'
   - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
@@ -230,6 +219,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

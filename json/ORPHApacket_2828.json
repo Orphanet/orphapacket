@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2828",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "2828",
         "Label": "Young-onset Parkinson disease",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2828",
@@ -20,20 +20,6 @@
             }
         ],
         "ExternalReferences": [
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "615528",
-                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "616840",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
@@ -89,6 +75,20 @@
                     "Reference": "613643",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "615528",
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "616840",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -96,6 +96,90 @@
             "Contents": "A rare parkinsonian disorder characterized by an age of onset between 21-45 years rigidity painful cramps followed by tremor bradykinesia dystonia gait complaints and falls and other non-motor symptoms. A slow disease progression and a more pronounced response to dopaminergic therapy are also observed in most forms of this disease."
         },
         "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "PINK1",
+                    "Name": "PTEN induced kinase 1",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "PINK1"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "14581"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "608309"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "PRKN",
+                    "Name": "parkin RBR E3 ubiquitin protein ligase",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "PARK2"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "8607"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "602544"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "PARK7",
+                    "Name": "Parkinsonism associated deglycase",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "PARK7"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "16369"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "602533"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "DNAJC6",
+                    "Name": "DnaJ heat shock protein family (Hsp40) member C6",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "DNAJC6"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "15469"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "608375"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                }
+            },
             {
                 "Gene": {
                     "Symbol": "SYNJ1",
@@ -112,90 +196,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "604297"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "PINK1",
-                    "Name": "PTEN induced kinase 1",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "14581"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "608309"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "PINK1"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "PODXL",
-                    "Name": "podocalyxin like",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "9171"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "602632"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "PODXL"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "PRKN",
-                    "Name": "parkin RBR E3 ubiquitin protein ligase",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "8607"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "602544"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "PARK2"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "PARK7",
-                    "Name": "Parkinsonism associated deglycase",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "16369"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "602533"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "PARK7"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -224,20 +224,20 @@
             },
             {
                 "Gene": {
-                    "Symbol": "DNAJC6",
-                    "Name": "DnaJ heat shock protein family (Hsp40) member C6",
+                    "Symbol": "PODXL",
+                    "Name": "podocalyxin like",
                     "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "DNAJC6"
+                            "Reference": "PODXL"
                         },
                         {
                             "Source": "HGNC",
-                            "Reference": "15469"
+                            "Reference": "9171"
                         },
                         {
                             "Source": "OMIM",
-                            "Reference": "608375"
+                            "Reference": "602632"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"

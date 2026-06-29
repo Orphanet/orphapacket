@@ -25,16 +25,26 @@ Orphapacket:
         to represent it)
       Reference: '614042'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620687'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '621469'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: DIAPH1
+        Source: ClinVar
       - Reference: '2876'
         Source: HGNC
       - Reference: '602121'
         Source: OMIM
-      - Reference: DIAPH1
-        Source: ClinVar
       Name: diaphanous related formin 1
       Symbol: DIAPH1
   - Gene:
@@ -59,11 +69,23 @@ Orphapacket:
         Source: OMIM
       Name: ring finger protein 213
       Symbol: RNF213
+  - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
+      ExternalReferences:
+      - Reference: '21625'
+        Source: HGNC
+      - Reference: '610108'
+        Source: OMIM
+      Name: anoctamin 1
+      Symbol: ANO1
   Label: Moyamoya disease
   ORPHAcode: '2573'
   ORPHApacketId: '2573'
   PURL: http://www.orpha.net/ORDO/Orphanet_2573
   Parents:
+  - Parent:
+    - Label: Disease associated with a genetic susceptibility or tested for a biomarker
+      ORPHAcode: '231957'
   - Parent:
     - Label: Moyamoya angiopathy
       ORPHAcode: '477768'
@@ -71,9 +93,6 @@ Orphapacket:
     - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
         syndrome
       ORPHAcode: '611314'
-  - Parent:
-    - Label: Disease associated with a genetic susceptibility or tested for a biomarker
-      ORPHAcode: '231957'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -182,6 +201,6 @@ Orphapacket:
       value: Multigenic/multifactorial
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

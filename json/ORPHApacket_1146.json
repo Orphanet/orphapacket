@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1146",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "1146",
         "Label": "Distal arthrogryposis type 1",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_1146",
@@ -13,20 +13,13 @@
         },
         "Synonyms": [
             {
-                "Synonym": "Digitotalar dysmorphism"
+                "Synonym": "DA1"
             },
             {
-                "Synonym": "DA1"
+                "Synonym": "Digitotalar dysmorphism"
             }
         ],
         "ExternalReferences": [
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "618435",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
@@ -51,6 +44,13 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
+                    "Reference": "618435",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
                     "Reference": "619110",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
@@ -63,30 +63,13 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "NALCN",
-                    "Name": "sodium leak channel, non-selective",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "NALCN"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "19082"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "611549"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "TNNI2",
                     "Name": "troponin I2, fast skeletal type",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "TNNI2"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "11946"
@@ -94,10 +77,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "191043"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TNNI2"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -109,16 +88,16 @@
                     "Name": "troponin T3, fast skeletal type",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "TNNT3"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "11950"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "600692"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TNNT3"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -130,16 +109,16 @@
                     "Name": "tropomyosin 2",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "TPM2"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "12011"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "190990"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TPM2"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -172,16 +151,37 @@
                     "Name": "myosin binding protein C1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "MYBPC1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "7549"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "160794"
-                        },
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "NALCN",
+                    "Name": "sodium leak channel, non-selective",
+                    "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "MYBPC1"
+                            "Reference": "NALCN"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "19082"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "611549"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -192,16 +192,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "102285",
-                        "Label": "Multiple congenital anomalies/dysmorphic syndrome without intellectual disability"
+                        "ORPHAcode": "97120",
+                        "Label": "Distal arthrogryposis"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "97120",
-                        "Label": "Distal arthrogryposis"
+                        "ORPHAcode": "102285",
+                        "Label": "Multiple congenital anomalies/dysmorphic syndrome without intellectual disability"
                     }
                 ]
             },
@@ -223,6 +223,27 @@
             }
         ],
         "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0009465",
+                    "HPOTerm": "Ulnar deviation of finger",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010557",
+                    "HPOTerm": "Overlapping fingers",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100490",
+                    "HPOTerm": "Camptodactyly of finger",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000160",
@@ -263,27 +284,6 @@
                     "HPOId": "HP:0003272",
                     "HPOTerm": "Abnormality of the hip bone",
                     "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0009465",
-                    "HPOTerm": "Ulnar deviation of finger",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0010557",
-                    "HPOTerm": "Overlapping fingers",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0100490",
-                    "HPOTerm": "Camptodactyly of finger",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             }
         ],

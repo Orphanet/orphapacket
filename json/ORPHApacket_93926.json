@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "93926",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "93926",
         "Label": "Midline interhemispheric variant of holoprosencephaly",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_93926",
@@ -45,14 +45,14 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "610829",
+                    "Reference": "609637",
                     "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "609637",
+                    "Reference": "610829",
                     "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
                 }
             }
@@ -62,27 +62,6 @@
             "Contents": "Midline interhemispheric variant of holoprosencephaly (MIH) or syntelencephaly is a form of holoprosencephaly (HPE) characterized by non-separation of the posterior frontal and parietal lobes normally-formed callosal genu and splenium absence of the callosal body normally-separated hypothalamus and lentiform nucleus and frequent heterotopic gray matter."
         },
         "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "STIL",
-                    "Name": "STIL centriolar assembly protein",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "STIL"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "10879"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "181590"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
             {
                 "Gene": {
                     "Symbol": "PTCH1",
@@ -131,16 +110,16 @@
                     "Name": "SIX homeobox 3",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "SIX3"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "10889"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "603714"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "SIX3"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -194,16 +173,16 @@
                     "Name": "GLI family zinc finger 2",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "GLI2"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "4318"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "165230"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "GLI2"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -215,16 +194,16 @@
                     "Name": "cripto, EGF-CFC family member",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "TDGF1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "11701"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "187395"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TDGF1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -253,9 +232,34 @@
             },
             {
                 "Gene": {
+                    "Symbol": "STIL",
+                    "Name": "STIL centriolar assembly protein",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "STIL"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "10879"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "181590"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
                     "Symbol": "FGF8",
                     "Name": "fibroblast growth factor 8",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "FGF8"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "3686"
@@ -263,10 +267,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "600483"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "FGF8"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -278,16 +278,16 @@
                     "Name": "dispatched RND transporter family member 1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "DISP1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "19711"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "607502"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "DISP1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -393,6 +393,244 @@
                 "Phenotype": {
                     "HPOId": "HP:0008936",
                     "HPOTerm": "Axial hypotonia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000871",
+                    "HPOTerm": "Panhypopituitarism",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000873",
+                    "HPOTerm": "Diabetes insipidus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000924",
+                    "HPOTerm": "Abnormality of the skeletal system",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001274",
+                    "HPOTerm": "Agenesis of corpus callosum",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001371",
+                    "HPOTerm": "Flexion contracture",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001627",
+                    "HPOTerm": "Abnormal heart morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002465",
+                    "HPOTerm": "Poor speech",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002650",
+                    "HPOTerm": "Scoliosis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002827",
+                    "HPOTerm": "Hip dislocation",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0006315",
+                    "HPOTerm": "Single median maxillary incisor",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0009914",
+                    "HPOTerm": "Cyclopia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0009932",
+                    "HPOTerm": "Single naris",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011471",
+                    "HPOTerm": "Gastrostomy tube feeding in infancy",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011787",
+                    "HPOTerm": "Central hypothyroidism",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012718",
+                    "HPOTerm": "Morphological abnormality of the gastrointestinal tract",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012806",
+                    "HPOTerm": "Proboscis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0031860",
+                    "HPOTerm": "Abnormal heart rate variability",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0040064",
+                    "HPOTerm": "Abnormality of limbs",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0006979",
+                    "HPOTerm": "Sleep-wake cycle disturbance",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007018",
+                    "HPOTerm": "Attention deficit hyperactivity disorder",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007301",
+                    "HPOTerm": "Oromotor apraxia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008947",
+                    "HPOTerm": "Floppy infant",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010654",
+                    "HPOTerm": "Aplasia of the falx cerebri",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011442",
+                    "HPOTerm": "Abnormality of central motor function",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011951",
+                    "HPOTerm": "Aspiration pneumonia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012285",
+                    "HPOTerm": "Abnormal hypothalamus physiology",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0040327",
+                    "HPOTerm": "Abnormal morphology of the olfactory bulb",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0045005",
+                    "HPOTerm": "Neural tube defect",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100704",
+                    "HPOTerm": "Cerebral visual impairment",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000119",
+                    "HPOTerm": "Abnormality of the genitourinary system",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000238",
+                    "HPOTerm": "Hydrocephalus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000256",
+                    "HPOTerm": "Macrocephaly",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000818",
+                    "HPOTerm": "Abnormality of the endocrine system",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000824",
+                    "HPOTerm": "Decreased response to growth hormone stimulation test",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -653,244 +891,6 @@
                     "HPOId": "HP:0006528",
                     "HPOTerm": "Chronic lung disease",
                     "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0006979",
-                    "HPOTerm": "Sleep-wake cycle disturbance",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0007018",
-                    "HPOTerm": "Attention deficit hyperactivity disorder",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0007301",
-                    "HPOTerm": "Oromotor apraxia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008947",
-                    "HPOTerm": "Floppy infant",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0010654",
-                    "HPOTerm": "Aplasia of the falx cerebri",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011442",
-                    "HPOTerm": "Abnormality of central motor function",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011951",
-                    "HPOTerm": "Aspiration pneumonia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012285",
-                    "HPOTerm": "Abnormal hypothalamus physiology",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0040327",
-                    "HPOTerm": "Abnormal morphology of the olfactory bulb",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0045005",
-                    "HPOTerm": "Neural tube defect",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0100704",
-                    "HPOTerm": "Cerebral visual impairment",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000119",
-                    "HPOTerm": "Abnormality of the genitourinary system",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000238",
-                    "HPOTerm": "Hydrocephalus",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000256",
-                    "HPOTerm": "Macrocephaly",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000818",
-                    "HPOTerm": "Abnormality of the endocrine system",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000824",
-                    "HPOTerm": "Decreased response to growth hormone stimulation test",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000871",
-                    "HPOTerm": "Panhypopituitarism",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000873",
-                    "HPOTerm": "Diabetes insipidus",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000924",
-                    "HPOTerm": "Abnormality of the skeletal system",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001274",
-                    "HPOTerm": "Agenesis of corpus callosum",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001371",
-                    "HPOTerm": "Flexion contracture",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001627",
-                    "HPOTerm": "Abnormal heart morphology",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002465",
-                    "HPOTerm": "Poor speech",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002650",
-                    "HPOTerm": "Scoliosis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002827",
-                    "HPOTerm": "Hip dislocation",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0006315",
-                    "HPOTerm": "Single median maxillary incisor",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0009914",
-                    "HPOTerm": "Cyclopia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0009932",
-                    "HPOTerm": "Single naris",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011471",
-                    "HPOTerm": "Gastrostomy tube feeding in infancy",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011787",
-                    "HPOTerm": "Central hypothyroidism",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012718",
-                    "HPOTerm": "Morphological abnormality of the gastrointestinal tract",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012806",
-                    "HPOTerm": "Proboscis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0031860",
-                    "HPOTerm": "Abnormal heart rate variability",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0040064",
-                    "HPOTerm": "Abnormality of limbs",
-                    "HPOFrequency": "Occasional (29-5%)"
                 }
             }
         ],

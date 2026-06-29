@@ -10,7 +10,16 @@ Orphapacket:
       value: Infancy
   Children:
   - Child:
-      Genes: no data
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '25784'
+            Source: HGNC
+          - Reference: '612515'
+            Source: OMIM
+          Label: DDB1 and CUL4 associated factor 17
+          Symbol: DCAF17
       Label: Woodhouse-Sakati syndrome
       ORPHAcode: '3464'
   - Child:
@@ -86,7 +95,7 @@ Orphapacket:
       ORPHAcode: '329284'
   - Child:
       Genes: no data
-      Label: PLA2G6-associated neurodegeneration
+      Label: PLA2G6-related neurodegeneration
       ORPHAcode: '329303'
   - Child:
       Genes:
@@ -137,11 +146,11 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_385
   Parents:
   - Parent:
-    - Label: Neurodegenerative disease with dementia
-      ORPHAcode: '98534'
-  - Parent:
     - Label: Neurometabolic disease
       ORPHAcode: '68385'
+  - Parent:
+    - Label: Neurodegenerative disease with dementia
+      ORPHAcode: '98534'
   - Parent:
     - Label: Miscellaneous movement disorder due to neurodegenerative disease
       ORPHAcode: '306695'
@@ -157,16 +166,20 @@ Orphapacket:
       PrevalenceGeographic: Europe
       PrevalenceQualification: Value and class
       PrevalenceType: Point prevalence
-      Source: '[EXPERT]_European Medicines Agency 2018[INST]'
+      Source: '[EXPERT]_European Medicines Agency 2018[OTHER]'
       ValMoy: '0.2'
   Synonyms:
   - Synonym: NBIA
   TextSection:
-    Contents: Neurodegeneration with brain iron accumulation (NBIA formerly Hallervorden-Spatz
-      syndrome) encompasses a group of rare neurodegenerative disorders characterized
-      by progressive extrapyramidal dysfunction (dystonia rigidity choreoathetosis)
-      iron accumulation in the brain and the presence of axonal spheroids usually
-      limited to the central nervous system.
+    Contents: A group of rare neurometabolic disease characterized by progressive
+      extrapyramidal dysfunction (including generalized or oromandibular dystonia
+      dysarthria Parkinsonism choreoathetosis) iron accumulation in the brain and
+      the presence of axonal spheroids usually limited to the central nervous system.
+      It encompasses several disorders that can be distinguised by MRI and patients
+      may present with variable clinical features including neuropathy spastic paraplegia
+      encephalopathy autism dementia diabetus mellitus retinitis pigmentosa optic
+      atrophy hypogonadism alopecia and deafness. The age at onset and rate of progression
+      are variable among individuals.
     TextSectionType: Definition
   TypeOfInheritances:
   - TypeOfInheritance:
@@ -175,6 +188,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

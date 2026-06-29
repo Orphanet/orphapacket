@@ -11,11 +11,6 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
-        used to represent it)
-      Reference: '303700'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
       Reference: '120970'
       Source: OMIM
@@ -28,6 +23,11 @@ Orphapacket:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '300834'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
+      Reference: '303700'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -73,21 +73,6 @@ Orphapacket:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '605549'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '619531'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '616170'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '618555'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -152,20 +137,52 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
+      Reference: '616170'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '616502'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618555'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '619531'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620342'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '621558'
       Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '10295'
+      - Reference: '13753'
         Source: HGNC
-      - Reference: '312610'
-        Source: OMIM
-      - Reference: RPGR
+      Name: fibronectin type III and SPRY domain containing 1 like
+      Symbol: FSD1L
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: ABCA4
         Source: ClinVar
-      Name: retinitis pigmentosa GTPase regulator
-      Symbol: RPGR
+      - Reference: '34'
+        Source: HGNC
+      - Reference: '601691'
+        Source: OMIM
+      Name: ATP binding cassette subfamily A member 4
+      Symbol: ABCA4
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -180,103 +197,6 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '1260'
-        Source: HGNC
-      - Reference: '603191'
-        Source: OMIM
-      Name: cilia and flagella associated protein 410
-      Symbol: CFAP410
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: PITPNM3
-        Source: ClinVar
-      - Reference: '21043'
-        Source: HGNC
-      - Reference: '608921'
-        Source: OMIM
-      Name: PITPNM family member 3
-      Symbol: PITPNM3
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '4206'
-        Source: HGNC
-      - Reference: '300821'
-        Source: OMIM
-      - Reference: OPN1MW
-        Source: ClinVar
-      Name: opsin 1, medium wave sensitive
-      Symbol: OPN1MW
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: CRX
-        Source: ClinVar
-      - Reference: '2383'
-        Source: HGNC
-      - Reference: '602225'
-        Source: OMIM
-      Name: cone-rod homeobox
-      Symbol: CRX
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: NMNAT1
-        Source: ClinVar
-      - Reference: '17877'
-        Source: HGNC
-      - Reference: '608700'
-        Source: OMIM
-      Name: nicotinamide nucleotide adenylyltransferase 1
-      Symbol: NMNAT1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '27232'
-        Source: HGNC
-      - Reference: '614477'
-        Source: OMIM
-      - Reference: C8orf37
-        Source: ClinVar
-      Name: cilia and flagella associated protein 418
-      Symbol: CFAP418
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '14550'
-        Source: HGNC
-      - Reference: '609502'
-        Source: OMIM
-      - Reference: CDHR1
-        Source: ClinVar
-      Name: cadherin related family member 1
-      Symbol: CDHR1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: MFSD8
-        Source: ClinVar
-      - Reference: '28486'
-        Source: HGNC
-      - Reference: '611124'
-        Source: OMIM
-      Name: major facilitator superfamily domain containing 8
-      Symbol: MFSD8
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '34'
-        Source: HGNC
-      - Reference: '601691'
-        Source: OMIM
-      - Reference: ABCA4
-        Source: ClinVar
-      Name: ATP binding cassette subfamily A member 4
-      Symbol: ABCA4
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: RIMS1
         Source: ClinVar
       - Reference: '17282'
@@ -288,23 +208,34 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: RPGR
+        Source: ClinVar
+      - Reference: '10295'
+        Source: HGNC
+      - Reference: '312610'
+        Source: OMIM
+      Name: retinitis pigmentosa GTPase regulator
+      Symbol: RPGR
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: RPGRIP1
+        Source: ClinVar
       - Reference: '13436'
         Source: HGNC
       - Reference: '605446'
         Source: OMIM
-      - Reference: RPGRIP1
-        Source: ClinVar
       Name: RPGR interacting protein 1
       Symbol: RPGRIP1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: CACNA1F
+        Source: ClinVar
       - Reference: '1393'
         Source: HGNC
       - Reference: '300110'
         Source: OMIM
-      - Reference: CACNA1F
-        Source: ClinVar
       Name: calcium voltage-gated channel subunit alpha1 F
       Symbol: CACNA1F
   - Gene:
@@ -318,6 +249,17 @@ Orphapacket:
         Source: OMIM
       Name: cyclic nucleotide gated channel subunit alpha 3
       Symbol: CNGA3
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: CRX
+        Source: ClinVar
+      - Reference: '2383'
+        Source: HGNC
+      - Reference: '602225'
+        Source: OMIM
+      Name: cone-rod homeobox
+      Symbol: CRX
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -354,12 +296,23 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: OPN1MW
+        Source: ClinVar
+      - Reference: '4206'
+        Source: HGNC
+      - Reference: '300821'
+        Source: OMIM
+      Name: opsin 1, medium wave sensitive
+      Symbol: OPN1MW
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: RAX2
+        Source: ClinVar
       - Reference: '18286'
         Source: HGNC
       - Reference: '610362'
         Source: OMIM
-      - Reference: RAX2
-        Source: ClinVar
       Name: retina and anterior neural fold homeobox 2
       Symbol: RAX2
   - Gene:
@@ -376,6 +329,17 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: MFSD8
+        Source: ClinVar
+      - Reference: '28486'
+        Source: HGNC
+      - Reference: '611124'
+        Source: OMIM
+      Name: major facilitator superfamily domain containing 8
+      Symbol: MFSD8
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
       - Reference: PROM1
         Source: ClinVar
       - Reference: '9454'
@@ -387,83 +351,147 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: CACNA2D4
+        Source: ClinVar
       - Reference: '20202'
         Source: HGNC
       - Reference: '608171'
         Source: OMIM
-      - Reference: CACNA2D4
-        Source: ClinVar
       Name: calcium voltage-gated channel auxiliary subunit alpha2delta 4
       Symbol: CACNA2D4
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '602713'
-        Source: OMIM
-      - Reference: '216'
+      - Reference: PITPNM3
+        Source: ClinVar
+      - Reference: '21043'
         Source: HGNC
+      - Reference: '608921'
+        Source: OMIM
+      Name: PITPNM family member 3
+      Symbol: PITPNM3
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
       - Reference: ADAM9
         Source: ClinVar
+      - Reference: '216'
+        Source: HGNC
+      - Reference: '602713'
+        Source: OMIM
       Name: ADAM metallopeptidase domain 9
       Symbol: ADAM9
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: UNC119
+        Source: ClinVar
       - Reference: '12565'
         Source: HGNC
       - Reference: '604011'
         Source: OMIM
-      - Reference: UNC119
-        Source: ClinVar
       Name: unc-119 lipid binding chaperone
       Symbol: UNC119
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: CDHR1
+        Source: ClinVar
+      - Reference: '14550'
+        Source: HGNC
+      - Reference: '609502'
+        Source: OMIM
+      Name: cadherin related family member 1
+      Symbol: CDHR1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: C8orf37
+        Source: ClinVar
+      - Reference: '27232'
+        Source: HGNC
+      - Reference: '614477'
+        Source: OMIM
+      Name: cilia and flagella associated protein 418
+      Symbol: CFAP418
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: NMNAT1
+        Source: ClinVar
+      - Reference: '17877'
+        Source: HGNC
+      - Reference: '608700'
+        Source: OMIM
+      Name: nicotinamide nucleotide adenylyltransferase 1
+      Symbol: NMNAT1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: RAB28
+        Source: ClinVar
       - Reference: '9768'
         Source: HGNC
       - Reference: '612994'
         Source: OMIM
-      - Reference: RAB28
-        Source: ClinVar
       Name: RAB28, member RAS oncogene family
       Symbol: RAB28
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: POC1B
+        Source: ClinVar
       - Reference: '30836'
         Source: HGNC
       - Reference: '614784'
         Source: OMIM
-      - Reference: POC1B
-        Source: ClinVar
       Name: POC1 centriolar protein B
       Symbol: POC1B
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: DRAM2
+        Source: ClinVar
       - Reference: '28769'
         Source: HGNC
       - Reference: '613360'
         Source: OMIM
-      - Reference: DRAM2
-        Source: ClinVar
       Name: DNA damage regulated autophagy modulator 2
       Symbol: DRAM2
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: ATF6
+        Source: ClinVar
+      - Reference: '791'
+        Source: HGNC
+      - Reference: '605537'
+        Source: OMIM
+      Name: activating transcription factor 6
+      Symbol: ATF6
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: TTLL5
+        Source: ClinVar
       - Reference: '19963'
         Source: HGNC
       - Reference: '612268'
         Source: OMIM
-      - Reference: TTLL5
-        Source: ClinVar
       Name: tubulin tyrosine ligase like 5
       Symbol: TTLL5
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '1260'
+        Source: HGNC
+      - Reference: '603191'
+        Source: OMIM
+      Name: cilia and flagella associated protein 410
+      Symbol: CFAP410
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
@@ -481,17 +509,6 @@ Orphapacket:
         Source: HGNC
       Name: ubiquitin associated protein 1 like
       Symbol: UBAP1L
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '791'
-        Source: HGNC
-      - Reference: '605537'
-        Source: OMIM
-      - Reference: ATF6
-        Source: ClinVar
-      Name: activating transcription factor 6
-      Symbol: ATF6
   Label: Cone rod dystrophy
   ORPHAcode: '1872'
   ORPHApacketId: '1872'
@@ -501,14 +518,11 @@ Orphapacket:
     - Label: Retinal ciliopathy due to mutation in the RPGR gene
       ORPHAcode: '156171'
   - Parent:
-    - Label: Rare genetic isolated progressive generalized retinal disorder
-      ORPHAcode: '717324'
-  - Parent:
     - Label: Retinal ciliopathy due to mutation in the RPGRIP gene
       ORPHAcode: '156174'
   - Parent:
-    - Label: Rare isolated progressive generalized retinal disorder
-      ORPHAcode: '716410'
+    - Label: Rare genetic isolated progressive generalized retinal disorder
+      ORPHAcode: '717324'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -592,6 +606,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "438178",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "438178",
         "Label": "Fatty acyl-CoA reductase 1 deficiency",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_438178",
@@ -13,10 +13,10 @@
         },
         "Synonyms": [
             {
-                "Synonym": "PFCRD"
+                "Synonym": "FAR1 deficiency"
             },
             {
-                "Synonym": "FAR1 deficiency"
+                "Synonym": "PFCRD"
             },
             {
                 "Synonym": "Peroxisomal fatty acyl-CoA reductase 1 disorder"
@@ -40,16 +40,16 @@
                     "Name": "fatty acyl-CoA reductase 1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "FAR1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "26222"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "616107"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "FAR1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -57,6 +57,30 @@
             }
         ],
         "Parents": [
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "68385",
+                        "Label": "Neurometabolic disease"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "611314",
+                        "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "3276",
+                        "Label": "Disorder of plasmalogens biosynthesis"
+                    }
+                ]
+            },
             {
                 "Parent": [
                     {
@@ -72,82 +96,9 @@
                         "Label": "Peroxisomal disease with epilepsy"
                     }
                 ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "68385",
-                        "Label": "Neurometabolic disease"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "3276",
-                        "Label": "Disorder of plasmalogens biosynthesis"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "611314",
-                        "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
-                    }
-                ]
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000253",
-                    "HPOTerm": "Progressive microcephaly",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001118",
-                    "HPOTerm": "Juvenile cataract",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001249",
-                    "HPOTerm": "Intellectual disability",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001250",
-                    "HPOTerm": "Seizure",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001263",
-                    "HPOTerm": "Global developmental delay",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001285",
-                    "HPOTerm": "Spastic tetraparesis",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001510",
-                    "HPOTerm": "Growth delay",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0001999",
@@ -251,6 +202,55 @@
                     "HPOId": "HP:0005280",
                     "HPOTerm": "Depressed nasal bridge",
                     "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000253",
+                    "HPOTerm": "Progressive microcephaly",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001118",
+                    "HPOTerm": "Juvenile cataract",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001249",
+                    "HPOTerm": "Intellectual disability",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001250",
+                    "HPOTerm": "Seizure",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001263",
+                    "HPOTerm": "Global developmental delay",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001285",
+                    "HPOTerm": "Spastic tetraparesis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001510",
+                    "HPOTerm": "Growth delay",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             }
         ],

@@ -14,12 +14,12 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '602247'
+      Reference: '144010'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '603813'
+      Reference: '602247'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -29,42 +29,20 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '144010'
+      Reference: '603813'
       Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: APOB
+        Source: ClinVar
       - Reference: '603'
         Source: HGNC
       - Reference: '107730'
         Source: OMIM
-      - Reference: APOB
-        Source: ClinVar
       Name: apolipoprotein B
       Symbol: APOB
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: LDLRAP1
-        Source: ClinVar
-      - Reference: '605747'
-        Source: OMIM
-      - Reference: '18640'
-        Source: HGNC
-      Name: low density lipoprotein receptor adaptor protein 1
-      Symbol: LDLRAP1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '20001'
-        Source: HGNC
-      - Reference: '607786'
-        Source: OMIM
-      - Reference: PCSK9
-        Source: ClinVar
-      Name: proprotein convertase subtilisin/kexin type 9
-      Symbol: PCSK9
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -76,6 +54,28 @@ Orphapacket:
         Source: OMIM
       Name: low density lipoprotein receptor
       Symbol: LDLR
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: LDLRAP1
+        Source: ClinVar
+      - Reference: '18640'
+        Source: HGNC
+      - Reference: '605747'
+        Source: OMIM
+      Name: low density lipoprotein receptor adaptor protein 1
+      Symbol: LDLRAP1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: PCSK9
+        Source: ClinVar
+      - Reference: '20001'
+        Source: HGNC
+      - Reference: '607786'
+        Source: OMIM
+      Name: proprotein convertase subtilisin/kexin type 9
+      Symbol: PCSK9
   Label: Homozygous familial hypercholesterolemia
   ORPHAcode: '391665'
   ORPHApacketId: '391665'
@@ -276,6 +276,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

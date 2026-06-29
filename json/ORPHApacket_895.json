@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "895",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "895",
         "Label": "Waardenburg syndrome type 2",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_895",
@@ -20,13 +20,6 @@
             }
         ],
         "ExternalReferences": [
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "619947",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
@@ -54,6 +47,13 @@
                     "Reference": "611584",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "619947",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -61,48 +61,6 @@
             "Contents": "An autosomal dominant subtype of Waardenburg syndrome (WS) characterized by varying degrees of deafness and pigmentation anomalies of eyes hair and skin but without dystopia canthorum."
         },
         "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "KITLG",
-                    "Name": "KIT ligand",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "6343"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "184745"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "KITLG"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "TYR",
-                    "Name": "tyrosinase",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "12442"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "606933"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TYR"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Modifying germline mutation in"
-                }
-            },
             {
                 "Gene": {
                     "Symbol": "SNAI2",
@@ -147,23 +105,23 @@
             },
             {
                 "Gene": {
-                    "Symbol": "MITF",
-                    "Name": "melanocyte inducing transcription factor",
+                    "Symbol": "TYR",
+                    "Name": "tyrosinase",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "TYR"
+                        },
+                        {
                             "Source": "HGNC",
-                            "Reference": "7105"
+                            "Reference": "12442"
                         },
                         {
                             "Source": "OMIM",
-                            "Reference": "156845"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "MITF"
+                            "Reference": "606933"
                         }
                     ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                    "DisorderGeneAssociationType": "Modifying germline mutation in"
                 }
             },
             {
@@ -172,19 +130,61 @@
                     "Name": "endothelin receptor type B",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "EDNRB"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "3180"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "131244"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "EDNRB"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "MITF",
+                    "Name": "melanocyte inducing transcription factor",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "MITF"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "7105"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "156845"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "KITLG",
+                    "Name": "KIT ligand",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "KITLG"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "6343"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "184745"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],

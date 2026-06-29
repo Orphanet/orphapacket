@@ -39,21 +39,21 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '9282'
-            Source: HGNC
-          - Reference: '600590'
-            Source: OMIM
-          Label: protein phosphatase 1 catalytic subunit beta
-          Symbol: PPP1CB
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
           - Reference: '15454'
             Source: HGNC
           - Reference: '602775'
             Source: OMIM
           Label: SHOC2 leucine rich repeat scaffold protein
           Symbol: SHOC2
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '9282'
+            Source: HGNC
+          - Reference: '600590'
+            Source: OMIM
+          Label: protein phosphatase 1 catalytic subunit beta
+          Symbol: PPP1CB
       Label: Noonan syndrome-like disorder with loose anagen hair
       ORPHAcode: '2701'
   - Child:
@@ -96,21 +96,21 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '21297'
-            Source: HGNC
-          - Reference: '614989'
-            Source: OMIM
-          Label: EPS8 signaling adaptor L3
-          Symbol: EPS8L3
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
           - Reference: '5172'
             Source: HGNC
           - Reference: '602302'
             Source: OMIM
           Label: HR lysine demethylase and nuclear receptor corepressor
           Symbol: HR
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '21297'
+            Source: HGNC
+          - Reference: '614989'
+            Source: OMIM
+          Label: EPS8 signaling adaptor L3
+          Symbol: EPS8L3
       Label: Marie Unna hereditary hypotrichosis
       ORPHAcode: '444'
   - Child:
@@ -118,12 +118,12 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '6708'
+          - Reference: '15520'
             Source: HGNC
-          - Reference: '600909'
+          - Reference: '609239'
             Source: OMIM
-          Label: lanosterol synthase
-          Symbol: LSS
+          Label: lysophosphatidic acid receptor 6
+          Symbol: LPAR6
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -133,6 +133,15 @@ Orphapacket:
             Source: OMIM
           Label: lipase H
           Symbol: LIPH
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '21307'
+            Source: HGNC
+          - Reference: '607892'
+            Source: OMIM
+          Label: desmoglein 4
+          Symbol: DSG4
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -163,21 +172,12 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '15520'
+          - Reference: '6708'
             Source: HGNC
-          - Reference: '609239'
+          - Reference: '600909'
             Source: OMIM
-          Label: lysophosphatidic acid receptor 6
-          Symbol: LPAR6
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '21307'
-            Source: HGNC
-          - Reference: '607892'
-            Source: OMIM
-          Label: desmoglein 4
-          Symbol: DSG4
+          Label: lanosterol synthase
+          Symbol: LSS
       Label: Hypotrichosis simplex
       ORPHAcode: '55654'
   - Child:
@@ -198,23 +198,36 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '28929'
-            Source: HGNC
-          - Reference: '608248'
-            Source: OMIM
-          Label: keratin 74
-          Symbol: KRT74
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
           - Reference: '1802'
             Source: HGNC
           - Reference: '602593'
             Source: OMIM
           Label: corneodesmosin
           Symbol: CDSN
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '28929'
+            Source: HGNC
+          - Reference: '608248'
+            Source: OMIM
+          Label: keratin 74
+          Symbol: KRT74
       Label: Hypotrichosis simplex of the scalp
       ORPHAcode: '90368'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '11344'
+            Source: HGNC
+          - Reference: '606797'
+            Source: OMIM
+          Label: ST14 transmembrane serine protease matriptase
+          Symbol: ST14
+      Label: Ichthyosis-hypotrichosis syndrome
+      ORPHAcode: '91132'
   - Child:
       Genes:
       - Gene:
@@ -289,16 +302,18 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
           ExternalReferences:
-          - Reference: '11344'
+          - Reference: '13051'
             Source: HGNC
-          - Reference: '606797'
+          - Reference: '603901'
             Source: OMIM
-          Label: ST14 transmembrane serine protease matriptase
-          Symbol: ST14
-      Label: Ichthyosis-hypotrichosis syndrome
-      ORPHAcode: '91132'
+          Label: ZPR1 zinc finger
+          Symbol: ZPR1
+      Label: Congenital generalized alopecia-hypoplastic kidneys-facial dysmorphism-sensorineural
+        deafness syndrome
+      ORPHAcode: '729781'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -310,6 +325,6 @@ Orphapacket:
   - Parent:
     - Label: Genetic hair anomaly
       ORPHAcode: '183450'
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

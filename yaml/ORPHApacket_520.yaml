@@ -19,23 +19,23 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences:
+      - Reference: PML
+        Source: ClinVar
       - Reference: '9113'
         Source: HGNC
       - Reference: '102578'
         Source: OMIM
-      - Reference: PML
-        Source: ClinVar
       Name: PML nuclear body scaffold
       Symbol: PML
   - Gene:
       DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences:
+      - Reference: PRKAR1A
+        Source: ClinVar
       - Reference: '9388'
         Source: HGNC
       - Reference: '188830'
         Source: OMIM
-      - Reference: PRKAR1A
-        Source: ClinVar
       Name: protein kinase cAMP-dependent type I regulatory subunit alpha
       Symbol: PRKAR1A
   - Gene:
@@ -52,12 +52,23 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences:
+      - Reference: BCOR
+        Source: ClinVar
+      - Reference: '20893'
+        Source: HGNC
+      - Reference: '300485'
+        Source: OMIM
+      Name: BCL6 corepressor
+      Symbol: BCOR
+  - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
+      ExternalReferences:
+      - Reference: STAT5B
+        Source: ClinVar
       - Reference: '11367'
         Source: HGNC
       - Reference: '604260'
         Source: OMIM
-      - Reference: STAT5B
-        Source: ClinVar
       Name: signal transducer and activator of transcription 5B
       Symbol: STAT5B
   - Gene:
@@ -74,12 +85,23 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences:
+      - Reference: STAT3
+        Source: ClinVar
+      - Reference: '11364'
+        Source: HGNC
+      - Reference: '102582'
+        Source: OMIM
+      Name: signal transducer and activator of transcription 3
+      Symbol: STAT3
+  - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
+      ExternalReferences:
+      - Reference: NPM1
+        Source: ClinVar
       - Reference: '7910'
         Source: HGNC
       - Reference: '164040'
         Source: OMIM
-      - Reference: NPM1
-        Source: ClinVar
       Name: nucleophosmin 1
       Symbol: NPM1
   - Gene:
@@ -96,34 +118,34 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences:
+      - Reference: ZBTB16
+        Source: ClinVar
       - Reference: '12930'
         Source: HGNC
       - Reference: '176797'
         Source: OMIM
-      - Reference: ZBTB16
-        Source: ClinVar
       Name: zinc finger and BTB domain containing 16
       Symbol: ZBTB16
   - Gene:
       DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences:
+      - Reference: NUMA1
+        Source: ClinVar
       - Reference: '8059'
         Source: HGNC
       - Reference: '164009'
         Source: OMIM
-      - Reference: NUMA1
-        Source: ClinVar
       Name: nuclear mitotic apparatus protein 1
       Symbol: NUMA1
   - Gene:
       DisorderGeneAssociationType: Part of a fusion gene in
       ExternalReferences:
+      - Reference: TBL1XR1
+        Source: ClinVar
       - Reference: '29529'
         Source: HGNC
       - Reference: '608628'
         Source: OMIM
-      - Reference: TBL1XR1
-        Source: ClinVar
       Name: TBL1X/Y related 1
       Symbol: TBL1XR1
   - Gene:
@@ -135,28 +157,6 @@ Orphapacket:
         Source: OMIM
       Name: interferon regulatory factor 2 binding protein 2
       Symbol: IRF2BP2
-  - Gene:
-      DisorderGeneAssociationType: Part of a fusion gene in
-      ExternalReferences:
-      - Reference: '11364'
-        Source: HGNC
-      - Reference: '102582'
-        Source: OMIM
-      - Reference: STAT3
-        Source: ClinVar
-      Name: signal transducer and activator of transcription 3
-      Symbol: STAT3
-  - Gene:
-      DisorderGeneAssociationType: Part of a fusion gene in
-      ExternalReferences:
-      - Reference: BCOR
-        Source: ClinVar
-      - Reference: '20893'
-        Source: HGNC
-      - Reference: '300485'
-        Source: OMIM
-      Name: BCL6 corepressor
-      Symbol: BCOR
   Label: Acute promyelocytic leukemia
   ORPHAcode: '520'
   ORPHApacketId: '520'
@@ -166,6 +166,74 @@ Orphapacket:
     - Label: Acute myeloid leukemia with recurrent genetic anomaly
       ORPHAcode: '98277'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0031035
+      HPOTerm: Chronic infection
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0031364
+      HPOTerm: Ecchymosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000212
+      HPOTerm: Gingival overgrowth
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001875
+      HPOTerm: Decreased total neutrophil count
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001974
+      HPOTerm: Increased total leukocyte count
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002027
+      HPOTerm: Abdominal pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002653
+      HPOTerm: Bone pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002716
+      HPOTerm: Lymphadenopathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010280
+      HPOTerm: Stomatitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011900
+      HPOTerm: Hypofibrinogenemia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025420
+      HPOTerm: Diffuse alveolar hemorrhage
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030140
+      HPOTerm: Oral cavity bleeding
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030955
+      HPOTerm: Alcoholism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0031245
+      HPOTerm: Productive cough
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000790
+      HPOTerm: Hematuria
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0100608
+      HPOTerm: Metrorrhagia
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0100758
+      HPOTerm: Gangrene
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000225
@@ -242,74 +310,6 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0031020
       HPOTerm: Bone marrow hypercellularity
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0031035
-      HPOTerm: Chronic infection
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0031364
-      HPOTerm: Ecchymosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000212
-      HPOTerm: Gingival overgrowth
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001875
-      HPOTerm: Decreased total neutrophil count
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001974
-      HPOTerm: Leukocytosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002027
-      HPOTerm: Abdominal pain
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002653
-      HPOTerm: Bone pain
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002716
-      HPOTerm: Lymphadenopathy
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0010280
-      HPOTerm: Stomatitis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011900
-      HPOTerm: Hypofibrinogenemia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0025420
-      HPOTerm: Diffuse alveolar hemorrhage
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0030140
-      HPOTerm: Oral cavity bleeding
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0030955
-      HPOTerm: Alcoholism
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0031245
-      HPOTerm: Productive cough
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000790
-      HPOTerm: Hematuria
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0100608
-      HPOTerm: Metrorrhagia
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0100758
-      HPOTerm: Gangrene
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
@@ -323,14 +323,14 @@ Orphapacket:
       PrevalenceGeographic: Europe
       PrevalenceQualification: Value and class
       PrevalenceType: Annual incidence
-      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      Source: RARECARE surveillance of rare cancers in Europe[OTHER]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
       PrevalenceGeographic: France
       PrevalenceQualification: Value and class
       PrevalenceType: Annual incidence
-      Source: Institut National du Cancer 2013[INST]
+      Source: OTHERitut National du Cancer 2013[OTHER]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: Unknown
@@ -342,9 +342,9 @@ Orphapacket:
   Synonyms:
   - Synonym: AML M3
   - Synonym: AML with t(15;17)(q22;q12);(PML/RARalpha) and variants
-  - Synonym: Acute myeloid leukemia with t(15;17)(q22;q12);(PML/RARalpha) and variants
-  - Synonym: Acute myeloblastic leukemia 3
   - Synonym: APML
+  - Synonym: Acute myeloblastic leukemia 3
+  - Synonym: Acute myeloid leukemia with t(15;17)(q22;q12);(PML/RARalpha) and variants
   TextSection:
     Contents: An aggressive form of acute myeloid leukemia (AML) characterized by
       arrest of leukocyte differentiation at the promyelocyte stage due to a specific
@@ -354,6 +354,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

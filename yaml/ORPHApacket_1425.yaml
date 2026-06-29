@@ -11,11 +11,6 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '618870'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
       Reference: '251450'
       Source: OMIM
   - ExternalReference:
@@ -23,26 +18,22 @@ Orphapacket:
         to represent it)
       Reference: '615777'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618870'
+      Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '616615'
-        Source: OMIM
-      - Reference: '24290'
-        Source: HGNC
-      Name: chondroitin sulfate N-acetylgalactosaminyltransferase 1
-      Symbol: CSGALNACT1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: CANT1
+        Source: ClinVar
       - Reference: '19721'
         Source: HGNC
       - Reference: '613165'
         Source: OMIM
-      - Reference: CANT1
-        Source: ClinVar
       Name: calcium activated nucleotidase 1
       Symbol: CANT1
   - Gene:
@@ -57,20 +48,29 @@ Orphapacket:
         Source: OMIM
       Name: xylosyltransferase 1
       Symbol: XYLT1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '24290'
+        Source: HGNC
+      - Reference: '616615'
+        Source: OMIM
+      Name: chondroitin sulfate N-acetylgalactosaminyltransferase 1
+      Symbol: CSGALNACT1
   Label: Desbuquois syndrome
   ORPHAcode: '1425'
   ORPHApacketId: '1425'
   PURL: http://www.orpha.net/ORDO/Orphanet_1425
   Parents:
   - Parent:
-    - Label: Rare disease with glaucoma as a major feature
-      ORPHAcode: '98638'
-  - Parent:
     - Label: Primary bone dysplasia with multiple joint dislocations
       ORPHAcode: '93441'
   - Parent:
     - Label: Rare developmental defect with connective tissue involvement
       ORPHAcode: '139030'
+  - Parent:
+    - Label: Rare disease with glaucoma as a major feature
+      ORPHAcode: '98638'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -204,8 +204,8 @@ Orphapacket:
       Source: ORPHANET
       ValMoy: no data
   Synonyms:
-  - Synonym: Desbuquois dysplasia
   - Synonym: DBQD
+  - Synonym: Desbuquois dysplasia
   TextSection:
     Contents: Desbuquois syndrome (DBQD) is an osteochondrodysplasia characterized
       by severe micromelic dwarfism facial dysmorphism joint laxity with multiple
@@ -218,6 +218,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

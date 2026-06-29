@@ -4,12 +4,40 @@ Orphapacket:
       value: Antenatal
   - AverageAgeOfOnset:
       value: Neonatal
+  Children:
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '3519'
+            Source: HGNC
+          - Reference: '601653'
+            Source: OMIM
+          Label: EYA transcriptional coactivator and phosphatase 1
+          Symbol: EYA1
+      Label: Otofaciocervical syndrome without thymic hypoplasia
+      ORPHAcode: '720341'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '8615'
+            Source: HGNC
+          - Reference: '167411'
+            Source: OMIM
+          Label: paired box 1
+          Symbol: PAX1
+      Label: Otofaciocervical syndrome with thymic hypoplasia
+      ORPHAcode: '720357'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
     value: Malformation syndrome
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '166780'
       Source: OMIM
   - ExternalReference:
@@ -17,40 +45,17 @@ Orphapacket:
         to represent it)
       Reference: '615560'
       Source: OMIM
-  Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: EYA1
-        Source: ClinVar
-      - Reference: '3519'
-        Source: HGNC
-      - Reference: '601653'
-        Source: OMIM
-      Name: EYA transcriptional coactivator and phosphatase 1
-      Symbol: EYA1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: PAX1
-        Source: ClinVar
-      - Reference: '8615'
-        Source: HGNC
-      - Reference: '167411'
-        Source: OMIM
-      Name: paired box 1
-      Symbol: PAX1
   Label: Otofaciocervical syndrome
   ORPHAcode: '2792'
   ORPHApacketId: '2792'
   PURL: http://www.orpha.net/ORDO/Orphanet_2792
   Parents:
   - Parent:
-    - Label: Branchial arch or oral-acral syndrome
-      ORPHAcode: '139036'
-  - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
+  - Parent:
+    - Label: Branchial arch or oral-acral syndrome
+      ORPHAcode: '139036'
   - Parent:
     - Label: Genetic branchial arch or oral-acral syndrome
       ORPHAcode: '183576'
@@ -186,6 +191,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

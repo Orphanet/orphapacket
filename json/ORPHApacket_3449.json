@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "3449",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "3449",
         "Label": "Weill-Marchesani syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_3449",
@@ -29,14 +29,14 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "614819",
+                    "Reference": "613195",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "613195",
+                    "Reference": "614819",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
@@ -46,27 +46,6 @@
             "Contents": "A rare connective tissue disorder characterized by acromelic short stature joint stiffness stiff and thick skin and characteristic eye abnormalities including microspherophakia ectopia lentis severe myopia and glaucoma."
         },
         "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "ADAMTS17",
-                    "Name": "ADAM metallopeptidase with thrombospondin type 1 motif 17",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "17109"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "607511"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "ADAMTS17"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
-                }
-            },
             {
                 "Gene": {
                     "Symbol": "ADAMTS10",
@@ -129,9 +108,38 @@
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
+            },
+            {
+                "Gene": {
+                    "Symbol": "ADAMTS17",
+                    "Name": "ADAM metallopeptidase with thrombospondin type 1 motif 17",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "ADAMTS17"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "17109"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "607511"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                }
             }
         ],
         "Parents": [
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "93436",
+                        "Label": "Acromelic dysplasia"
+                    }
+                ]
+            },
             {
                 "Parent": [
                     {
@@ -143,8 +151,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "93436",
-                        "Label": "Acromelic dysplasia"
+                        "ORPHAcode": "519292",
+                        "Label": "Syndromic ectopia lentis"
                     }
                 ]
             },
@@ -159,8 +167,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "519292",
-                        "Label": "Syndromic ectopia lentis"
+                        "ORPHAcode": "330206",
+                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual disability"
                     }
                 ]
             },
@@ -177,14 +185,6 @@
                     {
                         "ORPHAcode": "522554",
                         "Label": "Syndromic genetic ectopia lentis"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "330206",
-                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual disability"
                     }
                 ]
             }
@@ -351,6 +351,11 @@
             ]
         },
         "AverageAgeOfOnsets": [
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Childhood"
+                }
+            },
             {
                 "AverageAgeOfOnset": {
                     "value": "Infancy"

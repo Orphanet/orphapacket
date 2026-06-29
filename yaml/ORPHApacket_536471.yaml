@@ -21,6 +21,19 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '20859'
+            Source: HGNC
+          - Reference: '608735'
+            Source: OMIM
+          Label: solute carrier family 39 member 13
+          Symbol: SLC39A13
+      Label: SLC39A13-related spondylodysplastic Ehlers-Danlos syndrome
+      ORPHAcode: '157965'
+  - Child:
+      Genes:
+      - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
             of function) in
           ExternalReferences:
@@ -32,28 +45,10 @@ Orphapacket:
           Symbol: B3GALT6
       Label: B3GALT6-related spondylodysplastic Ehlers-Danlos syndrome
       ORPHAcode: '536467'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '20859'
-            Source: HGNC
-          - Reference: '608735'
-            Source: OMIM
-          Label: solute carrier family 39 member 13
-          Symbol: SLC39A13
-      Label: SLC39A13-related spondylodysplastic Ehlers-Danlos syndrome
-      ORPHAcode: '157965'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
   ExternalReferences:
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '615349'
-      Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
@@ -63,6 +58,11 @@ Orphapacket:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '612350'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '615349'
       Source: OMIM
   Label: Spondylodysplastic Ehlers-Danlos syndrome
   ORPHAcode: '536471'
@@ -80,7 +80,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002761
-      HPOTerm: Generalized joint laxity
+      HPOTerm: Generalized joint hypermobility
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000164
@@ -509,8 +509,8 @@ Orphapacket:
       Source: 29931299[PMID]_26940150[PMID]_18513683[PMID]_18985159[PMID]
       ValMoy: no data
   Synonyms:
-  - Synonym: spEDS
   - Synonym: Spondylodysplastic EDS
+  - Synonym: spEDS
   TextSection:
     Contents: A rare connective tissue disorder for which three subtypes exist either
       related to the gene <i>B4GALT7</i> <i>B3GALT6</i> or <i>SLC39A13</i> and for
@@ -521,6 +521,9 @@ Orphapacket:
       delayed motor development and bowing of the limbs. Gene-specific features with
       variable presentation are additionally observed in each subtype.
     TextSectionType: Definition
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

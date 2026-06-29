@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "90368",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "90368",
         "Label": "Hypotrichosis simplex of the scalp",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_90368",
@@ -20,14 +20,14 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "613981",
+                    "Reference": "146520",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "146520",
+                    "Reference": "613981",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
@@ -39,30 +39,13 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "KRT74",
-                    "Name": "keratin 74",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "28929"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "608248"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "KRT74"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "CDSN",
                     "Name": "corneodesmosin",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "CDSN"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "1802"
@@ -70,10 +53,27 @@
                         {
                             "Source": "OMIM",
                             "Reference": "602593"
-                        },
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "KRT74",
+                    "Name": "keratin 74",
+                    "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "CDSN"
+                            "Reference": "KRT74"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "28929"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "608248"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -101,23 +101,58 @@
         "Phenotypes": [
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002213",
-                    "HPOTerm": "Fine hair",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0000499",
+                    "HPOTerm": "Abnormal eyelash morphology",
+                    "HPOFrequency": "Excluded (0%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0100038",
-                    "HPOTerm": "Slow-growing scalp hair",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0000534",
+                    "HPOTerm": "Abnormal eyebrow morphology",
+                    "HPOFrequency": "Excluded (0%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000962",
-                    "HPOTerm": "Hyperkeratosis",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0001597",
+                    "HPOTerm": "Abnormal nail morphology",
+                    "HPOFrequency": "Excluded (0%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002550",
+                    "HPOTerm": "Absent facial hair",
+                    "HPOFrequency": "Excluded (0%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004528",
+                    "HPOTerm": "Generalized hypotrichosis",
+                    "HPOFrequency": "Excluded (0%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007550",
+                    "HPOTerm": "Hypohidrosis or hyperhidrosis",
+                    "HPOFrequency": "Excluded (0%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100133",
+                    "HPOTerm": "Abnormality of the pubic hair",
+                    "HPOFrequency": "Excluded (0%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100134",
+                    "HPOTerm": "Abnormality of the axillary hair",
+                    "HPOFrequency": "Excluded (0%)"
                 }
             },
             {
@@ -172,7 +207,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0003212",
-                    "HPOTerm": "Increased circulating IgE level",
+                    "HPOTerm": "Increased circulating IgE concentration",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
@@ -192,58 +227,23 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000499",
-                    "HPOTerm": "Abnormal eyelash morphology",
-                    "HPOFrequency": "Excluded (0%)"
+                    "HPOId": "HP:0002213",
+                    "HPOTerm": "Fine hair",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000534",
-                    "HPOTerm": "Abnormal eyebrow morphology",
-                    "HPOFrequency": "Excluded (0%)"
+                    "HPOId": "HP:0100038",
+                    "HPOTerm": "Slow-growing scalp hair",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001597",
-                    "HPOTerm": "Abnormality of the nail",
-                    "HPOFrequency": "Excluded (0%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002550",
-                    "HPOTerm": "Absent facial hair",
-                    "HPOFrequency": "Excluded (0%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004528",
-                    "HPOTerm": "Generalized hypotrichosis",
-                    "HPOFrequency": "Excluded (0%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0007550",
-                    "HPOTerm": "Hypohidrosis or hyperhidrosis",
-                    "HPOFrequency": "Excluded (0%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0100133",
-                    "HPOTerm": "Abnormality of the pubic hair",
-                    "HPOFrequency": "Excluded (0%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0100134",
-                    "HPOTerm": "Abnormality of the axillary hair",
-                    "HPOFrequency": "Excluded (0%)"
+                    "HPOId": "HP:0000962",
+                    "HPOTerm": "Hyperkeratosis",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             }
         ],

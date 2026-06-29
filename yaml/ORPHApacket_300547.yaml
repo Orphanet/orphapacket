@@ -11,14 +11,26 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '616963'
+      Reference: '143880'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '143880'
+      Reference: '616963'
       Source: OMIM
   Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: SLC34A1
+        Source: ClinVar
+      - Reference: '11019'
+        Source: HGNC
+      - Reference: '182309'
+        Source: OMIM
+      Name: solute carrier family 34 member 1
+      Symbol: SLC34A1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
@@ -31,32 +43,20 @@ Orphapacket:
         Source: OMIM
       Name: cytochrome P450 family 24 subfamily A member 1
       Symbol: CYP24A1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '11019'
-        Source: HGNC
-      - Reference: '182309'
-        Source: OMIM
-      - Reference: SLC34A1
-        Source: ClinVar
-      Name: solute carrier family 34 member 1
-      Symbol: SLC34A1
   Label: Autosomal recessive infantile hypercalcemia
   ORPHAcode: '300547'
   ORPHApacketId: '300547'
   PURL: http://www.orpha.net/ORDO/Orphanet_300547
   Parents:
   - Parent:
+    - Label: Rare parathyroid disease and phosphocalcic metabolism anomaly
+      ORPHAcode: '68415'
+  - Parent:
     - Label: Nephropathy secondary to a storage or other metabolic disease
       ORPHAcode: '93593'
   - Parent:
     - Label: Rare genetic parathyroid disease and phosphocalcic metabolism disorder
       ORPHAcode: '183634'
-  - Parent:
-    - Label: Rare parathyroid disease and phosphocalcic metabolism anomaly
-      ORPHAcode: '68415'
   - Parent:
     - Label: Rare disorder potentially indicated for kidney transplant
       ORPHAcode: '506213'
@@ -77,9 +77,9 @@ Orphapacket:
       ValMoy: no data
   Synonyms:
   - Synonym: Familial infantile hypercalcemia with suppressed intact parathyroid hormone
-  - Synonym: Infantile hypercalcaemia type 1
   - Synonym: IIH
   - Synonym: Idiopathic infantile hypercalcemia
+  - Synonym: Infantile hypercalcaemia type 1
   TextSection:
     Contents: A rare genetic phosphocalcic metabolism disorder characterized by early-onset
       hypercalcemia hypophosphatemia hypercalciuria decreased intact parathyroid hormone
@@ -89,6 +89,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

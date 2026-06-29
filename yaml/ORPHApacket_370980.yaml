@@ -46,10 +46,10 @@ Orphapacket:
       ExternalReferences:
       - Reference: FKRP
         Source: ClinVar
-      - Reference: '606596'
-        Source: OMIM
       - Reference: '17997'
         Source: HGNC
+      - Reference: '606596'
+        Source: OMIM
       Name: fukutin related protein
       Symbol: FKRP
   - Gene:
@@ -58,10 +58,10 @@ Orphapacket:
       ExternalReferences:
       - Reference: ISPD
         Source: ClinVar
-      - Reference: '614631'
-        Source: OMIM
       - Reference: '37276'
         Source: HGNC
+      - Reference: '614631'
+        Source: OMIM
       Name: CDP-L-ribitol pyrophosphorylase A
       Symbol: CRPPA
   Label: Congenital muscular dystrophy without intellectual disability
@@ -70,51 +70,15 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_370980
   Parents:
   - Parent:
+    - Label: Disorder of O-mannosylglycan synthesis
+      ORPHAcode: '309469'
+  - Parent:
     - Label: Congenital muscular dystrophy due to dystroglycanopathy
       ORPHAcode: '370953'
   - Parent:
     - Label: Congenital disorder of glycosylation with neurological involvement
       ORPHAcode: '371047'
-  - Parent:
-    - Label: Disorder of O-mannosylglycan synthesis
-      ORPHAcode: '309469'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003560
-      HPOTerm: Muscular dystrophy
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001270
-      HPOTerm: Motor delay
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001272
-      HPOTerm: Cerebellar atrophy
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001288
-      HPOTerm: Gait disturbance
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001290
-      HPOTerm: Generalized hypotonia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001319
-      HPOTerm: Neonatal hypotonia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001349
-      HPOTerm: Facial diplegia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001771
-      HPOTerm: Achilles tendon contracture
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002359
-      HPOTerm: Frequent falls
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002500
@@ -187,6 +151,42 @@ Orphapacket:
       HPOFrequency: Excluded (0%)
       HPOId: HP:0001249
       HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003560
+      HPOTerm: Muscular dystrophy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001270
+      HPOTerm: Motor delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001272
+      HPOTerm: Cerebellar atrophy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001288
+      HPOTerm: Gait disturbance
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001290
+      HPOTerm: Generalized hypotonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001319
+      HPOTerm: Neonatal hypotonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001349
+      HPOTerm: Facial diplegia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001771
+      HPOTerm: Achilles tendon contracture
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002359
+      HPOTerm: Frequent falls
   Prevalences:
   - Prevalence:
       PrevalenceClass: Unknown
@@ -203,10 +203,10 @@ Orphapacket:
       Source: ORPHANET
       ValMoy: no data
   Synonyms:
-  - Synonym: Congenital muscular dystrophy-dystroglycanopathy without intellectual
-      disability
   - Synonym: CMD without intellectual disability
   - Synonym: CMD-no MR
+  - Synonym: Congenital muscular dystrophy-dystroglycanopathy without intellectual
+      disability
   TextSection:
     Contents: A rare genetic congenital muscular dystrophy due to dystroglycanopathy
       characterized by a wide phenotypic spectrum which includes hypotonia and muscular
@@ -219,6 +219,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

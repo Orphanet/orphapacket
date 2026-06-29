@@ -22,8 +22,8 @@ Orphapacket:
       Reference: '601539'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
       Reference: '614863'
       Source: OMIM
   - ExternalReference:
@@ -76,23 +76,23 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PEX1
+        Source: ClinVar
       - Reference: '8850'
         Source: HGNC
       - Reference: '602136'
         Source: OMIM
-      - Reference: PEX1
-        Source: ClinVar
       Name: peroxisomal biogenesis factor 1
       Symbol: PEX1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PEX10
+        Source: ClinVar
       - Reference: '8851'
         Source: HGNC
       - Reference: '602859'
         Source: OMIM
-      - Reference: PEX10
-        Source: ClinVar
       Name: peroxisomal biogenesis factor 10
       Symbol: PEX10
   - Gene:
@@ -109,100 +109,100 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '601789'
-        Source: OMIM
-      - Reference: '8855'
-        Source: HGNC
       - Reference: PEX13
         Source: ClinVar
+      - Reference: '8855'
+        Source: HGNC
+      - Reference: '601789'
+        Source: OMIM
       Name: peroxisomal biogenesis factor 13
       Symbol: PEX13
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PEX14
+        Source: ClinVar
       - Reference: '8856'
         Source: HGNC
       - Reference: '601791'
         Source: OMIM
-      - Reference: PEX14
-        Source: ClinVar
       Name: peroxisomal biogenesis factor 14
       Symbol: PEX14
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PEX16
+        Source: ClinVar
       - Reference: '8857'
         Source: HGNC
       - Reference: '603360'
         Source: OMIM
-      - Reference: PEX16
-        Source: ClinVar
       Name: peroxisomal biogenesis factor 16
       Symbol: PEX16
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PEX19
+        Source: ClinVar
       - Reference: '9713'
         Source: HGNC
       - Reference: '600279'
         Source: OMIM
-      - Reference: PEX19
-        Source: ClinVar
       Name: peroxisomal biogenesis factor 19
       Symbol: PEX19
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PEX26
+        Source: ClinVar
       - Reference: '22965'
         Source: HGNC
       - Reference: '608666'
         Source: OMIM
-      - Reference: PEX26
-        Source: ClinVar
       Name: peroxisomal biogenesis factor 26
       Symbol: PEX26
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PEX3
+        Source: ClinVar
       - Reference: '8858'
         Source: HGNC
       - Reference: '603164'
         Source: OMIM
-      - Reference: PEX3
-        Source: ClinVar
       Name: peroxisomal biogenesis factor 3
       Symbol: PEX3
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PEX5
+        Source: ClinVar
       - Reference: '9719'
         Source: HGNC
       - Reference: '600414'
         Source: OMIM
-      - Reference: PEX5
-        Source: ClinVar
       Name: peroxisomal biogenesis factor 5
       Symbol: PEX5
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PEX6
+        Source: ClinVar
       - Reference: '8859'
         Source: HGNC
       - Reference: '601498'
         Source: OMIM
-      - Reference: PEX6
-        Source: ClinVar
       Name: peroxisomal biogenesis factor 6
       Symbol: PEX6
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PEX11B
+        Source: ClinVar
       - Reference: '8853'
         Source: HGNC
       - Reference: '603867'
         Source: OMIM
-      - Reference: PEX11B
-        Source: ClinVar
       Name: peroxisomal biogenesis factor 11 beta
       Symbol: PEX11B
   Label: Infantile Refsum disease
@@ -211,14 +211,14 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_772
   Parents:
   - Parent:
-    - Label: Developmental anomaly of metabolic origin
-      ORPHAcode: '139009'
+    - Label: Peroxisome biogenesis disorder
+      ORPHAcode: '79189'
   - Parent:
     - Label: Autosomal recessive metabolic cerebellar ataxia
       ORPHAcode: '98096'
   - Parent:
-    - Label: Peroxisome biogenesis disorder
-      ORPHAcode: '79189'
+    - Label: Developmental anomaly of metabolic origin
+      ORPHAcode: '139009'
   - Parent:
     - Label: Peroxisomal disease with epilepsy
       ORPHAcode: '225686'
@@ -341,8 +341,8 @@ Orphapacket:
       ValMoy: '0.0'
   Synonyms:
   - Synonym: IRD
-  - Synonym: Mild peroxisome biogenesis disorder-Zellweger spectrum disorder
   - Synonym: Mild PBD-ZSD
+  - Synonym: Mild peroxisome biogenesis disorder-Zellweger spectrum disorder
   TextSection:
     Contents: Infantile Refsum disease (IRD) is the mildest variant of the peroxisome
       biogenesis disorders Zellweger syndrome spectrum (PBD- ZSS) characterized by
@@ -353,6 +353,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

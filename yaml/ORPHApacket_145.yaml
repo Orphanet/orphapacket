@@ -38,14 +38,37 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: BRCA1
+        Source: ClinVar
+      - Reference: '1100'
+        Source: HGNC
+      - Reference: '113705'
+        Source: OMIM
+      Name: BRCA1 DNA repair associated
+      Symbol: BRCA1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: BRCA2
+        Source: ClinVar
       - Reference: '1101'
         Source: HGNC
       - Reference: '600185'
         Source: OMIM
-      - Reference: BRCA2
-        Source: ClinVar
       Name: BRCA2 DNA repair associated
       Symbol: BRCA2
+  - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
+      ExternalReferences:
+      - Reference: ATM
+        Source: ClinVar
+      - Reference: '795'
+        Source: HGNC
+      - Reference: '607585'
+        Source: OMIM
+      Name: ATM serine/threonine kinase
+      Symbol: ATM
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -60,37 +83,14 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: RAD51D
+        Source: ClinVar
       - Reference: '9823'
         Source: HGNC
       - Reference: '602954'
         Source: OMIM
-      - Reference: RAD51D
-        Source: ClinVar
       Name: RAD51 paralog D
       Symbol: RAD51D
-  - Gene:
-      DisorderGeneAssociationType: Major susceptibility factor in
-      ExternalReferences:
-      - Reference: ATM
-        Source: ClinVar
-      - Reference: '795'
-        Source: HGNC
-      - Reference: '607585'
-        Source: OMIM
-      Name: ATM serine/threonine kinase
-      Symbol: ATM
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '1100'
-        Source: HGNC
-      - Reference: '113705'
-        Source: OMIM
-      - Reference: BRCA1
-        Source: ClinVar
-      Name: BRCA1 DNA repair associated
-      Symbol: BRCA1
   Label: Hereditary breast and/or ovarian cancer syndrome
   ORPHAcode: '145'
   ORPHApacketId: '145'
@@ -99,6 +99,9 @@ Orphapacket:
   - Parent:
     - Label: Rare malignant breast tumor
       ORPHAcode: '180257'
+  - Parent:
+    - Label: Inherited cancer-predisposing syndrome
+      ORPHAcode: '140162'
   - Parent:
     - Label: Rare genetic gynecological and obstetrical diseases
       ORPHAcode: '183731'
@@ -150,6 +153,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -5,19 +5,6 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '29678'
-            Source: HGNC
-          - Reference: '617619'
-            Source: OMIM
-          Label: misato mitochondrial distribution and morphology regulator 1
-          Symbol: MSTO1
-      Label: Mitochondrial myopathy-cerebellar ataxia-pigmentary retinopathy syndrome
-      ORPHAcode: '502423'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
           - Reference: '17296'
             Source: HGNC
           - Reference: '604712'
@@ -129,15 +116,6 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '7494'
-            Source: HGNC
-          - Reference: '590075'
-            Source: OMIM
-          Label: mitochondrially encoded tRNA-Pro (CCN)
-          Symbol: MT-TP
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
           - Reference: '7461'
             Source: HGNC
           - Reference: '516005'
@@ -190,48 +168,27 @@ Orphapacket:
             Source: OMIM
           Label: mitochondrially encoded tRNA-Phe (UUU/C)
           Symbol: MT-TF
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '7494'
+            Source: HGNC
+          - Reference: '590075'
+            Source: OMIM
+          Label: mitochondrially encoded tRNA-Pro (CCN)
+          Symbol: MT-TP
       Label: MERRF
       ORPHAcode: '551'
   - Child:
       Genes:
       - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
-            of function) in
-          ExternalReferences:
-          - Reference: '615533'
-            Source: OMIM
-          - Reference: '30883'
-            Source: HGNC
-          Label: transmembrane protein 126B
-          Symbol: TMEM126B
-      - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '33551'
-            Source: HGNC
-          - Reference: '618461'
-            Source: OMIM
-          Label: NADH:ubiquinone oxidoreductase complex assembly factor 8
-          Symbol: NDUFAF8
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
-            of function) in
-          ExternalReferences:
-          - Reference: '615534'
-            Source: OMIM
-          - Reference: '1321'
-            Source: HGNC
-          Label: translocase of inner mitochondrial membrane domain containing 1
-          Symbol: TIMMDC1
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '602138'
-            Source: OMIM
-          - Reference: '7690'
-            Source: HGNC
-          Label: NADH:ubiquinone oxidoreductase subunit A6
-          Symbol: NDUFA6
+          - ExternalReference:
+              Reference: '7693'
+              Source: HGNC
+          Label: NADH:ubiquinone oxidoreductase subunit A9
+          Symbol: NDUFA9
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -364,10 +321,10 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '611776'
-            Source: OMIM
           - Reference: '21034'
             Source: HGNC
+          - Reference: '611776'
+            Source: OMIM
           Label: NADH:ubiquinone oxidoreductase complex assembly factor 4
           Symbol: NDUFAF4
       - Gene:
@@ -443,14 +400,52 @@ Orphapacket:
           Label: NADH:ubiquinone oxidoreductase subunit B3
           Symbol: NDUFB3
       - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '30883'
+            Source: HGNC
+          - Reference: '615533'
+            Source: OMIM
+          Label: transmembrane protein 126B
+          Symbol: TMEM126B
+      - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '603843'
+          - Reference: '7690'
+            Source: HGNC
+          - Reference: '602138'
             Source: OMIM
+          Label: NADH:ubiquinone oxidoreductase subunit A6
+          Symbol: NDUFA6
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
           - Reference: '7696'
             Source: HGNC
+          - Reference: '603843'
+            Source: OMIM
           Label: NADH:ubiquinone oxidoreductase subunit B10
           Symbol: NDUFB10
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '1321'
+            Source: HGNC
+          - Reference: '615534'
+            Source: OMIM
+          Label: translocase of inner mitochondrial membrane domain containing 1
+          Symbol: TIMMDC1
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '33551'
+            Source: HGNC
+          - Reference: '618461'
+            Source: OMIM
+          Label: NADH:ubiquinone oxidoreductase complex assembly factor 8
+          Symbol: NDUFAF8
       Label: Isolated complex I deficiency
       ORPHAcode: '2609'
   - Child:
@@ -644,10 +639,10 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '600940'
-            Source: OMIM
           - Reference: '6600'
             Source: HGNC
+          - Reference: '600940'
+            Source: OMIM
           Label: DNA ligase 3
           Symbol: LIG3
       Label: Mitochondrial neurogastrointestinal encephalomyopathy
@@ -665,6 +660,10 @@ Orphapacket:
           Symbol: POLG
       Label: Sensory ataxic neuropathy-dysarthria-ophthalmoparesis syndrome
       ORPHAcode: '70595'
+  - Child:
+      Genes: no data
+      Label: TK2-related mitochondrial DNA maintenance defect, myopathic form
+      ORPHAcode: '254875'
   - Child:
       Genes:
       - Gene:
@@ -720,32 +719,6 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '2939'
-            Source: HGNC
-          - Reference: '601810'
-            Source: OMIM
-          Label: DNA replication helicase/nuclease 2
-          Symbol: DNA2
-      Label: DNA2-related mitochondrial DNA deletion syndrome
-      ORPHAcode: '352470'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '11831'
-            Source: HGNC
-          - Reference: '188250'
-            Source: OMIM
-          Label: thymidine kinase 2
-          Symbol: TK2
-      Label: Mitochondrial DNA depletion syndrome, myopathic form
-      ORPHAcode: '254875'
-  - Child:
-      Genes:
-      - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
             of function) in
           ExternalReferences:
@@ -762,6 +735,19 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
+          - Reference: '2939'
+            Source: HGNC
+          - Reference: '601810'
+            Source: OMIM
+          Label: DNA replication helicase/nuclease 2
+          Symbol: DNA2
+      Label: DNA2-related mitochondrial DNA deletion syndrome
+      ORPHAcode: '352470'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
           - Reference: '15559'
             Source: HGNC
           - Reference: '615903'
@@ -770,6 +756,19 @@ Orphapacket:
           Symbol: CHCHD10
       Label: Autosomal dominant mitochondrial myopathy with exercise intolerance
       ORPHAcode: '457050'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '29678'
+            Source: HGNC
+          - Reference: '617619'
+            Source: OMIM
+          Label: misato mitochondrial distribution and morphology regulator 1
+          Symbol: MSTO1
+      Label: Mitochondrial myopathy-cerebellar ataxia-pigmentary retinopathy syndrome
+      ORPHAcode: '502423'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -781,6 +780,6 @@ Orphapacket:
   - Parent:
     - Label: Metabolic myopathy
       ORPHAcode: '98486'
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

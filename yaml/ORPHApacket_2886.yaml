@@ -15,12 +15,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: RBM10
+        Source: ClinVar
       - Reference: '9896'
         Source: HGNC
       - Reference: '300080'
         Source: OMIM
-      - Reference: RBM10
-        Source: ClinVar
       Name: RNA binding motif protein 10
       Symbol: RBM10
   Label: TARP syndrome
@@ -29,14 +29,14 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_2886
   Parents:
   - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
+  - Parent:
     - Label: Rare disease with Pierre Robin syndrome
       ORPHAcode: '138044'
   - Parent:
     - Label: Rare syndrome with cardiac malformations
       ORPHAcode: '156532'
-  - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-      ORPHAcode: '102283'
   - Parent:
     - Label: Genetic syndromic Pierre Robin syndrome
       ORPHAcode: '363294'
@@ -45,70 +45,6 @@ Orphapacket:
         disability
       ORPHAcode: '611327'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000201
-      HPOTerm: Pierre-Robin sequence
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001631
-      HPOTerm: Atrial septal defect
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001762
-      HPOTerm: Talipes equinovarus
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0005301
-      HPOTerm: Persistent left superior vena cava
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000162
-      HPOTerm: Glossoptosis
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000175
-      HPOTerm: Cleft palate
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000316
-      HPOTerm: Hypertelorism
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000340
-      HPOTerm: Sloping forehead
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000347
-      HPOTerm: Micrognathia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000431
-      HPOTerm: Wide nasal bridge
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000961
-      HPOTerm: Cyanosis
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001263
-      HPOTerm: Global developmental delay
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001290
-      HPOTerm: Generalized hypotonia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001508
-      HPOTerm: Failure to thrive
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001511
-      HPOTerm: Intrauterine growth retardation
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001838
@@ -193,6 +129,70 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002650
       HPOTerm: Scoliosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000201
+      HPOTerm: Pierre-Robin sequence
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001631
+      HPOTerm: Atrial septal defect
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001762
+      HPOTerm: Talipes equinovarus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005301
+      HPOTerm: Persistent left superior vena cava
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000162
+      HPOTerm: Glossoptosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000175
+      HPOTerm: Cleft palate
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000316
+      HPOTerm: Hypertelorism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000340
+      HPOTerm: Sloping forehead
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000347
+      HPOTerm: Micrognathia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000431
+      HPOTerm: Wide nasal bridge
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000961
+      HPOTerm: Cyanosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001290
+      HPOTerm: Generalized hypotonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001511
+      HPOTerm: Intrauterine growth retardation
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0004492
@@ -299,6 +299,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

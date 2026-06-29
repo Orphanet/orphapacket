@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "597743",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "597743",
         "Label": "SETD2-related microcephaly-severe intellectual disability-multiple congenital anomalies syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_597743",
@@ -13,9 +13,18 @@
         },
         "ExternalReferences": [
             {
-                "Source": "OMIM",
-                "Reference": "620157",
-                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "620155",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "620157",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -29,16 +38,16 @@
                     "Name": "SET domain containing 2, histone lysine methyltransferase",
                     "ExternalReferences": [
                         {
-                            "Source": "OMIM",
-                            "Reference": "612778"
+                            "Source": "ClinVar",
+                            "Reference": "SETD2"
                         },
                         {
                             "Source": "HGNC",
                             "Reference": "18420"
                         },
                         {
-                            "Source": "ClinVar",
-                            "Reference": "SETD2"
+                            "Source": "OMIM",
+                            "Reference": "612778"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -49,8 +58,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "269528",
-                        "Label": "Syndrome with microcephaly as a major feature"
+                        "ORPHAcode": "93547",
+                        "Label": "Syndromic renal or urinary tract malformation"
                     }
                 ]
             },
@@ -65,8 +74,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "611327",
-                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
+                        "ORPHAcode": "156532",
+                        "Label": "Rare syndrome with cardiac malformations"
                     }
                 ]
             },
@@ -81,16 +90,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "156532",
-                        "Label": "Rare syndrome with cardiac malformations"
+                        "ORPHAcode": "269528",
+                        "Label": "Syndrome with microcephaly as a major feature"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "93547",
-                        "Label": "Syndromic renal or urinary tract malformation"
+                        "ORPHAcode": "611327",
+                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
                     }
                 ]
             }

@@ -9,9 +9,8 @@ Orphapacket:
     value: Malformation syndrome
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '619143'
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '225500'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -24,49 +23,16 @@ Orphapacket:
       Reference: '618123'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-      Reference: '225500'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '619142'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '619143'
+      Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '24595'
-        Source: HGNC
-      - Reference: '617083'
-        Source: OMIM
-      - Reference: DYNC2LI1
-        Source: ClinVar
-      Name: dynein cytoplasmic 2 light intermediate chain 1
-      Symbol: DYNC2LI1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '165220'
-        Source: OMIM
-      - Reference: GLI1
-        Source: ClinVar
-      - Reference: '4317'
-        Source: HGNC
-      Name: GLI family zinc finger 1
-      Symbol: GLI1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '19747'
-        Source: HGNC
-      - Reference: '607261'
-        Source: OMIM
-      - Reference: EVC2
-        Source: ClinVar
-      Name: EvC ciliary complex subunit 2
-      Symbol: EVC2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -81,24 +47,58 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: EVC2
+        Source: ClinVar
+      - Reference: '19747'
+        Source: HGNC
+      - Reference: '607261'
+        Source: OMIM
+      Name: EvC ciliary complex subunit 2
+      Symbol: EVC2
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: PRKACA
+        Source: ClinVar
       - Reference: '9380'
         Source: HGNC
       - Reference: '601639'
         Source: OMIM
-      - Reference: PRKACA
-        Source: ClinVar
       Name: protein kinase cAMP-activated catalytic subunit alpha
       Symbol: PRKACA
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '176892'
+      - Reference: DYNC2LI1
+        Source: ClinVar
+      - Reference: '24595'
+        Source: HGNC
+      - Reference: '617083'
         Source: OMIM
+      Name: dynein cytoplasmic 2 light intermediate chain 1
+      Symbol: DYNC2LI1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: GLI1
+        Source: ClinVar
+      - Reference: '4317'
+        Source: HGNC
+      - Reference: '165220'
+        Source: OMIM
+      Name: GLI family zinc finger 1
+      Symbol: GLI1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
       - Reference: '9381'
         Source: HGNC
+      - Reference: '176892'
+        Source: OMIM
       Name: protein kinase cAMP-activated catalytic subunit beta
       Symbol: PRKACB
-  Label: Ellis Van Creveld syndrome
+  Label: Ellis-Van Creveld syndrome
   ORPHAcode: '289'
   ORPHApacketId: '289'
   PURL: http://www.orpha.net/ORDO/Orphanet_289
@@ -107,11 +107,11 @@ Orphapacket:
     - Label: Short rib-polydactyly syndrome
       ORPHAcode: '1505'
   - Parent:
-    - Label: Genetic cystic renal disease
-      ORPHAcode: '93587'
-  - Parent:
     - Label: Ectodermal dysplasia syndrome
       ORPHAcode: '79373'
+  - Parent:
+    - Label: Genetic cystic renal disease
+      ORPHAcode: '93587'
   - Parent:
     - Label: Renal ciliopathy
       ORPHAcode: '156162'
@@ -125,6 +125,74 @@ Orphapacket:
     - Label: Rare syndrome with cardiac malformations
       ORPHAcode: '156532'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002644
+      HPOTerm: Abnormality of pelvic girdle bone morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0006703
+      HPOTerm: Aplasia/Hypoplasia of the lungs
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011065
+      HPOTerm: Conical incisor
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000008
+      HPOTerm: Abnormal morphology of female internal genitalia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000072
+      HPOTerm: Hydroureter
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000233
+      HPOTerm: Thin vermilion border
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000684
+      HPOTerm: Delayed eruption of teeth
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000924
+      HPOTerm: Abnormality of the skeletal system
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002097
+      HPOTerm: Emphysema
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002488
+      HPOTerm: Acute leukemia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002750
+      HPOTerm: Delayed skeletal maturation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002967
+      HPOTerm: Cubitus valgus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005048
+      HPOTerm: Synostosis of carpal bones
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005561
+      HPOTerm: Abnormality of bone marrow cell morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008678
+      HPOTerm: Renal hypoplasia/aplasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011362
+      HPOTerm: Abnormal hair quantity
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000164
@@ -152,7 +220,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001597
-      HPOTerm: Abnormality of the nail
+      HPOTerm: Abnormal nail morphology
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001654
@@ -261,74 +329,6 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001696
       HPOTerm: Situs inversus totalis
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002644
-      HPOTerm: Abnormality of pelvic girdle bone morphology
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0006703
-      HPOTerm: Aplasia/Hypoplasia of the lungs
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0011065
-      HPOTerm: Conical incisor
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000008
-      HPOTerm: Abnormal morphology of female internal genitalia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000072
-      HPOTerm: Hydroureter
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000233
-      HPOTerm: Thin vermilion border
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000684
-      HPOTerm: Delayed eruption of teeth
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000924
-      HPOTerm: Abnormality of the skeletal system
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002097
-      HPOTerm: Emphysema
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002488
-      HPOTerm: Acute leukemia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002750
-      HPOTerm: Delayed skeletal maturation
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002967
-      HPOTerm: Cubitus valgus
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0005048
-      HPOTerm: Synostosis of carpal bones
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0005561
-      HPOTerm: Abnormality of bone marrow cell morphology
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008678
-      HPOTerm: Renal hypoplasia/aplasia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011362
-      HPOTerm: Abnormal hair quantity
   Prevalences:
   - Prevalence:
       PrevalenceClass: '>1 / 1000'
@@ -342,7 +342,7 @@ Orphapacket:
       PrevalenceGeographic: Europe
       PrevalenceQualification: Value and class
       PrevalenceType: Prevalence at birth
-      Source: EUROCAT European surveillance of congenital anomalies 2005-2012[REG]
+      Source: EUROCAT European surveillance of congenital anomalies 2005-2012[OTHER]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -368,6 +368,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

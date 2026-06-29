@@ -11,12 +11,12 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '300580'
+      Reference: '255310'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '255310'
+      Reference: '300580'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -32,21 +32,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '17797'
-        Source: HGNC
-      - Reference: '609479'
-        Source: OMIM
-      Name: mitogen-activated protein kinase kinase kinase 20
-      Symbol: MAP3K20
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: ACTA1
         Source: ClinVar
-      - Reference: '102610'
-        Source: OMIM
       - Reference: '129'
         Source: HGNC
+      - Reference: '102610'
+        Source: OMIM
       Name: actin alpha 1, skeletal muscle
       Symbol: ACTA1
   - Gene:
@@ -63,23 +54,23 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TPM2
+        Source: ClinVar
       - Reference: '12011'
         Source: HGNC
       - Reference: '190990'
         Source: OMIM
-      - Reference: TPM2
-        Source: ClinVar
       Name: tropomyosin 2
       Symbol: TPM2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '191030'
-        Source: OMIM
-      - Reference: '12012'
-        Source: HGNC
       - Reference: TPM3
         Source: ClinVar
+      - Reference: '12012'
+        Source: HGNC
+      - Reference: '191030'
+        Source: OMIM
       Name: tropomyosin 3
       Symbol: TPM3
   - Gene:
@@ -96,12 +87,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: ITGA7
+        Source: ClinVar
       - Reference: '6143'
         Source: HGNC
       - Reference: '600536'
         Source: OMIM
-      - Reference: ITGA7
-        Source: ClinVar
       Name: integrin subunit alpha 7
       Symbol: ITGA7
   - Gene:
@@ -116,11 +107,23 @@ Orphapacket:
         Source: OMIM
       Name: 3-hydroxyacyl-CoA dehydratase 1
       Symbol: HACD1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '17797'
+        Source: HGNC
+      - Reference: '609479'
+        Source: OMIM
+      Name: mitogen-activated protein kinase kinase kinase 20
+      Symbol: MAP3K20
   Label: Congenital fiber-type disproportion myopathy
   ORPHAcode: '2020'
   ORPHApacketId: '2020'
   PURL: http://www.orpha.net/ORDO/Orphanet_2020
   Parents:
+  - Parent:
+    - Label: Congenital myopathy
+      ORPHAcode: '97245'
   - Parent:
     - Label: Qualitative or quantitative defects of alpha-actin
       ORPHAcode: '209059'
@@ -130,94 +133,7 @@ Orphapacket:
   - Parent:
     - Label: Qualitative or quantitative defects of tropomyosin
       ORPHAcode: '284790'
-  - Parent:
-    - Label: Congenital myopathy
-      ORPHAcode: '97245'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001252
-      HPOTerm: Hypotonia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003323
-      HPOTerm: Progressive muscle weakness
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0011807
-      HPOTerm: Type 1 muscle fiber atrophy
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000218
-      HPOTerm: High palate
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000678
-      HPOTerm: Dental crowding
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001270
-      HPOTerm: Motor delay
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001284
-      HPOTerm: Areflexia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001315
-      HPOTerm: Reduced tendon reflexes
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001371
-      HPOTerm: Flexion contracture
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001508
-      HPOTerm: Failure to thrive
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001824
-      HPOTerm: Weight loss
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002015
-      HPOTerm: Dysphagia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002058
-      HPOTerm: Myopathic facies
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002086
-      HPOTerm: Abnormality of the respiratory system
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002421
-      HPOTerm: Poor head control
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002747
-      HPOTerm: Respiratory insufficiency due to muscle weakness
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0003388
-      HPOTerm: Easy fatigability
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0004347
-      HPOTerm: Weakness of muscles of respiration
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0004396
-      HPOTerm: Poor appetite
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0011842
-      HPOTerm: Abnormality of skeletal morphology
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0011968
-      HPOTerm: Feeding difficulties
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0012378
@@ -370,6 +286,90 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0012785
       HPOTerm: Flexion contracture of finger
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001252
+      HPOTerm: Hypotonia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003323
+      HPOTerm: Progressive muscle weakness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011807
+      HPOTerm: Type 1 muscle fiber atrophy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000218
+      HPOTerm: High palate
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000678
+      HPOTerm: Dental crowding
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001270
+      HPOTerm: Motor delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001284
+      HPOTerm: Areflexia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001315
+      HPOTerm: Reduced tendon reflexes
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001371
+      HPOTerm: Flexion contracture
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001824
+      HPOTerm: Weight loss
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002015
+      HPOTerm: Dysphagia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002058
+      HPOTerm: Myopathic facies
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002086
+      HPOTerm: Abnormality of the respiratory system
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002421
+      HPOTerm: Poor head control
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002747
+      HPOTerm: Respiratory insufficiency due to muscle weakness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003388
+      HPOTerm: Easy fatigability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004347
+      HPOTerm: Weakness of muscles of respiration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004396
+      HPOTerm: Poor appetite
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011842
+      HPOTerm: Abnormality of skeletal morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011968
+      HPOTerm: Feeding difficulties
   Prevalences:
     Prevalence:
     - PrevalenceClass: Unknown
@@ -391,6 +391,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

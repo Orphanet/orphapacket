@@ -13,12 +13,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: CD3G
+        Source: ClinVar
       - Reference: '1675'
         Source: HGNC
       - Reference: '186740'
         Source: OMIM
-      - Reference: CD3G
-        Source: ClinVar
       Name: CD3 gamma subunit of T-cell receptor complex
       Symbol: CD3G
   Label: Combined immunodeficiency due to CD3gamma deficiency
@@ -27,8 +27,11 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_169082
   Parents:
   - Parent:
-    - Label: Non-severe combined immunodeficiency
-      ORPHAcode: '480549'
+    - Label: Combined immunodeficiency with normal B cells and normal immunoglubulins
+      ORPHAcode: '718079'
+  - Parent:
+    - Label: Rare immune disease with inflammatory bowel disease
+      ORPHAcode: '717757'
   TextSection:
     Contents: A rare autosomal recessive primary immunodeficiency characterized by
       partial T lymphopenia (in particular cytotoxic CD8+ cells) and decreased expression
@@ -42,6 +45,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

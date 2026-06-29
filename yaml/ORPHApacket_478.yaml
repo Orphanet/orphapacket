@@ -9,16 +9,6 @@ Orphapacket:
     value: Clinical subtype
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '618841'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '616030'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
         used to represent it)
       Reference: '147950'
@@ -103,18 +93,17 @@ Orphapacket:
         to represent it)
       Reference: '615271'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '616030'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618841'
+      Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '26821'
-        Source: HGNC
-      - Reference: CCDC141
-        Source: ClinVar
-      - Reference: '616031'
-        Source: OMIM
-      Name: coiled-coil domain containing 141
-      Symbol: CCDC141
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
@@ -142,12 +131,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: CHD7
+        Source: ClinVar
       - Reference: '20626'
         Source: HGNC
       - Reference: '608892'
         Source: OMIM
-      - Reference: CHD7
-        Source: ClinVar
       Name: chromodomain helicase DNA binding protein 7
       Symbol: CHD7
   - Gene:
@@ -166,12 +155,12 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: FGFR1
+        Source: ClinVar
       - Reference: '3688'
         Source: HGNC
       - Reference: '136350'
         Source: OMIM
-      - Reference: FGFR1
-        Source: ClinVar
       Name: fibroblast growth factor receptor 1
       Symbol: FGFR1
   - Gene:
@@ -189,37 +178,60 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: KAL1
+        Source: ClinVar
       - Reference: '6211'
         Source: HGNC
       - Reference: '300836'
         Source: OMIM
-      - Reference: KAL1
-        Source: ClinVar
       Name: anosmin 1
       Symbol: ANOS1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: FGF8
+        Source: ClinVar
       - Reference: '3686'
         Source: HGNC
       - Reference: '600483'
         Source: OMIM
-      - Reference: FGF8
-        Source: ClinVar
       Name: fibroblast growth factor 8
       Symbol: FGF8
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TACR3
+        Source: ClinVar
+      - Reference: '11528'
+        Source: HGNC
+      - Reference: '162332'
+        Source: OMIM
+      Name: tachykinin receptor 3
+      Symbol: TACR3
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: WDR11
+        Source: ClinVar
       - Reference: '13831'
         Source: HGNC
       - Reference: '606417'
         Source: OMIM
-      - Reference: WDR11
-        Source: ClinVar
       Name: WD repeat domain 11
       Symbol: WDR11
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: DCC
+        Source: ClinVar
+      - Reference: '2701'
+        Source: HGNC
+      - Reference: '120470'
+        Source: OMIM
+      Name: DCC netrin 1 receptor
+      Symbol: DCC
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
@@ -236,12 +248,12 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: SEMA3A
+        Source: ClinVar
       - Reference: '10723'
         Source: HGNC
       - Reference: '603961'
         Source: OMIM
-      - Reference: SEMA3A
-        Source: ClinVar
       Name: semaphorin 3A
       Symbol: SEMA3A
   - Gene:
@@ -312,17 +324,27 @@ Orphapacket:
       Name: FEZ family zinc finger 1
       Symbol: FEZF1
   - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '2701'
-        Source: HGNC
-      - Reference: '120470'
-        Source: OMIM
-      - Reference: DCC
+      - Reference: CCDC141
         Source: ClinVar
-      Name: DCC netrin 1 receptor
-      Symbol: DCC
+      - Reference: '26821'
+        Source: HGNC
+      - Reference: '616031'
+        Source: OMIM
+      Name: coiled-coil domain containing 141
+      Symbol: CCDC141
+  - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
+      ExternalReferences:
+      - Reference: CCDC141
+        Source: ClinVar
+      - Reference: '26821'
+        Source: HGNC
+      - Reference: '616031'
+        Source: OMIM
+      Name: coiled-coil domain containing 141
+      Symbol: CCDC141
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -335,25 +357,14 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '11528'
-        Source: HGNC
-      - Reference: '162332'
-        Source: OMIM
-      - Reference: TACR3
+      - Reference: EMX2
         Source: ClinVar
-      Name: tachykinin receptor 3
-      Symbol: TACR3
-  - Gene:
-      DisorderGeneAssociationType: Major susceptibility factor in
-      ExternalReferences:
-      - Reference: '26821'
+      - Reference: '3341'
         Source: HGNC
-      - Reference: CCDC141
-        Source: ClinVar
-      - Reference: '616031'
+      - Reference: '600035'
         Source: OMIM
-      Name: coiled-coil domain containing 141
-      Symbol: CCDC141
+      Name: empty spiracles homeobox 2
+      Symbol: EMX2
   Label: Kallmann syndrome
   ORPHAcode: '478'
   ORPHApacketId: '478'
@@ -586,6 +597,6 @@ Orphapacket:
       value: Multigenic/multifactorial
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

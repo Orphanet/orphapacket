@@ -7,14 +7,14 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '619132'
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
+      Reference: '172700'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
         used to represent it)
-      Reference: '172700'
+      Reference: '600274'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -27,22 +27,11 @@ Orphapacket:
       Reference: '616437'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
-        used to represent it)
-      Reference: '600274'
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '619132'
       Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Major susceptibility factor in
-      ExternalReferences:
-      - Reference: '22407'
-        Source: HGNC
-      - Reference: '613413'
-        Source: OMIM
-      - Reference: TMEM106B
-        Source: ClinVar
-      Name: transmembrane protein 106B
-      Symbol: TMEM106B
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -57,23 +46,23 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
+      - Reference: CHMP2B
+        Source: ClinVar
       - Reference: '24537'
         Source: HGNC
       - Reference: '609512'
         Source: OMIM
-      - Reference: CHMP2B
-        Source: ClinVar
       Name: charged multivesicular body protein 2B
       Symbol: CHMP2B
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
+      - Reference: TREM2
+        Source: ClinVar
       - Reference: '17761'
         Source: HGNC
       - Reference: '605086'
         Source: OMIM
-      - Reference: TREM2
-        Source: ClinVar
       Name: triggering receptor expressed on myeloid cells 2
       Symbol: TREM2
   - Gene:
@@ -90,12 +79,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
+      - Reference: MAPT
+        Source: ClinVar
       - Reference: '6893'
         Source: HGNC
       - Reference: '157140'
         Source: OMIM
-      - Reference: MAPT
-        Source: ClinVar
       Name: microtubule associated protein tau
       Symbol: MAPT
   - Gene:
@@ -112,12 +101,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: SQSTM1
+        Source: ClinVar
       - Reference: '11280'
         Source: HGNC
       - Reference: '601530'
         Source: OMIM
-      - Reference: SQSTM1
-        Source: ClinVar
       Name: sequestosome 1
       Symbol: SQSTM1
   - Gene:
@@ -131,6 +120,17 @@ Orphapacket:
         Source: OMIM
       Name: C9orf72-SMCR8 complex subunit
       Symbol: C9ORF72
+  - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
+      ExternalReferences:
+      - Reference: TMEM106B
+        Source: ClinVar
+      - Reference: '22407'
+        Source: HGNC
+      - Reference: '613413'
+        Source: OMIM
+      Name: transmembrane protein 106B
+      Symbol: TMEM106B
   Label: Behavioral variant of frontotemporal dementia
   ORPHAcode: '275864'
   ORPHApacketId: '275864'
@@ -321,6 +321,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

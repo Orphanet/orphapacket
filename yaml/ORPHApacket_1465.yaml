@@ -11,11 +11,6 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '618779'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
       Reference: '135900'
       Source: OMIM
   - ExternalReference:
@@ -51,7 +46,12 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '619325'
+      Reference: '618027'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618362'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -61,26 +61,14 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '618027'
+      Reference: '618779'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '618362'
+      Reference: '619325'
       Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: ARID2
-        Source: ClinVar
-      - Reference: '609539'
-        Source: OMIM
-      - Reference: '18037'
-        Source: HGNC
-      Name: AT-rich interaction domain 2
-      Symbol: ARID2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -95,34 +83,34 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: SMARCA4
+        Source: ClinVar
       - Reference: '11100'
         Source: HGNC
       - Reference: '603254'
         Source: OMIM
-      - Reference: SMARCA4
-        Source: ClinVar
       Name: SWI/SNF related BAF chromatin remodeling complex subunit ATPase 4
       Symbol: SMARCA4
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: ARID1B
+        Source: ClinVar
       - Reference: '18040'
         Source: HGNC
       - Reference: '614556'
         Source: OMIM
-      - Reference: ARID1B
-        Source: ClinVar
       Name: AT-rich interaction domain 1B
       Symbol: ARID1B
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: ARID1A
+        Source: ClinVar
       - Reference: '11110'
         Source: HGNC
       - Reference: '603024'
         Source: OMIM
-      - Reference: ARID1A
-        Source: ClinVar
       Name: AT-rich interaction domain 1A
       Symbol: ARID1A
   - Gene:
@@ -148,25 +136,28 @@ Orphapacket:
       Name: SRY-box transcription factor 11
       Symbol: SOX11
   - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
       ExternalReferences:
-      - Reference: '11200'
+      - Reference: ARID2
+        Source: ClinVar
+      - Reference: '18037'
         Source: HGNC
-      - Reference: '184430'
+      - Reference: '609539'
         Source: OMIM
-      Name: SRY-box transcription factor 4
-      Symbol: SOX4
+      Name: AT-rich interaction domain 2
+      Symbol: ARID2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: DPF2
+      - Reference: SMARCC2
         Source: ClinVar
-      - Reference: '9964'
+      - Reference: '11105'
         Source: HGNC
-      - Reference: '601671'
+      - Reference: '601734'
         Source: OMIM
-      Name: double PHD fingers 2
-      Symbol: DPF2
+      Name: SWI/SNF related BAF chromatin remodeling complex subunit C2
+      Symbol: SMARCC2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -181,22 +172,31 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '601734'
-        Source: OMIM
-      - Reference: '11105'
-        Source: HGNC
-      - Reference: SMARCC2
+      - Reference: DPF2
         Source: ClinVar
-      Name: SWI/SNF related BAF chromatin remodeling complex subunit C2
-      Symbol: SMARCC2
+      - Reference: '9964'
+        Source: HGNC
+      - Reference: '601671'
+        Source: OMIM
+      Name: double PHD fingers 2
+      Symbol: DPF2
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '11200'
+        Source: HGNC
+      - Reference: '184430'
+        Source: OMIM
+      Name: SRY-box transcription factor 4
+      Symbol: SOX4
   Label: Coffin-Siris syndrome
   ORPHAcode: '1465'
   ORPHApacketId: '1465'
   PURL: http://www.orpha.net/ORDO/Orphanet_1465
   Parents:
   - Parent:
-    - Label: Dysostosis with brachydactyly with extraskeletal manifestations
-      ORPHAcode: '498454'
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
   - Parent:
     - Label: Syndromic craniosynostosis
       ORPHAcode: '139393'
@@ -204,58 +204,11 @@ Orphapacket:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
       ORPHAcode: '611327'
-  - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-      ORPHAcode: '102283'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001382
       HPOTerm: Joint hypermobility
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0011231
-      HPOTerm: Prominent eyelashes
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0011968
-      HPOTerm: Feeding difficulties
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000028
-      HPOTerm: Cryptorchidism
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000119
-      HPOTerm: Abnormality of the genitourinary system
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000219
-      HPOTerm: Thin upper lip vermilion
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000289
-      HPOTerm: Broad philtrum
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000294
-      HPOTerm: Low anterior hairline
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000365
-      HPOTerm: Hearing impairment
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000455
-      HPOTerm: Broad nasal tip
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000463
-      HPOTerm: Anteverted nares
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000486
-      HPOTerm: Strabismus
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000505
@@ -397,6 +350,50 @@ Orphapacket:
       HPOId: HP:0001305
       HPOTerm: Dandy-Walker malformation
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011231
+      HPOTerm: Prominent eyelashes
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011968
+      HPOTerm: Feeding difficulties
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000028
+      HPOTerm: Cryptorchidism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000119
+      HPOTerm: Abnormality of the genitourinary system
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000219
+      HPOTerm: Thin upper lip vermilion
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000289
+      HPOTerm: Broad philtrum
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000294
+      HPOTerm: Low anterior hairline
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000365
+      HPOTerm: Hearing impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000455
+      HPOTerm: Broad nasal tip
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000463
+      HPOTerm: Anteverted nares
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000486
+      HPOTerm: Strabismus
+  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001344
       HPOTerm: Absent speech
@@ -494,6 +491,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

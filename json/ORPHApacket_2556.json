@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2556",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "2556",
         "Label": "Microphthalmia with linear skin defects syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2556",
@@ -83,16 +83,16 @@
                     "Name": "cytochrome c oxidase subunit 7B",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "COX7B"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "2291"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "300885"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "COX7B"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -104,16 +104,16 @@
                     "Name": "NADH:ubiquinone oxidoreductase subunit B11",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "NDUFB11"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "20372"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "300403"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "NDUFB11"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
@@ -124,8 +124,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "139027",
-                        "Label": "Rare developmental defect with skin/mucosae involvement"
+                        "ORPHAcode": "79380",
+                        "Label": "Mixed dermis disorder"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "98638",
+                        "Label": "Rare disease with glaucoma as a major feature"
                     }
                 ]
             },
@@ -134,6 +142,14 @@
                     {
                         "ORPHAcode": "117573",
                         "Label": "Syndromic anorectal malformation"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "139027",
+                        "Label": "Rare developmental defect with skin/mucosae involvement"
                     }
                 ]
             },
@@ -166,22 +182,6 @@
                     {
                         "ORPHAcode": "102283",
                         "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "98638",
-                        "Label": "Rare disease with glaucoma as a major feature"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "79380",
-                        "Label": "Mixed dermis disorder"
                     }
                 ]
             }
@@ -581,76 +581,6 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001597",
-                    "HPOTerm": "Abnormality of the nail",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001634",
-                    "HPOTerm": "Mitral valve prolapse",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001653",
-                    "HPOTerm": "Mitral regurgitation",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001704",
-                    "HPOTerm": "Tricuspid valve prolapse",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002034",
-                    "HPOTerm": "Abnormality of the rectum",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002094",
-                    "HPOTerm": "Dyspnea",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002098",
-                    "HPOTerm": "Respiratory distress",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002133",
-                    "HPOTerm": "Status epilepticus",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002300",
-                    "HPOTerm": "Mutism",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002381",
-                    "HPOTerm": "Aphasia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
                     "HPOId": "HP:0002878",
                     "HPOTerm": "Respiratory failure",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -723,6 +653,76 @@
                 "Phenotype": {
                     "HPOId": "HP:0011968",
                     "HPOTerm": "Feeding difficulties",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001597",
+                    "HPOTerm": "Abnormal nail morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001634",
+                    "HPOTerm": "Mitral valve prolapse",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001653",
+                    "HPOTerm": "Mitral regurgitation",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001704",
+                    "HPOTerm": "Tricuspid valve prolapse",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002034",
+                    "HPOTerm": "Abnormality of the rectum",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002094",
+                    "HPOTerm": "Dyspnea",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002098",
+                    "HPOTerm": "Respiratory distress",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002133",
+                    "HPOTerm": "Status epilepticus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002300",
+                    "HPOTerm": "Mutism",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002381",
+                    "HPOTerm": "Aphasia",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             }

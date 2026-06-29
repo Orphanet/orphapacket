@@ -9,11 +9,6 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '618845'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
       Reference: '617660'
       Source: OMIM
   - ExternalReference:
@@ -21,28 +16,24 @@ Orphapacket:
         to represent it)
       Reference: '617661'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618845'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: KYNU
+        Source: ClinVar
       - Reference: '6469'
         Source: HGNC
       - Reference: '605197'
         Source: OMIM
-      - Reference: KYNU
-        Source: ClinVar
       Name: kynureninase
       Symbol: KYNU
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '29832'
-        Source: HGNC
-      - Reference: '608285'
-        Source: OMIM
-      Name: NAD synthetase 1
-      Symbol: NADSYN1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
@@ -53,6 +44,15 @@ Orphapacket:
         Source: OMIM
       Name: 3-hydroxyanthranilate 3,4-dioxygenase
       Symbol: HAAO
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '29832'
+        Source: HGNC
+      - Reference: '608285'
+        Source: OMIM
+      Name: NAD synthetase 1
+      Symbol: NADSYN1
   Label: Congenital vertebral-cardiac-renal anomalies syndrome
   ORPHAcode: '521438'
   ORPHApacketId: '521438'
@@ -62,15 +62,15 @@ Orphapacket:
     - Label: Rare syndromic genetic deafness
       ORPHAcode: '90642'
   - Parent:
-    - Label: Rare syndrome with cardiac malformations
-      ORPHAcode: '156532'
+    - Label: Syndromic renal or urinary tract malformation
+      ORPHAcode: '93547'
   - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome without intellectual
         disability
       ORPHAcode: '102285'
   - Parent:
-    - Label: Syndromic renal or urinary tract malformation
-      ORPHAcode: '93547'
+    - Label: Rare syndrome with cardiac malformations
+      ORPHAcode: '156532'
   - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome without intellectual
         disability
@@ -103,6 +103,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

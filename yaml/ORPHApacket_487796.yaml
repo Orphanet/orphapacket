@@ -13,12 +13,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: CDC42
+        Source: ClinVar
       - Reference: '1736'
         Source: HGNC
       - Reference: '116952'
         Source: OMIM
-      - Reference: CDC42
-        Source: ClinVar
       Name: cell division cycle 42
       Symbol: CDC42
   Label: Takenouchi-Kosaki syndrome
@@ -27,11 +27,11 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_487796
   Parents:
   - Parent:
-    - Label: Disorder with multisystemic involvement and primary lymphedema
-      ORPHAcode: '568047'
-  - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
+  - Parent:
+    - Label: Disorder with multisystemic involvement and primary lymphedema
+      ORPHAcode: '568047'
   - Parent:
     - Label: Syndromic constitutional thrombocytopenia
       ORPHAcode: '477794'
@@ -39,39 +39,10 @@ Orphapacket:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
       ORPHAcode: '611327'
+  - Parent:
+    - Label: Rare miscellaneous disease with inflammatory bowel disease
+      ORPHAcode: '717877'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001999
-      HPOTerm: Abnormal facial shape
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0410263
-      HPOTerm: Brain imaging abnormality
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000119
-      HPOTerm: Abnormality of the genitourinary system
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000766
-      HPOTerm: Abnormal sternum morphology
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000818
-      HPOTerm: Abnormality of the endocrine system
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001627
-      HPOTerm: Abnormal heart morphology
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001873
-      HPOTerm: Thrombocytopenia
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002079
@@ -324,6 +295,38 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0100763
       HPOTerm: Abnormality of the lymphatic system
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001999
+      HPOTerm: Abnormal facial shape
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0410263
+      HPOTerm: Brain imaging abnormality
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000119
+      HPOTerm: Abnormality of the genitourinary system
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000766
+      HPOTerm: Abnormal sternum morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000818
+      HPOTerm: Abnormality of the endocrine system
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001627
+      HPOTerm: Abnormal heart morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001873
+      HPOTerm: Thrombocytopenia
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -355,6 +358,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

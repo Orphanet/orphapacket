@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "225700",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "225700",
         "Label": "Mitochondrial disease with epilepsy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_225700",
@@ -232,23 +232,6 @@
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "mitochondrially encoded tRNA-Pro (CCN)",
-                                "Symbol": "MT-TP",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "7494"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "590075"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        },
-                        {
-                            "Gene": {
                                 "Label": "mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 5",
                                 "Symbol": "MT-ND5",
                                 "ExternalReferences": [
@@ -348,6 +331,23 @@
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "mitochondrially encoded tRNA-Pro (CCN)",
+                                "Symbol": "MT-TP",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "7494"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "590075"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
                         }
                     ]
                 }
@@ -384,67 +384,14 @@
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "transmembrane protein 126B",
-                                "Symbol": "TMEM126B",
+                                "Label": "NADH:ubiquinone oxidoreductase subunit A9",
+                                "Symbol": "NDUFA9",
                                 "ExternalReferences": [
                                     {
-                                        "Source": "OMIM",
-                                        "Reference": "615533"
-                                    },
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "30883"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "NADH:ubiquinone oxidoreductase complex assembly factor 8",
-                                "Symbol": "NDUFAF8",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "33551"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "618461"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "translocase of inner mitochondrial membrane domain containing 1",
-                                "Symbol": "TIMMDC1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "615534"
-                                    },
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "1321"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "NADH:ubiquinone oxidoreductase subunit A6",
-                                "Symbol": "NDUFA6",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "602138"
-                                    },
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "7690"
+                                        "ExternalReference": {
+                                            "Source": "HGNC",
+                                            "Reference": "7693"
+                                        }
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -694,12 +641,12 @@
                                 "Symbol": "NDUFAF4",
                                 "ExternalReferences": [
                                     {
-                                        "Source": "OMIM",
-                                        "Reference": "611776"
-                                    },
-                                    {
                                         "Source": "HGNC",
                                         "Reference": "21034"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "611776"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -843,22 +790,97 @@
                         },
                         {
                             "Gene": {
+                                "Label": "transmembrane protein 126B",
+                                "Symbol": "TMEM126B",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "30883"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "615533"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "NADH:ubiquinone oxidoreductase subunit A6",
+                                "Symbol": "NDUFA6",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "7690"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "602138"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
                                 "Label": "NADH:ubiquinone oxidoreductase subunit B10",
                                 "Symbol": "NDUFB10",
                                 "ExternalReferences": [
                                     {
-                                        "Source": "OMIM",
-                                        "Reference": "603843"
-                                    },
-                                    {
                                         "Source": "HGNC",
                                         "Reference": "7696"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "603843"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "translocase of inner mitochondrial membrane domain containing 1",
+                                "Symbol": "TIMMDC1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "1321"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "615534"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "NADH:ubiquinone oxidoreductase complex assembly factor 8",
+                                "Symbol": "NDUFAF8",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "33551"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "618461"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Pyruvate dehydrogenase deficiency",
+                    "ORPHAcode": "765",
+                    "Genes": "no data"
                 }
             },
             {
@@ -881,6 +903,31 @@
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Oxoglutaric aciduria",
+                    "ORPHAcode": "31",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "oxoglutarate dehydrogenase",
+                                "Symbol": "OGDH",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "8124"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "613022"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]
@@ -998,12 +1045,12 @@
                                 "Symbol": "LIG3",
                                 "ExternalReferences": [
                                     {
-                                        "Source": "OMIM",
-                                        "Reference": "600940"
-                                    },
-                                    {
                                         "Source": "HGNC",
                                         "Reference": "6600"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600940"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -1017,6 +1064,31 @@
                     "Label": "Coenzyme Q10 deficiency",
                     "ORPHAcode": "35656",
                     "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Congenital lactic acidosis, Saguenay-Lac-Saint-Jean type",
+                    "ORPHAcode": "70472",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "leucine rich pentatricopeptide repeat containing",
+                                "Symbol": "LRPPRC",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "15714"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "607544"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -1055,37 +1127,12 @@
                                 "Symbol": "EIF2S3",
                                 "ExternalReferences": [
                                     {
-                                        "Source": "OMIM",
-                                        "Reference": "300161"
-                                    },
-                                    {
                                         "Source": "HGNC",
                                         "Reference": "3267"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Lipoic acid synthetase deficiency",
-                    "ORPHAcode": "401859",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "lipoic acid synthetase",
-                                "Symbol": "LIAS",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "16429"
                                     },
                                     {
                                         "Source": "OMIM",
-                                        "Reference": "607031"
+                                        "Reference": "300161"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -1121,21 +1168,21 @@
             },
             {
                 "Child": {
-                    "Label": "Congenital lactic acidosis, Saguenay-Lac-Saint-Jean type",
-                    "ORPHAcode": "70472",
+                    "Label": "Lipoic acid synthetase deficiency",
+                    "ORPHAcode": "401859",
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "leucine rich pentatricopeptide repeat containing",
-                                "Symbol": "LRPPRC",
+                                "Label": "lipoic acid synthetase",
+                                "Symbol": "LIAS",
                                 "ExternalReferences": [
                                     {
                                         "Source": "HGNC",
-                                        "Reference": "15714"
+                                        "Reference": "16429"
                                     },
                                     {
                                         "Source": "OMIM",
-                                        "Reference": "607544"
+                                        "Reference": "607031"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -1148,38 +1195,6 @@
                 "Child": {
                     "Label": "Lipoyl transferase 2 deficiency",
                     "ORPHAcode": "447795",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Oxoglutaric aciduria",
-                    "ORPHAcode": "31",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "oxoglutarate dehydrogenase",
-                                "Symbol": "OGDH",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "8124"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "613022"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Pyruvate dehydrogenase deficiency",
-                    "ORPHAcode": "765",
                     "Genes": "no data"
                 }
             }

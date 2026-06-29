@@ -7,15 +7,27 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '239200'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '618188'
       Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-      Reference: '239200'
-      Source: OMIM
   Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: CASR
+        Source: ClinVar
+      - Reference: '1514'
+        Source: HGNC
+      - Reference: '601199'
+        Source: OMIM
+      Name: calcium sensing receptor
+      Symbol: CASR
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -25,32 +37,20 @@ Orphapacket:
         Source: OMIM
       Name: transient receptor potential cation channel subfamily V member 6
       Symbol: TRPV6
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '1514'
-        Source: HGNC
-      - Reference: '601199'
-        Source: OMIM
-      - Reference: CASR
-        Source: ClinVar
-      Name: calcium sensing receptor
-      Symbol: CASR
   Label: Neonatal severe primary hyperparathyroidism
   ORPHAcode: '417'
   ORPHApacketId: '417'
   PURL: http://www.orpha.net/ORDO/Orphanet_417
   Parents:
   - Parent:
-    - Label: Rare hyperparathyroidism
-      ORPHAcode: '181408'
+    - Label: Primary bone dysplasia with defective bone mineralization
+      ORPHAcode: '93447'
   - Parent:
     - Label: Genetic hyperparathyroidism
       ORPHAcode: '208596'
   - Parent:
-    - Label: Primary bone dysplasia with defective bone mineralization
-      ORPHAcode: '93447'
+    - Label: Rare hyperparathyroidism
+      ORPHAcode: '181408'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -111,6 +111,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: Not applicable
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

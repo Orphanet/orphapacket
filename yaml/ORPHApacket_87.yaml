@@ -16,12 +16,12 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
         in
       ExternalReferences:
+      - Reference: FGFR2
+        Source: ClinVar
       - Reference: '3689'
         Source: HGNC
       - Reference: '176943'
         Source: OMIM
-      - Reference: FGFR2
-        Source: ClinVar
       Name: fibroblast growth factor receptor 2
       Symbol: FGFR2
   Label: Apert syndrome
@@ -30,29 +30,25 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_87
   Parents:
   - Parent:
+    - Label: Craniofacial anomaly with cataract
+      ORPHAcode: '98650'
+  - Parent:
+    - Label: Craniostenosis with strabismus
+      ORPHAcode: '98684'
+  - Parent:
     - Label: Pierre Robin syndrome associated with bone disease
       ORPHAcode: '138055'
   - Parent:
     - Label: Syndromic craniosynostosis
       ORPHAcode: '139393'
   - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-      ORPHAcode: '102283'
-  - Parent:
-    - Label: Craniostenosis with strabismus
-      ORPHAcode: '98684'
-  - Parent:
-    - Label: Craniofacial anomaly with cataract
-      ORPHAcode: '98650'
-  - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
       ORPHAcode: '611327'
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0011380
-      HPOTerm: Morphological abnormality of the semicircular canal
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0011800
@@ -145,6 +141,26 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0200020
       HPOTerm: Corneal erosion
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011380
+      HPOTerm: Morphological abnormality of the semicircular canal
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004635
+      HPOTerm: Cervical vertebrae fusion (C5/C6)
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008872
+      HPOTerm: Feeding difficulties in infancy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0009601
+      HPOTerm: Aplasia/Hypoplasia of the thumb
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011304
+      HPOTerm: Broad thumb
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000244
@@ -269,22 +285,6 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0003422
       HPOTerm: Vertebral segmentation defect
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0004635
-      HPOTerm: Cervical vertebrae fusion (C5/C6)
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0008872
-      HPOTerm: Feeding difficulties in infancy
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0009601
-      HPOTerm: Aplasia/Hypoplasia of the thumb
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0011304
-      HPOTerm: Broad thumb
   Prevalences:
   - Prevalence:
       PrevalenceClass: Unknown
@@ -367,6 +367,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

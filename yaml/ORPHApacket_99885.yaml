@@ -11,37 +11,36 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '618856'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
       Reference: '606176'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '618858'
+      Reference: '618856'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '618857'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618858'
+      Source: OMIM
   Genes:
   - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
-        in
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '11364'
-        Source: HGNC
-      - Reference: '102582'
-        Source: OMIM
-      - Reference: STAT3
+      - Reference: ABCC8
         Source: ClinVar
-      Name: signal transducer and activator of transcription 3
-      Symbol: STAT3
+      - Reference: '59'
+        Source: HGNC
+      - Reference: '600509'
+        Source: OMIM
+      Name: ATP binding cassette subfamily C member 8
+      Symbol: ABCC8
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -56,12 +55,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: KCNJ11
+        Source: ClinVar
       - Reference: '6257'
         Source: HGNC
       - Reference: '600937'
         Source: OMIM
-      - Reference: KCNJ11
-        Source: ClinVar
       Name: potassium inwardly rectifying channel subfamily J member 11
       Symbol: KCNJ11
   - Gene:
@@ -76,6 +75,18 @@ Orphapacket:
       Name: pancreatic and duodenal homeobox 1
       Symbol: PDX1
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
+        in
+      ExternalReferences:
+      - Reference: STAT3
+        Source: ClinVar
+      - Reference: '11364'
+        Source: HGNC
+      - Reference: '102582'
+        Source: OMIM
+      Name: signal transducer and activator of transcription 3
+      Symbol: STAT3
+  - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
       - Reference: INS
@@ -86,17 +97,6 @@ Orphapacket:
         Source: OMIM
       Name: insulin
       Symbol: INS
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: ABCC8
-        Source: ClinVar
-      - Reference: '59'
-        Source: HGNC
-      - Reference: '600509'
-        Source: OMIM
-      Name: ATP binding cassette subfamily C member 8
-      Symbol: ABCC8
   Label: Isolated permanent neonatal diabetes mellitus
   ORPHAcode: '99885'
   ORPHApacketId: '99885'
@@ -129,7 +129,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0005750
-      HPOTerm: Contractures of the joints of the lower limbs
+      HPOTerm: Lower-limb joint contracture
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0012594
@@ -183,38 +183,6 @@ Orphapacket:
       HPOId: HP:0030057
       HPOTerm: Autoimmune antibody positivity
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000857
-      HPOTerm: Neonatal insulin-dependent diabetes mellitus
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001508
-      HPOTerm: Failure to thrive
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001824
-      HPOTerm: Weight loss
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001944
-      HPOTerm: Dehydration
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003074
-      HPOTerm: Hyperglycemia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003076
-      HPOTerm: Glycosuria
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0006274
-      HPOTerm: Reduced pancreatic beta cells
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0011106
-      HPOTerm: Hypovolemia
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000488
       HPOTerm: Retinopathy
@@ -250,6 +218,38 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002123
       HPOTerm: Generalized myoclonic seizure
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000857
+      HPOTerm: Neonatal insulin-dependent diabetes mellitus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001824
+      HPOTerm: Weight loss
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001944
+      HPOTerm: Dehydration
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003074
+      HPOTerm: Hyperglycemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003076
+      HPOTerm: Glycosuria
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0006274
+      HPOTerm: Reduced pancreatic beta cells
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011106
+      HPOTerm: Hypovolemia
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
@@ -308,7 +308,6 @@ Orphapacket:
       Source: 10798084[PMID]
       ValMoy: no data
   Synonyms:
-  - Synonym: Monogenic diabetes of infancy
   - Synonym: Isolated PNDM
   TextSection:
     Contents: Permanent neonatal diabetes mellitus (PNDM) is a monogenic form of neonatal
@@ -320,6 +319,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

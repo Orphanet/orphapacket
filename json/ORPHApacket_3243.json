@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "3243",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "3243",
         "Label": "Sweet syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_3243",
@@ -30,6 +30,27 @@
         "Genes": [
             {
                 "Gene": {
+                    "Symbol": "MEFV",
+                    "Name": "MEFV innate immunity regulator, pyrin",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "MEFV"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "6998"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "608107"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
                     "Symbol": "PTPN6",
                     "Name": "protein tyrosine phosphatase non-receptor type 6",
                     "ExternalReferences": [
@@ -44,51 +65,22 @@
                     ],
                     "DisorderGeneAssociationType": "Major susceptibility factor in"
                 }
-            },
-            {
-                "Gene": {
-                    "Symbol": "MEFV",
-                    "Name": "MEFV innate immunity regulator, pyrin",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "6998"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "608107"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "MEFV"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
             }
         ],
         "Parents": [
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "622720",
-                        "Label": "Genetic autoinflammatory syndrome with skin involvement"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "619238",
-                        "Label": "Rare hereditary autoinflammatory disease"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
                         "ORPHAcode": "290842",
                         "Label": "Autoinflammatory syndrome with skin involvement"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "324927",
+                        "Label": "Pyogenic autoinflammatory syndrome"
                     }
                 ]
             },
@@ -103,20 +95,21 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "324927",
-                        "Label": "Pyogenic autoinflammatory syndrome"
+                        "ORPHAcode": "619238",
+                        "Label": "Rare hereditary autoinflammatory disease"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "622720",
+                        "Label": "Genetic autoinflammatory syndrome with skin involvement"
                     }
                 ]
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003565",
-                    "HPOTerm": "Elevated erythrocyte sedimentation rate",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0012531",
@@ -183,7 +176,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0001974",
-                    "HPOTerm": "Leukocytosis",
+                    "HPOTerm": "Increased total leukocyte count",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -269,6 +262,13 @@
                     "HPOId": "HP:0002037",
                     "HPOTerm": "Inflammation of the large intestine",
                     "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003565",
+                    "HPOTerm": "Elevated erythrocyte sedimentation rate",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {

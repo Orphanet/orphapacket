@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "52416",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "52416",
         "Label": "Mantle cell lymphoma",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_52416",
@@ -33,16 +33,16 @@
                     "Name": "cyclin D1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "CCND1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "1582"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "168461"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CCND1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
@@ -75,6 +75,14 @@
                     "Name": "immunoglobulin heavy locus",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "IGH@"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "5477"
+                        },
+                        {
                             "Source": "OMIM",
                             "Reference": "146910"
                         },
@@ -83,16 +91,8 @@
                             "Reference": "147010"
                         },
                         {
-                            "Source": "ClinVar",
-                            "Reference": "IGH@"
-                        },
-                        {
                             "Source": "OMIM",
                             "Reference": "147070"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "5477"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
@@ -110,6 +110,20 @@
             }
         ],
         "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001945",
+                    "HPOTerm": "Fever",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012191",
+                    "HPOTerm": "B-cell lymphoma",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0001744",
@@ -158,26 +172,22 @@
                     "HPOTerm": "Fatigue",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001945",
-                    "HPOTerm": "Fever",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012191",
-                    "HPOTerm": "B-cell lymphoma",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
             }
         ],
         "Prevalences": [
             {
                 "Prevalence": {
-                    "Source": "28444739[PMID]_SEER Surveillance Epidemiology and End Results 2007-2013[INST]",
+                    "Source": "OTHERitut National du Cancer 2013[OTHER]",
+                    "PrevalenceType": "Annual incidence",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 100 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "France"
+                }
+            },
+            {
+                "Prevalence": {
+                    "Source": "28444739[PMID]_SEER Surveillance Epidemiology and End Results 2007-2013[OTHER]",
                     "PrevalenceType": "Annual incidence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 1 000 000",
@@ -187,22 +197,12 @@
             },
             {
                 "Prevalence": {
-                    "Source": "[EXPERT]_European Medicines Agency 2015[INST]",
+                    "Source": "[EXPERT]_European Medicines Agency 2015[OTHER]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 100 000",
                     "ValMoy": "no data",
                     "PrevalenceGeographic": "Europe"
-                }
-            },
-            {
-                "Prevalence": {
-                    "Source": "Institut National du Cancer 2013[INST]",
-                    "PrevalenceType": "Annual incidence",
-                    "PrevalenceQualification": "Value and class",
-                    "PrevalenceClass": "1-9 / 100 000",
-                    "ValMoy": "no data",
-                    "PrevalenceGeographic": "France"
                 }
             }
         ],

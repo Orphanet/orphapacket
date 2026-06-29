@@ -5,6 +5,19 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
+          - Reference: '6998'
+            Source: HGNC
+          - Reference: '608107'
+            Source: OMIM
+          Label: MEFV innate immunity regulator, pyrin
+          Symbol: MEFV
+      Label: Familial Mediterranean fever
+      ORPHAcode: '342'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
           - Reference: '16400'
             Source: HGNC
           - Reference: '606416'
@@ -16,16 +29,17 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
           ExternalReferences:
-          - Reference: '6998'
+          - Reference: '2959'
             Source: HGNC
-          - Reference: '608107'
+          - Reference: '602244'
             Source: OMIM
-          Label: MEFV innate immunity regulator, pyrin
-          Symbol: MEFV
-      Label: Familial Mediterranean fever
-      ORPHAcode: '342'
+          Label: deoxyribonuclease 1L3
+          Symbol: DNASE1L3
+      Label: Hypocomplementemic urticarial vasculitis
+      ORPHAcode: '36412'
   - Child:
       Genes: no data
       Label: Hereditary amyloidosis with primary renal involvement
@@ -43,20 +57,6 @@ Orphapacket:
           Symbol: COPA
       Label: Autoimmune interstitial lung disease-arthritis syndrome
       ORPHAcode: '444092'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
-            of function) in
-          ExternalReferences:
-          - Reference: '2959'
-            Source: HGNC
-          - Reference: '602244'
-            Source: OMIM
-          Label: deoxyribonuclease 1L3
-          Symbol: DNASE1L3
-      Label: Hypocomplementemic urticarial vasculitis
-      ORPHAcode: '36412'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -66,11 +66,11 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_567556
   Parents:
   - Parent:
-    - Label: Systemic disease with glomerulopathy as a major feature
-      ORPHAcode: '567554'
-  - Parent:
     - Label: Genetic glomerular disease
       ORPHAcode: '183586'
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  - Parent:
+    - Label: Systemic disease with glomerulopathy as a major feature
+      ORPHAcode: '567554'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

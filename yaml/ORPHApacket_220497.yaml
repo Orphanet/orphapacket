@@ -5,8 +5,8 @@ Orphapacket:
   - AverageAgeOfOnset:
       value: Neonatal
   DisorderType:
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-    value: Malformation syndrome
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
   ExternalReferences:
   - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
@@ -48,12 +48,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TMEM237
+        Source: ClinVar
       - Reference: '14432'
         Source: HGNC
       - Reference: '614423'
         Source: OMIM
-      - Reference: TMEM237
-        Source: ClinVar
       Name: transmembrane protein 237
       Symbol: TMEM237
   Label: Joubert syndrome with renal defect
@@ -62,30 +62,24 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_220497
   Parents:
   - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-      ORPHAcode: '102283'
-  - Parent:
-    - Label: Joubert syndrome and related disorders
-      ORPHAcode: '140874'
-  - Parent:
-    - Label: Syndrome with a cerebellar malformation as a major feature
-      ORPHAcode: '269523'
-  - Parent:
     - Label: Genetic cystic renal disease
       ORPHAcode: '93587'
-  - Parent:
-    - Label: Genetic syndrome with a cerebellar malformation as a major feature
-      ORPHAcode: '269567'
-  - Parent:
-    - Label: Retinal ciliopathy due to mutation in nephronophthisis gene
-      ORPHAcode: '156180'
   - Parent:
     - Label: Renal ciliopathy
       ORPHAcode: '156162'
   - Parent:
+    - Label: Retinal ciliopathy due to mutation in nephronophthisis gene
+      ORPHAcode: '156180'
+  - Parent:
+    - Label: Joubert syndrome
+      ORPHAcode: '140874'
+  - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
       ORPHAcode: '611327'
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
   - Parent:
     - Label: Rare disorder potentially indicated for kidney transplant
       ORPHAcode: '506213'
@@ -252,6 +246,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

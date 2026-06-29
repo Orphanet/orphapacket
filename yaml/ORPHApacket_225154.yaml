@@ -17,26 +17,22 @@ Orphapacket:
         to represent it)
       Reference: '500003'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620427'
+      Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '17359'
-        Source: HGNC
-      - Reference: '607607'
-        Source: OMIM
-      Name: nucleoporin 54
-      Symbol: NUP54
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: ADAR
+        Source: ClinVar
       - Reference: '225'
         Source: HGNC
       - Reference: '146920'
         Source: OMIM
-      - Reference: ADAR
-        Source: ClinVar
       Name: adenosine deaminase RNA specific
       Symbol: ADAR
   - Gene:
@@ -53,14 +49,23 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: NUP62
+        Source: ClinVar
       - Reference: '8066'
         Source: HGNC
       - Reference: '605815'
         Source: OMIM
-      - Reference: NUP62
-        Source: ClinVar
       Name: nucleoporin 62
       Symbol: NUP62
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '17359'
+        Source: HGNC
+      - Reference: '607607'
+        Source: OMIM
+      Name: nucleoporin 54
+      Symbol: NUP54
   Label: Familial infantile bilateral striatal necrosis
   ORPHAcode: '225154'
   ORPHApacketId: '225154'
@@ -70,6 +75,34 @@ Orphapacket:
     - Label: Infantile bilateral striatal necrosis
       ORPHAcode: '1576'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001288
+      HPOTerm: Gait disturbance
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001332
+      HPOTerm: Dystonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001347
+      HPOTerm: Hyperreflexia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002015
+      HPOTerm: Dysphagia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002066
+      HPOTerm: Gait ataxia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002167
+      HPOTerm: Abnormality of speech or vocalization
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002273
@@ -186,34 +219,6 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001285
       HPOTerm: Spastic tetraparesis
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001288
-      HPOTerm: Gait disturbance
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001332
-      HPOTerm: Dystonia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001347
-      HPOTerm: Hyperreflexia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001508
-      HPOTerm: Failure to thrive
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002015
-      HPOTerm: Dysphagia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002066
-      HPOTerm: Gait ataxia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002167
-      HPOTerm: Abnormality of speech or vocalization
   Prevalences:
     Prevalence:
     - PrevalenceClass: <1 / 1 000 000
@@ -240,6 +245,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: Mitochondrial inheritance
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

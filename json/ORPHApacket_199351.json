@@ -1,11 +1,11 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "199351",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "199351",
-        "Label": "Adult-onset dystonia-parkinsonism",
+        "Label": "PLA2G6-related neurodegeneration, adult-onset",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_199351",
         "DisorderType": {
             "value": "Disease",
@@ -20,6 +20,18 @@
             },
             {
                 "Synonym": "PLA2G6-related dystonia-parkinsonism"
+            },
+            {
+                "Synonym": "PLA2G6-associated neurodegeneration, adult-onset"
+            },
+            {
+                "Synonym": "Adult-onset dystonia-parkinsonism"
+            },
+            {
+                "Synonym": "Adult PLAN"
+            },
+            {
+                "Synonym": "Adult phospholipase A2-associated neurodegeneration"
             }
         ],
         "ExternalReferences": [
@@ -40,16 +52,16 @@
                     "Name": "phospholipase A2 group VI",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "PLA2G6"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "9039"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "603604"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "PLA2G6"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -60,16 +72,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "329303",
-                        "Label": "PLA2G6-associated neurodegeneration"
+                        "ORPHAcode": "307055",
+                        "Label": "Rare parkinsonian syndrome due to genetic neurodegenerative disease"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "306666",
-                        "Label": "Rare parkinsonian syndrome due to neurodegenerative disease"
+                        "ORPHAcode": "329303",
+                        "Label": "PLA2G6-related neurodegeneration"
                     }
                 ]
             },
@@ -84,13 +96,27 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "307055",
-                        "Label": "Rare parkinsonian syndrome due to genetic neurodegenerative disease"
+                        "ORPHAcode": "306666",
+                        "Label": "Rare parkinsonian syndrome due to neurodegenerative disease"
                     }
                 ]
             }
         ],
         "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011999",
+                    "HPOTerm": "Paranoia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012675",
+                    "HPOTerm": "Iron accumulation in brain",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000338",
@@ -298,20 +324,6 @@
                 "Phenotype": {
                     "HPOId": "HP:0001336",
                     "HPOTerm": "Myoclonus",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011999",
-                    "HPOTerm": "Paranoia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012675",
-                    "HPOTerm": "Iron accumulation in brain",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             }

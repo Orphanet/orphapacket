@@ -1,4 +1,7 @@
 Orphapacket:
+  AverageAgeOfOnsets:
+    AverageAgeOfOnset:
+    - value: Adult
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
@@ -6,21 +9,43 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: DNAJB6
+        Source: ClinVar
       - Reference: '14888'
         Source: HGNC
       - Reference: '611332'
         Source: OMIM
-      - Reference: DNAJB6
-        Source: ClinVar
       Name: DnaJ heat shock protein family (Hsp40) member B6
       Symbol: DNAJB6
   Label: DNAJB6-related distal myopathy
   ORPHAcode: '708126'
   ORPHApacketId: '708126'
   PURL: http://www.orpha.net/ORDO/Orphanet_708126
+  Parents:
+  - Parent:
+    - Label: Myofibrillar myopathy
+      ORPHAcode: '593'
+  - Parent:
+    - Label: Autosomal dominant distal myopathy
+      ORPHAcode: '206650'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case(s)
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

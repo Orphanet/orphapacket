@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "225154",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "225154",
         "Label": "Familial infantile bilateral striatal necrosis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_225154",
@@ -36,6 +36,13 @@
                     "Reference": "500003",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "620427",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -45,26 +52,13 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "NUP54",
-                    "Name": "nucleoporin 54",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "17359"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "607607"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "ADAR",
                     "Name": "adenosine deaminase RNA specific",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "ADAR"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "225"
@@ -72,10 +66,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "146920"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "ADAR"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
@@ -108,16 +98,33 @@
                     "Name": "nucleoporin 62",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "NUP62"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "8066"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "605815"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "NUP54",
+                    "Name": "nucleoporin 54",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "17359"
                         },
                         {
-                            "Source": "ClinVar",
-                            "Reference": "NUP62"
+                            "Source": "OMIM",
+                            "Reference": "607607"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -135,6 +142,55 @@
             }
         ],
         "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001288",
+                    "HPOTerm": "Gait disturbance",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001332",
+                    "HPOTerm": "Dystonia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001347",
+                    "HPOTerm": "Hyperreflexia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001508",
+                    "HPOTerm": "Failure to thrive",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002015",
+                    "HPOTerm": "Dysphagia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002066",
+                    "HPOTerm": "Gait ataxia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002167",
+                    "HPOTerm": "Abnormality of speech or vocalization",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0002273",
@@ -335,55 +391,6 @@
                 "Phenotype": {
                     "HPOId": "HP:0001285",
                     "HPOTerm": "Spastic tetraparesis",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001288",
-                    "HPOTerm": "Gait disturbance",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001332",
-                    "HPOTerm": "Dystonia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001347",
-                    "HPOTerm": "Hyperreflexia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001508",
-                    "HPOTerm": "Failure to thrive",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002015",
-                    "HPOTerm": "Dysphagia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002066",
-                    "HPOTerm": "Gait ataxia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002167",
-                    "HPOTerm": "Abnormality of speech or vocalization",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             }

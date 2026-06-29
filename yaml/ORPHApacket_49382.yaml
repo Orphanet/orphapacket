@@ -41,17 +41,6 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '8787'
-        Source: HGNC
-      - Reference: '600827'
-        Source: OMIM
-      - Reference: PDE6C
-        Source: ClinVar
-      Name: phosphodiesterase 6C
-      Symbol: PDE6C
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: CNGA3
         Source: ClinVar
       - Reference: '2150'
@@ -74,17 +63,6 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '8790'
-        Source: HGNC
-      - Reference: '601190'
-        Source: OMIM
-      - Reference: PDE6H
-        Source: ClinVar
-      Name: phosphodiesterase 6H
-      Symbol: PDE6H
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: GNAT2
         Source: ClinVar
       - Reference: '4394'
@@ -94,15 +72,37 @@ Orphapacket:
       Name: G protein subunit alpha transducin 2
       Symbol: GNAT2
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: PDE6H
+        Source: ClinVar
+      - Reference: '8790'
+        Source: HGNC
+      - Reference: '601190'
+        Source: OMIM
+      Name: phosphodiesterase 6H
+      Symbol: PDE6H
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: PDE6C
+        Source: ClinVar
+      - Reference: '8787'
+        Source: HGNC
+      - Reference: '600827'
+        Source: OMIM
+      Name: phosphodiesterase 6C
+      Symbol: PDE6C
+  - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: ATF6
+        Source: ClinVar
       - Reference: '791'
         Source: HGNC
       - Reference: '605537'
         Source: OMIM
-      - Reference: ATF6
-        Source: ClinVar
       Name: activating transcription factor 6
       Symbol: ATF6
   Label: Achromatopsia
@@ -111,11 +111,11 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_49382
   Parents:
   - Parent:
-    - Label: Rare isolated non-progressive generalized retinal disorder
-      ORPHAcode: '716367'
-  - Parent:
     - Label: Color-vision disease
       ORPHAcode: '98658'
+  - Parent:
+    - Label: Rare isolated non-progressive generalized retinal disorder
+      ORPHAcode: '716367'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -220,6 +220,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "65",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "65",
         "Label": "Leber congenital amaurosis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_65",
@@ -62,8 +62,22 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
+                    "Reference": "608133",
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
                     "Reference": "608553",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "610125",
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
                 }
             },
             {
@@ -133,7 +147,7 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "614186",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
                 }
             },
             {
@@ -146,14 +160,14 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "618513",
+                    "Reference": "617879",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "617879",
+                    "Reference": "618513",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
@@ -165,117 +179,20 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "USP45",
-                    "Name": "ubiquitin specific peptidase 45",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "20080"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "618439"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "TUBB4B",
-                    "Name": "tubulin beta 4B class IVb",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "20771"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "602660"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "SPATA7",
-                    "Name": "spermatogenesis associated 7",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "20423"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "609868"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "SPATA7"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "GDF6",
-                    "Name": "growth differentiation factor 6",
+                    "Symbol": "PRPH2",
+                    "Name": "peripherin 2",
                     "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "GDF6"
+                            "Reference": "PRPH2"
                         },
                         {
                             "Source": "HGNC",
-                            "Reference": "4221"
+                            "Reference": "9942"
                         },
                         {
                             "Source": "OMIM",
-                            "Reference": "601147"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "IFT140",
-                    "Name": "intraflagellar transport 140",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "29077"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "614620"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "IFT140"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "NMNAT1",
-                    "Name": "nicotinamide nucleotide adenylyltransferase 1",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "NMNAT1"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "17877"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "608700"
+                            "Reference": "179605"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -329,16 +246,16 @@
                     "Name": "retinoid isomerohydrolase RPE65",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "RPE65"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "10294"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "180069"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "RPE65"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -350,19 +267,40 @@
                     "Name": "RPGR interacting protein 1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "RPGRIP1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "13436"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "605446"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "RPGRIP1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "CABP4",
+                    "Name": "calcium binding protein 4",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "CABP4"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "1386"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "608965"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
@@ -392,16 +330,37 @@
                     "Name": "AIP like 1 HSP90 co-chaperone",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "AIPL1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "359"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "604392"
-                        },
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "ALMS1",
+                    "Name": "ALMS1 centrosome and basal body associated protein",
+                    "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "AIPL1"
+                            "Reference": "ALMS1"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "428"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "606844"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -413,16 +372,16 @@
                     "Name": "TUB like protein 1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "TULP1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "12423"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "602280"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TULP1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -434,16 +393,16 @@
                     "Name": "crumbs cell polarity complex component 1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "CRB1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "2343"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "604210"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CRB1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -535,6 +494,27 @@
             },
             {
                 "Gene": {
+                    "Symbol": "OTX2",
+                    "Name": "orthodenticle homeobox 2",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "OTX2"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "8522"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "600037"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
                     "Symbol": "LCA5",
                     "Name": "lebercilin LCA5",
                     "ExternalReferences": [
@@ -560,16 +540,16 @@
                     "Name": "potassium inwardly rectifying channel subfamily J member 13",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "KCNJ13"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "6259"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "603208"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "KCNJ13"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -598,9 +578,97 @@
             },
             {
                 "Gene": {
+                    "Symbol": "SPATA7",
+                    "Name": "spermatogenesis associated 7",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "SPATA7"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "20423"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "609868"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "GDF6",
+                    "Name": "growth differentiation factor 6",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "GDF6"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "4221"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "601147"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "IFT140",
+                    "Name": "intraflagellar transport 140",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "IFT140"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "29077"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "614620"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "NMNAT1",
+                    "Name": "nicotinamide nucleotide adenylyltransferase 1",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "NMNAT1"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "17877"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "608700"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
                     "Symbol": "PCYT1A",
                     "Name": "phosphate cytidylyltransferase 1A, choline",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "PCYT1A"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "8754"
@@ -608,13 +676,43 @@
                         {
                             "Source": "OMIM",
                             "Reference": "123695"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "PCYT1A"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "USP45",
+                    "Name": "ubiquitin specific peptidase 45",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "20080"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "618439"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "TUBB4B",
+                    "Name": "tubulin beta 4B class IVb",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "20771"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "602660"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             }
         ],
@@ -622,8 +720,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "716410",
-                        "Label": "Rare isolated progressive generalized retinal disorder"
+                        "ORPHAcode": "98641",
+                        "Label": "Syndromic cataract"
                     }
                 ]
             },
@@ -632,14 +730,6 @@
                     {
                         "ORPHAcode": "98622",
                         "Label": "Syndromic hyperopia"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "98641",
-                        "Label": "Syndromic cataract"
                     }
                 ]
             },
@@ -662,16 +752,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "611314",
-                        "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
+                        "ORPHAcode": "522548",
+                        "Label": "Syndromic genetic cataract"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "522548",
-                        "Label": "Syndromic genetic cataract"
+                        "ORPHAcode": "611314",
+                        "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
                     }
                 ]
             }
@@ -856,7 +946,7 @@
         "Prevalences": [
             {
                 "Prevalence": {
-                    "Source": "European Medicines Agency 2015[INST]",
+                    "Source": "European Medicines Agency 2015[OTHER]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "1-9 / 100 000",

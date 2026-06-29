@@ -7,25 +7,25 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '619350'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
         used to represent it)
       Reference: '155310'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '619350'
       Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: ACTG2
+        Source: ClinVar
       - Reference: '145'
         Source: HGNC
       - Reference: '102545'
         Source: OMIM
-      - Reference: ACTG2
-        Source: ClinVar
       Name: actin gamma 2, smooth muscle
       Symbol: ACTG2
   Label: Familial visceral myopathy
@@ -41,6 +41,26 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000358
       HPOTerm: Posteriorly rotated ears
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001537
+      HPOTerm: Umbilical hernia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001798
+      HPOTerm: Anonychia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002251
+      HPOTerm: Aganglionic megacolon
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003363
+      HPOTerm: Abdominal situs inversus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030680
+      HPOTerm: Abnormal cardiovascular system morphology
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000021
@@ -107,26 +127,6 @@ Orphapacket:
       HPOTerm: Joint stiffness
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001537
-      HPOTerm: Umbilical hernia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001798
-      HPOTerm: Anonychia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002251
-      HPOTerm: Aganglionic megacolon
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003363
-      HPOTerm: Abdominal situs inversus
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0030680
-      HPOTerm: Abnormal cardiovascular system morphology
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0100490
       HPOTerm: Camptodactyly of finger
   Prevalences:
@@ -143,14 +143,14 @@ Orphapacket:
   - Synonym: Megaduodenum and/or megacystis
   TextSection:
     Contents: Familial visceral myopathy is a rare hereditary myopathic degeneration
-      of both gastrointestinal and urinary tracts that causes chronic intestinal pseudo-obstruction.
-      It usually presents after the first decade of life with megaduodenum megacystis
-      and symptoms such as abdominal distension and/or pain vomiting constipation
-      diarrhea dysphagia and/or urinary tract infections.
+      of both gastrointestinal and urinary tracts that may cause chronic intestinal
+      pseudo-obstruction. It usually presents after the first decade of life with
+      megaduodenum megacystis and symptoms such as abdominal distension and/or pain
+      vomiting constipation diarrhea dysphagia and/or urinary tract infections.
     TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -8,10 +8,21 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
     value: Clinical subtype
   ExternalReferences:
-  - DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code used
-      to represent it)
-    Reference: '605899'
-    Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
+      Reference: '605899'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
+      Reference: '620398'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
+      Reference: '620423'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
@@ -39,12 +50,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: GLDC
+        Source: ClinVar
       - Reference: '4313'
         Source: HGNC
       - Reference: '238300'
         Source: OMIM
-      - Reference: GLDC
-        Source: ClinVar
       Name: glycine decarboxylase
       Symbol: GLDC
   Label: Neonatal glycine encephalopathy
@@ -75,6 +86,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

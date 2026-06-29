@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2268",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "2268",
         "Label": "ICF syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2268",
@@ -13,17 +13,24 @@
         },
         "Synonyms": [
             {
-                "Synonym": "Immunodeficiency-centromeric instability-facial dysmorphism syndrome"
+                "Synonym": "Immunodeficiency-centromeric instability-facial anomalies syndrome"
             },
             {
-                "Synonym": "Immunodeficiency-centromeric instability-facial anomalies syndrome"
+                "Synonym": "Immunodeficiency-centromeric instability-facial dysmorphism syndrome"
             }
         ],
         "ExternalReferences": [
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "616911",
+                    "Reference": "242860",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "614069",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
@@ -37,14 +44,7 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "242860",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "614069",
+                    "Reference": "616911",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
@@ -102,16 +102,16 @@
                     "Name": "cell division cycle associated 7",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "CDCA7"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "14628"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "609937"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CDCA7"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -123,16 +123,16 @@
                     "Name": "helicase, lymphoid specific",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "HELLS"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "4861"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "603946"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "HELLS"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -144,12 +144,12 @@
                     "Name": "ubiquitin like with PHD and ring finger domains 1",
                     "ExternalReferences": [
                         {
-                            "Source": "OMIM",
-                            "Reference": "607990"
-                        },
-                        {
                             "Source": "HGNC",
                             "Reference": "12556"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "607990"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -170,6 +170,14 @@
                     {
                         "ORPHAcode": "611314",
                         "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "717757",
+                        "Label": "Rare immune disease with inflammatory bowel disease"
                     }
                 ]
             }

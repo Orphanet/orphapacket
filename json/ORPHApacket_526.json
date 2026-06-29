@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "526",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "526",
         "Label": "Liddle syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_526",
@@ -20,6 +20,13 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
+                    "Reference": "177200",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
                     "Reference": "618114",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
@@ -30,13 +37,6 @@
                     "Reference": "618126",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "177200",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
             }
         ],
         "TextSection": {
@@ -44,6 +44,27 @@
             "Contents": "A rare genetic form of low-renin hypertension characterized by hypertension associated with decreased plasma levels of potassium and aldosterone."
         },
         "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "SCNN1A",
+                    "Name": "sodium channel epithelial 1 subunit alpha",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "SCNN1A"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "10599"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "600228"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
+                }
+            },
             {
                 "Gene": {
                     "Symbol": "SCNN1B",
@@ -81,27 +102,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "600761"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "SCNN1A",
-                    "Name": "sodium channel epithelial 1 subunit alpha",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "SCNN1A"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "10599"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "600228"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"

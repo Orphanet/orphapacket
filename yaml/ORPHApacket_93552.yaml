@@ -13,50 +13,50 @@ Orphapacket:
     value: Disease
   Genes:
   - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '10540'
-        Source: HGNC
-      - Reference: '313020'
-        Source: OMIM
-      - Reference: SAT1
-        Source: ClinVar
-      Name: spermidine/spermine N1-acetyltransferase 1
-      Symbol: SAT1
-  - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
+      - Reference: STAT4
+        Source: ClinVar
       - Reference: '11365'
         Source: HGNC
       - Reference: '600558'
         Source: OMIM
-      - Reference: STAT4
-        Source: ClinVar
       Name: signal transducer and activator of transcription 4
       Symbol: STAT4
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
+      - Reference: SPP1
+        Source: ClinVar
       - Reference: '11255'
         Source: HGNC
       - Reference: '166490'
         Source: OMIM
-      - Reference: SPP1
-        Source: ClinVar
       Name: secreted phosphoprotein 1
       Symbol: SPP1
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
+      - Reference: IRAK1
+        Source: ClinVar
       - Reference: '6112'
         Source: HGNC
       - Reference: '300283'
         Source: OMIM
-      - Reference: IRAK1
-        Source: ClinVar
       Name: interleukin 1 receptor associated kinase 1
       Symbol: IRAK1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: SAT1
+        Source: ClinVar
+      - Reference: '10540'
+        Source: HGNC
+      - Reference: '313020'
+        Source: OMIM
+      Name: spermidine/spermine N1-acetyltransferase 1
+      Symbol: SAT1
   Label: Pediatric systemic lupus erythematosus
   ORPHAcode: '93552'
   ORPHApacketId: '93552'
@@ -85,66 +85,6 @@ Orphapacket:
     - Label: Rare pediatric systemic disease
       ORPHAcode: '280373'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003565
-      HPOTerm: Elevated erythrocyte sedimentation rate
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0005421
-      HPOTerm: Decreased circulating complement C3 concentration
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0045042
-      HPOTerm: Decreased circulating complement C4 concentration
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000079
-      HPOTerm: Abnormality of the urinary system
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000083
-      HPOTerm: Renal insufficiency
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000093
-      HPOTerm: Proteinuria
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000100
-      HPOTerm: Nephrotic syndrome
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000123
-      HPOTerm: Nephritis
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000790
-      HPOTerm: Hematuria
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000951
-      HPOTerm: Abnormality of the skin
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000969
-      HPOTerm: Edema
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000988
-      HPOTerm: Skin rash
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001698
-      HPOTerm: Pericardial effusion
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001873
-      HPOTerm: Thrombocytopenia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001882
-      HPOTerm: Leukopenia
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001888
@@ -248,7 +188,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0004372
-      HPOTerm: Reduced consciousness/confusion
+      HPOTerm: Reduced consciousness
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0007417
@@ -297,6 +237,66 @@ Orphapacket:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0100749
       HPOTerm: Chest pain
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003565
+      HPOTerm: Elevated erythrocyte sedimentation rate
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0005421
+      HPOTerm: Decreased circulating complement C3 concentration
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0045042
+      HPOTerm: Decreased circulating complement C4 concentration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000079
+      HPOTerm: Abnormality of the urinary system
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000083
+      HPOTerm: Renal insufficiency
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000093
+      HPOTerm: Proteinuria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000100
+      HPOTerm: Nephrotic syndrome
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000123
+      HPOTerm: Nephritis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000790
+      HPOTerm: Hematuria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000951
+      HPOTerm: Abnormality of the skin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000969
+      HPOTerm: Edema
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000988
+      HPOTerm: Skin rash
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001698
+      HPOTerm: Pericardial effusion
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001873
+      HPOTerm: Thrombocytopenia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001882
+      HPOTerm: Leukopenia
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -325,6 +325,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

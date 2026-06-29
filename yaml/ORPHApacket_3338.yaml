@@ -16,12 +16,12 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: DDX3X
+        Source: ClinVar
       - Reference: '2745'
         Source: HGNC
       - Reference: '300160'
         Source: OMIM
-      - Reference: DDX3X
-        Source: ClinVar
       Name: DEAD-box helicase 3 X-linked
       Symbol: DDX3X
   Label: Toriello-Carey syndrome
@@ -29,6 +29,12 @@ Orphapacket:
   ORPHApacketId: '3338'
   PURL: http://www.orpha.net/ORDO/Orphanet_3338
   Parents:
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
+  - Parent:
+    - Label: Syndrome with corpus callosum agenesis/dysgenesis as a major feature
+      ORPHAcode: '199639'
   - Parent:
     - Label: Orofacial clefting syndrome
       ORPHAcode: '139039'
@@ -40,101 +46,7 @@ Orphapacket:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
       ORPHAcode: '611327'
-  - Parent:
-    - Label: Syndrome with corpus callosum agenesis/dysgenesis as a major feature
-      ORPHAcode: '199639'
-  - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-      ORPHAcode: '102283'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000347
-      HPOTerm: Micrognathia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000377
-      HPOTerm: Abnormal pinna morphology
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000506
-      HPOTerm: Telecanthus
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001273
-      HPOTerm: Abnormal corpus callosum morphology
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003196
-      HPOTerm: Short nose
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0012745
-      HPOTerm: Short palpebral fissure
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000028
-      HPOTerm: Cryptorchidism
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000174
-      HPOTerm: Abnormal palate morphology
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000175
-      HPOTerm: Cleft palate
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000260
-      HPOTerm: Wide anterior fontanel
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000293
-      HPOTerm: Full cheeks
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000365
-      HPOTerm: Hearing impairment
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000470
-      HPOTerm: Short neck
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001252
-      HPOTerm: Hypotonia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001274
-      HPOTerm: Agenesis of corpus callosum
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001545
-      HPOTerm: Anteriorly placed anus
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001671
-      HPOTerm: Abnormal cardiac septum morphology
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002251
-      HPOTerm: Aganglionic megacolon
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0004322
-      HPOTerm: Short stature
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000218
-      HPOTerm: High palate
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000252
-      HPOTerm: Microcephaly
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000369
@@ -231,6 +143,94 @@ Orphapacket:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0009892
       HPOTerm: Anotia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000347
+      HPOTerm: Micrognathia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000377
+      HPOTerm: Abnormal pinna morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000506
+      HPOTerm: Telecanthus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001273
+      HPOTerm: Abnormal corpus callosum morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003196
+      HPOTerm: Short nose
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0012745
+      HPOTerm: Short palpebral fissure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000028
+      HPOTerm: Cryptorchidism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000174
+      HPOTerm: Abnormal palate morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000175
+      HPOTerm: Cleft palate
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000260
+      HPOTerm: Wide anterior fontanel
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000293
+      HPOTerm: Full cheeks
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000365
+      HPOTerm: Hearing impairment
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000470
+      HPOTerm: Short neck
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001252
+      HPOTerm: Hypotonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001274
+      HPOTerm: Agenesis of corpus callosum
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001545
+      HPOTerm: Anteriorly placed anus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001671
+      HPOTerm: Abnormal cardiac septum morphology
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002251
+      HPOTerm: Aganglionic megacolon
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004322
+      HPOTerm: Short stature
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000218
+      HPOTerm: High palate
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000252
+      HPOTerm: Microcephaly
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -256,6 +256,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -15,23 +15,23 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PCCA
+        Source: ClinVar
       - Reference: '8653'
         Source: HGNC
       - Reference: '232000'
         Source: OMIM
-      - Reference: PCCA
-        Source: ClinVar
       Name: propionyl-CoA carboxylase subunit alpha
       Symbol: PCCA
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PCCB
+        Source: ClinVar
       - Reference: '8654'
         Source: HGNC
       - Reference: '232050'
         Source: OMIM
-      - Reference: PCCB
-        Source: ClinVar
       Name: propionyl-CoA carboxylase subunit beta
       Symbol: PCCB
   Label: Propionic acidemia
@@ -42,27 +42,10 @@ Orphapacket:
   - Parent:
     - Label: Classic organic aciduria
       ORPHAcode: '79163'
+  - Parent:
+    - Label: Neurometabolic disease
+      ORPHAcode: '68385'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001263
-      HPOTerm: Global developmental delay
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001638
-      HPOTerm: Cardiomyopathy
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001943
-      HPOTerm: Hypoglycemia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001987
-      HPOTerm: Hyperammonemia
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001992
@@ -87,6 +70,26 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0011675
       HPOTerm: Arrhythmia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001263
+      HPOTerm: Global developmental delay
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001638
+      HPOTerm: Cardiomyopathy
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001943
+      HPOTerm: Hypoglycemia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001987
+      HPOTerm: Hyperammonemia
   Prevalences:
   - Prevalence:
       PrevalenceClass: '>1 / 1000'
@@ -164,6 +167,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

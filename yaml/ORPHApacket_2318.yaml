@@ -5,8 +5,8 @@ Orphapacket:
   - AverageAgeOfOnset:
       value: Neonatal
   DisorderType:
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-    value: Malformation syndrome
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
   ExternalReferences:
   - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
@@ -79,46 +79,46 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TMEM237
+        Source: ClinVar
       - Reference: '14432'
         Source: HGNC
       - Reference: '614423'
         Source: OMIM
-      - Reference: TMEM237
-        Source: ClinVar
       Name: transmembrane protein 237
       Symbol: TMEM237
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: TMEM138
+        Source: ClinVar
       - Reference: '26944'
         Source: HGNC
       - Reference: '614459'
         Source: OMIM
-      - Reference: TMEM138
-        Source: ClinVar
       Name: transmembrane protein 138
       Symbol: TMEM138
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: ZNF423
+        Source: ClinVar
       - Reference: '16762'
         Source: HGNC
       - Reference: '604557'
         Source: OMIM
-      - Reference: ZNF423
-        Source: ClinVar
       Name: zinc finger protein 423
       Symbol: ZNF423
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TMEM231
+        Source: ClinVar
       - Reference: '37234'
         Source: HGNC
       - Reference: '614949'
         Source: OMIM
-      - Reference: TMEM231
-        Source: ClinVar
       Name: transmembrane protein 231
       Symbol: TMEM231
   Label: Joubert syndrome with oculorenal defect
@@ -130,28 +130,22 @@ Orphapacket:
     - Label: Genetic cystic renal disease
       ORPHAcode: '93587'
   - Parent:
-    - Label: Rare disorder with progressive generalized retinal disorder as a major
-        feature
-      ORPHAcode: '716405'
-  - Parent:
-    - Label: Joubert syndrome and related disorders
-      ORPHAcode: '140874'
-  - Parent:
     - Label: Renal ciliopathy
       ORPHAcode: '156162'
   - Parent:
-    - Label: Genetic syndrome with a cerebellar malformation as a major feature
-      ORPHAcode: '269567'
+    - Label: Joubert syndrome
+      ORPHAcode: '140874'
   - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
       ORPHAcode: '611327'
   - Parent:
+    - Label: Rare disorder with progressive generalized retinal disorder as a major
+        feature
+      ORPHAcode: '716405'
+  - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
-  - Parent:
-    - Label: Syndrome with a cerebellar malformation as a major feature
-      ORPHAcode: '269523'
   - Parent:
     - Label: Rare disorder potentially indicated for kidney transplant
       ORPHAcode: '506213'
@@ -322,11 +316,11 @@ Orphapacket:
   Synonyms:
   - Synonym: Arima syndrome
   - Synonym: CORS
+  - Synonym: Cerebellooculorenal syndrome
   - Synonym: Dekaban-Arima syndrome
   - Synonym: JS type B
   - Synonym: JS-OR
   - Synonym: Joubert syndrome with Senior-Loken syndrome
-  - Synonym: Cerebellooculorenal syndrome
   TextSection:
     Contents: A rare subtype of Joubert syndrome (JS) and related disorders (JSRD)
       characterized by the neurological features of JS associated with both renal
@@ -335,6 +329,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

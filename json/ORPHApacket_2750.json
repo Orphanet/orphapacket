@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2750",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "2750",
         "Label": "Orofaciodigital syndrome type 1",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2750",
@@ -37,7 +37,7 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Oral-facial-digital syndrome type 1 (OFD1) is a rare neurodevelopmental disorder in the ciliopathy group that is lethal in males and characterized by variable anomalies including external malformations (craniofacial and digital) and possible involvement of the central nervous system (CNS) and of viscera (kidneys pancreas and ovaries) in females."
+            "Contents": "A rare neurodevelopmental disorder in the ciliopathy group characterized by variable anomalies in affected females including external malformations (craniofacial and digital) and possible involvement of the central nervous system (CNS) and viscera (kidneys pancreas and ovaries). In males it is mostly lethal typically during the first or second trimester of pregnancy."
         },
         "Genes": [
             {
@@ -46,16 +46,16 @@
                     "Name": "OFD1 centriole and centriolar satellite protein",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "OFD1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "2567"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "300170"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "OFD1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
@@ -82,8 +82,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "93547",
-                        "Label": "Syndromic renal or urinary tract malformation"
+                        "ORPHAcode": "90642",
+                        "Label": "Rare syndromic genetic deafness"
                     }
                 ]
             },
@@ -98,8 +98,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "90642",
-                        "Label": "Rare syndromic genetic deafness"
+                        "ORPHAcode": "611327",
+                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "93547",
+                        "Label": "Syndromic renal or urinary tract malformation"
                     }
                 ]
             },
@@ -118,24 +126,9 @@
                         "Label": "Genetic sebaceous gland anomaly"
                     }
                 ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "611327",
-                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
-                    }
-                ]
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000161",
-                    "HPOTerm": "Median cleft lip",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000180",
@@ -583,6 +576,13 @@
                     "HPOTerm": "Odontogenic neoplasm",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000161",
+                    "HPOTerm": "Median cleft lip",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
             }
         ],
         "Prevalences": [
@@ -634,17 +634,12 @@
                 }
             }
         ],
-        "TypeOfInheritances": [
-            {
-                "TypeOfInheritance": {
-                    "value": "Not applicable"
-                }
-            },
-            {
-                "TypeOfInheritance": {
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
                     "value": "X-linked dominant"
                 }
-            }
-        ]
+            ]
+        }
     }
 }

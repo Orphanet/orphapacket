@@ -105,10 +105,10 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '123630'
-            Source: OMIM
           - Reference: '2400'
             Source: HGNC
+          - Reference: '123630'
+            Source: OMIM
           Label: crystallin beta B3
           Symbol: CRYBB3
       - Gene:
@@ -269,15 +269,6 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '21244'
-            Source: HGNC
-          - Reference: '616312'
-            Source: OMIM
-          Label: LEM domain nuclear envelope protein 2
-          Symbol: LEMD2
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
           - Reference: '2398'
             Source: HGNC
           - Reference: '123620'
@@ -312,12 +303,31 @@ Orphapacket:
             Source: OMIM
           Label: unc-45 myosin chaperone B
           Symbol: UNC45B
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '21244'
+            Source: HGNC
+          - Reference: '616312'
+            Source: OMIM
+          Label: LEM domain nuclear envelope protein 2
+          Symbol: LEMD2
       Label: Early-onset posterior subcapsular cataract
       ORPHAcode: '441447'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377796
     value: Clinical subtype
   ExternalReferences:
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '115660'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '115800'
+      Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
@@ -363,16 +373,6 @@ Orphapacket:
         to represent it)
       Reference: '614422'
       Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '115660'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '115800'
-      Source: OMIM
   Label: Early-onset partial cataract
   ORPHAcode: '98992'
   ORPHApacketId: '98992'
@@ -388,6 +388,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

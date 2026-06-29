@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "329931",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "329931",
         "Label": "C3 glomerulonephritis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_329931",
@@ -13,9 +13,18 @@
         },
         "ExternalReferences": [
             {
-                "Source": "OMIM",
-                "Reference": "614809",
-                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "609814",
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "614809",
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -23,6 +32,27 @@
             "Contents": "A histological subtype of C3 glomerulopathy characterized by C3 deposition in renal tissue in the absence or near-absence of immunoglobulin deposits in a patient with the classic clinical features of glomerulonephritis and the electron microscopic findings of predominant subendothelial occasionally subepithelial (so-called ''humps'') and intramembranous deposits but without the typical electron-dense deposits of dense deposit disease."
         },
         "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "CFH",
+                    "Name": "complement factor H",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "CFH"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "4883"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "134370"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
             {
                 "Gene": {
                     "Symbol": "CFHR1",
@@ -39,27 +69,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "134371"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "CFHR5",
-                    "Name": "complement factor H related 5",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CFHR5"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "24668"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "608593"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -88,9 +97,34 @@
             },
             {
                 "Gene": {
+                    "Symbol": "CFHR5",
+                    "Name": "complement factor H related 5",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "CFHR5"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "24668"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "608593"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
                     "Symbol": "CFHR2",
                     "Name": "complement factor H related 2",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "CFHR2"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "4890"
@@ -98,10 +132,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "600889"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CFHR2"
                         }
                     ],
                     "DisorderGeneAssociationType": "Part of a fusion gene in"

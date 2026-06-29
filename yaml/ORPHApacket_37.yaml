@@ -16,12 +16,12 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: SLC39A4
+        Source: ClinVar
       - Reference: '17129'
         Source: HGNC
       - Reference: '607059'
         Source: OMIM
-      - Reference: SLC39A4
-        Source: ClinVar
       Name: solute carrier family 39 member 4
       Symbol: SLC39A4
   Label: Acrodermatitis enteropathica
@@ -29,6 +29,12 @@ Orphapacket:
   ORPHApacketId: '37'
   PURL: http://www.orpha.net/ORDO/Orphanet_37
   Parents:
+  - Parent:
+    - Label: Other metabolic disease with skin involvement
+      ORPHAcode: '79217'
+  - Parent:
+    - Label: Metabolic disease with skin involvement
+      ORPHAcode: '79387'
   - Parent:
     - Label: Rare developmental defect with skin/mucosae involvement
       ORPHAcode: '139027'
@@ -38,12 +44,6 @@ Orphapacket:
   - Parent:
     - Label: Genetic intestinal disease due to fat malabsorption
       ORPHAcode: '363306'
-  - Parent:
-    - Label: Metabolic disease with skin involvement
-      ORPHAcode: '79387'
-  - Parent:
-    - Label: Other metabolic disease with skin involvement
-      ORPHAcode: '79217'
   - Parent:
     - Label: Intestinal disease due to fat malabsorption
       ORPHAcode: '104005'
@@ -103,7 +103,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001597
-      HPOTerm: Abnormality of the nail
+      HPOTerm: Abnormal nail morphology
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001807
@@ -196,8 +196,8 @@ Orphapacket:
       ValMoy: no data
   Synonyms:
   - Synonym: AEZ
-  - Synonym: Inherited zinc deficiency
   - Synonym: Acrodermatitis enteropathica, zinc deficiency type
+  - Synonym: Inherited zinc deficiency
   TextSection:
     Contents: A rare inherited inborn error of metabolism resulting in a severe zinc
       deficiency and characterized by acral dermatitis alopecia diarrhea and growth
@@ -206,6 +206,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

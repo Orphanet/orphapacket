@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "675396",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "675396",
         "Label": "Epithelioid hemangioma",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_675396",
@@ -13,50 +13,19 @@
         },
         "Synonyms": [
             {
-                "Synonym": "EH"
+                "Synonym": "ALHE"
             },
             {
                 "Synonym": "Angiolymphoid hyperplasia with eosinophilia"
             },
             {
-                "Synonym": "ALHE"
+                "Synonym": "EH"
+            },
+            {
+                "Synonym": "Epithelioid haemangioma"
             }
         ],
         "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "FOSB",
-                    "Name": "FosB proto-oncogene, AP-1 transcription factor subunit",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "3797"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "164772"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Part of a fusion gene in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "ZFP36L2",
-                    "Name": "ZFP36 like 2 zinc finger CCCH-type",
-                    "ExternalReferences": [
-                        {
-                            "Source": "OMIM",
-                            "Reference": "612053"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "1108"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Part of a fusion gene in"
-                }
-            },
             {
                 "Gene": {
                     "Symbol": "LMNA",
@@ -84,16 +53,16 @@
                     "Name": "vimentin",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "VIM"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "12692"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "193060"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "VIM"
                         }
                     ],
                     "DisorderGeneAssociationType": "Part of a fusion gene in"
@@ -105,16 +74,50 @@
                     "Name": "Fos proto-oncogene, AP-1 transcription factor subunit",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "FOS"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "3796"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "164810"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Part of a fusion gene in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "ZFP36L2",
+                    "Name": "ZFP36 like 2 zinc finger CCCH-type",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "1108"
                         },
                         {
-                            "Source": "ClinVar",
-                            "Reference": "FOS"
+                            "Source": "OMIM",
+                            "Reference": "612053"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Part of a fusion gene in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "FOSB",
+                    "Name": "FosB proto-oncogene, AP-1 transcription factor subunit",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "3797"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "164772"
                         }
                     ],
                     "DisorderGeneAssociationType": "Part of a fusion gene in"
@@ -125,19 +128,26 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "673470",
-                        "Label": "Benign vascular tumor"
+                        "ORPHAcode": "459543",
+                        "Label": "Rare genetic vascular tumor"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "459543",
-                        "Label": "Rare genetic vascular tumor"
+                        "ORPHAcode": "673470",
+                        "Label": "Benign vascular tumor"
                     }
                 ]
             }
-        ]
+        ],
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Not applicable"
+                }
+            ]
+        }
     }
 }

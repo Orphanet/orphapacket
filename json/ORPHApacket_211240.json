@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "211240",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "211240",
         "Label": "Genetic vascular anomaly",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_211240",
@@ -24,15 +24,33 @@
         "Children": [
             {
                 "Child": {
-                    "Label": "Brain arteriovenous malformation",
-                    "ORPHAcode": "46724",
-                    "Genes": "no data"
+                    "Label": "Vein of Galen malformation",
+                    "ORPHAcode": "1053",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "EPH receptor B4",
+                                "Symbol": "EPHB4",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "3395"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600011"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        }
+                    ]
                 }
             },
             {
                 "Child": {
-                    "Label": "Rare genetic capillary malformation",
-                    "ORPHAcode": "459526",
+                    "Label": "Brain arteriovenous malformation, nidus type",
+                    "ORPHAcode": "46724",
                     "Genes": "no data"
                 }
             },
@@ -40,6 +58,20 @@
                 "Child": {
                     "Label": "Primary lymphedema",
                     "ORPHAcode": "77240",
+                    "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Capillary malformation-arteriovenous malformation",
+                    "ORPHAcode": "137667",
+                    "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Rare genetic capillary malformation",
+                    "ORPHAcode": "459526",
                     "Genes": "no data"
                 }
             },
@@ -54,13 +86,6 @@
                 "Child": {
                     "Label": "Rare genetic vascular tumor",
                     "ORPHAcode": "459543",
-                    "Genes": "no data"
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Capillary malformation-arteriovenous malformation",
-                    "ORPHAcode": "137667",
                     "Genes": "no data"
                 }
             },
@@ -115,24 +140,48 @@
             },
             {
                 "Child": {
-                    "Label": "Vein of Galen malformation",
-                    "ORPHAcode": "1053",
+                    "Label": "Capillary-lymphatic-venous malformation",
+                    "ORPHAcode": "717619",
+                    "Genes": "no data"
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Capillary-venous malformation",
+                    "ORPHAcode": "717611",
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "EPH receptor B4",
-                                "Symbol": "EPHB4",
+                                "Label": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",
+                                "Symbol": "PIK3CA",
                                 "ExternalReferences": [
                                     {
-                                        "Source": "OMIM",
-                                        "Reference": "600011"
+                                        "Source": "HGNC",
+                                        "Reference": "8975"
                                     },
                                     {
-                                        "Source": "HGNC",
-                                        "Reference": "3395"
+                                        "Source": "OMIM",
+                                        "Reference": "171834"
                                     }
                                 ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                                "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "TEK receptor tyrosine kinase",
+                                "Symbol": "TEK",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "11724"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "600221"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
                             }
                         }
                     ]

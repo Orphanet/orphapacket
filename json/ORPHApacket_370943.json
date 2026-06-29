@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "370943",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "370943",
         "Label": "Autism spectrum disorder-epilepsy-arthrogryposis syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_370943",
@@ -34,16 +34,16 @@
                     "Name": "solute carrier family 35 member A3",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "SLC35A3"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "11023"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "605632"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "SLC35A3"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -54,8 +54,24 @@
             {
                 "Parent": [
                     {
+                        "ORPHAcode": "97120",
+                        "Label": "Distal arthrogryposis"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
                         "ORPHAcode": "180772",
                         "Label": "Rare disease with autism"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "309347",
+                        "Label": "Disorder of protein N-glycosylation"
                     }
                 ]
             },
@@ -78,22 +94,6 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "309347",
-                        "Label": "Disorder of protein N-glycosylation"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "97120",
-                        "Label": "Distal arthrogryposis"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
                         "ORPHAcode": "371235",
                         "Label": "Congenital disorder of glycosylation with developmental anomaly"
                     }
@@ -101,6 +101,20 @@
             }
         ],
         "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002827",
+                    "HPOTerm": "Hip dislocation",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010864",
+                    "HPOTerm": "Intellectual disability, severe",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000729",
@@ -154,20 +168,6 @@
                 "Phenotype": {
                     "HPOId": "HP:0002650",
                     "HPOTerm": "Scoliosis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002827",
-                    "HPOTerm": "Hip dislocation",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0010864",
-                    "HPOTerm": "Intellectual disability, severe",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             }

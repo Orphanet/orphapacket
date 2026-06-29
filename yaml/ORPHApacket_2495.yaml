@@ -12,6 +12,17 @@ Orphapacket:
     Source: OMIM
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
+      ExternalReferences:
+      - Reference: PIK3CA
+        Source: ClinVar
+      - Reference: '8975'
+        Source: HGNC
+      - Reference: '171834'
+        Source: OMIM
+      Name: phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+      Symbol: PIK3CA
+  - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
       - Reference: SMARCB1
@@ -22,6 +33,39 @@ Orphapacket:
         Source: OMIM
       Name: SWI/SNF related BAF chromatin remodeling complex subunit B1
       Symbol: SMARCB1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: SUFU
+        Source: ClinVar
+      - Reference: '16466'
+        Source: HGNC
+      - Reference: '607035'
+        Source: OMIM
+      Name: SUFU negative regulator of hedgehog signaling
+      Symbol: SUFU
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
+      ExternalReferences:
+      - Reference: NF2
+        Source: ClinVar
+      - Reference: '7773'
+        Source: HGNC
+      - Reference: '607379'
+        Source: OMIM
+      Name: NF2, moesin-ezrin-radixin like (MERLIN) tumor suppressor
+      Symbol: NF2
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
+      ExternalReferences:
+      - Reference: TERT
+        Source: ClinVar
+      - Reference: '11730'
+        Source: HGNC
+      - Reference: '187270'
+        Source: OMIM
+      Name: telomerase reverse transcriptase
+      Symbol: TERT
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -36,78 +80,34 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '16466'
-        Source: HGNC
-      - Reference: '607035'
-        Source: OMIM
-      - Reference: SUFU
+      - Reference: AKT1
         Source: ClinVar
-      Name: SUFU negative regulator of hedgehog signaling
-      Symbol: SUFU
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences:
-      - Reference: '7773'
-        Source: HGNC
-      - Reference: '607379'
-        Source: OMIM
-      - Reference: NF2
-        Source: ClinVar
-      Name: NF2, moesin-ezrin-radixin like (MERLIN) tumor suppressor
-      Symbol: NF2
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences:
-      - Reference: '8975'
-        Source: HGNC
-      - Reference: '171834'
-        Source: OMIM
-      - Reference: PIK3CA
-        Source: ClinVar
-      Name: phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
-      Symbol: PIK3CA
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: '391'
         Source: HGNC
       - Reference: '164730'
         Source: OMIM
-      - Reference: AKT1
-        Source: ClinVar
       Name: AKT serine/threonine kinase 1
       Symbol: AKT1
   - Gene:
-      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences:
-      - Reference: '11730'
-        Source: HGNC
-      - Reference: '187270'
-        Source: OMIM
-      - Reference: TERT
-        Source: ClinVar
-      Name: telomerase reverse transcriptase
-      Symbol: TERT
-  - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: BAP1
+        Source: ClinVar
       - Reference: '950'
         Source: HGNC
       - Reference: '603089'
         Source: OMIM
-      - Reference: BAP1
-        Source: ClinVar
       Name: BRCA1 associated deubiquitinase 1
       Symbol: BAP1
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences:
+      - Reference: BAP1
+        Source: ClinVar
       - Reference: '950'
         Source: HGNC
       - Reference: '603089'
         Source: OMIM
-      - Reference: BAP1
-        Source: ClinVar
       Name: BRCA1 associated deubiquitinase 1
       Symbol: BAP1
   - Gene:
@@ -125,241 +125,37 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences:
-      - Reference: '20456'
-        Source: HGNC
-      - Reference: '606692'
-        Source: OMIM
-      - Reference: TRAF7
+      - Reference: SMO
         Source: ClinVar
-      Name: TNF receptor associated factor 7
-      Symbol: TRAF7
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
-      ExternalReferences:
       - Reference: '11119'
         Source: HGNC
       - Reference: '601500'
         Source: OMIM
-      - Reference: SMO
-        Source: ClinVar
       Name: smoothened, frizzled class receptor
       Symbol: SMO
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
+      ExternalReferences:
+      - Reference: TRAF7
+        Source: ClinVar
+      - Reference: '20456'
+        Source: HGNC
+      - Reference: '606692'
+        Source: OMIM
+      Name: TNF receptor associated factor 7
+      Symbol: TRAF7
   Label: Meningioma
   ORPHAcode: '2495'
   ORPHApacketId: '2495'
   PURL: http://www.orpha.net/ORDO/Orphanet_2495
   Parents:
   - Parent:
-    - Label: Tumor of meninges
-      ORPHAcode: '252025'
-  - Parent:
     - Label: Pituitary hormone deficiency of tumoral origin
       ORPHAcode: '95503'
+  - Parent:
+    - Label: Tumor of meninges
+      ORPHAcode: '252025'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0010997
-      HPOTerm: Chromosomal breakage induced by ionizing radiation
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0011133
-      HPOTerm: Increased sensitivity to ionizing radiation
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0100009
-      HPOTerm: Intracranial meningioma
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000044
-      HPOTerm: Hypogonadotropic hypogonadism
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000141
-      HPOTerm: Amenorrhea
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000802
-      HPOTerm: Impotence
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000870
-      HPOTerm: Increased circulating prolactin concentration
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001250
-      HPOTerm: Seizure
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002017
-      HPOTerm: Nausea and vomiting
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002315
-      HPOTerm: Headache
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002920
-      HPOTerm: Decreased circulating ACTH level
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0007359
-      HPOTerm: Focal-onset seizure
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0008163
-      HPOTerm: Decreased circulating cortisol level
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0008214
-      HPOTerm: Decreased serum estradiol
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0008240
-      HPOTerm: Secondary growth hormone deficiency
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0008245
-      HPOTerm: Pituitary hypothyroidism
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0012658
-      HPOTerm: Abnormal brain FDG positron emission tomography
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0012691
-      HPOTerm: Focal T2 hypointense thalamic lesion
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0030341
-      HPOTerm: Decreased circulating follicle stimulating hormone concentration
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0030344
-      HPOTerm: Decreased circulating luteinizing hormone level
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0030521
-      HPOTerm: Bitemporal hemianopia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0040171
-      HPOTerm: Decreased serum testosterone concentration
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000238
-      HPOTerm: Hydrocephalus
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000602
-      HPOTerm: Ophthalmoplegia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001067
-      HPOTerm: Neurofibromas
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001085
-      HPOTerm: Papilledema
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001251
-      HPOTerm: Ataxia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001269
-      HPOTerm: Hemiparesis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001317
-      HPOTerm: Abnormal cerebellum morphology
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001513
-      HPOTerm: Obesity
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002354
-      HPOTerm: Memory impairment
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002516
-      HPOTerm: Increased intracranial pressure
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003484
-      HPOTerm: Upper limb muscle weakness
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0004302
-      HPOTerm: Functional motor deficit
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0004408
-      HPOTerm: Abnormality of the sense of smell
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0006824
-      HPOTerm: Cranial nerve paralysis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0007340
-      HPOTerm: Lower limb muscle weakness
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0007715
-      HPOTerm: Weak extraocular muscles
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0007924
-      HPOTerm: Slow decrease in visual acuity
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008202
-      HPOTerm: Reduced circulating prolactin concentration
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008237
-      HPOTerm: Hypothalamic hypothyroidism
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0010628
-      HPOTerm: Facial palsy
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011442
-      HPOTerm: Abnormality of central motor function
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011730
-      HPOTerm: Abnormality of central sensory function
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011750
-      HPOTerm: Neoplasm of the anterior pituitary
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012246
-      HPOTerm: Oculomotor nerve palsy
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012285
-      HPOTerm: Abnormal hypothalamus physiology
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012505
-      HPOTerm: Enlarged pituitary gland
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0030532
-      HPOTerm: Visual acuity test abnormality
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0030591
-      HPOTerm: Abnormal kinetic perimetry test
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100010
-      HPOTerm: Spinal meningioma
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0100543
@@ -443,15 +239,219 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0045026
-      HPOTerm: Abnormality of the mediastinum
+      HPOTerm: Abnormal mediastinum morphology
   - Phenotype:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0100648
       HPOTerm: Neoplasm of the tongue
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0010997
+      HPOTerm: Chromosomal breakage induced by ionizing radiation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011133
+      HPOTerm: Increased sensitivity to ionizing radiation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0100009
+      HPOTerm: Intracranial meningioma
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000044
+      HPOTerm: Hypogonadotropic hypogonadism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000141
+      HPOTerm: Amenorrhea
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000802
+      HPOTerm: Impotence
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000870
+      HPOTerm: Increased circulating prolactin concentration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001250
+      HPOTerm: Seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002017
+      HPOTerm: Nausea and vomiting
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002315
+      HPOTerm: Headache
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002920
+      HPOTerm: Decreased circulating ACTH level
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0007359
+      HPOTerm: Focal-onset seizure
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008163
+      HPOTerm: Decreased circulating cortisol level
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008214
+      HPOTerm: Decreased serum estradiol
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008240
+      HPOTerm: Secondary growth hormone deficiency
+  - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001288
       HPOTerm: Gait disturbance
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002516
+      HPOTerm: Increased intracranial pressure
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003484
+      HPOTerm: Upper limb muscle weakness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004302
+      HPOTerm: Functional motor deficit
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004408
+      HPOTerm: Abnormality of the sense of smell
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006824
+      HPOTerm: Cranial nerve paralysis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007340
+      HPOTerm: Lower limb muscle weakness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007715
+      HPOTerm: Weak extraocular muscles
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007924
+      HPOTerm: Slow decrease in visual acuity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008202
+      HPOTerm: Reduced circulating prolactin concentration
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008237
+      HPOTerm: Hypothalamic hypothyroidism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010628
+      HPOTerm: Facial palsy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011442
+      HPOTerm: Abnormality of central motor function
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011730
+      HPOTerm: Abnormality of central sensory function
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011750
+      HPOTerm: Neoplasm of the anterior pituitary
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012246
+      HPOTerm: Oculomotor nerve palsy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012285
+      HPOTerm: Abnormal hypothalamus physiology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012505
+      HPOTerm: Enlarged pituitary gland
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030532
+      HPOTerm: Visual acuity test abnormality
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030591
+      HPOTerm: Abnormal kinetic perimetry test
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100010
+      HPOTerm: Spinal meningioma
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008245
+      HPOTerm: Pituitary hypothyroidism
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012658
+      HPOTerm: Abnormal brain FDG positron emission tomography
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012691
+      HPOTerm: Focal T2 hypointense thalamic lesion
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030341
+      HPOTerm: Decreased circulating follicle stimulating hormone concentration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030344
+      HPOTerm: Decreased circulating luteinizing hormone level
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030521
+      HPOTerm: Bitemporal hemianopia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0040171
+      HPOTerm: Decreased serum testosterone concentration
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000238
+      HPOTerm: Hydrocephalus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000602
+      HPOTerm: Ophthalmoplegia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001067
+      HPOTerm: Neurofibromas
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001085
+      HPOTerm: Papilledema
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001251
+      HPOTerm: Ataxia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001269
+      HPOTerm: Hemiparesis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001317
+      HPOTerm: Abnormal cerebellum morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001513
+      HPOTerm: Obesity
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002354
+      HPOTerm: Memory impairment
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -472,7 +472,7 @@ Orphapacket:
       PrevalenceGeographic: United States
       PrevalenceQualification: Value and class
       PrevalenceType: Annual incidence
-      Source: Central Brain Tumor registry of the United States 2010-2014[REG]_29117289[PMID]
+      Source: Central Brain Tumor OTHERistry of the United States 2010-2014[OTHER]_29117289[PMID]
       ValMoy: no data
   TextSection:
     Contents: A rare mostly benign neoplastic disease characterized by a primary tumor
@@ -486,6 +486,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

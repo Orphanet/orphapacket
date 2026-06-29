@@ -16,17 +16,17 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
+      Reference: '277300'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '608681'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '609813'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '277300'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -42,23 +42,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: TBX6
+      - Reference: DLL3
         Source: ClinVar
-      - Reference: '11605'
-        Source: HGNC
-      - Reference: '602427'
-        Source: OMIM
-      Name: T-box transcription factor 6
-      Symbol: TBX6
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: '2909'
         Source: HGNC
       - Reference: '602768'
         Source: OMIM
-      - Reference: DLL3
-        Source: ClinVar
       Name: delta like canonical Notch ligand 3
       Symbol: DLL3
   - Gene:
@@ -75,12 +64,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: LFNG
+        Source: ClinVar
       - Reference: '6560'
         Source: HGNC
       - Reference: '602576'
         Source: OMIM
-      - Reference: LFNG
-        Source: ClinVar
       Name: LFNG O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase
       Symbol: LFNG
   - Gene:
@@ -97,12 +86,23 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TBX6
+        Source: ClinVar
+      - Reference: '11605'
+        Source: HGNC
+      - Reference: '602427'
+        Source: OMIM
+      Name: T-box transcription factor 6
+      Symbol: TBX6
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: RIPPLY2
+        Source: ClinVar
       - Reference: '21390'
         Source: HGNC
       - Reference: '609891'
         Source: OMIM
-      - Reference: RIPPLY2
-        Source: ClinVar
       Name: ripply transcriptional repressor 2
       Symbol: RIPPLY2
   Label: Autosomal recessive spondylocostal dysostosis
@@ -114,11 +114,11 @@ Orphapacket:
     - Label: Dysostosis with predominant vertebral and costal involvement
       ORPHAcode: '93454'
   - Parent:
-    - Label: Congenital disorder of glycosylation-related bone disorder
-      ORPHAcode: '371195'
-  - Parent:
     - Label: Disorder of fucoglycosan synthesis
       ORPHAcode: '309505'
+  - Parent:
+    - Label: Congenital disorder of glycosylation-related bone disorder
+      ORPHAcode: '371195'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -292,6 +292,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "502",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "502",
         "Label": "Trichorhinophalangeal syndrome type 2",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_502",
@@ -18,9 +18,18 @@
         ],
         "ExternalReferences": [
             {
-                "Source": "OMIM",
-                "Reference": "150230",
-                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "150230",
+                    "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "611376",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -28,27 +37,6 @@
             "Contents": "A rare multiple congenital anomalies syndrome characterized by intellectual disability short stature sparse and depigmented scalp hair typical facial characteristics (broad eyebrows especially the medial portion broad nasal ridge and tip underdeveloped nasal alae long philtrum thin upper lip vermilion and protruding ears) limb anomalies (brachydactyly short metacarpals and metatarsals cone-shaped phalangeal epiphyses dystrophic nails and hip dysplasia) and multiple cartilaginous exostoses."
         },
         "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "RAD21",
-                    "Name": "RAD21 cohesin complex component",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "9811"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "606462"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "RAD21"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Role in the phenotype of"
-                }
-            },
             {
                 "Gene": {
                     "Symbol": "TRPS1",
@@ -90,9 +78,38 @@
                     ],
                     "DisorderGeneAssociationType": "Role in the phenotype of"
                 }
+            },
+            {
+                "Gene": {
+                    "Symbol": "RAD21",
+                    "Name": "RAD21 cohesin complex component",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "RAD21"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "9811"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "606462"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Role in the phenotype of"
+                }
             }
         ],
         "Parents": [
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "102283",
+                        "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
+                    }
+                ]
+            },
             {
                 "Parent": [
                     {
@@ -106,14 +123,6 @@
                     {
                         "ORPHAcode": "324764",
                         "Label": "Trichorhinophalangeal syndrome"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "102283",
-                        "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
                     }
                 ]
             },
@@ -136,72 +145,16 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000219",
-                    "HPOTerm": "Thin upper lip vermilion",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0011069",
+                    "HPOTerm": "Supernumerary tooth",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000343",
-                    "HPOTerm": "Long philtrum",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000411",
-                    "HPOTerm": "Protruding ear",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000414",
-                    "HPOTerm": "Bulbous nose",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002002",
-                    "HPOTerm": "Deep philtrum",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002209",
-                    "HPOTerm": "Sparse scalp hair",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002653",
-                    "HPOTerm": "Bone pain",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002750",
-                    "HPOTerm": "Delayed skeletal maturation",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004322",
-                    "HPOTerm": "Short stature",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0005039",
-                    "HPOTerm": "Multiple long-bone exostoses",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0030680",
+                    "HPOTerm": "Abnormal cardiovascular system morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -374,16 +327,72 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0011069",
-                    "HPOTerm": "Supernumerary tooth",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0000219",
+                    "HPOTerm": "Thin upper lip vermilion",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0030680",
-                    "HPOTerm": "Abnormal cardiovascular system morphology",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0000343",
+                    "HPOTerm": "Long philtrum",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000411",
+                    "HPOTerm": "Protruding ear",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000414",
+                    "HPOTerm": "Bulbous nose",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002002",
+                    "HPOTerm": "Deep philtrum",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002209",
+                    "HPOTerm": "Sparse scalp hair",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002653",
+                    "HPOTerm": "Bone pain",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002750",
+                    "HPOTerm": "Delayed skeletal maturation",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004322",
+                    "HPOTerm": "Short stature",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005039",
+                    "HPOTerm": "Multiple long-bone exostoses",
+                    "HPOFrequency": "Very frequent (99-80%)"
                 }
             },
             {

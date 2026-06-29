@@ -7,16 +7,6 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
-        used to represent it)
-      Reference: '617904'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
-        used to represent it)
-      Reference: '617903'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '300672'
@@ -26,38 +16,26 @@ Orphapacket:
         used to represent it)
       Reference: '312750'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
+      Reference: '617903'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
+      Reference: '617904'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '6990'
-        Source: HGNC
-      - Reference: '300005'
-        Source: OMIM
-      - Reference: MECP2
+      - Reference: CDKL5
         Source: ClinVar
-      Name: methyl-CpG binding protein 2
-      Symbol: MECP2
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: NTNG1
-        Source: ClinVar
-      - Reference: '23319'
-        Source: HGNC
-      - Reference: '608818'
-        Source: OMIM
-      Name: netrin G1
-      Symbol: NTNG1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: '11411'
         Source: HGNC
       - Reference: '300203'
         Source: OMIM
-      - Reference: CDKL5
-        Source: ClinVar
       Name: cyclin dependent kinase like 5
       Symbol: CDKL5
   - Gene:
@@ -74,10 +52,32 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '4507'
+      - Reference: MECP2
+        Source: ClinVar
+      - Reference: '6990'
         Source: HGNC
+      - Reference: '300005'
+        Source: OMIM
+      Name: methyl-CpG binding protein 2
+      Symbol: MECP2
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: NTNG1
+        Source: ClinVar
+      - Reference: '23319'
+        Source: HGNC
+      - Reference: '608818'
+        Source: OMIM
+      Name: netrin G1
+      Symbol: NTNG1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
       - Reference: GABBR2
         Source: ClinVar
+      - Reference: '4507'
+        Source: HGNC
       - Reference: '607340'
         Source: OMIM
       Name: gamma-aminobutyric acid type B receptor subunit 2
@@ -88,11 +88,11 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_3095
   Parents:
   - Parent:
-    - Label: Rare pervasive developmental disorder
-      ORPHAcode: '168778'
-  - Parent:
     - Label: Monogenic disease with epilepsy
       ORPHAcode: '166472'
+  - Parent:
+    - Label: Rare pervasive developmental disorder
+      ORPHAcode: '168778'
   - Parent:
     - Label: Motor stereotypies
       ORPHAcode: '306765'
@@ -102,45 +102,61 @@ Orphapacket:
       ORPHAcode: '611314'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000713
-      HPOTerm: Agitation
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001319
+      HPOTerm: Neonatal hypotonia
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000729
-      HPOTerm: Autistic behavior
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001337
+      HPOTerm: Tremor
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000817
-      HPOTerm: Reduced eye contact
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001510
+      HPOTerm: Growth delay
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002123
+      HPOTerm: Generalized myoclonic seizure
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001250
-      HPOTerm: Seizure
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002194
+      HPOTerm: Delayed gross motor development
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001288
-      HPOTerm: Gait disturbance
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002353
-      HPOTerm: EEG abnormality
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002808
+      HPOTerm: Kyphosis
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002360
-      HPOTerm: Sleep abnormality
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007281
+      HPOTerm: Developmental stagnation
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002371
-      HPOTerm: Loss of speech
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007328
+      HPOTerm: Impaired pain sensation
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002376
-      HPOTerm: Developmental regression
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012469
+      HPOTerm: Infantile spasms
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025269
+      HPOTerm: Panic attack
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025387
+      HPOTerm: Pill-rolling tremor
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030215
+      HPOTerm: Inappropriate crying
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0007824
+      HPOTerm: Total ophthalmoplegia
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002793
@@ -258,61 +274,45 @@ Orphapacket:
       HPOId: HP:0001256
       HPOTerm: Intellectual disability, mild
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001319
-      HPOTerm: Neonatal hypotonia
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000713
+      HPOTerm: Agitation
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001337
-      HPOTerm: Tremor
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000729
+      HPOTerm: Autistic behavior
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001510
-      HPOTerm: Growth delay
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000817
+      HPOTerm: Reduced eye contact
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002123
-      HPOTerm: Generalized myoclonic seizure
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002194
-      HPOTerm: Delayed gross motor development
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001250
+      HPOTerm: Seizure
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002650
-      HPOTerm: Scoliosis
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001288
+      HPOTerm: Gait disturbance
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002808
-      HPOTerm: Kyphosis
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002353
+      HPOTerm: EEG abnormality
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0007281
-      HPOTerm: Developmental stagnation
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002360
+      HPOTerm: Sleep abnormality
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0007328
-      HPOTerm: Impaired pain sensation
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002371
+      HPOTerm: Loss of speech
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012469
-      HPOTerm: Infantile spasms
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0025269
-      HPOTerm: Panic attack
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0025387
-      HPOTerm: Pill-rolling tremor
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0030215
-      HPOTerm: Inappropriate crying
-  - Phenotype:
-      HPOFrequency: Excluded (0%)
-      HPOId: HP:0007824
-      HPOTerm: Total ophthalmoplegia
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002376
+      HPOTerm: Developmental regression
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0012760
@@ -345,6 +345,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: X-linked dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

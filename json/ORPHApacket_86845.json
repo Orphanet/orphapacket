@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "86845",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "86845",
         "Label": "Acute myeloid leukaemia with myelodysplasia-related features",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_86845",
@@ -16,10 +16,10 @@
                 "Synonym": "AML with multilineage dysplasia"
             },
             {
-                "Synonym": "Acute myeloid leukemia with multilineage dysplasia"
+                "Synonym": "AML with myelodysplasia-related features"
             },
             {
-                "Synonym": "AML with myelodysplasia-related features"
+                "Synonym": "Acute myeloid leukemia with multilineage dysplasia"
             }
         ],
         "ExternalReferences": [
@@ -34,6 +34,27 @@
             "Contents": "A rare acute myeloid leukemia (AML) characterized by the presence of acute leukemia with at least 20% peripheral blood or bone marrow blasts with morphological features of myelodysplasia or occurrence in patients with a prior history of a myelodysplastic syndrome (MDS) or myelodysplastic/myeloproliferative neoplasm with MDS-related cytogenetic abnormalities in the absence of specific genetic abnormalities characteristic of AML with recurrent genetic abnormalities. Prior cytotoxic or radiation therapy for an unrelated disease must be excluded. The condition occurs mainly in elderly patients and is rare in children. Patients often present with severe pancytopenia. Prognosis is generally poor."
         },
         "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "IDH2",
+                    "Name": "isocitrate dehydrogenase (NADP(+)) 2",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "IDH2"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "5383"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "147650"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
+                }
+            },
             {
                 "Gene": {
                     "Symbol": "TET2",
@@ -57,51 +78,13 @@
             },
             {
                 "Gene": {
-                    "Symbol": "IDH1",
-                    "Name": "isocitrate dehydrogenase (NADP(+)) 1",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "5382"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "147700"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "IDH1"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "IDH2",
-                    "Name": "isocitrate dehydrogenase (NADP(+)) 2",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "5383"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "147650"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "IDH2"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "ASXL1",
                     "Name": "ASXL transcriptional regulator 1",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "ASXL1"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "18318"
@@ -109,10 +92,27 @@
                         {
                             "Source": "OMIM",
                             "Reference": "612990"
-                        },
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "IDH1",
+                    "Name": "isocitrate dehydrogenase (NADP(+)) 1",
+                    "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "ASXL1"
+                            "Reference": "IDH1"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "5382"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "147700"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
@@ -153,7 +153,7 @@
         "Prevalences": {
             "Prevalence": [
                 {
-                    "Source": "RARECARE surveillance of rare cancers in Europe[REG]",
+                    "Source": "RARECARE surveillance of rare cancers in Europe[OTHER]",
                     "PrevalenceType": "Annual incidence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "<1 / 1 000 000",

@@ -24,72 +24,76 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '23246'
-        Source: HGNC
-      - Reference: '608517'
-        Source: OMIM
-      - Reference: MYPN
+      - Reference: TPM2
         Source: ClinVar
-      Name: myopalladin
-      Symbol: MYPN
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: '12011'
         Source: HGNC
       - Reference: '190990'
         Source: OMIM
-      - Reference: TPM2
-        Source: ClinVar
       Name: tropomyosin 2
       Symbol: TPM2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '191030'
-        Source: OMIM
-      - Reference: '12012'
-        Source: HGNC
       - Reference: TPM3
         Source: ClinVar
+      - Reference: '12012'
+        Source: HGNC
+      - Reference: '191030'
+        Source: OMIM
       Name: tropomyosin 3
       Symbol: TPM3
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: MYPN
+        Source: ClinVar
+      - Reference: '23246'
+        Source: HGNC
+      - Reference: '608517'
+        Source: OMIM
+      Name: myopalladin
+      Symbol: MYPN
   Label: Cap myopathy
   ORPHAcode: '171881'
   ORPHApacketId: '171881'
   PURL: http://www.orpha.net/ORDO/Orphanet_171881
   Parents:
   - Parent:
-    - Label: Qualitative or quantitative defects of tropomyosin
-      ORPHAcode: '284790'
-  - Parent:
     - Label: Congenital myopathy
       ORPHAcode: '97245'
+  - Parent:
+    - Label: Qualitative or quantitative defects of tropomyosin
+      ORPHAcode: '284790'
   Phenotypes:
   - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000218
-      HPOTerm: High palate
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000276
-      HPOTerm: Long face
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001270
-      HPOTerm: Motor delay
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001315
-      HPOTerm: Reduced tendon reflexes
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0004303
-      HPOTerm: Abnormal muscle fiber morphology
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007340
+      HPOTerm: Lower limb muscle weakness
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000767
-      HPOTerm: Pectus excavatum
+      HPOId: HP:0008081
+      HPOTerm: Pes valgus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009046
+      HPOTerm: Difficulty running
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010628
+      HPOTerm: Facial palsy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011703
+      HPOTerm: Sinus tachycardia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030051
+      HPOTerm: Tip-toe gait
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030200
+      HPOTerm: Fatiguable weakness of proximal limb muscles
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001290
@@ -159,33 +163,29 @@ Orphapacket:
       HPOId: HP:0007210
       HPOTerm: Lower limb amyotrophy
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0007340
-      HPOTerm: Lower limb muscle weakness
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000218
+      HPOTerm: High palate
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000276
+      HPOTerm: Long face
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001270
+      HPOTerm: Motor delay
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001315
+      HPOTerm: Reduced tendon reflexes
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004303
+      HPOTerm: Abnormal muscle fiber morphology
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008081
-      HPOTerm: Pes valgus
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0009046
-      HPOTerm: Difficulty running
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0010628
-      HPOTerm: Facial palsy
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011703
-      HPOTerm: Sinus tachycardia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0030051
-      HPOTerm: Tip-toe gait
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0030200
-      HPOTerm: Fatiguable weakness of proximal limb muscles
+      HPOId: HP:0000767
+      HPOTerm: Pectus excavatum
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -213,6 +213,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

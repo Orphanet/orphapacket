@@ -7,57 +7,48 @@ Orphapacket:
     value: Etiological subtype
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '615342'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
         used to represent it)
       Reference: '178600'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '615342'
+      Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '24113'
-        Source: HGNC
-      - Reference: '610232'
-        Source: OMIM
-      Name: ATPase 13A3
-      Symbol: ATP13A3
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: BMPR2
+        Source: ClinVar
       - Reference: '1078'
         Source: HGNC
       - Reference: '600799'
         Source: OMIM
-      - Reference: BMPR2
-        Source: ClinVar
       Name: bone morphogenetic protein receptor type 2
       Symbol: BMPR2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TBX4
+        Source: ClinVar
       - Reference: '11603'
         Source: HGNC
       - Reference: '601719'
         Source: OMIM
-      - Reference: TBX4
-        Source: ClinVar
       Name: T-box transcription factor 4
       Symbol: TBX4
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: CAV1
+        Source: ClinVar
       - Reference: '1527'
         Source: HGNC
       - Reference: '601047'
         Source: OMIM
-      - Reference: CAV1
-        Source: ClinVar
       Name: caveolin 1
       Symbol: CAV1
   - Gene:
@@ -72,51 +63,60 @@ Orphapacket:
       Name: SMAD family member 9
       Symbol: SMAD9
   - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
+      DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
-      - Reference: '6278'
-        Source: HGNC
-      - Reference: '603220'
-        Source: OMIM
-      - Reference: KCNK3
+      - Reference: SOX17
         Source: ClinVar
-      Name: potassium two pore domain channel subfamily K member 3
-      Symbol: KCNK3
+      - Reference: '18122'
+        Source: HGNC
+      - Reference: '610928'
+        Source: OMIM
+      Name: SRY-box transcription factor 17
+      Symbol: SOX17
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: KCNK3
+        Source: ClinVar
+      - Reference: '6278'
+        Source: HGNC
+      - Reference: '603220'
+        Source: OMIM
+      Name: potassium two pore domain channel subfamily K member 3
+      Symbol: KCNK3
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: GDF2
+        Source: ClinVar
+      - Reference: '4217'
+        Source: HGNC
+      - Reference: '605120'
+        Source: OMIM
+      Name: growth differentiation factor 2
+      Symbol: GDF2
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: EIF2AK4
+        Source: ClinVar
       - Reference: '19687'
         Source: HGNC
       - Reference: '609280'
         Source: OMIM
-      - Reference: EIF2AK4
-        Source: ClinVar
       Name: eukaryotic translation initiation factor 2 alpha kinase 4
       Symbol: EIF2AK4
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '4217'
+      - Reference: '24113'
         Source: HGNC
-      - Reference: '605120'
+      - Reference: '610232'
         Source: OMIM
-      - Reference: GDF2
-        Source: ClinVar
-      Name: growth differentiation factor 2
-      Symbol: GDF2
-  - Gene:
-      DisorderGeneAssociationType: Major susceptibility factor in
-      ExternalReferences:
-      - Reference: '18122'
-        Source: HGNC
-      - Reference: '610928'
-        Source: OMIM
-      - Reference: SOX17
-        Source: ClinVar
-      Name: SRY-box transcription factor 17
-      Symbol: SOX17
+      Name: ATPase 13A3
+      Symbol: ATP13A3
   Label: Heritable pulmonary arterial hypertension
   ORPHAcode: '275777'
   ORPHApacketId: '275777'
@@ -148,10 +148,10 @@ Orphapacket:
       Source: 24629043[PMID]_ORPHANET
       ValMoy: no data
   Synonyms:
+  - Synonym: FPAH
   - Synonym: Familial pulmonary arterial hypertension
   - Synonym: HPAH
   - Synonym: Hereditary pulmonary arterial hypertension
-  - Synonym: FPAH
   TextSection:
     Contents: Heritable pulmonary arterial hypertension (HPAH) is a form of pulmonary
       arterial hypertension (PAH) occurring due to mutations in PAH predisposing genes
@@ -164,6 +164,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

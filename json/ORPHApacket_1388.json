@@ -1,11 +1,11 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "1388",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "1388",
-        "Label": "Catel-Manzke syndrome",
+        "Label": "Pierre-Robin sequence-Manzke dysostosis-clinodactyly of the index finger syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_1388",
         "DisorderType": {
             "value": "Malformation syndrome",
@@ -13,22 +13,7 @@
         },
         "Synonyms": [
             {
-                "Synonym": "Hyperphalangy-clinodactyly of index finger with Pierre Robin syndrome"
-            },
-            {
-                "Synonym": "Index finger anomaly-Pierre Robin syndrome"
-            },
-            {
-                "Synonym": "Micrognathia digital syndrome"
-            },
-            {
-                "Synonym": "Palatodigital syndrome, Catel-Manzke type"
-            },
-            {
-                "Synonym": "Pierre Robin sequence-hyperphalangy-clinodactyly syndrome"
-            },
-            {
-                "Synonym": "Pierre Robin syndrome-hyperphalangy-clinodactyly syndrome"
+                "Synonym": "Pierre-Robin sequence-hyperphalangy and clinodactyly of the index finger syndrome"
             }
         ],
         "ExternalReferences": [
@@ -40,7 +25,7 @@
         ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "Catel-Manzke syndrome is a rare bone disease characterized by bilateral hyperphalangy and clinodactyly of the index finger typically in association with Pierre Robin sequence comprising micrognathia cleft palate and glossoptosis."
+            "Contents": "A rare bone disease characterized by bilateral hyperphalangy and clinodactyly of the index finger typically in association with Pierre Robin sequence. Additional features like congenital heart defect pectus excavatum short stature joint laxity and dysplastic ears can occur."
         },
         "Genes": [
             {
@@ -49,16 +34,16 @@
                     "Name": "TDP-glucose 4,6-dehydratase",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "TGDS"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "20324"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "616146"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TGDS"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -69,8 +54,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "139039",
-                        "Label": "Orofacial clefting syndrome"
+                        "ORPHAcode": "102283",
+                        "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
                     }
                 ]
             },
@@ -85,28 +70,21 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "611327",
-                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
+                        "ORPHAcode": "139039",
+                        "Label": "Orofacial clefting syndrome"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "102283",
-                        "Label": "Multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
+                        "ORPHAcode": "611327",
+                        "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
                     }
                 ]
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0100490",
-                    "HPOTerm": "Camptodactyly of finger",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000162",
@@ -263,16 +241,23 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000358",
-                    "HPOTerm": "Posteriorly rotated ears",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0001382",
+                    "HPOTerm": "Joint hypermobility",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001382",
-                    "HPOTerm": "Joint hypermobility",
+                    "HPOId": "HP:0100490",
+                    "HPOTerm": "Camptodactyly of finger",
                     "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000358",
+                    "HPOTerm": "Posteriorly rotated ears",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             }
         ],

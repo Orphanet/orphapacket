@@ -6,36 +6,83 @@ Orphapacket:
       value: Neonatal
   Children:
   - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '7608'
+            Source: HGNC
+          - Reference: '604875'
+            Source: OMIM
+          Label: myosin IXA
+          Symbol: MYO9A
+      Label: Congenital myasthenic syndrome due to defective axonal transport
+      ORPHAcode: '716889'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
+          ExternalReferences:
+          - Reference: '1912'
+            Source: HGNC
+          - Reference: '118490'
+            Source: OMIM
+          Label: choline O-acetyltransferase
+          Symbol: CHAT
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '30228'
+            Source: HGNC
+          - Reference: '609557'
+            Source: OMIM
+          Label: prolyl endopeptidase like
+          Symbol: PREPL
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain
+            of function) in
+          ExternalReferences:
+          - Reference: '14025'
+            Source: HGNC
+          - Reference: '608761'
+            Source: OMIM
+          Label: solute carrier family 5 member 7
+          Symbol: SLC5A7
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '10936'
+            Source: HGNC
+          - Reference: '600336'
+            Source: OMIM
+          Label: solute carrier family 18 member A3
+          Symbol: SLC18A3
+      Label: Congenital myasthenic syndrome due to defective synthesis or recycling
+        of acetylcholine
+      ORPHAcode: '716893'
+  - Child:
       Genes: no data
       Label: Congenital myasthenic syndrome due to defective synaptic vesicles exocytosis
       ORPHAcode: '716899'
   - Child:
-      Genes: no data
-      Label: Congenital myasthenic syndromes due to defective axonal transport
-      ORPHAcode: '716889'
-  - Child:
-      Genes: no data
-      Label: Congenital myasthenic syndrome due to defective synthesis or recycling
-        of acetylcholine
-      ORPHAcode: '716893'
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '2770'
+            Source: HGNC
+          - Reference: '125660'
+            Source: OMIM
+          Label: desmin
+          Symbol: DES
+      Label: Congenital myasthenic syndrome due to defective structural molecule at
+        the neuromuscular junction
+      ORPHAcode: '719921'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377795
     value: Etiological subtype
   ExternalReferences:
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '618197'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '618323'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-      Reference: '618198'
-      Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
@@ -54,12 +101,12 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '616330'
+      Reference: '616224'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '616720'
+      Reference: '616330'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -71,121 +118,27 @@ Orphapacket:
         to represent it)
       Reference: '617239'
       Source: OMIM
-  Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '1912'
-        Source: HGNC
-      - Reference: '118490'
-        Source: OMIM
-      - Reference: CHAT
-        Source: ClinVar
-      Name: choline O-acetyltransferase
-      Symbol: CHAT
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '329'
-        Source: HGNC
-      - Reference: '103320'
-        Source: OMIM
-      - Reference: AGRN
-        Source: ClinVar
-      Name: agrin
-      Symbol: AGRN
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '10979'
-        Source: HGNC
-      - Reference: '190315'
-        Source: OMIM
-      - Reference: SLC25A1
-        Source: ClinVar
-      Name: solute carrier family 25 member 1
-      Symbol: SLC25A1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '11132'
-        Source: HGNC
-      - Reference: '600322'
-        Source: OMIM
-      - Reference: SNAP25
-        Source: ClinVar
-      Name: synaptosome associated protein 25
-      Symbol: SNAP25
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: SYT2
-        Source: ClinVar
-      - Reference: '11510'
-        Source: HGNC
-      - Reference: '600104'
-        Source: OMIM
-      Name: synaptotagmin 2
-      Symbol: SYT2
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: MYO9A
-        Source: ClinVar
-      - Reference: '7608'
-        Source: HGNC
-      - Reference: '604875'
-        Source: OMIM
-      Name: myosin IXA
-      Symbol: MYO9A
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
-        in
-      ExternalReferences:
-      - Reference: '608761'
-        Source: OMIM
-      - Reference: '14025'
-        Source: HGNC
-      - Reference: SLC5A7
-        Source: ClinVar
-      Name: solute carrier family 5 member 7
-      Symbol: SLC5A7
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '12642'
-        Source: HGNC
-      - Reference: '185880'
-        Source: OMIM
-      - Reference: VAMP1
-        Source: ClinVar
-      Name: vesicle associated membrane protein 1
-      Symbol: VAMP1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '600336'
-        Source: OMIM
-      - Reference: SLC18A3
-        Source: ClinVar
-      - Reference: '10936'
-        Source: HGNC
-      Name: solute carrier family 18 member A3
-      Symbol: SLC18A3
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '2190'
-        Source: HGNC
-      - Reference: '120350'
-        Source: OMIM
-      - Reference: COL13A1
-        Source: ClinVar
-      Name: collagen type XIII alpha 1 chain
-      Symbol: COL13A1
-  Label: Presynaptic congenital myasthenic syndromes
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618198'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618323'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '619461'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '621455'
+      Source: OMIM
+  Label: Presynaptic congenital myasthenic syndrome
   ORPHAcode: '98914'
   ORPHApacketId: '98914'
   PURL: http://www.orpha.net/ORDO/Orphanet_98914
@@ -207,129 +160,29 @@ Orphapacket:
       HPOId: HP:0001288
       HPOTerm: Gait disturbance
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000467
-      HPOTerm: Neck muscle weakness
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002392
+      HPOTerm: EEG with polyspike wave complexes
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000508
-      HPOTerm: Ptosis
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002870
+      HPOTerm: Obstructive sleep apnea
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002015
-      HPOTerm: Dysphagia
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0005943
+      HPOTerm: Respiratory arrest
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002033
-      HPOTerm: Poor suck
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0007178
+      HPOTerm: Motor polyneuropathy
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002882
-      HPOTerm: Sudden episodic apnea
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0025401
+      HPOTerm: Staring gaze
   - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003473
-      HPOTerm: Fatigable weakness
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0003701
-      HPOTerm: Proximal muscle weakness
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0004661
-      HPOTerm: Frontalis muscle weakness
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0004889
-      HPOTerm: Intermittent episodes of respiratory insufficiency due to muscle weakness
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0011968
-      HPOTerm: Feeding difficulties
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000602
-      HPOTerm: Ophthalmoplegia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000961
-      HPOTerm: Cyanosis
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001249
-      HPOTerm: Intellectual disability
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001251
-      HPOTerm: Ataxia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001283
-      HPOTerm: Bulbar palsy
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001558
-      HPOTerm: Decreased fetal movement
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001611
-      HPOTerm: Hypernasal speech
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002205
-      HPOTerm: Recurrent respiratory infections
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002804
-      HPOTerm: Arthrogryposis multiplex congenita
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002872
-      HPOTerm: Apneic episodes precipitated by illness, fatigue, stress
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0003324
-      HPOTerm: Generalized muscle weakness
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0003388
-      HPOTerm: Easy fatigability
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0004885
-      HPOTerm: Episodic respiratory distress
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0008443
-      HPOTerm: Spinal deformities
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0010536
-      HPOTerm: Central sleep apnea
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0011469
-      HPOTerm: Nasal regurgitation
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0030842
-      HPOTerm: Choking episodes
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0100285
-      HPOTerm: 'EMG: impaired neuromuscular transmission'
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0100295
-      HPOTerm: Muscle fiber atrophy
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000218
-      HPOTerm: High palate
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000276
-      HPOTerm: Long face
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0030208
+      HPOTerm: Acetylcholine receptor antibody positivity
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001250
@@ -447,34 +300,134 @@ Orphapacket:
       HPOId: HP:0002020
       HPOTerm: Gastroesophageal reflux
   - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0002392
-      HPOTerm: EEG with polyspike wave complexes
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000218
+      HPOTerm: High palate
   - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0002870
-      HPOTerm: Obstructive sleep apnea
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000276
+      HPOTerm: Long face
   - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0005943
-      HPOTerm: Respiratory arrest
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000467
+      HPOTerm: Neck muscle weakness
   - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0007178
-      HPOTerm: Motor polyneuropathy
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000508
+      HPOTerm: Ptosis
   - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0025401
-      HPOTerm: Staring gaze
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002015
+      HPOTerm: Dysphagia
   - Phenotype:
-      HPOFrequency: Excluded (0%)
-      HPOId: HP:0030208
-      HPOTerm: Acetylcholine receptor antibody positivity
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002033
+      HPOTerm: Poor suck
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002882
+      HPOTerm: Sudden episodic apnea
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003473
+      HPOTerm: Fatigable weakness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003701
+      HPOTerm: Proximal muscle weakness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004661
+      HPOTerm: Frontalis muscle weakness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0004889
+      HPOTerm: Intermittent episodes of respiratory insufficiency due to muscle weakness
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0011968
+      HPOTerm: Feeding difficulties
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000602
+      HPOTerm: Ophthalmoplegia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000961
+      HPOTerm: Cyanosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001249
+      HPOTerm: Intellectual disability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001251
+      HPOTerm: Ataxia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001283
+      HPOTerm: Bulbar palsy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001558
+      HPOTerm: Decreased fetal movement
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001611
+      HPOTerm: Hypernasal speech
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002205
+      HPOTerm: Recurrent respiratory infections
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002804
+      HPOTerm: Arthrogryposis multiplex congenita
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002872
+      HPOTerm: Apneic episodes precipitated by illness, fatigue, stress
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003324
+      HPOTerm: Generalized muscle weakness
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003388
+      HPOTerm: Easy fatigability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004885
+      HPOTerm: Episodic respiratory distress
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008443
+      HPOTerm: Spinal deformities
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0010536
+      HPOTerm: Central sleep apnea
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011469
+      HPOTerm: Nasal regurgitation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030842
+      HPOTerm: Choking episodes
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100285
+      HPOTerm: 'EMG: impaired neuromuscular transmission'
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100295
+      HPOTerm: Muscle fiber atrophy
   TypeOfInheritances:
   - TypeOfInheritance:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

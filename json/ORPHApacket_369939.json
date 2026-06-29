@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "369939",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "369939",
         "Label": "Severe motor and intellectual disabilities-sensorineural deafness-dystonia syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_369939",
@@ -34,16 +34,16 @@
                     "Name": "B cell receptor associated protein 31",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "BCAP31"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "16695"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "300398"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "BCAP31"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
@@ -51,6 +51,14 @@
             }
         ],
         "Parents": [
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "90642",
+                        "Label": "Rare syndromic genetic deafness"
+                    }
+                ]
+            },
             {
                 "Parent": [
                     {
@@ -64,14 +72,6 @@
                     {
                         "ORPHAcode": "370106",
                         "Label": "Rare disorder with dystonia and other neurologic or systemic manifestation"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "90642",
-                        "Label": "Rare syndromic genetic deafness"
                     }
                 ]
             },
@@ -132,6 +132,20 @@
                     "HPOId": "HP:0001511",
                     "HPOTerm": "Intrauterine growth retardation",
                     "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012444",
+                    "HPOTerm": "Brain atrophy",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0012762",
+                    "HPOTerm": "Cerebral white matter atrophy",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -208,20 +222,6 @@
                 "Phenotype": {
                     "HPOId": "HP:0007371",
                     "HPOTerm": "Corpus callosum atrophy",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012444",
-                    "HPOTerm": "Brain atrophy",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0012762",
-                    "HPOTerm": "Cerebral white matter atrophy",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             }

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "746",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "746",
         "Label": "Mitochondrial trifunctional protein deficiency",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_746",
@@ -21,9 +21,18 @@
         ],
         "ExternalReferences": [
             {
-                "Source": "OMIM",
-                "Reference": "609015",
-                "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "609015",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "620300",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -37,16 +46,16 @@
                     "Name": "hydroxyacyl-CoA dehydrogenase trifunctional multienzyme complex subunit alpha",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "HADHA"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "4801"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "600890"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "HADHA"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -58,16 +67,16 @@
                     "Name": "hydroxyacyl-CoA dehydrogenase trifunctional multienzyme complex subunit beta",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "HADHB"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "4803"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "143450"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "HADHB"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -78,16 +87,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "206966",
-                        "Label": "Mitochondrial myopathy"
+                        "ORPHAcode": "217591",
+                        "Label": "Fatty acid oxidation and ketogenesis disorder with hypertrophic cardiomyopathy"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "309115",
-                        "Label": "Disorder of fatty acid oxidation and ketogenesis"
+                        "ORPHAcode": "206966",
+                        "Label": "Mitochondrial myopathy"
                     }
                 ]
             },
@@ -102,8 +111,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "217591",
-                        "Label": "Fatty acid oxidation and ketogenesis disorder with hypertrophic cardiomyopathy"
+                        "ORPHAcode": "309115",
+                        "Label": "Disorder of fatty acid oxidation and ketogenesis"
                     }
                 ]
             }
@@ -445,7 +454,7 @@
             },
             {
                 "Prevalence": {
-                    "Source": "ORPHANET_22000755[PMID",
+                    "Source": "ORPHANET_22000755[PMID]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "Unknown",
@@ -455,7 +464,7 @@
             },
             {
                 "Prevalence": {
-                    "Source": "European Medicines Agency 2015[INST]",
+                    "Source": "European Medicines Agency 2015[OTHER]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 100 000",

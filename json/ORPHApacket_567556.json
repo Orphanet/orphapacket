@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "567556",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "567556",
         "Label": "Genetic systemic disease with glomerulopathy as a major feature",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_567556",
@@ -15,21 +15,46 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "567554",
-                        "Label": "Systemic disease with glomerulopathy as a major feature"
+                        "ORPHAcode": "183586",
+                        "Label": "Genetic glomerular disease"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "183586",
-                        "Label": "Genetic glomerular disease"
+                        "ORPHAcode": "567554",
+                        "Label": "Systemic disease with glomerulopathy as a major feature"
                     }
                 ]
             }
         ],
         "Children": [
+            {
+                "Child": {
+                    "Label": "Familial Mediterranean fever",
+                    "ORPHAcode": "342",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "MEFV innate immunity regulator, pyrin",
+                                "Symbol": "MEFV",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "6998"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "608107"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
             {
                 "Child": {
                     "Label": "Muckle-Wells syndrome",
@@ -57,24 +82,24 @@
             },
             {
                 "Child": {
-                    "Label": "Familial Mediterranean fever",
-                    "ORPHAcode": "342",
+                    "Label": "Hypocomplementemic urticarial vasculitis",
+                    "ORPHAcode": "36412",
                     "Genes": [
                         {
                             "Gene": {
-                                "Label": "MEFV innate immunity regulator, pyrin",
-                                "Symbol": "MEFV",
+                                "Label": "deoxyribonuclease 1L3",
+                                "Symbol": "DNASE1L3",
                                 "ExternalReferences": [
                                     {
                                         "Source": "HGNC",
-                                        "Reference": "6998"
+                                        "Reference": "2959"
                                     },
                                     {
                                         "Source": "OMIM",
-                                        "Reference": "608107"
+                                        "Reference": "602244"
                                     }
                                 ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]
@@ -107,31 +132,6 @@
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Hypocomplementemic urticarial vasculitis",
-                    "ORPHAcode": "36412",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "deoxyribonuclease 1L3",
-                                "Symbol": "DNASE1L3",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "2959"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "602244"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                             }
                         }
                     ]

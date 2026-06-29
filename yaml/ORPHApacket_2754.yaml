@@ -5,14 +5,9 @@ Orphapacket:
   - AverageAgeOfOnset:
       value: Neonatal
   DisorderType:
-    PURL: http://www.orpha.net/ORDO/Orphanet_377789
-    value: Malformation syndrome
+    PURL: http://www.orpha.net/ORDO/Orphanet_377796
+    value: Clinical subtype
   ExternalReferences:
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '618763'
-      Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
       Reference: '277170'
@@ -37,27 +32,34 @@ Orphapacket:
         to represent it)
       Reference: '617127'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618763'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '29162'
-        Source: HGNC
-      - Reference: '618413'
-        Source: OMIM
-      Name: family with sequence similarity 149 member B1
-      Symbol: FAM149B1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
+      - Reference: OFD1
+        Source: ClinVar
       - Reference: '2567'
         Source: HGNC
       - Reference: '300170'
         Source: OMIM
-      - Reference: OFD1
-        Source: ClinVar
       Name: OFD1 centriole and centriolar satellite protein
       Symbol: OFD1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: TOPORS
+        Source: ClinVar
+      - Reference: '21653'
+        Source: HGNC
+      - Reference: '609507'
+        Source: OMIM
+      Name: TOP1 binding arginine/serine rich protein, E3 ubiquitin ligase
+      Symbol: TOPORS
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -83,12 +85,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: C5orf42
+        Source: ClinVar
       - Reference: '25801'
         Source: HGNC
       - Reference: '614571'
         Source: OMIM
-      - Reference: C5orf42
-        Source: ClinVar
       Name: ciliogenesis and planar polarity effector complex subunit 1
       Symbol: CPLANE1
   - Gene:
@@ -103,77 +105,69 @@ Orphapacket:
       Name: tectonic family member 3
       Symbol: TCTN3
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: TMEM231
+        Source: ClinVar
+      - Reference: '37234'
+        Source: HGNC
+      - Reference: '614949'
+        Source: OMIM
+      Name: transmembrane protein 231
+      Symbol: TMEM231
+  - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: PDE6D
+        Source: ClinVar
       - Reference: '8788'
         Source: HGNC
       - Reference: '602676'
         Source: OMIM
-      - Reference: PDE6D
-        Source: ClinVar
       Name: phosphodiesterase 6D
       Symbol: PDE6D
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '37234'
-        Source: HGNC
-      - Reference: '614949'
-        Source: OMIM
-      - Reference: TMEM231
-        Source: ClinVar
-      Name: transmembrane protein 231
-      Symbol: TMEM231
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: TOPORS
-        Source: ClinVar
-      - Reference: '21653'
-        Source: HGNC
-      - Reference: '609507'
-        Source: OMIM
-      Name: TOP1 binding arginine/serine rich protein, E3 ubiquitin ligase
-      Symbol: TOPORS
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '29110'
-        Source: HGNC
       - Reference: KIAA0753
         Source: ClinVar
+      - Reference: '29110'
+        Source: HGNC
       - Reference: '617112'
         Source: OMIM
       Name: KIAA0753
       Symbol: KIAA0753
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '29162'
+        Source: HGNC
+      - Reference: '618413'
+        Source: OMIM
+      Name: family with sequence similarity 149 member B1
+      Symbol: FAM149B1
   Label: Orofaciodigital syndrome type 6
   ORPHAcode: '2754'
   ORPHApacketId: '2754'
   PURL: http://www.orpha.net/ORDO/Orphanet_2754
   Parents:
   - Parent:
-    - Label: Joubert syndrome and related disorders
-      ORPHAcode: '140874'
+    - Label: Rare syndromic genetic deafness
+      ORPHAcode: '90642'
   - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
   - Parent:
+    - Label: Joubert syndrome
+      ORPHAcode: '140874'
+  - Parent:
     - Label: Orofaciodigital syndrome
       ORPHAcode: '140997'
-  - Parent:
-    - Label: Genetic syndrome with a cerebellar malformation as a major feature
-      ORPHAcode: '269567'
-  - Parent:
-    - Label: Rare syndromic genetic deafness
-      ORPHAcode: '90642'
   - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
       ORPHAcode: '611327'
-  - Parent:
-    - Label: Syndrome with a cerebellar malformation as a major feature
-      ORPHAcode: '269523'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
@@ -329,6 +323,26 @@ Orphapacket:
       HPOTerm: Cerebellar vermis hypoplasia
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006145
+      HPOTerm: Central Y-shaped metacarpal
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007370
+      HPOTerm: Aplasia/Hypoplasia of the corpus callosum
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008678
+      HPOTerm: Renal hypoplasia/aplasia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009084
+      HPOTerm: Midline notch of upper alveolar ridge
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100260
+      HPOTerm: Mesoaxial polydactyly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001337
       HPOTerm: Tremor
   - Phenotype:
@@ -360,26 +374,6 @@ Orphapacket:
       HPOId: HP:0002876
       HPOTerm: Episodic tachypnea
   - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0006145
-      HPOTerm: Central Y-shaped metacarpal
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0007370
-      HPOTerm: Aplasia/Hypoplasia of the corpus callosum
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008678
-      HPOTerm: Renal hypoplasia/aplasia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0009084
-      HPOTerm: Midline notch of upper alveolar ridge
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100260
-      HPOTerm: Mesoaxial polydactyly
-  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000358
       HPOTerm: Posteriorly rotated ears
@@ -400,9 +394,9 @@ Orphapacket:
       ValMoy: no data
   Synonyms:
   - Synonym: Joubert syndrome with oral-facial-digital syndrome
+  - Synonym: Joubert syndrome with orofaciodigital defect
   - Synonym: OFD6
   - Synonym: Oral-facial-digital syndrome type 6
-  - Synonym: Joubert syndrome with orofaciodigital defect
   - Synonym: Polydactyly-cleft lip/palate-psychomotor retardation syndrome
   - Synonym: Váradi syndrome
   - Synonym: Váradi-Papp syndrome
@@ -417,6 +411,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

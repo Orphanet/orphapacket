@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "444490",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "444490",
         "Label": "Familial chylomicronemia syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_444490",
@@ -15,14 +15,21 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "145750",
+                    "Reference": "118830",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "118830",
+                    "Reference": "144650",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "145750",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
@@ -44,13 +51,6 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "615947",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "144650",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
@@ -106,15 +106,40 @@
                                 "Symbol": "APOC2",
                                 "ExternalReferences": [
                                     {
-                                        "Source": "OMIM",
-                                        "Reference": "608083"
-                                    },
-                                    {
                                         "Source": "HGNC",
                                         "Reference": "609"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "608083"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
+                    "Label": "Familial apolipoprotein A5 deficiency",
+                    "ORPHAcode": "530849",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "apolipoprotein A5",
+                                "Symbol": "APOA5",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "17288"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "606368"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                             }
                         }
                     ]
@@ -169,62 +194,9 @@
                         }
                     ]
                 }
-            },
-            {
-                "Child": {
-                    "Label": "Familial apolipoprotein A5 deficiency",
-                    "ORPHAcode": "530849",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "apolipoprotein A5",
-                                "Symbol": "APOA5",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "17288"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "606368"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001508",
-                    "HPOTerm": "Failure to thrive",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002017",
-                    "HPOTerm": "Nausea and vomiting",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004325",
-                    "HPOTerm": "Decreased body weight",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000716",
-                    "HPOTerm": "Depression",
-                    "HPOFrequency": "Very rare (<4-1%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0002155",
@@ -350,6 +322,34 @@
                     "HPOTerm": "Precocious atherosclerosis",
                     "HPOFrequency": "Excluded (0%)"
                 }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001508",
+                    "HPOTerm": "Failure to thrive",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002017",
+                    "HPOTerm": "Nausea and vomiting",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004325",
+                    "HPOTerm": "Decreased body weight",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000716",
+                    "HPOTerm": "Depression",
+                    "HPOFrequency": "Very rare (<4-1%)"
+                }
             }
         ],
         "Prevalences": [
@@ -365,7 +365,7 @@
             },
             {
                 "Prevalence": {
-                    "Source": "European Medicines Agency 2014[INST]",
+                    "Source": "European Medicines Agency 2014[OTHER]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 1 000 000",

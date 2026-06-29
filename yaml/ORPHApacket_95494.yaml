@@ -9,11 +9,6 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
-        used to represent it)
-      Reference: '613038'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '182230'
@@ -24,22 +19,16 @@ Orphapacket:
       Reference: '262600'
       Source: OMIM
   - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
+      Reference: '613038'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '613986'
       Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '5022'
-        Source: HGNC
-      - Reference: '600288'
-        Source: OMIM
-      - Reference: FOXA2
-        Source: ClinVar
-      Name: forkhead box A2
-      Symbol: FOXA2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -76,12 +65,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: OTX2
+        Source: ClinVar
       - Reference: '8522'
         Source: HGNC
       - Reference: '600037'
         Source: OMIM
-      - Reference: OTX2
-        Source: ClinVar
       Name: orthodenticle homeobox 2
       Symbol: OTX2
   - Gene:
@@ -99,27 +88,38 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: GLI2
+        Source: ClinVar
       - Reference: '4318'
         Source: HGNC
       - Reference: '165230'
         Source: OMIM
-      - Reference: GLI2
-        Source: ClinVar
       Name: GLI family zinc finger 2
       Symbol: GLI2
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: FOXA2
+        Source: ClinVar
+      - Reference: '5022'
+        Source: HGNC
+      - Reference: '600288'
+        Source: OMIM
+      Name: forkhead box A2
+      Symbol: FOXA2
   Label: Combined pituitary hormone deficiencies, genetic forms
   ORPHAcode: '95494'
   ORPHApacketId: '95494'
   PURL: http://www.orpha.net/ORDO/Orphanet_95494
   Parents:
   - Parent:
-    - Label: Endocrinopathy with congenital hypogonadotropic hypogonadism as a major
-        feature
-      ORPHAcode: '181390'
-  - Parent:
     - Label: Non-acquired combined pituitary hormone deficiencies without extrapituitary
         malformations
       ORPHAcode: '178025'
+  - Parent:
+    - Label: Endocrinopathy with congenital hypogonadotropic hypogonadism as a major
+        feature
+      ORPHAcode: '181390'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very rare (<4-1%)
@@ -302,6 +302,6 @@ Orphapacket:
       value: Autosomal recessive
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

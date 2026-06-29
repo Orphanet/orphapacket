@@ -9,11 +9,6 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '619813'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
       Reference: '202700'
       Source: OMIM
@@ -27,16 +22,21 @@ Orphapacket:
         to represent it)
       Reference: '613107'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '619813'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TCIRG1
+        Source: ClinVar
       - Reference: '11647'
         Source: HGNC
       - Reference: '604592'
         Source: OMIM
-      - Reference: TCIRG1
-        Source: ClinVar
       Name: T cell immune regulator 1, ATPase H+ transporting V0 subunit a3
       Symbol: TCIRG1
   - Gene:
@@ -125,42 +125,6 @@ Orphapacket:
       HPOTerm: Lymphopenia
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001945
-      HPOTerm: Fever
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002014
-      HPOTerm: Diarrhea
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002027
-      HPOTerm: Abdominal pain
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0002090
-      HPOTerm: Pneumonia
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0004798
-      HPOTerm: Recurrent infection of the gastrointestinal tract
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0005425
-      HPOTerm: Recurrent sinopulmonary infections
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0011107
-      HPOTerm: Recurrent aphthous stomatitis
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0012311
-      HPOTerm: Monocytosis
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0012384
-      HPOTerm: Rhinitis
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
       HPOId: HP:0025439
       HPOTerm: Pharyngitis
   - Phenotype:
@@ -178,7 +142,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001880
-      HPOTerm: Eosinophilia
+      HPOTerm: Increased total eosinophil count
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0001909
@@ -215,6 +179,42 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0100658
       HPOTerm: Cellulitis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001945
+      HPOTerm: Fever
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002014
+      HPOTerm: Diarrhea
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002027
+      HPOTerm: Abdominal pain
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002090
+      HPOTerm: Pneumonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0004798
+      HPOTerm: Recurrent infection of the gastrointestinal tract
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005425
+      HPOTerm: Recurrent sinopulmonary infections
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011107
+      HPOTerm: Recurrent aphthous stomatitis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012311
+      HPOTerm: Increased total monocyte count
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012384
+      HPOTerm: Rhinitis
   Prevalences:
     Prevalence:
     - PrevalenceClass: <1 / 1 000 000
@@ -233,6 +233,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

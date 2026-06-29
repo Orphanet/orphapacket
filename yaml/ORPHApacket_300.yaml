@@ -13,12 +13,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: HSD17B4
+        Source: ClinVar
       - Reference: '5213'
         Source: HGNC
       - Reference: '601860'
         Source: OMIM
-      - Reference: HSD17B4
-        Source: ClinVar
       Name: hydroxysteroid 17-beta dehydrogenase 4
       Symbol: HSD17B4
   - Gene:
@@ -40,6 +40,24 @@ Orphapacket:
   - Parent:
     - Label: Peroxisomal beta-oxidation disorder
       ORPHAcode: '79188'
+  - Parent:
+    - Label: Neurometabolic disease
+      ORPHAcode: '68385'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Prevalence at birth
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   TextSection:
     Contents: A rare peroxisomal beta-oxidation disorder characterized by deficiency
       of peroxisomal D-bifunctional protein type 1 being caused by deficiency of both
@@ -55,6 +73,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

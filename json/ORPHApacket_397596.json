@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "397596",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "397596",
         "Label": "Activated PI3K-delta syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_397596",
@@ -13,19 +13,19 @@
         },
         "Synonyms": [
             {
-                "Synonym": "PASLI"
-            },
-            {
                 "Synonym": "APDS"
             },
             {
-                "Synonym": "Senescent T-cells-lymphadenopathy-immunodeficiency syndrome due to p110delta-activating mutation"
+                "Synonym": "Activated p110-delta syndrome"
+            },
+            {
+                "Synonym": "PASLI"
             },
             {
                 "Synonym": "PI3K delta activating mutations causing senescent T cells, lymphadenopathy and immunodeficiency"
             },
             {
-                "Synonym": "Activated p110-delta syndrome"
+                "Synonym": "Senescent T-cells-lymphadenopathy-immunodeficiency syndrome due to p110delta-activating mutation"
             }
         ],
         "ExternalReferences": [
@@ -56,9 +56,42 @@
                         "Label": "Common variable immunodeficiency phenotype due to germinal monogenic mutation"
                     }
                 ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "717757",
+                        "Label": "Rare immune disease with inflammatory bowel disease"
+                    }
+                ]
             }
         ],
         "Children": [
+            {
+                "Child": {
+                    "Label": "Activated PI3K-delta syndrome 1",
+                    "ORPHAcode": "693661",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta",
+                                "Symbol": "PIK3CD",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "8977"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "602839"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
+                            }
+                        }
+                    ]
+                }
+            },
             {
                 "Child": {
                     "Label": "Activated PI3K-delta syndrome 2",
@@ -76,31 +109,6 @@
                                     {
                                         "Source": "OMIM",
                                         "Reference": "171833"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "Child": {
-                    "Label": "Activated PI3K-delta syndrome 1",
-                    "ORPHAcode": "693661",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta",
-                                "Symbol": "PIK3CD",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "602839"
-                                    },
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "8977"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"

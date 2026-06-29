@@ -17,14 +17,14 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
-      - Reference: IL10
+      - Reference: FAS
         Source: ClinVar
-      - Reference: '5962'
+      - Reference: '11920'
         Source: HGNC
-      - Reference: '124092'
+      - Reference: '134637'
         Source: OMIM
-      Name: interleukin 10
-      Symbol: IL10
+      Name: Fas cell surface death receptor
+      Symbol: FAS
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
@@ -39,23 +39,25 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
-      - Reference: FAS
+      - Reference: IFNGR1
         Source: ClinVar
-      - Reference: '11920'
+      - Reference: '5439'
         Source: HGNC
-      - Reference: '134637'
+      - Reference: '107470'
         Source: OMIM
-      Name: Fas cell surface death receptor
-      Symbol: FAS
+      Name: interferon gamma receptor 1
+      Symbol: IFNGR1
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
-      - Reference: '20486'
-        Source: HGNC
-      - Reference: UBAC2
+      - Reference: IL10
         Source: ClinVar
-      Name: UBA domain containing 2
-      Symbol: UBAC2
+      - Reference: '5962'
+        Source: HGNC
+      - Reference: '124092'
+        Source: OMIM
+      Name: interleukin 10
+      Symbol: IL10
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
@@ -70,25 +72,14 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
+      - Reference: MEFV
+        Source: ClinVar
       - Reference: '6998'
         Source: HGNC
       - Reference: '608107'
         Source: OMIM
-      - Reference: MEFV
-        Source: ClinVar
       Name: MEFV innate immunity regulator, pyrin
       Symbol: MEFV
-  - Gene:
-      DisorderGeneAssociationType: Major susceptibility factor in
-      ExternalReferences:
-      - Reference: '11365'
-        Source: HGNC
-      - Reference: '600558'
-        Source: OMIM
-      - Reference: STAT4
-        Source: ClinVar
-      Name: signal transducer and activator of transcription 4
-      Symbol: STAT4
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
@@ -114,6 +105,26 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
+      - Reference: UBAC2
+        Source: ClinVar
+      - Reference: '20486'
+        Source: HGNC
+      Name: UBA domain containing 2
+      Symbol: UBAC2
+  - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
+      ExternalReferences:
+      - Reference: STAT4
+        Source: ClinVar
+      - Reference: '11365'
+        Source: HGNC
+      - Reference: '600558'
+        Source: OMIM
+      Name: signal transducer and activator of transcription 4
+      Symbol: STAT4
+  - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
+      ExternalReferences:
       - Reference: TLR4
         Source: ClinVar
       - Reference: '11850'
@@ -125,23 +136,23 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
-      - Reference: '601159'
-        Source: OMIM
-      - Reference: '1602'
-        Source: HGNC
       - Reference: CCR1
         Source: ClinVar
+      - Reference: '1602'
+        Source: HGNC
+      - Reference: '601159'
+        Source: OMIM
       Name: C-C motif chemokine receptor 1
       Symbol: CCR1
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
+      - Reference: KLRC4
+        Source: ClinVar
       - Reference: '6377'
         Source: HGNC
       - Reference: '602893'
         Source: OMIM
-      - Reference: KLRC4
-        Source: ClinVar
       Name: killer cell lectin like receptor C4
       Symbol: KLRC4
   - Gene:
@@ -154,33 +165,19 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
+      - Reference: ERAP1
+        Source: ClinVar
       - Reference: '18173'
         Source: HGNC
       - Reference: '606832'
         Source: OMIM
-      - Reference: ERAP1
-        Source: ClinVar
       Name: endoplasmic reticulum aminopeptidase 1
       Symbol: ERAP1
-  - Gene:
-      DisorderGeneAssociationType: Major susceptibility factor in
-      ExternalReferences:
-      - Reference: IFNGR1
-        Source: ClinVar
-      - Reference: '5439'
-        Source: HGNC
-      - Reference: '107470'
-        Source: OMIM
-      Name: interferon gamma receptor 1
-      Symbol: IFNGR1
   Label: Behçet disease
   ORPHAcode: '117'
   ORPHApacketId: '117'
   PURL: http://www.orpha.net/ORDO/Orphanet_117
   Parents:
-  - Parent:
-    - Label: Non-genetic systemic disease with glomerulopathy as a major feature
-      ORPHAcode: '567558'
   - Parent:
     - Label: Predominantly large-vessel vasculitis
       ORPHAcode: '156140'
@@ -208,7 +205,146 @@ Orphapacket:
   - Parent:
     - Label: Unclassified autoinflammatory syndrome of childhood
       ORPHAcode: '324953'
+  - Parent:
+    - Label: Non-genetic systemic disease with glomerulopathy as a major feature
+      ORPHAcode: '567558'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012219
+      HPOTerm: Erythema nodosum
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012649
+      HPOTerm: Increased inflammatory response
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0025532
+      HPOTerm: Positive pathergy test
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0100326
+      HPOTerm: Immunologic hypersensitivity
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0200039
+      HPOTerm: Pustule
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000031
+      HPOTerm: Epididymitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000083
+      HPOTerm: Renal insufficiency
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000488
+      HPOTerm: Retinopathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000518
+      HPOTerm: Cataract
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000618
+      HPOTerm: Blindness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000708
+      HPOTerm: Atypical behavior
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000737
+      HPOTerm: Irritability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001097
+      HPOTerm: Keratoconjunctivitis sicca
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001250
+      HPOTerm: Seizure
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001251
+      HPOTerm: Ataxia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001347
+      HPOTerm: Hyperreflexia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001637
+      HPOTerm: Abnormal myocardium morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001653
+      HPOTerm: Mitral regurgitation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001658
+      HPOTerm: Myocardial infarction
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001659
+      HPOTerm: Aortic regurgitation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001701
+      HPOTerm: Pericarditis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001733
+      HPOTerm: Pancreatitis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001744
+      HPOTerm: Splenomegaly
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001824
+      HPOTerm: Weight loss
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001954
+      HPOTerm: Recurrent fever
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100584
+      HPOTerm: Endocarditis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100614
+      HPOTerm: Myositis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100653
+      HPOTerm: Optic neuritis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100654
+      HPOTerm: Retrobulbar optic neuritis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100758
+      HPOTerm: Gangrene
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100820
+      HPOTerm: Glomerulopathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:4000041
+      HPOTerm: AA amyloidosis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000099
+      HPOTerm: Glomerulonephritis
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002014
+      HPOTerm: Diarrhea
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002024
@@ -413,142 +549,6 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0012121
       HPOTerm: Panuveitis
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0012219
-      HPOTerm: Erythema nodosum
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0012649
-      HPOTerm: Increased inflammatory response
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0025532
-      HPOTerm: Positive pathergy test
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0100326
-      HPOTerm: Immunologic hypersensitivity
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0200039
-      HPOTerm: Pustule
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000031
-      HPOTerm: Epididymitis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000083
-      HPOTerm: Renal insufficiency
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000488
-      HPOTerm: Retinopathy
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000518
-      HPOTerm: Cataract
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000618
-      HPOTerm: Blindness
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000708
-      HPOTerm: Atypical behavior
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000737
-      HPOTerm: Irritability
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001097
-      HPOTerm: Keratoconjunctivitis sicca
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001250
-      HPOTerm: Seizure
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001251
-      HPOTerm: Ataxia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001347
-      HPOTerm: Hyperreflexia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001637
-      HPOTerm: Abnormal myocardium morphology
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001653
-      HPOTerm: Mitral regurgitation
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001658
-      HPOTerm: Myocardial infarction
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001659
-      HPOTerm: Aortic regurgitation
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001701
-      HPOTerm: Pericarditis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001733
-      HPOTerm: Pancreatitis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001744
-      HPOTerm: Splenomegaly
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001824
-      HPOTerm: Weight loss
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001954
-      HPOTerm: Recurrent fever
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100584
-      HPOTerm: Endocarditis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100614
-      HPOTerm: Myositis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100653
-      HPOTerm: Optic neuritis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100654
-      HPOTerm: Retrobulbar optic neuritis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100758
-      HPOTerm: Gangrene
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100820
-      HPOTerm: Glomerulopathy
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:4000041
-      HPOTerm: AA amyloidosis
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000099
-      HPOTerm: Glomerulonephritis
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0002014
-      HPOTerm: Diarrhea
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
@@ -683,6 +683,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Multigenic/multifactorial
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

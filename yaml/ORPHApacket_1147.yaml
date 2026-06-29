@@ -14,7 +14,7 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '618436'
+      Reference: '601680'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -29,51 +29,40 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '601680'
+      Reference: '618436'
       Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: NALCN
+      - Reference: TNNI2
         Source: ClinVar
-      - Reference: '19082'
-        Source: HGNC
-      - Reference: '611549'
-        Source: OMIM
-      Name: sodium leak channel, non-selective
-      Symbol: NALCN
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: '11946'
         Source: HGNC
       - Reference: '191043'
         Source: OMIM
-      - Reference: TNNI2
-        Source: ClinVar
       Name: troponin I2, fast skeletal type
       Symbol: TNNI2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TNNT3
+        Source: ClinVar
       - Reference: '11950'
         Source: HGNC
       - Reference: '600692'
         Source: OMIM
-      - Reference: TNNT3
-        Source: ClinVar
       Name: troponin T3, fast skeletal type
       Symbol: TNNT3
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TPM2
+        Source: ClinVar
       - Reference: '12011'
         Source: HGNC
       - Reference: '190990'
         Source: OMIM
-      - Reference: TPM2
-        Source: ClinVar
       Name: tropomyosin 2
       Symbol: TPM2
   - Gene:
@@ -87,17 +76,28 @@ Orphapacket:
         Source: OMIM
       Name: myosin heavy chain 3
       Symbol: MYH3
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: NALCN
+        Source: ClinVar
+      - Reference: '19082'
+        Source: HGNC
+      - Reference: '611549'
+        Source: OMIM
+      Name: sodium leak channel, non-selective
+      Symbol: NALCN
   Label: Sheldon-Hall syndrome
   ORPHAcode: '1147'
   ORPHApacketId: '1147'
   PURL: http://www.orpha.net/ORDO/Orphanet_1147
   Parents:
   - Parent:
-    - Label: Neurological muscular channelopathy due to a genetic sodium channel defect
-      ORPHAcode: '98738'
-  - Parent:
     - Label: Distal arthrogryposis
       ORPHAcode: '97120'
+  - Parent:
+    - Label: Neurological muscular channelopathy due to a genetic sodium channel defect
+      ORPHAcode: '98738'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
@@ -188,11 +188,11 @@ Orphapacket:
       Source: ORPHANET
       ValMoy: '0.0'
   Synonyms:
-  - Synonym: SSH
   - Synonym: DA2B
+  - Synonym: Distal arthrogryposis multiplex congenita type 2B
   - Synonym: Distal arthrogryposis type 2B
   - Synonym: Freeman-Sheldon syndrome variant
-  - Synonym: Distal arthrogryposis multiplex congenita type 2B
+  - Synonym: SSH
   TextSection:
     Contents: A form of distal arthrogryposis characterized by multiple congenital
       non-progressive contractures of the distal joints of the limbs in the absence
@@ -205,6 +205,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Not applicable
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

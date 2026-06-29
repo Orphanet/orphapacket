@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "177910",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "177910",
         "Label": "Prader-Willi syndrome due to imprinting mutation",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_177910",
@@ -21,30 +21,13 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "SNORD115@",
-                    "Name": "small nucleolar RNA, C/D box 115 cluster",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "32780"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "609837"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "SNORD115@"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Role in the phenotype of"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "SNRPN",
                     "Name": "small nuclear ribonucleoprotein polypeptide N",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "SNRPN"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "11164"
@@ -52,10 +35,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "182279"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "SNRPN"
                         }
                     ],
                     "DisorderGeneAssociationType": "Role in the phenotype of"
@@ -123,6 +102,27 @@
                     ],
                     "DisorderGeneAssociationType": "Role in the phenotype of"
                 }
+            },
+            {
+                "Gene": {
+                    "Symbol": "SNORD115@",
+                    "Name": "small nucleolar RNA, C/D box 115 cluster",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "SNORD115@"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "32780"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "609837"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Role in the phenotype of"
+                }
             }
         ],
         "Parents": [
@@ -136,13 +136,6 @@
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000708",
-                    "HPOTerm": "Atypical behavior",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0001263",
@@ -260,6 +253,13 @@
                     "HPOId": "HP:0007730",
                     "HPOTerm": "Iris hypopigmentation",
                     "HPOFrequency": "Very rare (<4-1%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000708",
+                    "HPOTerm": "Atypical behavior",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             }
         ],

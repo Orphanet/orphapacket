@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "79213",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "79213",
         "Label": "Mucopolysaccharidosis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_79213",
@@ -15,8 +15,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "139009",
-                        "Label": "Developmental anomaly of metabolic origin"
+                        "ORPHAcode": "68366",
+                        "Label": "Lysosomal disease"
                     }
                 ]
             },
@@ -31,16 +31,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "68366",
-                        "Label": "Lysosomal disease"
+                        "ORPHAcode": "98638",
+                        "Label": "Rare disease with glaucoma as a major feature"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "98638",
-                        "Label": "Rare disease with glaucoma as a major feature"
+                        "ORPHAcode": "139009",
+                        "Label": "Developmental anomaly of metabolic origin"
                     }
                 ]
             },
@@ -54,31 +54,6 @@
             }
         ],
         "Children": [
-            {
-                "Child": {
-                    "Label": "Hyaluronidase deficiency",
-                    "ORPHAcode": "67041",
-                    "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "hyaluronidase 1",
-                                "Symbol": "HYAL1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "5320"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "607071"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        }
-                    ]
-                }
-            },
             {
                 "Child": {
                     "Label": "Mucopolysaccharidosis type 6",
@@ -141,6 +116,31 @@
             },
             {
                 "Child": {
+                    "Label": "Hyaluronidase deficiency",
+                    "ORPHAcode": "67041",
+                    "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "hyaluronidase 1",
+                                "Symbol": "HYAL1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "5320"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "607071"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "Child": {
                     "Label": "Mucopolysaccharidosis type 10",
                     "ORPHAcode": "662216",
                     "Genes": [
@@ -150,12 +150,12 @@
                                 "Symbol": "ARSK",
                                 "ExternalReferences": [
                                     {
-                                        "Source": "OMIM",
-                                        "Reference": "610011"
-                                    },
-                                    {
                                         "Source": "HGNC",
                                         "Reference": "25239"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "610011"
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -328,7 +328,7 @@
             },
             {
                 "Prevalence": {
-                    "Source": "PMID: 31926052",
+                    "Source": "31926052[PMID]",
                     "PrevalenceType": "Prevalence at birth",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 100 000",

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "137605",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "137605",
         "Label": "Legius syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_137605",
@@ -13,9 +13,6 @@
         },
         "Synonyms": [
             {
-                "Synonym": "Nonmosaic Legius syndrome"
-            },
-            {
                 "Synonym": "NF1-like syndrome"
             },
             {
@@ -23,6 +20,9 @@
             },
             {
                 "Synonym": "Nonmosaic LGSS"
+            },
+            {
+                "Synonym": "Nonmosaic Legius syndrome"
             }
         ],
         "ExternalReferences": [
@@ -43,16 +43,16 @@
                     "Name": "sprouty related EVH1 domain containing 1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "SPRED1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "20249"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "609291"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "SPRED1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -60,6 +60,14 @@
             }
         ],
         "Parents": [
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "79375",
+                        "Label": "Hyperpigmentation of the skin"
+                    }
+                ]
+            },
             {
                 "Parent": [
                     {
@@ -83,59 +91,9 @@
                         "Label": "Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome"
                     }
                 ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "79375",
-                        "Label": "Hyperpigmentation of the skin"
-                    }
-                ]
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0007565",
-                    "HPOTerm": "Multiple cafe-au-lait spots",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000708",
-                    "HPOTerm": "Atypical behavior",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000997",
-                    "HPOTerm": "Axillary freckling",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001328",
-                    "HPOTerm": "Specific learning disability",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0030052",
-                    "HPOTerm": "Inguinal freckling",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000256",
-                    "HPOTerm": "Macrocephaly",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000736",
@@ -386,6 +344,48 @@
                     "HPOId": "HP:0100252",
                     "HPOTerm": "Diaphyseal dysplasia",
                     "HPOFrequency": "Excluded (0%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007565",
+                    "HPOTerm": "Multiple cafe-au-lait spots",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000708",
+                    "HPOTerm": "Atypical behavior",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000997",
+                    "HPOTerm": "Axillary freckling",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001328",
+                    "HPOTerm": "Specific learning disability",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0030052",
+                    "HPOTerm": "Inguinal freckling",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000256",
+                    "HPOTerm": "Macrocephaly",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             }
         ],

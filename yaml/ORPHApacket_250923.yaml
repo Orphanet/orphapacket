@@ -13,104 +13,64 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '617142'
+      Reference: '617141'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '617141'
+      Reference: '617142'
       Source: OMIM
   Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: FOXC1
+        Source: ClinVar
+      - Reference: '3800'
+        Source: HGNC
+      - Reference: '601090'
+        Source: OMIM
+      Name: forkhead box C1
+      Symbol: FOXC1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: PAX6
+        Source: ClinVar
       - Reference: '8620'
         Source: HGNC
       - Reference: '607108'
         Source: OMIM
-      - Reference: PAX6
-        Source: ClinVar
       Name: paired box 6
       Symbol: PAX6
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
         in
       ExternalReferences:
+      - Reference: TRIM44
+        Source: ClinVar
       - Reference: '19016'
         Source: HGNC
       - Reference: '612298'
         Source: OMIM
-      - Reference: TRIM44
-        Source: ClinVar
       Name: tripartite motif containing 44
       Symbol: TRIM44
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '601090'
-        Source: OMIM
-      - Reference: '3800'
-        Source: HGNC
-      - Reference: FOXC1
-        Source: ClinVar
-      Name: forkhead box C1
-      Symbol: FOXC1
   Label: Isolated aniridia
   ORPHAcode: '250923'
   ORPHApacketId: '250923'
   PURL: http://www.orpha.net/ORDO/Orphanet_250923
   Parents:
   - Parent:
-    - Label: Anterior segment developmental anomaly without extraocular manifestations
-      ORPHAcode: '98634'
-  - Parent:
     - Label: Syndromic cataract
       ORPHAcode: '98641'
+  - Parent:
+    - Label: Anterior segment developmental anomaly without extraocular manifestations
+      ORPHAcode: '98634'
   - Parent:
     - Label: Syndromic genetic cataract
       ORPHAcode: '522548'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000526
-      HPOTerm: Aniridia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000572
-      HPOTerm: Visual loss
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000639
-      HPOTerm: Nystagmus
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0007663
-      HPOTerm: Reduced visual acuity
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0007676
-      HPOTerm: Hypoplasia of the iris
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0007750
-      HPOTerm: Hypoplasia of the fovea
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0008059
-      HPOTerm: Aplasia/Hypoplasia of the macula
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000486
-      HPOTerm: Strabismus
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000501
-      HPOTerm: Glaucoma
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000518
-      HPOTerm: Cataract
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0000642
@@ -179,6 +139,46 @@ Orphapacket:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0100719
       HPOTerm: Lens coloboma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000526
+      HPOTerm: Aniridia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000572
+      HPOTerm: Visual loss
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000639
+      HPOTerm: Nystagmus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007663
+      HPOTerm: Reduced visual acuity
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007676
+      HPOTerm: Hypoplasia of the iris
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007750
+      HPOTerm: Hypoplasia of the fovea
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008059
+      HPOTerm: Aplasia/Hypoplasia of the macula
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000486
+      HPOTerm: Strabismus
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000501
+      HPOTerm: Glaucoma
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000518
+      HPOTerm: Cataract
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -217,6 +217,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Not applicable
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

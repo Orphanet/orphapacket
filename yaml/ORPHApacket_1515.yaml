@@ -9,11 +9,6 @@ Orphapacket:
     value: Malformation syndrome
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '617102'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
       Reference: '218330'
       Source: OMIM
@@ -31,6 +26,11 @@ Orphapacket:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '614378'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '617102'
       Source: OMIM
   Genes:
   - Gene:
@@ -80,10 +80,10 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '15901'
-        Source: HGNC
       - Reference: IFT52
         Source: ClinVar
+      - Reference: '15901'
+        Source: HGNC
       - Reference: '617094'
         Source: OMIM
       Name: intraflagellar transport 52
@@ -100,18 +100,18 @@ Orphapacket:
     - Label: Syndromic craniosynostosis
       ORPHAcode: '139393'
   - Parent:
+    - Label: Ectodermal dysplasia syndrome
+      ORPHAcode: '79373'
+  - Parent:
     - Label: Genetic cystic renal disease
       ORPHAcode: '93587'
   - Parent:
-    - Label: Ectodermal dysplasia syndrome
-      ORPHAcode: '79373'
+    - Label: Renal ciliopathy
+      ORPHAcode: '156162'
   - Parent:
     - Label: Rare disorder with progressive generalized retinal disorder as a major
         feature
       ORPHAcode: '716405'
-  - Parent:
-    - Label: Renal ciliopathy
-      ORPHAcode: '156162'
   - Parent:
     - Label: Rare disorder potentially indicated for kidney transplant
       ORPHAcode: '506213'
@@ -120,6 +120,62 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001382
       HPOTerm: Joint hypermobility
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000164
+      HPOTerm: Abnormality of the dentition
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000268
+      HPOTerm: Dolichocephaly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000269
+      HPOTerm: Prominent occiput
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000286
+      HPOTerm: Epicanthus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000691
+      HPOTerm: Microdontia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000774
+      HPOTerm: Narrow chest
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000939
+      HPOTerm: Osteoporosis
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000940
+      HPOTerm: Abnormal diaphysis morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000944
+      HPOTerm: Abnormal metaphysis morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001156
+      HPOTerm: Brachydactyly
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001231
+      HPOTerm: Abnormal fingernail morphology
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002007
+      HPOTerm: Frontal bossing
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008070
+      HPOTerm: Sparse hair
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0008388
+      HPOTerm: Abnormal toenail morphology
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0008905
@@ -180,62 +236,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0008499
       HPOTerm: High hypermetropia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000164
-      HPOTerm: Abnormality of the dentition
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000268
-      HPOTerm: Dolichocephaly
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000269
-      HPOTerm: Prominent occiput
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000286
-      HPOTerm: Epicanthus
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000691
-      HPOTerm: Microdontia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000774
-      HPOTerm: Narrow chest
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000939
-      HPOTerm: Osteoporosis
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000940
-      HPOTerm: Abnormal diaphysis morphology
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000944
-      HPOTerm: Abnormal metaphysis morphology
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001156
-      HPOTerm: Brachydactyly
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001231
-      HPOTerm: Abnormal fingernail morphology
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002007
-      HPOTerm: Frontal bossing
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0008070
-      HPOTerm: Sparse hair
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0008388
-      HPOTerm: Abnormal toenail morphology
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -262,6 +262,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

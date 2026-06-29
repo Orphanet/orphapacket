@@ -18,12 +18,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: MID1
+        Source: ClinVar
       - Reference: '7095'
         Source: HGNC
       - Reference: '300552'
         Source: OMIM
-      - Reference: MID1
-        Source: ClinVar
       Name: midline 1
       Symbol: MID1
   Label: Opitz GBBB syndrome
@@ -32,8 +32,17 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_2745
   Parents:
   - Parent:
+    - Label: Syndromic telecanthus
+      ORPHAcode: '98575'
+  - Parent:
+    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+      ORPHAcode: '102283'
+  - Parent:
     - Label: Syndromic anorectal malformation
       ORPHAcode: '117573'
+  - Parent:
+    - Label: Syndromic respiratory or mediastinal malformation
+      ORPHAcode: '108995'
   - Parent:
     - Label: Syndromic urogenital tract malformation
       ORPHAcode: '165707'
@@ -41,15 +50,6 @@ Orphapacket:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
       ORPHAcode: '611327'
-  - Parent:
-    - Label: Syndromic telecanthus
-      ORPHAcode: '98575'
-  - Parent:
-    - Label: Syndromic respiratory or mediastinal malformation
-      ORPHAcode: '108995'
-  - Parent:
-    - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-      ORPHAcode: '102283'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -360,13 +360,13 @@ Orphapacket:
       Source: EXPERT
       ValMoy: '0.0'
   Synonyms:
+  - Synonym: Hypertelorism-hypospadias syndrome
   - Synonym: Hypertelorism-oesophageal abnormality-hypospadias syndrome
   - Synonym: Hypospadias-dysphagia syndrome
-  - Synonym: Hypertelorism-hypospadias syndrome
-  - Synonym: Opitz-Frias syndrome
-  - Synonym: Opitz G/BBB syndrome
-  - Synonym: Opitz BBBG syndrome
   - Synonym: Opitz BBB/G syndrome
+  - Synonym: Opitz BBBG syndrome
+  - Synonym: Opitz G/BBB syndrome
+  - Synonym: Opitz-Frias syndrome
   TextSection:
     Contents: A rare X-linked congenital midline malformation syndrome characterized
       by hypertelorism laryngo-tracheo-esophageal defects and hypospadias.
@@ -374,6 +374,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

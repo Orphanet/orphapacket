@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "39041",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "39041",
         "Label": "Omenn syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_39041",
@@ -20,14 +20,14 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "620807",
+                    "Reference": "603554",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "603554",
+                    "Reference": "620807",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
@@ -37,6 +37,23 @@
             "Contents": "Omenn syndrome (OS) is an inflammatory condition characterized by erythroderma desquamation alopecia chronic diarrhea failure to thrive lymphadenopathy and hepatosplenomegaly associated with severe combined immunodeficiency (SCID)."
         },
         "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "NUDCD3",
+                    "Name": "NudC domain containing 3",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "22208"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "610296"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
             {
                 "Gene": {
                     "Symbol": "ADA",
@@ -106,16 +123,16 @@
                     "Name": "chromodomain helicase DNA binding protein 7",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "CHD7"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "20626"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "608892"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CHD7"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -127,16 +144,16 @@
                     "Name": "DNA cross-link repair 1C",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "DCLRE1C"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "17642"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "605988"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "DCLRE1C"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -158,27 +175,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "308380"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "LIG4",
-                    "Name": "DNA ligase 4",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "LIG4"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "6601"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "601837"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -250,6 +246,14 @@
                     {
                         "ORPHAcode": "695164",
                         "Label": "Combined immunodeficiency with low B cells and hypogammaglobulinemia"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "717757",
+                        "Label": "Rare immune disease with inflammatory bowel disease"
                     }
                 ]
             }
@@ -342,7 +346,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0001880",
-                    "HPOTerm": "Eosinophilia",
+                    "HPOTerm": "Increased total eosinophil count",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },
@@ -363,7 +367,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0001974",
-                    "HPOTerm": "Leukocytosis",
+                    "HPOTerm": "Increased total leukocyte count",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
             },

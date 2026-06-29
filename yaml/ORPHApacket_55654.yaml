@@ -9,26 +9,6 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '620177'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '618275'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '615059'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '615885'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
       Reference: '278150'
       Source: OMIM
   - ExternalReference:
@@ -55,18 +35,38 @@ Orphapacket:
         to represent it)
       Reference: '614238'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '615059'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '615885'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618275'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620177'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '6708'
-        Source: HGNC
-      - Reference: '600909'
-        Source: OMIM
-      - Reference: LSS
+      - Reference: P2RY5
         Source: ClinVar
-      Name: lanosterol synthase
-      Symbol: LSS
+      - Reference: '15520'
+        Source: HGNC
+      - Reference: '609239'
+        Source: OMIM
+      Name: lysophosphatidic acid receptor 6
+      Symbol: LPAR6
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -81,50 +81,6 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '15718'
-        Source: HGNC
-      - Reference: '607479'
-        Source: OMIM
-      - Reference: APCDD1
-        Source: ClinVar
-      Name: APC down-regulated 1
-      Symbol: APCDD1
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '10313'
-        Source: HGNC
-      - Reference: '603636'
-        Source: OMIM
-      - Reference: RPL21
-        Source: ClinVar
-      Name: ribosomal protein L21
-      Symbol: RPL21
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '11161'
-        Source: HGNC
-      - Reference: '128260'
-        Source: OMIM
-      - Reference: SNRPE
-        Source: ClinVar
-      Name: small nuclear ribonucleoprotein polypeptide E
-      Symbol: SNRPE
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '15520'
-        Source: HGNC
-      - Reference: '609239'
-        Source: OMIM
-      - Reference: P2RY5
-        Source: ClinVar
-      Name: lysophosphatidic acid receptor 6
-      Symbol: LPAR6
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: DSG4
         Source: ClinVar
       - Reference: '21307'
@@ -133,20 +89,64 @@ Orphapacket:
         Source: OMIM
       Name: desmoglein 4
       Symbol: DSG4
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: APCDD1
+        Source: ClinVar
+      - Reference: '15718'
+        Source: HGNC
+      - Reference: '607479'
+        Source: OMIM
+      Name: APC down-regulated 1
+      Symbol: APCDD1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: RPL21
+        Source: ClinVar
+      - Reference: '10313'
+        Source: HGNC
+      - Reference: '603636'
+        Source: OMIM
+      Name: ribosomal protein L21
+      Symbol: RPL21
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: SNRPE
+        Source: ClinVar
+      - Reference: '11161'
+        Source: HGNC
+      - Reference: '128260'
+        Source: OMIM
+      Name: small nuclear ribonucleoprotein polypeptide E
+      Symbol: SNRPE
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: LSS
+        Source: ClinVar
+      - Reference: '6708'
+        Source: HGNC
+      - Reference: '600909'
+        Source: OMIM
+      Name: lanosterol synthase
+      Symbol: LSS
   Label: Hypotrichosis simplex
   ORPHAcode: '55654'
   ORPHApacketId: '55654'
   PURL: http://www.orpha.net/ORDO/Orphanet_55654
   Parents:
   - Parent:
-    - Label: Alopecia
-      ORPHAcode: '79364'
-  - Parent:
     - Label: Scalp disease
       ORPHAcode: '68348'
   - Parent:
     - Label: Genetic alopecia
       ORPHAcode: '481771'
+  - Parent:
+    - Label: Alopecia
+      ORPHAcode: '79364'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -199,6 +199,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

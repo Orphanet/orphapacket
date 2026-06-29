@@ -4,25 +4,36 @@ Orphapacket:
     value: Clinical subtype
   Genes:
   - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
+      ExternalReferences:
+      - Reference: NKX2-6
+        Source: ClinVar
+      - Reference: '32940'
+        Source: HGNC
+      - Reference: '611770'
+        Source: OMIM
+      Name: NK2 homeobox 6
+      Symbol: NKX2-6
+  - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: TBX1
+        Source: ClinVar
       - Reference: '11592'
         Source: HGNC
       - Reference: '602054'
         Source: OMIM
-      - Reference: TBX1
-        Source: ClinVar
       Name: T-box transcription factor 1
       Symbol: TBX1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: GATA6
+        Source: ClinVar
       - Reference: '4174'
         Source: HGNC
       - Reference: '601656'
         Source: OMIM
-      - Reference: GATA6
-        Source: ClinVar
       Name: GATA binding protein 6
       Symbol: GATA6
   Label: Common arterial trunk with pulmonary dominance and interrupted aortic arch
@@ -33,6 +44,9 @@ Orphapacket:
   - Parent:
     - Label: Common arterial trunk
       ORPHAcode: '3384'
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Not applicable
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

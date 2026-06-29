@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2478",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "2478",
         "Label": "Megalencephalic leukoencephalopathy with subcortical cysts",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2478",
@@ -49,6 +49,20 @@
                     "Reference": "613926",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "620447",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "620448",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -58,9 +72,47 @@
         "Genes": [
             {
                 "Gene": {
+                    "Symbol": "AQP4",
+                    "Name": "aquaporin 4",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "637"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "600308"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "GPRC5B",
+                    "Name": "G protein-coupled receptor class C group 5 member B",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "13308"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "605948"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
                     "Symbol": "MLC1",
                     "Name": "modulator of VRAC current 1",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "MLC1"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "17082"
@@ -68,10 +120,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "605908"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "MLC1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -83,16 +131,16 @@
                     "Name": "hepatic and glial cell adhesion molecule",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "HEPACAM"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "26361"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "611642"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "HEPACAM"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -112,51 +160,23 @@
         "Phenotypes": [
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000708",
-                    "HPOTerm": "Atypical behavior",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0002305",
+                    "HPOTerm": "Athetosis",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001250",
-                    "HPOTerm": "Seizure",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0002312",
+                    "HPOTerm": "Clumsiness",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0001251",
-                    "HPOTerm": "Ataxia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001257",
-                    "HPOTerm": "Spasticity",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001268",
-                    "HPOTerm": "Mental deterioration",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002317",
-                    "HPOTerm": "Unsteady gait",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002333",
-                    "HPOTerm": "Motor deterioration",
-                    "HPOFrequency": "Frequent (79-30%)"
+                    "HPOId": "HP:0012762",
+                    "HPOTerm": "Cerebral white matter atrophy",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -217,23 +237,51 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002305",
-                    "HPOTerm": "Athetosis",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0000708",
+                    "HPOTerm": "Atypical behavior",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002312",
-                    "HPOTerm": "Clumsiness",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0001250",
+                    "HPOTerm": "Seizure",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0012762",
-                    "HPOTerm": "Cerebral white matter atrophy",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0001251",
+                    "HPOTerm": "Ataxia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001257",
+                    "HPOTerm": "Spasticity",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001268",
+                    "HPOTerm": "Mental deterioration",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002317",
+                    "HPOTerm": "Unsteady gait",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002333",
+                    "HPOTerm": "Motor deterioration",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             }
         ],

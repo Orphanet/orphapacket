@@ -13,6 +13,11 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
+      Reference: '249210'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '619351'
       Source: OMIM
   - ExternalReference:
@@ -30,24 +35,7 @@ Orphapacket:
         to represent it)
       Reference: '619431'
       Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '249210'
-      Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '6647'
-        Source: HGNC
-      - Reference: '602715'
-        Source: OMIM
-      - Reference: LMOD1
-        Source: ClinVar
-      Name: leiomodin 1
-      Symbol: LMOD1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
@@ -61,28 +49,40 @@ Orphapacket:
       Name: myosin heavy chain 11
       Symbol: MYH11
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: MYLK
+        Source: ClinVar
+      - Reference: '7590'
+        Source: HGNC
+      - Reference: '600922'
+        Source: OMIM
+      Name: myosin light chain kinase
+      Symbol: MYLK
+  - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: ACTG2
+        Source: ClinVar
       - Reference: '145'
         Source: HGNC
       - Reference: '102545'
         Source: OMIM
-      - Reference: ACTG2
-        Source: ClinVar
       Name: actin gamma 2, smooth muscle
       Symbol: ACTG2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
-      - Reference: '7590'
-        Source: HGNC
-      - Reference: '600922'
-        Source: OMIM
-      - Reference: MYLK
+      - Reference: LMOD1
         Source: ClinVar
-      Name: myosin light chain kinase
-      Symbol: MYLK
+      - Reference: '6647'
+        Source: HGNC
+      - Reference: '602715'
+        Source: OMIM
+      Name: leiomodin 1
+      Symbol: LMOD1
   Label: Megacystis-microcolon-intestinal hypoperistalsis syndrome
   ORPHAcode: '2241'
   ORPHApacketId: '2241'
@@ -193,6 +193,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "828",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "828",
         "Label": "Stickler syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_828",
@@ -57,38 +57,7 @@
             "TextSectionType": "Definition",
             "Contents": "A rare group of genetic connective tissue disorders characterized by ophthalmic auditory orofacial and articular manifestations. The two main clinical forms are clinically distinguished by the vitreous phenotype; stickler type 1 by a vestigial vitreous gel in the immediate retrolental space bordered by a distinct folded membrane and Stickler type 2 by sparse and irregularly thickened bundles of &#64257;bers throughout the vitreous cavity."
         },
-        "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "BMP4",
-                    "Name": "bone morphogenetic protein 4",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "1071"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "112262"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "BMP4"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            }
-        ],
         "Parents": [
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "716446",
-                        "Label": "Rare disorder with progressive vitreoretinopathy disorder as a major feature"
-                    }
-                ]
-            },
             {
                 "Parent": [
                     {
@@ -102,6 +71,14 @@
                     {
                         "ORPHAcode": "90642",
                         "Label": "Rare syndromic genetic deafness"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "716446",
+                        "Label": "Rare disorder with progressive vitreoretinopathy disorder as a major feature"
                     }
                 ]
             },
@@ -153,6 +130,23 @@
                     "Label": "Stickler syndrome type 2",
                     "ORPHAcode": "90654",
                     "Genes": [
+                        {
+                            "Gene": {
+                                "Label": "bone morphogenetic protein 4",
+                                "Symbol": "BMP4",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "1071"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "112262"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
                         {
                             "Gene": {
                                 "Label": "collagen type XI alpha 1 chain",
@@ -251,6 +245,237 @@
             }
         ],
         "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001382",
+                    "HPOTerm": "Joint hypermobility",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000618",
+                    "HPOTerm": "Blindness",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000682",
+                    "HPOTerm": "Abnormality of dental enamel",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000940",
+                    "HPOTerm": "Abnormal diaphysis morphology",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001083",
+                    "HPOTerm": "Ectopia lentis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001533",
+                    "HPOTerm": "Slender build",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002827",
+                    "HPOTerm": "Hip dislocation",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003179",
+                    "HPOTerm": "Protrusio acetabuli",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003202",
+                    "HPOTerm": "Skeletal muscle atrophy",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003416",
+                    "HPOTerm": "Spinal canal stenosis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004322",
+                    "HPOTerm": "Short stature",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004326",
+                    "HPOTerm": "Cachexia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004349",
+                    "HPOTerm": "Reduced bone mineral density",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004374",
+                    "HPOTerm": "Hemiplegia/hemiparesis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0006288",
+                    "HPOTerm": "Advanced eruption of teeth",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008872",
+                    "HPOTerm": "Feeding difficulties in infancy",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0009804",
+                    "HPOTerm": "Tooth agenesis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010290",
+                    "HPOTerm": "Short hard palate",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0010807",
+                    "HPOTerm": "Open bite",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0031154",
+                    "HPOTerm": "Beaded vitreous appearance",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002857",
+                    "HPOTerm": "Genu valgum",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0003302",
+                    "HPOTerm": "Spondylolisthesis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0006461",
+                    "HPOTerm": "Proximal femoral epiphysiolysis",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007992",
+                    "HPOTerm": "Lattice retinal degeneration",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011003",
+                    "HPOTerm": "High myopia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011530",
+                    "HPOTerm": "Retinal hole",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011675",
+                    "HPOTerm": "Arrhythmia",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0031153",
+                    "HPOTerm": "Membranous vitreous appearance",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000316",
+                    "HPOTerm": "Hypertelorism",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000486",
+                    "HPOTerm": "Strabismus",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000501",
+                    "HPOTerm": "Glaucoma",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000519",
+                    "HPOTerm": "Developmental cataract",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000554",
+                    "HPOTerm": "Uveitis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000272",
@@ -558,243 +783,12 @@
                     "HPOTerm": "Kyphosis",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002857",
-                    "HPOTerm": "Genu valgum",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003302",
-                    "HPOTerm": "Spondylolisthesis",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0006461",
-                    "HPOTerm": "Proximal femoral epiphysiolysis",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0007992",
-                    "HPOTerm": "Lattice retinal degeneration",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011003",
-                    "HPOTerm": "High myopia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011530",
-                    "HPOTerm": "Retinal hole",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011675",
-                    "HPOTerm": "Arrhythmia",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0031153",
-                    "HPOTerm": "Membranous vitreous appearance",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000316",
-                    "HPOTerm": "Hypertelorism",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000486",
-                    "HPOTerm": "Strabismus",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000501",
-                    "HPOTerm": "Glaucoma",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000519",
-                    "HPOTerm": "Developmental cataract",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000554",
-                    "HPOTerm": "Uveitis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000618",
-                    "HPOTerm": "Blindness",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000682",
-                    "HPOTerm": "Abnormality of dental enamel",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000940",
-                    "HPOTerm": "Abnormal diaphysis morphology",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001083",
-                    "HPOTerm": "Ectopia lentis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001533",
-                    "HPOTerm": "Slender build",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002827",
-                    "HPOTerm": "Hip dislocation",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003179",
-                    "HPOTerm": "Protrusio acetabuli",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003202",
-                    "HPOTerm": "Skeletal muscle atrophy",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0003416",
-                    "HPOTerm": "Spinal canal stenosis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004322",
-                    "HPOTerm": "Short stature",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004326",
-                    "HPOTerm": "Cachexia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004349",
-                    "HPOTerm": "Reduced bone mineral density",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004374",
-                    "HPOTerm": "Hemiplegia/hemiparesis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0006288",
-                    "HPOTerm": "Advanced eruption of teeth",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008872",
-                    "HPOTerm": "Feeding difficulties in infancy",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0009804",
-                    "HPOTerm": "Tooth agenesis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0010290",
-                    "HPOTerm": "Short hard palate",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0010807",
-                    "HPOTerm": "Open bite",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0031154",
-                    "HPOTerm": "Beaded vitreous appearance",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001382",
-                    "HPOTerm": "Joint hypermobility",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
             }
         ],
         "Prevalences": [
             {
                 "Prevalence": {
-                    "Source": "EUROCAT European surveillance of congenital anomalies 2005-2012[REG]",
+                    "Source": "EUROCAT European surveillance of congenital anomalies 2005-2012[OTHER]",
                     "PrevalenceType": "Prevalence at birth",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 100 000",
@@ -804,7 +798,7 @@
             },
             {
                 "Prevalence": {
-                    "Source": "ORPHANET_EUROCAT European surveillance of congenital anomalies 2005-2012[REG]",
+                    "Source": "ORPHANET_EUROCAT European surveillance of congenital anomalies 2005-2012[OTHER]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "1-9 / 100 000",

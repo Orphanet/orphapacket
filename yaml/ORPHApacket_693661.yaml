@@ -1,4 +1,11 @@
 Orphapacket:
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
@@ -11,12 +18,12 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
         in
       ExternalReferences:
-      - Reference: '602839'
-        Source: OMIM
-      - Reference: '8977'
-        Source: HGNC
       - Reference: PIK3CD
         Source: ClinVar
+      - Reference: '8977'
+        Source: HGNC
+      - Reference: '602839'
+        Source: OMIM
       Name: phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
       Symbol: PIK3CD
   Label: Activated PI3K-delta syndrome 1
@@ -116,17 +123,25 @@ Orphapacket:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0031699
       HPOTerm: Disseminated cryptosporidium infection
+  Prevalences:
+    Prevalence:
+    - PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: '0.0'
   Synonyms:
+  - Synonym: PASLI-CD
   - Synonym: Senescent T-cells-lymphadenopathy-immunodeficiency syndrome due to p110delta
       activating mutations, type 1
-  - Synonym: Activated p110delta syndrome, type 1
-  - Synonym: APDS1
   - Synonym: APDS type 1
+  - Synonym: APDS1
+  - Synonym: Activated p110delta syndrome, type 1
   - Synonym: Activated phosphoinositide 3-kinase delta syndrome-1
-  - Synonym: PASLI-CD
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

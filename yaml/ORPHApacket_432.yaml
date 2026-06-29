@@ -11,11 +11,6 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '619755'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
       Reference: '146110'
       Source: OMIM
   - ExternalReference:
@@ -103,16 +98,23 @@ Orphapacket:
         to represent it)
       Reference: '615270'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '619755'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '7818'
+      - Reference: EMX2
+        Source: ClinVar
+      - Reference: '3341'
         Source: HGNC
-      - Reference: '162361'
+      - Reference: '600035'
         Source: OMIM
-      Name: nescient helix-loop-helix 2
-      Symbol: NHLH2
+      Name: empty spiracles homeobox 2
+      Symbol: EMX2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
@@ -140,24 +142,24 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: CHD7
+        Source: ClinVar
       - Reference: '20626'
         Source: HGNC
       - Reference: '608892'
         Source: OMIM
-      - Reference: CHD7
-        Source: ClinVar
       Name: chromodomain helicase DNA binding protein 7
       Symbol: CHD7
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: FGFR1
+        Source: ClinVar
       - Reference: '3688'
         Source: HGNC
       - Reference: '136350'
         Source: OMIM
-      - Reference: FGFR1
-        Source: ClinVar
       Name: fibroblast growth factor receptor 1
       Symbol: FGFR1
   - Gene:
@@ -166,10 +168,10 @@ Orphapacket:
       ExternalReferences:
       - Reference: GNRHR
         Source: ClinVar
-      - Reference: '138850'
-        Source: OMIM
       - Reference: '4421'
         Source: HGNC
+      - Reference: '138850'
+        Source: OMIM
       Name: gonadotropin releasing hormone receptor
       Symbol: GNRHR
   - Gene:
@@ -187,12 +189,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: NELF
+        Source: ClinVar
       - Reference: '29843'
         Source: HGNC
       - Reference: '608137'
         Source: OMIM
-      - Reference: NELF
-        Source: ClinVar
       Name: NMDA receptor synaptonuclear signaling and neuronal migration factor
       Symbol: NSMF
   - Gene:
@@ -210,47 +212,47 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: FGF8
+        Source: ClinVar
       - Reference: '3686'
         Source: HGNC
       - Reference: '600483'
         Source: OMIM
-      - Reference: FGF8
-        Source: ClinVar
       Name: fibroblast growth factor 8
       Symbol: FGF8
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: TAC3
+        Source: ClinVar
       - Reference: '11521'
         Source: HGNC
       - Reference: '162330'
         Source: OMIM
-      - Reference: TAC3
-        Source: ClinVar
       Name: tachykinin precursor 3
       Symbol: TAC3
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: TACR3
+        Source: ClinVar
       - Reference: '11528'
         Source: HGNC
       - Reference: '162332'
         Source: OMIM
-      - Reference: TACR3
-        Source: ClinVar
       Name: tachykinin receptor 3
       Symbol: TACR3
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: WDR11
+        Source: ClinVar
       - Reference: '13831'
         Source: HGNC
       - Reference: '606417'
         Source: OMIM
-      - Reference: WDR11
-        Source: ClinVar
       Name: WD repeat domain 11
       Symbol: WDR11
   - Gene:
@@ -269,12 +271,12 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: KISS1
+        Source: ClinVar
       - Reference: '6341'
         Source: HGNC
       - Reference: '603286'
         Source: OMIM
-      - Reference: KISS1
-        Source: ClinVar
       Name: KiSS-1 metastasis suppressor
       Symbol: KISS1
   - Gene:
@@ -310,6 +312,15 @@ Orphapacket:
         Source: OMIM
       Name: sprouty RTK signaling antagonist 4
       Symbol: SPRY4
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '7818'
+        Source: HGNC
+      - Reference: '162361'
+        Source: OMIM
+      Name: nescient helix-loop-helix 2
+      Symbol: NHLH2
   Label: Normosmic congenital hypogonadotropic hypogonadism
   ORPHAcode: '432'
   ORPHApacketId: '432'
@@ -450,7 +461,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002761
-      HPOTerm: Generalized joint laxity
+      HPOTerm: Generalized joint hypermobility
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0005280
@@ -483,6 +494,6 @@ Orphapacket:
       value: Multigenic/multifactorial
   - TypeOfInheritance:
       value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

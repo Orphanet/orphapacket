@@ -17,12 +17,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: SPRED1
+        Source: ClinVar
       - Reference: '20249'
         Source: HGNC
       - Reference: '609291'
         Source: OMIM
-      - Reference: SPRED1
-        Source: ClinVar
       Name: sprouty related EVH1 domain containing 1
       Symbol: SPRED1
   Label: Legius syndrome
@@ -30,6 +30,9 @@ Orphapacket:
   ORPHApacketId: '137605'
   PURL: http://www.orpha.net/ORDO/Orphanet_137605
   Parents:
+  - Parent:
+    - Label: Hyperpigmentation of the skin
+      ORPHAcode: '79375'
   - Parent:
     - Label: Genetic hyperpigmentation of the skin
       ORPHAcode: '183466'
@@ -40,34 +43,7 @@ Orphapacket:
     - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
         syndrome
       ORPHAcode: '611314'
-  - Parent:
-    - Label: Hyperpigmentation of the skin
-      ORPHAcode: '79375'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0007565
-      HPOTerm: Multiple cafe-au-lait spots
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000708
-      HPOTerm: Atypical behavior
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0000997
-      HPOTerm: Axillary freckling
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001328
-      HPOTerm: Specific learning disability
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0030052
-      HPOTerm: Inguinal freckling
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000256
-      HPOTerm: Macrocephaly
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0000736
@@ -212,6 +188,30 @@ Orphapacket:
       HPOFrequency: Excluded (0%)
       HPOId: HP:0100252
       HPOTerm: Diaphyseal dysplasia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0007565
+      HPOTerm: Multiple cafe-au-lait spots
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000708
+      HPOTerm: Atypical behavior
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000997
+      HPOTerm: Axillary freckling
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001328
+      HPOTerm: Specific learning disability
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0030052
+      HPOTerm: Inguinal freckling
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000256
+      HPOTerm: Macrocephaly
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -228,10 +228,10 @@ Orphapacket:
       Source: ORPHANET
       ValMoy: no data
   Synonyms:
-  - Synonym: Nonmosaic Legius syndrome
   - Synonym: NF1-like syndrome
   - Synonym: Neurofibromatosis 1-like syndrome
   - Synonym: Nonmosaic LGSS
+  - Synonym: Nonmosaic Legius syndrome
   TextSection:
     Contents: Legius syndrome also known as NF1-like syndrome is a rare genetic skin
       pigmentation disorder characterized by multiple café-au-lait macules with or
@@ -240,6 +240,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

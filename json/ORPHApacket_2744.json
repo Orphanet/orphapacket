@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2744",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "2744",
         "Label": "Horizontal gaze palsy with progressive scoliosis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2744",
@@ -23,15 +23,15 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "617542",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                    "Reference": "607313",
+                    "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
                 }
             },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
-                    "Reference": "607313",
-                    "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
+                    "Reference": "617542",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
         ],
@@ -40,27 +40,6 @@
             "Contents": "Horizontal gaze palsy with progressive scoliosis (HGPPS) is a rare congenital autosomal recessive disease presenting in children and adolescents and characterized by progressive scoliosis along with the absence of conjugate horizontal eye movements and associated with failure of the somatosensory and corticospinal neuronal tracts to decussate in the medulla."
         },
         "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "DCC",
-                    "Name": "DCC netrin 1 receptor",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "2701"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "120470"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "DCC"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
             {
                 "Gene": {
                     "Symbol": "ROBO3",
@@ -81,6 +60,27 @@
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
+            },
+            {
+                "Gene": {
+                    "Symbol": "DCC",
+                    "Name": "DCC netrin 1 receptor",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "DCC"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "2701"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "120470"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
             }
         ],
         "Parents": [
@@ -95,8 +95,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "269531",
-                        "Label": "Other syndrome with a central nervous system malformation as a major feature"
+                        "ORPHAcode": "729519",
+                        "Label": "Syndrome with a brainstem malformation as a major feature"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "269564",
+                        "Label": "Genetic syndrome with a central nervous system malformation as a major feature"
                     }
                 ]
             },
@@ -111,8 +119,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "269564",
-                        "Label": "Genetic syndrome with a central nervous system malformation as a major feature"
+                        "ORPHAcode": "730696",
+                        "Label": "Genetic syndrome with a brainstem malformation as a major feature"
                     }
                 ]
             },

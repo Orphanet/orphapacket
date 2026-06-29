@@ -1,28 +1,28 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "2754",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "2754",
         "Label": "Orofaciodigital syndrome type 6",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_2754",
         "DisorderType": {
-            "value": "Malformation syndrome",
-            "PURL": "http://www.orpha.net/ORDO/Orphanet_377789"
+            "value": "Clinical subtype",
+            "PURL": "http://www.orpha.net/ORDO/Orphanet_377796"
         },
         "Synonyms": [
             {
                 "Synonym": "Joubert syndrome with oral-facial-digital syndrome"
             },
             {
+                "Synonym": "Joubert syndrome with orofaciodigital defect"
+            },
+            {
                 "Synonym": "OFD6"
             },
             {
                 "Synonym": "Oral-facial-digital syndrome type 6"
-            },
-            {
-                "Synonym": "Joubert syndrome with orofaciodigital defect"
             },
             {
                 "Synonym": "Polydactyly-cleft lip/palate-psychomotor retardation syndrome"
@@ -35,13 +35,6 @@
             }
         ],
         "ExternalReferences": [
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "618763",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
@@ -76,6 +69,13 @@
                     "Reference": "617127",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "618763",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -85,26 +85,13 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "FAM149B1",
-                    "Name": "family with sequence similarity 149 member B1",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "29162"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "618413"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "OFD1",
                     "Name": "OFD1 centriole and centriolar satellite protein",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "OFD1"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "2567"
@@ -112,10 +99,27 @@
                         {
                             "Source": "OMIM",
                             "Reference": "300170"
-                        },
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "TOPORS",
+                    "Name": "TOP1 binding arginine/serine rich protein, E3 ubiquitin ligase",
+                    "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "OFD1"
+                            "Reference": "TOPORS"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "21653"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "609507"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -169,16 +173,16 @@
                     "Name": "ciliogenesis and planar polarity effector complex subunit 1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "C5orf42"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "25801"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "614571"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "C5orf42"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -207,30 +211,13 @@
             },
             {
                 "Gene": {
-                    "Symbol": "PDE6D",
-                    "Name": "phosphodiesterase 6D",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "8788"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "602676"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "PDE6D"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "TMEM231",
                     "Name": "transmembrane protein 231",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "TMEM231"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "37234"
@@ -238,10 +225,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "614949"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TMEM231"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -249,23 +232,23 @@
             },
             {
                 "Gene": {
-                    "Symbol": "TOPORS",
-                    "Name": "TOP1 binding arginine/serine rich protein, E3 ubiquitin ligase",
+                    "Symbol": "PDE6D",
+                    "Name": "phosphodiesterase 6D",
                     "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "TOPORS"
+                            "Reference": "PDE6D"
                         },
                         {
                             "Source": "HGNC",
-                            "Reference": "21653"
+                            "Reference": "8788"
                         },
                         {
                             "Source": "OMIM",
-                            "Reference": "609507"
+                            "Reference": "602676"
                         }
                     ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
                 }
             },
             {
@@ -274,16 +257,33 @@
                     "Name": "KIAA0753",
                     "ExternalReferences": [
                         {
-                            "Source": "HGNC",
-                            "Reference": "29110"
-                        },
-                        {
                             "Source": "ClinVar",
                             "Reference": "KIAA0753"
                         },
                         {
+                            "Source": "HGNC",
+                            "Reference": "29110"
+                        },
+                        {
                             "Source": "OMIM",
                             "Reference": "617112"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "FAM149B1",
+                    "Name": "family with sequence similarity 149 member B1",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "29162"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "618413"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -294,8 +294,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "140874",
-                        "Label": "Joubert syndrome and related disorders"
+                        "ORPHAcode": "90642",
+                        "Label": "Rare syndromic genetic deafness"
                     }
                 ]
             },
@@ -310,6 +310,14 @@
             {
                 "Parent": [
                     {
+                        "ORPHAcode": "140874",
+                        "Label": "Joubert syndrome"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
                         "ORPHAcode": "140997",
                         "Label": "Orofaciodigital syndrome"
                     }
@@ -318,32 +326,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "269567",
-                        "Label": "Genetic syndrome with a cerebellar malformation as a major feature"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "90642",
-                        "Label": "Rare syndromic genetic deafness"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
                         "ORPHAcode": "611327",
                         "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "269523",
-                        "Label": "Syndrome with a cerebellar malformation as a major feature"
                     }
                 ]
             }
@@ -617,6 +601,41 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0006145",
+                    "HPOTerm": "Central Y-shaped metacarpal",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007370",
+                    "HPOTerm": "Aplasia/Hypoplasia of the corpus callosum",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0008678",
+                    "HPOTerm": "Renal hypoplasia/aplasia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0009084",
+                    "HPOTerm": "Midline notch of upper alveolar ridge",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100260",
+                    "HPOTerm": "Mesoaxial polydactyly",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0001337",
                     "HPOTerm": "Tremor",
                     "HPOFrequency": "Occasional (29-5%)"
@@ -668,41 +687,6 @@
                 "Phenotype": {
                     "HPOId": "HP:0002876",
                     "HPOTerm": "Episodic tachypnea",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0006145",
-                    "HPOTerm": "Central Y-shaped metacarpal",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0007370",
-                    "HPOTerm": "Aplasia/Hypoplasia of the corpus callosum",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0008678",
-                    "HPOTerm": "Renal hypoplasia/aplasia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0009084",
-                    "HPOTerm": "Midline notch of upper alveolar ridge",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0100260",
-                    "HPOTerm": "Mesoaxial polydactyly",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },

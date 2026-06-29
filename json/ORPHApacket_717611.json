@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "717611",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "717611",
         "Label": "Capillary-venous malformation",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_717611",
@@ -16,18 +16,77 @@
                 "Synonym": "CVM"
             },
             {
-                "Synonym": "Capillary-venulous malformations"
+                "Synonym": "Capillary-venulous malformation"
+            }
+        ],
+        "Genes": [
+            {
+                "Gene": {
+                    "Symbol": "PIK3CA",
+                    "Name": "phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "PIK3CA"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "8975"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "171834"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "TEK",
+                    "Name": "TEK receptor tyrosine kinase",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "TEK"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "11724"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "600221"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
+                }
             }
         ],
         "Parents": [
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "458837",
-                        "Label": "Rare combined vascular malformation"
+                        "ORPHAcode": "211240",
+                        "Label": "Genetic vascular anomaly"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "723518",
+                        "Label": "Isolated combined vascular malformation"
                     }
                 ]
             }
-        ]
+        ],
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
+                    "value": "Not applicable"
+                }
+            ]
+        }
     }
 }

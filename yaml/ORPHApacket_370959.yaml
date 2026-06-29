@@ -37,12 +37,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: POMGNT1
+        Source: ClinVar
       - Reference: '19139'
         Source: HGNC
       - Reference: '606822'
         Source: OMIM
-      - Reference: POMGNT1
-        Source: ClinVar
       Name: protein O-linked mannose N-acetylglucosaminyltransferase 1 (beta 1,2-)
       Symbol: POMGNT1
   - Gene:
@@ -72,10 +72,10 @@ Orphapacket:
       ExternalReferences:
       - Reference: FKRP
         Source: ClinVar
-      - Reference: '606596'
-        Source: OMIM
       - Reference: '17997'
         Source: HGNC
+      - Reference: '606596'
+        Source: OMIM
       Name: fukutin related protein
       Symbol: FKRP
   - Gene:
@@ -91,12 +91,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: GMPPB
+        Source: ClinVar
       - Reference: '22932'
         Source: HGNC
       - Reference: '615320'
         Source: OMIM
-      - Reference: GMPPB
-        Source: ClinVar
       Name: GDP-mannose pyrophosphorylase B
       Symbol: GMPPB
   Label: Congenital muscular dystrophy with cerebellar involvement
@@ -104,6 +104,9 @@ Orphapacket:
   ORPHApacketId: '370959'
   PURL: http://www.orpha.net/ORDO/Orphanet_370959
   Parents:
+  - Parent:
+    - Label: Disorder of O-mannosylglycan synthesis
+      ORPHAcode: '309469'
   - Parent:
     - Label: Congenital muscular dystrophy due to dystroglycanopathy
       ORPHAcode: '370953'
@@ -114,10 +117,15 @@ Orphapacket:
     - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
         syndrome
       ORPHAcode: '611314'
-  - Parent:
-    - Label: Disorder of O-mannosylglycan synthesis
-      ORPHAcode: '309469'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000618
+      HPOTerm: Blindness
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001638
+      HPOTerm: Cardiomyopathy
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0006955
@@ -298,14 +306,6 @@ Orphapacket:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0000568
       HPOTerm: Microphthalmia
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000618
-      HPOTerm: Blindness
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0001638
-      HPOTerm: Cardiomyopathy
   Synonyms:
   - Synonym: CMD with cerebellar involvement
   - Synonym: CMD-CRB
@@ -318,6 +318,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

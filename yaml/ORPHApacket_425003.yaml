@@ -3,15 +3,31 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
-            of function) in
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '3468'
+          - Reference: '7010'
             Source: HGNC
-          - Reference: '601663'
+          - Reference: '613733'
             Source: OMIM
-          Label: estrogen receptor 2
-          Symbol: ESR2
+          Label: menin 1
+          Symbol: MEN1
+      Label: Multiple endocrine neoplasia type 1
+      ORPHAcode: '652'
+  - Child:
+      Genes: no data
+      Label: Multiple endocrine neoplasia type 2
+      ORPHAcode: '653'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '9967'
+            Source: HGNC
+          - Reference: '164761'
+            Source: OMIM
+          Label: ret proto-oncogene
+          Symbol: RET
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -22,24 +38,25 @@ Orphapacket:
           Label: neurotrophic receptor tyrosine kinase 1
           Symbol: NTRK1
       - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
+            of function) in
           ExternalReferences:
-          - Reference: '9967'
+          - Reference: '3468'
             Source: HGNC
-          - Reference: '164761'
+          - Reference: '601663'
             Source: OMIM
-          Label: ret proto-oncogene
-          Symbol: RET
+          Label: estrogen receptor 2
+          Symbol: ESR2
       Label: Isolated familial medullary thyroid carcinoma
       ORPHAcode: '99361'
   - Child:
       Genes: no data
-      Label: Multiple endocrine neoplasia type 2
-      ORPHAcode: '653'
-  - Child:
-      Genes: no data
       Label: Intestinal polyposis syndrome
       ORPHAcode: '104010'
+  - Child:
+      Genes: no data
+      Label: Hereditary nonpolyposis colon cancer
+      ORPHAcode: '443909'
   - Child:
       Genes:
       - Gene:
@@ -53,23 +70,6 @@ Orphapacket:
           Symbol: IPMK
       Label: Hereditary neuroendocrine tumor of small intestine
       ORPHAcode: '456333'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '7010'
-            Source: HGNC
-          - Reference: '613733'
-            Source: OMIM
-          Label: menin 1
-          Symbol: MEN1
-      Label: Multiple endocrine neoplasia type 1
-      ORPHAcode: '652'
-  - Child:
-      Genes: no data
-      Label: Hereditary nonpolyposis colon cancer
-      ORPHAcode: '443909'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -79,11 +79,11 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_425003
   Parents:
   - Parent:
-    - Label: Inherited cancer-predisposing syndrome
-      ORPHAcode: '140162'
-  - Parent:
     - Label: Rare gastroenterologic disease
       ORPHAcode: '97935'
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  - Parent:
+    - Label: Inherited cancer-predisposing syndrome
+      ORPHAcode: '140162'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

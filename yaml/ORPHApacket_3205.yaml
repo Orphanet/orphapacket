@@ -15,12 +15,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
       ExternalReferences:
+      - Reference: GNAQ
+        Source: ClinVar
       - Reference: '4390'
         Source: HGNC
       - Reference: '600998'
         Source: OMIM
-      - Reference: GNAQ
-        Source: ClinVar
       Name: G protein subunit alpha q
       Symbol: GNAQ
   Label: Sturge-Weber syndrome
@@ -29,9 +29,8 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_3205
   Parents:
   - Parent:
-    - Label: Rare genetic disorder with progressive vasculopathy disorder as a major
-        feature
-      ORPHAcode: '717348'
+    - Label: Skin vascular disease
+      ORPHAcode: '79379'
   - Parent:
     - Label: Overgrowth syndrome
       ORPHAcode: '93460'
@@ -45,33 +44,34 @@ Orphapacket:
     - Label: Cerebral diseases of vascular origin with epilepsy
       ORPHAcode: '166487'
   - Parent:
-    - Label: Rare capillary malformation with associated anomalies
-      ORPHAcode: '458830'
-  - Parent:
-    - Label: Neonatal-infantile onset epilepsy syndrome
-      ORPHAcode: '693802'
-  - Parent:
     - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
         syndrome
       ORPHAcode: '611314'
   - Parent:
-    - Label: Rare disease with glaucoma as a major feature
-      ORPHAcode: '98638'
+    - Label: Neonatal/infantile-onset epilepsy syndrome
+      ORPHAcode: '693802'
+  - Parent:
+    - Label: Rare genetic disorder with progressive retinal vasculopathy as a major
+        feature
+      ORPHAcode: '717348'
   - Parent:
     - Label: Syndrome or malformation associated with head and neck malformations
       ORPHAcode: '156237'
   - Parent:
-    - Label: Rare capillary malformation
-      ORPHAcode: '211247'
+    - Label: Syndromic port-wine capillary malformation
+      ORPHAcode: '723264'
+  - Parent:
+    - Label: Rare disease with glaucoma as a major feature
+      ORPHAcode: '98638'
+  - Parent:
+    - Label: Genetic syndrome or malformation associated with head and neck malformations
+      ORPHAcode: '728642'
   - Parent:
     - Label: Rare disorder with progressive retinal vasculopathy as a major feature
       ORPHAcode: '716459'
   - Parent:
     - Label: Neurovascular malformation
       ORPHAcode: '102006'
-  - Parent:
-    - Label: Skin vascular disease
-      ORPHAcode: '79379'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
@@ -81,6 +81,38 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0200026
       HPOTerm: Ocular pain
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004936
+      HPOTerm: Venous thrombosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0007872
+      HPOTerm: Choroidal hemangioma
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008046
+      HPOTerm: Abnormal retinal vascular morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009926
+      HPOTerm: Epiphora
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011787
+      HPOTerm: Central hypothyroidism
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012377
+      HPOTerm: Hemianopia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0034323
+      HPOTerm: Reduced circulating growth hormone concentration
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100761
+      HPOTerm: Visceral angiomatosis
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000996
@@ -245,38 +277,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0002514
       HPOTerm: Cerebral calcification
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0004936
-      HPOTerm: Venous thrombosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0007872
-      HPOTerm: Choroidal hemangioma
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008046
-      HPOTerm: Abnormal retinal vascular morphology
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0009926
-      HPOTerm: Epiphora
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011787
-      HPOTerm: Central hypothyroidism
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012377
-      HPOTerm: Hemianopia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0034323
-      HPOTerm: Reduced circulating growth hormone concentration
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100761
-      HPOTerm: Visceral angiomatosis
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -308,6 +308,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

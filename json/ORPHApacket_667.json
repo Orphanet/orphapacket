@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "667",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "667",
         "Label": "Autosomal recessive malignant osteopetrosis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_667",
@@ -34,6 +34,13 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
+                    "Reference": "259720",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
                     "Reference": "611490",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
@@ -54,19 +61,19 @@
             {
                 "Gene": {
                     "Symbol": "CLCN7",
-                    "Name": "chloride voltage-gated channel 7",
+                    "Name": "Cl-/H+ antiporter 7",
                     "ExternalReferences": [
                         {
-                            "Source": "OMIM",
-                            "Reference": "602727"
+                            "Source": "ClinVar",
+                            "Reference": "CLCN7"
                         },
                         {
                             "Source": "HGNC",
                             "Reference": "2025"
                         },
                         {
-                            "Source": "ClinVar",
-                            "Reference": "CLCN7"
+                            "Source": "OMIM",
+                            "Reference": "602727"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -78,16 +85,16 @@
                     "Name": "T cell immune regulator 1, ATPase H+ transporting V0 subunit a3",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "TCIRG1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "11647"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "604592"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TCIRG1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
@@ -134,6 +141,27 @@
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
+            },
+            {
+                "Gene": {
+                    "Symbol": "OSTM1",
+                    "Name": "osteoclastogenesis associated transmembrane protein 1",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "OSTM1"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "21652"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "607649"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
             }
         ],
         "Parents": [
@@ -148,6 +176,14 @@
             {
                 "Parent": [
                     {
+                        "ORPHAcode": "728475",
+                        "Label": "Inherited bone marrow failure disorder with immune defect"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
                         "ORPHAcode": "519337",
                         "Label": "Disorder with optic nerve compression"
                     }
@@ -155,20 +191,6 @@
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000238",
-                    "HPOTerm": "Hydrocephalus",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000256",
-                    "HPOTerm": "Macrocephaly",
-                    "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000365",
@@ -453,6 +475,20 @@
                 "Phenotype": {
                     "HPOId": "HP:0100022",
                     "HPOTerm": "Abnormality of movement",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000238",
+                    "HPOTerm": "Hydrocephalus",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000256",
+                    "HPOTerm": "Macrocephaly",
                     "HPOFrequency": "Very frequent (99-80%)"
                 }
             }

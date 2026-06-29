@@ -11,24 +11,36 @@ Orphapacket:
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
+  Genes:
+  - Gene:
+      DisorderGeneAssociationType: Part of a fusion gene in
+      ExternalReferences:
+      - Reference: MN1
+        Source: ClinVar
+      - Reference: '7180'
+        Source: HGNC
+      - Reference: '156100'
+        Source: OMIM
+      Name: MN1 proto-oncogene, transcriptional regulator
+      Symbol: MN1
   Label: Astroblastoma
   ORPHAcode: '251679'
   ORPHApacketId: '251679'
   PURL: http://www.orpha.net/ORDO/Orphanet_251679
   Parents:
   - Parent:
-    - Label: Glial tumor of neuroepithelial tissue with unknown origin
-      ORPHAcode: '251668'
-  - Parent:
     - Label: Pediatric circumscribed astrocytic glioma
       ORPHAcode: '715713'
+  - Parent:
+    - Label: Circumscribed astrocytic glioma
+      ORPHAcode: '717268'
   Prevalences:
     Prevalence:
     - PrevalenceClass: <1 / 1 000 000
       PrevalenceGeographic: Europe
       PrevalenceQualification: Value and class
       PrevalenceType: Annual incidence
-      Source: RARECARE surveillance of rare cancers in Europe[REG]
+      Source: RARECARE surveillance of rare cancers in Europe[OTHER]
       ValMoy: '0.02'
   TextSection:
     Contents: A rare central nervous system tumor characterized by a well circumscribed
@@ -43,6 +55,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -15,6 +15,11 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
+      Reference: '177200'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
       Reference: '618114'
       Source: OMIM
   - ExternalReference:
@@ -22,12 +27,19 @@ Orphapacket:
         to represent it)
       Reference: '618126'
       Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '177200'
-      Source: OMIM
   Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
+        in
+      ExternalReferences:
+      - Reference: SCNN1A
+        Source: ClinVar
+      - Reference: '10599'
+        Source: HGNC
+      - Reference: '600228'
+        Source: OMIM
+      Name: sodium channel epithelial 1 subunit alpha
+      Symbol: SCNN1A
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
         in
@@ -52,18 +64,6 @@ Orphapacket:
         Source: OMIM
       Name: sodium channel epithelial 1 subunit gamma
       Symbol: SCNN1G
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain of function)
-        in
-      ExternalReferences:
-      - Reference: SCNN1A
-        Source: ClinVar
-      - Reference: '10599'
-        Source: HGNC
-      - Reference: '600228'
-        Source: OMIM
-      Name: sodium channel epithelial 1 subunit alpha
-      Symbol: SCNN1A
   Label: Liddle syndrome
   ORPHAcode: '526'
   ORPHApacketId: '526'
@@ -136,6 +136,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -5,30 +5,25 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '7227'
+          - Reference: '11998'
             Source: HGNC
-          - Reference: '608435'
+          - Reference: '191170'
             Source: OMIM
-          Label: muscle RAS oncogene homolog
-          Symbol: MRAS
+          Label: tumor protein p53
+          Symbol: TP53
       - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          DisorderGeneAssociationType: Modifying germline mutation in
           ExternalReferences:
-          - Reference: '17722'
+          - Reference: '6973'
             Source: HGNC
-          - Reference: '609292'
+          - Reference: '164785'
             Source: OMIM
-          Label: sprouty related EVH1 domain containing 2
-          Symbol: SPRED2
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '17271'
-            Source: HGNC
-          - Reference: '600098'
-            Source: OMIM
-          Label: RAS related 2
-          Symbol: RRAS2
+          Label: MDM2 proto-oncogene
+          Symbol: MDM2
+      Label: Li-Fraumeni syndrome
+      ORPHAcode: '524'
+  - Child:
+      Genes:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
@@ -41,12 +36,12 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '1541'
+          - Reference: '1097'
             Source: HGNC
-          - Reference: '165360'
+          - Reference: '164757'
             Source: OMIM
-          Label: Cbl proto-oncogene
-          Symbol: CBL
+          Label: B-Raf proto-oncogene, serine/threonine kinase
+          Symbol: BRAF
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain
             of function) in
@@ -85,6 +80,15 @@ Orphapacket:
             Source: OMIM
           Label: NRAS proto-oncogene, GTPase
           Symbol: NRAS
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '1541'
+            Source: HGNC
+          - Reference: '165360'
+            Source: OMIM
+          Label: Cbl proto-oncogene
+          Symbol: CBL
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (gain
             of function) in
@@ -126,12 +130,30 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '1097'
+          - Reference: '7227'
             Source: HGNC
-          - Reference: '164757'
+          - Reference: '608435'
             Source: OMIM
-          Label: B-Raf proto-oncogene, serine/threonine kinase
-          Symbol: BRAF
+          Label: muscle RAS oncogene homolog
+          Symbol: MRAS
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '17271'
+            Source: HGNC
+          - Reference: '600098'
+            Source: OMIM
+          Label: RAS related 2
+          Symbol: RRAS2
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '17722'
+            Source: HGNC
+          - Reference: '609292'
+            Source: OMIM
+          Label: sprouty related EVH1 domain containing 2
+          Symbol: SPRED2
       Label: Noonan syndrome
       ORPHAcode: '648'
   - Child:
@@ -213,60 +235,35 @@ Orphapacket:
   - Child:
       Genes:
       - Gene:
-          DisorderGeneAssociationType: Part of a fusion gene in
-          ExternalReferences:
-          - Reference: '8803'
-            Source: HGNC
-          - Reference: '173490'
-            Source: OMIM
-          Label: platelet derived growth factor receptor alpha
-          Symbol: PDGFRA
-      - Gene:
-          DisorderGeneAssociationType: Part of a fusion gene in
-          ExternalReferences:
-          - Reference: '3823'
-            Source: HGNC
-          - Reference: '605515'
-            Source: OMIM
-          Label: forkhead box P1
-          Symbol: FOXP1
-      Label: B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality
-      ORPHAcode: '585877'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Modifying germline mutation in
-          ExternalReferences:
-          - Reference: '6973'
-            Source: HGNC
-          - Reference: '164785'
-            Source: OMIM
-          Label: MDM2 proto-oncogene
-          Symbol: MDM2
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '11998'
-            Source: HGNC
-          - Reference: '191170'
-            Source: OMIM
-          Label: tumor protein p53
-          Symbol: TP53
-      Label: Li-Fraumeni syndrome
-      ORPHAcode: '524'
-  - Child:
-      Genes:
-      - Gene:
           DisorderGeneAssociationType: Major susceptibility factor in
           ExternalReferences:
-          - Reference: '608170'
-            Source: OMIM
           - Reference: '18674'
             Source: HGNC
+          - Reference: '608170'
+            Source: OMIM
           Label: DEAD-box helicase 41
           Symbol: DDX41
       Label: DDX41-related hematologic malignancy predisposition syndrome
       ORPHAcode: '488647'
+  - Child:
+      Genes: no data
+      Label: Combined immunodeficiency-cancer predisposing syndrome due to AIOLOS
+        deficiency
+      ORPHAcode: '697385'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '13176'
+            Source: HGNC
+          - Reference: '603023'
+            Source: OMIM
+          Label: IKAROS family zinc finger 1
+          Symbol: IKZF1
+      Label: Early-onset combined immunodeficiency with low Ig due to dominant negative
+        IKAROS mutation
+      ORPHAcode: '697414'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -278,6 +275,6 @@ Orphapacket:
   - Parent:
     - Label: Inherited cancer-predisposing syndrome
       ORPHAcode: '140162'
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -2,12 +2,25 @@ Orphapacket:
   Children:
   - Child:
       Genes: no data
-      Label: Distal deletion 6p syndrome
-      ORPHAcode: '96125'
+      Label: Cat-eye syndrome
+      ORPHAcode: '195'
   - Child:
       Genes: no data
-      Label: Syndromic aniridia
-      ORPHAcode: '98557'
+      Label: Alagille syndrome
+      ORPHAcode: '52'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '20207'
+            Source: HGNC
+          - Reference: '610308'
+            Source: OMIM
+          Label: beta 3-glucosyltransferase
+          Symbol: B3GLCT
+      Label: Peters plus syndrome
+      ORPHAcode: '709'
   - Child:
       Genes:
       - Gene:
@@ -26,6 +39,10 @@ Orphapacket:
       Genes: no data
       Label: GMS syndrome
       ORPHAcode: '2090'
+  - Child:
+      Genes: no data
+      Label: Jung syndrome
+      ORPHAcode: '2321'
   - Child:
       Genes:
       - Gene:
@@ -78,52 +95,14 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '601090'
-            Source: OMIM
           - Reference: '3800'
             Source: HGNC
+          - Reference: '601090'
+            Source: OMIM
           Label: forkhead box C1
           Symbol: FOXC1
       Label: Axenfeld-Rieger syndrome
       ORPHAcode: '782'
-  - Child:
-      Genes: no data
-      Label: Cat-eye syndrome
-      ORPHAcode: '195'
-  - Child:
-      Genes: no data
-      Label: Microtia-eye coloboma-imperforation of the nasolacrimal duct syndrome
-      ORPHAcode: '139450'
-  - Child:
-      Genes: no data
-      Label: Alagille syndrome
-      ORPHAcode: '52'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '20207'
-            Source: HGNC
-          - Reference: '610308'
-            Source: OMIM
-          Label: beta 3-glucosyltransferase
-          Symbol: B3GLCT
-      Label: Peters plus syndrome
-      ORPHAcode: '709'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '1857'
-            Source: HGNC
-          - Reference: '600236'
-            Source: OMIM
-          Label: centromere protein F
-          Symbol: CENPF
-      Label: Stromme syndrome
-      ORPHAcode: '506307'
   - Child:
       Genes:
       - Gene:
@@ -140,8 +119,29 @@ Orphapacket:
       ORPHAcode: '52055'
   - Child:
       Genes: no data
-      Label: Jung syndrome
-      ORPHAcode: '2321'
+      Label: Distal deletion 6p syndrome
+      ORPHAcode: '96125'
+  - Child:
+      Genes: no data
+      Label: Syndromic aniridia
+      ORPHAcode: '98557'
+  - Child:
+      Genes: no data
+      Label: Microtia-eye coloboma-imperforation of the nasolacrimal duct syndrome
+      ORPHAcode: '139450'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '1857'
+            Source: HGNC
+          - Reference: '600236'
+            Source: OMIM
+          Label: centromere protein F
+          Symbol: CENPF
+      Label: Stromme syndrome
+      ORPHAcode: '506307'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -151,11 +151,11 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_519276
   Parents:
   - Parent:
-    - Label: Anterior segment developmental anomaly of genetic origin
-      ORPHAcode: '522540'
-  - Parent:
     - Label: Anterior segment developmental anomaly
       ORPHAcode: '88632'
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  - Parent:
+    - Label: Anterior segment developmental anomaly of genetic origin
+      ORPHAcode: '522540'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

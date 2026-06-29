@@ -2,10 +2,6 @@ Orphapacket:
   Children:
   - Child:
       Genes: no data
-      Label: Oculocerebrocutaneous syndrome
-      ORPHAcode: '1647'
-  - Child:
-      Genes: no data
       Label: Aicardi syndrome
       ORPHAcode: '50'
   - Child:
@@ -16,6 +12,10 @@ Orphapacket:
       Genes: no data
       Label: Schizencephaly
       ORPHAcode: '799'
+  - Child:
+      Genes: no data
+      Label: Oculocerebrocutaneous syndrome
+      ORPHAcode: '1647'
   - Child:
       Genes: no data
       Label: Porencephaly
@@ -29,9 +29,26 @@ Orphapacket:
       Label: Microlissencephaly-micromelia syndrome
       ORPHAcode: '50810'
   - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '11079'
+            Source: HGNC
+          - Reference: '300231'
+            Source: OMIM
+          Label: solute carrier family 9 member A6
+          Symbol: SLC9A6
+      Label: Christianson syndrome
+      ORPHAcode: '85278'
+  - Child:
       Genes: no data
       Label: Gelastic seizures with hypothalamic hamartoma
       ORPHAcode: '86906'
+  - Child:
+      Genes: no data
+      Label: Pontocerebellar hypoplasia
+      ORPHAcode: '98523'
   - Child:
       Genes:
       - Gene:
@@ -65,6 +82,19 @@ Orphapacket:
       Label: Hemimegalencephaly
       ORPHAcode: '99802'
   - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '8148'
+            Source: HGNC
+          - Reference: '300127'
+            Source: OMIM
+          Label: oligophrenin 1
+          Symbol: OPHN1
+      Label: X-linked intellectual disability-cerebellar hypoplasia syndrome
+      ORPHAcode: '137831'
+  - Child:
       Genes: no data
       Label: Non-syndromic cerebral malformation due to abnormal neuronal migration
       ORPHAcode: '163209'
@@ -95,10 +125,10 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '611483'
-            Source: OMIM
           - Reference: '24877'
             Source: HGNC
+          - Reference: '611483'
+            Source: OMIM
           Label: Yip1 domain family member 5
           Symbol: YIPF5
       Label: Primary microcephaly-epilepsy-permanent neonatal diabetes syndrome
@@ -145,36 +175,6 @@ Orphapacket:
       Label: Diffuse cerebral and cerebellar atrophy-intractable seizures-progressive
         microcephaly syndrome
       ORPHAcode: '404437'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '8148'
-            Source: HGNC
-          - Reference: '300127'
-            Source: OMIM
-          Label: oligophrenin 1
-          Symbol: OPHN1
-      Label: X-linked intellectual disability-cerebellar hypoplasia syndrome
-      ORPHAcode: '137831'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '11079'
-            Source: HGNC
-          - Reference: '300231'
-            Source: OMIM
-          Label: solute carrier family 9 member A6
-          Symbol: SLC9A6
-      Label: Christianson syndrome
-      ORPHAcode: '85278'
-  - Child:
-      Genes: no data
-      Label: Non-syndromic pontocerebellar hypoplasia
-      ORPHAcode: '98523'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
@@ -189,6 +189,6 @@ Orphapacket:
   - Parent:
     - Label: Rare genetic epilepsy
       ORPHAcode: '183512'
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -9,7 +9,12 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '616911'
+      Reference: '242860'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '614069'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -19,12 +24,7 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '242860'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '614069'
+      Reference: '616911'
       Source: OMIM
   Genes:
   - Gene:
@@ -52,32 +52,32 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: CDCA7
+        Source: ClinVar
       - Reference: '14628'
         Source: HGNC
       - Reference: '609937'
         Source: OMIM
-      - Reference: CDCA7
-        Source: ClinVar
       Name: cell division cycle associated 7
       Symbol: CDCA7
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: HELLS
+        Source: ClinVar
       - Reference: '4861'
         Source: HGNC
       - Reference: '603946'
         Source: OMIM
-      - Reference: HELLS
-        Source: ClinVar
       Name: helicase, lymphoid specific
       Symbol: HELLS
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '607990'
-        Source: OMIM
       - Reference: '12556'
         Source: HGNC
+      - Reference: '607990'
+        Source: OMIM
       Name: ubiquitin like with PHD and ring finger domains 1
       Symbol: UHRF1
   Label: ICF syndrome
@@ -92,6 +92,9 @@ Orphapacket:
     - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
         syndrome
       ORPHAcode: '611314'
+  - Parent:
+    - Label: Rare immune disease with inflammatory bowel disease
+      ORPHAcode: '717757'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Occasional (29-5%)
@@ -201,8 +204,8 @@ Orphapacket:
       Source: ORPHANET
       ValMoy: no data
   Synonyms:
-  - Synonym: Immunodeficiency-centromeric instability-facial dysmorphism syndrome
   - Synonym: Immunodeficiency-centromeric instability-facial anomalies syndrome
+  - Synonym: Immunodeficiency-centromeric instability-facial dysmorphism syndrome
   TextSection:
     Contents: A rare autosomal recessive syndrome with combined immunodeficiency characterized
       by the clinical triad of immunodeficiency centromeric instability and facial
@@ -217,6 +220,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

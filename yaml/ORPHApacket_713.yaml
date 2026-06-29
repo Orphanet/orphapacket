@@ -17,12 +17,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PGK1
+        Source: ClinVar
       - Reference: '8896'
         Source: HGNC
       - Reference: '311800'
         Source: OMIM
-      - Reference: PGK1
-        Source: ClinVar
       Name: phosphoglycerate kinase 1
       Symbol: PGK1
   Label: Glycogen storage disease due to phosphoglycerate kinase 1 deficiency
@@ -31,11 +31,11 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_713
   Parents:
   - Parent:
-    - Label: Hemolytic anemia due to a disorder of glycolytic enzymes
-      ORPHAcode: '98372'
-  - Parent:
     - Label: Glycogen storage disease
       ORPHAcode: '79201'
+  - Parent:
+    - Label: Hemolytic anemia due to a disorder of glycolytic enzymes
+      ORPHAcode: '98372'
   - Parent:
     - Label: Muscular glycogenosis
       ORPHAcode: '206959'
@@ -43,6 +43,9 @@ Orphapacket:
     - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
         syndrome
       ORPHAcode: '611314'
+  - Parent:
+    - Label: Neurometabolic disease
+      ORPHAcode: '68385'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
@@ -154,6 +157,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

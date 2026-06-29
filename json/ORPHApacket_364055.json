@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "364055",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "364055",
         "Label": "Severe early-childhood-onset retinal dystrophy",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_364055",
@@ -22,6 +22,29 @@
                 "Synonym": "SECORD"
             }
         ],
+        "ExternalReferences": [
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "608133",
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "610125",
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "614186",
+                    "DisorderMappingRelation": "NTBT (ORPHAcode is narrower than the targeted code used to represent it)"
+                }
+            }
+        ],
         "TextSection": {
             "TextSectionType": "Definition",
             "Contents": "Severe early childhood onset retinal dystrophy (SECORD) is an inherited retinal dystrophy characterized by a severe congenital night blindness progressive retinal dystrophy and nystagmus. Best corrected visual acuity can reach 0.3 in the first decade of life and can pertain well into the second decade of life. Blindness is often complete by the age of 30 years."
@@ -29,9 +52,34 @@
         "Genes": [
             {
                 "Gene": {
+                    "Symbol": "PRPH2",
+                    "Name": "peripherin 2",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "PRPH2"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "9942"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "179605"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
                     "Symbol": "RPE65",
                     "Name": "retinoid isomerohydrolase RPE65",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "RPE65"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "10294"
@@ -39,10 +87,69 @@
                         {
                             "Source": "OMIM",
                             "Reference": "180069"
-                        },
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "CABP4",
+                    "Name": "calcium binding protein 4",
+                    "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "RPE65"
+                            "Reference": "CABP4"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "1386"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "608965"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "ALMS1",
+                    "Name": "ALMS1 centrosome and basal body associated protein",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "ALMS1"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "428"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "606844"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "OTX2",
+                    "Name": "orthodenticle homeobox 2",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "OTX2"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "8522"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "600037"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -64,6 +171,27 @@
                         {
                             "Source": "OMIM",
                             "Reference": "611408"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "KCNJ13",
+                    "Name": "potassium inwardly rectifying channel subfamily J member 13",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "KCNJ13"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "6259"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "603208"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -96,16 +224,16 @@
                     "Name": "spermatogenesis associated 7",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "SPATA7"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "20423"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "609868"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "SPATA7"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -116,8 +244,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "716410",
-                        "Label": "Rare isolated progressive generalized retinal disorder"
+                        "ORPHAcode": "730376",
+                        "Label": "Rare acquired isolated progressive generalized retinal disorder"
                     }
                 ]
             },
@@ -133,23 +261,86 @@
         "Phenotypes": [
             {
                 "Phenotype": {
-                    "HPOId": "HP:0007722",
-                    "HPOTerm": "Retinal pigment epithelial atrophy",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000622",
-                    "HPOTerm": "Blurred vision",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000505",
-                    "HPOTerm": "Visual impairment",
+                    "HPOId": "HP:0007843",
+                    "HPOTerm": "Attenuation of retinal blood vessels",
                     "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007703",
+                    "HPOTerm": "Abnormality of retinal pigmentation",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001103",
+                    "HPOTerm": "Abnormal macular morphology",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007814",
+                    "HPOTerm": "Retinal pigment epithelial mottling",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007737",
+                    "HPOTerm": "Bone spicule pigmentation of the retina",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000551",
+                    "HPOTerm": "Color vision defect",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007663",
+                    "HPOTerm": "Reduced visual acuity",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000545",
+                    "HPOTerm": "Myopia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000533",
+                    "HPOTerm": "Chorioretinal atrophy",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002317",
+                    "HPOTerm": "Unsteady gait",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011342",
+                    "HPOTerm": "Mild global developmental delay",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0007793",
+                    "HPOTerm": "Granular macular appearance",
+                    "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
@@ -280,93 +471,30 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0007843",
-                    "HPOTerm": "Attenuation of retinal blood vessels",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0007703",
-                    "HPOTerm": "Abnormality of retinal pigmentation",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001103",
-                    "HPOTerm": "Abnormal macular morphology",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0007814",
-                    "HPOTerm": "Retinal pigment epithelial mottling",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0007737",
-                    "HPOTerm": "Bone spicule pigmentation of the retina",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000551",
-                    "HPOTerm": "Color vision defect",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0007663",
-                    "HPOTerm": "Reduced visual acuity",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000545",
-                    "HPOTerm": "Myopia",
+                    "HPOId": "HP:0007722",
+                    "HPOTerm": "Retinal pigment epithelial atrophy",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000533",
-                    "HPOTerm": "Chorioretinal atrophy",
+                    "HPOId": "HP:0000622",
+                    "HPOTerm": "Blurred vision",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0002317",
-                    "HPOTerm": "Unsteady gait",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011342",
-                    "HPOTerm": "Mild global developmental delay",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0007793",
-                    "HPOTerm": "Granular macular appearance",
-                    "HPOFrequency": "Occasional (29-5%)"
+                    "HPOId": "HP:0000505",
+                    "HPOTerm": "Visual impairment",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             }
         ],
         "Prevalences": {
             "Prevalence": [
                 {
-                    "Source": "Pr Birgit LORENZ_Dr Markus PREISING[EXPERT]",
+                    "Source": "Pr Birgit LORENZ[EXPERT]_Dr Markus PREISING[EXPERT]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "Unknown",

@@ -13,23 +13,23 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '616658'
-        Source: OMIM
-      - Reference: '33702'
-        Source: HGNC
-      Name: mitochondrial contact site and cristae organizing system subunit 13
-      Symbol: MICOS13
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
+      - Reference: OPA3
+        Source: ClinVar
       - Reference: '8142'
         Source: HGNC
       - Reference: '606580'
         Source: OMIM
-      - Reference: OPA3
-        Source: ClinVar
       Name: outer mitochondrial membrane lipid metabolism regulator OPA3
       Symbol: OPA3
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '33702'
+        Source: HGNC
+      - Reference: '616658'
+        Source: OMIM
+      Name: mitochondrial contact site and cristae organizing system subunit 13
+      Symbol: MICOS13
   Label: 3-methylglutaconic aciduria type 3
   ORPHAcode: '67047'
   ORPHApacketId: '67047'
@@ -38,6 +38,9 @@ Orphapacket:
   - Parent:
     - Label: 3-methylglutaconic aciduria
       ORPHAcode: '289902'
+  - Parent:
+    - Label: Neurometabolic disease
+      ORPHAcode: '68385'
   - Parent:
     - Label: Syndromic hereditary optic neuropathy
       ORPHAcode: '441434'
@@ -101,6 +104,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

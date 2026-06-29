@@ -15,12 +15,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: PIGT
+        Source: ClinVar
       - Reference: '14938'
         Source: HGNC
       - Reference: '610272'
         Source: OMIM
-      - Reference: PIGT
-        Source: ClinVar
       Name: phosphatidylinositol glycan anchor biosynthesis class T
       Symbol: PIGT
   Label: Intellectual disability-seizures-hypophosphatasia-ophthalmic-skeletal anomalies
@@ -32,6 +32,9 @@ Orphapacket:
   - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
+  - Parent:
+    - Label: Neurometabolic disease
+      ORPHAcode: '68385'
   - Parent:
     - Label: Syndromic craniosynostosis
       ORPHAcode: '139393'
@@ -47,6 +50,14 @@ Orphapacket:
         disability
       ORPHAcode: '611327'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025330
+      HPOTerm: Downgaze palsy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030856
+      HPOTerm: Posterior staphyloma
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000248
@@ -162,7 +173,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0003282
-      HPOTerm: Low alkaline phosphatase
+      HPOTerm: Decreased circulating alkaline phosphatase activity
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0008676
@@ -323,14 +334,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0012718
       HPOTerm: Morphological abnormality of the gastrointestinal tract
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0025330
-      HPOTerm: Downgaze palsy
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0030856
-      HPOTerm: Posterior staphyloma
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -347,10 +350,10 @@ Orphapacket:
       Source: ORPHANET
       ValMoy: no data
   Synonyms:
+  - Synonym: Congenital disorder of glycosylation due to PIGT deficiency
   - Synonym: MCAHS type 3
   - Synonym: Multiple congenital anomalies-hypotonia-seizures syndrome type 3
   - Synonym: PIGT-CDG
-  - Synonym: Congenital disorder of glycosylation due to PIGT deficiency
   TextSection:
     Contents: A rare congenital disorder of glycosylation characterized by neonatal
       hypotonia global development delay developmental regress and severe to profound
@@ -368,6 +371,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

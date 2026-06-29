@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "67038",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "67038",
         "Label": "B-cell chronic lymphocytic leukemia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_67038",
@@ -19,9 +19,6 @@
                 "Synonym": "B-cell chronic lymphoid leukemia"
             },
             {
-                "Synonym": "Small lymphocytic lymphoma"
-            },
-            {
                 "Synonym": "CLL"
             },
             {
@@ -29,6 +26,9 @@
             },
             {
                 "Synonym": "Chronic lymphocytic leukemia"
+            },
+            {
+                "Synonym": "Small lymphocytic lymphoma"
             }
         ],
         "ExternalReferences": [
@@ -82,30 +82,13 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "ATM",
-                    "Name": "ATM serine/threonine kinase",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "ATM"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "795"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "607585"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "CCND1",
                     "Name": "cyclin D1",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "CCND1"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "1582"
@@ -113,10 +96,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "168461"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CCND1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Part of a fusion gene in"
@@ -128,16 +107,16 @@
                     "Name": "tumor protein p53",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "TP53"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "11998"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "191170"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TP53"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
@@ -162,6 +141,27 @@
                         }
                     ],
                     "DisorderGeneAssociationType": "Major susceptibility factor in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "ATM",
+                    "Name": "ATM serine/threonine kinase",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "ATM"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "795"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "607585"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
                 }
             },
             {
@@ -191,16 +191,16 @@
                     "Name": "protection of telomeres 1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "POT1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "17284"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "606478"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "POT1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
@@ -212,16 +212,16 @@
                     "Name": "ribosomal protein S15",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "RPS15"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "10388"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "180535"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "RPS15"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
@@ -233,16 +233,16 @@
                     "Name": "IKAROS family zinc finger 3",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "IKZF3"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "13178"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "606221"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "IKZF3"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing somatic mutation(s) in"
@@ -262,7 +262,7 @@
         "Prevalences": [
             {
                 "Prevalence": {
-                    "Source": "European Medicines Agency 2015[INST]",
+                    "Source": "European Medicines Agency 2015[OTHER]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-5 / 10 000",
@@ -272,7 +272,7 @@
             },
             {
                 "Prevalence": {
-                    "Source": "Institut National du Cancer 2013[INST]",
+                    "Source": "OTHERitut National du Cancer 2013[OTHER]",
                     "PrevalenceType": "Annual incidence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-9 / 100 000",

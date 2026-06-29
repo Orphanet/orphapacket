@@ -8,6 +8,10 @@ Orphapacket:
       value: Neonatal
   Children:
   - Child:
+      Genes: no data
+      Label: Galactose-1-phosphate uridylyltransferase deficiency
+      ORPHAcode: '723094'
+  - Child:
       Genes:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
@@ -30,19 +34,6 @@ Orphapacket:
       - Gene:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) in
           ExternalReferences:
-          - Reference: '4135'
-            Source: HGNC
-          - Reference: '606999'
-            Source: OMIM
-          Label: galactose-1-phosphate uridylyltransferase
-          Symbol: GALT
-      Label: Classic galactosemia
-      ORPHAcode: '79239'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
           - Reference: '24063'
             Source: HGNC
           - Reference: '137030'
@@ -54,36 +45,20 @@ Orphapacket:
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_557495
     value: Category
-  ExternalReferences:
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '230200'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '230350'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '230400'
-      Source: OMIM
   Label: Galactosemia
   ORPHAcode: '352'
   ORPHApacketId: '352'
   PURL: http://www.orpha.net/ORDO/Orphanet_352
   Parents:
   - Parent:
+    - Label: Disorder of galactose metabolism
+      ORPHAcode: '308467'
+  - Parent:
     - Label: Nephropathy secondary to a storage or other metabolic disease
       ORPHAcode: '93593'
   - Parent:
     - Label: Metabolic disease with cataract
       ORPHAcode: '98644'
-  - Parent:
-    - Label: Disorder of galactose metabolism
-      ORPHAcode: '308467'
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -91,13 +66,6 @@ Orphapacket:
       PrevalenceQualification: Value and class
       PrevalenceType: Prevalence at birth
       Source: ORPHANET
-      ValMoy: no data
-  - Prevalence:
-      PrevalenceClass: 1-9 / 100 000
-      PrevalenceGeographic: Europe
-      PrevalenceQualification: Value and class
-      PrevalenceType: Annual incidence
-      Source: '[EXPERT]_ORPHANET'
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -113,17 +81,20 @@ Orphapacket:
       PrevalenceType: Point prevalence
       Source: ORPHANET
       ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: Europe
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: '[EXPERT]_ORPHANET'
+      ValMoy: no data
   TextSection:
-    Contents: Galactosemia is a group of rare genetic metabolic disorders characterized
-      by impaired galactose metabolism resulting in a range of variable manifestations
-      encompassing a severe life-threatening disease (classic galactosemia) a rare
-      mild form (galactokinase deficiency) causing cataract and a very rare form with
-      variable severity (galactose epimerase deficiency) resembling classic galactosemia
-      in the severe form.
+    Contents: A group of rare genetic metabolic disorders characterized by impaired
+      galactose metabolism resulting in a wide range of variable manifestations.
     TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

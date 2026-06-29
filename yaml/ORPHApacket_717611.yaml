@@ -2,17 +2,46 @@ Orphapacket:
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377791
     value: Morphological anomaly
+  Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
+      ExternalReferences:
+      - Reference: PIK3CA
+        Source: ClinVar
+      - Reference: '8975'
+        Source: HGNC
+      - Reference: '171834'
+        Source: OMIM
+      Name: phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+      Symbol: PIK3CA
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing somatic mutation(s) in
+      ExternalReferences:
+      - Reference: TEK
+        Source: ClinVar
+      - Reference: '11724'
+        Source: HGNC
+      - Reference: '600221'
+        Source: OMIM
+      Name: TEK receptor tyrosine kinase
+      Symbol: TEK
   Label: Capillary-venous malformation
   ORPHAcode: '717611'
   ORPHApacketId: '717611'
   PURL: http://www.orpha.net/ORDO/Orphanet_717611
   Parents:
   - Parent:
-    - Label: Rare combined vascular malformation
-      ORPHAcode: '458837'
+    - Label: Genetic vascular anomaly
+      ORPHAcode: '211240'
+  - Parent:
+    - Label: Isolated combined vascular malformation
+      ORPHAcode: '723518'
   Synonyms:
   - Synonym: CVM
-  - Synonym: Capillary-venulous malformations
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  - Synonym: Capillary-venulous malformation
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Not applicable
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

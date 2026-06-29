@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "238475",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "238475",
         "Label": "Familial hypercholanemia",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_238475",
@@ -20,6 +20,13 @@
             {
                 "ExternalReference": {
                     "Source": "OMIM",
+                    "Reference": "607748",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
                     "Reference": "619232",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
@@ -28,13 +35,6 @@
                 "ExternalReference": {
                     "Source": "OMIM",
                     "Reference": "619256",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "607748",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
             }
@@ -46,9 +46,26 @@
         "Genes": [
             {
                 "Gene": {
+                    "Symbol": "SLC10A5",
+                    "Name": "solute carrier family 10 member 5",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "22981"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
                     "Symbol": "EPHX1",
                     "Name": "epoxide hydrolase 1",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "EPHX1"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "3401"
@@ -56,10 +73,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "132810"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "EPHX1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -71,16 +84,16 @@
                     "Name": "tight junction protein 2",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "TJP2"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "11828"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "607709"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TJP2"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -92,16 +105,16 @@
                     "Name": "bile acid-CoA:amino acid N-acyltransferase",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "BAAT"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "932"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "602938"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "BAAT"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -113,16 +126,16 @@
                     "Name": "solute carrier family 10 member 1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "SLC10A1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "10905"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "182396"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "SLC10A1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"

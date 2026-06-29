@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "900",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "900",
         "Label": "Granulomatosis with polyangiitis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_900",
@@ -33,37 +33,20 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "HLA-DPA1",
-                    "Name": "major histocompatibility complex, class II, DP alpha 1",
+                    "Symbol": "PRTN3",
+                    "Name": "proteinase 3",
                     "ExternalReferences": [
-                        {
-                            "Source": "OMIM",
-                            "Reference": "142880"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "4938"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Major susceptibility factor in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "HLA-DPB1",
-                    "Name": "major histocompatibility complex, class II, DP beta 1",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "4940"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "142858"
-                        },
                         {
                             "Source": "ClinVar",
-                            "Reference": "HLA-DPB1"
+                            "Reference": "PRTN3"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "9495"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "177020"
                         }
                     ],
                     "DisorderGeneAssociationType": "Major susceptibility factor in"
@@ -96,16 +79,16 @@
                     "Name": "protein tyrosine phosphatase non-receptor type 22",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "PTPN22"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "9652"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "600716"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "PTPN22"
                         }
                     ],
                     "DisorderGeneAssociationType": "Major susceptibility factor in"
@@ -113,20 +96,37 @@
             },
             {
                 "Gene": {
-                    "Symbol": "PRTN3",
-                    "Name": "proteinase 3",
+                    "Symbol": "HLA-DPB1",
+                    "Name": "major histocompatibility complex, class II, DP beta 1",
                     "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "PRTN3"
+                            "Reference": "HLA-DPB1"
                         },
                         {
                             "Source": "HGNC",
-                            "Reference": "9495"
+                            "Reference": "4940"
                         },
                         {
                             "Source": "OMIM",
-                            "Reference": "177020"
+                            "Reference": "142858"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Major susceptibility factor in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "HLA-DPA1",
+                    "Name": "major histocompatibility complex, class II, DP alpha 1",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "4938"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "142880"
                         }
                     ],
                     "DisorderGeneAssociationType": "Major susceptibility factor in"
@@ -176,6 +176,62 @@
             }
         ],
         "Phenotypes": [
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0004936",
+                    "HPOTerm": "Venous thrombosis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0005214",
+                    "HPOTerm": "Intestinal obstruction",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0006824",
+                    "HPOTerm": "Cranial nerve paralysis",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0011675",
+                    "HPOTerm": "Arrhythmia",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0025420",
+                    "HPOTerm": "Diffuse alveolar hemorrhage",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0033608",
+                    "HPOTerm": "Pulmonary nodule",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0100758",
+                    "HPOTerm": "Gangrene",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0200042",
+                    "HPOTerm": "Skin ulcer",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000163",
@@ -679,65 +735,29 @@
                     "HPOTerm": "Myalgia",
                     "HPOFrequency": "Occasional (29-5%)"
                 }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0004936",
-                    "HPOTerm": "Venous thrombosis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0005214",
-                    "HPOTerm": "Intestinal obstruction",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0006824",
-                    "HPOTerm": "Cranial nerve paralysis",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0011675",
-                    "HPOTerm": "Arrhythmia",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0025420",
-                    "HPOTerm": "Diffuse alveolar hemorrhage",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0033608",
-                    "HPOTerm": "Pulmonary nodule",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0100758",
-                    "HPOTerm": "Gangrene",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0200042",
-                    "HPOTerm": "Skin ulcer",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
             }
         ],
         "Prevalences": [
+            {
+                "Prevalence": {
+                    "Source": "16368729[PMID]_25805746[PMID]",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 100 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "New Zealand"
+                }
+            },
+            {
+                "Prevalence": {
+                    "Source": "18799060[PMID]",
+                    "PrevalenceType": "Annual incidence",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 1 000 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Finland"
+                }
+            },
             {
                 "Prevalence": {
                     "Source": "16859601[PMID]",
@@ -846,26 +866,6 @@
                     "PrevalenceClass": "1-9 / 100 000",
                     "ValMoy": "no data",
                     "PrevalenceGeographic": "Australia"
-                }
-            },
-            {
-                "Prevalence": {
-                    "Source": "16368729[PMID]_25805746[PMID]",
-                    "PrevalenceType": "Point prevalence",
-                    "PrevalenceQualification": "Value and class",
-                    "PrevalenceClass": "1-9 / 100 000",
-                    "ValMoy": "no data",
-                    "PrevalenceGeographic": "New Zealand"
-                }
-            },
-            {
-                "Prevalence": {
-                    "Source": "18799060[PMID]",
-                    "PrevalenceType": "Annual incidence",
-                    "PrevalenceQualification": "Value and class",
-                    "PrevalenceClass": "1-9 / 1 000 000",
-                    "ValMoy": "no data",
-                    "PrevalenceGeographic": "Finland"
                 }
             },
             {

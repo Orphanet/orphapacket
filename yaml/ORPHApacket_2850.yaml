@@ -7,11 +7,6 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '618840'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
       Reference: '203650'
       Source: OMIM
@@ -24,6 +19,11 @@ Orphapacket:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '613930'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618840'
       Source: OMIM
   Genes:
   - Gene:
@@ -40,12 +40,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: LSS
+        Source: ClinVar
       - Reference: '6708'
         Source: HGNC
       - Reference: '600909'
         Source: OMIM
-      - Reference: LSS
-        Source: ClinVar
       Name: lanosterol synthase
       Symbol: LSS
   - Gene:
@@ -75,6 +75,30 @@ Orphapacket:
         syndrome
       ORPHAcode: '611314'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0200012
+      HPOTerm: Short corpus callosum
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000400
+      HPOTerm: Macrotia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000962
+      HPOTerm: Hyperkeratosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001371
+      HPOTerm: Flexion contracture
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005105
+      HPOTerm: Abnormal nasal morphology
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000252
@@ -155,30 +179,6 @@ Orphapacket:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0011842
       HPOTerm: Abnormality of skeletal morphology
-  - Phenotype:
-      HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0200012
-      HPOTerm: Short corpus callosum
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000400
-      HPOTerm: Macrotia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0000962
-      HPOTerm: Hyperkeratosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001371
-      HPOTerm: Flexion contracture
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002650
-      HPOTerm: Scoliosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0005105
-      HPOTerm: Abnormal nasal morphology
   Prevalences:
   - Prevalence:
       PrevalenceClass: <1 / 1 000 000
@@ -206,6 +206,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

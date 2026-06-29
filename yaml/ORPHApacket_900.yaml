@@ -19,23 +19,14 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
-      - Reference: '142880'
-        Source: OMIM
-      - Reference: '4938'
-        Source: HGNC
-      Name: major histocompatibility complex, class II, DP alpha 1
-      Symbol: HLA-DPA1
-  - Gene:
-      DisorderGeneAssociationType: Major susceptibility factor in
-      ExternalReferences:
-      - Reference: '4940'
-        Source: HGNC
-      - Reference: '142858'
-        Source: OMIM
-      - Reference: HLA-DPB1
+      - Reference: PRTN3
         Source: ClinVar
-      Name: major histocompatibility complex, class II, DP beta 1
-      Symbol: HLA-DPB1
+      - Reference: '9495'
+        Source: HGNC
+      - Reference: '177020'
+        Source: OMIM
+      Name: proteinase 3
+      Symbol: PRTN3
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
@@ -50,25 +41,34 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
+      - Reference: PTPN22
+        Source: ClinVar
       - Reference: '9652'
         Source: HGNC
       - Reference: '600716'
         Source: OMIM
-      - Reference: PTPN22
-        Source: ClinVar
       Name: protein tyrosine phosphatase non-receptor type 22
       Symbol: PTPN22
   - Gene:
       DisorderGeneAssociationType: Major susceptibility factor in
       ExternalReferences:
-      - Reference: PRTN3
+      - Reference: HLA-DPB1
         Source: ClinVar
-      - Reference: '9495'
+      - Reference: '4940'
         Source: HGNC
-      - Reference: '177020'
+      - Reference: '142858'
         Source: OMIM
-      Name: proteinase 3
-      Symbol: PRTN3
+      Name: major histocompatibility complex, class II, DP beta 1
+      Symbol: HLA-DPB1
+  - Gene:
+      DisorderGeneAssociationType: Major susceptibility factor in
+      ExternalReferences:
+      - Reference: '4938'
+        Source: HGNC
+      - Reference: '142880'
+        Source: OMIM
+      Name: major histocompatibility complex, class II, DP alpha 1
+      Symbol: HLA-DPA1
   Label: Granulomatosis with polyangiitis
   ORPHAcode: '900'
   ORPHApacketId: '900'
@@ -91,6 +91,38 @@ Orphapacket:
     - Label: Disease associated with a genetic susceptibility or tested for a biomarker
       ORPHAcode: '231957'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004936
+      HPOTerm: Venous thrombosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005214
+      HPOTerm: Intestinal obstruction
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0006824
+      HPOTerm: Cranial nerve paralysis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011675
+      HPOTerm: Arrhythmia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0025420
+      HPOTerm: Diffuse alveolar hemorrhage
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0033608
+      HPOTerm: Pulmonary nodule
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0100758
+      HPOTerm: Gangrene
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0200042
+      HPOTerm: Skin ulcer
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0000163
@@ -379,39 +411,21 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0003326
       HPOTerm: Myalgia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0004936
-      HPOTerm: Venous thrombosis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0005214
-      HPOTerm: Intestinal obstruction
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0006824
-      HPOTerm: Cranial nerve paralysis
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011675
-      HPOTerm: Arrhythmia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0025420
-      HPOTerm: Diffuse alveolar hemorrhage
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0033608
-      HPOTerm: Pulmonary nodule
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0100758
-      HPOTerm: Gangrene
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0200042
-      HPOTerm: Skin ulcer
   Prevalences:
+  - Prevalence:
+      PrevalenceClass: 1-9 / 100 000
+      PrevalenceGeographic: New Zealand
+      PrevalenceQualification: Value and class
+      PrevalenceType: Point prevalence
+      Source: 16368729[PMID]_25805746[PMID]
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: 1-9 / 1 000 000
+      PrevalenceGeographic: Finland
+      PrevalenceQualification: Value and class
+      PrevalenceType: Annual incidence
+      Source: 18799060[PMID]
+      ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
       PrevalenceGeographic: Europe
@@ -488,20 +502,6 @@ Orphapacket:
       PrevalenceQualification: Value and class
       PrevalenceType: Point prevalence
       Source: 18771432[PMID]_25805746[PMID]
-      ValMoy: no data
-  - Prevalence:
-      PrevalenceClass: 1-9 / 100 000
-      PrevalenceGeographic: New Zealand
-      PrevalenceQualification: Value and class
-      PrevalenceType: Point prevalence
-      Source: 16368729[PMID]_25805746[PMID]
-      ValMoy: no data
-  - Prevalence:
-      PrevalenceClass: 1-9 / 1 000 000
-      PrevalenceGeographic: Finland
-      PrevalenceQualification: Value and class
-      PrevalenceType: Annual incidence
-      Source: 18799060[PMID]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -598,6 +598,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Not applicable
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

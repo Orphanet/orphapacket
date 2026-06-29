@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "101063",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "101063",
         "Label": "Situs inversus totalis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_101063",
@@ -22,57 +22,31 @@
                 "Synonym": "Situs inversus"
             }
         ],
+        "ExternalReferences": [
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "619607",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "619608",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            }
+        ],
         "TextSection": {
             "TextSectionType": "Definition",
-            "Contents": "A rare genetic developmental defect during embryogenesis characterized by total mirror-image transposition of both thoracic and abdominal viscera across the left-right axis of the body. Congenital abnormalities such as primary ciliary dyskinesia Kartagener type polysplenia syndrome biliary atresia congenital heart disease and midgut malrotation as well as vascular anomalies (e.g. absence of retrohepatic inferior vena cava preduodenal portal vein aberrant hepatic arterial anatomy) and malignancy are frequently associated."
+            "Contents": "A rare developmental defect during embryogenesis characterized by complete mirror-imaged arrangement of the internal organs across the left-right axis of the body. Primary ciliary dyskinesia Kartagener type is frequently associated. Congenital heart disease are present in 43% of cases which is less frequent than in patients with heterotaxy. Similarly extracardiac and vascular anomalies can be associated (e.g. intestinal malrotation spleen anomalies absence of retrohepatic inferior vena cava bilateral superior vena cava) but less frequently that in heterotaxy."
         },
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "ANKS3",
-                    "Name": "ankyrin repeat and sterile alpha motif domain containing 3",
-                    "ExternalReferences": [
-                        {
-                            "Source": "OMIM",
-                            "Reference": "617310"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "ANKS3"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "29422"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "NME7",
-                    "Name": "NME/NM23 family member 7",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "20461"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "613465"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "NME7"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "CITED2",
-                    "Name": "Cbp/p300 interacting transactivator with Glu/Asp rich carboxy-terminal domain 2",
+                    "Name": "Cbp/p300 interacting transactivator with ED-rich tail 2",
                     "ExternalReferences": [
                         {
                             "Source": "ClinVar",
@@ -117,16 +91,16 @@
                     "Name": "cilia and flagella associated protein 53",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "CCDC11"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "26530"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "614759"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CCDC11"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -172,6 +146,48 @@
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "NME7",
+                    "Name": "NME/NM23 family member 7",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "NME7"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "20461"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "613465"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "ANKS3",
+                    "Name": "ankyrin repeat and sterile alpha motif domain containing 3",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "ANKS3"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "29422"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "617310"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
                 }
             },
             {
@@ -234,14 +250,6 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "450",
-                        "Label": "Visceral heterotaxy"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
                         "ORPHAcode": "108971",
                         "Label": "Non-syndromic visceral malformation of the liver, biliary tract, pancreas or spleen"
                     }
@@ -254,6 +262,58 @@
                         "Label": "Genetic cardiac anomaly"
                     }
                 ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "98716",
+                        "Label": "Heart position anomaly"
+                    }
+                ]
+            }
+        ],
+        "Prevalences": [
+            {
+                "Prevalence": {
+                    "Source": "25099286[PMID]_ORPHANET",
+                    "PrevalenceType": "Prevalence at birth",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "1-9 / 100 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "United States"
+                }
+            },
+            {
+                "Prevalence": {
+                    "Source": "ORPHANET",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Class only",
+                    "PrevalenceClass": "1-9 / 100 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "Worldwide"
+                }
+            }
+        ],
+        "AverageAgeOfOnsets": [
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Antenatal"
+                }
+            },
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Childhood"
+                }
+            },
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Infancy"
+                }
+            },
+            {
+                "AverageAgeOfOnset": {
+                    "value": "Neonatal"
+                }
             }
         ],
         "TypeOfInheritances": [
@@ -269,7 +329,12 @@
             },
             {
                 "TypeOfInheritance": {
-                    "value": "Not applicable"
+                    "value": "X-linked dominant"
+                }
+            },
+            {
+                "TypeOfInheritance": {
+                    "value": "X-linked recessive"
                 }
             }
         ]

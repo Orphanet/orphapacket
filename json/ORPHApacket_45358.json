@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "45358",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "45358",
         "Label": "Congenital fibrosis of extraocular muscles",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_45358",
@@ -17,13 +17,6 @@
             }
         ],
         "ExternalReferences": [
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "616219",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
@@ -65,6 +58,13 @@
                     "Reference": "609612",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "616219",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -74,51 +74,13 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "COL25A1",
-                    "Name": "collagen type XXV alpha 1 chain",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "COL25A1"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "18603"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "610004"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "TUBA1A",
-                    "Name": "tubulin alpha 1a",
-                    "ExternalReferences": [
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TUBA1A"
-                        },
-                        {
-                            "Source": "HGNC",
-                            "Reference": "20766"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "602529"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "PHOX2A",
                     "Name": "paired like homeobox 2A",
                     "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "PHOX2A"
+                        },
                         {
                             "Source": "HGNC",
                             "Reference": "691"
@@ -126,10 +88,6 @@
                         {
                             "Source": "OMIM",
                             "Reference": "602753"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "PHOX2A"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -158,20 +116,20 @@
             },
             {
                 "Gene": {
-                    "Symbol": "TUBB3",
-                    "Name": "tubulin beta 3 class III",
+                    "Symbol": "TUBA1A",
+                    "Name": "tubulin alpha 1a",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "TUBA1A"
+                        },
+                        {
                             "Source": "HGNC",
-                            "Reference": "20772"
+                            "Reference": "20766"
                         },
                         {
                             "Source": "OMIM",
-                            "Reference": "602661"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "TUBB3"
+                            "Reference": "602529"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -183,16 +141,58 @@
                     "Name": "tubulin beta 2B class IIb",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "TUBB2B"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "30829"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "612850"
-                        },
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "TUBB3",
+                    "Name": "tubulin beta 3 class III",
+                    "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "TUBB2B"
+                            "Reference": "TUBB3"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "20772"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "602661"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "COL25A1",
+                    "Name": "collagen type XXV alpha 1 chain",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "COL25A1"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "18603"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "610004"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -211,8 +211,8 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "98683",
-                        "Label": "Syndromic disorder with strabismus"
+                        "ORPHAcode": "98518",
+                        "Label": "Congenital cranial dysinnervation disorder"
                     }
                 ]
             },
@@ -229,6 +229,14 @@
                     {
                         "ORPHAcode": "522520",
                         "Label": "Syndromic genetic disorder with strabismus"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "98683",
+                        "Label": "Syndromic disorder with strabismus"
                     }
                 ]
             }

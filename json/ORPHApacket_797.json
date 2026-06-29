@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "797",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "797",
         "Label": "Sarcoidosis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_797",
@@ -49,27 +49,6 @@
         "Genes": [
             {
                 "Gene": {
-                    "Symbol": "BTNL2",
-                    "Name": "butyrophilin like 2",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "1142"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "606000"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "BTNL2"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Major susceptibility factor in"
-                }
-            },
-            {
-                "Gene": {
                     "Symbol": "HLA-DRB1",
                     "Name": "major histocompatibility complex, class II, DR beta 1",
                     "ExternalReferences": [
@@ -88,22 +67,35 @@
                     ],
                     "DisorderGeneAssociationType": "Major susceptibility factor in"
                 }
+            },
+            {
+                "Gene": {
+                    "Symbol": "BTNL2",
+                    "Name": "butyrophilin like 2",
+                    "ExternalReferences": [
+                        {
+                            "Source": "ClinVar",
+                            "Reference": "BTNL2"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "1142"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "606000"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Major susceptibility factor in"
+                }
             }
         ],
         "Parents": [
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "567558",
-                        "Label": "Non-genetic systemic disease with glomerulopathy as a major feature"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "264745",
-                        "Label": "Secondary interstitial lung disease specific to adulthood associated with a systemic disease"
+                        "ORPHAcode": "95617",
+                        "Label": "Pituitary hormone deficiency secondary to a granulomatous disease"
                     }
                 ]
             },
@@ -142,6 +134,14 @@
             {
                 "Parent": [
                     {
+                        "ORPHAcode": "231957",
+                        "Label": "Disease associated with a genetic susceptibility or tested for a biomarker"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
                         "ORPHAcode": "217720",
                         "Label": "Non-familial restrictive cardiomyopathy"
                     }
@@ -150,8 +150,24 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "231957",
-                        "Label": "Disease associated with a genetic susceptibility or tested for a biomarker"
+                        "ORPHAcode": "264745",
+                        "Label": "Secondary interstitial lung disease specific to adulthood associated with a systemic disease"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "567558",
+                        "Label": "Non-genetic systemic disease with glomerulopathy as a major feature"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "280373",
+                        "Label": "Rare pediatric systemic disease"
                     }
                 ]
             },
@@ -178,22 +194,6 @@
                         "Label": "Systemic diseases with panuveitis"
                     }
                 ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "280373",
-                        "Label": "Rare pediatric systemic disease"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "95617",
-                        "Label": "Pituitary hormone deficiency secondary to a granulomatous disease"
-                    }
-                ]
             }
         ],
         "Phenotypes": [
@@ -214,7 +214,7 @@
             {
                 "Phenotype": {
                     "HPOId": "HP:0001880",
-                    "HPOTerm": "Eosinophilia",
+                    "HPOTerm": "Increased total eosinophil count",
                     "HPOFrequency": "Very rare (<4-1%)"
                 }
             },
@@ -740,16 +740,6 @@
         "Prevalences": [
             {
                 "Prevalence": {
-                    "Source": "2750915[PMID]_[EXPERT]",
-                    "PrevalenceType": "Point prevalence",
-                    "PrevalenceQualification": "Value and class",
-                    "PrevalenceClass": "6-9 / 10 000",
-                    "ValMoy": "no data",
-                    "PrevalenceGeographic": "United States"
-                }
-            },
-            {
-                "Prevalence": {
                     "Source": "[EXPERT]_ORPHANET_DOI:10.1016/B978-0-323-54429-0.00001-X[OTHER]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
@@ -780,7 +770,7 @@
             },
             {
                 "Prevalence": {
-                    "Source": "European Medicines Agency 2007[INST]_DOI:10.1016/B978-0-323-54429-0.00001-X[OTHER]",
+                    "Source": "European Medicines Agency 2007[OTHER]_DOI:10.1016/B978-0-323-54429-0.00001-X[OTHER]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Value and class",
                     "PrevalenceClass": "1-5 / 10 000",
@@ -956,6 +946,16 @@
                     "PrevalenceClass": "1-9 / 1 000 000",
                     "ValMoy": "no data",
                     "PrevalenceGeographic": "Singapore"
+                }
+            },
+            {
+                "Prevalence": {
+                    "Source": "2750915[PMID]_[EXPERT]",
+                    "PrevalenceType": "Point prevalence",
+                    "PrevalenceQualification": "Value and class",
+                    "PrevalenceClass": "6-9 / 10 000",
+                    "ValMoy": "no data",
+                    "PrevalenceGeographic": "United States"
                 }
             },
             {

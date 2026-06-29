@@ -29,14 +29,27 @@ Orphapacket:
           DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss
             of function) in
           ExternalReferences:
-          - Reference: '608083'
-            Source: OMIM
           - Reference: '609'
             Source: HGNC
+          - Reference: '608083'
+            Source: OMIM
           Label: apolipoprotein C2
           Symbol: APOC2
       Label: Familial apolipoprotein C-II deficiency
       ORPHAcode: '309020'
+  - Child:
+      Genes:
+      - Gene:
+          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+          ExternalReferences:
+          - Reference: '17288'
+            Source: HGNC
+          - Reference: '606368'
+            Source: OMIM
+          Label: apolipoprotein A5
+          Symbol: APOA5
+      Label: Familial apolipoprotein A5 deficiency
+      ORPHAcode: '530849'
   - Child:
       Genes:
       - Gene:
@@ -64,19 +77,6 @@ Orphapacket:
           Symbol: GPIHBP1
       Label: Familial GPIHBP1 deficiency
       ORPHAcode: '535458'
-  - Child:
-      Genes:
-      - Gene:
-          DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-          ExternalReferences:
-          - Reference: '17288'
-            Source: HGNC
-          - Reference: '606368'
-            Source: OMIM
-          Label: apolipoprotein A5
-          Symbol: APOA5
-      Label: Familial apolipoprotein A5 deficiency
-      ORPHAcode: '530849'
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
@@ -84,12 +84,17 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '145750'
+      Reference: '118830'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '118830'
+      Reference: '144650'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '145750'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -106,11 +111,6 @@ Orphapacket:
         to represent it)
       Reference: '615947'
       Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '144650'
-      Source: OMIM
   Label: Familial chylomicronemia syndrome
   ORPHAcode: '444490'
   ORPHApacketId: '444490'
@@ -120,22 +120,6 @@ Orphapacket:
     - Label: Rare hyperlipidemia
       ORPHAcode: '181422'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0001508
-      HPOTerm: Failure to thrive
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0002017
-      HPOTerm: Nausea and vomiting
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0004325
-      HPOTerm: Decreased body weight
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0000716
-      HPOTerm: Depression
   - Phenotype:
       HPOFrequency: Obligate (100%)
       HPOId: HP:0002155
@@ -208,6 +192,22 @@ Orphapacket:
       HPOFrequency: Excluded (0%)
       HPOId: HP:0004416
       HPOTerm: Precocious atherosclerosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002017
+      HPOTerm: Nausea and vomiting
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004325
+      HPOTerm: Decreased body weight
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0000716
+      HPOTerm: Depression
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
@@ -221,7 +221,7 @@ Orphapacket:
       PrevalenceGeographic: Europe
       PrevalenceQualification: Value and class
       PrevalenceType: Point prevalence
-      Source: European Medicines Agency 2014[INST]
+      Source: European Medicines Agency 2014[OTHER]
       ValMoy: no data
   TextSection:
     Contents: A rare genetic hyperlipidemia characterized by excessive increase in
@@ -235,6 +235,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

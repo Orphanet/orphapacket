@@ -10,17 +10,6 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: INO80
-        Source: ClinVar
-      - Reference: '26956'
-        Source: HGNC
-      - Reference: '610169'
-        Source: OMIM
-      Name: INO80 complex ATPase subunit
-      Symbol: INO80
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
       - Reference: RAG1
         Source: ClinVar
       - Reference: '9831'
@@ -40,7 +29,8 @@ Orphapacket:
         Source: OMIM
       Name: recombination activating 2
       Symbol: RAG2
-  Label: Combined immunodeficiency with granulomatosis
+  Label: Combined immunodeficiency with granulomas and/or autoimmunity due to RAG
+    defect
   ORPHAcode: '157949'
   ORPHApacketId: '157949'
   PURL: http://www.orpha.net/ORDO/Orphanet_157949
@@ -54,9 +44,13 @@ Orphapacket:
   - Parent:
     - Label: Non-severe combined immunodeficiency
       ORPHAcode: '480549'
+  - Parent:
+    - Label: Rare immune disease with inflammatory bowel disease
+      ORPHAcode: '717757'
   Synonyms:
-  - Synonym: CID due to RAG 1/2 deficiency
-  - Synonym: Combined immunodeficiency due to RAG 1/2 deficiency
+  - Synonym: CID with granulomas and/or autoimmunity due to RAG defect
+  - Synonym: Combined immunodeficiency with granulomas and/or autoimmunity due to
+      recombination activating gene defect
   TextSection:
     Contents: A rare genetic non-severe combined immunodeficiency disease characterized
       by immunodeficiency (manifested by recurrent and/or severe bacterial and viral
@@ -69,6 +63,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

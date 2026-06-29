@@ -1,14 +1,69 @@
 Orphapacket:
+  AverageAgeOfOnsets:
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
+  ExternalReferences:
+  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+    Reference: '618886'
+    Source: OMIM
+  Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: STAT2
+        Source: ClinVar
+      - Reference: '11363'
+        Source: HGNC
+      - Reference: '600556'
+        Source: OMIM
+      Name: signal transducer and activator of transcription 2
+      Symbol: STAT2
   Label: Pseudo-TORCH syndrome type 3
   ORPHAcode: '714429'
   ORPHApacketId: '714429'
   PURL: http://www.orpha.net/ORDO/Orphanet_714429
+  Parents:
+  - Parent:
+    - Label: Brain inflammatory disease
+      ORPHAcode: '102005'
+  - Parent:
+    - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
+        syndrome
+      ORPHAcode: '611314'
+  - Parent:
+    - Label: Type 1 interferonopathy
+      ORPHAcode: '477647'
+  - Parent:
+    - Label: Type 1 interferonopathy of childhood
+      ORPHAcode: '481671'
+  Prevalences:
+  - Prevalence:
+      PrevalenceClass: no data
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Case(s)
+      PrevalenceType: Cases/families
+      Source: ORPHANET
+      ValMoy: no data
+  - Prevalence:
+      PrevalenceClass: <1 / 1 000 000
+      PrevalenceGeographic: Worldwide
+      PrevalenceQualification: Class only
+      PrevalenceType: Point prevalence
+      Source: ORPHANET
+      ValMoy: no data
   Synonyms:
-  - Synonym: Pseudo-TORCH syndrome-3
+  - Synonym: Pseudo-TORCH syndrome associated to STAT2 mutation
+  - Synonym: STAT2-related pseudo-TORCH syndrome
   - Synonym: PTORCH3
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  - Synonym: Pseudo-TORCH syndrome-3
+  TypeOfInheritances:
+    TypeOfInheritance:
+    - value: Autosomal recessive
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

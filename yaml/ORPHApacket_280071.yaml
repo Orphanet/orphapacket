@@ -15,12 +15,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: ALG11
+        Source: ClinVar
       - Reference: '32456'
         Source: HGNC
       - Reference: '613666'
         Source: OMIM
-      - Reference: ALG11
-        Source: ClinVar
       Name: ALG11 alpha-1,2-mannosyltransferase
       Symbol: ALG11
   Label: ALG11-CDG
@@ -29,16 +29,52 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_280071
   Parents:
   - Parent:
+    - Label: Disorder of protein N-glycosylation
+      ORPHAcode: '309347'
+  - Parent:
     - Label: Congenital disorder of glycosylation with epilepsy as a major feature
       ORPHAcode: '371071'
   - Parent:
     - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
         syndrome
       ORPHAcode: '611314'
-  - Parent:
-    - Label: Disorder of protein N-glycosylation
-      ORPHAcode: '309347'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0005968
+      HPOTerm: Temperature instability
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008000
+      HPOTerm: Decreased corneal reflex
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008936
+      HPOTerm: Axial hypotonia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0009124
+      HPOTerm: Abnormal adipose tissue morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0010851
+      HPOTerm: EEG with burst suppression
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0011842
+      HPOTerm: Abnormality of skeletal morphology
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012448
+      HPOTerm: Delayed myelination
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012704
+      HPOTerm: Widened subarachnoid space
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012762
+      HPOTerm: Cerebral white matter atrophy
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0001249
@@ -163,42 +199,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0003186
       HPOTerm: Inverted nipples
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0005968
-      HPOTerm: Temperature instability
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008000
-      HPOTerm: Decreased corneal reflex
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008936
-      HPOTerm: Axial hypotonia
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0009124
-      HPOTerm: Abnormal adipose tissue morphology
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0010851
-      HPOTerm: EEG with burst suppression
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0011842
-      HPOTerm: Abnormality of skeletal morphology
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012448
-      HPOTerm: Delayed myelination
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012704
-      HPOTerm: Widened subarachnoid space
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0012762
-      HPOTerm: Cerebral white matter atrophy
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -232,6 +232,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

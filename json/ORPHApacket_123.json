@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "123",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "123",
         "Label": "Björnstad syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_123",
@@ -17,6 +17,9 @@
             },
             {
                 "Synonym": "Hearing loss-pili torti-hypogonadism syndrome"
+            },
+            {
+                "Synonym": "Crandall syndrome"
             }
         ],
         "ExternalReferences": [
@@ -26,6 +29,10 @@
                 "DisorderMappingRelation": "E (Exact mapping: the two concepts are equivalent)"
             }
         ],
+        "TextSection": {
+            "TextSectionType": "Definition",
+            "Contents": "A rare mitochondrial oxidative phosphorylation disorder caused by complex&nbsp;III deficiency characterized by congenital sensorineural hearing loss and pili torti. Hypogonadism and intellectual disability were occasionally reported."
+        },
         "Genes": [
             {
                 "Gene": {
@@ -33,16 +40,16 @@
                     "Name": "BCS1 ubiquinol-cytochrome c reductase complex chaperone",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "BCS1L"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "1020"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "603647"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "BCS1L"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -53,16 +60,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "79367",
-                        "Label": "Syndromic hair shaft abnormality"
+                        "ORPHAcode": "68348",
+                        "Label": "Scalp disease"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "68348",
-                        "Label": "Scalp disease"
+                        "ORPHAcode": "79367",
+                        "Label": "Syndromic hair shaft abnormality"
                     }
                 ]
             },
@@ -84,20 +91,6 @@
             }
         ],
         "Phenotypes": [
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0000135",
-                    "HPOTerm": "Hypogonadism",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001249",
-                    "HPOTerm": "Intellectual disability",
-                    "HPOFrequency": "Occasional (29-5%)"
-                }
-            },
             {
                 "Phenotype": {
                     "HPOId": "HP:0000407",
@@ -167,6 +160,20 @@
                     "HPOTerm": "Hypoplasia of penis",
                     "HPOFrequency": "Frequent (79-30%)"
                 }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000135",
+                    "HPOTerm": "Hypogonadism",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001249",
+                    "HPOTerm": "Intellectual disability",
+                    "HPOFrequency": "Occasional (29-5%)"
+                }
             }
         ],
         "Prevalences": [
@@ -203,17 +210,12 @@
                 }
             }
         ],
-        "TypeOfInheritances": [
-            {
-                "TypeOfInheritance": {
-                    "value": "Autosomal dominant"
-                }
-            },
-            {
-                "TypeOfInheritance": {
+        "TypeOfInheritances": {
+            "TypeOfInheritance": [
+                {
                     "value": "Autosomal recessive"
                 }
-            }
-        ]
+            ]
+        }
     }
 }

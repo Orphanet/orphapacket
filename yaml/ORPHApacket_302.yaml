@@ -9,17 +9,12 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '305350'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
       Reference: '226400'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '618309'
+      Reference: '305350'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -30,6 +25,11 @@ Orphapacket:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '618267'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618309'
       Source: OMIM
   Genes:
   - Gene:
@@ -48,14 +48,25 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
-      - Reference: '20474'
-        Source: HGNC
       - Reference: TMC8
         Source: ClinVar
+      - Reference: '20474'
+        Source: HGNC
       - Reference: '605829'
         Source: OMIM
       Name: transmembrane channel like 8
       Symbol: TMC8
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: CIB1
+        Source: ClinVar
+      - Reference: '16920'
+        Source: HGNC
+      - Reference: '602293'
+        Source: OMIM
+      Name: calcium and integrin binding 1
+      Symbol: CIB1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -65,17 +76,6 @@ Orphapacket:
         Source: OMIM
       Name: interleukin 7
       Symbol: IL7
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '16920'
-        Source: HGNC
-      - Reference: '602293'
-        Source: OMIM
-      - Reference: CIB1
-        Source: ClinVar
-      Name: calcium and integrin binding 1
-      Symbol: CIB1
   Label: Inherited epidermodysplasia verruciformis
   ORPHAcode: '302'
   ORPHApacketId: '302'
@@ -88,11 +88,11 @@ Orphapacket:
     - Label: Inherited cancer-predisposing syndrome
       ORPHAcode: '140162'
   - Parent:
-    - Label: Genetic susceptibility to infections due to particular pathogens
-      ORPHAcode: '183710'
-  - Parent:
     - Label: Genetic immune deficiency with skin involvement
       ORPHAcode: '183494'
+  - Parent:
+    - Label: Genetic susceptibility to infections due to particular pathogens
+      ORPHAcode: '183710'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -165,6 +165,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -9,12 +9,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: DMD
+        Source: ClinVar
       - Reference: '2928'
         Source: HGNC
       - Reference: '300377'
         Source: OMIM
-      - Reference: DMD
-        Source: ClinVar
       Name: dystrophin
       Symbol: DMD
   Label: Symptomatic form of muscular dystrophy of Duchenne and Becker in female carriers
@@ -29,6 +29,34 @@ Orphapacket:
     - Label: Qualitative or quantitative defects of dystrophin
       ORPHAcode: '207085'
   Phenotypes:
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0003731
+      HPOTerm: Quadriceps muscle weakness
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008981
+      HPOTerm: Calf muscle hypertrophy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0030097
+      HPOTerm: Absent muscle dystrophin expression
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0001635
+      HPOTerm: Congestive heart failure
+  - Phenotype:
+      HPOFrequency: Very rare (<4-1%)
+      HPOId: HP:0002987
+      HPOTerm: Elbow flexion contracture
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0002380
+      HPOTerm: Fasciculations
+  - Phenotype:
+      HPOFrequency: Excluded (0%)
+      HPOId: HP:0003409
+      HPOTerm: Distal sensory impairment of all modalities
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0002938
@@ -81,34 +109,6 @@ Orphapacket:
       HPOFrequency: Occasional (29-5%)
       HPOId: HP:0003710
       HPOTerm: Exercise-induced muscle cramps
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0003731
-      HPOTerm: Quadriceps muscle weakness
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0008981
-      HPOTerm: Calf muscle hypertrophy
-  - Phenotype:
-      HPOFrequency: Occasional (29-5%)
-      HPOId: HP:0030097
-      HPOTerm: Absent muscle dystrophin expression
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0001635
-      HPOTerm: Congestive heart failure
-  - Phenotype:
-      HPOFrequency: Very rare (<4-1%)
-      HPOId: HP:0002987
-      HPOTerm: Elbow flexion contracture
-  - Phenotype:
-      HPOFrequency: Excluded (0%)
-      HPOId: HP:0002380
-      HPOTerm: Fasciculations
-  - Phenotype:
-      HPOFrequency: Excluded (0%)
-      HPOId: HP:0003409
-      HPOTerm: Distal sensory impairment of all modalities
   Prevalences:
     Prevalence:
     - PrevalenceClass: Unknown
@@ -125,6 +125,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -9,11 +9,6 @@ Orphapacket:
     value: Disease
   ExternalReferences:
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '618805'
-      Source: OMIM
-  - ExternalReference:
       DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
       Reference: '212350'
       Source: OMIM
@@ -22,7 +17,36 @@ Orphapacket:
         to represent it)
       Reference: '615418'
       Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '618805'
+      Source: OMIM
   Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: SLC25A4
+        Source: ClinVar
+      - Reference: '10990'
+        Source: HGNC
+      - Reference: '103220'
+        Source: OMIM
+      Name: solute carrier family 25 member 4
+      Symbol: SLC25A4
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: AGK
+        Source: ClinVar
+      - Reference: '21869'
+        Source: HGNC
+      - Reference: '610345'
+        Source: OMIM
+      Name: acylglycerol kinase
+      Symbol: AGK
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -32,44 +56,20 @@ Orphapacket:
         Source: OMIM
       Name: triokinase and FMN cyclase
       Symbol: TKFC
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '10990'
-        Source: HGNC
-      - Reference: '103220'
-        Source: OMIM
-      - Reference: SLC25A4
-        Source: ClinVar
-      Name: solute carrier family 25 member 4
-      Symbol: SLC25A4
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '21869'
-        Source: HGNC
-      - Reference: '610345'
-        Source: OMIM
-      - Reference: AGK
-        Source: ClinVar
-      Name: acylglycerol kinase
-      Symbol: AGK
   Label: Congenital cataract-hypertrophic cardiomyopathy-mitochondrial myopathy syndrome
   ORPHAcode: '1369'
   ORPHApacketId: '1369'
   PURL: http://www.orpha.net/ORDO/Orphanet_1369
   Parents:
   - Parent:
-    - Label: Syndromic genetic disorder with strabismus
-      ORPHAcode: '522520'
+    - Label: Syndromic cataract
+      ORPHAcode: '98641'
+  - Parent:
+    - Label: Syndromic disorder with strabismus
+      ORPHAcode: '98683'
   - Parent:
     - Label: Mitochondrial disease with hypertrophic cardiomyopathy
       ORPHAcode: '217587'
-  - Parent:
-    - Label: Syndromic genetic cataract
-      ORPHAcode: '522548'
   - Parent:
     - Label: Mitochondrial substrate carrier disorder
       ORPHAcode: '254830'
@@ -78,11 +78,11 @@ Orphapacket:
         with skeletal muscle predominant involvement
       ORPHAcode: '352312'
   - Parent:
-    - Label: Syndromic disorder with strabismus
-      ORPHAcode: '98683'
+    - Label: Syndromic genetic disorder with strabismus
+      ORPHAcode: '522520'
   - Parent:
-    - Label: Syndromic cataract
-      ORPHAcode: '98641'
+    - Label: Syndromic genetic cataract
+      ORPHAcode: '522548'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -149,6 +149,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

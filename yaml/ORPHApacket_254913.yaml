@@ -9,12 +9,12 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '618683'
+      Reference: '604273'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '618120'
+      Reference: '614053'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -24,14 +24,44 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '604273'
+      Reference: '618120'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '614053'
+      Reference: '618683'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620358'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620359'
       Source: OMIM
   Genes:
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '850'
+        Source: HGNC
+      - Reference: '600828'
+        Source: OMIM
+      Name: ATP synthase peripheral stalk subunit OSCP
+      Symbol: ATP5PO
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: ATPAF2
+        Source: ClinVar
+      - Reference: '18802'
+        Source: HGNC
+      - Reference: '608918'
+        Source: OMIM
+      Name: ATP synthase mitochondrial F1 complex assembly factor 2
+      Symbol: ATPAF2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -46,43 +76,23 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '615204'
-        Source: OMIM
-      - Reference: '30889'
-        Source: HGNC
-      Name: ATP synthase membrane subunit k
-      Symbol: ATP5MK
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
+      - Reference: MT-ATP8
+        Source: ClinVar
       - Reference: '7415'
         Source: HGNC
       - Reference: '516070'
         Source: OMIM
-      - Reference: MT-ATP8
-        Source: ClinVar
       Name: mitochondrially encoded ATP synthase membrane subunit 8
       Symbol: MT-ATP8
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '18802'
-        Source: HGNC
-      - Reference: '608918'
-        Source: OMIM
-      - Reference: ATPAF2
-        Source: ClinVar
-      Name: ATP synthase mitochondrial F1 complex assembly factor 2
-      Symbol: ATPAF2
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '606153'
-        Source: OMIM
-      - Reference: '838'
-        Source: HGNC
       - Reference: ATP5E
         Source: ClinVar
+      - Reference: '838'
+        Source: HGNC
+      - Reference: '606153'
+        Source: OMIM
       Name: ATP synthase F1 subunit epsilon
       Symbol: ATP5F1E
   - Gene:
@@ -105,6 +115,15 @@ Orphapacket:
         Source: OMIM
       Name: ATP synthase F1 subunit delta
       Symbol: ATP5F1D
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '30889'
+        Source: HGNC
+      - Reference: '615204'
+        Source: OMIM
+      Name: ATP synthase membrane subunit k
+      Symbol: ATP5MK
   Label: Isolated ATP synthase deficiency
   ORPHAcode: '254913'
   ORPHApacketId: '254913'
@@ -113,6 +132,9 @@ Orphapacket:
   - Parent:
     - Label: Isolated oxidative phosphorylation complex disorder
       ORPHAcode: '254846'
+  - Parent:
+    - Label: Neurometabolic disease
+      ORPHAcode: '68385'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
@@ -286,6 +308,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

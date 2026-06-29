@@ -1,7 +1,13 @@
 Orphapacket:
   AverageAgeOfOnsets:
-    AverageAgeOfOnset:
-    - value: Childhood
+  - AverageAgeOfOnset:
+      value: Antenatal
+  - AverageAgeOfOnset:
+      value: Childhood
+  - AverageAgeOfOnset:
+      value: Infancy
+  - AverageAgeOfOnset:
+      value: Neonatal
   DisorderType:
     PURL: http://www.orpha.net/ORDO/Orphanet_377788
     value: Disease
@@ -14,12 +20,12 @@ Orphapacket:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: TAZ
+        Source: ClinVar
       - Reference: '11577'
         Source: HGNC
       - Reference: '300394'
         Source: OMIM
-      - Reference: TAZ
-        Source: ClinVar
       Name: tafazzin, phospholipid-lysophospholipid transacylase
       Symbol: TAFAZZIN
   Label: Barth syndrome
@@ -34,12 +40,12 @@ Orphapacket:
     - Label: 3-methylglutaconic aciduria
       ORPHAcode: '289902'
   - Parent:
-    - Label: Syndrome with congenital neutropenia as a major feature
-      ORPHAcode: '331184'
-  - Parent:
     - Label: Disorder of phospholipids, sphingolipids and fatty acids biosynthesis
         with skeletal muscle predominant involvement
       ORPHAcode: '352312'
+  - Parent:
+    - Label: Syndrome with congenital neutropenia as a major feature
+      ORPHAcode: '331184'
   - Parent:
     - Label: Mitochondrial disease with dilated cardiomyopathy
       ORPHAcode: '217613'
@@ -49,17 +55,161 @@ Orphapacket:
       HPOId: HP:0001644
       HPOTerm: Dilated cardiomyopathy
   - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003535
+      HPOTerm: 3-Methylglutaconic aciduria
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0003756
+      HPOTerm: Skeletal myopathy
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000155
+      HPOTerm: Oral ulcer
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000293
+      HPOTerm: Full cheeks
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000307
+      HPOTerm: Pointed chin
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000311
+      HPOTerm: Round face
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000337
+      HPOTerm: Broad forehead
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000490
+      HPOTerm: Deeply set eye
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0000739
+      HPOTerm: Anxiety
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001252
+      HPOTerm: Hypotonia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0001324
+      HPOTerm: Muscle weakness
+  - Phenotype:
       HPOFrequency: Frequent (79-30%)
       HPOId: HP:0001706
       HPOTerm: Endocardial fibroelastosis
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0001874
-      HPOTerm: Abnormality of neutrophils
+      HPOId: HP:0001875
+      HPOTerm: Decreased total neutrophil count
   - Phenotype:
       HPOFrequency: Frequent (79-30%)
-      HPOId: HP:0008322
-      HPOTerm: Abnormal mitochondrial morphology
+      HPOId: HP:0002194
+      HPOTerm: Delayed gross motor development
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002750
+      HPOTerm: Delayed skeletal maturation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0002910
+      HPOTerm: Elevated circulating hepatic transaminase concentration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003128
+      HPOTerm: Lactic acidosis
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003146
+      HPOTerm: Hypocholesterolemia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003344
+      HPOTerm: 3-Methylglutaric aciduria
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0003546
+      HPOTerm: Exercise intolerance
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0005184
+      HPOTerm: Prolonged QTc interval
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0008897
+      HPOTerm: Postnatal growth retardation
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0011675
+      HPOTerm: Arrhythmia
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0012311
+      HPOTerm: Increased total monocyte count
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0031085
+      HPOTerm: Decreased circulating prealbumin concentration
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:0033454
+      HPOTerm: Tube feeding
+  - Phenotype:
+      HPOFrequency: Frequent (79-30%)
+      HPOId: HP:6000517
+      HPOTerm: Elevated monolysocardiolipin/cardiolipin ratio
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0000716
+      HPOTerm: Depression
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001397
+      HPOTerm: Hepatic steatosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001508
+      HPOTerm: Failure to thrive
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001511
+      HPOTerm: Intrauterine growth retardation
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001639
+      HPOTerm: Hypertrophic cardiomyopathy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001699
+      HPOTerm: Sudden death
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001762
+      HPOTerm: Talipes equinovarus
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0001789
+      HPOTerm: Hydrops fetalis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0002650
+      HPOTerm: Scoliosis
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0004914
+      HPOTerm: Recurrent infantile hypoglycemia
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0008872
+      HPOTerm: Feeding difficulties in infancy
+  - Phenotype:
+      HPOFrequency: Occasional (29-5%)
+      HPOId: HP:0012532
+      HPOTerm: Chronic pain
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 1 000 000
@@ -104,6 +254,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: X-linked recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

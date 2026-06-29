@@ -38,9 +38,19 @@ Orphapacket:
       Reference: '604537'
       Source: OMIM
   - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
+      Reference: '608133'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '608553'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
+      Reference: '610125'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
@@ -88,8 +98,8 @@ Orphapacket:
       Reference: '613843'
       Source: OMIM
   - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
+      DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
+        used to represent it)
       Reference: '614186'
       Source: OMIM
   - ExternalReference:
@@ -100,76 +110,25 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '618513'
+      Reference: '617879'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '617879'
+      Reference: '618513'
       Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '20080'
-        Source: HGNC
-      - Reference: '618439'
-        Source: OMIM
-      Name: ubiquitin specific peptidase 45
-      Symbol: USP45
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '20771'
-        Source: HGNC
-      - Reference: '602660'
-        Source: OMIM
-      Name: tubulin beta 4B class IVb
-      Symbol: TUBB4B
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '20423'
-        Source: HGNC
-      - Reference: '609868'
-        Source: OMIM
-      - Reference: SPATA7
+      - Reference: PRPH2
         Source: ClinVar
-      Name: spermatogenesis associated 7
-      Symbol: SPATA7
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: GDF6
-        Source: ClinVar
-      - Reference: '4221'
+      - Reference: '9942'
         Source: HGNC
-      - Reference: '601147'
+      - Reference: '179605'
         Source: OMIM
-      Name: growth differentiation factor 6
-      Symbol: GDF6
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '29077'
-        Source: HGNC
-      - Reference: '614620'
-        Source: OMIM
-      - Reference: IFT140
-        Source: ClinVar
-      Name: intraflagellar transport 140
-      Symbol: IFT140
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: NMNAT1
-        Source: ClinVar
-      - Reference: '17877'
-        Source: HGNC
-      - Reference: '608700'
-        Source: OMIM
-      Name: nicotinamide nucleotide adenylyltransferase 1
-      Symbol: NMNAT1
+      Name: peripherin 2
+      Symbol: PRPH2
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -196,26 +155,37 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: RPE65
+        Source: ClinVar
       - Reference: '10294'
         Source: HGNC
       - Reference: '180069'
         Source: OMIM
-      - Reference: RPE65
-        Source: ClinVar
       Name: retinoid isomerohydrolase RPE65
       Symbol: RPE65
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: RPGRIP1
+        Source: ClinVar
       - Reference: '13436'
         Source: HGNC
       - Reference: '605446'
         Source: OMIM
-      - Reference: RPGRIP1
-        Source: ClinVar
       Name: RPGR interacting protein 1
       Symbol: RPGRIP1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: CABP4
+        Source: ClinVar
+      - Reference: '1386'
+        Source: HGNC
+      - Reference: '608965'
+        Source: OMIM
+      Name: calcium binding protein 4
+      Symbol: CABP4
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -230,34 +200,45 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: AIPL1
+        Source: ClinVar
       - Reference: '359'
         Source: HGNC
       - Reference: '604392'
         Source: OMIM
-      - Reference: AIPL1
-        Source: ClinVar
       Name: AIP like 1 HSP90 co-chaperone
       Symbol: AIPL1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: ALMS1
+        Source: ClinVar
+      - Reference: '428'
+        Source: HGNC
+      - Reference: '606844'
+        Source: OMIM
+      Name: ALMS1 centrosome and basal body associated protein
+      Symbol: ALMS1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: TULP1
+        Source: ClinVar
       - Reference: '12423'
         Source: HGNC
       - Reference: '602280'
         Source: OMIM
-      - Reference: TULP1
-        Source: ClinVar
       Name: TUB like protein 1
       Symbol: TULP1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: CRB1
+        Source: ClinVar
       - Reference: '2343'
         Source: HGNC
       - Reference: '604210'
         Source: OMIM
-      - Reference: CRB1
-        Source: ClinVar
       Name: crumbs cell polarity complex component 1
       Symbol: CRB1
   - Gene:
@@ -309,6 +290,17 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: OTX2
+        Source: ClinVar
+      - Reference: '8522'
+        Source: HGNC
+      - Reference: '600037'
+        Source: OMIM
+      Name: orthodenticle homeobox 2
+      Symbol: OTX2
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
       - Reference: LCA5
         Source: ClinVar
       - Reference: '31923'
@@ -320,12 +312,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: KCNJ13
+        Source: ClinVar
       - Reference: '6259'
         Source: HGNC
       - Reference: '603208'
         Source: OMIM
-      - Reference: KCNJ13
-        Source: ClinVar
       Name: potassium inwardly rectifying channel subfamily J member 13
       Symbol: KCNJ13
   - Gene:
@@ -340,31 +332,90 @@ Orphapacket:
       Name: lecithin retinol acyltransferase
       Symbol: LRAT
   - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: SPATA7
+        Source: ClinVar
+      - Reference: '20423'
+        Source: HGNC
+      - Reference: '609868'
+        Source: OMIM
+      Name: spermatogenesis associated 7
+      Symbol: SPATA7
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: GDF6
+        Source: ClinVar
+      - Reference: '4221'
+        Source: HGNC
+      - Reference: '601147'
+        Source: OMIM
+      Name: growth differentiation factor 6
+      Symbol: GDF6
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: IFT140
+        Source: ClinVar
+      - Reference: '29077'
+        Source: HGNC
+      - Reference: '614620'
+        Source: OMIM
+      Name: intraflagellar transport 140
+      Symbol: IFT140
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: NMNAT1
+        Source: ClinVar
+      - Reference: '17877'
+        Source: HGNC
+      - Reference: '608700'
+        Source: OMIM
+      Name: nicotinamide nucleotide adenylyltransferase 1
+      Symbol: NMNAT1
+  - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
       ExternalReferences:
+      - Reference: PCYT1A
+        Source: ClinVar
       - Reference: '8754'
         Source: HGNC
       - Reference: '123695'
         Source: OMIM
-      - Reference: PCYT1A
-        Source: ClinVar
       Name: phosphate cytidylyltransferase 1A, choline
       Symbol: PCYT1A
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '20080'
+        Source: HGNC
+      - Reference: '618439'
+        Source: OMIM
+      Name: ubiquitin specific peptidase 45
+      Symbol: USP45
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: '20771'
+        Source: HGNC
+      - Reference: '602660'
+        Source: OMIM
+      Name: tubulin beta 4B class IVb
+      Symbol: TUBB4B
   Label: Leber congenital amaurosis
   ORPHAcode: '65'
   ORPHApacketId: '65'
   PURL: http://www.orpha.net/ORDO/Orphanet_65
   Parents:
   - Parent:
-    - Label: Rare isolated progressive generalized retinal disorder
-      ORPHAcode: '716410'
+    - Label: Syndromic cataract
+      ORPHAcode: '98641'
   - Parent:
     - Label: Syndromic hyperopia
       ORPHAcode: '98622'
-  - Parent:
-    - Label: Syndromic cataract
-      ORPHAcode: '98641'
   - Parent:
     - Label: Rare genetic isolated progressive generalized retinal disorder
       ORPHAcode: '717324'
@@ -372,12 +423,12 @@ Orphapacket:
     - Label: Retinal ciliopathy due to mutation in the RPGRIP gene
       ORPHAcode: '156174'
   - Parent:
+    - Label: Syndromic genetic cataract
+      ORPHAcode: '522548'
+  - Parent:
     - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
         syndrome
       ORPHAcode: '611314'
-  - Parent:
-    - Label: Syndromic genetic cataract
-      ORPHAcode: '522548'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -485,7 +536,7 @@ Orphapacket:
       PrevalenceGeographic: Europe
       PrevalenceQualification: Class only
       PrevalenceType: Point prevalence
-      Source: European Medicines Agency 2015[INST]
+      Source: European Medicines Agency 2015[OTHER]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -521,6 +572,6 @@ Orphapacket:
       value: Autosomal dominant
   - TypeOfInheritance:
       value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

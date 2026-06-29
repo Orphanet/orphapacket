@@ -13,12 +13,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: HIBCH
+        Source: ClinVar
       - Reference: '4908'
         Source: HGNC
       - Reference: '610690'
         Source: OMIM
-      - Reference: HIBCH
-        Source: ClinVar
       Name: 3-hydroxyisobutyryl-CoA hydrolase
       Symbol: HIBCH
   Label: Neurodegeneration due to 3-hydroxyisobutyryl-CoA hydrolase deficiency
@@ -27,32 +27,16 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_88639
   Parents:
   - Parent:
-    - Label: Classic organic aciduria
-      ORPHAcode: '79163'
-  - Parent:
     - Label: Neurometabolic disease
       ORPHAcode: '68385'
   - Parent:
     - Label: Rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic
         syndrome
       ORPHAcode: '611314'
+  - Parent:
+    - Label: Classic organic aciduria
+      ORPHAcode: '79163'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001252
-      HPOTerm: Hypotonia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001270
-      HPOTerm: Motor delay
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0001332
-      HPOTerm: Dystonia
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002013
-      HPOTerm: Vomiting
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002344
@@ -161,6 +145,22 @@ Orphapacket:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0002599
       HPOTerm: Head titubation
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001252
+      HPOTerm: Hypotonia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001270
+      HPOTerm: Motor delay
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0001332
+      HPOTerm: Dystonia
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002013
+      HPOTerm: Vomiting
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -190,6 +190,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

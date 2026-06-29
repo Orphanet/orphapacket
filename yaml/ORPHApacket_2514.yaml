@@ -11,6 +11,20 @@ Orphapacket:
     value: Etiological subtype
   ExternalReferences:
   - ExternalReference:
+      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
+      Reference: '156580'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '616311'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '617520'
+      Source: OMIM
+  - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
       Reference: '619179'
@@ -20,33 +34,7 @@ Orphapacket:
         to represent it)
       Reference: '619180'
       Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '617520'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-      Reference: '156580'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '616311'
-      Source: OMIM
   Genes:
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '3010'
-        Source: HGNC
-      - Reference: '126141'
-        Source: OMIM
-      - Reference: DPP6
-        Source: ClinVar
-      Name: dipeptidyl peptidase like 6
-      Symbol: DPP6
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -58,17 +46,29 @@ Orphapacket:
         Source: OMIM
       Name: lamin B1
       Symbol: LMNB1
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: DPP6
+        Source: ClinVar
+      - Reference: '3010'
+        Source: HGNC
+      - Reference: '126141'
+        Source: OMIM
+      Name: dipeptidyl peptidase like 6
+      Symbol: DPP6
   Label: Autosomal dominant primary microcephaly
   ORPHAcode: '2514'
   ORPHApacketId: '2514'
   PURL: http://www.orpha.net/ORDO/Orphanet_2514
   Parents:
   - Parent:
-    - Label: Isolated congenital microcephaly
-      ORPHAcode: '199642'
-  - Parent:
     - Label: Multiple congenital anomalies/dysmorphic syndrome-intellectual disability
       ORPHAcode: '102283'
+  - Parent:
+    - Label: Isolated congenital microcephaly
+      ORPHAcode: '199642'
   - Parent:
     - Label: Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual
         disability
@@ -109,6 +109,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

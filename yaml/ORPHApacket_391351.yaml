@@ -13,12 +13,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: SURF1
+        Source: ClinVar
       - Reference: '11474'
         Source: HGNC
       - Reference: '185620'
         Source: OMIM
-      - Reference: SURF1
-        Source: ClinVar
       Name: SURF1 cytochrome c oxidase assembly factor
       Symbol: SURF1
   Label: SURF1-related Charcot-Marie-Tooth disease type 4
@@ -27,11 +27,14 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_391351
   Parents:
   - Parent:
+    - Label: Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies
+      ORPHAcode: '2443'
+  - Parent:
     - Label: Charcot-Marie-Tooth disease type 4
       ORPHAcode: '64749'
   - Parent:
-    - Label: Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies
-      ORPHAcode: '2443'
+    - Label: Neurometabolic disease
+      ORPHAcode: '68385'
   Prevalences:
   - Prevalence:
       PrevalenceClass: no data
@@ -53,17 +56,18 @@ Orphapacket:
   - Synonym: SURF1-related CMT4
   - Synonym: SURF1-related severe demyelinating Charcot-Marie-Tooth disease
   TextSection:
-    Contents: A subtype of Charcot-Marie-Tooth disease type 4 characterized by childhood
+    Contents: A form of Charcot-Marie-Tooth disease type 4 characterized by childhood
       onset of severe progressive demyelinating sensorimotor neuropathy manifesting
       with distal muscle weakness and atrophy of hands and feet distal sensory impairment
-      (vibration and pinprick) of lower limbs lactic acidosis areflexia and severely
-      reduced motor nerve conduction velocities (25 m/s or less). Patients may also
-      present kyphoscoliosis nystagmus hearing loss cerebellar ataxia and/or brain
-      MRI abnormalities (putaminal and periaqueductal lesions).
+      (vibration and pinprick) of lower limbs areflexia severely reduced motor nerve
+      conduction velocities (25&nbsp;m/s or less) and lactic acidosis with mitochondrial
+      complex&nbsp;IV deficiency. Patients may also present kyphoscoliosis nystagmus
+      hearing loss cerebellar ataxia and/or brain MRI abnormalities (putaminal and
+      periaqueductal lesions).
     TextSectionType: Definition
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

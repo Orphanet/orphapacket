@@ -8,9 +8,16 @@ Orphapacket:
     PURL: http://www.orpha.net/ORDO/Orphanet_377789
     value: Malformation syndrome
   ExternalReferences:
-  - DisorderMappingRelation: 'E (Exact mapping: the two concepts are equivalent)'
-    Reference: '109400'
-    Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '109400'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620343'
+      Source: OMIM
   Genes:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
@@ -25,18 +32,6 @@ Orphapacket:
       Name: patched 1
       Symbol: PTCH1
   - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
-        in
-      ExternalReferences:
-      - Reference: '16466'
-        Source: HGNC
-      - Reference: '607035'
-        Source: OMIM
-      - Reference: SUFU
-        Source: ClinVar
-      Name: SUFU negative regulator of hedgehog signaling
-      Symbol: SUFU
-  - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
       - Reference: PTCH2
@@ -47,38 +42,42 @@ Orphapacket:
         Source: OMIM
       Name: patched 2
       Symbol: PTCH2
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
+        in
+      ExternalReferences:
+      - Reference: SUFU
+        Source: ClinVar
+      - Reference: '16466'
+        Source: HGNC
+      - Reference: '607035'
+        Source: OMIM
+      Name: SUFU negative regulator of hedgehog signaling
+      Symbol: SUFU
   Label: Gorlin syndrome
   ORPHAcode: '377'
   ORPHApacketId: '377'
   PURL: http://www.orpha.net/ORDO/Orphanet_377
   Parents:
   - Parent:
-    - Label: Malformation syndrome with hamartosis
-      ORPHAcode: '98196'
+    - Label: Rare skin tumor or hamartoma
+      ORPHAcode: '79386'
   - Parent:
     - Label: Inherited cancer-predisposing syndrome
       ORPHAcode: '140162'
   - Parent:
+    - Label: Rare disease with odontological manifestation
+      ORPHAcode: '98027'
+  - Parent:
+    - Label: Malformation syndrome with hamartosis
+      ORPHAcode: '98196'
+  - Parent:
     - Label: Genetic skin tumor or hamartoma
       ORPHAcode: '183487'
   - Parent:
-    - Label: Rare skin tumor or hamartoma
-      ORPHAcode: '79386'
-  - Parent:
     - Label: Inherited nervous system cancer-predisposing syndrome
       ORPHAcode: '252190'
-  - Parent:
-    - Label: Rare disease with odontological manifestation
-      ORPHAcode: '98027'
   Phenotypes:
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0000995
-      HPOTerm: Melanocytic nevus
-  - Phenotype:
-      HPOFrequency: Very frequent (99-80%)
-      HPOId: HP:0002514
-      HPOTerm: Cerebral calcification
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0002664
@@ -251,13 +250,21 @@ Orphapacket:
       HPOFrequency: Very rare (<4-1%)
       HPOId: HP:0010617
       HPOTerm: Cardiac fibroma
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0000995
+      HPOTerm: Melanocytic nevus
+  - Phenotype:
+      HPOFrequency: Very frequent (99-80%)
+      HPOId: HP:0002514
+      HPOTerm: Cerebral calcification
   Prevalences:
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
       PrevalenceGeographic: Europe
       PrevalenceQualification: Value and class
       PrevalenceType: Point prevalence
-      Source: European Medicines Agency 2018[INST]
+      Source: European Medicines Agency 2018[OTHER]
       ValMoy: no data
   - Prevalence:
       PrevalenceClass: 1-9 / 100 000
@@ -314,6 +321,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal dominant
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

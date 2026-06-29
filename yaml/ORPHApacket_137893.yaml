@@ -11,22 +11,7 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
         to represent it)
-      Reference: '620353'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '620744'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
       Reference: '301059'
-      Source: OMIM
-  - ExternalReference:
-      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
-        to represent it)
-      Reference: '620409'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
@@ -36,12 +21,27 @@ Orphapacket:
   - ExternalReference:
       DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
         used to represent it)
-      Reference: '619712'
+      Reference: '619585'
       Source: OMIM
   - ExternalReference:
       DisorderMappingRelation: NTBT (ORPHAcode is narrower than the targeted code
         used to represent it)
-      Reference: '619585'
+      Reference: '619712'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620353'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620409'
+      Source: OMIM
+  - ExternalReference:
+      DisorderMappingRelation: BTNT (ORPHAcode is broader than the targeted code used
+        to represent it)
+      Reference: '620744'
       Source: OMIM
   Genes:
   - Gene:
@@ -59,12 +59,25 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '26532'
+      - Reference: DNAH10
+        Source: ClinVar
+      - Reference: '2941'
         Source: HGNC
-      - Reference: '617277'
+      - Reference: '605884'
         Source: OMIM
-      Name: dynein heavy chain domain 1
-      Symbol: DNHD1
+      Name: dynein axonemal heavy chain 10
+      Symbol: DNAH10
+  - Gene:
+      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
+      ExternalReferences:
+      - Reference: IFT74
+        Source: ClinVar
+      - Reference: '21424'
+        Source: HGNC
+      - Reference: '608040'
+        Source: OMIM
+      Name: intraflagellar transport 74
+      Symbol: IFT74
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
@@ -77,14 +90,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
-      - Reference: '605884'
-        Source: OMIM
-      - Reference: '2941'
+      - Reference: '26532'
         Source: HGNC
-      - Reference: DNAH10
-        Source: ClinVar
-      Name: dynein axonemal heavy chain 10
-      Symbol: DNAH10
+      - Reference: '617277'
+        Source: OMIM
+      Name: dynein heavy chain domain 1
+      Symbol: DNHD1
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) (loss of function)
         in
@@ -114,17 +125,6 @@ Orphapacket:
         Source: OMIM
       Name: armadillo repeat containing 12
       Symbol: ARMC12
-  - Gene:
-      DisorderGeneAssociationType: Disease-causing germline mutation(s) in
-      ExternalReferences:
-      - Reference: '21424'
-        Source: HGNC
-      - Reference: IFT74
-        Source: ClinVar
-      - Reference: '608040'
-        Source: OMIM
-      Name: intraflagellar transport 74
-      Symbol: IFT74
   Label: Male infertility due to large-headed multiflagellar polyploid spermatozoa
   ORPHAcode: '137893'
   ORPHApacketId: '137893'
@@ -134,8 +134,8 @@ Orphapacket:
     - Label: Male infertility with teratozoospermia due to single gene mutation
       ORPHAcode: '399808'
   Synonyms:
-  - Synonym: Male infertility due to macrozoospermia
   - Synonym: Macrocephalic sperm head syndrome
+  - Synonym: Male infertility due to macrozoospermia
   TextSection:
     Contents: A rare male infertility due to a sperm disorder characterized by the
       presence in sperm of a very high percentage of spermatozoa with enlarged head
@@ -146,6 +146,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

@@ -15,12 +15,12 @@ Orphapacket:
   - Gene:
       DisorderGeneAssociationType: Disease-causing germline mutation(s) in
       ExternalReferences:
+      - Reference: DOCK8
+        Source: ClinVar
       - Reference: '19191'
         Source: HGNC
       - Reference: '611432'
         Source: OMIM
-      - Reference: DOCK8
-        Source: ClinVar
       Name: dedicator of cytokinesis 8
       Symbol: DOCK8
   Label: Combined immunodeficiency due to DOCK8 deficiency
@@ -29,8 +29,11 @@ Orphapacket:
   PURL: http://www.orpha.net/ORDO/Orphanet_217390
   Parents:
   - Parent:
-    - Label: Combined immunodeficiency with low B cells and hypogammaglobulinemia
-      ORPHAcode: '695164'
+    - Label: Combined immunodeficiency with low immunoglobulins and normal B cells
+      ORPHAcode: '688571'
+  - Parent:
+    - Label: Rare immune disease with inflammatory bowel disease
+      ORPHAcode: '717757'
   Phenotypes:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
@@ -55,7 +58,7 @@ Orphapacket:
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0003212
-      HPOTerm: Increased circulating IgE level
+      HPOTerm: Increased circulating IgE concentration
   - Phenotype:
       HPOFrequency: Very frequent (99-80%)
       HPOId: HP:0004429
@@ -132,6 +135,6 @@ Orphapacket:
   TypeOfInheritances:
     TypeOfInheritance:
     - value: Autosomal recessive
-  copyright: Orphanet (c) 2025
-  creationDate: '2025-12-09 10:41:42'
+  copyright: Orphanet (c) 2026
+  creationDate: '2026-06-29 11:51:44'
   version: 1.3.42 / 4.1.8 [2025-03-03]

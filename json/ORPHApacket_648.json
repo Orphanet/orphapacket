@@ -1,9 +1,9 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "648",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "648",
         "Label": "Noonan syndrome",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_648",
@@ -12,34 +12,6 @@
             "PURL": "http://www.orpha.net/ORDO/Orphanet_377789"
         },
         "ExternalReferences": [
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "618624",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "619745",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "618499",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
-            {
-                "ExternalReference": {
-                    "Source": "OMIM",
-                    "Reference": "619087",
-                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
-                }
-            },
             {
                 "ExternalReference": {
                     "Source": "OMIM",
@@ -109,6 +81,34 @@
                     "Reference": "616564",
                     "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
                 }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "618499",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "618624",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "619087",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
+            },
+            {
+                "ExternalReference": {
+                    "Source": "OMIM",
+                    "Reference": "619745",
+                    "DisorderMappingRelation": "BTNT (ORPHAcode is broader than the targeted code used to represent it)"
+                }
             }
         ],
         "TextSection": {
@@ -116,57 +116,6 @@
             "Contents": "A rare highly variable multisystemic disorder mainly characterized by short stature distinctive facial features congenital heart defects cardiomyopathy and an increased risk to develop tumors in childhood."
         },
         "Genes": [
-            {
-                "Gene": {
-                    "Symbol": "MRAS",
-                    "Name": "muscle RAS oncogene homolog",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "7227"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "608435"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "SPRED2",
-                    "Name": "sprouty related EVH1 domain containing 2",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "17722"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "609292"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
-            {
-                "Gene": {
-                    "Symbol": "RRAS2",
-                    "Name": "RAS related 2",
-                    "ExternalReferences": [
-                        {
-                            "Source": "HGNC",
-                            "Reference": "17271"
-                        },
-                        {
-                            "Source": "OMIM",
-                            "Reference": "600098"
-                        }
-                    ],
-                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                }
-            },
             {
                 "Gene": {
                     "Symbol": "PTPN11",
@@ -190,20 +139,20 @@
             },
             {
                 "Gene": {
-                    "Symbol": "CBL",
-                    "Name": "Cbl proto-oncogene",
+                    "Symbol": "BRAF",
+                    "Name": "B-Raf proto-oncogene, serine/threonine kinase",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "BRAF"
+                        },
+                        {
                             "Source": "HGNC",
-                            "Reference": "1541"
+                            "Reference": "1097"
                         },
                         {
                             "Source": "OMIM",
-                            "Reference": "165360"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "CBL"
+                            "Reference": "164757"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -278,16 +227,37 @@
                     "Name": "NRAS proto-oncogene, GTPase",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "NRAS"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "7989"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "164790"
-                        },
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "CBL",
+                    "Name": "Cbl proto-oncogene",
+                    "ExternalReferences": [
                         {
                             "Source": "ClinVar",
-                            "Reference": "NRAS"
+                            "Reference": "CBL"
+                        },
+                        {
+                            "Source": "HGNC",
+                            "Reference": "1541"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "165360"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -299,16 +269,16 @@
                     "Name": "Ras like without CAAX 1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "RIT1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "10023"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "609591"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "RIT1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
@@ -320,16 +290,16 @@
                     "Name": "leucine zipper like post translational regulator 1",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "LZTR1"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "6742"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "600574"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "LZTR1"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -341,16 +311,16 @@
                     "Name": "RAS p21 protein activator 2",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "RASA2"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "9872"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "601589"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "RASA2"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
@@ -362,16 +332,16 @@
                     "Name": "SOS Ras/Rho guanine nucleotide exchange factor 2",
                     "ExternalReferences": [
                         {
+                            "Source": "ClinVar",
+                            "Reference": "SOS2"
+                        },
+                        {
                             "Source": "HGNC",
                             "Reference": "11188"
                         },
                         {
                             "Source": "OMIM",
                             "Reference": "601247"
-                        },
-                        {
-                            "Source": "ClinVar",
-                            "Reference": "SOS2"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -379,20 +349,50 @@
             },
             {
                 "Gene": {
-                    "Symbol": "BRAF",
-                    "Name": "B-Raf proto-oncogene, serine/threonine kinase",
+                    "Symbol": "MRAS",
+                    "Name": "muscle RAS oncogene homolog",
                     "ExternalReferences": [
                         {
                             "Source": "HGNC",
-                            "Reference": "1097"
+                            "Reference": "7227"
                         },
                         {
                             "Source": "OMIM",
-                            "Reference": "164757"
+                            "Reference": "608435"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "RRAS2",
+                    "Name": "RAS related 2",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "17271"
                         },
                         {
-                            "Source": "ClinVar",
-                            "Reference": "BRAF"
+                            "Source": "OMIM",
+                            "Reference": "600098"
+                        }
+                    ],
+                    "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                }
+            },
+            {
+                "Gene": {
+                    "Symbol": "SPRED2",
+                    "Name": "sprouty related EVH1 domain containing 2",
+                    "ExternalReferences": [
+                        {
+                            "Source": "HGNC",
+                            "Reference": "17722"
+                        },
+                        {
+                            "Source": "OMIM",
+                            "Reference": "609292"
                         }
                     ],
                     "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
@@ -403,16 +403,32 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "98733",
-                        "Label": "Noonan syndrome and Noonan-related syndrome"
+                        "ORPHAcode": "93547",
+                        "Label": "Syndromic renal or urinary tract malformation"
                     }
                 ]
             },
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "139393",
-                        "Label": "Syndromic craniosynostosis"
+                        "ORPHAcode": "98576",
+                        "Label": "Syndromic outer canthal malposition"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "98578",
+                        "Label": "Rare disorder with ptosis"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "98733",
+                        "Label": "Noonan syndrome and Noonan-related syndrome"
                     }
                 ]
             },
@@ -427,8 +443,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "619340",
-                        "Label": "Inherited hematologic cancer-predisposing syndrome"
+                        "ORPHAcode": "139393",
+                        "Label": "Syndromic craniosynostosis"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "568047",
+                        "Label": "Disorder with multisystemic involvement and primary lymphedema"
                     }
                 ]
             },
@@ -467,40 +491,16 @@
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "98576",
-                        "Label": "Syndromic outer canthal malposition"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "98578",
-                        "Label": "Rare disorder with ptosis"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "93547",
-                        "Label": "Syndromic renal or urinary tract malformation"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
-                        "ORPHAcode": "568047",
-                        "Label": "Disorder with multisystemic involvement and primary lymphedema"
-                    }
-                ]
-            },
-            {
-                "Parent": [
-                    {
                         "ORPHAcode": "611327",
                         "Label": "Genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "619340",
+                        "Label": "Inherited hematologic cancer-predisposing syndrome"
                     }
                 ]
             }
@@ -511,41 +511,6 @@
                     "HPOId": "HP:0001382",
                     "HPOTerm": "Joint hypermobility",
                     "HPOFrequency": "Very frequent (99-80%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001641",
-                    "HPOTerm": "Abnormal pulmonary valve morphology",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001743",
-                    "HPOTerm": "Abnormality of the spleen",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001892",
-                    "HPOTerm": "Abnormal bleeding",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0001928",
-                    "HPOTerm": "Abnormality of coagulation",
-                    "HPOFrequency": "Frequent (79-30%)"
-                }
-            },
-            {
-                "Phenotype": {
-                    "HPOId": "HP:0002162",
-                    "HPOTerm": "Low posterior hairline",
-                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -767,16 +732,37 @@
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000044",
-                    "HPOTerm": "Hypogonadotropic hypogonadism",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0001641",
+                    "HPOTerm": "Abnormal pulmonary valve morphology",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
                 "Phenotype": {
-                    "HPOId": "HP:0000179",
-                    "HPOTerm": "Thick lower lip vermilion",
-                    "HPOFrequency": "Very frequent (99-80%)"
+                    "HPOId": "HP:0001743",
+                    "HPOTerm": "Abnormality of the spleen",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001892",
+                    "HPOTerm": "Abnormal bleeding",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0001928",
+                    "HPOTerm": "Abnormality of coagulation",
+                    "HPOFrequency": "Frequent (79-30%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0002162",
+                    "HPOTerm": "Low posterior hairline",
+                    "HPOFrequency": "Frequent (79-30%)"
                 }
             },
             {
@@ -991,6 +977,20 @@
             },
             {
                 "Phenotype": {
+                    "HPOId": "HP:0000044",
+                    "HPOTerm": "Hypogonadotropic hypogonadism",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
+                    "HPOId": "HP:0000179",
+                    "HPOTerm": "Thick lower lip vermilion",
+                    "HPOFrequency": "Very frequent (99-80%)"
+                }
+            },
+            {
+                "Phenotype": {
                     "HPOId": "HP:0000358",
                     "HPOTerm": "Posteriorly rotated ears",
                     "HPOFrequency": "Very frequent (99-80%)"
@@ -1010,7 +1010,7 @@
             },
             {
                 "Prevalence": {
-                    "Source": "European Reference Network on Rare Congenital Malformations and Rare Intellectual Disability[EXPERT]",
+                    "Source": "European Reference Network on Rare Congenital Malformations and Rare Intellectual Disability[OTHER]",
                     "PrevalenceType": "Point prevalence",
                     "PrevalenceQualification": "Class only",
                     "PrevalenceClass": "1-5 / 10 000",

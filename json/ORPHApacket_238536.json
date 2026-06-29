@@ -1,11 +1,11 @@
 {
     "Orphapacket": {
         "ORPHApacketId": "238536",
-        "creationDate": "2025-12-09 10:41:42",
+        "creationDate": "2026-06-29 11:51:44",
         "version": "1.3.42 / 4.1.8 [2025-03-03]",
-        "copyright": "Orphanet (c) 2025",
+        "copyright": "Orphanet (c) 2026",
         "ORPHAcode": "238536",
-        "Label": "Congenital secondary polycythemia",
+        "Label": "Congenital secondary erythrocytosis",
         "PURL": "http://www.orpha.net/ORDO/Orphanet_238536",
         "DisorderType": {
             "value": "Category",
@@ -13,15 +13,23 @@
         },
         "Synonyms": [
             {
-                "Synonym": "Congenital secondary erythrocytosis"
+                "Synonym": "Congenital secondary polycythemia"
             }
         ],
         "Parents": [
             {
                 "Parent": [
                     {
-                        "ORPHAcode": "98428",
-                        "Label": "Secondary polycythemia"
+                        "ORPHAcode": "98427",
+                        "Label": "Erythrocytosis"
+                    }
+                ]
+            },
+            {
+                "Parent": [
+                    {
+                        "ORPHAcode": "250165",
+                        "Label": "Genetic polycythemia"
                     }
                 ]
             }
@@ -54,7 +62,7 @@
             },
             {
                 "Child": {
-                    "Label": "Autosomal recessive secondary polycythemia not associated with VHL gene",
+                    "Label": "Autosomal recessive secondary erythrocytosis not associated with VHL gene",
                     "ORPHAcode": "247378",
                     "Genes": [
                         {
@@ -79,77 +87,9 @@
             },
             {
                 "Child": {
-                    "Label": "Autosomal dominant secondary polycythemia",
+                    "Label": "Autosomal dominant secondary erythrocytosis",
                     "ORPHAcode": "247511",
                     "Genes": [
-                        {
-                            "Gene": {
-                                "Label": "erythropoietin",
-                                "Symbol": "EPO",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "133170"
-                                    },
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "3415"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "egl-9 family hypoxia inducible factor 1",
-                                "Symbol": "EGLN1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "1232"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "606425"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "endothelial PAS domain protein 1",
-                                "Symbol": "EPAS1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "603349"
-                                    },
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "3374"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
-                            }
-                        },
-                        {
-                            "Gene": {
-                                "Label": "hemoglobin subunit alpha 1",
-                                "Symbol": "HBA1",
-                                "ExternalReferences": [
-                                    {
-                                        "Source": "HGNC",
-                                        "Reference": "4823"
-                                    },
-                                    {
-                                        "Source": "OMIM",
-                                        "Reference": "141800"
-                                    }
-                                ],
-                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
-                            }
-                        },
                         {
                             "Gene": {
                                 "Label": "hemoglobin subunit alpha 2",
@@ -182,6 +122,74 @@
                                     }
                                 ],
                                 "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "hemoglobin subunit alpha 1",
+                                "Symbol": "HBA1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "4823"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "141800"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "egl-9 family hypoxia inducible factor 1",
+                                "Symbol": "EGLN1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "1232"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "606425"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (loss of function) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "endothelial PAS domain protein 1",
+                                "Symbol": "EPAS1",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "3374"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "603349"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
+                            }
+                        },
+                        {
+                            "Gene": {
+                                "Label": "erythropoietin",
+                                "Symbol": "EPO",
+                                "ExternalReferences": [
+                                    {
+                                        "Source": "HGNC",
+                                        "Reference": "3415"
+                                    },
+                                    {
+                                        "Source": "OMIM",
+                                        "Reference": "133170"
+                                    }
+                                ],
+                                "DisorderGeneAssociationType": "Disease-causing germline mutation(s) (gain of function) in"
                             }
                         }
                     ]
